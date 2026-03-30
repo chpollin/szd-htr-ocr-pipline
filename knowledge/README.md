@@ -9,6 +9,3 @@ Dieses Verzeichnis dient als Research-Vault für das SZD-HTR-Projekt. Hier werde
 - [data_aufsatzablage.md](data_aufsatzablage.md) — Analyse Aufsatzablage (624 Objekte), neue Gruppe H
 - [data_korrespondenzen.md](data_korrespondenzen.md) — Korrespondenzen (1186 Backup-Objekte), Gruppe I
 - [Journal.md](Journal.md) — Chronologisches Log aller Sessions
-- `prompts/` — Prompt-Iterationen und Ergebnisse
-- `providers/` — Notizen zu VLM-Providern (Claude, Gemini, etc.)
-- `samples/` — Beobachtungen zu einzelnen Objekten/Dokumenttypen

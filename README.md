@@ -34,7 +34,7 @@ Dreischichtiges Prompt-System für VLM-Transkription:
 
 ## Erste Testergebnisse
 
-Getestet mit **Gemini 3.1 Flash Lite** (Preview). Ergebnisse unter [docs/](https://chpollin.github.io/szd-htr-ocr-pipeline/).
+Getestet mit **Gemini 3.1 Flash Lite** (Preview). Ergebnisse unter [docs/](https://chpollin.github.io/szd-htr-ocr-pipline/).
 
 | Objekt | Gruppe | Sprache | Confidence | Ergebnis |
 |---|---|---|---|---|

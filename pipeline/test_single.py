@@ -1,8 +1,8 @@
 """Test: Einzelobjekt-Transkription mit Gemini Vision."""
 
-import base64
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -10,121 +10,35 @@ from google import genai
 
 # --- Config ---
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
-MODEL = "gemini-3.1-flash-lite-preview"
-BACKUP_ROOT = Path("C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/lebensdokumente")
+MODEL = os.environ.get("HTR_MODEL", "gemini-3.1-flash-lite-preview")
+BACKUP_ROOT = Path(os.environ.get(
+    "SZD_BACKUP_ROOT",
+    "C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/lebensdokumente"
+))
+SCRIPT_DIR = Path(__file__).parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+PROMPTS_DIR = SCRIPT_DIR / "prompts"
+RESULTS_DIR = PROJECT_ROOT / "results" / "test"
 
-# --- Prompts (3 Schichten) ---
 
-SYSTEM_PROMPT = """Du bist ein Transkriptionsspezialist für historische Dokumente aus dem Nachlass von Stefan Zweig (Literaturarchiv Salzburg). Deine Aufgabe ist die diplomatische Transkription der abgebildeten Faksimiles.
+def load_prompt(filename: str) -> str:
+    """Load prompt text from a markdown file, extracting content from code blocks."""
+    path = PROMPTS_DIR / filename
+    text = path.read_text(encoding="utf-8")
+    # Extract content between ``` markers
+    blocks = re.findall(r"```\n(.*?)```", text, re.DOTALL)
+    return blocks[0].strip() if blocks else text.strip()
 
-## Regeln
 
-1. Transkribiere den sichtbaren Text so originalgetreu wie möglich (diplomatisch).
-2. Behalte Zeilenumbrüche bei, wo sie eindeutig erkennbar sind.
-3. Markiere unsichere Lesungen mit [?] direkt nach dem Wort: "Beispiel[?]"
-4. Unleserliche Stellen: [...] mit optionaler Angabe der geschätzten Zeichenzahl: [...3...]
-5. Durchgestrichenes: ~~durchgestrichen~~
-6. Ergänzungen/Einfügungen über der Zeile: {eingefügt}
-7. Keine Interpretation, keine Korrektur von Orthographie oder Grammatik.
-8. Gedruckten Text und handschriftlichen Text gleichermaßen transkribieren.
-
-## Output-Format
-
-Antworte ausschließlich als JSON:
-
-{
-  "pages": [
-    {
-      "page": 1,
-      "transcription": "...",
-      "notes": "Kurze Beobachtungen zu Lesbarkeit, Besonderheiten"
-    }
-  ],
-  "confidence": "high | medium | low",
-  "confidence_notes": "Begründung der Gesamteinschätzung"
-}"""
+# --- Prompts (loaded from files) ---
+SYSTEM_PROMPT = load_prompt("system.md")
 
 GROUP_PROMPTS = {
-    "kurztext": """## Dokumenttyp
-
-Kurzes Dokument mit wenig Text (Karte, Eintrittskarte, Notizzettel).
-
-## Schriftspezifika
-
-- Oft gedruckter Text, teils mit handschriftlichen Ergänzungen.
-- Wenig Text — jedes Wort zählt, Genauigkeit besonders wichtig.
-- Rückseiten können Beschriftungen enthalten.
-
-## Hinweise
-
-- Bei sehr kurzem Text: alle Details erfassen, auch Kleingedrucktes und Randnotizen.
-- Mehrere Textebenen (Vorderseite/Rückseite) als separate Bereiche kennzeichnen.""",
-
-    "handschrift": """## Dokumenttyp
-
-Handschriftliches Dokument aus dem Nachlass Stefan Zweigs.
-
-## Schriftspezifika
-
-- Stefan Zweig schrieb in einer Mischung aus lateinischer Schrift und Kurrentelementen.
-- Sein bevorzugtes Instrument war violette Tinte; Bleistift für Ergänzungen.
-- Abkürzungen sind häufig, besonders bei Personennamen und Ortsangaben.
-- Zweig schrieb oft schnell — Buchstabenverbindungen können unkonventionell sein.
-
-## Hinweise
-
-- Bei Kurrentbuchstaben: beachte besonders die Verwechslungsgefahr bei e/n, s/f, u/n, d/l.
-- Eigennamen nach Möglichkeit vollständig auflösen, aber als unsicher markieren wenn nötig.
-- Tagebucheinträge beginnen oft mit einem Datum.""",
-
-    "typoskript": """## Dokumenttyp
-
-Maschinenschriftliches Dokument (Typoskript oder Durchschlag).
-
-## Schriftspezifika
-
-- Maschinenschrift auf Schreibmaschine, teils mit handschriftlichen Ergänzungen.
-- Bei Durchschlägen: Text kann blass oder ungleichmäßig sein.
-- Handschriftliche Teile sind meist Unterschriften, Datumsangaben oder Randnotizen.
-
-## Hinweise
-
-- Trenne gedruckten/getippten Text nicht von handschriftlichen Ergänzungen — transkribiere alles fortlaufend.
-- Vertragsstruktur (Paragraphen, Nummerierung) beibehalten.
-- Bei Durchschlägen mit geringem Kontrast: lieber [?] setzen als raten.""",
-
-    "formular": """## Dokumenttyp
-
-Amtliches Formular oder Urkunde mit vorgedruckten und handschriftlich/maschinell ausgefüllten Teilen.
-
-## Schriftspezifika
-
-- Vorgedruckter Text (Formularfelder, Überschriften) und handschriftlich/maschinell ausgefüllte Felder.
-- Oft Mischung aus Druck, Maschinenschrift und Handschrift auf einem Dokument.
-- Stempel, Siegel oder offizielle Vermerke können vorkommen.
-
-## Hinweise
-
-- Transkribiere sowohl den vorgedruckten Formulartext als auch die Ausfüllungen.
-- Kennzeichne Stempel und Siegel in den Notizen, nicht im Transkriptionstext.
-- Tabellarische Strukturen so gut wie möglich linear wiedergeben (Feld: Wert).""",
-
-    "tabellarisch": """## Dokumenttyp
-
-Tabellarisches oder listenartiges Dokument (Register, Verzeichnis, Kalender).
-
-## Schriftspezifika
-
-- Strukturierter Aufbau: Spalten, Zeilen, Rubriken.
-- Handschriftliche Einträge in vorgedruckten oder handgezeichneten Rastern.
-- Oft viele kurze Einträge pro Seite statt Fließtext.
-- Mehrere Hände möglich.
-
-## Hinweise
-
-- Tabellenstruktur so gut wie möglich beibehalten. Spalten mit | trennen.
-- Leere Felder als (leer) kennzeichnen.
-- Bei Registern: Eintragsstruktur erkennen und konsistent wiedergeben.""",
+    "kurztext": load_prompt("group_d_kurztext.md"),
+    "handschrift": load_prompt("group_a_handschrift.md"),
+    "typoskript": load_prompt("group_b_typoskript.md"),
+    "formular": load_prompt("group_c_formular.md"),
+    "tabellarisch": load_prompt("group_e_tabellarisch.md"),
 }
 
 # --- Test Cases ---
@@ -194,11 +108,16 @@ TEST_CASES = {
 
 
 def load_images(object_id: str, max_images: int = 0) -> list[tuple[str, bytes]]:
-    """Load all images for an object from the backup."""
+    """Load images for an object from the backup directory."""
     img_dir = BACKUP_ROOT / object_id / "images"
-    images = []
-    # Sort numerically: IMG_1, IMG_2, ..., IMG_10, IMG_11
+    if not img_dir.exists():
+        print(f"FEHLER: Bildverzeichnis nicht gefunden: {img_dir}")
+        sys.exit(1)
     img_paths = sorted(img_dir.glob("IMG_*.jpg"), key=lambda p: int(p.stem.split("_")[1]))
+    if not img_paths:
+        print(f"FEHLER: Keine Bilder gefunden in {img_dir}")
+        sys.exit(1)
+    images = []
     for img_path in img_paths:
         images.append((img_path.name, img_path.read_bytes()))
         if max_images and len(images) >= max_images:
@@ -207,6 +126,16 @@ def load_images(object_id: str, max_images: int = 0) -> list[tuple[str, bytes]]:
 
 
 def run_test(test_name: str):
+    if test_name not in TEST_CASES:
+        print(f"FEHLER: Unbekannter Test '{test_name}'")
+        print(f"Verfügbar: {', '.join(TEST_CASES.keys())}")
+        sys.exit(1)
+
+    if not GOOGLE_API_KEY:
+        print("FEHLER: GOOGLE_API_KEY nicht gesetzt.")
+        print("  export GOOGLE_API_KEY=AIza...")
+        sys.exit(1)
+
     tc = TEST_CASES[test_name]
     max_img = tc.get("max_images", 0)
     images = load_images(tc["object_id"], max_img)
@@ -225,21 +154,21 @@ def run_test(test_name: str):
     parts.append(user_prompt)
 
     # Call Gemini
-    if not GOOGLE_API_KEY:
-        print("FEHLER: GOOGLE_API_KEY nicht gesetzt. Export: export GOOGLE_API_KEY=...")
-        sys.exit(1)
     client = genai.Client(api_key=GOOGLE_API_KEY)
     print(f"Sende an {MODEL}...")
-    response = client.models.generate_content(
-        model=MODEL,
-        contents=parts,
-        config=genai.types.GenerateContentConfig(
-            system_instruction=SYSTEM_PROMPT,
-            temperature=0.1,
-        ),
-    )
+    try:
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=parts,
+            config=genai.types.GenerateContentConfig(
+                system_instruction=SYSTEM_PROMPT,
+                temperature=0.1,
+            ),
+        )
+    except Exception as e:
+        print(f"FEHLER bei API-Aufruf: {e}")
+        sys.exit(1)
 
-    # Output
     result_text = response.text
     print("\n" + "=" * 60)
     print("ERGEBNIS")
@@ -247,9 +176,8 @@ def run_test(test_name: str):
     print(result_text)
 
     # Save result
-    results_dir = Path("C:/Users/Chrisi/Documents/GitHub/szd-htr/results/test")
-    results_dir.mkdir(parents=True, exist_ok=True)
-    out_path = results_dir / f"{test_name}_{MODEL}.json"
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = RESULTS_DIR / f"{test_name}_{MODEL}.json"
     out_path.write_text(result_text, encoding="utf-8")
     print(f"\nGespeichert: {out_path}")
 
