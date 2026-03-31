@@ -2,7 +2,7 @@
 
 import json
 
-from config import GROUP_LABELS, PROJECT_ROOT, RESULTS_DIR
+from config import GROUP_LABELS, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR
 
 OUTPUT_PATH = PROJECT_ROOT / "docs" / "data.json"
 
@@ -10,7 +10,13 @@ OUTPUT_PATH = PROJECT_ROOT / "docs" / "data.json"
 def build():
     objects = []
 
-    for result_file in sorted(RESULTS_DIR.glob("*.json")):
+    # Scan all result directories: results/test/, results/lebensdokumente/, etc.
+    result_files = sorted(RESULTS_DIR.glob("*.json"))
+    for subdir in sorted(RESULTS_BASE.iterdir()):
+        if subdir.is_dir() and subdir != RESULTS_DIR:
+            result_files.extend(sorted(subdir.glob("*.json")))
+
+    for result_file in result_files:
         data = json.loads(result_file.read_text(encoding="utf-8"))
 
         # Skip non-enriched legacy results (no "collection" key)

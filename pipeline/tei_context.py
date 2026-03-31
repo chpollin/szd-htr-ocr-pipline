@@ -7,78 +7,73 @@ from pathlib import Path
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}
 
 
+def _extract_bibl_metadata(bibl) -> dict:
+    """Extract metadata from a single TEI biblFull element."""
+    def text(xpath: str) -> str:
+        el = bibl.find(xpath, NS)
+        return el.text.strip() if el is not None and el.text else ""
+
+    date_el = bibl.find(".//tei:origDate", NS)
+    date = ""
+    if date_el is not None:
+        date = date_el.text.strip() if date_el.text else date_el.get("when", "")
+
+    objecttyp = ""
+    for t in bibl.findall('.//tei:term[@type="objecttyp"]', NS):
+        objecttyp = t.text or ""
+        break
+
+    extent = ""
+    for m in bibl.findall('.//tei:measure[@type="leaf"]', NS):
+        if m.text:
+            extent = m.text.strip()
+            break
+
+    instrument = ""
+    for mat in bibl.findall(".//tei:material", NS):
+        if "WritingInstrument" in mat.get("ana", ""):
+            instrument = mat.text.strip() if mat.text else ""
+            break
+
+    return {
+        "title": text(".//tei:titleStmt/tei:title"),
+        "signature": text('.//tei:msIdentifier/tei:idno[@type="signature"]'),
+        "date": date,
+        "language": text(".//tei:textLang/tei:lang"),
+        "objecttyp": objecttyp,
+        "extent": extent,
+        "writing_instrument": instrument,
+        "hand": text(".//tei:handDesc/tei:ab"),
+        "notes": text(".//tei:notesStmt/tei:note"),
+        "classification": text('.//tei:keywords/tei:term[@type="classification"]'),
+    }
+
+
 def parse_tei_for_object(tei_file: Path, pid: str) -> dict | None:
     """Extract metadata for a single object from a TEI file by its PID."""
     tree = ET.parse(tei_file)
     root = tree.getroot()
-
     for bibl in root.findall(".//tei:biblFull", NS):
         pid_el = bibl.find('.//tei:altIdentifier/tei:idno[@type="PID"]', NS)
-        if pid_el is None or pid_el.text != pid:
-            continue
-
-        def text(xpath: str) -> str:
-            el = bibl.find(xpath, NS)
-            return el.text.strip() if el is not None and el.text else ""
-
-        # Title
-        title = text(".//tei:titleStmt/tei:title")
-
-        # Signature
-        signature = text('.//tei:msIdentifier/tei:idno[@type="signature"]')
-
-        # Date
-        date_el = bibl.find(".//tei:origDate", NS)
-        date = ""
-        if date_el is not None:
-            date = date_el.text.strip() if date_el.text else date_el.get("when", "")
-
-        # Language
-        language = text(".//tei:textLang/tei:lang")
-
-        # Object type
-        objecttyp = ""
-        for t in bibl.findall('.//tei:term[@type="objecttyp"]', NS):
-            objecttyp = t.text or ""
-            break
-
-        # Extent
-        extent = ""
-        for m in bibl.findall('.//tei:measure[@type="leaf"]', NS):
-            if m.text:
-                extent = m.text.strip()
-                break
-
-        # Writing instrument
-        instrument = ""
-        for mat in bibl.findall(".//tei:material", NS):
-            if "WritingInstrument" in mat.get("ana", ""):
-                instrument = mat.text.strip() if mat.text else ""
-                break
-
-        # Hand
-        hand = text(".//tei:handDesc/tei:ab")
-
-        # Notes
-        notes = text(".//tei:notesStmt/tei:note")
-
-        # Classification
-        classification = text('.//tei:keywords/tei:term[@type="classification"]')
-
-        return {
-            "title": title,
-            "signature": signature,
-            "date": date,
-            "language": language,
-            "objecttyp": objecttyp,
-            "extent": extent,
-            "writing_instrument": instrument,
-            "hand": hand,
-            "notes": notes,
-            "classification": classification,
-        }
-
+        if pid_el is not None and pid_el.text == pid:
+            return _extract_bibl_metadata(bibl)
     return None
+
+
+def list_tei_objects(tei_file: Path) -> dict[str, dict]:
+    """List all objects with PIDs from a TEI file. Returns {pid: metadata}."""
+    tree = ET.parse(tei_file)
+    root = tree.getroot()
+    result = {}
+    for bibl in root.findall(".//tei:biblFull", NS):
+        pid_el = bibl.find('.//tei:altIdentifier/tei:idno[@type="PID"]', NS)
+        if pid_el is None or not pid_el.text:
+            continue
+        pid = pid_el.text.strip()
+        if not pid.startswith("o:szd.") or not pid.split(".")[-1].isdigit():
+            continue
+        result[pid] = _extract_bibl_metadata(bibl)
+    return result
 
 
 def context_from_backup_metadata(metadata_path: Path) -> dict:

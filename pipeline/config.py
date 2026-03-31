@@ -12,7 +12,8 @@ load_dotenv()
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
-RESULTS_DIR = PROJECT_ROOT / "results" / "test"
+RESULTS_BASE = PROJECT_ROOT / "results"
+RESULTS_DIR = RESULTS_BASE / "test"  # Legacy Test-Ergebnisse
 PROMPTS_DIR = SCRIPT_DIR / "prompts"
 BACKUP_ROOT = Path(os.environ.get(
     "SZD_BACKUP_ROOT",
@@ -30,6 +31,17 @@ COLLECTIONS = {
     "aufsatzablage":   {"subdir": "aufsatz",          "tei": "szd_aufsatzablage_tei.xml"},
     "korrespondenzen": {"subdir": "korrespondenzen",  "tei": "szd_korrespondenzen_tei.xml"},
 }
+
+# --- Batch ---
+BATCH_DELAY = float(os.environ.get("HTR_BATCH_DELAY", "2.0"))
+
+
+def results_dir_for(collection: str) -> Path:
+    """Return results directory for a collection, creating it if needed."""
+    d = RESULTS_BASE / collection
+    d.mkdir(parents=True, exist_ok=True)
+    return d
+
 
 # --- Prompt-Gruppen ---
 GROUP_LABELS = {
