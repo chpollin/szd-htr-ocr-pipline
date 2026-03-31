@@ -27,19 +27,24 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Test-Objekte aus allen 4 Sammlungen transkribiert (7/7 high confidence)
 - [x] Viewer mit Sammlungs-Tabs und dynamischem Laden aus data.json
 
-## Phase 3: Pipeline-Automatisierung (nächster Schritt)
+## Phase 3: Pipeline-Automatisierung (erledigt)
 
-- [ ] Objekt-Kontext automatisch aus TEI-XML generieren (tei_context.py ist fertig, noch nicht in test_single.py integriert als `--auto-context`)
-- [ ] Batch-Transkription: mehrere Objekte nacheinander
-- [ ] Gruppenzuordnung automatisch aus TEI-Metadaten (`resolve_group()` ist fertig)
-- [ ] Ergebnisse strukturiert abspeichern
+- [x] Objekt-Kontext automatisch aus TEI-XML generieren (`resolve_context()` in test_single.py und transcribe.py)
+- [x] Batch-Transkription: `pipeline/transcribe.py` mit CLI für Einzel-/Batch-/Sammlungs-Modus
+- [x] Gruppenzuordnung automatisch aus TEI-Metadaten (`resolve_group()` mit Formular-Fix)
+- [x] Ergebnisse strukturiert abspeichern: `results/{collection}/{object_id}_{model}.json`
+- [x] Object Discovery aus Backup-Verzeichnissen (2107 Objekte über 4 Sammlungen)
+- [x] Rate-Limiting, Skip-Logik, Fehlertoleranz
+- [x] Erster Batch-Lauf: 5 Lebensdokumente, alle high confidence
 
-## Phase 4: Qualität & Vergleich
+## Phase 4: Qualität & Vergleich (nächster Schritt)
 
+- [ ] Alle Sammlungen komplett transkribieren (2107 Objekte)
 - [ ] Provider-Vergleich: Gemini vs. Claude Vision vs. GPT-4o
 - [ ] Prompt-Iteration basierend auf Ergebnissen
 - [ ] Fraktur-Erkennung testen (echte Fraktur-Zeitungsausschnitte finden)
 - [ ] Schwierige Handschriften identifizieren (Objekte mit low confidence suchen)
+- [ ] Optimale Bildgröße testen (Resizing vor API-Call)
 
 ## Phase 5: TEI-Integration
 
@@ -61,6 +66,7 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | VLM | Gemini 3.1 Flash Lite (Preview) |
 | SDK | google-genai |
 | TEI-Parser | xml.etree.ElementTree (stdlib) |
-| Bilder | Direkt von GAMS (keine lokalen Kopien nötig) |
-| Output | Enriched JSON pro Objekt |
+| Bilder | Lokales Backup (4 Sammlungen, 2107 Objekte) |
+| Output | Enriched JSON pro Objekt, nach Sammlung strukturiert |
+| CLI | `pipeline/transcribe.py` (Einzel/Batch/Sammlung) |
 | Viewer | Statisches HTML + data.json (GitHub Pages) |

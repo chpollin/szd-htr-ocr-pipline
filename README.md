@@ -75,11 +75,34 @@ Viewer: [chpollin.github.io/szd-htr-ocr-pipeline/viewer.html](https://chpollin.g
 ## Setup
 
 ```bash
-pip install google-generativeai
-export GOOGLE_API_KEY=AIza...
-python pipeline/test_single.py --list          # Verfügbare Tests
-python pipeline/test_single.py theaterkarte    # Einzeltest
-python pipeline/build_viewer_data.py           # Viewer-Daten aktualisieren
+pip install -r requirements.txt
+export GOOGLE_API_KEY=AIza...    # oder in .env eintragen
+```
+
+## Nutzung
+
+```bash
+# Einzelnes Objekt transkribieren
+python pipeline/transcribe.py o_szd.161 -c lebensdokumente
+
+# Ganze Sammlung
+python pipeline/transcribe.py -c lebensdokumente
+
+# Alle 2107 Objekte
+python pipeline/transcribe.py --all
+
+# Nur Korrekturfahnen in Werke
+python pipeline/transcribe.py -c werke -g korrekturfahne
+
+# Vorschau ohne API-Calls
+python pipeline/transcribe.py --all --dry-run
+
+# Viewer-Daten aktualisieren
+python pipeline/build_viewer_data.py
+
+# Legacy Quick-Tests
+python pipeline/test_single.py --list
+python pipeline/test_single.py theaterkarte
 ```
 
 ## Verwandte Projekte

@@ -206,7 +206,7 @@ def transcribe_object(
 
     out_path.write_text(json.dumps(enriched, ensure_ascii=False, indent=2), encoding="utf-8")
     confidence = result_json.get("confidence", "?")
-    print(f"  → {confidence} — {out_path.name}")
+    print(f"  -> {confidence} -- {out_path.name}")
     return True, out_path
 
 
@@ -230,7 +230,7 @@ def run_batch(
 
         if out_path.exists() and not force:
             skipped += 1
-            print(f"[{i}/{total}] {oid} — übersprungen")
+            print(f"[{i}/{total}] {oid} -- uebersprungen")
             continue
 
         print(f"[{i}/{total}] {oid} ({col})")

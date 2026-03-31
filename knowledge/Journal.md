@@ -220,15 +220,82 @@ Formular-Checks (Klassifikation „Rechtsdokumente"/„Finanzen") wurden vor den
 
 ---
 
+## 2026-03-31 — Session 5: Phase 3 abgeschlossen, Batch-CLI und erster Lauf
+
+### Was wurde gemacht
+
+Neues CLI-Script `pipeline/transcribe.py` als Haupteinstiegspunkt fuer die Transkription. Ersetzt die hartcodierten Test Cases durch dynamische Object Discovery.
+
+### Neue Datei: pipeline/transcribe.py
+
+CLI mit folgenden Modi:
+- Einzelobjekt: `transcribe.py o_szd.161 -c lebensdokumente`
+- Ganze Sammlung: `transcribe.py -c lebensdokumente`
+- Alle Sammlungen: `transcribe.py --all`
+- Gruppenfilter: `transcribe.py -c werke -g korrekturfahne`
+- Optionen: `--limit`, `--force`, `--delay`, `--max-images`, `--dry-run`
+
+### Object Discovery
+
+Primaerquelle: Backup-Verzeichnisse (nicht TEI, da TEI lueckenhaft bei PIDs).
+
+| Sammlung | Backup-Objekte | PIDs in TEI |
+|---|---|---|
+| Lebensdokumente | 127 | 121 (85%) |
+| Werke (facsimiles) | 169 | 163 (46%) |
+| Aufsatzablage | 625 | 625 (100%) |
+| Korrespondenzen | 1186 | 0 |
+| **Gesamt** | **2107** | |
+
+### Aenderungen an bestehenden Dateien
+
+- `config.py`: `BATCH_DELAY`, `RESULTS_BASE`, `results_dir_for()`
+- `tei_context.py`: `_extract_bibl_metadata()` refactored, `list_tei_objects()` hinzugefuegt
+- `build_viewer_data.py`: Scannt jetzt alle `results/*/` Unterverzeichnisse
+
+### Erster Batch-Lauf: 5 Lebensdokumente
+
+| Objekt | Gruppe | Bilder | Confidence |
+|---|---|---|---|
+| o_szd.100 | B: Typoskript | 3 | high |
+| o_szd.101 | B: Typoskript | 5 | high |
+| o_szd.102 | B: Typoskript | 3 | high |
+| o_szd.103 | B: Typoskript | 3 | high |
+| o_szd.104 | B: Typoskript | 3 | high |
+
+**5/5 high confidence. Skip-Logik funktioniert (2. Lauf: 0 API-Calls). Viewer-Build erkennt neue Ergebnisse (12 Objekte total).**
+
+### Ergebnisstruktur
+
+```
+results/
+├── test/                          # Legacy (7 Objekte aus Phase 2)
+├── lebensdokumente/               # NEU
+│   ├── o_szd.100_gemini-3.1-flash-lite-preview.json
+│   └── ...
+├── werke/                         # (noch leer)
+├── aufsatzablage/                 # (noch leer)
+└── korrespondenzen/               # (noch leer)
+```
+
+### Erkenntnisse
+
+1. **Backup-Dirs als Discovery-Quelle ist zuverlaessiger als TEI** — TEI hat nur 46% PIDs bei Werken, 0% bei Korrespondenzen.
+2. **2s Delay reicht fuer Rate-Limiting** — kein Throttling-Fehler bei 5 aufeinanderfolgenden Calls.
+3. **Unicode-Zeichen (Pfeile, Gedankenstriche) verursachen Encoding-Fehler auf Windows** (cp1252) — ASCII-Alternativen verwenden.
+
+---
+
 ## Offene Fragen (aktuell, Stand 2026-03-31)
 
 Konsolidiert aus allen Sessions:
 
 - [ ] **Fraktur-Erkennung**: Gezielt Zeitungsausschnitte mit Fraktur suchen und testen
-- [ ] **Optimale Bildgröße**: Originale sind 4912×7360 (~1.4MB) — Resizing vor API-Call?
-- [ ] **Lizenz klären**: MIT für Code, CC-BY für Daten?
-- [ ] **Korrektur-Markup**: Wie markiert man Korrekturen im Output? Erweitertes Markup nötig?
+- [ ] **Optimale Bildgroesse**: Originale sind 4912x7360 (~1.4MB) — Resizing vor API-Call?
+- [ ] **Lizenz klaeren**: MIT fuer Code, CC-BY fuer Daten?
+- [ ] **Korrektur-Markup**: Wie markiert man Korrekturen im Output? Erweitertes Markup noetig?
 - [ ] **Konvolute**: Wie geht die Pipeline mit gemischten Dokumenttypen in einem Objekt um?
-- [ ] **Batch-Modus**: Mehrere Objekte nacheinander transkribieren (Phase 3)
+- [x] **Batch-Modus**: `pipeline/transcribe.py` mit CLI (erledigt in Session 5)
 - [ ] **Provider-Vergleich**: Claude Vision und GPT-4o gegen Gemini testen (Phase 4)
-- [ ] **Gruppe G (Konvolut)**: Bei Bedarf ergänzen (24 Objekte, niedrige Priorität)
+- [ ] **Gruppe G (Konvolut)**: Bei Bedarf ergaenzen (24 Objekte, niedrige Prioritaet)
+- [ ] **Alle Sammlungen komplett transkribieren**: 2107 Objekte durchlaufen lassen
