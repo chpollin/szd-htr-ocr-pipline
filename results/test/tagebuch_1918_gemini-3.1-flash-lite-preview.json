@@ -79,5 +79,31 @@
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist für Zweig-Verhältnisse sehr klar und gut lesbar. Die violette Tinte ist auf den Scans gut kontrastiert."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 6711,
+    "total_words": 1075,
+    "total_pages": 5,
+    "empty_pages": 0,
+    "input_images": 5,
+    "chars_per_page": [
+      1277,
+      1338,
+      1383,
+      1367,
+      1346
+    ],
+    "chars_per_page_median": 1346,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0009,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

@@ -33,5 +33,31 @@
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die handschriftlichen Unterschriften sind als solche erkennbar, die Identifikation der Namen stützt sich auf die bereitgestellten Kontextinformationen."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 2057,
+    "total_words": 356,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "input_images": 3,
+    "chars_per_page": [
+      2057,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2057,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
   }
 }

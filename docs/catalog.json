@@ -10,6 +10,8 @@
       "title": "Aus der Werkstatt der Dichter, SZ-AAP/W-AA215.1",
       "titleClean": "Aus der Werkstatt der Dichter",
       "signature": "SZ-AAP/W-AA215.1",
+      "classification": "Zeitungsausschnitte",
+      "objecttyp": "Zeitungsausschnitt",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -22,7 +24,9 @@
         "emptyPages": 0,
         "avgCharsPerPage": 1254,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.2232_gemini-3.1-flash-lite-preview",
@@ -34,6 +38,8 @@
       "title": "Zwei Einsame., SZ-AAP/W-AA223.1",
       "titleClean": "Zwei Einsame.",
       "signature": "SZ-AAP/W-AA223.1",
+      "classification": "Zeitungsausschnitte",
+      "objecttyp": "Zeitungsausschnitt",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -42,11 +48,15 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 11877,
+        "totalChars": 10122,
         "emptyPages": 0,
-        "avgCharsPerPage": 3959,
+        "avgCharsPerPage": 3374,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "duplicate_pages"
+      ]
     },
     {
       "id": "korrespondenz_fleischer_gemini-3.1-flash-lite-preview",
@@ -58,6 +68,8 @@
       "title": "Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1",
       "titleClean": "Brief an Max Fleischer vom 22. Mai 1901",
       "signature": "SZ-LAS/B3.1",
+      "classification": "Korrespondenz",
+      "objecttyp": "Brief",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -70,7 +82,9 @@
         "emptyPages": 0,
         "avgCharsPerPage": 588,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "tagebuch_1918_gemini-3.1-flash-lite-preview",
@@ -82,6 +96,8 @@
       "title": "Tagebuch 1918, SZ-AAP/L6",
       "titleClean": "Tagebuch 1918",
       "signature": "SZ-AAP/L6",
+      "classification": "Tagebücher",
+      "objecttyp": "Notizbuch",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -94,7 +110,9 @@
         "emptyPages": 0,
         "avgCharsPerPage": 1342,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "vertrag_grasset_gemini-3.1-flash-lite-preview",
@@ -106,6 +124,8 @@
       "title": "Verlagsvertrag Grasset, SZ-AAP/L13.1",
       "titleClean": "Verlagsvertrag Grasset",
       "signature": "SZ-AAP/L13.1",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskript",
       "lang": "Französisch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -118,7 +138,9 @@
         "emptyPages": 0,
         "avgCharsPerPage": 1862,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.100_gemini-3.1-flash-lite-preview",
@@ -130,6 +152,8 @@
       "title": "Agreement Longmans, Green u. Co. Inc., SZ-AAP/L13.23",
       "titleClean": "Agreement Longmans, Green u. Co. Inc.",
       "signature": "SZ-AAP/L13.23",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskriptdurchschlag",
       "lang": "Englisch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -142,7 +166,11 @@
         "emptyPages": 2,
         "avgCharsPerPage": 2057,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_image_mismatch"
+      ]
     },
     {
       "id": "o_szd.101_gemini-3.1-flash-lite-preview",
@@ -154,6 +182,8 @@
       "title": "Agreement THE VIKING PRESS, INC., SZ-AAP/L13.24",
       "titleClean": "Agreement THE VIKING PRESS, INC.",
       "signature": "SZ-AAP/L13.24",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskriptdurchschlag",
       "lang": "Englisch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -166,7 +196,12 @@
         "emptyPages": 0,
         "avgCharsPerPage": 2482,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_length_anomaly",
+        "duplicate_pages"
+      ]
     },
     {
       "id": "o_szd.102_gemini-3.1-flash-lite-preview",
@@ -178,6 +213,8 @@
       "title": "Agreement THE VIKING PRESS, INC., SZ-AAP/L13.25",
       "titleClean": "Agreement THE VIKING PRESS, INC.",
       "signature": "SZ-AAP/L13.25",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskript",
       "lang": "Englisch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -190,7 +227,11 @@
         "emptyPages": 0,
         "avgCharsPerPage": 810,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "duplicate_pages"
+      ]
     },
     {
       "id": "o_szd.103_gemini-3.1-flash-lite-preview",
@@ -202,6 +243,8 @@
       "title": "Vertrag Editorial APOLO, BARCELONA, SZ-AAP/L13.26",
       "titleClean": "Vertrag Editorial APOLO, BARCELONA",
       "signature": "SZ-AAP/L13.26",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskriptdurchschlag",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -214,7 +257,11 @@
         "emptyPages": 2,
         "avgCharsPerPage": 1350,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_image_mismatch"
+      ]
     },
     {
       "id": "o_szd.104_gemini-3.1-flash-lite-preview",
@@ -226,6 +273,8 @@
       "title": "Vertrag „Editorial Apolo“ Barcelona, SZ-AAP/L13.27",
       "titleClean": "Vertrag „Editorial Apolo“ Barcelona",
       "signature": "SZ-AAP/L13.27",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskriptdurchschlag",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -238,7 +287,11 @@
         "emptyPages": 2,
         "avgCharsPerPage": 987,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_image_mismatch"
+      ]
     },
     {
       "id": "certificate_gemini-3.1-flash-lite-preview",
@@ -250,6 +303,8 @@
       "title": "Certified Copy of an Entry of Marriage, SZ-SDP/L1",
       "titleClean": "Certified Copy of an Entry of Marriage",
       "signature": "SZ-SDP/L1",
+      "classification": "Rechtsdokumente",
+      "objecttyp": "Typoskript",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -262,7 +317,11 @@
         "emptyPages": 1,
         "avgCharsPerPage": 790,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "language_mismatch"
+      ]
     },
     {
       "id": "theaterkarte_gemini-3.1-flash-lite-preview",
@@ -274,6 +333,8 @@
       "title": "Theaterkarte zur Uraufführung von „Jeremias“ 1918, SZ-SDP/L2",
       "titleClean": "Theaterkarte zur Uraufführung von „Jeremias“ 1918",
       "signature": "SZ-SDP/L2",
+      "classification": "Diverses",
+      "objecttyp": "Eintrittskarte",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -286,7 +347,9 @@
         "emptyPages": 0,
         "avgCharsPerPage": 83,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.143_gemini-3.1-flash-lite-preview",
@@ -298,19 +361,23 @@
       "title": "Hauptbuch, SZ-SAM/L1",
       "titleClean": "Hauptbuch",
       "signature": "SZ-SAM/L1",
+      "classification": "Verzeichnisse",
+      "objecttyp": "Kontorbuch",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
-      "pageCount": 5,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.143/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1776,
+        "totalChars": 20,
         "emptyPages": 0,
-        "avgCharsPerPage": 355,
+        "avgCharsPerPage": 7,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
     },
     {
       "id": "o_szd.174_gemini-3.1-flash-lite-preview",
@@ -322,6 +389,8 @@
       "title": "Adressbuch [ca. 1935-1940], SZ-AP2/L-S1.1",
       "titleClean": "Adressbuch [ca. 1935-1940]",
       "signature": "SZ-AP2/L-S1.1",
+      "classification": "Adressbücher",
+      "objecttyp": "Adressbuch",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -334,7 +403,12 @@
         "emptyPages": 0,
         "avgCharsPerPage": 227,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_length_anomaly",
+        "language_mismatch"
+      ]
     },
     {
       "id": "korrekturfahne_bildner_gemini-3.1-flash-lite-preview",
@@ -346,6 +420,8 @@
       "title": "Der Bildner, SZ-AP2/W-D29",
       "titleClean": "Der Bildner",
       "signature": "SZ-AP2/W-D29",
+      "classification": "Gedichte",
+      "objecttyp": "Korrekturfahne",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "high",
@@ -358,7 +434,11 @@
         "emptyPages": 0,
         "avgCharsPerPage": 2328,
         "vlmConfidence": "high"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "duplicate_pages"
+      ]
     },
     {
       "id": "o_szd.277_gemini-3.1-flash-lite-preview",
@@ -370,19 +450,25 @@
       "title": "Der Fall von Byzanz",
       "titleClean": "Der Fall von Byzanz",
       "signature": "",
+      "classification": "Romane/Erzählungen",
+      "objecttyp": "Konvolut",
       "lang": "Deutsch",
       "model": "gemini-3.1-flash-lite-preview",
       "confidence": "medium",
-      "pageCount": 5,
+      "pageCount": 3,
       "thumbnail": "https://gams.uni-graz.at/o:szd.277/THUMBNAIL",
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 3827,
-        "emptyPages": 2,
-        "avgCharsPerPage": 1276,
+        "totalChars": 2058,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1029,
         "vlmConfidence": "medium"
-      }
+      },
+      "needsReview": true,
+      "needsReviewReasons": [
+        "page_length_anomaly"
+      ]
     }
   ],
   "collections": [

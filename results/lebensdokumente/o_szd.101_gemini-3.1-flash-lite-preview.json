@@ -45,5 +45,42 @@
     ],
     "confidence": "high",
     "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren handschriftlichen Ergänzungen sehr zuverlässig."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 12409,
+    "total_words": 2142,
+    "total_pages": 5,
+    "empty_pages": 0,
+    "input_images": 5,
+    "chars_per_page": [
+      2980,
+      3661,
+      5518,
+      125,
+      125
+    ],
+    "chars_per_page_median": 2980,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        3,
+        4
+      ]
+    ],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [
+      3,
+      4
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
   }
 }

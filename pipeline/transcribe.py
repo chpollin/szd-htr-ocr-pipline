@@ -13,6 +13,7 @@ from config import (
     BACKUP_ROOT, BATCH_DELAY, COLLECTIONS, DATA_DIR, GOOGLE_API_KEY,
     GROUP_LABELS, MODEL, PROMPTS_DIR, results_dir_for,
 )
+from quality_signals import compute_signals
 from tei_context import (
     context_from_backup_metadata, format_context, parse_tei_for_object,
     resolve_group,
@@ -120,6 +121,87 @@ def load_backup_metadata(object_id: str, collection: str) -> dict:
     return {}
 
 
+# --- JSON Parsing ---
+
+def _strip_codeblock(text: str) -> tuple[str, bool]:
+    """Strip markdown code fences if present. Returns (cleaned, was_stripped)."""
+    stripped = text.strip()
+    if stripped.startswith("```"):
+        # Remove opening fence (```json or ```)
+        first_nl = stripped.index("\n") if "\n" in stripped else len(stripped)
+        stripped = stripped[first_nl + 1:]
+        # Remove closing fence
+        if stripped.rstrip().endswith("```"):
+            stripped = stripped.rstrip()[:-3].rstrip()
+        return stripped, True
+    return text, False
+
+
+def _fix_invalid_escapes(text: str) -> tuple[str, list[str]]:
+    """Fix invalid JSON escape sequences like \\j, \\k etc.
+
+    Returns (fixed_text, list of fixes applied).
+    """
+    valid_after_backslash = set('"\\bfnrtu/')
+    fixes = []
+    result = []
+    i = 0
+    while i < len(text):
+        if text[i] == '\\' and i + 1 < len(text):
+            nxt = text[i + 1]
+            if nxt in valid_after_backslash:
+                result.append(text[i])
+                result.append(nxt)
+                i += 2
+            else:
+                fixes.append(f"\\{nxt}")
+                result.append(nxt)
+                i += 2
+        else:
+            result.append(text[i])
+            i += 1
+    return ''.join(result), fixes
+
+
+def parse_api_response(text: str, object_id: str) -> tuple[dict, list[str]]:
+    """Parse API response text into JSON, with sanitization.
+
+    Returns (parsed_dict, log_messages).
+    """
+    log = []
+
+    # Step 1: Try direct parse
+    try:
+        return json.loads(text), log
+    except json.JSONDecodeError:
+        pass
+
+    # Step 2: Strip markdown codeblocks
+    cleaned, was_stripped = _strip_codeblock(text)
+    if was_stripped:
+        log.append(f"FIX {object_id}: Markdown-Codeblock entfernt")
+        try:
+            return json.loads(cleaned), log
+        except json.JSONDecodeError:
+            pass
+    else:
+        cleaned = text
+
+    # Step 3: Fix invalid escape sequences
+    fixed, fixes = _fix_invalid_escapes(cleaned)
+    if fixes:
+        unique = sorted(set(fixes))
+        log.append(f"FIX {object_id}: Ungueltige Escapes repariert: {', '.join(unique)}")
+        try:
+            return json.loads(fixed), log
+        except json.JSONDecodeError:
+            pass
+
+    # Still failed
+    log.append(f"WARNUNG {object_id}: JSON nicht parsebar nach Bereinigung, speichere Rohtext")
+    return {"raw": text}, log
+
+
 # --- Transcription ---
 
 def transcribe_object(
@@ -179,12 +261,29 @@ def transcribe_object(
 
     result_text = response.text
 
-    # Parse result
-    try:
-        result_json = json.loads(result_text)
-    except json.JSONDecodeError:
-        print("  WARNUNG: Kein valides JSON, speichere Rohtext")
-        result_json = {"raw": result_text}
+    # Parse result (with sanitization and retry)
+    result_json, parse_log = parse_api_response(result_text, object_id)
+    for msg in parse_log:
+        print(f"  {msg}")
+
+    # Retry once if still unparseable
+    if "raw" in result_json:
+        print("  RETRY: Erneuter Versuch mit JSON-Hinweis...")
+        retry_parts = list(parts) + ["Respond with valid JSON only, no markdown fences."]
+        try:
+            retry_resp = client.models.generate_content(
+                model=MODEL,
+                contents=retry_parts,
+                config=genai.types.GenerateContentConfig(
+                    system_instruction=SYSTEM_PROMPT,
+                    temperature=0.1,
+                ),
+            )
+            result_json, retry_log = parse_api_response(retry_resp.text, object_id)
+            for msg in retry_log:
+                print(f"  RETRY: {msg}")
+        except Exception as e:
+            print(f"  RETRY FEHLER: {e}")
 
     # Load backup metadata for GAMS URLs
     backup_meta = load_backup_metadata(object_id, collection)
@@ -205,9 +304,14 @@ def transcribe_object(
         "result": result_json,
     }
 
+    # Compute quality signals
+    signals = compute_signals(result_json, enriched["metadata"], len(images))
+    enriched["quality_signals"] = signals
+
     out_path.write_text(json.dumps(enriched, ensure_ascii=False, indent=2), encoding="utf-8")
     confidence = result_json.get("confidence", "?")
-    print(f"  -> {confidence} -- {out_path.name}")
+    review = " [REVIEW]" if signals["needs_review"] else ""
+    print(f"  -> {confidence}{review} -- {out_path.name}")
     return True, out_path
 
 

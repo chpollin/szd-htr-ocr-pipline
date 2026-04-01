@@ -264,30 +264,44 @@
       {
         "page": 1,
         "transcription": "(leer)",
-        "notes": "Vorderdeckel des Buches."
+        "notes": "Außenseite des Einbands (Vorderdeckel)."
       },
       {
         "page": 2,
         "transcription": "(leer)",
-        "notes": "Vorsatzblatt vorne."
+        "notes": "Vorsatzblatt (Vorderseite)."
       },
       {
         "page": 3,
         "transcription": "Mit Gott",
-        "notes": "Vorsatzblatt vorne, recto. Handschriftlicher Eintrag oben rechts."
-      },
-      {
-        "page": 4,
-        "transcription": "(leer)",
-        "notes": "Vorsatzblatt vorne, verso."
-      },
-      {
-        "page": 5,
-        "transcription": "Mit Gott !\nBegonnen August 1932\n\nInhaltsverzeichnis\n\nGesammelte Gedichte | 4 | Erinnerungen an E. Verhaeren | 48\nDie Liebe d. Erika Ewald | 5 | Das Herz Europas | 49\nGeschichte i. d. Dämmerung | 6 | Fahrten | 50\nDie Gouvernante | 7 | Marceline Desbordes-Valmore | 51\nBrennendes Geheimnis | 8 | Abschied von Rilke | 52\nSommernovelle | 9 | Reise nach Russland | 53\nZwang | 10 | Tersites | 54\nAngst | 11 | Aus Haus am Meer | 55\nDie Augen d. ewigen Bruders | 12 | Der verwandelte Kourdiant | 56\nDer Amokläufer | 13 | Jeremias | 57\nDie Frau u. die Landschaft | 14 | Legende eines Lebens | 58\nPhantastische Nacht | 15 | Tolpatsch | 59\nBrief einer Unbekannten | 16 | Die Flucht zu Gott | 60\nMondscheingasse | 17 | Legende der Armen | 61\nDie unsichtbare Sammlung | 18 | Marie Antoinette | 62\nEpisode vom Genfersee | 19 | Verhaeren | 63\n24 Stunden aus dem Leben einer Fr. | 20 | Fente | 64\nUntergang eines Herzens | 21 | Verlaine - Rembrandt | 65\nVerwirrung der Gefühle | 22 | Rubens | 66\nDie Weltminute v. Waterloo | 23 | Erasmus | 67\nMarienbader Elegie | 24 | Maria Stuart | 68\nDie Entdeckung Eldorados | 25 | Unvermutete Bekanntschaft | 69\nHeroischer Augenblick | 26 | mit einem Handwerk | 70\nDer Kampf um den Südpol | 27 | G. F. Händels Auferstehung | 71\nLeporella | 28 | Die schweigsame Frau | 72\nBuchmendel | 29 | Castellio | 73\nRahel rechtet mit Gott | 30 | Der begrabene Leuchter | 74\nBalzac | 31 | Kaleidoskop | 75\nDickens | 32 | Mord aus Mitleid | 76\nDostojewski | 33 | Magellan | 77\nHölderlin | 34 | Begegnungen | 78\nKleist | 35 |\nNietzsche | 36 |\nCasanova | 37 |\nStendhal | 38 |\nTolstoi | 39 |\nJoseph Fouché | 40 |\nMesmer | 41 |\nMary Baker-Eddy | 42 |\nFreud | 43 |\nVerlaine | 44 |\nEmile Verhaeren | 45 |\nRomain Rolland | 46 |\nFrans Masereel | 47 |",
-        "notes": "Inhaltsverzeichnis. Die Spalten sind durch vertikale Striche getrennt. Einige Einträge weisen Korrekturen oder Ergänzungen auf (z.B. 'mit einem Handwerk' unter 'Unvermutete Bekanntschaft')."
+        "notes": "Vorsatzblatt (Rückseite). Oben rechts schwach mit Bleistift geschrieben."
       }
     ],
     "confidence": "high",
-    "confidence_notes": "Die Handschrift ist gut lesbar, die Struktur des Inhaltsverzeichnisses ist eindeutig."
+    "confidence_notes": "Die Transkription ist eindeutig, da die Seiten bis auf den kleinen handschriftlichen Vermerk 'Mit Gott' leer sind."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 20,
+    "total_words": 4,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      6,
+      6,
+      8
+    ],
+    "chars_per_page_median": 6,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

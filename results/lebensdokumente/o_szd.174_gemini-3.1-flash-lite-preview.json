@@ -162,5 +162,36 @@
     ],
     "confidence": "high",
     "confidence_notes": "Die Transkription ist aufgrund der klaren Druckschrift und der wenigen handschriftlichen Elemente sehr sicher."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 1134,
+    "total_words": 190,
+    "total_pages": 5,
+    "empty_pages": 0,
+    "input_images": 5,
+    "chars_per_page": [
+      10,
+      43,
+      6,
+      1029,
+      46
+    ],
+    "chars_per_page_median": 43,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [
+      2
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ]
   }
 }

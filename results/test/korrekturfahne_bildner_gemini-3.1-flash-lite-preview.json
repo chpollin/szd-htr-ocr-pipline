@@ -37,5 +37,36 @@
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist ein klarer Drucksatz. Die Transkription ist aufgrund der hohen Qualität der Vorlage und der eindeutigen Typografie sehr sicher."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 6983,
+    "total_words": 1128,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      2257,
+      2469,
+      2257
+    ],
+    "chars_per_page_median": 2257,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
   }
 }

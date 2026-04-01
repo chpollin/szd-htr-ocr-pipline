@@ -33,5 +33,31 @@
     ],
     "confidence": "high",
     "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der gut lesbaren Handschrift sehr sicher. Die Struktur des Formulars wurde beibehalten."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 1580,
+    "total_words": 299,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "input_images": 3,
+    "chars_per_page": [
+      1348,
+      0,
+      232
+    ],
+    "chars_per_page_median": 790.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0033,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
   }
 }

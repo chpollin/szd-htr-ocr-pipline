@@ -35,5 +35,29 @@
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, trotz einiger flüchtiger Buchstabenformen. Die Transkription folgt dem Originalgetreuen Prinzip."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 1764,
+    "total_words": 284,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      63,
+      44,
+      1657
+    ],
+    "chars_per_page_median": 63,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

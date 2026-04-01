@@ -33,5 +33,29 @@
     ],
     "confidence": "high",
     "confidence_notes": "Der gedruckte Text ist sehr klar und gut lesbar. Die handschriftlichen Annotationen sind fragmentarisch und wurden als solche in den Notizen vermerkt."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 3763,
+    "total_words": 555,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      1022,
+      1856,
+      885
+    ],
+    "chars_per_page_median": 1022,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

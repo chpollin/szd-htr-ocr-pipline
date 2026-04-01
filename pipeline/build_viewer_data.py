@@ -3,7 +3,8 @@
 import json
 import re
 
-from config import GROUP_LABELS, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR
+from config import COLLECTIONS, DATA_DIR as TEI_DIR, GROUP_LABELS, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR
+from tei_context import parse_tei_for_object
 
 DOCS_DIR = PROJECT_ROOT / "docs"
 CATALOG_PATH = DOCS_DIR / "catalog.json"
@@ -76,8 +77,23 @@ def build():
         full_title = meta.get("title", "")
         title_clean, signature = extract_signature(full_title)
 
+        # Get classification + objecttyp from TEI
+        collection = data["collection"]
+        tei_file = TEI_DIR / COLLECTIONS[collection]["tei"]
+        tei_meta = parse_tei_for_object(tei_file, pid) or {}
+        classification = tei_meta.get("classification", "")
+        objecttyp = tei_meta.get("objecttyp", "")
+        # Fallback for Korrespondenzen (no TEI classification)
+        if not classification and collection == "korrespondenzen":
+            classification = "Korrespondenz"
+        if not objecttyp and collection == "korrespondenzen":
+            objecttyp = "Brief"
+
         verification = compute_verification(pages)
         verification["vlmConfidence"] = result.get("confidence", "")
+
+        # quality_signals from enriched JSON (added by transcribe.py or backfill)
+        qs = data.get("quality_signals", {})
 
         obj = {
             "id": result_file.stem,
@@ -89,6 +105,8 @@ def build():
             "title": full_title,
             "titleClean": title_clean,
             "signature": signature,
+            "classification": classification,
+            "objecttyp": objecttyp,
             "lang": meta.get("language", ""),
             "model": data.get("model", ""),
             "thumbnail": GAMS_BASE + pid + "/THUMBNAIL",
@@ -98,6 +116,8 @@ def build():
             "confidenceNotes": result.get("confidence_notes", ""),
             "pageCount": len(pages),
             "verification": verification,
+            "needsReview": qs.get("needs_review", False),
+            "needsReviewReasons": qs.get("needs_review_reasons", []),
         }
         objects.append(obj)
 
@@ -119,12 +139,16 @@ def build():
             "title": obj["title"],
             "titleClean": obj["titleClean"],
             "signature": obj["signature"],
+            "classification": obj["classification"],
+            "objecttyp": obj["objecttyp"],
             "lang": obj["lang"],
             "model": obj["model"],
             "confidence": obj["confidence"],
             "pageCount": obj["pageCount"],
             "thumbnail": obj["thumbnail"],
             "verification": obj["verification"],
+            "needsReview": obj["needsReview"],
+            "needsReviewReasons": obj["needsReviewReasons"],
         })
 
     catalog = {"objects": catalog_objects, "collections": collections}

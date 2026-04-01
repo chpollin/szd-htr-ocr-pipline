@@ -33,5 +33,31 @@
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls gut identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 987,
+    "total_words": 107,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "input_images": 3,
+    "chars_per_page": [
+      987,
+      0,
+      0
+    ],
+    "chars_per_page_median": 987,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
   }
 }

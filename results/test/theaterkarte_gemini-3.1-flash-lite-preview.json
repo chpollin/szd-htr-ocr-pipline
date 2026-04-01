@@ -33,5 +33,29 @@
     ],
     "confidence": "high",
     "confidence_notes": "Der gedruckte Text ist eindeutig lesbar. Die handschriftliche Notiz auf der Rückseite ist trotz der Bleistift-Schrift gut lesbar und entspricht der im Prompt gegebenen Information."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 249,
+    "total_words": 43,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      155,
+      19,
+      75
+    ],
+    "chars_per_page_median": 75,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }
