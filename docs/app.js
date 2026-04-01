@@ -30,7 +30,9 @@ const state = {
   sortField: 'collection',
   sortAsc: true,
   filterCollection: '',
+  filterGroup: '',
   filterConfidence: '',
+  filterReview: false,
   editMode: false,
   editedTranscriptions: new Map(),
   isLocal: false,
@@ -196,6 +198,77 @@ async function showViewer(objectId, page) {
   updateEditButtons();
 }
 
+/* ===== Review / Quality Signals ===== */
+
+function renderReviewCell(obj) {
+  if (obj.needsReview === undefined) return '';
+  if (obj.needsReview) {
+    const reasons = (obj.needsReviewReasons || []).join(', ') || 'Review empfohlen';
+    return `<span class="badge-review badge-review-yes" data-tooltip="${escapeHtml(reasons)}">Review</span>`;
+  }
+  return '<span class="badge-review badge-review-ok" data-tooltip="Keine Auffälligkeiten">OK</span>';
+}
+
+function renderQualitySignals(qs) {
+  if (!qs) return '';
+  const items = [];
+
+  // needs_review
+  if (qs.needs_review !== undefined) {
+    if (qs.needs_review) {
+      items.push(`<div class="viewer__quality-item">
+        <span class="badge-review badge-review-yes">Review empfohlen</span></div>`);
+    } else {
+      items.push(`<div class="viewer__quality-item">
+        <span class="badge-review badge-review-ok">OK</span></div>`);
+    }
+  }
+
+  // marker density
+  if (qs.marker_density !== undefined) {
+    const pct = (qs.marker_density * 100).toFixed(1);
+    items.push(`<div class="viewer__quality-item">
+      <span class="viewer__quality-label">Marker</span>
+      <span>${qs.marker_uncertain_count || 0}\u00d7 [?], ${qs.marker_illegible_count || 0}\u00d7 [...] (${pct}%)</span></div>`);
+  }
+
+  // empty pages
+  if (qs.empty_pages > 0) {
+    items.push(`<div class="viewer__quality-item">
+      <span class="viewer__quality-label">Leer</span>
+      <span>${qs.empty_pages} / ${qs.total_pages || '?'} Seiten</span></div>`);
+  }
+
+  // language match
+  if (qs.language_match !== undefined) {
+    const icon = qs.language_match ? '' : ' \u26A0';
+    const text = qs.language_match
+      ? qs.language_detected || '?'
+      : `${qs.language_detected || '?'} (erwartet: ${qs.language_expected || '?'})`;
+    items.push(`<div class="viewer__quality-item">
+      <span class="viewer__quality-label">Sprache</span>
+      <span>${escapeHtml(text)}${icon}</span></div>`);
+  }
+
+  // text volume
+  if (qs.total_chars) {
+    items.push(`<div class="viewer__quality-item">
+      <span class="viewer__quality-label">Umfang</span>
+      <span>${qs.total_chars.toLocaleString('de')} Zeichen, ${qs.total_words || '?'} Wörter</span></div>`);
+  }
+
+  let html = `<div class="viewer__quality"><div class="viewer__quality-grid">${items.join('')}</div>`;
+
+  // reasons
+  if (qs.needs_review && qs.needs_review_reasons && qs.needs_review_reasons.length > 0) {
+    const lis = qs.needs_review_reasons.map(r => `<li>${escapeHtml(r)}</li>`).join('');
+    html += `<div class="viewer__quality-reasons"><ul>${lis}</ul></div>`;
+  }
+
+  html += '</div>';
+  return html;
+}
+
 /* ===== Quality Rendering ===== */
 
 function renderQualityCell(v, confidence) {
@@ -268,8 +341,14 @@ function applyFilters() {
   if (state.filterCollection) {
     list = list.filter(o => o.collection === state.filterCollection);
   }
+  if (state.filterGroup) {
+    list = list.filter(o => (o.classification || o.groupLabel) === state.filterGroup);
+  }
   if (state.filterConfidence) {
     list = list.filter(o => o.confidence === state.filterConfidence);
+  }
+  if (state.filterReview) {
+    list = list.filter(o => o.needsReview);
   }
   if (state.searchQuery) {
     const q = state.searchQuery.toLowerCase();
@@ -284,6 +363,12 @@ function applyFilters() {
   const field = state.sortField;
   const dir = state.sortAsc ? 1 : -1;
   const getValue = (o) => {
+    if (field === 'classification') {
+      return o.classification || o.groupLabel || '';
+    }
+    if (field === 'needsReview') {
+      return o.needsReview ? 1 : 0;
+    }
     if (field === 'markerCount') {
       const v = o.verification || {};
       return (v.uncertainCount || 0) + (v.illegibleCount || 0);
@@ -333,8 +418,9 @@ function renderCatalog() {
         <td class="col-sig">${escapeHtml(obj.signature)}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
         <td class="col-collection">${COLLECTION_LABELS[obj.collection] || obj.collection}</td>
-        <td class="col-group" data-tooltip="${escapeHtml(obj.groupLabel)}"><span class="badge badge-group">${obj.group}</span> ${escapeHtml(obj.groupLabel)}</td>
+        <td class="col-group" data-tooltip="${escapeHtml(obj.objecttyp || '')}">${escapeHtml(obj.classification || obj.groupLabel)}</td>
         <td class="col-lang">${escapeHtml(obj.lang)}</td>
+        <td class="col-review">${renderReviewCell(obj)}</td>
         <td class="col-quality">${qualityHtml}</td>
         <td class="col-pages" data-tooltip="Seitenanzahl">${obj.pageCount || '—'}</td>
       </tr>`;
@@ -353,8 +439,15 @@ function renderCatalog() {
   const pagesEl = document.getElementById('paginationPages');
   pagesEl.textContent = total > 0 ? `Seite ${state.catalogPage + 1} / ${totalPages}` : '';
 
+  // Update group filter options based on current visible data
+  updateGroupFilter();
+
+  // Show review filter only if data has needsReview
+  const hasReviewData = state.catalog.some(o => o.needsReview !== undefined);
+  document.getElementById('filterReviewLabel').style.display = hasReviewData ? '' : 'none';
+
   // Show/hide clear button
-  const hasFilters = state.searchQuery || state.filterCollection || state.filterConfidence;
+  const hasFilters = state.searchQuery || state.filterCollection || state.filterGroup || state.filterConfidence || state.filterReview;
   document.getElementById('clearFilters').style.display = hasFilters ? '' : 'none';
 
   // Sort indicators
@@ -376,6 +469,35 @@ function initCatalogFilters() {
     opt.value = col;
     opt.textContent = COLLECTION_LABELS[col] || col;
     sel.appendChild(opt);
+  }
+  updateGroupFilter();
+}
+
+function updateGroupFilter() {
+  const sel = document.getElementById('filterGroup');
+  const prev = sel.value;
+
+  // Get groups available in current collection filter
+  let source = state.catalog;
+  if (state.filterCollection) {
+    source = source.filter(o => o.collection === state.filterCollection);
+  }
+  const groups = [...new Set(source.map(o => o.classification || o.groupLabel).filter(Boolean))].sort();
+
+  sel.innerHTML = '<option value="">Alle Gruppen</option>';
+  for (const g of groups) {
+    const opt = document.createElement('option');
+    opt.value = g;
+    opt.textContent = g;
+    sel.appendChild(opt);
+  }
+
+  // Restore selection if still valid, otherwise reset
+  if (groups.includes(prev)) {
+    sel.value = prev;
+  } else {
+    sel.value = '';
+    state.filterGroup = '';
   }
 }
 
@@ -433,7 +555,11 @@ function renderViewerNav() {
   const pages = obj.pages || [];
   const total = pages.length;
 
-  document.getElementById('pageInfo').textContent = `${state.currentPage + 1} / ${total}`;
+  const qs = obj.quality_signals;
+  const anomalies = qs?.page_length_anomalies || [];
+  const isAnomaly = anomalies.includes(state.currentPage);
+  const anomalyMark = isAnomaly ? ' <span class="viewer__page-anomaly" data-tooltip="Seitenlängen-Anomalie">\u26A0</span>' : '';
+  document.getElementById('pageInfo').innerHTML = `${state.currentPage + 1} / ${total}${anomalyMark}`;
   document.getElementById('prevPageBtn').disabled = state.currentPage === 0;
   document.getElementById('nextPageBtn').disabled = state.currentPage >= total - 1;
 
@@ -487,10 +613,15 @@ function renderViewerPage() {
     renderReadMode(transcriptionText, notesText, !!edited);
   }
 
-  // Verification bar
+  // Verification / quality signals bar
   const bar = document.getElementById('verificationBar');
   if (bar) {
-    bar.innerHTML = renderVerificationBar(obj);
+    const qs = obj.quality_signals;
+    if (qs) {
+      bar.innerHTML = renderQualitySignals(qs);
+    } else {
+      bar.innerHTML = renderVerificationBar(obj);
+    }
     if (obj.confidenceNotes) {
       bar.innerHTML += `<div class="viewer__vlm-notes">${escapeHtml(obj.confidenceNotes)}</div>`;
     }
@@ -650,8 +781,20 @@ function initEvents() {
     renderCatalog();
   });
 
+  document.getElementById('filterGroup').addEventListener('change', e => {
+    state.filterGroup = e.target.value;
+    state.catalogPage = 0;
+    renderCatalog();
+  });
+
   document.getElementById('filterConfidence').addEventListener('change', e => {
     state.filterConfidence = e.target.value;
+    state.catalogPage = 0;
+    renderCatalog();
+  });
+
+  document.getElementById('filterReview').addEventListener('change', e => {
+    state.filterReview = e.target.checked;
     state.catalogPage = 0;
     renderCatalog();
   });
@@ -659,10 +802,14 @@ function initEvents() {
   document.getElementById('clearFilters').addEventListener('click', () => {
     state.searchQuery = '';
     state.filterCollection = '';
+    state.filterGroup = '';
     state.filterConfidence = '';
+    state.filterReview = false;
     searchInput.value = '';
     document.getElementById('filterCollection').value = '';
+    document.getElementById('filterGroup').value = '';
     document.getElementById('filterConfidence').value = '';
+    document.getElementById('filterReview').checked = false;
     state.catalogPage = 0;
     renderCatalog();
   });

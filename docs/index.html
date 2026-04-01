@@ -36,12 +36,18 @@
     <select class="catalog__filter" id="filterCollection">
       <option value="">Alle Sammlungen</option>
     </select>
+    <select class="catalog__filter" id="filterGroup">
+      <option value="">Alle Gruppen</option>
+    </select>
     <select class="catalog__filter" id="filterConfidence">
       <option value="">Alle Qualität</option>
       <option value="high">high</option>
       <option value="medium">medium</option>
       <option value="low">low</option>
     </select>
+    <label class="catalog__toggle" id="filterReviewLabel" style="display:none">
+      <input type="checkbox" id="filterReview"> Nur Review
+    </label>
     <button type="button" class="catalog__clear-btn" id="clearFilters">Filter zurücksetzen</button>
   </div>
 
@@ -54,8 +60,9 @@
           <th class="col-sig" data-sort="signature">Signatur <span class="sort-arrow"></span></th>
           <th class="col-pid" data-sort="pid">PID <span class="sort-arrow"></span></th>
           <th class="col-collection" data-sort="collection">Sammlung <span class="sort-arrow"></span></th>
-          <th class="col-group" data-sort="groupLabel">Gruppe <span class="sort-arrow"></span></th>
+          <th class="col-group" data-sort="classification">Typ <span class="sort-arrow"></span></th>
           <th class="col-lang" data-sort="lang">Sprache <span class="sort-arrow"></span></th>
+          <th class="col-review" data-sort="needsReview" data-tooltip="Review erforderlich?">Review <span class="sort-arrow"></span></th>
           <th class="col-quality" data-sort="markerCount" data-tooltip="Unsicherheits-Marker + VLM-Einschätzung">Qualität <span class="sort-arrow"></span></th>
           <th class="col-pages" data-sort="pageCount" data-tooltip="Seitenanzahl">S. <span class="sort-arrow"></span></th>
         </tr>
