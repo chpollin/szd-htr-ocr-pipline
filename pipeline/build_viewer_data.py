@@ -83,11 +83,19 @@ def build():
         tei_meta = parse_tei_for_object(tei_file, pid) or {}
         classification = tei_meta.get("classification", "")
         objecttyp = tei_meta.get("objecttyp", "")
-        # Fallback for Korrespondenzen (no TEI classification)
+        # Fallback for Korrespondenzen (no TEI classification) — parse title
+        if not objecttyp and collection == "korrespondenzen":
+            tl = full_title.lower()
+            if "ansichtspostkarte" in tl:
+                objecttyp = "Ansichtspostkarte"
+            elif "postkarte" in tl:
+                objecttyp = "Postkarte"
+            elif "telegramm" in tl:
+                objecttyp = "Telegramm"
+            else:
+                objecttyp = "Brief"
         if not classification and collection == "korrespondenzen":
             classification = "Korrespondenz"
-        if not objecttyp and collection == "korrespondenzen":
-            objecttyp = "Brief"
 
         verification = compute_verification(pages)
         verification["vlmConfidence"] = result.get("confidence", "")

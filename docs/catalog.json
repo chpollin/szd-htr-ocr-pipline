@@ -294,6 +294,34 @@
       ]
     },
     {
+      "id": "o_szd.105_gemini-3.1-flash-lite-preview",
+      "collection": "lebensdokumente",
+      "label": "Vertrag Editorial Juventud S.A.",
+      "group": "B",
+      "groupLabel": "Typoskript",
+      "pid": "o:szd.105",
+      "title": "Vertrag Editorial Juventud S.A., SZ-AAP/L13.28",
+      "titleClean": "Vertrag Editorial Juventud S.A.",
+      "signature": "SZ-AAP/L13.28",
+      "classification": "Verlagsverträge",
+      "objecttyp": "Typoskript",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "high",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.105/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 4609,
+        "emptyPages": 0,
+        "avgCharsPerPage": 922,
+        "vlmConfidence": "high"
+      },
+      "needsReview": false,
+      "needsReviewReasons": []
+    },
+    {
       "id": "certificate_gemini-3.1-flash-lite-preview",
       "collection": "lebensdokumente",
       "label": "Certified Copy of an Entry of Marriage",

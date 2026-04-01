@@ -247,7 +247,20 @@ Naechster Schritt: [Was kommt als naechstes]
 - Metadaten-Bar umstrukturiert: Metadaten + Verifikation in einer kompakten Zeile, immer sichtbar (kein "i"-Toggle mehr)
 - Nav-Bar entschlackt: nur noch Objekt-Nav + Seiten-Nav + Edit/JSON
 
-**Schritt 3 (Statistik-Uebersicht): ZURÜCKGESTELLT** — erst sinnvoll nach Batch-Lauf (bei 16 Objekten wenig Aussagekraft)
+**CSS/HTML-Cleanup (Commit `52a967a`):**
+- 7 Farb-Variablen extrahiert (--sz-success, --sz-warning, --sz-danger, --sz-img-bg)
+- 6 redundante font-family-Deklarationen entfernt
+- Toten CSS/JS-Code entfernt (.badge-group, .viewer__verification, renderVerificationBar)
+- Responsive fuer Image-Controls ergaenzt
+- Help-Modal aktualisiert (Zoom/Pan/Rotate-Doku, Shortcuts +/-/0/R, Gruppe G)
+- HTML-Semantik: viewer div → main
+
+**Korrespondenzen-Typ-Erkennung:**
+- Fallback erkennt jetzt Brief/Postkarte/Ansichtspostkarte/Telegramm aus dem Titel
+- Verteilung im Bestand: 618 Briefe, 413 Andere, 94 Postkarten, 56 Ansichtspostkarten, 5 Telegramme
+- Hinweis: Aenderung an `pipeline/build_viewer_data.py` (Cross-Lane, von Forschungsleitstelle autorisiert)
+
+**Schritt 3 (Statistik-Uebersicht): ZURÜCKGESTELLT** — erst sinnvoll nach Batch-Lauf
 
 ### Lane 2 — Methodik
 **Stand:** 2026-04-01 (Session 8).
