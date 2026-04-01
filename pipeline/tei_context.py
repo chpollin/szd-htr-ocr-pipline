@@ -129,6 +129,8 @@ def resolve_group(metadata: dict, collection: str) -> str:
         return "korrekturfahne"
     if "zeitungsausschnitt" in otyp:
         return "zeitungsausschnitt"
+    if "konvolut" in otyp:
+        return "konvolut"
     if "notizbuch" in otyp or ("manuskript" in otyp and "tagebü" in classif):
         return "handschrift"
     if "manuskript" in otyp:

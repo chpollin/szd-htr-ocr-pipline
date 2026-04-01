@@ -359,6 +359,30 @@
         "avgCharsPerPage": 2328,
         "vlmConfidence": "high"
       }
+    },
+    {
+      "id": "o_szd.277_gemini-3.1-flash-lite-preview",
+      "collection": "werke",
+      "label": "Der Fall von Byzanz",
+      "group": "G",
+      "groupLabel": "Konvolut",
+      "pid": "o:szd.277",
+      "title": "Der Fall von Byzanz",
+      "titleClean": "Der Fall von Byzanz",
+      "signature": "",
+      "lang": "Deutsch",
+      "model": "gemini-3.1-flash-lite-preview",
+      "confidence": "medium",
+      "pageCount": 5,
+      "thumbnail": "https://gams.uni-graz.at/o:szd.277/THUMBNAIL",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 3827,
+        "emptyPages": 2,
+        "avgCharsPerPage": 1276,
+        "vlmConfidence": "medium"
+      }
     }
   ],
   "collections": [

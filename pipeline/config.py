@@ -51,6 +51,7 @@ GROUP_LABELS = {
     "formular":          ("C", "Formular"),
     "tabellarisch":      ("E", "Tabellarisch"),
     "korrekturfahne":    ("F", "Korrekturfahne"),
+    "konvolut":          ("G", "Konvolut"),
     "zeitungsausschnitt": ("H", "Zeitungsausschnitt"),
     "korrespondenz":     ("I", "Korrespondenz"),
 }

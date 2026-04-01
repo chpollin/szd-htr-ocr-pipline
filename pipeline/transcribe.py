@@ -43,6 +43,7 @@ GROUP_PROMPTS = {
     "formular": load_prompt("group_c_formular.md"),
     "tabellarisch": load_prompt("group_e_tabellarisch.md"),
     "korrekturfahne": load_prompt("group_f_korrekturfahne.md"),
+    "konvolut": load_prompt("group_g_konvolut.md"),
     "zeitungsausschnitt": load_prompt("group_h_zeitungsausschnitt.md"),
     "korrespondenz": load_prompt("group_i_korrespondenz.md"),
 }
