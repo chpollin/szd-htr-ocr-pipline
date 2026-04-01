@@ -66,16 +66,20 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 ## Phase 5: TEI-Integration
 
-### 5a: Interchange-Format (szd-htr → teiCrafter)
-- [ ] L2: HTR-Interchange-Format spezifizieren (JSON Schema) → `knowledge/htr-interchange-format.md`
-- [ ] L3: szd-htr-Output auf Interchange-Format abbilden (Export oder Konformitaet)
-- [ ] teiCrafter-Repo: JSON-Import in Step 1 einbauen (neuer Import-Typ "HTR/OCR JSON")
-- [ ] teiCrafter-Repo: Mapping-Kontext automatisch aus JSON vorbelegen (Sprache, Epoche, Dokumenttyp)
+### 5a: Interchange-Format und teiCrafter-Integration (Spezifikation fertig)
+- [x] L2: HTR-Interchange-Format spezifizieren (JSON Schema v0.1) → `knowledge/htr-interchange-format.md`
+- [x] L2: teiCrafter-Integrationskonzept → `knowledge/teiCrafter-integration.md` (JSON-Import, 3 Mapping-Templates, Sprach-/Epochen-Erweiterung, DTABf-Schema-Erweiterungen)
+- [x] L2: TEI-Zielstruktur → `knowledge/tei-target-structure.md` (DTABf-Profil, Markup→TEI-Mapping, NER-Strategie)
+- [ ] L3: szd-htr-Output auf Interchange-Format abbilden (`export_interchange.py`)
+- [ ] teiCrafter-Repo: JSON-Import in Step 1 einbauen
+- [ ] teiCrafter-Repo: Sprachen (en/fr/it/es) und Epoche (20c) ergaenzen
+- [ ] teiCrafter-Repo: DTABf-Schema um gap/del/add/stamp/table/cb erweitern
+- [ ] teiCrafter-Repo: SZD-Mapping-Templates einfuegen (3 Templates)
 
 ### 5b: TEI-Annotation & Integration
 - [ ] teiCrafter: HTR-JSON → TEI-XML (LLM-gestuetzte Annotation mit DTABf-Schema)
-- [ ] NER auf transkribierten Texten
-- [ ] Integration in SZD-Datenmodell
+- [ ] NER auf transkribierten Texten (Phase 1: Personen, Orte, Daten)
+- [ ] Integration in SZD-Datenmodell (separate TEI-Dateien pro Objekt, verknuepft via PID)
 
 ## Phase 6: DIA-XAI-Bewertung (ab Oktober 2026)
 

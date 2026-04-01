@@ -70,6 +70,8 @@ szd-htr/
 ├── Lane.md                          ← Lane-Koordination (Aufträge, Status, Abhängigkeiten)
 ├── requirements.txt                 ← google-genai, python-dotenv
 ├── .env                             ← API Keys (nicht committet)
+├── schemas/
+│   └── htr-interchange-v0.1.json    ← Validierbares JSON-Schema (Interchange-Format)
 ├── pipeline/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus

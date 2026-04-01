@@ -67,6 +67,15 @@ function editKey(objectId, page) {
   return `${objectId}:${page}`;
 }
 
+function showToast(message, durationMs = 2000) {
+  const el = document.getElementById('toast');
+  if (!el) return;
+  el.textContent = message;
+  el.classList.add('visible');
+  clearTimeout(el._timer);
+  el._timer = setTimeout(() => el.classList.remove('visible'), durationMs);
+}
+
 /* ===== Local Detection ===== */
 
 function detectLocal() {
@@ -163,10 +172,9 @@ function resetDiffMode() {
   state.diffMode = false;
   const el = id => document.getElementById(id);
   el('diffPanel') && (el('diffPanel').style.display = 'none');
-  el('imgPanel') && (el('imgPanel').style.display = '');
   el('textPanel') && (el('textPanel').style.display = '');
-  el('panelLabelLeft') && (el('panelLabelLeft').style.display = '');
-  el('panelLabelRight') && (el('panelLabelRight').style.display = '');
+  const lr = el('panelLabelRight');
+  if (lr) lr.textContent = 'Transkription';
   const db = el('diffBtn');
   if (db) db.classList.remove('active');
 }
@@ -363,7 +371,7 @@ function renderStats() {
       </div>
     </div>`;
 
-  el.style.display = '';
+  el.style.display = 'block';
 
   document.getElementById('statsToggle').addEventListener('click', () => {
     const details = document.getElementById('statsDetails');
@@ -735,27 +743,54 @@ function saveCurrentEdit() {
 
 function updateEditButtons() {
   const editBtn = document.getElementById('editBtn');
-  const saveBtn = document.getElementById('saveBtn');
+  const jsonBtn = document.getElementById('saveBtn');
+  const editSaveBtn = document.getElementById('editSaveBtn');
+  const undoPageBtn = document.getElementById('editUndoPageBtn');
   const discardBtn = document.getElementById('discardBtn');
   const indicator = document.getElementById('editIndicator');
+  const statusBar = document.getElementById('editStatus');
+
+  const objCount = state.currentObjectId ? getEditCount(state.currentObjectId) : 0;
+  const totalCount = state.editedTranscriptions.size;
+  const hasPageEdit = state.currentObjectId
+    ? state.editedTranscriptions.has(editKey(state.currentObjectId, state.currentPage))
+    : false;
 
   if (!state.isLocal) {
     editBtn.disabled = true;
     editBtn.dataset.tooltip = 'Lokal starten für Edit-Modus: python -m http.server 8000';
-    saveBtn.disabled = true;
-    saveBtn.dataset.tooltip = 'Lokal starten für Export: python -m http.server 8000';
+    jsonBtn.disabled = true;
+    jsonBtn.dataset.tooltip = 'Lokal starten für Export: python -m http.server 8000';
   } else {
     editBtn.disabled = false;
     editBtn.dataset.tooltip = state.editMode ? 'Zurück zur Leseansicht' : 'Transkription bearbeiten';
-    saveBtn.disabled = false;
-    saveBtn.dataset.tooltip = 'Korrekturen als JSON herunterladen';
+    jsonBtn.disabled = false;
+    jsonBtn.dataset.tooltip = 'Korrekturen als JSON herunterladen';
   }
 
   editBtn.classList.toggle('active', state.editMode);
+  indicator.classList.toggle('visible', objCount > 0);
 
-  const count = state.currentObjectId ? getEditCount(state.currentObjectId) : 0;
-  indicator.classList.toggle('visible', count > 0);
-  discardBtn.style.display = count > 0 && state.isLocal ? '' : 'none';
+  // Show save/undo only in edit mode
+  editSaveBtn.style.display = state.editMode ? '' : 'none';
+  undoPageBtn.style.display = state.editMode && hasPageEdit ? '' : 'none';
+  discardBtn.style.display = objCount > 0 && state.isLocal ? '' : 'none';
+
+  // Edit status bar
+  if (statusBar) {
+    if (objCount > 0) {
+      const pageLabel = objCount === 1 ? 'Seite' : 'Seiten';
+      statusBar.innerHTML = `
+        <span class="viewer__edit-status-icon">&#9998;</span>
+        <span class="viewer__edit-status-text">
+          <strong>${objCount} ${pageLabel}</strong> bearbeitet an diesem Objekt${totalCount > objCount ? ` (${totalCount} gesamt)` : ''}
+        </span>
+        <span class="viewer__edit-status-storage">localStorage · bleibt im Browser</span>`;
+      statusBar.style.display = '';
+    } else {
+      statusBar.style.display = 'none';
+    }
+  }
 }
 
 /* ===== Export ===== */
@@ -1095,10 +1130,9 @@ function toggleDiffMode() {
   }
 
   state.diffMode = true;
-  document.getElementById('imgPanel').style.display = 'none';
+  // Hide only text panel; image panel stays visible
   document.getElementById('textPanel').style.display = 'none';
-  document.getElementById('panelLabelLeft').style.display = 'none';
-  document.getElementById('panelLabelRight').style.display = 'none';
+  document.getElementById('panelLabelRight').textContent = 'Diff (Cross-Model)';
   document.getElementById('diffPanel').style.display = '';
   document.getElementById('diffBtn').classList.add('active');
   renderDiffView();
@@ -1220,26 +1254,48 @@ function initEvents() {
   // Viewer: diff
   document.getElementById('diffBtn').addEventListener('click', toggleDiffMode);
 
-  // Viewer: edit
+  // Viewer: edit toggle
   document.getElementById('editBtn').addEventListener('click', () => {
     if (!state.isLocal) return;
-    // Exit diff mode if active
     if (state.diffMode) toggleDiffMode();
     if (state.editMode) saveCurrentEdit();
     state.editMode = !state.editMode;
     renderViewerPage();
   });
 
-  // Viewer: save/download
+  // Viewer: explicit save (in edit mode)
+  document.getElementById('editSaveBtn').addEventListener('click', () => {
+    if (!state.editMode || !state.isLocal) return;
+    saveCurrentEdit();
+    showToast('Gespeichert (localStorage)');
+    updateEditButtons();
+  });
+
+  // Viewer: undo current page
+  document.getElementById('editUndoPageBtn').addEventListener('click', () => {
+    if (!state.currentObjectId) return;
+    const key = editKey(state.currentObjectId, state.currentPage);
+    if (state.editedTranscriptions.has(key)) {
+      state.editedTranscriptions.delete(key);
+      saveEditsToStorage();
+      renderViewerPage();
+      showToast(`Seite ${state.currentPage + 1} zurückgesetzt`);
+    }
+  });
+
+  // Viewer: JSON download
   document.getElementById('saveBtn').addEventListener('click', () => {
     if (!state.isLocal || !state.currentObjectId) return;
     if (state.editMode) saveCurrentEdit();
     downloadJson(state.currentObjectId);
+    showToast('JSON exportiert');
   });
 
-  // Viewer: discard edits
+  // Viewer: discard all edits for this object
   document.getElementById('discardBtn').addEventListener('click', () => {
     if (!state.currentObjectId) return;
+    const count = getEditCount(state.currentObjectId);
+    if (count === 0) return;
     for (const key of [...state.editedTranscriptions.keys()]) {
       if (key.startsWith(state.currentObjectId + ':')) {
         state.editedTranscriptions.delete(key);
@@ -1248,10 +1304,22 @@ function initEvents() {
     saveEditsToStorage();
     state.editMode = false;
     renderViewerPage();
+    showToast(`${count} Seite(n) zurückgesetzt`);
   });
 
   // Keyboard
   document.addEventListener('keydown', e => {
+    // Ctrl+S / Cmd+S to save in edit mode (works even in textareas)
+    if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+      e.preventDefault();
+      if (state.editMode && state.isLocal) {
+        saveCurrentEdit();
+        showToast('Gespeichert (localStorage)');
+        updateEditButtons();
+      }
+      return;
+    }
+
     // Don't capture when typing in inputs
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') return;
 

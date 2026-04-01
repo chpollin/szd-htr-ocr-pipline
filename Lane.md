@@ -1,6 +1,6 @@
 # Lane-Koordination: SZD-HTR-Projekt
 
-Letzte Aktualisierung: 2026-04-01 (Session 8, Forschungsleitstelle v0.4, knowledge/ refactored)
+Letzte Aktualisierung: 2026-04-01 (Session 8–10, Forschungsleitstelle v0.5)
 
 ---
 
@@ -36,10 +36,31 @@ L2: verification-concept.md §2.5 ──→ L3: quality_signals JSON-Spec
 L2: verification-concept.md §5   ──→ L1: Frontend-Anforderungen
 L3: CER-Script                   ──→ L2: Pilot-Auswertung
 
-L2: htr-interchange-format.md   ──→ L3: Export + teiCrafter-Integration
+L2: htr-interchange-format.md        ──→ L3: export_interchange.py (Seitentrenner |{n}|)
+L2: teiCrafter-integration.md        ──→ teiCrafter-Repo: JSON-Import, Schema, Templates
+L2: tei-target-structure.md          ──→ TEI-Zielformat fuer Phase 5b
 
 L2: verification-by-vision Spec ──→ L3: verify.py (Claude+Gemini Vision)
   ──→ L1: Error-Markup-Rendering + Status-Badges
+```
+
+### Naechste Schritte (Prioritaet)
+
+```
+SOFORT (parallel, unabhaengig voneinander):
+  ├── Operator: PILOT durchfuehren (5 Seiten, 2-3h) ← KRITISCHER PFAD
+  ├── L3: quality_signals.py implementieren + Backfill + Build
+  ├── L3: Gezieltes Sample fertigstellen (~74 Objekte)
+  └── L3: export_interchange.py (Spec steht)
+
+NACH PILOT:
+  ├── L2: pilot-results.md (CER pro Gruppe, Fehlertyp-Verteilung)
+  ├── L2: Sample-Design finalisieren (31 Objekte, Regeln aus pilot-design.md §4)
+  └── L2: Prompt-Experiment-Design
+
+NACH QUALITY_SIGNALS + BUILD:
+  ├── L1: quality_signals-UI mit echten Daten testen
+  └── Operator: Visueller Review der needs_review-Objekte
 ```
 
 ---
@@ -66,7 +87,7 @@ Du bist fuer die Pipeline (`pipeline/`), die Ergebnisse (`results/`) und die Dat
 - `group_text_density` erst ab 10 Objekte/Gruppe aktivieren.
 
 **Schritt 3: Backfill + Build**
-- `quality_signals` fuer ALLE bestehenden Objekte in `results/` nachberechnen (inzwischen ~30+).
+- `quality_signals` fuer ALLE bestehenden Objekte in `results/` nachberechnen (aktuell ~61).
 - `build_viewer_data.py`: `quality_signals` + `needs_review` in `catalog.json` und `data/{collection}.json` durchreichen.
 - Build ausfuehren + pruefen.
 
@@ -119,38 +140,20 @@ Naechster Schritt: [Was kommt als naechstes]
 
 ### Was du wissen musst
 
-Du bist fuer das Frontend (`docs/`) zustaendig — Katalog, Viewer, Design-System. L3 erweitert gerade den Datenbestand auf ~74 Objekte und implementiert danach `quality_signals`. Sobald L3 `build_viewer_data.py` ausfuehrt, enthalten die JSONs neue Felder. Ausserdem wird es spaeter einen Interchange-Format-Export geben (L3 Schritt 5) — das betrifft dich erst bei der Diff-Ansicht.
+Du bist fuer das Frontend (`docs/`) zustaendig — Katalog, Viewer, Design-System. Du hast Schritt 1-4 abgeschlossen. L3 hat ~61 Objekte transkribiert und arbeitet am gezielten Sample (~74). Die Forschungsleitstelle fuehrt parallel Verification-by-Vision durch (Claude Code Agent liest Faksimiles). Dein naechster Fokus: quality_signals-UI testen (sobald L3 liefert) und Error-Markup rendern (sobald Verification-Ergebnisse vorliegen).
 
 ### Deine Aufgaben (in dieser Reihenfolge)
 
-**Schritt 1: Classification-Pruefung — ERLEDIGT** (Commit `e1b90e8`)
+**Schritt 1: Classification-Pruefung — ERLEDIGT**
 
 **Schritt 2: quality_signals-UI — CODE FERTIG, WARTET AUF L3-DATEN**
-- Sobald L3 Schritt 3 (Backfill + Build) abschliesst → Reload + visueller Test mit ~30+ Objekten.
+- Sobald L3 Schritt 3 (Backfill + Build) abschliesst → Reload + visueller Test mit ~61 Objekten.
 
-**Schritt 3: Statistik-Dashboard (JETZT MACHBAR)**
-- L3 hat inzwischen ~30 Objekte transkribiert. Bitte den Operator, `python pipeline/build_viewer_data.py` auszufuehren, damit du mit aktuellen Daten arbeiten kannst.
-- Baue eine Statistik-Uebersicht oberhalb der Katalog-Tabelle:
-  - Gesamtzahl transkribierter Objekte
-  - Verteilung nach Sammlung (Balken oder Zahlen)
-  - Verteilung nach Gruppe (A-I)
-  - Wenn quality_signals vorhanden: Anteil needs_review
-- Die Daten kommen aus `catalog.json` — zaehle dort die Eintraege.
-- Halte es kompakt (1-2 Zeilen, aufklappbar fuer Details).
-- Design: SZD-Farbsystem, konsistent mit bestehendem Katalog.
+**Schritt 3: Statistik-Dashboard — ERLEDIGT**
 
-**Schritt 4: Diff-Ansicht — UI-Konzept skizzieren (JETZT MACHBAR)**
-- Fuer Cross-Model-Verification (spaeter): Zwei Transkriptionen desselben Objekts vergleichen.
-- L2 hat die Anforderungen in `knowledge/verification-concept.md` §5 skizziert.
-- Du brauchst noch keine echten Daten — entwirf das UI-Konzept:
-  - Wo im Viewer? (Tab, Toggle, Split-View?)
-  - Wie zeigt man Differenzen? (Inline-Diff mit Farbmarkierung? Side-by-Side?)
-  - Wie waehlt man den Provider? (Dropdown, Toggle-Button?)
-  - Wie zeigt man Agreement/Disagreement-Statistik pro Seite?
-- Implementiere einen Prototyp mit Platzhalter-Daten (hardcoded, nicht von L3 abhaengig).
-- Ergebnis: Funktionierender UI-Prototyp, den der Operator visuell pruefen kann.
+**Schritt 4: Diff-Ansicht UI-Prototyp — ERLEDIGT**
 
-**Schritt 5: Verification-Status + Error-Markup rendern (NACH L3 verify.py)**
+**Schritt 5: Verification-Status + Error-Markup rendern (NACH Forschungsleitstelle + L3)**
 - Wenn L3 Verification-by-Vision implementiert hat, enthalten die Daten neue Felder:
   - `verification_status`: `llm_verified` | `llm_error_suggestion` | `unverified` | `human_verified`
   - Inline-Markup im Transkriptionstext: `«original→korrektur|konfidenz»`
@@ -196,9 +199,13 @@ Du bist fuer die methodische Fundierung zustaendig — Evaluationsdesign, Spezif
 
 **Schritt 1: Pilot-Design — ERLEDIGT**
 
-**Schritt 2: HTR-Interchange-Format — ERLEDIGT** (`knowledge/htr-interchange-format.md`, JSON Schema v0.1)
+**Schritt 2: HTR-Interchange-Format — ERLEDIGT**
 
-**Schritt 3: Verification-by-Vision spezifizieren (NEU — PRIORITAET)**
+**Schritt 3: teiCrafter-Integrationskonzept — ERLEDIGT** (`knowledge/teiCrafter-integration.md`)
+
+**Schritt 4: TEI-Zielstruktur — ERLEDIGT** (`knowledge/tei-target-structure.md`)
+
+**Schritt 5: Verification-by-Vision spezifizieren (PRIORITAET)**
 - Neues Verifikationsverfahren: Zwei VLMs (Claude Vision + Gemini Vision) vergleichen unabhaengig das Faksimile-Bild mit der Transkription und identifizieren Fehler.
 - Spezifiziere in `knowledge/verification-by-vision.md`:
   - **Workflow — zwei Kanaele:**
@@ -214,31 +221,14 @@ Du bist fuer die methodische Fundierung zustaendig — Evaluationsdesign, Spezif
   - **Kosten-/Aufwandsschaetzung:** Pro Seite 1 Gemini-API-Call (Claude-Seite ist kostenlos). Bei ~74 Objekten × ~3 Seiten = ~220 Calls. Claude-Code-Agent-Zeit: ~2-5 Min pro Objekt.
   - **Abgrenzung:** Verification-by-Vision ersetzt NICHT den manuellen Pilot (der misst CER). Es ergaenzt quality_signals um eine direkte Bild↔Text-Pruefung.
 
-**Schritt 4: teiCrafter-Integrationskonzept (NEU)**
-- Lies das teiCrafter-Repo: `C:\Users\Chrisi\Documents\GitHub\ResearchTools\teiCrafter`
-- Konkretisiere, wie der JSON-Import in teiCrafter Step 1 aussehen soll:
-  - Welche Felder braucht Step 2 (Mapping) minimal? (sourceType, language, epoch, project)
-  - Wie werden mehrseitige Dokumente behandelt? (Seitentrenner → `<pb/>`)
-  - Welche teiCrafter-Mapping-Rules brauchen wir fuer SZD-Dokumente? (DTABf-Profil, Zweig-spezifische Entitaeten)
-- Entwurf fuer SZD-spezifische Mapping-Rules als Template (analog zu den bestehenden Demo-Mappings in teiCrafter `docs/data/demo/mappings/`)
-- Ergebnis: Erweitere `knowledge/htr-interchange-format.md` §4 oder erstelle `knowledge/teicroafter-integration.md`
-
-**Schritt 4: TEI-Zielstruktur definieren (NEU)**
-- Wie soll das fertige TEI-XML fuer ein SZD-Objekt aussehen?
-- Welches TEI-Profil? (DTABf? Eigenes SZD-Profil? Kompatibilitaet mit bestehendem SZD-Datenmodell auf GAMS?)
-- Welche Named Entities sind relevant? (Personen, Orte, Werktitel, Institutionen — im Zweig-Kontext)
-- Wie wird die diplomatische Transkription in TEI abgebildet? (`<del>`, `<add>`, `<unclear>`, `<gap>`)
-- Beziehe dich auf das bestehende SZD-Datenmodell: https://stefanzweig.digital/
-- Ergebnis: `knowledge/tei-target-structure.md`
-
-**Schritt 5: Pilot-Ergebnisse auswerten (WARTET AUF Operator)**
+**Schritt 6: Pilot-Ergebnisse auswerten (WARTET AUF Operator)**
 - Voraussetzung: Operator hat Pilot durchgefuehrt, Ergebnisse liegen vor.
 - CER pro Seite und pro Gruppe berechnen (manuell oder mit L3-Script).
 - Annotationsprotokoll ggf. anpassen.
 - 30-Objekt-GT-Sample-Design finalisieren (informiert durch Pilot-CER).
 - Ergebnis: `knowledge/pilot-results.md`
 
-**Schritt 6: Prompt-Experiment-Design**
+**Schritt 7: Prompt-Experiment-Design**
 - Gepaarter 3-Varianten-Vergleich: V1 nur System, V2 System+Gruppe, V3 System+Gruppe+Kontext.
 - 30 GT-Objekte × 3 Varianten = 90 API-Calls.
 - Design als Abschnitt in `knowledge/verification-concept.md` §3 verfeinern.
@@ -263,6 +253,43 @@ Naechster Schritt: [Was kommt als naechstes]
 - Keine Aenderungen an `pipeline/` oder `docs/`.
 - Keine Entscheidungen treffen, die Batch-Kosten verursachen (das entscheidet der Operator).
 - Neue knowledge/-Dateien immer mit Obsidian-Frontmatter (siehe index.md fuer Schema).
+
+---
+
+## Auftraege: Forschungsleitstelle (Koordination + Verification-by-Vision)
+
+### Eigene Aufgaben
+
+**Schritt 1: Build ausloesen**
+- `python pipeline/build_viewer_data.py` — Frontend auf ~61 Objekte aktualisieren.
+- Operator fuehrt aus, Forschungsleitstelle prueft Ergebnis im Frontend.
+
+**Schritt 2: Verification-by-Vision durchfuehren (PRIORITAET)**
+- Systematisch Objekte verifizieren: Faksimile-Bild lesen (Read-Tool), Transkription lesen, Zeichen fuer Zeichen vergleichen.
+- Prioritaet: Objekte mit hoher Fehlerwahrscheinlichkeit zuerst:
+  1. Konvolute (Gruppe G) — o_szd.277 bereits geprueft: `llm_error_suggestion`
+  2. Handschrift (Gruppe A) — o_szd.72 bereits geprueft: `llm_error_suggestion`
+  3. Neue Batch-Ergebnisse (ungepruefte Lebensdokumente, Werke)
+  4. Einfache Objekte (Typoskripte, Formulare) als Gegenprobe
+- Pro Objekt: Subagent starten, Ergebnis als JSON dokumentieren.
+- Ergebnisse in Result-JSONs schreiben (`verification.claude` Abschnitt).
+- Bereits verifiziert: o_szd.161 (verified), o_szd.277 (error_suggestion), o_szd.72 (error_suggestion).
+
+**Schritt 3: Verification-by-Vision Spec schreiben**
+- Basierend auf den praktischen Erfahrungen: `knowledge/verification-by-vision.md`
+- Formalisiert den Workflow, Error-Markup-Format, JSON-Schema, Konfidenz-Modell.
+- Gibt L3 die Grundlage fuer `verify_gemini.py` und L1 fuer Error-Markup-Rendering.
+
+**Schritt 4: Pilot vorbereiten**
+- Die 5 Pilot-Seiten aus `knowledge/pilot-design.md` selbst via Vision pruefen.
+- Ergebnis dem Operator vorlegen als Vorab-Einschaetzung (ersetzt nicht den manuellen Pilot).
+
+### Koordinationsaufgaben (laufend)
+
+- Lane.md aktuell halten (Status, Auftraege, Entscheidungen)
+- L3-Report liegt vor (Session 10, Lane.md Status-Sektion aktualisiert)
+- Plan.md synchron halten
+- knowledge/index.md bei neuen Dateien aktualisieren
 
 ---
 
@@ -300,22 +327,86 @@ Naechster Schritt: [Was kommt als naechstes]
 - Responsive: Side-by-Side → Stacked bei < 900px
 - **Naechster Schritt:** Anbindung an echte Cross-Model-Daten (wenn L3 zweiten Provider liefert)
 
+**Edit-Modus UX-Verbesserung: ERLEDIGT**
+- Expliziter "Speichern"-Button (+ Ctrl+S) mit Toast-Feedback "Gespeichert (localStorage)"
+- Per-Page Undo: "Seite"-Button setzt einzelne Seite auf Original zurueck
+- "Alles verwerfen" fuer alle Aenderungen am Objekt
+- Status-Leiste: zeigt Anzahl bearbeiteter Seiten + Speicherort (localStorage)
+- Toast-Benachrichtigungen fuer alle Aktionen (Speichern, Reset, JSON-Export)
+- JSON-Export-Button weiterhin verfuegbar
+- Help-Modal aktualisiert mit neuen Edit-Features
+
+**Refactoring: ERLEDIGT**
+- `resetDiffMode()` extrahiert (3x duplizierter Code → 1 Funktion)
+- Textarea-XSS gefixt (`.value = text` statt Template-Interpolation)
+- 3 Inline-Styles durch CSS-Klassen ersetzt
+- 6 Diff-Farb-Variablen in `:root` extrahiert
+- 5 unbenutzte CSS-Klassen entfernt
+- Stats-Dashboard `display`-Bug gefixt
+
 **Fruehere Arbeiten (Session 7–8):**
 - Viewer: Zoom/Pan/Rotate, Metadaten-Bar, CSS-Cleanup, Korrespondenzen-Typ
 - Details siehe Session-Berichte in Lane.md History
 
 ### Lane 2 — Methodik
+**Stand:** 2026-04-01 (Session 8–12). Schritt 1–4 erledigt + 3 Bonus-Deliverables.
+- [x] Schritt 1: pilot-design.md
+- [x] Schritt 2: htr-interchange-format.md (JSON Schema v0.1)
+- [x] Schritt 3: teiCrafter-integration.md (JSON-Import, 3 Mapping-Templates, Seitentrenner `|{n}|`)
+- [x] Schritt 4: tei-target-structure.md (DTABf-Profil, NER-Strategie, XML-Beispiel)
+- [x] Selbstkritische Review (Session 9): verification-concept.md aktualisiert
+- [x] Bonus (Session 12): 3 teiCrafter-Mapping-Templates als Dateien extrahiert (correspondence-szd.md, manuscript-szd.md, print-szd.md → teiCrafter-Repo)
+- [x] Bonus (Session 12): JSON-Schema als validierbare Datei (`schemas/htr-interchange-v0.1.json`)
+- [x] Bonus (Session 12): DIA-XAI-Integrationskonzept (`knowledge/dia-xai-integration.md`) — EQUALIS-Mapping, Metriken-Export, UC3/UC4-Anbindung
+- [ ] Schritt 5: Verification-by-Vision Spec — **naechster Schritt**
+- [ ] Schritt 6: Pilot-Ergebnisse auswerten — WARTET AUF Operator
+- [ ] Schritt 7: Prompt-Experiment-Design — WARTET AUF Pilot
+
+### Forschungsleitstelle
 **Stand:** 2026-04-01 (Session 8–10).
-- [x] Schritt 1: pilot-design.md finalisiert — 5 Seiten, 5 Gruppen, Eskalationsschwellen, Pruefprotokoll.
-- [x] Schritt 2: htr-interchange-format.md geschrieben — JSON Schema v0.1, teiCrafter-Mapping, Abgrenzung ALTO/PAGE/hOCR.
-- [x] Selbstkritische Review (Session 9): verification-concept.md aktualisiert (16 Objekte, Gruppe G, quality_signals-Einordnung).
-- [x] Schritt 3 (Session 10): `knowledge/teiCrafter-integration.md` — JSON-Import-Spec, 3 SZD-Mapping-Templates, Sprach/Epochen-Erweiterung, DTABf-Schema-Erweiterungen (gap/del/add/stamp/table/cb), Seitentrenner `|{n}|`.
-- [x] Schritt 4 (Session 10): `knowledge/tei-target-structure.md` — DTABf-Profil, Markup→TEI-Mapping-Tabelle, NER-Strategie (Phase 1: Personen/Orte/Daten), XML-Beispiel (o_szd.1079), separate Dateien pro Objekt empfohlen.
-- [ ] Schritt 5: Pilot-Ergebnisse auswerten — WARTET AUF Operator-Durchfuehrung.
-- [ ] Schritt 6: Prompt-Experiment-Design — WARTET AUF Pilot-Ergebnisse.
+- [x] Lane-Modell aufgesetzt, Lane.md geschrieben
+- [x] knowledge/ zu Obsidian Vault refactored (11→7 Dateien)
+- [x] Verification-by-Vision getestet: o_szd.161 (verified), o_szd.277 (error_suggestion), o_szd.72 (error_suggestion)
+- [ ] Build ausloesen (Frontend auf ~61 Objekte)
+- [ ] Verification-by-Vision: weitere Objekte systematisch pruefen
+- [ ] Verification-by-Vision Spec schreiben (`knowledge/verification-by-vision.md`)
+- [ ] Pilot-Seiten vorab via Vision pruefen
 
 ### Lane 3 — Backend
-**Stand:** 2026-04-01 (aktualisiert durch Forschungsleitstelle). ~61 Objekte transkribiert (42 Lebensdokumente, 11 Werke, 1 Aufsatzablage + 7 Test). `run_sample_batch.py` erstellt. `transcribe.py` modifiziert. Gezieltes Sample in Arbeit. quality_signals + Interchange-Export noch nicht implementiert. **Immer noch kein strukturierter Report — bei naechster Session einfordern.**
+**Stand:** 2026-04-01 (Session 8–10, L3-Report).
+
+**Schritt 1 (JSON-Parsing haerten): ERLEDIGT** (Commit `ceb39dd`)
+- `parse_api_response()`: 3-stufig (direkt → Codeblock-Strip → Escape-Fix) + Retry
+- Absicherung gegen leere API-Antworten (`response.text is None`)
+- Beobachtete Muster: `\j`-Escape (2×), Markdown-Codeblocks (2×), leere Antwort (1×, o_szd.219)
+
+**Schritt 2 (quality_signals.py): ERLEDIGT** (Commit `ceb39dd`)
+- Neues Modul `pipeline/quality_signals.py` (140 Zeilen), 6 Signale implementiert
+- `needs_review` + `needs_review_reasons` als Top-Level-Aggregation
+- Integriert in `transcribe.py` (auto-compute) + `build_viewer_data.py` (catalog.json propagiert `needsReview`)
+- **L1 kann quality_signals-UI jetzt mit echten Daten aktivieren**
+
+**Schritt 3 (Backfill + Build): ERLEDIGT** (Commit `ceb39dd`)
+- Alle Ergebnis-JSONs mit quality_signals angereichert
+- `catalog.json` enthaelt `needsReview` + `needsReviewReasons`
+
+**Schritt 4 (Gezieltes Sample): IN ARBEIT**
+- `run_sample_batch.py`: fuellt jede Gruppe auf 10 auf (E auf max 5)
+- Aktueller Stand: 63/85 Objekte (Formular 10, Handschrift 10, Kurztext 10, Typoskript 10, Korrekturfahne 9, Konvolut 6, Tabellarisch 5). Korrespondenz + Zeitungsausschnitt noch ausstehend (Batch laeuft).
+- Verteilung: 46 Lebensdokumente, 14 Werke, 2 Aufsatzablage, 1 Korrespondenzen
+- Crash-Fix: `response.text is None` bei o_szd.219 (leere Gemini-Antwort) — gefixt, Batch fortgesetzt
+- JSON-Fixes im Batch: 2× Codeblock-Strip, 1× \j-Escape — alle automatisch repariert
+
+**Schritt 5 (Interchange-Export): AUSSTEHEND**
+
+**Offene Fragen beantwortet:**
+- Objekte mit Bildern: 2107/2107 (100%), kein fehlendes Material
+- Gruppen ≥10 Objekte: 8/9 (alle ausser E:Tabellarisch mit 5)
+- Weitere JSON-Muster: Codeblocks + `\j` + leere Antworten. Alle abgefangen.
+- Kostenabschaetzung voller Batch: ~$29 API, ~10h Laufzeit (2s Delay)
+
+**Neuer Vorschlag (von Forschungsleitstelle):**
+- Postkarten-Bildbeschreibung: Bei Ansichtspostkarten Bildseite identifizieren, mit Gemini beschreiben (nicht transkribieren), in eigener Struktur ablegen. Betrifft ~56 Ansichtspostkarten + 94 Postkarten. Braucht Prompt-Design (L2) + Pipeline-Erweiterung (L3) + UI (L1).
 
 ---
 
