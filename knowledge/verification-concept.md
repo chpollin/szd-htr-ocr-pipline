@@ -444,7 +444,21 @@ Folgende Felder werden dem Ergebnis-JSON hinzugefuegt (neuer Top-Level-Key `qual
 
 Alle Felder sind aus dem Transkriptionsergebnis und den Metadaten berechenbar, ohne zusaetzlichen API-Call. Die Berechnung soll nach jedem Transkriptionsaufruf automatisch erfolgen und im selben JSON gespeichert werden.
 
-### 2.6 Empfehlung
+### 2.6 GT-freie Qualitaetsschaetzung: Moeglichkeiten und Grenzen
+
+Neben den oben definierten heuristischen Signalen gibt es drei Ansaetze aus der Literatur, die Transkriptionsqualitaet ohne manuelle Referenz statistisch zu schaetzen:
+
+**Pseudo-Perplexity (Stroebel et al. 2022):** Ein Masked Language Model (z.B. multilingual BERT) bewertet die sprachliche Plausibilitaet des Transkriptionstexts. Gibberish oder systematisch falsch gelesene Woerter erzeugen hohe Perplexitaet. Der Ansatz korreliert mit CER und ist sprachunabhaengig (mehrsprachige Transformer verfuegbar). Nachteil: erfordert eine zusaetzliche Modell-Abhaengigkeit (Transformer lokal oder via API).
+
+**Dictionary Word Ratio (Stroebel et al. 2022):** Anteil der Woerter in einem Referenzlexikon. Einfach zu berechnen, aber sprachabhaengig. Fuer den Zweig-Nachlass mit historischer Orthographie, franzoesischen Einsprengseln und Abkuerzungen muesste das Lexikon sorgfaeltig zusammengestellt werden.
+
+**Cross-Model-Agreement (Abschnitt 4):** Zwei Modelle transkribieren unabhaengig; hohe Uebereinstimmung korreliert mit Korrektheit. Am staerksten von den drei Ansaetzen, aber auch am teuersten (2x API-Kosten).
+
+**Grenzen aller GT-freien Ansaetze:** Sie messen *Plausibilitaet* oder *Konsistenz*, nicht *Korrektheit*. Ein fluessig lesbarer, grammatisch korrekter Text kann trotzdem ein Wort falsch gelesen haben. Halluzinationen (plausibel klingender, aber im Faksimile nicht vorhandener Text) werden von keinem dieser Ansaetze zuverlaessig erkannt. Deshalb ersetzen sie die Ground-Truth-Evaluation nicht, sondern ergaenzen sie.
+
+**Priorisierung:** Die heuristischen Signale (Abschnitt 2.3) und Cross-Model-Agreement (Abschnitt 4) sofort implementieren — sie erfordern keine Ground Truth und keine zusaetzlichen Abhaengigkeiten. Pseudo-Perplexity als Eskalationsstufe in Betracht ziehen, falls die einfachen Signale nach Kalibrierung nicht ausreichend diskriminieren.
+
+### 2.7 Empfehlung
 
 Die `quality_signals` sofort implementieren (sie sind guenstig und erfordern keine Ground Truth). Sie loesen das Konfidenz-Problem nicht vollstaendig — dafuer braucht es Ground Truth — aber sie bieten ein funktionierendes Triage-System fuer den Batch-Lauf ueber 2107 Objekte. Lane 1 kann `needs_review` im Viewer als Filter und visuelle Markierung einbauen.
 
@@ -518,18 +532,186 @@ Das Prompt-Experiment auf das Ground-Truth-Sample ausfuehren — es ist billig (
 
 ---
 
+## 4. Cross-Model-Verification
+
+### 4.1 Fragestellung
+
+Kann ein zweites VLM die Transkriptionsqualitaet verbessern oder zumindest problematische Stellen identifizieren — ohne manuelles Ground Truth?
+
+Die Literatur (Abschnitt "Stand der Forschung") liefert dazu klare Befunde:
+- Kreuzkorrektur (Modell B korrigiert Modell A, mit Bild) kann CER drastisch senken: 8.0% → 1.8% (Humphries et al.)
+- Selbstkorrektur (Modell A korrigiert sich selbst) versagt in der Mehrzahl der Faelle (Crosilla et al.)
+- Korrektur ohne Bild verschlechtert das Ergebnis konsistent (Levchenko)
+
+### 4.2 Zwei Ansaetze
+
+**Ansatz A: Unabhaengige Doppeltranskription (Agreement-basiert)**
+
+Beide Modelle transkribieren dasselbe Bild unabhaengig. Uebereinstimmung = hohes Vertrauen. Abweichung = Pruefbedarf.
+
+| Eigenschaft | Bewertung |
+|---|---|
+| Kosten | 2x API-Calls (doppelte Basiskosten) |
+| Abhaengigkeit | Keine — Modelle arbeiten unabhaengig |
+| Informationsgehalt | Hoch: Abweichungen lokalisieren exakt die problematischen Stellen |
+| Risiko | Wenn beide Modelle denselben Fehler machen, bleibt er unentdeckt (systematischer Bias) |
+
+**Ansatz B: Heterogene Korrektur (Humphries-Ansatz)**
+
+Modell B erhaelt das Bild UND die Transkription von Modell A. Es soll korrigieren.
+
+| Eigenschaft | Bewertung |
+|---|---|
+| Kosten | 2x API-Calls (doppelte Basiskosten) |
+| Abhaengigkeit | Sequentiell — Modell B braucht Output von Modell A |
+| Informationsgehalt | Direkte Verbesserung der Transkription, nicht nur Flagging |
+| Risiko | "Re-generation statt Korrektur" (Levchenko): Modell B ignoriert Modell A und transkribiert neu |
+
+### 4.3 Empfohlene Strategie: Agreement-First
+
+**Primaer: Ansatz A (Agreement) auf dem gesamten Batch.**
+
+Begruendung:
+1. Unabhaengige Transkriptionen sind methodisch sauberer — kein Modell beeinflusst das andere.
+2. Der Agreement-Score ist ein robusteres Qualitaetssignal als die Selbsteinschaetzung: Wenn Gemini und Claude denselben Text produzieren, ist die Wahrscheinlichkeit hoch, dass er korrekt ist.
+3. Der Agreement-basierte Ansatz produziert automatisch einen Diff, der im Frontend (Abschnitt 5) angezeigt werden kann.
+4. Ansatz A ist parallelisierbar (beide Calls gleichzeitig), Ansatz B ist sequentiell.
+
+**Sekundaer: Ansatz B (Korrektur) nur fuer `needs_review`-Objekte.**
+
+Fuer Objekte, bei denen Agreement niedrig ist und die quality_signals auffaellig sind, kann ein dritter Durchlauf mit Ansatz B versucht werden. Aber: Nur wenn das Ground-Truth-Sample zeigt, dass Ansatz B die CER tatsaechlich verbessert.
+
+### 4.4 Agreement-Metrik
+
+Fuer jedes Objekt, das von zwei Modellen transkribiert wird:
+
+```
+"cross_model": {
+  "model_b":              string,   // z.B. "claude-sonnet-4-20250514"
+  "agreement_cer":        float,    // CER zwischen Modell A und Modell B (nicht gegen GT)
+  "agreement_wer":        float,    // WER zwischen Modell A und Modell B
+  "disagreement_pages":   int[],    // Seiten mit CER > 0.05 zwischen den Modellen
+  "high_agreement":       boolean   // true wenn agreement_cer < 0.03
+}
+```
+
+**Interpretation:**
+- `agreement_cer < 0.03` (unter 3%): Hohe Uebereinstimmung. Die Transkription ist mit hoher Wahrscheinlichkeit korrekt — beide Modelle lesen dasselbe.
+- `agreement_cer 0.03-0.10`: Moderate Abweichung. Einzelne Woerter oder Passagen divergieren. Review empfohlen.
+- `agreement_cer > 0.10`: Starke Abweichung. Mindestens eines der Modelle hat erhebliche Probleme. Manuelle Pruefung noetig.
+
+**Wichtig:** Agreement ist notwendig, aber nicht hinreichend fuer Korrektheit. Zwei Modelle koennen sich auf einen falschen Text einigen, besonders bei systematischen Biases (z.B. beide lesen "n" statt "u" in Kurrent). Der Agreement-Score ersetzt nicht die Ground-Truth-Evaluation, sondern ergaenzt sie als Triage-Signal.
+
+### 4.5 Kosten-Abschaetzung
+
+| Szenario | Objekte | API-Calls | Geschaetzte Kosten |
+|---|---|---|---|
+| GT-Sample (30 Objekte, 2 Modelle) | 30 | 60 | ~3-5 USD |
+| Vollstaendiger Batch (2107 Objekte, 2 Modelle) | 2107 | 4214 | ~200-400 USD |
+| Vollstaendiger Batch, nur 1 Modell + selektiv 2. Modell fuer Auffaellige | 2107 + ~400 | ~2500 | ~120-200 USD |
+
+Empfehlung: Zunaechst nur das GT-Sample mit zwei Modellen transkribieren. Anhand der Ergebnisse entscheiden, ob der vollstaendige Batch eine Doppeltranskription rechtfertigt oder ob die quality_signals als Triage ausreichen.
+
+### 4.6 Modellwahl fuer das zweite Modell
+
+Basierend auf den Benchmark-Daten (Stand der Forschung):
+
+| Kandidat | Staerken | Schwaechen | Kosten |
+|---|---|---|---|
+| Claude Sonnet | Beste CER auf Franzoesisch (1.6%), stark auf Englisch | Schwach auf historischem Deutsch (71% CER auf READ2016) | Mittel |
+| GPT-4o | Solide ueber alle Sprachen, gute Korrektur-Ergebnisse | Neigt zu Over-Historicization (Levchenko) | Hoch |
+| GPT-4o-mini | Ueberraschend stark (Gutteridge), 30x guenstiger als GPT-4o | Weniger getestet auf nicht-englischen Dokumenten | Niedrig |
+
+Empfehlung: **Claude Sonnet** als zweites Modell neben Gemini Flash Lite. Begruendung: Maximale Diversitaet (anderer Anbieter, anderes Training), starke Baseline auf modernen und historischen Dokumenten, moderate Kosten. GPT-4o-mini als guenstige Alternative, falls Budget relevant.
+
+---
+
+## 5. Frontend-Anforderungen
+
+### 5.1 Kontext
+
+Lane 1 (Frontend) baut den Viewer unter `docs/`. Die Abschnitte 2 (quality_signals) und 4 (Cross-Model-Verification) produzieren Daten, die im Frontend sichtbar werden muessen. Dieser Abschnitt definiert die Anforderungen aus methodischer Sicht — das UI-Design liegt bei Lane 1.
+
+### 5.2 Anforderung 1: needs_review-Indikator
+
+Jedes Objekt mit `needs_review: true` muss im Katalog visuell markiert sein. Der Viewer muss `needs_review_reasons` anzeigen koennen (welche Signale ausgeloest haben).
+
+**Filterung:** Der Katalog muss nach `needs_review` filterbar sein (alle / nur auffaellige / nur unauffaellige).
+
+**Datenquelle:** `quality_signals.needs_review` und `quality_signals.needs_review_reasons` im Ergebnis-JSON.
+
+### 5.3 Anforderung 2: Quality-Signal-Dashboard
+
+Pro Objekt eine kompakte Uebersicht der quality_signals:
+
+| Signal | Anzeige |
+|---|---|
+| Marker-Dichte | Zahl + Farbindikator (gruen/gelb/rot) |
+| Seitenlaengen-Anomalien | Liste der anomalen Seiten |
+| Duplikate | Betroffene Seitenpaare |
+| Sprachkonsistenz | Match/Mismatch + erkannte Sprache |
+| Leerseiten | Anzahl |
+
+Kein eigener View noetig — die Signale koennen im bestehenden Objekt-Detail-View eingeblendet werden.
+
+### 5.4 Anforderung 3: Diff-Ansicht fuer Cross-Model-Verification
+
+Wenn fuer ein Objekt zwei Transkriptionen vorliegen (Gemini + Claude), muss der Viewer einen Vergleichsmodus anbieten:
+
+**Layout:** Zwei Transkriptionstexte nebeneinander, Differenzen farblich hervorgehoben.
+
+**Diff-Granularitaet:** Wortebene (nicht zeichenebene — zu unuebersichtlich bei laengerem Text). Woerter, die nur in Transkription A vorkommen: rot. Woerter, die nur in B vorkommen: blau. Uebereinstimmende Woerter: schwarz.
+
+**Interaktion:** Der Benutzer kann fuer jedes divergierende Wort waehlen, welche Lesung uebernommen wird (A, B, oder manuell). Das ist der Expert-in-the-Loop-Kern fuer das DIA-XAI-Projekt.
+
+**Datenquelle:** Zwei separate JSON-Ergebnisse fuer dasselbe Objekt (unterschiedliche `model`-Werte). Die Zuordnung erfolgt ueber `object_id`.
+
+### 5.5 Anforderung 4: CER-Anzeige (nach Ground-Truth-Erstellung)
+
+Wenn Ground-Truth-Referenzen vorliegen, soll der Viewer die CER pro Objekt und pro Seite anzeigen koennen.
+
+**Anzeige:** CER-Wert als Zahl + Farbkodierung (gruen < 5%, gelb 5-15%, rot > 15%).
+
+**Datenquelle:** Wird als separates Feld im JSON ergaenzt, nachdem die Referenztranskription erstellt und ausgewertet ist. Format:
+
+```
+"evaluation": {
+  "reference_available":  boolean,
+  "cer":                  float,     // Gesamt-CER (Basis, nach Normalisierung)
+  "wer":                  float,
+  "cer_per_page":         float[],
+  "evaluated_at":         string     // ISO-Datum
+}
+```
+
+### 5.6 Prioritaet
+
+| Anforderung | Abhaengigkeit | Prioritaet |
+|---|---|---|
+| needs_review-Indikator | quality_signals (Lane 3) | Sofort — blockiert nicht, quality_signals koennen sofort implementiert werden |
+| Quality-Signal-Dashboard | quality_signals (Lane 3) | Sofort |
+| Diff-Ansicht | Cross-Model-Verification (Phase 4) | Nach GT-Sample |
+| CER-Anzeige | Ground Truth (manuelle Arbeit) | Nach GT-Erstellung |
+
+---
+
 ## Zusammenfassung der Abhaengigkeiten
 
 ```
-Ground Truth (30 Objekte manuell transkribieren)
-  |
-  ├── quality_signals kalibrieren (Schwellenwerte anpassen)
-  |
-  ├── Prompt-Experiment auswerten (CER-Vergleich V1/V2/V3)
-  |
-  └── Pipeline-Basislinie etablieren (CER/WER pro Gruppe)
-        |
-        └── Provider-Vergleich moeglich (Phase 4)
-```
+SOFORT (keine Abhaengigkeiten):
+  ├── quality_signals implementieren (Abschnitt 2) → Lane 3
+  ├── needs_review-Indikator im Viewer (Abschnitt 5.2) → Lane 1
+  └── Annotationsprotokoll finalisieren (annotation-protocol.md) → Lane 2
 
-Die `quality_signals`-Implementierung (Abschnitt 2) ist der einzige Teil, der sofort und ohne Ground Truth umgesetzt werden kann. Alles andere haengt davon ab, dass die Referenztranskription existiert.
+NACH ANNOTATIONSPROTOKOLL:
+  └── Ground Truth erstellen (30 Objekte manuell transkribieren)
+        |
+        ├── quality_signals kalibrieren (Schwellenwerte anpassen)
+        ├── Prompt-Experiment auswerten (CER-Vergleich V1/V2/V3)
+        ├── Pipeline-Basislinie etablieren (CER/WER pro Gruppe)
+        └── Cross-Model-Verification evaluieren (Abschnitt 4)
+              |
+              ├── Entscheidung: Doppeltranskription fuer vollen Batch?
+              ├── Diff-Ansicht im Viewer (Abschnitt 5.4) → Lane 1
+              └── Provider-Vergleich (Phase 4)
+```
