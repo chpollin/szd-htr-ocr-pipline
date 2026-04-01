@@ -185,6 +185,7 @@ function showCatalog() {
   state.currentObjectId = null;
   state.editMode = false;
   resetDiffMode();
+  requestAnimationFrame(() => document.getElementById('searchInput')?.focus());
 }
 
 async function showViewer(objectId, page) {
@@ -220,6 +221,7 @@ async function showViewer(objectId, page) {
   renderViewerNav();
   renderViewerPage();
   updateEditButtons();
+  requestAnimationFrame(() => document.getElementById('viewerMeta')?.focus());
 }
 
 /* ===== Review / Quality Signals ===== */
@@ -362,7 +364,7 @@ function renderStats() {
     <div class="catalog__stats-summary">
       <span class="catalog__stats-total">${total} Objekte</span>
       <div class="catalog__stats-chips">${colChips}${reviewChip}</div>
-      <button type="button" class="catalog__stats-toggle" id="statsToggle">Details &#9662;</button>
+      <button type="button" class="catalog__stats-toggle" id="statsToggle" aria-expanded="false">Details &#9662;</button>
     </div>
     <div class="catalog__stats-details" id="statsDetails">
       <div class="catalog__stats-section">
@@ -378,6 +380,7 @@ function renderStats() {
     const toggle = document.getElementById('statsToggle');
     const open = details.classList.toggle('open');
     toggle.innerHTML = open ? 'Weniger &#9652;' : 'Details &#9662;';
+    toggle.setAttribute('aria-expanded', String(open));
   });
 }
 
@@ -460,7 +463,7 @@ function renderCatalog() {
       const v = obj.verification || {};
       const qualityHtml = renderQualityCell(v, obj.confidence);
       const titleFull = escapeHtml(obj.titleClean || obj.label);
-      html += `<tr data-id="${obj.id}">
+      html += `<tr data-id="${obj.id}" tabindex="0">
         <td class="col-thumb"><img src="${obj.thumbnail || ''}" loading="lazy" alt="" onerror="this.style.display='none'"></td>
         <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${titleFull}</td>
         <td class="col-sig">${escapeHtml(obj.signature)}</td>
@@ -503,10 +506,14 @@ function renderCatalog() {
     const field = th.dataset.sort;
     const arrow = th.querySelector('.sort-arrow');
     if (!arrow) return;
-    th.classList.toggle('sorted', field === state.sortField);
-    arrow.textContent = field === state.sortField
-      ? (state.sortAsc ? '\u25B4' : '\u25BE')
-      : '\u25B4';
+    const isSorted = field === state.sortField;
+    th.classList.toggle('sorted', isSorted);
+    arrow.textContent = isSorted ? (state.sortAsc ? '\u25B4' : '\u25BE') : '\u25B4';
+    if (isSorted) {
+      th.setAttribute('aria-sort', state.sortAsc ? 'ascending' : 'descending');
+    } else {
+      th.removeAttribute('aria-sort');
+    }
   });
 }
 
@@ -1215,10 +1222,17 @@ function initEvents() {
     });
   });
 
-  // Table row click
-  document.getElementById('catalogBody').addEventListener('click', e => {
+  // Table row click + keyboard
+  const catalogBody = document.getElementById('catalogBody');
+  catalogBody.addEventListener('click', e => {
     const row = e.target.closest('tr[data-id]');
     if (row) navigate('view/' + row.dataset.id);
+  });
+  catalogBody.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      const row = e.target.closest('tr[data-id]');
+      if (row) { e.preventDefault(); navigate('view/' + row.dataset.id); }
+    }
   });
 
   // Pagination
