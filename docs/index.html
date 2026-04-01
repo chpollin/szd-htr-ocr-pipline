@@ -106,8 +106,6 @@
     </div>
 
     <div class="viewer__nav-group">
-      <button type="button" class="viewer__nav-btn" id="metaToggle"
-              data-tooltip="Metadaten ein/ausblenden">i</button>
       <button type="button" class="viewer__action-btn" id="editBtn"
               data-tooltip="Transkription bearbeiten">
         &#9998; Edit <span class="indicator" id="editIndicator"></span>
@@ -129,6 +127,12 @@
     <div class="viewer__img-panel" id="imgPanel">
       <span class="viewer__img-spinner" id="imgSpinner">Lade Bild…</span>
       <img id="faksimile" src="" alt="Faksimile" style="display:none">
+      <div class="viewer__img-controls">
+        <button type="button" id="zoomInBtn" data-tooltip-pos="bottom" data-tooltip="Zoom + (Scrollrad)">+</button>
+        <button type="button" id="zoomOutBtn" data-tooltip-pos="bottom" data-tooltip="Zoom −">&minus;</button>
+        <button type="button" id="zoomResetBtn" data-tooltip-pos="bottom" data-tooltip="Zurücksetzen (0)">&#8634;</button>
+        <button type="button" id="rotateBtn" data-tooltip-pos="bottom" data-tooltip="90° drehen (R)">&#8635;</button>
+      </div>
     </div>
     <div class="viewer__text-panel" id="textPanel">
       <div class="viewer__transcription-wrap">

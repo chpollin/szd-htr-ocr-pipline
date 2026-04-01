@@ -506,45 +506,48 @@ function updateGroupFilter() {
 function renderViewerMeta(obj) {
   const gamsUrl = GAMS_BASE + obj.pid;
   const meta = document.getElementById('viewerMeta');
-  meta.classList.remove('collapsed');
+  const v = obj.verification || {};
+
+  // Marker summary
+  const uncertain = v.uncertainCount || 0;
+  const illegible = v.illegibleCount || 0;
+  let markerHtml = '';
+  if (uncertain > 0 || illegible > 0) {
+    const parts = [];
+    if (uncertain > 0) parts.push(`${uncertain}\u00d7[?]`);
+    if (illegible > 0) parts.push(`${illegible}\u00d7[...]`);
+    markerHtml = `<div class="viewer__meta-item">
+      <span class="viewer__meta-label">Marker</span>
+      <span class="badge badge-markers badge-markers-some">${parts.join(', ')}</span></div>`;
+  }
 
   meta.innerHTML = `
     <div class="viewer__meta-item">
-      <span class="viewer__meta-label">Titel</span>
       <span class="viewer__meta-value" style="font-weight:600">${escapeHtml(obj.titleClean || obj.label)}</span>
     </div>
     <div class="viewer__meta-item">
-      <span class="viewer__meta-label">Signatur</span>
+      <span class="viewer__meta-label">Sig.</span>
       <span class="viewer__meta-value">${escapeHtml(obj.signature)}</span>
     </div>
     <div class="viewer__meta-item">
-      <span class="viewer__meta-label">PID</span>
       <a class="viewer__meta-link" href="${gamsUrl}" target="_blank" rel="noopener">${escapeHtml(obj.pid)}</a>
     </div>
     <div class="viewer__meta-item">
-      <span class="viewer__meta-label">Sammlung</span>
       <span class="viewer__meta-value">${COLLECTION_LABELS[obj.collection] || obj.collection}</span>
     </div>
     <div class="viewer__meta-item">
-      <span class="viewer__meta-label">Gruppe</span>
-      <span class="badge badge-group">${obj.group}</span>
-      <span class="viewer__meta-value">${escapeHtml(obj.groupLabel)}</span>
+      <span class="viewer__meta-value">${escapeHtml(obj.classification || obj.groupLabel)}</span>
     </div>
     <div class="viewer__meta-item">
-      <span class="viewer__meta-label">Sprache</span>
       <span class="viewer__meta-value">${escapeHtml(obj.lang)}</span>
-    </div>
-    <div class="viewer__meta-item">
-      <span class="viewer__meta-label">Modell</span>
-      <span class="viewer__meta-value" style="font-family:var(--font-mono);font-size:0.78rem">${escapeHtml(obj.model)}</span>
     </div>
     <div class="viewer__meta-item">
       <span class="viewer__meta-label">VLM</span>
       <span class="badge badge-vlm" data-tooltip="VLM-Selbsteinschätzung (schwaches Signal)">${obj.confidence || '?'}</span>
     </div>
+    ${markerHtml}
     <div class="viewer__meta-item">
-      <a class="viewer__meta-link" href="${gamsUrl}" target="_blank" rel="noopener"
-         data-tooltip="Objekt auf GAMS / Stefan Zweig Digital öffnen">Auf SZD anzeigen</a>
+      <span class="viewer__meta-label" style="font-family:var(--font-mono);font-size:0.68rem">${escapeHtml(obj.model)}</span>
     </div>`;
 }
 
@@ -577,6 +580,9 @@ function renderViewerPage() {
 
   const pages = obj.pages || [];
   const page = pages[state.currentPage];
+
+  // Reset image view on page change
+  imgViewReset();
 
   // Image
   const img = document.getElementById('faksimile');
@@ -613,18 +619,18 @@ function renderViewerPage() {
     renderReadMode(transcriptionText, notesText, !!edited);
   }
 
-  // Verification / quality signals bar
+  // Quality signals / confidence notes at bottom of text panel
   const bar = document.getElementById('verificationBar');
   if (bar) {
+    let barHtml = '';
     const qs = obj.quality_signals;
     if (qs) {
-      bar.innerHTML = renderQualitySignals(qs);
-    } else {
-      bar.innerHTML = renderVerificationBar(obj);
+      barHtml = renderQualitySignals(qs);
     }
     if (obj.confidenceNotes) {
-      bar.innerHTML += `<div class="viewer__vlm-notes">${escapeHtml(obj.confidenceNotes)}</div>`;
+      barHtml += `<div class="viewer__vlm-notes">${escapeHtml(obj.confidenceNotes)}</div>`;
     }
+    bar.innerHTML = barHtml;
   }
 
   renderViewerNav();
@@ -752,6 +758,147 @@ function downloadJson(objectId) {
   URL.revokeObjectURL(url);
 }
 
+/* ===== Image Viewer (Zoom, Pan, Rotate) ===== */
+
+const imgView = {
+  scale: 1,
+  rotation: 0,
+  panX: 0,
+  panY: 0,
+  isDragging: false,
+  dragStartX: 0,
+  dragStartY: 0,
+  panStartX: 0,
+  panStartY: 0,
+  MIN_SCALE: 0.5,
+  MAX_SCALE: 8,
+  ZOOM_STEP: 1.25,
+};
+
+function imgViewReset() {
+  imgView.scale = 1;
+  imgView.rotation = 0;
+  imgView.panX = 0;
+  imgView.panY = 0;
+  imgViewApply();
+}
+
+function imgViewApply() {
+  const img = document.getElementById('faksimile');
+  if (!img) return;
+  img.style.transform = `translate(${imgView.panX}px, ${imgView.panY}px) scale(${imgView.scale}) rotate(${imgView.rotation}deg)`;
+}
+
+function imgViewZoom(delta, clientX, clientY) {
+  const panel = document.getElementById('imgPanel');
+  const img = document.getElementById('faksimile');
+  if (!panel || !img) return;
+
+  const oldScale = imgView.scale;
+  const factor = delta > 0 ? imgView.ZOOM_STEP : 1 / imgView.ZOOM_STEP;
+  imgView.scale = Math.min(imgView.MAX_SCALE, Math.max(imgView.MIN_SCALE, oldScale * factor));
+
+  // Zoom toward cursor position
+  if (clientX !== undefined && clientY !== undefined) {
+    const rect = panel.getBoundingClientRect();
+    const cx = clientX - rect.left;
+    const cy = clientY - rect.top;
+    const ratio = imgView.scale / oldScale;
+    imgView.panX = cx - ratio * (cx - imgView.panX);
+    imgView.panY = cy - ratio * (cy - imgView.panY);
+  }
+
+  imgViewApply();
+}
+
+function imgViewRotate() {
+  imgView.rotation = (imgView.rotation + 90) % 360;
+  imgViewApply();
+}
+
+function initImgViewEvents() {
+  const panel = document.getElementById('imgPanel');
+  if (!panel) return;
+
+  // Scroll-wheel zoom
+  panel.addEventListener('wheel', e => {
+    e.preventDefault();
+    imgViewZoom(e.deltaY < 0 ? 1 : -1, e.clientX, e.clientY);
+  }, { passive: false });
+
+  // Drag-to-pan
+  panel.addEventListener('mousedown', e => {
+    if (e.button !== 0) return;
+    imgView.isDragging = true;
+    imgView.dragStartX = e.clientX;
+    imgView.dragStartY = e.clientY;
+    imgView.panStartX = imgView.panX;
+    imgView.panStartY = imgView.panY;
+    panel.classList.add('dragging');
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', e => {
+    if (!imgView.isDragging) return;
+    imgView.panX = imgView.panStartX + (e.clientX - imgView.dragStartX);
+    imgView.panY = imgView.panStartY + (e.clientY - imgView.dragStartY);
+    imgViewApply();
+  });
+
+  document.addEventListener('mouseup', () => {
+    if (!imgView.isDragging) return;
+    imgView.isDragging = false;
+    const panel = document.getElementById('imgPanel');
+    if (panel) panel.classList.remove('dragging');
+  });
+
+  // Touch pinch-zoom and drag
+  let touchDist = 0;
+  let touchMid = { x: 0, y: 0 };
+
+  panel.addEventListener('touchstart', e => {
+    if (e.touches.length === 2) {
+      e.preventDefault();
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      touchDist = Math.hypot(dx, dy);
+      touchMid = {
+        x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
+        y: (e.touches[0].clientY + e.touches[1].clientY) / 2,
+      };
+    } else if (e.touches.length === 1 && imgView.scale > 1) {
+      imgView.isDragging = true;
+      imgView.dragStartX = e.touches[0].clientX;
+      imgView.dragStartY = e.touches[0].clientY;
+      imgView.panStartX = imgView.panX;
+      imgView.panStartY = imgView.panY;
+    }
+  }, { passive: false });
+
+  panel.addEventListener('touchmove', e => {
+    if (e.touches.length === 2) {
+      e.preventDefault();
+      const dx = e.touches[0].clientX - e.touches[1].clientX;
+      const dy = e.touches[0].clientY - e.touches[1].clientY;
+      const newDist = Math.hypot(dx, dy);
+      if (touchDist > 0) {
+        const ratio = newDist / touchDist;
+        imgViewZoom(ratio > 1 ? 1 : -1, touchMid.x, touchMid.y);
+        touchDist = newDist;
+      }
+    } else if (e.touches.length === 1 && imgView.isDragging) {
+      imgView.panX = imgView.panStartX + (e.touches[0].clientX - imgView.dragStartX);
+      imgView.panY = imgView.panStartY + (e.touches[0].clientY - imgView.dragStartY);
+      imgViewApply();
+    }
+  }, { passive: false });
+
+  panel.addEventListener('touchend', () => {
+    imgView.isDragging = false;
+    touchDist = 0;
+  });
+}
+
 /* ===== Help Modal ===== */
 
 function openHelp() {
@@ -858,15 +1005,12 @@ function initEvents() {
   document.getElementById('prevObjBtn').addEventListener('click', () => changeViewerObject(-1));
   document.getElementById('nextObjBtn').addEventListener('click', () => changeViewerObject(1));
 
-  // Viewer: meta toggle
-  document.getElementById('metaToggle').addEventListener('click', () => {
-    document.getElementById('viewerMeta').classList.toggle('collapsed');
-  });
-
-  // Viewer: zoom
-  document.addEventListener('click', e => {
-    if (e.target.id === 'faksimile') e.target.classList.toggle('zoomed');
-  });
+  // Viewer: image controls
+  document.getElementById('zoomInBtn').addEventListener('click', () => imgViewZoom(1));
+  document.getElementById('zoomOutBtn').addEventListener('click', () => imgViewZoom(-1));
+  document.getElementById('zoomResetBtn').addEventListener('click', imgViewReset);
+  document.getElementById('rotateBtn').addEventListener('click', imgViewRotate);
+  initImgViewEvents();
 
   // Viewer: edit
   document.getElementById('editBtn').addEventListener('click', () => {
@@ -904,6 +1048,10 @@ function initEvents() {
     if (document.body.classList.contains('view-viewer')) {
       if (e.key === 'ArrowLeft') { e.preventDefault(); changeViewerPage(-1); }
       if (e.key === 'ArrowRight') { e.preventDefault(); changeViewerPage(1); }
+      if (e.key === '+' || e.key === '=') { e.preventDefault(); imgViewZoom(1); }
+      if (e.key === '-') { e.preventDefault(); imgViewZoom(-1); }
+      if (e.key === '0') { e.preventDefault(); imgViewReset(); }
+      if (e.key === 'r' || e.key === 'R') { e.preventDefault(); imgViewRotate(); }
       if (e.key === 'Escape') {
         if (state.editMode) {
           saveCurrentEdit();
