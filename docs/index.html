@@ -98,7 +98,7 @@
 
 <!-- ===== Viewer View ===== -->
 <main id="viewer" class="viewer">
-  <div class="viewer__meta" id="viewerMeta"></div>
+  <div class="viewer__meta" id="viewerMeta" tabindex="-1"></div>
 
   <div class="viewer__nav">
     <div class="viewer__nav-group">
@@ -145,7 +145,7 @@
     </div>
   </div>
 
-  <div class="viewer__edit-status" id="editStatus" style="display:none"></div>
+  <div class="viewer__edit-status" id="editStatus" aria-live="polite" style="display:none"></div>
 
   <div class="viewer__panels" id="viewerPanels">
     <div class="viewer__panel-label" id="panelLabelLeft">Faksimile</div>
@@ -303,7 +303,7 @@
   </span>
 </footer>
 
-<div class="toast" id="toast"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="app.js"></script>
 </body>
 </html>
