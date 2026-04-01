@@ -15,7 +15,6 @@
 <header class="site-header">
   <div class="site-header__title">
     SZD-HTR <span>Stefan Zweig Digital</span>
-
   </div>
   <nav class="site-header__nav">
     <a href="#" class="site-header__back" id="backBtn">&#8592; Katalog</a>
@@ -85,7 +84,7 @@
 </main>
 
 <!-- ===== Viewer View ===== -->
-<div id="viewer" class="viewer">
+<main id="viewer" class="viewer">
   <div class="viewer__meta" id="viewerMeta"></div>
 
   <div class="viewer__nav">
@@ -142,7 +141,7 @@
       <div class="viewer__verification-wrap" id="verificationBar"></div>
     </div>
   </div>
-</div>
+</main>
 
 <!-- ===== Help Modal ===== -->
 <div class="help-overlay" id="helpOverlay">
@@ -160,14 +159,24 @@
       <li>Klick auf eine Zeile öffnet das Objekt im Viewer</li>
       <li>Spaltenheader klicken zum Sortieren</li>
       <li>Textsuche über Titel, Signatur und PID</li>
-      <li>Filter für Sammlung und Konfidenz kombinierbar</li>
+      <li>Filter kombinierbar: Sammlung, Typ, Qualität</li>
     </ul>
 
     <h3>Viewer</h3>
     <ul>
-      <li>Links: Faksimile von GAMS (Klick zum Zoomen)</li>
-      <li>Rechts: Transkription + Notes + Konfidenz</li>
-      <li><kbd>←</kbd> / <kbd>→</kbd> für Seitennavigation</li>
+      <li>Links: Faksimile von GAMS</li>
+      <li>Rechts: Transkription + Notes</li>
+      <li>Scrollrad: Zoom (zentriert auf Cursor)</li>
+      <li>Klicken + Ziehen: Bild verschieben</li>
+      <li>Touch: Pinch-Zoom + Wischen</li>
+    </ul>
+
+    <h3>Tastatur</h3>
+    <ul>
+      <li><kbd>←</kbd> / <kbd>→</kbd> Seite blättern</li>
+      <li><kbd>+</kbd> / <kbd>−</kbd> Zoom</li>
+      <li><kbd>0</kbd> Zoom zurücksetzen</li>
+      <li><kbd>R</kbd> 90° drehen</li>
       <li><kbd>Esc</kbd> zurück zum Katalog</li>
     </ul>
 
@@ -193,6 +202,7 @@
         <tr><td>D</td><td>Kurztext</td><td>Eintrittskarten, Notizen, Karten</td></tr>
         <tr><td>E</td><td>Tabellarisch</td><td>Register, Kalender, Kontorbücher</td></tr>
         <tr><td>F</td><td>Korrekturfahne</td><td>Druckfahnen, Korrekturbogen</td></tr>
+        <tr><td>G</td><td>Konvolut</td><td>Gemischte Materialien in einem Objekt</td></tr>
         <tr><td>H</td><td>Zeitungsausschnitt</td><td>Zeitungsartikel, Ausschnitte</td></tr>
         <tr><td>I</td><td>Korrespondenz</td><td>Briefe, Postkarten</td></tr>
       </tbody>

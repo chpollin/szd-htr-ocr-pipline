@@ -296,43 +296,6 @@ function renderQualityCell(v, confidence) {
   return markerHtml + vlmHtml;
 }
 
-function renderVerificationBar(obj) {
-  const v = obj.verification || {};
-  const uncertain = v.uncertainCount || 0;
-  const illegible = v.illegibleCount || 0;
-  const totalChars = v.totalChars || 0;
-  const emptyPages = v.emptyPages || 0;
-  const vlm = v.vlmConfidence || obj.confidence || '?';
-
-  let markerText = 'Keine unsicheren Stellen';
-  if (uncertain > 0 || illegible > 0) {
-    const parts = [];
-    if (uncertain > 0) parts.push(`${uncertain}\u00d7 [?]`);
-    if (illegible > 0) parts.push(`${illegible}\u00d7 [...]`);
-    markerText = parts.join(', ');
-  }
-
-  const pageInfo = emptyPages > 0
-    ? `${obj.pageCount || '?'} Seiten (${emptyPages} leer)`
-    : `${obj.pageCount || '?'} Seiten`;
-
-  return `
-    <div class="viewer__verification">
-      <div class="viewer__verification-item">
-        <span class="viewer__verification-label">Marker</span>
-        <span>${markerText}</span>
-      </div>
-      <div class="viewer__verification-item">
-        <span class="viewer__verification-label">Umfang</span>
-        <span>${totalChars.toLocaleString('de')} Zeichen, ${pageInfo}</span>
-      </div>
-      <div class="viewer__verification-item">
-        <span class="viewer__verification-label">VLM</span>
-        <span class="badge badge-vlm" data-tooltip="VLM-Selbsteinschätzung (schwaches Signal)">${vlm}</span>
-      </div>
-    </div>`;
-}
-
 /* ===== Catalog Rendering ===== */
 
 function applyFilters() {
