@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.150",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Stempel-Set, SZ-SAM/L17",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.150/IMG.1",
+      "https://gams.uni-graz.at/o:szd.150/IMG.2",
+      "https://gams.uni-graz.at/o:szd.150/IMG.3",
+      "https://gams.uni-graz.at/o:szd.150/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Stempel-Set\n- Signatur: SZ-SAM/L17\n- Objekttyp: 2 Kautschukstempel mit Holzgriff, Stempelkissen\n- Anmerkungen: Stempel „Sekretariat Dr. STEFAN ZWEIG“ und Unterschriftenstempel der „Kautschukstempelerzeugung u. Gravieranstalt Hans Amtmann Salzburg Griesgasse 5“ sowie blaues Stempelkissen der Marke „Pelikan“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Geor. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
+        "notes": "Transkription der Aufschriften auf dem Stempelkissen und den beiden Stempeln."
+      },
+      {
+        "page": 2,
+        "transcription": "Nr. 3\nPelikan\n\n[Unterschrift Zweig, spiegelverkehrt]\n\nSekretariat\nDr. STEFAN ZWEIG [spiegelverkehrt]",
+        "notes": "Transkription der Stempelabdrucke (spiegelverkehrt auf den Stempelflächen)."
+      },
+      {
+        "page": 3,
+        "transcription": "Pelikan\n\n[Unterschrift Zweig, spiegelverkehrt]\n\nSekretariat\nDr. STEFAN ZWEIG [spiegelverkehrt]",
+        "notes": "Transkription der Stempelabdrucke bei geöffnetem Stempelkissen."
+      },
+      {
+        "page": 4,
+        "transcription": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Geor. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
+        "notes": "Wiederholung der Aufschriften auf den Objekten (mit Farb- und Skalenreferenz)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die spiegelverkehrten Stempelabdrucke sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 538,
+    "total_words": 62,
+    "total_pages": 4,
+    "empty_pages": 0,
+    "input_images": 4,
+    "chars_per_page": [
+      172,
+      100,
+      94,
+      172
+    ],
+    "chars_per_page_median": 136.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        3
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

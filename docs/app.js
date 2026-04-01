@@ -34,6 +34,7 @@ const state = {
   filterConfidence: '',
   filterReview: false,
   editMode: false,
+  diffMode: false,
   editedTranscriptions: new Map(),
   isLocal: false,
 };
@@ -157,11 +158,25 @@ function route() {
   if (location.hash === '#help') openHelp();
 }
 
+function resetDiffMode() {
+  if (!state.diffMode) return;
+  state.diffMode = false;
+  const el = id => document.getElementById(id);
+  el('diffPanel') && (el('diffPanel').style.display = 'none');
+  el('imgPanel') && (el('imgPanel').style.display = '');
+  el('textPanel') && (el('textPanel').style.display = '');
+  el('panelLabelLeft') && (el('panelLabelLeft').style.display = '');
+  el('panelLabelRight') && (el('panelLabelRight').style.display = '');
+  const db = el('diffBtn');
+  if (db) db.classList.remove('active');
+}
+
 function showCatalog() {
   document.body.className = 'view-catalog';
   document.title = 'SZD-HTR — Katalog';
   state.currentObjectId = null;
   state.editMode = false;
+  resetDiffMode();
 }
 
 async function showViewer(objectId, page) {
@@ -169,6 +184,7 @@ async function showViewer(objectId, page) {
   state.currentObjectId = objectId;
   state.currentPage = page || 0;
   state.editMode = false;
+  resetDiffMode();
 
   const catalogObj = state.catalog.find(o => o.id === objectId);
   if (!catalogObj) {
@@ -294,6 +310,67 @@ function renderQualityCell(v, confidence) {
     : '';
 
   return markerHtml + vlmHtml;
+}
+
+/* ===== Stats Dashboard ===== */
+
+function renderStats() {
+  const el = document.getElementById('catalogStats');
+  if (!el || state.catalog.length === 0) return;
+
+  const total = state.catalog.length;
+
+  // Count per collection
+  const perCol = {};
+  for (const col of state.collections) perCol[col] = 0;
+  const perGroup = {};
+  let reviewCount = 0;
+  const hasReview = state.catalog.some(o => o.needsReview !== undefined);
+
+  for (const o of state.catalog) {
+    perCol[o.collection] = (perCol[o.collection] || 0) + 1;
+    const g = o.classification || o.groupLabel || '?';
+    perGroup[g] = (perGroup[g] || 0) + 1;
+    if (o.needsReview) reviewCount++;
+  }
+
+  // Summary line: chips for collections
+  const colChips = state.collections.map(c => {
+    const label = COLLECTION_LABELS[c] || c;
+    return `<span class="catalog__stats-chip"><strong>${perCol[c]}</strong> ${escapeHtml(label)}</span>`;
+  }).join('');
+
+  const reviewChip = hasReview
+    ? `<span class="catalog__stats-chip ${reviewCount > 0 ? 'catalog__stats-chip--review-warn' : 'catalog__stats-chip--review-ok'}"><strong>${reviewCount}</strong> Review</span>`
+    : '';
+
+  // Detail section: groups
+  const groupEntries = Object.entries(perGroup).sort((a, b) => b[1] - a[1]);
+  const groupItems = groupEntries.map(([g, n]) =>
+    `<span class="catalog__stats-bar-item"><strong>${n}</strong> ${escapeHtml(g)}</span>`
+  ).join('');
+
+  el.innerHTML = `
+    <div class="catalog__stats-summary">
+      <span class="catalog__stats-total">${total} Objekte</span>
+      <div class="catalog__stats-chips">${colChips}${reviewChip}</div>
+      <button type="button" class="catalog__stats-toggle" id="statsToggle">Details &#9662;</button>
+    </div>
+    <div class="catalog__stats-details" id="statsDetails">
+      <div class="catalog__stats-section">
+        <div class="catalog__stats-section-label">Nach Typ</div>
+        <div class="catalog__stats-bar">${groupItems}</div>
+      </div>
+    </div>`;
+
+  el.style.display = '';
+
+  document.getElementById('statsToggle').addEventListener('click', () => {
+    const details = document.getElementById('statsDetails');
+    const toggle = document.getElementById('statsToggle');
+    const open = details.classList.toggle('open');
+    toggle.innerHTML = open ? 'Weniger &#9652;' : 'Details &#9662;';
+  });
 }
 
 /* ===== Catalog Rendering ===== */
@@ -486,7 +563,7 @@ function renderViewerMeta(obj) {
 
   meta.innerHTML = `
     <div class="viewer__meta-item">
-      <span class="viewer__meta-value" style="font-weight:600">${escapeHtml(obj.titleClean || obj.label)}</span>
+      <span class="viewer__meta-value viewer__meta-title">${escapeHtml(obj.titleClean || obj.label)}</span>
     </div>
     <div class="viewer__meta-item">
       <span class="viewer__meta-label">Sig.</span>
@@ -510,7 +587,7 @@ function renderViewerMeta(obj) {
     </div>
     ${markerHtml}
     <div class="viewer__meta-item">
-      <span class="viewer__meta-label" style="font-family:var(--font-mono);font-size:0.68rem">${escapeHtml(obj.model)}</span>
+      <span class="viewer__meta-label viewer__meta-model">${escapeHtml(obj.model)}</span>
     </div>`;
 }
 
@@ -598,6 +675,9 @@ function renderViewerPage() {
 
   renderViewerNav();
   updateEditButtons();
+
+  // Update diff if active
+  if (state.diffMode) renderDiffView();
 }
 
 function renderReadMode(transcription, notes, isEdited) {
@@ -613,11 +693,13 @@ function renderReadMode(transcription, notes, isEdited) {
 function renderEditMode(transcription, notes) {
   const wrap = document.querySelector('.viewer__transcription-wrap');
   if (!wrap) return;
-  wrap.innerHTML = `<textarea class="viewer__transcription-edit" id="transcriptionEdit">${transcription || ''}</textarea>`;
+  wrap.innerHTML = '<textarea class="viewer__transcription-edit" id="transcriptionEdit"></textarea>';
+  document.getElementById('transcriptionEdit').value = transcription || '';
 
   const notesEl = document.getElementById('notes');
   if (notesEl) {
-    notesEl.innerHTML = `<textarea class="viewer__notes-edit" id="notesEdit">${notes || ''}</textarea>`;
+    notesEl.innerHTML = '<textarea class="viewer__notes-edit" id="notesEdit"></textarea>';
+    document.getElementById('notesEdit').value = notes || '';
   }
 }
 
@@ -862,6 +944,166 @@ function initImgViewEvents() {
   });
 }
 
+/* ===== Diff View (Cross-Model Verification) ===== */
+
+// Word-level LCS diff
+function diffWords(textA, textB) {
+  const wordsA = (textA || '').split(/(\s+)/);
+  const wordsB = (textB || '').split(/(\s+)/);
+
+  // LCS on non-whitespace tokens
+  const tokA = wordsA.filter(w => w.trim());
+  const tokB = wordsB.filter(w => w.trim());
+
+  const m = tokA.length;
+  const n = tokB.length;
+
+  // DP table for LCS
+  const dp = Array.from({ length: m + 1 }, () => new Uint16Array(n + 1));
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      if (tokA[i - 1] === tokB[j - 1]) {
+        dp[i][j] = dp[i - 1][j - 1] + 1;
+      } else {
+        dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+      }
+    }
+  }
+
+  // Backtrack
+  const ops = [];
+  let i = m, j = n;
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0 && tokA[i - 1] === tokB[j - 1]) {
+      ops.unshift({ type: 'match', wordA: tokA[i - 1], wordB: tokB[j - 1] });
+      i--; j--;
+    } else if (j > 0 && (i === 0 || dp[i][j - 1] >= dp[i - 1][j])) {
+      ops.unshift({ type: 'insert', wordB: tokB[j - 1] });
+      j--;
+    } else {
+      ops.unshift({ type: 'delete', wordA: tokA[i - 1] });
+      i--;
+    }
+  }
+
+  return ops;
+}
+
+function computeDiffStats(ops) {
+  let matches = 0, divergent = 0;
+  for (const op of ops) {
+    if (op.type === 'match') matches++;
+    else divergent++;
+  }
+  const total = matches + divergent;
+  const pct = total > 0 ? Math.round((matches / total) * 100) : 100;
+  return { matches, divergent, total, agreementPct: pct };
+}
+
+// Placeholder data for prototype
+const DIFF_PLACEHOLDER = {
+  objectId: 'korrespondenz_fleischer_gemini-3.1-flash-lite-preview',
+  providerA: { name: 'Gemini Flash Lite', model: 'gemini-3.1-flash-lite-preview' },
+  providerB: { name: 'Claude Sonnet', model: 'claude-sonnet-4-20250514' },
+  pages: [
+    {
+      page: 1,
+      textA: 'Wien, den 22. Mai 1901.\n\nLieber Max!\n\nIch danke Dir herzlich für Deinen lieben Brief, den ich soeben erhalte. Es freut mich außerordentlich, daß Du mit Deinem neuen Aufenthalt zufrieden bist und daß es Dir gesundheitlich besser geht.',
+      textB: 'Wien, den 22. Mai 1901.\n\nLieber Max!\n\nIch danke Dir herzlichst für Deinen lieben Brief, den ich soeben erhalten habe. Es freut mich außerordentlich, daß Du mit Deinem neuen Aufenthalte zufrieden bist und daß es Dir gesundheitlich besser geht.',
+    },
+    {
+      page: 2,
+      textA: 'Was meine literarischen Pläne betrifft, so arbeite ich jetzt an einer Novelle, die mich sehr beschäftigt. Ich hoffe, sie bis zum Herbst [?] fertigzustellen.\n\nMit herzlichen Grüßen\nDein Stefan',
+      textB: 'Was meine litterarischen Pläne betrifft, so arbeite ich jetzt an einer Novelle, die mich sehr beschäftigt. Ich hoffe, sie bis zum Herbste fertigzustellen.\n\nMit herzlichen Grüßen\nDein Stefan',
+    },
+    {
+      page: 3,
+      textA: '',
+      textB: '',
+    },
+  ],
+};
+
+function renderDiffView() {
+  const diffPanel = document.getElementById('diffPanel');
+  const diffContent = document.getElementById('diffContent');
+  const diffStats = document.getElementById('diffStats');
+  if (!diffPanel || !diffContent) return;
+
+  const pageData = DIFF_PLACEHOLDER.pages[state.currentPage];
+  if (!pageData || (!pageData.textA && !pageData.textB)) {
+    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Keine Transkription auf dieser Seite.</div>';
+    diffStats.innerHTML = '';
+    return;
+  }
+
+  const ops = diffWords(pageData.textA, pageData.textB);
+  const stats = computeDiffStats(ops);
+
+  // Stats
+  diffStats.innerHTML = `
+    <span class="diff__stats-agreement">${stats.agreementPct}% Übereinstimmung</span>
+    <span>${stats.matches} gleich, <span class="diff__stats-divergent">${stats.divergent} abweichend</span></span>
+    <span class="diff__prototype-badge">Prototyp — Platzhalterdaten</span>`;
+
+  // Build side-by-side columns
+  let htmlA = '';
+  let htmlB = '';
+
+  for (const op of ops) {
+    if (op.type === 'match') {
+      const escaped = escapeHtml(op.wordA);
+      htmlA += `<span class="diff__word diff__word--match">${escaped}</span> `;
+      htmlB += `<span class="diff__word diff__word--match">${escaped}</span> `;
+    } else if (op.type === 'delete') {
+      htmlA += `<span class="diff__word diff__word--only-a" data-tooltip="Nur in A">${escapeHtml(op.wordA)}</span> `;
+    } else if (op.type === 'insert') {
+      htmlB += `<span class="diff__word diff__word--only-b" data-tooltip="Nur in B">${escapeHtml(op.wordB)}</span> `;
+    }
+  }
+
+  diffContent.innerHTML = `
+    <div class="diff__side-by-side">
+      <div class="diff__column">
+        <div class="diff__column-header">A — ${escapeHtml(DIFF_PLACEHOLDER.providerA.name)}</div>
+        ${htmlA}
+      </div>
+      <div class="diff__column">
+        <div class="diff__column-header">B — ${escapeHtml(DIFF_PLACEHOLDER.providerB.name)}</div>
+        ${htmlB}
+      </div>
+    </div>
+    <div class="diff__legend">
+      <span class="diff__legend-item"><span class="diff__legend-swatch diff__legend-swatch--a"></span> Nur in A</span>
+      <span class="diff__legend-item"><span class="diff__legend-swatch diff__legend-swatch--b"></span> Nur in B</span>
+      <span class="diff__legend-item"><span class="diff__legend-swatch diff__legend-swatch--match"></span> Übereinstimmung</span>
+    </div>`;
+}
+
+function toggleDiffMode() {
+  // Exit edit mode if active
+  if (state.editMode) {
+    saveCurrentEdit();
+    state.editMode = false;
+    renderViewerPage();
+    updateEditButtons();
+  }
+
+  if (state.diffMode) {
+    resetDiffMode();
+    return;
+  }
+
+  state.diffMode = true;
+  document.getElementById('imgPanel').style.display = 'none';
+  document.getElementById('textPanel').style.display = 'none';
+  document.getElementById('panelLabelLeft').style.display = 'none';
+  document.getElementById('panelLabelRight').style.display = 'none';
+  document.getElementById('diffPanel').style.display = '';
+  document.getElementById('diffBtn').classList.add('active');
+  renderDiffView();
+}
+
 /* ===== Help Modal ===== */
 
 function openHelp() {
@@ -975,9 +1217,14 @@ function initEvents() {
   document.getElementById('rotateBtn').addEventListener('click', imgViewRotate);
   initImgViewEvents();
 
+  // Viewer: diff
+  document.getElementById('diffBtn').addEventListener('click', toggleDiffMode);
+
   // Viewer: edit
   document.getElementById('editBtn').addEventListener('click', () => {
     if (!state.isLocal) return;
+    // Exit diff mode if active
+    if (state.diffMode) toggleDiffMode();
     if (state.editMode) saveCurrentEdit();
     state.editMode = !state.editMode;
     renderViewerPage();
@@ -1090,6 +1337,7 @@ async function init() {
   }
 
   initCatalogFilters();
+  renderStats();
   applyFilters();
   renderCatalog();
   initEvents();

@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.173",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kuvert Testament, SZ-SEF/L7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.173/IMG.1",
+      "https://gams.uni-graz.at/o:szd.173/IMG.2",
+      "https://gams.uni-graz.at/o:szd.173/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kuvert Testament\n- Signatur: SZ-SEF/L7\n- Sprache: Deutsch\n- Objekttyp: Kuvert\n- Umfang: 1 Stück\n- Schreibinstrument: Violette Tinte\n- Hand: Stefan Zweig\n- Anmerkungen: Kuvert zu einer Abschrift des Testaments von Stefan Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "AFTER 5 DAYS, RETURN TO\n\n\n\nNEW YORK, N. Y.\n\nTestament (Abschrift ohne\nSignatur und Namen der Zeugen)\nOriginal bei Dr Artur Bondi\nNewyork\n551 Fifth Avenue",
+        "notes": "Die Transkription umfasst den vorgedruckten Text des Kuverts sowie die handschriftliche Notiz in violetter Tinte."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Kuverts, keine Beschriftung."
+      },
+      {
+        "page": 3,
+        "transcription": "AFTER 5 DAYS, RETURN TO\n\n\n\nNEW YORK, N. Y.\n\nTestament (Abschrift ohne\nSignatur und Namen der Zeugen)\nOriginal bei Dr Artur Bondi\nNewyork\n551 Fifth Avenue",
+        "notes": "Identisch mit Seite 1, inklusive Farbskala und Farbkarte im Bild."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar und eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 306,
+    "total_words": 52,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "input_images": 3,
+    "chars_per_page": [
+      153,
+      0,
+      153
+    ],
+    "chars_per_page_median": 153.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

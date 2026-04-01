@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.154",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Autogrammblatt, SZ-SAM/L4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.154/IMG.1",
+      "https://gams.uni-graz.at/o:szd.154/IMG.2",
+      "https://gams.uni-graz.at/o:szd.154/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Autogrammblatt\n- Signatur: SZ-SAM/L4\n- Sprache: Deutsch\n- Objekttyp: Druck\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette Tinte\n- Hand: Stefan Zweig\n- Anmerkungen: Spruch mit eigenhändiger Unterschrift in violetter Tinte",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "„Die Schrift zeigt die Hand,\nDas Wort den Verstand,\nDoch nur im Werk wird\n    das Wesen erkannt“.\n\nStefan Zweig",
+        "notes": "Der Text ist gedruckt, die Unterschrift ist handschriftlich in violetter Tinte."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer, man sieht lediglich den Durchdruck der Unterschrift."
+      },
+      {
+        "page": 3,
+        "transcription": "„Die Schrift zeigt die Hand,\nDas Wort den Verstand,\nDoch nur im Werk wird\n    das Wesen erkannt“.\n\nStefan Zweig",
+        "notes": "Dies ist eine Aufnahme des Dokuments mit Farb- und Grauskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 222,
+    "total_words": 38,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "input_images": 3,
+    "chars_per_page": [
+      111,
+      0,
+      111
+    ],
+    "chars_per_page_median": 111.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

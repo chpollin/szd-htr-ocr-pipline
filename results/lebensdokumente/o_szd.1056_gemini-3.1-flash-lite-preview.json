@@ -1,0 +1,71 @@
+{
+  "object_id": "o_szd.1056",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Bankkontoauszüge Bayerische Vereinsbank, SZ-AP2/L-S7.6",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1056/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.7",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.8",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.9",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.10",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.11"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Bankkontoauszüge Bayerische Vereinsbank\n- Signatur: SZ-AP2/L-S7.6\n- Datum: 1937-1939\n- Sprache: Deutsch\n- Objekttyp: Kontoauszug\n- Umfang: 7 Blatt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 2896\nFernverkehr 28992\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nIn diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige Saldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung der Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\nLetzter Saldo\nSoll RM | Haben RM: 39.00\nKonto-Nr.: Kred. Sperrg.\nMünchen, den 31.5.38\nBuchfolio: [leer]\nText: Uebertr. a. Kto. Oesterreich\nSOLL RM: 39.00\nWert: 31.12.\nHABEN RM: [leer]\nSoll RM: --\nJetziger Saldo: --\nHaben RM: --\nHerrn Dr. Stefan Zweig\nDas Konto ist hiermit ausgeglichen\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —\nMit deutschem Gruß!\nBayerische Vereinsbank",
+        "notes": "Kontoauszug, maschinenschriftlich ausgefüllt. Die Zeilenumbrüche wurden der visuellen Anordnung angepasst."
+      },
+      {
+        "page": 2,
+        "transcription": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 2896\nFernverkehr 28992\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nLetzter Saldo\nSoll RM | Haben RM: 236.60\nKonto-Nr.: 303855\nBuchfolio: [leer]\nText: Oesterreich\nUebertr. v. Kred. Sperrg.\ndo. v. Freies Guth.\nMünchen, den 31.5.38\nHerrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —",
+        "notes": "Kontoauszug, maschinenschriftlich ausgefüllt. Die Fortsetzung der Tabelle auf der rechten Seite fehlt in diesem Scan-Ausschnitt."
+      },
+      {
+        "page": 3,
+        "transcription": "In diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige Saldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung der Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\nSOLL RM: [leer]\nWert: 31.12.\nHABEN RM: 39.00\nSoll RM: [leer]\nJetziger Saldo: [leer]\nHaben RM: 284.60\n31.12. 9.00\nMit deutschem Gruß!\nBayerische Vereinsbank",
+        "notes": "Fortsetzung der Tabelle zu Seite 2."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift sehr sicher. Die tabellarische Struktur wurde linearisiert."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 1898,
+    "total_words": 262,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 5,
+    "chars_per_page": [
+      931,
+      558,
+      409
+    ],
+    "chars_per_page_median": 558,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

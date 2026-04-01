@@ -12,12 +12,13 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 Phasen 1–3 erledigt. Details und offene Aufgaben → `Plan.md` (einzige Wahrheitsquelle für Phasen-Status).
 
-- **16 Objekte** transkribiert: 7 Test (`results/test/`), 5 Batch (`results/lebensdokumente/`), 2 Aufsatzablage, 2 Werke
-- **Alle 9 Prompt-Gruppen** (A–I) haben mindestens ein Testobjekt — inkl. neu erstellter Gruppe G (Konvolut)
-- **~2107 Objekte** im Backup über 4 Sammlungen — Batch-Lauf für den Rest steht aus
-- 15× high confidence, 1× medium (Konvolut mit überlappenden Korrekturen)
+- **~61 Objekte** transkribiert: 7 Test (`results/test/`), 42 Lebensdokumente, 11 Werke, 1 Aufsatzablage
+- **Alle 9 Prompt-Gruppen** (A–I) haben mindestens ein Testobjekt — inkl. Gruppe G (Konvolut)
+- **~2107 Objekte** im Backup ueber 4 Sammlungen — gezieltes Sample (~74 Objekte, 10/Gruppe) in Arbeit
 - **Verifikationskonzept** fertig: Ground-Truth-Design, quality_signals-Spezifikation, Cross-Model-Verification, Literatur-Review (6 Papers)
-- Nächster Schritt: **Pilot** (5 Seiten manuell prüfen), dann Ground-Truth-Sample (30 Objekte), dann Phase 4
+- **TEI-Integration spezifiziert**: Interchange-Format (JSON Schema v0.1), teiCrafter-Integration (3 Mapping-Templates), TEI-Zielstruktur (DTABf-Profil)
+- **Empirische Befunde**: quality_signals zu aggressiv (63% flagged), marker_density funktionslos (2/57k Zeichen), Prompt-Vorsichts-Guidance wird ignoriert
+- Naechster Schritt: **Pilot** (5 Seiten manuell pruefen), dann Ground-Truth-Sample (31 Objekte), dann Phase 4
 
 ## Quelldaten
 
@@ -99,6 +100,8 @@ szd-htr/
     ├── annotation-protocol.md       ← Transkriptionskonventionen fuer Referenz-Sample
     ├── pilot-design.md              ← 5-Seiten-Pilot vor vollem GT-Sample
     ├── htr-interchange-format.md    ← JSON-Schema: szd-htr → teiCrafter
+    ├── tei-target-structure.md      ← TEI-Zielformat (DTABf-Profil, Markup→TEI-Mapping)
+    ├── teiCrafter-integration.md    ← teiCrafter-Integration (JSON-Import, Mapping-Templates)
     └── journal.md                   ← Chronologisches Session-Log
 ```
 

@@ -1,0 +1,63 @@
+{
+  "object_id": "o_szd.137",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "At Home Card, SZ-AAP/L14",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.137/IMG.1",
+      "https://gams.uni-graz.at/o:szd.137/IMG.2",
+      "https://gams.uni-graz.at/o:szd.137/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: At Home Card\n- Signatur: SZ-AAP/L14\n- Sprache: Englisch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Aufdruck „Stefan Zweig | At Home | R. S. V. P, | 49, Hallam Street, | London, W.1“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan Zweig\nAt Home\n\nR. S. V. P,\n49, Hallam Street,\nLondon, W. 1",
+        "notes": "Es handelt sich um eine gedruckte Einladungskarte."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Die Rückseite ist leer (Aufnahme mit Farbskala)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 65,
+    "total_words": 14,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "input_images": 3,
+    "chars_per_page": [
+      65,
+      0,
+      0
+    ],
+    "chars_per_page_median": 65,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

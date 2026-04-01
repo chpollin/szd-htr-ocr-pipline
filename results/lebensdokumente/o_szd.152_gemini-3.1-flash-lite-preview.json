@@ -1,0 +1,71 @@
+{
+  "object_id": "o_szd.152",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Abwesenheitsnotiz I, SZ-SAM/L2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.152/IMG.1",
+      "https://gams.uni-graz.at/o:szd.152/IMG.2",
+      "https://gams.uni-graz.at/o:szd.152/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Abwesenheitsnotiz I\n- Signatur: SZ-SAM/L2\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Aufdruck „Stefan Zweig | ist derzeit verreist, so daß Ihr freundliches Schreiben zur Zeit von ihm nicht beantwortet werden kann. | Salzburg, Datum des Poststempels“; 3 Exemplare",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan Zweig\n\nist derzeit verreist, so daß Ihr freundliches\nSchreiben zur Zeit von ihm nicht beantwortet\nwerden kann.\n\nSalzburg, Datum des Poststempels.",
+        "notes": "Vorderseite der Karte (identisch auf allen drei Scans)."
+      },
+      {
+        "page": 2,
+        "transcription": "An\n\n\n\n\nDrucksache",
+        "notes": "Rückseite der Karte (Adressseite)."
+      },
+      {
+        "page": 3,
+        "transcription": "Stefan Zweig\n\nist derzeit verreist, so daß Ihr freundliches\nSchreiben zur Zeit von ihm nicht beantwortet\nwerden kann.\n\nSalzburg, Datum des Poststempels.",
+        "notes": "Vorderseite der Karte (identisch mit Scan 1, hier mit Farbkarten-Referenz)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Es gibt keine handschriftlichen Ergänzungen."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 321,
+    "total_words": 46,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      152,
+      17,
+      152
+    ],
+    "chars_per_page_median": 152,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      1
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

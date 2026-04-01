@@ -170,6 +170,10 @@ def parse_api_response(text: str, object_id: str) -> tuple[dict, list[str]]:
     """
     log = []
 
+    if not text:
+        log.append(f"WARNUNG {object_id}: Leere API-Antwort, speichere Rohtext")
+        return {"raw": ""}, log
+
     # Step 1: Try direct parse
     try:
         return json.loads(text), log
@@ -260,6 +264,9 @@ def transcribe_object(
         return False, None
 
     result_text = response.text
+    if not result_text:
+        print(f"  FEHLER: Leere API-Antwort (response.text ist None/leer)")
+        result_text = ""
 
     # Parse result (with sanitization and retry)
     result_json, parse_log = parse_api_response(result_text, object_id)

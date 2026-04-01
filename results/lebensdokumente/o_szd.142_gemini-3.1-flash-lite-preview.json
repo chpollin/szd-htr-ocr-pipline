@@ -1,0 +1,61 @@
+{
+  "object_id": "o_szd.142",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Druckmatrize mit Name und Adresse, SZ-SAH/L2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.142/IMG.1",
+      "https://gams.uni-graz.at/o:szd.142/IMG.2",
+      "https://gams.uni-graz.at/o:szd.142/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Druckmatrize mit Name und Adresse\n- Signatur: SZ-SAH/L2\n- Objekttyp: Druckmatrize\n- Anmerkungen: „Dr. PHIL. STEFAN ZWEIG | WIEN | I. RATHHAUSSTRASSE 17.“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "DR. PHIL. STEFAN ZWEIG\n\nWIEN\nI. RATHHAUSSTRASSE 17.",
+        "notes": "Es handelt sich um eine spiegelverkehrte Druckmatrize. Die Transkription gibt den lesbaren Text im korrekten Schriftsinn wieder."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite der Druckmatrize, keine Beschriftung erkennbar."
+      },
+      {
+        "page": 3,
+        "transcription": "DR. PHIL. STEFAN ZWEIG\nWIEN\nI. RATHHAUSSTRASSE 17.",
+        "notes": "Gesamtansicht mit Farbskala. Der Text auf der Matrize ist spiegelverkehrt abgebildet, hier in korrekter Lesart transkribiert."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, eindeutig und entspricht den Angaben in den Metadaten."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 101,
+    "total_words": 16,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "input_images": 3,
+    "chars_per_page": [
+      51,
+      0,
+      50
+    ],
+    "chars_per_page_median": 50.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

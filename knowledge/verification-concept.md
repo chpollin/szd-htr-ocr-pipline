@@ -2,7 +2,7 @@
 title: "Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline"
 aliases: ["Verifikationskonzept"]
 created: 2026-04-01
-updated: 2026-04-01
+updated: 2026-04-01-v2
 type: concept
 tags: [szd-htr, methodology]
 status: stable
@@ -20,7 +20,9 @@ Adressaten: Lane 1 (Frontend/Viewer), Lane 3 (Pipeline-Implementierung)
 
 ## Ausgangslage
 
-Die Pipeline hat 12 Objekte transkribiert, alle mit Selbsteinschaetzung "high confidence". Diese Einschaetzung ist wertlos: Sie diskriminiert nicht zwischen einem sauber gedruckten Typoskript (o_szd.100) und einer fuenfseitigen Kurrent-Handschrift (o_szd.72, Tagebuch 1918). In den ca. 30 transkribierten Seiten finden sich genau ein `[...]`-Marker und ein `[?]`-Marker. Das Modell nutzt also weder das Konfidenz-Feld noch die Inline-Markup-Konventionen als zuverlaessiges Unsicherheitssignal.
+Die Pipeline hat 16 Objekte transkribiert (Stand 2026-04-01), davon 15 mit Selbsteinschaetzung "high confidence" und 1 mit "medium" (o_szd.277, Konvolut mit ueberlappenden Korrekturen). Die Selbsteinschaetzung ist nahezu wertlos: Sie diskriminiert nicht zwischen einem sauber gedruckten Typoskript (o_szd.100) und einer fuenfseitigen Kurrent-Handschrift (o_szd.72, Tagebuch 1918). In ca. 57.000 transkribierten Zeichen ueber alle 16 Objekte finden sich genau ein `[...]`-Marker und ein `[?]`-Marker. Das Modell nutzt also weder das Konfidenz-Feld noch die Inline-Markup-Konventionen als zuverlaessiges Unsicherheitssignal.
+
+**Empirischer Befund (Stand Session 8):** Die Gruppen-Prompts weisen das Modell explizit an, bei Kurrent-Ambiguitaeten (e/n, s/f) Unsicherheitsmarker zu setzen. Ergebnis: Null Marker bei 6.711 Zeichen Kurrent-Handschrift (o_szd.72). Die Vorsichts-Guidance in den Prompts wird faktisch ignoriert. Strukturelle Guidance (Briefformat bei Korrespondenz) wird hingegen befolgt. Die quality_signals flaggen aktuell 10/16 Objekte (63%) als `needs_review` — das ist zu viel fuer effektive Triage und zeigt, dass die Schwellenwerte vor Kalibrierung zu aggressiv sind.
 
 Daraus ergeben sich drei Probleme, die dieses Dokument adressiert:
 1. Es gibt keine Ground Truth, um die tatsaechliche Fehlerrate zu messen.
@@ -43,7 +45,7 @@ Ohne diese Basislinie sind alle weiteren Optimierungen (Prompt-Tuning, Provider-
 
 Die Minimalanforderung ergibt sich aus zwei Faktoren:
 
-**Gruppenabdeckung.** 8 aktive Prompt-Gruppen (A-I ohne G) muessen im Sample vertreten sein. Pro Gruppe mindestens 3 Objekte, um Intra-Gruppen-Varianz abschaetzen zu koennen (ein einzelnes Objekt kann nicht repraesentativ sein — die Handschrift-Qualitaet schwankt innerhalb derselben Gruppe erheblich).
+**Gruppenabdeckung.** Alle 9 aktiven Prompt-Gruppen (A-I) muessen im Sample vertreten sein. Pro Gruppe mindestens 2-3 Objekte, um Intra-Gruppen-Varianz abschaetzen zu koennen (ein einzelnes Objekt kann nicht repraesentativ sein — die Handschrift-Qualitaet schwankt innerhalb derselben Gruppe erheblich).
 
 **Seitenvolumen.** CER und WER sind zeichenbasierte bzw. wortbasierte Metriken. Ihre Aussagekraft haengt nicht von der Anzahl der Objekte, sondern von der Zeichenmenge ab. Ein 1-seitiges Typoskript mit 500 Zeichen und ein 39-seitiges Tagebuch produzieren sehr unterschiedlich belastbare CER-Werte. Mindestens 80-100 transkribierte Seiten mit substantiellem Text (nicht Leerseiten oder Farbkarten) sind noetig, um auf Gruppen-Ebene belastbare Mediane zu bilden.
 
@@ -55,19 +57,20 @@ Das ist ein Kompromiss zwischen statistischer Belastbarkeit und manuellem Aufwan
 
 Das Sample muss drei Dimensionen abdecken:
 
-**Dimension 1: Gruppen (Pflicht — alle 8)**
+**Dimension 1: Gruppen (Pflicht — alle 9)**
 
 | Gruppe | Population (ca.) | Sample | Begruendung |
 |---|---|---|---|
 | A Handschrift | ~100 | 5 | Kerngruppe, hoechste erwartete Fehlerrate |
 | B Typoskript | ~300 | 4 | Groesste Gruppe bei Lebensdokumenten, erwartbar niedrige Fehlerrate |
 | C Formular | ~25 | 3 | Kleine Population, Minimum |
-| D Kurztext | ~30 | 3 | Kleine Population, Minimum |
+| D Kurztext | ~30 | 2 | Kleine Population, wenig Text pro Objekt |
 | E Tabellarisch | ~230 | 3 | Bisher ungetestet, Registerstrukturen |
 | F Korrekturfahne | ~55 | 3 | Mischtyp (Druck + Handschrift), methodisch interessant |
+| G Konvolut | ~24 | 2 | Einziges bisheriges "medium"-Objekt (o_szd.277), heterogene Materialien |
 | H Zeitungsausschnitt | ~312 | 4 | Fraktur-Frage offen, grosse Population |
 | I Korrespondenz | ~1186 | 5 | Groesste Sammlung, nur 1 bisheriger Test |
-| **Gesamt** | | **30** | |
+| **Gesamt** | | **31** | (Pilot kann auf 30 reduzieren, wenn Gruppe mit CER <5%) |
 
 **Dimension 2: Schwierigkeitsspektrum (innerhalb jeder Gruppe)**
 
@@ -163,8 +166,9 @@ Diplomatische Transkription produziert andere Fehler als normalisierte Volltexte
 | **Strukturfehler** | Reihenfolge, Seitenumbruch, Spalten falsch | Spalte 2 vor Spalte 1 transkribiert | mittel |
 | **Markup-Fehler** | Unsicherheitsmarker fehlen oder sind falsch gesetzt | Unleserliches Wort ohne [...], leserliches mit [?] | mittel |
 | **Duplikat** | Derselbe Text doppelt transkribiert | Seite 1 und 3 im Bildner-Ergebnis | hoch |
+| **Anachronismus** | Zeichen oder Schreibweisen aus falscher historischer Periode eingefuegt (Levchenko 2025) | Langes s (ſ) in Zweig-Text (20. Jh.), archaische Ligaturen | mittel-hoch |
 
-Die Fehlertypen Halluzination und Duplikat verdienen besondere Aufmerksamkeit: Sie sind bei VLMs bekannte Phaenomene und mit reinen Zeichenmetriken (CER) nicht gut erfassbar, weil sie den Text verlaengern statt ihn zu veraendern.
+Die Fehlertypen Halluzination, Duplikat und Anachronismus verdienen besondere Aufmerksamkeit: Sie sind bei VLMs bekannte Phaenomene und mit reinen Zeichenmetriken (CER) nicht gut erfassbar, weil sie den Text verlaengern statt ihn zu veraendern.
 
 ### 1.6 Evaluationsmetriken
 
@@ -309,13 +313,7 @@ Crosilla et al. (CRO25) und Diez Garcia et al. (DIE25, nur Abstract verifiziert)
 
 ### Ergaenzung der Fehlertaxonomie
 
-Basierend auf LEV25 wird die Fehlertabelle in Abschnitt 1.5 um folgenden Typ erweitert:
-
-| Fehlertyp | Beschreibung | Beispiel | Schwere |
-|---|---|---|---|
-| **Anachronismus** | Zeichen oder Schreibweisen aus falscher historischer Periode eingefuegt | Langes s (ſ) in Zweig-Text (20. Jh.), archaische Ligaturen | mittel-hoch |
-
-Dieser Fehlertyp ist eine Unterform der Halluzination, aber spezifisch genug, um getrennt erfasst zu werden: Er deutet auf ein systematisches Bias im Modell hin, nicht auf Leseprobleme.
+Basierend auf LEV25 wurde die Fehlertabelle in Abschnitt 1.5 um den Typ **Anachronismus** erweitert. Dieser ist eine Unterform der Halluzination, aber spezifisch genug, um getrennt erfasst zu werden: Er deutet auf ein systematisches Bias im Modell hin, nicht auf Leseprobleme. Bei den bisherigen 16 Objekten wurde kein Anachronismus beobachtet (kein langes s, keine archaischen Ligaturen) — aber Fraktur-Texte (o_szd.2232) und historische Handschrift sind die Risikogruppe, die der Pilot pruefen wird.
 
 ---
 
@@ -348,7 +346,9 @@ Signale, die aus dem fertigen Transkriptionstext berechnet werden, ohne das VLM 
 
 ### 2.3 Signalkatalog
 
-Sechs automatisch berechenbare Signale, geordnet nach erwartetem Nutzen:
+Sechs automatisch berechenbare Signale, geordnet nach erwartetem Nutzen.
+
+**Empirische Einordnung (Stand 16 Objekte):** Die Signale wurden anhand der ersten 16 Objekte getestet. Ergebnis: 10/16 Objekte (63%) werden als `needs_review` geflaggt. Das ist zu viel fuer effektive Triage. Hauptursache: `page_image_mismatch` feuert bei jedem Objekt, das Leerseiten hat (Rueckseiten, Farbkarten) — im SZD-Nachlass ist das der Normalfall, kein Fehler. `marker_density` ist bei 16/16 Objekten nahe 0.0 (das Modell setzt fast keine Marker). `group_text_density` braucht >10 Objekte/Gruppe, die bisher nur Typoskript hat. Nur `duplicate_pages` (4 Treffer) und `language_mismatch` (2 Treffer) produzieren potenziell nuetzliche Signale. Die Schwellenwerte muessen dringend nach dem Pilot kalibriert werden — insbesondere sollte `page_image_mismatch` bei Objekten mit bekannten Leerseiten-Mustern (Farbkarten, Rueckseiten) nicht ausloesen.
 
 **Signal 1: Seitenlaengen-Anomalie (page_length_anomaly)**
 

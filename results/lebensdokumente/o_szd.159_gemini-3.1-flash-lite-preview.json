@@ -1,0 +1,63 @@
+{
+  "object_id": "o_szd.159",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postvollmacht für Anna Meingast, SZ-SAM/L9",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.159/IMG.1",
+      "https://gams.uni-graz.at/o:szd.159/IMG.2",
+      "https://gams.uni-graz.at/o:szd.159/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postvollmacht für Anna Meingast\n- Signatur: SZ-SAM/L9\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze Tinte\n- Hand: Stefan Zweig\n- Anmerkungen: Unterschrift und Korrekturen eigenhändig in schwarzer Tinte",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Frau A n n a  M e i n g a s t\n---------------------------\nLinzer Gasse 16, Salzburg.\n\nFrau Anna Meingast, Meine frühere Sekretärin ist von mir er-\nmächtigt, für mich einlangende Sendungen zu über-\nnehmen und Zahlungen entgegenzunehmen oder zu lei-\nsten, und habe ich dieselbe auch der Post gegen-\nüber legitimiert.\n\nStefan Zweig\n\nErneuert für Salzburg, 1. Januar 1936.",
+        "notes": "Das Dokument besteht aus einem maschinengeschriebenen Text, der handschriftlich durch die Anrede 'Frau Anna Meingast,' am Zeilenanfang ergänzt wurde. Die Unterschrift 'Stefan Zweig' ist ebenfalls handschriftlich."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, keine Beschriftung erkennbar (Durchdruck der Vorderseite)."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farb- und Graustufen-Referenzkarte, kein historischer Text."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 368,
+    "total_words": 61,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "input_images": 3,
+    "chars_per_page": [
+      368,
+      0,
+      0
+    ],
+    "chars_per_page_median": 368,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

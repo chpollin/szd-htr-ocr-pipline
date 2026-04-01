@@ -21,6 +21,8 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 ## Spezifikationen
 
 - [[htr-interchange-format]] — JSON-Schema fuer szd-htr → teiCrafter (Entwurf)
+- [[tei-target-structure]] — TEI-Zielformat fuer annotierte SZD-Transkriptionen (DTABf-basiert)
+- [[teiCrafter-integration]] — Integrationskonzept: JSON-Import, Mapping-Templates, Schema-Erweiterungen
 
 ## Projektlog
 

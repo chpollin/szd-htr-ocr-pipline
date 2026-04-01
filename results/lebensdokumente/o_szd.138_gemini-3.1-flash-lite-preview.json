@@ -1,0 +1,63 @@
+{
+  "object_id": "o_szd.138",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Karte von Herrmann Hesse 1904, SZ-AAP/L15",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.138/IMG.1",
+      "https://gams.uni-graz.at/o:szd.138/IMG.2",
+      "https://gams.uni-graz.at/o:szd.138/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Karte von Herrmann Hesse 1904\n- Signatur: SZ-AAP/L15\n- Datum: Pfingsten 1904\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Aufdruck „Maria Bernoulli | Hermann Hesse | beehren sich, Ihnen ihre bevorstehende Vermählung anzuzeigen.“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Maria Bernoulli\nHermann Hesse\n\nbeehren sich, Ihnen ihre bevorstehende\nVermählung anzuzeigen.\n\nBasel\n\nCalw\n\nPfingsten 1904.",
+        "notes": "Gedruckter Text auf einer Karte."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite der Karte, unbeschriftet."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Übersichtsbild mit Farbskala und Graustufenkarte, keine Transkription erforderlich."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 122,
+    "total_words": 15,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "input_images": 3,
+    "chars_per_page": [
+      122,
+      0,
+      0
+    ],
+    "chars_per_page_median": 122,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

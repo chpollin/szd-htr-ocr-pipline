@@ -27,6 +27,7 @@
 
 <!-- ===== Catalog View ===== -->
 <main id="catalog" class="catalog">
+  <div class="catalog__stats" id="catalogStats"></div>
   <div class="catalog__toolbar">
     <div class="catalog__search">
       <input type="search" class="catalog__search-input" id="searchInput"
@@ -117,12 +118,16 @@
               data-tooltip="Alle Änderungen an diesem Objekt verwerfen" style="display:none">
         Verwerfen
       </button>
+      <button type="button" class="viewer__action-btn" id="diffBtn"
+              data-tooltip="Transkriptionen vergleichen (Cross-Model)">
+        &#8700; Diff
+      </button>
     </div>
   </div>
 
   <div class="viewer__panels" id="viewerPanels">
-    <div class="viewer__panel-label">Faksimile</div>
-    <div class="viewer__panel-label">Transkription</div>
+    <div class="viewer__panel-label" id="panelLabelLeft">Faksimile</div>
+    <div class="viewer__panel-label" id="panelLabelRight">Transkription</div>
     <div class="viewer__img-panel" id="imgPanel">
       <span class="viewer__img-spinner" id="imgSpinner">Lade Bild…</span>
       <img id="faksimile" src="" alt="Faksimile" style="display:none">
@@ -139,6 +144,17 @@
       </div>
       <div class="viewer__notes" id="notes"></div>
       <div class="viewer__verification-wrap" id="verificationBar"></div>
+    </div>
+    <div class="viewer__diff-panel" id="diffPanel" style="display:none">
+      <div class="diff__header">
+        <div class="diff__provider-toggle">
+          <span class="diff__provider-label diff__provider-a">A: Gemini</span>
+          <span class="diff__vs">vs.</span>
+          <span class="diff__provider-label diff__provider-b">B: Claude</span>
+        </div>
+        <div class="diff__stats" id="diffStats"></div>
+      </div>
+      <div class="diff__content" id="diffContent"></div>
     </div>
   </div>
 </main>
@@ -191,6 +207,21 @@
       <li>Änderungen bleiben im Browser gespeichert (localStorage)</li>
       <li><strong>JSON</strong>-Button exportiert die Korrekturen als Datei</li>
     </ul>
+
+    <h3>Diff-Ansicht (Cross-Model)</h3>
+    <p>
+      Vergleicht zwei Transkriptionen desselben Dokuments von verschiedenen VLMs
+      (z.B. Gemini vs. Claude). Wort-basierter Diff mit Farbkodierung:
+    </p>
+    <ul>
+      <li><strong style="color:var(--diff-a-text)">Rot</strong> — nur in Transkription A</li>
+      <li><strong style="color:var(--diff-b-text)">Blau</strong> — nur in Transkription B</li>
+      <li>Schwarz — Übereinstimmung</li>
+    </ul>
+    <p>
+      Aktuell: UI-Prototyp mit Platzhalterdaten. Echte Vergleichsdaten folgen nach
+      Cross-Model-Transkription (Phase 4).
+    </p>
 
     <h3>Prompt-Gruppen</h3>
     <table>

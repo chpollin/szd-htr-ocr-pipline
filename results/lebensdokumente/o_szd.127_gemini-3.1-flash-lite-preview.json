@@ -1,0 +1,79 @@
+{
+  "object_id": "o_szd.127",
+  "collection": "lebensdokumente",
+  "group": "konvolut",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Verlagsvertrag Editura Socec u. Co. S.A., SZ-AAP/L13.50",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.127/IMG.1",
+      "https://gams.uni-graz.at/o:szd.127/IMG.2",
+      "https://gams.uni-graz.at/o:szd.127/IMG.3",
+      "https://gams.uni-graz.at/o:szd.127/IMG.4",
+      "https://gams.uni-graz.at/o:szd.127/IMG.5",
+      "https://gams.uni-graz.at/o:szd.127/IMG.6",
+      "https://gams.uni-graz.at/o:szd.127/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Editura Socec & Co. S.A.\n- Signatur: SZ-AAP/L13.50\n- Datum: 20 Aprilie 1939\n- Sprache: Deutsch\n- Objekttyp: Konvolut\n- Schreibinstrument: Schwarzes Durschlagpapier, schwarze Tinte, Bleistift\n- Hand: Stefan Zweig, Lotte Zweig, fremde Hand\n- Anmerkungen: Deutscher handschriftlicher Vertragsentwurf von unbekannter Hand, rumänischer Vertrag mit Notiz „bezahlt!“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Zwischen Herrn Dr Stefan Zweig, 49 Hallam Street,\nLondon W.1 und F° Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngedult des Herzens\nan die F° Socec & Co gegen eine einmalige Zahlung\nvon\n£ 30 (dreizig Pfund sterling).\nFalls das Buch nicht innerhalb ~~einem~~ {von einem} Jahre\nnach vertragsabschluss erscheint, fallen die Rechte\nan der Verfasser zurück.\nHerr Dr zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr zweig\nin Kraft.\nLondon, den 20 ~~April~~ {April} 1939 Bukarest, den 30 ~~März~~ {April} 1939\n(gs) Dr zweig (ps) Socec & Co",
+        "notes": "Handschriftlicher Vertragsentwurf in schwarzer Tinte. Korrekturen und Einfügungen über der Zeile."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leere Rückseite des ersten Blattes."
+      },
+      {
+        "page": 3,
+        "transcription": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\n\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\nUNGEDULD DES HERZENS\nEditurei Socec & Co. S.A. pentru suma de :\n£ 30.-.- (Treizeci)\nodată pentru totdeauna.-\n\nIn cazul când traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\n\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\n\nAcest contract devine valabil in momentul cànd Domnul Dr.\nStefan Zweig va fi in posesia sumei de £ 30.-.- pe care editura o va\nremite la adresa autorului.-\n\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\n\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S.A.\nbezahlt!",
+        "notes": "Typoskript (Vertrag in rumänischer Sprache). Handschriftliche Notiz 'bezahlt!' in Bleistift am unteren Rand."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Typoskripts, durchscheinender Text der Vorderseite."
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leeres Blatt, vermutlich Schutzblatt oder Rückseite des Konvoluts."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Transkription ist aufgrund der klaren Handschrift und des gut lesbaren Typoskripts sehr sicher. Die rumänischen Begriffe wurden originalgetreu übernommen."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 1655,
+    "total_words": 272,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "input_images": 5,
+    "chars_per_page": [
+      804,
+      0,
+      851,
+      0,
+      0
+    ],
+    "chars_per_page_median": 827.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

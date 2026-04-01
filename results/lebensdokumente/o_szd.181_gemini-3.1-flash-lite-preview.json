@@ -1,0 +1,58 @@
+{
+  "object_id": "o_szd.181",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Heimat-Schein, SZ-AP2/L-S7.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.181/IMG.1",
+      "https://gams.uni-graz.at/o:szd.181/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Heimat-Schein\n- Signatur: SZ-AP2/L-S7.1\n- Datum: 26.04.1919\n- Sprache: Deutsch\n- Objekttyp: Nachweis\n- Umfang: 1 Blatt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Selbständiger Wirkungskreis.\nNieder-Oesterreich. Nr. 15/1919\nWien.\nHeimat-Schein,\nwomit bestätiget wird, daß\nName: Dr Stefan Zweig\nCharakter oder Beschäftigung Schriftsteller\nAlter 28. November 1881 Wien\nStand ledig\nin Wien das Heimatrecht besitzt und in der Gemeinde-Matrik\n1857 Stadt 648/8 eingetragen erscheint.\nEigenhändige Unterschrift der Partei: Stefan Zweig\nVon dem magistratischen Bezirks-Amte für den 8 Bezirk.\nWien, den 26. IV. 1919\nFür den Bürgermeister:\n[Unterschrift unleserlich]\n[Stempel/Siegel]",
+        "notes": "Das Dokument enthält eine Steuermarke (2 Kronen, 1910). Die Unterschrift des Bürgermeisters/Beamten ist schwer leserlich. Am unteren Rand befinden sich zwei unleserliche Stempel/Siegel."
+      },
+      {
+        "page": 2,
+        "transcription": "20. Juni 1933\n[Stempel: Bundespolizeidirektion Wien]",
+        "notes": "Rückseite des Dokuments. Enthält einen violetten Stempel der Bundespolizeidirektion Wien mit Datum vom 20. Juni 1933."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar. Die Stempel auf der Rückseite sind klar als 'Bundespolizeidirektion' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 562,
+    "total_words": 71,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "input_images": 2,
+    "chars_per_page": [
+      510,
+      52
+    ],
+    "chars_per_page_median": 281.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      1
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

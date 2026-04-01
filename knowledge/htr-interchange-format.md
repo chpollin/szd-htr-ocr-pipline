@@ -189,7 +189,7 @@ teiCrafter (Step 1: Import, Step 2: Mapping) erwartet folgende Daten:
 
 | teiCrafter-Feld | Interchange-Quelle | Transformation |
 |---|---|---|
-| `inputContent` | `transcription.pages[].text` | Seiten mit `\n\n---\n\n` konkatenieren (Seitentrenner) |
+| `inputContent` | `transcription.pages[].text` | Seiten mit `|{n}|` konkatenieren (teiCrafter-Seitentrenner) |
 | `inputFormat` | (konstant) | `"plaintext"` |
 | `sourceType` | `source.document_type` | Mapping: manuscript/letter → correspondence, newspaper_clipping/print → print, sonst → generic |
 | `language` | `source.language` | ISO 639-1 direkt, ggf. erweitern (teiCrafter kennt bisher nur de/la/mhd) |
@@ -341,7 +341,7 @@ Ein vollstaendiges Beispiel basierend auf o_szd.100 (Agreement Longmans):
 ## 8. Offene Punkte
 
 1. **Schema-Hosting:** Der `$id`-URI ist ein Platzhalter. Soll das Schema auf GitHub Pages publiziert werden?
-2. **Mehrseitige Konkatenation:** Wie werden Seiten getrennt, wenn teiCrafter einen einzelnen Textblock erwartet? Vorschlag: `\n\n---\n\n` als Seitentrenner, den teiCrafter als `<pb/>` interpretiert.
+2. **Mehrseitige Konkatenation:** ~~Vorschlag `\n\n---\n\n`~~ → **Entschieden: `|{n}|`** als Seitentrenner (teiCrafter-Konvention, alle Demo-Mappings verwenden dieses Format). Siehe [[teiCrafter-integration]] §5 fuer Details.
 3. **Sprach-Normalisierung:** `source.language` erlaubt ISO 639-1 und Freitext. Soll das Schema strengere Validierung erzwingen?
 4. **document_type-Vokabular:** Offene Enumeration vs. kontrolliertes Vokabular? Aktuell: offen (Freitext). Fuer Interoperabilitaet waere ein kontrolliertes Vokabular besser.
 5. **Versionierung:** Wie wird das Schema versioniert? Vorschlag: SemVer (0.1 → 0.2 bei Felderweiterung, 1.0 bei Stabilisierung).

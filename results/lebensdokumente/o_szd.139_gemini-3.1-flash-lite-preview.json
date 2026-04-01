@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.139",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Bestellzettel Bücherausgabe, SZ-AAP/L16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.139/IMG.1",
+      "https://gams.uni-graz.at/o:szd.139/IMG.2",
+      "https://gams.uni-graz.at/o:szd.139/IMG.3",
+      "https://gams.uni-graz.at/o:szd.139/IMG.4",
+      "https://gams.uni-graz.at/o:szd.139/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Bestellzettel Bücherausgabe\n- Signatur: SZ-AAP/L16\n- Datum: [Mai 1935]\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Violette Tinte, Bleistift\n- Hand: Stefan Zweig\n- Anmerkungen: Eintragung „Stefan Zweig | Hotel Bellerive | TN 604 ah | Berlepsch Hans. Kämpfe“ eigenhändig in violetter Tinte und \n                „Stefan Zweig | Hotel Bellerive | St. Z. B. 488-491 | Merle d'Aubigné Geschichte“ eigenhändig in Bleistift",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte",
+        "notes": "Bleistift-Eintragungen auf dem Bestellzettel."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:",
+        "notes": "Eintragungen in violetter Tinte."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer."
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Übersichtsaufnahme mit Farb- und Grauskala, kein Text."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Texte sind aufgrund der gedruckten Vorlage und der gut lesbaren Handschrift Stefan Zweigs eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 399,
+    "total_words": 48,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "input_images": 5,
+    "chars_per_page": [
+      201,
+      0,
+      198,
+      0,
+      0
+    ],
+    "chars_per_page_median": 199.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

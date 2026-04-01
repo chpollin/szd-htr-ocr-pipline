@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.168",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vollmacht Alfred Zweig, SZ-SEF/L1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.168/IMG.1",
+      "https://gams.uni-graz.at/o:szd.168/IMG.2",
+      "https://gams.uni-graz.at/o:szd.168/IMG.3",
+      "https://gams.uni-graz.at/o:szd.168/IMG.4",
+      "https://gams.uni-graz.at/o:szd.168/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vollmacht Alfred Zweig\n- Signatur: SZ-SEF/L1\n- Datum: 9. August 1940\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette Tinte\n- Hand: Stefan Zweig\n- Anmerkungen: Vollmacht für den Bruder Alfred zu einem Hausverkauf des Hauses Garnisongasse 10 in Wien",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ich ermächtige hiemit meinen\nBruder Alfred Zweig in Angele-\ngenheiten des mir zu Hälfte ge\nhörigen Hauses IX Garnisongasse\n10 Wien alle Massnahmen und\nVerfügungen rechtsgiltig zu treffen\nund über diese mir gehörige Hälfte\nin meinem Auftrage so zu verfügen\nwie er es für richtig befindet\nund ich ermächtige ihn, diese\nVollmacht, über den mir gehörigen\nAnteil ebenso frei und berechtigt\nwie über seinen eigenen zu verfügen\njederzeit weiterzugeben an Personen",
+        "notes": "Die Transkription umfasst den Text auf der Vorderseite des Blattes."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "die er dazu bevollmächtigt\n\nStefan Zweig\nNewyork 9. August 1940",
+        "notes": "Fortsetzung des Textes auf der Rückseite (oberer Teil)."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Rückseite."
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leere Rückseite mit Farbskala."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der flüchtigen Handschrift Stefan Zweigs gut lesbar und inhaltlich eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 519,
+    "total_words": 81,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "input_images": 5,
+    "chars_per_page": [
+      456,
+      0,
+      63,
+      0,
+      0
+    ],
+    "chars_per_page_median": 259.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

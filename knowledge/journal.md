@@ -250,6 +250,37 @@ Review-Spalte, Qualitaets-Panel, Seiten-Anomalie-Marker im Code, wartet auf L3-D
 
 ---
 
+## 2026-04-01 — Session 8: Interchange-Format, Selbstkritik, Korrekturen
+
+### L2: Deliverables abgeschlossen
+
+- **htr-interchange-format.md** geschrieben — JSON Schema v0.1, teiCrafter-Mapping, SZD-HTR-Mapping, Abgrenzung ALTO/PAGE/hOCR, Beispiel basierend auf o_szd.100.
+- **pilot-design.md** geprueft und bestaetigt — keine Aenderungen noetig.
+- Schritt 1 + 2 der L2-Auftraege erledigt. Schritt 3+4 blockiert (warten auf Pilot-Durchfuehrung durch Operator).
+
+### Selbstkritische Review aller knowledge-Dokumente
+
+Systematische Pruefung aller 6 knowledge-Dateien + Lane.md auf Konsistenz, Korrektheit und empirische Fundierung.
+
+**Korrekturen durchgefuehrt:**
+- **verification-concept.md**: Objektzahlen 12→16, Konfidenz "alle high" → "15 high + 1 medium", Gruppe G ins Sample-Design aufgenommen (31 statt 30), Anachronismus direkt in Fehlertaxonomie-Tabelle §1.5, empirische Einordnung der quality_signals ergaenzt (10/16 flagged = zu aggressiv)
+- **journal.md**: Session 8 nachgetragen
+
+**Kritische Befunde:**
+1. **Marker-Problem bestaetigt:** 57.000 Zeichen, 2 Marker. marker_density ist kein funktionierendes Signal.
+2. **quality_signals zu aggressiv:** 10/16 (63%) als needs_review geflaggt — hauptsaechlich page_image_mismatch bei normalen Leerseiten.
+3. **Gruppen-Prompts:** Strukturelle Guidance (Briefformat) wirkt. Vorsichts-Guidance (Marker setzen bei Kurrent-Ambiguitaeten) wird ignoriert.
+4. **Interchange-Format moeglicherweise verfrueeht:** Sinnvoll als Analyse, aber Schema vor CER-Kenntnis wenig dringend.
+5. **30-Objekt-Sample:** Konkretes Design ist Platzhalter — haengt komplett vom Pilot ab.
+
+### Entscheidungen
+
+- Pilot bleibt der kritische naechste Schritt — alles andere ist Theorie
+- quality_signals-Schwellenwerte muessen nach Pilot kalibriert werden (page_image_mismatch braucht Leerseiten-Toleranz)
+- Prompt-Experiment ist wichtiger als gedacht (Evidenz fuer Wirkungslosigkeit der Vorsichts-Prompts)
+
+---
+
 ## Offene Fragen (Stand 2026-04-01)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
@@ -260,3 +291,6 @@ Review-Spalte, Qualitaets-Panel, Seiten-Anomalie-Marker im Code, wartet auf L3-D
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)
 - [ ] Provider-Vergleich: Claude Vision, GPT-4o (Phase 4)
 - [ ] Alle 2107 Objekte transkribieren (nach JSON-Parsing-Fix)
+- [ ] quality_signals kalibrieren: page_image_mismatch zu aggressiv (Session 8)
+- [ ] Prompt-Wirksamkeit: Vorsichts-Guidance ignoriert — Experiment noetig (Session 8)
+- [ ] o_szd.143 nur 20 Zeichen auf 3 Seiten — Pipeline-Problem oder korrektes Ergebnis? (Session 8)

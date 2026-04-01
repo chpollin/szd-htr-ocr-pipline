@@ -1,0 +1,63 @@
+{
+  "object_id": "o_szd.153",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Briefkarte blanko, SZ-SAM/L3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.153/IMG.1",
+      "https://gams.uni-graz.at/o:szd.153/IMG.2",
+      "https://gams.uni-graz.at/o:szd.153/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Briefkarte blanko\n- Signatur: SZ-SAM/L3\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Blaues Signet von Stefan Zweig, entworfen von Ephraim Moses Lilien, mit den Initialen „SZ“ und „Salzburg | Kapuzinerberg 5“; 21 Exemplare",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5",
+        "notes": "Vorderseite der Karte mit dem Stefan Zweig Signet (SZ) links oben und der Adresse rechts oben."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite der Karte, unbeschriftet."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Die Karte im Kontext der Digitalisierung mit Farb- und Grauskala. Die Karte selbst ist unbeschriftet."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gedruckt und eindeutig lesbar. Die Rückseite und das dritte Bild enthalten keinen transkribierbaren Text."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 24,
+    "total_words": 3,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "input_images": 3,
+    "chars_per_page": [
+      24,
+      0,
+      0
+    ],
+    "chars_per_page_median": 24,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

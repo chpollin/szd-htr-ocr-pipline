@@ -1,0 +1,68 @@
+{
+  "object_id": "o_szd.176",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Siegelstempel mit den Initialen „SZ“, SZ-AP2/L-S13",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.176/IMG.1",
+      "https://gams.uni-graz.at/o:szd.176/IMG.2",
+      "https://gams.uni-graz.at/o:szd.176/IMG.3",
+      "https://gams.uni-graz.at/o:szd.176/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Siegelstempel mit den Initialen „SZ“, SZ-AP2/L-S13\n- Signatur: SZ-AP2/L\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SZ",
+        "notes": "Es handelt sich um einen Siegelstempel mit den Initialen 'SZ'. Die Transkription gibt den eingravierten Text wieder."
+      },
+      {
+        "page": 2,
+        "transcription": "SZ",
+        "notes": "Rückseite/Oberseite des Siegelstempels, Initialen sind hier nur schemenhaft erkennbar."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Seitenansicht des Siegelstempels, kein Text vorhanden."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Seitenansicht des Siegelstempels mit Farbskala, kein Text vorhanden."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Transkription beschränkt sich auf die eindeutig lesbaren Initialen auf der Siegelplatte. Da es sich um ein Objekt (Siegelstempel) und nicht um ein Schriftstück handelt, ist die 'Transkription' auf die Identifikation der Buchstaben beschränkt."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 4,
+    "total_words": 2,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "input_images": 4,
+    "chars_per_page": [
+      2,
+      2,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

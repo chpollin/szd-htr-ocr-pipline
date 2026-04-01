@@ -1,0 +1,63 @@
+{
+  "object_id": "o_szd.145",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Rückerstattung der Postfachgebühren, SZ-SAM/L11",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.145/IMG.1",
+      "https://gams.uni-graz.at/o:szd.145/IMG.2",
+      "https://gams.uni-graz.at/o:szd.145/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Rückerstattung der Postfachgebühren\n- Signatur: SZ-SAM/L11\n- Datum: 4. Februar 1938\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Violettes Durchschlagpapier\n- Anmerkungen: Blaues Signet, entworfen von Ephraim Moses Lilien, mit den Initialen „SZ“ und „Kapuzinerberg 5 | SALZBURG, am ...“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebühren à S 2.50\nvom 1. Juli 1937 bis incl. 1. Februar 1938\nd.i. 2.50 x 8 = S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
+        "notes": "Das Dokument enthält links oben das blaue Signet von E. M. Lilien. Der Text ist in violetter Maschinenschrift verfasst."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit Farb- und Grauskala zur Dokumentation, leer."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Struktur ist einfach und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 201,
+    "total_words": 34,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "input_images": 3,
+    "chars_per_page": [
+      201,
+      0,
+      0
+    ],
+    "chars_per_page_median": 201,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

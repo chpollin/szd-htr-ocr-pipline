@@ -1,0 +1,56 @@
+{
+  "object_id": "o_szd.180",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Geburtsschein Lotte Zweig, SZ-AP2/L-S6.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.180/IMG.1",
+      "https://gams.uni-graz.at/o:szd.180/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Geburtsschein Lotte Zweig\n- Signatur: SZ-AP2/L-S6.1\n- Datum: 05.05.1908\n- Sprache: Deutsch (?)\n- Objekttyp: Geburtsschein\n- Umfang: 1 Blatt\n- Anmerkungen: Ausgestellt am 18. Februar 1914",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Reg. Nr 500/08.\n\nGeburtschein\nnur gültig für Schul- und Unterrichtszwecke einschließlich\ndes Konfirmations-Unterrichts.\n\nVor- und Zuname: Elisabet Charlotta\nUtmann\nGeburtstag und Ort: fünften Mai tausend-\nneunhundertacht zu Kattowitz.\nVor- und Zuname sowie Stand des Vaters: Kaufmann Josef\nGeorg Utmann, mosaisch.\nVor- und Zuname der Mutter: Therese geborne Hirsch,\nmosaisch.\n\nKattowitz, den 18. Februar 1914.\n\nDer Standesbeamte.\nZehe.",
+        "notes": "Das Dokument enthält ein Dienstsiegel des Standesamtes Kattowitz. Die Handschrift ist gut lesbar."
+      },
+      {
+        "page": 2,
+        "transcription": "NOTE: This declaration should not be made until the declarer's husband\ntakes the Oath of Allegiance and so becomes a British subject\n\n(G)\nDUPLICATE DECLARATION\n\nBRITISH NATIONALITY AND STATUS OF ALIENS ACT, 1914\n\nDeclaration of Acquisition of British Nationality\n\n(1) Name in full: I, (1) ELISABET CHARLOTTE ZWEIG\n(2) Address in full: of (2) LYNCOMBE HILL, BATH, SOMERSET\n\nbeing the wife of (1) STEFAN ZWEIG\nto whom a certificate of naturalization (No. AZ 15747 )\nwas granted on or about 12th March, 1940, hereby declare\nthat I desire to acquire British nationality.\n\n(Signature) Elisabet Charlotte Zweig\n\nMade and subscribed this 15th day of March, 1940,\nbefore me,\n(Signature) [Unleserlich]\nJustice of the Peace for the City of Bath\n(or other official title)\n\nA Commissioner for Oaths\n\nAddress",
+        "notes": "Das Dokument enthält einen Stempel 'COURT OF SUMMARY JURISDICTION CITY OF BATH' sowie einen Stempel 'HOME OFFICE REGISTERED 8 APR 1940'. Die Unterschrift des 'Justice of the Peace' ist schwer lesbar."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Texte sind weitgehend klar lesbar, sowohl die gedruckten Formularteile als auch die handschriftlichen Ergänzungen."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 1230,
+    "total_words": 184,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "input_images": 2,
+    "chars_per_page": [
+      435,
+      795
+    ],
+    "chars_per_page_median": 615.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "object_id": "o_szd.148",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Schreibmaschin-Zubehör, SZ-SAM/L14",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.148/IMG.1"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Schreibmaschin-Zubehör\n- Signatur: SZ-SAM/L14\n- Objekttyp: Schachtel mit Utensilien\n- Hand: Fremde Hand\n- Anmerkungen: Schachtel mit Aufschrift „Schreibmaschin-Zubehör“ von fremder Hand in schwarzem Buntstift mit zahlreichen Utensilien, u.a.: unbenutztes violettes Farbband in der Originaldose der Firma „Günther Wagner“, drei \n                leere Farbbandspulen, Typen-Reiniger Knetmasse „Star Type Cleaner No. 1226“ der Marke „Eberhard Faber | New York“, drei Reinigungsbürsten, Pfeifenputzerbürste, Pinsel, Stift, Radiergummi, Korrekturschablone „Remington Schreibmaschinen | Salzburg“, zwei Schlüssel",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SCHREIBMASCHIN-\nZUBEHÖR\n\nviolett, gut\n\n[Auf dem Farbband-Deckel:]\nPelikan\n\n[Auf der Dose 'Star Type Cleaner':]\nStar\nTYPE CLEANER\nNO. 1226\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK\nPAT. NO. 1629862\nEBERHARD FABER\nNEW YORK\n\n[Auf der Schablone:]\nRemington Schreibmaschinen\nGes. m. b. H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n[Auf dem Stift:]\nA.W. FABER Castell 7058",
+        "notes": "Die Transkription umfasst die Beschriftungen auf den verschiedenen Objekten. Die Anordnung folgt der visuellen Hierarchie der abgebildeten Gegenstände."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist auf den Objekten klar lesbar und weitgehend gedruckt. Die handschriftliche Notiz 'violett, gut' ist ebenfalls eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 399,
+    "total_words": 57,
+    "total_pages": 1,
+    "empty_pages": 0,
+    "input_images": 1,
+    "chars_per_page": [
+      399
+    ],
+    "chars_per_page_median": 399,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

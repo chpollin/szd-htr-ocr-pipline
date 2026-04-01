@@ -1,0 +1,62 @@
+{
+  "object_id": "o_szd.184",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Liste mit wichtigen Daten und persönlichen Papieren, SZ-AP2/L-S7.13",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.184/IMG.1",
+      "https://gams.uni-graz.at/o:szd.184/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Liste mit wichtigen Daten und persönlichen Papieren\n- Signatur: SZ-AP2/L-S7.13\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Hand: Stefan Zweig\n- Anmerkungen: Eigenhändige Liste mit wichtigen Daten und persönlichen Papieren die Familie Zweig betreffend",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Daten: Heirat in Bath 6. Sept. 1939\nSheidung in Salzburg 22. November 1938\nCertificate of Naturalisation A.Z. 15747\n~~Passport~~ ausgestellt 12. März 1940\nPassport No\n ausgestellt\nTod Moritz Zweig Wien 1927\nTod Ida Zweig 1938\nVita Versicherung aufgelöst\nVersicherung Haus P[?] H. 653274\n# North British Bristol [3500]\nNational Registration Identity Card W N B F\n 20/3\nLotte W N. B. F\n 20/4\nOath of Allegiance\n Bath 15. III 1940\nPass No 342995 1. April 1940\nNaturalisation Certificate No\n A Z. 15747\n London 12 März 1940\nRegistered \" 18 \" \"",
+        "notes": "Das Dokument ist eine handschriftliche Notizliste. Die Durchstreichung bei 'Passport' ist deutlich. Die Abkürzung 'P[?]' bei der Versicherung ist schwer lesbar, könnte 'P.H.' oder eine ähnliche Abkürzung sein. Die Zahlen in Klammern bei der Versicherungssumme sind in der Vorlage als [3500] interpretiert."
+      },
+      {
+        "page": 2,
+        "transcription": "Daten: Heirat in Bath 6. Sept. 1939\nSheidung in Salzburg 22. November 1938\nCertificate of Naturalisation A.Z. 15747\n~~Passport~~ ausgestellt 12. März 1940\nPassport No\n ausgestellt\nTod Moritz Zweig Wien 1927\nTod Ida Zweig 1938\nVita Versicherung aufgelöst\nVersicherung Haus P[?] H. 653274\n# North British Bristol [3500]\nNational Registration Identity Card W N B F\n 20/3\nLotte W N. B. F\n 20/4\nOath of Allegiance\n Bath 15. III 1940\nPass No 342995 1. April 1940\nNaturalisation Certificate No\n A Z. 15747\n London 12 März 1940\nRegistered \" 18 \" \"",
+        "notes": "Identisch mit Seite 1 (Scan zeigt das gleiche Dokument)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der schnellen Handschrift gut lesbar, da es sich primär um eine strukturierte Liste mit Daten und Aktenzeichen handelt."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 1078,
+    "total_words": 182,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "input_images": 2,
+    "chars_per_page": [
+      539,
+      539
+    ],
+    "chars_per_page_median": 539.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.011,
+    "duplicate_page_pairs": [
+      [
+        0,
+        1
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages",
+      "language_mismatch"
+    ]
+  }
+}

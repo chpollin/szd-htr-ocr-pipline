@@ -1,0 +1,71 @@
+{
+  "object_id": "o_szd.151",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Abwesenheitsnotiz II, SZ-SAM/L18",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.151/IMG.1",
+      "https://gams.uni-graz.at/o:szd.151/IMG.2",
+      "https://gams.uni-graz.at/o:szd.151/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Abwesenheitsnotiz II\n- Signatur: SZ-SAM/L18\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Aufdruck „Ihr freundliches Schreiben erreicht mich leider in einer Zeit, | da mir aus persönlichen Gründen eine wirklich eingehende | Beantwortung nicht möglich wird. | Wollen Sie dies mit Nachsicht zugute halten | Ihrem ergebenen“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ihr freundliches Schreiben erreicht mich leider in einer Zeit,\nda mir aus persönlichen Gründen eine wirklich eingehende\nBeantwortung nicht möglich wird.\nWollen Sie dies mit Nachsicht zugute halten\nIhrem ergebenen",
+        "notes": "Gedruckter Text auf einer Karte."
+      },
+      {
+        "page": 2,
+        "transcription": "Neungast",
+        "notes": "Handschriftlicher Vermerk auf der Rückseite der Karte."
+      },
+      {
+        "page": 3,
+        "transcription": "Ihr freundliches Schreiben erreicht mich leider in einer Zeit,\nda mir aus persönlichen Gründen eine wirklich eingehende\nBeantwortung nicht möglich wird.\nWollen Sie dies mit Nachsicht zugute halten\nIhrem ergebenen",
+        "notes": "Wiederholung des gedruckten Textes auf der Karte (im Kontext der Farbkarte/Grauskala)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, sowohl der Druck als auch die handschriftliche Notiz auf der Rückseite."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 432,
+    "total_words": 61,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "input_images": 3,
+    "chars_per_page": [
+      212,
+      8,
+      212
+    ],
+    "chars_per_page_median": 212,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      1
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

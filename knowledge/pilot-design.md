@@ -239,6 +239,7 @@ Verzeichnis `results/groundtruth/` muss angelegt werden. (Lane 3 kann das in die
 | Halluzinationsrate | Unbekannt. Pipeline setzt fast keine [?]-Marker — das koennte heissen "alles korrekt" oder "alles unkritisch uebernommen". | Ob die Pipeline Text erfindet, der nicht im Faksimile steht. |
 | Strukturtreue bei Tabellen | Unbekannt. Pipeline linearisiert Spalten — ob die Zuordnung stimmt, ist ungeprueft. | Ob Tabellen-Linearisierung funktioniert oder systematisch fehlschlaegt. |
 | Protokoll-Tauglichkeit | Ungetestet. Das Annotationsprotokoll ist theoretisch, nicht erprobt. | Wo das Protokoll Luecken hat, wo Entscheidungen fehlen. |
+| Prompt-Wirksamkeit | Evidenz aus Session 8: Vorsichts-Guidance in Gruppen-Prompts (Kurrent e/n, Fraktur s/f) wird ignoriert — 0 Marker bei 6711 Zeichen Kurrent. Strukturelle Guidance (Briefformat) wird befolgt. | Ob die Pipeline trotzdem korrekt liest (dann ist die fehlende Unsicherheitsmarkierung nur ein Darstellungsproblem) oder ob sie still falsch liest (dann ist die fehlende Markierung ein ernstes Qualitaetsproblem). |
 
 ### 3.2 Entscheidungen, die vom Pilot abhaengen
 

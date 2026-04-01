@@ -1,0 +1,115 @@
+{
+  "object_id": "o_szd.175",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Register der Aufsätze, SZ-AP2/L-S12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.175/IMG.1",
+      "https://gams.uni-graz.at/o:szd.175/IMG.2",
+      "https://gams.uni-graz.at/o:szd.175/IMG.3",
+      "https://gams.uni-graz.at/o:szd.175/IMG.4",
+      "https://gams.uni-graz.at/o:szd.175/IMG.5",
+      "https://gams.uni-graz.at/o:szd.175/IMG.6",
+      "https://gams.uni-graz.at/o:szd.175/IMG.7",
+      "https://gams.uni-graz.at/o:szd.175/IMG.8",
+      "https://gams.uni-graz.at/o:szd.175/IMG.9",
+      "https://gams.uni-graz.at/o:szd.175/IMG.10",
+      "https://gams.uni-graz.at/o:szd.175/IMG.11",
+      "https://gams.uni-graz.at/o:szd.175/IMG.12",
+      "https://gams.uni-graz.at/o:szd.175/IMG.13",
+      "https://gams.uni-graz.at/o:szd.175/IMG.14",
+      "https://gams.uni-graz.at/o:szd.175/IMG.15",
+      "https://gams.uni-graz.at/o:szd.175/IMG.16",
+      "https://gams.uni-graz.at/o:szd.175/IMG.17",
+      "https://gams.uni-graz.at/o:szd.175/IMG.18",
+      "https://gams.uni-graz.at/o:szd.175/IMG.19",
+      "https://gams.uni-graz.at/o:szd.175/IMG.20",
+      "https://gams.uni-graz.at/o:szd.175/IMG.21",
+      "https://gams.uni-graz.at/o:szd.175/IMG.22",
+      "https://gams.uni-graz.at/o:szd.175/IMG.23",
+      "https://gams.uni-graz.at/o:szd.175/IMG.24",
+      "https://gams.uni-graz.at/o:szd.175/IMG.25",
+      "https://gams.uni-graz.at/o:szd.175/IMG.26",
+      "https://gams.uni-graz.at/o:szd.175/IMG.27",
+      "https://gams.uni-graz.at/o:szd.175/IMG.28",
+      "https://gams.uni-graz.at/o:szd.175/IMG.29",
+      "https://gams.uni-graz.at/o:szd.175/IMG.30",
+      "https://gams.uni-graz.at/o:szd.175/IMG.31",
+      "https://gams.uni-graz.at/o:szd.175/IMG.32",
+      "https://gams.uni-graz.at/o:szd.175/IMG.33",
+      "https://gams.uni-graz.at/o:szd.175/IMG.34",
+      "https://gams.uni-graz.at/o:szd.175/IMG.35",
+      "https://gams.uni-graz.at/o:szd.175/IMG.36",
+      "https://gams.uni-graz.at/o:szd.175/IMG.37",
+      "https://gams.uni-graz.at/o:szd.175/IMG.38",
+      "https://gams.uni-graz.at/o:szd.175/IMG.39",
+      "https://gams.uni-graz.at/o:szd.175/IMG.40",
+      "https://gams.uni-graz.at/o:szd.175/IMG.41",
+      "https://gams.uni-graz.at/o:szd.175/IMG.42",
+      "https://gams.uni-graz.at/o:szd.175/IMG.43"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Register der Aufsätze, SZ-AP2/L-S12\n- Signatur: SZ-AP2/L\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 43 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "CASH BOOK",
+        "notes": "Einband des Notizbuchs."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leere Innenseite des Einbands."
+      },
+      {
+        "page": 3,
+        "transcription": "BÜCHER\n\n\n\nBILDER",
+        "notes": "Titelblatt/Registerblatt mit handschriftlichen Einträgen."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite."
+      },
+      {
+        "page": 5,
+        "transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisena[?]}",
+        "notes": "Handschriftlicher Eintrag. 'Eisena' am rechten Rand könnte ein Name oder eine Notiz sein, die Schrift ist hier etwas flüchtiger."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich. Die unsichere Lesung 'Eisena' ist aufgrund der flüchtigen Schreibweise am Rand als solche markiert."
+  },
+  "quality_signals": {
+    "version": "1.0",
+    "total_chars": 121,
+    "total_words": 14,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "input_images": 5,
+    "chars_per_page": [
+      9,
+      0,
+      16,
+      0,
+      96
+    ],
+    "chars_per_page_median": 16,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0714,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}
