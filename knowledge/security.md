@@ -51,6 +51,8 @@ Die Applikation hat **zwei Deployment-Kontexte** mit unterschiedlichen Angriffsf
 ```
 GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraenkung: `frame-ancestors` funktioniert nicht via Meta-Tag. Optional: DOMPurify fuer Defense-in-Depth.
 
+**Status**: ERLEDIGT (2026-04-02) — CSP-Meta-Tag in `docs/index.html` eingefuegt.
+
 ---
 
 #### H2  Unescaped Attribute in Katalog-Rendering
@@ -60,7 +62,7 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 **Datenquelle**: `catalog.json`, deterministisch gebaut von `build_viewer_data.py` aus GAMS-URLs und TEI-IDs. Praktisches Risiko sehr niedrig, aber `escapeHtml()` wird bei allen Nachbarfeldern bereits korrekt eingesetzt — Inkonsistenz.
 **Referenz**: [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Scripting_Prevention_Cheat_Sheet.html)
 
-**Status**: OFFEN
+**Status**: ERLEDIGT (2026-04-02) — `escapeHtml()` auf beide Felder angewendet.
 **Fix**: `escapeHtml(obj.thumbnail || '')` und `escapeHtml(obj.id)` — zwei Einzeiler.
 
 #### H3  Path Traversal in `serve.py`
@@ -70,8 +72,8 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 **Verifikation**: Pathlib's `/`-Operator joined Pfade ohne Sanitisierung. Fix: `.resolve()` + Prefix-Check gegen Base-Directory.
 **Praktisches Risiko**: Nur lokal, aber via CORS-Wildcard (H4) oder DNS-Rebinding von extern triggerbar.
 
-**Status**: OFFEN
-**Fix**: Regex-Whitelist `^o_szd\.[0-9a-zA-Z]+$` auf `object_id`, `.resolve()` + Prefix-Check.
+**Status**: ERLEDIGT (2026-04-02) — Regex-Whitelist + Collection-Whitelist in `_validate_ids()`.
+**Fix**: Regex-Whitelist `^o_szd\.[0-9a-zA-Z]+$` auf `object_id`, Collection gegen `COLLECTIONS.keys()`.
 
 #### H4  CORS Wildcard + keine Authentifizierung auf Dev-Server
 
@@ -79,7 +81,7 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 **Vektor**: `Access-Control-Allow-Origin: *` erlaubt jeder Website Requests an den lokalen Server. Preflight-OPTIONS mit `*` erlaubt auch POST-Requests ([MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS), [PortSwigger CORS](https://portswigger.net/web-security/cors)). DNS-Rebinding kann die 127.0.0.1-Bindung umgehen ([NCC Group Singularity](https://github.com/nccgroup/singularity)).
 **Praktisches Risiko**: Niedrig-Mittel. Nur ausnutzbar waehrend `serve.py` laeuft und User gleichzeitig eine boeswillige Seite besucht.
 
-**Status**: OFFEN
+**Status**: ERLEDIGT (2026-04-02) — CORS auf localhost-Origins beschraenkt, Host-Header-Validierung via `_check_host()`.
 **Fix**: CORS auf `http://127.0.0.1:{port}` einschraenken, Host-Header-Validierung.
 
 ---
@@ -91,7 +93,7 @@ GitHub Pages erlaubt keine HTTP-Header; `<meta>` ist der einzige Weg. Einschraen
 **Datei**: `pipeline/serve.py`, Zeilen 56-99
 **Felder ohne Validierung**: `reviewed_by` (beliebige Laenge), `pages[].transcription` (keine Laengenbegrenzung), `model` (koennte Path-Traversal enthalten).
 **Risiko**: In Kombination mit CORS-Wildcard ausnutzbar (Disk-Exhaustion, Datenmanipulation).
-**Status**: OFFEN
+**Status**: ERLEDIGT (2026-04-02) — `_validate_ids()` prueft object_id und collection vor jedem Dateizugriff.
 
 #### M2  XML-Parsing ohne XXE-Schutz
 
@@ -185,11 +187,11 @@ Python-Docs warnen explizit: "not recommended for production". Binding auf 127.0
 
 | ID | Prioritaet | Fix | Aufwand | Status |
 |---|---|---|---|---|
-| H1 | Hoch | CSP-Meta-Tag in `index.html` (entschaerft innerHTML-XSS) | 5 Min | OFFEN |
-| H2 | Hoch | `escapeHtml()` fuer `obj.thumbnail` und `obj.id` | 2 Zeilen | OFFEN |
-| H3 | Hoch | Path-Traversal-Schutz in `serve.py` | 15 Min | OFFEN |
-| H4 | Hoch | CORS einschraenken + Host-Header-Validierung | 15 Min | OFFEN |
-| M1 | Mittel | Input-Validierung auf API-Endpoints | 30 Min | OFFEN |
+| H1 | Hoch | CSP-Meta-Tag in `index.html` (entschaerft innerHTML-XSS) | 5 Min | ERLEDIGT |
+| H2 | Hoch | `escapeHtml()` fuer `obj.thumbnail` und `obj.id` | 2 Zeilen | ERLEDIGT |
+| H3 | Hoch | Path-Traversal-Schutz in `serve.py` | 15 Min | ERLEDIGT |
+| H4 | Hoch | CORS einschraenken + Host-Header-Validierung | 15 Min | ERLEDIGT |
+| M1 | Mittel | Input-Validierung auf API-Endpoints | 30 Min | ERLEDIGT (via H3) |
 | M3 | Mittel | Single-Quote in `escapeHtml()` | 1 Zeile | OFFEN |
 | M6 | Mittel | Dependencies exakt pinnen | 5 Min | OFFEN |
 
