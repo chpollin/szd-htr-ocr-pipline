@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.195",
+  "collection": "lebensdokumente",
+  "group": "tabellarisch",
+  "title": "Briefregister [II], SZ-AP2/L-S9.2",
+  "models": {
+    "a": "gemini-3.1-flash-lite-preview",
+    "b": "gemini-3-flash-preview",
+    "c": "gemini-3.1-pro-preview"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "transcription": "LETTER REGISTER",
+      "type": "content",
+      "source": "consensus_3of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "LETTER REGISTER",
+        "flash": "LETTER REGISTER",
+        "pro": "LETTER REGISTER"
+      }
+    },
+    {
+      "page": 2,
+      "transcription": "MADE IN ENGLAND\nFRANK SMYTHSON LTD.   NEW BOND ST W.",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "MADE IN ENGLAND\nFRANK SMYTHSON LTD.    NEW BOND ST W.",
+        "flash": "MADE IN ENGLAND\nFRANK SMYTHSON LTD. NEW BOND ST. W.",
+        "pro": "MADE IN ENGLAND\nFRANK SMYTHSON LTD.   NEW BOND ST W."
+      }
+    },
+    {
+      "page": 3,
+      "transcription": "23. XI. 1936 - 30. VII. 38\n\nTHE\n\"FEATHERWEIGHT\"\n(Copyright)\nBOOKS\n\n\"KNOWN THE WORLD OVER\"\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of \"Featherweight\" Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "23. XI. 1936 - 30. VII. 38\n\nTHE\n“FEATHERWEIGHT”\n(Copyright)\nBOOKS\n\nKNOWN THE WORLD OVER\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of “Featherweight” Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
+        "flash": "23. XI. 1936 - 30. VII. 38\n\nTHE\n\"FEATHERWEIGHT\"\n(Copyright)\nBOOKS\n\nKNOWN THE WORLD OVER\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of \"Featherweight\" Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
+        "pro": "23. XI. 1936 - 30. VII. 38\n\nTHE\n\"FEATHERWEIGHT\"\n(Copyright)\nBOOKS\n\n\"KNOWN THE WORLD OVER\"\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of \"Featherweight\" Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered)."
+      }
+    },
+    {
+      "page": 4,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Vorsatzblatt, Rückseite der Titelseite (durchscheinender Text).",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 5,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Leeres Vorsatzblatt.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    }
+  ],
+  "merge_stats": {
+    "consensus_3of3": 1,
+    "majority_2of3": 2,
+    "pro_only": 0,
+    "skipped": 2
+  },
+  "expert_verified": false,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "created_at": "2026-04-02T07:14:36.723209+00:00"
+}

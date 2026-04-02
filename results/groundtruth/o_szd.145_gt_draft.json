@@ -1,0 +1,59 @@
+{
+  "object_id": "o_szd.145",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "title": "Rückerstattung der Postfachgebühren, SZ-SAM/L11",
+  "models": {
+    "a": "gemini-3.1-flash-lite-preview",
+    "b": "gemini-3-flash-preview",
+    "c": "gemini-3.1-pro-preview"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "transcription": "                                Kapuzinerberg 5\n                                SALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebüren à S 2.50\n\n        vom 1. Juli 1937 bis incl. 1. Februar 1938\n\nd.i.  2.50 x 8 -   S 20.- (Schilling zwanzig)\n\n                                        Mit besten Empfehlungen",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebühren à S 2.50\nvom 1. Juli 1937 bis incl. 1. Februar 1938\nd.i. 2.50 x 8 = S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
+        "flash": "SZ\nKapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\n\nRückerstattung der Postfachgebüren à S 2.50\n\nvom 1. Juli 1937 bis incl. 1. Februar 1938\n\nd.i. 2.50 x 8 - S 20.- (Schilling zwanzig)\n\n\nMit besten Empfehlungen",
+        "pro": "                                Kapuzinerberg 5\n                                SALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebüren à S 2.50\n\n        vom 1. Juli 1937 bis incl. 1. Februar 1938\n\nd.i.  2.50 x 8 -   S 20.- (Schilling zwanzig)\n\n                                        Mit besten Empfehlungen"
+      }
+    },
+    {
+      "page": 2,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Rückseite des Dokuments, leer.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 3,
+      "transcription": "",
+      "type": "color_chart",
+      "source": "skipped",
+      "notes": "Rückseite des Dokuments mit Farb- und Grauskala zur Dokumentation, leer.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    }
+  ],
+  "merge_stats": {
+    "consensus_3of3": 0,
+    "majority_2of3": 1,
+    "pro_only": 0,
+    "skipped": 2
+  },
+  "expert_verified": false,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "created_at": "2026-04-02T07:11:14.580579+00:00"
+}

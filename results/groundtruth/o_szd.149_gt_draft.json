@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.149",
+  "collection": "lebensdokumente",
+  "group": "tabellarisch",
+  "title": "Bibliographie der Werke von Stefan Zweig, SZ-SAM/L15",
+  "models": {
+    "a": "gemini-3.1-flash-lite-preview",
+    "b": "gemini-3-flash-preview",
+    "c": "gemini-3.1-pro-preview"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "transcription": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\n\nVON\n\nSTEFAN ZWEIG",
+      "type": "content",
+      "source": "consensus_3of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\n\nVON\n\nSTEFAN ZWEIG",
+        "flash": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\nVON\nSTEFAN ZWEIG",
+        "pro": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\n\nVON\n\nSTEFAN ZWEIG"
+      }
+    },
+    {
+      "page": 2,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Vorsatzblatt, leer.",
+      "variants": {
+        "flash_lite": "(leer)",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 3,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Vorsatzblatt, leer.",
+      "variants": {
+        "flash_lite": "(leer)",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 4,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Vorsatzblatt, leer.",
+      "variants": {
+        "flash_lite": "(leer)",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 5,
+      "transcription": "",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "⚓",
+        "flash": "",
+        "pro": ""
+      }
+    }
+  ],
+  "merge_stats": {
+    "consensus_3of3": 1,
+    "majority_2of3": 1,
+    "pro_only": 0,
+    "skipped": 3
+  },
+  "expert_verified": false,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "created_at": "2026-04-02T07:14:10.427184+00:00"
+}

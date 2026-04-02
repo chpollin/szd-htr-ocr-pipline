@@ -1,0 +1,48 @@
+{
+  "object_id": "o_szd.139",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model": "gemini-3.1-pro-preview",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte\n\nDatum:",
+        "notes": "Vordruck (Formular), handschriftlich mit Bleistift ausgefüllt."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Nur durchscheinender Text (Bleed-through) der Vorderseite erkennbar."
+      },
+      {
+        "page": 3,
+        "transcription": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:",
+        "notes": "Vordruck (Formular), handschriftlich mit violetter Tinte ausgefüllt."
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Nur durchscheinender Text (Bleed-through) der Vorderseite erkennbar."
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. In der Mitte liegt die leere Rückseite eines der Bestellzettel (durchscheinender Text)."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Sehr gute Lesbarkeit. Der gedruckte Text ist klar, die handschriftlichen Einträge (Bleistift und violette Tinte) sind deutlich zu entziffern und werden durch die bereitgestellten Metadaten bestätigt."
+  },
+  "metadata": {
+    "title": "Bestellzettel Bücherausgabe, SZ-AAP/L16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.139/IMG.1",
+      "https://gams.uni-graz.at/o:szd.139/IMG.2",
+      "https://gams.uni-graz.at/o:szd.139/IMG.3",
+      "https://gams.uni-graz.at/o:szd.139/IMG.4",
+      "https://gams.uni-graz.at/o:szd.139/IMG.5"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "object_id": "o_szd.1081",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "title": "Postkarte an Max Fleischer vom 5. Juni 1901, SZ-LAS/B3.3",
+  "models": {
+    "a": "gemini-3.1-flash-lite-preview",
+    "b": "gemini-3-flash-preview",
+    "c": "gemini-3.1-pro-preview"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "transcription": "Correspondenz-Karte.\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\nNur für die Adresse",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+        "flash": "Correspondenz-Karte.\n\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\n\nNur für die Adresse",
+        "pro": "Correspondenz-Karte.\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\nNur für die Adresse"
+      }
+    },
+    {
+      "page": 2,
+      "transcription": "Lieber Herr Fleischer! Anbei die Recension:\nNatürlich muß es statt „graciöse“ darin\n„gratiöse“ heißen. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefanZweig",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa“ devin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+        "flash": "Lieber Herr Fleischer! Anbei die Recension:\nNatürlich macht es statt „graciöse“ darin\n„graciöse“ hinten. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+        "pro": "Lieber Herr Fleischer! Anbei die Recension:\nNatürlich muß es statt „graciöse“ darin\n„gratiöse“ heißen. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefanZweig"
+      }
+    },
+    {
+      "page": 3,
+      "transcription": "Correspondenz-Karte.\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\nNur für die Adresse",
+      "type": "content",
+      "source": "pro_only",
+      "notes": "",
+      "variants": {
+        "flash_lite": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+        "flash": "",
+        "pro": "Correspondenz-Karte.\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\nNur für die Adresse"
+      }
+    }
+  ],
+  "merge_stats": {
+    "consensus_3of3": 0,
+    "majority_2of3": 2,
+    "pro_only": 1,
+    "skipped": 0
+  },
+  "expert_verified": false,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "created_at": "2026-04-02T07:26:41.749526+00:00"
+}

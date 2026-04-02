@@ -1,6 +1,44 @@
 {
   "objects": [
     {
+      "id": "o_szd.100_layout",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
       "id": "tagebuch_1918_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.72/IMG.1",
@@ -69,6 +107,82 @@
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
+      "id": "o_szd.139_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
+      "id": "o_szd.141_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": false,
@@ -214,6 +328,132 @@
       }
     },
     {
+      "id": "o_szd.139_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.139/IMG.1",
+        "https://gams.uni-graz.at/o:szd.139/IMG.2",
+        "https://gams.uni-graz.at/o:szd.139/IMG.3",
+        "https://gams.uni-graz.at/o:szd.139/IMG.4",
+        "https://gams.uni-graz.at/o:szd.139/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte\n\nDatum:",
+          "notes": "Vordruck (Formular), handschriftlich mit Bleistift ausgefüllt."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer. Nur durchscheinender Text (Bleed-through) der Vorderseite erkennbar."
+        },
+        {
+          "page": 3,
+          "transcription": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:",
+          "notes": "Vordruck (Formular), handschriftlich mit violetter Tinte ausgefüllt."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer. Nur durchscheinender Text (Bleed-through) der Vorderseite erkennbar."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Farbskala/Grauskala für Archivierung. In der Mitte liegt die leere Rückseite eines der Bestellzettel (durchscheinender Text)."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Sehr gute Lesbarkeit. Der gedruckte Text ist klar, die handschriftlichen Einträge (Bleistift und violette Tinte) sind deutlich zu entziffern und werden durch die bereitgestellten Metadaten bestätigt.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 407,
+        "emptyPages": 3,
+        "avgCharsPerPage": 204,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_verified",
+        "effective_cer": 0.0233,
+        "overall_cer": 0.0233,
+        "word_overlap": 0.9062,
+        "content_pages": 2,
+        "skipped_pages": 3,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.041,
+            "cer_orderless": 0.041,
+            "agreement": "moderate",
+            "type": "content",
+            "transcription_a": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte",
+            "transcription_b": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\n Standort (Gestell u. Nr.)\n St. Z. B 488-491\n\n Ordnungswort (Katalog-\n Stichwort)\n Merle d'Aubigné Geschichte\n\nDatum:"
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 0.0052,
+            "cer_orderless": 0.0052,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:",
+            "transcription_b": "Bestellzettel Bücherausgabe\n\nBesteller:\n Stefan Zweig\n\nWohnung:\n Hotel Bellerive\n\nBestelltes Werk:\n Standort (Gestell u. Nr.)\n TN 604 ah\n\n Ordnungswort (Katalog-\n Stichwort)\n Berlepsch Hans. Kämpfe\n\nDatum:"
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "color_chart",
+            "transcription_a": "",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
       "id": "o_szd.141_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.141/IMG.1",
@@ -293,6 +533,132 @@
         "needs_review_reasons": [
           "low_dwr"
         ]
+      },
+      "consensus": {
+        "category": "consensus_divergent",
+        "effective_cer": 0.2364,
+        "overall_cer": 0.2818,
+        "word_overlap": 0.6818,
+        "content_pages": 2,
+        "skipped_pages": 3,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 0.5179,
+            "cer_orderless": 0.3571,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Baja\nProfessor J. Paul Stefan\nWien VIII\nHamerlingplatz 7",
+            "transcription_b": "Professor Dr. Paul Stefan\n\nWien VIII\n__________\n| Hamerlingplatz 7\n\nBaja[...]\n\n[...]bis[?]"
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": 0.0377,
+            "cer_orderless": 0.0377,
+            "agreement": "moderate",
+            "type": "content",
+            "transcription_a": "Bajaderka von M. Petipa\nMusik von L. Minkus\nSemjenowa",
+            "transcription_b": "Bajaderka von M. Petipa\nMusik von J.[?] Minkus\nSemjonowa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.141_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.141/IMG.1",
+        "https://gams.uni-graz.at/o:szd.141/IMG.2",
+        "https://gams.uni-graz.at/o:szd.141/IMG.3",
+        "https://gams.uni-graz.at/o:szd.141/IMG.4",
+        "https://gams.uni-graz.at/o:szd.141/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "",
+          "notes": "Vorderer Einband des Notizbuchs. Schwarzes, strukturiertes Material mit abgenutztem Rücken. Keine Beschriftung."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Innenseite des vorderen Einbands. Schwarz, unbeschrieben."
+        },
+        {
+          "page": 3,
+          "transcription": "Baja\nProfessor Dr. Paul Stefan\nWien VIII\nHamerlingplatz 7\nkus[?]",
+          "notes": "Eingelegte Zettel auf gemustertem Vorsatzpapier (wiederholender Aufdruck 'ELASTIC'). Violetter Tinte auf kleinem, unliniertem Zettel (quer geschrieben). Die Bleistiftnotizen auf dem karierten Papier darunter sind teilweise verdeckt (sichtbar sind Fragmente, die sich auf Seite 5 als 'Bajaderka' und 'Minkus' auflösen lassen)."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Rückseite des kleinen eingelegten Zettels von Seite 3. Unbeschrieben."
+        },
+        {
+          "page": 5,
+          "transcription": "Bajaderka von M. Petipa\nMusik von J. Minkus\nSemjenowa",
+          "notes": "Kariertes Papier auf gemustertem Vorsatzpapier (Aufdruck 'ELASTIC'). Text mit Bleistift quer zur Seitenrichtung geschrieben. Handschrift."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift ist sowohl in der violetten Tinte als auch im Bleistift sehr klar und gut lesbar. Die durch Überlappung fragmentierten Wörter auf Seite 3 lassen sich durch den vollständigen Text auf Seite 5 eindeutig identifizieren.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 117,
+        "emptyPages": 3,
+        "avgCharsPerPage": 58,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": {
         "category": "consensus_divergent",
@@ -5076,6 +5442,82 @@
       "consensus": null
     },
     {
+      "id": "o_szd.100_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
+      "id": "o_szd.102_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
       "id": "o_szd.100_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.100/IMG.1",
@@ -5133,6 +5575,102 @@
         "duplicate_page_pairs": [],
         "language_expected": "en",
         "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_moderate",
+        "effective_cer": 0.0757,
+        "overall_cer": 0.0757,
+        "word_overlap": 0.9489,
+        "content_pages": 1,
+        "skipped_pages": 2,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0757,
+            "cer_orderless": 0.0816,
+            "agreement": "moderate",
+            "type": "content",
+            "transcription_a": "THIS AGREEMENT\n\nis made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam\nStreet, London, W. 1., England, of the first part and Longmans, Green & Co. Inc.,\nof 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually\nagreed as follows:\n\n1. The said Stefan Zweig agrees to furnish and deliver to the said Long-\nmans, Green & Co. Inc. not later than October 31, 1938 a treatise in the German\nlanguage containing about six thousand words to be used as a preface in a work\nwhich is to be published by the said Longmans, Green & Co. Inc. entitled\n\nTHE LIVING THOUGHTS OF TOLSTOI\nPRESENTED BY STEFAN ZWEIG\n\ntogether with a condensation to run from thirty thousand (30,000) to thirty-\nfive thousand (35,000) words, said condensation to be indicated in German\neditions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred\nwords.\n\n2. The copyright in this treatise and condensation including all foreign\ncopyrights and all rights of translation and reproduction and all other rights\nshall be the property of the said Longmans, Green & Co. Inc. subject to the pay-\nment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven\ncents ($666.67) to be paid on the acceptance of the manuscript by the said Long-\nmans, Green & Co. Inc.\n\n3. The said Longmans, Green & Co. Inc. shall be at liberty to deduct\nfrom any payment, or payments, which may become due to the said Stefan Zweig\nunder this agreement any sum, or sums, which the said Longmans, Green & Co. Inc.\nshall be under statutory obligation to pay in respect of income tax.\n\n4. The said Longmans, Green & Co. Inc. will present to the said Stefan\nZweig upon publication, five (5) copies of the said work gratis.\n\nIN WITNESS WHEREOF the parties hereto have hereunto subscribed their names\nand affixed their seals the day and year first above written.\n\nIn the presence of\n\n[Lotte Altmann signature] \nWitness\n\n[Signature of witness] \nWitness\n\nStefan Zweig [Signature]\nAuthor\n\nLongmans, Green & Company, Inc.\nBy Edward Mill [Signature] (Secretary)",
+            "transcription_b": "THIS AGREEMENT\n\nis made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam\nStreet, London, W. 1., England, of the first part and Longmans, Green & Co. Inc.,\nof 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually\nagreed as follows:\n\n1. The said Stefan Zweig agrees to furnish and deliver to the said Long-\nmans, Green & Co. Inc. not later than October 31, 1938 a treatise in the German\nlanguage containing about six thousand words to be used as a preface in a work\nwhich is to be published by the said Longmans, Green & Co. Inc. entitled\n\nTHE LIVING THOUGHTS OF TOLSTOI\nPRESENTED BY STEFAN ZWEIG\n\ntogether with a condensation to run from thirty thousand (30,000) to thirty-\nfive thousand (35,000) words, said condensation to be indicated in German\neditions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred\nwords.\n\n2. The copyright in this treatise and condensation including all foreign\ncopyrights and all rights of translation and reproduction and all other rights\nshall be the property of the said Longmans, Green & Co. Inc. subject to the pay-\nment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven\ncents ($666.67) to be paid on the acceptance of the manuscript by the said Long-\nmans, Green & Co. Inc.\n\n3. The said Longmans, Green & Co. Inc. shall be at liberty to deduct\nfrom any payment, or payments, which may become due to the said Stefan Zweig\nunder this agreement any sum, or sums, which the said Longmans, Green & Co. Inc.\nshall be under statutory obligation to pay in respect of income tax.\n\n4. The said Longmans, Green & Co. Inc. will present to the said Stefan\nZweig upon publication, five (5) copies of the said work gratis.\n\nIN WITNESS WHEREOF the parties hereto have hereunto subscribed their names\nand affixed their seals the day and year first above written.\n\nIn the presence of\n{L Altmann}\nWitness                                 {Stefan Zweig}\n                                        Author\n\n                                        Longmans, Green & Company, Inc.\n{E. M. Mill[?]}\nWitness                                 By {Edward Mills} (Secretary)"
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "color_chart",
+            "transcription_a": "",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.100_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.100/IMG.1",
+        "https://gams.uni-graz.at/o:szd.100/IMG.2",
+        "https://gams.uni-graz.at/o:szd.100/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "THIS AGREEMENT\n\nis made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam\nStreet, London, W. 1., England, of the first part and Longmans, Green & Co. Inc.,\nof 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually\nagreed as follows:\n\n1.  The said Stefan Zweig agrees to furnish and deliver to the said Long-\nmans, Green & Co. Inc. not later than October 31, 1938 a treatise in the German\nlanguage containing about six thousand words to be used as a preface in a work\nwhich is to be published by the said Longmans, Green & Co. Inc. entitled\n\nTHE LIVING THOUGHTS OF TOLSTOI\nPRESENTED BY STEFAN ZWEIG\n\ntogether with a condensation to run from thirty thousand (30,000) to thirty-\nfive thousand (35,000) words, said condensation to be indicated in German\neditions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred\nwords.\n\n2.  The copyright in this treatise and condensation including all foreign\ncopyrights and all rights of translation and reproduction and all other rights\nshall be the property of the said Longmans, Green & Co. Inc. subject to the pay-\nment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven\ncents ($666.67) to be paid on the acceptance of the manuscript by the said Long-\nmans, Green & Co. Inc.\n\n3.  The said Longmans, Green & Co. Inc. shall be at liberty to deduct\nfrom any payment, or payments, which may become due to the said Stefan Zweig\nunder this agreement any sum, or sums, which the said Longmans, Green & Co. Inc.\nshall be under statutory obligation to pay in respect of income tax.\n\n4.  The said Longmans, Green & Co. Inc. will present to the said Stefan\nZweig upon publication, five (5) copies of the said work gratis.\n\nIN WITNESS WHEREOF the parties hereto have hereunto subscribed their names\nand affixed their seals the day and year first above written.\n\nIn the presence of\n\nLAltma\nWitness\n\nStefan Zweig\nAuthor\n\nE. M. Mills\nWitness\n\nLongmans, Green & Company, Inc.\nBy Edward S Mills (Secretary)",
+          "notes": "Typoskript (Vertrag) mit handschriftlichen Unterschriften. Sehr gut lesbar. Die Unterschriften sind räumlich nebeneinander angeordnet, im Transkript zeilenweise wiedergegeben."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments. Leer bis auf durchscheinenden Text (Bleed-through) der Vorderseite und einen schwach erkennbaren Prägestempel unten links. Kein eigener Text."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments mit aufgelegten Farb- und Grauskalen (Farbkarte #13, Grauskala #13) für die Archivierung. Ansonsten nur durchscheinender Text der Vorderseite."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Das Typoskript auf Seite 1 ist klar und deutlich lesbar. Die handschriftlichen Unterschriften sind ebenfalls gut zu entziffern. Seiten 2 und 3 enthalten keinen zu transkribierenden Text gemäß den Richtlinien (nur Bleed-through und Archivierungshilfen).",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2008,
+        "emptyPages": 2,
+        "avgCharsPerPage": 2008,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": false,
@@ -5378,6 +5916,102 @@
         "duplicate_page_pairs": [],
         "language_expected": "en",
         "language_detected": "en",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_verified",
+        "effective_cer": 0.0546,
+        "overall_cer": 0.0546,
+        "word_overlap": 0.9847,
+        "content_pages": 3,
+        "skipped_pages": 0,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0032,
+            "cer_orderless": 0.0032,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "AGREEMENT made this first day of March, 1939, between STEFAN\nZWEIG of 49 Hallam Street, London, W. 1, England, and THE VIKING PRESS, INC.\nof 18 East 48th Street, New York City, U.S.A.:\n\n1. The Publishers agree to publish in a single volume\n\"ADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\" (Balzac, Dickens,\nDostoeffsky) for both of which the Publishers now possess the world rights\nin the English language, together with an English version of \"DER KAMPF MIT\nDEM DAMON,\" all three of which works are by said Stefan Zweig who hereby\nagrees to give said Viking Press all rights in the last named work that\nthey now possess in the first two named.\n\n2. It is agreed between the Publishers and the Author that\nthe terms, conditions, rights and obligations under which the above named\nvolume shall be issued, are to be in all respects identical with the agree-\nment between the same parties dated December 28, 1938 with respect to\n\"BEWARE OF PITY\" by the same author, but with the following exceptions:\n\n(a) The Author grants and assigns to the Publishers the\nsole and exclusive right to publish said work in all\ncountries; and\n\n(b) The Publishers agree to pay to the Author fifteen\n(15%) per cent of the amount that they may receive for\neditions for export; and\n\n(c) The Publishers agree to pay the author eighty (80%)\nper cent of such income as they may derive from the\nsale of the right to an English or other foreign publisher\nto publish an edition in English on a royalty basis or\nfor an outright sum.\n\n3. The purpose of the above paragraphs \"a\" and \"b\" is\nto make the present agreement conform to the Publishers' present rights in\nADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\", and the purpose of\nparagraph \"c\" is to provide for a contingency that is not covered by the\nBEWARE OF PITY agreement.\n\n4. The Author agrees to supply to the Publishers an\nadequate English version of \"DER KAMPF MIT DEM DAMON\" at a reasonable\nprice and this version shall remain the sole and exclusive property of\nthe Publishers.\n\nIN WITNESS WHEREOF the parties have hereunto set their\nhands and seals the day and year first above written.\n\nStefan Zweig\nAUTHOR\nTHE VIKING PRESS INC.\nB. W. Huebsch\nVice-President",
+            "transcription_b": "AGREEMENT made this first day of March, 1939, between STEFAN\nZWEIG of 49 Hallam Street, London, W. 1, England, and THE VIKING PRESS, INC.\nof 18 East 48th Street, New York City, U.S.A.:\n\n1. The Publishers agree to publish in a single volume\n\"ADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\" (Balzac, Dickens,\nDostoeffsky) for both of which the Publishers now possess the world rights\nin the English language, together with an English version of \"DER KAMPF MIT\nDEM DAMON,\" all three of which works are by said Stefan Zweig who hereby\nagrees to give said Viking Press all rights in the last named work that\nthey now possess in the first two named.\n\n2. It is agreed between the Publishers and the Author that\nthe terms, conditions, rights and obligations under which the above named\nvolume shall be issued, are to be in all respects identical with the agree-\nment between the same parties dated December 28, 1938 with respect to\n\"BEWARE OF PITY\" by the same author, but with the following exceptions:\n\n(a) The Author grants and assigns to the Publishers the\nsole and exclusive right to publish said work in all\ncountries; and\n\n(b) The Publishers agree to pay to the Author fifteen\n(15%) per cent of the amount that they may receive for\neditions for export; and\n\n(c) The Publishers agree to pay the author eighty (80%)\nper cent of such income as they may derive from the\nsale of the right to an English or other foreign publisher\nto publish an edition in English on a royalty basis or\nfor an outright sum.\n\n3. The purpose of the above paragraphs \"a\" and \"b\" is\nto make the present agreement conform to the Publishers' present rights in\nADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\", and the purpose of\nparagraph \"c\" is to provide for a contingency that is not covered by the\nBEWARE OF PITY agreement.\n\n4. The Author agrees to supply to the Publishers an\nadequate English version of \"DER KAMPF MIT DEM DAMON\" at a reasonable\nprice and this version shall remain the sole and exclusive property of\nthe Publishers.\n\nIN WITNESS WHEREOF the parties have hereunto set their\nhands and seals the day and year first above written.\n\nStefan Zweig\nAuthor\n\nTHE VIKING PRESS INC.\nB W Huebsch\nVice-President"
+          },
+          {
+            "page": 1,
+            "cer": 0.042,
+            "cer_orderless": 0.042,
+            "agreement": "moderate",
+            "type": "content",
+            "transcription_a": "Agreement between\nStefan Zweig\nThe Viking Press\nAdepts in self-\nPortraiture\nand\nThree Masters\nand\nDer Kampf mit dem\nDamon",
+            "transcription_b": "Agreement between\nStefan Zweig and\nThe Viking Press\nAdepts in Self-\nPortraiture\nand\nThree Masters\nand\nDer Kampf mit dem\nDamon"
+          },
+          {
+            "page": 2,
+            "cer": 1.0,
+            "cer_orderless": 1.0,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Agreement between\nStefan Zweig\nThe Viking Press\nAdepts in self-\nPortraiture\nand\nThree Masters\nand\nDer Kampf mit dem\nDamon",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.102_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.102/IMG.1",
+        "https://gams.uni-graz.at/o:szd.102/IMG.2",
+        "https://gams.uni-graz.at/o:szd.102/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "        AGREEMENT made this first day of March, 1939, between STEFAN\nZWEIG of 49 Hallam Street, London, W. 1, England, and THE VIKING PRESS, INC.\nof 18 East 48th Street, New York City, U.S.A.:\n\n        1.  The Publishers agree to publish in a single volume\n\"ADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\" (Balzac, Dickens,\nDostoeffsky) for both of which the Publishers now possess the world rights\nin the English language, together with an English version of \"DER KAMPF MIT\nDEM DAMON,\" all three of which works are by said Stefan Zweig who hereby\nagrees to give said Viking Press all rights in the last named work that\nthey now possess in the first two named.\n\n        2.  It is agreed between the Publishers and the Author that\nthe terms, conditions, rights and obligations under which the above named\nvolume shall be issued, are to be in all respects identical with the agree-\nment between the same parties dated December 28, 1938 with respect to\n\"BEWARE OF PITY\" by the same author, but with the following exceptions:\n\n        (a)  The Author grants and assigns to the Publishers the\n        sole and exclusive right to publish said work in all\n        countries; and\n\n        (b)  The Publishers agree to pay to the Author fifteen\n        (15%) per cent of the amount that they may receive for\n        editions for export; and\n\n        (c)  The Publishers agree to pay the author eighty (80%)\n        per cent of such income as they may derive from the\n        sale of the right to an English or other foreign publisher\n        to publish an edition in English on a royalty basis or\n        for an outright sum.\n\n        3.  The purpose of the above paragraphs \"a\" and \"b\" is\nto make the present agreement conform to the Publishers' present rights in\nADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\", and the purpose of\nparagraph \"c\" is to provide for a contingency that is not covered by the\nBEWARE OF PITY agreement.\n\n        4.  The Author agrees to supply to the Publishers an\nadequate English version of \"DER KAMPF MIT DEM DAMON\"at a reasonable\nprice and this version shall remain the sole and exclusive property of\nthe Publishers.\n\n        IN WITNESS WHEREOF the parties have hereunto set their\nhands and seals the day and year first above written.\n\n                                Stefan Zweig\n                                        Author\n\n                                THE VIKING PRESS INC.\n                                BWHuebsch\n                                        Vice-President",
+          "notes": "Typoskript, sehr gut lesbar. Handschriftliche Unterschriften in violetter Tinte (Stefan Zweig) und schwarzer Tinte (BWHuebsch)."
+        },
+        {
+          "page": 2,
+          "transcription": "Agreement between\nStefan Zweig and\nThe Viking Press\nAdepts in Self\nPortraiture\nand\nThree Masters\nand\nDer Kampf mit dem\nDämon",
+          "notes": "Rückseite des Dokuments. Der durchscheinende Text des Typoskripts wurde gemäß den Regeln ignoriert. Transkribiert wurde die handschriftliche Notiz (Kugelschreiber/Tinte), die quer (vertikal) auf der Seite notiert ist."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Farbskala/Grauskala für Archivierung. Identische Rückseite wie Bild 2, daher Transkription leer gelassen."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Das Typoskript auf der Vorderseite ist klar und deutlich lesbar. Die handschriftlichen Unterschriften und die Notiz auf der Rückseite sind ebenfalls eindeutig zu entziffern. Keine unleserlichen Stellen vorhanden.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2627,
+        "emptyPages": 1,
+        "avgCharsPerPage": 1314,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": false,
@@ -9213,6 +9847,82 @@
       "consensus": null
     },
     {
+      "id": "o_szd.145_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
+      "id": "o_szd.146_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
       "id": "o_szd.1056_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1056/IMG.1",
@@ -9513,6 +10223,102 @@
       }
     },
     {
+      "id": "o_szd.145_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.145/IMG.1",
+        "https://gams.uni-graz.at/o:szd.145/IMG.2",
+        "https://gams.uni-graz.at/o:szd.145/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "                                Kapuzinerberg 5\n                                SALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebüren à S 2.50\n\n        vom 1. Juli 1937 bis incl. 1. Februar 1938\n\nd.i.  2.50 x 8 -   S 20.- (Schilling zwanzig)\n\n                                        Mit besten Empfehlungen",
+          "notes": "Vorderseite. Gedruckter Briefkopf in Blau mit SZ-Logo (links oben, Signet von E. M. Lilien). Der Text ist ein Typoskript in violetter Farbe (Durchschlag). Sehr gut lesbar. Die originale Schreibweise 'Postfachgebüren' (ohne h) wurde beibehalten."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer. Leichtes Durchscheinen des gedruckten Logos von der Vorderseite."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer. Mit angelegter Farb- und Grauskala für die Archivierung."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der maschinengeschriebene Text auf der Vorderseite ist klar, kontrastreich und ohne Einschränkungen lesbar. Keine unsicheren Stellen vorhanden.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 317,
+        "emptyPages": 2,
+        "avgCharsPerPage": 317,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_verified",
+        "effective_cer": 0.0251,
+        "overall_cer": 0.0251,
+        "word_overlap": 0.8438,
+        "content_pages": 1,
+        "skipped_pages": 2,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0251,
+            "cer_orderless": 1.0503,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebühren à S 2.50\nvom 1. Juli 1937 bis incl. 1. Februar 1938\nd.i. 2.50 x 8 = S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
+            "transcription_b": "SZ\nKapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\n\nRückerstattung der Postfachgebüren à S 2.50\n\nvom 1. Juli 1937 bis incl. 1. Februar 1938\n\nd.i. 2.50 x 8 - S 20.- (Schilling zwanzig)\n\n\nMit besten Empfehlungen"
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "color_chart",
+            "transcription_a": "",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
       "id": "o_szd.146_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.146/IMG.1",
@@ -9586,6 +10392,132 @@
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_review",
+        "effective_cer": 0.2984,
+        "overall_cer": 0.2984,
+        "word_overlap": 0.7642,
+        "content_pages": 5,
+        "skipped_pages": 0,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.1456,
+            "cer_orderless": 0.2932,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Österreichische Postsparkasse\nScheckheft\nzum Scheckkonto Nr.:\n28.614\nDr. Stefan Zweig\nSalzburg\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29\n28.614\nZur besonderen Beachtung! I. Der Kontoinhaber ist verpflichtet, die Scheckvordrucke sorgfältig und sicher aufzubewahren und sie nur den bei der Gebarung mit den Schecks verwendeten Angestellten zugänglich zu machen. Er trägt insbesondere alle Nachteile, die durch Außerachtlassung dieser Verpflichtung entstehen. Im Fall des Abhandenkommens von Scheckvordrucken oder Schecks ist das Postsparkassenamt sofort zu benachrichtigen, damit die Zahlung an einen Unberechtigten, wenn möglich, verhindert werde.\nII. Schecks dürfen nur über jene Beträge ausgestellt werden, die in dem bereits durch Kontoauszug mitgeteilten Guthaben abzüglich der Stammeinlage volle Deckung finden. Für ungedeckte Schecks wird eine Gebühr angelastet.\nIII. Nachfragen nach der Ausführung eines mit Scheck erteilten Auftrags müssen alle wesentlichen Merkmale des Schecks und den vollen Inhalt des erteilten Auftrags enthalten.\nAmtliche Vormerke: 2\nIV. Für das Rechtsverhältnis zwischen Postsparkasse und Kontoinhaber sind ausschließlich die Geschäftsbestimmungen für den Scheckverkehr der Österreichischen Postsparkasse maßgebend, deren Abdruck bei der Wirtschaftsstelle des Postsparkassenamts um 30 g bezogen werden kann.\nIX. Bestimmungen für die Verwendung der Scheckvordrucke siehe nach Blatt 25!\nZur Nachbestellung von Scheckheften dient die nach Blatt 40 eingeheftete Drucksorte.",
+            "transcription_b": "Österreichische Postsparkasse\nScheckheft\nzum Scheckkonto Nr.:\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\nZur Nachbestellung von Scheckheften dient\ndie nach Blatt 40 eingeheftete Drucksorte.\n\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29\n28.614\n\nZur besonderen Beachtung!\nI. Der Kontoinhaber ist verpflichtet, die Scheckvordrucke sorgfältig und sicher auf=\nzubewahren und sie nur den bei der Gebarung mit den Schecks verwendeten\nAngestellten zugänglich zu machen. Er trägt insbesondere alle Nachteile, die durch Außerachtlassung dieser Verpflichtung ent=\nstehen. Im Fall des Abhandenkommens von Scheckvordrucken oder Schecks ist das Postsparkassenamt sofort zu benachrichtigen,\ndamit die Zahlung an einen Unberechtigten, wenn möglich, verhindert werde.\nII. Schecks dürfen nur über jene Beträge ausgestellt werden, die in dem bereits durch Kontoauszug mitgeteilten Gut=\nhaben abzüglich der Stammeinlage volle Deckung finden. Für ungedeckte Schecks wird eine Gebühr angelastet.\nIII. Nachfragen nach der Ausführung eines mit Scheck erteilten Auftrags müssen alle wesentlichen Merkmale des Schecks\nund den vollen Inhalt des erteilten Auftrags enthalten.\nIV. Für das Rechtsverhältnis zwischen Postsparkasse und Kontoinhaber sind ausschließlich die Geschäfts=\nbestimmungen für den Scheckverkehr der Österreichischen Postsparkasse maßgebend, deren Abdruck bei der\nWirtschaftsstelle des Postsparkassenamts um 30 g bezogen werden kann.\n\nAmtliche Vormerke:\n2\n\nIX. Bestimmungen für die Verwendung der Scheckvordrucke siehe nach Blatt 25!"
+          },
+          {
+            "page": 1,
+            "cer": 0.4951,
+            "cer_orderless": 1.623,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt | Tag | Betrag | Empfänger | Restguthaben\n1 | 19.10 | 68.00 | kraukl. 8.80, Löwy 90.20\n2 | 28.10 | Winterhilfe 100. - Gas Rev. 23.70 Krassner\n3 | 2.11 | gas 70.52, Chönig 24. - Schmidt 13.80\n4 | 8.11 | Elektr 160.75, kraukl. 8.80, Laubinger 116.38\n5 | 12.11 | Steuer 18.72, Fürsorge 36. - Kohlen 10. -\n6 | 13.11 | M. Neumann S. 170. -\n7 | 22.11 | gas 47.47, Wasser 16.90, Wildenh. 4.30\n8 | 14.12 | Wildenhofer 12.90, krasser 5.33, krankenk 10.95\n9 | 18.12 | gemeindeuml. 99.89\n10 | 21.12 | gas 36.7, Blinden 5. - tarif - 50\n11 | 23.12 | Pieslinger 1.39, Kalascht. 9.1. -\n12 | | | bürger 9.15\nBlatt | Tag | Betrag | Empfänger | Restguthaben\n13 | 4/1. | 20.82 | gas, Berga, Versicherung\n14 | 10/1. | 342 | 34 kultusgem. Wildenhofer Elektr.\n15 | 14/1 | 59.18 | Peter, Mitgliedsch. krankk.\n16 | 23/1. | 46.95 | gas, Wasser kindertisch\n17 | 5/2 | 23.70 | krankk. Wildenhofer Vers. V.\n18 | 21.2 | 50.67 | gas, Wasser, Elektr. Wildenhofer\n19 | 25/2 | 22. - | Brunetti kindertisch. Frick\n20 | 13/3 | 36.09 | Franke Elektr. krankk.\n21 | 23/3 | 39.62 | gas, Wasser, Wildenhofer Poletti\n22 | 31/3 | 62.08 | krasser, musich, Brichta\n23 | 3/4 | 140.88 | gemeindeuml. Fürsorge, Hackl\n24 | 22/4 | 32.68 | krankenk. Elektr. Wasser\n25 | 8/5 | 15.93 | Licht, Wildenhofer, Unfall\nFortsetzung nach Blatt 25",
+            "transcription_b": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt Tag Betrag Empfänger Restguthaben\n1 19.10 gas 68.07, Krankk. 8.80, Löwy 90.20\n2 28.10 Winterhilfe 100.- gas Rep. 23.70 Krassner\n3 2/11 gas 70.52 Phönix 24.- Schmidt 116.38\n{13.80}\n4 8/11 Elektr. 160.75, Krankk. 8.80 Laubinger\n5 12/11 Steuer 18.72, Fürsorge 36.- Kohlen 10.12\n{20.48}\n6 13/11 M. Neumann S. 170.-\n7 22/11 gas 47.47, Wasser 16.90, Wildenh. 4.30\n8 14/12 Wildenhofer 12.90 Krasser 53.33, Krankenk 10.95\n9 18/12 Gemeindeeinn. 99.89\n10 21/12 gas 36.7 Blinden B. - Tarif - 50\n11 23/12 Pieslinger S. 39 Kalaschek S. 1.-\n{Bürger S. 1.15}\n12\n\nBlatt Tag Betrag Empfänger Restguthaben\n13 4/1. 20.82 gas, Berga, Versicherung\n14 10/1. 342 30 Kultusgem. Wildenhofer Elektr.\n15 14/1 59.18 Peter, Mitgliedsk. Krankk.\n16 23/1. 46.95 gas, Wasser Kindertisch\n17 5/2 23.70 Krankk. Wildenhofer. Versich. V.\n18 21.2 50.67 gas, Wasser, Elektr. Wildenhofer\n19 25/2 22.- Brunetti Kinderrett. Funk\n20 13/3 36.09 Franke, Elektr. Krankk.\n21 23/3 39.62 gas, Wasser, Wildenhofer Poletti\n22 31/3 62.08 Krasser, Musik, Brichta\n23 5/4 140.88 Gemeindeeinn. Fürsorge, Hackl\n24 22/4 32 68 Krankenk. Elektr. Nadler\n25 8/5 15.93 Licht, Wildenhofer, Unfall\nFortsetzung nach Blatt 25"
+          },
+          {
+            "page": 2,
+            "cer": 0.1339,
+            "cer_orderless": 0.1321,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "28.614 | Dr. Stefan Zweig Salzburg | Heft 29 29 | 28.614\nVormerkblatt zum Scheckheft für das Scheckkonto Nr.: 28.614 Dr. Stefan Zweig Salzburg\nBestimmungen für die Verwendung der Scheckvordrucke.\n1. Auf dem mittleren Teil (eigentlichen Scheck) sind immer Ort, Tag, Monat und Jahr der Ausstellung anzugeben. Vorausdatierung ist verboten. Bleibt in den für die Angabe der Geldsummen bestimmten Zeilen ein unbeschriebener Raum, so muß dieser mit einem starken waagrechten Strich ausgefüllt werden.\n2. Auf dem Abschnitt für den Empfänger ist immer der Betrag in Ziffern anzugeben. Mitteilungen an den Zahlungsempfänger können auf diesem Abschnitt mit dem gewünschten Erfolg nur dann angebracht werden, wenn es sich um eine einzelne Überweisung auf ein anderes Scheckkonto oder auf ein ausländisches Postscheckkonto, um eine einzelne Barzahlung durch ein österreichisches Postamt oder um eine einzelne Zahlung mit Wertbrief handelt, weil nur in diesen Fällen der Abschnitt dem Zahlungsempfänger zukommt.\n3. Der Buchungszettel ist bei Namenschecks auszufüllen, bei andern Schecks (Kassen-, Gesamt-, Dauer-, Auslandschecks) abzutrennen.\n4. Bei der Ausstellung eines Kassenschecks sind auf dem mittleren Teil des Scheckvordrucks die Zeilen zwischen dem Betrag und der Unterschrift des Ausstellers leer zu lassen. Auf dem Abschnitt für den Empfänger ist nur der Betrag in Ziffern anzugeben. Der Buchungszettel ist abzutrennen.\n5. Auf Namenschecks ist der Zahlungsempfänger im mittleren Teil des Scheckvordrucks und im Buchungszettel anzugeben. Die Anschrift des Zahlungsempfängers muß auf dem mittleren Teil des Scheckvordrucks so bestimmt angegeben werden, daß jeder Ungewißheit vorgebeugt wird. Die vollständige Anschrift ist auch notwendig, wenn der Scheckaussteller den Betrag an sich selbst anweist; Angaben wie „an mich selbst“, „an eigene Order“ oder dgl. genügen nicht. Im Buchungszettel kann die Bezeichnung des Empfängers verständlich gekürzt werden. (Zuname, Wohnort.)\n6. Überweisungsverkehr. Hat der Zahlungsempfänger ein Konto beim Postsparkassenamt, so wird der Betrag des Schecks vom Konto des Scheckausstellers abgeschrieben und auf dem Konto des Empfängers gutgeschrieben, wenn nicht auf dem mittleren Teil des Scheckvordrucks bei der Bezeichnung des Zahlungsempfängers durch den Vermerk „zur Barzahlung“ ausdrücklich die bare Auszahlung des angewiesenen Betrags verlangt ist. Ist die Nummer des Scheckkontos des Empfängers dem Aussteller bekannt, so ist sie auf allen drei Teilen des Scheckvordrucks anzugeben. Der Abschnitt für den Gutschriftsempfänger wird diesem mit dem Kontoauszug zugesendet.\n7. Barzahlung durch Zahlungsanweisung. Hat der Zahlungsempfänger kein Scheckkonto beim Postsparkassenamt oder ist die Barzahlung ausdrücklich beantragt worden, so versieht das Postsparkassenamt bei Zahlungen innerhalb Österreichs den Scheck mit dem Auszahlungsauftrag und sendet ihn samt dem Abschnitt für den Empfänger als Zahlungsanweisung an das zuständige Postamt.\n8. Mit diesen Scheckvordrucken können auch Zahlungen nach dem Ausland angewiesen werden. Wird der Betrag in Fremdwährung angegeben, so ist der Aufdruck „S“ und „S“ entsprechend zu ändern und die Währungsbezeichnung in der für die Betragsangabe in Buchstaben bestimmten Schraffenzeile voll auszuschreiben.\n9. Verdorbene Scheckvordrucke hat der Kontoinhaber zu vernichten.",
+            "transcription_b": "Vormerkblatt zum Scheckheft\nfür das Scheckkonto Nr.:\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\nSchecks, die nicht den Geschäfts=\nbestimmungen entsprechend ausge=\nfertigt sind, sowie Schecks, an denen\nRadierungen, Änderungen u. dgl.\nwahrgenommen werden oder die Zu=\nsätze enthalten, die nicht in den Ge=\nschäftsbestimmungen zugelassen sind,\nwerden zurückgewiesen.\n\n28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29\n28.614\n\nBestimmungen für die Verwendung der Scheckvordrucke.\n1. Auf dem mittleren Teil (eigentlichen Scheck) sind immer Ort, Tag, Monat und Jahr der Ausstellung anzugeben. Vorausdatierung ist verboten. Bleibt\nin den für die Angabe der Geldsummen bestimmten Zeilen ein unbeschriebener Raum, so muß dieser mit einem starken waagrechten Strich ausgefüllt werden.\n2. Auf dem Abschnitt für den Empfänger ist immer der Betrag in Ziffern anzugeben. Mitteilungen an den Zahlungsempfänger können auf\ndiesem Abschnitt mit dem gewünschten Erfolg nur dann angebracht werden, wenn es sich um eine einzelne Überweisung auf ein anderes Scheckkonto\noder auf ein ausländisches Postscheckkonto, um eine einzelne Barzahlung durch ein österreichisches Postamt oder um eine einzelne Zahlung mit\nWertbrief handelt, weil nur in diesen Fällen der Abschnitt dem Zahlungsempfänger zukommt.\n3. Der Buchungszettel ist bei Namenschecks auszufüllen, bei andern Schecks (Kassen=, Eragschein=, Gesamt=, Dauer=, Auslandschecks) abzutrennen.\n4. Bei der Ausstellung eines Kassenschecks sind auf dem mittleren Teil des Scheckvordrucks die Zeilen zwischen dem Betrag und der Unterschrift des\nAusstellers leer zu lassen. Auf dem Abschnitt für den Empfänger ist nur der Betrag in Ziffern anzusetzen. Der Buchungszettel ist abzutrennen.\n5. Auf Namenschecks ist der Zahlungsempfänger im mittleren Teil des Scheckvordrucks und im Buchungszettel anzugeben. Die Anschrift des\nZahlungsempfängers muß auf dem mittleren Teil des Scheckvordrucks so bestimmt angegeben werden, daß jeder Ungewißheit vorgebeugt wird. Die voll=\nständige Anschrift ist auch notwendig, wenn der Scheckaussteller den Betrag an sich selbst anweist; Angaben wie „an mich selbst“, „an eigene\nOrder“ oder dgl. genügen nicht. Im Buchungszettel kann die Bezeichnung des Empfängers verständlich gekürzt werden. (Zuname, Wohnort.)\n6. Überweisungsverkehr. Hat der Zahlungsempfänger ein Konto beim Postsparkassenamt, so wird der Betrag des Schecks vom Konto\ndes Scheckausstellers abgeschrieben und auf dem Konto des Empfängers gutgeschrieben, wenn nicht auf dem mittleren Teil des Scheckvordrucks\nbei der Bezeichnung des Zahlungsempfängers durch den Vermerk „zur Barzahlung“ ausdrücklich die bare Auszahlung des angewiesenen\nBetrags verlangt ist. Ist die Nummer des Scheckkontos des Empfängers dem Aussteller bekannt, so ist sie auf allen drei Teilen des\nScheckvordrucks anzugeben. Der Abschnitt für den Gutschriftsempfänger wird diesem mit dem Kontoauszug zugesendet.\n7. Barzahlung durch Zahlungsanweisung. Hat der Zahlungsempfänger kein Scheckkonto beim Postsparkassenamt oder ist die Barzahlung aus=\ndrücklich beantragt worden, so versieht das Postsparkassenamt bei Zahlungen innerhalb Österreichs den Scheck mit dem Auszahlungsauftrag und sendet\nihn samt dem Abschnitt für den Empfänger als Zahlungsanweisung an das zuständige Postamt.\n8. Mit diesen Scheckvordrucken können auch Zahlungen nach dem Ausland angewiesen werden. Wird der Betrag in Fremdwährung angegeben,\nso ist der Ausdruck „S“ und „g“ entsprechend zu ändern und die Währungsbezeichnung in der für die Betragsangabe in Buchstaben bestimmten Schraffen=\nzeile voll auszuschreiben.\n9. Verdorbene Scheckvordrucke hat der Kontoinhaber zu vernichten.\n\nAmtliche Vormerke:\n2"
+          },
+          {
+            "page": 3,
+            "cer": 1.0295,
+            "cer_orderless": 1.2591,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt | Tag | Betrag | Empfänger | Restguthaben\n1 | 19 | ...\n2 | 28 | ...\n3 | 2 | ...\n4 | 8/4 | ...\n5 | 18 | ...\n6 | 13 | ...\n7 | 22 | ...\n8 | 14 | ...\n9 | 18 | ...\n10 | 21 | ...\n11 | 23 | ...\n12 | ...\n26 | ...\n27 | ...\n28 | ...\n29 | ...\n30 | ...\n31 | ...\n32 | ...\n33 | ...\n34 | ...\n35 | ...\n36 | ...\n37 | ...\n38 | ...\n39 | ...\n40 | ...\n41 | ...\n42 | ...\n43 | ...\n44 | ...\n45 | ...\n46 | ...\n47 | ...\n48 | ...\n49 | ...\n50 | ...",
+            "transcription_b": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt Tag Betrag Empfänger Restguthaben\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n\nBlatt Tag Betrag Empfänger Restguthaben\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50"
+          },
+          {
+            "page": 4,
+            "cer": 0.3596,
+            "cer_orderless": 0.8947,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Konto Nr. 28.614 | Dr. Stefan Zweig Salzburg | 29 29 | 28.614\nIch (Wir) bestelle(n) hiemit gegen Abschreibung des gegenwärtigen Kostenpreises vom obigen Konto:\nScheckhefte zu 50 Blatt\nAmtliche Vormerke: 2 Heft:\n, am 193.\nUnterschrift des Kontoinhabers oder seines Bevollmächtigten:\nDr Stefan Zweig\nNachbestellung\nVorliegende Karte dient zur Nachbestellung von Scheckheften; andere Drucksorten können damit nicht bestellt werden. Sie kann nach dem Ermessen des Kontoinhabers als Postkarte oder unter Briefumschlag versendet werden. Bestellungen von Scheckheften müssen scheckmäßig mit Tinte gefertigt sein.\nIm Fall der Nichterfüllung dieser Bedingungen wird die Bestellung nicht durchgeführt.\nSiehe auch Rückseite!",
+            "transcription_b": "Dieser Vordruck dient nur zur Be=\nstellung von Scheckheften für das\nKonto Nr.\n28.614\nDr. Stefan Zweig\nSalzburg\n\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\n29\n29\n28.614\n\nIch (Wir) bestelle(n) hiemit gegen Abschreibung des gegenwärtigen Kostenpreises vom obigen Konto:\nScheckhefte zu 50 Blatt\n, am 193...\n\nAmtliche Vormerke:\n2 Heft:\nM.\n\nUnterschrift des Kontoinhabers oder\nseines Bevollmächtigten:\nSt Stefan Zweig\n\nVorliegende Karte dient zur\nNachbestellung\nvon Scheckheften; andere Druck=\nsorten können damit nicht bestellt\nwerden. Sie kann nach dem Er=\nmessen des Kontoinhabers als\nPostkarte oder unter Briefumschlag\nversendet werden. Bestellungen von\nScheckheften müssen\nscheckmäßig mit Tinte\ngefertigt sein.\nIm Fall der Nichterfüllung dieser\nBedingungen wird die Bestellung\nnicht durchgeführt.\n—\nSiehe auch Rückseite!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.146_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.146/IMG.1",
+        "https://gams.uni-graz.at/o:szd.146/IMG.2",
+        "https://gams.uni-graz.at/o:szd.146/IMG.3",
+        "https://gams.uni-graz.at/o:szd.146/IMG.4",
+        "https://gams.uni-graz.at/o:szd.146/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Österreichische Postsparkasse\nScheckheft\nzum Scheckkonto Nr.:\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\nZur Nachbestellung von Scheckheften dient\ndie nach Blatt 40 eingeheftete Drucksorte.\n\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29 28.614\n\nZur besonderen Beachtung!\nI. Der Kontoinhaber ist verpflichtet, die Scheckvordrucke sorgfältig und sicher auf=\nzubewahren und sie nur den bei der Gebarung mit den Schecks verwendeten\nAngestellten zugänglich zu machen. Er trägt insbesondere alle Nachteile, die durch Außerachtlassung dieser Verpflichtung ent=\nstehen. Im Fall des Abhandenkommens von Scheckvordrucken oder Schecks ist das Postsparkassenamt sofort zu benachrichtigen,\ndamit die Zahlung an einen Unberechtigten, wenn möglich, verhindert werde.\nII. Schecks dürfen nur über jene Beträge ausgestellt werden, die in dem bereits durch Kontoauszug mitgeteilten Gut=\nhaben abzüglich der Stammeinlage volle Deckung finden. Für ungedeckte Schecks wird eine Gebühr angelastet.\nIII. Nachfragen nach der Ausführung eines mit Scheck erteilten Auftrags müssen alle wesentlichen Merkmale des Schecks\nund den vollen Inhalt des erteilten Auftrags enthalten.\n\nAmtliche Vormerke:\n2\n\nIV. Für das Rechtsverhältnis zwischen Postsparkasse und Kontoinhaber sind ausschließlich die Geschäfts=\nbestimmungen für den Scheckverkehr der Österreichischen Postsparkasse maßgebend, deren Abdruck bei der\nWirtschaftsstelle des Postsparkassenamts um 30 g bezogen werden kann.\n\nIX.\nBestimmungen für die Verwendung der Scheckvordrucke siehe nach Blatt 25!",
+          "notes": "Deckblatt/Innenseite des Scheckhefts. Gedruckter Text. Sehr gut lesbar."
+        },
+        {
+          "page": 2,
+          "transcription": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt | Tag | Betrag | Empfänger | Restguthaben || Blatt | Tag | Betrag | Empfänger | Restguthaben\n1 | 19.10 | gas 68.02, Krankk. 8.80, Löwy | 90.20 || 13 | 4/1. | 20.82 | gas, Berga, Versicherung |\n2 | 28.10 | Winterhilfe 100.- gas Rep. 23.70 Krassner | || 14 | 10/1. | 342 50 | Kultusgem. Wildenhofer Elektr. |\n3 | 2/11. | gas 70.52, Chörig 24.- Schmidl | 116.38 / 13.80 || 15 | 14/1 | 59.18 | Peter, Mitgliedsk. Krankk. |\n4 | 8/11. | Elektr. 160.75, Krankk. 8.80, Laubinger | || 16 | 23/1. | 46.95 | gas, Wasser Kindertisch |\n5 | 12/11 | Steuer 18.72, Fürsorge 36.- Kohlen 10.10 | 28.18 || 17 | 5/2 | 23.70 | Krankk. Wildenhofer. Versch. V. |\n6 | 13/11 | M. Neumann S. 170.- | || 18 | 21.2 | 50.67 | gas, Wasser, Elektr. Wildenhofer |\n7 | 22/11 | gas 47.47, Wasser 16.90, Wildenh. 4.30 | || 19 | 25/2 | 22.- | Brunetti Kinderrett. Frick |\n8 | 14.12 | Wildenhofer 12.90 Krasser 53.33, Krankenk 10.95 | || 20 | 13/3 | 36.09 | Franke, Elektr. Krankk. |\n9 | 18/12 | Gemeindeumel. 99.89 | || 21 | 23/3 | 39.62 | gas, Wasser, Wildenhofer Poletti |\n10 | 21/12 | gas 36.- Blinden 5.- Tarif - 50 | || 22 | 31/3 | 62.08 | Krasser, Musik, Brichta |\n11 | 23/12 | Piestinger 8.39, Kalaschek 9.1.- | || 23 | 5/4 | 140.88 | Gemeindeuml. Fürsorge, Hack[?] |\n12 | | | Bürger 9.15- | || 24 | 22/4 | 32 68 | Krankenk. Elektr. Nadier |\n|| 25 | 8/5 | 15.93 | Licht, Wildenhofer, Unfall |\nFortsetzung nach Blatt 25",
+          "notes": "Tabellarische Vormerkungen. Vordruck mit handschriftlichen Einträgen (Tinte/Bleistift). Einige Eigennamen und Abkürzungen schwer lesbar."
+        },
+        {
+          "page": 3,
+          "transcription": "Vormerkblatt zum Scheckheft\nfür das Scheckkonto Nr.:\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\nSchecks, die nicht den Geschäfts=\nbestimmungen entsprechend ausge=\nfertigt sind, sowie Schecks, an denen\nRadierungen, Änderungen u. dgl.\nwahrgenommen werden oder die Zu=\nsätze enthalten, die nicht in den Ge=\nschäftsbestimmungen zugelassen sind,\nwerden zurückgewiesen.\n\n28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29 28.614\n\nBestimmungen für die Verwendung der Scheckvordrucke.\n1. Auf dem mittleren Teil (eigentlichen Scheck) sind immer Ort, Tag, Monat und Jahr der Ausstellung anzugeben. Vorausdatierung ist verboten. Bleibt\nin den für die Angabe der Geldsummen bestimmten Zeilen ein unbeschriebener Raum, so muß dieser mit einem starken waagrechten Strich ausgefüllt werden.\n2. Auf dem Abschnitt für den Empfänger ist immer der Betrag in Ziffern anzugeben. Mitteilungen an den Zahlungsempfänger können auf\ndiesem Abschnitt mit dem gewünschten Erfolg nur dann angebracht werden, wenn es sich um eine einzelne Überweisung auf ein anderes Scheckkonto\noder auf ein ausländisches Postscheckkonto, um eine einzelne Barzahlung durch ein österreichisches Postamt oder um eine einzelne Zahlung mit\nWertbrief handelt, weil nur in diesen Fällen der Abschnitt dem Zahlungsempfänger zukommt.\n3. Der Buchungszettel ist bei Namenschecks auszufüllen, bei andern Schecks (Kassen-, Erlagschein-, Gesamt-, Dauer-, Auslandschecks) abzutrennen.\n4. Bei der Ausstellung eines Kassenschecks sind auf dem mittleren Teil des Scheckvordrucks die Zeilen zwischen dem Betrag und der Unterschrift des\nAusstellers leer zu lassen. Auf dem Abschnitt für den Empfänger ist nur der Betrag in Ziffern anzusetzen. Der Buchungszettel ist abzutrennen.\n5. Auf Namenschecks ist der Zahlungsempfänger im mittleren Teil des Scheckvordrucks und im Buchungszettel anzugeben. Die Anschrift des\nZahlungsempfängers muß auf dem mittleren Teil des Scheckvordrucks so bestimmt angegeben werden, daß jeder Ungewißheit vorgebeugt wird. Die voll=\nständige Anschrift ist auch notwendig, wenn der Scheckaussteller den Betrag an sich selbst anweist; Angaben wie „an mich selbst“, „an eigene\nOrder“ oder dgl. genügen nicht. Im Buchungszettel kann die Bezeichnung des Empfängers verständlich gekürzt werden. (Zuname, Wohnort.)\n2\n6. Überweisungsverkehr. Hat der Zahlungsempfänger ein Konto beim Postsparkassenamt, so wird der Betrag des Schecks vom Konto\ndes Scheckausstellers abgeschrieben und auf dem Konto des Empfängers gutgeschrieben, wenn nicht auf dem mittleren Teil des Scheckvordrucks\nbei der Bezeichnung des Zahlungsempfängers durch den Vermerk „zur Barzahlung“ ausdrücklich die bare Auszahlung des angewiesenen\nBetrags verlangt ist. Ist die Nummer des Scheckkontos des Empfängers dem Aussteller bekannt, so ist sie auf allen drei Teilen des\nScheckvordrucks anzugeben. Der Abschnitt für den Gutschriftsempfänger wird diesem mit dem Kontoauszug zugesendet.\n7. Barzahlung durch Zahlungsanweisung. Hat der Zahlungsempfänger kein Scheckkonto beim Postsparkassenamt oder ist die Barzahlung aus=\ndrücklich beantragt worden, so versieht das Postsparkassenamt bei Zahlungen innerhalb Österreichs den Scheck mit dem Auszahlungsauftrag und sendet\nihn samt dem Abschnitt für den Empfänger als Zahlungsanweisung an das zuständige Postamt.\n8. Mit diesen Scheckvordrucken können auch Zahlungen nach dem Ausland angewiesen werden. Wird der Betrag in Fremdwährung angegeben,\nso ist der Ausdruck „S“ und „g“ entsprechend zu ändern und die Währungsbezeichnung in der für die Betragsangabe in Buchstaben bestimmten Schraffen=\nzeile voll auszuschreiben.\n9. Verdorbene Scheckvordrucke hat der Kontoinhaber zu vernichten.",
+          "notes": "Gedruckte Bestimmungen. Sehr gut lesbar."
+        },
+        {
+          "page": 4,
+          "transcription": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n\nVormerkungen über die Verwendung der Scheckblätter\nBlatt | Tag | Betrag | Empfänger | Restguthaben || Blatt | Tag | Betrag | Empfänger | Restguthaben\n26 || 38\n27 || 39\n28 || 40\n29 || 41\n30 || 42\n31 || 43\n32 || 44\n33 || 45\n34 || 46\n35 || 47\n36 || 48\n37 || 49\n|| 50",
+          "notes": "Fortsetzung der Vormerkungen. Tabelle ist unausgefüllt. Am linken Rand sind die Ziffern 1-12 des vorherigen Blattes sichtbar."
+        },
+        {
+          "page": 5,
+          "transcription": "Dieser Vordruck dient nur zur Be=\nstellung von Scheckheften für das\nKonto Nr.\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\nHier abtrennen!\n\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29 28.614\n\nIch (Wir) bestelle(n) hiemit gegen Abschreibung des gegenwärtigen Kostenpreises vom obigen Konto:\n\nScheckhefte zu 50 Blatt\n\nAmtliche Vormerke:\n2\nHeft:\nM.\n\n, am ................................................. 193.......\n\nUnterschrift des Kontoinhabers oder\nseines Bevollmächtigten:\nStefan Zweig\n\nHier abtrennen!\n\nVorliegende Karte dient zur\nNachbestellung\nvon Scheckheften; andere Druck=\nsorten können damit nicht bestellt\nwerden. Sie kann nach dem Er=\nmessen des Kontoinhabers als\nPostkarte oder unter Briefumschlag\nversendet werden. Bestellungen von\nScheckheften müssen\nscheckmäßig mit Tinte\ngefertigt sein.\nIm Fall der Nichterfüllung dieser\nBedingungen wird die Bestellung\nnicht durchgeführt.\n—\nSiehe auch Rückseite!",
+          "notes": "Bestellformular für neue Scheckhefte. Vordruck mit eigenhändiger Unterschrift von Stefan Zweig in Tinte."
+        }
+      ],
+      "confidence": "medium",
+      "confidenceNotes": "Der gedruckte Text ist durchgehend sehr gut lesbar (high confidence). Die handschriftlichen Einträge in der Tabelle auf Seite 2 enthalten jedoch einige flüchtige Abkürzungen und Eigennamen, die leichte Unsicherheiten bergen (z.B. 'Hack[?]'). Daher insgesamt als 'medium' eingestuft.",
+      "verification": {
+        "uncertainCount": 1,
+        "illegibleCount": 0,
+        "totalChars": 7810,
+        "emptyPages": 0,
+        "avgCharsPerPage": 1562,
+        "vlmConfidence": "medium"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": false,
@@ -11508,6 +12440,82 @@
       "consensus": null
     },
     {
+      "id": "o_szd.142_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
+      "id": "o_szd.148_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
       "id": "o_szd.137_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.137/IMG.1",
@@ -11821,6 +12829,102 @@
       }
     },
     {
+      "id": "o_szd.142_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.142/IMG.1",
+        "https://gams.uni-graz.at/o:szd.142/IMG.2",
+        "https://gams.uni-graz.at/o:szd.142/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "DR. PHIL. STEFAN ZWEIG\n\nWIEN\nI. RATHHAUSSTRASSE 17.",
+          "notes": "Vorderseite einer Druckmatrize aus Metall. Der Text ist auf dem Objekt spiegelverkehrt erhaben angebracht und wird hier in lesbarer (entspiegelter) Form transkribiert."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite der Druckmatrize, unbeschriftet."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Vorderseite der Druckmatrize (auf dem Kopf liegend) mit Farb- und Grauskala für Archivierung."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Der spiegelverkehrte Text auf der Druckmatrize ist klar und ohne Unsicherheiten lesbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 51,
+        "emptyPages": 2,
+        "avgCharsPerPage": 51,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_moderate",
+        "effective_cer": 0.5545,
+        "overall_cer": 0.5545,
+        "word_overlap": 1.0,
+        "content_pages": 2,
+        "skipped_pages": 1,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0,
+            "cer_orderless": 0.0,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "DR. PHIL. STEFAN ZWEIG\n\nWIEN\nI. RATHHAUSSTRASSE 17.",
+            "transcription_b": "DR. PHIL. STEFAN ZWEIG\n\nWIEN\nI. RATHHAUSSTRASSE 17."
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 1.12,
+            "cer_orderless": 0.2,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "DR. PHIL. STEFAN ZWEIG\nWIEN\nI. RATHHAUSSTRASSE 17.",
+            "transcription_b": "I. RATHHAUSSTRASSE 17.\nWIEN\n\nDR. PHIL. STEFAN ZWEIG"
+          }
+        ]
+      }
+    },
+    {
       "id": "o_szd.148_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.148/IMG.1"
@@ -11862,6 +12966,72 @@
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_divergent",
+        "effective_cer": 0.4578,
+        "overall_cer": 0.4578,
+        "word_overlap": 0.7037,
+        "content_pages": 1,
+        "skipped_pages": 0,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.4578,
+            "cer_orderless": 1.3504,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "SCHREIBMASCHIN-\nZUBEHÖR\n\nviolett, gut\n\n[Auf dem Farbband-Deckel:]\nPelikan\n\n[Auf der Dose 'Star Type Cleaner':]\nStar\nTYPE CLEANER\nNO. 1226\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK\nPAT. NO. 1629862\nEBERHARD FABER\nNEW YORK\n\n[Auf der Schablone:]\nRemington Schreibmaschinen\nGes. m. b. H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n[Auf dem Stift:]\nA.W. FABER Castell 7058",
+            "transcription_b": "[Auf dem Schachteldeckel:]\nSCHREIBMASCHIN-\nZUBEHÖR\n\n[Auf dem Zettel in der Farbbandschachtel:]\nviolett, gut\n\n[Auf der Pelikan-Dose:]\nPelikan\n\n[Auf der Typenreiniger-Dose:]\nStar NO. 1226\nTYPE CLEANER\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK\nPAT. NO. 1529862\nEBERHARD FABER\nNEW YORK\n\n[Auf der Korrekturschablone:]\nRemington Schreibmaschinen\nGes. m. b. H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n[Auf dem Bleistift:]\nA.W. FABER Castell 7058"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.148_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.148/IMG.1"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "SCHREIBMASCHIN-\nZUBEHÖR\n\nviolett, gut\n\nPelikan\n\nStar NO. 1226\nTYPE CLEANER\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK PAT. NO. 1629862\nEBERHARD FABER\nNEW YORK\n\nRemington Schreibmaschinen\nGes.       H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n2 ½ A.W. FABER \"Castell\" 7058",
+          "notes": "Fotografie verschiedener Schreibmaschinen-Utensilien. Text befindet sich auf dem Schachteldeckel (Handschrift), einem Zettelchen (Handschrift), zwei Blechdosen (Druck), einer Radierschablone (Druck) und einem Bleistift (Druck)."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Sehr gute Lesbarkeit aller gedruckten und handschriftlichen Texte auf den verschiedenen Objekten.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 304,
+        "emptyPages": 0,
+        "avgCharsPerPage": 304,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": false,
@@ -12754,6 +13924,82 @@
       "consensus": null
     },
     {
+      "id": "o_szd.149_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
+      "id": "o_szd.195_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
       "id": "o_szd.143_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.143/IMG.1",
@@ -12938,6 +14184,132 @@
         "needs_review_reasons": [
           "page_length_anomaly"
         ]
+      },
+      "consensus": {
+        "category": "consensus_moderate",
+        "effective_cer": 0.04,
+        "overall_cer": 0.04,
+        "word_overlap": 0.875,
+        "content_pages": 2,
+        "skipped_pages": 3,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0,
+            "cer_orderless": 0.3409,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\n\nVON\n\nSTEFAN ZWEIG",
+            "transcription_b": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\nVON\nSTEFAN ZWEIG"
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "(leer)",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "(leer)",
+            "transcription_b": ""
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "(leer)",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": 1.0,
+            "cer_orderless": 0.0,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "⚓",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.149_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.149/IMG.1",
+        "https://gams.uni-graz.at/o:szd.149/IMG.2",
+        "https://gams.uni-graz.at/o:szd.149/IMG.3",
+        "https://gams.uni-graz.at/o:szd.149/IMG.4",
+        "https://gams.uni-graz.at/o:szd.149/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\n\nVON\n\nSTEFAN ZWEIG",
+          "notes": "Buchdeckel. Blaugrauer Einband mit aufgeklebtem, goldfarbenem Titelschild (Druck) und handschriftlichem Vermerk oben links (Tinte)."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Innenseite des Buchdeckels / Vorsatzblatt, leer."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Leeres Blatt (Vorsatz)."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Leere Rückseite."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Seite enthält keinen Text, nur ein gedrucktes Signet (Logo des Insel Verlags: Segelschiff in einem Kreis) im oberen Bereich."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Sehr wenig Text vorhanden. Der gedruckte Text auf dem Buchdeckel sowie der handschriftliche Vermerk sind klar und zweifelsfrei lesbar. Die restlichen Seiten sind leer oder enthalten nur ein Bildzeichen.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 51,
+        "emptyPages": 4,
+        "avgCharsPerPage": 51,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": {
         "category": "consensus_moderate",
@@ -13301,6 +14673,170 @@
       }
     },
     {
+      "id": "o_szd.195_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.195/IMG.1",
+        "https://gams.uni-graz.at/o:szd.195/IMG.2",
+        "https://gams.uni-graz.at/o:szd.195/IMG.3",
+        "https://gams.uni-graz.at/o:szd.195/IMG.4",
+        "https://gams.uni-graz.at/o:szd.195/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "LETTER REGISTER",
+          "notes": "Einband des Notizbuchs mit Goldprägung. Oben im Bild befindet sich eine Kodak-Farbskala zur Archivierung."
+        },
+        {
+          "page": 2,
+          "transcription": "MADE IN ENGLAND\nFRANK SMYTHSON LTD.   NEW BOND ST W.",
+          "notes": "Innere Umschlagseite (Vorsatzpapier), hellblau. Kleiner gedruckter Text am unteren Rand."
+        },
+        {
+          "page": 3,
+          "transcription": "23. XI. 1936 - 30. VII. 38\n\nTHE\n\"FEATHERWEIGHT\"\n(Copyright)\nBOOKS\n\n\"KNOWN THE WORLD OVER\"\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of \"Featherweight\" Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
+          "notes": "Titelblatt. Gedruckter Text mit handschriftlicher Datierung in rötlicher Farbe am oberen Rand. Das Logo in der Mitte enthält den Text 'KNOWN THE WORLD OVER' und 'REGISTERED'."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Rückseite des Titelblatts, leer. Zeigt nur durchscheinenden Druck der Vorderseite (Bleed-through), der gemäß den Regeln nicht transkribiert wird."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Leere hellblaue Seite."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Sehr klare Lesbarkeit. Der Text besteht fast ausschließlich aus gut lesbarem Drucktext und einer sehr deutlichen handschriftlichen Datierung.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 276,
+        "emptyPages": 2,
+        "avgCharsPerPage": 92,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_moderate",
+        "effective_cer": 0.0667,
+        "overall_cer": 0.0667,
+        "word_overlap": 0.8919,
+        "content_pages": 3,
+        "skipped_pages": 2,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0,
+            "cer_orderless": 0.0,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "LETTER REGISTER",
+            "transcription_b": "LETTER REGISTER"
+          },
+          {
+            "page": 1,
+            "cer": 0.02,
+            "cer_orderless": 0.02,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "MADE IN ENGLAND\nFRANK SMYTHSON LTD.    NEW BOND ST W.",
+            "transcription_b": "MADE IN ENGLAND\nFRANK SMYTHSON LTD. NEW BOND ST. W."
+          },
+          {
+            "page": 2,
+            "cer": 0.0197,
+            "cer_orderless": 0.0197,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "23. XI. 1936 - 30. VII. 38\n\nTHE\n“FEATHERWEIGHT”\n(Copyright)\nBOOKS\n\nKNOWN THE WORLD OVER\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of “Featherweight” Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
+            "transcription_b": "23. XI. 1936 - 30. VII. 38\n\nTHE\n\"FEATHERWEIGHT\"\n(Copyright)\nBOOKS\n\nKNOWN THE WORLD OVER\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of \"Featherweight\" Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered)."
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.127_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
       "id": "o_szd.127_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.127/IMG.1",
@@ -13374,6 +14910,132 @@
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_moderate",
+        "effective_cer": 0.0308,
+        "overall_cer": 0.0308,
+        "word_overlap": 0.8634,
+        "content_pages": 2,
+        "skipped_pages": 3,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0612,
+            "cer_orderless": 0.0612,
+            "agreement": "moderate",
+            "type": "content",
+            "transcription_a": "Zwischen Herrn Dr Stefan Zweig, 49 Hallam Street,\nLondon W.1 und F° Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngedult des Herzens\nan die F° Socec & Co gegen eine einmalige Zahlung\nvon\n£ 30 (dreizig Pfund sterling).\nFalls das Buch nicht innerhalb ~~einem~~ {von einem} Jahre\nnach vertragsabschluss erscheint, fallen die Rechte\nan der Verfasser zurück.\nHerr Dr zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr zweig\nin Kraft.\nLondon, den 20 ~~April~~ {April} 1939 Bukarest, den 30 ~~März~~ {April} 1939\n(gs) Dr zweig (ps) Socec & Co",
+            "transcription_b": "Zwischen Herrn Dr. Stefan Zweig, 49 Hallam Street,\nLondon W.1 und Fa. Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr. Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngeduld des Herzens\nan die Fa. Socec & Co gegen eine einmalige Zahlung\nvon £. 30 (dreißig Pfund Sterling).\nFalls das Buch nicht innerhalb ~~von~~ {von} einem Jahre\nnach Vertragsabschluss erscheint, fallen die Rechte\nan den Verfasser zurück.\nHerr Dr. Zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr. Zweig\nin Kraft.\nLondon, den 20. ~~März~~ {April} 1939 Bukarest, den 30. ~~März~~ {April} 1939\n(ss) Dr. Zweig (ss) Socec & Co"
+          },
+          {
+            "page": 1,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 2,
+            "cer": 0.0119,
+            "cer_orderless": 0.8486,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\n\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\nUNGEDULD DES HERZENS\nEditurei Socec & Co. S.A. pentru suma de :\n£ 30.-.- (Treizeci)\nodată pentru totdeauna.-\n\nIn cazul când traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\n\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\n\nAcest contract devine valabil in momentul cànd Domnul Dr.\nStefan Zweig va fi in posesia sumei de £ 30.-.- pe care editura o va\nremite la adresa autorului.-\n\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\n\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S.A.\nbezahlt!",
+            "transcription_b": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\nUNGEDULD DES HERZENS\nEditurei Socec & Co. S.A. pentru suma de :\nŁ. 30.-.- (Treizeci)\nodată pentru totdeauna.-\nIn cazul când traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\nAcest contract devine valabil in momentul când Domnul Dr.\nStefan Zweig va fi in posesia sumei de Ł. 30.-.- pe care editura o va\nremite la adresa autorului.-\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S. A.\n[...]\nbezahlt!"
+          },
+          {
+            "page": 3,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          },
+          {
+            "page": 4,
+            "cer": null,
+            "cer_orderless": null,
+            "agreement": "skipped",
+            "type": "blank",
+            "transcription_a": "",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.127_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.127/IMG.1",
+        "https://gams.uni-graz.at/o:szd.127/IMG.2",
+        "https://gams.uni-graz.at/o:szd.127/IMG.3",
+        "https://gams.uni-graz.at/o:szd.127/IMG.4",
+        "https://gams.uni-graz.at/o:szd.127/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Zwischen Herrn Dr Stefan Zweig, 49 Hallam Street,\nLondon W.1 und Fa Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngeduld des Herzens\nan die Fa Socec & Co gegen eine einmalige Zahlung\nvon\n£. 30 (dreizig Pfund Sterling).\nFalls das Buch nicht innerhalb ~~von~~ {von} einem Jahre\nnach Vertragsabschluss erscheint, fallen die Rechte\nan den Verfasser zurück.\nHerr Dr Zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr Zweig\nin Kraft.\nLondon, den 20 ~~Mai~~ {April} 1939 Bukarest, den 30 ~~Mai~~ {April} 1939\n(gez) Dr Zweig (gez) Socec & Co",
+          "notes": "Handschriftlicher Vertragsentwurf in deutscher Sprache. Tinte. Gut lesbar. Streichungen und Einfügungen vorhanden."
+        },
+        {
+          "page": 2,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite."
+        },
+        {
+          "page": 3,
+          "transcription": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\n\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\nUNGEDULD DES HERZENS\nEditurei Socec & Co. S.A. pentru suma de :\nL.30.-.- (Treizeci)\nodată pentru totdeauna.-\n\nIn cazul cănd traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\n\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\n\nAcest contract devine valabil in momentul cănd Domnul Dr.\nStefan Zweig va fi in posesia sumei de L. 30.-.- pe care editura o va\nremite la adresa autorului.-\n\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\n\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S. A.\n[...]\nbezahlt!",
+          "notes": "Typoskript in rumänischer Sprache. Unterschrift mit Tinte (unleserlich), handschriftlicher Vermerk 'bezahlt!' mit Bleistift. Gut lesbar."
+        },
+        {
+          "page": 4,
+          "transcription": "",
+          "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Leere Seite."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Sehr gute Lesbarkeit sowohl der Handschrift als auch des Typoskripts. Keine nennenswerten Unsicherheiten, lediglich die Unterschrift auf Seite 3 ist nicht eindeutig entzifferbar.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 1,
+        "totalChars": 1661,
+        "emptyPages": 3,
+        "avgCharsPerPage": 830,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": false,

@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.141",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "title": "Notizbuch Russlandreise, SZ-SAH/L1",
+  "models": {
+    "a": "gemini-3.1-flash-lite-preview",
+    "b": "gemini-3-flash-preview",
+    "c": "gemini-3.1-pro-preview"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Vorderseite des Einbands, keine Schrift.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 2,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Innenseite des Einbands, keine Schrift.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 3,
+      "transcription": "Baja\nProfessor Dr. Paul Stefan\nWien VIII\nHamerlingplatz 7\nkus[?]",
+      "type": "content",
+      "source": "pro_only",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Baja\nProfessor J. Paul Stefan\nWien VIII\nHamerlingplatz 7",
+        "flash": "Professor Dr. Paul Stefan\n\nWien VIII\n__________\n| Hamerlingplatz 7\n\nBaja[...]\n\n[...]bis[?]",
+        "pro": "Baja\nProfessor Dr. Paul Stefan\nWien VIII\nHamerlingplatz 7\nkus[?]"
+      }
+    },
+    {
+      "page": 4,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Innenseite des hinteren Einbands mit eingeklebtem, leerem Zettel.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 5,
+      "transcription": "Bajaderka von M. Petipa\nMusik von J. Minkus\nSemjenowa",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Bajaderka von M. Petipa\nMusik von L. Minkus\nSemjenowa",
+        "flash": "Bajaderka von M. Petipa\nMusik von J.[?] Minkus\nSemjonowa",
+        "pro": "Bajaderka von M. Petipa\nMusik von J. Minkus\nSemjenowa"
+      }
+    }
+  ],
+  "merge_stats": {
+    "consensus_3of3": 0,
+    "majority_2of3": 1,
+    "pro_only": 1,
+    "skipped": 3
+  },
+  "expert_verified": false,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "created_at": "2026-04-02T07:09:15.372677+00:00"
+}

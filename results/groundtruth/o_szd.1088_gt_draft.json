@@ -1,0 +1,59 @@
+{
+  "object_id": "o_szd.1088",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "title": "Ansichtspostkarte an Max Fleischer vom 23. Oktober 1901, SZ-LAS/B3.10",
+  "models": {
+    "a": "gemini-3.1-flash-lite-preview",
+    "b": "gemini-3-flash-preview",
+    "c": "gemini-3.1-pro-preview"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "transcription": "Gruss aus Wien Währingerstrasse\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111. Viele Grüsse Stefan Zweig",
+      "type": "content",
+      "source": "pro_only",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan",
+        "flash": "Gruss aus Wien\nWähringerstrasse\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele Grüße StefanZweig\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111.",
+        "pro": "Gruss aus Wien Währingerstrasse\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111. Viele Grüsse Stefan Zweig"
+      }
+    },
+    {
+      "page": 2,
+      "transcription": "Correspondenz-Karte.\nNur für die Adresse\nAn Max Fleischer\nstud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+      "type": "content",
+      "source": "consensus_3of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "flash": "Correspondenz-Karte.\nNur für die Adresse.\nAn Max Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "pro": "Correspondenz-Karte.\nNur für die Adresse\nAn Max Fleischer\nstud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3"
+      }
+    },
+    {
+      "page": 3,
+      "transcription": "",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "flash": "",
+        "pro": ""
+      }
+    }
+  ],
+  "merge_stats": {
+    "consensus_3of3": 1,
+    "majority_2of3": 1,
+    "pro_only": 1,
+    "skipped": 0
+  },
+  "expert_verified": false,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "created_at": "2026-04-02T07:27:25.674321+00:00"
+}

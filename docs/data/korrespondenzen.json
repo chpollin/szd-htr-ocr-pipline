@@ -63,6 +63,120 @@
       "consensus": null
     },
     {
+      "id": "o_szd.1079_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
+      "id": "o_szd.1081_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
+      "id": "o_szd.1088_gt_draft",
+      "images": [],
+      "pages": [],
+      "confidence": "",
+      "confidenceNotes": "",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 0,
+        "emptyPages": 0,
+        "avgCharsPerPage": 0,
+        "vlmConfidence": ""
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": null
+    },
+    {
       "id": "o_szd.1079_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1079/IMG.1",
@@ -150,6 +264,132 @@
           "page_length_anomaly",
           "duplicate_pages"
         ]
+      },
+      "consensus": {
+        "category": "consensus_divergent",
+        "effective_cer": 0.7314,
+        "overall_cer": 0.7314,
+        "word_overlap": 0.7216,
+        "content_pages": 5,
+        "skipped_pages": 0,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.0492,
+            "cer_orderless": 0.0,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
+            "transcription_b": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen\n\nf."
+          },
+          {
+            "page": 1,
+            "cer": 0.0,
+            "cer_orderless": 0.0,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "STEFAN ZWEIG",
+            "transcription_b": "STEFAN ZWEIG"
+          },
+          {
+            "page": 2,
+            "cer": 0.6563,
+            "cer_orderless": 0.6563,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nging mir noch nicht zu, doch las ich es mit aufrichtigen Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderbar, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, daß Sie nach fahren, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Karlsbad gar keinem Falle hier nicht scheuen,\nes kann ja auch allzu weit sein.\nIch habe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte wahr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Freude, wie dort, muß doch selbst das\nLernen durch Naturgefühl und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Allein-\nsamkeit ganz erlebt habe, halte mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbüchere,\ndurch Spazierengehen, herumträumen, Freunde etc.\nDas einzige Wesentliche ist, daß ich viel lese.",
+            "transcription_b": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltanschauung erhoben haben, um sich nicht\nüber mein grässliches Briefpapier (der letzte Bogen!) zu moquieren!\nIch danke Ihnen recht herzlich für Ihre lieben Kartengrüße. Ihr Buch\ngelangte mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich nicht tief -\nes ist ja ein Familienblatt und man muss sich immer dem\nRahmen anpassen — aber ich hoffe Sie wird Ihnen nicht\nmissfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderschön, nur glaube\nich nicht dass er nach Karlsbad wird abkommen können,\nda ist es viel wahrscheinlicher, dass Sie mich sehen, da\nich nun geschlagene 16 Jahre nach Marienbad gehen muss\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Pferd oder per Eisenbahn sicher nicht scheuen,\nes kann ja nicht allzuweit sein.\nIch lebe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, schauerlich faul. Nicht einmal\nGedichte mehr, nur zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Einöde, wie dort, müsste doch selbst das\nLernen durch Naturschönheit und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Waldein-\nsamkeit ganz erlebt habe, stelle mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total vertändele,\ndurch Spazierengehen, Frauenträumen, Freunde etc.\nDas einzige Vernünftige ist, dass ich viel lese."
+          },
+          {
+            "page": 3,
+            "cer": 0.4761,
+            "cer_orderless": 0.4761,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+            "transcription_b": "Leider Gottes muss ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Loeffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Absicht es besprechen zu wollen bin ich\nschon sehr dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebener\n\nStefan Zweig"
+          },
+          {
+            "page": 4,
+            "cer": 0.6704,
+            "cer_orderless": 0.6704,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+            "transcription_b": "Leider Gottes muss ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\n\nStefan Zweig"
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.1079_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1079/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.3",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.4",
+        "https://gams.uni-graz.at/o:szd.1079/IMG.5"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen\n\nf.",
+          "notes": "Briefumschlag Vorderseite. Handschrift in violetter Tinte. Poststempel und Briefmarken vorhanden."
+        },
+        {
+          "page": 2,
+          "transcription": "STEFAN ZWEIG",
+          "notes": "Briefumschlag Rückseite. Gedruckter Absendername. Ankunftsstempel vorhanden."
+        },
+        {
+          "page": 3,
+          "transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltanschauung erhoben haben, um sich nicht\nüber mein gnädiges Stillschweigen (die letzte Woche!) zu moquiren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartenpost. Es liegt\ngewiß mir noch nicht vor, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich nicht tief –\nes ist ja ein Familienblatt und man muß sich in etwa dem\nRahmen anpassen – aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderhübsch, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda ist es viel wahrscheinlicher, daß Sie mich sehen, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Cur halber). Ich würde den\nAbstecher zu Pferd oder per Eisenbahn sicher nicht scheuen,\nes kann ja nicht allzu weit sein.\nIch lebe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, – schauerlich faul. Nicht einmal\nGedichte mache, {nur} zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Einöde, wie dort, muß doch selbst der\nLernende durch Naturschönheit und Einsamkeit zer-\nstreut sein. Ich, der ich eigentlich nie die Waldein-\nsamkeit ganz erlebt habe, stelle mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total zersplittere,\ndurch Spazierengehen, Herumträumen, Freunde etc.\nDas einzige Vernünftige ist, daß ich viel lese.",
+          "notes": "Handschrift. Violetter Tinte. Sehr dicht geschrieben."
+        },
+        {
+          "page": 4,
+          "transcription": "Leider Gottes muß ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Absicht es besprechen zu wollen bin ich\nIhnen sehr dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebener\n\nStefan Zweig",
+          "notes": "Handschrift. Untere Hälfte der Seite ist leer."
+        },
+        {
+          "page": 5,
+          "transcription": "",
+          "notes": "Farbskala/Grauskala für Archivierung. Der sichtbare Text ist identisch mit Seite 4."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift von Stefan Zweig ist in diesem Dokument sehr klar und gut lesbar. Es gibt kaum unsichere Stellen, der Textfluss und Sinnzusammenhang bestätigen die Lesung.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 2114,
+        "emptyPages": 1,
+        "avgCharsPerPage": 528,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": {
         "category": "consensus_divergent",
@@ -385,6 +625,102 @@
       }
     },
     {
+      "id": "o_szd.1081_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1081/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1081/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1081/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Correspondenz-Karte.\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\nNur für die Adresse",
+          "notes": "Adressseite der Postkarte. Gedrucktes Formular mit handschriftlicher Adresse in violetter Tinte. Poststempel 'WIEN 1/1 5 6.01 6-7 N' und ein weiterer, schwacher Stempel. Eingedruckte 5-Heller-Briefmarke. Der Text 'Nur für die Adresse' ist vertikal am linken Rand gedruckt."
+        },
+        {
+          "page": 2,
+          "transcription": "Lieber Herr Fleischer! Anbei die Recension:\nNatürlich muß es statt „graciöse“ darin\n„gratiöse“ heißen. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefanZweig",
+          "notes": "Nachrichtenseite der Postkarte. Handschrift von Stefan Zweig in violetter Tinte. Sehr gut lesbar."
+        },
+        {
+          "page": 3,
+          "transcription": "Correspondenz-Karte.\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\nNur für die Adresse",
+          "notes": "Adressseite der Postkarte (identisch mit Scan 1), zusammen mit Farb- und Grauskalen (Farbkarte #13, Grauskala #13) für die Archivierung abgelichtet."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Die Handschrift von Stefan Zweig ist in diesem Dokument sehr klar und deutlich lesbar. Es gibt keine unsicheren Stellen. Auch die gedruckten Passagen der Postkarte sind einwandfrei zu entziffern.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 361,
+        "emptyPages": 0,
+        "avgCharsPerPage": 120,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_divergent",
+        "effective_cer": 1.0387,
+        "overall_cer": 1.0387,
+        "word_overlap": 0.5909,
+        "content_pages": 3,
+        "skipped_pages": 0,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.9375,
+            "cer_orderless": 0.9375,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+            "transcription_b": "Correspondenz-Karte.\n\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\n\nNur für die Adresse"
+          },
+          {
+            "page": 1,
+            "cer": 0.1022,
+            "cer_orderless": 0.1022,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa“ devin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+            "transcription_b": "Lieber Herr Fleischer! Anbei die Recension:\nNatürlich macht es statt „graciöse“ darin\n„graciöse“ hinten. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig"
+          },
+          {
+            "page": 2,
+            "cer": 1.0,
+            "cer_orderless": 1.0,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
       "id": "o_szd.1083_gemini-3.1-flash-lite-preview",
       "images": [
         "https://gams.uni-graz.at/o:szd.1083/IMG.1",
@@ -517,6 +853,102 @@
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
+        "language_match": true,
+        "page_length_anomalies": [],
+        "needs_review": false,
+        "needs_review_reasons": []
+      },
+      "consensus": {
+        "category": "consensus_divergent",
+        "effective_cer": 0.7541,
+        "overall_cer": 0.7541,
+        "word_overlap": 0.587,
+        "content_pages": 3,
+        "skipped_pages": 0,
+        "model_a": "gemini-3.1-flash-lite-preview",
+        "model_b": "gemini-3-flash-preview",
+        "pages": [
+          {
+            "page": 0,
+            "cer": 0.9636,
+            "cer_orderless": 0.9636,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan",
+            "transcription_b": "Gruss aus Wien\nWähringerstrasse\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele Grüße StefanZweig\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111."
+          },
+          {
+            "page": 1,
+            "cer": 0.0096,
+            "cer_orderless": 0.0096,
+            "agreement": "high",
+            "type": "content",
+            "transcription_a": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+            "transcription_b": "Correspondenz-Karte.\nNur für die Adresse.\nAn Max Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3"
+          },
+          {
+            "page": 2,
+            "cer": 1.0,
+            "cer_orderless": 1.0,
+            "agreement": "low",
+            "type": "content",
+            "transcription_a": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+            "transcription_b": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "o_szd.1088_gemini-3.1-pro",
+      "images": [
+        "https://gams.uni-graz.at/o:szd.1088/IMG.1",
+        "https://gams.uni-graz.at/o:szd.1088/IMG.2",
+        "https://gams.uni-graz.at/o:szd.1088/IMG.3"
+      ],
+      "pages": [
+        {
+          "page": 1,
+          "transcription": "Gruss aus Wien Währingerstrasse\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111. Viele Grüsse Stefan Zweig",
+          "notes": "Bildseite der Postkarte. Gedrucktes Motiv mit rotem Aufdruck, darüber handschriftlicher Text in violetter Tinte."
+        },
+        {
+          "page": 2,
+          "transcription": "Correspondenz-Karte.\nNur für die Adresse\nAn Max Fleischer\nstud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+          "notes": "Adressseite der Postkarte. Formulardruck mit handschriftlicher Adresse in violetter Tinte. Briefmarke (5 Heller) und Poststempel (Wien, 23.10.01 sowie Leipzig, 24.10.01) vorhanden."
+        },
+        {
+          "page": 3,
+          "transcription": "",
+          "notes": "Farbskala/Grauskala für Archivierung. Zeigt die identische Bildseite der Postkarte wie Scan 1."
+        }
+      ],
+      "confidence": "high",
+      "confidenceNotes": "Handschrift und Drucktext sind klar und deutlich lesbar. Keine unsicheren Stellen oder nennenswerten Leseschwierigkeiten.",
+      "verification": {
+        "uncertainCount": 0,
+        "illegibleCount": 0,
+        "totalChars": 309,
+        "emptyPages": 1,
+        "avgCharsPerPage": 154,
+        "vlmConfidence": "high"
+      },
+      "quality_signals": {
+        "total_chars": 0,
+        "total_words": 0,
+        "total_pages": 0,
+        "empty_pages": 0,
+        "blank_pages": 0,
+        "content_pages": 0,
+        "color_chart_pages": 0,
+        "chars_per_page": [],
+        "chars_per_page_median": 0,
+        "marker_uncertain_count": 0,
+        "marker_illegible_count": 0,
+        "marker_density": 0,
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
+        "language_expected": "",
+        "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": false,

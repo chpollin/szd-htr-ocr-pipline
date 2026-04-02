@@ -1,0 +1,36 @@
+{
+  "object_id": "o_szd.142",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "gemini-3.1-pro-preview",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "DR. PHIL. STEFAN ZWEIG\n\nWIEN\nI. RATHHAUSSTRASSE 17.",
+        "notes": "Vorderseite einer Druckmatrize aus Metall. Der Text ist auf dem Objekt spiegelverkehrt erhaben angebracht und wird hier in lesbarer (entspiegelter) Form transkribiert."
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite der Druckmatrize, unbeschriftet."
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Vorderseite der Druckmatrize (auf dem Kopf liegend) mit Farb- und Grauskala für Archivierung."
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der spiegelverkehrte Text auf der Druckmatrize ist klar und ohne Unsicherheiten lesbar."
+  },
+  "metadata": {
+    "title": "Druckmatrize mit Name und Adresse, SZ-SAH/L2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.142/IMG.1",
+      "https://gams.uni-graz.at/o:szd.142/IMG.2",
+      "https://gams.uni-graz.at/o:szd.142/IMG.3"
+    ]
+  }
+}

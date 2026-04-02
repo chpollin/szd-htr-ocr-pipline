@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.139",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "title": "Bestellzettel Bücherausgabe, SZ-AAP/L16",
+  "models": {
+    "a": "gemini-3.1-flash-lite-preview",
+    "b": "gemini-3-flash-preview",
+    "c": "gemini-3.1-pro-preview"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte\n\nDatum:",
+      "type": "content",
+      "source": "majority_2of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte",
+        "flash": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\n Standort (Gestell u. Nr.)\n St. Z. B 488-491\n\n Ordnungswort (Katalog-\n Stichwort)\n Merle d'Aubigné Geschichte\n\nDatum:",
+        "pro": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte\n\nDatum:"
+      }
+    },
+    {
+      "page": 2,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Rückseite des ersten Blattes, leer.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 3,
+      "transcription": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:",
+      "type": "content",
+      "source": "consensus_3of3",
+      "notes": "",
+      "variants": {
+        "flash_lite": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:",
+        "flash": "Bestellzettel Bücherausgabe\n\nBesteller:\n Stefan Zweig\n\nWohnung:\n Hotel Bellerive\n\nBestelltes Werk:\n Standort (Gestell u. Nr.)\n TN 604 ah\n\n Ordnungswort (Katalog-\n Stichwort)\n Berlepsch Hans. Kämpfe\n\nDatum:",
+        "pro": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:"
+      }
+    },
+    {
+      "page": 4,
+      "transcription": "",
+      "type": "blank",
+      "source": "skipped",
+      "notes": "Rückseite des zweiten Blattes, leer.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    },
+    {
+      "page": 5,
+      "transcription": "",
+      "type": "color_chart",
+      "source": "skipped",
+      "notes": "Übersichtsaufnahme mit Farb- und Grauskala, kein Text.",
+      "variants": {
+        "flash_lite": "",
+        "flash": "",
+        "pro": ""
+      }
+    }
+  ],
+  "merge_stats": {
+    "consensus_3of3": 1,
+    "majority_2of3": 1,
+    "pro_only": 0,
+    "skipped": 3
+  },
+  "expert_verified": false,
+  "reviewed_by": null,
+  "reviewed_at": null,
+  "created_at": "2026-04-02T07:08:30.218559+00:00"
+}
