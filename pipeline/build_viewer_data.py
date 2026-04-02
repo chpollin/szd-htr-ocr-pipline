@@ -95,15 +95,17 @@ def compute_verification(pages: list[dict]) -> dict:
 def build():
     objects = []
 
-    # Scan all result directories: results/test/, results/lebensdokumente/, etc.
-    result_files = sorted(RESULTS_DIR.glob("*.json"))
+    # Scan collection result directories (skip test/, groundtruth/)
+    SKIP_DIRS = {"test", "groundtruth"}
+    SKIP_SUFFIXES = ("_consensus", "_layout", "_gt_draft")
+    result_files = []
     for subdir in sorted(RESULTS_BASE.iterdir()):
-        if subdir.is_dir() and subdir != RESULTS_DIR:
+        if subdir.is_dir() and subdir.name not in SKIP_DIRS:
             result_files.extend(sorted(subdir.glob("*.json")))
 
     for result_file in result_files:
-        # Skip consensus files — they are not transcription results
-        if result_file.stem.endswith("_consensus"):
+        # Skip non-transcription files (consensus, layout, GT drafts)
+        if any(result_file.stem.endswith(s) for s in SKIP_SUFFIXES):
             continue
 
         data = json.loads(result_file.read_text(encoding="utf-8"))

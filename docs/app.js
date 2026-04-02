@@ -37,7 +37,7 @@ const state = {
   filterCollection: '',
   filterGroup: '',
   filterConfidence: '',
-  filterReview: false,
+  filterReviewStatus: '',
   filterConsensus: '',
   editMode: false,
   diffMode: false,
@@ -157,7 +157,8 @@ function getViewerObject(objectId) {
 
 function parseHash() {
   const hash = location.hash.slice(1);
-  if (!hash || hash === 'help' || hash.startsWith('catalog')) {
+  if (hash === 'help') return { view: 'help' };
+  if (!hash || hash.startsWith('catalog')) {
     return { view: 'catalog', objectId: null, page: 0 };
   }
   if (hash === 'knowledge') return { view: 'knowledge' };
@@ -179,7 +180,7 @@ function buildCatalogHash() {
   if (state.filterCollection) params.set('collection', state.filterCollection);
   if (state.filterGroup) params.set('group', state.filterGroup);
   if (state.filterConfidence) params.set('confidence', state.filterConfidence);
-  if (state.filterReview) params.set('review', '1');
+  if (state.filterReviewStatus) params.set('review_status', state.filterReviewStatus);
   if (state.filterConsensus) params.set('consensus', state.filterConsensus);
   if (state.searchQuery) params.set('q', state.searchQuery);
   if (state.sortField !== 'collection') params.set('sort', state.sortField);
@@ -196,7 +197,8 @@ function parseCatalogParams(hash) {
   if (params.has('collection')) state.filterCollection = params.get('collection');
   if (params.has('group')) state.filterGroup = params.get('group');
   if (params.has('confidence')) state.filterConfidence = params.get('confidence');
-  state.filterReview = params.get('review') === '1';
+  if (params.has('review_status')) state.filterReviewStatus = params.get('review_status');
+  if (params.get('review') === '1') state.filterReviewStatus = 'needs_review';
   if (params.has('consensus')) state.filterConsensus = params.get('consensus');
   if (params.has('q')) state.searchQuery = params.get('q');
   if (params.has('sort')) state.sortField = params.get('sort');
@@ -210,7 +212,7 @@ function restoreFilterUI() {
   updateGroupFilter();
   document.getElementById('filterGroup').value = state.filterGroup;
   document.getElementById('filterConfidence').value = state.filterConfidence;
-  document.getElementById('filterReview').checked = state.filterReview;
+  document.getElementById('filterReviewStatus').value = state.filterReviewStatus;
   document.getElementById('filterConsensus').value = state.filterConsensus;
 }
 
@@ -232,13 +234,14 @@ function route() {
     showKnowledgeDoc(r.slug);
   } else if (r.view === 'about') {
     showAbout();
+  } else if (r.view === 'help') {
+    showHelp();
   } else {
     parseCatalogParams(location.hash.slice(1));
     restoreFilterUI();
     showCatalog();
     renderCatalog();
   }
-  if (location.hash === '#help') openHelp();
 }
 
 function resetDiffMode() {
@@ -290,6 +293,18 @@ async function showViewer(objectId, page) {
       return;
     }
     document.getElementById('viewerPanels').classList.remove('loading-data');
+  }
+
+  // Skip blank/color_chart pages at start — jump to first content page
+  if (state.currentPage === 0) {
+    const viewObj = getViewerObject(objectId);
+    if (viewObj && viewObj.pages) {
+      const firstContentIdx = viewObj.pages.findIndex(p => !p.type || p.type === 'content');
+      if (firstContentIdx > 0) {
+        state.currentPage = firstContentIdx;
+        history.replaceState(null, '', `#view/${objectId}/${firstContentIdx + 1}`);
+      }
+    }
   }
 
   renderViewerMeta(catalogObj);
@@ -485,12 +500,18 @@ async function showAbout() {
 /* ===== Review / Quality Signals ===== */
 
 function renderReviewCell(obj) {
+  if (obj.gtVerified) {
+    return '<span class="badge-review badge-review-verified" data-tooltip="Ground Truth verifiziert">GT \u2713</span>';
+  }
+  if (obj.reviewStatus === 'approved') {
+    return '<span class="badge-review badge-review-approved" data-tooltip="Expert gepr\u00fcft">Gepr\u00fcft</span>';
+  }
   if (obj.needsReview === undefined) return '';
   if (obj.needsReview) {
     const reasons = (obj.needsReviewReasons || []).join(', ') || 'Review empfohlen';
     return `<span class="badge-review badge-review-yes" data-tooltip="${escapeHtml(reasons)}">Review</span>`;
   }
-  return '<span class="badge-review badge-review-ok" data-tooltip="Keine Auffälligkeiten">OK</span>';
+  return '<span class="badge-review badge-review-ok" data-tooltip="Keine Auff\u00e4lligkeiten">OK</span>';
 }
 
 function renderQualitySignals(qs) {
@@ -610,7 +631,7 @@ function renderStats() {
   for (const col of state.collections) perCol[col] = 0;
   const perGroup = {};
   const confDist = { high: 0, medium: 0, low: 0 };
-  let reviewCount = 0;
+  let reviewCount = 0, verifiedCount = 0, approvedCount = 0;
   let totalPages = 0, totalContentPages = 0, totalBlankPages = 0;
   let totalChars = 0;
   let dwrSum = 0, dwrCount = 0;
@@ -622,6 +643,8 @@ function renderStats() {
     const g = o.classification || o.groupLabel || '?';
     perGroup[g] = (perGroup[g] || 0) + 1;
     if (o.needsReview) reviewCount++;
+    if (o.gtVerified) verifiedCount++;
+    if (o.reviewStatus === 'approved') approvedCount++;
     if (o.confidence) confDist[o.confidence] = (confDist[o.confidence] || 0) + 1;
     totalPages += o.pageCount || 0;
     totalContentPages += o.contentPages || 0;
@@ -645,6 +668,12 @@ function renderStats() {
 
   const reviewChip = state.hasReviewData
     ? `<span class="catalog__stats-chip ${reviewCount > 0 ? 'catalog__stats-chip--review-warn' : 'catalog__stats-chip--review-ok'}"><strong>${reviewCount}</strong> Review</span>`
+    : '';
+  const verifiedChip = verifiedCount > 0
+    ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> GT \u2713</span>`
+    : '';
+  const approvedChip = approvedCount > 0
+    ? `<span class="catalog__stats-chip catalog__stats-chip--approved"><strong>${approvedCount}</strong> Gepr\u00fcft</span>`
     : '';
 
   // Detail section: groups
@@ -690,7 +719,7 @@ function renderStats() {
   el.innerHTML = `
     <div class="catalog__stats-summary">
       <span class="catalog__stats-total">${total} Objekte</span>
-      <div class="catalog__stats-chips">${colChips}${reviewChip}</div>
+      <div class="catalog__stats-chips">${colChips}${reviewChip}${verifiedChip}${approvedChip}</div>
       <button type="button" class="catalog__stats-toggle" id="statsToggle" aria-expanded="false">Details &#9662;</button>
     </div>
     <div class="catalog__stats-details" id="statsDetails">
@@ -741,8 +770,16 @@ function applyFilters() {
   if (state.filterConfidence) {
     list = list.filter(o => o.confidence === state.filterConfidence);
   }
-  if (state.filterReview) {
-    list = list.filter(o => o.needsReview);
+  if (state.filterReviewStatus) {
+    if (state.filterReviewStatus === 'gt_verified') {
+      list = list.filter(o => o.gtVerified);
+    } else if (state.filterReviewStatus === 'approved') {
+      list = list.filter(o => o.reviewStatus === 'approved');
+    } else if (state.filterReviewStatus === 'needs_review') {
+      list = list.filter(o => o.needsReview);
+    } else if (state.filterReviewStatus === 'ok') {
+      list = list.filter(o => o.needsReview === false);
+    }
   }
   if (state.filterConsensus) {
     if (state.filterConsensus === 'none') {
@@ -844,11 +881,11 @@ function renderCatalog() {
   updateGroupFilter();
 
   // Show review/consensus filters only if data supports them
-  document.getElementById('filterReviewLabel').style.display = state.hasReviewData ? '' : 'none';
+  document.getElementById('filterReviewStatus').style.display = state.hasReviewData ? '' : 'none';
   document.getElementById('filterConsensus').style.display = state.hasConsensusData ? '' : 'none';
 
   // Show/hide clear button
-  const hasFilters = state.searchQuery || state.filterCollection || state.filterGroup || state.filterConfidence || state.filterReview || state.filterConsensus;
+  const hasFilters = state.searchQuery || state.filterCollection || state.filterGroup || state.filterConfidence || state.filterReviewStatus || state.filterConsensus;
   document.getElementById('clearFilters').style.display = hasFilters ? '' : 'none';
 
   // Sort indicators
@@ -1770,15 +1807,14 @@ function downloadGtReview(objectId) {
   URL.revokeObjectURL(url);
 }
 
-/* ===== Help Modal ===== */
+/* ===== Help View ===== */
 
-function openHelp() {
-  document.getElementById('helpOverlay').classList.add('open');
-}
-
-function closeHelp() {
-  document.getElementById('helpOverlay').classList.remove('open');
-  if (location.hash === '#help') history.replaceState(null, '', '#');
+function showHelp() {
+  document.body.className = 'view-help';
+  document.title = 'SZD-HTR \u2014 Hilfe';
+  state.currentObjectId = null;
+  state.editMode = false;
+  resetDiffMode();
 }
 
 /* ===== Event Handlers ===== */
@@ -1811,8 +1847,8 @@ function initEvents() {
     renderCatalog();
   });
 
-  document.getElementById('filterReview').addEventListener('change', e => {
-    state.filterReview = e.target.checked;
+  document.getElementById('filterReviewStatus').addEventListener('change', e => {
+    state.filterReviewStatus = e.target.value;
     state.catalogPage = 0;
     renderCatalog();
   });
@@ -1828,7 +1864,7 @@ function initEvents() {
     state.filterCollection = '';
     state.filterGroup = '';
     state.filterConfidence = '';
-    state.filterReview = false;
+    state.filterReviewStatus = '';
     state.filterConsensus = '';
     state.catalogPage = 0;
     restoreFilterUI();
@@ -2001,6 +2037,9 @@ function initEvents() {
     if (document.body.classList.contains('view-about') && e.key === 'Escape') {
       navigate(buildCatalogHash());
     }
+    if (document.body.classList.contains('view-help') && e.key === 'Escape') {
+      navigate(buildCatalogHash());
+    }
   });
 
   // Touch swipe
@@ -2016,15 +2055,6 @@ function initEvents() {
   // Hash change
   window.addEventListener('hashchange', route);
 
-  // Help
-  document.getElementById('helpBtn').addEventListener('click', () => {
-    navigate('help');
-    openHelp();
-  });
-  document.getElementById('helpClose').addEventListener('click', closeHelp);
-  document.getElementById('helpOverlay').addEventListener('click', e => {
-    if (e.target === e.currentTarget) closeHelp();
-  });
 }
 
 function changeViewerPage(delta) {

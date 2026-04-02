@@ -95,9 +95,11 @@ def import_gt_review(data: dict, *, reviewer: str, dry_run: bool) -> None:
 
 def import_regular_edit(data: dict, *, reviewer: str, dry_run: bool) -> None:
     """Import a regular edit export into the corresponding result file."""
-    # The export's object_id contains the model suffix, e.g. "o_szd.100_gemini-3.1-flash-lite-preview"
+    # The export's object_id may or may not include the model suffix.
+    # Frontend strips it (e.g. "o_szd.100"), but model is in a separate field.
     object_id = data.get("object_id", "")
     collection = data.get("collection", "")
+    model = data.get("model", "")
 
     if not object_id or not collection:
         print(f"  FEHLER: object_id oder collection fehlt im Export.")
@@ -107,10 +109,23 @@ def import_regular_edit(data: dict, *, reviewer: str, dry_run: bool) -> None:
         print(f"  FEHLER: Unbekannte Sammlung: {collection}")
         return
 
-    result_path = RESULTS_BASE / collection / f"{object_id}.json"
+    # Try exact match first, then reconstruct with model suffix
+    col_dir = RESULTS_BASE / collection
+    result_path = col_dir / f"{object_id}.json"
+    if not result_path.exists() and model:
+        result_path = col_dir / f"{object_id}_{model}.json"
     if not result_path.exists():
-        print(f"  FEHLER: Ergebnis-Datei nicht gefunden: {result_path}")
-        return
+        # Fallback: search for any file starting with the object_id
+        candidates = list(col_dir.glob(f"{object_id}_*.json"))
+        candidates = [c for c in candidates if not c.stem.endswith(("_consensus", "_layout", "_gt_draft"))]
+        if len(candidates) == 1:
+            result_path = candidates[0]
+        elif len(candidates) > 1:
+            print(f"  FEHLER: Mehrere Kandidaten fuer {object_id}: {[c.name for c in candidates]}")
+            return
+        else:
+            print(f"  FEHLER: Ergebnis-Datei nicht gefunden: {col_dir / object_id}_*.json")
+            return
 
     result = json.loads(result_path.read_text(encoding="utf-8"))
     result_pages = result.get("result", {}).get("pages", [])

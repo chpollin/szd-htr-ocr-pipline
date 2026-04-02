@@ -27,7 +27,7 @@
   --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', Consolas, Monaco, 'Courier New', monospace;
-  --max-width: 1200px;
+  --max-width: 1400px;
   --header-height: 56px;
   --transition: 0.15s ease;
 }
@@ -187,7 +187,8 @@ a:hover { color: var(--sz-burgundy-dark); }
   display: none;
 }
 
-body.view-viewer .site-header__back { display: inline-flex; align-items: center; gap: 0.3rem; }
+body:not(.view-catalog) .site-header__back { display: inline-flex; align-items: center; gap: 0.3rem; }
+body.view-viewer .site-header__catalog-nav { display: none; }
 
 /* ===== 5. Footer ===== */
 .site-footer {
@@ -209,27 +210,38 @@ body.view-viewer .site-header__back { display: inline-flex; align-items: center;
 body.view-catalog #viewer,
 body.view-catalog #knowledge,
 body.view-catalog #knowledgeDoc,
-body.view-catalog #about { display: none; }
+body.view-catalog #about,
+body.view-catalog #help { display: none; }
 
 body.view-viewer #catalog,
 body.view-viewer #knowledge,
 body.view-viewer #knowledgeDoc,
-body.view-viewer #about { display: none; }
+body.view-viewer #about,
+body.view-viewer #help { display: none; }
 
 body.view-knowledge #catalog,
 body.view-knowledge #viewer,
 body.view-knowledge #knowledgeDoc,
-body.view-knowledge #about { display: none; }
+body.view-knowledge #about,
+body.view-knowledge #help { display: none; }
 
 body.view-knowledge-doc #catalog,
 body.view-knowledge-doc #viewer,
 body.view-knowledge-doc #knowledge,
-body.view-knowledge-doc #about { display: none; }
+body.view-knowledge-doc #about,
+body.view-knowledge-doc #help { display: none; }
 
 body.view-about #catalog,
 body.view-about #viewer,
 body.view-about #knowledge,
-body.view-about #knowledgeDoc { display: none; }
+body.view-about #knowledgeDoc,
+body.view-about #help { display: none; }
+
+body.view-help #catalog,
+body.view-help #viewer,
+body.view-help #knowledge,
+body.view-help #knowledgeDoc,
+body.view-help #about { display: none; }
 
 /* ===== 7. Catalog View ===== */
 .catalog {
@@ -621,6 +633,22 @@ body.view-about #knowledgeDoc { display: none; }
   background: var(--sz-success);
 }
 
+.badge-review-verified {
+  color: #fff;
+  background: var(--sz-success);
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.badge-review-approved {
+  color: #1a1a1a;
+  background: var(--sz-gold-light);
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
 /* Quality signals in viewer */
 .viewer__quality {
   padding: 0.6rem 1.25rem;
@@ -784,6 +812,8 @@ body.view-about #knowledgeDoc { display: none; }
 
 .catalog__stats-chip--review-warn { background: var(--sz-danger-bg); }
 .catalog__stats-chip--review-ok { background: var(--sz-success-bg); }
+.catalog__stats-chip--verified { background: var(--sz-success-bg); }
+.catalog__stats-chip--approved { background: var(--sz-warning-bg); }
 
 /* Navigation bar */
 .viewer__nav {
@@ -828,7 +858,7 @@ body.view-about #knowledgeDoc { display: none; }
 .viewer__page-info {
   font-size: 0.8125rem;
   font-weight: 600;
-  min-width: 5rem;
+  min-width: 8rem;
   text-align: center;
   font-variant-numeric: tabular-nums;
 }
@@ -1320,37 +1350,24 @@ body.view-about #knowledgeDoc { display: none; }
   transform: translateY(-50%);
 }
 
-/* ===== 10. Help Modal ===== */
-.help-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
+/* ===== 10. Help Page ===== */
+.help-page {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+  flex: 1;
 }
 
-.help-overlay.open {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.help-modal {
+.help-page__content {
   background: var(--sz-white);
   border-radius: 8px;
-  max-width: 640px;
-  width: 90%;
-  max-height: 80vh;
-  overflow-y: auto;
+  max-width: 720px;
   padding: 2rem;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--sz-border);
 }
 
-.help-modal h2 {
+.help-page__content h2 {
   font-size: 1.25rem;
   color: var(--sz-burgundy);
   margin-bottom: 1rem;
@@ -1358,26 +1375,26 @@ body.view-about #knowledgeDoc { display: none; }
   border-bottom: 1px solid var(--sz-border);
 }
 
-.help-modal h3 {
+.help-page__content h3 {
   font-size: 0.95rem;
   color: var(--sz-burgundy);
   margin: 1.25rem 0 0.5rem;
 }
 
-.help-modal p, .help-modal li {
+.help-page__content p, .help-page__content li {
   font-size: 0.875rem;
   line-height: 1.7;
   color: var(--sz-text);
 }
 
-.help-modal ul {
+.help-page__content ul {
   padding-left: 1.25rem;
   margin: 0.5rem 0;
 }
 
-.help-modal li { margin-bottom: 0.25rem; }
+.help-page__content li { margin-bottom: 0.25rem; }
 
-.help-modal code {
+.help-page__content code {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   background: var(--sz-border-light);
@@ -1385,7 +1402,7 @@ body.view-about #knowledgeDoc { display: none; }
   border-radius: 3px;
 }
 
-.help-modal kbd {
+.help-page__content kbd {
   font-family: var(--font-mono);
   font-size: 0.75rem;
   background: var(--sz-cream);
@@ -1395,26 +1412,14 @@ body.view-about #knowledgeDoc { display: none; }
   box-shadow: 0 1px 0 var(--sz-border);
 }
 
-.help-modal__close {
-  float: right;
-  border: none;
-  background: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: var(--sz-text-light);
-  line-height: 1;
-}
-
-.help-modal__close:hover { color: var(--sz-burgundy); }
-
-.help-modal table {
+.help-page__content table {
   width: 100%;
   border-collapse: collapse;
   margin: 0.75rem 0;
   font-size: 0.8125rem;
 }
 
-.help-modal th {
+.help-page__content th {
   text-align: left;
   font-size: 0.72rem;
   text-transform: uppercase;
@@ -1424,7 +1429,7 @@ body.view-about #knowledgeDoc { display: none; }
   border-bottom: 2px solid var(--sz-border);
 }
 
-.help-modal td {
+.help-page__content td {
   padding: 0.35rem 0.6rem;
   border-bottom: 1px solid var(--sz-border-light);
 }

@@ -32,7 +32,7 @@
     <span class="site-header__catalog-nav">
       <a href="#knowledge">Methodik</a>
       <a href="#about">Projekt</a>
-      <button type="button" id="helpBtn">Hilfe</button>
+      <a href="#help">Hilfe</a>
       <a href="https://github.com/chpollin/szd-htr-ocr-pipeline" target="_blank" rel="noopener">GitHub</a>
     </span>
   </nav>
@@ -71,9 +71,14 @@
       <option value="consensus_divergent">Divergent</option>
       <option value="none">Kein Konsensus</option>
     </select>
-    <label class="catalog__toggle" id="filterReviewLabel" style="display:none">
-      <input type="checkbox" id="filterReview"> Nur Review
-    </label>
+    <label for="filterReviewStatus" class="sr-only">Review-Status filtern</label>
+    <select class="catalog__filter" id="filterReviewStatus" style="display:none">
+      <option value="">Alle Status</option>
+      <option value="gt_verified">GT verifiziert</option>
+      <option value="approved">Geprüft</option>
+      <option value="needs_review">Review nötig</option>
+      <option value="ok">OK</option>
+    </select>
     <button type="button" class="catalog__clear-btn" id="clearFilters">Filter zurücksetzen</button>
   </div>
 
@@ -219,11 +224,10 @@
   <article class="about__content markdown-content" id="aboutContent"></article>
 </main>
 
-<!-- ===== Help Modal ===== -->
-<div class="help-overlay" id="helpOverlay" role="dialog" aria-modal="true" aria-labelledby="helpTitle">
-  <div class="help-modal">
-    <button type="button" class="help-modal__close" id="helpClose" aria-label="Hilfe schließen">&times;</button>
-    <h2 id="helpTitle">SZD-HTR Viewer</h2>
+<!-- ===== Help View ===== -->
+<main id="help" class="help-page">
+  <article class="help-page__content">
+    <h2>SZD-HTR Viewer</h2>
     <p>
       Qualitätskontrolle und Showcase für VLM-basierte Transkriptionen aus dem
       <a href="https://stefanzweig.digital/" target="_blank" rel="noopener">Stefan-Zweig-Nachlass</a>
@@ -235,7 +239,7 @@
       <li>Klick auf eine Zeile öffnet das Objekt im Viewer</li>
       <li>Spaltenheader klicken zum Sortieren</li>
       <li>Textsuche über Titel, Signatur und PID</li>
-      <li>Filter kombinierbar: Sammlung, Typ, Qualität</li>
+      <li>Filter kombinierbar: Sammlung, Typ, Qualität, Review-Status</li>
     </ul>
 
     <h3>Viewer</h3>
@@ -245,12 +249,13 @@
       <li>Scrollrad: Zoom (zentriert auf Cursor)</li>
       <li>Klicken + Ziehen: Bild verschieben</li>
       <li>Touch: Pinch-Zoom + Wischen</li>
+      <li>Leerseiten am Anfang werden übersprungen (erste Content-Seite wird angezeigt)</li>
     </ul>
 
     <h3>Tastatur</h3>
     <ul>
-      <li><kbd>←</kbd> / <kbd>→</kbd> Seite blättern</li>
-      <li><kbd>+</kbd> / <kbd>−</kbd> Zoom</li>
+      <li><kbd>&#8592;</kbd> / <kbd>&#8594;</kbd> Seite blättern</li>
+      <li><kbd>+</kbd> / <kbd>&#8722;</kbd> Zoom</li>
       <li><kbd>0</kbd> Zoom zurücksetzen</li>
       <li><kbd>R</kbd> 90° drehen</li>
       <li><kbd>Esc</kbd> zurück zum Katalog</li>
@@ -325,8 +330,8 @@
         </tr>
       </tbody>
     </table>
-  </div>
-</div>
+  </article>
+</main>
 
 <!-- ===== Footer ===== -->
 <footer class="site-footer">
