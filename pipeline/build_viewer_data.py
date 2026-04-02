@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 import markdown
 import yaml
 
-from config import COLLECTIONS, DATA_DIR as TEI_DIR, GROUP_LABELS, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR
+from config import COLLECTIONS, DATA_DIR as TEI_DIR, GROUP_LABELS, MODEL, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR
 from tei_context import parse_tei_for_object
 
 DOCS_DIR = PROJECT_ROOT / "docs"
@@ -97,16 +97,14 @@ def build():
 
     # Scan collection result directories (skip test/, groundtruth/)
     SKIP_DIRS = {"test", "groundtruth"}
-    SKIP_SUFFIXES = ("_consensus", "_layout", "_gt_draft", "_gemini-3.1-pro", "_judge_data")
+    # Whitelist: only include primary model results (not Pro, consensus, layout, etc.)
+    expected_suffix = f"_{MODEL}.json"
     result_files = []
     for subdir in sorted(RESULTS_BASE.iterdir()):
         if subdir.is_dir() and subdir.name not in SKIP_DIRS:
-            result_files.extend(sorted(subdir.glob("*.json")))
+            result_files.extend(sorted(subdir.glob(f"*{expected_suffix}")))
 
     for result_file in result_files:
-        # Skip non-transcription files (consensus, layout, GT drafts)
-        if any(result_file.stem.endswith(s) for s in SKIP_SUFFIXES):
-            continue
 
         data = json.loads(result_file.read_text(encoding="utf-8"))
 

@@ -74,12 +74,14 @@ def handle_approve(data: dict) -> dict:
         "reviewed_at": datetime.now(timezone.utc).isoformat(),
     }
 
-    # Backup and write
-    backup_path = result_path.with_suffix(".json.bak")
-    shutil.copy2(result_path, backup_path)
-    result_path.write_text(
-        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    try:
+        backup_path = result_path.with_suffix(".json.bak")
+        shutil.copy2(result_path, backup_path)
+        result_path.write_text(
+            json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    except OSError as e:
+        return {"error": f"Schreibfehler: {e}"}
 
     print(f"  APPROVED: {result_path.name} (by {reviewer})")
     return {"ok": True, "file": result_path.name, "status": "approved"}
@@ -123,12 +125,14 @@ def handle_edit(data: dict) -> dict:
         "reviewed_at": datetime.now(timezone.utc).isoformat(),
     }
 
-    # Backup and write
-    backup_path = result_path.with_suffix(".json.bak")
-    shutil.copy2(result_path, backup_path)
-    result_path.write_text(
-        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    try:
+        backup_path = result_path.with_suffix(".json.bak")
+        shutil.copy2(result_path, backup_path)
+        result_path.write_text(
+            json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    except OSError as e:
+        return {"error": f"Schreibfehler: {e}"}
 
     print(f"  EDITED: {result_path.name} -- {len(edited_page_nums)} Seite(n) (by {reviewer})")
     return {

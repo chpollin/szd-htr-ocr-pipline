@@ -34,6 +34,7 @@ COLLECTIONS = {
 
 # --- Batch ---
 BATCH_DELAY = float(os.environ.get("HTR_BATCH_DELAY", "2.0"))
+CHUNK_SIZE = int(os.environ.get("HTR_CHUNK_SIZE", "20"))
 
 
 def results_dir_for(collection: str) -> Path:

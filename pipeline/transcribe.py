@@ -10,7 +10,7 @@ from pathlib import Path
 from google import genai
 
 from config import (
-    BACKUP_ROOT, BATCH_DELAY, COLLECTIONS, DATA_DIR, GOOGLE_API_KEY,
+    BACKUP_ROOT, BATCH_DELAY, CHUNK_SIZE, COLLECTIONS, DATA_DIR, GOOGLE_API_KEY,
     GROUP_LABELS, MODEL, PROMPTS_DIR, results_dir_for,
 )
 from quality_signals import compute_signals
@@ -217,8 +217,6 @@ def parse_api_response(text: str, object_id: str) -> tuple[dict, list[str]]:
 
 
 # --- Chunking ---
-
-CHUNK_SIZE = 20  # Max images per API call; configurable via --chunk-size
 
 
 def _call_api(client, parts, object_id, label=""):
