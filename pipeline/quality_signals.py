@@ -4,6 +4,7 @@ Berechnet 8 Signale gemäß verification-concept.md §2.3–2.5 und aggregiert
 sie zu einem needs_review-Flag.
 
 v1.2: Leerseiten-Klassifikation, DWR (Dictionary Word Ratio).
+v1.4: Duplikat-Schwelle gesenkt (50 statt 200 Zeichen) fuer Halluzinationserkennung.
 """
 
 import re
@@ -200,7 +201,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         or (content_page_count > 0 and effective_empty > content_page_count * 0.75)
     )
 
-    # Signal 3: Duplikaterkennung (nur content pages, Jaccard > 0.9, beide > 200 Zeichen)
+    # Signal 3: Duplikaterkennung (nur content pages, Jaccard > 0.9, beide > 50 Zeichen)
     duplicate_page_pairs = []
     for i in range(len(pages)):
         if page_types[i] != "content":
@@ -208,7 +209,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         for j in range(i + 1, len(pages)):
             if page_types[j] != "content":
                 continue
-            if chars_per_page[i] > 200 and chars_per_page[j] > 200:
+            if chars_per_page[i] > 50 and chars_per_page[j] > 50:
                 sim = _jaccard(page_words[i], page_words[j])
                 if sim > 0.9:
                     duplicate_page_pairs.append([i, j])
@@ -254,7 +255,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         reasons.append("low_dwr")
 
     return {
-        "version": "1.3",
+        "version": "1.4",
         "total_chars": total_chars,
         "total_words": total_words,
         "total_pages": len(non_empty),

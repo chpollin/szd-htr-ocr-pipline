@@ -5,20 +5,38 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 2.0469,
-    "category": "consensus_divergent",
+    "overall_cer": 0.9375,
+    "overall_cer_orderless": 1.5938,
+    "effective_cer": 0.9375,
+    "word_overlap": 0.8667,
+    "category": "consensus_review",
+    "content_pages": 1,
+    "skipped_pages": 2,
     "pages": [
       {
         "page": 0,
-        "cer": 2.0469,
+        "cer": 0.9375,
+        "cer_orderless": 1.5938,
         "agreement": "low",
+        "type": "content",
         "chars_a": 64,
-        "chars_b": 193
+        "chars_b": 124
       },
       {
         "page": 1,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 2,
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "color_chart",
         "chars_a": 0,
         "chars_b": 0
       }
@@ -32,20 +50,38 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 2.0469,
-      "category": "consensus_divergent",
+      "overall_cer": 0.9375,
+      "overall_cer_orderless": 1.5938,
+      "effective_cer": 0.9375,
+      "word_overlap": 0.8667,
+      "category": "consensus_review",
+      "content_pages": 1,
+      "skipped_pages": 2,
       "pages": [
         {
           "page": 0,
-          "cer": 2.0469,
+          "cer": 0.9375,
+          "cer_orderless": 1.5938,
           "agreement": "low",
+          "type": "content",
           "chars_a": 64,
-          "chars_b": 193
+          "chars_b": 124
         },
         {
           "page": 1,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 2,
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "color_chart",
           "chars_a": 0,
           "chars_b": 0
         }
@@ -56,8 +92,8 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.137/IMG.1",
         "transcription_a": "Stefan Zweig\nAt Home\n\nR. S. V. P,\n49, Hallam Street,\nLondon, W. 1",
-        "transcription_b": "Stefan Zweig\nAt Home\n................................................................................................................................\nR. S. V. P.\n49, Hallam Street,\nLondon, W. 1",
-        "cer": 2.0469,
+        "transcription_b": "Stefan Zweig\nAt Home\n............................................................\nR. S. V. P,\n49, Hallam Street,\nLondon, W. 1",
+        "cer": 0.9375,
         "agreement": "low"
       },
       {
@@ -65,8 +101,8 @@
         "image_url": "https://gams.uni-graz.at/o:szd.137/IMG.2",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 2,
@@ -74,7 +110,7 @@
         "transcription_a": "",
         "transcription_b": "",
         "cer": null,
-        "agreement": "unknown"
+        "agreement": "skipped"
       }
     ]
   },

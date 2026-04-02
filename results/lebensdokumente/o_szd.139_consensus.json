@@ -5,41 +5,56 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 0.1628,
-    "category": "consensus_divergent",
+    "overall_cer": 0.0233,
+    "overall_cer_orderless": 0.168,
+    "effective_cer": 0.0233,
+    "word_overlap": 0.9062,
+    "category": "consensus_verified",
+    "content_pages": 2,
+    "skipped_pages": 3,
     "pages": [
       {
         "page": 0,
-        "cer": 0.1795,
-        "agreement": "low",
+        "cer": 0.041,
+        "cer_orderless": 0.041,
+        "agreement": "moderate",
+        "type": "content",
         "chars_a": 195,
-        "chars_b": 230
+        "chars_b": 203
       },
       {
         "page": 1,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 2,
-        "cer": 0.1466,
-        "agreement": "low",
+        "cer": 0.0052,
+        "cer_orderless": 0.0052,
+        "agreement": "high",
+        "type": "content",
         "chars_a": 191,
-        "chars_b": 219
+        "chars_b": 192
       },
       {
         "page": 3,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 4,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "color_chart",
         "chars_a": 0,
         "chars_b": 0
       }
@@ -53,41 +68,56 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 0.1628,
-      "category": "consensus_divergent",
+      "overall_cer": 0.0233,
+      "overall_cer_orderless": 0.168,
+      "effective_cer": 0.0233,
+      "word_overlap": 0.9062,
+      "category": "consensus_verified",
+      "content_pages": 2,
+      "skipped_pages": 3,
       "pages": [
         {
           "page": 0,
-          "cer": 0.1795,
-          "agreement": "low",
+          "cer": 0.041,
+          "cer_orderless": 0.041,
+          "agreement": "moderate",
+          "type": "content",
           "chars_a": 195,
-          "chars_b": 230
+          "chars_b": 203
         },
         {
           "page": 1,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 2,
-          "cer": 0.1466,
-          "agreement": "low",
+          "cer": 0.0052,
+          "cer_orderless": 0.0052,
+          "agreement": "high",
+          "type": "content",
           "chars_a": 191,
-          "chars_b": 219
+          "chars_b": 192
         },
         {
           "page": 3,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 4,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "color_chart",
           "chars_a": 0,
           "chars_b": 0
         }
@@ -98,41 +128,41 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.139/IMG.1",
         "transcription_a": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte",
-        "transcription_b": "Bestellzettel Bücherausgabe\n---------------------------\n\nBesteller: Stefan Zweig\n\n\nWohnung: Hotel Bellerive\n\n\nBestelltes Werk:\n  Standort (Gestell u. Nr.)\n\n        St. Z. B 488-491\n\n  Ordnungswort (Katalog-\n  Stichwort)\n\nMerle d'Aubigné Geschichte\n\nDatum:",
-        "cer": 0.1795,
-        "agreement": "low"
+        "transcription_b": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\n Standort (Gestell u. Nr.)\n St. Z. B 488-491\n\n Ordnungswort (Katalog-\n Stichwort)\n Merle d'Aubigné Geschichte\n\nDatum:",
+        "cer": 0.041,
+        "agreement": "moderate"
       },
       {
         "page": 1,
         "image_url": "https://gams.uni-graz.at/o:szd.139/IMG.2",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.139/IMG.3",
         "transcription_a": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:",
-        "transcription_b": "Bestellzettel Bücherausgabe\n---------------------------\n\nBesteller:\n        Stefan Zweig\n\nWohnung:\n        Hotel Bellerive\n\nBestelltes Werk:\n  Standort (Gestell u. Nr.)\n\n        TN 604 ah\n\n  Ordnungswort (Katalog-\n  Stichwort)\n\nBerlepsch Hans. Kämpfe\n\nDatum:",
-        "cer": 0.1466,
-        "agreement": "low"
+        "transcription_b": "Bestellzettel Bücherausgabe\n\nBesteller:\n Stefan Zweig\n\nWohnung:\n Hotel Bellerive\n\nBestelltes Werk:\n Standort (Gestell u. Nr.)\n TN 604 ah\n\n Ordnungswort (Katalog-\n Stichwort)\n Berlepsch Hans. Kämpfe\n\nDatum:",
+        "cer": 0.0052,
+        "agreement": "high"
       },
       {
         "page": 3,
         "image_url": "https://gams.uni-graz.at/o:szd.139/IMG.4",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 4,
         "image_url": "https://gams.uni-graz.at/o:szd.139/IMG.5",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       }
     ]
   },

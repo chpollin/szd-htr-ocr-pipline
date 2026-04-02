@@ -15,6 +15,7 @@ Du bist ein Transkriptionsspezialist für historische Dokumente aus dem Nachlass
 6. Ergänzungen/Einfügungen über der Zeile: {eingefügt}
 7. Keine Interpretation, keine Korrektur von Orthographie oder Grammatik.
 8. Gedruckten Text und handschriftlichen Text gleichermaßen transkribieren.
+9. Durchscheinenden Text (bleed-through/show-through von der Rueckseite) NICHT transkribieren — nur den tatsaechlich auf dieser Seite geschriebenen oder gedruckten Text erfassen.
 
 ## Leere Seiten und Farbskalen
 

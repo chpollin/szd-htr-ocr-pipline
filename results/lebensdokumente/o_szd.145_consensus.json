@@ -5,27 +5,38 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 0.0101,
+    "overall_cer": 0.0251,
+    "overall_cer_orderless": 1.0503,
+    "effective_cer": 0.0251,
+    "word_overlap": 0.8438,
     "category": "consensus_verified",
+    "content_pages": 1,
+    "skipped_pages": 2,
     "pages": [
       {
         "page": 0,
-        "cer": 0.0101,
+        "cer": 0.0251,
+        "cer_orderless": 1.0503,
         "agreement": "high",
+        "type": "content",
         "chars_a": 199,
-        "chars_b": 198
+        "chars_b": 201
       },
       {
         "page": 1,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 2,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "color_chart",
         "chars_a": 0,
         "chars_b": 0
       }
@@ -39,27 +50,38 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 0.0101,
+      "overall_cer": 0.0251,
+      "overall_cer_orderless": 1.0503,
+      "effective_cer": 0.0251,
+      "word_overlap": 0.8438,
       "category": "consensus_verified",
+      "content_pages": 1,
+      "skipped_pages": 2,
       "pages": [
         {
           "page": 0,
-          "cer": 0.0101,
+          "cer": 0.0251,
+          "cer_orderless": 1.0503,
           "agreement": "high",
+          "type": "content",
           "chars_a": 199,
-          "chars_b": 198
+          "chars_b": 201
         },
         {
           "page": 1,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 2,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "color_chart",
           "chars_a": 0,
           "chars_b": 0
         }
@@ -70,8 +92,8 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.145/IMG.1",
         "transcription_a": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebühren à S 2.50\nvom 1. Juli 1937 bis incl. 1. Februar 1938\nd.i. 2.50 x 8 = S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
-        "transcription_b": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\n\nRückerstattung der Postfachgebüren à S 2.50\n\nvom 1. Juli 1937 bis incl. 1. Februar 1938\n\nd.i. 2.50 x 8 - S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
-        "cer": 0.0101,
+        "transcription_b": "SZ\nKapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\n\nRückerstattung der Postfachgebüren à S 2.50\n\nvom 1. Juli 1937 bis incl. 1. Februar 1938\n\nd.i. 2.50 x 8 - S 20.- (Schilling zwanzig)\n\n\nMit besten Empfehlungen",
+        "cer": 0.0251,
         "agreement": "high"
       },
       {
@@ -79,16 +101,16 @@
         "image_url": "https://gams.uni-graz.at/o:szd.145/IMG.2",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.145/IMG.3",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       }
     ]
   },

@@ -5,29 +5,40 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 3.7518,
+    "overall_cer": 0.5063,
+    "overall_cer_orderless": 1.5074,
+    "effective_cer": 0.5063,
+    "word_overlap": 0.6691,
     "category": "consensus_divergent",
+    "content_pages": 3,
+    "skipped_pages": 0,
     "pages": [
       {
         "page": 0,
-        "cer": 0.2984,
+        "cer": 0.2876,
+        "cer_orderless": 1.64,
         "agreement": "low",
+        "type": "content",
         "chars_a": 925,
-        "chars_b": 1000
+        "chars_b": 971
       },
       {
         "page": 1,
-        "cer": 0.5036,
+        "cer": 0.7706,
+        "cer_orderless": 1.6022,
         "agreement": "low",
+        "type": "content",
         "chars_a": 558,
-        "chars_b": 311
+        "chars_b": 496
       },
       {
         "page": 2,
-        "cer": 0.3888,
+        "cer": 0.3545,
+        "cer_orderless": 0.533,
         "agreement": "low",
+        "type": "content",
         "chars_a": 409,
-        "chars_b": 426
+        "chars_b": 405
       }
     ]
   },
@@ -39,29 +50,40 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 3.7518,
+      "overall_cer": 0.5063,
+      "overall_cer_orderless": 1.5074,
+      "effective_cer": 0.5063,
+      "word_overlap": 0.6691,
       "category": "consensus_divergent",
+      "content_pages": 3,
+      "skipped_pages": 0,
       "pages": [
         {
           "page": 0,
-          "cer": 0.2984,
+          "cer": 0.2876,
+          "cer_orderless": 1.64,
           "agreement": "low",
+          "type": "content",
           "chars_a": 925,
-          "chars_b": 1000
+          "chars_b": 971
         },
         {
           "page": 1,
-          "cer": 0.5036,
+          "cer": 0.7706,
+          "cer_orderless": 1.6022,
           "agreement": "low",
+          "type": "content",
           "chars_a": 558,
-          "chars_b": 311
+          "chars_b": 496
         },
         {
           "page": 2,
-          "cer": 0.3888,
+          "cer": 0.3545,
+          "cer_orderless": 0.533,
           "agreement": "low",
+          "type": "content",
           "chars_a": 409,
-          "chars_b": 426
+          "chars_b": 405
         }
       ]
     },
@@ -70,89 +92,25 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.1",
         "transcription_a": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 2896\nFernverkehr 28992\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nIn diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige Saldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung der Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\nLetzter Saldo\nSoll RM | Haben RM: 39.00\nKonto-Nr.: Kred. Sperrg.\nMünchen, den 31.5.38\nBuchfolio: [leer]\nText: Uebertr. a. Kto. Oesterreich\nSOLL RM: 39.00\nWert: 31.12.\nHABEN RM: [leer]\nSoll RM: --\nJetziger Saldo: --\nHaben RM: --\nHerrn Dr. Stefan Zweig\nDas Konto ist hiermit ausgeglichen\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —\nMit deutschem Gruß!\nBayerische Vereinsbank",
-        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 28 96 / Fernverkehr 2 89 92\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nIn diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige\nSaldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung\nder Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nLetzter Saldo\nSoll RM | Haben RM 39.00\nKonto-Nr. Kred. Sperrg.\n\nMünchen, den 31.5.38\n\nHerrn Dr. Stefan Zweig\n\nBuchfolio | Text | SOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo RM | Haben RM\n| Uebertr. a. Kto. Oesterreich | 39.00 | 31.12. | | -.- | | -.- |\n| Das Konto ist hiermit ausgeglichen |\n\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —\n\nMit deutschem Gruß!\nBayerische Vereinsbank\n[Unterschrift] [Unterschrift]\n\nForm. B. 561b. I. 37.",
-        "cer": 0.2984,
+        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\n\nFernsprecher: Ortsverkehr 28 96\nFernverkehr 2 89 92\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nIn diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige\nSaldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung\nder Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nLetzter Saldo | Konto-Nr.\nSoll RM | Haben RM |\n| 39.00 | Kred. Sperrg.\n\nMünchen, den 31.5.38\n\nHerrn Dr. Stefan Zweig\n\nBuchfolio | Text | SOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo RM | Haben RM\n| Uebertr. a. Kto. Oesterreich | 39.00 | 31.12. | | -.- | | -.- \n| Das Konto ist hiermit ausgeglichen\n\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —\n\nMit deutschem Gruß!\nBayerische Vereinsbank\n\nForm. B. 561 b. I. 37.",
+        "cer": 0.2876,
         "agreement": "low"
       },
       {
         "page": 1,
         "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.2",
         "transcription_a": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 2896\nFernverkehr 28992\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nLetzter Saldo\nSoll RM | Haben RM: 236.60\nKonto-Nr.: 303855\nBuchfolio: [leer]\nText: Oesterreich\nUebertr. v. Kred. Sperrg.\ndo. v. Freies Guth.\nMünchen, den 31.5.38\nHerrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —",
-        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 28 96 / Fernverkehr 2 89 92\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nLetzter Saldo\nSoll RM | Haben RM 39.00\nKonto-Nr. Kred. Sperrg.\n\nMünchen, den 31.5.38\n\nHerrn Dr. Stefan Zweig\n\nForm. B. 561b. I. 37.",
-        "cer": 0.5036,
+        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\n\nFernsprecher: Ortsverkehr 28 96\nFernverkehr 2 89 92\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nLetzter Saldo | Konto-Nr.\nSoll RM | Haben RM |\n| 39.00 | Kred. Sperrg.\n\nMünchen, den 31.5.38\n\nHerrn Dr. Stefan Zweig\n\nBuchfolio | Text\n| Uebertr. a. Kto. Oesterrei\n| Das Konto ist hiermit ausgegl\n\nDieser Auszug ersetzt die bisherig\nDie Gutschrift von Schecks und Wechseln\n— Blatt für die Sammelma\n\nForm. B. 561 b. I. 37.",
+        "cer": 0.7706,
         "agreement": "low"
       },
       {
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.3",
         "transcription_a": "In diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige Saldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung der Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\nSOLL RM: [leer]\nWert: 31.12.\nHABEN RM: 39.00\nSoll RM: [leer]\nJetziger Saldo: [leer]\nHaben RM: 284.60\n31.12. 9.00\nMit deutschem Gruß!\nBayerische Vereinsbank",
-        "transcription_b": "In diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige\nSaldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung\nder Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nSOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo RM | Haben RM\n39.00 | 31.12. | | -.- | | -.- |\n\nMit deutschem Gruß!\nBayerische Vereinsbank\n[Unterschrift] [Unterschrift]",
-        "cer": 0.3888,
+        "transcription_b": "In diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige\nSaldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung\nder Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nSOLL | Wert | HABEN | Soll Jetziger Saldo Haben\nRM | | RM | RM | RM | RM\n\nch 39.00 | 31.12. | | -.- | | -.- \nhen\n\nMit deutschem Gruß!\nBayerische Vereinsbank",
+        "cer": 0.3545,
         "agreement": "low"
-      },
-      {
-        "page": 3,
-        "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.4",
-        "transcription_a": "",
-        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 28 96 / Fernverkehr 2 89 92\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nLetzter Saldo\nSoll RM | Haben RM 236.60\nKonto-Nr. 303855 Oesterreich\n\nMünchen, den 31.5.38\n\nHerrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nBuchfolio | Text\n| Uebertr. v. Kred. Sperrg.\n| do. v. Freies Guth.\n\nDieser Auszug ersetzt die bisheri\nDie Gutschrift von Schecks und Wechsel\n— Blatt für die Sammelma\n\nForm. B. 561b. I. 37.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 4,
-        "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.5",
-        "transcription_a": "",
-        "transcription_b": "In diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige\nSaldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung\nder Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nSOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo RM | Haben RM\n| 31.12. | 39.00 | | | |\n| 31.12. | 9.00 | | | 284.60 |\n\nMit deutschem Gruß!\nBayerische Vereinsbank\n[Unterschrift] [Unterschrift]",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 5,
-        "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.6",
-        "transcription_a": "",
-        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 28 96 / Fernverkehr 2 89 92\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nLetzter Saldo\nSoll RM | Haben RM 9.00\nKonto-Nr. 303855 Freies Guth.\n\nMünchen, den 31.5.38\n\nHerrn Dr. Stefan Zweig\n\nBuchfolio | Text\n| Uebertr. a. Kto. Oesterreic\n| Das Konto ist hiermit ausgeg\n\nDieser Auszug ersetzt die bisherige\nDie Gutschrift von Schecks und Wechseln\n— Blatt für die Sammelmap\n\nForm. B. 561b. I. 37.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 6,
-        "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.7",
-        "transcription_a": "",
-        "transcription_b": "In diesem Tagesauszug sind die heutigen Umsätze auf dem Konto, sowie der letzte und der jetzige\nSaldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung\nder Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nSOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo RM | Haben RM\n9.00 | 31.12. | | -.- | | -.- |\n\nMit deutschem Gruß!\nBayerische Vereinsbank\n[Unterschrift] [Unterschrift]",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 7,
-        "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.8",
-        "transcription_a": "",
-        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nFernsprecher-Sammelnummern: Ortsverkehr 2896 / Fernverkehr 28992\nTelegramm-Adresse: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nAnschrift: Bayerische Vereinsbank München I, Schalterfach\n\nRevision\n\nHerrn Dr. Stefan Zweig,\nSchriftsteller,\nLondon 49\nHallam Street.\n\nKonto-Nr. 303855\nMünchen, den 2. Januar 1939.\n\nNach unseren Büchern weist Ihre werte Rechnung einen Roh-Saldo von:\nRM ~~284,60~~ {ausw. Sperrguth.} per 31. Dezember 1938 zu Ihren Gunsten/~~zu Gunsten der Bank~~\nRM per 31. Dezember 1938 zu Ihren Gunsten/zu Gunsten der Bank\nRM per 31. Dezember 1938 zu Ihren Gunsten/zu Gunsten der Bank\nauf.\n\nWir bitten Sie, uns zu Kontrollzwecken auf der Anlage zu bestätigen, daß Sie mit uns einiggehen.\nBei dieser Gelegenheit möchten wir auf unsere, Ihnen bereits bekannten Geschäftsbedingungen ver-\nweisen, die für den gesamten Geschäftsverkehr mit uns maßgebend sind.\nDie für den verflossenen Rechnungsabschnitt angefallenen Zinsen, Provisionen, Spesen und\nGebühren buchen wir in neuer Rechnung. Aufgabe darüber erteilen wir Ihnen in einem Tages-\nauszug, der Ihnen innerhalb Monatsfrist zugehen wird.\n\nHeil Hitler!\nBayerische Vereinsbank\nppa. [Unterschrift] [Unterschrift]\n\nSie ersparen uns Arbeit und sich selbst die Kosten eines Einschreibebriefes, wenn Sie uns einliegende Bestätigung umgehend unterschrieben zurücksenden.\n\nForm. B 543",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 8,
-        "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.9",
-        "transcription_a": "",
-        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nFernsprecher-Sammelnummern: Ortsverkehr 2896 / Fernverkehr 28992\nTelegramm-Adresse: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nAnschrift: Bayerische Vereinsbank München I, Schalterfach\n\nRevision\n\nHerrn Dr. Stefan Zweig\nSchriftsteller\nSalzburg\nKapuzinerberg 5\n\nKonto Nr. 303855\nMünchen, den 4. Juli 1938\n\nNach unseren Büchern weist Ihre werte Rechnung einen Roh-Saldo von:\nRM 284,60 per 30. Juni 1938 zu Ihren Gunsten/~~zu Gunsten der Bank~~\nRM per zu Ihren Gunsten/zu Gunsten der Bank\nRM per zu Ihren Gunsten/zu Gunsten der Bank\nauf.\n\nWir bitten Sie, uns zu Kontrollzwecken auf der Anlage zu bestätigen, daß Sie mit uns einiggehen.\nBei dieser Gelegenheit möchten wir auf unsere, Ihnen bereits bekannten Geschäftsbedingungen ver-\nweisen, die für den gesamten Geschäftsverkehr mit uns maßgebend sind.\nDie für den verflossenen Rechnungsabschnitt angefallenen Zinsen, Provisionen, Spesen und\nGebühren buchen wir in neuer Rechnung. Aufgabe darüber erteilen wir Ihnen in einem Tages-\nauszug, der Ihnen innerhalb Monatsfrist zugehen wird.\n\nHeil Hitler!\nBayerische Vereinsbank\nppa. [Unterschrift] [Unterschrift]\n\nSie ersparen uns Arbeit und sich selbst die Kosten eines Einschreibebriefes, wenn Sie uns einliegende Bestätigung umgehend unterschrieben zurücksenden.\n\nForm. B 543",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 9,
-        "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.10",
-        "transcription_a": "",
-        "transcription_b": "Gegr. 1869\nBayerische Vereinsbank\nFernsprecher-Sammelnummer: Ortsverkehr 2896 / Fernverkehr 28992\nTelegramm-Adresse: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nAnschrift: Bayerische Vereinsbank München I, Brieffach\n\nRevision\n\n{Beilage eingesandt}\n\nHerrn\nStefan Zweig\nSchriftsteller\nSalzburg\nKapuzinerberg 5\n\nMünchen, den 19. Oktober 1937\n\nKonto Nr. 303855\n\nNach unseren Büchern weist Ihre werte Rechnung einen Saldo von\nRM 338.- Alt.G. per 30. Juni 1937 zu Ihren Gunsten/~~zu Gunsten der Bank~~\n\" 40.- Kred.-Sp. do. \"\nRM 10.- Fr.G. per do. zu Ihren Gunsten/~~zu Gunsten der Bank~~\nauf.\n\nWir bitten Sie, uns zu Kontrollzwecken auf der Anlage zu bestätigen, daß Sie mit uns einiggehen.\nBei dieser Gelegenheit möchten wir neuerdings auf unsere Ihnen bereits bekannten Geschäftsbedingungen verweisen, die für den gesamten Geschäftsverkehr mit uns maßgebend sind.\n\nMit deutschem Gruß\nBayerische Vereinsbank.\n[Unterschrift] [Unterschrift]\n\nForm. B 514 a. II. 37. (750)",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 10,
-        "image_url": "https://gams.uni-graz.at/o:szd.1056/IMG.11",
-        "transcription_a": "",
-        "transcription_b": "Bestätigung\nAn von:\nBayerische Vereinsbank Herrn Dr. Stefan Zweig,\nRevisions-Büro Schriftsteller,\nLondon 49\nHallam Street.\nMünchen\n\nKonto Nr. 303855 Betr. Ihr Schreiben vom 2. Januar 1939.\n\nWunschgemäß bestätige(n) ich/wir Ihnen, daß meine/unsere Rechnung bei Ihnen einen Roh-Saldo von:\nRM ~~284,60~~ {ausw. Sperrguth.} per 31. Dezember 1938 zu meinen/unseren Gunsten/zu Gunsten der Bank\nRM per 31. Dezember 1938 zu meinen/unseren Gunsten/zu Gunsten der Bank\nRM per 31. Dezember 1938 zu meinen/unseren Gunsten/zu Gunsten der Bank\naufweist.\n\nIhre Geschäftsbedingungen sind in meinem/unserem Besitz.\nIch/Wir bemerkte(n) mir/uns, daß die für den verflossenen Rechnungsabschnitt angefallenen Zinsen, Provisionen, Spesen und Gebühren in neuer Rechnung innerhalb Monatsfrist aufgegeben werden.\n\n, den Name:\nAdresse:\n\nWir bitten dringend, das Formular zu keinen weiteren Mitteilungen zu verwenden.\n\nForm B. 545\nOriginal-Transkript 11. 38. Mz.",
-        "cer": null,
-        "agreement": "unknown"
       }
     ]
   },

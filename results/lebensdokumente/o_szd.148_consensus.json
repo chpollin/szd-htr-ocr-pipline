@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.148",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.4578,
+    "overall_cer_orderless": 1.3504,
+    "effective_cer": 0.4578,
+    "word_overlap": 0.7037,
+    "category": "consensus_divergent",
+    "content_pages": 1,
+    "skipped_pages": 0,
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.4578,
+        "cer_orderless": 1.3504,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 391,
+        "chars_b": 465
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.148",
+    "collection": "lebensdokumente",
+    "group": "kurztext",
+    "title": "Schreibmaschin-Zubehör, SZ-SAM/L14",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.4578,
+      "overall_cer_orderless": 1.3504,
+      "effective_cer": 0.4578,
+      "word_overlap": 0.7037,
+      "category": "consensus_divergent",
+      "content_pages": 1,
+      "skipped_pages": 0,
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.4578,
+          "cer_orderless": 1.3504,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 391,
+          "chars_b": 465
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.148/IMG.1",
+        "transcription_a": "SCHREIBMASCHIN-\nZUBEHÖR\n\nviolett, gut\n\n[Auf dem Farbband-Deckel:]\nPelikan\n\n[Auf der Dose 'Star Type Cleaner':]\nStar\nTYPE CLEANER\nNO. 1226\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK\nPAT. NO. 1629862\nEBERHARD FABER\nNEW YORK\n\n[Auf der Schablone:]\nRemington Schreibmaschinen\nGes. m. b. H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n[Auf dem Stift:]\nA.W. FABER Castell 7058",
+        "transcription_b": "[Auf dem Schachteldeckel:]\nSCHREIBMASCHIN-\nZUBEHÖR\n\n[Auf dem Zettel in der Farbbandschachtel:]\nviolett, gut\n\n[Auf der Pelikan-Dose:]\nPelikan\n\n[Auf der Typenreiniger-Dose:]\nStar NO. 1226\nTYPE CLEANER\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK\nPAT. NO. 1529862\nEBERHARD FABER\nNEW YORK\n\n[Auf der Korrekturschablone:]\nRemington Schreibmaschinen\nGes. m. b. H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n[Auf dem Bleistift:]\nA.W. FABER Castell 7058",
+        "cer": 0.4578,
+        "agreement": "low"
+      }
+    ]
+  },
+  "judge_result": null
+}

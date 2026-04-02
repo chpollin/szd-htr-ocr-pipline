@@ -1,0 +1,170 @@
+{
+  "object_id": "o_szd.149",
+  "collection": "lebensdokumente",
+  "group": "tabellarisch",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.04,
+    "overall_cer_orderless": 0.3043,
+    "effective_cer": 0.04,
+    "word_overlap": 0.875,
+    "category": "consensus_moderate",
+    "content_pages": 2,
+    "skipped_pages": 3,
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.0,
+        "cer_orderless": 0.3409,
+        "agreement": "high",
+        "type": "content",
+        "chars_a": 48,
+        "chars_b": 48
+      },
+      {
+        "page": 1,
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
+        "chars_a": 6,
+        "chars_b": 0
+      },
+      {
+        "page": 2,
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
+        "chars_a": 6,
+        "chars_b": 0
+      },
+      {
+        "page": 3,
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
+        "chars_a": 6,
+        "chars_b": 0
+      },
+      {
+        "page": 4,
+        "cer": 1.0,
+        "cer_orderless": 0.0,
+        "agreement": "high",
+        "type": "content",
+        "chars_a": 1,
+        "chars_b": 0
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.149",
+    "collection": "lebensdokumente",
+    "group": "tabellarisch",
+    "title": "Bibliographie der Werke von Stefan Zweig, SZ-SAM/L15",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.04,
+      "overall_cer_orderless": 0.3043,
+      "effective_cer": 0.04,
+      "word_overlap": 0.875,
+      "category": "consensus_moderate",
+      "content_pages": 2,
+      "skipped_pages": 3,
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.0,
+          "cer_orderless": 0.3409,
+          "agreement": "high",
+          "type": "content",
+          "chars_a": 48,
+          "chars_b": 48
+        },
+        {
+          "page": 1,
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
+          "chars_a": 6,
+          "chars_b": 0
+        },
+        {
+          "page": 2,
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
+          "chars_a": 6,
+          "chars_b": 0
+        },
+        {
+          "page": 3,
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
+          "chars_a": 6,
+          "chars_b": 0
+        },
+        {
+          "page": 4,
+          "cer": 1.0,
+          "cer_orderless": 0.0,
+          "agreement": "high",
+          "type": "content",
+          "chars_a": 1,
+          "chars_b": 0
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.149/IMG.1",
+        "transcription_a": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\n\nVON\n\nSTEFAN ZWEIG",
+        "transcription_b": "Ergänzt\n\nBIBLIOGRAPHIE DER WERKE\nVON\nSTEFAN ZWEIG",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.149/IMG.2",
+        "transcription_a": "(leer)",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "skipped"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.149/IMG.3",
+        "transcription_a": "(leer)",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "skipped"
+      },
+      {
+        "page": 3,
+        "image_url": "https://gams.uni-graz.at/o:szd.149/IMG.4",
+        "transcription_a": "(leer)",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "skipped"
+      },
+      {
+        "page": 4,
+        "image_url": "https://gams.uni-graz.at/o:szd.149/IMG.5",
+        "transcription_a": "⚓",
+        "transcription_b": "",
+        "cer": 1.0,
+        "agreement": "high"
+      }
+    ]
+  },
+  "judge_result": null
+}

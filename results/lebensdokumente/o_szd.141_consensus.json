@@ -5,41 +5,56 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 86.6636,
+    "overall_cer": 0.2818,
+    "overall_cer_orderless": 0.2364,
+    "effective_cer": 0.2364,
+    "word_overlap": 0.6818,
     "category": "consensus_divergent",
+    "content_pages": 2,
+    "skipped_pages": 3,
     "pages": [
       {
         "page": 0,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 1,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 2,
-        "cer": 0.2143,
+        "cer": 0.5179,
+        "cer_orderless": 0.3571,
         "agreement": "low",
+        "type": "content",
         "chars_a": 56,
-        "chars_b": 57
+        "chars_b": 74
       },
       {
         "page": 3,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 4,
         "cer": 0.0377,
+        "cer_orderless": 0.0377,
         "agreement": "moderate",
+        "type": "content",
         "chars_a": 53,
         "chars_b": 53
       }
@@ -53,41 +68,56 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 86.6636,
+      "overall_cer": 0.2818,
+      "overall_cer_orderless": 0.2364,
+      "effective_cer": 0.2364,
+      "word_overlap": 0.6818,
       "category": "consensus_divergent",
+      "content_pages": 2,
+      "skipped_pages": 3,
       "pages": [
         {
           "page": 0,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 1,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 2,
-          "cer": 0.2143,
+          "cer": 0.5179,
+          "cer_orderless": 0.3571,
           "agreement": "low",
+          "type": "content",
           "chars_a": 56,
-          "chars_b": 57
+          "chars_b": 74
         },
         {
           "page": 3,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 4,
           "cer": 0.0377,
+          "cer_orderless": 0.0377,
           "agreement": "moderate",
+          "type": "content",
           "chars_a": 53,
           "chars_b": 53
         }
@@ -99,23 +129,23 @@
         "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.1",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 1,
         "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.2",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.3",
         "transcription_a": "Baja\nProfessor J. Paul Stefan\nWien VIII\nHamerlingplatz 7",
-        "transcription_b": "Professor Dr. Paul Stefan\nWien VIII\nHamerlingplatz 7\n\nBaja[?]\n[...]",
-        "cer": 0.2143,
+        "transcription_b": "Professor Dr. Paul Stefan\n\nWien VIII\n__________\n| Hamerlingplatz 7\n\nBaja[...]\n\n[...]bis[?]",
+        "cer": 0.5179,
         "agreement": "low"
       },
       {
@@ -123,648 +153,16 @@
         "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.4",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 4,
         "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.5",
         "transcription_a": "Bajaderka von M. Petipa\nMusik von L. Minkus\nSemjenowa",
-        "transcription_b": "Bajaderka von M. Petipa\nMusik von J. Minkus\nSemjonowa",
+        "transcription_b": "Bajaderka von M. Petipa\nMusik von J.[?] Minkus\nSemjonowa",
         "cer": 0.0377,
         "agreement": "moderate"
-      },
-      {
-        "page": 5,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.6",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 6,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.7",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 7,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.8",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 8,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.9",
-        "transcription_a": "",
-        "transcription_b": "Dreifaltigkeit\nErmitage über Straße\n5 Turm[?] York &\nHagiar[?]\n____________________\nNikita Konje[?]\ngay in Rot\nFrauen & Farbe.\nUnbekannte Opfer\nverp[?] Mal [?] Kisch[?]\nAnzeige[?] [?] [?] [?] [?] [?] in\nWien. [?] [?] [?] [?]\n\nHoffauer von [?] [?]\nBayer[?]\n\nBaron [?] [?] [?] [?]\nM[?] [?] [?] [?]\nUspenje [?] [?]\nauf [?]\nSchlechter Material (daher Farbe)\n\n1",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 9,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.10",
-        "transcription_a": "",
-        "transcription_b": "Verwahrlost. Wüste\nWarum Elend Material\nHerrenhaus.\n____________________\nPater Latrofe[?]\nHausfeste Galizien[?]\nBojarenhaus\nvom [?] [?]\nEntwicklung\n\nStaatlich. Barbariss[?]\nBunte [?] [?] [?]",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 10,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.11",
-        "transcription_a": "",
-        "transcription_b": "John Reed Zehn Tage die die Welt\nerschütterten\nMalik\n____________________\nManuscript [?] [?]\nZeit der Hungersnot.\nHaus der Schriftsteller\n\nRestlosigkeit [?]. [?] ohne\nMöglichkeit sich zu wehren. Härtestes Vorgehen.\n\nSemjonowa. Studierte selbst. 18 Jahr\naus [?] [?] - Ter. Erst [?] in\nBauen, dann [?]\n\nTragödie der Studenten ein Vorspiel\n17 Professoren [?] als [?] Anzahl von\nPädagogen, um den Leuten [?] zu machen\nInstruction passiv. [?] [?]\nReihe.\nEinsparung der Beamten\n\n3",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 11,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.12",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 12,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.13",
-        "transcription_a": "",
-        "transcription_b": "[...]\n\n5.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 13,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.14",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 14,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.15",
-        "transcription_a": "",
-        "transcription_b": "Häuser [?] die Reclame! [?] [?]\nSache. Nicht notwendig. Hier das Notwendige\nFehler: Bauern. Jeder Mann will als\nGross, jeder ein Viertel [?] als das Ganze. [?]\nstand. Lieber ein [?] Bauer sein\nGrund der Niederlage: Russland eine Schlacht\nverloren gegen England. Aber Stille. Millionen\nnach China für die Propaganda. Fast [?] [?]\nneue [?]. [?] mit [?], um\nnur fremdes Geld hereinzubekommen. Aber\ndie Sache ist [?] zum Zerreissen\nVerschärfung der Massnahmen seit\n1924. Da der Kauf unterbrochen\n\n7.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 15,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.16",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 16,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.17",
-        "transcription_a": "",
-        "transcription_b": "Montag Ankunft [?] Theater [?]\nJevgeny Kreml\nDienstag Histor. Museum. [?] Oper Jasnaja\nMittwoch Jasnaja. Tairoff\nDonnerstag Vormittag verl. [?] [?] [?] Theater\nFreitag [?] Kreml aber Theater\nSamstag Museum [?] / [?] [?]. Diner\nbei Schriftstellern\nSonntag Leningrad. Museum. Oper\nMontag - diverse, Diner Abfahrt\n\n9.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 17,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.18",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 18,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.19",
-        "transcription_a": "",
-        "transcription_b": "Doktor Veresi[?]\nGräfin\nSofia Alexandrowna\nPilniak\nIsolowo Iwanow\nDr. Sidin\nRobakidse\nEfross a\nKirilow\nIwanow Sergei\nEttinger\nTschellowa\nGrafenberg\nEngl. Correspondent\nElton del Gato\nRana\nCanalhardsh[?]\nKamenowa\nProf. Ovenden[?] vom Institut\n\nPhotograf\nKalmuck [?] [?]\ndel Gayo\nTairoff\nKonen\nSahalin\nShaffer\nJanowskaja\nRownowa\n\n{Dr. Tokker}\n\n{Tumin}\n{Dr. Stawski}\n\n11",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 19,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.20",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 20,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.21",
-        "transcription_a": "",
-        "transcription_b": "[...]\n\n15.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 21,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.22",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 22,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.23",
-        "transcription_a": "",
-        "transcription_b": "An der Grenze die erste Lüge. Keine\nbewaffneten roten Soldaten. Kluge Ge\nsichter. Harte Arbeit. Durchaus unmil\nlitärisch. Bildnisse Lenins\n____________________\nLeistungen, Calwell. Rechenmaschinen\naus der A. B. C. Kasse allen Ämtern. Im\nSpeisewagen sogar. Hölzerne.\nGeschichte. 200 Völker 20 Religionen\nUmorganisation Bauernstand, Auf\nbau Industrie, Handels. Mitten im\nKriege. Archangels. Odessa. (Toulon)\nAttentate. Volksbildungswesen. Unge\nheure Leistung. Sowenig französische Revo\nlution nach der Guillotine, die russische\nnach dem Terror {ein gesunder Organismus}\n{erleichtert die [?]}\nKeine Reise Interessantes, aufregendes, rei\nche geistige Ausbeute als Russland\nGegen Blasen, Radium Schädel\nAbends noch in Moskau. Orte arm,\ndie strohgedeckten Hütten. Leeren Felder.\nAschigen Wesen. Melancholie\n____________________\nBillig. [?] [?] Rubel [?] 2\nReise beginnt. [?] Wagen. Samowar. [?]\nTafeln [?]\n\n17.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 23,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.24",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 24,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.25",
-        "transcription_a": "",
-        "transcription_b": "Kremlplatz nachts, die rote Fahne beleuchtet\nwie eine Flamme. Geniale Idee. Stufen des Re\nvolutionären Brüdergrab. Mitten in die Stadt hinein\ndie Märtyrer {Schutzwachen}\nVerzeichnis auf meinem Manuscript rückwärts\nNun noch zu ergänzen, brutal: Zwangsarbeit. Kraftvoll\nzwar und kornmütig. Alte Adelige. Er war d. corr. des\nGrafen Tolstoi. Du kam eine ganz nette Frau, flammend\nlebendigen Augen, weiblich, wurde Mutter aller Augen. [?] [?]\nStoss in den milden [?] aus. Er hat Blut, überhaupt\nscheinen sich die Allerersten zwischen den Bauernstand zu\npromovieren.\nViele Reden. Viel gehört, viel getan.\nZettel. Noch Zettel. Vorbote Überfall.\nUnser N. N. frühere Secretär Tolstoi\nmildes Gesicht, freudiges Gemüt. Welche Art\nGemüt bei der Rede zur Eröffnung?\nIn den [?]sammlungen. Hier findet man\nrussisches. Entdeckung gar nicht so schwarz. Eine\nFreudigkeit der Farbe wie sie sagten.\nStoffe. Aufgedampft. Kaum zu bewältigen, noch\nnicht classified.\nTochter Tolstoi. Kolossale Energie. In\nBauernstiefeln, Mann. Volle Frauen, Ehre\nwer läuft stärker. Man kann ein so wahres\nLeben führen als das Tolstois nicht läuft ein Werk\n\n19.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 25,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.26",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 26,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.27",
-        "transcription_a": "",
-        "transcription_b": "Ehre übermorgen. Sie natürlich, mehr Gott als der\nSohn allein\nSchwiegertochter Frau Jessenins Witwe. Ja\nDora [?]\n____________________\nWenig, nicht wie ich mir vorstellte. Ganze Zeit. Ein Stück\nVerwirrung [?] [?] [?] Ausflug. Meile. Anders\nMitteleuropäische Zeit\n____________________\nAlexandra Levowna Tolstoi\nlinks Kamenewo [?] [?]. Jede\nalten Markt. ~~S~~ [?] (Kamenewa Sichelformig &\nschwingen [?]. [?] / {als ob in anderer} [?] [?] war.\nTäglich war Gendarmen halten Ordnung\nVerspricht sich Sympathie\nHerrliche Hilfskraft. Mädel stark, energisch, hat\nSprache morgen, Burschen, eine Leidenschaft für die Sache\nüberträgt Freude und Erwartung. Ohne Begriff für Waren\nalles Durcheinander.\nWie sympathisch grüßt Wohlleben [?] Herzen\nBesondere Intelligenz. Unsere Proletarier\nIntelligenz Genossen. Partei. Dankbar. Gemüt\ndie Schatten [?]. [?]. Unverwandt.\nStrasse. [?]. [?] [?] [?]. Zwiebel\n\n21.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 27,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.28",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 28,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.29",
-        "transcription_a": "",
-        "transcription_b": "Jemals mit einer Karte was [?]\nhat sofort an jede Propaganda [?]. Und\nGottlob\n\n23",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 29,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.30",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 30,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.31",
-        "transcription_a": "",
-        "transcription_b": "Kontrolle der Sowjet Jungen. Junge Bauern voll\nIntelligenz, Klugheit, Gemütlichkeit. Knapp Theoretisch\nJungen grossartig. Vielleicht immer so. Gleich\ndem Universitäten gearbeitet wollen [?] [?]\nBauern welcher Vernunft und Klarheit sprach\ndie Freiheit. [?] [?] [?]. [?]\nso fremdartig. [?].\nRussisches Haus. Etwas an [?] [?],\nMutter und [?] [?] eine halbe Stunde\nsprechen wie ein Parlamentarier.\nKamenowa eine sanfte Stimme [?]\nherrlich klingt. Eine Ruhe und Sicherheit, wie\nGenie frei, Bruder [?] [?]. [?]\nheit.\nEin [?], Hellblau. [?] [?] [?]\nArmenier, Georgier. [?] [?].\nAntimilitaristische Reden, [?] [?]\nVersprach Alexandra Levowna [?] der [?]\nSchule\nJemals mit einer Karte was [?]\nhat sofort an jede Propaganda [?]. Und\nGottlob\n\n23",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 31,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.32",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 32,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.33",
-        "transcription_a": "",
-        "transcription_b": "Sudel und Propaganda. Rein abgegrenzt\nwieweit man ihn brauchen kann. Gut, soweit er\nins Programm passt. Ohne Maske, klar, Energie.\nOhne Höflichkeit\nTagebuch des Grabs\nNulla crux nulla corona [?] die\nBauern die R. T. so lieb\nu. zum Grab u. Holztafel\nUnrecht [?] [?] [?]\nSchule bestreiten am Fernen. [?] [?]\neigen war.\nZusammenstoss Sachas Alexand. mit B.\nder sofort auswich, wie er betont in der [?] [?]\nMilitärismus über [?]\nEinfachheit. [?], [?] [?]\nViele Bücher, Photograph\nAntwort augenhaltig der [?]\nrung.\nalte Bauern\nLippe [?] [?] [?] [?], Bruder [?]\nmachen. [?]. Stein, den die\nArbeiter geschenkt haben, als er aus der\nKirche austrat.\n\n25",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 33,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.34",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 34,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.35",
-        "transcription_a": "",
-        "transcription_b": "Opa der war seine Bruder geborn. [?]\nzu geben\nWolkowsky Vorfahren kaufte den Park\nvon Tula zum Warten nach Holland Lysa\nGora. (Nikolaus Tolstoi heiratet Wolkowsky)\nKunstmöbel billig. [?] [?] [?].\nEine Armut aus Unbequemlichkeit erstaunlich\nist ganz im Grünen. // Der Tour abends vorge\nlesen. Wie viel reicher das Goethe Haus. Das\neines reichen Mannes. Wenig Gemütlichkeit. [?]\nmäßig. Ungebunden [?]. / [?] a brac [?]\ndes [?], [?], [?] [?]\nWohnung wie einen Grad weiter als jene\nGoethes, Weimar. Nationaler Preis [?]\nhinab. Einstöckiges Haus.\nSacha (Alexandra) [?] die [?]\nSchwiegertochter Olga. Eigentlich armes Leben geführt\nSchleppgeschirr[?] [?]. [?] [?]\nWände, nackter gebohnter Fussboden. Abguss von\neinem Pferd. Zufällig hingestellt. Feldbett\naus Eisen. Kleiner Tisch wie Bibel. [?] in den\ngrossen Haus zu Gast zu sein\nStelle wo er tot liegen wollte\n\n27",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 35,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.36",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 36,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.37",
-        "transcription_a": "",
-        "transcription_b": "Abteilungen: Redliche Vorbemerkung\nGrenze\nZeit.\nMoskau die Strasse\nReise\nTheater\nKreml\nMuseum.\ndie Gelehrten\nVorlesungen (Gesten)\nAmbler\nEinblick\nJasnaja Poljana\ndas abseits Grab\nHerrenhaus\nAusflug nach Leningrad\n\n29",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 37,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.38",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 38,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.39",
-        "transcription_a": "",
-        "transcription_b": "~~Louis Jouvet~~\nAlice Koonen\nTseretelli\nFenin (alte)\nO'Neill (The name\nof the writer\nthis play)\nPassions\nMomente die [?] [?]\nnur der [?]. [?]\nwill [?]\nUnangenehmen, grobklotzige Natur von\nO'Neill, [?], harte Zucht, der Bau des\nBau abweisen als ob [?] [?] [?]\nBewegung am Überlegen u. [?],\nGefahr plötzlich gebracht wird\nHaus Samowar. Der selbstgebrannte\nSchnaps. Bekannten, Apparate [?]\n\n31",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 39,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.40",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 40,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.41",
-        "transcription_a": "",
-        "transcription_b": "Bauernfrage nicht mathematisch zu lösen\nRevolut. französische Revolut\nDrei Märkte\nPolizist [?] [?]\n____________________\nAuf Deck an der Küstenzone\neine Helligkeit nie vermutet. Man\nwar einmal in der Kirche [?]\nStille [?], [?] [?] [?]\nStunde [?] der Strasse [?]\nich für in stets neuer Form.\n____________________\nSergei Michailowitsch Eisenstein\nKampf um Odessa. General [?]\nCollectiven. Bauerin\nRevol. [?] [?]. [?] [?]\nAura / Ministerium. Vergiftung des\nOel. Widerstand der Bauern\nBauerin spielt Hauptrolle. Typen\nOpfer [?] wie Traktor in das neue\nDorf kommt\n\n33",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 41,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.42",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 42,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.43",
-        "transcription_a": "",
-        "transcription_b": "Stanislawski Bauer Kachalow\nDann der [?] [?] [?]\nvor den Gelehrten\nTschechows Einfluss auf das Künstlertheater\nnur bei Tolstoi gefunden\n____________________\nHunger [?] von 60 %\nReichtum [?] [?]\nMain Road\nMalachit Lapis Lazuli\nBild Lope de Vegas [?] Greco\nSilbersaal, Silbersarkophag\nHerrlichkeit der Räume\nMichelangelo [?] [?]\nLeonardo Madonna Litta\nTizian Venus mit dem Spiegel\nPortr. von Giorgione.\n\n35",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 43,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.44",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 44,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.45",
-        "transcription_a": "",
-        "transcription_b": "Rembrandt [?] [?], [?]\nHeilige Familie\nTizian [?] ([?])\n____________________\nUnunterbrochen [?]\nnoch nicht [?]\nPaulus Potter\nCanaletto\n[?] [?] [?]\nAufstellung im Palais [?]\nBenoit\n6 Grad Kälte gearbeitet\nParkettarbeiten\nGoldene Saat\nPastelle [?] [?]\nPetersburg so planvoll wie kein\nplanlos\n\n37",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 45,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.46",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 46,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.47",
-        "transcription_a": "",
-        "transcription_b": "Wappensaal, Winterpalais\nNeva [?] [?] [?] 28 [?]\nGhount Sevres, Wedgwood\nEinkommensteuer 40 %\n____________________\nStahlkammer [?] in Gold. [?]\nMorgentau [?] - [?]\nTierornamentik\nGoldene Totenmaske Skythen II\naus [?] [?]\nSkythen [?]\n____________________\nFreilich wenn man sieht, was\nSkythen gearbeitet. Zauberhafte Arbeit\nFeinheit dass man in acht Tagen\nkaum alles aus [?]\n____________________\nJuwelenkammer. Was wie ein\nunreife Auge sieht. Perlen und [?]\nMantel, Uhren. [?] [?]\n\n39",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 47,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.48",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 48,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.49",
-        "transcription_a": "",
-        "transcription_b": "Stahlkammer jetzt [?] [?]\n____________________\nDiamant aus dem Ural\nJuwelenklumpen 20 x Tonnen\n1829 gefunden\n120 Pfund 200 vom Ural\nDeutschruss.\n____________________\nVertrauen in das Volk\ndass man [?] [?] [?]\n____________________\nTänzerin Semjonowa neue\nKünstlerin\nBallet Bajaderka / Minkuss\n\n41",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 49,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.50",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 50,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.51",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 51,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.52",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 52,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.53",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 53,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.54",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 54,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.55",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 55,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.56",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 56,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.57",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 57,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.58",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 58,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.59",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 59,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.60",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 60,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.61",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 61,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.62",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 62,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.63",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 63,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.64",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 64,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.65",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 65,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.66",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 66,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.67",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 67,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.68",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 68,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.69",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 69,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.70",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 70,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.71",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 71,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.72",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 72,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.73",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 73,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.74",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 74,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.75",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 75,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.76",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 76,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.77",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 77,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.78",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 78,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.79",
-        "transcription_a": "",
-        "transcription_b": "D.R.-G.M. D.R. PAT. (ELASTIC) AUSL. PAT.\nNO. 1610",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 79,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.80",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 80,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.81",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 81,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.82",
-        "transcription_a": "",
-        "transcription_b": "МОСКОВСКИЙ ХУДОЖЕСТВЕННЫЙ ТЕАТР\nМХАТ\n8 ряд, лев.\n№ 10\nВЕЧЕР\nПАРТЕР\nПервые места\nВо время действия вход в зал не допускается.\n________________________________________\nМОСКОВСКИЙ ХУДОЖЕСТВЕННЫЙ ТЕАТР\nМХАТ\n8 ряд, лев.\n№ 11\nВЕЧЕР\nПАРТЕР\nПервые места\nВо время действия вход в зал не допускается.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 82,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.83",
-        "transcription_a": "",
-        "transcription_b": "МОСКОВСКИЙ ХУДОЖЕСТВЕННЫЙ\nАКАДЕМИЧЕСКИЙ ТЕАТР\n1 4 СЕН 1928\nНачало 7 ч. 30 м.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 83,
-        "image_url": "https://gams.uni-graz.at/o:szd.141/IMG.84",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
       }
     ]
   },

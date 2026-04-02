@@ -65,6 +65,33 @@ def normalize_for_consensus(text: str) -> str:
     return text.strip()
 
 
+def normalize_for_consensus_orderless(text: str) -> str:
+    """Order-invariant normalization: sort lines before comparison.
+
+    Handles reading-order divergence between models (e.g., marginalia
+    read before/after main text, different column ordering).
+    """
+    text = normalize_text(text)
+    # Split into lines, normalize each, remove very short fragments (<5 chars)
+    lines = [re.sub(r"\s+", " ", line).strip() for line in text.split("\n")]
+    lines = [l for l in lines if len(l) >= 5]
+    lines.sort()
+    result = " ".join(lines)
+    result = re.sub(r"\s+([.,;:!?])", r"\1", result)
+    return result.strip()
+
+
+def word_overlap(text_a: str, text_b: str) -> float:
+    """Jaccard word overlap: |intersection| / |union|. Order-invariant."""
+    words_a = set(normalize_for_consensus(text_a).lower().split())
+    words_b = set(normalize_for_consensus(text_b).lower().split())
+    if not words_a and not words_b:
+        return 1.0
+    if not words_a or not words_b:
+        return 0.0
+    return len(words_a & words_b) / len(words_a | words_b)
+
+
 def cer(hypothesis: str, reference: str) -> float:
     """Character Error Rate: edit distance / len(reference).
 

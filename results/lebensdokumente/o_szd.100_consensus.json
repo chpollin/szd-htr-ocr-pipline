@@ -5,27 +5,38 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 0.0511,
+    "overall_cer": 0.0757,
+    "overall_cer_orderless": 0.0816,
+    "effective_cer": 0.0757,
+    "word_overlap": 0.9489,
     "category": "consensus_moderate",
+    "content_pages": 1,
+    "skipped_pages": 2,
     "pages": [
       {
         "page": 0,
-        "cer": 0.0511,
+        "cer": 0.0757,
+        "cer_orderless": 0.0816,
         "agreement": "moderate",
+        "type": "content",
         "chars_a": 2034,
         "chars_b": 1983
       },
       {
         "page": 1,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 2,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "color_chart",
         "chars_a": 0,
         "chars_b": 0
       }
@@ -39,27 +50,38 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 0.0511,
+      "overall_cer": 0.0757,
+      "overall_cer_orderless": 0.0816,
+      "effective_cer": 0.0757,
+      "word_overlap": 0.9489,
       "category": "consensus_moderate",
+      "content_pages": 1,
+      "skipped_pages": 2,
       "pages": [
         {
           "page": 0,
-          "cer": 0.0511,
+          "cer": 0.0757,
+          "cer_orderless": 0.0816,
           "agreement": "moderate",
+          "type": "content",
           "chars_a": 2034,
           "chars_b": 1983
         },
         {
           "page": 1,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 2,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "color_chart",
           "chars_a": 0,
           "chars_b": 0
         }
@@ -70,8 +92,8 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.100/IMG.1",
         "transcription_a": "THIS AGREEMENT\n\nis made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam\nStreet, London, W. 1., England, of the first part and Longmans, Green & Co. Inc.,\nof 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually\nagreed as follows:\n\n1. The said Stefan Zweig agrees to furnish and deliver to the said Long-\nmans, Green & Co. Inc. not later than October 31, 1938 a treatise in the German\nlanguage containing about six thousand words to be used as a preface in a work\nwhich is to be published by the said Longmans, Green & Co. Inc. entitled\n\nTHE LIVING THOUGHTS OF TOLSTOI\nPRESENTED BY STEFAN ZWEIG\n\ntogether with a condensation to run from thirty thousand (30,000) to thirty-\nfive thousand (35,000) words, said condensation to be indicated in German\neditions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred\nwords.\n\n2. The copyright in this treatise and condensation including all foreign\ncopyrights and all rights of translation and reproduction and all other rights\nshall be the property of the said Longmans, Green & Co. Inc. subject to the pay-\nment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven\ncents ($666.67) to be paid on the acceptance of the manuscript by the said Long-\nmans, Green & Co. Inc.\n\n3. The said Longmans, Green & Co. Inc. shall be at liberty to deduct\nfrom any payment, or payments, which may become due to the said Stefan Zweig\nunder this agreement any sum, or sums, which the said Longmans, Green & Co. Inc.\nshall be under statutory obligation to pay in respect of income tax.\n\n4. The said Longmans, Green & Co. Inc. will present to the said Stefan\nZweig upon publication, five (5) copies of the said work gratis.\n\nIN WITNESS WHEREOF the parties hereto have hereunto subscribed their names\nand affixed their seals the day and year first above written.\n\nIn the presence of\n\n[Lotte Altmann signature] \nWitness\n\n[Signature of witness] \nWitness\n\nStefan Zweig [Signature]\nAuthor\n\nLongmans, Green & Company, Inc.\nBy Edward Mill [Signature] (Secretary)",
-        "transcription_b": "THIS AGREEMENT\n\nis made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam\nStreet, London, W. 1., England, of the first part and Longmans, Green & Co. Inc.,\nof 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually\nagreed as follows:\n\n1. The said Stefan Zweig agrees to furnish and deliver to the said Long-\nmans, Green & Co. Inc. not later than October 31, 1938 a treatise in the German\nlanguage containing about six thousand words to be used as a preface in a work\nwhich is to be published by the said Longmans, Green & Co. Inc. entitled\n\nTHE LIVING THOUGHTS OF TOLSTOI\nPRESENTED BY STEFAN ZWEIG\n\ntogether with a condensation to run from thirty thousand (30,000) to thirty-\nfive thousand (35,000) words, said condensation to be indicated in German\neditions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred\nwords.\n\n2. The copyright in this treatise and condensation including all foreign\ncopyrights and all rights of translation and reproduction and all other rights\nshall be the property of the said Longmans, Green & Co. Inc. subject to the pay-\nment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven\ncents ($666.67) to be paid on the acceptance of the manuscript by the said Long-\nmans, Green & Co. Inc.\n\n3. The said Longmans, Green & Co. Inc. shall be at liberty to deduct\nfrom any payment, or payments, which may become due to the said Stefan Zweig\nunder this agreement any sum, or sums, which the said Longmans, Green & Co. Inc.\nshall be under statutory obligation to pay in respect of income tax.\n\n4. The said Longmans, Green & Co. Inc. will present to the said Stefan\nZweig upon publication, five (5) copies of the said work gratis.\n\nIN WITNESS WHEREOF the parties hereto have hereunto subscribed their names\nand affixed their seals the day and year first above written.\n\nIn the presence of\n\n{L Altmann} {Stefan Zweig}\nWitness Author\n\nLongmans, Green & Company, Inc.\n{R. M. Hill} By {Edward Mills} (Secretary)\nWitness",
-        "cer": 0.0511,
+        "transcription_b": "THIS AGREEMENT\n\nis made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam\nStreet, London, W. 1., England, of the first part and Longmans, Green & Co. Inc.,\nof 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually\nagreed as follows:\n\n1. The said Stefan Zweig agrees to furnish and deliver to the said Long-\nmans, Green & Co. Inc. not later than October 31, 1938 a treatise in the German\nlanguage containing about six thousand words to be used as a preface in a work\nwhich is to be published by the said Longmans, Green & Co. Inc. entitled\n\nTHE LIVING THOUGHTS OF TOLSTOI\nPRESENTED BY STEFAN ZWEIG\n\ntogether with a condensation to run from thirty thousand (30,000) to thirty-\nfive thousand (35,000) words, said condensation to be indicated in German\neditions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred\nwords.\n\n2. The copyright in this treatise and condensation including all foreign\ncopyrights and all rights of translation and reproduction and all other rights\nshall be the property of the said Longmans, Green & Co. Inc. subject to the pay-\nment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven\ncents ($666.67) to be paid on the acceptance of the manuscript by the said Long-\nmans, Green & Co. Inc.\n\n3. The said Longmans, Green & Co. Inc. shall be at liberty to deduct\nfrom any payment, or payments, which may become due to the said Stefan Zweig\nunder this agreement any sum, or sums, which the said Longmans, Green & Co. Inc.\nshall be under statutory obligation to pay in respect of income tax.\n\n4. The said Longmans, Green & Co. Inc. will present to the said Stefan\nZweig upon publication, five (5) copies of the said work gratis.\n\nIN WITNESS WHEREOF the parties hereto have hereunto subscribed their names\nand affixed their seals the day and year first above written.\n\nIn the presence of\n{L Altmann}\nWitness                                 {Stefan Zweig}\n                                        Author\n\n                                        Longmans, Green & Company, Inc.\n{E. M. Mill[?]}\nWitness                                 By {Edward Mills} (Secretary)",
+        "cer": 0.0757,
         "agreement": "moderate"
       },
       {
@@ -79,16 +101,16 @@
         "image_url": "https://gams.uni-graz.at/o:szd.100/IMG.2",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.100/IMG.3",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       }
     ]
   },

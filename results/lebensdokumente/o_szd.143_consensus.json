@@ -1,0 +1,118 @@
+{
+  "object_id": "o_szd.143",
+  "collection": "lebensdokumente",
+  "group": "tabellarisch",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 1.0,
+    "overall_cer_orderless": 1.0,
+    "effective_cer": 1.0,
+    "word_overlap": 0.0,
+    "category": "consensus_divergent",
+    "content_pages": 2,
+    "skipped_pages": 1,
+    "pages": [
+      {
+        "page": 0,
+        "cer": 1.0,
+        "cer_orderless": 1.0,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 6,
+        "chars_b": 0
+      },
+      {
+        "page": 1,
+        "cer": 1.0,
+        "cer_orderless": 1.0,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 6,
+        "chars_b": 0
+      },
+      {
+        "page": 2,
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
+        "chars_a": 8,
+        "chars_b": 8
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.143",
+    "collection": "lebensdokumente",
+    "group": "tabellarisch",
+    "title": "Hauptbuch, SZ-SAM/L1",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 1.0,
+      "overall_cer_orderless": 1.0,
+      "effective_cer": 1.0,
+      "word_overlap": 0.0,
+      "category": "consensus_divergent",
+      "content_pages": 2,
+      "skipped_pages": 1,
+      "pages": [
+        {
+          "page": 0,
+          "cer": 1.0,
+          "cer_orderless": 1.0,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 6,
+          "chars_b": 0
+        },
+        {
+          "page": 1,
+          "cer": 1.0,
+          "cer_orderless": 1.0,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 6,
+          "chars_b": 0
+        },
+        {
+          "page": 2,
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
+          "chars_a": 8,
+          "chars_b": 8
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.143/IMG.1",
+        "transcription_a": "(leer)",
+        "transcription_b": "",
+        "cer": 1.0,
+        "agreement": "low"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.143/IMG.2",
+        "transcription_a": "(leer)",
+        "transcription_b": "",
+        "cer": 1.0,
+        "agreement": "low"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.143/IMG.3",
+        "transcription_a": "Mit Gott",
+        "transcription_b": "Mit Gott",
+        "cer": null,
+        "agreement": "skipped"
+      }
+    ]
+  },
+  "judge_result": null
+}

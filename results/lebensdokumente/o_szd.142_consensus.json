@@ -1,0 +1,118 @@
+{
+  "object_id": "o_szd.142",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.5545,
+    "overall_cer_orderless": 0.5545,
+    "effective_cer": 0.5545,
+    "word_overlap": 1.0,
+    "category": "consensus_moderate",
+    "content_pages": 2,
+    "skipped_pages": 1,
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.0,
+        "cer_orderless": 0.0,
+        "agreement": "high",
+        "type": "content",
+        "chars_a": 50,
+        "chars_b": 50
+      },
+      {
+        "page": 1,
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 2,
+        "cer": 1.12,
+        "cer_orderless": 0.2,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 50,
+        "chars_b": 50
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.142",
+    "collection": "lebensdokumente",
+    "group": "kurztext",
+    "title": "Druckmatrize mit Name und Adresse, SZ-SAH/L2",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.5545,
+      "overall_cer_orderless": 0.5545,
+      "effective_cer": 0.5545,
+      "word_overlap": 1.0,
+      "category": "consensus_moderate",
+      "content_pages": 2,
+      "skipped_pages": 1,
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.0,
+          "cer_orderless": 0.0,
+          "agreement": "high",
+          "type": "content",
+          "chars_a": 50,
+          "chars_b": 50
+        },
+        {
+          "page": 1,
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 2,
+          "cer": 1.12,
+          "cer_orderless": 0.2,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 50,
+          "chars_b": 50
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.142/IMG.1",
+        "transcription_a": "DR. PHIL. STEFAN ZWEIG\n\nWIEN\nI. RATHHAUSSTRASSE 17.",
+        "transcription_b": "DR. PHIL. STEFAN ZWEIG\n\nWIEN\nI. RATHHAUSSTRASSE 17.",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.142/IMG.2",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "skipped"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.142/IMG.3",
+        "transcription_a": "DR. PHIL. STEFAN ZWEIG\nWIEN\nI. RATHHAUSSTRASSE 17.",
+        "transcription_b": "I. RATHHAUSSTRASSE 17.\nWIEN\n\nDR. PHIL. STEFAN ZWEIG",
+        "cer": 1.12,
+        "agreement": "low"
+      }
+    ]
+  },
+  "judge_result": null
+}

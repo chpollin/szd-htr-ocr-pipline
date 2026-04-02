@@ -5,22 +5,40 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 0.5106,
+    "overall_cer": 1.0387,
+    "overall_cer_orderless": 1.0387,
+    "effective_cer": 1.0387,
+    "word_overlap": 0.5909,
     "category": "consensus_divergent",
+    "content_pages": 3,
+    "skipped_pages": 0,
     "pages": [
       {
         "page": 0,
-        "cer": 1.5,
+        "cer": 0.9375,
+        "cer_orderless": 0.9375,
         "agreement": "low",
+        "type": "content",
         "chars_a": 48,
-        "chars_b": 117
+        "chars_b": 90
       },
       {
         "page": 1,
         "cer": 0.1022,
+        "cer_orderless": 0.1022,
         "agreement": "low",
+        "type": "content",
         "chars_a": 186,
         "chars_b": 184
+      },
+      {
+        "page": 2,
+        "cer": 1.0,
+        "cer_orderless": 1.0,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 48,
+        "chars_b": 0
       }
     ]
   },
@@ -32,22 +50,40 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 0.5106,
+      "overall_cer": 1.0387,
+      "overall_cer_orderless": 1.0387,
+      "effective_cer": 1.0387,
+      "word_overlap": 0.5909,
       "category": "consensus_divergent",
+      "content_pages": 3,
+      "skipped_pages": 0,
       "pages": [
         {
           "page": 0,
-          "cer": 1.5,
+          "cer": 0.9375,
+          "cer_orderless": 0.9375,
           "agreement": "low",
+          "type": "content",
           "chars_a": 48,
-          "chars_b": 117
+          "chars_b": 90
         },
         {
           "page": 1,
           "cer": 0.1022,
+          "cer_orderless": 0.1022,
           "agreement": "low",
+          "type": "content",
           "chars_a": 186,
           "chars_b": 184
+        },
+        {
+          "page": 2,
+          "cer": 1.0,
+          "cer_orderless": 1.0,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 48,
+          "chars_b": 0
         }
       ]
     },
@@ -56,8 +92,8 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.1081/IMG.1",
         "transcription_a": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
-        "transcription_b": "Correspondenz-Karte.\n\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\n\n[Vertikal am linken Rand:] Nur für die Adresse",
-        "cer": 1.5,
+        "transcription_b": "Correspondenz-Karte.\n\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\n\nNur für die Adresse",
+        "cer": 0.9375,
         "agreement": "low"
       },
       {
@@ -73,8 +109,8 @@
         "image_url": "https://gams.uni-graz.at/o:szd.1081/IMG.3",
         "transcription_a": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
         "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
+        "cer": 1.0,
+        "agreement": "low"
       }
     ]
   },

@@ -20,7 +20,10 @@ from config import (
     BACKUP_ROOT, COLLECTIONS, GOOGLE_API_KEY, GROUP_LABELS,
     PROMPTS_DIR, PROJECT_ROOT, RESULTS_BASE,
 )
-from evaluate import cer, normalize_text, normalize_for_consensus
+from evaluate import (
+    cer, normalize_text, normalize_for_consensus,
+    normalize_for_consensus_orderless, word_overlap,
+)
 from tei_context import parse_tei_for_object, context_from_backup_metadata, format_context, resolve_group
 from transcribe import load_prompt, load_images, SYSTEM_PROMPT, GROUP_PROMPTS
 
@@ -119,6 +122,11 @@ def compute_consensus(
 ) -> dict:
     """Compute consensus metrics between two transcriptions.
 
+    Uses both ordered CER and order-invariant CER to handle reading-order
+    divergence (e.g., marginalia, multi-column layouts). The effective CER
+    is the minimum of both, so documents with same content in different
+    order are not penalized.
+
     Args:
         page_types: Optional list of page types ('content', 'blank', 'color_chart').
             Non-content pages are skipped in CER calculation.
@@ -134,6 +142,7 @@ def compute_consensus(
             page_results.append({
                 "page": i,
                 "cer": None,
+                "cer_orderless": None,
                 "agreement": "skipped",
                 "type": ptype,
                 "chars_a": len(pa),
@@ -143,11 +152,16 @@ def compute_consensus(
 
         na = normalize_for_consensus(pa)
         nb = normalize_for_consensus(pb)
+        na_ol = normalize_for_consensus_orderless(pa)
+        nb_ol = normalize_for_consensus_orderless(pb)
         page_cer = cer(nb, na) if na else (0.0 if not nb else 1.0)
-        agreement = "high" if page_cer < 0.03 else ("moderate" if page_cer < 0.10 else "low")
+        page_cer_ol = cer(nb_ol, na_ol) if na_ol else (0.0 if not nb_ol else 1.0)
+        effective_cer = min(page_cer, page_cer_ol)
+        agreement = "high" if effective_cer < 0.03 else ("moderate" if effective_cer < 0.10 else "low")
         page_results.append({
             "page": i,
             "cer": round(page_cer, 4),
+            "cer_orderless": round(page_cer_ol, 4),
             "agreement": agreement,
             "type": ptype,
             "chars_a": len(na),
@@ -156,16 +170,28 @@ def compute_consensus(
         content_texts_a.append(pa)
         content_texts_b.append(pb)
 
-    # Overall CER from content pages only
-    norm_a = normalize_for_consensus(" ".join(content_texts_a))
-    norm_b = normalize_for_consensus(" ".join(content_texts_b))
-    overall_cer = cer(norm_b, norm_a) if norm_a else (0.0 if not norm_b else 1.0)
+    # Overall CER from content pages only (both ordered and orderless)
+    joined_a = " ".join(content_texts_a)
+    joined_b = " ".join(content_texts_b)
+    norm_a = normalize_for_consensus(joined_a)
+    norm_b = normalize_for_consensus(joined_b)
+    norm_a_ol = normalize_for_consensus_orderless(joined_a)
+    norm_b_ol = normalize_for_consensus_orderless(joined_b)
 
-    # Consensus category
-    if overall_cer < 0.03:
+    overall_cer = cer(norm_b, norm_a) if norm_a else (0.0 if not norm_b else 1.0)
+    overall_cer_ol = cer(norm_b_ol, norm_a_ol) if norm_a_ol else (0.0 if not norm_b_ol else 1.0)
+    overall_word_overlap = word_overlap(joined_a, joined_b)
+    effective_cer = min(overall_cer, overall_cer_ol)
+
+    # Consensus category: use both CER and word overlap
+    # Word overlap handles reading-order divergence (marginalia, columns)
+    # High word overlap (>=0.90) means content is essentially the same despite order/CER
+    if effective_cer < 0.03 or (overall_word_overlap >= 0.95 and effective_cer < 0.10):
         category = "consensus_verified"
-    elif overall_cer < 0.10:
+    elif effective_cer < 0.10 or overall_word_overlap >= 0.90:
         category = "consensus_moderate"
+    elif overall_word_overlap >= 0.75:
+        category = "consensus_review"
     else:
         category = "consensus_divergent"
 
@@ -174,6 +200,9 @@ def compute_consensus(
 
     return {
         "overall_cer": round(overall_cer, 4),
+        "overall_cer_orderless": round(overall_cer_ol, 4),
+        "effective_cer": round(effective_cer, 4),
+        "word_overlap": round(overall_word_overlap, 4),
         "category": category,
         "content_pages": content_count,
         "skipped_pages": skipped_count,
@@ -260,7 +289,12 @@ def verify_object(
     page_types = [p.get("type", "content") for p in result_a.get("result", {}).get("pages", [])]
 
     consensus = compute_consensus(text_a, text_b, pages_a, pages_b, page_types=page_types)
-    print(f"  CER A<->B: {consensus['overall_cer']:.2%} -- {consensus['category']}")
+    cer_ordered = consensus['overall_cer']
+    cer_orderless = consensus.get('overall_cer_orderless', cer_ordered)
+    effective = consensus.get('effective_cer', cer_ordered)
+    w_overlap = consensus.get('word_overlap', 0)
+    print(f"  CER: {cer_ordered:.2%} (ordered) / {cer_orderless:.2%} (orderless) -> {effective:.2%} effective, word_overlap={w_overlap:.2%}")
+    print(f"  Kategorie: {consensus['category']}")
 
     # Prepare judge data (for Claude Code Subagent)
     judge_data = prepare_judge_data(object_id, collection, result_a, result_b, consensus)
@@ -373,7 +407,7 @@ def main():
     print(f"Starte Konsensus-Verifikation: {len(sample)} Objekte, Modell B: {VERIFY_MODEL}")
     print("=" * 60)
 
-    results = {"verified": 0, "moderate": 0, "divergent": 0, "failed": 0}
+    results = {"verified": 0, "moderate": 0, "review": 0, "divergent": 0, "failed": 0}
     for i, obj in enumerate(sample, 1):
         print(f"[{i}/{len(sample)}] {obj['object_id']} ({obj['collection']})")
         result = verify_object(obj["object_id"], obj["collection"], args.max_images, args.force)

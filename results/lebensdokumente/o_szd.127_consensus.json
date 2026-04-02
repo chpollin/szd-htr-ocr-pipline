@@ -5,41 +5,56 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 0.0351,
+    "overall_cer": 0.0308,
+    "overall_cer_orderless": 1.242,
+    "effective_cer": 0.0308,
+    "word_overlap": 0.8634,
     "category": "consensus_moderate",
+    "content_pages": 2,
+    "skipped_pages": 3,
     "pages": [
       {
         "page": 0,
-        "cer": 0.0485,
+        "cer": 0.0612,
+        "cer_orderless": 0.0612,
         "agreement": "moderate",
+        "type": "content",
         "chars_a": 784,
-        "chars_b": 788
+        "chars_b": 791
       },
       {
         "page": 1,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 2,
-        "cer": 0.0322,
-        "agreement": "moderate",
+        "cer": 0.0119,
+        "cer_orderless": 0.8486,
+        "agreement": "high",
+        "type": "content",
         "chars_a": 839,
-        "chars_b": 865
+        "chars_b": 838
       },
       {
         "page": 3,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 4,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       }
@@ -53,41 +68,56 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 0.0351,
+      "overall_cer": 0.0308,
+      "overall_cer_orderless": 1.242,
+      "effective_cer": 0.0308,
+      "word_overlap": 0.8634,
       "category": "consensus_moderate",
+      "content_pages": 2,
+      "skipped_pages": 3,
       "pages": [
         {
           "page": 0,
-          "cer": 0.0485,
+          "cer": 0.0612,
+          "cer_orderless": 0.0612,
           "agreement": "moderate",
+          "type": "content",
           "chars_a": 784,
-          "chars_b": 788
+          "chars_b": 791
         },
         {
           "page": 1,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 2,
-          "cer": 0.0322,
-          "agreement": "moderate",
+          "cer": 0.0119,
+          "cer_orderless": 0.8486,
+          "agreement": "high",
+          "type": "content",
           "chars_a": 839,
-          "chars_b": 865
+          "chars_b": 838
         },
         {
           "page": 3,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 4,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         }
@@ -98,8 +128,8 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.127/IMG.1",
         "transcription_a": "Zwischen Herrn Dr Stefan Zweig, 49 Hallam Street,\nLondon W.1 und F° Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngedult des Herzens\nan die F° Socec & Co gegen eine einmalige Zahlung\nvon\n£ 30 (dreizig Pfund sterling).\nFalls das Buch nicht innerhalb ~~einem~~ {von einem} Jahre\nnach vertragsabschluss erscheint, fallen die Rechte\nan der Verfasser zurück.\nHerr Dr zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr zweig\nin Kraft.\nLondon, den 20 ~~April~~ {April} 1939 Bukarest, den 30 ~~März~~ {April} 1939\n(gs) Dr zweig (ps) Socec & Co",
-        "transcription_b": "Zwischen Herrn Dr. Stefan Zweig, 49 Hallam Street,\nLondon W.1 und Fa Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr. Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngeduld des Herzens\nan die Fa Socec & Co gegen eine einmalige Zahlung\nvon\n£. 30 (dreißig Pfund Sterling).\nFalls das Buch nicht innerhalb ~~von~~ {von} einem Jahre\nnach Vertragsabschluss erscheint, fallen die Rechte\nan der Verfasser zurück.\nHerr Dr. Zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr. Zweig\nin Kraft.\nLondon, den 20 ~~April~~ {April} 1939 Bukarest, den 30 ~~März~~ {April} 1939\n(ss) Dr. Zweig (ss) Socec & Co",
-        "cer": 0.0485,
+        "transcription_b": "Zwischen Herrn Dr. Stefan Zweig, 49 Hallam Street,\nLondon W.1 und Fa. Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr. Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngeduld des Herzens\nan die Fa. Socec & Co gegen eine einmalige Zahlung\nvon £. 30 (dreißig Pfund Sterling).\nFalls das Buch nicht innerhalb ~~von~~ {von} einem Jahre\nnach Vertragsabschluss erscheint, fallen die Rechte\nan den Verfasser zurück.\nHerr Dr. Zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr. Zweig\nin Kraft.\nLondon, den 20. ~~März~~ {April} 1939 Bukarest, den 30. ~~März~~ {April} 1939\n(ss) Dr. Zweig (ss) Socec & Co",
+        "cer": 0.0612,
         "agreement": "moderate"
       },
       {
@@ -107,48 +137,32 @@
         "image_url": "https://gams.uni-graz.at/o:szd.127/IMG.2",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.127/IMG.3",
         "transcription_a": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\n\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\nUNGEDULD DES HERZENS\nEditurei Socec & Co. S.A. pentru suma de :\n£ 30.-.- (Treizeci)\nodată pentru totdeauna.-\n\nIn cazul când traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\n\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\n\nAcest contract devine valabil in momentul cànd Domnul Dr.\nStefan Zweig va fi in posesia sumei de £ 30.-.- pe care editura o va\nremite la adresa autorului.-\n\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\n\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S.A.\nbezahlt!",
-        "transcription_b": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\n\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\nUNGEDULD DES HERZENS\nEditurei Socec & Co. S.A. pentru suma de :\n£. 30.-.- (Treizeci)\nodată pentru totdeauna.-\n\nIn cazul când traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\n\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\n\nAcest contract devine valabil in momentul când Domnul Dr.\nStefan Zweig va fi in posesia sumei de £. 30.-.- pe care editura o va\nremite la adresa autorului.-\n\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\n\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S. A.\n[Unterschrift/Paraphe]\nbezahlt!",
-        "cer": 0.0322,
-        "agreement": "moderate"
+        "transcription_b": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\nUNGEDULD DES HERZENS\nEditurei Socec & Co. S.A. pentru suma de :\nŁ. 30.-.- (Treizeci)\nodată pentru totdeauna.-\nIn cazul când traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\nAcest contract devine valabil in momentul când Domnul Dr.\nStefan Zweig va fi in posesia sumei de Ł. 30.-.- pe care editura o va\nremite la adresa autorului.-\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S. A.\n[...]\nbezahlt!",
+        "cer": 0.0119,
+        "agreement": "high"
       },
       {
         "page": 3,
         "image_url": "https://gams.uni-graz.at/o:szd.127/IMG.4",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 4,
         "image_url": "https://gams.uni-graz.at/o:szd.127/IMG.5",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
-      },
-      {
-        "page": 5,
-        "image_url": "https://gams.uni-graz.at/o:szd.127/IMG.6",
-        "transcription_a": "",
-        "transcription_b": "",
         "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 6,
-        "image_url": "https://gams.uni-graz.at/o:szd.127/IMG.7",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
+        "agreement": "skipped"
       }
     ]
   },

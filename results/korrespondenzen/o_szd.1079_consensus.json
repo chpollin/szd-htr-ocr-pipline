@@ -5,43 +5,58 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 0.5874,
+    "overall_cer": 0.7314,
+    "overall_cer_orderless": 0.7997,
+    "effective_cer": 0.7314,
+    "word_overlap": 0.7216,
     "category": "consensus_divergent",
+    "content_pages": 5,
+    "skipped_pages": 0,
     "pages": [
       {
         "page": 0,
         "cer": 0.0492,
-        "agreement": "moderate",
+        "cer_orderless": 0.0,
+        "agreement": "high",
+        "type": "content",
         "chars_a": 61,
         "chars_b": 64
       },
       {
         "page": 1,
         "cer": 0.0,
+        "cer_orderless": 0.0,
         "agreement": "high",
+        "type": "content",
         "chars_a": 12,
         "chars_b": 12
       },
       {
         "page": 2,
-        "cer": 0.635,
+        "cer": 0.6563,
+        "cer_orderless": 0.6563,
         "agreement": "low",
+        "type": "content",
         "chars_a": 1644,
-        "chars_b": 1657
+        "chars_b": 1665
       },
       {
         "page": 3,
-        "cer": 0.0873,
-        "agreement": "moderate",
+        "cer": 0.4761,
+        "cer_orderless": 0.4761,
+        "agreement": "low",
+        "type": "content",
         "chars_a": 355,
-        "chars_b": 361
+        "chars_b": 363
       },
       {
         "page": 4,
-        "cer": 0.6648,
+        "cer": 0.6704,
+        "cer_orderless": 0.6704,
         "agreement": "low",
+        "type": "content",
         "chars_a": 355,
-        "chars_b": 124
+        "chars_b": 125
       }
     ]
   },
@@ -53,43 +68,58 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 0.5874,
+      "overall_cer": 0.7314,
+      "overall_cer_orderless": 0.7997,
+      "effective_cer": 0.7314,
+      "word_overlap": 0.7216,
       "category": "consensus_divergent",
+      "content_pages": 5,
+      "skipped_pages": 0,
       "pages": [
         {
           "page": 0,
           "cer": 0.0492,
-          "agreement": "moderate",
+          "cer_orderless": 0.0,
+          "agreement": "high",
+          "type": "content",
           "chars_a": 61,
           "chars_b": 64
         },
         {
           "page": 1,
           "cer": 0.0,
+          "cer_orderless": 0.0,
           "agreement": "high",
+          "type": "content",
           "chars_a": 12,
           "chars_b": 12
         },
         {
           "page": 2,
-          "cer": 0.635,
+          "cer": 0.6563,
+          "cer_orderless": 0.6563,
           "agreement": "low",
+          "type": "content",
           "chars_a": 1644,
-          "chars_b": 1657
+          "chars_b": 1665
         },
         {
           "page": 3,
-          "cer": 0.0873,
-          "agreement": "moderate",
+          "cer": 0.4761,
+          "cer_orderless": 0.4761,
+          "agreement": "low",
+          "type": "content",
           "chars_a": 355,
-          "chars_b": 361
+          "chars_b": 363
         },
         {
           "page": 4,
-          "cer": 0.6648,
+          "cer": 0.6704,
+          "cer_orderless": 0.6704,
           "agreement": "low",
+          "type": "content",
           "chars_a": 355,
-          "chars_b": 124
+          "chars_b": 125
         }
       ]
     },
@@ -100,7 +130,7 @@
         "transcription_a": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
         "transcription_b": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen\n\nf.",
         "cer": 0.0492,
-        "agreement": "moderate"
+        "agreement": "high"
       },
       {
         "page": 1,
@@ -114,24 +144,24 @@
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.1079/IMG.3",
         "transcription_a": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nging mir noch nicht zu, doch las ich es mit aufrichtigen Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderbar, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, daß Sie nach fahren, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Karlsbad gar keinem Falle hier nicht scheuen,\nes kann ja auch allzu weit sein.\nIch habe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte wahr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Freude, wie dort, muß doch selbst das\nLernen durch Naturgefühl und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Allein-\nsamkeit ganz erlebt habe, halte mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbüchere,\ndurch Spazierengehen, herumträumen, Freunde etc.\nDas einzige Wesentliche ist, daß ich viel lese.",
-        "transcription_b": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltanschauung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (der letzte Bogen!) zu moquieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartenpost. Ihr Buch\ngelang mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich nicht tief –\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen – aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderschön, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda ist es viel wahrscheinlicher, daß Sie mich sehen, da\nich nun geschlagene 14 Tage nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Pferd oder per Eisenbahn sicher nicht scheuen,\nes kann ja nicht allzuweit sein.\nIch lebe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, schauerlich faul. Nicht einmal\nGedichte mehr, so wie zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Einöde, wie dort, müßte doch selbst das\nLernen durch Naturschönheit und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Waldein-\nsamkeit ganz erlebt habe, stelle mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total vertändele,\ndurch Spazierengehen, Frauenträumen, Freunde etc.\nDas einzige Vernünftige ist, daß ich viel lese.",
-        "cer": 0.635,
+        "transcription_b": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltanschauung erhoben haben, um sich nicht\nüber mein grässliches Briefpapier (der letzte Bogen!) zu moquieren!\nIch danke Ihnen recht herzlich für Ihre lieben Kartengrüße. Ihr Buch\ngelangte mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich nicht tief -\nes ist ja ein Familienblatt und man muss sich immer dem\nRahmen anpassen — aber ich hoffe Sie wird Ihnen nicht\nmissfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderschön, nur glaube\nich nicht dass er nach Karlsbad wird abkommen können,\nda ist es viel wahrscheinlicher, dass Sie mich sehen, da\nich nun geschlagene 16 Jahre nach Marienbad gehen muss\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Pferd oder per Eisenbahn sicher nicht scheuen,\nes kann ja nicht allzuweit sein.\nIch lebe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, schauerlich faul. Nicht einmal\nGedichte mehr, nur zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Einöde, wie dort, müsste doch selbst das\nLernen durch Naturschönheit und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Waldein-\nsamkeit ganz erlebt habe, stelle mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total vertändele,\ndurch Spazierengehen, Frauenträumen, Freunde etc.\nDas einzige Vernünftige ist, dass ich viel lese.",
+        "cer": 0.6563,
         "agreement": "low"
       },
       {
         "page": 3,
         "image_url": "https://gams.uni-graz.at/o:szd.1079/IMG.4",
         "transcription_a": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
-        "transcription_b": "Leider Gottes muß ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Absicht es besprechen zu wollen bin ich\nIhnen sehr dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebener\n\nStefan Zweig",
-        "cer": 0.0873,
-        "agreement": "moderate"
+        "transcription_b": "Leider Gottes muss ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Loeffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Absicht es besprechen zu wollen bin ich\nschon sehr dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebener\n\nStefan Zweig",
+        "cer": 0.4761,
+        "agreement": "low"
       },
       {
         "page": 4,
         "image_url": "https://gams.uni-graz.at/o:szd.1079/IMG.5",
         "transcription_a": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
-        "transcription_b": "Leider Gottes muß ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\n\nStefan Zweig",
-        "cer": 0.6648,
+        "transcription_b": "Leider Gottes muss ich jetzt schon schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\n\nStefan Zweig",
+        "cer": 0.6704,
         "agreement": "low"
       }
     ]

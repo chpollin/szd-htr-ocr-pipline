@@ -1,0 +1,170 @@
+{
+  "object_id": "o_szd.195",
+  "collection": "lebensdokumente",
+  "group": "tabellarisch",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.0667,
+    "overall_cer_orderless": 0.0667,
+    "effective_cer": 0.0667,
+    "word_overlap": 0.8919,
+    "category": "consensus_moderate",
+    "content_pages": 3,
+    "skipped_pages": 2,
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.0,
+        "cer_orderless": 0.0,
+        "agreement": "high",
+        "type": "content",
+        "chars_a": 15,
+        "chars_b": 15
+      },
+      {
+        "page": 1,
+        "cer": 0.02,
+        "cer_orderless": 0.02,
+        "agreement": "high",
+        "type": "content",
+        "chars_a": 50,
+        "chars_b": 51
+      },
+      {
+        "page": 2,
+        "cer": 0.0197,
+        "cer_orderless": 0.0197,
+        "agreement": "high",
+        "type": "content",
+        "chars_a": 203,
+        "chars_b": 203
+      },
+      {
+        "page": 3,
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 4,
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
+        "chars_a": 0,
+        "chars_b": 0
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.195",
+    "collection": "lebensdokumente",
+    "group": "tabellarisch",
+    "title": "Briefregister [II], SZ-AP2/L-S9.2",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.0667,
+      "overall_cer_orderless": 0.0667,
+      "effective_cer": 0.0667,
+      "word_overlap": 0.8919,
+      "category": "consensus_moderate",
+      "content_pages": 3,
+      "skipped_pages": 2,
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.0,
+          "cer_orderless": 0.0,
+          "agreement": "high",
+          "type": "content",
+          "chars_a": 15,
+          "chars_b": 15
+        },
+        {
+          "page": 1,
+          "cer": 0.02,
+          "cer_orderless": 0.02,
+          "agreement": "high",
+          "type": "content",
+          "chars_a": 50,
+          "chars_b": 51
+        },
+        {
+          "page": 2,
+          "cer": 0.0197,
+          "cer_orderless": 0.0197,
+          "agreement": "high",
+          "type": "content",
+          "chars_a": 203,
+          "chars_b": 203
+        },
+        {
+          "page": 3,
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 4,
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
+          "chars_a": 0,
+          "chars_b": 0
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.195/IMG.1",
+        "transcription_a": "LETTER REGISTER",
+        "transcription_b": "LETTER REGISTER",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.195/IMG.2",
+        "transcription_a": "MADE IN ENGLAND\nFRANK SMYTHSON LTD.    NEW BOND ST W.",
+        "transcription_b": "MADE IN ENGLAND\nFRANK SMYTHSON LTD. NEW BOND ST. W.",
+        "cer": 0.02,
+        "agreement": "high"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.195/IMG.3",
+        "transcription_a": "23. XI. 1936 - 30. VII. 38\n\nTHE\n“FEATHERWEIGHT”\n(Copyright)\nBOOKS\n\nKNOWN THE WORLD OVER\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of “Featherweight” Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
+        "transcription_b": "23. XI. 1936 - 30. VII. 38\n\nTHE\n\"FEATHERWEIGHT\"\n(Copyright)\nBOOKS\n\nKNOWN THE WORLD OVER\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of \"Featherweight\" Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
+        "cer": 0.0197,
+        "agreement": "high"
+      },
+      {
+        "page": 3,
+        "image_url": "https://gams.uni-graz.at/o:szd.195/IMG.4",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "skipped"
+      },
+      {
+        "page": 4,
+        "image_url": "https://gams.uni-graz.at/o:szd.195/IMG.5",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "skipped"
+      }
+    ]
+  },
+  "judge_result": null
+}

@@ -5,43 +5,58 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 6.6321,
-    "category": "consensus_divergent",
+    "overall_cer": 0.5227,
+    "overall_cer_orderless": 1.4516,
+    "effective_cer": 0.5227,
+    "word_overlap": 0.9323,
+    "category": "consensus_moderate",
+    "content_pages": 3,
+    "skipped_pages": 2,
     "pages": [
       {
         "page": 0,
-        "cer": 0.5586,
+        "cer": 0.5882,
+        "cer_orderless": 0.5882,
         "agreement": "low",
+        "type": "content",
         "chars_a": 2030,
-        "chars_b": 2040
+        "chars_b": 2048
       },
       {
         "page": 1,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 2,
-        "cer": 0.4677,
+        "cer": 0.9295,
+        "cer_orderless": 1.3701,
         "agreement": "low",
+        "type": "content",
         "chars_a": 2213,
-        "chars_b": 2235
+        "chars_b": 2261
       },
       {
         "page": 3,
-        "cer": 0.0,
-        "agreement": "high",
+        "cer": null,
+        "cer_orderless": null,
+        "agreement": "skipped",
+        "type": "blank",
         "chars_a": 0,
         "chars_b": 0
       },
       {
         "page": 4,
-        "cer": 0.0158,
-        "agreement": "high",
+        "cer": 0.0421,
+        "cer_orderless": 0.0421,
+        "agreement": "moderate",
+        "type": "content",
         "chars_a": 2021,
-        "chars_b": 2040
+        "chars_b": 2055
       }
     ]
   },
@@ -53,43 +68,58 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 6.6321,
-      "category": "consensus_divergent",
+      "overall_cer": 0.5227,
+      "overall_cer_orderless": 1.4516,
+      "effective_cer": 0.5227,
+      "word_overlap": 0.9323,
+      "category": "consensus_moderate",
+      "content_pages": 3,
+      "skipped_pages": 2,
       "pages": [
         {
           "page": 0,
-          "cer": 0.5586,
+          "cer": 0.5882,
+          "cer_orderless": 0.5882,
           "agreement": "low",
+          "type": "content",
           "chars_a": 2030,
-          "chars_b": 2040
+          "chars_b": 2048
         },
         {
           "page": 1,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 2,
-          "cer": 0.4677,
+          "cer": 0.9295,
+          "cer_orderless": 1.3701,
           "agreement": "low",
+          "type": "content",
           "chars_a": 2213,
-          "chars_b": 2235
+          "chars_b": 2261
         },
         {
           "page": 3,
-          "cer": 0.0,
-          "agreement": "high",
+          "cer": null,
+          "cer_orderless": null,
+          "agreement": "skipped",
+          "type": "blank",
           "chars_a": 0,
           "chars_b": 0
         },
         {
           "page": 4,
-          "cer": 0.0158,
-          "agreement": "high",
+          "cer": 0.0421,
+          "cer_orderless": 0.0421,
+          "agreement": "moderate",
+          "type": "content",
           "chars_a": 2021,
-          "chars_b": 2040
+          "chars_b": 2055
         }
       ]
     },
@@ -98,8 +128,8 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.1",
         "transcription_a": "History of to-morrow\n\nHowever opinions may differ, there is one fact which no one\nwill feel inclined to dispute - namely that our world, in ~~its~~ {is} {an}\nabnormal moral condition.\n~~abnormal state to-day, is facing a severe moral crisis.~~ I believe {in}\nparticular ~~when~~ you in America look across to Europe, you must\nhave the feeling that all the peoples and nations are victims of a\nmorbid irritability. The slightest pretext is sufficient to evoke\nboundless agitation. Races, social classes and states, no less than\nindividuals, seem more inclined to hate one another than to live on\ngood terms. Neither the individual nor the nation has faith in the\npossibility of tranquil and productive development. On the contrary,\nall of us ~~who live in Europe~~ - and I believe that you will not contra-\ndict me when I say this - are living under ~~the constant impression~~,\nthe constant apprehension, that a violent explosion may take place\nany second.\n\nTo what is this state of tension due? I believe that this\nfever, ~~this stagnation in the normal circulation of our blood which~~ {in}\n~~dates from the War, is caused by the same old bacillus.~~ {due to a} {fostered by the war.} We must\nremember that the War years accustomed the people in every country to\na violent heightening of emotion. Wars cannot be waged in cold blood\nand with a cool mind. A tremendous injection of passion was necess-\nary to enable ~~an~~ to endure a world war for {the} {terrible} {period} {of}\n~~the~~ {the} {belligerent} {nations} {such} {an} {appalling}\nfour years. {Every day} ~~of those fifteen hundred days~~ {the} {instincts} {of} {hatred,} {anger,} {and} {embitterment} {had} {to}\n{given} {fresh} {stimulus} ~~af~~ {aa} {in} {normal} {times}\nbe stimulated ~~incessantly~~ in all the warring states. Thus millions\nof human beings who were ~~really indifferent and~~ entirely peaceable,\nthree or four hundred millions of them - please try to visualise this\nfigure - became accustomed {through} {fifteen} {hundred} {days} - ~~for four endless years to producing and~~ \n{generating} ~~within themselves more hatred and enmity than was natural~~ {every day of those fifteen hundred days}",
-        "transcription_b": "History of - to - morrow\n\nHowever opinions may differ, there is one fact which no one\nwill feel inclined to dispute - namely that our world, in {is} ~~its~~ {an}\n~~abnormal moral condition.~~\n~~abnormal state to-day, is facing a severe moral crisis. I believe~~ {In}\nparticular ~~that~~ when you in America look across to Europe, you must\nhave the feeling that all the peoples and nations are victims of a\nmorbid irritability. The slightest pretext is sufficient to evoke\nboundless agitation. Races, social classes and states, no less than\nindividuals, seem more inclined to hate one another than to live on\ngood terms. Neither the individual nor the nation has faith in the\npossibility of tranquil and productive development. On the contrary,\nall of us ~~who live in Europe~~ - and I believe that you will not contra-\ndict me when I say this - are living under ~~the constant impression,~~ \nthe constant apprehension, that a violent explosion may take place\nany second.\n\nTo what is this state of tension due? I believe that this\nfever, ~~this stagnation in the normal circulation of~~ {in} our blood ~~which~~ \n~~dates from the War,~~ is ~~caused by the same old~~ {due to a} bacillus {fostered by the war}. We must\nremember that the War years accustomed the people in every country to\na violent heightening of emotion. Wars cannot be waged in cold blood\nand with a cool mind. A tremendous injection of passion was necess-\nary to enable ~~us~~ {the belligerent nations} to endure a world war for ~~the terrible~~ {such an appalling} period ~~of~~ \n{every day} ~~of those fifteen hundred days~~ {of}\nfour years. The instincts of hatred, anger, and embitterment had to\n{given fresh stimulus} ~~be stimulated incessantly~~ in all the warring states. Thus millions\n{in normal times}\nof human beings who were ~~really indifferent and~~ entirely peaceable,\nthree or four hundred millions of them - please try to visualise this\nfigure - became accustomed ~~for~~ {through fifteen hundred days -} four endless years ~~to producing and~~\n{generating} ~~creating~~ within themselves more hatred and enmity than was natural\n{every day of these fifteen hundred days}",
-        "cer": 0.5586,
+        "transcription_b": "History of - to - morrow\n\nHowever opinions may differ, there is one fact which no one\nwill feel inclined to dispute - namely that our world, in {is an} ~~its~~\n{abnormal moral condition.}\n~~abnormal state to-day, is facing a severe moral crisis. I believe~~ In\nparticular ~~when~~ you in America look across to Europe, you must\nhave the feeling that all the peoples and nations are victims of a\nmorbid irritability. The slightest pretext is sufficient to evoke\nboundless agitation. Races, social classes and states, no less than\nindividuals, seem more inclined to hate one another than to live on\ngood terms. Neither the individual nor the nation has faith in the\npossibility of tranquil and productive development. On the contrary,\nall of us ~~who live in Europe~~ - and I believe that you will not contra-\ndict me when I say this - are living under ~~the constant impression,~~\nthe constant apprehension, that a violent explosion may take place\nany second.\nTo what is this state of tension due? I believe that this\nfever, ~~this stagnation in the normal circulation of our blood which~~\n{due to a} {in} {fostered by the war.}\n~~dates from the War,~~ is ~~caused by the same old bacillus.~~ We must\nremember that the War years accustomed the people in every country to\na violent heightening of emotion. Wars cannot be waged in cold blood\nand with a cool mind. A tremendous injection of passion was necess-\n{the belligerent nations} {such an appalling}\nary to enable ~~us~~ to endure a world war for ~~the terrible~~ period ~~of~~\n{Every day of those fifteen hundred days}\nfour years. The instincts of hatred, anger, and embitterment had to\n{given fresh stimulus} {afresh} {as}\n~~be stimulated incessantly~~ in all the warring states. Thus millions\n{in normal times}\nof human beings who were ~~ready and indifferent and~~ entirely peaceable,\nthree or four hundred millions of them - please try to visualise this\n{through fifteen hundred days -}\nfigure - became accustomed ~~for four endless years to producing and~~\n{generating}\n~~collecting~~ within themselves more hatred and enmity than was natural\n{every day of these fifteen hundred days}",
+        "cer": 0.5882,
         "agreement": "low"
       },
       {
@@ -107,15 +137,15 @@
         "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.2",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.3",
         "transcription_a": "Those very things which ~~only yesterday~~ had been regarded as the highest\n{human virtues - murder, plunder, hate - reverted over night to the former}\n{stains of crimes. Who for five years had been obliged to be are as a hero, was now}\nto them. Then came the Peace, and suddenly this obligation to hate,\nto murder, to maintain one's passions at fever heat had to be turned\n{violence, murder, hat forbade} {to} {them.}\noff at a word of command as one turns off a gas tap. ~~This is con-\ntrary to Nature.~~ When an organism has become accustomed to narcot-\nics or stimulants - to coffee, to nicotine, to morphia - it cannot\nsuddenly do without them. The {need} {to} {militarise} {oneself,} {to} {hate}\n{once} {inflamed} {lust} {And} {peace} {or} {no} {peace}\nand to fight, has remained active in this generation. Only it has\nchanged its objective. ~~People no longer hate the same enemy of~~ \ntheir country as they did in 1914, but they continue to hate and\nfight with the same dangerous passion. {been} {turned} {inward.} {It} {has}\n{changed} {to} {the} {hatred}\nof one system for another, of one party, one class, one race, one\nideology for another. ~~Essentially, however, the forms are the same~~\nas they were in 1914, since they are conditioned by the need to form\ngroups and to act as groups in rivalry against other groups. We are\n{only} {said} {to} {be} {at} {peace,} {but} {our} {world} {is} {ruled} {by} {a} {definitely}\n{warlike} {mentality.} {overcite}\n\nIn what way can we eliminate this dangerous state of things?\nHow can we reduce the persistent feverish temperature? ~~How can we~~\nhumanise again the warlike atmosphere? What antidote do we possess\n{venom}\nfor the hatred by which the organism is poisoned? ~~How can we over-~~\ncome the moral depression with which the atmosphere of our world is\n{all} {of} {in} {all} {countries}\ncharged? For us this is the problem of problems, and I am of course\nnot so presumptuous as to think that I am the first to have discover-\ned it. Nor do I know of any complete solution. I am aware, and we\nare all aware, how much has been attempted in this respect, and we\nhave to thank particularly American democracy and your Government for\n{to} {become} {harmless.} {It} {was} {inddealy} {his} {duty} {to} {die} {peacefally} {in} {his}\n{bed} {and} {let} {everyone} {else} {do} {likewise.} {Such} {an} {abräst} {transformation} {from}\n{years} {of} {brutality}",
-        "transcription_b": "{to become harmless. It was suddenly his duty to die peacefully in his bed and let everyone else do likewise. Such an abrupt transformation from years of brutality}\n\nThose very things which ~~only~~ yesterday had been regarded as the highest\n{human virtues - murder, plunder, hate -} reverted over night to the former\nstatus of crimes. ~~Who for five years had been obliged to behave as a hero, was now~~\nto them. Then came the Peace, and suddenly this obligation to hate,\nto murder, to maintain one's passions at fever heat had to be turned\noff at a word of command as one turns off a gas tap. {Violence, murder, had forbidden [?] [?] [?] [?]} ~~This~~ is con-\ntrary to Nature. When an organism has become accustomed to narcot-\nics or stimulants - to coffee, to nicotine, to morphia - it cannot\nsuddenly do without them. {And peace or no peace} The ~~need~~ {lust} to militarise oneself, to hate\nand to fight, {once inflamed} has remained active in this generation. Only it has\nchanged its objective. ~~People no longer hate the same enemy of~~\n~~their country as they did in 1914, but they continue to hate and~~\n~~fight with the same dangerous passion.~~ {It has been turned inward. It has} changed to the hatred\nof one system for another, of one party, one class, one race, one\nideology for another. ~~Essentially, however, the forms are the same~~\n~~as they were in 1914, since they are conditioned by the need to form~~\n~~groups and to act as groups in rivalry against other groups.~~ We are\n{Only} said to be at peace, but our world is ~~dominated~~ {ruled} by a definitely\n{bellicose} ~~warlike~~ mentality. {overexcite}\n\nIn what way can we eliminate this dangerous state of things?\nHow can we reduce the persistent feverish temperature? ~~How can we~~\n~~humanise again the warlike atmosphere?~~ What antidote do we possess\nfor the ~~hatred~~ {venom} by which the organism is poisoned? ~~How can we over-~~\n~~come the moral depression with which the atmosphere of our world is~~\n~~charged?~~ For us {all of} {in all countries} this is the problem of problems, and I am of course\nnot so presumptuous as to think that I am the first to have discover-\ned it. Nor do I know of any complete solution. I am aware, and we\nare all aware, how much has been attempted in this respect, and we\nhave to thank particularly American democracy and your Government for",
-        "cer": 0.4677,
+        "transcription_b": "Those very things which ~~only~~ yesterday had been regarded as the highest\n{human virtues - murder, plunder, hate -} reverted over night to the former\nstatus of crimes. ~~Who for five years had been obliged to behave as a hero, was now~~\nto them. Then came the Peace, and suddenly this obligation to hate,\nto murder, to maintain one's passions at fever heat had to be turned\n{violence, murder, hat[e] forbidden} {by law}\noff at a word of command as one turns off a gas tap. ~~This~~ is con-\ntrary to Nature. When an organism has become accustomed to narcot-\nics or stimulants - to coffee, to nicotine, to morphia - it cannot\n{And peace or no peace}\nsuddenly do without them. The ~~need~~ to militarise oneself, to hate\n{once inflamed} {(lust)}\nand to fight, has remained active in this generation. Only it has\nchanged its objective. ~~People no longer hate the same enemy of~~\n~~their country as they did in 1914, but they continue to hate and~~\n{been turned inward. It has}\nfight with the same dangerous passion. It has changed to the hatred\nof one system for another, of one party, one class, one race, one\nideology for another. Essentially, however, the forms are the same\nas they were in 1914, since they are conditioned by the need to form\ngroups and to act as groups in rivalry against other groups. We are\n{ruled}\nsaid to be at peace, but our world is ~~dominated~~ by a definitely\n{Only} {bellicose}\n~~warlike~~ mentality.\nIn what way can we eliminate this dangerous state of things?\nHow can we reduce the persistent feverish temperature? How can we\nhumanise again the warlike atmosphere? What antidote do we possess\n{venom}\nfor the ~~hatred~~ by which the organism is poisoned? ~~How can we over-~~\n~~come the moral depression with which the atmosphere of our world is~~\n{all of} {in all countries}\n~~charged?~~ For us this is the problem of problems, and I am of course\nnot so presumptuous as to think that I am the first to have discover-\ned it. Nor do I know of any complete solution. I am aware, and we\nare all aware, how much has been attempted in this respect, and we\nhave to thank particularly American democracy and your Government for\n\n[Linker Rand, vertikal:]\nto become harmless. It was suddenly his duty to die peacefully in his\nbed and let everyone else do likewise. Such an abrupt transformation from\nyears of brutality",
+        "cer": 0.9295,
         "agreement": "low"
       },
       {
@@ -123,400 +153,16 @@
         "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.4",
         "transcription_a": "",
         "transcription_b": "",
-        "cer": 0.0,
-        "agreement": "high"
+        "cer": null,
+        "agreement": "skipped"
       },
       {
         "page": 4,
         "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.5",
         "transcription_a": "- 3 -\n\nhaving again and again emphasised the need for genuine peace and\npermanent world understanding. Yet we have grown very distrustful of\nconferences, proclamations and appeals. These may {perhaps} have\nprevented or postponed trouble in individual cases, but they have not\n{dispelled} {the} {atmosphere} {of} {suspicion} {and} {enmity}\naltered the moral, or rather immoral, condition in which the world at\nlarge finds itself to-day. It seems that the quiet, contemplative\nvoice of reason is too weak to be heard above the megaphone with which\norganised propaganda is thundering its slogans throughout the world,\nand it is in fact in the very nature of reason that its effects can\nrarely appear immediately. Perhaps we shall even have to renounce\nthe attempt to cure the present generation, the War generation, which\nhas political control in most countries, ~~of its lauding of force, its~~\n{apotheosis} {of} {war,} {and} {its} {mentality} {of} {hatred.} {perhaps} {our} {real}\n{task}\nwork lies in the application of all our energies towards ensuring\n{shall}\nthat at least the next generation, the youth of to-day, ~~should~~ not\nsuccumb to this {same} infection, this {same} fever. Adults do not learn much, not\neven through dire experiences, and all our efforts must be directed\ntowards reaching the young at an age when their souls are still like\nplastic wax in the hands of their educators. If the new generation\nis to be better, more humane, and above all happier than ours, into\nwhose lives the War cut deeply, striking us to the very core, it\nmust be better and more humanely educated. Within the framework of\nthis new education it seems to me that the most important element is\na different form and conception of history from those which were\nimparted to us at school. Nothing so decisively shapes a young\nperson's political and individual attitude to life as the way in\nwhich he has learned and comprehended history. {But} {all} {education} {is}\n{based} {on} {example,} {and} {we} {can} {no} {better} {examples} {for} {the} {education}\n{of} {mankind} {than} {those} {contained} {in} {the} {history} {of} {mankind.} {Only}",
-        "transcription_b": "- 3 -\n\nhaving again and again emphasised the need for genuine peace and\npermanent world understanding. Yet we have grown very distrustful of\nconferences, proclamations and appeals. {for years} These may {perhaps} have\nprevented or postponed trouble in individual cases, but they have not\n{dispelled the atmosphere of suspicion and enmity}\n~~altered the moral, or rather immoral, condition~~ in which the world at\nlarge finds itself to-day. It seems that the quiet, contemplative\nvoice of reason is too weak to be heard above the megaphone with which\norganised propaganda is thundering its slogans throughout the world,\nand it is in fact in the very nature of reason that its effects can\nrarely appear immediately. Perhaps we shall even have to renounce\nthe attempt to cure the present generation, the War generation, which\nhas political control in most countries, ~~of its lauding of force, its~~\n~~apotheosis of war, and its mentality of hatred.~~ {and} ~~Perhaps~~ our real\n{task} ~~work~~ lies in the application of all our energies towards ensuring\nthat at least the next generation, the youth of to-day, ~~should~~ {shall} not\nsuccumb to this {same} infection, this {same} fever. Adults do not learn much, not\neven through dire experiences, and all our efforts must be directed\ntowards reaching the young at an age when their souls are still like\nplastic wax in the hands of their educators. If the new generation\nis to be better, more humane, and above all happier than ours, into\nwhose lives the War cut deeply, striking us to the very core, it\nmust be better and more humanely educated. Within the framework of\nthis new education it seems to me that the most important element is\na different form and conception of history from those which were\nimparted to us at school. Nothing so decisively shapes a young\nperson's political and individual attitude to life as the way in\nwhich he has learned and comprehended history. {But all education is based on example, and we can find no better examples for the education of mankind than those contained in the history of mankind. Only}",
-        "cer": 0.0158,
-        "agreement": "high"
-      },
-      {
-        "page": 5,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.6",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 6,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.7",
-        "transcription_a": "",
-        "transcription_b": "- 4 -\n{To render this method effective, we must have a different form and conception of history from those which were imparted to us at school.} // How did we ourselves, especially those of us who live in\nEurope, learn history at school? I must frankly confess that I myself\nhad forgotten. But a short while ago, while moving from one house to\nanother, I came upon an old text book from which I had learned history\nat my high school in Austria. I should like to say, by the way, that\nwe make a mistake in throwing away our old schoolbooks too soon, for\nthere is nothing which enables us after a period of years to realise\nso clearly the speed with which ideas and points of view change during\nour lifetime. Well, there it was, my old, dog-eared history book, and\nI found myself presented with the opportunity of examining once more\nthe form in which history had been taught to the present generation,\nprofoundly influencing its outlook. I began to read - and was truly\nshocked. Good heavens! Was this the way in which the history of the\nworld had been presented to us when we were young, inexperienced, and\ncredulous? So inaccurately, so falsely, so tendentiously? I realised\nat once something of which as a boy I had not had the faintest inkling,\nnamely that this was history specially dished up, coloured and dis-\nguised, and that it had been done with a calculated and definite pur-\npose. ~~I realised,~~ {Since} the book had been printed in Austria and\nofficially approved for use in Austrian schools, {I realised} ~~that~~ it was deliberate-\nly intended to imbue ~~the youth of the nation~~ {us} with the conviction that\nthe Spirit directing the universe was working towards one ultimate\ngoal, namely, the greatness of Austria and the Austrian Empire. Yet\ntwelve hours by train - two hours by aeroplane to-day - would bring one\nto France or to Italy, where history was served up to ~~our~~ {youngsters of my age} ~~youthful~~\ncontemporaries with an equally nationalistic bias. Gesta dei per\nFrancos - God, or the Spirit of History, worked only for France, for",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 7,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.8",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 8,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.9",
-        "transcription_a": "",
-        "transcription_b": "- 5 -\n{other}\nthe Motherland. Before we were able to look out clearly into the\nworld, we had spectacles put on our noses - tinted differently in\neach country - so that from the very start we might look upon the\nworld not with the unrestricted vision of ~~free human beings~~ {as Weltbürger, citizens of the world}, but from\n~~the viewpoint of national interest.~~ {as Staatsbürger, subjects of our state.} That which in the Germany of to-\nday is called 'national education', that is to say, the early moulding\nof mind and outlook to a uniform pattern, had already begun. {of national egoism} History,\nwhich has no ~~other~~ {other moral} purpose than ~~the formation of a better mankind~~ ~~unless it is supremely objective,~~ was ladled out\nto us with the sole purpose of turning us into ~~patriotic citizens,~~ {youngsters}\nfuture soldiers, {and} docile subjects. {In the first place} Our humility towards the State and\nits institutions was to be counterbalanced by the arrogance and dis-\ntrust with which we regarded all other peoples and races, {the latter to be} imbued as\n~~we were with the doctrine~~ {Of all its manifold teachings and facts only one singled out was} that our Motherland was the best of all\nMotherlands, our soldiers ~~had always been~~ the bravest of all soldiers, our generals the\nmost capable of all generals; that throughout the course of history\nour nation had always been in the right, and that, whatever it might\ndo, it would continue to be in the right. My country right or wrong!\n\nThis was the first of the false paths upon which our steps\nwere set. And as I read through my old schoolbook from cover to\ncover, it was not long before I realised what the second false path\nhad been. The book was so arranged - I am sorry that I have not\nbrought it with me, so that I might read certain passages to you - it\nwas so arranged that the most important historical events were accom-\npanied by dates printed in the margin, like milestones showing the\ndistance mankind had travelled, and these dates we had to learn by\nheart.\n\nWhat were the events which were thus specially emphasised?",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 9,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.10",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 10,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.11",
-        "transcription_a": "",
-        "transcription_b": "- 6 -\n\nI looked through the book once more and established the fact that\nninety per cent of the dates were those of wars and battles. We had {to}\nlearn by heart the particular year B.C. when the battle of Salamis was\nfought and the year of the battle of Cannae. We had to know how long\nthe First Punic War lasted and how long the Second, and so on through\nthe centuries, war after war, battle after battle, until Trafalgar,\nWaterloo, and finally Sedan. {The great war, of course, did not yet figure in our books, but} We were ~~then~~ given the privilege of\nlearning ~~the~~ {its} dates ~~of the Great War~~ in a somewhat more personal and\ntangible manner, ~~than was possible from books.~~ {later}\n\nIn this old primer there was little evidence that the three\nthousand years {of our common history} ~~with which it dealt~~ had witnessed other developments,\nthanks to which man had risen from a state of troglodyte cannibalism\nto the heights of culture. Nor did it say much about the kings and\nemperors, the statesmen and wise presidents, who quietly and unemotion-\nally had preserved peace for their countries and fostered progress.\nIt was only Hannibal, Scipio, Attila and Napoleon who were important.\nOnly men who had waged war were presented to us as heroes, and in this\nway there was drummed into our young and receptive minds the constantly\nrepeated idea that the most important factor in this world was war and\nthe summit of achievement: ~~for an individual or a nation was~~ victory.\nOur generation, ~~and it is I fear still the case with the younger~~ {more}\ngeneration in all the countries of Europe, {today} was taught from the beginnin\nthat the decisive element in this world is success, that the employment\nof force, including that of war, is not only permissible but desirable\nif it is to the advantage of one's {own} country. ~~Well, we have all seen~~\n~~the results of this teaching. They are evident in the apprehension,~~\n~~hatred and unrest which to-day have thrown our world out of gear.~~",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 11,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.12",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 12,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.13",
-        "transcription_a": "",
-        "transcription_b": "- 7 -\n\n{But} The Great War destroyed many things. Among others it smashed\nthe ~~spectacles~~ {tinted} through which we young men were compelled to look, and\nI can only repeat that I was truly shocked when I read my tattered old\nschoolbook again with ~~different~~ {enlightened} eyes. For to what conclusion does\nhistory lead us when it is related ~~exclusively as the history of wars?~~ {in such a one-sided manner? I say}\n~~The conclusion to which we must inevitably come is profoundly pessim-~~\n~~istic.~~ {a terribly} What does this eternal story of wars and victories ultimately\nreveal? Something that is completely devoid of meaning, a mere tire-\nsome repetition! One army, one general, one nation defeats another;\nstrongholds surrender or do not surrender; countries become swollen by\nannexations, only to lose their acquisitions again after a shorter or\nlonger interval. This eternal calendar of the wars of mankind ~~appears~~\n~~to me no less tedious than would be a record of all the football matches~~ {is not only as senseless as}\nthat have been played throughout the world during the last fifty years, {would be}\n~~but it inevitably leads us to a profoundly pessimistic of mankind. As long as~~\n~~the victory going first to one side, then to the other. Are we to~~\n~~learn from history nothing except that the nations have taken it in~~\n~~turns to fight, despoil and enslave one another?~~ {but it inevitably leads us to a profoundly pessimistic view of mankind. As long as we lay the main stress on this descriptions of wars in our conception of history, we shall not get away from the depressing suspicion,}\n~~That~~ humanity has ~~not~~\nmade ~~any~~ {no} real progress, but is still ~~wading about in a circle~~ {floundering about} in a ~~sea~~ {morass} of blood? {then go again} Or are we to ~~deduce~~ {to extoll as} progress ~~from~~ the fact that, whereas the\nsoldiers of Xerxes killed their opponents face to face with battleaxes,\nthose of Ludendorff were able to mow down ~~rows of men~~ {thousands} with machine-guns?\n~~That we no longer pour boiling oil from the battlements of beseiged~~\n~~castles, but hurl streams of fire through the nozzles of intricately~~\n~~designed flame-throwers? That we obey the same old instincts, but en-~~\n~~ploy improved mechanical devices;~~ that cannibalistic hordes have been\nreplaced by vast armies; and that the discordant warcries of savages\nhave been superseded by the braying of propaganda from loud-speaker",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 13,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.14",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 14,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.15",
-        "transcription_a": "",
-        "transcription_b": "- 8 -\n{better times,}\nand radio? I must confess that as I read this old schoolbook of mine,\nI found nothing in it that might have had any ~~elevating and~~ humanising\neffect on young people. {nothing for our modern world} I found in it only the sad evidence of our\neternal reversion to the old barbarism. At last I was unable to\nrestrain my irritation and flung the book into a corner, for I realised\nthat this was the way in which my generation had been ~~tutored in prep-~~\n~~aration for the~~ {drilled towards} ~~Great~~ War. It had helped to foster all the dangerous\nand evil instincts which are poisoning the world to-day.\n\nThat was our education. That was how history was taught in\nevery country in Europe. The results are everywhere visible. It was\ncontinually dinned into our ears, {that} ~~stamped upon our minds,~~ that victory\nin war was the highest achievement of which a man or a nation was\ncapable, and that ~~it~~ was a matter of utter indifference what means were\nemployed to accomplish this end. No price was too high to pay - the\nlives of ten thousand men, a hundred thousand, a million. And far\nfrom the terrible experience of the Great War ~~having proved this unhum-~~\n~~an, immoral conception to be criminal,~~ we see that it is being instill-\ned into the youth and adults of most European countries to-day with an\nunprecedented intensity and exaggeration. Even in this country, across\nthousands of miles of ocean, you can hear the raucous shouts of dictat-\nors demanding what they call an 'heroic' conception of life, preaching\nthat love of peace is a sign of debility and that a man can have no\ngreater ambition than to die for his country. We are witnessing to-day\na glorification of war ~~as the supreme purpose of existence, a glorific-~~\n~~ation~~ such as not even the Spartans, not even the most barbaric of\nancient races, would have ventured to proclaim. We are witnessing, in\nthe name of national pride, a perversion of history which sets our\n{blood aflame with loathing.}",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 15,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.16",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 16,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.17",
-        "transcription_a": "",
-        "transcription_b": "9.\n\nAnd more than this: not only is the past, not\nonly is history falsified, but even the immediate present.\nDuring these last critical weeks I myself have experienced\nit. One stood in front of the radio, turning the dial\nfrom one station to another: Berlin, Paris, Rome, Prague.\nThe same happening was reported by all these stations, but\nin ~~this~~ {one} tiny fraction of a millimetre, in ~~this~~ one single\nsecond it was altered, {already} presented in conformity with the\nappropriate line of propaganda, but never in accordance\nwith the truth. {always} Lying does not merely make use of modern\ntechnique; it has already become a technique, a science\n{whose purpose is to falsify} which is only called propaganda out of considerations of\nprudence, and whose sole aim is to write history in ad-\nvance, for the generations to come. Before an event has\nbecome history - while it is still warm and alive, as one\nmight say - it is dissected and re-assembled. Scarcely\nhas an act been put into words before it becomes an official\nlie. {can we take to save history from all this misrepresentations}\n\nWhat counter-measures is it possible for us to take\nwho believe that this hypertrophy of nationalism and the\nState idea in history and life is the supreme misfortune\nboth of our generation and the generation now growing into\nmanhood? How can we help to free the world from this\nhypnosis? How can we ensure that history shall be taught,\nnot with the aim of glorifying individual nations but in\nthe service of the common glory of mankind? I believe",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 17,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.18",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 18,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.19",
-        "transcription_a": "",
-        "transcription_b": "10.\n\nthat we must begin by changing our mental attitude. We\nmust strain every nerve to prevent ourselves from regarding\nour state, our nation, our race as the focal point of the\nworld, simply because it happens to be ours. We must, on\nthe contrary, forcibly educate ourselves in the direction\nof absolute objectivity. {and I maintain} To-day, such objectivity is\npossible - for the first time, perhaps. Let us be just.\nLet us be careful not to indict the history of yesterday\nwithout cause. If in former times history was always\nwritten as national history, this was excusable - indeed,\nit may even have been inevitable. Let us think back to\nthose times. The world was not yet linked up; it was\nas yet utterly impossible for the individual to view or\ndepict the events of our globe as a ~~composite~~ {composite} whole. How\ndid these old chroniclers write history? Some small monk\n~~or other~~ sat in his cell ~~writing down~~ {recording} whatever occurred\nwithin his narrow range of vision; but for him, of course,\nthe war which was threatening his country was the only\nhappening of significance. What was passing beyond the\nfrontiers, across the river or on the other side of the\n{know only be hearsay}\nmountains, he ~~did not know, and it was~~, after all, of no\nimportance. For an event which took place in England\nhad no relation to any in Germany or Italy. Even the\nmost convulsive upheavals - war, revolution, famine, and\npestilence - did not cast a wave from one country to an-\nother. Thus it was impossible in bygone times to write\n{perhaps}",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 19,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.20",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 20,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.21",
-        "transcription_a": "",
-        "transcription_b": "11.\n\nuniversal history, the history of mankind; it was only\npossible to write the history of one's own nation and its\nneighbours. {Willy nilly those old chroniclers} Whether they liked it or not, they had to\nlive and think in restricted groups. Since that time,\nhowever, a phenomenon has emerged of which our forefathers\ndared not even dream: the phenomenon of simultaneity.\nFor the past hundred years - {with} since the introduction of the\ntelegraph, the telephone, radio and the transmission of\npictures - the whole world has come to think, experience\nand suffer simultaneously. Such a phenomenon as this\nmust - so much we can demand - also transform our outlook\n{happens,}\non the world and on history. To-day, whatever happens to\n{and at the same moment}\nall of us. No catastrophe occurs at the other end of the\nearth but we are affected by it; the smallest oscillation\nspreads to-day with lightning rapidity and touches our\nhearts. The whole world, which formerly consisted of\nisolated particles, of ~~national~~ cells, each living its own\nlife, has in our century - and for the first time - become\none single organism. We think, we see and feel everything\nsimultaneously. We have, as it were, one heart and one\nhead. This demands, however, that our world should also\nhave a common memory - {that is} our common history, and our common\n{that is pan-human}\nmemory one common conscience - a world conscience. To\nhelp in the creation of this, seems to me our common and\nmost important task.\n\nHow can it be brought about? It is ~~my~~ belief that",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 21,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.22",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 22,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.23",
-        "transcription_a": "",
-        "transcription_b": "12.\n\nhaving, in the past century, altered our viewpoint, we\nmust now accustom ourselves to thinking in other ways.\nWe must carry out a systematic revaluation of all our\nstandards, above all historical standards. We must be\nprepared to reject values which we have hitherto accepted\nand to accept those we have hitherto rejected. We must ~~not be~~\n~~afraid to be~~ {beings of being} drastic in this, ~~of~~ {in} demolish~~ing~~ triumphal\narches and ~~to~~ smash ~~ideals~~ {my yesterdays}. We must have no compunction\nin passing many a statue in the public squares of our\nhomelands without removing our hats. We must make a merci-\nless re-examination of all achievements, because we are\nrelating them to this new viewpoint, to their value, not\nas it affects their own nation, but humanity as a whole.\nWe shall take up a sceptical attitude towards the great\nheroes of war; we shall not speak of them exaltingly, but\nsee them from the moral viewpoint as Tolstoi sees them in\n\"War and Peace\". {Then he writes}\n\n\"War began. That is to say, something happened which\nis contrary both to human reason and to human nature.\nMillions of men began to do one another so much injury -\nby treachery, plunder, arson and murder - that every court\nof justice in the world could have been furnished with suf-\nficient material to fill its files for centuries to come.\"\n\nWith him we shall be of the opinion that the victors\nin all these bloody battles were not the better men or even\nthe cleverer men, and that in all military success it is\nnot genius alone which is decisive, but, on the contrary,\nthat genius is aided by chance and countless other factors.\nTime after time, therefore, in our assessment of every event",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 23,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.24",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 24,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.25",
-        "transcription_a": "",
-        "transcription_b": "13.\n{definition of heroic achievement}\nand every man, the one decisive question for us will be:\n\"What has this man done - not ~~only~~ {merely} for his Fatherland,\nbut for all lands, for humanity?\" Let us not forget this:\nin our three thousand years of history something must have\nhappened to enable the unclean animal called man to crawl\nout of his cave and learn not only how to kill beasts and\nother men, but also how to master the elements, to transport\nhimself by land and water, and in the course of the years\nto multiply the strength of his hands by the invention of\nmachines. Something must have happened to man which urged\nhim to discover the art of writing, to gaze at the invisible\nthrough a microscope, to examine the stars through a tele-\nscope and calculate their orbits, to tame the lightning\nand to transmit speech, thoughts and pictures across con-\ntinents and oceans. The conquest of civilization, the\nachievement of intellectual domination over the rest of\ncreation - are not these more important than the history\n{of mankind}\n{than all} of all the individual conquests of cities and countries?\nAre they not the only achievements which inspire us with\nthe confidence that we are slowly - very slowly, I must\nadmit - overcoming the primitive impulses of our own natures,\nthat mankind is not standing still, but marching on towards\nan invisible goal. Only those who have led the way along\nthis path will receive our veneration, and no others. Only\nthose who have made a contribution to ~~the community~~ {to the\ncommon weal}, to the advancement of humanity will rank as\n~~heroes~~ in our new history. Is such a fundamental",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 25,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.26",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 26,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.27",
-        "transcription_a": "",
-        "transcription_b": "13.a\n\nrevaluation possible? A transference, as one might say,\nfrom one account to the other, from debit to credit? I\nam convinced of it, for I myself once experienced such a\nchange of attitude.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 27,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.28",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 28,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.29",
-        "transcription_a": "",
-        "transcription_b": "- 14 -\n\nprevailing nationalism, we see everything only in relation to the\nState, and those by whom we are ruled would like to force us to think\nonly for the State and in consonance with its aims and objects. Un-\nconsciously, and I fear consciously too, the teaching of history is as\nsubservient to the demands of the State as is man himself.\n\nIt is my conviction that everyone who feels this hyper-\ntrophy of nationalism and the State-idea to be the supreme misfortune\nboth of our generation and of the one now growing to manhood is help-\ning to free the world from a hypnosis, and that therefore history\nmust be taught in future not with a view to the glorification of\nindividual nations, but with a view to serving the common glory of all\nmankind. We must change our viewpoint and, if we are to see the\nworld in a proper light, we must ascend a few steps higher to where,\nas in a landscape, details are merged in the whole and our eyes rest\nonly upon a vast panorama. Such a change of viewpoint appears to me\nnot only possible, but in every sense full of prospects. I can still\nremember {this} book, published many years ago, which was a revelation to\nour young minds, because it taught us to look at natural history with\ndifferent eyes. This was a change of viewpoint such as the one of\nwhich I am speaking. The book was by Prince Kropotkin, and it was\ncalled Mutual Help among Men and Animals. Previously we had been told\nin books innumerable that the fundamental law of nature was the\n'struggle for existence'; that field and forest, marsh and lake, the\nair and the ocean are one vast scene of frenzied strife and ruthless\nmassacre. The beasts of the field and the birds of the air hunt one\nanother no less fiercely than men ~~hunt one another~~, and almost as\n{homo homini lupus}\ncunningly. Everywhere the stronger falls upon the weaker. The whol\nanimal world is swayed by the instinct of mutual destruction. {that we}",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 29,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.30",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 30,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.31",
-        "transcription_a": "",
-        "transcription_b": "- 15 -\n{What we were taught to believe.}\nThen came this book, which demonstrated by a ~~multitude~~ {mass}\n{precisely}\nexamples how ~~many~~ among animals, whom we had always been taught to\nregard as purely bestial and devoid of reasoning power, we find one\ncreature helping another, and not only a member of its own species. We\nlearned that among animals, no less than among men, the instinct of\negotism is held mysteriously in check by the instinct of solidarity. If\nthis can be the result of mere instinct in the animal world, ~~unconscious~~\nly ~~and without the aid of teaching~~ - how much more possible should it\nbe for us ~~human beings~~, who are accessible to reason and in whose souls\n{humanity}\nthe voice of ~~God~~ speaks through conscience, to rise higher and higher\n{Indeed}\nabove our animal nature and its evil impulses. ~~Have we not indeed done~~\n~~so during these thousands of years?~~ Has it not been our ~~only~~ true\nachievement that, in spite of ~~all~~ wars and battles ~~which history has all~~\n~~to faithfully recorded,~~ we have during the past few centuries only with\nreluctance, and with a bad conscience, allowed ourselves to be driven\ninto wars? ~~Is it not true, in spite of official glorification such as~~\n~~we see especially in Germany to-day, that in our inmost hearts we mis-~~\n~~trust this kind of heroism?~~ {Is it not true, in spite of official glorification such as we see especially in authoritarian countries to-day, that in our inmost hearts we mistrust this kind of heroism?} If we are honest with ourselves, must we\nnot admit that we are a thousand times prouder of our cultural achieve-\nments, of the progress of our civilisation? And is it not therefore a\n{interpretation}\nlogical conclusion that we should prefer a ~~portrayal~~ of history which\n~~enabled us to forget all the victories of the past, a portrayal which~~\n{has laid its chief emphasis on}\n~~furnished us instead with the fortifying assurance that our civilisation~~\n{we}\n~~and culture are continuing to advance?~~ {Constantly advancing?}\n~~That every decade, even every~~\n~~year, brings fresh discoveries and new inventions to increase our master~~\n~~over the elements?~~ That though we may occasionally stumble and revert\n{one}\nfor a ~~bloody~~ moment ~~for time~~ to ~~the~~ old barbarism, yet we are not walkin",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 31,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.32",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 32,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.33",
-        "transcription_a": "",
-        "transcription_b": "- 16 -\n\nround in a futile circle, but moving steadily towards an invisible\ngoal?\n{the}\n{in future} {it is made on fundamental principle of principles}\nIf ~~we can infuse the history~~ {teaching} of to-morrow with the\n{divided}\nbelief that everything which has isolated ~~and introduced conflict~~\n{error which no longer affects us} {only those achieve-}\n~~among the~~ nations was a ~~false development, and that an essential mean-~~\n{ments are worthy of mention, which have} {the}\n~~ing is to be found only in that which contributes~~ to ~~our~~ common prog-\n{a} {shaped}\nress, then I believe that the mentality ~~of to-morrow~~ will be better\n{which will be more promising and optimistic than the}\n~~and more optimistic than the mentality of to-day.~~ Let us compare,\n{to}\nfrom the point of view of spiritual inspiration, the way in which\nhistory has been taught in the past with the way in which it might be\n{incessant enumeration}\ntaught in the future. What do we learn from ~~the record~~ of wars? ~~only~~\n{Nothing except} the wrongs which the nations have inflicted on one another in the\ncourse of the centuries! How France has plundered Germany and Germany\nFrance; how Persia set her heel on Greece and Greece set her heel on\nPersia! ~~And what have we gained on balance? The lust for war and the~~\n~~hatred of one nation for another!~~ The history of civilisation of\nwhich I dream, on the other hand, would depict the exact opposite. It\nwould show not the wrongs which the nations have inflicted upon one\nanother, but the benefits they have conferred one another. It\nwould show that almost everything that has been achieved in the realm\nof religion, philosophy, science and art has been a collective achiev-\nement; that in the case of every invention and every discovery the\npioneer work was begun by one nation and continued by another; that\n{no longer matters till then to mankind}\n~~it was a matter of indifference who conquered or who was defeated,~~\n{but only those achievements which have aided as to conquer our common}\n~~because the victors often learned from the vanquished; and that ult-~~\n{imately the Tower of Babel is the creation of all the peoples jointly}\n{Country - the earth and the realms of the mind}\nWhereas the old type of history, war history, continually makes fresh\nattempts to lure youth to admire force as the supreme law, and to",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 33,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.34",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 34,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.35",
-        "transcription_a": "",
-        "transcription_b": "- 17 -\n\nregard visible success as the final proof of achievement, the history\n{which we demand for school and life would}\nof civilisation teache~~s~~ us to honour the spirit ~~in its thousandfold~~\n~~forms~~ - that immortal spirit of humanity which Dictators and censors\nhave often been able to muzzle for a brief hour, but never wholly to\n{I hope, that the biographers}\n{only}\nstifle. ~~The historian~~ of the future will not ~~take~~ the Alexanders, the\n{as we were taught to do} {elevate above them}\nNapoleons and the Attilas as his protagonists, but ~~will acknowledge~~ as\n{as the true models of heroic achievement}\n~~heroes only~~ those who have served the spirit, ~~giving it new form and~~\n~~expression,~~ those who have increased the sum of human knowledge, those\nwho have endowed our physical senses with power over the elements and\n{reserve towers of enthusiasm}\nrevealed the secrets of heaven and earth - the Franklins, the Mont-\ngolfiers, the Galileos, the Edisons, the Einsteins - heroes ~~of the~~\n{trifling tracts of land}\nspirit who have conquered not ~~minute territories,~~ but the universe\nitself. ~~Neue Liste der Werke, Modern Heroism als den der neuen~~\n~~Heroismus der [?]~~\n{of the history of the past}\nPerhaps some of my audience, while admitting that ~~history~~\n~~should be written solely as the record of human progress, will object~~\n~~that it must after all stimulate the imagination.~~ {only those achievements should}\n~~The depiction of the~~\n{most of this spiritual achievements} {so powerfully}\nachievements of the spirit, of civilisation, do not ~~stir the mind so~~\n{especially}\n~~strongly as the~~ descriptions of wars and battles, revolutions and ~~of the~~\n{young}\ndaring expeditions. ~~This objection is, in itself, perfectly justified.~~\nWe have all in our boyhood felt more enthusiasm for Alcibiades and\nAlexander, or for the heroes of Thermopylae, than for the just judge\n{because and on the other hand}\nSolon and the wise Emperor Marcus Aurelius. The depiction of the pass-\nions is also a more thankful task for the writer than the describing of\n{afraid to say}\nmoral virtues. Justice, tolerance and humanity lack the excitement and\ntension necessary for a direct appeal to the reader. It is always\neasier to pay homage to tangible successes, to violent instincts. It\nis always easier to praise the mighty and celebrate the victor. I am",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 35,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.36",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 36,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.37",
-        "transcription_a": "",
-        "transcription_b": "But here 18\nWhile admitting that of the history of the past only\nthose achievements should stimulate our interest, which\nhave been done for the sake of the whole mankind perhaps\nsome of my audience will object, that these spiritual achie-\nvements do not so powerfully ~~stimulate~~ stir the minds\nof the young as the description of wars and battles, revo-\nlutions and daring exploits. This objection is perfectly\njustified. Indeed you are quite right - it is always\neasier to pay homage to tangible successes, to violent\ninstincts. Wars have something fascinating in it like every\noutburst of passion and we all felt in our boyhood more\nenthusiasm for ~~Alcibiades~~ {Hannibal} or Alexander than for Solon,\nthe just judge and the wise emperor Marcus Aurelius.\nEspecially for young ~~man~~ {minds} justice, tolerance ~~minds~~ the\n~~very~~ - I am sorry to have to confess it - the very\nvirtues, which we are most anxious to ~~praise~~ {promote}: justice,\ntolerance, patience, pacifism, seem a little dull because\nthey lack visible and dramatic impulses. I know from\nmy own experience that it is more difficult and less\nfruitful to portray the gentle humanity of an Erasmus\nthan the entertaining adventures of Casanova or the meteo-\nric rise of a Napoleon. But ~~should~~ must we therefore\nyield to the unconscious desire of the masses for the\nexcitement and the sensational? No - never! Convinced\nas we are of the terrible consequences of glorifying",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 37,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.38",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 38,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.39",
-        "transcription_a": "",
-        "transcription_b": "18a\nin the interpretation of history\nforce and success, we must remain firmly resolved, never\nto lend ourselves to the portrayal of the heroism of brutality.\n~~Let him have his moment of triumph~~ he cannot confuse our judgement\nOur duty, our only and true task must be to substitute for\nyesterdays conception a new, a better one - the heroism\nof the unknown and not of the well known, the heroism of\nthe great scholars who pass their lonely lives, poor and for-\ngotten, in their laboratories. The heroism of the statesman,\nprinces and presidents, who ~~have never~~ {did not} wage wars ~~but were wise~~\n~~enough to prevent them~~ ..., the heroism of the sufferers and\nnot of the butcherers. One man, who has given its own life\nfor an idea is a thousand times more worthy of our\nveneration, than those illustrious figures, who have sacrificed\n- and ~~sacrifice~~ {are} still ~~sacrificing~~ - millions of lives for their own ~~and~~\nor their nations pride. For us means conviction more than\nsuccess, ~~a~~ noble failure more than ~~a~~ brutal success\nand our sympathies ~~are~~ shall never be with the violators\nbut with the victims.\nI am convinced, that ~~our~~ {the} ~~education~~ {mentality} depends\nin the highest degree in what we have learned to love and\nwhat we have learned to reject. {the history} That's why we ~~must~~ demand\nthis complete revaluation of hero-worship. We must fight\nagainst the traditional humiliating conception of irratio-\nnalism, which paints the history of mankind as an incessant\ngladiatorial combat, staged for the edification of an",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 39,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.40",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 40,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.41",
-        "transcription_a": "",
-        "transcription_b": "18b\nindifferent god. No - as we want for our own life the crea-\ntive significance of a moral sense, so we must ask it for the\nwhole of mankind. We ourselves are the heroes, the actors, the\npoets, the creators of this grandiose drama, which is called\n'Advance of mankind' Each of us, insignificant as his existence\nmay appear, has a line to speak or a gesture to make in it and\nI for my part, feel greater pride in this anonymous acting\nthan in the futile glory, which only promotes the interests\nof one particular group. Happily there are [19]",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 41,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.42",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 42,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.43",
-        "transcription_a": "",
-        "transcription_b": "- 19 -\n\nthat there is a meaning in the eternal activity and endeavour of man-\nkind; that each of us, insignificant as his existence may appear, has\nbeen allotted a line or a gesture in the play; that humanity has a\nmission! Just as a man only really lives when he feels that his life\nhas meaning, so we can only feel that history is significant when we\nourselves invest it with meaning - namely, as progress towards an\never high stage of humanity.\n{education Weltbürger}\nI believe that our own progress depends upon the history of\nthe future being written as the history of the heroism of the spirit.\n{Reading history} {eternal bridges / we} {common}\nIt must not cause man to despair of mankind, but must stir in him a\nnew pride in his humanity, in his mastery over the elements, his con-\nquest of Nature, his wresting of their secrets from earth and sky.\nThere are already promising signs that such an interpretation of his-\n{not merely}\ntory is possible, ~~is~~ even on the ~~way~~ {march}. During the last decades we have\nseen attempts to portray history ~~not merely as a calendar of battles,~~ \n~~as a bloody orbit of violence, but~~ as a series of steps which mankind\nis ascending; and I consider that the world owes a deep debt of grati-\ntude to your country for the fact that among you, in particular, this\ntype of book has met with the greatest success and the widest circula-\ntion. I need only recall H.G. Wells's Outline of History, which repres-\nents the first balanced attempt to see world history as the mutual\nfructification of the peoples. I would further mention the story of\nyour own nation, which the authors, Charles and Mary Beard, deliber-\nately called not 'The History of America', but The Rise of American\nCivilisation. Then there is van Loon's History of Tolerance. And it\nwas a special satisfaction to me that a book like the biography of\nMadame Curie should have won millions of hearts in this country, for\nit represents the very type of historical interpretation which I hope",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 43,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.44",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 44,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.45",
-        "transcription_a": "",
-        "transcription_b": "- 20 -\n\nwill become general - the revelation of heroism in a human soul,\nheroism from inward conviction and not at a word of command, heroism\n{The more we extend our world the more all boundaries dwindle}\n~~on behalf of humanity.~~ ~~This final criterion, which asks not what a~~\n~~man has achieved for himself or his nation, but what he has achieved~~\n~~for all, must and will become the criterion of the future.~~ ~~For what~~\n{for instance do} {over Austria} {Both} {and the Austrian}\n~~do Napoleon's victories mean to us to-day?~~ His own Empire has long\n{have}\nsince crumbled into dust. But in the very year when he defeated an\nAustria that no longer exists, and on the same Italian soil, while\nmedals were being struck in his honour and triumphal processions\nplanned, an unknown scholar named Alessandro Volta was sitting in a\nsmall room working at a tiny apparatus. A spark sprang from the first\nelectric battery he had himself constructed and a force was engendered\nwhich to-day determines our whole lives, which illuminates the hall\nin which we are assembled at this moment and enables voices to vibrate\nthroughout the world, which drives our trains, activates our machines,\nand endows us with a sense of community such as our forefathers did\n{dream of}\nnot dare to envisage ~~even in their wildest dreams.~~\n\nI therefore ask you - which of these two men means more to\n{lives of heroism}\nus to-day? Which of the two is it more fitting for us, of a later\ngeneration, to praise? And just think of the innumerable achievements\nof this kind that we - I emphasise, we - have to our credit! It is\n{achievements of the spirit}\nthese achievements above all that the historian of to-morrow, as I\nhope, will put on record, rather than ephemeral changes in territorial\nfrontiers. There will, I am convinced, be no lack of material, no lack\nof new achievements and deeds of heroism even when the barbarism of\ninternecine strife has ceased. In the Preface to a summary of the\nscientific progress made only during the past year, I read recently\n{A faint afraid, in [?] [?] [?] [?] [?] [?] [?]}",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 45,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.46",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 46,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.47",
-        "transcription_a": "",
-        "transcription_b": "20\n{form of}\nThis, it seems to me, is the one important\n~~struggle conquest which matters.~~\n~~battle of mankind, which we should extoll. and~~\n~~I am convinced instead of ephemeral changes in terri-~~\n~~torial frontiers rather than those ephemeral annexations~~\nand every day brings us such victories: there will never\nbe any lack of material, - on the contrary, the history\n{abundance}\nof progress offers ~~such a~~ such a mass, that we can\nscarcely cope with. [20 words] When I read this, I\nfelt really ashamed, for we all of us do not know\n{selves}\nenough of our common achievement. We allow our~~selves~~\n{to easily}\n~~attention to be to easily distracted~~ by the ~~foolishness~~ {folly}\nof contemporary politics and consequently overlook, the\nessentials continued creativeness of human reason.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 47,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.48",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 48,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.49",
-        "transcription_a": "",
-        "transcription_b": "- 21 -\n{, still fettered by the old ideas}\na sentence which moved me deeply. It ran as follows:\n\n\"Never, since the beginning of the world, has man invented and\ndiscovered so much as during the last twelve months, and never has he\nknown so little about what he has found.\"\n{No, true}\nThis is a statement of the most profound import, for it is\ntrue that we do not know enough about the significant and encouraging\nthings that are happening in our own time. We mistakenly regard the\npolitical triumphs of a despotic ruler, the conquest of a fragment of\n{these}\nthe world's surface, as the history of our age - yet ~~they~~ are scarcely\nthe history of a moment. That which is really going to transform the\nlives of the next generation is perhaps happening during the minutes\n{have spoken been speaking}\nthat I am speaking to you, in one or other of the thousands of laborat-\nories where someone is working at an apparently insignificant experiment\n~~or a complicated and incomprehensible calculation.~~ And it seems to me\n{its}\nthat the most important task of the historian is to reveal ~~the~~ signific-\nance ~~of this experiment and to make the calculation comprehensible;~~\n{it}\nto inject ~~man~~, so to speak, as a vital element into the life-blood ~~and~~\n{creative work}\n~~pulsating thought~~ of our age. Only when we remember that ~~this alone is~~\n{it}\n~~alone has permanence~~, that ~~this work~~ never ceases, that every\nhour of our joint lives denotes an advance, ~~as it were,~~ that ~~history~~\n{we all}\n{more achievements}\nstill jointly making invisible conquests and the spirit of man is tri-\n{than ever before}\numph~~ant~~ as ~~it has never done before~~ - only then ~~can~~ we find comfort in\n~~spite of the foolish endeavours of individual nations and dictators to~~\n~~check the onward march of humanity by driving the peoples into conflict.~~\n\nOnly when we survey the present state of the world from the new view-\n{in His}\npoint which I have indicated, is it possible not to despair ~~of our~~ age.\n{of brutality and dictatorships.}\nAs citizens of a particular State we may be disillusioned and disheart-\n{our wonderful}\nened, but as men of ~~our own~~ age we can preserve our pride, ~~so~~\n{so that we may not only write but also create with our through our lives a better history for mankind}",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 49,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.50",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 50,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.51",
-        "transcription_a": "",
-        "transcription_b": "- 18 -\n\naware, from my own experience, that it is more difficult and less\nfruitful to portray the gentle humanity of an Erasmus than the enter-\ntaining adventures of a Casanova or the meteoric rise of a Napoleon.\n{must we therefore}\nBut ~~is the historian to~~ yield to the unconscious desire of the masses\n{sensational}\nfor the cheap stimulant of the sensational and the brutal? Is it not\n{we}\nrather his duty, ~~for the very reason that he realises the danger of~~\n~~this taste for the sensational,~~ to portray not the heroism of brutality\nbut the heroism which in his heart he recognises as being of greater\nvalue - that of the great scholars who pass their lonely lives, poor\nand unknown, in their laboratories; that of the statesmen, princes\nand Presidents who have never waged a war, but have devoted all their\n{If we believe, that [?] of history [?] [?] [?] [?] [?]}\nenergies to the furtherance of humanity and appeasement? ~~Is it not his~~\n~~duty to direct the instinct of hero-worship along different channels,~~\n~~setting up as examples to mankind those who have suffered death for an~~\n~~idea instead of those who have caused the deaths of millions of others~~\n~~for their own or their nation's egotistic ends?~~ Should not ~~this~~ be\nthe task of the historian of the future, a task all the more splendid\nsince it will be difficult and thankless? {What we lose in excitement we will gain in [?] [?] [?]}\n\nCan we not imagine the clarion call that will go forth at\n{unity}\nthis revelation of the eternal ~~unity~~ of the creative spirit, this\nproof that the ages and the peoples are bound one to the other by an\ninvisible chain to which each new nation, each successive year, adds a\nfresh link! When it is shown that the three thousand years during\nwhich man has been conscious of his humanity have not been a mere\nseries of cruel, meaningless gladiatorial shows put on for the\n{No - we the mankind}\ntion of a drunken god! That we ourselves are the heroes, the actors,\nthe poets, the creators of a grandiose drama! When we are able",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 51,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.52",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 52,
-        "image_url": "https://gams.uni-graz.at/o:szd.204/IMG.53",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
+        "transcription_b": "- 3 -\n\nhaving again and again emphasised the need for genuine peace and\npermanent world understanding. Yet we have grown very distrustful of\n{by now}\nconferences, proclamations and appeals. These may (perhaps) have\nprevented or postponed trouble in individual cases, but they have not\n{dispelled the atmosphere of suspicion and enmity}\n~~altered the moral, or rather immoral, condition~~ in which the world at\nlarge finds itself to-day. It seems that the quiet, contemplative\nvoice of reason is too weak to be heard above the megaphone with which\norganised propaganda is thundering its slogans throughout the world,\nand it is in fact in the very nature of reason that its effects can\nrarely appear immediately. Perhaps we shall even have to renounce\nthe attempt to cure the present generation, the War generation, which\nhas political control in most countries, ~~of its lauding of force, its~~\n{and}\n~~apotheosis of war, and its mentality of hatred.~~ ~~Perhaps~~ Our real\n{task}\n~~work~~ lies in the application of all our energies towards ensuring\n{shall}\nthat at least the next generation, the youth of to-day, ~~should~~ not\n{same} {same}\nsuccumb to this ~~infection,~~ this ~~fever.~~ Adults do not learn much, not\neven through dire experiences, and all our efforts must be directed\ntowards reaching the young at an age when their souls are still like\nplastic wax in the hands of their educators. If the new generation\nis to be better, more humane, and above all happier than ours, into\nwhose lives the War cut deeply, striking us to the very core, it\nmust be better and more humanely educated. Within the framework of\nthis new education it seems to me that the most important element is\na different form and conception of history from those which were\nimparted to us at school. Nothing so decisively shapes a young\nperson's political and individual attitude to life as the way in\nwhich he has learned and comprehended history.\n\n[Unterer Rand:]\n{But all education is}\n{based on example, and we can find no better examples for the education}\n{of mankind than those contained in the history of mankind. Only}",
+        "cer": 0.0421,
+        "agreement": "moderate"
       }
     ]
   },

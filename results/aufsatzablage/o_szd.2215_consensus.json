@@ -1,0 +1,118 @@
+{
+  "object_id": "o_szd.2215",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.3257,
+    "overall_cer_orderless": 0.6598,
+    "effective_cer": 0.3257,
+    "word_overlap": 0.8664,
+    "category": "consensus_review",
+    "content_pages": 3,
+    "skipped_pages": 0,
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.3125,
+        "cer_orderless": 1.5516,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 1008,
+        "chars_b": 1321
+      },
+      {
+        "page": 1,
+        "cer": 0.0098,
+        "cer_orderless": 0.0098,
+        "agreement": "high",
+        "type": "content",
+        "chars_a": 1835,
+        "chars_b": 1849
+      },
+      {
+        "page": 2,
+        "cer": 1.0,
+        "cer_orderless": 1.0,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 873,
+        "chars_b": 0
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.2215",
+    "collection": "aufsatzablage",
+    "group": "zeitungsausschnitt",
+    "title": "Aus der Werkstatt der Dichter, SZ-AAP/W-AA215.1",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.3257,
+      "overall_cer_orderless": 0.6598,
+      "effective_cer": 0.3257,
+      "word_overlap": 0.8664,
+      "category": "consensus_review",
+      "content_pages": 3,
+      "skipped_pages": 0,
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.3125,
+          "cer_orderless": 1.5516,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 1008,
+          "chars_b": 1321
+        },
+        {
+          "page": 1,
+          "cer": 0.0098,
+          "cer_orderless": 0.0098,
+          "agreement": "high",
+          "type": "content",
+          "chars_a": 1835,
+          "chars_b": 1849
+        },
+        {
+          "page": 2,
+          "cer": 1.0,
+          "cer_orderless": 1.0,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 873,
+          "chars_b": 0
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.2215/IMG.1",
+        "transcription_a": "5. Februar 25\n\nAUS DER\nWERKSTATT DER\nDICHTER\n\nDie Geburt der geistigen Werke wird immer ein\nMysterium bleiben. Aber schon das Auftauchen der\nkünstlerischen Vision, das Wachstum der Form und\ndie individuellen Arbeitsweisen sind so persönlich und\nverschieden, daß es uns bedeutsam genug erschien,\nmehrere bekannte Autoren um einen Beitrag zu\ndiesem Thema zu bitten.\n\nStefan Zweig\nAus einer Manuskriptseite der „Phantastischen Nacht“ aus dem Novellenband „Amok“ (Originalgröße)\n\nStefan Zweig schreibt:\n„In einem seiner psychoanalytischen Werke\nhat Professor Freud ausgezeichnet dar-\ngestellt, wie jeder Mensch in seinen täg-\nlich wiederholten Funktionen – Anziehen,\nWaschen, Zähneputzen – ein gewisses\n„Ritual“ entwickelt, eine ganz persönliche,\ngeradezu zwanghaft gewordene Form; uns,\ndenen die Arbeit eine fast tägliche und ge-\nwiß die bestimmende Funktion des Lebens\nbedeutet, ist es unmöglich (und dafür bie-\nten gerade die Manuskripte ein sinnbild-\nliches Zeugnis), gerade bei der Arbeit dieser\nFortsetzung auf Seite 123",
+        "transcription_b": "Uhp[?] \" 5. Februar 25\nAUS DER\nWERKSTATT DER\nDICHTER\n\nDie Geburt der geistigen Werke wird immer ein\nMysterium bleiben. Aber schon das Auftauchen der\nkünstlerischen Vision, das Wachstum der Form und\ndie individuellen Arbeitsweisen sind so persönlich und\nverschieden, daß es uns bedeutsam genug erschien,\nmehrere bekannte Autoren um einen Beitrag zu\ndiesem Thema zu bitten.\n\nbei jedem rechten Erzähler im Lesen spürte, ohne uns\nüber das Geheimnis dieser [...]\nAber ich schreibe diese Zei\nbestimmt, etwas, was ich\ndem verständlich zu machen\n~~alle[?] Zufall[?] über~~ eine\nliegt und wie eine unablä\nSinne {endlich} fertig zu werden, a\n\n1 (Reche\nich u.\nzu er\nzu fer\nu nun\nbewe\nmich d\n\nPhot. Boedecker\nStefan Zweig\nAus einer Manuskriptseite der „Phantastischen Nacht“ aus dem Novellenband „Amok“ (Originalgröße)\n\nStefan Zweig schreibt:\n„In einem seiner psychoanalytischen Werke\nhat Professor Freud ausgezeichnet dar-\ngestellt, wie jeder Mensch in seinen täg-\nlich wiederholten Funktionen — Anziehen,\nWaschen, Zähneputzen — ein gewisses\n„Ritual“ entwickelt, eine ganz persönliche,\n\ngeradezu zwanghaft gewordene Form; uns,\ndenen die Arbeit eine fast tägliche und ge-\nwiß die bestimmende Funktion des Lebens\nbedeutet, ist es unmöglich (und dafür bie-\nten gerade die Manuskripte ein sinnbild-\nliches Zeugnis), gerade bei der Arbeit dieser\nFortsetzung auf Seite 123\n41",
+        "cer": 0.3125,
+        "agreement": "low"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.2215/IMG.2",
+        "transcription_a": "Stefan Zweig. Fortsetzung von S. 41\nallmählich despotischen Gesetzlichkeit, die-\nsem Ritual zu entgehen. So beobachtete ich\nbei mir die Gewohnheit, jede Arbeit bei\nder ersten Niederschrift unweigerlich mit\nBleistift vorzunehmen, offenbar aus einem\ngeheimen Sicherungsgefühl, es sei nur eine\nganz unverbindliche, ganz provisorische\nForm der Fixierung, nur ein Brouillon (in-\ndes in den meisten Fällen die Urform doch\ndie gültige bleibt). Dann erst schreibe ich\nmit Tinte, womöglich auf gleichmäßig\ngroßes Papier, den ersten Entwurf ab –\nund dies möchte ich im Gegensatz zu der\nersten heißen, jagdhaften, eilenden und oft\nbeflügelten Form die eigentliche Arbeit\nnennen. Denn was dann folgt, das oft und\noft wiederholte Durchbosseln und Durch-\nfeilen der Sätze zu stärkerem, präziserem\nAusdruck – dieses Spiel mit der schon\ngesicherten, gleichsam gebundenen, eines\nEntweichens nicht mehr fähigen Gestaltung\nist ein Vergnügen, eine Lust, die ich mit\nkeiner anderen vergleichen möchte. Darum\nauch nichts von Mitleid mit den Künstlern,\nderen Manuskripte auf jeder Seite un-\nzählige Spuren der Nachbesserung auf-\n\nweisen – denn dies ständige Klären und\nHerausschälen der Formen ist nicht\nKärrnerarbeit, eine ungern vollbrachte\nAckers- und Pflügermühe, sondern die ur-\neigentliche Artistenfreude, eine bewußt be-\nschworene Verlängerung des produktiven\nZustandes über die eigentliche Produktion\nhinaus. Es läßt sich nicht beschreiben, nur\nimmer wieder erleben – und auch ein\nBlatt seiner Hand reproduziert nur sein\neindringliches Wirken, ohne aber die ge-\nheime Freude zu lassen, die diesen\nZustand durchwaltet: so wird gerade, was\nsinnlich Mühe scheint, in der Kunst geistig\nzum Genuß, was für den oberflächlichen\nBlick die eigentliche Anstrengung zu be-\ndeuten scheint, das wahre von der Angst\nund dem Krampf der ersten Selbstüber-\nraschung schon erlöste Spiel.“",
+        "transcription_b": "Stefan Zweig. Fortsetzung von S. 41\nallmählich despotischen Gesetzlichkeit, die-\nsem Ritual zu entgehen. So beobachtete ich\nbei mir die Gewohnheit, jede Arbeit bei\nder ersten Niederschrift unweigerlich mit\nBleistift vorzunehmen, offenbar aus einem\ngeheimen Sicherungsgefühl, es sei nur eine\nganz unverbindliche, ganz provisorische\nForm der Fixierung, nur ein Brouillon (in-\ndes in den meisten Fällen die Urform doch\ndie gültige bleibt). Dann erst schreibe ich\nmit Tinte, womöglich auf gleichmäßig\ngroßes Papier, den ersten Entwurf ab —\nund dies möchte ich im Gegensatz zu der\nersten heißen, jagdhaften, eilenden und oft\nbeflügelten Form die eigentliche Arbeit\nnennen. Denn was dann folgt, das oft und\noft wiederholte Durchbosseln und Durch-\nfeilen der Sätze zu stärkerem, präziserem\nAusdruck — dieses Spiel mit der schon\ngesicherten, gleichsam gebundenen, eines\nEntweichens nicht mehr fähigen Gestaltung\nist ein Vergnügen, eine Lust, die ich mit\nkeiner anderen vergleichen möchte. Darum\nauch nichts von Mitleid mit den Künstlern,\nderen Manuskripte auf jeder Seite un-\nzählige Spuren der Nachbesserung auf-\n\n11\n//\n\nweisen — denn dies ständige Klären und\nHerausschälen der Formen ist nicht\nKärrnerarbeit, eine ungern vollbrachte\nAckers- und Pflügermühe, sondern die ur-\neigentliche Artistenfreude, eine bewußt be-\nschworene Verlängerung des produktiven\nZustandes über die eigentliche Produktion\nhinaus. Es läßt sich nicht beschreiben, nur\nimmer wieder erleben — und auch ein\nBlatt seiner Hand reproduziert nur sein\neindringliches Wirken, ohne aber die ge-\nheime Freude ahnen zu lassen, die diesen\nZustand durchwaltet: so wird gerade, was\nsinnlich Mühe scheint, in der Kunst geistig\nzum Genuß, was für den oberflächlichen\nBlick die eigentliche Anstrengung zu be-\ndeuten scheint, das wahre von der Angst\nund dem Krampf der ersten Selbstüber-\nraschung schon erlöste Spiel.“\n*",
+        "cer": 0.0098,
+        "agreement": "high"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.2215/IMG.3",
+        "transcription_a": "großes Papier, den ersten Entwurf ab –\nund dies möchte ich im Gegensatz zu der\nersten heißen, jagdhaften, eilenden und oft\nbeflügelten Form die eigentliche Arbeit\nnennen. Denn was dann folgt, das oft und\noft wiederholte Durchbosseln und Durch-\nfeilen der Sätze zu stärkerem, präziserem\nAusdruck – dieses Spiel mit der schon\ngesicherten, gleichsam gebundenen, eines\nEntweichens nicht mehr fähigen Gestaltung\nist ein Vergnügen, eine Lust, die ich mit\nkeiner anderen vergleichen möchte. Darum\nauch nichts von Mitleid mit den Künstlern,\nderen Manuskripte auf jeder Seite un-\nzählige Spuren der Nachbesserung auf-\n\nZustand durchwaltet: so wird gerade, was\nsinnlich Mühe scheint, in der Kunst geistig\nzum Genuß, was für den oberflächlichen\nBlick die eigentliche Anstrengung zu be-\ndeuten scheint, das wahre von der Angst\nund dem Krampf der ersten Selbstüber-\nraschung schon erlöste Spiel.“",
+        "transcription_b": "",
+        "cer": 1.0,
+        "agreement": "low"
+      }
+    ]
+  },
+  "judge_result": null
+}

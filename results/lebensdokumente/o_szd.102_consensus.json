@@ -1,0 +1,118 @@
+{
+  "object_id": "o_szd.102",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.0546,
+    "overall_cer_orderless": 0.0546,
+    "effective_cer": 0.0546,
+    "word_overlap": 0.9847,
+    "category": "consensus_verified",
+    "content_pages": 3,
+    "skipped_pages": 0,
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.0032,
+        "cer_orderless": 0.0032,
+        "agreement": "high",
+        "type": "content",
+        "chars_a": 2177,
+        "chars_b": 2175
+      },
+      {
+        "page": 1,
+        "cer": 0.042,
+        "cer_orderless": 0.042,
+        "agreement": "moderate",
+        "type": "content",
+        "chars_a": 119,
+        "chars_b": 123
+      },
+      {
+        "page": 2,
+        "cer": 1.0,
+        "cer_orderless": 1.0,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 119,
+        "chars_b": 0
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.102",
+    "collection": "lebensdokumente",
+    "group": "typoskript",
+    "title": "Agreement THE VIKING PRESS, INC., SZ-AAP/L13.25",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.0546,
+      "overall_cer_orderless": 0.0546,
+      "effective_cer": 0.0546,
+      "word_overlap": 0.9847,
+      "category": "consensus_verified",
+      "content_pages": 3,
+      "skipped_pages": 0,
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.0032,
+          "cer_orderless": 0.0032,
+          "agreement": "high",
+          "type": "content",
+          "chars_a": 2177,
+          "chars_b": 2175
+        },
+        {
+          "page": 1,
+          "cer": 0.042,
+          "cer_orderless": 0.042,
+          "agreement": "moderate",
+          "type": "content",
+          "chars_a": 119,
+          "chars_b": 123
+        },
+        {
+          "page": 2,
+          "cer": 1.0,
+          "cer_orderless": 1.0,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 119,
+          "chars_b": 0
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.102/IMG.1",
+        "transcription_a": "AGREEMENT made this first day of March, 1939, between STEFAN\nZWEIG of 49 Hallam Street, London, W. 1, England, and THE VIKING PRESS, INC.\nof 18 East 48th Street, New York City, U.S.A.:\n\n1. The Publishers agree to publish in a single volume\n\"ADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\" (Balzac, Dickens,\nDostoeffsky) for both of which the Publishers now possess the world rights\nin the English language, together with an English version of \"DER KAMPF MIT\nDEM DAMON,\" all three of which works are by said Stefan Zweig who hereby\nagrees to give said Viking Press all rights in the last named work that\nthey now possess in the first two named.\n\n2. It is agreed between the Publishers and the Author that\nthe terms, conditions, rights and obligations under which the above named\nvolume shall be issued, are to be in all respects identical with the agree-\nment between the same parties dated December 28, 1938 with respect to\n\"BEWARE OF PITY\" by the same author, but with the following exceptions:\n\n(a) The Author grants and assigns to the Publishers the\nsole and exclusive right to publish said work in all\ncountries; and\n\n(b) The Publishers agree to pay to the Author fifteen\n(15%) per cent of the amount that they may receive for\neditions for export; and\n\n(c) The Publishers agree to pay the author eighty (80%)\nper cent of such income as they may derive from the\nsale of the right to an English or other foreign publisher\nto publish an edition in English on a royalty basis or\nfor an outright sum.\n\n3. The purpose of the above paragraphs \"a\" and \"b\" is\nto make the present agreement conform to the Publishers' present rights in\nADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\", and the purpose of\nparagraph \"c\" is to provide for a contingency that is not covered by the\nBEWARE OF PITY agreement.\n\n4. The Author agrees to supply to the Publishers an\nadequate English version of \"DER KAMPF MIT DEM DAMON\" at a reasonable\nprice and this version shall remain the sole and exclusive property of\nthe Publishers.\n\nIN WITNESS WHEREOF the parties have hereunto set their\nhands and seals the day and year first above written.\n\nStefan Zweig\nAUTHOR\nTHE VIKING PRESS INC.\nB. W. Huebsch\nVice-President",
+        "transcription_b": "AGREEMENT made this first day of March, 1939, between STEFAN\nZWEIG of 49 Hallam Street, London, W. 1, England, and THE VIKING PRESS, INC.\nof 18 East 48th Street, New York City, U.S.A.:\n\n1. The Publishers agree to publish in a single volume\n\"ADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\" (Balzac, Dickens,\nDostoeffsky) for both of which the Publishers now possess the world rights\nin the English language, together with an English version of \"DER KAMPF MIT\nDEM DAMON,\" all three of which works are by said Stefan Zweig who hereby\nagrees to give said Viking Press all rights in the last named work that\nthey now possess in the first two named.\n\n2. It is agreed between the Publishers and the Author that\nthe terms, conditions, rights and obligations under which the above named\nvolume shall be issued, are to be in all respects identical with the agree-\nment between the same parties dated December 28, 1938 with respect to\n\"BEWARE OF PITY\" by the same author, but with the following exceptions:\n\n(a) The Author grants and assigns to the Publishers the\nsole and exclusive right to publish said work in all\ncountries; and\n\n(b) The Publishers agree to pay to the Author fifteen\n(15%) per cent of the amount that they may receive for\neditions for export; and\n\n(c) The Publishers agree to pay the author eighty (80%)\nper cent of such income as they may derive from the\nsale of the right to an English or other foreign publisher\nto publish an edition in English on a royalty basis or\nfor an outright sum.\n\n3. The purpose of the above paragraphs \"a\" and \"b\" is\nto make the present agreement conform to the Publishers' present rights in\nADEPTS IN SELF-PORTRAITURE\" and \"THREE MASTERS\", and the purpose of\nparagraph \"c\" is to provide for a contingency that is not covered by the\nBEWARE OF PITY agreement.\n\n4. The Author agrees to supply to the Publishers an\nadequate English version of \"DER KAMPF MIT DEM DAMON\" at a reasonable\nprice and this version shall remain the sole and exclusive property of\nthe Publishers.\n\nIN WITNESS WHEREOF the parties have hereunto set their\nhands and seals the day and year first above written.\n\nStefan Zweig\nAuthor\n\nTHE VIKING PRESS INC.\nB W Huebsch\nVice-President",
+        "cer": 0.0032,
+        "agreement": "high"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.102/IMG.2",
+        "transcription_a": "Agreement between\nStefan Zweig\nThe Viking Press\nAdepts in self-\nPortraiture\nand\nThree Masters\nand\nDer Kampf mit dem\nDamon",
+        "transcription_b": "Agreement between\nStefan Zweig and\nThe Viking Press\nAdepts in Self-\nPortraiture\nand\nThree Masters\nand\nDer Kampf mit dem\nDamon",
+        "cer": 0.042,
+        "agreement": "moderate"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.102/IMG.3",
+        "transcription_a": "Agreement between\nStefan Zweig\nThe Viking Press\nAdepts in self-\nPortraiture\nand\nThree Masters\nand\nDer Kampf mit dem\nDamon",
+        "transcription_b": "",
+        "cer": 1.0,
+        "agreement": "low"
+      }
+    ]
+  },
+  "judge_result": null
+}

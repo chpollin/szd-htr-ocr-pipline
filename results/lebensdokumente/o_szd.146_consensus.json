@@ -5,43 +5,58 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 0.5499,
-    "category": "consensus_divergent",
+    "overall_cer": 0.2984,
+    "overall_cer_orderless": 1.725,
+    "effective_cer": 0.2984,
+    "word_overlap": 0.7642,
+    "category": "consensus_review",
+    "content_pages": 5,
+    "skipped_pages": 0,
     "pages": [
       {
         "page": 0,
-        "cer": 0.1171,
+        "cer": 0.1456,
+        "cer_orderless": 0.2932,
         "agreement": "low",
+        "type": "content",
         "chars_a": 1511,
-        "chars_b": 1511
+        "chars_b": 1519
       },
       {
         "page": 1,
-        "cer": 0.4779,
+        "cer": 0.4951,
+        "cer_orderless": 1.623,
         "agreement": "low",
+        "type": "content",
         "chars_a": 1337,
-        "chars_b": 1272
+        "chars_b": 1203
       },
       {
         "page": 2,
-        "cer": 0.1381,
+        "cer": 0.1339,
+        "cer_orderless": 0.1321,
         "agreement": "low",
+        "type": "content",
         "chars_a": 3346,
-        "chars_b": 3635
+        "chars_b": 3649
       },
       {
         "page": 3,
-        "cer": 0.8826,
+        "cer": 1.0295,
+        "cer_orderless": 1.2591,
         "agreement": "low",
-        "chars_a": 477,
-        "chars_b": 299
+        "type": "content",
+        "chars_a": 440,
+        "chars_b": 205
       },
       {
         "page": 4,
-        "cer": 0.1921,
+        "cer": 0.3596,
+        "cer_orderless": 0.8947,
         "agreement": "low",
-        "chars_a": 713,
-        "chars_b": 804
+        "type": "content",
+        "chars_a": 712,
+        "chars_b": 813
       }
     ]
   },
@@ -53,43 +68,58 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 0.5499,
-      "category": "consensus_divergent",
+      "overall_cer": 0.2984,
+      "overall_cer_orderless": 1.725,
+      "effective_cer": 0.2984,
+      "word_overlap": 0.7642,
+      "category": "consensus_review",
+      "content_pages": 5,
+      "skipped_pages": 0,
       "pages": [
         {
           "page": 0,
-          "cer": 0.1171,
+          "cer": 0.1456,
+          "cer_orderless": 0.2932,
           "agreement": "low",
+          "type": "content",
           "chars_a": 1511,
-          "chars_b": 1511
+          "chars_b": 1519
         },
         {
           "page": 1,
-          "cer": 0.4779,
+          "cer": 0.4951,
+          "cer_orderless": 1.623,
           "agreement": "low",
+          "type": "content",
           "chars_a": 1337,
-          "chars_b": 1272
+          "chars_b": 1203
         },
         {
           "page": 2,
-          "cer": 0.1381,
+          "cer": 0.1339,
+          "cer_orderless": 0.1321,
           "agreement": "low",
+          "type": "content",
           "chars_a": 3346,
-          "chars_b": 3635
+          "chars_b": 3649
         },
         {
           "page": 3,
-          "cer": 0.8826,
+          "cer": 1.0295,
+          "cer_orderless": 1.2591,
           "agreement": "low",
-          "chars_a": 477,
-          "chars_b": 299
+          "type": "content",
+          "chars_a": 440,
+          "chars_b": 205
         },
         {
           "page": 4,
-          "cer": 0.1921,
+          "cer": 0.3596,
+          "cer_orderless": 0.8947,
           "agreement": "low",
-          "chars_a": 713,
-          "chars_b": 804
+          "type": "content",
+          "chars_a": 712,
+          "chars_b": 813
         }
       ]
     },
@@ -98,89 +128,41 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.1",
         "transcription_a": "Österreichische Postsparkasse\nScheckheft\nzum Scheckkonto Nr.:\n28.614\nDr. Stefan Zweig\nSalzburg\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29\n28.614\nZur besonderen Beachtung! I. Der Kontoinhaber ist verpflichtet, die Scheckvordrucke sorgfältig und sicher aufzubewahren und sie nur den bei der Gebarung mit den Schecks verwendeten Angestellten zugänglich zu machen. Er trägt insbesondere alle Nachteile, die durch Außerachtlassung dieser Verpflichtung entstehen. Im Fall des Abhandenkommens von Scheckvordrucken oder Schecks ist das Postsparkassenamt sofort zu benachrichtigen, damit die Zahlung an einen Unberechtigten, wenn möglich, verhindert werde.\nII. Schecks dürfen nur über jene Beträge ausgestellt werden, die in dem bereits durch Kontoauszug mitgeteilten Guthaben abzüglich der Stammeinlage volle Deckung finden. Für ungedeckte Schecks wird eine Gebühr angelastet.\nIII. Nachfragen nach der Ausführung eines mit Scheck erteilten Auftrags müssen alle wesentlichen Merkmale des Schecks und den vollen Inhalt des erteilten Auftrags enthalten.\nAmtliche Vormerke: 2\nIV. Für das Rechtsverhältnis zwischen Postsparkasse und Kontoinhaber sind ausschließlich die Geschäftsbestimmungen für den Scheckverkehr der Österreichischen Postsparkasse maßgebend, deren Abdruck bei der Wirtschaftsstelle des Postsparkassenamts um 30 g bezogen werden kann.\nIX. Bestimmungen für die Verwendung der Scheckvordrucke siehe nach Blatt 25!\nZur Nachbestellung von Scheckheften dient die nach Blatt 40 eingeheftete Drucksorte.",
-        "transcription_b": "Österreichische Postsparkasse\nScheckheft\nzum Scheckkonto Nr.:\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\nKonto Nr. 28.614 Dr. Stefan Zweig Salzburg Heft 29 29 28.614\n\nZur besonderen Beachtung! I. Der Kontoinhaber ist verpflichtet, die Scheckvordrucke sorgfältig und sicher aufzubewahren und sie nur den bei der Gebarung mit den Schecks verwendeten\nAngestellten zugänglich zu machen. Er trägt insbesondere alle Nachteile, die durch Außerachtlassung dieser Verpflichtung entstehen. Im Fall des Abhandenkommens von Scheckvordrucken oder Schecks ist das Postsparkassenamt sofort zu benachrichtigen,\ndamit die Zahlung an einen Unberechtigten, wenn möglich, verhindert werde.\nII. Schecks dürfen nur über jene Beträge ausgestellt werden, die in dem bereits durch Kontoauszug mitgeteilten Guthaben abzüglich der Stammeinlage volle Deckung finden. Für ungedeckte Schecks wird eine Gebühr angelastet.\nIII. Nachfragen nach der Ausführung eines mit Scheck erteilten Auftrags müssen alle wesentlichen Merkmale des Schecks\nund den vollen Inhalt des erteilten Auftrags enthalten.\nAmtliche Vormerke: IV. Für das Rechtsverhältnis zwischen Postsparkasse und Kontoinhaber sind ausschließlich die Geschäfts-\n2 bestimmungen für den Scheckverkehr der Österreichischen Postsparkasse maßgebend, deren Abdruck bei der\nWirtschaftsstelle des Postsparkassenamts um 30 g bezogen werden kann.\n\nZur Nachbestellung von Scheckheften dient\ndie nach Blatt 40 eingeheftete Drucksorte.\nIX. Bestimmungen für die Verwendung der Scheckvordrucke siehe nach Blatt 25!",
-        "cer": 0.1171,
+        "transcription_b": "Österreichische Postsparkasse\nScheckheft\nzum Scheckkonto Nr.:\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\nZur Nachbestellung von Scheckheften dient\ndie nach Blatt 40 eingeheftete Drucksorte.\n\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29\n28.614\n\nZur besonderen Beachtung!\nI. Der Kontoinhaber ist verpflichtet, die Scheckvordrucke sorgfältig und sicher auf=\nzubewahren und sie nur den bei der Gebarung mit den Schecks verwendeten\nAngestellten zugänglich zu machen. Er trägt insbesondere alle Nachteile, die durch Außerachtlassung dieser Verpflichtung ent=\nstehen. Im Fall des Abhandenkommens von Scheckvordrucken oder Schecks ist das Postsparkassenamt sofort zu benachrichtigen,\ndamit die Zahlung an einen Unberechtigten, wenn möglich, verhindert werde.\nII. Schecks dürfen nur über jene Beträge ausgestellt werden, die in dem bereits durch Kontoauszug mitgeteilten Gut=\nhaben abzüglich der Stammeinlage volle Deckung finden. Für ungedeckte Schecks wird eine Gebühr angelastet.\nIII. Nachfragen nach der Ausführung eines mit Scheck erteilten Auftrags müssen alle wesentlichen Merkmale des Schecks\nund den vollen Inhalt des erteilten Auftrags enthalten.\nIV. Für das Rechtsverhältnis zwischen Postsparkasse und Kontoinhaber sind ausschließlich die Geschäfts=\nbestimmungen für den Scheckverkehr der Österreichischen Postsparkasse maßgebend, deren Abdruck bei der\nWirtschaftsstelle des Postsparkassenamts um 30 g bezogen werden kann.\n\nAmtliche Vormerke:\n2\n\nIX. Bestimmungen für die Verwendung der Scheckvordrucke siehe nach Blatt 25!",
+        "cer": 0.1456,
         "agreement": "low"
       },
       {
         "page": 1,
         "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.2",
         "transcription_a": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt | Tag | Betrag | Empfänger | Restguthaben\n1 | 19.10 | 68.00 | kraukl. 8.80, Löwy 90.20\n2 | 28.10 | Winterhilfe 100. - Gas Rev. 23.70 Krassner\n3 | 2.11 | gas 70.52, Chönig 24. - Schmidt 13.80\n4 | 8.11 | Elektr 160.75, kraukl. 8.80, Laubinger 116.38\n5 | 12.11 | Steuer 18.72, Fürsorge 36. - Kohlen 10. -\n6 | 13.11 | M. Neumann S. 170. -\n7 | 22.11 | gas 47.47, Wasser 16.90, Wildenh. 4.30\n8 | 14.12 | Wildenhofer 12.90, krasser 5.33, krankenk 10.95\n9 | 18.12 | gemeindeuml. 99.89\n10 | 21.12 | gas 36.7, Blinden 5. - tarif - 50\n11 | 23.12 | Pieslinger 1.39, Kalascht. 9.1. -\n12 | | | bürger 9.15\nBlatt | Tag | Betrag | Empfänger | Restguthaben\n13 | 4/1. | 20.82 | gas, Berga, Versicherung\n14 | 10/1. | 342 | 34 kultusgem. Wildenhofer Elektr.\n15 | 14/1 | 59.18 | Peter, Mitgliedsch. krankk.\n16 | 23/1. | 46.95 | gas, Wasser kindertisch\n17 | 5/2 | 23.70 | krankk. Wildenhofer Vers. V.\n18 | 21.2 | 50.67 | gas, Wasser, Elektr. Wildenhofer\n19 | 25/2 | 22. - | Brunetti kindertisch. Frick\n20 | 13/3 | 36.09 | Franke Elektr. krankk.\n21 | 23/3 | 39.62 | gas, Wasser, Wildenhofer Poletti\n22 | 31/3 | 62.08 | krasser, musich, Brichta\n23 | 3/4 | 140.88 | gemeindeuml. Fürsorge, Hackl\n24 | 22/4 | 32.68 | krankenk. Elektr. Wasser\n25 | 8/5 | 15.93 | Licht, Wildenhofer, Unfall\nFortsetzung nach Blatt 25",
-        "transcription_b": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt | Tag | Betrag | Empfänger | Restguthaben\n1 | 19.10 | gas 68.07, Kraukl. 8.80, Löwy 90.20\n2 | 28.10 | Winterhilfe 100.- gas Rep. 23.70 Krassner\n3 | 2/11 | gas 70.52, Phönix 24.- Schmidt {116.38 / 13.80}\n4 | 8/11 | Elektr. 160.75, Kraukl. 8.80, Laubinger\n5 | 12/11 | Steuer 18.72, Fürsorge 36.- Kohlen {10.20 / 20.40}\n6 | 13/11 | M. Neumann S. 170.-\n7 | 22/11 | gas 47.47, Wasser 16.90, Wildkuh. 4.30\n8 | 14/12 | Wildenhofer 12.90 Krasser 53.33, Krankenk. 10.95\n9 | 18/12 | Gemeindeml. 99.88\n10 | 21/12 | gas 36.7 Blinden 5.- Tarif - 50\n11 | 23/12 | Piesslinger S. 39 Kalaschek S. 1.-\n12 | | Bürger 1.15\n\n13 | 4/1. | 20.82 gas, Berga, Versicherung\n14 | 10/1. | 342 39 Kultusgem. Wildenhofer Elektr.\n15 | 14/1 | 59.18 Peter, Mitgliedsk. Krankk.\n16 | 23/1. | 46.95 gas, Wasser Kindertisch\n17 | 5/2 | 23.70 Krankk. Wildenhofer. Versich. V.\n18 | 21.2 | 50.67 gas, Wasser, Elektr. Wildenhofer\n19 | 25/2 | 22.- Brunetti Kinderrat. Frick\n20 | 13/3 | 36.09 Franke, Elektr. Krankk.\n21 | 23/3 | 39.62 gas, Wasser, Wildenhofer Poletti\n22 | 31/3 | 62.08 Krasser, Musik, Brichta\n23 | 3/4 | 140.88 Gemeindeml. Fürsorge, Hacken\n24 | 22/4 | 32.68 Krankenk. Elektr. Madier\n25 | 8/5 | 15.93 Licht, Wildenhofer, Unfall\nFortsetzung nach Blatt 25",
-        "cer": 0.4779,
+        "transcription_b": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt Tag Betrag Empfänger Restguthaben\n1 19.10 gas 68.07, Krankk. 8.80, Löwy 90.20\n2 28.10 Winterhilfe 100.- gas Rep. 23.70 Krassner\n3 2/11 gas 70.52 Phönix 24.- Schmidt 116.38\n{13.80}\n4 8/11 Elektr. 160.75, Krankk. 8.80 Laubinger\n5 12/11 Steuer 18.72, Fürsorge 36.- Kohlen 10.12\n{20.48}\n6 13/11 M. Neumann S. 170.-\n7 22/11 gas 47.47, Wasser 16.90, Wildenh. 4.30\n8 14/12 Wildenhofer 12.90 Krasser 53.33, Krankenk 10.95\n9 18/12 Gemeindeeinn. 99.89\n10 21/12 gas 36.7 Blinden B. - Tarif - 50\n11 23/12 Pieslinger S. 39 Kalaschek S. 1.-\n{Bürger S. 1.15}\n12\n\nBlatt Tag Betrag Empfänger Restguthaben\n13 4/1. 20.82 gas, Berga, Versicherung\n14 10/1. 342 30 Kultusgem. Wildenhofer Elektr.\n15 14/1 59.18 Peter, Mitgliedsk. Krankk.\n16 23/1. 46.95 gas, Wasser Kindertisch\n17 5/2 23.70 Krankk. Wildenhofer. Versich. V.\n18 21.2 50.67 gas, Wasser, Elektr. Wildenhofer\n19 25/2 22.- Brunetti Kinderrett. Funk\n20 13/3 36.09 Franke, Elektr. Krankk.\n21 23/3 39.62 gas, Wasser, Wildenhofer Poletti\n22 31/3 62.08 Krasser, Musik, Brichta\n23 5/4 140.88 Gemeindeeinn. Fürsorge, Hackl\n24 22/4 32 68 Krankenk. Elektr. Nadler\n25 8/5 15.93 Licht, Wildenhofer, Unfall\nFortsetzung nach Blatt 25",
+        "cer": 0.4951,
         "agreement": "low"
       },
       {
         "page": 2,
         "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.3",
         "transcription_a": "28.614 | Dr. Stefan Zweig Salzburg | Heft 29 29 | 28.614\nVormerkblatt zum Scheckheft für das Scheckkonto Nr.: 28.614 Dr. Stefan Zweig Salzburg\nBestimmungen für die Verwendung der Scheckvordrucke.\n1. Auf dem mittleren Teil (eigentlichen Scheck) sind immer Ort, Tag, Monat und Jahr der Ausstellung anzugeben. Vorausdatierung ist verboten. Bleibt in den für die Angabe der Geldsummen bestimmten Zeilen ein unbeschriebener Raum, so muß dieser mit einem starken waagrechten Strich ausgefüllt werden.\n2. Auf dem Abschnitt für den Empfänger ist immer der Betrag in Ziffern anzugeben. Mitteilungen an den Zahlungsempfänger können auf diesem Abschnitt mit dem gewünschten Erfolg nur dann angebracht werden, wenn es sich um eine einzelne Überweisung auf ein anderes Scheckkonto oder auf ein ausländisches Postscheckkonto, um eine einzelne Barzahlung durch ein österreichisches Postamt oder um eine einzelne Zahlung mit Wertbrief handelt, weil nur in diesen Fällen der Abschnitt dem Zahlungsempfänger zukommt.\n3. Der Buchungszettel ist bei Namenschecks auszufüllen, bei andern Schecks (Kassen-, Gesamt-, Dauer-, Auslandschecks) abzutrennen.\n4. Bei der Ausstellung eines Kassenschecks sind auf dem mittleren Teil des Scheckvordrucks die Zeilen zwischen dem Betrag und der Unterschrift des Ausstellers leer zu lassen. Auf dem Abschnitt für den Empfänger ist nur der Betrag in Ziffern anzugeben. Der Buchungszettel ist abzutrennen.\n5. Auf Namenschecks ist der Zahlungsempfänger im mittleren Teil des Scheckvordrucks und im Buchungszettel anzugeben. Die Anschrift des Zahlungsempfängers muß auf dem mittleren Teil des Scheckvordrucks so bestimmt angegeben werden, daß jeder Ungewißheit vorgebeugt wird. Die vollständige Anschrift ist auch notwendig, wenn der Scheckaussteller den Betrag an sich selbst anweist; Angaben wie „an mich selbst“, „an eigene Order“ oder dgl. genügen nicht. Im Buchungszettel kann die Bezeichnung des Empfängers verständlich gekürzt werden. (Zuname, Wohnort.)\n6. Überweisungsverkehr. Hat der Zahlungsempfänger ein Konto beim Postsparkassenamt, so wird der Betrag des Schecks vom Konto des Scheckausstellers abgeschrieben und auf dem Konto des Empfängers gutgeschrieben, wenn nicht auf dem mittleren Teil des Scheckvordrucks bei der Bezeichnung des Zahlungsempfängers durch den Vermerk „zur Barzahlung“ ausdrücklich die bare Auszahlung des angewiesenen Betrags verlangt ist. Ist die Nummer des Scheckkontos des Empfängers dem Aussteller bekannt, so ist sie auf allen drei Teilen des Scheckvordrucks anzugeben. Der Abschnitt für den Gutschriftsempfänger wird diesem mit dem Kontoauszug zugesendet.\n7. Barzahlung durch Zahlungsanweisung. Hat der Zahlungsempfänger kein Scheckkonto beim Postsparkassenamt oder ist die Barzahlung ausdrücklich beantragt worden, so versieht das Postsparkassenamt bei Zahlungen innerhalb Österreichs den Scheck mit dem Auszahlungsauftrag und sendet ihn samt dem Abschnitt für den Empfänger als Zahlungsanweisung an das zuständige Postamt.\n8. Mit diesen Scheckvordrucken können auch Zahlungen nach dem Ausland angewiesen werden. Wird der Betrag in Fremdwährung angegeben, so ist der Aufdruck „S“ und „S“ entsprechend zu ändern und die Währungsbezeichnung in der für die Betragsangabe in Buchstaben bestimmten Schraffenzeile voll auszuschreiben.\n9. Verdorbene Scheckvordrucke hat der Kontoinhaber zu vernichten.",
-        "transcription_b": "Vormerkblatt zum Scheckheft\nfür das Scheckkonto Nr.:\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\n28.614 Dr. Stefan Zweig Salzburg Heft 29 29 28.614\n\nBestimmungen für die Verwendung der Scheckvordrucke.\n1. Auf dem mittleren Teil (eigentlichen Scheck) sind immer Ort, Tag, Monat und Jahr der Ausstellung anzugeben. Vorausdatierung ist verboten. Bleibt\nin den für die Angabe der Geldsummen bestimmten Zeilen ein unbeschriebener Raum, so muß dieser mit einem starken waagrechten Strich ausgefüllt werden.\n2. Auf dem Abschnitt für den Empfänger ist immer der Betrag in Ziffern anzugeben. Mitteilungen an den Zahlungsempfänger können auf\ndiesem Abschnitt mit dem gewünschten Erfolg nur dann angebracht werden, wenn es sich um eine einzelne Überweisung auf ein anderes Scheckkonto\noder auf ein ausländisches Postcheckkonto, um eine einzelne Barzahlung durch ein österreichisches Postamt oder um eine einzelne Zahlung mit\nWertbrief handelt, weil nur in diesen Fällen der Abschnitt dem Zahlungsempfänger zukommt.\n3. Der Buchungszettel ist bei Namenschecks auszufüllen, bei andern Schecks (Kassen-, Erlagschein-, Gesamt-, Dauer-, Auslandschecks) abzutrennen.\n4. Bei der Ausstellung eines Kassenschecks sind auf dem mittleren Teil des Scheckvordrucks die Zeilen zwischen dem Betrag und der Unterschrift des\nAusstellers leer zu lassen. Auf dem Abschnitt für den Empfänger ist nur der Betrag in Ziffern anzusetzen. Der Buchungszettel ist abzutrennen.\n5. Auf Namenschecks ist der Zahlungsempfänger im mittleren Teil des Scheckvordrucks und im Buchungszettel anzugeben. Die Anschrift des\nZahlungsempfängers muß auf dem mittleren Teil des Scheckvordrucks so bestimmt angegeben werden, daß jeder Ungewißheit vorgebeugt wird. Die voll-\nständige Anschrift ist auch notwendig, wenn der Scheckaussteller den Betrag an sich selbst anweist; Angaben wie „an mich selbst“, „an eigene\nOrder“ oder dgl. genügen nicht. Im Buchungszettel kann die Bezeichnung des Empfängers verständlich gekürzt werden. (Zuname, Wohnort.)\n6. Überweisungsverkehr. Hat der Zahlungsempfänger ein Konto beim Postsparkassenamt, so wird der Betrag des Schecks vom Konto\ndes Scheckausstellers abgeschrieben und auf dem Konto des Empfängers gutgeschrieben, wenn nicht auf dem mittleren Teil des Scheckvordrucks\nbei der Bezeichnung des Zahlungsempfängers durch den Vermerk „zur Barzahlung“ ausdrücklich die bare Auszahlung des angewiesenen\nBetrags verlangt ist. Ist die Nummer des Scheckkontos des Empfängers dem Aussteller bekannt, so ist sie auf allen drei Teilen des\nScheckvordrucks anzugeben. Der Abschnitt für den Gutschriftsempfänger wird diesem mit dem Kontoauszug zugesendet.\n7. Barzahlung durch Zahlungsanweisung. Hat der Zahlungsempfänger kein Scheckkonto beim Postsparkassenamt oder ist die Barzahlung aus-\ndrücklich beantragt worden, so versieht das Postsparkassenamt bei Zahlungen innerhalb Österreichs den Scheck mit dem Auszahlungsauftrag und sendet\nihn samt dem Abschnitt für den Empfänger als Zahlungsanweisung an das zuständige Postamt.\n8. Mit diesen Scheckvordrucken können auch Zahlungen nach dem Ausland angewiesen werden. Wird der Betrag in Fremdwährung angegeben,\nso ist der Ausdruck „S“ und „g“ entsprechend zu ändern und die Währungsbezeichnung in der für die Betragsangabe in Buchstaben bestimmten Schraffen-\nzeile voll auszuschreiben.\n9. Verdorbene Scheckvordrucke hat der Kontoinhaber zu vernichten.\n\nSchecks, die nicht den Geschäfts-\nbestimmungen entsprechend ausge-\nfertigt sind, sowie Schecks, an denen\nRadierungen, Änderungen u. dgl.\nwahrgenommen werden oder die Zu-\nsätze enthalten, die nicht in den Ge-\nschäftsbestimmungen zugelassen sind,\nwerden zurückgewiesen.\n\n2 Amtliche Vormerke:",
-        "cer": 0.1381,
+        "transcription_b": "Vormerkblatt zum Scheckheft\nfür das Scheckkonto Nr.:\n\n28.614\nDr. Stefan Zweig\nSalzburg\n\nSchecks, die nicht den Geschäfts=\nbestimmungen entsprechend ausge=\nfertigt sind, sowie Schecks, an denen\nRadierungen, Änderungen u. dgl.\nwahrgenommen werden oder die Zu=\nsätze enthalten, die nicht in den Ge=\nschäftsbestimmungen zugelassen sind,\nwerden zurückgewiesen.\n\n28.614\nDr. Stefan Zweig\nSalzburg\nHeft 29\n29\n28.614\n\nBestimmungen für die Verwendung der Scheckvordrucke.\n1. Auf dem mittleren Teil (eigentlichen Scheck) sind immer Ort, Tag, Monat und Jahr der Ausstellung anzugeben. Vorausdatierung ist verboten. Bleibt\nin den für die Angabe der Geldsummen bestimmten Zeilen ein unbeschriebener Raum, so muß dieser mit einem starken waagrechten Strich ausgefüllt werden.\n2. Auf dem Abschnitt für den Empfänger ist immer der Betrag in Ziffern anzugeben. Mitteilungen an den Zahlungsempfänger können auf\ndiesem Abschnitt mit dem gewünschten Erfolg nur dann angebracht werden, wenn es sich um eine einzelne Überweisung auf ein anderes Scheckkonto\noder auf ein ausländisches Postscheckkonto, um eine einzelne Barzahlung durch ein österreichisches Postamt oder um eine einzelne Zahlung mit\nWertbrief handelt, weil nur in diesen Fällen der Abschnitt dem Zahlungsempfänger zukommt.\n3. Der Buchungszettel ist bei Namenschecks auszufüllen, bei andern Schecks (Kassen=, Eragschein=, Gesamt=, Dauer=, Auslandschecks) abzutrennen.\n4. Bei der Ausstellung eines Kassenschecks sind auf dem mittleren Teil des Scheckvordrucks die Zeilen zwischen dem Betrag und der Unterschrift des\nAusstellers leer zu lassen. Auf dem Abschnitt für den Empfänger ist nur der Betrag in Ziffern anzusetzen. Der Buchungszettel ist abzutrennen.\n5. Auf Namenschecks ist der Zahlungsempfänger im mittleren Teil des Scheckvordrucks und im Buchungszettel anzugeben. Die Anschrift des\nZahlungsempfängers muß auf dem mittleren Teil des Scheckvordrucks so bestimmt angegeben werden, daß jeder Ungewißheit vorgebeugt wird. Die voll=\nständige Anschrift ist auch notwendig, wenn der Scheckaussteller den Betrag an sich selbst anweist; Angaben wie „an mich selbst“, „an eigene\nOrder“ oder dgl. genügen nicht. Im Buchungszettel kann die Bezeichnung des Empfängers verständlich gekürzt werden. (Zuname, Wohnort.)\n6. Überweisungsverkehr. Hat der Zahlungsempfänger ein Konto beim Postsparkassenamt, so wird der Betrag des Schecks vom Konto\ndes Scheckausstellers abgeschrieben und auf dem Konto des Empfängers gutgeschrieben, wenn nicht auf dem mittleren Teil des Scheckvordrucks\nbei der Bezeichnung des Zahlungsempfängers durch den Vermerk „zur Barzahlung“ ausdrücklich die bare Auszahlung des angewiesenen\nBetrags verlangt ist. Ist die Nummer des Scheckkontos des Empfängers dem Aussteller bekannt, so ist sie auf allen drei Teilen des\nScheckvordrucks anzugeben. Der Abschnitt für den Gutschriftsempfänger wird diesem mit dem Kontoauszug zugesendet.\n7. Barzahlung durch Zahlungsanweisung. Hat der Zahlungsempfänger kein Scheckkonto beim Postsparkassenamt oder ist die Barzahlung aus=\ndrücklich beantragt worden, so versieht das Postsparkassenamt bei Zahlungen innerhalb Österreichs den Scheck mit dem Auszahlungsauftrag und sendet\nihn samt dem Abschnitt für den Empfänger als Zahlungsanweisung an das zuständige Postamt.\n8. Mit diesen Scheckvordrucken können auch Zahlungen nach dem Ausland angewiesen werden. Wird der Betrag in Fremdwährung angegeben,\nso ist der Ausdruck „S“ und „g“ entsprechend zu ändern und die Währungsbezeichnung in der für die Betragsangabe in Buchstaben bestimmten Schraffen=\nzeile voll auszuschreiben.\n9. Verdorbene Scheckvordrucke hat der Kontoinhaber zu vernichten.\n\nAmtliche Vormerke:\n2",
+        "cer": 0.1339,
         "agreement": "low"
       },
       {
         "page": 3,
         "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.4",
         "transcription_a": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt | Tag | Betrag | Empfänger | Restguthaben\n1 | 19 | ...\n2 | 28 | ...\n3 | 2 | ...\n4 | 8/4 | ...\n5 | 18 | ...\n6 | 13 | ...\n7 | 22 | ...\n8 | 14 | ...\n9 | 18 | ...\n10 | 21 | ...\n11 | 23 | ...\n12 | ...\n26 | ...\n27 | ...\n28 | ...\n29 | ...\n30 | ...\n31 | ...\n32 | ...\n33 | ...\n34 | ...\n35 | ...\n36 | ...\n37 | ...\n38 | ...\n39 | ...\n40 | ...\n41 | ...\n42 | ...\n43 | ...\n44 | ...\n45 | ...\n46 | ...\n47 | ...\n48 | ...\n49 | ...\n50 | ...",
-        "transcription_b": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt | Tag | Betrag | Empfänger | Restguthaben\n26 |\n27 |\n28 |\n29 |\n30 |\n31 |\n32 |\n33 |\n34 |\n35 |\n36 |\n37 |\n38 |\n39 |\n40 |\n41 |\n42 |\n43 |\n44 |\n45 |\n46 |\n47 |\n48 |\n49 |\n50 |\n\n[Bleistiftnotizen in der Spalte 'Blatt':]\n19\n28\n2\n8/11\n12\n13\n22\n14\n18\n21\n23",
-        "cer": 0.8826,
+        "transcription_b": "Vormerkungen über die Verwendung der Scheckblätter\nBlatt Tag Betrag Empfänger Restguthaben\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n\nBlatt Tag Betrag Empfänger Restguthaben\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50",
+        "cer": 1.0295,
         "agreement": "low"
       },
       {
         "page": 4,
         "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.5",
         "transcription_a": "Konto Nr. 28.614 | Dr. Stefan Zweig Salzburg | 29 29 | 28.614\nIch (Wir) bestelle(n) hiemit gegen Abschreibung des gegenwärtigen Kostenpreises vom obigen Konto:\nScheckhefte zu 50 Blatt\nAmtliche Vormerke: 2 Heft:\n, am 193.\nUnterschrift des Kontoinhabers oder seines Bevollmächtigten:\nDr Stefan Zweig\nNachbestellung\nVorliegende Karte dient zur Nachbestellung von Scheckheften; andere Drucksorten können damit nicht bestellt werden. Sie kann nach dem Ermessen des Kontoinhabers als Postkarte oder unter Briefumschlag versendet werden. Bestellungen von Scheckheften müssen scheckmäßig mit Tinte gefertigt sein.\nIm Fall der Nichterfüllung dieser Bedingungen wird die Bestellung nicht durchgeführt.\nSiehe auch Rückseite!",
-        "transcription_b": "Konto Nr. 28.614 Dr. Stefan Zweig Salzburg 29 29 28.614\n\nDieser Vordruck dient nur zur Be-\nstellung von Scheckheften für das\nKonto Nr.\n28.614\nDr. Stefan Zweig\nSalzburg\n\nIch (Wir) bestelle(n) hiemit gegen Abschreibung des gegenwärtigen Kostenpreises vom obigen Konto:\nScheckhefte zu 50 Blatt\n\nAmtliche Vormerke:\n2 Heft:\n\n, am 193....\nUnterschrift des Kontoinhabers oder\nseines Bevollmächtigten:\nDr Stefan Zweig\n\nVorliegende Karte dient zur\nNachbestellung\nvon Scheckheften; andere Druck-\nsorten können damit nicht bestellt\nwerden. Sie kann nach dem Er-\nmessen des Kontoinhabers als\nPostkarte oder unter Briefumschlag\nversendet werden. Bestellungen von\nScheckheften müssen\nscheckmäßig mit Tinte\ngefertigt sein.\nIm Fall der Nichterfüllung dieser\nBedingungen wird die Bestellung\nnicht durchgeführt.\nSiehe auch Rückseite!",
-        "cer": 0.1921,
+        "transcription_b": "Dieser Vordruck dient nur zur Be=\nstellung von Scheckheften für das\nKonto Nr.\n28.614\nDr. Stefan Zweig\nSalzburg\n\nKonto Nr. 28.614\nDr. Stefan Zweig\nSalzburg\n29\n29\n28.614\n\nIch (Wir) bestelle(n) hiemit gegen Abschreibung des gegenwärtigen Kostenpreises vom obigen Konto:\nScheckhefte zu 50 Blatt\n, am 193...\n\nAmtliche Vormerke:\n2 Heft:\nM.\n\nUnterschrift des Kontoinhabers oder\nseines Bevollmächtigten:\nSt Stefan Zweig\n\nVorliegende Karte dient zur\nNachbestellung\nvon Scheckheften; andere Druck=\nsorten können damit nicht bestellt\nwerden. Sie kann nach dem Er=\nmessen des Kontoinhabers als\nPostkarte oder unter Briefumschlag\nversendet werden. Bestellungen von\nScheckheften müssen\nscheckmäßig mit Tinte\ngefertigt sein.\nIm Fall der Nichterfüllung dieser\nBedingungen wird die Bestellung\nnicht durchgeführt.\n—\nSiehe auch Rückseite!",
+        "cer": 0.3596,
         "agreement": "low"
-      },
-      {
-        "page": 5,
-        "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.6",
-        "transcription_a": "",
-        "transcription_b": "An das\nÖsterreichische Postsparkassenamt\nWirtschaftsstelle\nWien\n\nDie Scheckhefte werden den\nKontoinhabern in eingeschriebenem\nBrief zugesendet. Da eingeschriebene\nBriefe nach der Postordnung in Ab-\nwesenheit des Empfängers auch an\nbestimmte andere Personen zugestellt\nwerden können, muß es den Konto-\ninhabern, welche die bestellten Scheck-\nhefte selbst in Empfang zu nehmen\nwünschen, überlassen werden, dies-\nbezüglich allenfalls im Einvernehmen\nmit dem zuständigen Abgabepostamt\ndas Geeignete vorzukehren.\n\nO. S. 36 aus 34. — 5000 — Österreichische Staatsdruckerei Wien.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 6,
-        "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.7",
-        "transcription_a": "",
-        "transcription_b": "Diese beiden Teile nicht falten!\nAbschnitt für den Empfänger\nS g\nangewiesen vom Scheckkonto Nr.:\n28.614\nDr. Stefan Zweig\nSalzburg\nauf Scheckkonto Nr.\n\nKurze Angabe, worauf sich die Zahlung bezieht,\nhier oder auf der Rückseite dieses Abschnitts.\nBergliederung, bzw. Erläuterung der Zahlung\noder andere Mitteilungen gegen Aufklebung\neiner Briefmarke wie für eine Postkarte.\n\nKonto Nr. 28.614 Dr. Stefan Zweig Salzburg Blatt 50 Heft 29 50 29 28.614\nOrt, Monatstag und Jahr der Ausstellung\nS g\nDie Österreichische Postsparkasse zahle gegen diesen Scheck aus meinem (unserem) Guthaben den Betrag von\nSchilling\n\nAmtliche Vormerke:\n2\nUnterschrift des Kontoinhabers oder seines Bevollmächtigten:\nDr Stefan Zweig\n\nBuchungszettel\nfür das Postsparkassenamt\nS g\nEmpfänger (Zuname und Wohnort)\ngegebenenfalls\nauch Nr. seines Scheckkontos:\n\nDieser Abschnitt ist nur bei Namenschecks\nauszufüllen, bei andern Schecks (Kassen-,\nErlagschein-, Gesamt-, Dauer-, Ausland-\nschecks) abzutrennen!\n\nO. S. 37 aus 34. Österr. Staatsdruckerei. IX.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 7,
-        "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.8",
-        "transcription_a": "",
-        "transcription_b": "Der Inhaber eines Kassenschecks\nkann auch verlangen, daß der Scheck-\nbetrag seinem Scheckkonto gutge-\nschrieben oder ihm zur Barzahlung\nangewiesen werde. In diesen Fällen\nist der Scheck in allen Teilen wie ein\nNamenscheck auszufüllen; auf der\nVorderseite des mittleren Abschnitts\nist rechts oben deutlich zu schreiben:\n„Vom Empfänger eingehändet“ und\nder Scheck an das Postsparkassenamt\nin Wien einzusenden.",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 8,
-        "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.9",
-        "transcription_a": "",
-        "transcription_b": "3/6. gas, Lanyi 23.28 —\n21/7 Umlagen, Wildgans 104.88\n25/9. Umlagen 99.89, Boldschek 3.70, ~~Brichta~~\n20. X. Heidel, Baumel S. 58. —\n29. X Versicherung etc: ~~120.92~~ ~~77.77~~ ~~34.89~~ S. 74.88\n5. XI. Dorigo 91.92, Krasser 52.20\n13. XI. Riunione Hackenbuchner, Roll 136.53\n23/XI. Fürsorge Abgabe bis incl. Jänner 37.- S. 36.—\n19.1.37. Wildgans gesells. 4.5. —\n20/1.37. Nationalbibliothek S. 50\n2/3. Krasser u. Fürsorge (Juli) 56.26.\n20/3 Umlagen 99.88, Tagbl. 1.80\n26/6. Fr. Zweig S. 99.88 (Umlagen\n23/XI. Rechn[?]. Hackenbuchner 15.88",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 9,
-        "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.10",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
-      },
-      {
-        "page": 10,
-        "image_url": "https://gams.uni-graz.at/o:szd.146/IMG.11",
-        "transcription_a": "",
-        "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
       }
     ]
   },

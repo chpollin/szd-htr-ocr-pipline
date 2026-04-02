@@ -5,22 +5,40 @@
   "model_a": "gemini-3.1-flash-lite-preview",
   "model_b": "gemini-3-flash-preview",
   "consensus": {
-    "overall_cer": 0.7378,
+    "overall_cer": 0.7541,
+    "overall_cer_orderless": 1.2297,
+    "effective_cer": 0.7541,
+    "word_overlap": 0.587,
     "category": "consensus_divergent",
+    "content_pages": 3,
+    "skipped_pages": 0,
     "pages": [
       {
         "page": 0,
-        "cer": 0.9,
+        "cer": 0.9636,
+        "cer_orderless": 0.9636,
         "agreement": "low",
+        "type": "content",
         "chars_a": 110,
-        "chars_b": 196
+        "chars_b": 201
       },
       {
         "page": 1,
-        "cer": 0.0192,
+        "cer": 0.0096,
+        "cer_orderless": 0.0096,
         "agreement": "high",
+        "type": "content",
         "chars_a": 104,
         "chars_b": 105
+      },
+      {
+        "page": 2,
+        "cer": 1.0,
+        "cer_orderless": 1.0,
+        "agreement": "low",
+        "type": "content",
+        "chars_a": 215,
+        "chars_b": 0
       }
     ]
   },
@@ -32,22 +50,40 @@
     "model_a": "gemini-3.1-flash-lite-preview",
     "model_b": "gemini-3-flash-preview",
     "consensus": {
-      "overall_cer": 0.7378,
+      "overall_cer": 0.7541,
+      "overall_cer_orderless": 1.2297,
+      "effective_cer": 0.7541,
+      "word_overlap": 0.587,
       "category": "consensus_divergent",
+      "content_pages": 3,
+      "skipped_pages": 0,
       "pages": [
         {
           "page": 0,
-          "cer": 0.9,
+          "cer": 0.9636,
+          "cer_orderless": 0.9636,
           "agreement": "low",
+          "type": "content",
           "chars_a": 110,
-          "chars_b": 196
+          "chars_b": 201
         },
         {
           "page": 1,
-          "cer": 0.0192,
+          "cer": 0.0096,
+          "cer_orderless": 0.0096,
           "agreement": "high",
+          "type": "content",
           "chars_a": 104,
           "chars_b": 105
+        },
+        {
+          "page": 2,
+          "cer": 1.0,
+          "cer_orderless": 1.0,
+          "agreement": "low",
+          "type": "content",
+          "chars_a": 215,
+          "chars_b": 0
         }
       ]
     },
@@ -56,16 +92,16 @@
         "page": 0,
         "image_url": "https://gams.uni-graz.at/o:szd.1088/IMG.1",
         "transcription_a": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan",
-        "transcription_b": "Gruss aus Wien Währingerstrasse\n\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele Grüße Stefan\n\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111.",
-        "cer": 0.9,
+        "transcription_b": "Gruss aus Wien\nWähringerstrasse\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele Grüße StefanZweig\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111.",
+        "cer": 0.9636,
         "agreement": "low"
       },
       {
         "page": 1,
         "image_url": "https://gams.uni-graz.at/o:szd.1088/IMG.2",
         "transcription_a": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
-        "transcription_b": "Correspondenz-Karte.\nNur für die Adresse.\n\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
-        "cer": 0.0192,
+        "transcription_b": "Correspondenz-Karte.\nNur für die Adresse.\nAn Max Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "cer": 0.0096,
         "agreement": "high"
       },
       {
@@ -73,8 +109,8 @@
         "image_url": "https://gams.uni-graz.at/o:szd.1088/IMG.3",
         "transcription_a": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
         "transcription_b": "",
-        "cer": null,
-        "agreement": "unknown"
+        "cer": 1.0,
+        "agreement": "low"
       }
     ]
   },
