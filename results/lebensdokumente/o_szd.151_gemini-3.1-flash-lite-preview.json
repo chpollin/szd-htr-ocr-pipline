@@ -31,7 +31,7 @@
         "page": 3,
         "transcription": "Ihr freundliches Schreiben erreicht mich leider in einer Zeit,\nda mir aus persönlichen Gründen eine wirklich eingehende\nBeantwortung nicht möglich wird.\nWollen Sie dies mit Nachsicht zugute halten\nIhrem ergebenen",
         "notes": "Wiederholung des gedruckten Textes auf der Karte (im Kontext der Farbkarte/Grauskala).",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -44,13 +44,13 @@
     "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 1,
-    "color_chart_pages": 0,
-    "content_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 1,
     "input_images": 3,
     "page_types": [
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       212,

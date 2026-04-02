@@ -31,7 +31,7 @@
         "page": 3,
         "transcription": "AFTER 5 DAYS, RETURN TO\n\n\n\nNEW YORK, N. Y.\n\nTestament (Abschrift ohne\nSignatur und Namen der Zeugen)\nOriginal bei Dr Artur Bondi\nNewyork\n551 Fifth Avenue",
         "notes": "Identisch mit Seite 1, inklusive Farbskala und Farbkarte im Bild.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -44,13 +44,13 @@
     "total_pages": 2,
     "empty_pages": 1,
     "blank_pages": 1,
-    "color_chart_pages": 0,
-    "content_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 1,
     "input_images": 3,
     "page_types": [
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       153,

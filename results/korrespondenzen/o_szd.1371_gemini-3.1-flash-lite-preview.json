@@ -31,7 +31,7 @@
         "page": 3,
         "transcription": "Nom\net adresse\nde l'expéditeur\nStefan Zweig\nCannes Hotel St. Georges\n\nCARTE POSTALE\n\nCANNES - [?]\n\n[Stempel: CANNES - 12 MARS 27]\n\n[Adressseite]\n\nMonsieur Hugo Sinaiberger\n(Praha) Prague\nPalais Lucerne",
         "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) inklusive der Farbskala-Referenz.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -44,13 +44,13 @@
     "total_pages": 3,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
     "input_images": 3,
     "page_types": [
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       201,

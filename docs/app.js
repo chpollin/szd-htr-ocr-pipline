@@ -32,14 +32,14 @@ const PROMPT_INFO = {
   korrespondenz:      { letter: 'I', label: 'Korrespondenz',      tip: 'Briefe, Postkarten, Telegramme. Briefstruktur erhalten (Datum/Anrede/Schluss), Abk\u00fcrzungen aufl\u00f6sen.' },
 };
 
-const CONSENSUS_SHORT = { consensus_verified: 'Verifiz.', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
-const CONSENSUS_LABELS = { consensus_verified: 'Verifiziert', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
-// ↑ Modellkonsensus = automatischer Cross-Model-Vergleich (2 VLMs transkribieren unabhaengig, Uebereinstimmung wird gemessen)
+// Modellkonsensus = automatischer Cross-Model-Vergleich (2 VLMs transkribieren unabhaengig, Uebereinstimmung wird gemessen)
+const CONSENSUS_SHORT = { consensus_verified: 'Verifiz.', consensus_moderate: 'Moderat', consensus_review: 'Abweichung', consensus_divergent: 'Divergent' };
+const CONSENSUS_LABELS = { consensus_verified: 'Verifiziert', consensus_moderate: 'Moderat', consensus_review: 'Abweichung', consensus_divergent: 'Divergent' };
 const CONSENSUS_TOOLTIPS = {
-  consensus_verified: 'Modellkonsensus: 2 VLMs stimmen \u00fcberein (CER < 3%)',
-  consensus_moderate: 'Modellkonsensus: kleine Abweichungen zwischen 2 VLMs (CER < 10%)',
-  consensus_review: 'Modellkonsensus: gr\u00f6\u00dfere Abweichungen zwischen 2 VLMs \u2014 manuelle Pr\u00fcfung empfohlen',
-  consensus_divergent: 'Modellkonsensus: 2 VLMs lesen fundamental Verschiedenes \u2014 Pr\u00fcfung n\u00f6tig'
+  consensus_verified: 'Beide VLMs lesen praktisch denselben Text (CER < 3%)',
+  consensus_moderate: 'Beide VLMs lesen \u00e4hnlichen Text mit kleinen Abweichungen (CER < 10%)',
+  consensus_review: 'Die beiden VLMs weichen st\u00e4rker voneinander ab (CER \u2265 10%)',
+  consensus_divergent: 'Die beiden VLMs lesen fundamental verschiedenen Text'
 };
 
 /* ===== State ===== */
@@ -553,20 +553,20 @@ async function showAbout() {
 function renderReviewCell(obj) {
   // Tier 0: GT verified (highest) — human
   if (obj.gtVerified) {
-    return '<span class="badge-review badge-review-verified" data-tooltip="Ground Truth: Von einem Experten manuell verifiziert">GT \u2713</span>';
+    return '<span class="badge-review badge-review-verified" data-tooltip="Manuell verifizierte Ground Truth">GT \u2713</span>';
   }
   // Tier 1: Human expert approved — human
   if (obj.reviewStatus === 'approved' || isObjectApproved(obj.id)) {
-    return '<span class="badge-review badge-review-approved" data-tooltip="Von einem Experten manuell gepr\u00fcft und freigegeben">Gepr\u00fcft</span>';
+    return '<span class="badge-review badge-review-approved" data-tooltip="Manuell gepr\u00fcft und freigegeben">Gepr\u00fcft</span>';
   }
   if (obj.needsReview === undefined) return '';
   // Tier 2: Quality signals flagged problems — automatic
   if (obj.needsReview) {
-    const reasons = (obj.needsReviewReasons || []).join(', ') || 'Automatische Qualit\u00e4tssignale haben Probleme erkannt';
-    return `<span class="badge-review badge-review-yes" data-tooltip="Automatisch erkannt: ${escapeHtml(reasons)}">Review${LLM_ICON}</span>`;
+    const reasons = (obj.needsReviewReasons || []).join(', ');
+    return `<span class="badge-review badge-review-yes" data-tooltip="Automatisch flagged: ${escapeHtml(reasons)}">Review${LLM_ICON}</span>`;
   }
   // Tier 3: Machine says OK, no human check — automatic
-  return `<span class="badge-review badge-review-llm-ok" data-tooltip="Automatisch: Qualit\u00e4tssignale ohne Befund, keine manuelle Pr\u00fcfung">LLM OK${LLM_ICON}</span>`;
+  return `<span class="badge-review badge-review-llm-ok" data-tooltip="Keine Auff\u00e4lligkeiten erkannt, nicht manuell gepr\u00fcft">LLM OK${LLM_ICON}</span>`;
 }
 
 /* ===== Quality Rendering ===== */
@@ -578,18 +578,17 @@ function renderQualityCell(v, confidence, obj) {
 
   let markerHtml;
   if (total === 0) {
-    markerHtml = `<span class="badge badge-markers badge-markers-clean" data-tooltip="Keine [?] oder [...] Marker im VLM-Output">\u2014${LLM_ICON}</span>`;
+    markerHtml = `<span class="badge badge-markers badge-markers-clean" data-tooltip="Keine Unsicherheitsstellen markiert">\u2014${LLM_ICON}</span>`;
   } else {
     const parts = [];
     if (uncertain > 0) parts.push(`${uncertain}\u00d7 [?]`);
     if (illegible > 0) parts.push(`${illegible}\u00d7 [...]`);
     const cls = total >= 3 ? 'badge-markers-many' : 'badge-markers-some';
-    const tooltip = `VLM-Unsicherheitsmarker: ${parts.join(', ')} in ${v.totalChars || '?'} Zeichen`;
-    markerHtml = `<span class="badge badge-markers ${cls}" data-tooltip="${tooltip}">${parts.join(', ')}${LLM_ICON}</span>`;
+    markerHtml = `<span class="badge badge-markers ${cls}" data-tooltip="Vom VLM markierte unsichere oder unleserliche Stellen">${parts.join(', ')}${LLM_ICON}</span>`;
   }
 
   const vlmHtml = confidence
-    ? ` <span class="badge badge-vlm" data-tooltip="VLM-Selbsteinsch\u00e4tzung (schwach \u2014 LLMs \u00fcbersch\u00e4tzen systematisch)">${confidence}${LLM_ICON}</span>`
+    ? ` <span class="badge badge-vlm" data-tooltip="Vom VLM zugewiesene Konfidenz f\u00fcr diese Transkription">${confidence}${LLM_ICON}</span>`
     : '';
 
   // Modellkonsensus badge
@@ -1015,7 +1014,7 @@ function renderViewerContext(obj) {
   }
 
   // VLM confidence
-  qualItems.push(`<span class="badge badge-vlm" data-tooltip="VLM-Selbsteinsch\u00e4tzung (schwach \u2014 LLMs \u00fcbersch\u00e4tzen systematisch)">${obj.confidence || '?'}${LLM_ICON}</span>`);
+  qualItems.push(`<span class="badge badge-vlm" data-tooltip="Vom VLM zugewiesene Konfidenz f\u00fcr diese Transkription">${obj.confidence || '?'}${LLM_ICON}</span>`);
 
   // Markers
   if (uncertain > 0 || illegible > 0) {
@@ -1030,7 +1029,7 @@ function renderViewerContext(obj) {
   if (qs?.dwr_score > 0) {
     const pct = Math.round(qs.dwr_score * 100);
     const cls = pct >= 30 ? 'badge-dwr-good' : pct >= 15 ? 'badge-dwr-moderate' : 'badge-dwr-low';
-    qualItems.push(`<span class="badge ${cls} llm-generated" data-tooltip="Dictionary Word Ratio: ${pct}% der W\u00f6rter aus der LLM-Transkription finden sich im W\u00f6rterbuch. Niedrig bei Eigennamen, Fremdsprachen, Abk\u00fcrzungen.">DWR ${pct}%</span>`);
+    qualItems.push(`<span class="badge ${cls}" data-tooltip="Anteil der W\u00f6rter aus der Transkription, die im W\u00f6rterbuch stehen. Niedrig bei Eigennamen, Fremdsprachen, Abk\u00fcrzungen.">DWR ${pct}%${LLM_ICON}</span>`);
   }
 
   // Volume
@@ -1050,7 +1049,7 @@ function renderViewerContext(obj) {
     const catLabel = CONSENSUS_LABELS[cat] || cat.replace('consensus_', '');
     const cerPct = ((obj.consensus.effective_cer || 0) * 100).toFixed(1);
     const cls = 'badge-consensus-' + cat.replace('consensus_', '');
-    consHtml = `<span class="badge badge-consensus ${cls} llm-generated" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || ''}">Modellkonsensus: ${catLabel} \u00b7 ${cerPct}%</span>`;
+    consHtml = `<span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || ''}">Modellkonsensus: ${catLabel} \u00b7 ${cerPct}%${LLM_ICON}</span>`;
   }
 
   // Review info
@@ -1063,8 +1062,8 @@ function renderViewerContext(obj) {
   let notesHtml = '';
   if (pageNotes || confNotes) {
     const parts = [];
-    if (pageNotes) parts.push(`<span class="llm-generated" data-tooltip="Vom VLM generierte Beschreibung dieser Seite">${escapeHtml(pageNotes)}</span>`);
-    if (confNotes && confNotes !== pageNotes) parts.push(`<span class="llm-generated" data-tooltip="Vom VLM generierte Konfidenzeinsch\u00e4tzung">${escapeHtml(confNotes)}</span>`);
+    if (pageNotes) parts.push(`<span data-tooltip="VLM-generierte Seitenbeschreibung">${escapeHtml(pageNotes)}${LLM_ICON}</span>`);
+    if (confNotes && confNotes !== pageNotes) parts.push(`<span data-tooltip="VLM-generierte Konfidenzeinsch\u00e4tzung">${escapeHtml(confNotes)}${LLM_ICON}</span>`);
     notesHtml = `<div class="viewer__ctx-notes">${parts.join(' \u2014 ')}</div>`;
   }
 
@@ -1090,7 +1089,7 @@ function renderViewerNav() {
   const qs = obj.quality_signals;
   const anomalies = qs?.page_length_anomalies || [];
   const isAnomaly = anomalies.includes(state.currentPage);
-  const anomalyMark = isAnomaly ? ' <span class="viewer__page-anomaly" data-tooltip="Seitenlängen-Anomalie">\u26A0</span>' : '';
+  const anomalyMark = isAnomaly ? ` <span class="viewer__page-anomaly" data-tooltip="Seitenl\u00e4nge weicht stark vom Median ab">\u26A0</span>` : '';
 
   // Page type badge for non-content pages
   const page = pages[state.currentPage];
@@ -1104,8 +1103,9 @@ function renderViewerNav() {
   if (obj?.consensus?.pages) {
     const cp = obj.consensus.pages[state.currentPage];
     if (cp && cp.agreement) {
-      const cerLabel = cp.cer !== null && cp.cer !== undefined ? ` CER ${(cp.cer * 100).toFixed(1)}%` : '';
-      agreementDot = ` <span class="viewer__page-agreement agreement-${cp.agreement}" data-tooltip="${cp.agreement}${cerLabel}"></span>`;
+      const cerLabel = cp.cer !== null && cp.cer !== undefined ? `, CER ${(cp.cer * 100).toFixed(1)}%` : '';
+      const agreeLabel = { verified: 'Verifiziert', moderate: 'Moderat', review: 'Abweichung', divergent: 'Divergent', skipped: '\u00dcbersprungen' }[cp.agreement] || cp.agreement;
+      agreementDot = ` <span class="viewer__page-agreement agreement-${cp.agreement}" data-tooltip="Modellkonsensus: ${agreeLabel}${cerLabel}"></span>`;
     }
   }
 
@@ -1649,7 +1649,7 @@ function renderDiffView() {
   const cerInfo = pageData.cer !== null && pageData.cer !== undefined
     ? `<span>CER ${(pageData.cer * 100).toFixed(1)}%</span>` : '';
   const overallCer = consensus.effective_cer !== undefined
-    ? `<span data-tooltip="Gesamt-CER über alle Seiten">Gesamt: ${(consensus.effective_cer * 100).toFixed(1)}%</span>` : '';
+    ? `<span data-tooltip="Character Error Rate \u00fcber alle Seiten">Gesamt-CER: ${(consensus.effective_cer * 100).toFixed(1)}%</span>` : '';
 
   diffStats.innerHTML = `
     <span class="diff__stats-agreement">${stats.agreementPct}% Übereinstimmung</span>

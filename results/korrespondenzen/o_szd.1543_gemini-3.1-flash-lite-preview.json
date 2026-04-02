@@ -31,26 +31,26 @@
         "page": 3,
         "transcription": "der Artikel sein, kurz, kurz; alle Beiträge im Tageblatt müssen\nkurz gehalten sein.\nIch weiß nun nicht ob es Ihrer Art entspricht Dinge\nBeiträge für das B. T. zu schreiben. Möglich auch, dass\nHerr Fugel - den ich im Übrigen mit diesem Ausdruck nicht\nblamieren will; er machte mir sogar einen fast affektierten\nVergnügt {schien} mir ein replikter, hiesiger Redakteur {Zugang} mit einem\nunsicheren Posten versah - dass Herr Fugel auch einige\nZeilen mehr schreiben lässt, wenn Sie von Ihnen kommen.\nZunächst weiß ich aber noch gewiss, ob das Projekt Ihnen\nzusagt. Scheuen Sie es ruhig ab, wenn Sie keine Zeit haben\noder Lust dazu verspüren. Richtig wäre mit mir, dass einladen\nTageblatt jemand das Buch richtig liest. Hochachtungsvollen\nherzlichsten Gruß\n\nIhr\nRichard Friedenthal",
         "notes": "Dies ist eine Wiederholung von Seite 2, jedoch mit einer aufgelegten Farbskala/Grauskala für Archivierungszwecke. Die Transkription ist identisch mit Seite 2.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die Handschrift ist sehr flüchtig und weist zahlreiche Korrekturen, Durchstreichungen und Einfügungen über der Zeile auf. Einige Wörter sind aufgrund der Tintenführung und der kursiven Schreibweise schwer zu entziffern (z.B. 'replikter', 'Zugang')."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.3",
     "total_chars": 2812,
     "total_words": 451,
     "total_pages": 3,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
     "input_images": 3,
     "page_types": [
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       1260,

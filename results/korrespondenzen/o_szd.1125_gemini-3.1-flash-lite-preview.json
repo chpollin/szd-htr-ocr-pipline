@@ -45,7 +45,7 @@
         "page": 5,
         "transcription": "Stefan Zweig\nParis\nHôtel du Louvre",
         "notes": "Identisch mit Seite 4, zeigt den Umschlag mit Farbskala.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -58,15 +58,15 @@
     "total_pages": 5,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 5,
+    "color_chart_pages": 1,
+    "content_pages": 4,
     "input_images": 5,
     "page_types": [
       "content",
       "content",
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       666,

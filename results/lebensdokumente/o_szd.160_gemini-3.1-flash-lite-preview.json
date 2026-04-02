@@ -31,7 +31,7 @@
         "page": 3,
         "transcription": "Grauskala #13 C Y M B.I.G.\nA 1 2 3 4 5 6 M 8 9 10 11 12 13 14 15 B 17 18 19\nFarbkarte #13 B.I.G.\nBlue Cyan Green Yellow Red Magenta White 3/Color Black",
         "notes": "Referenzskalen für die Digitalisierung (Graustufen- und Farbkarte).",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -44,13 +44,13 @@
     "total_pages": 2,
     "empty_pages": 1,
     "blank_pages": 1,
-    "color_chart_pages": 0,
-    "content_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 1,
     "input_images": 3,
     "page_types": [
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       1375,

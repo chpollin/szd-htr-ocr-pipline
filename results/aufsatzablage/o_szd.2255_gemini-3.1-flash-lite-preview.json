@@ -23,7 +23,7 @@
         "page": 1,
         "transcription": "Tagore, Rabindranath\nA. J.'s „Sadhâna”\n\nTagore Rabindranath\n\nSadhâna\n\nLit. Echo\nTagebuch Okt. 21.",
         "notes": "Die Transkription umfasst den Text auf dem Blatt, wie er auf dem ersten Scan zu sehen ist. Die weiteren Scans zeigen Details oder das Blatt mit Farbskala.",
-        "type": "content"
+        "type": "color_chart"
       },
       {
         "page": 2,
@@ -59,7 +59,7 @@
         "page": 7,
         "transcription": "Tagore, Rabindranath\nA. J.'s „Sadhâna”\n\nSadhâna\n\nTagebuch Okt. 21.",
         "notes": "Das Blatt mit aufgelegter Grauskala und Farbkarte.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -72,17 +72,17 @@
     "total_pages": 4,
     "empty_pages": 3,
     "blank_pages": 3,
-    "color_chart_pages": 0,
-    "content_pages": 4,
+    "color_chart_pages": 2,
+    "content_pages": 2,
     "input_images": 7,
     "page_types": [
-      "content",
+      "color_chart",
       "blank",
       "content",
       "blank",
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       97,

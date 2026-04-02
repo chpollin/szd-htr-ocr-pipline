@@ -115,7 +115,7 @@
         "page": 15,
         "transcription": "",
         "notes": "Farbkarte.",
-        "type": "blank"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -127,8 +127,8 @@
     "total_words": 1926,
     "total_pages": 7,
     "empty_pages": 8,
-    "blank_pages": 7,
-    "color_chart_pages": 1,
+    "blank_pages": 6,
+    "color_chart_pages": 2,
     "content_pages": 7,
     "input_images": 15,
     "page_types": [
@@ -146,7 +146,7 @@
       "blank",
       "content",
       "color_chart",
-      "blank"
+      "color_chart"
     ],
     "chars_per_page": [
       1653,

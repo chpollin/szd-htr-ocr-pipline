@@ -31,7 +31,7 @@
         "page": 3,
         "transcription": "KAPUZINERBERG 5\nSALZBURG\n27. Dez. 1927.\n\nLieber Max!\n\nHerzlichst Dein\n\nStefan Zweig",
         "notes": "Scan mit Farb- und Graustufen-Referenzkarten. Der Textkörper fehlt hier, da er durch die Farbkarte verdeckt ist.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -44,13 +44,13 @@
     "total_pages": 2,
     "empty_pages": 1,
     "blank_pages": 1,
-    "color_chart_pages": 0,
-    "content_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 1,
     "input_images": 3,
     "page_types": [
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       491,

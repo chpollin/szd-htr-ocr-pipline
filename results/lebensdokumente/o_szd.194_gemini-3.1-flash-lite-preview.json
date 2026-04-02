@@ -169,7 +169,7 @@
         "page": 4,
         "transcription": "",
         "notes": "Durchscheinende Schrift von der Vorderseite, kein eigener Text auf dieser Seite.",
-        "type": "content"
+        "type": "blank"
       },
       {
         "page": 5,
@@ -187,15 +187,15 @@
     "total_words": 73,
     "total_pages": 4,
     "empty_pages": 0,
-    "blank_pages": 1,
+    "blank_pages": 2,
     "color_chart_pages": 0,
-    "content_pages": 4,
+    "content_pages": 3,
     "input_images": 5,
     "page_types": [
       "content",
       "content",
       "content",
-      "content",
+      "blank",
       "blank"
     ],
     "chars_per_page": [

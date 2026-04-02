@@ -94,10 +94,13 @@ def _classify_page(page: dict) -> str:
     """Classify page as 'content', 'blank', or 'color_chart' from notes + text."""
     notes = (page.get("notes", "") or "").lower()
     text = (page.get("transcription", "") or "").strip()
+    # Color chart detection first — VLMs sometimes transcribe text even when a
+    # color chart is visible, so check notes regardless of text length.
+    if any(kw in notes for kw in ("farbskala", "farb-", "grauskala", "farbkeil",
+                                   "color chart", "grey scale", "graustuf",
+                                   "farbkarte", "color patches")):
+        return "color_chart"
     if len(text) < 10:
-        if any(kw in notes for kw in ("farbskala", "farb-", "grauskala", "farbkeil",
-                                       "color chart", "grey scale", "graustuf")):
-            return "color_chart"
         if any(kw in notes for kw in ("rückseite", "rueckseite", "leer", "blank",
                                        "keine beschriftung", "kein text")):
             return "blank"

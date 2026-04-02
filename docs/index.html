@@ -83,9 +83,9 @@
           <th scope="col" class="col-collection" data-sort="collection">Sammlung <span class="sort-arrow"></span></th>
           <th scope="col" class="col-group" data-sort="classification">Typ <span class="sort-arrow"></span></th>
           <th scope="col" class="col-lang" data-sort="lang">Sprache <span class="sort-arrow"></span></th>
-          <th scope="col" class="col-review" data-sort="needsReview" data-tooltip="Review erforderlich?">Review <span class="sort-arrow"></span></th>
-          <th scope="col" class="col-quality" data-sort="markerCount" data-tooltip="Unsicherheits-Marker + VLM-Einschätzung">Qualität <span class="sort-arrow"></span></th>
-          <th scope="col" class="col-pages" data-sort="pageCount" data-tooltip="Seitenanzahl">S. <span class="sort-arrow"></span></th>
+          <th scope="col" class="col-review" data-sort="needsReview" data-tooltip="Pr&uuml;fstatus: manuell oder automatisch">Review <span class="sort-arrow"></span></th>
+          <th scope="col" class="col-quality" data-sort="markerCount" data-tooltip="Marker, Konfidenz, Modellkonsensus">Qualit&auml;t <span class="sort-arrow"></span></th>
+          <th scope="col" class="col-pages" data-sort="pageCount" data-tooltip="Anzahl Seiten im Objekt">S. <span class="sort-arrow"></span></th>
         </tr>
       </thead>
       <tbody id="catalogBody"></tbody>
@@ -159,15 +159,15 @@
         &#8595; JSON
       </button>
       <button type="button" class="viewer__action-btn" id="diffBtn"
-              data-tooltip="Transkriptionen vergleichen (Cross-Model)">
+              data-tooltip="Modellkonsensus: Transkriptionen zweier VLMs vergleichen">
         &#8700; Diff
       </button>
       <button type="button" class="viewer__action-btn" id="reviewGtBtn" style="display:none"
-              data-tooltip="Ground Truth: 3-Modell-Vergleich + Expert-Review">
+              data-tooltip="Ground Truth: 3 VLM-Transkriptionen vergleichen und pr&uuml;fen">
         &#9733; GT Review
       </button>
       <button type="button" class="viewer__action-btn" id="approveBtn" style="display:none"
-              data-tooltip="Objekt als korrekt transkribiert markieren">
+              data-tooltip="Transkription als korrekt freigeben">
         &#10003; Approve
       </button>
     </div>

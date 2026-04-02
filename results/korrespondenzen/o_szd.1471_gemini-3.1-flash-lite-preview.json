@@ -31,26 +31,26 @@
         "page": 3,
         "transcription": "H. Aschehoug & Co.\n(W. Nygaard)\nTelegramadresse: „Aco“\nOslo, d. 27. April 1928.\n\nHerrn Dr. Stefan Zweig,\n\nKapucinerberg,\n\nS A L Z B U R G .\n\neinverstanden: Für eine Auflage von 3000 Exemplaren durften wir Frau\nRing kr. 500.00 als Übersetzerhonorar bezahlen + kr. 250.00, die sonst\nIhnen als Autorisationsgebühr bezahlt sein sollte. Für jedes verkaufte\nExemplar über 3000 waren 20 Ören Zu bezahlen. Nach dem letzten Vorschlage\n\nMads Nygaard\n\nMN/J.",
         "notes": "Das Dokument wurde mit einer Farbskala und Grauskala für Archivierungszwecke überlagert. Der Text ist identisch mit dem Ausschnitt aus Seite 1.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Überlagerungen auf Seite 3 verdecken Teile des Textes, dieser ist jedoch durch den Kontext und Seite 1 eindeutig rekonstruierbar."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.3",
     "total_chars": 1564,
     "total_words": 242,
     "total_pages": 2,
     "empty_pages": 1,
     "blank_pages": 1,
-    "color_chart_pages": 0,
-    "content_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 1,
     "input_images": 3,
     "page_types": [
       "content",
       "blank",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       1118,

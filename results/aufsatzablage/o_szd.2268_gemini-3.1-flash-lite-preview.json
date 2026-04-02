@@ -87,7 +87,7 @@
         "page": 11,
         "transcription": "[IMG_11.jpg ist ein Durchschlag von Seite 9 mit Farbskala, daher keine separate Transkription erforderlich.]",
         "notes": "Durchschlag von Seite 9 mit Farbskala.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -100,8 +100,8 @@
     "total_pages": 11,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 11,
+    "color_chart_pages": 1,
+    "content_pages": 10,
     "input_images": 11,
     "page_types": [
       "content",
@@ -114,7 +114,7 @@
       "content",
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       2413,

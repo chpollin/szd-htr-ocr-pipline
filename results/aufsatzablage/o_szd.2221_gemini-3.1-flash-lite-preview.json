@@ -59,7 +59,7 @@
         "page": 7,
         "transcription": "Wiener Malerei in Zürich, Die Jahrhundertausstellung\n\nDie Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
         "notes": "Gesamtansicht des Dokuments mit Farb- und Graukarte.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
@@ -72,8 +72,8 @@
     "total_pages": 7,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 7,
+    "color_chart_pages": 1,
+    "content_pages": 6,
     "input_images": 7,
     "page_types": [
       "content",
@@ -82,7 +82,7 @@
       "content",
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       124,

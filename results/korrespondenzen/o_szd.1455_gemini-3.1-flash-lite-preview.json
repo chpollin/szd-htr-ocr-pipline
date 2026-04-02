@@ -31,26 +31,26 @@
         "page": 3,
         "transcription": "in this matter. .\n\n          Thanking you for an early reply,\n\n          Yours sincerely,",
         "notes": "Identisch mit Seite 2, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung.",
-        "type": "content"
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche '30' auf Seite 1 ist ebenfalls eindeutig."
   },
   "quality_signals": {
-    "version": "1.4",
+    "version": "1.3",
     "total_chars": 1304,
     "total_words": 194,
     "total_pages": 3,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
     "input_images": 3,
     "page_types": [
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       1126,

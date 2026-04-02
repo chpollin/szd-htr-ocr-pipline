@@ -51,6 +51,17 @@ def backfill(dry_run=False):
             stats["pages"] += 1
             stats[ptype] += 1
 
+        # Sync quality_signals.page_types with page-level types
+        if qs and "page_types" in qs:
+            synced_types = [p.get("type", "content") for p in pages]
+            if qs["page_types"] != synced_types:
+                qs["page_types"] = synced_types
+                # Recount page categories
+                qs["content_pages"] = synced_types.count("content")
+                qs["blank_pages"] = synced_types.count("blank")
+                qs["color_chart_pages"] = synced_types.count("color_chart")
+                changed = True
+
         # v1.1 files: recompute full signals
         if qs and "page_types" not in qs:
             metadata = data.get("metadata", {})
