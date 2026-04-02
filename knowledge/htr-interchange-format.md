@@ -337,8 +337,8 @@ Ein vollstaendiges Beispiel basierend auf o_szd.100 (Agreement Longmans):
 | Warum nicht ALTO? | ALTO erfordert Wort-Koordinaten (HPOS/VPOS/WIDTH/HEIGHT). VLMs produzieren keine. Leere Koordinaten wuerden das Schema verletzen und Downstream-Tools verwirren. |
 | Warum nicht PAGE XML? | Selbes Problem: Polygon-Koordinaten auf jeder Ebene erforderlich. Zusaetzlich: kaum Metadaten-Felder (keine Sprache, kein Dokumenttyp). |
 | Warum nicht hOCR? | HTML-basiert, erfordert Bounding Boxes. Fuer VLM-Output ueberkompliziert. |
-| Kann man trotzdem ALTO/PAGE exportieren? | Ja, als Downstream-Schritt: Eine Seite = ein TextBlock mit Dummy-Koordinaten (0,0 bis Bildbreite,Bildhoehe). Das ist technisch moeglich, aber semantisch arm — es nutzt die Standards nicht fuer ihren eigentlichen Zweck. |
-| Gibt es Interoperabilitaet? | Das Interchange-Format kann ALTO/PAGE/hOCR als zusaetzlichen Export produzieren, wenn Bibliotheksinfrastruktur das erfordert. Das ist ein separater Konvertierungsschritt, kein Teil dieses Formats. |
+| Kann man trotzdem ALTO/PAGE exportieren? | Ja, als Downstream-Schritt. Seit April 2026 existiert `export_pagexml.py`, das Interchange-JSON + VLM-basierte Layout-Daten (`*_layout.json`) zu PAGE XML 2019 merged. Details: [[layout-analysis]]. |
+| Gibt es Interoperabilitaet? | Das Interchange-Format kann PAGE XML als zusaetzlichen Export produzieren. `layout_analysis.py` erzeugt approximierte Bounding Boxes via VLM, `export_pagexml.py` baut daraus deterministisch PAGE XML. Kein Teil dieses Formats, aber ein komplementaerer Pipeline-Schritt. |
 
 ---
 

@@ -433,7 +433,67 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ---
 
-## Offene Fragen (Stand 2026-04-01)
+## 2026-04-02 — Session 14: Konsensus-Metriken v2, GT-Pipeline, Frontend Review
+
+**Schwerpunkt:** Konsensus-Validierung mit verbesserten Metriken, GT-Erzeugung mit 3 Modellen, Frontend-Erweiterung fuer Expert-Review.
+
+### Konsensus-Metriken v2
+
+- **Problem identifiziert:** Alte CER-only-Metrik produzierte 74% "divergent" — hauptsaechlich wegen Reading-Order-Divergenz (Marginalia, Spalten) und Seiten-Halluzination, nicht wegen Lesefehler.
+- **Neue Metriken in evaluate.py:**
+  - `normalize_for_consensus_orderless()`: Sortiert Zeilen vor Vergleich
+  - `word_overlap()`: Jaccard-Aehnlichkeit auf Wortmengen (order-invariant)
+  - `effective_cer`: Minimum aus ordered und orderless CER
+- **4-Tier-Klassifikation:** verified / moderate / review / divergent (statt 3-Tier)
+  - word_overlap >= 0.90 begrenzt Kategorie auf maximal "moderate"
+  - word_overlap >= 0.75 ergibt "review" (neues Zwischenniveau)
+- **Ergebnis (27 Objekte, 3/Gruppe):** 26% verified, 33% moderate, 15% review, 26% divergent (vorher: 11% verified, 74% divergent)
+
+### Kernerkenntnisse aus Konsensus-Analyse
+
+1. **Reading-Order-Divergenz**: o_szd.142 hat CER 55% aber word_overlap 100% — identische Woerter in anderer Reihenfolge.
+2. **Seiten-Halluzination**: Flash Lite dupliziert gelegentlich Seiten (o_szd.101, Seiten 3/4). quality_signals v1.4: Duplikat-Schwelle 200→50 Zeichen.
+3. **Bleed-Through**: VLM transkribiert durchscheinenden Rueckseiten-Text. System-Prompt Regel 9 eingefuegt.
+4. **Korrekturfahnen geloest**: 3/3 verified, <1% CER. Gedruckter Text mit Korrekturen ist kein Problem.
+5. **Korrespondenzen bleiben schwer**: 3/3 divergent, 59-104% CER. Zweigs Handschrift in Briefen ist genuinely ambig.
+
+### GT-Pipeline (generate_gt.py)
+
+- 18 Objekte (stratifiziert, 2/Gruppe + 3 Korrespondenzen) mit Gemini 3.1 Pro transkribiert
+- 3-Modell-Merge: Flash Lite (A) + Flash (B, aus Konsensus) + Pro (C)
+- Merge-Logik: consensus_3of3 (CER <2% paarweise) / majority_2of3 (CER <5%) / pro_only
+- **Ergebnis (46 Content-Seiten):** 15 Konsensus (33%), 20 Mehrheit (43%), 11 Pro-only (24%)
+- Korrekturfahne o_szd.1888: 3/3 Konsensus auf allen Content-Seiten
+- GT-Drafts in `results/groundtruth/{object_id}_gt_draft.json`
+
+### Frontend: GT Review-Modus
+
+- "GT Review"-Button im Viewer (nur localhost)
+- 3-Varianten-Panel: Flash Lite / Flash / Pro mit Click-to-Select
+- Source-Badges: gruen (3/3), gelb (2/3), rot (Pro only)
+- Approve-Button pro Seite, localStorage-Persistenz
+- JSON-Export als `{object_id}_gt.json` mit Expert-Metadaten
+- `build_viewer_data.py` erzeugt `docs/data/groundtruth.json` (18 Objekte)
+
+### Neue Dateien
+
+- `pipeline/generate_gt.py` — GT-Erzeugung mit 3 Modellen
+- `pipeline/evaluate.py` — erweitert um `normalize_for_consensus_orderless()`, `word_overlap()`
+- `docs/data/groundtruth.json` — GT-Drafts fuer Frontend
+
+### Entscheidungen
+
+| Entscheidung | Begruendung |
+|---|---|
+| word_overlap als order-invariante Metrik | CER bestraft Reading-Order-Divergenz unfair; Jaccard auf Wortmengen ist robust |
+| 4-Tier statt 3-Tier Klassifikation | "review" als Zwischenstufe fuer Objekte mit 75-90% word_overlap |
+| Gemini Pro statt Claude als 3. GT-Modell | Gleiche API, kein Provider-Wechsel, staerkstes Gemini-Modell |
+| 5-Seiten-Pilot uebersprungen | Konsensus-Validierung + GT-Pipeline beantworten die Pilot-Fragen empirisch |
+| Bleed-Through im System-Prompt | Effizienter als Post-Processing; VLM soll es gar nicht erst transkribieren |
+
+---
+
+## Offene Fragen (Stand 2026-04-02)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
 - [ ] Lizenz klaeren: MIT fuer Code, CC-BY fuer Daten?
@@ -442,12 +502,14 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 - [x] Batch-Modus: transcribe.py (Session 5)
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)
 - [ ] Provider-Vergleich: Claude Vision, GPT-4o (Phase 4)
-- [~] Alle 2107 Objekte transkribieren — Batch laeuft, ~360+ fertig (Session 13)
+- [~] Alle 2107 Objekte transkribieren — 601/2107 fertig (Session 14)
 - [x] quality_signals kalibrieren: v1.1, datengetrieben rekalibriert (Session 13)
 - [ ] Prompt-Wirksamkeit: Vorsichts-Guidance ignoriert — Experiment noetig (Session 8)
 - [ ] o_szd.143 nur 20 Zeichen auf 3 Seiten — Pipeline-Problem oder korrektes Ergebnis? (Session 8)
 - [x] Verification-by-Vision: Proof of Concept erfolgreich, Spec geschrieben (Session 11)
 - [x] Pipeline-Bug: o_szd.147 repariert, 41 Bilder transkribiert (Session 13)
 - [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Konsensus-Validierung)
-- [ ] Multi-Model-Konsensus: 30 Objekte durch 3 Modelle validieren (Session 13 → naechste Session)
+- [x] Multi-Model-Konsensus: 27 Objekte validiert, 18 Objekte GT-Pipeline mit 3 Modellen (Session 14)
 - [ ] Statistik-Dashboard im Frontend (Session 13 → naechste Session)
+- [ ] Expert-Review: 18 GT-Objekte im Frontend pruefen und approven
+- [ ] Prompt-Ablation: V1/V2/V3 gegen GT messen (18 Objekte × 3 Varianten)

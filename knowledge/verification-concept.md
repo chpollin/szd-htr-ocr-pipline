@@ -2,7 +2,7 @@
 title: "Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline"
 aliases: ["Verifikationskonzept"]
 created: 2026-04-01
-updated: 2026-04-01-v3
+updated: 2026-04-02-v4
 type: concept
 tags: [szd-htr, methodology]
 status: stable
@@ -10,6 +10,7 @@ related:
   - "[[annotation-protocol]]"
   - "[[pilot-design]]"
   - "[[data-overview]]"
+  - "[[ground-truth-pipeline]]"
 ---
 
 # Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline
@@ -20,9 +21,11 @@ Adressaten: Lane 1 (Frontend/Viewer), Lane 3 (Pipeline-Implementierung)
 
 ## Ausgangslage
 
-Die Pipeline hat ~62 Objekte transkribiert (Stand Session 11, 2026-04-01), davon alle ausser 1 mit Selbsteinschaetzung "high confidence" (o_szd.277, Konvolut mit ueberlappenden Korrekturen, erhielt "medium"). 1 Objekt (o_szd.147, 64 Bilder) hat ein leeres Ergebnis (Pipeline-Bug). Die Selbsteinschaetzung ist nahezu wertlos: Sie diskriminiert nicht zwischen einem sauber gedruckten Typoskript (o_szd.100) und einer fuenfseitigen Kurrent-Handschrift (o_szd.72, Tagebuch 1918). In ca. 57.000 transkribierten Zeichen ueber alle 16 Objekte finden sich genau ein `[...]`-Marker und ein `[?]`-Marker. Das Modell nutzt also weder das Konfidenz-Feld noch die Inline-Markup-Konventionen als zuverlaessiges Unsicherheitssignal.
+Die Pipeline hat 601 Objekte transkribiert (Stand Session 14, 2026-04-02), davon alle ausser 1 mit Selbsteinschaetzung "high confidence" (o_szd.277, Konvolut mit ueberlappenden Korrekturen, erhielt "medium"). 1 Objekt (o_szd.147, 64 Bilder) hat ein leeres Ergebnis (Pipeline-Bug). Die Selbsteinschaetzung ist nahezu wertlos: Sie diskriminiert nicht zwischen einem sauber gedruckten Typoskript (o_szd.100) und einer fuenfseitigen Kurrent-Handschrift (o_szd.72, Tagebuch 1918). In ca. 57.000 transkribierten Zeichen ueber alle 16 Objekte finden sich genau ein `[...]`-Marker und ein `[?]`-Marker. Das Modell nutzt also weder das Konfidenz-Feld noch die Inline-Markup-Konventionen als zuverlaessiges Unsicherheitssignal.
 
 **Empirischer Befund (Stand Session 8):** Die Gruppen-Prompts weisen das Modell explizit an, bei Kurrent-Ambiguitaeten (e/n, s/f) Unsicherheitsmarker zu setzen. Ergebnis: Null Marker bei 6.711 Zeichen Kurrent-Handschrift (o_szd.72). Die Vorsichts-Guidance in den Prompts wird faktisch ignoriert. Strukturelle Guidance (Briefformat bei Korrespondenz) wird hingegen befolgt. Die quality_signals flaggen aktuell 10/16 Objekte (63%) als `needs_review` — das ist zu viel fuer effektive Triage und zeigt, dass die Schwellenwerte vor Kalibrierung zu aggressiv sind.
+
+**Empirischer Befund (Stand Session 14):** quality_signals v1.4 aktiv (8 Signale + page.type + DWR). 27-Objekt-Konsensus-Validierung mit verbesserter Metrik (word_overlap + 4-Tier-Klassifikation) abgeschlossen. 18-Objekt-GT-Pipeline mit 3-Modell-Merge (Flash Lite + Flash + Pro) laeuft. Bleed-Through als neues Fehlermuster identifiziert und im System-Prompt adressiert (Regel 9).
 
 Daraus ergeben sich drei Probleme, die dieses Dokument adressiert:
 1. Es gibt keine Ground Truth, um die tatsaechliche Fehlerrate zu messen.
@@ -335,6 +338,33 @@ Bei hohem Agreement aller drei Modelle kann die Transkription als **automatisch 
 
 **Abgrenzung zu Abschnitt 4 (Cross-Model-Verification):** Abschnitt 4 beschreibt Doppeltranskription als Qualitaetssignal. Der Konsensus-Ansatz geht weiter: Er nutzt drei Modelle + eine Judge-Rolle und akzeptiert bei Konsens automatisch als GT. Das ist eine staerkere Behauptung, die durch ZHA25 und RCO26 gestuetzt wird, aber am eigenen Corpus validiert werden muss.
 
+### 7.1 Empirische Umsetzung: GT-Pipeline (Session 14)
+
+**Architektur (implementiert in `pipeline/generate_gt.py`):**
+- Modell A: Gemini 3.1 Flash Lite (existierende Transkription)
+- Modell B: Gemini 3 Flash (aus Konsensus-Verifikation)
+- Modell C: Gemini 3.1 Pro (staerkstes Modell, via API)
+- Expert: Mensch im Frontend (Review + Approval)
+
+**Merge-Logik pro Seite:**
+- Alle 3 stimmen ueberein (paarweise CER < 2%): → `consensus_3of3` (automatisch akzeptiert)
+- 2 von 3 stimmen ueberein (bestes Paar CER < 5%): → `majority_2of3` (staerkeres Modell gewaehlt)
+- Alle divergieren: → `pro_only` (Pro-Version als Draft)
+
+**Ergebnis (18 GT-Objekte, 46 Content-Seiten):**
+
+| Merge-Typ | Seiten | Anteil |
+|---|---|---|
+| consensus_3of3 | 15 | 33% |
+| majority_2of3 | 20 | 43% |
+| pro_only | 11 | 24% |
+
+76% der Content-Seiten haben mindestens 2/3-Uebereinstimmung. Der Expert-Review-Aufwand konzentriert sich auf die 11 pro_only-Seiten.
+
+**Kosten:** 18 API-Calls mit Gemini Pro (ca. $3-5). Gesamt inkl. Flash-Konsensus: ca. $8-12.
+
+**Frontend-Integration:** GT Review-Modus im Viewer mit 3-Varianten-Ansicht, Source-Badges pro Seite, Approve-Workflow. Expert-Reviewed-GT wird als `{object_id}_gt.json` exportiert.
+
 ### Ergaenzung der Fehlertaxonomie
 
 Basierend auf LEV25 wurde die Fehlertabelle in Abschnitt 1.5 um den Typ **Anachronismus** erweitert. Dieser ist eine Unterform der Halluzination, aber spezifisch genug, um getrennt erfasst zu werden: Er deutet auf ein systematisches Bias im Modell hin, nicht auf Leseprobleme. Bei den bisherigen 16 Objekten wurde kein Anachronismus beobachtet (kein langes s, keine archaischen Ligaturen) — aber Fraktur-Texte (o_szd.2232) und historische Handschrift sind die Risikogruppe, die der Pilot pruefen wird.
@@ -373,6 +403,8 @@ Signale, die aus dem fertigen Transkriptionstext berechnet werden, ohne das VLM 
 Sechs automatisch berechenbare Signale, geordnet nach erwartetem Nutzen.
 
 **Empirische Einordnung (Stand 16 Objekte):** Die Signale wurden anhand der ersten 16 Objekte getestet. Ergebnis: 10/16 Objekte (63%) werden als `needs_review` geflaggt. Das ist zu viel fuer effektive Triage. Hauptursache: `page_image_mismatch` feuert bei jedem Objekt, das Leerseiten hat (Rueckseiten, Farbkarten) — im SZD-Nachlass ist das der Normalfall, kein Fehler. `marker_density` ist bei 16/16 Objekten nahe 0.0 (das Modell setzt fast keine Marker). `group_text_density` braucht >10 Objekte/Gruppe, die bisher nur Typoskript hat. Nur `duplicate_pages` (4 Treffer) und `language_mismatch` (2 Treffer) produzieren potenziell nuetzliche Signale. Die Schwellenwerte muessen dringend nach dem Pilot kalibriert werden — insbesondere sollte `page_image_mismatch` bei Objekten mit bekannten Leerseiten-Mustern (Farbkarten, Rueckseiten) nicht ausloesen.
+
+**Update v1.4 (2026-04-02):** Schwellenwerte weiter rekalibriert. Duplikaterkennung: Jaccard-Schwelle beibehalten (0.9), aber Mindestzeichenzahl von 200 auf 50 gesenkt — das erkennt jetzt Seiten-Halluzinationen (Modell dupliziert kurze Seiten wie Deckblaetter). DWR (Dictionary Word Ratio) seit v1.2 integriert: Anteil der Woerter in sprachspezifischer Frequenzliste (~500 Woerter DE/FR/EN), korreliert mit CER (Springmann 2016). needs_review-Rate bei 601 Objekten: ~41%.
 
 **Signal 1: Seitenlaengen-Anomalie (page_length_anomaly)**
 
@@ -660,6 +692,39 @@ Basierend auf den Benchmark-Daten (Stand der Forschung):
 | GPT-4o-mini | Ueberraschend stark (Gutteridge), 30x guenstiger als GPT-4o | Weniger getestet auf nicht-englischen Dokumenten | Niedrig |
 
 Empfehlung: **Claude Sonnet** als zweites Modell neben Gemini Flash Lite. Begruendung: Maximale Diversitaet (anderer Anbieter, anderes Training), starke Baseline auf modernen und historischen Dokumenten, moderate Kosten. GPT-4o-mini als guenstige Alternative, falls Budget relevant.
+
+### 4.7 Empirische Ergebnisse: Konsensus-Validierung (Session 14)
+
+**Durchfuehrung:** 27 Objekte, stratifiziert (3 pro Gruppe), mit `verify.py --sample 3 --force`. Modell A: Gemini Flash Lite, Modell B: Gemini 3 Flash. Neue Metriken: `effective_cer` (Minimum aus ordered/orderless CER) + `word_overlap` (Jaccard auf Wortmengen, order-invariant).
+
+**4-Tier-Klassifikation:**
+
+| Kategorie | Kriterium | Anzahl | Anteil |
+|---|---|---|---|
+| consensus_verified | effective_cer < 3% ODER (word_overlap >= 95% UND cer < 10%) | 7 | 26% |
+| consensus_moderate | effective_cer < 10% ODER word_overlap >= 90% | 9 | 33% |
+| consensus_review | word_overlap >= 75% | 4 | 15% |
+| consensus_divergent | Rest | 7 | 26% |
+
+**Ergebnisse nach Gruppe:**
+
+| Gruppe | Ergebnis |
+|---|---|
+| Korrekturfahne | 3/3 verified (<1% CER) — gedruckter Text ist geloest |
+| Typoskript | 1 verified + 2 moderate — sehr gut |
+| Zeitungsausschnitt | 3 moderate — solide |
+| Tabellarisch | 2 moderate, 1 divergent (near-blank) |
+| Handschrift | 2 verified, 1 divergent — variabel |
+| Konvolut | 1 moderate, 2 review — komplex |
+| Formular | 1 verified, 1 review, 1 divergent |
+| Kurztext | 1 moderate, 1 review, 1 divergent — wenig Text = instabil |
+| Korrespondenz | 3/3 divergent — echte Herausforderung |
+
+**Kernerkenntnisse:**
+1. **Reading-Order-Divergenz** ist die Hauptursache fuer hohe CER bei Dokumenten mit komplexen Layouts. Beispiel: o_szd.142 hat CER 55% aber word_overlap 100% — identische Woerter in anderer Reihenfolge (Marginalia, Spalten). Die `word_overlap`-Metrik loest dieses Problem.
+2. **Seiten-Halluzination**: Flash Lite dupliziert gelegentlich kurze Seiten (z.B. o_szd.101, Seiten 3/4 identisch). quality_signals v1.4 erkennt das jetzt.
+3. **Bleed-Through**: VLM transkribiert durchscheinenden Text der Rueckseite. System-Prompt Regel 9 adressiert das.
+4. **VLM-Nondeterminismus**: Derselbe Objekt liefert bei verschiedenen Laeufen unterschiedliche CER-Werte (o_szd.101: 10% vs 55%). Temperature 0.1 ist nicht deterministisch genug.
 
 ---
 
