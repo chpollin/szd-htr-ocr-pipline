@@ -10,6 +10,9 @@ __pycache__/
 *.pyo
 .venv/
 
+# Backup files (created by serve.py and import_reviews.py)
+*.bak
+
 # IDE
 .vscode/
 .idea/
