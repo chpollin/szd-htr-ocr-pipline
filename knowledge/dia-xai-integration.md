@@ -14,7 +14,7 @@ related:
 
 # DIA-XAI-Integration: SZD-HTR als Datenlieferant fuer EQUALIS
 
-Abhaengigkeit: [[verification-concept]] (quality_signals, CER), [[teiCrafter-integration]] (TEI-Annotation), [[htr-interchange-format]] (Transport)
+Abhaengigkeit: [[verification-concept]] (quality_signals, CER), [[teiCrafter-integration]] (TEI-Annotation), [[htr-interchange-format]] (Page-JSON)
 
 ---
 
@@ -58,8 +58,8 @@ SZD-HTR Pipeline (Gemini Flash Lite)
   │     → Error-Markup, Corrections, Verification-Status
   │     → DIA-XAI Export (UC3: HTR-Verifikation)
   │
-  ├──→ export_interchange.py
-  │     → Interchange-JSON (htr-interchange v0.1)
+  ├──→ export_page_json.py
+  │     → Page-JSON (Text + Layout + Metadaten)
   │
   ▼
 teiCrafter (LLM-Annotation)

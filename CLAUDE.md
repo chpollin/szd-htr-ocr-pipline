@@ -46,7 +46,7 @@ Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+v
 2. **Batch weiterfahren**: v.a. Korrespondenzen (24%) und Aufsatzablage (19%)
 3. **Prompt-Ablation**: V1/V2/V3 × 18 GT-Objekte nach Expert-Review
 4. **Layout-Analyse ausweiten**: Stratifizierter Test (1 Objekt/Gruppe), dann Batch-Lauf
-5. **TEI-Export**: `export_interchange.py` (Phase 5)
+5. **TEI-Export**: `export_page_json.py` (Phase 5)
 
 Erledigt (Session 14): Modellkonsensus-Metriken v2, GT-Pipeline, Frontend GT-Review, Layout-Analyse + PAGE XML.
 Erledigt (Session 15): Knowledge Vault im Frontend, Projekt-Seite, README aktualisiert.
@@ -166,8 +166,8 @@ szd-htr/
 ├── requirements.txt                 ← google-genai, python-dotenv, markdown, pyyaml
 ├── .env                             ← API Keys (nicht committet)
 ├── schemas/
-│   ├── htr-interchange-v0.1.json    ← Validierbares JSON-Schema (Interchange-Format)
-│   └── layout-regions-v0.1.json     ← JSON-Schema fuer Layout-Analyse-Output
+│   ├── page-json-v0.1.json          ← Page-JSON Schema (Text + Layout + Metadaten)
+│   └── layout-regions-v0.1.json     ← JSON-Schema fuer Layout-Analyse-Output (Legacy)
 ├── pipeline/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
@@ -211,7 +211,7 @@ szd-htr/
     ├── verification-concept.md      ← GT, quality_signals, Cross-Model, VbV, Agent-Verifikation (§8)
     ├── evaluation-results.md        ← CER-Baseline: 26 Objekte, 9 Gruppen
     ├── annotation-protocol.md       ← Transkriptionskonventionen
-    ├── htr-interchange-format.md    ← JSON-Schema: szd-htr → teiCrafter
+    ├── htr-interchange-format.md    ← Page-JSON: Text + Layout + Metadaten
     ├── tei-target-structure.md      ← TEI-Zielformat (DTABf-Profil)
     ├── teiCrafter-integration.md    ← teiCrafter-Integration
     ├── layout-analysis.md           ← Layout-Analyse + PAGE XML Export
@@ -346,7 +346,7 @@ Optional nach Expert-Review (geschrieben von `import_reviews.py`):
 `page.type` ist ein First-Class-Feld auf jedem Page-Objekt (seit v1.3). Wird von `_classify_page()` in `quality_signals.py` gesetzt basierend auf Transkriptionslaenge (<10 Zeichen) und Notes-Keywords. Alle bestehenden JSONs sind backfilled via `backfill_page_types.py`. Downstream-Nutzung:
 - `verify.py`: Blank/color_chart-Seiten werden bei CER-Berechnung uebersprungen (`"agreement": "skipped"`)
 - `build_viewer_data.py`: `page.type` fliesst in Viewer-Daten, `blankPages`/`contentPages` im Katalog. Color-Chart-Seiten werden aus Viewer-Daten gefiltert. `reviewStatus` und `gtVerified` im catalog.json.
-- Schema: `schemas/htr-interchange-v0.1.json` enthaelt `type` als optionales enum-Feld
+- Schema: `schemas/page-json-v0.1.json` enthaelt `type` als required enum-Feld
 
 ## Technische Entscheidungen
 

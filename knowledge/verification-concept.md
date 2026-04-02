@@ -855,27 +855,6 @@ Wenn Ground-Truth-Referenzen vorliegen, soll der Viewer die CER pro Objekt und p
 
 ---
 
-## 6. Verification-by-Vision
-
-Vollstaendige Spezifikation: [[verification-by-vision]]
-
-**Kernidee:** Zwei VLMs vergleichen unabhaengig das Faksimile-Bild mit der Transkription und identifizieren konkrete Fehler. Kanal A (Claude Code Agent, kostenlos — liest Bilder via eingebauter Vision) + Kanal B (Gemini API, `verify_gemini.py`). Cross-Model-Agreement aus zwei unabhaengigen Pruefungen.
-
-**Getestet an 6 Objekten (Session 11):** 1x `llm_verified`, 4x `llm_error_suggestion`, 1x Pipeline-Bug. Staerkstes Verifikationsverfahren im Projekt — direkter Bild↔Text-Vergleich statt nur Textvergleich.
-
-**Empirische Muster:**
-- Gedruckter Text: durchgehend korrekt (0 Fehler in 6 Objekten)
-- Handschrift: gut, Einzelwort-Ambiguitaeten bei Kurrent (keine Halluzinationen)
-- Handschriftliche Korrekturen/Vermerke: schwaechste Schicht (~60-70% korrekt)
-
-**Error-Markup:** Fehler werden inline im Transkriptionstext markiert als `«original→korrektur|konfidenz»`. Im Frontend farbig hervorgehoben, per Click akzeptierbar.
-
-**Status-Kategorien:** `llm_verified` | `llm_error_suggestion` | `unverified` | `human_verified`
-
-**Abgrenzung:** VbV ersetzt nicht den manuellen Pilot (CER) und nicht quality_signals (Anomalie-Erkennung). Es ergaenzt beide um eine direkte Bildpruefung mit konkreten, actionable Fehlermeldungen.
-
----
-
 ## 7. Modellkonsensus (LLM-as-Judge)
 
 > **Definition:** *Modellkonsensus* (Cross-Model Agreement) bezeichnet den automatischen Vergleich zweier unabhaengiger VLM-Transkriptionen desselben Faksimiles. Zwei verschiedene Modelle (Gemini Flash Lite + Gemini Flash) transkribieren dasselbe Bild getrennt; die Uebereinstimmung wird zeichenweise (CER = Character Error Rate) und wortweise (Jaccard Word Overlap) gemessen. Wo die Modelle uebereinstimmen, ist die Transkription mit hoher Wahrscheinlichkeit korrekt. Wo sie divergieren, markiert das automatisch Stellen fuer menschliche Pruefung. Das Ergebnis wird in 4 Stufen klassifiziert: `consensus_verified` (CER < 3%), `consensus_moderate` (CER < 10%), `consensus_review` (Overlap >= 75%), `consensus_divergent` (Overlap < 75%).

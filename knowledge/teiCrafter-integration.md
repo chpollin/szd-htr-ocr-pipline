@@ -13,21 +13,24 @@ related:
 
 # teiCrafter-Integrationskonzept: SZD-HTR → TEI-Annotation
 
-Abhaengigkeit: [[htr-interchange-format]] (JSON-Schema), [[tei-target-structure]] (TEI-Ziel), [[annotation-protocol]] (Markup-Konventionen)
+Abhaengigkeit: [[htr-interchange-format]] (Page-JSON-Schema), [[tei-target-structure]] (TEI-Ziel), [[annotation-protocol]] (Markup-Konventionen)
 
 ---
 
 ## 1. Zweck und Scope
 
-Dieses Dokument konkretisiert, wie die HTR-Transkriptionen aus der SZD-Pipeline via [teiCrafter](https://digitalhumanitiescraft.github.io/teiCrafter/) in annotiertes TEI-XML ueberfuehrt werden. Es loest die 5 offenen Erweiterungsbedarfe aus [[htr-interchange-format]] §4.2 und liefert die Mapping-Templates, die teiCrafter fuer die SZD-Annotation benoetigt.
+Dieses Dokument konkretisiert, wie die HTR-Transkriptionen aus der SZD-Pipeline via [teiCrafter](https://digitalhumanitiescraft.github.io/teiCrafter/) in annotiertes TEI-XML ueberfuehrt werden. Es beschreibt den Page-JSON-Import (basierend auf [[htr-interchange-format]]) und liefert die Mapping-Templates, die teiCrafter fuer die SZD-Annotation benoetigt.
 
 ### 1.1 Datenfluss
 
 ```
-Pipeline-JSON → export_interchange.py → Interchange-JSON → teiCrafter Import (Step 1)
-  → Mapping (Step 2) → LLM-Annotation (Step 3) → Validierung (Step 4) → Export (Step 5)
-  → TEI-XML pro Objekt
+Pipeline-JSON → export_page_json.py → Page-JSON → teiCrafter Import (Step 1)
+  + Layout-JSON ──────────────────┘      → Mapping (Step 2) → LLM-Annotation (Step 3)
+                                         → Validierung (Step 4) → Export (Step 5)
+                                         → TEI-XML pro Objekt
 ```
+
+Page-JSON vereint Text, Layout und Metadaten in einer Datei (siehe [[htr-interchange-format]]).
 
 ### 1.2 teiCrafter-Architektur (Zusammenfassung)
 
@@ -35,7 +38,7 @@ teiCrafter ist eine Browser-SPA (Vanilla JS, kein Backend) mit 5 Schritten:
 
 | Schritt | Funktion | SZD-relevant |
 |---|---|---|
-| **Step 1: Import** | Datei laden (.txt, .md, .xml, .docx) | JSON-Import ergaenzen |
+| **Step 1: Import** | Datei laden (.txt, .md, .xml, .docx) | Page-JSON-Import ergaenzen |
 | **Step 2: Mapping** | sourceType, language, epoch, project, mappingRules konfigurieren | Auto-Vorbelegung aus JSON |
 | **Step 3: Transform** | LLM annotiert Text → TEI-XML | Diplomatisches Markup erkennen |
 | **Step 4: Validate** | Well-formedness, Plaintext-Preservation, Schema, Review | DTABf-Schema erweitern |
@@ -49,24 +52,25 @@ Repo: `C:\Users\Chrisi\Documents\GitHub\ResearchTools\teiCrafter`
 
 ### 2.1 Neuer Dateityp: `.json`
 
-teiCrafter akzeptiert aktuell .txt, .md, .xml, .docx. Fuer SZD-HTR wird `.json` als fuenfter Typ ergaenzt.
+teiCrafter akzeptiert aktuell .txt, .md, .xml, .docx. Fuer SZD-HTR wird `.json` (Page-JSON) als fuenfter Typ ergaenzt.
 
 **Import-Logik:**
 1. Datei laden und als JSON parsen
-2. Pruefen ob `htr_interchange`-Feld vorhanden (Schema-Erkennung)
-3. Version pruefen (`htr_interchange == "0.1"`)
-4. `transcription.pages[]` extrahieren
+2. Pruefen ob `page_json`-Feld vorhanden (Schema-Erkennung)
+3. Version pruefen (`page_json == "0.1"`)
+4. `pages[]` extrahieren
 5. Seiten mit `|{n}|`-Marker konkatenieren (siehe §5)
 6. Ergebnis in `AppState.inputContent` speichern
 7. Metadaten fuer Step 2 vorbelegen (siehe §2.2)
+8. Optional: `pages[].regions[].type` als Strukturhinweis speichern (heading, paragraph, list, table)
 
 **Code-Stelle:** `docs/js/app.js`, Funktion `handleFileUpload()` (ca. Zeile 69-232)
 
 ### 2.2 Auto-Vorbelegung von Step 2
 
-Wenn eine Interchange-JSON importiert wird, sollen die Step-2-Felder automatisch befuellt werden (User kann ueberschreiben):
+Wenn eine Page-JSON importiert wird, sollen die Step-2-Felder automatisch befuellt werden (User kann ueberschreiben):
 
-| teiCrafter-Feld | Interchange-Quelle | Transformation |
+| teiCrafter-Feld | Page-JSON-Quelle | Transformation |
 |---|---|---|
 | `sourceType` | `source.document_type` | Mapping-Tabelle (§2.3) |
 | `language` | `source.language` | ISO 639-1 direkt (`de`, `en`, `fr`, `it`, `es`) |
@@ -76,7 +80,7 @@ Wenn eine Interchange-JSON importiert wird, sollen die Step-2-Felder automatisch
 
 ### 2.3 sourceType-Mapping (aktualisiert)
 
-| Interchange `source.document_type` | teiCrafter `sourceType` | SZD-Mapping-Template |
+| Page-JSON `source.document_type` | teiCrafter `sourceType` | SZD-Mapping-Template |
 |---|---|---|
 | `manuscript`, `notebook`, `diary` | `generic` → **`manuscript`** (neu) | szd-manuscript |
 | `letter`, `postcard`, `correspondence` | `correspondence` | szd-correspondence |
@@ -290,11 +294,11 @@ Guidelines:
 
 **Entscheidung:** `|{n}|` als Seitentrenner (teiCrafter-Konvention).
 
-Das korrigiert den Vorschlag in [[htr-interchange-format]] §8.2, der `\n\n---\n\n` vorschlug. teiCrafter verwendet `|{n}|` bereits in allen Demo-Mappings und die LLM-Annotation erwartet dieses Format.
+teiCrafter verwendet `|{n}|` in allen Demo-Mappings und die LLM-Annotation erwartet dieses Format.
 
 ### 5.2 Export-Logik (fuer L3)
 
-`export_interchange.py` muss beim Konkatenieren der Seiten `|{n}|`-Marker einsetzen:
+`export_page_json.py` (oder teiCrafter direkt) muss beim Konkatenieren der Seiten `|{n}|`-Marker einsetzen:
 
 ```
 Seite 1 Text|{1}|Seite 2 Text|{2}|Seite 3 Text
@@ -308,7 +312,7 @@ Seite 1 Text|{1}||{2}|Seite 3 Text
 
 ### 5.3 Faksimile-Verknuepfung
 
-Die `source.images[]`-URLs aus dem Interchange-JSON koennen in die `|{n}|`-Marker nicht eingebettet werden (die sind reine Seitennummern). Stattdessen werden die Faksimile-URLs im Mapping-Kontext an den LLM uebergeben:
+Die `source.images[]`-URLs aus dem Page-JSON koennen in die `|{n}|`-Marker nicht eingebettet werden (die sind reine Seitennummern). Stattdessen werden die Faksimile-URLs im Mapping-Kontext an den LLM uebergeben:
 
 ```
 Page images:
@@ -321,27 +325,23 @@ Der LLM setzt dann `<pb n="1" facs="https://gams.uni-graz.at/o:szd.1079/IMG.1"/>
 
 ---
 
-## 6. Offene Punkte aus htr-interchange-format.md §8
+## 6. Entscheidungen zum Page-JSON-Format
+
+Die folgenden Entscheidungen wurden bei der Formatgestaltung getroffen (Details: [[htr-interchange-format]]):
 
 ### 6.1 Schema-Hosting
 
-**Entscheidung:** JSON-Schema auf GitHub Pages im szd-htr-Repo publizieren.
+JSON-Schema auf GitHub Pages: `https://chpollin.github.io/szd-htr/schemas/page-json-v0.1.json`
 
-URL-Muster: `https://chpollin.github.io/szd-htr/schemas/htr-interchange-v0.1.json`
+### 6.2 Seitentrenner
 
-Das `$id`-Feld im Schema wird entsprechend aktualisiert.
-
-### 6.2 Mehrseitige Konkatenation
-
-**Entscheidung:** `|{n}|` als Seitentrenner (siehe §5.1). Die Korrektur von `\n\n---\n\n` zu `|{n}|` wird in htr-interchange-format.md nachgetragen.
+`|{n}|` (teiCrafter-Konvention, siehe §5.1).
 
 ### 6.3 Sprach-Normalisierung
 
-**Entscheidung:** `source.language` erfordert ISO 639-1 Codes (`de`, `en`, `fr`, `it`, `es`, `la`). Freitext wie "Deutsch" oder "Englisch" wird im Export normalisiert (L3, `export_interchange.py`).
+`source.language` erfordert ISO 639-1 Codes. Freitext aus Pipeline wird normalisiert:
 
-Normalisierungstabelle:
-
-| SZD-HTR `metadata.language` | Interchange `source.language` |
+| Pipeline `metadata.language` | Page-JSON `source.language` |
 |---|---|
 | Deutsch, Deutsch? | `de` |
 | Englisch | `en` |
@@ -351,24 +351,13 @@ Normalisierungstabelle:
 | Jiddisch | `yi` |
 | unbekannt | `und` (undetermined) |
 
-### 6.4 document_type-Vokabular
+### 6.4 document_type
 
-**Entscheidung:** Kontrolliertes Vokabular (Enumeration):
-
-```
-manuscript, typescript, letter, postcard, notebook, diary, form, certificate,
-newspaper_clipping, proof_sheet, register, calendar, ledger, mixed_materials
-```
-
-Abgeleitet aus den TEI-Objekttypen der 4 Sammlungen. Neue Werte koennen ergaenzt werden, aber das Schema validiert gegen diese Liste.
+Kontrolliertes Vokabular: `manuscript`, `typescript`, `letter`, `postcard`, `notebook`, `diary`, `form`, `certificate`, `newspaper_clipping`, `proof_sheet`, `register`, `calendar`, `ledger`, `mixed_materials`.
 
 ### 6.5 Versionierung
 
-**Entscheidung:** SemVer.
-
-- `0.1` → aktueller Entwurf
-- `0.2` → nach Pilot-Ergebnissen (ggf. Felderweiterung)
-- `1.0` → nach erfolgreichem Durchlauf mit teiCrafter (Stabilisierung)
+SemVer: `0.1` (Entwurf) → `0.2` (nach Pilot) → `1.0` (nach teiCrafter-Integration).
 
 ---
 
@@ -444,7 +433,7 @@ Das bestehende `dtabf.json` muss um diplomatische Transkriptionselemente erweite
 
 | Aenderung | Wo | Prioritaet | Abhaengigkeit |
 |---|---|---|---|
-| JSON-Import (.json) | `app.js` handleFileUpload | Hoch | Interchange-Export (L3) |
+| Page-JSON-Import (.json) | `app.js` handleFileUpload | Hoch | Page-JSON-Export (L3) |
 | Auto-Vorbelegung Step 2 | `app.js` Step 2 init | Hoch | JSON-Import |
 | Sprachen: en, fr, it, es | `constants.js`, `app.js` | Hoch | Keine |
 | Epoche: 20c | `constants.js`, `app.js` | Hoch | Keine |
@@ -453,4 +442,4 @@ Das bestehende `dtabf.json` muss um diplomatische Transkriptionselemente erweite
 | SZD-Mapping-Templates (3) | `data/demo/mappings/` | Hoch | Schema-Erweiterung |
 | Faksimile-URLs in Kontext | `transform.js` | Mittel | JSON-Import |
 
-**Geschaetzter Implementierungsaufwand:** Die meisten Aenderungen sind Konfiguration (constants, Schema-JSON, Mapping-Templates). Der JSON-Import und die Auto-Vorbelegung erfordern ~100-200 Zeilen JavaScript. Die Schema-Erweiterung ist eine JSON-Ergaenzung. Der Gesamtaufwand liegt unter einem Arbeitstag.
+**Geschaetzter Implementierungsaufwand:** Die meisten Aenderungen sind Konfiguration (constants, Schema-JSON, Mapping-Templates). Der Page-JSON-Import und die Auto-Vorbelegung erfordern ~100-200 Zeilen JavaScript. Die Schema-Erweiterung ist eine JSON-Ergaenzung. Der Gesamtaufwand liegt unter einem Arbeitstag.

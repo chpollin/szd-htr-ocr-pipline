@@ -14,7 +14,7 @@ related:
 
 # TEI-Zielstruktur: Transkriptions-TEI fuer den SZD-Nachlass
 
-Abhaengigkeit: [[htr-interchange-format]] (Input), [[teiCrafter-integration]] (Workflow), [[annotation-protocol]] (Markup-Konventionen)
+Abhaengigkeit: [[htr-interchange-format]] (Page-JSON Input), [[teiCrafter-integration]] (Workflow), [[annotation-protocol]] (Markup-Konventionen)
 
 ---
 
@@ -247,7 +247,7 @@ Die Pipeline verwendet ein einfaches Markup-System (definiert in [[annotation-pr
 
 Die Uebersetzung erfolgt in zwei Stufen:
 
-**Stufe 1: Export (L3, `export_interchange.py`)** — Pipeline-JSON → Interchange-JSON. Seiten werden mit `|{n}|`-Markern konkateniert. Markup bleibt als Plaintext.
+**Stufe 1: Export (L3, `export_page_json.py`)** — Pipeline-JSON + Layout-JSON → Page-JSON. Seiten werden mit `|{n}|`-Markern konkateniert. Markup bleibt als Plaintext.
 
 **Stufe 2: Annotation (teiCrafter)** — Interchange-Plaintext → TEI-XML. teiCrafter's LLM erkennt die Markup-Muster und uebersetzt sie in TEI-Elemente. Die Mapping-Rules (siehe [[teiCrafter-integration]]) instruieren den LLM, welche Muster welchen TEI-Elementen entsprechen.
 

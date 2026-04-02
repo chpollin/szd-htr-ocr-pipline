@@ -21,7 +21,7 @@ PAGE XML (PRImA Lab, 2019) ist der etablierte Standard fuer Dokumentlayout-Daten
 
 ### 1.1 Bisherige Abgrenzung
 
-Das [[htr-interchange-format]] (§1.1, §7) lehnte PAGE XML ab, weil VLMs keinen raeumlichen Output liefern. Diese Einschraenkung gilt weiterhin fuer den **Transkriptionsschritt** — aber ein **separater Layout-Analyse-Schritt** kann die fehlenden Koordinaten nachtraeglich erzeugen.
+Das [[htr-interchange-format]] (Page-JSON) loest dieses Problem durch progressive Anreicherung: Das Format funktioniert ohne Koordinaten (nur Text), kann aber Layout-Regionen nachtraeglich aufnehmen. Ein **separater Layout-Analyse-Schritt** erzeugt die fehlenden Koordinaten und fuegt sie als `regions[]` in das bestehende Page-JSON ein.
 
 ## 2. Ansatz: VLM-basierte Layout-Analyse
 
@@ -188,7 +188,7 @@ Phase 4: Verifikation
   verify.py → *_consensus.json (Modellkonsensus)
 
 Phase 5: TEI-Export
-  export_interchange.py → Interchange JSON → teiCrafter → TEI-XML
+  export_page_json.py → Page-JSON → teiCrafter → TEI-XML
 ```
 
 ## 7. Offene Punkte
@@ -204,5 +204,5 @@ Phase 5: TEI-Export
 
 - PRImA PAGE XML 2019: https://www.primaresearch.org/schema/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd
 - Pletschacher & Antonacopoulos (2010): The PAGE (Page Analysis and Ground-truth Elements) Format Framework
-- [[htr-interchange-format]] §1.1, §7 — Abgrenzung und Interoperabilitaet
+- [[htr-interchange-format]] — Page-JSON: Text + Layout + Metadaten in einem Format
 - [[tei-target-structure]] — TEI-Zielstruktur mit `<head>`, `<p>`, `<list>`, `<table>`
