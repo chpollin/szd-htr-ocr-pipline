@@ -15,6 +15,14 @@ const COLLECTION_LABELS = {
   korrespondenzen: 'Korrespondenzen',
 };
 
+// TEI catalog totals (update when archive grows)
+const COLLECTION_TOTALS = {
+  lebensdokumente: 127,
+  korrespondenzen: 1186,
+  aufsatzablage: 625,
+  werke: 169,
+};
+
 const LS_KEY = 'szd-htr-edits';
 const LS_GT_KEY = 'szd-htr-gt-reviews';
 const LS_FIT_KEY = 'szd-htr-fit-mode';
@@ -71,6 +79,7 @@ const state = {
   isLocal: false,
   fitMode: 'height',         // 'height' or 'width'
   approvals: new Map(),      // objectId → { approved, reviewed_by, reviewed_at }
+  statsCharts: [],           // Chart.js instances for stats page (destroyed on re-render)
 };
 
 /* ===== Utilities ===== */
@@ -213,6 +222,7 @@ function parseHash() {
   if (hash === 'knowledge') return { view: 'knowledge' };
   const km = hash.match(/^knowledge\/(.+)$/);
   if (km) return { view: 'knowledge-doc', slug: km[1] };
+  if (hash === 'stats') return { view: 'stats' };
   if (hash === 'about') return { view: 'about' };
   const m = hash.match(/^view\/(.+?)(?:\/(\d+))?$/);
   if (m) return { view: 'viewer', objectId: m[1], page: m[2] ? parseInt(m[2], 10) - 1 : 0 };
@@ -286,6 +296,8 @@ function route() {
     showKnowledgeDoc(r.slug);
   } else if (r.view === 'about') {
     showAbout();
+  } else if (r.view === 'stats') {
+    showStatsPage();
   } else if (r.view === 'help') {
     showHelp();
   } else {
@@ -2023,6 +2035,511 @@ function showHelp() {
   state.currentObjectId = null;
   state.editMode = false;
   resetDiffMode();
+}
+
+/* ===== Stats Page ===== */
+
+const REASON_LABELS = {
+  duplicate_pages: 'Seitenduplikate',
+  page_length_anomaly: 'Seitenl\u00e4ngen-Anomalie',
+  page_image_mismatch: 'Bild-Text-Mismatch',
+  language_mismatch: 'Sprach-Mismatch',
+  low_dwr: 'Niedriger DWR',
+  marker_density: 'Hohe Markerdichte',
+};
+const REASON_KEYS = Object.keys(REASON_LABELS);
+
+const CHART_FONT = "'Source Sans 3', sans-serif";
+const CHART_COLORS = {
+  burgundyAlpha: 'rgba(99, 26, 52, 0.7)',
+  success: '#2d6a2d',
+  successDark: '#1a6b1a',
+  successMid: '#4a8f4a',
+  warning: '#8a6914',
+  warningOrange: '#c47a20',
+  danger: '#a0522d',
+  muted: '#E0D8CC',
+  gold: '#C2A360',
+};
+
+function showStatsPage() {
+  document.body.className = 'view-stats';
+  document.title = 'SZD-HTR \u2014 Statistiken';
+  state.currentObjectId = null;
+  state.editMode = false;
+  resetDiffMode();
+  renderStatsPage();
+}
+
+function computeStatsData() {
+  const d = {
+    total: 0,
+    contentPages: 0,
+    totalPages: 0,
+    blankPages: 0,
+    totalChars: 0,
+    needsReview: 0,
+    dwrHistogram: new Array(8).fill(0),
+    dwrCount: 0,
+    dwrSum: 0,
+    reasonCounts: {},
+    byGroup: {},
+    groupReasonMatrix: {},
+    // Coverage
+    perCollection: {},
+    pagesByCollection: {},
+    // Review tiers
+    gtVerifiedCount: 0,
+    approvedCount: 0,
+    agentCount: 0,
+    llmOkCount: 0,
+    // Confidence
+    confDist: { high: 0, medium: 0, low: 0 },
+    // Consensus
+    consensusCount: 0,
+    consCatDist: {},
+    consensusCerBins: new Array(5).fill(0),
+  };
+
+  for (const o of state.catalog) {
+    d.total++;
+    d.contentPages += o.contentPages || 0;
+    d.blankPages += o.blankPages || 0;
+    d.totalPages += o.pageCount || 0;
+    d.totalChars += (o.verification || {}).totalChars || 0;
+    if (o.needsReview) d.needsReview++;
+
+    // DWR histogram (8 bins: 0.0-0.1 ... 0.7+)
+    if (o.dwrScore != null && o.dwrScore > 0) {
+      d.dwrCount++;
+      d.dwrSum += o.dwrScore;
+      d.dwrHistogram[Math.min(7, Math.floor(o.dwrScore * 10))]++;
+    }
+
+    // Collection
+    const col = o.collection;
+    d.perCollection[col] = (d.perCollection[col] || 0) + 1;
+    if (!d.pagesByCollection[col]) d.pagesByCollection[col] = { content: 0, blank: 0, other: 0 };
+    d.pagesByCollection[col].content += o.contentPages || 0;
+    d.pagesByCollection[col].blank += o.blankPages || 0;
+    d.pagesByCollection[col].other += (o.pageCount || 0) - (o.contentPages || 0) - (o.blankPages || 0);
+
+    // Review tiers
+    if (o.gtVerified) d.gtVerifiedCount++;
+    else if (o.reviewStatus === 'approved') d.approvedCount++;
+    else if (o.reviewStatus === 'agent_verified') d.agentCount++;
+    else if (!o.needsReview) d.llmOkCount++;
+
+    // Confidence
+    const conf = o.confidence || '';
+    if (conf === 'high') d.confDist.high++;
+    else if (conf === 'medium') d.confDist.medium++;
+    else if (conf === 'low') d.confDist.low++;
+
+    // Consensus
+    if (o.consensusCategory) {
+      d.consensusCount++;
+      d.consCatDist[o.consensusCategory] = (d.consCatDist[o.consensusCategory] || 0) + 1;
+    }
+    if (o.consensusCer != null) {
+      const cer = o.consensusCer * 100;
+      const bin = cer < 3 ? 0 : cer < 5 ? 1 : cer < 10 ? 2 : cer < 20 ? 3 : 4;
+      d.consensusCerBins[bin]++;
+    }
+
+    // Group + reasons (single pass)
+    const g = o.group || '?';
+    if (!d.byGroup[g]) d.byGroup[g] = { count: 0, label: o.groupLabel || g };
+    d.byGroup[g].count++;
+
+    if (o.needsReviewReasons && o.needsReviewReasons.length > 0) {
+      if (!d.groupReasonMatrix[g]) d.groupReasonMatrix[g] = {};
+      for (const r of o.needsReviewReasons) {
+        d.reasonCounts[r] = (d.reasonCounts[r] || 0) + 1;
+        d.groupReasonMatrix[g][r] = (d.groupReasonMatrix[g][r] || 0) + 1;
+      }
+    }
+  }
+  return d;
+}
+
+function chartOptions(overrides) {
+  const base = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { backgroundColor: '#2D2D2D', titleFont: { family: CHART_FONT }, bodyFont: { family: CHART_FONT } },
+    },
+    scales: {
+      x: { ticks: { font: { family: CHART_FONT, size: 11 }, color: '#6B6B6B' }, grid: { color: '#EDE8DF' } },
+      y: { ticks: { font: { family: CHART_FONT, size: 11 }, color: '#6B6B6B' }, grid: { color: '#EDE8DF' } },
+    },
+  };
+  if (overrides) Object.assign(base, overrides);
+  return base;
+}
+
+function axisTitle(text) {
+  return { display: true, text, font: { family: CHART_FONT, size: 12 } };
+}
+
+function formatNum(n) { return n.toLocaleString('de'); }
+function formatChars(n) {
+  return n >= 1e6 ? (n / 1e6).toFixed(1).replace('.', ',') + '\u00a0Mio.' : formatNum(n);
+}
+
+function donutOptions(legendPos) {
+  return {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: '55%',
+    plugins: {
+      legend: { display: true, position: legendPos || 'bottom', labels: { font: { family: CHART_FONT, size: 11 }, padding: 12, usePointStyle: true, pointStyle: 'circle' } },
+      tooltip: { backgroundColor: '#2D2D2D', titleFont: { family: CHART_FONT }, bodyFont: { family: CHART_FONT } },
+    },
+  };
+}
+
+function renderStatsPage() {
+  for (const c of state.statsCharts) c.destroy();
+  state.statsCharts = [];
+
+  const grid = document.getElementById('statsGrid');
+  if (!grid || state.catalog.length === 0) return;
+
+  const d = computeStatsData();
+  const reasonEntries = Object.entries(d.reasonCounts).sort((a, b) => b[1] - a[1]);
+  const signalTotal = reasonEntries.reduce((s, e) => s + e[1], 0);
+  const catalogTotal = Object.values(COLLECTION_TOTALS).reduce((s, n) => s + n, 0);
+  const avgDwr = d.dwrCount > 0 ? Math.round((d.dwrSum / d.dwrCount) * 100) : 0;
+  const verifiedPct = d.total > 0 ? Math.round(((d.total - d.needsReview) / d.total) * 100) : 0;
+
+  const subtitle = document.querySelector('.stats-page__subtitle');
+  if (subtitle) subtitle.textContent = `Qualit\u00e4tsmetriken f\u00fcr ${d.total} transkribierte Objekte \u2014 ${formatNum(d.contentPages)} Inhaltsseiten, ${formatChars(d.totalChars)} Zeichen.`;
+
+  // Section 4: Consensus (conditional)
+  const hasConsensus = d.consensusCount > 0;
+  const consensusSection = !hasConsensus ? '' : `
+    <div class="stats-section">
+      <div class="stats-section__header">
+        <h2 class="stats-section__title">4. Modellkonsensus</h2>
+        <p class="stats-section__desc">Cross-Model-Verifikation: zwei unabh\u00e4ngige VLMs transkribieren dasselbe Dokument, Divergenzen werden per CER quantifiziert.</p>
+      </div>
+      <div class="stats-section__grid">
+        <div class="stats-card">
+          <div class="stats-card__title">Konsensus-Kategorien</div>
+          <div class="stats-card__subtitle">${d.consensusCount} von ${d.total} Objekten mit Cross-Model-Verifikation.</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--donut"><canvas id="chartConsensus"></canvas></div>
+        </div>
+        <div class="stats-card">
+          <div class="stats-card__title">CER-Verteilung</div>
+          <div class="stats-card__subtitle">Character Error Rate zwischen den beiden Modellen.</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--bar"><canvas id="chartConsensusCer"></canvas></div>
+        </div>
+      </div>
+    </div>`;
+
+  grid.innerHTML = `
+    <div class="stats-kpi-row">
+      <div class="stats-kpi">
+        <div class="stats-kpi__value">${d.total}</div>
+        <div class="stats-kpi__label">Objekte</div>
+        <div class="stats-kpi__detail">${Math.round(d.total / catalogTotal * 100)}% von ${formatNum(catalogTotal)}</div>
+      </div>
+      <div class="stats-kpi">
+        <div class="stats-kpi__value">${formatNum(d.contentPages)}</div>
+        <div class="stats-kpi__label">Inhaltsseiten</div>
+        <div class="stats-kpi__detail">von ${formatNum(d.totalPages)} Seiten</div>
+      </div>
+      <div class="stats-kpi">
+        <div class="stats-kpi__value">${formatChars(d.totalChars)}</div>
+        <div class="stats-kpi__label">Zeichen</div>
+        <div class="stats-kpi__detail">\u00D8 ${formatNum(d.total > 0 ? Math.round(d.totalChars / d.total) : 0)} pro Objekt</div>
+      </div>
+      <div class="stats-kpi">
+        <div class="stats-kpi__value">${avgDwr}%</div>
+        <div class="stats-kpi__label">\u00D8 DWR</div>
+        <div class="stats-kpi__detail">${d.dwrCount} Objekte mit Score</div>
+      </div>
+      <div class="stats-kpi">
+        <div class="stats-kpi__value">${verifiedPct}%</div>
+        <div class="stats-kpi__label">Review OK</div>
+        <div class="stats-kpi__detail">${d.needsReview} brauchen Review</div>
+      </div>
+    </div>
+
+    <div class="stats-section">
+      <div class="stats-section__header">
+        <h2 class="stats-section__title">1. Abdeckung</h2>
+        <p class="stats-section__desc">Transkriptionsfortschritt \u00fcber die vier Sammlungen des Stefan-Zweig-Nachlasses.</p>
+      </div>
+      <div class="stats-section__grid">
+        <div class="stats-card">
+          <div class="stats-card__title">Fortschritt pro Sammlung</div>
+          <div class="stats-card__subtitle">${d.total} von ${formatNum(catalogTotal)} Objekten transkribiert (${Math.round(d.total / catalogTotal * 100)}%).</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--hbar"><canvas id="chartCoverage"></canvas></div>
+        </div>
+        <div class="stats-card">
+          <div class="stats-card__title">Seitenkomposition</div>
+          <div class="stats-card__subtitle">${formatNum(d.contentPages)} Inhalt, ${formatNum(d.blankPages)} Leer, ${formatNum(d.totalPages - d.contentPages - d.blankPages)} Farbskala.</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--bar"><canvas id="chartPages"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-section">
+      <div class="stats-section__header">
+        <h2 class="stats-section__title">2. Mehrstufige Verifikation</h2>
+        <p class="stats-section__desc">Drei Verifikationsstufen: automatische Quality Signals, Cross-Model-Konsensus und Expert-Review.</p>
+      </div>
+      <div class="stats-section__grid">
+        <div class="stats-card">
+          <div class="stats-card__title">Review-Status</div>
+          <div class="stats-card__subtitle">Verteilung der ${d.total} Objekte nach Verifikationsstufe.</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--donut"><canvas id="chartReview"></canvas></div>
+        </div>
+        <div class="stats-card">
+          <div class="stats-card__title">VLM-Konfidenz</div>
+          <div class="stats-card__subtitle">Selbsteinsch\u00e4tzung des Modells (schwaches Signal, validiert durch DWR und Konsensus).</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--donut"><canvas id="chartConfidence"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-section">
+      <div class="stats-section__header">
+        <h2 class="stats-section__title">3. Qualit\u00e4tsverteilung</h2>
+        <p class="stats-section__desc">Dictionary Word Ratio (DWR) als st\u00e4rkster verf\u00fcgbarer Qualit\u00e4tsproxy und automatische Quality Signals.</p>
+      </div>
+      <div class="stats-section__grid">
+        <div class="stats-card">
+          <div class="stats-card__title">DWR-Verteilung</div>
+          <div class="stats-card__subtitle">${d.dwrCount} Objekte mit DWR-Score. Schwelle &lt; 0.15 = niedrig (rot).</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--bar"><canvas id="chartDwr"></canvas></div>
+        </div>
+        <div class="stats-card">
+          <div class="stats-card__title">Review-Gr\u00fcnde</div>
+          <div class="stats-card__subtitle">${signalTotal} Signale bei ${d.needsReview} Objekten (Mehrfachnennung m\u00f6glich).</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--hbar"><canvas id="chartReasons"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    ${consensusSection}
+
+    <div class="stats-section">
+      <div class="stats-section__header">
+        <h2 class="stats-section__title">${hasConsensus ? '5' : '4'}. Signalanalyse</h2>
+        <p class="stats-section__desc">Welche Dokumenttypen l\u00f6sen welche Quality Signals aus? Zeigt systematische Qualit\u00e4tsunterschiede.</p>
+      </div>
+      <div class="stats-section__grid">
+        <div class="stats-card stats-card--wide">
+          <div class="stats-card__title">Qualit\u00e4tssignale nach Dokumenttyp</div>
+          <div class="stats-card__subtitle">Anteil Objekte pro Gruppe, die das jeweilige Signal ausl\u00f6sen (%).</div>
+          <div id="heatmapContainer"></div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  if (typeof Chart === 'undefined') return;
+  renderCoverageChart(d);
+  renderPageCompositionChart(d);
+  renderReviewDonut(d);
+  renderConfidenceDonut(d);
+  renderDwrHistogram(d);
+  renderReasonsChart(d);
+  if (hasConsensus) {
+    renderConsensusDonut(d);
+    renderConsensusCerChart(d);
+  }
+  renderHeatmap(d);
+}
+
+function renderCoverageChart(d) {
+  const ctx = document.getElementById('chartCoverage');
+  if (!ctx) return;
+  const cols = state.collections;
+  const labels = cols.map(c => COLLECTION_LABELS[c] || c);
+  const done = cols.map(c => d.perCollection[c] || 0);
+  const pending = cols.map(c => (COLLECTION_TOTALS[c] || 0) - (d.perCollection[c] || 0));
+  const opts = chartOptions({ indexAxis: 'y' });
+  opts.scales.x.stacked = true;
+  opts.scales.y.stacked = true;
+  opts.scales.x.title = axisTitle('Objekte');
+  opts.plugins.tooltip = {
+    backgroundColor: '#2D2D2D', titleFont: { family: CHART_FONT }, bodyFont: { family: CHART_FONT },
+    callbacks: { label: item => { const t = COLLECTION_TOTALS[cols[item.dataIndex]] || 1; return `${item.dataset.label}: ${item.raw} (${Math.round(item.raw / t * 100)}%)`; } },
+  };
+  opts.onClick = (_, elems) => { if (elems.length > 0) navigate('catalog?collection=' + cols[elems[0].index]); };
+  state.statsCharts.push(new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        { label: 'Transkribiert', data: done, backgroundColor: CHART_COLORS.success },
+        { label: 'Ausstehend', data: pending, backgroundColor: CHART_COLORS.muted },
+      ],
+    },
+    options: opts,
+  }));
+}
+
+function renderPageCompositionChart(d) {
+  const ctx = document.getElementById('chartPages');
+  if (!ctx) return;
+  const cols = state.collections;
+  const labels = cols.map(c => COLLECTION_LABELS[c] || c);
+  const content = cols.map(c => (d.pagesByCollection[c] || {}).content || 0);
+  const blank = cols.map(c => (d.pagesByCollection[c] || {}).blank || 0);
+  const other = cols.map(c => (d.pagesByCollection[c] || {}).other || 0);
+  const opts = chartOptions();
+  opts.scales.x.stacked = true;
+  opts.scales.y.stacked = true;
+  opts.scales.y.title = axisTitle('Seiten');
+  state.statsCharts.push(new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        { label: 'Inhalt', data: content, backgroundColor: CHART_COLORS.success },
+        { label: 'Leer', data: blank, backgroundColor: CHART_COLORS.muted },
+        { label: 'Farbskala', data: other, backgroundColor: CHART_COLORS.gold },
+      ],
+    },
+    options: opts,
+  }));
+}
+
+function renderReviewDonut(d) {
+  const ctx = document.getElementById('chartReview');
+  if (!ctx) return;
+  const segments = [
+    { label: 'GT Verifiziert', value: d.gtVerifiedCount, color: CHART_COLORS.successDark },
+    { label: 'Expert Gepr\u00fcft', value: d.approvedCount, color: CHART_COLORS.success },
+    { label: 'Agent Verifiziert', value: d.agentCount, color: CHART_COLORS.successMid },
+    { label: 'LLM OK', value: d.llmOkCount, color: CHART_COLORS.warning },
+    { label: 'Needs Review', value: d.needsReview, color: CHART_COLORS.danger },
+  ].filter(s => s.value > 0);
+  const opts = donutOptions('bottom');
+  opts.onClick = (_, elems) => {
+    if (elems.length > 0 && segments[elems[0].index].label === 'Needs Review') navigate('catalog?review_status=needs_review');
+  };
+  state.statsCharts.push(new Chart(ctx, {
+    type: 'doughnut',
+    data: { labels: segments.map(s => `${s.label} (${s.value})`), datasets: [{ data: segments.map(s => s.value), backgroundColor: segments.map(s => s.color) }] },
+    options: opts,
+  }));
+}
+
+function renderConfidenceDonut(d) {
+  const ctx = document.getElementById('chartConfidence');
+  if (!ctx) return;
+  const segments = [
+    { label: 'High', value: d.confDist.high, color: CHART_COLORS.success },
+    { label: 'Medium', value: d.confDist.medium, color: CHART_COLORS.warning },
+    { label: 'Low', value: d.confDist.low, color: CHART_COLORS.danger },
+  ].filter(s => s.value > 0);
+  state.statsCharts.push(new Chart(ctx, {
+    type: 'doughnut',
+    data: { labels: segments.map(s => `${s.label} (${s.value})`), datasets: [{ data: segments.map(s => s.value), backgroundColor: segments.map(s => s.color) }] },
+    options: donutOptions('bottom'),
+  }));
+}
+
+function renderConsensusDonut(d) {
+  const ctx = document.getElementById('chartConsensus');
+  if (!ctx) return;
+  const catColors = {
+    consensus_verified: CHART_COLORS.successDark,
+    consensus_moderate: CHART_COLORS.warning,
+    consensus_review: CHART_COLORS.warningOrange,
+    consensus_divergent: CHART_COLORS.danger,
+  };
+  const entries = Object.entries(d.consCatDist).sort((a, b) => {
+    const order = ['consensus_verified', 'consensus_moderate', 'consensus_review', 'consensus_divergent'];
+    return order.indexOf(a[0]) - order.indexOf(b[0]);
+  });
+  state.statsCharts.push(new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: entries.map(([k, v]) => `${CONSENSUS_LABELS[k] || k} (${v})`),
+      datasets: [{ data: entries.map(([, v]) => v), backgroundColor: entries.map(([k]) => catColors[k] || CHART_COLORS.muted) }],
+    },
+    options: donutOptions('bottom'),
+  }));
+}
+
+function renderConsensusCerChart(d) {
+  const ctx = document.getElementById('chartConsensusCer');
+  if (!ctx) return;
+  const labels = ['< 3%', '3\u20135%', '5\u201310%', '10\u201320%', '\u2265 20%'];
+  const colors = [CHART_COLORS.success, CHART_COLORS.successMid, CHART_COLORS.warning, CHART_COLORS.warningOrange, CHART_COLORS.danger];
+  const opts = chartOptions();
+  opts.scales.x.title = axisTitle('CER-Bereich');
+  opts.scales.y.title = axisTitle('Objekte');
+  state.statsCharts.push(new Chart(ctx, {
+    type: 'bar',
+    data: { labels, datasets: [{ label: 'Objekte', data: d.consensusCerBins, backgroundColor: colors }] },
+    options: opts,
+  }));
+}
+
+function renderDwrHistogram(d) {
+  const ctx = document.getElementById('chartDwr');
+  if (!ctx) return;
+  const labels = ['0.0\u20130.1', '0.1\u20130.2', '0.2\u20130.3', '0.3\u20130.4', '0.4\u20130.5', '0.5\u20130.6', '0.6\u20130.7', '0.7+'];
+  const colors = d.dwrHistogram.map((_, i) => i < 2 ? CHART_COLORS.danger : i < 3 ? CHART_COLORS.warning : CHART_COLORS.success);
+  const opts = chartOptions();
+  opts.scales.x.title = axisTitle('DWR-Score');
+  opts.scales.y.title = axisTitle('Objekte');
+  state.statsCharts.push(new Chart(ctx, {
+    type: 'bar',
+    data: { labels, datasets: [{ label: 'Objekte', data: d.dwrHistogram, backgroundColor: colors }] },
+    options: opts,
+  }));
+}
+
+function renderReasonsChart(d) {
+  const ctx = document.getElementById('chartReasons');
+  if (!ctx) return;
+  const entries = Object.entries(d.reasonCounts).sort((a, b) => b[1] - a[1]);
+  if (entries.length === 0) return;
+  const opts = chartOptions({ indexAxis: 'y' });
+  opts.scales.x.title = axisTitle('Anzahl');
+  opts.onClick = () => navigate('catalog?review_status=needs_review');
+  state.statsCharts.push(new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: entries.map(([r]) => REASON_LABELS[r] || r),
+      datasets: [{ label: 'Signale', data: entries.map(([, n]) => n), backgroundColor: CHART_COLORS.burgundyAlpha }],
+    },
+    options: opts,
+  }));
+}
+
+function renderHeatmap(d) {
+  const container = document.getElementById('heatmapContainer');
+  if (!container) return;
+  const groups = Object.keys(d.byGroup).sort();
+  if (groups.length === 0) { container.innerHTML = ''; return; }
+
+  const headerCells = REASON_KEYS.map(r => `<th>${REASON_LABELS[r]}</th>`).join('');
+  const rows = groups.map(g => {
+    const total = d.byGroup[g].count;
+    const matrix = d.groupReasonMatrix[g] || {};
+    const cells = REASON_KEYS.map(r => {
+      const count = matrix[r] || 0;
+      if (count === 0) return '<td><span class="stats-heatmap__cell stats-heatmap__cell--zero">\u2014</span></td>';
+      const pct = Math.round(count / total * 100);
+      const alpha = Math.min(0.6, pct / 100 * 1.2);
+      return `<td><span class="stats-heatmap__cell${alpha > 0.3 ? ' stats-heatmap__cell--bright' : ''}" style="background:rgba(99,26,52,${alpha.toFixed(2)})">${pct}%</span></td>`;
+    }).join('');
+    return `<tr><td><a href="#catalog?group=${g.toLowerCase()}" class="stats-heatmap__group">${g} \u2013 ${escapeHtml(d.byGroup[g].label)} (${total})</a></td>${cells}</tr>`;
+  }).join('');
+
+  container.innerHTML = `<table class="stats-heatmap"><thead><tr><th>Gruppe</th>${headerCells}</tr></thead><tbody>${rows}</tbody></table>`;
 }
 
 /* ===== Event Handlers ===== */

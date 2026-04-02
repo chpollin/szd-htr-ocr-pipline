@@ -213,37 +213,50 @@ body.view-catalog #viewer,
 body.view-catalog #knowledge,
 body.view-catalog #knowledgeDoc,
 body.view-catalog #about,
-body.view-catalog #help { display: none; }
+body.view-catalog #help,
+body.view-catalog #stats { display: none; }
 
 body.view-viewer #catalog,
 body.view-viewer #knowledge,
 body.view-viewer #knowledgeDoc,
 body.view-viewer #about,
-body.view-viewer #help { display: none; }
+body.view-viewer #help,
+body.view-viewer #stats { display: none; }
 
 body.view-knowledge #catalog,
 body.view-knowledge #viewer,
 body.view-knowledge #knowledgeDoc,
 body.view-knowledge #about,
-body.view-knowledge #help { display: none; }
+body.view-knowledge #help,
+body.view-knowledge #stats { display: none; }
 
 body.view-knowledge-doc #catalog,
 body.view-knowledge-doc #viewer,
 body.view-knowledge-doc #knowledge,
 body.view-knowledge-doc #about,
-body.view-knowledge-doc #help { display: none; }
+body.view-knowledge-doc #help,
+body.view-knowledge-doc #stats { display: none; }
 
 body.view-about #catalog,
 body.view-about #viewer,
 body.view-about #knowledge,
 body.view-about #knowledgeDoc,
-body.view-about #help { display: none; }
+body.view-about #help,
+body.view-about #stats { display: none; }
 
 body.view-help #catalog,
 body.view-help #viewer,
 body.view-help #knowledge,
 body.view-help #knowledgeDoc,
-body.view-help #about { display: none; }
+body.view-help #about,
+body.view-help #stats { display: none; }
+
+body.view-stats #catalog,
+body.view-stats #viewer,
+body.view-stats #knowledge,
+body.view-stats #knowledgeDoc,
+body.view-stats #about,
+body.view-stats #help { display: none; }
 
 /* ===== 7. Catalog View ===== */
 .catalog {
@@ -2125,7 +2138,238 @@ body.view-help #about { display: none; }
   }
 }
 
-/* ===== 20. Reduced Motion ===== */
+/* ===== 20. Stats Dashboard ===== */
+.stats-page {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem;
+  flex: 1;
+}
+
+.stats-page__header {
+  margin-bottom: 1.5rem;
+}
+
+.stats-page__title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--sz-burgundy);
+  margin: 0 0 0.25rem;
+}
+
+.stats-page__subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--sz-text-light);
+  margin: 0;
+}
+
+.stats-page__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.stats-card {
+  background: var(--sz-white);
+  border: 1px solid var(--sz-border);
+  border-radius: 6px;
+  padding: 1.25rem;
+}
+
+.stats-card--wide {
+  grid-column: 1 / -1;
+}
+
+.stats-card__title {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--sz-burgundy);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--sz-gold);
+}
+
+.stats-card__subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--sz-text-light);
+  margin: -0.5rem 0 0.75rem;
+}
+
+.stats-card__chart-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.stats-card__chart-wrap--bar {
+  height: 280px;
+}
+
+.stats-card__chart-wrap--hbar {
+  height: 220px;
+}
+
+
+/* Heatmap table */
+.stats-heatmap {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+}
+
+.stats-heatmap th {
+  font-weight: 600;
+  padding: 0.4rem 0.5rem;
+  text-align: center;
+  color: var(--sz-text-light);
+  border-bottom: 1px solid var(--sz-border);
+  font-size: 0.7rem;
+}
+
+.stats-heatmap th:first-child {
+  text-align: left;
+  min-width: 110px;
+}
+
+.stats-heatmap td {
+  padding: 0.4rem 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid var(--sz-border-light);
+  font-variant-numeric: tabular-nums;
+}
+
+.stats-heatmap td:first-child {
+  text-align: left;
+  font-weight: 500;
+  color: var(--sz-text);
+}
+
+.stats-heatmap__cell {
+  border-radius: 3px;
+  padding: 0.2rem 0.4rem;
+  display: inline-block;
+  min-width: 2.5rem;
+}
+
+.stats-heatmap__cell--zero {
+  color: var(--sz-border);
+}
+
+.stats-heatmap__cell--bright {
+  color: #fff;
+}
+
+.stats-heatmap__group {
+  color: var(--sz-text);
+  text-decoration: none;
+}
+
+.stats-heatmap__group:hover {
+  text-decoration: underline;
+}
+
+/* KPI row */
+.stats-kpi-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stats-kpi {
+  flex: 1;
+  text-align: center;
+  background: var(--sz-white);
+  border: 1px solid var(--sz-border);
+  border-radius: 6px;
+  padding: 1rem 0.5rem;
+}
+
+.stats-kpi__value {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--sz-burgundy);
+  line-height: 1.2;
+}
+
+.stats-kpi__label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--sz-text-light);
+  margin-top: 0.15rem;
+}
+
+.stats-kpi__detail {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  color: var(--sz-text-light);
+  margin-top: 0.1rem;
+}
+
+/* Narrative sections */
+.stats-section {
+  margin-bottom: 2rem;
+}
+
+.stats-section__header {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--sz-gold);
+}
+
+.stats-section__title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--sz-burgundy);
+  margin: 0 0 0.15rem;
+}
+
+.stats-section__desc {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--sz-text-light);
+  margin: 0;
+}
+
+.stats-section__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+/* Donut chart container */
+.stats-card__chart-wrap--donut {
+  height: 280px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .stats-page__grid {
+    grid-template-columns: 1fr;
+  }
+  .stats-section__grid {
+    grid-template-columns: 1fr;
+  }
+  .stats-kpi-row {
+    flex-wrap: wrap;
+  }
+  .stats-kpi {
+    flex: 1 1 calc(50% - 0.5rem);
+  }
+}
+
+/* ===== 21. Reduced Motion ===== */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     transition-duration: 0.01ms !important;
