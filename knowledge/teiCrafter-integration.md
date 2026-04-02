@@ -1,10 +1,9 @@
 ---
-title: "teiCrafter-Integrationskonzept: SZD-HTR → TEI-Annotation"
+title: "teiCrafter-Integration"
 aliases: ["teiCrafter-Integration"]
 created: 2026-04-01
 updated: 2026-04-01
 type: spec
-tags: [szd-htr, tei, teiCrafter, methodology]
 status: draft
 related:
   - "[[htr-interchange-format]]"

@@ -1,11 +1,10 @@
 ---
-title: "SZD-HTR Research Journal"
-aliases: ["Journal", "Session-Log"]
+title: "Research Journal"
+aliases: ["Journal"]
 created: 2026-03-30
 updated: 2026-04-02
-type: journal
-tags: [szd-htr, session-log]
-status: active
+type: log
+status: stable
 related:
   - "[[data-overview]]"
   - "[[verification-concept]]"

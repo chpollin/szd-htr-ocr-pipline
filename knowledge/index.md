@@ -1,10 +1,9 @@
 ---
-title: "SZD-HTR Research Vault"
+title: "Research Vault"
 created: 2026-04-01
 updated: 2026-04-02
 type: moc
-tags: [szd-htr]
-status: active
+status: stable
 ---
 
 # SZD-HTR Research Vault

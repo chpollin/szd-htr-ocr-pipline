@@ -1,10 +1,9 @@
 ---
-title: "DIA-XAI-Integration: SZD-HTR als Datenlieferant fuer EQUALIS"
-aliases: ["DIA-XAI-Integration", "EQUALIS-Mapping"]
+title: "DIA-XAI-Integration"
+aliases: ["DIA-XAI-Integration"]
 created: 2026-04-01
 updated: 2026-04-01
 type: spec
-tags: [szd-htr, dia-xai, equalis, methodology]
 status: draft
 related:
   - "[[verification-concept]]"

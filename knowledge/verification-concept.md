@@ -1,10 +1,9 @@
 ---
-title: "Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline"
+title: "Verifikationskonzept"
 aliases: ["Verifikationskonzept"]
 created: 2026-04-01
-updated: 2026-04-02-v4
+updated: 2026-04-02
 type: concept
-tags: [szd-htr, methodology]
 status: stable
 related:
   - "[[annotation-protocol]]"

@@ -1,10 +1,9 @@
 ---
-title: "Pilot-Design: 5 Seiten zur Erstbewertung (historisch)"
+title: "Pilot-Design (historisch)"
 aliases: ["Pilot"]
 created: 2026-04-01
 updated: 2026-04-02
-type: design
-tags: [szd-htr, methodology]
+type: concept
 status: historical
 related:
   - "[[annotation-protocol]]"

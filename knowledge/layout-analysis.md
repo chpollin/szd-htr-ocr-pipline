@@ -1,10 +1,9 @@
 ---
-title: "Layout-Analyse und PAGE XML Export"
+title: "Layout-Analyse"
 created: 2026-04-02
 updated: 2026-04-02
-type: specification
-tags: [szd-htr, layout, page-xml]
-status: active
+type: spec
+status: stable
 ---
 
 # Layout-Analyse und PAGE XML Export

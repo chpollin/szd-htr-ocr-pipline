@@ -1,10 +1,9 @@
 ---
-title: "Annotationsprotokoll: Referenztranskription fuer das SZD-HTR Ground-Truth-Sample"
+title: "Annotationsprotokoll"
 aliases: ["Annotationsprotokoll"]
 created: 2026-04-01
 updated: 2026-04-01
 type: protocol
-tags: [szd-htr, methodology]
 status: stable
 related:
   - "[[verification-concept]]"

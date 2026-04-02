@@ -1,10 +1,9 @@
 ---
-title: "TEI-Zielstruktur: Transkriptions-TEI fuer den SZD-Nachlass"
-aliases: ["TEI-Zielstruktur", "TEI-Target"]
+title: "TEI-Zielstruktur"
+aliases: ["TEI-Zielstruktur"]
 created: 2026-04-01
 updated: 2026-04-01
 type: spec
-tags: [szd-htr, tei, methodology]
 status: draft
 related:
   - "[[htr-interchange-format]]"

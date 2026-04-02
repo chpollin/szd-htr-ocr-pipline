@@ -1,10 +1,9 @@
 ---
-title: "Datengrundlage: TEI-Metadaten aller Sammlungen"
-aliases: ["Datenanalyse", "TEI-Analyse"]
+title: "Datengrundlage"
+aliases: ["Datenanalyse"]
 created: 2026-03-30
 updated: 2026-04-01
 type: analysis
-tags: [szd-htr, data, tei, prompt-groups]
 status: stable
 related:
   - "[[verification-concept]]"
