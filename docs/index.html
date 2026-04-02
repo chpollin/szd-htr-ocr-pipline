@@ -130,9 +130,20 @@
     <div class="viewer__nav-group">
       <button type="button" class="viewer__nav-btn" id="prevPageBtn"
               data-tooltip="Vorherige Seite (←)">&#8249;</button>
-      <span class="viewer__page-info" id="pageInfo">1 / 1</span>
+      <span class="viewer__page-info" id="pageInfo" data-tooltip="Klick für Seitensprung">1 / 1</span>
       <button type="button" class="viewer__nav-btn" id="nextPageBtn"
               data-tooltip="Nächste Seite (→)">&#8250;</button>
+      <span class="viewer__nav-sep"></span>
+      <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navZoomInBtn"
+              data-tooltip="Zoom + (Scrollrad)">+</button>
+      <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navZoomOutBtn"
+              data-tooltip="Zoom −">&minus;</button>
+      <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navRotateBtn"
+              data-tooltip="90° drehen (R)">&#8635;</button>
+      <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navResetBtn"
+              data-tooltip="Ansicht zurücksetzen (0)">&#8634;</button>
+      <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navFitBtn"
+              data-tooltip="Einpassen umschalten">&#x21F2;</button>
     </div>
 
     <div class="viewer__nav-group">
@@ -175,12 +186,6 @@
     <div class="viewer__img-panel" id="imgPanel">
       <span class="viewer__img-spinner" id="imgSpinner">Lade Bild…</span>
       <img id="faksimile" src="" alt="Faksimile" style="display:none">
-      <div class="viewer__img-controls">
-        <button type="button" id="zoomInBtn" data-tooltip-pos="bottom" data-tooltip="Zoom + (Scrollrad)">+</button>
-        <button type="button" id="zoomOutBtn" data-tooltip-pos="bottom" data-tooltip="Zoom −">&minus;</button>
-        <button type="button" id="zoomResetBtn" data-tooltip-pos="bottom" data-tooltip="Zurücksetzen (0)">&#8634;</button>
-        <button type="button" id="rotateBtn" data-tooltip-pos="bottom" data-tooltip="90° drehen (R)">&#8635;</button>
-      </div>
     </div>
     <div class="viewer__text-panel" id="textPanel">
       <div class="viewer__transcription-wrap">

@@ -16,8 +16,9 @@ const COLLECTION_LABELS = {
 
 const LS_KEY = 'szd-htr-edits';
 const LS_GT_KEY = 'szd-htr-gt-reviews';
+const LS_FIT_KEY = 'szd-htr-fit-mode';
 
-const CONSENSUS_SHORT = { consensus_verified: 'V', consensus_moderate: 'M', consensus_review: 'R', consensus_divergent: 'D' };
+const CONSENSUS_SHORT = { consensus_verified: 'Verifiz.', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
 const CONSENSUS_LABELS = { consensus_verified: 'Verifiziert', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
 const CONSENSUS_TOOLTIPS = { consensus_verified: 'Konsensus: verifiziert', consensus_moderate: 'Konsensus: moderat', consensus_review: 'Konsensus: Review', consensus_divergent: 'Konsensus: divergent' };
 
@@ -49,6 +50,7 @@ const state = {
   gtData: null,               // loaded from groundtruth.json
   knowledgeData: null,         // loaded from knowledge.json
   isLocal: false,
+  fitMode: 'height',         // 'height' or 'width'
 };
 
 /* ===== Utilities ===== */
@@ -93,6 +95,32 @@ function showToast(message, durationMs = 2000) {
 function detectLocal() {
   const h = location.hostname;
   state.isLocal = h === 'localhost' || h === '127.0.0.1' || h === '' || location.protocol === 'file:';
+}
+
+/* ===== Fit Mode ===== */
+
+function loadFitMode() {
+  try {
+    const saved = localStorage.getItem(LS_FIT_KEY);
+    if (saved === 'width' || saved === 'height') state.fitMode = saved;
+  } catch { /* ignore */ }
+}
+
+function applyFitMode() {
+  const panel = document.getElementById('imgPanel');
+  if (!panel) return;
+  panel.classList.toggle('fit-height', state.fitMode === 'height');
+  panel.classList.toggle('fit-width', state.fitMode === 'width');
+  const btn = document.getElementById('navFitBtn');
+  if (btn) {
+    btn.dataset.tooltip = state.fitMode === 'height' ? 'Breite einpassen' : 'H\u00f6he einpassen';
+  }
+}
+
+function toggleFitMode() {
+  state.fitMode = state.fitMode === 'height' ? 'width' : 'height';
+  try { localStorage.setItem(LS_FIT_KEY, state.fitMode); } catch { /* ignore */ }
+  applyFitMode();
 }
 
 /* ===== localStorage ===== */
@@ -307,7 +335,7 @@ async function showViewer(objectId, page) {
     }
   }
 
-  renderViewerMeta(catalogObj);
+  renderViewerMeta(getViewerObject(objectId) || catalogObj);
   renderViewerNav();
   renderViewerPage();
   updateEditButtons();
@@ -683,6 +711,9 @@ function renderStats() {
   const verifiedChip = verifiedCount > 0
     ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> GT \u2713</span>`
     : '';
+  const consensusChip = consensusCount > 0
+    ? `<span class="catalog__stats-chip catalog__stats-chip--consensus"><strong>${consensusCount}</strong> Konsensus</span>`
+    : '';
 
   // Detail section: groups
   const groupEntries = Object.entries(perGroup).sort((a, b) => b[1] - a[1]);
@@ -731,7 +762,7 @@ function renderStats() {
   el.innerHTML = `
     <div class="catalog__stats-summary">
       <span class="catalog__stats-total">${total} Objekte</span>
-      <div class="catalog__stats-chips">${colChips}${verifiedChip}${approvedChip}${llmOkChip}${reviewChip}</div>
+      <div class="catalog__stats-chips">${colChips}${verifiedChip}${approvedChip}${llmOkChip}${reviewChip}${consensusChip}</div>
       <button type="button" class="catalog__stats-toggle" id="statsToggle" aria-expanded="false">Details &#9662;</button>
     </div>
     <div class="catalog__stats-details" id="statsDetails">
@@ -1000,11 +1031,17 @@ function renderViewerMeta(obj) {
       <span class="badge badge-vlm" data-tooltip="VLM-Selbsteinschätzung (schwaches Signal)">${obj.confidence || '?'}</span>
     </div>
     ${markerHtml}
-    ${obj.consensus ? `<div class="viewer__meta-item">
-      <span class="viewer__meta-label">Konsensus</span>
-      <span class="badge badge-consensus badge-consensus-${(obj.consensus.category || '').replace('consensus_', '')}"
-            data-tooltip="CER ${((obj.consensus.effective_cer || 0) * 100).toFixed(1)}%">${(obj.consensus.category || '').replace('consensus_', '')}</span>
-    </div>` : ''}
+    ${obj.consensus ? (() => {
+      const cat = obj.consensus.category || '';
+      const catLabel = CONSENSUS_LABELS[cat] || cat.replace('consensus_', '');
+      const cerPct = ((obj.consensus.effective_cer || 0) * 100).toFixed(1);
+      const cls = 'badge-consensus-' + cat.replace('consensus_', '');
+      return `<div class="viewer__meta-item">
+        <span class="viewer__meta-label">Konsensus</span>
+        <span class="badge badge-consensus ${cls}"
+              data-tooltip="Cross-Model CER ${cerPct}%">${catLabel} \u00b7 ${cerPct}%</span>
+      </div>`;
+    })() : ''}
     <div class="viewer__meta-item">
       <span class="viewer__meta-label viewer__meta-model">${escapeHtml(obj.model)}</span>
     </div>
@@ -1043,7 +1080,22 @@ function renderViewerNav() {
     }
   }
 
-  document.getElementById('pageInfo').innerHTML = `${state.currentPage + 1} / ${total}${typeBadge}${agreementDot}${anomalyMark}`;
+  // Scan overview: use quality_signals for accurate counts (color_chart pages filtered from pages[])
+  let scanInfo = '';
+  const blankCount = qs?.blank_pages || pages.filter(p => p.type === 'blank').length;
+  const chartCount = qs?.color_chart_pages || 0;
+  const originalScans = total + chartCount;
+  if (blankCount > 0 || chartCount > 0) {
+    const parts = [];
+    if (chartCount > 0) parts.push(`${originalScans} Scans`);
+    if (blankCount > 0) parts.push(`${blankCount} leer`);
+    if (chartCount > 0) parts.push(`${chartCount} Farbskala`);
+    scanInfo = ` <span class="viewer__scan-info" data-tooltip="${parts.join(', ')}">(${parts.join(', ')})</span>`;
+  }
+
+  const pageInfoEl = document.getElementById('pageInfo');
+  pageInfoEl.innerHTML = `<span class="viewer__page-info-text">${state.currentPage + 1} / ${total}${typeBadge}${agreementDot}${anomalyMark}${scanInfo}</span>`;
+  pageInfoEl.style.cursor = total > 1 ? 'pointer' : '';
   document.getElementById('prevPageBtn').disabled = state.currentPage === 0;
   document.getElementById('nextPageBtn').disabled = state.currentPage >= total - 1;
 
@@ -1053,6 +1105,43 @@ function renderViewerNav() {
   document.getElementById('nextObjBtn').disabled = idx < 0 || idx >= state.filteredObjects.length - 1;
   document.getElementById('objInfo').textContent =
     idx >= 0 ? `Objekt ${idx + 1} / ${state.filteredObjects.length}` : '';
+}
+
+function activatePageJumpInput() {
+  const obj = getViewerObject(state.currentObjectId);
+  if (!obj) return;
+  const total = (obj.pages || []).length;
+  if (total <= 1) return;
+
+  const el = document.getElementById('pageInfo');
+  el.innerHTML = `<input type="number" class="viewer__page-jump" id="pageJumpInput"
+    min="1" max="${total}" value="${state.currentPage + 1}" />`;
+
+  const input = document.getElementById('pageJumpInput');
+  input.focus();
+  input.select();
+
+  const ac = new AbortController();
+  const restore = () => { ac.abort(); renderViewerNav(); };
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      ac.abort();
+      const val = parseInt(input.value, 10);
+      if (val >= 1 && val <= total && val - 1 !== state.currentPage) {
+        state.currentPage = val - 1;
+        history.replaceState(null, '', `#view/${state.currentObjectId}/${val}`);
+        renderViewerPage();
+        document.getElementById('imgPanel')?.scrollTo(0, 0);
+        document.querySelector('.viewer__transcription-wrap')?.scrollTo(0, 0);
+      } else {
+        renderViewerNav();
+      }
+    }
+    if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); restore(); }
+  });
+  input.addEventListener('blur', restore, { once: true, signal: ac.signal });
 }
 
 function renderViewerPage() {
@@ -1075,7 +1164,7 @@ function renderViewerPage() {
     spinner.style.display = '';
 
     if (imgUrl) {
-      img.onload = () => { img.style.display = ''; spinner.style.display = 'none'; };
+      img.onload = () => { img.style.display = ''; spinner.style.display = 'none'; applyFitMode(); };
       img.onerror = () => {
         spinner.textContent = 'Bild konnte nicht geladen werden.';
         spinner.className = 'viewer__img-error';
@@ -1226,15 +1315,22 @@ function updateEditButtons() {
     }
   }
 
-  // Diff button: enable only when consensus data exists
+  // Diff button: show inline consensus status when available
   const diffBtn = document.getElementById('diffBtn');
   if (diffBtn) {
     const consensus = state.currentObjectId ? getConsensusData(state.currentObjectId) : null;
     const hasConsensus = consensus && consensus.pages && consensus.pages.length > 0;
     diffBtn.disabled = !hasConsensus;
-    diffBtn.dataset.tooltip = hasConsensus
-      ? `Konsensus-Vergleich (${consensus.category?.replace('consensus_', '') || ''})`
-      : 'Kein Konsensus-Vergleich verfügbar';
+    if (hasConsensus) {
+      const cerPct = ((consensus.effective_cer || 0) * 100).toFixed(1);
+      const agrPct = Math.round((1 - (consensus.effective_cer || 0)) * 100);
+      const catShort = (consensus.category || '').replace('consensus_', '');
+      diffBtn.innerHTML = `&#8700; Diff <span class="diff-btn__status diff-btn__status--${catShort}">${agrPct}%</span>`;
+      diffBtn.dataset.tooltip = `Konsensus: ${CONSENSUS_LABELS[consensus.category] || catShort} \u00b7 CER ${cerPct}%`;
+    } else {
+      diffBtn.innerHTML = '&#8700; Diff';
+      diffBtn.dataset.tooltip = 'Kein Konsensus-Vergleich verf\u00fcgbar';
+    }
   }
 
   // GT Review button: show only when GT data exists and running locally
@@ -1931,16 +2027,18 @@ function initEvents() {
   // Viewer: page nav
   document.getElementById('prevPageBtn').addEventListener('click', () => changeViewerPage(-1));
   document.getElementById('nextPageBtn').addEventListener('click', () => changeViewerPage(1));
+  document.getElementById('pageInfo').addEventListener('click', activatePageJumpInput);
 
   // Viewer: object nav
   document.getElementById('prevObjBtn').addEventListener('click', () => changeViewerObject(-1));
   document.getElementById('nextObjBtn').addEventListener('click', () => changeViewerObject(1));
 
-  // Viewer: image controls
-  document.getElementById('zoomInBtn').addEventListener('click', () => imgViewZoom(1));
-  document.getElementById('zoomOutBtn').addEventListener('click', () => imgViewZoom(-1));
-  document.getElementById('zoomResetBtn').addEventListener('click', imgViewReset);
-  document.getElementById('rotateBtn').addEventListener('click', imgViewRotate);
+  // Viewer: image controls (all in nav bar)
+  document.getElementById('navZoomInBtn').addEventListener('click', () => imgViewZoom(1));
+  document.getElementById('navZoomOutBtn').addEventListener('click', () => imgViewZoom(-1));
+  document.getElementById('navRotateBtn').addEventListener('click', imgViewRotate);
+  document.getElementById('navResetBtn').addEventListener('click', imgViewReset);
+  document.getElementById('navFitBtn').addEventListener('click', toggleFitMode);
   initImgViewEvents();
 
   // Viewer: diff
@@ -2099,6 +2197,8 @@ function changeViewerObject(delta) {
 
 async function init() {
   detectLocal();
+  loadFitMode();
+  applyFitMode();
   loadEditsFromStorage();
   loadGtReviewsFromStorage();
 
