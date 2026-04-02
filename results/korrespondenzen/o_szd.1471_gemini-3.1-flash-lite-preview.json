@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1471",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 27. April 1928, SZ-AAP/B5.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1471/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1471/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1471/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 27. April 1928, SZ-AAP/B5.1\n- Signatur: SZ-AAP/B5.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "H. Aschehoug & Co.\n(W. Nygaard)\nTelegramadresse: „Aco“\nOslo, d. 27. April 1928.\n\nHerrn Dr. Stefan Zweig,\n\nKapucinerberg,\n\nS A L Z B U R G .\n\nFrau Barbra Ring hat uns über die Autorisationsgebühr betreffend\nIhre zwei Novellen \"Amok\" und \"Brennendes Geheimniss\" geschrieben,\nobwohl wir meinten, dass die Bedingungen schon verabredet waren und\nglaubten dass Frau Ring Ihr liebenswürdiges Angebot, die Novellen ohne\nAutorisationsgebühr zu übersetzen, angenommen hatte. Frau Ring hat\nnun einen neuen Vorschlag gegeben. Wir waren mit folgender Verabredung\neinverstanden: Für eine Auflage von 3000 Exemplaren durften wir Frau\nRing kr. 500.00 als Übersetzerhonorar bezahlen + kr. 250.00, die sonst\nIhnen als Autorisationsgebühr bezahlt sein sollte. Für jedes verkaufte\nExemplar über 3000 waren 20 Ören Zu bezahlen. Nach dem letzten Vorschlage\nBarbra Rings, wollen wir nun Ihnen diese 20 Ören anbieten, während wir\ngut verstehen, dass es vor allem eine Formalität ist, die Frau Ring\nsehr wichtig scheint. Mehr als 3000 Exemplare meinen wir nicht gedruckt\nwerden.\n\nHochachtungsvoll\npr. pr. H. ASCHEHOUG & CO.\nMads Nygaard\n\nMN/J.",
+        "notes": "Typoskript auf Briefpapier mit Firmenkopf. Die Unterschrift ist handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "H. Aschehoug & Co.\n(W. Nygaard)\nTelegramadresse: „Aco“\nOslo, d. 27. April 1928.\n\nHerrn Dr. Stefan Zweig,\n\nKapucinerberg,\n\nS A L Z B U R G .\n\neinverstanden: Für eine Auflage von 3000 Exemplaren durften wir Frau\nRing kr. 500.00 als Übersetzerhonorar bezahlen + kr. 250.00, die sonst\nIhnen als Autorisationsgebühr bezahlt sein sollte. Für jedes verkaufte\nExemplar über 3000 waren 20 Ören Zu bezahlen. Nach dem letzten Vorschlage\n\nMads Nygaard\n\nMN/J.",
+        "notes": "Das Dokument wurde mit einer Farbskala und Grauskala für Archivierungszwecke überlagert. Der Text ist identisch mit dem Ausschnitt aus Seite 1.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Überlagerungen auf Seite 3 verdecken Teile des Textes, dieser ist jedoch durch den Kontext und Seite 1 eindeutig rekonstruierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1564,
+    "total_words": 242,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      1118,
+      0,
+      446
+    ],
+    "chars_per_page_median": 782.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3077,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

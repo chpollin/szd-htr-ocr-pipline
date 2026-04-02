@@ -34,6 +34,9 @@ Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+v
 - **JSON-Parsing gehaertet**: Codeblock-Strip, Escape-Fix (`\j`, `\w`), Retry, Absicherung gegen leere API-Antworten
 - **System-Prompt**: Explizites JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien
 - **Expert-Review Write-Back** (`import_reviews.py`): Importiert Frontend-Exporte (GT-Reviews + regulaere Edits) zurueck in Pipeline-JSONs. Schreibt `review`-Objekt mit `status`, `reviewed_by`, `reviewed_at`. Unterstuetzt Approve ohne Edit (`reviewed: true`).
+- **Lokaler Dev-Server** (`serve.py`): Ersetzt VS Code Live Server. API-Endpunkte fuer Approve/Edit schreiben direkt in Pipeline-JSONs — kein manueller JSON-Export noetig. Frontend erkennt lokalen Server via `GET /api/status`.
+- **Chunking**: Objekte mit >20 Bildern werden automatisch in Chunks aufgeteilt (konfigurierbar via `--chunk-size`). Ergebnisse werden gemergt, Seitennummerierung bleibt durchgehend. Getestet mit Hauptbuch (249 Bilder, 13 Chunks).
+- **Objekt-Prompts**: Optionaler 4. Prompt-Layer (`prompts/objects/{object_id}.md`) ueberschreibt den Gruppen-Prompt fuer Spezialfaelle (z.B. Bankkontoauszuege mit Tabellenstruktur).
 - **3-stufiger Review-Status**: `needs_review: true` (rot), kein Review (LLM OK, orange), `review.status: "approved"` (gruen). `gtVerified` fuer GT-Objekte.
 - **Katalog-Bereinigung**: Test-Daten, Layout-JSONs, GT-Drafts, Pro-Zwischenergebnisse aus Viewer-Daten gefiltert (627 → 601). Color-Chart-Seiten (158) aus Viewer entfernt.
 
@@ -48,6 +51,7 @@ Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+v
 Erledigt (Session 14): Konsensus-Metriken v2, GT-Pipeline, Frontend GT-Review, Layout-Analyse + PAGE XML.
 Erledigt (Session 15): Knowledge Vault im Frontend, Projekt-Seite, README aktualisiert.
 Erledigt (Session 16): Expert-Review Write-Back (`import_reviews.py`), 3-stufiger Review-Status, Katalog-Bereinigung, Color-Chart-Filter, Knowledge Vault Konsolidierung (13 → 11 Docs), Frontmatter vereinheitlicht, Claude Code Banner.
+Erledigt (Session 17): Chunking fuer grosse Objekte, Objekt-Prompts (`prompts/objects/`), lokaler Dev-Server (`serve.py`) mit Review-API, Hauptbuch (249 Bilder) transkribiert, Batch Korrespondenzen.
 
 ## Quelldaten
 
@@ -81,10 +85,11 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
  └──────────────┬──────────────────────┘
                 ▼
  ┌─────────────────────────────────────┐
- │  2. Dreischichtiger Prompt          │
+ │  2. Prompt-System (4 Schichten)      │
  │     • System-Prompt (Rolle, Regeln, │
  │       JSON-Schema, Blank-Handling)  │
  │     • Gruppen-Prompt (1 von 9)      │
+ │       ODER Objekt-Prompt (Override) │
  │     • Objekt-Kontext (aus TEI)      │
  └──────────────┬──────────────────────┘
                 ▼
@@ -93,6 +98,8 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
  │     Gemini 3.1 Flash Lite (t=0.1)  │
  │     Input: Alle Bilder + Prompt     │
  │     Output: JSON {pages[], conf.}   │
+ │     • Chunking: >20 Bilder → auto   │
+ │       Split + Merge                 │
  │     • Exponential Backoff (429)     │
  │     • JSON-Sanitisierung (Codeblock,│
  │       Escape-Fix, Retry)            │
@@ -119,16 +126,20 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
         │               ▼                    │
         │       export_pagexml.py            │ Expert-Review
         │       (deterministisch)            ▼
-        │       → *_page/page_NNN.xml  import_reviews.py
-        │         (PAGE XML 2019)      Frontend-Export → JSON
-        └───────────────────────────┘  (review.status, edits)
+        │       → *_page/page_NNN.xml  serve.py (lokaler Dev-Server)
+        │         (PAGE XML 2019)      POST /api/approve → JSON
+        └───────────────────────────┘  POST /api/edit → JSON
+                                       (review.status, edits)
 ```
 
-### Dreischichtiges Prompt-System
+### Prompt-System (4 Schichten)
 
 1. **System-Prompt** (`prompts/system.md`): Rolle, diplomatische Transkriptionsregeln, JSON-Output-Format, Blank-Page-Handling
 2. **Gruppen-Prompt** (`prompts/group_*.md`): Spezifische Anweisungen pro Dokumenttyp (9 Gruppen)
-3. **Objekt-Kontext** (automatisch aus TEI-XML via `tei_context.py`): Titel, Signatur, Datum, Sprache, Objekttyp etc.
+3. **Objekt-Prompt** (`prompts/objects/{object_id}.md`, optional): Ueberschreibt Gruppen-Prompt fuer Spezialfaelle
+4. **Objekt-Kontext** (automatisch aus TEI-XML via `tei_context.py`): Titel, Signatur, Datum, Sprache, Objekttyp etc.
+
+Objekt-Prompts greifen automatisch, wenn eine Datei `prompts/objects/{object_id}.md` existiert. Aktuell: `o_szd.1056` (Bankkontoauszuege).
 
 ### 9 Prompt-Gruppen
 
@@ -172,8 +183,10 @@ szd-htr/
 │   ├── export_pagexml.py             ← Merged OCR + Layout → PAGE XML 2019
 │   ├── generate_gt.py               ← 3-Modell-GT-Pipeline (Flash Lite + Flash + Pro)
 │   ├── import_reviews.py            ← Expert-Review Write-Back (Frontend-Export → Pipeline-JSON)
+│   ├── serve.py                     ← Lokaler Dev-Server mit Review-API (ersetzt Live Server)
 │   ├── build_viewer_data.py         ← Baut catalog.json + data/*.json + knowledge.json
 │   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts + Layout-Prompt
+│       └── objects/                 ← Objekt-spezifische Prompt-Overrides (optional)
 ├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
 ├── results/
 │   ├── test/                        ← 7 Legacy-Testergebnisse (nicht im Katalog)
@@ -205,7 +218,7 @@ szd-htr/
     ├── teiCrafter-integration.md    ← teiCrafter-Integration
     ├── layout-analysis.md           ← Layout-Analyse + PAGE XML Export
     ├── dia-xai-integration.md       ← DIA-XAI-Integration
-    └── journal.md                   ← Session-Log (Sessions 1–16)
+    └── journal.md                   ← Session-Log (Sessions 1–17)
 ```
 
 ## CLI-Nutzung
@@ -231,12 +244,28 @@ python pipeline/transcribe.py -c lebensdokumente --group handschrift
 python pipeline/transcribe.py --all --dry-run
 
 # Weitere Optionen: --limit N, --max-images N, --delay 2.0, --force
+
+# Grosse Objekte (>20 Bilder) werden automatisch in Chunks aufgeteilt
+python pipeline/transcribe.py o_szd.143 -c lebensdokumente --chunk-size 20
 ```
 
 Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits transkribierte Objekte werden übersprungen (außer `--force`).
 
 ```bash
-# Expert-Review importieren (aus Frontend-Export)
+# Lokaler Dev-Server (ersetzt VS Code Live Server)
+python pipeline/serve.py                # Port 8000
+python pipeline/serve.py --port 5501    # Anderer Port
+python pipeline/serve.py --rebuild      # Viewer-Daten beim Start neu bauen
+
+# API: Approve/Edit werden direkt vom Frontend an den Server geschickt
+# POST /api/approve  → review.status = "approved" ins Pipeline-JSON
+# POST /api/edit     → editierte Seiten + review ins Pipeline-JSON
+# POST /api/rebuild  → Viewer-Daten neu bauen
+# GET  /api/status   → {"local": true} (Frontend erkennt lokalen Server)
+```
+
+```bash
+# Expert-Review importieren (CLI-Alternative, z.B. fuer Batch-Import)
 python pipeline/import_reviews.py path/to/export.json [--dry-run] [--reviewer "Name"]
 
 # Viewer-Daten neu bauen (nach Import oder Transkription)

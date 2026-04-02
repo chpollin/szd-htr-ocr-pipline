@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1469",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Warren P. Munsell vom 22. Juni 1940, SZ-AAP/B3.33",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1469/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1469/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1469/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Warren P. Munsell vom 22. Juni 1940, SZ-AAP/B3.33\n- Signatur: SZ-AAP/B3.33\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    22nd June 1940.\n\nThe Theatre Guild Inc.\n245 West 52nd Street,\nNew York City.\n\nDear Mr. Munsell,\n\n          Thank you very much for your\nletter of June 7th. I hope that you will be\nable to settle all the outstanding questions\nsatisfactorily. I for my part have until the\npresent moment, the 22nd June 1940, not yet received\nany information from the International Copyright\nBureau about the whole option deal, I do not know\nthe conditions, I do not know the sums paid over,\nand I for my part have after so many months not\nreceived a statement about it nor a single penny\nfrom this deal.\n\n          As all the communications with\nFrance are now interrupted it is impossible for\nme to get any informations from Jules Romains\nabout the French version, and I am afraid that\nbefore the end of the war the situation will\nnot be cleared up completely.\n\n          I am sorry about all the dif-\nficulties which have arisen. This would never\nhave happened had I always been informed\ncompletely and had not facts and agreements kept\nfrom me for months and years instead of asking\nmy consent and informing me what was going on.\n\n                               Yours sincerely,",
+        "notes": "Typoskript auf Briefpapier. Die Seitenzahl '3' ist handschriftlich in roter Tinte oben rechts vermerkt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Das Dokument wurde mit einer Farb- und Grauskala für Archivierungszwecke fotografiert. Der Text ist identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1230,
+    "total_words": 199,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1230,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1230,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5357,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

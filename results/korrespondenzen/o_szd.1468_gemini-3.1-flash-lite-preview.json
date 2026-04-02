@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1468",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an die Theatre Guild, New York, vom 10. Juni 1940, SZ-AAP/B3.32",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1468/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1468/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1468/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an die Theatre Guild, New York, vom 10. Juni 1940, SZ-AAP/B3.32\n- Signatur: SZ-AAP/B3.32\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    10th June 1940.\n\nThe Theatre Guild,\n245 West 52nd Street,\nNew York City.\n\nDear Sirs,\n\nI have to-day received your letter of May 24th.\nI will discuss the whole matter with my lawyer within the\nnext days and then let you know in detail my position.\n\nTo-day I only wish to state quite clearly that\nthe first thing which informed me that an option had been\ngiven was a letter of the International Copyright Bureau\nof May 21st, 1940 saying that certain difficulties had\narisen with regard to an option given by you to a certain\nMr. Hakim. Until May 21st I have not have the slightest\nknowledge of this deal which has been concluded without\nmy knowledge or consent. And up to this very day I do not\nknow any details about it; neither you nor Dr. Pauker nor\nthe International Copyright Bureau have informed me about\nthe proceedings, the conclusion of the agreement, about\nits conditions, and until to-day I have not touched a\nsingle penny for it nor do I know the amount which has\nbeen agreed upon, and paid over to other persons.\n\nYou will understand this matter and its im-\nplications require careful consideration which party is\nresponsible ~~in~~ in this matter. In any case not me\nwho did not even hear about this deal until May 21st 1940.\n\nYours sincerely,",
+        "notes": "Typoskript auf Briefpapier. Rote handschriftliche Ziffer '4' oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die Durchstreichung '~~in~~' wurde korrekt als solche identifiziert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1323,
+    "total_words": 226,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1323,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1323,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5289,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

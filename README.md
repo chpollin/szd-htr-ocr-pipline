@@ -38,10 +38,11 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
  └──────────────┬──────────────────────┘
                 ▼
  ┌─────────────────────────────────────┐
- │  2. Dreischichtiger Prompt          │
+ │  2. Prompt-System (4 Schichten)      │
  │     • System-Prompt (Rolle, Regeln, │
  │       JSON-Schema, Blank-Handling)  │
  │     • Gruppen-Prompt (1 von 9)      │
+ │       ODER Objekt-Prompt (Override) │
  │     • Objekt-Kontext (aus TEI)      │
  └──────────────┬──────────────────────┘
                 ▼
@@ -50,6 +51,8 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
  │     Gemini 3.1 Flash Lite (t=0.1)  │
  │     Input: Alle Bilder + Prompt     │
  │     Output: JSON {pages[], conf.}   │
+ │     • Chunking: >20 Bilder → auto   │
+ │       Split + Merge                 │
  │     • Exponential Backoff (429)     │
  │     • JSON-Sanitisierung (Codeblock,│
  │       Escape-Fix, Retry)            │
@@ -82,12 +85,13 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
  └─────────────────────────────────────┘
 ```
 
-### Dreischichtiges Prompt-System
+### Prompt-System (4 Schichten)
 
 | Schicht | Funktion |
 |---|---|
 | **System-Prompt** | Rolle, Regeln, JSON-Output (fuer alle Objekte gleich) |
 | **Gruppen-Prompt** | Typspezifische Anweisungen (9 Gruppen, s.u.) |
+| **Objekt-Prompt** | Optional: ueberschreibt Gruppen-Prompt fuer Spezialfaelle (`prompts/objects/`) |
 | **Objekt-Kontext** | Metadaten aus TEI-XML (Sprache, Hand, Instrument, Typ) |
 
 ### Prompt-Gruppen
@@ -132,6 +136,8 @@ Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.git
 │   ├── export_pagexml.py     ← Merged OCR + Layout → PAGE XML 2019
 │   ├── tei_context.py        ← TEI-Parser, resolve_group(), format_context()
 │   ├── config.py             ← Pfade, API-Key, Sammlungs-Mapping
+│   ├── serve.py              ← Lokaler Dev-Server mit Review-API
+│   ├── import_reviews.py     ← Expert-Review Write-Back (CLI-Alternative)
 │   ├── build_viewer_data.py  ← Baut catalog.json + data/*.json + knowledge.json
 │   └── test_single.py        ← Test-Script (7 Referenz-Objekte)
 ├── data/                     ← TEI-Metadaten (4 Sammlungen)
@@ -156,6 +162,11 @@ export GOOGLE_API_KEY=AIza...    # oder in .env eintragen
 ## Nutzung
 
 ```bash
+# Lokaler Dev-Server (Frontend + Review-API)
+python pipeline/serve.py                # http://127.0.0.1:8000
+python pipeline/serve.py --port 5501    # Anderer Port
+python pipeline/serve.py --rebuild      # Viewer-Daten beim Start neu bauen
+
 # Einzelnes Objekt transkribieren
 python pipeline/transcribe.py o_szd.161 -c lebensdokumente
 
@@ -164,6 +175,9 @@ python pipeline/transcribe.py -c lebensdokumente
 
 # Alle 2107 Objekte
 python pipeline/transcribe.py --all
+
+# Grosse Objekte (>20 Bilder) werden automatisch in Chunks aufgeteilt
+python pipeline/transcribe.py o_szd.143 -c lebensdokumente --chunk-size 20
 
 # Nur Korrekturfahnen in Werke
 python pipeline/transcribe.py -c werke -g korrekturfahne

@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.1470",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Stefan Zweig vom 29. Januar 1938, SZ-AAP/B4",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1470/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1470/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1470/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Stefan Zweig vom 29. Januar 1938, SZ-AAP/B4\n- Signatur: SZ-AAP/B4\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, Die Festspielstadt im Scheinwerferlicht",
+        "notes": "Vorderseite einer Ansichtspostkarte mit nächtlicher Aufnahme von Salzburg. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Salzburg. 25 janv. 38\nCher ami, je suis tout ému de\nconnaître enfin votre ville !!\nnous revenons de Suède, par\nBerlin, Dresde, Prague et\nVienne, où nous nous sommes\nattardés avec ravissement, malgré\ntout ! L'impression rapportée\nd'un séjour de deux semaines à\nBerlin est... sinistre. Pire que\ntout ce que j'imaginais; et j'en\nreviens bouleversé, inquiet.\nVous reverra-t-on à Nice?\nJe pense que nous y serons à\nla fin de février au plus tard.\nJe vous envoie le salut de votre\npatrie, celui de ma femme, et\nle mien aussi, très affectueux.\nRoger Martin du Gard",
+        "notes": "Handschriftliche Nachricht auf der Rückseite der Postkarte. Tinte in Schwarz/Dunkelblau. Am linken Rand vertikal gedruckt: 'Edit Soto Nr 23604' sowie '1937' und Verlagsangaben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Salzburg. 25 janv. 38\nCher ami, je suis tout ému de\nconnaître enfin votre ville !!\nnous revenons de Suède, par\nBerlin, Dresde, Prague et\nVienne, où nous nous sommes\nattardés avec ravissement, malgré\ntout ! L'impression rapportée\nd'un séjour de deux semaines à\nBerlin est... sinistre. Pire que\ntout ce que j'imaginais; et j'en\nreviens bouleversé, inquiet.\nVous reverra-t-on à Nice?\nJe pense que nous y serons à\nla fin de février au plus tard.\nJe vous envoie le salut de votre\npatrie, celui de ma femme, et\nle mien aussi, très affectueux.\nRoger Martin du Gard",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Roger Martin du Gard ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1163,
+    "total_words": 201,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      49,
+      557,
+      557
+    ],
+    "chars_per_page_median": 557,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4195,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

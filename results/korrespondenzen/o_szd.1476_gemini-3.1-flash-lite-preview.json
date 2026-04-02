@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1476",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Telegramm an Stefan Zweig vom 1. Oktober 1937, SZ-AAP/B3.30",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1476/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1476/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1476/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Telegramm an Stefan Zweig vom 1. Oktober 1937, SZ-AAP/B3.30\n- Signatur: SZ-AAP/B3.30\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "F\n\nPOST OFFICE\nOVERSEAS TELEGRAM\n\nFilm\n\n1047 PARIS 24 508-14-1-1021.=\n\nSTEFAN ZWEIG 49 HALLAM STREET LDN\n\n= A.I CONCLU CINEMA VOLPONE LETTRE SUIT AMITIES =\n\nROMAINS +(49)+",
+        "notes": "Telegrammformular, bedruckt mit handschriftlichen Ergänzungen und eingeklebten maschinengeschriebenen Textstreifen. Poststempel oben rechts: 'WEST DISTRICT OFFICE 1 OCT 37'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein standardisiertes Telegramm, der Inhalt ist klar lesbar und durch die eingeklebten Streifen eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 171,
+    "total_words": 27,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      171,
+      0,
+      0
+    ],
+    "chars_per_page_median": 171,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

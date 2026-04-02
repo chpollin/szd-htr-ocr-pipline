@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1463",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Suzanne Czech vom 21. Juni 1940, SZ-AAP/B3.27",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1463/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1463/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1463/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Suzanne Czech vom 21. Juni 1940, SZ-AAP/B3.27\n- Signatur: SZ-AAP/B3.27\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    13\n\n\n                                          21st June 1940.\n\nInternational Copyright Bureau,\nDewar House, Haymarket,\nLondon S.W.1.\n\nDear Mrs. Czech,\n\n          I cannot make any arrange-\nments whatsoever as long as all the various\nagreements between the Theatre Guild, Mr.\nPauker, Mr. Hakim and your firm are unknown\nto me, and as long as the position is not\nabsolutely cleared and as long as I have no\nguarantee that no further difficulties will\narise.\n          For the moment you must not\nexpect any further reply from me as I am\ngoing for a lecture tour to South America\nand will not be back before November. Any-\nhow, as things stand now in France, I see no\npossibility to get a clear picture of the\nwhole situation during the war. In any case\nI must refuse to accept any responsibility\nfor agreements about my property made without\nmy knowledge, and consent.\n\n                                          Yours very truly,",
+        "notes": "Typoskript auf weißem Papier. Oben rechts handschriftliche Paginierung '13' in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung, die über das Dokument gelegt wurde.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 996,
+    "total_words": 146,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      996,
+      0,
+      0
+    ],
+    "chars_per_page_median": 996,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5172,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

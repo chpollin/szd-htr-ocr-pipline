@@ -1,0 +1,124 @@
+{
+  "object_id": "o_szd.1477",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Telegrammentwurf an die Theatre Guild, New York, vom 23. Mai 1940, SZ-AAP/B3.31",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1477/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1477/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1477/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1477/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1477/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1477/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1477/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Telegrammentwurf an die Theatre Guild, New York, vom 23. Mai 1940, SZ-AAP/B3.31\n- Signatur: SZ-AAP/B3.31\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 7 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    20\n\n\n                                                                    23.5.40\n\n                                 xx\n                                 xxx    Theatre Guild              NEWYORKCITY .\n                                 NLT\n                                 xxx\n\nlearn by your letter for first time that Pauker dared to deal\noption Volpone without my knowledge stop all picture rights return\nby agreement January 1939 from Felix Bloch into my exclusive\npossession stop neither Pauker nor Copyrightbureau had since any\nright\nto conclude stop therefore option invalid and I am fully justifie\nto ask repayment",
+        "notes": "Typoskript (Telegrammentwurf). Die handschriftlichen Korrekturen 'any' und 'justifie' (für justified) sind eingefügt. Die Zahl '20' oben rechts ist handschriftlich in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "                                                                    21\n\n\n                                                                    23.5.40\n\n                                 xx\n                                 xxx    Theatre Guild              NEWYORKCITY\n                                 NLT\n                                 xxx\n\nlearn by your letter for first time that Pauker dared to deal\noption Volpone without my knowledge stop all picture rights return\nby agreement January 1939 from Felix Bloch into my exclusive\npossession stop neither Pauker nor Copyrightbureau had since any\nright\nto conclude stop therefore option invalid and I am fully justifie\nto ask repayment",
+        "notes": "Typoskript (Telegrammentwurf). Fast identisch mit Seite 1. Die Zahl '21' oben rechts ist handschriftlich in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "                                                                    22\n\n\n                                                                    23.5.40\n\n                                 xx\n                                 xxx    Theatre Guild              NEWYORKCITY\n                                 NLT\n                                 xxx\n\nlearn by your letter for first time that Pauker dared to deal\noption Volpone without my knowledge stop all picture rights return\nby agreement January 1939 from Felix Bloch into my exclusive\npossession stop neither Pauker nor Copyrightbureau had since any\nright\nto conclude stop therefore option invalid and I am fully justifie\nto ask repayment",
+        "notes": "Typoskript (Telegrammentwurf). Fast identisch mit Seite 1 und 3. Die Zahl '22' oben rechts ist handschriftlich in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftlichen Ergänzungen sind gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2051,
+    "total_words": 196,
+    "total_pages": 3,
+    "empty_pages": 4,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      685,
+      0,
+      683,
+      0,
+      683,
+      0,
+      0
+    ],
+    "chars_per_page_median": 683,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3226,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}
