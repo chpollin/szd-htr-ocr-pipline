@@ -71,9 +71,9 @@ def backfill(dry_run=False):
             )
             changed = True
             stats["recomputed"] += 1
-        elif qs and qs.get("version") != "1.3":
-            # Update version for v1.2 files
-            data["quality_signals"]["version"] = "1.3"
+        elif qs and qs.get("version") not in ("1.4",):
+            # Bump version to current (1.4: expanded color_chart keywords, DWR)
+            data["quality_signals"]["version"] = "1.4"
             changed = True
 
         if changed:
