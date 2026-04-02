@@ -1489,7 +1489,94 @@ body.view-viewer #catalog { display: none; }
   .viewer__img-controls { bottom: 0.4rem; left: 0.4rem; }
 }
 
-/* ===== 14. Reduced Motion ===== */
+/* ===== 14. GT Review Mode ===== */
+
+.gt-review-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.gt-review-panel__source {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.gt-source--consensus { background: var(--sz-success, #2d7a3a); color: #fff; }
+.gt-source--majority  { background: var(--sz-gold, #c9a84c); color: #1a1a1a; }
+.gt-source--pro       { background: var(--sz-burgundy, #631a34); color: #fff; }
+.gt-source--skipped   { background: #888; color: #fff; }
+
+.gt-variant {
+  border: 1px solid var(--sz-border, #d0c8b8);
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.gt-variant:hover { border-color: var(--sz-burgundy, #631a34); }
+.gt-variant.selected { border-color: var(--sz-burgundy, #631a34); border-width: 2px; background: rgba(99,26,52,0.04); }
+
+.gt-variant__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--sz-text-light, #6b5f52);
+}
+
+.gt-variant__text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  max-height: 12rem;
+  overflow-y: auto;
+  color: var(--sz-text, #2d2620);
+}
+
+.gt-approve-btn {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  background: var(--sz-burgundy, #631a34);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.gt-approve-btn:hover { opacity: 0.9; }
+.gt-approve-btn.approved { background: var(--sz-success, #2d7a3a); }
+
+.badge-gt {
+  display: inline-block;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  background: var(--sz-gold, #c9a84c);
+  color: #1a1a1a;
+}
+.badge-gt--verified { background: var(--sz-success, #2d7a3a); color: #fff; }
+
+.viewer__action-btn.gt-active {
+  background: var(--sz-gold, #c9a84c);
+  color: #1a1a1a;
+}
+
+/* ===== 15. Reduced Motion ===== */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     transition-duration: 0.01ms !important;

@@ -268,7 +268,53 @@ def build():
         )
         print(f"  {col}: {col_path} ({len(col_objects)} Objekte)")
 
-    print(f"Gesamt: {len(objects)} Objekte, {len(collections)} Sammlungen")
+    # --- groundtruth.json: GT drafts for expert review ---
+    gt_dir = RESULTS_BASE / "groundtruth"
+    gt_objects = []
+    if gt_dir.exists():
+        for gt_file in sorted(gt_dir.glob("*_gt_draft.json")):
+            gt_data = json.loads(gt_file.read_text(encoding="utf-8"))
+            oid = gt_data.get("object_id", "")
+            # Find the matching result ID
+            result_id = None
+            for obj in objects:
+                if obj["id"].startswith(oid + "_"):
+                    result_id = obj["id"]
+                    break
+            gt_objects.append({
+                "id": result_id or oid,
+                "object_id": oid,
+                "collection": gt_data.get("collection", ""),
+                "group": gt_data.get("group", ""),
+                "title": gt_data.get("title", ""),
+                "models": gt_data.get("models", {}),
+                "pages": gt_data.get("pages", []),
+                "merge_stats": gt_data.get("merge_stats", {}),
+                "expert_verified": gt_data.get("expert_verified", False),
+                "reviewed_by": gt_data.get("reviewed_by"),
+                "reviewed_at": gt_data.get("reviewed_at"),
+            })
+
+    if gt_objects:
+        gt_path = DATA_DIR / "groundtruth.json"
+        gt_path.write_text(
+            json.dumps({"objects": gt_objects}, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        print(f"  Ground Truth: {gt_path} ({len(gt_objects)} Objekte)")
+
+        # Add GT status to catalog
+        gt_ids = {g["id"] for g in gt_objects}
+        for cat_obj in catalog_objects:
+            cat_obj["hasGT"] = cat_obj["id"] in gt_ids
+
+        # Re-write catalog with GT flags
+        CATALOG_PATH.write_text(
+            json.dumps(catalog, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"  Katalog mit GT-Flags aktualisiert")
+
+    print(f"Gesamt: {len(objects)} Objekte, {len(collections)} Sammlungen, {len(gt_objects)} GT-Drafts")
 
 
 if __name__ == "__main__":

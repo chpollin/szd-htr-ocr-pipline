@@ -15,6 +15,7 @@ const COLLECTION_LABELS = {
 };
 
 const LS_KEY = 'szd-htr-edits';
+const LS_GT_KEY = 'szd-htr-gt-reviews';
 
 const CONSENSUS_SHORT = { consensus_verified: 'V', consensus_moderate: 'M', consensus_review: 'R', consensus_divergent: 'D' };
 const CONSENSUS_LABELS = { consensus_verified: 'Verifiziert', consensus_moderate: 'Moderat', consensus_review: 'Review', consensus_divergent: 'Divergent' };
@@ -40,9 +41,12 @@ const state = {
   filterConsensus: '',
   editMode: false,
   diffMode: false,
+  gtReviewMode: false,
   hasReviewData: false,
   hasConsensusData: false,
   editedTranscriptions: new Map(),
+  gtReviews: new Map(),       // objectId:page → { transcription, approved, source }
+  gtData: null,               // loaded from groundtruth.json
   isLocal: false,
 };
 
@@ -868,8 +872,9 @@ function renderViewerPage() {
   renderViewerNav();
   updateEditButtons();
 
-  // Update diff if active
+  // Update diff or GT review if active
   if (state.diffMode) renderDiffView();
+  if (state.gtReviewMode) renderGtReview();
 }
 
 function renderReadMode(transcription, notes, isEdited) {
@@ -985,6 +990,14 @@ function updateEditButtons() {
     diffBtn.dataset.tooltip = hasConsensus
       ? `Konsensus-Vergleich (${consensus.category?.replace('consensus_', '') || ''})`
       : 'Kein Konsensus-Vergleich verfügbar';
+  }
+
+  // GT Review button: show only when GT data exists and running locally
+  const gtBtn = document.getElementById('reviewGtBtn');
+  if (gtBtn) {
+    const gt = state.currentObjectId ? getGtDraft(state.currentObjectId) : null;
+    gtBtn.style.display = gt && state.isLocal ? '' : 'none';
+    gtBtn.classList.toggle('gt-active', state.gtReviewMode);
   }
 }
 
@@ -1350,6 +1363,219 @@ function toggleDiffMode() {
   renderDiffView();
 }
 
+/* ===== GT Review Mode ===== */
+
+async function loadGtData() {
+  if (state.gtData) return state.gtData;
+  try {
+    const resp = await fetch('data/groundtruth.json');
+    if (!resp.ok) return null;
+    state.gtData = await resp.json();
+    return state.gtData;
+  } catch { return null; }
+}
+
+function getGtDraft(objectId) {
+  if (!state.gtData) return null;
+  return (state.gtData.objects || []).find(g => g.id === objectId);
+}
+
+function loadGtReviewsFromStorage() {
+  if (!state.isLocal) return;
+  try {
+    const raw = localStorage.getItem(LS_GT_KEY);
+    if (raw) {
+      const entries = JSON.parse(raw);
+      state.gtReviews = new Map(entries);
+    }
+  } catch { /* ignore */ }
+}
+
+function saveGtReviewsToStorage() {
+  if (!state.isLocal) return;
+  localStorage.setItem(LS_GT_KEY, JSON.stringify([...state.gtReviews]));
+}
+
+function toggleGtReview() {
+  if (state.editMode) { saveCurrentEdit(); state.editMode = false; }
+  if (state.diffMode) { resetDiffMode(); }
+
+  state.gtReviewMode = !state.gtReviewMode;
+  const btn = document.getElementById('reviewGtBtn');
+  btn.classList.toggle('gt-active', state.gtReviewMode);
+
+  if (state.gtReviewMode) {
+    document.getElementById('textPanel').style.display = 'none';
+    document.getElementById('panelLabelRight').textContent = 'GT Review';
+    document.getElementById('diffPanel').style.display = '';
+    renderGtReview();
+  } else {
+    document.getElementById('textPanel').style.display = '';
+    document.getElementById('panelLabelRight').textContent = 'Transkription';
+    document.getElementById('diffPanel').style.display = 'none';
+    renderViewerPage();
+  }
+}
+
+function renderGtReview() {
+  const diffContent = document.getElementById('diffContent');
+  const diffStats = document.getElementById('diffStats');
+  if (!diffContent) return;
+
+  const gt = getGtDraft(state.currentObjectId);
+  if (!gt) {
+    diffContent.innerHTML = '<p>Kein GT-Draft verfuegbar.</p>';
+    diffStats.innerHTML = '';
+    return;
+  }
+
+  const pageIdx = state.currentPage;
+  const gtPage = (gt.pages || [])[pageIdx];
+  if (!gtPage) {
+    diffContent.innerHTML = '<p>Keine Daten fuer diese Seite.</p>';
+    return;
+  }
+
+  const source = gtPage.source || 'unknown';
+  const variants = gtPage.variants || {};
+  const reviewKey = `${state.currentObjectId}:${pageIdx}`;
+  const existingReview = state.gtReviews.get(reviewKey);
+
+  // Source badge
+  const sourceClass = source === 'consensus_3of3' ? 'gt-source--consensus'
+    : source === 'majority_2of3' ? 'gt-source--majority'
+    : source === 'skipped' ? 'gt-source--skipped'
+    : 'gt-source--pro';
+  const sourceLabel = source === 'consensus_3of3' ? '3/3 Konsensus'
+    : source === 'majority_2of3' ? '2/3 Mehrheit'
+    : source === 'skipped' ? 'Uebersprungen'
+    : 'Pro only';
+
+  // Stats
+  const stats = gt.merge_stats || {};
+  diffStats.innerHTML = `<span class="gt-review-panel__source ${sourceClass}">${sourceLabel}</span>
+    <span style="font-size:0.72rem;margin-left:0.5rem">
+      ${stats.consensus_3of3 || 0} Konsensus · ${stats.majority_2of3 || 0} Mehrheit · ${stats.pro_only || 0} Pro · ${stats.skipped || 0} Skip
+    </span>`;
+
+  if (source === 'skipped') {
+    diffContent.innerHTML = `<div class="gt-review-panel">
+      <p>Seite uebersprungen (${gtPage.type || 'blank'}): ${escapeHtml(gtPage.notes || '')}</p>
+    </div>`;
+    return;
+  }
+
+  // Current transcription (from review or from draft)
+  const currentText = existingReview ? existingReview.transcription : gtPage.transcription;
+  const isApproved = existingReview?.approved || false;
+
+  // Build variant panels
+  const variantEntries = [
+    { key: 'pro', label: 'C: Gemini Pro', text: variants.pro || '' },
+    { key: 'flash', label: 'B: Gemini Flash', text: variants.flash || '' },
+    { key: 'flash_lite', label: 'A: Flash Lite', text: variants.flash_lite || '' },
+  ];
+
+  let variantsHtml = '';
+  for (const v of variantEntries) {
+    const isSelected = v.text === currentText;
+    variantsHtml += `
+      <div class="gt-variant ${isSelected ? 'selected' : ''}" data-variant="${v.key}">
+        <div class="gt-variant__header">
+          <span>${v.label}</span>
+          <span>${v.text.length} Z.</span>
+        </div>
+        <div class="gt-variant__text">${escapeHtml(v.text || '(leer)')}</div>
+      </div>`;
+  }
+
+  const approveLabel = isApproved ? '&#10003; Approved' : 'Approve Page';
+  const approveClass = isApproved ? 'gt-approve-btn approved' : 'gt-approve-btn';
+
+  diffContent.innerHTML = `
+    <div class="gt-review-panel">
+      <div style="font-size:0.75rem;color:var(--sz-text-light)">
+        Klick auf eine Variante um sie als GT zu uebernehmen:
+      </div>
+      ${variantsHtml}
+      <button type="button" class="${approveClass}" id="gtApproveBtn">${approveLabel}</button>
+    </div>`;
+
+  // Click handlers for variant selection
+  diffContent.querySelectorAll('.gt-variant').forEach(el => {
+    el.addEventListener('click', () => {
+      const varKey = el.dataset.variant;
+      const varText = variants[varKey] || '';
+      // Save selection
+      state.gtReviews.set(reviewKey, {
+        transcription: varText,
+        source: varKey,
+        approved: false,
+      });
+      saveGtReviewsToStorage();
+      renderGtReview();
+    });
+  });
+
+  // Approve button
+  const approveBtn = document.getElementById('gtApproveBtn');
+  if (approveBtn) {
+    approveBtn.addEventListener('click', () => {
+      const review = state.gtReviews.get(reviewKey) || {
+        transcription: gtPage.transcription,
+        source: source,
+      };
+      review.approved = !review.approved;
+      state.gtReviews.set(reviewKey, review);
+      saveGtReviewsToStorage();
+      renderGtReview();
+      showToast(review.approved ? `Seite ${pageIdx + 1} approved` : `Seite ${pageIdx + 1} unapproved`);
+    });
+  }
+}
+
+function downloadGtReview(objectId) {
+  const gt = getGtDraft(objectId);
+  if (!gt) return;
+
+  const reviewedPages = [];
+  for (let i = 0; i < (gt.pages || []).length; i++) {
+    const key = `${objectId}:${i}`;
+    const review = state.gtReviews.get(key);
+    const gtPage = gt.pages[i];
+    reviewedPages.push({
+      page: i + 1,
+      transcription: review ? review.transcription : gtPage.transcription,
+      type: gtPage.type || 'content',
+      source: review ? review.source : gtPage.source,
+      approved: review ? review.approved : false,
+      expert_edited: !!review,
+    });
+  }
+
+  const allApproved = reviewedPages.filter(p => p.type === 'content').every(p => p.approved);
+
+  const output = {
+    object_id: gt.object_id,
+    collection: gt.collection,
+    group: gt.group,
+    title: gt.title,
+    models: gt.models,
+    pages: reviewedPages,
+    expert_verified: allApproved,
+    reviewed_by: 'Christopher Pollin',
+    reviewed_at: new Date().toISOString(),
+  };
+
+  const blob = new Blob([JSON.stringify(output, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${gt.object_id}_gt.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 /* ===== Help Modal ===== */
 
 function openHelp() {
@@ -1476,6 +1702,9 @@ function initEvents() {
   // Viewer: diff
   document.getElementById('diffBtn').addEventListener('click', toggleDiffMode);
 
+  // Viewer: GT review
+  document.getElementById('reviewGtBtn').addEventListener('click', toggleGtReview);
+
   // Viewer: edit toggle
   document.getElementById('editBtn').addEventListener('click', () => {
     if (!state.isLocal) return;
@@ -1508,6 +1737,11 @@ function initEvents() {
   // Viewer: JSON download
   document.getElementById('saveBtn').addEventListener('click', () => {
     if (!state.isLocal || !state.currentObjectId) return;
+    if (state.gtReviewMode) {
+      downloadGtReview(state.currentObjectId);
+      showToast('GT Review exportiert');
+      return;
+    }
     if (state.editMode) saveCurrentEdit();
     downloadJson(state.currentObjectId);
     showToast('JSON exportiert');
@@ -1617,6 +1851,7 @@ function changeViewerObject(delta) {
 async function init() {
   detectLocal();
   loadEditsFromStorage();
+  loadGtReviewsFromStorage();
 
   try {
     await loadCatalog();
@@ -1625,6 +1860,9 @@ async function init() {
       '<div class="loading" style="animation:none">Fehler beim Laden des Katalogs.</div>';
     return;
   }
+
+  // Load GT data in background
+  loadGtData();
 
   state.hasReviewData = state.catalog.some(o => o.needsReview !== undefined);
   state.hasConsensusData = state.catalog.some(o => o.consensusCategory);
