@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1539",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 30. Dezember 1924, SZ-AAP/B2.48",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1539/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1539/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1539/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 30. Dezember 1924, SZ-AAP/B2.48\n- Signatur: SZ-AAP/B2.48\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Braunschweig, den 30. XII. 24.\nLieber Hilfsmpr. [?] 37 b Prof. Zweig\n\nLieber Herr Zweig!\nZum Jahresabschluss mache ich mich Gebel'sche Art\n~~wie~~ fest Silang und ich würde mir undankbar vor-\nkommen wenn ich nicht dabei fest jeglich der Be-\nziehung zu Ihnen gedenken wollte. Sie haben mich\nin einer entscheidenden Situation meines Lebens so\n~~respektvoll~~ {eingefügt} gefördert, dass ich Ihnen meine Dankbarkeit\nauch jetzt noch einmal bezeugen muss, auf die Gefahr hin\ndamit mir wenig gedanklich oder aufdringlich zu erscheinen.\nMich beherrscht sonst die Trübe zu scheiden und zu for-\nmulieren und ich bitte auch jetzt große Sitz Klage[?]lagen,\nworin ich diese Forderung wblikte [?] und was ihr spezifische\nWirkung ausmacht. Aber dieses mir menschliche Gefühl\nder Dankbarkeit ist doch stärker und reißt alle anderen\nGedankengänge mit fort, und wenn mich etwas in der\nGewissheit die ich immer fühlte bestätigte so war es diese\nErfahrung: dass tatsächlich das was ich ausgedrückt\nfüge die Fähigkeit hat einen Menschen anzurühren",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkelbraun/schwarz. Die Lesbarkeit ist aufgrund der kursiven Handschrift und einiger unklarer Wörter (z.B. 'Hilfsmpr.', 'wblikte') als medium einzustufen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "in dem Mitmenschen. Sinne: Gast an Gast. Die wenn\nder oft bei dem ich diese unmittelbare Wirkung sah, und die\nfruchtbar ein solches Gefühl zurückwirken und einen schweren\nMann, das Herzsein schnell und einen stetdrängt [?]\nzu einer Äußerung, das ich Ihnen etwa vielleicht keine\n~~jemand~~ {eingefügt} verantwortungsvolle [?] deutlich. Ich selten aber ist\nes doch, dass ein solches Herzsein, das wohl auch bei anderen\nich finden mag, so rauh und unmittelbar und so jeg-\nlich sich in Äußerung äußert wie bei Ihnen! Und in\ndiesem Wege, das Sie geben, in diesem Tage, das doch auch\nimmer ein Werk Arbeit, einen Blick bedeutet, oder\nman sehr wohl weiß, dass ich den Ausdruck einer Ge-\nsinnung der ich mich verehrungsvoll verbunden fühlte und\ndem Wirkung auf diesem Wege erfahren zu haben mich\nsehr günstig macht.\nHerzliche Worte, aber wenn man eine Hilf-\nlose als dann ob ich denke handelt unmittelbar ein\nGefühle zu äußern? Sie werden den Sinn erkennen.\nMit den aufrichtigsten Wünschen für das neue Jahr\nIhr dankbar ergebener\nRichard Friedenthal",
+        "notes": "Handschriftlicher Brief, Fortsetzung der ersten Seite. Die Tinte ist dunkelbraun/schwarz. Die Handschrift ist sehr kursiv und teilweise schwer zu entziffern.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Die Seite zeigt den Text der zweiten Seite mit aufgelegter Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und kursiv, was die Identifikation einzelner Wörter (z.B. 'Hilfsmpr.', 'wblikte', 'stetdrängt') erschwert. Der Kontext ist jedoch weitgehend verständlich."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2068,
+    "total_words": 330,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1027,
+      1041,
+      0
+    ],
+    "chars_per_page_median": 1034.0,
+    "marker_uncertain_count": 5,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0152,
+    "dwr_score": 0.5231,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

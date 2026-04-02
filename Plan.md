@@ -2,7 +2,7 @@
 
 ## Übersicht
 
-VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). 4 Sammlungen, ~2107 Objekte, dreischichtiges Prompt-System.
+VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg). 4 Sammlungen, ~2107 Objekte, 4-schichtiges Prompt-System (System → Gruppe/Objekt → Kontext).
 
 ---
 
@@ -44,6 +44,8 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Gruppe G (Konvolut) erstellt: Prompt, resolve_group(), 1 Test-Objekt
 - [x] Gezieltes Sample: 87 Objekte transkribiert (10/Gruppe, alle 4 Sammlungen)
 - [x] JSON-Parsing gehaertet: Codeblock-Strip, Escape-Fix, Retry, leere Antworten
+- [x] Chunking: Objekte mit >20 Bildern automatisch in Chunks aufteilen + mergen (Session 17)
+- [x] Objekt-Prompts: 4. Prompt-Schicht (`prompts/objects/{id}.md`) fuer Spezialfaelle (Session 17)
 - [x] `quality_signals.py`: 6 Signale + needs_review-Flag, integriert in transcribe.py + build_viewer_data.py
 - [x] Backfill: alle 87 Ergebnis-JSONs mit quality_signals angereichert
 - [x] quality_signals v1.1: Schwellenwerte rekalibriert (68% → 44% needs_review)
@@ -60,7 +62,7 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] GT-Pipeline: `generate_gt.py` — 3-Modell-Merge (Flash Lite + Flash + Pro), 18 Objekte, 46 Content-Seiten (Session 14)
 - [x] GT-Drafts in `results/groundtruth/` — consensus_3of3 (33%), majority_2of3 (43%), pro_only (24%)
 - [x] Pilot uebersprungen — Konsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch
-- [ ] **Expert-Review**: 18 GT-Objekte im Frontend pruefen und approven
+- [~] **Expert-Review**: 3/18 GT-Objekte verifiziert (o_szd.153, o_szd.137, o_szd.194). 15 ausstehend.
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
 ### 4b: Quality Signals & Batch
@@ -68,7 +70,7 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] `needs_review`-Indikator im Viewer
 - [x] quality_signals v1.1–v1.4: Rekalibrierung, Leerseiten-Klassifikation, DWR, Duplikat-Schwelle 200→50
 - [x] System-Prompt: JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien, Bleed-Through-Regel
-- [~] Alle Sammlungen transkribieren (~575/2107 Objekte, 27%)
+- [~] Alle Sammlungen transkribieren (~646/2107 Objekte, 31%). Lebensdokumente 100%.
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
 ### 4c: Multi-Model-Konsensus & Vergleich
@@ -86,6 +88,9 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Projekt-Seite aus README.md (`#about`) (Session 15)
 - [x] `build_viewer_data.py`: `build_knowledge()` — Markdown → HTML → knowledge.json (Session 15)
 - [x] Layout-Analyse (`layout_analysis.py`) + PAGE XML Export (`export_pagexml.py`) (Session 14)
+- [x] Lokaler Dev-Server (`serve.py`) mit Review-API: POST /api/approve, /api/edit (Session 17)
+- [x] Expert-Review Write-Back (`import_reviews.py`) + 3-stufiger Review-Status (Session 16)
+- [x] Katalog-Bereinigung: Duplikate (Pro-Modell), Color-Chart-Seiten, Test-Daten gefiltert (Session 16-17)
 
 ## Phase 5: TEI-Integration
 
@@ -144,3 +149,7 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | 2026-04-02 | Gemini Pro als 3. GT-Modell | Gleiche API, staerkstes Gemini-Modell, kein Provider-Wechsel |
 | 2026-04-02 | Pilot uebersprungen | Konsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch |
 | 2026-04-02 | Pre-rendered Markdown statt Client-Side | Null Runtime-Dependencies, Wiki-Links zur Build-Zeit aufgeloest |
+| 2026-04-02 | Chunking statt Downscaling | Volle Bildaufloesung beibehalten, 20 Bilder/Chunk sicher unter API-Limit |
+| 2026-04-02 | Objekt-Prompts als 4. Schicht | Spezialfaelle (Tabellen, Formulare) ohne Gruppen-Prompt-Aenderung loesbar |
+| 2026-04-02 | serve.py statt localStorage | Pipeline-JSONs als einzige Quelle der Wahrheit, kein manueller Export noetig |
+| 2026-04-02 | Whitelist statt Blacklist fuer Katalog | SKIP_SUFFIXES-Ansatz fragil bei neuen Modellen — Whitelist robuster (TODO) |

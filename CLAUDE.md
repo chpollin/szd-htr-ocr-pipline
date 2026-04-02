@@ -14,14 +14,14 @@ Phasen 1–3 erledigt, Phase 4 laufend. Details, offene Aufgaben und Entscheidun
 
 ### Transkriptionsfortschritt
 
-**601 / 2107 Objekte** im Katalog (29%), **3588 Seiten** im Viewer (color_chart-Seiten gefiltert):
+**646 / 2107 Objekte** im Katalog (31%), **4154 Seiten** im Viewer (color_chart-Seiten gefiltert):
 
 | Sammlung | Objekte | Seiten | Content | Blank | Farbskala | Abdeckung |
 |---|---:|---:|---:|---:|---:|---:|
-| Lebensdokumente | 112 / 127 | 992 | 614 | 289 | 46 | 88% |
-| Korrespondenzen | 290 / 1186 | 923 | 740 | 138 | 34 | 24% |
-| Aufsatzablage | 117 / 625 | 583 | 470 | 106 | 2 | 19% |
-| Werke | 56 / 169 | 965 | 551 | 352 | 52 | 33% |
+| Lebensdokumente | 127 / 127 | 1486 | 979 | 437 | 70 | 100% |
+| Korrespondenzen | 350 / 1186 | 1135 | 887 | 177 | 71 | 30% |
+| Aufsatzablage | 115 / 625 | 578 | 470 | 106 | 2 | 18% |
+| Werke | 54 / 169 | 955 | 551 | 352 | 52 | 32% |
 
 Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+verso gescannt, Zweig schrieb primaer auf Recto-Seiten, gelegentlich Notizen auf Verso.
 
@@ -191,10 +191,10 @@ szd-htr/
 ├── results/
 │   ├── test/                        ← 7 Legacy-Testergebnisse (nicht im Katalog)
 │   ├── groundtruth/                 ← 18 GT-Drafts + Pro-Transkriptionen
-│   ├── lebensdokumente/             ← 112 Ergebnisse + 18 Konsensus-JSONs
-│   ├── werke/                       ← 56 Ergebnisse + 5 Konsensus-JSONs
-│   ├── aufsatzablage/               ← 117 Ergebnisse + 3 Konsensus-JSONs
-│   └── korrespondenzen/             ← 290 Ergebnisse + 3 Konsensus-JSONs
+│   ├── lebensdokumente/             ← 127 Ergebnisse + 18 Konsensus-JSONs
+│   ├── werke/                       ← 54 Ergebnisse + 5 Konsensus-JSONs
+│   ├── aufsatzablage/               ← 115 Ergebnisse + 3 Konsensus-JSONs
+│   └── korrespondenzen/             ← 350 Ergebnisse + 3 Konsensus-JSONs
 ├── docs/
 │   ├── index.html                   ← SPA: Katalog + Viewer + Knowledge Vault + Projekt
 │   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit, Knowledge

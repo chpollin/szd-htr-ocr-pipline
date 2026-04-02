@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1540",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 26. Januar 1925, SZ-AAP/B2.49",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1540/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1540/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1540/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 26. Januar 1925, SZ-AAP/B2.49\n- Signatur: SZ-AAP/B2.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Berlin NW 23, den 26. I. 25\nTiergarten Ufer 13 II\n\nStefan Zweig\n\nGleich den allerherzlichsten, ~~p~~fürnissesten[?] Dank, lieber\nHerr Zweig! Sie entbehren es gut leben, Andere falken[?]\nmit den Tönen am Horizont herum, aber Sie haben schon\nden Anfang und die rechte Gefühllage, wenn ich die ~~alguie~~[?]\nRegion, die Sie dort für mich ansehen, schon jetzt für\nmich in Anspruch nehmen darf. Ein wenig Gefühllage tut\neinem aber doch gut in diesen {furchtbar} [?] öden[?] Streben.\nUnd seien Sie überzeugt, daß ich den freundlichen Appell, der\nin Ihrer feinen Post, wohl durchführe. Ich weiß daß mir\njetzt Anspruch verpflichtet. Wenn ich nicht krank werde oder\ndie materiellen Bedingungen nicht ganz fortdauernd stören,\nhoffe ich in diesem Jahre ein richtiges Stück weiterzukommen.\nAn Arbeit fehlt es nicht.\nHoffen wir nun, daß Ihr Ton auch einigen anderen recht\nfür uns Gegn[?] nütze wird.\nMit den besten Grüßen und Wünschen f. Ihre neue\nArbeit\n\nRichard Friedenthal",
+        "notes": "Handschriftlicher Brief auf einem Blatt. Die Tinte ist teilweise verblasst oder durch das Papier gedrückt. Einige Wörter sind schwer lesbar oder weisen Korrekturen auf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'fürnissesten', 'falken', 'alguie'). Die Struktur ist jedoch klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 962,
+    "total_words": 154,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      962,
+      0,
+      0
+    ],
+    "chars_per_page_median": 962,
+    "marker_uncertain_count": 6,
+    "marker_illegible_count": 0,
+    "marker_density": 0.039,
+    "dwr_score": 0.5067,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

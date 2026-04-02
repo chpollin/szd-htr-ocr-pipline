@@ -555,6 +555,76 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ---
 
+## 2026-04-02 — Session 17: Chunking, Objekt-Prompts, Review-Server
+
+**Schwerpunkt:** Pipeline-Readiness fuer Gesamtdurchlauf. Chunking fuer grosse Objekte, Objekt-Prompt-Overrides, lokaler Dev-Server mit Review-API, erste Expert-Verifikationen.
+
+### Chunking fuer grosse Objekte
+
+- **Problem:** 44 Objekte hatten weniger Bilder verarbeitet als vorhanden (z.B. Hauptbuch o_szd.143: 3 statt 249 Bilder). Ursache: API-Kontextlimit bei vielen hochaufloesenden Bildern.
+- **Loesung:** Automatisches Chunking in `transcribe.py`: Objekte mit >20 Bildern werden in Chunks aufgeteilt, separat transkribiert, Ergebnisse gemergt. Seitennummerierung bleibt durchgehend.
+- **CLI:** `--chunk-size N` (Default: 20)
+- **Test:** Hauptbuch (249 Bilder, 13 Chunks) → 249/249 Seiten, ~197.000 Zeichen. Erster Durchlauf: Chunk 2 scheiterte (JSON nicht parsebar), Bug gefixt (Platzhalter-Seiten fuer fehlgeschlagene Chunks). Zweiter Durchlauf: komplett.
+- **Refactoring:** `transcribe_object()` aufgeloest in `_call_api()`, `_parse_with_retry()`, `_transcribe_single_call()`, `_transcribe_chunked()`.
+
+### Objekt-Prompts (4. Prompt-Schicht)
+
+- **Motivation:** Bankkontoauszuege (o_szd.1056) — tabellarische Struktur ging im Formular-Prompt verloren.
+- **Loesung:** Optionaler Objekt-Prompt in `prompts/objects/{object_id}.md` ueberschreibt Gruppen-Prompt.
+- **Ergebnis:** o_szd.1056 neu transkribiert — 11 statt 3 Seiten, Tabellenstruktur teilweise als Markdown.
+- **Erkenntnis:** VLM wendet Tabellenanweisung inkonsistent an (Seite 1 ja, Folgeseiten nein). Strukturrekonstruktion besser in Layout-Analyse / TEI-Export.
+
+### Lokaler Dev-Server (`serve.py`)
+
+- **Problem:** Edit/Approve im Frontend speicherte nur in localStorage, nicht in Pipeline-JSONs. Workflow: Export-JSON herunterladen → CLI → Import. Zu umstaendlich.
+- **Loesung:** `pipeline/serve.py` — Python HTTP-Server, der Frontend ausliefert + API-Endpunkte hat:
+  - `GET /api/status` → `{"local": true}` (Frontend erkennt lokalen Server)
+  - `POST /api/approve` → schreibt `review.status: "approved"` direkt ins Pipeline-JSON
+  - `POST /api/edit` → schreibt editierte Seiten + Review
+  - `POST /api/rebuild` → fuehrt `build_viewer_data.py` aus
+- **Architektur-Entscheidung:** Kein localStorage als Datenquelle. Pipeline-JSONs sind die einzige Quelle der Wahrheit. Frontend-Claude muss `fetch('/api/...')` Calls einbauen.
+- **Nutzung:** `python pipeline/serve.py --port 5501 --rebuild`
+
+### Erste Expert-Verifikationen (GT-Workflow)
+
+- 3 Objekte approved: o_szd.153 (Briefkarte blanko), o_szd.137 (At Home Card), o_szd.194 (Briefregister)
+- o_szd.194: Seite 4 manuell geleert — durchscheinende Schrift (bleed-through) war faelschlich transkribiert worden
+- GT-Kandidatenliste: 18 Objekte stratifiziert ueber alle 9 Gruppen, 4 Sammlungen
+
+### Katalog-Bereinigung
+
+- **Duplikat-Fix:** 18 Duplikate im Katalog (Pro-Modell-Zwischenergebnisse). SKIP_SUFFIXES erweitert um `_gemini-3.1-pro` und `_judge_data`. Katalog: 657 → 639 Objekte.
+- **.gitignore:** `*.bak` Backup-Dateien ausgeschlossen.
+
+### Batch-Ergebnisse
+
+- ~63 neue Korrespondenzen (o_szd.1454–1543), Abdeckung 24% → ~30%
+- Hauptbuch komplett (249/249 Seiten)
+- o_szd.1056 mit Objekt-Prompt neu transkribiert (11 Seiten)
+
+### Identifizierter Refactoring-Bedarf
+
+| Bereich | Problem | Prioritaet |
+|---|---|---|
+| `build_viewer_data.py` | Blacklist-Ansatz (SKIP_SUFFIXES) fragil — Whitelist-Ansatz besser | hoch |
+| `serve.py` | File-Writes ohne try-except, Content-Length ohne Obergrenze | hoch |
+| `serve.py` + `import_reviews.py` | Duplizierte Logik (Datei-Suche, Backup-Write, Page-Update) | mittel |
+| `config.py` | CHUNK_SIZE, DEFAULT_REVIEWER, VERIFY_MODEL nicht zentralisiert | mittel |
+| Datenintegritaet | ~44 Objekte mit unvollstaendigen Seiten, ~20 mit parse-Fehlern | hoch |
+| Prompt-Loading | `load_prompt()` Regex fragil bei Codeblock-Varianten (`json` etc.) | niedrig |
+
+### Neue/Geaenderte Dateien
+
+- `pipeline/transcribe.py` — Chunking, Objekt-Prompts, Refactoring
+- `pipeline/serve.py` — NEU: Lokaler Dev-Server mit Review-API
+- `pipeline/build_viewer_data.py` — SKIP_SUFFIXES erweitert
+- `pipeline/prompts/objects/o_szd.1056.md` — NEU: Erster Objekt-Prompt
+- `.gitignore` — `*.bak` hinzugefuegt
+- `CLAUDE.md` — Chunking, serve.py, Objekt-Prompts, Session 17
+- `README.md` — 4-Schicht-Prompt, Chunking, serve.py
+
+---
+
 ## Offene Fragen (Stand 2026-04-02)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
@@ -564,10 +634,10 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 - [x] Batch-Modus: transcribe.py (Session 5)
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)
 - [ ] Provider-Vergleich: Claude Vision, GPT-4o (Phase 4)
-- [~] Alle 2107 Objekte transkribieren — 601/2107 fertig (Session 14)
+- [~] Alle 2107 Objekte transkribieren — ~639/2107 fertig, Chunking fuer grosse Objekte eingebaut (Session 17)
 - [x] quality_signals kalibrieren: v1.1, datengetrieben rekalibriert (Session 13)
 - [ ] Prompt-Wirksamkeit: Vorsichts-Guidance ignoriert — Experiment noetig (Session 8)
-- [ ] o_szd.143 nur 20 Zeichen auf 3 Seiten — Pipeline-Problem oder korrektes Ergebnis? (Session 8)
+- [x] o_szd.143 nur 20 Zeichen auf 3 Seiten — geloest: fehlende Bilder wegen API-Limit, Chunking eingebaut (Session 17)
 - [x] Verification-by-Vision: Proof of Concept erfolgreich, Spec geschrieben (Session 11)
 - [x] Pipeline-Bug: o_szd.147 repariert, 41 Bilder transkribiert (Session 13)
 - [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Konsensus-Validierung)

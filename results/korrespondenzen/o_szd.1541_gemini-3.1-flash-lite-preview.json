@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1541",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 2. März 1925, SZ-AAP/B2.50",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1541/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1541/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1541/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. März 1925, SZ-AAP/B2.50\n- Signatur: SZ-AAP/B2.50\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Berlin NW 23, den 2. III. 25\nSchleswiger Ufer 13 II\n\nLieber Herr Zweig!\n\nGelegentlich sende ich Ihnen hier zwei Novellen\nvon mir, die ich in der letzten Zeit fertiggemacht habe. Die Arbeit\ngeht mir jetzt gut von der Hand und ich komme endlich dazu diese\nDinge, die mich wohl schon seit längerer Zeit beschäftigt haben, aus\nsich zu geben. Ich habe einen ganzen Zyklus von etwa 10 größeren\n{jetzt das dritte Buch} Novellen vor mir; den ersten Band hoffe ich noch vor dem Sommer\nfertigzustellen. Ich ziele damit auf eine „große Form“ der Novelle;\ndas was man jetzt so {bezeichnet} nennt, ist ja meist nur ein kurzes Stück Ro-\nman, eine Skizze oder bestenfalls eine Erzählung. Ich glaube es ist\nnicht unrichtig auch hier etwas klarer und sauberer zu unter-\nscheiden als es meist in der letzten Zeit geschieht. Freilich bin ich\nnicht von Konstruktionen ausgegangen, {die Themen der Stücke} {eigentlich}\nBeschäftigung noch genauer nachforsch. Ich hatte zuerst vor sie\nnach dem Thema zu benennen, wie bei der „Morgendämmerung“, habe\ndas aber aufgegeben, {aufgegeben} weil ich sah, daß es zu Mißdeutungen\nführt. Vielleicht klingt es auch zu abfällig, wenn man sagt:\n„Morgendämmerung“, „Doppelehe“, „Pubertät“, „Fertig ist“.\nSo soll auch das eine Stück jetzt einfach „Maria Hubschmidt“ heißen.\nEs ist bisher überall gut aufgenommen worden und hat mir\nu. a. die Gunst der Frankfurter Zeitung verschafft. Diese hat mich\ndort – diese Firma scheint jetzt doch zu fette – eine andere",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkel, gut lesbar. Einige Korrekturen und Einfügungen über der Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Novelle gebeten und direkt auch in der nächsten Zeit einen Aufsatz\n„Rotterdam“ von mir ab. Auch die Vossische Zeitung hat an mich ge-\nschrieben, die Deutsche Verlags-Anstalt hat zunächst den Gutsherrn für\nden „Falten“ angenommen. Man unterhält sich doch sehr für mich\nund hat davon gesprochen mir ein Monatsgehalt zu geben. Ich sage\naber noch ab wenn ich damit nicht in eine etwas gefestigte {Stellung}\nverkauft. Weil {aufgekommen} behandelt hat mich bisher nur die „Neue Rund-\nschau“, die mir jetzt 3 Monat nach der Zusendung, das Manuskript mit\neinem ganz lächerlichen Bescheid (ausgeschrieben von mir & Sekretariat\nPapierchen u. a.) zurückschickte. Spuren behaftet genug genau ab am\nRande zugeklebt und konnte so feststellen, daß man es gemacht gelesen\nhat. Nun, ich denke ich werde auch ohne Herrn Kapper wieder Tag\nmachen. Ganz gut allerdings daß ich auch heute gegen mich habe, das\nkennt die Stücke.\nDie Novelle ist übrigens jetzt von der Verlags-Anstalt, die mich noch\nvorbehalten will, sie ebenfalls für den Falten, je nachdem an den\n„Neuen Werken“ gespielt worden. Falls Sie Herrn Fopp [?] kennen würden\nich Ihnen sehr dankbar wenn Sie ihm ein Wort über mich schreiben\nwürden. Er soll sehr schwer von Entschluß sein.\nHoffentlich mag Ihnen meine Sendung etwas Freude. Das\n„Falten“ Stück ist zwar nur eine Gelegenheitsarbeit aber doch, wie\nich denke, anständig gemacht, die Geschichte gehört überhaupt auch in\nden geplanten Zyklus hinein und ich werde die Falten ganz gut\naufgehoben. Die Bände werden übrigens auch weiter für ich günstig, wenn\nauch nicht immer wirklich anwendbar, beurteilt ist.\nIhr dankbar ergebener\nRichard Friedenthal",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist dunkel, gut lesbar. Einige Korrekturen und Einfügungen über der Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Dies ist eine Kopie von Seite 2, die zusätzlich eine Grauskala und eine Farbkarte für Archivierungszwecke enthält. Der Text ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar. Einige Stellen sind aufgrund von Korrekturen, Einfügungen und der kursiven Handschrift leicht unsicher, aber im Kontext gut verständlich."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 3113,
+    "total_words": 501,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1469,
+      1644,
+      0
+    ],
+    "chars_per_page_median": 1556.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.002,
+    "dwr_score": 0.5335,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

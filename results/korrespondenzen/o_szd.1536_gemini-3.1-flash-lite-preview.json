@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1536",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 30. Oktober 1924, SZ-AAP/B2.45",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1536/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1536/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1536/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 30. Oktober 1924, SZ-AAP/B2.45\n- Signatur: SZ-AAP/B2.45\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Berlin-Schmargendorf, den 30.10.24.\nMarienbaderstrasse 9.\n\nLieber Herr Zweig!\n\nIch danke Ihnen herzlichst für Ihren letzten Brief. Ich habe nun aber\ninzwischen doch mit Axel Muncker abgeschlossen. Vielleicht ist das\nauch die richtigste Lösung im jetzigen Stadium der Dinge. Der Insel-\nVerlag kann ja eventuell später die Sammlung übernehmen, wenn sie sich\ndurchgesetzt hat. Ich habe durchaus Verständnis dafür, dass ein Verlag\nvon seinem Range und seiner Eigenart nicht experimentieren will, und als\nExperiment muss ihm wohl nach dem Fiasko der letzten Kunstbewegung jede\nneue Dichtung erscheinen. Sie haben das ja seinerzeit in Ihrem ersten\nBriefe an mich auch gleich angedeutet.\n\nDarf ich Sie nun ganz unbefangen um eine Freundlichkeit bitten?\nDer Verlag will einen Prospekt versenden, mit 3 Seiten Proben und einer\nTitelseite. Würden Sie dafür ein paar empfehlende Worte, die möglichst\nein ungefähres Bild des Inhalts, kühn gesagt eine Art kleines Vorwort\ndarstellen sollen, schreiben? Eine weitere Bitte wäre die, mir Ihre\nAdresse anzugeben; es würde mir gesagt, dass Sie die Absicht hätten für\nlängere Zeit ins Ausland zu verreisen. Ich weiss nun allerdings nicht,\nob Sie sich dabei nicht einmal der ganzen Literatur und ihrem Umtrieb\nentziehen wollen. Sollten Sie aber während der Zeit doch die Musse finden\ndas Büchlein zu besprechen - es wird noch vor Weihnachten erscheinen -\nso wäre mir das zweifellos eine grosse Hilfe. Ich habe auch verschie-\ndentlich von anderer Seite sehr zustimmende Urteile über die Sonette\ngehört und bin im Übrigen auch nicht unsicher. Trotzdem werden Sie wissen\nwie wichtig es für einen jungen Autor ist bei seinem ersten Auftreten\neinen",
+        "notes": "Typoskript auf Briefpapier. Die letzte Zeile 'einen' bricht den Satz ab, der auf der nächsten Seite fortgesetzt wird.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "einen gewissen Schwung zu bekommen. Diese Dinge haben sich nun von\nmir abgelöst und wollen leben. Mit dem Augenblick wo sie aber so\nherausgestellt werden beginnen sie nach rückwärts auf einen einzuwirken,\nstärker als vorher. Für mich hat das Manuskript fast etwas Unpersön-\nlicheres als das Buch.\n\nIch will nicht aus meinen Bitten einen ganzen Strauss machen, sonst\nwürde ich noch versuchen Sie für meine Prosa zu interessieren. Ich habe\neinige Novellen geschrieben, von denen ich Ihnen gern eine vorlegen\nwürde. Es ist so selten, dass man das Gefühl hat sich wirklich mensch-\nlich jemand anvertrauen zu dürfen, geschweige denn in der Sphäre der\nLiteratur, - die wenigen Menschen, die einem diese Sicherheit geben\nmüssen es sich schon gefallen lassen, wenn man sie dann vielleicht\netwas heftig in Anspruch nimmt.",
+        "notes": "Typoskript, Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "einen gewissen Schwung zu bekommen. Diese Dinge haben sich nun von\nmir abgelöst und wollen leben. Mit dem Augenblick wo sie aber so\nherausgestellt werden beginnen sie nach rückwärts auf einen einzuwirken,\nstärker als vorher. Für mich hat das Manuskript fast etwas Unpersön-\nlicheres als das Buch.\n\nIch will nicht aus meinen Bitten einen ganzen Strauss machen, sonst\nwürde ich noch versuchen Sie für meine Prosa zu interessieren. Ich habe\neinige Novellen geschrieben, von denen ich Ihnen gern eine vorlegen\nwürde. Es ist so selten, dass man das Gefühl hat sich wirklich mensch-\nlich jemand anvertrauen zu dürfen, geschweige denn in der Sphäre der\nLiteratur, - die wenigen Menschen, die einem diese Sicherheit geben\nmüssen es sich schon gefallen lassen, wenn man sie dann vielleicht\netwas heftig in Anspruch nimmt.",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 3297,
+    "total_words": 519,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1673,
+      812,
+      812
+    ],
+    "chars_per_page_median": 812,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5166,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

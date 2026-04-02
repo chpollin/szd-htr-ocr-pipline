@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1543",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 13. Dezember 1924, SZ-AAP/B2.46",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1543/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1543/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1543/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Dezember 1924, SZ-AAP/B2.46\n- Signatur: SZ-AAP/B2.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "An Stefan Zweig\nBerlin, den 13. XII. 24\nSchöneberger Ufer 13 II bei Sack\n\nLieber Herr Zweig!\nder zweite Brief am gleichen Tage (der erste war übereilt). Ich war eben auf der Redaktion des\nBerliner Tageblattes, wo mich Herr Fugel freundlich, aber mit\nall dem Stolz nicht ganz übermütigen Misstrauen empfing\ndas man jungen Lyrikern entgegenbringt. Er interessierte sich\nfür meine Familie, die ihm aus Breslau so bekannt ist: ihr\nGroßvater war der Kommerzienrat Friedenthal & der Minister war\nihr Großonkel? Ganz recht, mein Vater ist Professor an der hiesigen\nUniversität und ich schreibe nun Gedichte. Es kommt mir un-\nsprünglich respektabel gepflegt ~~etwa~~ auf den Grund. Er\nsah an meinem Pult entlang und schien mir den Grund nicht\nmehr zu glauben. Ich konnte ihm nicht recht auseinandersetzen,\ndass ich mit diesem Geblüt jetzt die Gütertreppe unser Hof-\n{...} hinaufgehe? der vordere Teil ist durchsichtbar) Ja, nun\ndie Gedichte, Sonette, mein Gott. Ich rief in der Not Ihren\nNamen an, der albald eine magische Wirkung hat. Das\nEndresultat war, dass Herr Fugel vorschlug, Sie möchten\ndoch für das Tageblatt das Buch rezensieren. Diesen Auftrag,\nder ich mit einem freundlichen Gruß zu überbringen habe,\nliefern ich nun ab, dass ich nicht vergesse: kurz soll",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist violett. Die Lesbarkeit ist aufgrund der kursiven Handschrift und einiger Korrekturen/Einfügungen stellenweise erschwert. Die Zeile 'der vordere Teil ist durchsichtbar)' scheint eine Anmerkung zum Papier oder zum Text zu sein.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "der Artikel sein, kurz, kurz; alle Beiträge im Tageblatt müssen\nkurz gehalten sein.\nIch weiß nun nicht ob es Ihrer Art entspricht Dinge\nBeiträge für das B. T. zu schreiben. Möglich auch, dass\nHerr Fugel - den ich im Übrigen mit diesem Ausdruck nicht\nblamieren will; er machte mir sogar einen fast affektierten\nVergnügt {schien} mir ein replikter, hiesiger Redakteur {Zugang} mit einem\nunsicheren Posten versah - dass Herr Fugel auch einige\nZeilen mehr schreiben lässt, wenn Sie von Ihnen kommen.\nZunächst weiß ich aber noch gewiss, ob das Projekt Ihnen\nzusagt. Scheuen Sie es ruhig ab, wenn Sie keine Zeit haben\noder Lust dazu verspüren. Richtig wäre mit mir, dass einladen\nTageblatt jemand das Buch richtig liest. Hochachtungsvollen\nherzlichsten Gruß\n\nIhr\nRichard Friedenthal",
+        "notes": "Handschriftlicher Brief, Fortsetzung auf Seite 2. Violette Tinte. Einige Korrekturen über der Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "der Artikel sein, kurz, kurz; alle Beiträge im Tageblatt müssen\nkurz gehalten sein.\nIch weiß nun nicht ob es Ihrer Art entspricht Dinge\nBeiträge für das B. T. zu schreiben. Möglich auch, dass\nHerr Fugel - den ich im Übrigen mit diesem Ausdruck nicht\nblamieren will; er machte mir sogar einen fast affektierten\nVergnügt {schien} mir ein replikter, hiesiger Redakteur {Zugang} mit einem\nunsicheren Posten versah - dass Herr Fugel auch einige\nZeilen mehr schreiben lässt, wenn Sie von Ihnen kommen.\nZunächst weiß ich aber noch gewiss, ob das Projekt Ihnen\nzusagt. Scheuen Sie es ruhig ab, wenn Sie keine Zeit haben\noder Lust dazu verspüren. Richtig wäre mit mir, dass einladen\nTageblatt jemand das Buch richtig liest. Hochachtungsvollen\nherzlichsten Gruß\n\nIhr\nRichard Friedenthal",
+        "notes": "Dies ist eine Wiederholung von Seite 2, jedoch mit einer aufgelegten Farbskala/Grauskala für Archivierungszwecke. Die Transkription ist identisch mit Seite 2.",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist sehr flüchtig und weist zahlreiche Korrekturen, Durchstreichungen und Einfügungen über der Zeile auf. Einige Wörter sind aufgrund der Tintenführung und der kursiven Schreibweise schwer zu entziffern (z.B. 'replikter', 'Zugang')."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2812,
+    "total_words": 451,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1260,
+      776,
+      776
+    ],
+    "chars_per_page_median": 776,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.509,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}
