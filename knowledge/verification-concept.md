@@ -7,7 +7,7 @@ type: concept
 status: stable
 related:
   - "[[annotation-protocol]]"
-  - "[[pilot-design]]"
+  - "[[evaluation-results]]"
   - "[[data-overview]]"
   - "[[layout-analysis]]"
 ---
@@ -214,6 +214,30 @@ Markup-Zeichen (`[?]`, `[...]`, `~~...~~`, `{...}`) werden fuer die Basis-CER-Be
 ### 1.8 Empfehlung
 
 Vor jedem weiteren Batch-Lauf ein 30-Objekt-Referenz-Sample erstellen. Prioritaet: Die 7 bestehenden Test-Objekte manuell verifizieren (das sind die einzigen Objekte, bei denen Bild und Transkription bereits vorliegen), dann gezielt die 23 Luecken-Objekte ergaenzen. Die Referenz-Transkription muss denselben Konventionen folgen wie der Pipeline-Output (diplomatisch, mit [?]/[...]/~~...~~/\{...\}-Markup). Ohne diesen Schritt ist die Pipeline eine Blackbox.
+
+### 1.9 Adaptive Sampling-Anpassung
+
+*Konsolidiert aus dem historischen Pilot-Design (nicht ausgefuehrt, ersetzt durch Modellkonsensus-Validierung + GT-Pipeline).*
+
+**Eskalationsschwellen** (pro Gruppe, nicht aggregiert):
+
+| CER-Bereich | Bewertung | Handlung |
+|---|---|---|
+| **< 5%** | Sehr gut. Pipeline funktioniert fuer diese Gruppe. | Weiter mit Batch, quality_signals als Triage. |
+| **5–15%** | Brauchbar mit Review. Typisch fuer schwierige Handschrift. | Batch fortsetzen, Cross-Model-Verification fuer diese Gruppe einplanen. |
+| **15–30%** | Problematisch. Zu viele Fehler fuer unbeaufsichtigten Batch. | Prompt-Ueberarbeitung, dann erneuter Test. Batch nur mit manuellem Review. |
+| **> 30%** | Unbrauchbar. | Grundlegende Aenderung: anderes Modell, Preprocessing, oder Gruppe vom Batch ausschliessen. |
+
+**Anpassungsregeln fuer das Sample:**
+
+1. **Schwierigkeits-Gewichtung**: Wenn eine Gruppe CER >15% zeigt → Objektzahl verdoppeln; Gruppen mit CER <5% reduzieren.
+2. **Fehlertyp-spezifische Ergaenzung**: Wenn ein Fehlertyp >30% aller Fehler ausmacht, gezielt Objekte aufnehmen, die diesen Fehlertyp provozieren (z.B. mehr Fraktur bei f/s-Verwechslungen, mehr Tabellen bei Strukturfehlern).
+3. **Protokoll-Korrektur**: Luecken im Annotationsprotokoll ergaenzen, bevor das Sample beginnt.
+4. **Metriken-Ergaenzung**: Wenn CER allein nicht ausreicht (z.B. Strukturfehler bei Tabellen), zusaetzliche Metrik definieren.
+
+**Was sich NICHT aendert**: CER als Primaermetrik, manuelles Referenz-Sample als Grundentscheidung, die Normalisierungsregeln (§1.7), die quality_signals-Spezifikation.
+
+**Empirische Validierung (Session 18):** Die Schwellen wurden an 26 verifizierten Objekten geprueft — alle 9 Gruppen liegen im Bereich <5% (gedruckter Text) bis ~10% (schwierige Handschrift/Tabellen). Details → [[evaluation-results]].
 
 ---
 
@@ -942,6 +966,83 @@ Faksimile-Bild
 
 ---
 
+## 8. Agent-Verifikation (agent_verified)
+
+*Implementiert in Session 18 (2. April 2026). Empirische Ergebnisse → [[evaluation-results]].*
+
+### 8.1 Motivation
+
+Menschliches Expert-Review skaliert nicht — bei 2107 Objekten ist Seite-fuer-Seite-Verifikation durch den Projektleiter ein Flaschenhals. Gleichzeitig ist die rein automatische Qualitaetsmessung (quality_signals, Modellkonsensus) blind fuer bestimmte Fehlertypen, die nur im Bild-Text-Vergleich sichtbar werden (z.B. Fraktur f/s-Verwechslungen, die echte Woerter ergeben).
+
+Agent-Verifikation schliesst diese Luecke: Ein zweites VLM (Claude) vergleicht systematisch Faksimile-Bilder gegen die Gemini-Transkription und meldet Abweichungen. Das ist methodisch ein **Cross-Provider-Check mit Vision** — konzeptionell eine Operationalisierung von Verification-by-Vision (§5).
+
+### 8.2 4-Tier Review-Modell
+
+| Tier | Status im JSON | Label (Frontend) | Vertrauensniveau | Quelle |
+|---|---|---|---|---|
+| 0 | `gt_verified` (GT-Draft) | GT ✓ | Hoechstes | Mensch auf 3-Modell-GT-Draft |
+| 1 | `approved` | Geprueft | Hoch | Mensch im Frontend-Viewer |
+| 2 | `agent_verified` | Agent ✓ | Mittel-hoch | Claude Code Sub-Agent (Vision) |
+| 3 | — (kein Review) | LLM OK / Review | Niedrig | Nur Pipeline-Selbsteinschaetzung |
+
+**Wichtig:** `agent_verified` ist kein Ersatz fuer menschliches Review, sondern ein **Zwischen-Tier**, das:
+- Objekte identifiziert, die wahrscheinlich korrekt sind (zur Priorisierung menschlicher Zeit)
+- Konkrete Fehler findet und korrigiert (der korrigierte Text ist besser als das VLM-Original)
+- CER-Schaetzungen pro Objekt liefert (fuer Aggregatstatistiken)
+
+### 8.3 Technische Umsetzung
+
+**Workflow:**
+
+1. Sub-Agent wird mit Object-ID, Collection und Bildpfaden gestartet
+2. Agent liest alle Seitenbilder aus dem lokalen Backup (`SZD_BACKUP_ROOT`)
+3. Agent liest die Transkription aus dem Pipeline-JSON
+4. Pro Content-Seite: Bild-Text-Vergleich, Zeichen fuer Zeichen
+5. Ergebnis: Fehlerliste mit Zitat, Korrektur, Schweregrad, Qualitaetsnote
+6. Korrekturen werden direkt im JSON angewendet
+7. Review-Metadaten werden geschrieben
+
+**JSON-Struktur:**
+
+```json
+{
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.996,
+    "edited_pages": [1, 3],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T..."
+  }
+}
+```
+
+**API:** `POST /api/approve` mit `status: "agent_verified"` (`serve.py`).
+
+**Parallelisierung:** Bis zu 4 Sub-Agents gleichzeitig (je 2 Objekte pro Agent). Ein Batch von 8 Objekten dauert ~3 Minuten.
+
+### 8.4 Verhaeltnis zu bestehenden Verfahren
+
+| Verfahren | Vergleichsgrundlage | Persistenz | Abschnitt |
+|---|---|---|---|
+| Cross-Model (Modellkonsensus) | Text ↔ Text (2 VLMs) | `_consensus.json` | §4 + §7 |
+| Verification-by-Vision (VbV) | Bild ↔ Text (manuell) | Nicht persistiert | §5 |
+| **Agent-Verifikation** | **Bild ↔ Text (automatisch)** | **`review` im Ergebnis-JSON** | **§8** |
+
+Agent-Verifikation kombiniert die Staerke von VbV (Bild-Text-Vergleich) mit der Skalierbarkeit von Modellkonsensus (automatisiert). Die Schwaeche: Claude als Judge kann selbst Fehler machen — daher der niedrigere Tier-Rang als menschliches Review.
+
+### 8.5 Empirische Ergebnisse
+
+In Session 18 wurden 12 Objekte agent-verifiziert (→ [[evaluation-results]] fuer Details):
+
+- **4 Objekte fehlerfrei** (100% Genauigkeit)
+- **6 Objekte mit 1–5 Fehlern** (99.1–99.9%)
+- **2 Objekte mit Strukturproblemen** (90–98.5%)
+- **Hauptfehlertypen**: Fraktur f/s-Verwechslung (hoch), Grossschreibung (niedrig), Tabellenstruktur (hoch)
+
+---
+
 ## Zusammenfassung der Abhaengigkeiten
 
 ```
@@ -968,7 +1069,7 @@ NAECHSTER SCHRITT — Modellkonsensus-Validierung (Abschnitt 7):
               │  └── Statistik-Dashboard mit Modellkonsensus-Metriken
               │
               NEIN (<70% Modellkonsensus):
-                 ├── Manueller Pilot (5 Seiten, pilot-design.md)
+                 ├── Manueller Pilot (→ Adaptive Sampling-Anpassung §1.9)
                  ├── Manuelles GT-Sample (30 Objekte)
                  └── Klassischer CER-Workflow (Abschnitt 1)
 

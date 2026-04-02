@@ -7,7 +7,6 @@ type: analysis
 status: stable
 related:
   - "[[verification-concept]]"
-  - "[[pilot-design]]"
   - "[[journal]]"
 ---
 

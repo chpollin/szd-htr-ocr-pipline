@@ -7,7 +7,6 @@ type: protocol
 status: stable
 related:
   - "[[verification-concept]]"
-  - "[[pilot-design]]"
 ---
 
 # Annotationsprotokoll: Referenztranskription fuer das SZD-HTR Ground-Truth-Sample

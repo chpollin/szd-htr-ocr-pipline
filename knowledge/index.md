@@ -14,8 +14,8 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 1. [[data-overview]] — Datengrundlage: 4 Sammlungen, 9 Gruppen, ~2107 Objekte
 2. [[annotation-protocol]] — Transkriptionskonventionen fuer das Referenz-Sample
-3. [[verification-concept]] — Qualitaetsmessung: GT, quality_signals, Cross-Model, VbV, GT-Pipeline (§7)
-4. [[pilot-design]] — 5-Seiten-Pilot (historisch, nicht ausgefuehrt — ersetzt durch Modellkonsensus-Validierung + GT-Pipeline)
+3. [[verification-concept]] — Qualitaetsmessung: GT, quality_signals, Cross-Model, VbV, GT-Pipeline (§7), Agent-Verifikation (§8)
+4. [[evaluation-results]] — CER-Baseline: 26 Objekte, 9 Gruppen, Agent-Verified vs. Human-Approved
 
 ## Spezifikationen
 
@@ -31,7 +31,7 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 
 ## Projektlog
 
-- [[journal]] — Chronologisches Log aller Sessions (1–15)
+- [[journal]] — Chronologisches Log aller Sessions (1–18)
 
 ## Verwandte Dokumente (ausserhalb des Vaults)
 

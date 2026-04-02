@@ -9,7 +9,7 @@ related:
   - "[[data-overview]]"
   - "[[verification-concept]]"
   - "[[annotation-protocol]]"
-  - "[[pilot-design]]"
+  - "[[evaluation-results]]"
 ---
 
 # SZD-HTR — Research Journal
@@ -234,7 +234,7 @@ Drei parallele Claude-Code-Agents: L1 (Frontend), L2 (Methodik), L3 (Backend). K
 
 - [[verification-concept]] v2 (5 Abschnitte, Literatur-Review mit 6 Papers)
 - [[annotation-protocol]] (8 Abschnitte, Normalisierung, Beispiele)
-- [[pilot-design]] (5 Seiten, Pruefprotokoll, Eskalationsschwellen)
+- [[verification-concept]] (5 Seiten, Pruefprotokoll, Eskalationsschwellen)
 
 ### L1: quality_signals-UI vorbereitet
 
@@ -254,7 +254,7 @@ Review-Spalte, Qualitaets-Panel, Seiten-Anomalie-Marker im Code, wartet auf L3-D
 ### L2: Deliverables abgeschlossen
 
 - **htr-interchange-format.md** geschrieben — JSON Schema v0.1, teiCrafter-Mapping, SZD-HTR-Mapping, Abgrenzung ALTO/PAGE/hOCR, Beispiel basierend auf o_szd.100.
-- **pilot-design.md** geprueft und bestaetigt — keine Aenderungen noetig.
+- **verification-concept.md §1.9** geprueft und bestaetigt — keine Aenderungen noetig.
 - Schritt 1 + 2 der L2-Auftraege erledigt. Schritt 3+4 blockiert (warten auf Pilot-Durchfuehrung durch Operator).
 
 ### Selbstkritische Review aller knowledge-Dokumente
@@ -289,7 +289,7 @@ Alle 6 knowledge-Dateien + Lane.md auf Konsistenz, empirische Fundierung und Red
 ### Korrekturen
 
 - **verification-concept.md**: Objektzahlen 12→16, Konfidenz 15h+1m, Gruppe G ins Sample (31 statt 30), Anachronismus in Fehlertaxonomie-Tabelle §1.5, empirische Einordnung der quality_signals in §2.3
-- **pilot-design.md**: Prompt-Wirksamkeit als neue Frage in §3.1
+- **verification-concept.md §1.9**: Prompt-Wirksamkeit als neue Frage in §3.1
 
 ### Empirische Befunde (aus 16 Ergebnis-JSONs)
 
@@ -555,6 +555,20 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ---
 
+## 2026-04-02 — Session 16: Expert-Review Write-Back, 3-Tier Review, Katalog-Bereinigung
+
+**Schwerpunkt:** Bidirektionaler Expert-Review-Workflow, 3-stufiger Review-Status, Katalog-Bereinigung, Knowledge Vault Konsolidierung.
+
+### Ergebnisse
+
+- **`import_reviews.py`**: Importiert Frontend-Exporte (GT-Reviews + regulaere Edits) zurueck in Pipeline-JSONs. Schreibt `review`-Objekt mit `status`, `reviewed_by`, `reviewed_at`.
+- **3-stufiger Review-Status**: `needs_review: true` (rot), kein Review (LLM OK, orange), `review.status: "approved"` (gruen). `gtVerified` fuer GT-Objekte.
+- **Katalog-Bereinigung**: Test-Daten, Layout-JSONs, GT-Drafts, Pro-Zwischenergebnisse aus Viewer-Daten gefiltert (627 → 601). Color-Chart-Seiten (158) aus Viewer entfernt.
+- **Knowledge Vault Konsolidierung**: 13 → 11 Docs, Frontmatter vereinheitlicht, Claude Code Banner im Frontend.
+- **3 GT-Objekte verifiziert**: o_szd.153, o_szd.137, o_szd.194.
+
+---
+
 ## 2026-04-02 — Session 17: Chunking, Objekt-Prompts, Review-Server
 
 **Schwerpunkt:** Pipeline-Readiness fuer Gesamtdurchlauf. Chunking fuer grosse Objekte, Objekt-Prompt-Overrides, lokaler Dev-Server mit Review-API, erste Expert-Verifikationen.
@@ -625,6 +639,61 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ---
 
+## 2026-04-02 — Session 18: Expert-Review, Agent-Verifikation, CER-Baseline
+
+**Schwerpunkt:** 26 Objekte verifiziert (12 Agent + 14 Mensch), neuer Review-Tier `agent_verified`, CER-Baseline ueber alle 9 Gruppen, Knowledge Vault Refactoring.
+
+### Expert-Review (Human)
+
+- 7 kurze Objekte (Siegelstempel, Ex Libris, Briefumschlaege) approved
+- o_szd.1888 (Korrekturfahne, Hans Carossa): 2 Fehler gefunden und korrigiert — fehlendes "nicht", Wortgrenze "erhobene Hand"
+- Weitere 4 Objekte ueber serve.py approved (Frontend → API jetzt korrekt verdrahtet)
+- **Insgesamt 14 human-approved Objekte**
+
+### Agent-Verifikation (NEU)
+
+Neuer Review-Tier zwischen Human Approved und LLM OK: Claude Code Sub-Agents (Opus 4.6 mit Vision) vergleichen Faksimile-Bilder gegen VLM-Transkription.
+
+- **Batch 1 (4 Objekte):** Typoskript, Zeitungsausschnitt, Konvolut, Formular. Schwere Fraktur-Fehler gefunden: "selbstfeligen" → "selbstseligen", "gereiste" → "gereifte" (f/s-Verwechslung).
+- **Batch 2 (8 Objekte):** Korrespondenz, Handschrift, Korrekturfahne, Zeitungsausschnitt. Strukturfehler bei tabellarischen Daten (o_szd.1475: Betraege falscher Zeile zugeordnet).
+- **Insgesamt 12 agent-verified Objekte**, Fehler direkt korrigiert.
+
+Implementierung: `serve.py` akzeptiert `status: "agent_verified"` mit Metadaten (`agent_model`, `errors_found`, `estimated_accuracy`). Frontend: blauer Badge "Agent ✓".
+
+### CER-Baseline (→ [[evaluation-results]])
+
+| Dokumenttyp | Genauigkeit |
+|---|---|
+| Gedruckter Text (Antiqua) | 99.6–99.9% |
+| Fraktur | 99.7–99.8% (aber systematische f/s-Fehler) |
+| Handschrift (sauber) | 99.1–99.4% |
+| Tabellarisch/Struktur | ~90% |
+
+### Bugfixes
+
+- **Farbkarten-Klassifikation:** `_classify_page()` pruefte Keywords nur bei <10 Zeichen. Fix: Keywords vor Laengencheck, +5 neue Keywords (kodak, farbkontroll, etc.). 10 Seiten korrigiert.
+- **Frontend API:** Approve- und Edit-Buttons schrieben nur in localStorage, nicht an `/api/approve`/`/api/edit`. Fix: `fetch()` in `toggleObjectApproval()` und `saveCurrentEdit()`.
+- **Test-Daten entfernt:** `results/test/` (7 Dateien) + `pipeline/test_single.py` geloescht.
+
+### Knowledge Vault Refactoring
+
+- **NEU: `evaluation-results.md`** — CER-Baseline, Fehlertypen, Methodik
+- **MERGE: `pilot-design.md`** → `verification-concept.md` §1.9 (Adaptive Sampling-Anpassung)
+- **NEU: `verification-concept.md` §8** — Agent-Verifikation (4-Tier-Modell, technische Umsetzung)
+- Journal: Session 16 nachgetragen, Session 18 dokumentiert.
+
+### Statistiken
+
+| Metrik | Wert |
+|---|---|
+| Reviewed Objekte (gesamt) | 26 (14 human + 12 agent) |
+| Gruppen-Abdeckung | 9/9 |
+| Korrekturen (Agent) | 15 Fehler in 12 Objekten |
+| Korrekturen (Human) | 2 Fehler in 1 Objekt |
+| Commits | 6 |
+
+---
+
 ## Offene Fragen (Stand 2026-04-02)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
@@ -643,5 +712,7 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 - [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Modellkonsensus-Validierung)
 - [x] Modellkonsensus: 27 Objekte validiert, 18 Objekte GT-Pipeline mit 3 Modellen (Session 14)
 - [x] Statistik-Dashboard im Frontend — Enhanced Stats + Diff mit echten Daten (Session 14)
-- [ ] Expert-Review: 18 GT-Objekte im Frontend pruefen und approven
+- [~] Expert-Review: 26/2107 Objekte verifiziert (14 human + 12 agent), CER-Baseline steht (Session 18)
 - [ ] Prompt-Ablation: V1/V2/V3 gegen GT messen (18 Objekte × 3 Varianten)
+- [ ] Agent-Verifikation auf weitere Objekte ausweiten (v.a. Korrespondenzen)
+- [ ] Fraktur-Post-Processing evaluieren (f/s-Verwechslungen automatisch korrigieren)
