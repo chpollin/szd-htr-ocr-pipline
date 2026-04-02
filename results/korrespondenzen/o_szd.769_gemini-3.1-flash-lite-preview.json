@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.769",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 12. Januar 1938, SZ-AAP/B1.173",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.769/IMG.1",
+      "https://gams.uni-graz.at/o:szd.769/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. Januar 1938, SZ-AAP/B1.173\n- Signatur: SZ-AAP/B1.173\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr. ALFRED KAUFFMANN,                                TELEPHONE: METROPOLITAN 5772.\nRECHTSANWALT.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR                                    16, COLEMAN STREET,\n\nCORRESPONDENTS:                                       LONDON, E.C.2.\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\n                                                      12th January, 1938\n\nDear Mr. Zweig,\n\n          I confirm receipt of your letter of the 11th\ninstant, including a sealed envelope containing a photostatic\ncopy of your Will and some other documents. This I will\nretain for you according to your instructions.\n\n          Further, I thank you for your cheque for\n£38. 6. 0 and beg to return the two accounts receipted.\n\n          I hope you will have a pleasant trip and will\nenjoy a restful time on the sunny southern shores.\n\n          With kind regards also from Miss Melchior who\nis unfortunately at the moment at home suffering from a bad\ncold,\n\n                                        Yours sincerely,\n                                        A. K\n\n\n\n49 Hallam Street,\nW. 1.\n\nP.S.                    May I apologise for writing in English, but my\nGerman secretary happens not to be available.",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Unterschrift ist handschriftlich (A. K). Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist kurz, aber eindeutig als 'A. K' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1216,
+    "total_words": 152,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1216,
+      0
+    ],
+    "chars_per_page_median": 1216,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4345,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

@@ -50,16 +50,18 @@
     "agent_model": "claude-opus-4-6",
     "errors_found": 1,
     "estimated_accuracy": 0.98,
-    "edited_pages": [1],
+    "edited_pages": [
+      1
+    ],
     "notes": "Typewritten letter with handwritten annotations. Page 1: corrected 'geschenmdass' → 'geschehn,dass' (misread 'h' as 'm', missing comma). Handwritten marginal note '{Menschen von res}' is difficult but left as-is (not confident enough to correct). Top archival annotations (undatiert, Brasilien, (Rio?) 1941) correctly captured. Page 2 blank (reverse shows bleed-through). Page 3 confirmed color chart.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T20:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 1542,
+    "total_chars": 1543,
     "total_words": 224,
-    "total_pages": 2,
+    "total_pages": 1,
     "empty_pages": 1,
     "blank_pages": 1,
     "color_chart_pages": 1,
@@ -71,28 +73,21 @@
       "color_chart"
     ],
     "chars_per_page": [
-      771,
+      772,
       0,
       771
     ],
-    "chars_per_page_median": 771.0,
+    "chars_per_page_median": 772,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4587,
-    "duplicate_page_pairs": [
-      [
-        0,
-        2
-      ]
-    ],
+    "dwr_score": 0.4636,
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "duplicate_pages"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

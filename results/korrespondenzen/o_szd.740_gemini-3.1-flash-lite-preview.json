@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.740",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 6. Dezember 1937, SZ-AAP/B1.147",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.740/IMG.1",
+      "https://gams.uni-graz.at/o:szd.740/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 6. Dezember 1937, SZ-AAP/B1.147\n- Signatur: SZ-AAP/B1.147\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "6.Dezember 1937.\n\nGeehrter Herr Reichner!\n\nDie Sache mit Kalkutta habe ich natürlich\nsofort berichtigt. Solche kleinen Irrtümer können im-\nmer geschehen.\nZum Fall Tal schreiben Sie mir in einem Ton\nund einer Art, als ob Sie das Ganze nichts anginge. Dies\nist nicht meine Auffassung. Nachdem Sie wissen, dass\nhier offenbares Unrecht mir geschieht und es sich um\neinen puren Racheakt oder den Versuch einer Gelderpres-\nsung handelt, wäre es Ihre menschliche Pflicht, {gewesen} solida-\nrisch zu empfinden. Wenn man ein Verleger ist und un-\nter zehn Büchern eines Autors sich einmal eine kleine\nUnannehmlichkeit ergibt, so geht es nicht an, einfach\ndie Schulter wegzudrehen und zu sagen: es kümmert mich\nnicht. Sondern im Gegenteil, es wäre Ihre Pflicht ge-\nwesen, wie es der Inselverlag immer getan hat, absolut\ndie Partei des Autors zu nehmen. Ich will nicht davon\nsprechen, wie viele Unannehmlichkeiten ich durch Sie\nauszutragen habe von Seiten der Autoren, die sich durch",
+        "notes": "Typoskript mit handschriftlicher Ergänzung 'gewesen' über der Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Ihre grobe oder verächtliche Haltung beleidigt fühlen,\ndurch Buchhändler, die sich bei mir beschweren. Aber\nich nehme es immerhin zur Kenntnis, dass Sie jede So-\nlidarität über das rein Geschäftliche hinaus ablehnen und\nwerde mich auch meinerseits weiter nicht mehr zum Vorteil\nIhres Verlags bekümmern, ausser wenn es mir einen reinen\nund klaren materiellen Vorteil bringt. Ich bin allerdings\nnoch nie zu einem Verlag, weder zu meinem deutschen noch\nzu einem ausländischen in dieser Art gestanden, aber Sie\nnötigen mich dazu, indem Sie in jedem einzelnen Falle auch\nnur das geringste Risiko oder die kleinste Unbehaglichkeit\nsofort auf mich abzuschieben suchen.\nMozart-Werkverzeichnis habe ich mit der Oxford\nPress keinerlei Vereinbarung getroffen in der Annahme,\ndass Sie den Vertrag mit ihr abschliessen und rechne da-\nmit, entsprechend meinemfrüheren Briefe, dass Sie mit ihr\nvereinbart haben zehn Prozent zu meinen Händen für die\nUeberlassung der Handschrift für mich und den Mitbesitzer.\nOlten habe ich die Ueberweisung noch nicht be-\nkommen und nehme an, dass sie unterwegs ist.\nAmerika ist Magellan von der Literary Guild\nfür den Monat Februar genommen und wir hoffen auch hier\netwas Aehnliches zu erzielen.\n\nMit den besten Empfehlungen",
+        "notes": "Typoskript.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Ergänzung auf Seite 1 ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2214,
+    "total_words": 345,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      971,
+      1243
+    ],
+    "chars_per_page_median": 1107.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.513,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

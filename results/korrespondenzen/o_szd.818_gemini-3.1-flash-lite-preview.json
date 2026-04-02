@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.818",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.37",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.818/IMG.1",
+      "https://gams.uni-graz.at/o:szd.818/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.37\n- Signatur: SZ-AAP/B1.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                          Briefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\n                          ENGLAND\n\nRef.  Magellan                                     May 19th,1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nDa Sie uns Schuld gegeben hatten,dass das Bildmaterial für das\nMagellan-Buch noch nicht vorbereitet sei,lassen wir Ihnen das hier\nbeiliegende Originalschreiben des Herrn Leo Bagrow zugehen,das wir\nheute bekommen haben.Es klärt sich nun auf,weshalb Herr Bagrow unser\nausführliches Exposé vom 27.Januar nicht beantworten konnte,weil er\neben einige Monate verreist war.\nAus dem heutigen Briefe des Herrn Bagrow ersehen Sie,dass er unverän-\ndert gern bereit ist,das Material im British Museum in London zusam-\nmenzustellen,was insofern ein grosser Vorteil für Sie ist,weil Sie dann\nmit ihm an Ort und Stelle zusammenarbeiten und Ihre Wünsche direkt bei\nihm geltend machen können.\nHerr Bagrow ist in der Literatur der frühen Geographie und der Ent-\ndeckungsreisen mehr zuhause als irgendein anderer Fachmann und verbindet\nmit dem wissenschaftlichen auch das künstlerische Moment.\n\nWir bitten gleichzeitig Herrn Bagrow,sich eiligst mit Ihnen ins Einver-\nnehmen zu setzen.Da er in der nächsten Woche nach London reist,werden\nSie ihn jedenfalls in ein paar Tagen erreichen können.Bitte warten\nSie also seinen Brief ab und geben Sie uns dann bitte irgendeinen Be-\nscheid.\n\nWir danken Ihnen im voraus bestens und begrüssen Sie als\n                                     Ihre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/schwarz), jedoch nicht lesbar (Namenskürzel). Unterstreichungen im Text sind mit rotem Stift ausgeführt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist zwar nicht entzifferbar, aber als solche erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1577,
+    "total_words": 210,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1577,
+      0
+    ],
+    "chars_per_page_median": 1577,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4561,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

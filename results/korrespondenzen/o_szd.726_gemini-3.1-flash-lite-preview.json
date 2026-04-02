@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.726",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 17. November 1937, SZ-AAP/B1.134",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.726/IMG.1",
+      "https://gams.uni-graz.at/o:szd.726/IMG.2",
+      "https://gams.uni-graz.at/o:szd.726/IMG.3",
+      "https://gams.uni-graz.at/o:szd.726/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 17. November 1937, SZ-AAP/B1.134\n- Signatur: SZ-AAP/B1.134\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49, Hallam Street\nLondon, W.1\n\nENGLAND\n\nRef. Tal gegen Dr.Zweig\n17.November 1937 /F\n\nIhr Schreiben vom 15.November 1937\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr obiges Schreiben und übermitteln Ihnen den\nhier beiliegenden Durchschlag unseres heute an Herrn Dr.Hermann Löw\ngerichteten Schreibens.\n\nWir haben Ihrem Wunsche entsprechend ihm Ihren Verzicht auf die\nHonorare der \"Fahrten\" mitgeteilt.\n\nFür heute begrüssen wir Sie als\n\nIhre sehr ergebenen,",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich, aber im Scan nur als schwacher Abdruck/Signatur-Stempel oder durchscheinend erkennbar. Das Dokument ist in sehr gutem Zustand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer. Man sieht den durchscheinenden Text der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herrn Dr.Hermann Löw\nHerrengasse 21\nWien, I.\n\nTal & Co. gegen Stefan Zweig\n---------------------------\nIhr Schreiben vom 12.November 1937\n\n17.November 1937 /F\n\nSehr verehrter Herr Doktor:\n\nWir bestätigen dankend Ihr Schreiben an uns und gleichzeitig infor-\nmiert uns auch Herr Dr.Zweig über Ihr an ihn gerichtetes Schreiben\nund seine an Sie gerichtete Antwort.\n\nHerr Dr.Zweig beauftragt uns, als Aeusserstes den Verzicht auf sämtliche\nHonorare der \"Fahrten\" zuzugestehen. Er wünscht, dass in keinem weiteren\nPunkte nachgegeben wird, da er selbst beeiden kann, dass er dem Verlag\nTal & Co. nicht das alleinige Recht an den \"Fahrten\" übertragen hat.\nHerr Dr.Zweig besitzt alle nötigen Dokumente und ausserdem die Zeugen-\nschaft des Herrn Carl Seelig.\n\nWir würden es sehr begrüssen, wenn Frau Tal schon in ihrem eigenen\nInteresse, keinen unnötigen Prozess heraufbeschwören würde, der dann\neine immerwährende Verstimmung bewirken würde.\n\nDeshalb bitten wir Sie, Herrn Dr.Zweigs Angebot an Frau Tal weiterzu-\nleiten und dem Verfasser und Verlag baldigst Bescheid zu geben.\n\nWir danken Ihnen im voraus bestens und sind\n\nmit verbindlicher Begrüssung",
+        "notes": "Typoskript, Durchschlag des im ersten Brief erwähnten Schreibens an Dr. Hermann Löw.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, leer. Man sieht den durchscheinenden Text der Vorderseite.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten bei der Transkription."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2012,
+    "total_words": 289,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      870,
+      0,
+      1142,
+      0
+    ],
+    "chars_per_page_median": 1006.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.362,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

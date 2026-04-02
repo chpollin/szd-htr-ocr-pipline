@@ -98,7 +98,12 @@
     "marker_illegible_count": 0,
     "marker_density": 0.0,
     "dwr_score": 0.5494,
-    "duplicate_page_pairs": [],
+    "duplicate_page_pairs": [
+      [
+        5,
+        6
+      ]
+    ],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
@@ -108,7 +113,8 @@
     ],
     "needs_review": true,
     "needs_review_reasons": [
-      "page_length_anomaly"
+      "page_length_anomaly",
+      "duplicate_pages"
     ]
   }
 }

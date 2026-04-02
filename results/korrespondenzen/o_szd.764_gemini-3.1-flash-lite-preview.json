@@ -1,0 +1,84 @@
+{
+  "object_id": "o_szd.764",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 8. Januar 1938, SZ-AAP/B1.169",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.764/IMG.1",
+      "https://gams.uni-graz.at/o:szd.764/IMG.2",
+      "https://gams.uni-graz.at/o:szd.764/IMG.3",
+      "https://gams.uni-graz.at/o:szd.764/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 8. Januar 1938, SZ-AAP/B1.169\n- Signatur: SZ-AAP/B1.169\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\n\nLONDON, E.C.2.\n\n8. Januar 1938.\n\nK o s t e n r e c h n u n g :\n===========================\n\nHerrn Stefan Zweig,\n\nLondon W 1.\n\nNov.1937/   Bemühungen in\nJan.1938.   Testamentsangelegenheit\n            einschl. kleine Auslagen . . . . . . . . . . . . 25 Gues.\n\n            Auslagen für die englischen Anwälte\n            Lawrance, Messer & Co. . . . . . . . . . . . . 10  \"\n\n                                                         ----------\n                                                         35 Gues.\n                                                         ==========",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Die handschriftlichen Ergänzungen sind hier nicht vorhanden, es handelt sich um die erste Seite des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\n\nLONDON, E.C.2.\n\n8. Januar 1938.\n\nK o s t e n r e c h n u n g :\n===========================\n\nHerrn Stefan Zweig,\n\nLondon W 1.\n\nJan.1938    Ausfertigung einer\n            Generalvollmacht . . . . . . . . . . . . . . . £ 1. 1. 0\n\n            Auslagen für Stempel . . . . . . . . . . . . . \" -.10. 0\n\n                                                         ----------\n                                                         £ 1.11. 0\n                                                         ==========\n                                                         36 15 -\n                                                         38. 6 0\n\nReceived with thanks\n[Unterschrift/Paraphe]\n12.1.38",
+        "notes": "Typoskript auf Briefpapier. Enthält eine Briefmarke (britisch, 2 Pence) mit handschriftlicher Quittung 'Received with thanks' und Datum '12.1.38'. Die Zahlen '36 15 -' und '38. 6 0' sind handschriftlich in blauer Tinte hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftlichen Ergänzungen auf Seite 3 sind gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1660,
+    "total_words": 211,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      776,
+      0,
+      884,
+      0
+    ],
+    "chars_per_page_median": 830.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0667,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

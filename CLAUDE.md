@@ -146,11 +146,15 @@ szd-htr/
 ├── pipeline/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
-│   ├── quality_signals.py           ← 8 Signale + page.type + DWR (v1.4)
+│   ├── quality_signals.py           ← 7 Signale + page.type (v1.5, low_dwr entfernt)
 │   ├── verify.py                    ← Modellkonsensus (Flash Lite + Flash + Claude Judge)
 │   ├── evaluate.py                  ← CER/WER-Berechnung + normalize_for_consensus
 │   ├── quality_report.py            ← Aggregierte Qualitaetsstatistiken ueber alle Ergebnisse
 │   ├── backfill_page_types.py       ← Backfill: page.type auf bestehende JSONs stempeln
+│   ├── backfill_quality_signals.py  ← Recompute quality_signals nach Schwellenwert-Aenderungen
+│   ├── backfill_edit_history.py     ← Retroaktives edit_history-Patching aus Git-History
+│   ├── diagnose_truncation.py       ← Findet truncated/broken Ergebnis-JSONs
+│   ├── fraktur_postprocess.py       ← Prototyp: Woerterbuch-basierte Fraktur-Korrektur
 │   ├── run_sample_batch.py          ← Gezielter Batch: fuellt jede Gruppe auf 10 auf
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
 │   ├── layout_analysis.py            ← VLM-basierte Layout-Analyse (Regionen + Bounding Boxes)

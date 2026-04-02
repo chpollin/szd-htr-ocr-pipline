@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.808",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 27. April 1937, SZ-AAP/B1.28",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.808/IMG.1",
+      "https://gams.uni-graz.at/o:szd.808/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 27. April 1937, SZ-AAP/B1.28\n- Signatur: SZ-AAP/B1.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "27.April 1937.\n\nGeehrter Herr Reichner!\n\nAm 3. April teilten Sie mir mit, dass Sie\nmir präzise Vorschläge wegen der drei Bände machen\nwollten sowie wegen der Erscheinungsform des \"Magel-\nlan\" (der inzwischen so ziemlich fertig geworden ist).\nSeit jenem Tage, also seit mehr als drei Wochen, ha-\nben Sie keine weitere Zeile darüber verlauten lassen,\nwas ich nicht umhin kann, sonderbar zu finden. Ich\nwerde nun in der zweiten Hälte Mai für einige Tage\nnach Oesterreich müssen, wo ich allerhand Besorgungen\ndurch den Verkauf meiner Villa, Verkauf der Reste mei-\nner Bibliothek und Sammlung haben werde und dazu sehr\nwenig Zeit. Ich kann also höchstens einmal zu Ihnen\nkommen und möchte die Methode vom letzten Mal nicht\nwiederholt wissen, dass wir mündliche Vereinbarungen\ntreffen, die dann nach meiner Abfahrt einfach ad acta\ngelegt werden. Es tut zuvor not, alles präzise zu wis-\nsen, die Verträge etc. müssen genauestens ausgeschrie-\nben sein und mir vorher zur Ueberlegung in die Hand\ngegeben worden sein, sodass am Ort und Stelle allfällige",
+        "notes": "Typoskript. Der Text bricht am Ende der Seite mitten im Satz ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Aenderungen gemacht werden und der Punkt auf das I ge-\nsetzt werden kann. Der Essai-Band ist so viel wie\ndruckfertig, ebenso der \"Magellan\", den ich nur zu-\nrückhalte, bis das wichtige portugiesische Buch wei-\nter erscheint. Da ich noch unterwegs zu tun habe,\nwerde ich wahrscheinlich schon am 4. hier abreisen\nund möchte aus aus einem andern Grunde noch vorher\nIhre präzisen Vorschläge und die eventuellen Verträge\nzur Prüfung spätestens am 2. in der Hand haben, damit\nich weiss, ob ich mich an Sie zu halten habe oder an\neine andere Stelle. Im wesentlichen müssen alle\nPunkte schon vorher geklärt sein, denn ich bleibe nur\nganz wenige Tage in Wien und habe da unermesslich viel\nzu tun.\n\nMit den besten Empfehlungen",
+        "notes": "Typoskript. Fortsetzung des Textes von Seite 1. Am Ende der Seite ist kein Name oder Unterschrift vorhanden, der Text endet mit der Grußformel.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Es gibt keine nennenswerten Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1759,
+    "total_words": 289,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1043,
+      716
+    ],
+    "chars_per_page_median": 879.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

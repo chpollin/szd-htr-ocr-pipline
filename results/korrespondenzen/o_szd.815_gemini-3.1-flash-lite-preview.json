@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.815",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 18. Mai 1937, SZ-AAP/B1.34",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.815/IMG.1",
+      "https://gams.uni-graz.at/o:szd.815/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 18. Mai 1937, SZ-AAP/B1.34\n- Signatur: SZ-AAP/B1.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\n● Wunderlich 18.Mai 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir erhielten den hier beiliegenden Brief von Frau Dr.Eva C.Wunderlich,\nBennington College,Bennington,Vermont,U.S.A.\nWir bitten Sie,Frau Dr.Wunderlich direkt zu antworten oder aber uns\nmit der Antwort zu beauftragen,in welchem Falle wir Sie um Ihre freund-\nliche Entscheidung bitten.\nWir danken Ihnen im voraus bestens und sind Sie begrüssend\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/schwarz), jedoch nicht vollständig lesbar (evtl. ein Kürzel). Die roten Unterstreichungen im Original wurden als Text transkribiert, da sie keine inhaltliche Änderung darstellen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Es ist ein Durchscheinen des Textes der Vorderseite erkennbar, jedoch kein eigenständiger Text. Unten links befindet sich ein schwacher, unleserlicher handschriftlicher Vermerk (evtl. ein Archivvermerk oder eine Notiz).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift auf Seite 1 ist ein unleserliches Kürzel, was jedoch für Geschäftskorrespondenz dieser Art typisch ist."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 575,
+    "total_words": 77,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      575,
+      0
+    ],
+    "chars_per_page_median": 575,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3523,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

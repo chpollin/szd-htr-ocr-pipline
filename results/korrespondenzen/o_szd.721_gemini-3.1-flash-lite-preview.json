@@ -1,0 +1,65 @@
+{
+  "object_id": "o_szd.721",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 2. März 1937, SZ-AAP/B1.13",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.721/IMG.1",
+      "https://gams.uni-graz.at/o:szd.721/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. März 1937, SZ-AAP/B1.13\n- Signatur: SZ-AAP/B1.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                         Briefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon W.1\n\n          ENGLAND\n\nRef.\n•  Sehr verehrter Herr Dr.Zweig:                     2.März 1937/H\n\n   Anbei übersenden wir Ihnen die Abrechnungen pro Februar 1937 und kön-\n   nen unserer Freude Ausdruck geben,dass wir auch in diesem Monat,trotz\n   der toten Jahreszeit,fast 700 Bücher von Ihrem Werken insgesamt abge-\n   setzt haben.Wir bitten Sie um Kenntnisnahme und Bestätigungen der Ab-\n   rechnungen und zeichnen mit besten Grüssen\n\n                                  Ihre sehr ergebenen\n                                  [Unterschrift]",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich, aber nicht eindeutig lesbar (vermutlich ein Mitarbeiter des Verlags).",
+        "confidence": "high",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite ist sichtbar, wird gemäß Anweisung nicht transkribiert.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist zwar nicht entzifferbar, aber als solche erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 697,
+    "total_words": 77,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      697,
+      0
+    ],
+    "chars_per_page_median": 697,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

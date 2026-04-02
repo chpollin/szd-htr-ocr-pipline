@@ -20,24 +20,28 @@
         "transcription": "28. Mai 36\n\nSehr verehrte Frau –\n{mit der gleichen Post}\nschicke ich einen Brief und eine Druck-\nsache für Herrn Stefan Zweig, die ich weiter-\nzuleiten bitte, falls Herr Zweig noch in\nLondon ist. – Erlauben Sie mir, bei dieser\nGelegenheit zu sagen, wie rührend es im\nNovember gewesen ist, dass Sie die drei Seiten\ndes Manuskripts, die ich Ihnen schickte, \"sehr\nschön\" fanden. Ich war damals so sehr auf\nErmutigung angewiesen.. Darf ich Ihnen\nzum Dank das indessen bei Danker in",
         "notes": "Die letzte Zeile bricht mitten im Satz ab, der auf der Rückseite der Postkarte fortgesetzt wird. 'mit der gleichen Post' ist als Einfügung über der Zeile geschrieben.",
         "type": "content",
-        "edit_history": [{
-          "original_transcription": "28. Mai 36\n\nSehr verehrte Frau -\nmit der gleichen Post\nschicke ich einen Brief und eine Druck-\nsache für Herrn Stefan Zweig, die ich weiter-\nzuleiten bitte, falls Herr Zweig noch in\nLondon ist. - Erlauben Sie mir, bei dieser\nGelegenheit zu sagen, wie rührend im\nNovember gewesen ist, dass Sie die drei Seiten\ndes Manuskripts, die ich Ihnen schickte, \"sehr\nschön\" fanden. Ich war damals so sehr auf\nErmutigung angewiesen.. Darf ich Ihnen\nzum Dank das indessen bei Danker in",
-          "edited_by": "Claude Code Agent",
-          "edited_at": "2026-04-02T21:30:00Z",
-          "source": "agent"
-        }]
+        "edit_history": [
+          {
+            "original_transcription": "28. Mai 36\n\nSehr verehrte Frau -\nmit der gleichen Post\nschicke ich einen Brief und eine Druck-\nsache für Herrn Stefan Zweig, die ich weiter-\nzuleiten bitte, falls Herr Zweig noch in\nLondon ist. - Erlauben Sie mir, bei dieser\nGelegenheit zu sagen, wie rührend im\nNovember gewesen ist, dass Sie die drei Seiten\ndes Manuskripts, die ich Ihnen schickte, \"sehr\nschön\" fanden. Ich war damals so sehr auf\nErmutigung angewiesen.. Darf ich Ihnen\nzum Dank das indessen bei Danker in",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T21:30:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
         "transcription": "Absender: Gert René Podbieliki\nz.Zt. Hindenburg O/Schl\nKronprinzenstrasse 29\n\n[Text auf der linken Seite:]\nfürd erschienene Buch –\n(freilich leider nur kartoniert) –\nzum Geschenke machen?\nBitte, nehmen Sie es an!\nmit herzlichen Wünschen\ngrüsst Sie\nIhr Ihnen unbekannt\nergebener Gert R. Podbieliki\n\n[Text auf der rechten Seite:]\nPostkarte\nÖsterreich!\nAn die Sekretärin\ndes Herrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
         "notes": "Die Postkarte enthält eine Briefmarke (Hindenburg, 6 Pfennig) und einen Poststempel. Der Text auf der linken Seite setzt den Satz von Seite 1 fort: '...bei Danker in fürd erschienene Buch...' (hier wohl 'für das erschienene Buch').",
         "type": "content",
-        "edit_history": [{
-          "original_transcription": "Absender: Gert René Podbieliki\nz.Zt. Hindenburg O/Schl\nKronprinzenstrasse 219\n\n[Text auf der linken Seite:]\nfürd erschienene Buch -\n(freilich leider nur kartoniert) -\nzum Geschenke machen?\nBitte, nehmen Sie es an!\nmit herzlichen Wünschen\ngrüsst Sie\nIhr Ihnen unbekannt\nergebener Gert R. Podbieliki\n\n[Text auf der rechten Seite:]\nPostkarte\nÖsterreich!\nAn die Sekretärin\ndes Herrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
-          "edited_by": "Claude Code Agent",
-          "edited_at": "2026-04-02T21:30:00Z",
-          "source": "agent"
-        }]
+        "edit_history": [
+          {
+            "original_transcription": "Absender: Gert René Podbieliki\nz.Zt. Hindenburg O/Schl\nKronprinzenstrasse 219\n\n[Text auf der linken Seite:]\nfürd erschienene Buch -\n(freilich leider nur kartoniert) -\nzum Geschenke machen?\nBitte, nehmen Sie es an!\nmit herzlichen Wünschen\ngrüsst Sie\nIhr Ihnen unbekannt\nergebener Gert R. Podbieliki\n\n[Text auf der rechten Seite:]\nPostkarte\nÖsterreich!\nAn die Sekretärin\ndes Herrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T21:30:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 3,
@@ -51,9 +55,9 @@
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 1312,
-    "total_words": 204,
-    "total_pages": 3,
+    "total_chars": 1316,
+    "total_words": 205,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -65,36 +69,32 @@
       "color_chart"
     ],
     "chars_per_page": [
-      472,
-      420,
+      477,
+      419,
       420
     ],
-    "chars_per_page_median": 420,
+    "chars_per_page_median": 448.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4439,
-    "duplicate_page_pairs": [
-      [
-        1,
-        2
-      ]
-    ],
+    "dwr_score": 0.4783,
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "duplicate_pages"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   },
   "review": {
     "status": "agent_verified",
     "agent_model": "claude-opus-4-6",
     "errors_found": 4,
     "estimated_accuracy": 0.97,
-    "edited_pages": [1, 2],
+    "edited_pages": [
+      1,
+      2
+    ],
     "notes": "Page 1: (1) marked 'mit der gleichen Post' as insertion {..} — written above the line; (2) added missing word 'es' in 'wie rührend es im'; (3) normalized hyphens to en-dashes where appropriate. Page 2: (1) corrected house number '219' to '29'; (2) normalized hyphens to en-dashes. Page 3 skipped (color_chart). duplicate_pages flag is a known false-positive (color chart copy of page 2).",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T21:30:00Z"

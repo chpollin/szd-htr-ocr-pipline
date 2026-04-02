@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.758",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an den Herbert Reichner Verlag vom 30. Dezember 1937, SZ-AAP/B1.163",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.758/IMG.1",
+      "https://gams.uni-graz.at/o:szd.758/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an den Herbert Reichner Verlag vom 30. Dezember 1937, SZ-AAP/B1.163\n- Signatur: SZ-AAP/B1.163\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "30. Dezember 1937.\n\nHerbert Reichner Verlag,\nAegidigasse 6,\nWien VI.\n\nSehr geehrte Herren!\n\nDa ich ungefähr am 10. Januar abzu-\nreisen gedenke, wäre ich Ihnen dankbar, wenn Sie {diesmal} gleich-\nzeitig mit der Absendung der Abrechnung auch die Ueber-\nsendung des Geldes schon {jetzt} veranlassen wollten und zwar\nerstens die österreichischen Schillinge an Herrn Dr. Jo-\nsef Geiringer, Friedrich Schmidtplatz 4, Wien VIII und\nzweitens die schweizer Franken durch Olten an mich direkt.\nEs tut mir leid, dass ich bei der\nVereinbarung über Mozarts Werkverzeichnis mir nicht aus-\ndrücklich mehr Exemplare ausbedungen hatte, da ich doch\neinige zu Geschenkzwecken (Toscanini etc.) verwerten\nmöchte. Falls ich sie zu fünfzig Prozent haben kann,\nso möchte ich noch um zwei Exemplare hierher bitten, ob-\nwohl ich diesmal mit der Reproduktion nicht restlos zu-\nfrieden bin; das Papier des Notenheftes scheint mir zu\nglatt und zu bläulich und dadurch verliert sich das Al-",
+        "notes": "Typoskript mit handschriftlichen Einfügungen in violett/blauer Tinte. Die Einfügungen 'diesmal' und 'jetzt' sind über der Zeile platziert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "tertümliche des Originals mit dem schön gekörnten bräun-\nlichen Papier. Jenen, die das Original aber nicht mit\ndem Faksimile zu vergleichen Gelegenheit haben, wird es\njedoch selbstverständlich sehr gefallen.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+        "notes": "Typoskript. Die Rückseite des ersten Blattes.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Einfügungen auf Seite 1 sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1215,
+    "total_words": 185,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      960,
+      255
+    ],
+    "chars_per_page_median": 607.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4333,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

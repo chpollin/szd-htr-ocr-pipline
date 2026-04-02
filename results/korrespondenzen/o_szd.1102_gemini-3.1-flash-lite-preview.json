@@ -20,12 +20,14 @@
         "transcription": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMeine Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
         "notes": "Die Transkription umfasst den gedruckten Text der Postkarte sowie den handschriftlichen Text auf der Bildseite.",
         "type": "content",
-        "edit_history": [{
-          "original_transcription": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMein Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
-          "edited_by": "Claude Code Agent",
-          "edited_at": "2026-04-02T21:00:00Z",
-          "source": "agent"
-        }]
+        "edit_history": [
+          {
+            "original_transcription": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMein Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T21:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
@@ -48,16 +50,18 @@
     "agent_model": "claude-opus-4-6",
     "errors_found": 1,
     "estimated_accuracy": 0.95,
-    "edited_pages": [1],
+    "edited_pages": [
+      1
+    ],
     "notes": "Page 1 (picture side): Fixed 'Mein Adresse' to 'Meine Adresse'. Printed text and handwritten greeting verified against image. Page 2 (address side): Printed French header, handwritten address to Max Fleischer in Komotau verified. Page 3: Correctly classified as color_chart.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T21:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 435,
+    "total_chars": 436,
     "total_words": 58,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -69,15 +73,15 @@
       "color_chart"
     ],
     "chars_per_page": [
-      155,
+      156,
       140,
       140
     ],
-    "chars_per_page_median": 140,
+    "chars_per_page_median": 148.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.0847,
+    "dwr_score": 0.0769,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",
@@ -85,8 +89,7 @@
     "page_length_anomalies": [],
     "needs_review": true,
     "needs_review_reasons": [
-      "language_mismatch",
-      "low_dwr"
+      "language_mismatch"
     ]
   }
 }

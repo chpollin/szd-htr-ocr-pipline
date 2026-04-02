@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.786",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 10. März 1938, SZ-AAP/B1.189",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.786/IMG.1",
+      "https://gams.uni-graz.at/o:szd.786/IMG.2",
+      "https://gams.uni-graz.at/o:szd.786/IMG.3",
+      "https://gams.uni-graz.at/o:szd.786/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. März 1938, SZ-AAP/B1.189\n- Signatur: SZ-AAP/B1.189\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\nZweig, Magellan 10.März 1938 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir haben uns schon seit langer Zeit bemüht, für die Vorzugsausgabe,\ndie wir so gern herausbringen möchten, ein paar exquisite Extra-\nBeilagen ausfindig zu machen. Nun ist es uns gelungen, den Verlag\nHalton & Co.,Ltd.,57,Haymarket,London,SW.1,ausfindig zu machen, der\nalte Karten in farbigen Reproduktionen herausbrachte, u.zwar gerade\nin jenem Format, das wir so gut für den \"Magellan\" brauchen können.\n\nWir legen hier zwei Probedrucke bei, die wir umgehend zurückerbitten,\nda diese Probedrucke nicht uns gehören. Bitte schicken Sie sie gut\nverpackt zurück.\n\nDiese beiden Karten sind wirklich prächtig. Sie stellen Südamerika mit\nder Magellan-Strasse dar. Eine dritte Karte, deren Korrekturabzug wir\nbereits nach London zurückschicken mussten, ist ebenso schön und stellt\nOstindien mit den Philippinen und Japan bis zur amerikanischen Küste\ndar.\n\nFür die Klischees dieser drei farbigen Karten verlangt Halton & Co.\neine blosse Leihgebühr von £ 13,10,0, was nahezu ö.S. 400.- ausmacht.\nSelbstverständlich müssen wir die Klischees wieder zurückgeben.\n\nDazu kommen die Druckkosten, die für die drei Karten ungefähr S 600.-\nbetragen, da es sich um 5-Farbendruck handelt.",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Lochungen am linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n\nMit anderen Worten: die drei Karten kosten mindestens S 1000.- in\nder Herstellung. Daraus ergibt sich, dass es praktisch unmöglich ist,\nsie für unsere Vorzugsausgabe allein herstellen zu lassen, wenn sie\nnicht gleichzeitig auch für eine englische Vorzugsausgabe gedruckt\nwerden.\n\nDeshalb wenden wir uns an Sie mit der Bitte, einmal festzustellen, ob\nCassell oder der Ihnen befreundete englische Lord[?] sie für seine Privat-\npresse brauchen kann. Wenn es sich erreichen lässt, dass für 100 Exem-\nplare à drei Karten insgesamt S 300.- entfallen, dann ist die Sache\nzu machen. Wenn die Viking Press daran teilnimmt, so würde sich sogar ein\nnoch billigerer Preis für alle Beteiligten ergeben.\n\nWir hoffen, recht bald von Ihnen Günstiges zu hören, und begrüssen Sie\nals\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Handschriftliche Unterschrift (Initialen) am Ende. Lochungen am linken Rand.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Einzig das Wort 'Lord' in der dritten Seite ist handschriftlich ergänzt und mit einem Fragezeichen versehen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2788,
+    "total_words": 403,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1616,
+      0,
+      1172,
+      0
+    ],
+    "chars_per_page_median": 1394.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0025,
+    "dwr_score": 0.3717,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

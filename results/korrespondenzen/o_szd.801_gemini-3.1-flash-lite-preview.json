@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.801",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 1. April 1937, SZ-AAP/B1.21",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.801/IMG.1",
+      "https://gams.uni-graz.at/o:szd.801/IMG.2",
+      "https://gams.uni-graz.at/o:szd.801/IMG.3",
+      "https://gams.uni-graz.at/o:szd.801/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. April 1937, SZ-AAP/B1.21\n- Signatur: SZ-AAP/B1.21\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\nIhr Schreiben vom 30.März 1937 1.April 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr obiges Schreiben und freuen uns sehr,dass\nIhnen die Einbände so sehr gefallen.Die Einbandzeichnung wird sich\nbei grösseren Rückenbreiten verwerten lassen,allerdings mit einer\nkleinen Aenderung in der Stärke der Rückenlinien.Es wird dies aber\nnicht wesentlich auffallen.\nBitte teilen Sie uns mit,ob Sie auch unserer Meinung sind,dass die\nbeiden Bände im Geschenkkarton besser mit Cellophan-Umschlag statt\ndes Papierumschlags verkauft werden.Denn dadurch kommt der wirklich\nsehr schöne Einband voll zur Geltung und das Cellophan hat noch den\nVorteil,dass es den Anschein von Lederbänden gibt.\nFür die einzeln verkäuflichen Bände wollen wir natürlich den Papier-\numschlag beibehalten,bitten Sie aber jedenfalls,uns umgehend Ihre\nMeinung mitzuteilen.\nWir danken Ihnen da ür,dass Sie sich bei der Buchhandlung Preiss nach\ntüchtigen Vertretern erkundigen.Wir möchten Ihnen gern die Arbeit ab-\nnehmen und bitten Sie daher,Herrn Preiss zu veranlassen,dass er uns\ndirekt schreibt.\nDa das Magellan-Buch bereits soweit fortgeschritten ist,so bitten wir\nSie,uns mitzuteilen,ob die Vorzugsausgabe erscheinen soll und wie Sie\nes mit der einfachen Ausgabe halten wollen.Für den Absatz der Vorzugs-",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\nausgabe ist es natürlich nötig,dass ein Zeitabstand von wenigstens\nsechs Monaten zwischen dem Erscheinen der Vorzugs- und der einfachen\nAusgabe eingehalten wird.Sonst würden sich die Käufer der Vorzugsausgabe\ndoch ein wenig benachteiligt sehen.\nTeilen Sie uns auch bitte Ihre Bedingungen für das Magellan-Buch mit,\ndamit wir Ihnen einen Vertragsentwurf schicken können.\n\nHerr Hofrat Gregor hat uns gestern Ihren an ihn gerichteten Brief zur\nEinsichtnahme geschickt.Es ist das Schönste,was über Gregors Buch gesagt\nwerden konnte,und wir haben davon Abschriften hergestellt,die wir an\nMr.Huebsch usw. mit dem Exemplar des Buches sandten.Wir sind überzeugt\ndavon,dass Ihr Urteil auch dasjenige der Verleger beeinflussen wird.\n\nWir hoffen,recht bald von Ihnen zu hören,und sind im voraus bestens\ndankend\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Handschriftliche Unterschrift (Reichner[?]).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2878,
+    "total_words": 396,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1673,
+      0,
+      1205,
+      0
+    ],
+    "chars_per_page_median": 1439.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4152,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

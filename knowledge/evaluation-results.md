@@ -161,18 +161,21 @@ In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressate
 
 ### 4.7 Truncation: Unvollstaendige Transkriptionen (Schweregrad: kritisch)
 
-*Neu in Session 20 — 3 Faelle entdeckt.*
+*Entdeckt in Session 20, Root Cause und Fix in Phase A.*
 
-| Objekt | Bilder gesamt | Seiten transkribiert | Fehlende Seiten |
-|---|---:|---:|---:|
-| o_szd.149 (Bibliographie) | 165 | 5 | ~160 |
-| o_szd.141 (Notizbuch Russlandreise) | 84 | 5 | ~79 |
-| o_szd.175 (Register der Aufsaetze) | 43 | 5 | ~38 |
-| o_szd.174 (Adressbuch) | 122 | 5 | ~117 |
+**Root Cause**: `run_sample_batch.py` hatte `--max-images` mit Default 5. Beim initialen Sample wurden alle Objekte auf 5 Bilder gekappt. Spaeter uebersprang `transcribe.py --all` diese Objekte, weil Ergebnisse bereits existierten (`skip-if-exists`). Das Chunking in `transcribe.py` war **nicht** der Fehler — es funktioniert korrekt.
 
-**Ursache**: Grosse Objekte (>40 Bilder) werden unvollstaendig transkribiert — nur die ersten ~5 Seiten erscheinen im Ergebnis. Vermutlich ein Chunking-Problem: Das automatische Chunk-Splitting (>20 Bilder) bricht nach dem ersten Chunk ab oder merged die Folge-Chunks nicht korrekt.
+**Ausmass**: `diagnose_truncation.py` fand **97 betroffene Objekte** (68 primaere Modell-Dateien):
 
-**Fix noetig**: Diese Objekte muessen mit `--force --chunk-size 20` re-transkribiert und die Chunk-Merge-Logik in `transcribe.py` geprueft werden.
+| Kategorie | Anzahl | Beschreibung |
+|---|---:|---|
+| `max5_truncated` | 24 | Nur 5 Bilder verarbeitet, Backup hat mehr |
+| `vlm_mismatch` | 18 | Alle Bilder gesendet, VLM lieferte weniger Seiten |
+| `zero_pages` | 26 | Leeres Ergebnis (API-Fehler, unparsbares JSON) |
+
+Groesste Luecken: o_szd.273 (5/238), o_szd.149 (5/165), o_szd.194 (5/135), o_szd.174 (5/122).
+
+**Fix**: Default auf 0 (kein Limit) geaendert. `transcribe.py` speichert jetzt `metadata.input_image_count_total` fuer kuenftige Erkennung. Re-Transkription mit `--force --chunk-size 20` laeuft (15/24 `max5_truncated` abgeschlossen, Rest in Arbeit).
 
 ### 4.8 Strukturfehler bei tabellarischen Layouts (Schweregrad: hoch)
 
@@ -184,19 +187,66 @@ In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressate
 
 ---
 
-## 5. Implikationen fuer die Pipeline
+## 5. Quality-Signals-Evaluation
+
+*Phase A, Session 20.*
+
+### 5.1 DWR (Dictionary Word Ratio) — entfernt
+
+**Befund**: DWR korreliert nicht mit Transkriptionsqualitaet.
+
+| Metrik | Wert |
+|---|---|
+| Spearman rho | 0.05 (nicht signifikant) |
+| Precision (low_dwr Flag) | 40% |
+| Recall | 13% |
+| F1 | 0.20 |
+
+**Ursache**: DWR misst "wie viel deutscher Prosatext vorhanden ist", nicht Qualitaet. Zweigs Nachlass enthaelt Eigennamen, Fremdsprachen, tabellarische Daten und Kurrent-Formen, die nicht im 500-Wort-Frequenzlexikon stehen. DWR skaliert primaer mit Wortanzahl (mean 0.22 bei <50 Woertern, 0.41 bei >=200).
+
+**Entscheidung**: `low_dwr` aus `needs_review_reasons` entfernt. `dwr_score` bleibt als informatives Feld erhalten. Wirkung: `needs_review` sank von ~37% auf **27%** (-66 Objekte).
+
+### 5.2 Verbleibende Signals nach Kalibrierung
+
+| Signal | Anteil an Flags | Einschaetzung |
+|---|---|---|
+| `page_length_anomaly` | 34% | **Nuetzlich** — korreliert mit Truncation und echten Problemen |
+| `duplicate_pages` | 31% | **Maessig** — viele False Positives durch Color-Chart-Doppelfotografie |
+| `language_mismatch` | 26% | **Maessig** — Zweigs Mehrsprachigkeit (DE/FR/EN) erzeugt Rauschen |
+| `page_image_mismatch` | 17% | **Nuetzlich** — identifiziert Truncation zuverlaessig |
+| `marker_density` | 11% | **Schwach** — Gemini setzt keine `[?]`-Marker, Signal fast wertlos |
+
+### 5.3 Fraktur-Post-Processing — Evaluation
+
+Prototyp `fraktur_postprocess.py` getestet (pyspellchecker + 13 Fraktur-Verwechslungspaare):
+
+| Metrik | Wert |
+|---|---|
+| Korrekturen gefunden | 2-3 von 11 bekannten Fehlern (o_szd.2217) |
+| Precision (Batch 58 Zeitungsausschnitte) | ~38% |
+| Hauptlimitierung | Einzelzeichen-Substitution zu eng, Komposita nicht im Woerterbuch |
+
+**Empfehlung**: Als **Flagging-Tool** fuer Agent-Verifikation nutzbar (Kandidaten generieren), aber **nicht fuer Auto-Korrektur** geeignet. Mehrzeichen-Fehler ("ihrisch"→"lyrisch"), Eigennamen ("Hayel"→"Hayek") und Komposita ("Grundgebaerde") bleiben unerkannt.
+
+---
+
+## 6. Implikationen fuer die Pipeline
 
 ### Was gut funktioniert
 
 - **Gedruckter Text** (Antiqua): Nahezu perfekt, keine systematischen Fehler
 - **Saubere Handschrift**: Hohe Genauigkeit bei lesbarer Kurrentschrift
 - **Seitentyp-Klassifikation**: content/blank/color_chart korrekt (nach Fix der Farbkarten-Erkennung)
+- **Chunking**: Funktioniert korrekt fuer grosse Objekte (bis 238 Bilder getestet)
+- **Edit-Tracking**: Alle Korrekturen (Agent + Mensch) mit Original nachvollziehbar
 
 ### Wo Verbesserungsbedarf besteht
 
-1. **Fraktur-Texte**: Post-Processing-Schritt fuer bekannte f/s-Verwechslungen erwaegen (Woerterbuch-Abgleich)
-2. **Tabellarische Layouts**: Gruppe E (tabellarisch) und Tantiemen-Listen brauchen moeglicherweise einen speziellen Prompt oder Layout-Analyse-Vorschritt
-3. **Grossschreibung**: Eigennamen-Erkennung als Nachverarbeitung (NER-basiert) koennte systematische Fehler beheben
+1. **`duplicate_pages` False-Positives**: Color-Chart-Seiten von Duplikat-Erkennung ausschliessen
+2. **`language_mismatch`**: Mehrsprachigkeit besser handhaben (DE/FR/EN-Mix ist normal bei Zweig)
+3. **`marker_density`**: Erwaegen ob Signal komplett entfernt werden sollte (wie DWR)
+4. **Tabellarische Layouts**: Gruppe E braucht moeglicherweise speziellen Prompt oder Layout-Analyse-Vorschritt
+5. **Grossschreibung**: Eigennamen-Erkennung als Nachverarbeitung (NER-basiert) koennte systematische Fehler beheben
 
 ### Naechste Schritte
 

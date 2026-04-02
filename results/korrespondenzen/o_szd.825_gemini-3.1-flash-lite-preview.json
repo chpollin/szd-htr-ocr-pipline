@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.825",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 28. Mai 1937, SZ-AAP/B1.43",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.825/IMG.1",
+      "https://gams.uni-graz.at/o:szd.825/IMG.2",
+      "https://gams.uni-graz.at/o:szd.825/IMG.3",
+      "https://gams.uni-graz.at/o:szd.825/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 28. Mai 1937, SZ-AAP/B1.43\n- Signatur: SZ-AAP/B1.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\n\nRcf.\nIhr Schreiben vom 24.Mai 1937\n28.Mai 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr liebenswürdiges Schreiben und freuen uns\nunendlich,dass wir nun in allen Punkten einig sind,sodass der Unter-\nzeichnung der Verträge nichts mehr im Wege steht.Bitte lassen Sie uns\nnun wissen,ob wir die drei Verträge nochmals umschreiben sollen oder\nob es genügt,wenn wir Ihnen bestätigen,dass der niedrigste Honorarsatz\nnur für das erste und zweite Tausend dieser drei Verträge gilt.\n\nWenn Sie es aber verlangen,können wir natürlich die Verträge nochmals\numschreiben lassen.\n\nHerrn Bagrow haben wir wiederum nach Berlin geschrieben und ihn gebeten,\nsich sofort mit Ihnen ins Einvernehmen zu setzen.Wir haben ihm auch\nIhre Londoner Telephonnummer mitgeteilt,damit er Sie sofort dort anruft.\nBitte fragen Sie vielleicht nochmals bei Stevens an,ob er schon dort\neingetroffen ist.\n\nWir schreiben nochmals nach Bagrow nach Berlin.Falls er schon nach\nLondon abgereist ist,wird man ihm wohl die Post nachschicken.\n\nMit den Schulausgaben von Einzeltexten sind wir sogar mehr als einver-\nstanden und wir bitten Sie,die Ihnen neulich gesandte Zuschrift eines\namerikanischen College möglichst positiv zu erledigen.Je mehr schon in\nden Schulen Zweig-Bücher gelesen werden,destomehr wirkt sich das dann",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die letzte Zeile bricht mitten im Satz ab, Fortsetzung auf Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRcf.\nspäter aus.\n\nNebenbei erwähnen wir,dass das PHILOBIBLON nun nachträglich auch für\nsämtliche frühere Jahrgänge in Deutschland verboten worden ist,was\neines gewissen Humors nicht entbehrt.Die Leute scheinen schon ganz\nauf den Kopf gefallen zu sein.\n\nFür heute begrüssen wir Sie als\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich (Tinte, blau/türkis). Die erste Zeile setzt den Satz von Seite 1 fort.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript, sehr gut lesbar. Keine Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2414,
+    "total_words": 338,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1729,
+      0,
+      685,
+      0
+    ],
+    "chars_per_page_median": 1207.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3994,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

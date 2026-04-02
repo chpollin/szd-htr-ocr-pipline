@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.785",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 9. März 1938, SZ-AAP/B1.188",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.785/IMG.1",
+      "https://gams.uni-graz.at/o:szd.785/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 9. März 1938, SZ-AAP/B1.188\n- Signatur: SZ-AAP/B1.188\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "9.III.1938.\n\nSehr geehrter Herr Reichner!\nHerr Dr. Zweig bestätigt\nden Erhalt Ihrer Briefe und lässt Sie bitten, die\nihn zustehenden Freiexemplare hierher zu senden und\ndie Speditionskosten gleich in Wien in Schillingen X\nzu bezahlen, damit hier keine Nachzahlungen in Pfun-\nden notwendig sind.\n\n                                     Hochachtungsvoll\n\nX für ihn\n\n                                     Sekretärin",
+        "notes": "Typoskript auf Briefpapier. Das 'X' wurde handschriftlich mit Tinte eingefügt, um die Einfügung 'für ihn' zu markieren.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 409,
+    "total_words": 49,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      409,
+      0
+    ],
+    "chars_per_page_median": 409,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3878,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

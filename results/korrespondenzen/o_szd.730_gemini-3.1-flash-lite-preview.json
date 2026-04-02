@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.730",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 25. November 1937, SZ-AAP/B1.138",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.730/IMG.1",
+      "https://gams.uni-graz.at/o:szd.730/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 25. November 1937, SZ-AAP/B1.138\n- Signatur: SZ-AAP/B1.138\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "25.November 1937.\n\nGeehrter Herr Reichner!\n\nErschrecken Sie nicht zu sehr über\ndiesen Brief, aber ich habe alle meine Pläne um-\ngestossen, weil ich im Januar auf eine weitere\nReise muss und komme, um meine Mutter zu sehen,\nstatt zu Weihnachten jetzt schon auf zwei, drei\nTage nach Wien. Ich dürfte Sonntag, Montag,\nvielleicht auch noch Dienstag dort bleiben und\nda können wir alle Angelegenheiten besprechen.\nIch werde, da ich viele Rückstände in Wien zu\nbegleichen habe, Sie in anbetracht des guten\nGanges des \"Magellan\" um einiges Geld bitten\nmüssen und wäre Ihnen dankbar, wenn Sie mir\nfür Montag jedesfalls dreitausend Schillinge\nin bar vorbereiten könnten.\n\nVon Amerika habe ich Brief, dass\nHuebsch noch immer vergeblich auf die Bilder",
+        "notes": "Typoskript auf Papier. Der Text bricht am Ende der Seite mitten im Satz ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "zur Ansicht wartet, damit er weiss, welche er\nkauft. Hoffentlich haben Sie das schon erle-\ndigt, und ich freue mich für Sie, dass die Be-\nschaffungskosten durch die Uebernahme von an-\ndern Verlegern reichlich gedeckt sind.\n\nMit den besten Empfehlungen\n\nDringend. Ich komme nach Wien nur meine Mut-\nter besuchen und es soll es ausser Gregor und\nFuchs niemand wissen. Ich bitte Sie strikte,\nes niemandem zu sagen, sonst kommen wir zu kei-\nnem ruhigen Gespräch vor lauter Leuten, die Bü-\ncher gedruckt haben wollen.",
+        "notes": "Typoskript auf Papier. Fortsetzung des Textes von Seite 1.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1252,
+    "total_words": 203,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      740,
+      512
+    ],
+    "chars_per_page_median": 626.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5297,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

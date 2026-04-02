@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.771",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 13. Januar 1938, SZ-AAP/B1.175",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.771/IMG.1",
+      "https://gams.uni-graz.at/o:szd.771/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 13. Januar 1938, SZ-AAP/B1.175\n- Signatur: SZ-AAP/B1.175\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                   13.Januar 1938.\n\nGeehrter Herr Reichner,\n\n                                   Ich übersende Ihnen anbei in Sa-\nchen Tal die Kopie des Briefes, den ich knapp vor der\nAbreise an Dr. Geiringer gerichtet habe, zu Ihrer\nKenntnisnahme.\n                                   Zu meinem Bedauern ist von Olten\nder Scheck, um dessen sofortige Uebersendung ich in\nmeinem Brief vom 30. an Sie bat, noch nicht eingelangt\nund so tritt gerade das ein, was ich vermeiden wollte,\nnämlich dass der Scheck von Olten in meiner Abwesenheit\neinlangt. Sollten Sie den Auftrag nach Olten noch nicht\ngegeben haben, so bitte ich zu tun mit dem ausdrücklichen\nVermerk, dass der Betrag mit einem gekreuzten Scheck ge-\nschickt wird, damit das Risiko vermindert ist. Ebenso\nhabe ich auch noch keine Bestätigung von Dr. Geiringer\nüber den Erhalt des Schecks. Ich habe auf Ihre sonstige\nPünktlichkeit unbedingt gerechnet und es ist mir inso-\nferne besonders unangenehm, als der Scheck jetzt nach\nmeiner Abreise einlangt und mir nachirren wird. Ich bitte\nSie auch den Scheck an Dr. Geiringer sofort abzusenden.",
+        "notes": "Typoskript auf Briefpapier. Die Lochungen am linken Rand sind sichtbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite ist erkennbar, wird aber gemäß Anweisung nicht transkribiert.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1108,
+    "total_words": 163,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1108,
+      0
+    ],
+    "chars_per_page_median": 1108,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4907,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

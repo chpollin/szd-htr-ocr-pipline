@@ -19,13 +19,29 @@
         "page": 1,
         "transcription": "Correspondenz-Karte\n\nHerrn Max Fleischer\nstud. phil.\nLeipzig\nMünzgasse 16",
         "notes": "Adressseite der Postkarte. Der Name 'Max Fleischer' ist unterstrichen. Ein Poststempel 'LEIPZIG 5 12 01' ist vorhanden.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Correspondenz-Karte\n\nAn\n~~Herrn~~ Herrn Max Fleischer\nLeipzig\nMünzgasse 16",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T16:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
         "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern, um mich auf dem Laufenden[?]\nzu halten. Meine Kritik über dich [ist] vor 3 Wochen\nerschienen, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen ordentlichen[?] frankierten Brief, wie es dir\ngeht. Nur Gutes[?] wünscht dir dein\n\nStefan\nII Schwarzspanierstr 20",
         "notes": "Textseite der Postkarte. Die Handschrift ist sehr flüchtig. 'Laufenden' unsicher (Gemini las 'Langentour Kantgewalt'). '[ist]' ergänzt für grammatischen Sinn. 'ordentlichen frankierten' unsicher — Gemini las 'Brief zu frankierenden Brief'. Schlussformel 'Nur Gutes wünscht dir dein' unsicher.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T16:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 3,
@@ -41,17 +57,20 @@
     "status": "agent_verified",
     "agent_model": "claude-opus-4-6",
     "errors_found": 8,
-    "estimated_accuracy": 0.90,
-    "edited_pages": [1, 2],
+    "estimated_accuracy": 0.9,
+    "edited_pages": [
+      1,
+      2
+    ],
     "notes": "Page 1: Removed hallucinated 'An' line, removed incorrect '~~Herrn~~' strikethrough duplicate, added missing 'stud. phil.' line visible in image. Page 2: Major corrections — 'Langentour[?] Kantgewalt[?]' corrected to 'Laufenden[?]' (idiomatic 'auf dem Laufenden zu halten'); removed incorrect strikethrough on 'erschienen'; 'einen Brief zu frankierenden Brief' (doubled 'Brief', garbled) corrected to 'einen ordentlichen[?] frankierten Brief'; 'wie dies geht nur Gutes[?] es dein' corrected to 'wie es dir geht. Nur Gutes[?] wünscht dir dein' (standard closing formula). Several readings remain uncertain due to very hasty Kurrent.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T16:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 924,
-    "total_words": 145,
-    "total_pages": 3,
+    "total_chars": 928,
+    "total_words": 146,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -63,28 +82,21 @@
       "color_chart"
     ],
     "chars_per_page": [
-      74,
-      425,
+      73,
+      430,
       425
     ],
-    "chars_per_page_median": 425,
+    "chars_per_page_median": 251.5,
     "marker_uncertain_count": 6,
     "marker_illegible_count": 0,
-    "marker_density": 0.0414,
-    "dwr_score": 0.4752,
-    "duplicate_page_pairs": [
-      [
-        1,
-        2
-      ]
-    ],
+    "marker_density": 0.0411,
+    "dwr_score": 0.4211,
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "duplicate_pages"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

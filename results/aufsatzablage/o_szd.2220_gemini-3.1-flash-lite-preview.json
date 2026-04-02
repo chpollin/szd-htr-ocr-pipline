@@ -55,9 +55,9 @@
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 7553,
-    "total_words": 1082,
-    "total_pages": 3,
+    "total_chars": 7562,
+    "total_words": 1084,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -69,29 +69,22 @@
       "color_chart"
     ],
     "chars_per_page": [
-      5749,
-      902,
-      902
+      5750,
+      906,
+      906
     ],
-    "chars_per_page_median": 902,
+    "chars_per_page_median": 3328.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4362,
-    "duplicate_page_pairs": [
-      [
-        1,
-        2
-      ]
-    ],
+    "dwr_score": 0.4406,
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "duplicate_pages"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   },
   "review": {
     "status": "agent_verified",

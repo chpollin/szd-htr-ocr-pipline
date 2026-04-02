@@ -23,7 +23,15 @@
         "page": 1,
         "transcription": "Schlaf, Johannes\nPeter Boies Freite (Recension) [check]\nJohannes Schlaf (Würdigung) [check]\n\n\n\nJohannes Schlaf\n\nJohannes Schlaf\nPeter Boies Freite\nMaeterlinck (s. dort)",
         "notes": "Das Dokument enthält mehrfache Nennungen von Namen. 'Recession' und 'Würdigung' sind als Klammerzusätze erkennbar. Die Häkchen sind als solche transkribiert.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Schlaf, Johannes\nPeter Boies Freite (Recession) [check]\nJohannes Schlaf (Würdigung) [check]\n\n\n\nJohannes Schlaf\n\nJohannes Schlaf\nPeter Boies Freite\nMaeterlinck (s. dort)",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T13:13:01.990976+00:00",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
@@ -47,7 +55,15 @@
         "page": 5,
         "transcription": "Schlaf, Johannes\nPeter Boies Freite (Recension) [check]\nJohannes Schlaf (Würdigung) [check]",
         "notes": "Ausschnitt der oberen Hälfte von Seite 1.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Schlaf, Johannes\nPeter Boies Freite (Recession) [check]\nJohannes Schlaf (Würdigung) [check]",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T13:13:01.990976+00:00",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 6,
@@ -69,7 +85,7 @@
     "version": "1.4",
     "total_chars": 500,
     "total_words": 63,
-    "total_pages": 4,
+    "total_pages": 3,
     "empty_pages": 3,
     "blank_pages": 3,
     "color_chart_pages": 1,
@@ -93,7 +109,7 @@
       0,
       168
     ],
-    "chars_per_page_median": 129.5,
+    "chars_per_page_median": 91,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
@@ -103,10 +119,8 @@
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "low_dwr"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   },
   "review": {
     "status": "agent_verified",

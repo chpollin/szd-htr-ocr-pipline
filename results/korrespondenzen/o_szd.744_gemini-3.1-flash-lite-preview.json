@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.744",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 9. Dezember 1937, SZ-AAP/B1.150",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.744/IMG.1",
+      "https://gams.uni-graz.at/o:szd.744/IMG.2",
+      "https://gams.uni-graz.at/o:szd.744/IMG.3",
+      "https://gams.uni-graz.at/o:szd.744/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 9. Dezember 1937, SZ-AAP/B1.150\n- Signatur: SZ-AAP/B1.150\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr. Stefan Zweig, Esq.\n49, Hallam Street\nLondon, W.1\nENGLAND\n\nRef.\nIhr Schreiben vom 6. Dezember 1937\nTal & Co.\n\n9. Dezember 1937 /F\n\nSehr verehrter Herr Dr. Zweig:\n\nWir danken bestens für Ihr obiges Schreiben.\nSie machen uns Vorwürfe, die gewiss nicht berechtigt sind. Denn wir haben Sie lange bevor die \"Begegnungen\" erschienen sind ausdrücklich gebeten, sich mit Tal ins Einvernehmen zu setzen, um etwaigen späteren Vorkommnissen auszuweichen. Diese Bitte, die einer Ahnung entsprungen ist, haben Sie damals einfach unbeachtet gelassen. Mehr konnten wir doch nicht tun, als Sie auf Eventualitäten aufmerksam zu machen. Aber auch als Sie vor acht Tagen in Wien waren, haben wir Sie gebeten, den Fall Tal auszutragen, und Sie sind wieder darüber hinweggegangen. Bitte sagen Sie doch, was wir tun sollen in einer Sache, in der Sie zweifellos - ganz unter uns gesagt - höchstens zu 50% recht haben. Sollen wir es auf einen Prozess ankommen lassen, der fast sicher ungünstig ausgeht?\n\nDeshalb bitten wir Sie nochmals um Ihre klare Entscheidung, was wir in Ihrem Namen dem Rechtsanwalt Dr. Löw anbieten sollen. Noch lieber ist es uns, wenn Sie dieses Angebot durch Ihren Rechtsanwalt Herrn Dr. Josef Geiringer stellen lassen, damit Sie nicht zuletzt glauben, dass wir Sie zu einem Angebot verleiten wollen, das Sie nachträglich für ungünstig halten.\n\nWir empfinden mit Ihnen durchaus solidarisch nach aussen hin und werden selbstverständlich den Verlag Tal niemals glauben machen, als ob",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Rote Unterstreichungen im Text vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\ner im Rechte wäre. Aber Ihnen gegenüber müssen wir doch die Situation so darstellen, wie sie tatsächlich ist. Bitte riskieren Sie keinen Prozess und schieben Sie die Angelegenheit nicht länger hinaus. Denn je länger wir warten, desto kostspieliger wird die ganze Sache.\n\nFalls Sie die weitere Austragung Herrn Dr. Josef Geiringer anvertrauen, so bitten wir Sie um den Durchschlag des an ihn gerichteten Auftrags.\n\nWir danken Ihnen im voraus bestens und sind Sie begrüssend\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Handschriftliche Unterschrift (Signatur) unter 'Ihre sehr ergebenen'.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterstreichungen wurden als Teil des Dokuments erkannt."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2742,
+    "total_words": 413,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1864,
+      0,
+      878,
+      0
+    ],
+    "chars_per_page_median": 1371.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4089,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

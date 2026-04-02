@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.770",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 13. Januar 1938, SZ-AAP/B1.174",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.770/IMG.1",
+      "https://gams.uni-graz.at/o:szd.770/IMG.2",
+      "https://gams.uni-graz.at/o:szd.770/IMG.3",
+      "https://gams.uni-graz.at/o:szd.770/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Januar 1938, SZ-AAP/B1.174\n- Signatur: SZ-AAP/B1.174\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\nIhr Schreiben vom 10.Januar 1938\n\"Rosenstrauch\"\n\n13.Januar 1938 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr obiges Schreiben.\nDie Veröffentlichung im \"Christlichen Ständestaat\" ist eine grobe\nUnanständigkeit des Herrn Felix Stössinger, der zusammen mit Josef\nRoth es besorgt, die nicht-arischen österreichischen Verleger unausge-\nsetzt im \"Christlichen Ständestaat\" zu beflegeln.\nWir sind vollkommen korrekt verfahren.F.Volckmar hat uns mitgeteilt,\ndass über höheren Auftrag, der \"Tausendjährige Rosenstrauch\" - wie\nübrigens jede andere Anthologie deutscher Gedichte - nur dann im\nDeutschen Reiche verbreitet werden darf, wenn die Gedichte Heines ent-\nfernt werden.Dass Heine im Register stehenblieb, damit war Volckmar\neinverstanden.Es ist also nicht der Fall, dass wir es uns mit der\nReichskulturkammer verderben hätten, ebensowenig wie wir die Absicht\nhaben, es uns mit den Interessenten des Auslandes zu verderben.Das ist\nschon deshalb unmöglich, weil die Ausgabe ohne Heines Gedichte nur ins\nReich geliefert wird, die Ausgabe mit Heines Gedichten nur ins {außerdeutsche} Ausland.\nBeide Ausgaben sind vollkommen getrennt gehalten und werden auch ge-\ntrennt geführt.\nWir haben seinerzeit, wie der Artikel im \"Christlichen Ständestaat\"\nerschien, sogleich an die Redaktion geschrieben und uns derartige\nSchmierereien verbeten.",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Handschriftliche Korrektur/Ergänzung 'außerdeutsche' über der Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\nJedenfalls stellen wir fest, dass Sie damit nicht das geringste zu\ntun haben, und stellen es Ihnen gern frei, dies auch dem \"Christlichen\nStändestaat\" gegenüber festzustellen.\nGerade daraus aber, dass man Ihnen und nur Ihnen den Ausschnitt mit\npersönlichen Beschimpfungen geschickt hat, mögen Sie ersehen, dass\ndiese Schmiererei eigentlich gar nicht gegen uns zielte, sondern mehr\ngegen Sie gerichtet war, in der irrigen Annahme, dass Sie mit dem\nVerlag identisch seien.\nWir haben eine blosse Vermutung, wer der Ihnen \"befreundete\" Einsender\nsein könnte, wollen aber mit dieser Vermutung zurückhalten.\n\nWir danken Ihnen für Ihr freundliches Schreiben und sind mit den\nbesten Grüssen\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Handschriftliche Unterschrift (unleserlich, vermutlich Reichner).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die wenigen handschriftlichen Ergänzungen und die Unterschrift sind eindeutig zu identifizieren."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2818,
+    "total_words": 390,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1730,
+      0,
+      1088,
+      0
+    ],
+    "chars_per_page_median": 1409.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3753,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

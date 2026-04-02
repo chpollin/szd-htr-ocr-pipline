@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.796",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an den Herbert Reichner Verlag vom 13. April 1938, SZ-AAP/B1.198",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.796/IMG.1",
+      "https://gams.uni-graz.at/o:szd.796/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an den Herbert Reichner Verlag vom 13. April 1938, SZ-AAP/B1.198\n- Signatur: SZ-AAP/B1.198\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "eingeschrieben\n\n13.April 1938.\n\nAn den Herbert Reichner Verlag, (in Liquidation,)\nAegidigasse 6, { (in Händen des Liquidators) }\nWien VI.\n\nSehr geehrte Herren!\n\n{ dem Verlag Herbert Reichner }\nMeine sämtlichen mit ~~Ihnen~~ abgeschlossenen\nVerträge enthalten den Paragraphen:\n\n\"Falls der Verlag bei noch vorhandenen Vorräten\ntrotzdem auf die Weiterverbreitung freiwillig ver-\nzichtet oder durch staatliche Eingriffe irgendwel-\ncher Art dazu gezwungen wird, so ist der Verfasser\nberechtigt, vom Vertrag zurückzutreten und eventu-\nellen Stehsatz, Stereos und Klischees sowie die noch\nvorrätigen Exemplare oder rohen Bogen des Werkes zum\nhalben Gestehungspreis des Verlags zu übernehmen.\"\n\nDa zu meinem aufrichtigen Bedauern dieser Fall des staatli-\nchen Eingriffe eindeutig und unbestreitbar eingetreten ist\nund der Verlag Herbert Reichner an der Verbreitung meiner\nBücher im Sinne des deutschen Verlagsgesetzes verhindert\nist, mache ich hiermit für alle mit dem Herbert Reichner\nVerlag geschlossenen Verträge von meinem Rücktrittsrecht\nam heutigen Tage Gebrauch. Sämtliche mit dem Verlag unter\nder ausschliesslichen Voraussetzung des ungehinderten Ver-\ntriebes getroffenen Abmachungen für alle meine Bücher sind\ndamit gelöst, alle Rechte an mich zurückgefallen und der\nVerlag Herbert Reichner von allen aus diesen Verträgen\nentstehenden Verpflichtungen entbunden.",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte. Die handschriftlichen Einfügungen sind deutlich lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Kraft dieser Kündigung kann der Verlag Her-\nbert Reichner meine Bücher weiterhin weder drucken, ver-\ntreiben noch die früher abgeschlossenen und nun annullier-\nten Verträge Gegenstand eines Verkaufs oder einer Ueber-\ntragung von Seiten des Verlages bilden. { sodass jede weitere }\n{ Auseinandersetzung zwischen dem Verlage und mir }\n{ [unleserlich] bitte in loyaler Weise vermieden werden kann }\n\nMit den besten Empfehlungen\n\nIhr sehr ergebener\n\n- -\nm.p.",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte. Die handschriftliche Zeile ist teilweise schwer lesbar, insbesondere das Wort vor 'bitte'. Das 'm.p.' steht für 'manu propria' (eigenhändig).",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar. Die handschriftlichen Ergänzungen sind deutlich, lediglich eine Stelle in der handschriftlichen Zeile auf Seite 2 ist aufgrund der Schriftführung etwas unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1816,
+    "total_words": 255,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1362,
+      454
+    ],
+    "chars_per_page_median": 908.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3843,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

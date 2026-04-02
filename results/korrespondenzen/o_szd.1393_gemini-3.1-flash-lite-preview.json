@@ -41,7 +41,7 @@
     "version": "1.4",
     "total_chars": 312,
     "total_words": 47,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -57,19 +57,17 @@
       133,
       133
     ],
-    "chars_per_page_median": 133,
+    "chars_per_page_median": 89.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.0488,
+    "dwr_score": 0.04,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "low_dwr"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

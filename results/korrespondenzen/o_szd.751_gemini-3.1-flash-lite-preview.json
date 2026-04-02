@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.751",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Alfred Kauffmann vom 17. Dezember 1937, SZ-AAP/B1.157",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.751/IMG.1",
+      "https://gams.uni-graz.at/o:szd.751/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Alfred Kauffmann vom 17. Dezember 1937, SZ-AAP/B1.157\n- Signatur: SZ-AAP/B1.157\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                   17.Dezember 1937.\nHerrn Dr. Alfred Kaufmann,\n16 Coleman Street,\nLondon E.C.\n\nSehr geehrter Herr Doktor!\n\n                           Ich danke Ihnen noch für\nunsere heutige aufschlussreiche Unterredung. Ich\nhabe bei meiner Rückkunft Nachschau gehalten. Die\nSache mit dem Inselverlag steht sogar noch günsti-\nger, denn der Brief des Inselverlags ist vom 27.2.36\nund bereits nach London adressiert. Ich lege Ihnen\ndiesen Brief mit einem zweiten der Insel von 37 bei\nund dazu die Daten meines certificate of registration.\nEs führt die Nummer 544270, ist ausgestellt am 14.5.34,\nund mein Permit des Home Office Nr. Z 33 für unbe-\nschränkten Aufenthalt ist datiert vom 29.6.34. Es\nist also wohl keine Frage, dass eine Forderung, die\nvom 27.2.36 besteht, in die berechtigte Kategorie\nfällt, da das österreichische Clearing in Hinblick\nauf meinen ständigen und einzigen Aufenthalt in Lon-\ndon die Verrechnung nicht übernimmt. Ich wäre Ihnen",
+        "notes": "Typoskript auf Briefpapier. Der Text bricht am Ende der Seite ab und wird auf der nächsten Seite fortgesetzt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "dankbar, wenn Sie die Angelegenheit für mich durch-\nführen würden und bleibe mit bestem Dank im voraus\nund schönen Grüssen an Frl. Dr. Melchior.\n\n                           Ihr sehr ergebener",
+        "notes": "Typoskript, Fortsetzung des Briefes von Seite 1. Die Unterschrift fehlt im Dokument.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1158,
+    "total_words": 168,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      967,
+      191
+    ],
+    "chars_per_page_median": 579.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.45,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

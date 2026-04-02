@@ -443,6 +443,10 @@ def transcribe_object(
     backup_meta = load_backup_metadata(object_id, collection)
     gams_images = [img["url"].replace("http://", "https://") for img in backup_meta.get("images", [])]
 
+    # Count total images in backup (independent of max_images truncation)
+    subdir = COLLECTIONS[collection]["subdir"]
+    total_backup_images = len(list((BACKUP_ROOT / subdir / object_id / "images").glob("IMG_*.jpg")))
+
     # Build enriched output
     enriched = {
         "object_id": object_id,
@@ -453,6 +457,7 @@ def transcribe_object(
             "title": backup_meta.get("title", ""),
             "language": backup_meta.get("language", ""),
             "images": gams_images,
+            "input_image_count_total": total_backup_images,
         },
         "context": context,
         "result": result_json,

@@ -42,7 +42,7 @@ def get_done_ids() -> set:
 def main():
     parser = argparse.ArgumentParser(description="Sample batch: 10 per group")
     parser.add_argument("--dry-run", action="store_true", help="List objects without transcribing")
-    parser.add_argument("--max-images", type=int, default=5, help="Max images per object (default: 5)")
+    parser.add_argument("--max-images", type=int, default=0, help="Max images per object (0=alle)")
     args = parser.parse_args()
 
     done_ids = get_done_ids()

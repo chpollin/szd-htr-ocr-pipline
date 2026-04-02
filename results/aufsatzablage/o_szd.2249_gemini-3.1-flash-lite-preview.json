@@ -47,43 +47,36 @@
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 7098,
+    "total_chars": 7099,
     "total_words": 1004,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
     "input_images": 3,
     "page_types": [
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
-      5524,
+      5525,
       787,
       787
     ],
-    "chars_per_page_median": 787,
+    "chars_per_page_median": 3156.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.4602,
-    "duplicate_page_pairs": [
-      [
-        1,
-        2
-      ]
-    ],
+    "dwr_score": 0.466,
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "duplicate_pages"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   },
   "review": {
     "status": "agent_verified",

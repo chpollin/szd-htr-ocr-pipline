@@ -20,12 +20,14 @@
         "transcription": "An\n\n~~An~~ Herrn Max Fleischer\n\n~~in~~ Komotau in\nBöhmen, Villa Reim",
         "notes": "Adressseite der Postkarte. Die durchgestrichenen Wörter sind im Original erkennbar.",
         "type": "content",
-        "edit_history": [{
-          "original_transcription": "An\n\n~~An~~ Herrn Max Fleischer\n\n~~in~~ Komotan in\nBöhmen, Villa Reim",
-          "edited_by": "Claude Code Agent",
-          "edited_at": "2026-04-02T19:30:00Z",
-          "source": "agent"
-        }]
+        "edit_history": [
+          {
+            "original_transcription": "An\n\n~~An~~ Herrn Max Fleischer\n\n~~in~~ Komotan in\nBöhmen, Villa Reim",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T19:30:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
@@ -47,48 +49,43 @@
     "version": "1.4",
     "total_chars": 1320,
     "total_words": 231,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
     "input_images": 3,
     "page_types": [
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
       68,
       626,
       626
     ],
-    "chars_per_page_median": 626,
+    "chars_per_page_median": 347.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.5067,
-    "duplicate_page_pairs": [
-      [
-        1,
-        2
-      ]
-    ],
+    "dwr_score": 0.5,
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "duplicate_pages"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   },
   "review": {
     "status": "agent_verified",
     "agent_model": "claude-opus-4-6",
     "errors_found": 1,
     "estimated_accuracy": 0.85,
-    "edited_pages": [1],
+    "edited_pages": [
+      1
+    ],
     "notes": "Page 1: Fixed 'Komotan' -> 'Komotau' (real place name, Chomutov in Bohemia). Page 3 reclassified as color_chart. Page 2 handwriting is dense 1902 Kurrent — many readings are uncertain but left unchanged due to low confidence in alternatives. The transcription has several suspicious readings ('Camillo verlebter Brief', 'unterhaltslos', 'Helen' as signature) that may contain Kurrent misreadings but cannot be confidently corrected from the scan resolution.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T19:30:00Z"

@@ -429,6 +429,8 @@ Sechs automatisch berechenbare Signale, geordnet nach erwartetem Nutzen.
 
 **Update v1.4 (2026-04-02):** Schwellenwerte weiter rekalibriert. Duplikaterkennung: Jaccard-Schwelle beibehalten (0.9), aber Mindestzeichenzahl von 200 auf 50 gesenkt — das erkennt jetzt Seiten-Halluzinationen (Modell dupliziert kurze Seiten wie Deckblaetter). DWR (Dictionary Word Ratio) seit v1.2 integriert: Anteil der Woerter in sprachspezifischer Frequenzliste (~500 Woerter DE/FR/EN), korreliert mit CER (Springmann 2016). needs_review-Rate bei 601 Objekten: ~41%.
 
+**Update v1.5 (2026-04-02, Phase A):** `low_dwr` aus `needs_review_reasons` **entfernt**. Empirische Evaluation gegen 68 verifizierte Objekte ergab Spearman rho=0.05 (keine Korrelation), Precision 40%, Recall 13%, F1=0.20. DWR misst Prosadichte, nicht Qualitaet — Eigennamen, Fremdsprachen und tabellarische Daten im Zweig-Nachlass verzerren das Signal. `dwr_score` bleibt als informatives Feld. `marker_density` hat aehnliche Schwaechen (Gemini setzt keine `[?]`-Marker), ist aber noch aktiv. needs_review-Rate nach Kalibrierung: **27%** (355/1319).
+
 **Signal 1: Seitenlaengen-Anomalie (page_length_anomaly)**
 
 Logik: Seiten desselben Dokuments haben typischerweise aehnliche Textmengen (vor allem bei fortlaufendem Text). Eine Seite mit 50 Zeichen zwischen Seiten mit je 1500 Zeichen ist verdaechtig — entweder eine echte Kurzseite (letzte Seite, Titelblatt) oder eine Auslassung.

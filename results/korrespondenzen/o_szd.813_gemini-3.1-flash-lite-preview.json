@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.813",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 13. Mai 1937, SZ-AAP/B1.32",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.813/IMG.1",
+      "https://gams.uni-graz.at/o:szd.813/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Mai 1937, SZ-AAP/B1.32\n- Signatur: SZ-AAP/B1.32\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien, am 13.Mai 1937.\n\nWohlgeb.Herrn\n\nDr. Stefan Z w e i g ,\n\nW i e n , 9., Hotel Regina.\n\nSehr geehrter Herr Dr. Zweig !\n\nDa Sie gegen die bisherige Abrechnung den Vorwurf\nerheben, daß ich jeweils 10% der abgesetzten Exemplare als\nhonorarfrei verrechnet habe, während Ihrer Meinung nach ledig-\nlich elf für zehn zu verrechnen waren, so habe ich mich, um\nIhnen meinen guten Willen zu beweisen, trotzdem ich auf Grund\nder bestenenden Verträge und Abrechnungen meiner Meinung nach\nberechtigt war so abzurechnen, wie ich tatsächlich abgerechnet\nhabe, zu folgendem entschlossen :\n\n1.) Ich willige in die Abänderung der bestehenden\nVerträge ein so zwar, daß auch in diesen Verträgen an Stelle\nder bisherigen Fassung, nach welcher 10% einer jeden Auflage\nhonorarfrei zu drucken waren, die nunmehr im Magellan-Vertrag\ngewählte Fassung zu treten hat, laut welcher das elfte Exemplar\nhonorarfrei gehalten werden kann und die Abrechnung demgemäß\njeweils elf für zehn zu erfolgen hat.\n\n2.) Ich bin einverstanden, daß diese Abänderung\nrückwirkende Kraft erhält so zwar, daß wir die bisherigen Ab-\nrechnungen demgemäß richtigstellen werden. Der Einfachheit halber\nhaben wir uns, um die Abrechnungen nicht detailliert durchgehen\nzu müssen, auf den Betrag von S 1.200.-( Schilling eintausend-\nzweihundert ) geeinigt, welchen ich Ihnen zur gänzlichen Besei-\ntigung der diesbezüglich bestehenden Differenz unter einem gut-\nbringe.\n\n3.) In Hinkunft werden sämtliche Abrechnungen auf\nder Grundlage: 10 für 11 gepflogen werden.\n\nIch hoffe Sie mit dieser Erledigung, die einen\nintegrierenden Bestandteil unserer heutigen Vereinbarungen bil-\ndet und nur mit diesen gemeinsam in Kraft tritt, zufrieden und\nbegrüße Sie\nhochachtungsvoll",
+        "notes": "Typoskript auf Briefpapier. Die Zahl '10' und '11' in Punkt 3 wurden nachträglich mit einem blauen Stempel oder einer blauen Tinte korrigiert/hervorgehoben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Korrektur in Punkt 3 ist deutlich als solche erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1711,
+    "total_words": 259,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1711,
+      0
+    ],
+    "chars_per_page_median": 1711,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3943,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

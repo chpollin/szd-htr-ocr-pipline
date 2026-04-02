@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.722",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 12. November 1937, SZ-AAP/B1.130",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.722/IMG.1",
+      "https://gams.uni-graz.at/o:szd.722/IMG.2",
+      "https://gams.uni-graz.at/o:szd.722/IMG.3",
+      "https://gams.uni-graz.at/o:szd.722/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. November 1937, SZ-AAP/B1.130\n- Signatur: SZ-AAP/B1.130\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig, Esq.\n49.Hallam Street\nLondon,W.1\nENGLAND\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef.\nIhr Schreiben vom 8.November 1937\n12.November 1937 /F\nSehr verehrter Herr Dr.Zweig:\nWir danken bestens für Ihr obiges Schreiben und freuen uns, dass Ihnen\ndie \"Begegnungen\" so gut gefallen.Dass dieser Eindruck überall dersel-\nbe ist,bestätigen die zahlreichen Nachbestellungen und wir hoffen,dass\nder nun in ein paar Tagen erscheinende \"Magellan\" zusammen mit den\n\"Begegnungen\" wirkliche Best-Seller werden.\nDie beanstandete Rechnung für die {gebundenen Drucke} des \"Magellan\" ist\neinem der früheren Briefe beigelegen.Damit Sie sich aber überzeugen,\ndass die Sache vollkommen in Ordnung geht,legen wir hier die Original-\nRechnung von Rohrer,datiert vom 30.September 1937,bei und bitten Sie,\nsie uns umgehend zurückzuschicken,da wir sie zur Buchung brauchen.\nDie von Rohrer separat berechneten Abzüge beziehen sich auf die von\nIhnen ausdrücklich bestellten Vorexemplare,von denen der grösste Teil\nan Sie selbst und einige andere Ihre Uebersetzer und ausländische\nVerleger geliefert wurden.Wohlgemerkt handelt es sich also nicht um die\nendgültige Auflage,sondern um die Exemplare,die nach dem ersten Umbruch\nund vor der zweiten Korrektur hergestellt wurden.Wir bitten Sie also,\ndiesen Posten anzuerkennen.\nDie gewünschte Ueberweisung erfolgt nach London.\nDie Magellan-Exemplare werden am 15.November pünktlich an Sie abgehen.",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Handschriftliche Einfügung 'gebundenen Drucke' über der Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef.\nDas Buch ist grossartig ausgefallen und wird Ihnen sehr viel\nFreude machen.\nMit den besten Grüssen sind wir\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Handschriftliche Unterschrift (unleserlich, vermutlich Reichner).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Einfügung auf Seite 1 ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2276,
+    "total_words": 310,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1765,
+      0,
+      511,
+      0
+    ],
+    "chars_per_page_median": 1138.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3705,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

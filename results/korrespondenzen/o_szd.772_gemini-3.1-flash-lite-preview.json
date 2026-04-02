@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.772",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 25. Januar 1938, SZ-AAP/B1.176",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.772/IMG.1",
+      "https://gams.uni-graz.at/o:szd.772/IMG.2",
+      "https://gams.uni-graz.at/o:szd.772/IMG.3",
+      "https://gams.uni-graz.at/o:szd.772/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 25. Januar 1938, SZ-AAP/B1.176\n- Signatur: SZ-AAP/B1.176\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT. Sy.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR.\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\nLONDON, E.C.2.\n\n25. Januar 1938.\n\nHerrn Stefan Zweig,\nE s t o r i l,\nHotel Atlantico\nPortugal.\n\nSehr geehrter Herr Zweig,\nInzwischen habe ich Gelegenheit gehabt, die Möglichkeit eines Transfers Ihrer Forderung gegen den Insel-Verlag mit dem zuständigen Beamten bei dem hiesigen Board of Trade zu besprechen.\nDas Board of Trade ist bereit, die Angelegenheit in die Hand zu nehmen und die nötigen Schritte bei den deutschen Behörden zu unternehmen. Ein neuer Antrag von Seiten des Insel-Verlags ist also nicht nötig. Sie müssen lediglich, wie aus dem anliegenden Entwurf ersichtlich, dem Board of Trade den Sachverhalt unterbreiten. Es erscheint zweckmässig, dass der Antrag von Ihnen persönlich unterzeichnet wird. Wenn Sie mit dem anliegenden Entwurf einverstanden sind, bitte ich, ihn an mich unterschrieben zurückzuschicken, damit ich ihn dann dem Board of Trade unter Bezugnahme auf die mündliche Besprechung weiterleiten kann.\nWeiterhin bitte ich Sie, mir eine Bank in London zu benennen, bei der Sie Ihr Konto haben, oder an die im Erfolgsfalle die Zahlung erfolgen kann. Falls Sie Zahlung an eine Bank nicht wünschen, bitte ich Sie, sich damit einverstanden zu erklären, dass die Zahlung an die Solicitor-Firma\nLawrance, Messer & Co.,\n16, Coleman Street,\nLondon E.C.2\nerfolgt, da es nicht zweckdienlich wäre, wenn eine deutsche Person",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Seite endet mit einem Zeilenumbruch, der auf die nächste Seite verweist.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "- 2 -\n\noder Firma als Zahlstelle nach Deutschland weitergeben wird.\nSie sagten mir bei Ihrer letzten Unterhaltung, dass Sie dem Insel-Verlag ein freundliches Avis geben wollten. Vielleicht schreiben Sie ihm jetzt, dass, nachdem Sie seit längerer Zeit Ihren Wohnsitz nach England verlegt haben, Sie beantragt hätten, die Zahlung der noch ausstehenden RM 3.940.40 unter dem deutsch-englischen Zahlungsabkommen zu erwirken.\n\nMit besten Empfehlungen und vielen Grüssen von Fräulein Melchior\n\nIhr sehr ergebener\n[Unterschrift]",
+        "notes": "Typoskript. Die Unterschrift ist handschriftlich (Kürzel).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift auf Seite 3 ist ein Kürzel, das nicht transkribiert werden kann."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2067,
+    "total_words": 306,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1546,
+      0,
+      521,
+      0
+    ],
+    "chars_per_page_median": 1033.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4503,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -50,7 +50,8 @@
       "https://gams.uni-graz.at/o:szd.175/IMG.41",
       "https://gams.uni-graz.at/o:szd.175/IMG.42",
       "https://gams.uni-graz.at/o:szd.175/IMG.43"
-    ]
+    ],
+    "input_image_count_total": 43
   },
   "context": "## Dieses Dokument\n\n- Titel: Register der Aufsätze, SZ-AP2/L-S12\n- Signatur: SZ-AP2/L\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 43 Scans",
   "result": {
@@ -58,94 +59,380 @@
       {
         "page": 1,
         "transcription": "CASH BOOK",
-        "notes": "Einband des Notizbuchs.",
+        "notes": "Vorderseite eines Notizbuchs mit rotem Einband. Aufdruck 'CASH BOOK'.",
         "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Leere Innenseite des Einbands.",
+        "notes": "Innere Umschlagseite, leer.",
         "type": "blank"
       },
       {
         "page": 3,
-        "transcription": "BÜCHER\n\n\n\nBILDER",
-        "notes": "Titelblatt/Registerblatt mit handschriftlichen Einträgen.",
+        "transcription": "BÜCHER\n\n\n\n\n\n\n\nBILDER",
+        "notes": "Handschriftliche Einträge auf linierte Seite.",
         "type": "content"
       },
       {
         "page": 4,
         "transcription": "",
-        "notes": "Leere Seite.",
+        "notes": "Leere linierte Seite.",
         "type": "blank"
       },
       {
         "page": 5,
-        "transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisemann}",
-        "notes": "Handschriftlicher Eintrag. 'Eisemann' am rechten Rand ist ein Händlername (auch auf späteren Seiten, z.B. bei Thomas Morus, lesbar). Unter 'Nürnberg' befinden sich weitere, teils radierte/verblasste Bleistiftnotizen.",
-        "type": "content",
-        "edit_history": [
-          {
-            "original_transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg\n\n{Eisena[?]}",
-            "edited_by": "Claude Code Agent",
-            "edited_at": "2026-04-02T19:30:00Z",
-            "source": "agent",
-            "changes": "Korrektur: '{Eisena[?]}' -> '{Eisemann}' — der Name ist auf Seite 13 (Thomas Morus) eindeutig als 'Eisemann' lesbar und somit auch hier korrekt aufloesbar."
-          }
-        ]
+        "transcription": "INKUNABELN\nREGIOMONTANUS\nEinblattdruck (Buchhändler-\nKatalog). 1 Bl. Folio\nNürnberg",
+        "notes": "Handschriftlicher Eintrag, oben rechts 'Eisemann' (Name des Buchhändlers/Sammlers).",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Amerigo VESPUCCI\nItinerarium Portugallensium e\nLusitania in Indiam et inde\nin Occidentem et demum ad\naquilonem. Fol. Milano, 1508.\nHarrisse 58. Sabin 50058.\nA latin translation of the\nPaesi novamente retrovati by\nArchangelo Madrignano.",
+        "notes": "Handschriftlicher Eintrag.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Francesco PETRARCA\nTrionfi, Sonetti, e Canzone\nPadua, 1472.\nThe first authoritative edition\nBlue maroquin",
+        "notes": "Handschriftlicher Eintrag.",
+        "type": "content"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "BOCCACCIO\nDe Claris Mulieribus, ed. by\nJ. P. Bergomensis Ferrara, 1497.\ngothic letter, 176 ll.\nHain *2813; Proctor *5762.\nWith 170 very fine woodcuts",
+        "notes": "Handschriftlicher Eintrag, oben 'B Study 1' in rotem Stift.",
+        "type": "content"
+      },
+      {
+        "page": 12,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 13,
+        "transcription": "Thomas MORUS\nUtopia, Basel, Jo. Froben,\n1518.\nBrunet III, 1892",
+        "notes": "Handschriftlicher Eintrag, oben 'Eisemann'.",
+        "type": "content"
+      },
+      {
+        "page": 14,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 15,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 16,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 17,
+        "transcription": "Miguel de Cervantes\nDON QUIXOTE, Madrid,\nJuan de la Cuesta, 1605.\nFirst edition, second issue",
+        "notes": "Handschriftlicher Eintrag.",
+        "type": "content"
+      },
+      {
+        "page": 18,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 19,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 20,
+        "transcription": "",
+        "notes": "Leere linierte Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 21,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 22,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 23,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 24,
+        "transcription": "TERENTIUS Afer, Comoediae\nFranzösische Handschrift auf\nPergament, letztes Viertel 15. Jh.\nMit Initialen und Miniaturen.",
+        "notes": "Handschrift, Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 25,
+        "transcription": "Bilder\nLorenz Gudenbrunn,\nOriginalporträt JOSEPH HAYDN\nprobably painted in 1770\n25 x 19 cm",
+        "notes": "Handschrift, Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 26,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 27,
+        "transcription": "Claude LORRAIN\nZeichnung in Feder und Kreide:\nKlassische Landschaft mit\nTrauernder, signiert Claude\n1663.\nfrom the collections of Jonathan\nRichardson and Benjamin West",
+        "notes": "Handschrift, Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 28,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 29,
+        "transcription": "verkauft B.\nJakob JORDAENS\nFarbige Zeichnung: Musizierende\nGruppe mit Amoretten. 10 1/4 x 12 in.\nVorlage für einen Bildteppich.\nAus den Sammlungen Rodrigues\nund Henry Oppenheimer (N° 257).\nAusgestellt: Burlington House\nFlemish Exhibition, 1927 (N° 614);\nMemorial Volume p. 214.\nMax Rooses, Jordaens, p. 188.",
+        "notes": "Handschrift, Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 30,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 31,
+        "transcription": "Franc. GUARDI\nFederzeichnung: Aufstieg einer\nMontgolfiere in Venedig, 1783.\nSkizze zu dem berühmten Öl-\nbild im Kaiser Friedrich Museum,\nBerlin. 10 in. sq.\nFrom the Collection of the Earl\nof Rosebery.\nThe occasion illustrated took place\nin Venice in 1783, when the\nCount Francesco Zambeccari\nmade his first ascent shortly\nafter Montgolfier's discovery.\nBedeutsam zugleich als Kunstwerk\nund als sehr frühes Dokument zur\nGeschichte der Luftschiffahrt.",
+        "notes": "Handschrift, Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 32,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 33,
+        "transcription": "verkauft B\nAlbrecht DÜRER\nKupferstich: Der Traum,\n(Bartsch 76).\n\nverkauft B\nMelancholie\n(Bartsch 74)",
+        "notes": "Handschrift, Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 34,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 35,
+        "transcription": "verkauft B\nHans Sebald Beham\n\nKl. Christophorus. Holzschnitt.\nPauli 892 A.\n\nverkauft B\nHans Weiditz\nMuttergottes mit dem Kind\nund 2 Heiligen (St. Corbinian\nu. St. Sigismund). Holzschnitt.\nP. III. 201. 243. C. Dodgson II, 166,\n52.",
+        "notes": "Handschrift, Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 36,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 37,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 38,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 39,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 40,
+        "transcription": "",
+        "notes": "Leere Seite, liniertes Notizbuchpapier.",
+        "type": "blank"
+      },
+      {
+        "page": 41,
+        "transcription": "",
+        "notes": "Rückseite eines Einbanddeckels, hellbraun, leer. Farbskala für Archivierung am rechten Rand.",
+        "type": "color_chart"
+      },
+      {
+        "page": 42,
+        "transcription": "",
+        "notes": "Vorderseite eines Einbanddeckels, dunkelrotes Material mit holzähnlicher Maserung/Prägung. Keine Schrift erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 43,
+        "transcription": "",
+        "notes": "Vorderseite eines Einbanddeckels, dunkelrotes Material mit holzähnlicher Maserung/Prägung. Farbskala für Archivierung am oberen Rand. Keine Schrift erkennbar.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
-    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich. Die unsichere Lesung 'Eisena' ist aufgrund der flüchtigen Schreibweise am Rand als solche markiert."
+    "confidence_notes": "S.1-20: Der Text ist sehr gut lesbar, da es sich um klare, handschriftliche bibliographische Notizen handelt.; S.21-40: Der Text ist klar lesbar, die Handschrift ist gut strukturiert und weist keine größeren Schwierigkeiten auf.; S.41-43: Die Seiten sind leer bzw. zeigen lediglich den Einband des Dokuments ohne Textinhalt."
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 121,
-    "total_words": 14,
-    "total_pages": 3,
-    "empty_pages": 2,
-    "blank_pages": 2,
-    "color_chart_pages": 0,
-    "content_pages": 3,
-    "input_images": 5,
+    "total_chars": 2217,
+    "total_words": 324,
+    "total_pages": 15,
+    "empty_pages": 28,
+    "blank_pages": 26,
+    "color_chart_pages": 2,
+    "content_pages": 15,
+    "input_images": 43,
     "page_types": [
       "content",
       "blank",
       "content",
       "blank",
-      "content"
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "color_chart",
+      "blank",
+      "color_chart"
     ],
     "chars_per_page": [
       9,
       0,
-      16,
+      20,
       0,
-      96
+      83,
+      0,
+      235,
+      0,
+      105,
+      0,
+      149,
+      0,
+      62,
+      0,
+      0,
+      0,
+      93,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      119,
+      90,
+      0,
+      167,
+      0,
+      307,
+      0,
+      449,
+      0,
+      100,
+      0,
+      229,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
-    "chars_per_page_median": 16,
-    "marker_uncertain_count": 1,
+    "chars_per_page_median": 105,
+    "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
-    "marker_density": 0.0714,
-    "dwr_score": 0.0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1181,
     "duplicate_page_pairs": [],
     "language_expected": "de",
-    "language_detected": "",
+    "language_detected": "de",
     "language_match": true,
-    "page_length_anomalies": [],
+    "page_length_anomalies": [
+      0
+    ],
     "needs_review": true,
     "needs_review_reasons": [
-      "marker_density",
-      "truncated_output"
+      "page_length_anomaly"
     ]
-  },
-  "review": {
-    "status": "agent_verified",
-    "agent_model": "claude-opus-4-6",
-    "errors_found": 1,
-    "estimated_accuracy": 0.95,
-    "edited_pages": [5],
-    "notes": "KRITISCH: Schwere Trunkierung — nur 5 von 43 Seiten transkribiert. Seiten 6-43 fehlen komplett. Content-Seiten mit handschriftlichen Eintraegen zu Inkunabeln, Buch- und Bildersammlung (u.a. Vespucci, Petrarca, Morus, Cervantes, Boccaccio, Lorrain, Guardi, Dürer, Beham, Weiditz, Terentius, Jordaens). Ca. 15 Content-Seiten + ca. 15 Leerseiten + 5 Rueckseiten/Durchscheiner + 3 Cover/Farbkarte fehlen. Seite 5: '{Eisena[?]}' korrigiert zu '{Eisemann}' (Haendlername, durch Vergleich mit Seite 13 verifiziert). Objekt muss mit --force neu transkribiert werden (43 Bilder > Standard-Chunk-Groesse, Chunking-Problem wahrscheinlich).",
-    "reviewed_by": "Claude Code Agent",
-    "reviewed_at": "2026-04-02T19:30:00Z"
   }
 }

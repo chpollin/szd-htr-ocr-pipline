@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.762",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 3. Januar 1938, SZ-AAP/B1.167",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.762/IMG.1",
+      "https://gams.uni-graz.at/o:szd.762/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Januar 1938, SZ-AAP/B1.167\n- Signatur: SZ-AAP/B1.167\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A[?]37-0-32 (nach 18 Uhr: B[?]23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\n\nRef. Ihr Schreiben vom 30.Dez.1937\n3.Januar 1938/F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir wünschen Ihnen noch nachträglich alles Gute und Schöne für das\nJahr 1938.\nVon dem Schreiben des Herrn Dr.Hermann Löw,datiert vom 27.Dezember,\nin Sachen Tal gegen Zweig,Begegnungen,schicken wir Ihnen die beilie-\ngende Abschrift zur Vervollständigung Ihres Aktenmaterials und bestä-\ntigen dankend Ihr Schreiben vom 30.Dezember samt den Kopien der Briefe\nvon Tal an Sie,von Ihnen an Tal und Ihres Gedächtnisprotokolls für\nHerrn Dr.Josef Geiringer.\nWir glauben,dass Sie am besten handelten,dass Sie Herrn Dr.Geiringer\nmit der weiteren Verfolgung der Angelegenheit beauftragten.Sie haben\nso die Gewissheit,dass er Ihre Interessen 100%ig vertritt und dass nichts\nunversucht gelassen wird,die Sache Ihrem Wunsche entsprechend zu regeln.\n\nEs versteht sich von selbst,dass wir selbst Herrn Dr.Josef Geiringer\nmit allen nötigen Auskünfte usw. gern zur Verfügung stehen.Wir warten\nbloss dessen Aufruf ab,um ihm alle von ihm erbetenen Aufklärungen zu\ngeben.\nFalls Sie etwas in Sachen Tal gegen \"Begegnungen\" hören,was wir nicht\nwissen,bitten wir Sie um Ihre Instruktionen und sind im voraus bestens\ndankend und Sie begrüssend\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (violette Tinte, unleserlich, vermutlich ein Kürzel oder Name des Verlagsvertreters). Die Lochungen am linken Rand sind archivbedingt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen unsicheren Stellen [?] beziehen sich auf die gedruckten Telefonnummern-Präfixe, die aufgrund der Schriftart leicht zweideutig sein könnten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1663,
+    "total_words": 227,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1663,
+      0
+    ],
+    "chars_per_page_median": 1663,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0088,
+    "dwr_score": 0.375,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

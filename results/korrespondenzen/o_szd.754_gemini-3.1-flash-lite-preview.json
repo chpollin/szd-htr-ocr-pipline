@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.754",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 15. März 1937, SZ-AAP/B1.16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.754/IMG.1",
+      "https://gams.uni-graz.at/o:szd.754/IMG.2",
+      "https://gams.uni-graz.at/o:szd.754/IMG.3",
+      "https://gams.uni-graz.at/o:szd.754/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 15. März 1937, SZ-AAP/B1.16\n- Signatur: SZ-AAP/B1.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr. Stefan Zweig, Esq.\n49 Hallam Street\nLondon, W.1\nENGLAND\n\nRef. Magellan-Buch 15. März 1937 /F.\nIhr Schreiben vom 12. März 1937\n\nSehr verehrter Herr Dr. Zweig:\n\nWir danken bestens für Ihr freundliches Schreiben und wären Ihnen\ndankbar, wenn Sie uns möglichst bald Genaueres über die geplante Luxus-\nausgabe des Magellan-Buches wissen liessen, schon deshalb, um Herrn\nDr. Bagrow mit den Vorarbeiten zur Beschaffung des Bildmaterials beauf-\ntragen zu können.\nEs genügt, wenn der Verlag Cassell & Co. uns kurz mitteilt, dass und wie\ner an dieser gemeinsamen Ausgabe teilnehmen will.\nSoll sich diese Gemeinsamkeit auch auf die Viking Press erstrecken?\nDies würde zweifellos eine Verbilligung bedeuten, da dann die gemeinsam\nzu tragenden Kosten auf drei Partner zu verteilen sind.\n\nNewman's Wagner-Biographie hat in der englischen und amerikanischen\nPresse keine besonders günstige Beurteilung erfahren. Anscheinend sind\ndie Rezensenten ein bisschen böse geworden, dass sie auf den dritten\nBand solange warten mussten. Wenigstens wird dies überall hervorgehoben.\n\nHerr Hofrat Gregor hat uns heute aufgerufen und uns seine Begeisterung\nund Freude über sein Spanien-Buch mitgeteilt. So warten wir bloss noch\nauf Ihr Urteil und danken Ihnen im voraus bestens.\nDie Rückenzeichnung für die Gesamtausgabe ist heute aus Leipzig einge-\ntroffen, geht noch heute zum Graveur und wir hoffen, Ihnen in 10 - 12",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die letzte Zeile bricht mitten im Satz ab und wird auf der nächsten Seite fortgesetzt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\n\nRef.\n\nTagen Exemplare der neuen Ausgabe schicken zu können. Bitte teilen\nSie uns aber nun rasch mit, was auf dem Rücken von \"Kette\" und\n\"Kaleidoskop\" stehen soll:\n\nSTEFAN ZWEIG STEFAN ZWEIG\nDie Kette Kaleidoskop\n\noder\n\nSTEFAN ZWEIG STEFAN ZWEIG\nDas erzählerische Werk Das erzählerische Werk\nErster Band Zweiter Band\n\nDie Fassung mit den Einzeltiteln ermöglicht den Verkauf der einzel-\nnen Bände, während die Fassung mit der Bandzahl wohl nur in der Ausgabe\nim gemeinsamen Geschenkkarton praktisch ist. Es liesse ich natürlich\nauch beides gleichzeitig machen.\nWir bitten Sie um möglichst postwendenden Bescheid, damit wir Ihren\nWunsch berücksichtigen, und sind dafür im voraus bestens dankend und\nSie begrüssend\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Fortsetzung des Briefes von Seite 1. Handschriftliche Unterschrift (Reichner) unter 'Ihre sehr ergebenen'.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Struktur des Briefes ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2301,
+    "total_words": 343,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1482,
+      0,
+      819,
+      0
+    ],
+    "chars_per_page_median": 1150.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4006,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

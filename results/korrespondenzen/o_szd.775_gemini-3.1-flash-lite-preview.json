@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.775",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 25. Februar 1938, SZ-AAP/B1.179",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.775/IMG.1",
+      "https://gams.uni-graz.at/o:szd.775/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 25. Februar 1938, SZ-AAP/B1.179\n- Signatur: SZ-AAP/B1.179\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "25.Februar 1938.\n\nGeehrter Herr Reichner!\n\nIch erhalte ohne Begleitschreiben von\nIhnen dies Telegramm. Ich kenne den Verlag Farrina\nnicht, vermutlich handelt es sich aber um einen deut-\nschen Nachdruck und ich sehe keine Veranlassung, ihm\ndenselben nicht zu gewähren. Nach unserem Vertrage\nhätte jeder die Hälfte der Summe zu bekommen, und ich\nbitte Sie, ihm Ihre Bedingungen zu telegraphieren.\nWir dürften natürlich nicht durch eine allzuhohe For-\nderung abschrecken; ich denke an so etwas wie fünf-\nhundert Dollar. Die Schwierigkeit ist natürlich,\ndass ich nicht weiss, um was für eine Ausgabe es sich\nhandelt. Ich bitte dies also zu erledigen und bleibe\n\nmit den besten Empfehlungen",
+        "notes": "Typoskript auf weißem Papier. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript ohne Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 685,
+    "total_words": 106,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      685,
+      0
+    ],
+    "chars_per_page_median": 685,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4762,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

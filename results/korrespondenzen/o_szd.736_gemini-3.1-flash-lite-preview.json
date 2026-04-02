@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.736",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 2. Dezember 1937, SZ-AAP/B1.143",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.736/IMG.1",
+      "https://gams.uni-graz.at/o:szd.736/IMG.2",
+      "https://gams.uni-graz.at/o:szd.736/IMG.3",
+      "https://gams.uni-graz.at/o:szd.736/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. Dezember 1937, SZ-AAP/B1.143\n- Signatur: SZ-AAP/B1.143\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\nPostcheckkonto\nLeipzig 8442 Wien 46.469\nPrag 501.701 Zürich VIII 18122\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nUnsere Rechnung 20427 2.Dezember 1937/F\n\nSehr verehrter Herr Dr.Zweig:\n\nWunschgemäss erhalten Sie die beiden in der beilie-\ngenden Rechnung 20427 fakturierten Bücher durch unse-\nren Kommissionär Rudolf Lechner & Sohn,Wien,zugestellt.\nWir fakturieren Ihnen den Originalbetrag und begrüssen\nSie als\n\nIhre sehr ergebenen\n\nWIEN, VI., Strohmayergasse 6 HERBERT REICHNER VERLAG",
+        "notes": "Brief auf Geschäftspapier des Herbert Reichner Verlags. Typoskript mit handschriftlicher Unterschrift (Signatur unleserlich, vermutlich ein Kürzel). Die Unterschrift ist in blauer Tinte ausgeführt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Sichtbare horizontale Streifen durch Papierbeschaffenheit/Lichteinfall.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Drucksache Postpaket Eilgut Frachtgut Leitvermerk ab Lechner Spediteur\nNachnahme: erhalten\nKOMMISSIONÄR: Datum: 1.12.37\n\nHerbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\nRechnung № 020427 Briefadresse: Wien · VI · Strohmayergasse 6\nfür Herrn Dr. Stefan Zweig Telegrammadresse: Reichnerverlag Wien\nLondon Telephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostcheckkonten: Leipzig 8442 Prag 501.701\nWien 46.469 Zürich VIII 18122\nBanken: Österr. Creditanstalt-Wiener Bankverein, Wien XIV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, 99, Gresham Street,\nLondon E. C. 2\n\nbed. fest bar Ihre Bestellung: Fuchs ordinär netto Reichsmark Schw. Fr.\n1 Hofmannsthal, Briefe 2\n1 Podach, Nietzsche 15.53\n\nlt. Rechnung\nLechner 15 635\n\nDer Rechnungsbetrag ist spätestens 30 Tage nach Rechnungsdatum ohne Abzug fällig. Porto\nGutschrift anderer Währungen erfolgt nur zum Züricher Tageskurs. Erfüllungsort und Gerichtsstand: Wien.\nEigentumsvorbehalt nach § 455 des BGB. und § 8b der Buchhändlerischen Verkehrsordnung. Der Sortimenter Summe\nist berechtigt, trotz dem Eigentumsvorbehalt die gelieferte Ware im ordnungsmäßigen Geschäftsverkehr zu\nveräußern. Falls die Ware vor der vollständigen Bezahlung weiterveräußert wird, so geht der dafür erzielte\nErlös, bzw. die durch die Weiterveräußerung entstandene Forderung auf den Herbert Reichner Verlag über. 15.53 3",
+        "notes": "Rechnungsformular, teils gedruckt, teils handschriftlich ausgefüllt (blaue Tinte). Die handschriftlichen Ergänzungen umfassen den Namen des Empfängers, den Ort, das Datum, die bestellten Titel sowie Vermerke zur Rechnung.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Rechnungsformulars, leer. Papier ist leicht orangefarben/getönt.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der Rechnung sind klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2038,
+    "total_words": 271,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      687,
+      0,
+      1351,
+      0
+    ],
+    "chars_per_page_median": 1019.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2092,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

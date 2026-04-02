@@ -812,6 +812,16 @@ Aenderungen:
 - Handschrift: 95-98% (Kurrent-Verwechslungen)
 - Tabellarisch: 75-99% (unvollstaendige Seiten bei grossen Objekten)
 
+### Phase A: Truncation-Fix + DWR-Analyse + Fraktur-Evaluation
+
+**Truncation-Bug gefixt**: Root Cause war `run_sample_batch.py --max-images 5` Default, nicht das Chunking. `diagnose_truncation.py` fand 97 betroffene Objekte (24 `max5_truncated`, 18 `vlm_mismatch`, 55 `zero_pages`). Default auf 0 geaendert. `transcribe.py` speichert jetzt `metadata.input_image_count_total`. Re-Transkription laeuft — 15/24 `max5_truncated` fertig, Chunking funktioniert korrekt bis 238 Bilder.
+
+**DWR-Signal entfernt**: Spearman rho=0.05, F1=0.20 — keine Korrelation mit Qualitaet. `low_dwr` aus `needs_review` entfernt. Wirkung: 37% → 27% needs_review.
+
+**Fraktur-Post-Processing evaluiert**: Prototyp `fraktur_postprocess.py` mit pyspellchecker + 13 Verwechslungspaaren. Ergebnis: 38% Precision — taugt als Flagging-Tool, nicht fuer Auto-Korrektur. Hauptlimitierung: Einzelzeichen-Substitution zu eng, Komposita nicht im Woerterbuch.
+
+**Edit-History komplettiert**: 12 Dateien aus Session 18-19 retroaktiv gepatcht (20 Seiten). Verbessertes `backfill_edit_history.py` durchsucht jetzt Git-History nach Pre-Edit-Commits.
+
 ### Statistiken
 
 | Metrik | Wert |
@@ -820,8 +830,59 @@ Aenderungen:
 | Korrekturen (Session 20) | 42 Fehler auf 18 Seiten |
 | Kumulativ agent-verified | 44 (20 + 24) |
 | Kumulativ reviewed gesamt | 58 (14 human + 44 agent) |
-| Objekte mit Truncation-Problem | 4 (brauchen Re-Transkription) |
-| Edit-Tracking backfilled | 4 Dateien / 5 Seiten |
+| Truncation: betroffene Objekte | 97 (68 primaere Modell-Dateien) |
+| Truncation: re-transkribiert | 15/24 max5, Rest laeuft |
+| Edit-Tracking: backfilled total | 16 Dateien / 25 Seiten |
+| needs_review nach Kalibrierung | 27% (355/1319), vorher 37% |
+| Neue Scripts | diagnose_truncation.py, backfill_quality_signals.py, fraktur_postprocess.py |
+
+---
+
+## 2026-04-02 — Session 20b: Korrespondenzen-Massenbatch (Lane 3)
+
+### Was wurde gemacht
+
+**1. Korrespondenzen-Batch: 566 neue Objekte transkribiert**
+
+Ausgangslage: 450/1186 Korrespondenzen transkribiert (38%).
+Ergebnis: 1016/1186 (86%), 170 verbleibend. 0 Fehler im gesamten Batch.
+
+Grosse Objekte erfolgreich via Chunking verarbeitet:
+- o_szd.174: 122 Bilder (7 Chunks) — high confidence
+- o_szd.75: 151 Bilder (8 Chunks) — high confidence
+- o_szd.71: 54 Bilder (3 Chunks) — high confidence
+- o_szd.76: 60 Bilder (3 Chunks) — medium confidence
+
+**2. Bug-Fix: `run_batch()` Fehlerbehandlung**
+
+Problem: `run_batch()` in `transcribe.py` hatte keinen try/except um `transcribe_object()`. Ein einzelner unbehandelter Fehler (z.B. beim API-Call eines grossen Objekts) toetete den gesamten Batch-Prozess lautlos — keine Fehlermeldung, kein Traceback.
+
+Fix: try/except mit Logging um den `transcribe_object()`-Aufruf. Batch laeuft jetzt weiter, auch wenn einzelne Objekte fehlschlagen.
+
+**3. Analyse: Dry-Run-Zaehlung vs. Result-Zaehlung**
+
+Klaerung einer scheinbaren Diskrepanz (127 Backup-Objekte vs. 138 Results bei Lebensdokumenten): Die 138 entstand durch Mitzaehlung von Consensus-, Pro- und Layout-JSONs. Tatsaechlich: 127 Flash-Lite-Results = 127 Backup-Objekte (perfekt). `--dry-run` listet ALLE Objekte ohne Skip-Logik.
+
+### Erkenntnisse
+
+- **Chunking ist produktionsreif**: Objekte bis 151 Bilder (8 Chunks) laufen stabil durch
+- **Korrespondenzen-Qualitaet**: Ueberwiegend high confidence, vereinzelt medium/low bei schwieriger Handschrift
+- **JSON-Parsing-Retries**: Einige Objekte brauchen Retry wegen nicht-parseabrem Gemini-Output (z.B. o_szd.482, o_szd.564) — werden automatisch behandelt
+- **Batch-Robustheit**: Mit dem try/except-Fix ist die Pipeline jetzt resilient gegen Einzelfehler
+
+### Kontext
+
+Paralleler Betrieb mit zweitem Claude (Session 20): Einer transkribiert neue Objekte (dieser Eintrag), einer verifiziert bestehende (Session 20 oben).
+
+### Statistiken
+
+| Metrik | Wert |
+|---|---|
+| Neue Transkriptionen | 566 |
+| Korrespondenzen-Abdeckung | 1016/1186 (86%) |
+| Fehler | 0 |
+| Groesste Objekte (Bilder) | 151, 122, 60, 54 |
+| Gesamtabdeckung (alle Sammlungen) | ~1308/2107 (62%) |
 
 ---
 
@@ -834,8 +895,8 @@ Aenderungen:
 - [x] Batch-Modus: transcribe.py (Session 5)
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)
 - [ ] Provider-Vergleich: Claude Vision, GPT-4o (Phase 4)
-- [~] Alle 2107 Objekte transkribieren — ~746/2107 fertig nach Session 19 Batch (Session 17–19)
-- [x] quality_signals kalibrieren: v1.1, datengetrieben rekalibriert (Session 13)
+- [~] Alle 2107 Objekte transkribieren — ~1308/2107 (62%) fertig nach Session 20b Batch (Session 17–20b)
+- [x] quality_signals kalibrieren: v1.1 rekalibriert (Session 13), low_dwr entfernt (Session 20 Phase A)
 - [ ] Prompt-Wirksamkeit: Vorsichts-Guidance ignoriert — Experiment noetig (Session 8)
 - [x] o_szd.143 nur 20 Zeichen auf 3 Seiten — geloest: fehlende Bilder wegen API-Limit, Chunking eingebaut (Session 17)
 - [x] Verification-by-Vision: Proof of Concept erfolgreich, Spec geschrieben (Session 11)
@@ -846,9 +907,11 @@ Aenderungen:
 - [~] Expert-Review: 58/~875 Objekte verifiziert (14 human + 44 agent), CER-Baseline steht (Session 18–20)
 - [ ] Prompt-Ablation: V1/V2/V3 gegen GT messen (18 Objekte × 3 Varianten)
 - [~] Agent-Verifikation auf weitere Objekte ausweiten — 44/~875 agent-verified (Session 18–20)
-- [ ] Fraktur-Post-Processing evaluieren (f/s-Verwechslungen automatisch korrigieren, 28 dokumentierte Fehler)
+- [x] Fraktur-Post-Processing evaluiert: 38% Precision, taugt als Flagging, nicht Auto-Korrektur (Session 20 Phase A)
 - [ ] `duplicate_pages` False-Positive fixen: Color-Chart-Seiten von Duplikat-Erkennung ausschliessen (Session 19)
 - [ ] Halluziniertes "An" auf Adressseiten: Prompt-Fix oder Post-Processing (Session 19)
-- [ ] DWR-Score gegen Agent-Verifikationsergebnisse validieren (Session 19)
-- [ ] **Truncation fixen**: 4 Objekte (o_szd.149, 141, 175, 174) re-transkribieren, Chunk-Merge pruefen (Session 20)
+- [x] DWR-Score gegen Agent-Verifikation validiert: rho=0.05, F1=0.20, Signal entfernt (Session 20 Phase A)
+- [~] **Truncation fixen**: Root Cause `max_images=5` gefixt, 97 Objekte betroffen, 15/24 re-transkribiert (Session 20 Phase A)
 - [x] Edit-Tracking: `edit_history` in Pipeline-JSONs + Frontend-Diff implementiert (Session 20)
+- [ ] `marker_density` evaluieren: Gemini setzt keine Marker, Signal vermutlich wertlos wie DWR
+- [ ] `duplicate_pages` + `language_mismatch` Precision/Recall messen (naechste Kalibrierungsrunde)

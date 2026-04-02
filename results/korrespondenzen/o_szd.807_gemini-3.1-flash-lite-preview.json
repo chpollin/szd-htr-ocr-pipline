@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.807",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 17. April 1937, SZ-AAP/B1.27",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.807/IMG.1",
+      "https://gams.uni-graz.at/o:szd.807/IMG.2",
+      "https://gams.uni-graz.at/o:szd.807/IMG.3",
+      "https://gams.uni-graz.at/o:szd.807/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 17. April 1937, SZ-AAP/B1.27\n- Signatur: SZ-AAP/B1.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "17. April 1937.\n\nGeehrter Herr Reichner!\n\nIch habe viel zu tun, daher nur kurz.\nOb Sie den Essai-Band früher herausbringen\noder nicht, überlasse ich - der ich immer Rücksicht\nauf andere nehme - Ihrem Ermessen. Ich möchte nur, wenn\nich jetzt Ende April den Magellan fertig habe, dieses\nBuch einmal zusammenstellen und in Satz gehen lassen,\nweil ich in der Zwischenzeit (hoffentlich) einen freien\nKopf habe. Was den Magellan betrifft, so will ich nicht\nden Fehler machen wie beim Castellio, nämlich mit dem\nDruck mich drängen zu lassen. Dieses Buch muss sowohl\nstilistisch wie inhaltlich in jedem Detail hieb- und\nstichfest sein und deshalb will ich es einmal ein, zwei\nMonate nicht anschaun, sondern nur noch aus dem neuen\nWerk Nachträge oder Material sammeln. Druckfertig kann\nes dann in kürzester Zeit jederzeit gemacht werden und\nich kann Ihnen sogar wahrscheinlich ein Exemplar im\nMai unverbindlich schon zeigen, das ungefähr eine Be-\nrechnung des Umfangs und der Illustrationen-Verteilung",
+        "notes": "Typoskript auf Papier. Der Text bricht am Ende der Seite ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "erlaubt. Momentan bin ich vollkommen blind, habe keine\nUebersicht und möchte eben diese Pause einschalten, wäh-\nrend welcher man versuchen wird, die Vorabdrucksrechte\nzu verkaufen, für welche die äusserste Abgeschliffenheit\nja nicht nottut.\n\nDie Korrekturen der Essais kann ich dagegen\nin dieser Zwischenzeit ruhig machen und wie gesagt, sie\nkönnen dann lange liegen bleiben. Ich betrachte dieses\nBuch ja nur als einen Band der \"Gesammelten Werke\", mit\ndenen zugleich es ja auch am besten erschiene.\n\nIn Punkto Robert Neumann sehen Sie unrichtig.\nDas Buch ist mit dem \"Struensee\" nicht zu vergleichen.\nEs wird gerade in Oesterreich und der alten Monarchie\n(da es doch vor der ungarischen Ausgabe erscheinen wür-\nde) einen ganz ausserordentlichen Absatz haben und wäre\nnatürlich der beste Roman, der bisher bei Ihnen erschie-\nnen ist. Ich hoffe Neumann Montag zu sehen und will ihn\nfragen, wie er sich überhaupt dazu stellt, denn mein\nBrief an Sie war ganz spontan und ohne jedwede Verabre-\ndung mit ihm. Er hat es durchaus nicht nötig, sich an-\nzubieten, denn dieses Buch wird jeder Verleger mit Freude\nbringen (während ich von dem \"Struensee\" nie auch nur den\ngeringsten Erfolg erwartet habe).",
+        "notes": "Typoskript auf Papier.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "2)\n\nWegen der englischen Bücher weiss ich nur,\ndass das Buch von Virginia Wolff nicht sonderlich sein\nsoll (sonst hätte es wohl die Insel sich schon gesi-\nchert, die ja einen Vorvertrag mit ihr hat). Auch der\nneue Hilton scheint nicht gerade grossartig zu sein,\nwofür Sie aber entschädigt sind dadurch, dass \"Lost\nHorizon\" als einer der grossartigsten Hollywoodfilme\nherüberkommen und auf das Buch aufmerksam machen wird.\nUeber Kipling weiss ich nichts, ich fürchte, es ist\nauch kein wirklich erstklassiges Buch, sonst hätte\nich mehr davon gehört. Ich will mich aber erkundigen.\n\nMit den besten Empfehlungen\n\nEin \"altes Buch\" würde ich \"Begegnungen\" natürlich nicht\nnennen. Die Erinnerungen an Verhaeren waren in dreihun-\ndert Exemplaren verbreitet und sind seit zehn Jahren ver-\ngriffen, sieben Achtel überhaupt nur in Zeitungen gedruckt.\nAber im Sinne der Gangbarkeit ist es selbstverständlich wie\nimmer solche Werke einem organisch geschlossenen Buche nicht\nzu vergleichen.",
+        "notes": "Typoskript auf Papier.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (bzw. Durchschlag/Durchscheinung der vorherigen Seite, daher gemäß Anweisung leer gelassen).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 3162,
+    "total_words": 495,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      992,
+      1194,
+      976,
+      0
+    ],
+    "chars_per_page_median": 992,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4959,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

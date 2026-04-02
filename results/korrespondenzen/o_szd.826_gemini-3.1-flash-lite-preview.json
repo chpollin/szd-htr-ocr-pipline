@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.826",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 29. Mai 1937, SZ-AAP/B1.44",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.826/IMG.1",
+      "https://gams.uni-graz.at/o:szd.826/IMG.2",
+      "https://gams.uni-graz.at/o:szd.826/IMG.3",
+      "https://gams.uni-graz.at/o:szd.826/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 29. Mai 1937, SZ-AAP/B1.44\n- Signatur: SZ-AAP/B1.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostcheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\nProspekte\n29.Mai 1937 /F\n----------\n\nSehr verehrter Herr Dr.Zweig:\n\nWir sind eben im Begriffe,die Prospekte für den Herbst zusammenzustel-\nlen und zu entwerfen.Da nun die letzten Zweig-Prospekte gerade aus-\ngehen,so ist es umso dringlicher,dass wir die neuen Zweig-Prospekte\nrasch in Druck gehen lassen.Wir wünschen diesmal einen illustrierten\nZweig Prospekt zu machen,in der Art,dass wir die Umschläge aller Ihrer\nBücher mit einer kurzen Angabe des Inhaltes und dem einen oder anderen\nUrteil reproduzieren werden.Ein jedes Buch wird etwa eine halbe Seite\ndes Prospektes oder - je nach dessen Wichtigkeit - auch eine ganze\nSeite einnehmen.\nWir richten nun zwei Fragen an Sie:\n(1) Ist es Ihnen recht,wenn wir auf der Umschlagseite ein\nneueres Bildnis von Ihnen bringen ? Und welches ?\n(2) Ist es Ihnen recht,wenn wir auf der letzten Seite - unbe-\nschadet des genaueren Erscheinungstermins - eine Vorankün-\ndigung des Magellan-Buches und der \"Begegnungen\" bringen ?\nEs erscheint uns deshalb wichtig,um in dem Prospekt\nnicht bloss die alten Titel erscheinen zu lassen,sordern\ndarauf hinzuweisen,dass eben Neues bevorsteht.Wenn dann\ndie beiden Bücher soweit fortgeschritten sind,dass wir mit\neinem genauen Termin rechnen können,so wollen wir von dem\nProspekt eine Neuauflage mit genauen Angaben über Seiten-\nzahl usw. drucken.\nFalls Sie mit Punkt(2) einverstanden sind,so bitten wir Sie um je\neinen kurzen Waschzetteltext des Magellan-Buches und der \"Begegnungen\"\nund wir werden dann sofort mit dem Satz des Prospektes beginnen,damit",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterstreichungen im Text sind mit rotem Stift ausgeführt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostcheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n\ner noch im Sommer fertig wird und beim ersten Propagandaversand ver\nwendet werden kann.\nWir hoffen,recht bald von Ihnen zu hören,und sind im voraus bestens\ndankend und Sie begrüssend\n\nIhre sehr ergebenen\n[Unterschrift, unleserlich]",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich in blauer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift auf Seite 3 ist nicht entzifferbar, wurde aber als solche markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2589,
+    "total_words": 370,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1973,
+      0,
+      616,
+      0
+    ],
+    "chars_per_page_median": 1294.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4153,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

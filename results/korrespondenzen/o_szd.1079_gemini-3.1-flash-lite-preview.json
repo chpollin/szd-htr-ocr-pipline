@@ -4,7 +4,10 @@
     "agent_model": "claude-opus-4-6",
     "errors_found": 3,
     "estimated_accuracy": 0.997,
-    "edited_pages": [3, 4],
+    "edited_pages": [
+      3,
+      4
+    ],
     "notes": "Page 3: 'aufrichtigen' -> 'aufrichtiger' (dative ending), 'auch tief' -> 'nicht tief' (contextual misread). Page 4: 'Ihre' -> 'hier' (letter swap). Several other lines on page 3 remain uncertain (dense Kurrent) but no confident corrections possible.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T16:00:00Z"
@@ -43,13 +46,29 @@
         "page": 3,
         "transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nging mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich nicht tief -\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderbar, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, daß Sie nach fahren, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Karlsbad gar keinem Falle hier nicht scheuen,\nes kann ja auch allzu weit sein.\nIch habe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte wahr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Freude, wie dort, muß doch selbst das\nLernen durch Naturgefühl und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Allein-\nsamkeit ganz erlebt habe, halte mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbüchere,\ndurch Spazierengehen, herumträumen, Freunde etc.\nDas einzige Wesentliche ist, daß ich viel lese.",
         "notes": "Erste Seite des Briefes. Handschrift in violetter Tinte.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nging mir noch nicht zu, doch las ich es mit aufrichtigen Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich auch tief -\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderbar, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, daß Sie nach fahren, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Karlsbad gar keinem Falle hier nicht scheuen,\nes kann ja auch allzu weit sein.\nIch habe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte wahr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Freude, wie dort, muß doch selbst das\nLernen durch Naturgefühl und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Allein-\nsamkeit ganz erlebt habe, halte mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbüchere,\ndurch Spazierengehen, herumträumen, Freunde etc.\nDas einzige Wesentliche ist, daß ich viel lese.",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T16:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 4,
         "transcription": "Leider Gottes muß ich jetzt hier schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
         "notes": "Zweite Seite des Briefes.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Leider Gottes muß ich jetzt Ihre schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T16:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 5,
@@ -63,9 +82,9 @@
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 2439,
+    "total_chars": 2440,
     "total_words": 396,
-    "total_pages": 5,
+    "total_pages": 4,
     "empty_pages": 0,
     "blank_pages": 0,
     "color_chart_pages": 1,
@@ -81,21 +100,16 @@
     "chars_per_page": [
       63,
       12,
-      1652,
+      1653,
       356,
       356
     ],
-    "chars_per_page_median": 356,
+    "chars_per_page_median": 209.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.532,
-    "duplicate_page_pairs": [
-      [
-        3,
-        4
-      ]
-    ],
+    "dwr_score": 0.5343,
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
     "language_match": true,
@@ -104,8 +118,7 @@
     ],
     "needs_review": true,
     "needs_review_reasons": [
-      "page_length_anomaly",
-      "duplicate_pages"
+      "page_length_anomaly"
     ]
   }
 }

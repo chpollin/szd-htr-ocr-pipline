@@ -25,12 +25,14 @@
         "transcription": "Liebe Frau Meingast\nIhnen und Villi\nvon Luse u. mir\nherzliche Grüße.\nHerzlichst\nIhre Sie\nschätzende\nFr. M. Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzerstrasse\n(Hauer u. Laubingerhaus)",
         "notes": "Die Nachricht ist linksbündig, die Adresse rechtsbündig angeordnet. 'Ihre Sie schätzende' ist eine gängige Briefschlussformel. Die Briefmarke (Helvetia 20) ist oben rechts aufgeklebt.",
         "type": "content",
-        "edit_history": [{
-          "original_transcription": "Liebe Frau Meingast\nIhnen und Villi\nvon Luse n. mir\nherzliche Grüße.\nHerzlichst\nIhre Le\nschätzende\nFr. M. Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzerstrasse\n(Hauer u. Laubingerhaus)",
-          "edited_by": "Claude Code Agent",
-          "edited_at": "2026-04-02T21:30:00Z",
-          "source": "agent"
-        }]
+        "edit_history": [
+          {
+            "original_transcription": "Liebe Frau Meingast\nIhnen und Villi\nvon Luse n. mir\nherzliche Grüße.\nHerzlichst\nIhre Le\nschätzende\nFr. M. Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzerstrasse\n(Hauer u. Laubingerhaus)",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T21:30:00Z",
+            "source": "agent"
+          }
+        ]
       }
     ],
     "confidence": "high",
@@ -38,7 +40,7 @@
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 250,
+    "total_chars": 251,
     "total_words": 43,
     "total_pages": 2,
     "empty_pages": 0,
@@ -52,29 +54,29 @@
     ],
     "chars_per_page": [
       71,
-      179
+      180
     ],
-    "chars_per_page_median": 125.0,
+    "chars_per_page_median": 125.5,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
-    "dwr_score": 0.1,
+    "dwr_score": 0.075,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "fr",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "low_dwr"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   },
   "review": {
     "status": "agent_verified",
     "agent_model": "claude-opus-4-6",
     "errors_found": 2,
     "estimated_accuracy": 0.93,
-    "edited_pages": [2],
+    "edited_pages": [
+      2
+    ],
     "notes": "Page 2: Corrected 'Ihre Le' to 'Ihre Sie' (standard epistolary formula 'Ihre Sie schätzende'). Corrected 'n. mir' to 'u. mir' (abbreviation for 'und'). 'Luse' left as-is — possibly a nickname, not confident enough to change.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T21:30:00Z"

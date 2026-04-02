@@ -1,0 +1,84 @@
+{
+  "object_id": "o_szd.789",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 14. März 1938, SZ-AAP/B1.191",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.789/IMG.1",
+      "https://gams.uni-graz.at/o:szd.789/IMG.2",
+      "https://gams.uni-graz.at/o:szd.789/IMG.3",
+      "https://gams.uni-graz.at/o:szd.789/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 14. März 1938, SZ-AAP/B1.191\n- Signatur: SZ-AAP/B1.191\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT. Sy.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR.\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\nLONDON, E.C. 2.\n\n14. März 1938.\n\nHerrn Stefan Zweig,\n49, Hallam Street,\nW 1.\n\nSehr verehrter Herr Zweig,\n\nBezugnehmend auf unsere telefonische\n/ Unterhaltung erlaube ich mir, Ihnen anbei Abschrift des leider\nnegativen Bescheides des Board of Trade zu behändigen.\n\nMit freundlichen Grüssen\n\nIhr Ihnen sehr ergebener\n\n[Unterschrift]",
+        "notes": "Typoskript auf Briefpapier mit gedrucktem Briefkopf. Die Unterschrift ist handschriftlich, aber unleserlich. Die Zeile mit dem Schrägstrich am Anfang scheint eine Einrückung oder ein Markierungszeichen zu sein.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Copy\n\nCommercial Relations and Treaties\nDepartment,\nBoard of Trade,\nGreat George Street,\nLondon, S.W. 1.\n\n10th March, 1938\n\nSir,\n\nWith further reference to the payment of book\nroyalties due from the Insel-Verlag G.m.b.H., of Leipzig,\nto Mr. Stefan Zweig, I am directed by the Board of Trade\nto state that, after consultation with the Commercial Counsellor\nto His Majesty's Embassy at Berlin in the matter, they have\ncome to the conclusion, with regret, that they are unable\nto assist in obtaining the transfer of the sums in question.\n\nI am, Sir,\nYour obedient Servant,\n\nsgd. I. M Forsyth (?)\n\nDr. Alfred Kauffmann,\n16 Coleman Street,\nE.C.2.",
+        "notes": "Typoskript (Durchschlag/Kopie). Das Fragezeichen bei 'Forsyth' ist im Original als Teil des Textes oder als unsichere Lesung der Unterschrift zu interpretieren.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die einzige Unsicherheit besteht in der Identifikation der Unterschrift auf Seite 1 und der Namenslesung auf Seite 3."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1177,
+    "total_words": 180,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      536,
+      0,
+      641,
+      0
+    ],
+    "chars_per_page_median": 588.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2686,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

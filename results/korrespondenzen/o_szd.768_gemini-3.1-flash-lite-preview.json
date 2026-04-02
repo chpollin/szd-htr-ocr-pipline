@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.768",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Alfred Kauffmann vom 11. Januar 1938, SZ-AAP/B1.172",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.768/IMG.1",
+      "https://gams.uni-graz.at/o:szd.768/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Alfred Kauffmann vom 11. Januar 1938, SZ-AAP/B1.172\n- Signatur: SZ-AAP/B1.172\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Alfred Kaufmann\n\n11.Januar 1938.\n\nSehr geehrter Herr Doktor!\n\nIch erlaube mir, Ihnen in der Anlage zu\nsenden erstens einen Scheck zur Begleichung Ihrer Note,\nzweitens in einem verschlossenen Couvert die photosta-\ntische Kopie des Testaments und einige dazugehörige Do-\nkumente. Ich habe darauf ausdrücklich die Stelle ver-\nmerkt, wo sich das Original meines Testaments immer be-\nfinden wird. Darf ich Sie bitten, dies für mich in Ver-\nwahrung zu nehmen?\n\nHaben Sie noch besten Dank für Ihre Bemü-\nhungen und empfangen Sie mit Fräulein Dr. Melchior die\nbesten Empfehlungen\n\nIhres ergebenen",
+        "notes": "Typoskript auf Briefpapier. Der Name 'Alfred Kaufmann' ist handschriftlich in Tinte hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 588,
+    "total_words": 91,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      588,
+      0
+    ],
+    "chars_per_page_median": 588,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4222,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

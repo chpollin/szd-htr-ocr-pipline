@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.828",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 1. Juni 1937, SZ-AAP/B1.46",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.828/IMG.1",
+      "https://gams.uni-graz.at/o:szd.828/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. Juni 1937, SZ-AAP/B1.46\n- Signatur: SZ-AAP/B1.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                         Briefadresse: Wien · VI · Strohmayergasse 6\n                         Telegrammadresse: Reichnerverlag Wien\n   Dr.Stefan Zweig,Esq.  Telephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\n   49,Hallam Street      Postscheckkonten: Leipzig 8442\n   London,W.1                            Wien 46.469\n                                         Prag 501.701\n                         ENGLAND         Zürich VIII 18122\n                         Banken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\n                                 Schweizerischer Bankverein, Zürich\n                                 Swiss Bank Corporation, London E. C. 2\nRef.\n•  Abrechnung per 31.Mai 1937           1.Juni 1937 /F\n   --------------------------\n\nSehr verehrter Herr Dr.Zweig:\n\nWir übersenden Ihnen anbei die Abrechnung per 31.Mai 1937 und geben\nder Freude darüber Ausdruck,dass sogar in diesem Monat insgesamt\nüber 900 Bücher von Ihren Werken verkauft wurden.\nWir haben die diesmonatliche Abrechnung schon auf Grund der neuen\nVereinbarungen erstellt und Ihnen S.1200.- als Differenz für honorar-\nfreie Exemplare gutgebracht.\nWir bitten Sie um Kenntnisnahme und Bestätigung der Abrechnung.\nGleichzeitig wollen Sie uns auch gefälligst mitteilen,wie Sie über\nIhr Guthaben verfügen wollen.\nMit vorzüglicher Hochachtung\n\n                                  Ihre sehr ergebenen\n                                  [Unterschrift]",
+        "notes": "Geschäftsbrief auf Firmenpapier des Herbert Reichner Verlags. Maschinenschrift. Die Unterschrift ist handschriftlich, aber unleserlich. Die Seite ist in sehr gutem Zustand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Briefkopfes und des Textes von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klarer Maschinendruck. Die einzige handschriftliche Komponente ist die Unterschrift, die nicht entzifferbar ist, was jedoch den Gesamttext nicht beeinträchtigt."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1457,
+    "total_words": 149,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1457,
+      0
+    ],
+    "chars_per_page_median": 1457,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3022,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,976 @@
+{
+  "generated_by": "diagnose_truncation.py",
+  "total_issues": 97,
+  "issues": [
+    {
+      "object_id": "o_szd.100",
+      "collection": "lebensdokumente",
+      "group": "typoskript",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.100_consensus.json"
+    },
+    {
+      "object_id": "o_szd.101",
+      "collection": "lebensdokumente",
+      "group": "typoskript",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.101_consensus.json"
+    },
+    {
+      "object_id": "o_szd.102",
+      "collection": "lebensdokumente",
+      "group": "typoskript",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.102_consensus.json"
+    },
+    {
+      "object_id": "o_szd.1056",
+      "collection": "lebensdokumente",
+      "group": "formular",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 11,
+      "result_file": "o_szd.1056_consensus.json"
+    },
+    {
+      "object_id": "o_szd.105",
+      "collection": "lebensdokumente",
+      "group": "typoskript",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 8,
+      "result_file": "o_szd.105_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.121",
+      "collection": "lebensdokumente",
+      "group": "typoskript",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.121_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.127",
+      "collection": "lebensdokumente",
+      "group": "konvolut",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 7,
+      "result_file": "o_szd.127_consensus.json"
+    },
+    {
+      "object_id": "o_szd.127",
+      "collection": "lebensdokumente",
+      "group": "konvolut",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 7,
+      "result_file": "o_szd.127_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.137",
+      "collection": "lebensdokumente",
+      "group": "kurztext",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.137_consensus.json"
+    },
+    {
+      "object_id": "o_szd.138",
+      "collection": "lebensdokumente",
+      "group": "kurztext",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.138_consensus.json"
+    },
+    {
+      "object_id": "o_szd.139",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.139_consensus.json"
+    },
+    {
+      "object_id": "o_szd.141",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 84,
+      "result_file": "o_szd.141_consensus.json"
+    },
+    {
+      "object_id": "o_szd.141",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 84,
+      "result_file": "o_szd.141_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.142",
+      "collection": "lebensdokumente",
+      "group": "kurztext",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.142_consensus.json"
+    },
+    {
+      "object_id": "o_szd.143",
+      "collection": "lebensdokumente",
+      "group": "tabellarisch",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 249,
+      "result_file": "o_szd.143_consensus.json"
+    },
+    {
+      "object_id": "o_szd.145",
+      "collection": "lebensdokumente",
+      "group": "formular",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.145_consensus.json"
+    },
+    {
+      "object_id": "o_szd.146",
+      "collection": "lebensdokumente",
+      "group": "formular",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 11,
+      "result_file": "o_szd.146_consensus.json"
+    },
+    {
+      "object_id": "o_szd.146",
+      "collection": "lebensdokumente",
+      "group": "formular",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 11,
+      "result_file": "o_szd.146_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.148",
+      "collection": "lebensdokumente",
+      "group": "kurztext",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 1,
+      "result_file": "o_szd.148_consensus.json"
+    },
+    {
+      "object_id": "o_szd.149",
+      "collection": "lebensdokumente",
+      "group": "tabellarisch",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 165,
+      "result_file": "o_szd.149_consensus.json"
+    },
+    {
+      "object_id": "o_szd.149",
+      "collection": "lebensdokumente",
+      "group": "tabellarisch",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 165,
+      "result_file": "o_szd.149_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.151",
+      "collection": "lebensdokumente",
+      "group": "kurztext",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.151_consensus.json"
+    },
+    {
+      "object_id": "o_szd.168",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.168_consensus.json"
+    },
+    {
+      "object_id": "o_szd.170",
+      "collection": "lebensdokumente",
+      "group": "kurztext",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.170_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.174",
+      "collection": "lebensdokumente",
+      "group": "tabellarisch",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 122,
+      "result_file": "o_szd.174_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.175",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 43,
+      "result_file": "o_szd.175_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.179",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 9,
+      "result_file": "o_szd.179_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.194",
+      "collection": "lebensdokumente",
+      "group": "tabellarisch",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 135,
+      "result_file": "o_szd.194_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.195",
+      "collection": "lebensdokumente",
+      "group": "tabellarisch",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 135,
+      "result_file": "o_szd.195_consensus.json"
+    },
+    {
+      "object_id": "o_szd.195",
+      "collection": "lebensdokumente",
+      "group": "tabellarisch",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 135,
+      "result_file": "o_szd.195_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.196",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 9,
+      "result_file": "o_szd.196_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.66",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "vlm_mismatch",
+      "input_images": 141,
+      "result_pages": 2,
+      "actual_images": 141,
+      "result_file": "o_szd.66_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.67",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "vlm_mismatch",
+      "input_images": 237,
+      "result_pages": 108,
+      "actual_images": 237,
+      "result_file": "o_szd.67_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.68",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "vlm_mismatch",
+      "input_images": 202,
+      "result_pages": 3,
+      "actual_images": 202,
+      "result_file": "o_szd.68_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.70",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "zero_pages",
+      "input_images": 91,
+      "result_pages": 0,
+      "actual_images": 91,
+      "result_file": "o_szd.70_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.76",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "zero_pages",
+      "input_images": 60,
+      "result_pages": 0,
+      "actual_images": 60,
+      "result_file": "o_szd.76_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.77",
+      "collection": "lebensdokumente",
+      "group": "handschrift",
+      "issue_type": "zero_pages",
+      "input_images": 95,
+      "result_pages": 0,
+      "actual_images": 95,
+      "result_file": "o_szd.77_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1879",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "zero_pages",
+      "input_images": 25,
+      "result_pages": 0,
+      "actual_images": 25,
+      "result_file": "o_szd.1879_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1886",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "zero_pages",
+      "input_images": 175,
+      "result_pages": 0,
+      "actual_images": 175,
+      "result_file": "o_szd.1886_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1887",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.1887_consensus.json"
+    },
+    {
+      "object_id": "o_szd.1888",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 14,
+      "result_file": "o_szd.1888_consensus.json"
+    },
+    {
+      "object_id": "o_szd.1888",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 14,
+      "result_file": "o_szd.1888_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1891",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 45,
+      "result_file": "o_szd.1891_consensus.json"
+    },
+    {
+      "object_id": "o_szd.1891",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 45,
+      "result_file": "o_szd.1891_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1892",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 146,
+      "result_file": "o_szd.1892_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1893",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 21,
+      "result_pages": 10,
+      "actual_images": 21,
+      "result_file": "o_szd.1893_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1894",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 19,
+      "result_pages": 9,
+      "actual_images": 19,
+      "result_file": "o_szd.1894_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1896",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 14,
+      "result_file": "o_szd.1896_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1897",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 9,
+      "result_file": "o_szd.1897_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1899",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 17,
+      "result_file": "o_szd.1899_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.201",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 57,
+      "result_pages": 14,
+      "actual_images": 57,
+      "result_file": "o_szd.201_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.202",
+      "collection": "werke",
+      "group": "handschrift",
+      "issue_type": "zero_pages",
+      "input_images": 13,
+      "result_pages": 0,
+      "actual_images": 13,
+      "result_file": "o_szd.202_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.204",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 53,
+      "result_file": "o_szd.204_consensus.json"
+    },
+    {
+      "object_id": "o_szd.204",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 53,
+      "result_file": "o_szd.204_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.205",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 47,
+      "result_pages": 23,
+      "actual_images": 47,
+      "result_file": "o_szd.205_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.206",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 19,
+      "result_file": "o_szd.206_consensus.json"
+    },
+    {
+      "object_id": "o_szd.206",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 19,
+      "result_file": "o_szd.206_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.208",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 45,
+      "result_pages": 23,
+      "actual_images": 45,
+      "result_file": "o_szd.208_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.209",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "zero_pages",
+      "input_images": 5,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.209_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.210",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 15,
+      "result_pages": 7,
+      "actual_images": 15,
+      "result_file": "o_szd.210_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.211",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 15,
+      "result_pages": 7,
+      "actual_images": 15,
+      "result_file": "o_szd.211_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.213",
+      "collection": "werke",
+      "group": "handschrift",
+      "issue_type": "vlm_mismatch",
+      "input_images": 27,
+      "result_pages": 12,
+      "actual_images": 27,
+      "result_file": "o_szd.213_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.215",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 43,
+      "result_pages": 21,
+      "actual_images": 43,
+      "result_file": "o_szd.215_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.219",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 26,
+      "result_file": "o_szd.219_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.221",
+      "collection": "werke",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 51,
+      "result_pages": 1,
+      "actual_images": 51,
+      "result_file": "o_szd.221_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.247",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 21,
+      "result_file": "o_szd.247_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.267",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "zero_pages",
+      "input_images": 107,
+      "result_pages": 0,
+      "actual_images": 107,
+      "result_file": "o_szd.267_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.273",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 238,
+      "result_file": "o_szd.273_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.277",
+      "collection": "werke",
+      "group": "konvolut",
+      "issue_type": "max5_truncated",
+      "input_images": 3,
+      "result_pages": 3,
+      "actual_images": 93,
+      "result_file": "o_szd.277_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2853",
+      "collection": "werke",
+      "group": "korrekturfahne",
+      "issue_type": "max5_truncated",
+      "input_images": 5,
+      "result_pages": 5,
+      "actual_images": 17,
+      "result_file": "o_szd.2853_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2213",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 4,
+      "result_file": "o_szd.2213_consensus.json"
+    },
+    {
+      "object_id": "o_szd.2215",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.2215_consensus.json"
+    },
+    {
+      "object_id": "o_szd.2217",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.2217_consensus.json"
+    },
+    {
+      "object_id": "o_szd.2230",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 5,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.2230_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2234",
+      "collection": "aufsatzablage",
+      "group": "handschrift",
+      "issue_type": "vlm_mismatch",
+      "input_images": 13,
+      "result_pages": 2,
+      "actual_images": 13,
+      "result_file": "o_szd.2234_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2256",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 5,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.2256_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2271",
+      "collection": "aufsatzablage",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 25,
+      "result_pages": 1,
+      "actual_images": 25,
+      "result_file": "o_szd.2271_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2284",
+      "collection": "aufsatzablage",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 15,
+      "result_pages": 7,
+      "actual_images": 15,
+      "result_file": "o_szd.2284_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2302",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.2302_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2307",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.2307_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2309",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 7,
+      "result_pages": 0,
+      "actual_images": 7,
+      "result_file": "o_szd.2309_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2312",
+      "collection": "aufsatzablage",
+      "group": "handschrift",
+      "issue_type": "vlm_mismatch",
+      "input_images": 7,
+      "result_pages": 2,
+      "actual_images": 7,
+      "result_file": "o_szd.2312_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2314",
+      "collection": "aufsatzablage",
+      "group": "zeitungsausschnitt",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.2314_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.2322",
+      "collection": "aufsatzablage",
+      "group": "typoskript",
+      "issue_type": "vlm_mismatch",
+      "input_images": 7,
+      "result_pages": 3,
+      "actual_images": 7,
+      "result_file": "o_szd.2322_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1079",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.1079_consensus.json"
+    },
+    {
+      "object_id": "o_szd.1081",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.1081_consensus.json"
+    },
+    {
+      "object_id": "o_szd.1088",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 0,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.1088_consensus.json"
+    },
+    {
+      "object_id": "o_szd.1110",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.1110_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1418",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 5,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.1418_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1461",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 5,
+      "result_pages": 0,
+      "actual_images": 5,
+      "result_file": "o_szd.1461_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1535",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.1535_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1546",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.1546_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1568",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.1568_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.1672",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.1672_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.482",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.482_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.564",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.564_gemini-3.1-flash-lite-preview.json"
+    },
+    {
+      "object_id": "o_szd.649",
+      "collection": "korrespondenzen",
+      "group": "korrespondenz",
+      "issue_type": "zero_pages",
+      "input_images": 3,
+      "result_pages": 0,
+      "actual_images": 3,
+      "result_file": "o_szd.649_gemini-3.1-flash-lite-preview.json"
+    }
+  ]
+}

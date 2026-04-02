@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.767",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 10. Januar 1938, SZ-AAP/B1.171",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.767/IMG.1",
+      "https://gams.uni-graz.at/o:szd.767/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 10. Januar 1938, SZ-AAP/B1.171\n- Signatur: SZ-AAP/B1.171\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "10.Januar 1938.\n\nGeehrter Herr Reichner!\n\nVon sogenannter \"befreundeter\"\nSeite erhalte ich mit einigen persönlichen Beschimpfun-\ngen den Ausschnitt vom \"Christlichen Ständestaat\" zuge-\nschickt und muss nur hoffen, dass sieh die Sache nicht\nwirklich so verhält, wie es dargestellt ist. Sie hätten\nes sich damit wegen paar hundert Schillingen mit beiden\nSeiten verdorben, mit der ehrenwerten Reichskulturkammer\neinerseits, anderseits mit allen jenen Kreisen und Blät-\ntern, welche die Aberklärung unseres Rechts, in deutscher\nSprache zu schreiben und zu erscheinen, als eine freche\nUeberhebung betrachten. Sollte ich irgendwie eingemengt\nwerden, so muss ich selbstverständlich die Wahrheit sa-\ngen, dass ich auch nicht die leiseste Ahnung von dieser\nDoppelausgabe hatte und nur die eine mit den Gedichten\nHeines erhalten und eingesehen habe. Ausserdem werde\nich vielleicht auch sonst genötigt sein, den Grenzstrich\ngegen Nazideutschland schärfer zu ziehen, um nicht da einer\nzweideutigen Haltung bezichtigt zu werden.\nNun, ich hoffe ja noch immer, dass\nsich die Sache nicht so verhalten hat. Man ist ja gewohnt,",
+        "notes": "Typoskript auf Briefpapier. Die Lochungen am linken Rand sind vorhanden. Der Text bricht am Ende der Seite ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "in den Zeitungen heutzutage die gröbsten Unrichtigkei-\nten zu finden.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+        "notes": "Typoskript, Fortsetzung der Seite 1. Der Text ist durchscheinend von der Rückseite (bzw. Vorderseite) leicht sichtbar, wurde aber gemäß Anweisung nicht transkribiert.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Ein kleiner Tippfehler im Original (\"sieh\" statt \"sich\") wurde originalgetreu übernommen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1226,
+    "total_words": 178,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1109,
+      117
+    ],
+    "chars_per_page_median": 613.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4859,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

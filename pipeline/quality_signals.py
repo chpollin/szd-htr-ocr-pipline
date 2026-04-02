@@ -1,10 +1,11 @@
 """Quality signals: automatische Qualitätsprüfung von Transkriptionsergebnissen.
 
-Berechnet 8 Signale gemäß verification-concept.md §2.3–2.5 und aggregiert
+Berechnet Signale gemäß verification-concept.md §2.3–2.5 und aggregiert
 sie zu einem needs_review-Flag.
 
-v1.2: Leerseiten-Klassifikation, DWR (Dictionary Word Ratio).
+v1.2: Leerseiten-Klassifikation.
 v1.4: Duplikat-Schwelle gesenkt (50 statt 200 Zeichen) fuer Halluzinationserkennung.
+v1.5: DWR entfernt (rho=0.05, wertlos), marker_density aus needs_review entfernt.
 """
 
 import re
@@ -28,66 +29,9 @@ LANG_MAP = {
 }
 
 
-# DWR-Wortlisten: Top ~500 häufigste Wörter pro Sprache (deckt ~90% eines Textes ab)
-# Quelle: Frequenzlisten aus Wikipedia-Korpora, manuell kuratiert
-DWR_WORDS = {
-    "de": {
-        "der", "die", "und", "in", "den", "von", "zu", "das", "mit", "sich", "des",
-        "auf", "für", "ist", "im", "dem", "nicht", "ein", "eine", "als", "auch", "es",
-        "an", "werden", "aus", "er", "hat", "dass", "sie", "nach", "wird", "bei",
-        "einer", "um", "am", "sind", "noch", "wie", "einem", "über", "so", "zum",
-        "war", "haben", "nur", "oder", "aber", "vor", "zur", "bis", "mehr", "durch",
-        "man", "seine", "kann", "wenn", "schon", "seit", "diesem", "dieser", "wieder",
-        "hier", "gegen", "unter", "sehr", "mich", "mir", "dann", "zwischen", "dort",
-        "immer", "ihren", "beiden", "allem", "doch", "ihre", "seinen", "dieses", "alle",
-        "worden", "ihre", "einem", "etwas", "nun", "weil", "diesen", "anderen", "davon",
-        "heute", "wir", "mein", "ich", "du", "er", "sie", "wir", "ihr", "dein",
-        "sein", "meine", "ihre", "unser", "jetzt", "leben", "zeit", "haus", "kind",
-        "frau", "mann", "tag", "jahr", "stadt", "land", "welt", "nacht", "geld",
-        "arbeit", "brief", "buch", "hand", "kopf", "seite", "teil", "wort", "weg",
-        "stelle", "liebe", "herr", "freund", "recht", "grund", "frage", "macht",
-        "viel", "gut", "gross", "klein", "alt", "neu", "lang", "kurz", "hoch",
-        "erste", "letzte", "ganze", "andere", "gleiche", "eigene", "neue", "alte",
-        "kommen", "gehen", "sehen", "geben", "nehmen", "finden", "stehen", "lassen",
-        "sagen", "wissen", "wollen", "sollen", "müssen", "können", "dürfen", "mögen",
-        "machen", "bringen", "halten", "bleiben", "führen", "zeigen", "sprechen",
-        "denken", "glauben", "kennen", "heissen", "beginnen", "liegen", "setzen",
-        "spielen", "lesen", "schreiben", "fahren", "tragen", "fallen", "ziehen",
-        "also", "selbst", "schon", "dabei", "dabei", "darum", "darauf", "darin",
-        "dazu", "damit", "daher", "deshalb", "trotzdem", "dennoch", "allerdings",
-        "bereits", "jedoch", "eigentlich", "vielleicht", "wahrscheinlich", "offenbar",
-        "niemals", "kaum", "etwa", "bitte", "danke", "herr", "frau", "Wien",
-        "österreich", "deutsch", "deutschland", "schweiz", "europa", "paris", "london",
-    },
-    "fr": {
-        "le", "de", "un", "être", "et", "à", "il", "avoir", "ne", "je", "son",
-        "que", "se", "qui", "ce", "dans", "en", "du", "elle", "au", "pour", "pas",
-        "par", "sur", "faire", "plus", "dire", "me", "on", "mon", "lui", "nous",
-        "comme", "mais", "pouvoir", "avec", "tout", "y", "aller", "voir", "bien",
-        "où", "sans", "tu", "ou", "leur", "homme", "si", "deux", "mari", "moi",
-        "vouloir", "te", "femme", "venir", "quand", "grand", "celui", "notre",
-        "jour", "temps", "très", "savoir", "falloir", "sous", "aussi", "vie",
-        "même", "après", "autre", "entre", "petit", "encore", "bon", "rien",
-        "premier", "chez", "monde", "pays", "cette", "main", "fois", "les", "des",
-        "ses", "mes", "tes", "ces", "une", "aux", "quelque", "dont", "tous",
-        "toute", "toutes", "contre", "vers", "avant", "depuis", "pendant", "ici",
-    },
-    "en": {
-        "the", "be", "to", "of", "and", "a", "in", "that", "have", "i", "it",
-        "for", "not", "on", "with", "he", "as", "you", "do", "at", "this", "but",
-        "his", "by", "from", "they", "we", "say", "her", "she", "or", "an", "will",
-        "my", "one", "all", "would", "there", "their", "what", "so", "up", "out",
-        "if", "about", "who", "get", "which", "go", "me", "when", "make", "can",
-        "like", "time", "no", "just", "him", "know", "take", "people", "into",
-        "year", "your", "good", "some", "could", "them", "see", "other", "than",
-        "then", "now", "look", "only", "come", "its", "over", "think", "also",
-        "back", "after", "use", "two", "how", "our", "work", "first", "well",
-        "way", "even", "new", "want", "because", "any", "these", "give", "day",
-        "most", "letter", "book", "life", "hand", "part", "house", "world", "name",
-        "great", "old", "long", "between", "own", "should", "still", "last", "never",
-        "same", "another", "much", "must", "before", "right", "too", "mean", "may",
-    },
-}
+# DWR (Dictionary Word Ratio) was removed in v1.5 — evaluated against 68 verified
+# objects: Spearman rho=0.05, F1=0.20. It measured prose density, not quality.
+# See evaluation-results.md §5.1 for full analysis.
 
 
 def _classify_page(page: dict) -> str:
@@ -109,18 +53,6 @@ def _classify_page(page: dict) -> str:
         if not text:
             return "blank"
     return "content"
-
-
-def _compute_dwr(text: str, lang: str) -> float:
-    """Compute Dictionary Word Ratio: fraction of words found in word list."""
-    if not text.strip():
-        return 0.0
-    words = re.findall(r"[a-zäöüàâéèêëïîôùûçß]+", text.lower())
-    if not words:
-        return 0.0
-    wordlist = DWR_WORDS.get(lang, DWR_WORDS.get("de", set()))
-    known = sum(1 for w in words if w in wordlist)
-    return known / len(words)
 
 
 def _detect_language(text: str) -> str:
@@ -256,8 +188,9 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         reasons.append("language_mismatch")
     if marker_density > 0.05:
         reasons.append("marker_density")
-    if dwr_score > 0 and dwr_score < 0.15:
-        reasons.append("low_dwr")
+    # low_dwr removed from needs_review (Session 20): Spearman rho=0.05,
+    # F1=0.20 — no correlation with actual accuracy. DWR measures prose
+    # density, not transcription quality. Kept as informational field.
 
     return {
         "version": "1.4",

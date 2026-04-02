@@ -17,32 +17,42 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in B\u00f6hmen\nVilla Fleischer\nKohlstasse[?]",
+        "transcription": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer\nKohlstasse[?]",
         "notes": "Adressseite der Postkarte. Der Stempel ist teilweise unleserlich, zeigt aber 'KOMOTAU' und das Datum '21.6.02'. Die Briefmarke ist ein 5-Pfennig-Wert des Deutschen Reiches, gestempelt 'BERLIN 20.6.02'.",
         "type": "content"
       },
       {
         "page": 2,
-        "transcription": "Lieber Max, zun\u00e4chst nur die\ndringende Bitte um die zwei An-\nfangszeilen zum \u201eColloque sentimental\u201c\nBeides daf\u00fcr gebe ich Montag zur Uni-\nversit\u00e4t. Herzliche Gr\u00fc\u00dfe Dein\nStefan",
+        "transcription": "Lieber Max, zunächst nur die\ndringende Bitte um die zwei An-\nfangszeilen zum „Colloque sentimental“\nBeides dafür gebe ich Montag zur Uni-\nversität. Herzliche Grüße Dein\nStefan",
         "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Lieber Max, zunächt nur die\ndringende Bitte um die zwei An-\nfangzeilen zum „Colloque sentimental“\nBeides dafür gebe ich Montag zur Uni-\nversität. Herzliche Grüße Dein\nStefan",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T16:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 3,
-        "transcription": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in B\u00f6hmen\nVilla Fleischer\nKohlstasse[?]",
+        "transcription": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer\nKohlstasse[?]",
         "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) im Kontext der Farb- und Grauskala-Referenzkarten.",
         "type": "color_chart"
       }
     ],
     "confidence": "high",
-    "confidence_notes": "Der Text ist gut lesbar, lediglich das letzte Wort der Adresse ('Kohlstasse' oder 'Kohlstra\u00dfe') ist aufgrund der Handschrift leicht unsicher."
+    "confidence_notes": "Der Text ist gut lesbar, lediglich das letzte Wort der Adresse ('Kohlstasse' oder 'Kohlstraße') ist aufgrund der Handschrift leicht unsicher."
   },
   "review": {
     "status": "agent_verified",
     "agent_model": "claude-opus-4-6",
     "errors_found": 2,
     "estimated_accuracy": 0.99,
-    "edited_pages": [2],
+    "edited_pages": [
+      2
+    ],
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T16:00:00Z"
   },

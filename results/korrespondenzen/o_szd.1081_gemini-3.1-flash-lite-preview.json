@@ -4,7 +4,10 @@
     "agent_model": "claude-opus-4-6",
     "errors_found": 2,
     "estimated_accuracy": 0.979,
-    "edited_pages": [1, 2],
+    "edited_pages": [
+      1,
+      2
+    ],
     "notes": "Page 1: 'Hud. inr.' -> 'Stud. iur.' (Studiosus iuris, confirmed by Staatsprüfung reference in o_szd.1079). Page 2: 'devin' -> 'darin' (Kurrent r misread as v, a as e). Foreign quoted words ('graciösa', 'fittae') remain uncertain but not corrected.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T16:00:00Z"
@@ -29,13 +32,29 @@
         "page": 1,
         "transcription": "An\nMax Fleischer\nStud. iur.\nin\nKomotau\nNordböhmen",
         "notes": "Adressseite der Postkarte. 'Stud. iur.' = Studiosus iuris (Jurastudent). Poststempel: WIEN 5 6.01 6-7N.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T16:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 2,
         "transcription": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa” darin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
         "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa“ devin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+            "edited_by": "Claude Code Agent",
+            "edited_at": "2026-04-02T16:00:00Z",
+            "source": "agent"
+          }
+        ]
       },
       {
         "page": 3,

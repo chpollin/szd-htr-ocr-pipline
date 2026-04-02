@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.817",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.36",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.817/IMG.1",
+      "https://gams.uni-graz.at/o:szd.817/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.36\n- Signatur: SZ-AAP/B1.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\n\nPostcheckkonto\nLeipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr.Stefan Zweig Esq.\n49,Hallam Street\nLondon W.1\n\nENGLAND\n\nDr.Ernst Pollak\n19.Mai 1937 /H\n\nSehr verehrter Herr Dr. Zweig:\n\nHerr Dr.Ernst Pollak ruft uns soeben auf und ersucht\nuns für Sie einige Literatur über österreichisches\nMilitär zu besorgen u.a.\n\n8er-Ulanen (Tagblatt-Bibliothek)\nHeydenau,Leutnant Lugger (Bermann-Fischer\nVerlag)\n\nWir bitten Sie um Ihr freundliches Einverständnis,dass\nwir diese und eventuelle andere Bücher Ihnen direkt\nzuschicken, und sind im voraus bestens dankend\n\nIhre sehr ergebenen\n\nWIEN, VI., Strohmayergasse 6\nHERBERT REICHNER VERLAG",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/violett). Der Text unter 'Dr. Ernst Pollak' ist unterstrichen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Sichtbare Klebestreifen/Papierverstärkungen an den Rändern.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 823,
+    "total_words": 109,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      823,
+      0
+    ],
+    "chars_per_page_median": 823,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2273,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

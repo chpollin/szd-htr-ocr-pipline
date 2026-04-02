@@ -48,42 +48,36 @@
   },
   "quality_signals": {
     "version": "1.4",
-    "total_chars": 2866,
+    "total_chars": 2867,
     "total_words": 447,
-    "total_pages": 3,
+    "total_pages": 2,
     "empty_pages": 0,
     "blank_pages": 0,
-    "color_chart_pages": 0,
-    "content_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
     "input_images": 3,
     "page_types": [
       "content",
       "content",
-      "content"
+      "color_chart"
     ],
     "chars_per_page": [
-      1630,
+      1631,
       618,
       618
     ],
-    "chars_per_page_median": 618,
+    "chars_per_page_median": 1124.5,
     "marker_uncertain_count": 2,
     "marker_illegible_count": 0,
     "marker_density": 0.0045,
-    "dwr_score": 0.4237,
-    "duplicate_page_pairs": [
-      [
-        1,
-        2
-      ]
-    ],
+    "dwr_score": 0.4224,
+    "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "en",
     "language_match": false,
     "page_length_anomalies": [],
     "needs_review": true,
     "needs_review_reasons": [
-      "duplicate_pages",
       "language_mismatch"
     ]
   },
@@ -92,7 +86,9 @@
     "agent_model": "claude-opus-4-6",
     "errors_found": 2,
     "estimated_accuracy": 0.98,
-    "edited_pages": [1],
+    "edited_pages": [
+      1
+    ],
     "notes": "Page 1: Korrektur 'Elisabet'->'Elizabet' und 'Moriz'->'Moritz' (Tippfehler im Gemini-Output). Page 2: korrekt. Page 3: als color_chart reklassifiziert (Duplikat von Seite 2 mit Kodak-Farbkarte). Sprache korrekt Englisch (language_mismatch ist ein TEI-Metadatenfehler, nicht Pipeline-Fehler). duplicate_pages-Flag korrekt: Seite 3 ist Duplikat-Scan von Seite 2.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T19:30:00Z"

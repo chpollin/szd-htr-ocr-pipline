@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.79",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Verlagsvertrag Casa Editrice A. Mondadori, SZ-AAP/L13.2",
+    "language": "Italienisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.79/IMG.1",
+      "https://gams.uni-graz.at/o:szd.79/IMG.2",
+      "https://gams.uni-graz.at/o:szd.79/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Casa Editrice A. Mondadori, SZ-AAP/L13.2\n- Signatur: SZ-AAP/L13.2\n- Sprache: Italienisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "C.C.I. MILANO N° 75065\n\nCasa Editrice A. Mondadori\nSOCIETÀ ANONIMA - CAPITALE INTERAMENTE VERSATO L. 18.000.000\n\nDIREZIONE GENERALE\nav/pf\nMilano, 26 Luglio 1932 X°\nVIA MADDALENA, N° 1.\nTELEFONO: 85-392\n\nVertrag\nMarie Antoinette\n\nTra il Signor STEPHAN ZWEIG e la Casa Editrice A.\nMONDADORI si conviene quanto segue:\n\n1°) - Il Signor Stephan Zweig cede alla Casa Editrice\nA. Mondadori il diritto di traduzione e pubblica-\nzione in lingua italiana del suo volume \"MARIA ANTO-\nNIETTA\", da includersi nella Collezione \"Le Scie\".\nDichiara esso cedente che l'opera è di sua esclusiva\nproprietà, non caduta in pubblico dominio e non ad\naltri ceduta.\n\n2°) - In compenso di tale cessione la Casa Editrice\nA. Mondadori corrisponderà all'autore una percentuale\ndel 10% (dieci per cento) sul prezzo di copertina\ndelle copie effettivamente vendute.\n\n3°) - I rendiconti saranno dati all'autore ogni seme-\nstre, possibilmente entro il mese di marzo e di set-\ntembre di ogni anno.\n\n4°) - La Casa Editrice A. Mondadori si impegna a\npubblicare l'edizione italiana del volume entro il\n31 Dicembre 1932.\n\n5°) - All'autore spetteranno tre copie gratuite del\nvolume.\n\nLetto, approvato e sottoscritto.\n\nSocietà Anonima A. MONDADORI\nIL CONSIGLIERE DELEGATO",
+        "notes": "Typoskript auf offiziellem Briefpapier der Casa Editrice A. Mondadori. Handschriftliche Notiz am linken Rand: 'Vertrag Marie Antoinette'. Unterschrift des Verlagsvertreters in roter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Notiz am Rand ist ebenfalls eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1231,
+    "total_words": 194,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1231,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1231,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0495,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
