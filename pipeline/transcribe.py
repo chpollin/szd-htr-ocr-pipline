@@ -49,6 +49,16 @@ GROUP_PROMPTS = {
     "korrespondenz": load_prompt("group_i_korrespondenz.md"),
 }
 
+OBJECT_PROMPTS_DIR = PROMPTS_DIR / "objects"
+
+
+def load_object_prompt(object_id: str) -> str | None:
+    """Load object-specific prompt if it exists. Returns None if no override."""
+    prompt_path = OBJECT_PROMPTS_DIR / f"{object_id}.md"
+    if prompt_path.exists():
+        return load_prompt(f"objects/{object_id}.md")
+    return None
+
 
 # --- Object Discovery ---
 
@@ -206,6 +216,175 @@ def parse_api_response(text: str, object_id: str) -> tuple[dict, list[str]]:
     return {"raw": text}, log
 
 
+# --- Chunking ---
+
+CHUNK_SIZE = 20  # Max images per API call; configurable via --chunk-size
+
+
+def _call_api(client, parts, object_id, label=""):
+    """Single API call with exponential backoff. Returns (result_text, success)."""
+    prefix = f"  {label} " if label else "  "
+    response = None
+    for attempt in range(4):
+        try:
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=parts,
+                config=genai.types.GenerateContentConfig(
+                    system_instruction=SYSTEM_PROMPT,
+                    temperature=0.1,
+                ),
+            )
+            break
+        except Exception as e:
+            err_str = str(e).lower()
+            if "429" in err_str or "resource_exhausted" in err_str or "rate" in err_str:
+                wait = (2 ** attempt) * 5
+                print(f"{prefix}RATE LIMIT (Versuch {attempt + 1}/4): warte {wait}s...")
+                time.sleep(wait)
+            else:
+                print(f"{prefix}FEHLER bei API-Aufruf: {e}")
+                return None, False
+    if response is None:
+        print(f"{prefix}FEHLER: Rate Limit nach 4 Versuchen nicht aufgehoben")
+        return None, False
+
+    result_text = response.text
+    if not result_text:
+        print(f"{prefix}WARNUNG: Leere API-Antwort")
+        return "", False
+    return result_text, True
+
+
+def _parse_with_retry(client, parts, result_text, object_id, label=""):
+    """Parse API response, retry once on failure. Returns parsed dict."""
+    result_json, parse_log = parse_api_response(result_text, object_id)
+    prefix = f"  {label} " if label else "  "
+    for msg in parse_log:
+        print(f"{prefix}{msg}")
+
+    if "raw" in result_json:
+        print(f"{prefix}RETRY: Erneuter Versuch mit JSON-Hinweis...")
+        retry_parts = list(parts) + ["Respond with valid JSON only, no markdown fences."]
+        retry_text, ok = _call_api(client, retry_parts, object_id, label)
+        if ok and retry_text:
+            result_json, retry_log = parse_api_response(retry_text, object_id)
+            for msg in retry_log:
+                print(f"{prefix}RETRY: {msg}")
+
+    return result_json
+
+
+def _transcribe_single_call(client, images, group_prompt, context, object_id):
+    """Transcribe all images in one API call. Returns parsed result dict or None."""
+    user_prompt = (
+        f"{group_prompt}\n\n{context}\n\n"
+        f"Transkribiere die folgenden {len(images)} Faksimile-Scans."
+    )
+    parts = []
+    for name, img_bytes in images:
+        parts.append(genai.types.Part.from_bytes(data=img_bytes, mime_type="image/jpeg"))
+        parts.append(f"[{name}]")
+    parts.append(user_prompt)
+
+    result_text, ok = _call_api(client, parts, object_id)
+    if not ok:
+        return None
+    return _parse_with_retry(client, parts, result_text, object_id)
+
+
+def _transcribe_chunked(client, images, group_prompt, context, object_id, chunk_size, delay):
+    """Transcribe images in chunks, merge results. Returns merged result dict or None."""
+    total = len(images)
+    chunks = []
+    for start in range(0, total, chunk_size):
+        chunks.append(images[start:start + chunk_size])
+
+    print(f"  CHUNKED: {total} Bilder in {len(chunks)} Chunks a max. {chunk_size}")
+
+    all_pages = []
+    confidence_values = []
+    confidence_notes = []
+
+    for ci, chunk in enumerate(chunks):
+        first_page = ci * chunk_size + 1
+        last_page = first_page + len(chunk) - 1
+        label = f"[Chunk {ci + 1}/{len(chunks)}, S.{first_page}-{last_page}]"
+
+        user_prompt = (
+            f"{group_prompt}\n\n{context}\n\n"
+            f"Transkribiere die folgenden {len(chunk)} Faksimile-Scans. "
+            f"Dies sind die Seiten {first_page} bis {last_page} von insgesamt {total} Seiten. "
+            f"Nummeriere die Seiten entsprechend (page: {first_page}, {first_page + 1}, ...)."
+        )
+        parts = []
+        for name, img_bytes in chunk:
+            parts.append(genai.types.Part.from_bytes(data=img_bytes, mime_type="image/jpeg"))
+            parts.append(f"[{name}]")
+        parts.append(user_prompt)
+
+        result_text, ok = _call_api(client, parts, object_id, label)
+        if not ok:
+            print(f"  {label} FEHLER -- Chunk uebersprungen")
+            # Fill with empty pages for failed chunks
+            for page_nr in range(first_page, last_page + 1):
+                all_pages.append({
+                    "page": page_nr,
+                    "transcription": "",
+                    "notes": "Chunk-Fehler: API-Aufruf fehlgeschlagen.",
+                })
+            continue
+
+        chunk_json = _parse_with_retry(client, parts, result_text, object_id, label)
+
+        # Extract pages from chunk result
+        chunk_pages = chunk_json.get("pages", [])
+
+        if not chunk_pages:
+            reason = "JSON nicht parsebar." if "raw" in chunk_json else "Keine Pages im Ergebnis."
+            print(f"  {label} WARNUNG: {reason} Fuege Platzhalter-Seiten ein.")
+            for page_nr in range(first_page, last_page + 1):
+                all_pages.append({
+                    "page": page_nr,
+                    "transcription": "",
+                    "notes": f"Chunk-Fehler: {reason}",
+                })
+            continue
+
+        # Renumber pages to ensure correct global numbering
+        for pi, page in enumerate(chunk_pages):
+            page["page"] = first_page + pi
+        all_pages.extend(chunk_pages)
+
+        # Collect confidence
+        if chunk_json.get("confidence"):
+            confidence_values.append(chunk_json["confidence"])
+        if chunk_json.get("confidence_notes"):
+            confidence_notes.append(f"S.{first_page}-{last_page}: {chunk_json['confidence_notes']}")
+
+        print(f"  {label} -> {len(chunk_pages)} Seiten transkribiert")
+
+        # Rate limit between chunks
+        if ci < len(chunks) - 1:
+            time.sleep(delay)
+
+    # Determine overall confidence (worst of all chunks)
+    confidence_rank = {"low": 0, "medium": 1, "high": 2}
+    overall_confidence = "high"
+    for cv in confidence_values:
+        if confidence_rank.get(cv, 1) < confidence_rank.get(overall_confidence, 2):
+            overall_confidence = cv
+
+    merged = {
+        "pages": all_pages,
+        "confidence": overall_confidence,
+        "confidence_notes": "; ".join(confidence_notes) if confidence_notes else "",
+    }
+
+    print(f"  CHUNKED: {len(all_pages)}/{total} Seiten gesamt, Konfidenz: {overall_confidence}")
+    return merged
+
+
 # --- Transcription ---
 
 def transcribe_object(
@@ -213,6 +392,8 @@ def transcribe_object(
     collection: str,
     max_images: int = 0,
     force: bool = False,
+    chunk_size: int = CHUNK_SIZE,
+    chunk_delay: float = BATCH_DELAY,
 ) -> tuple[bool, Path | None]:
     """Transcribe a single object. Returns (success, result_path)."""
     results_dir = results_dir_for(collection)
@@ -234,84 +415,31 @@ def transcribe_object(
 
     print(f"  {len(images)} Bilder, Gruppe {group_letter}:{group_label}")
 
-    # Build prompt
-    group_prompt = GROUP_PROMPTS.get(group)
-    if not group_prompt:
-        print(f"  FEHLER: Kein Prompt für Gruppe '{group}'")
-        return False, None
-    user_prompt = f"{group_prompt}\n\n{context}\n\nTranskribiere die folgenden {len(images)} Faksimile-Scans."
+    # Build prompt: object-specific override > group prompt
+    object_prompt = load_object_prompt(object_id)
+    if object_prompt:
+        group_prompt = object_prompt
+        print(f"  Objekt-Prompt: prompts/objects/{object_id}.md")
+    else:
+        group_prompt = GROUP_PROMPTS.get(group)
+        if not group_prompt:
+            print(f"  FEHLER: Kein Prompt fuer Gruppe '{group}'")
+            return False, None
 
-    # Build content parts
-    parts = []
-    for name, img_bytes in images:
-        parts.append(genai.types.Part.from_bytes(data=img_bytes, mime_type="image/jpeg"))
-        parts.append(f"[{name}]")
-    parts.append(user_prompt)
-
-    # Call Gemini (with exponential backoff on 429/rate limit errors)
     client = genai.Client(api_key=GOOGLE_API_KEY)
-    response = None
-    for attempt in range(4):
-        try:
-            response = client.models.generate_content(
-                model=MODEL,
-                contents=parts,
-                config=genai.types.GenerateContentConfig(
-                    system_instruction=SYSTEM_PROMPT,
-                    temperature=0.1,
-                ),
-            )
-            break
-        except Exception as e:
-            err_str = str(e).lower()
-            if "429" in err_str or "resource_exhausted" in err_str or "rate" in err_str:
-                wait = (2 ** attempt) * 5  # 5s, 10s, 20s, 40s
-                print(f"  RATE LIMIT (Versuch {attempt + 1}/4): warte {wait}s...")
-                time.sleep(wait)
-            else:
-                print(f"  FEHLER bei API-Aufruf: {e}")
-                return False, None
-    if response is None:
-        print(f"  FEHLER: Rate Limit nach 4 Versuchen nicht aufgehoben")
+
+    # Decide: single call or chunked
+    if len(images) <= chunk_size:
+        result_json = _transcribe_single_call(
+            client, images, group_prompt, context, object_id
+        )
+    else:
+        result_json = _transcribe_chunked(
+            client, images, group_prompt, context, object_id, chunk_size, chunk_delay
+        )
+
+    if result_json is None:
         return False, None
-
-    result_text = response.text
-    if not result_text:
-        print(f"  FEHLER: Leere API-Antwort (response.text ist None/leer)")
-        result_text = ""
-
-    # Parse result (with sanitization and retry)
-    result_json, parse_log = parse_api_response(result_text, object_id)
-    for msg in parse_log:
-        print(f"  {msg}")
-
-    # Retry once if still unparseable
-    if "raw" in result_json:
-        print("  RETRY: Erneuter Versuch mit JSON-Hinweis...")
-        retry_parts = list(parts) + ["Respond with valid JSON only, no markdown fences."]
-        for attempt in range(4):
-            try:
-                retry_resp = client.models.generate_content(
-                    model=MODEL,
-                    contents=retry_parts,
-                    config=genai.types.GenerateContentConfig(
-                        system_instruction=SYSTEM_PROMPT,
-                        temperature=0.1,
-                    ),
-                )
-                result_json, retry_log = parse_api_response(retry_resp.text, object_id)
-                for msg in retry_log:
-                    print(f"  RETRY: {msg}")
-                break
-            except Exception as e:
-                err_str = str(e).lower()
-                if "429" in err_str or "resource_exhausted" in err_str or "rate" in err_str:
-                    wait = (2 ** attempt) * 5
-                    print(f"  RETRY RATE LIMIT (Versuch {attempt + 1}/4): warte {wait}s...")
-                    time.sleep(wait)
-                else:
-                    print(f"  RETRY FEHLER: {e}")
-                    break
 
     # Load backup metadata for GAMS URLs
     backup_meta = load_backup_metadata(object_id, collection)
@@ -350,6 +478,7 @@ def run_batch(
     delay: float = BATCH_DELAY,
     force: bool = False,
     max_images: int = 0,
+    chunk_size: int = CHUNK_SIZE,
 ) -> tuple[int, int, int]:
     """Transcribe multiple objects with rate limiting. Returns (done, skipped, failed)."""
     done, skipped, failed = 0, 0, 0
@@ -367,7 +496,7 @@ def run_batch(
             continue
 
         print(f"[{i}/{total}] {oid} ({col})")
-        success, _ = transcribe_object(oid, col, max_images, force)
+        success, _ = transcribe_object(oid, col, max_images, force, chunk_size, delay)
         if success:
             done += 1
         else:
@@ -405,6 +534,8 @@ def main():
                         help="Max. Anzahl Objekte")
     parser.add_argument("--max-images", type=int, default=0,
                         help="Max. Bilder pro Objekt (0=alle)")
+    parser.add_argument("--chunk-size", type=int, default=CHUNK_SIZE,
+                        help=f"Max. Bilder pro API-Call (Default: {CHUNK_SIZE})")
     parser.add_argument("--delay", type=float, default=BATCH_DELAY,
                         help=f"Sekunden zwischen API-Calls (Default: {BATCH_DELAY})")
     parser.add_argument("--force", "-f", action="store_true",
@@ -433,7 +564,8 @@ def main():
             return
         print(f"Transkribiere {args.object_id} ({args.collection})...")
         success, path = transcribe_object(
-            args.object_id, args.collection, args.max_images, args.force
+            args.object_id, args.collection, args.max_images, args.force,
+            args.chunk_size, args.delay,
         )
         sys.exit(0 if success else 1)
 
@@ -469,7 +601,9 @@ def main():
     # Run batch
     print(f"Starte Batch: {len(all_objects)} Objekte, Delay {args.delay}s")
     print("=" * 60)
-    done, skipped, failed = run_batch(all_objects, args.delay, args.force, args.max_images)
+    done, skipped, failed = run_batch(
+        all_objects, args.delay, args.force, args.max_images, args.chunk_size
+    )
     print("=" * 60)
     print(f"Fertig: {done} transkribiert, {skipped} übersprungen, {failed} fehlgeschlagen")
 
