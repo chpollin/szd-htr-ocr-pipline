@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1455",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 22. Mai 1940, SZ-AAP/B3.19",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1455/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1455/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1455/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 22. Mai 1940, SZ-AAP/B3.19\n- Signatur: SZ-AAP/B3.19\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    30\n\n                                          22nd May 1940.\n\nInternational Copyright Bureau,\nDewar House, Haymarket,\nLondon S.W.1.\n\nDear Sir,\n          On receiving your letter of May 21st,\nI have revised our contract of December 9th, 1938\nand would like to draw your attention to § 3 in\nwhich it is agreed:\n\n          \"The Company shall retain or receive out of all\nmonies received by them in respect of the said\nworks or otherwise payable in respect thereof\na commission of ten per cent in respect of\nbusiness done for stage performances and of\nfive per cent in respect of business done for\nfilm rights unless other rates of commission\nare agreed upon in writing between the parties\nhereto........ All previous arrangements are\nhereby cancelled.\"\n\nOn looking over your last statements of account\nI find, however, that you usually charge fifteen\nper cent commission and on some works even 33 1/3rd\nper cent (Komödiant) and once, on \"Volpone\" (state-\nment of November 1939) 25 per cent. I cannot under-\nstand this and would like to receive clear information",
+        "notes": "Typoskript auf Briefpapier. Die Zahl '30' oben rechts ist handschriftlich mit rotem Stift notiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "in this matter. .\n\n          Thanking you for an early reply,\n\n          Yours sincerely,",
+        "notes": "Typoskript, Fortsetzung des Briefes. Der Text ist durchscheinend von der Rückseite (bzw. hier durch das Papier hindurch) leicht sichtbar, wurde aber gemäß Anweisung nicht transkribiert.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "in this matter. .\n\n          Thanking you for an early reply,\n\n          Yours sincerely,",
+        "notes": "Identisch mit Seite 2, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche '30' auf Seite 1 ist ebenfalls eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1304,
+    "total_words": 194,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1126,
+      89,
+      89
+    ],
+    "chars_per_page_median": 89,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.427,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

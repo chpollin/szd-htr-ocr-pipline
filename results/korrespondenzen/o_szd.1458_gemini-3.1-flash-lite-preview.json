@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1458",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 24. Mai 1940, SZ-AAP/B3.22",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1458/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1458/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1458/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 24. Mai 1940, SZ-AAP/B3.22\n- Signatur: SZ-AAP/B3.22\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.I\nTELEPHONES\nWHITEHALL 0175\n0176\nMay 24th, 1940.\n\nDr.Stefan Zweig,\nLyncombe Hill,\nB a t h .\n\nDear Dr.Zweig,\n\nWe are in receipt of your letter of the 23rd, and very much regret\nthat you have got in touch with the Theatre Guild without awaiting our reply to\nyour letter of the previous day. You will have received our reply by now, and\nrealise that you were labouring under a misapprehension. Unfortunately, your\ncable to the Theatre Guild is likely to confuse and puzzle them, and will there-\nfore be little help.\n\nWe also regret that you jump to the conclusion that we were with-\nholding information from you, or had neglected to obtain your consent before\ncompletion of a deal. This is not so. The fact is that you were informed by\nus last summer of the enquiry regarding the film rights, but expressed the view\nthat this was not to be taken seriously. However, you wrote a letter to us at\nthe time stating the difference between the two \"VOLPONE\" versions in question,\nyours and the one written by you in collaboration with Jules Romains. It was\nat your advice that we informed the Theatre Guild accordingly.\n\nSince July last, we have not heard anything further in the \"Volpone\"\nmatter until this April, when the Theatre Guild simply informed us that they had\ngiven an option on the film rights to Mr.Hakim, on the strength of their contract\nfor the version produced by them. In the same letter, they mentioned that Mr.\nHakim had queried the clear title of his option - (since a French Film version\nof \"Volpone\" had been announced in the meantime) - and had given the Theatre\nGuild a short time limit to clear up the query. To save time, we had your explan-\natory letter photocopied and sent this copy to the Theatre Guild the same day,\nassuming that this document would satisfy them.\n\nNo monies were received by them, and only in a recent statement\nfrom Dr.Pauker, a certain amount was included as part payment of the option\non \"Volpone\". In the view of the facts, however, we did not acknowledge receipt\nof this amount on your behalf, but held it in trust until the final settlement\nof the argument. You know the rest, and you have had our full explanation in\nour last letter. Perhaps you will now understand that we acted in good faith,\nand are not to be blamed for any inconvenience that may have arisen.\n./.",
+        "notes": "Typoskript auf offiziellem Briefpapier des International Copyright Bureau Ltd.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "As for the paragraph in your letter concerning the French Film\nrights and the payment erroneously sent to us, we have already apologised to\nyou for a genuine and very comprehensible mistake. We did, in fact, not expect\nany payment for the sale of any film rights, and had not been warned to expect\nany; it was therefore an excusable mistake on the part of our accountants to\ntake the French word \"Solde\"- which was handwritten, and unfamiliar to them - for\n\"Folder\", and misinterpret the meaning of it. If you are passing this office one\nday, we would be pleased to show you the original French statement which bears\na very faint stamp only, \"Cinéma statutaire\",- the meaning of which became\nclear only after we had received your query in the matter. We were very glad\nthat you brought the matter up, and only too pleased to rectify a mistake, and\nwe therefore feel a little bitter about the way you now try to link the two\nmatters up, and throw doubt on the frankness of our action.\n\nIn all our negotiations, we use our best endeavours to deal in a fair and\nfrank manner, and so avoid complications for ourselves and our clients. We shall\ncontinue to do our best on your behalf, and hope you will not make it difficult for\nus by adopting this apparently hostile attitude. We trust that our letters have now\nconvinced you that our desire is to act in collaboration, and arrive at a happy\nsolution.\n\nYours sincerely,\n\nA.Gech",
+        "notes": "Typoskript, Fortsetzung des Briefes. Unterschrift handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Archiv-Scan mit Farbskala und Grauskala zur Dokumentation. Zeigt den oberen Teil des Textes von Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 3937,
+    "total_words": 700,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2514,
+      1423,
+      0
+    ],
+    "chars_per_page_median": 1968.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5244,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

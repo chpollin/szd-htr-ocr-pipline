@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1460",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 30. Mai 1940, SZ-AAP/B3.24",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1460/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1460/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1460/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 30. Mai 1940, SZ-AAP/B3.24\n- Signatur: SZ-AAP/B3.24\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS                                      DEWAR HOUSE           TELEPHONES\nVOLSCIUS LONDON                                HAYMARKET             WHITEHALL 0175\n                                               LONDON S.W.1                      0176\n                                               May 30th, 1940.\n\nDr.Stefan Zweig,\nLyncombe Hill,\nB a t h.\n\nDear Dr.Zweig,\n\nWith reference to your letter of May 24th, and at your request,we are\nsending you herewith photocopy of the Agreement made with the Theatre Guild in\n1927. We cannot add copies of the very lengthy correspondence between yourself,\nFelix Bloch Erben and this firm,preceding this Agreement and contain-\ning further details regarding it;if,however,you are up in town again one of these\ndays,perhaps you would care to look into the contract file yourself.\n\nIn reply to the various points raised in your letter,we deeply regret that\nyou cast doubt upon ~~the~~ our sincerity and integrity,and that you consider the whole\nmatter an\"obscure business\"in which,you seem to think,we have played an unpleasant\npart. May we emphasize one fact again: We have never been informed of any pending\ndeal nor have we been asked to obtain your consent to such deal before its conclusion.\nWe ourselves were informed of the fait accompli,and still do not know the details\nof the deal. The information did not come from the Theatre Guild with whom we had\nbeen in touch,as you know,before and after,but from Dr.Pauker. We beg to enclose\ncopy of a letter we have written to Dr.Pauker two days ago,after ascertaining\ncertain facts which had slipped us.\n\nYou have every right to blame us for one grave mistake we made,and which\nnobody can regret more sincerely than we do. This mistake became apparent to me\nonly on looking through piles of correspondence. We had hitherto concentrated on\nour correspondence with the Theatre Guild,and repeat our truthful statement that\nwe had not heard from them at all between July last and April a.c.- The fact that\nDr.Pauker sent us a statement for the first option payment with letter received\non January 5th,and simultaneously wrote that he was enclosing copy of the agreement\nmade between the Theatre Guild and their client, - which copy however did not reach\nus, - was,by a chain of adverse circumstances,overlooked and not reported to you.\nThis is our great mistake,for which I wish to apologise most sincerely. It probably\ndoes not interest you to hear how this oversight could happen,but the fact remains\nthat was due to a genuine mistake and a most unfortunate coincidence of circum-\nstances. I know that the difficulties we had to face and overcome at the time,and\nthe great strain under which we were working,may be no excuse in your eyes,and I\nunderstand that you feel sore about it all. But I am distressed that you are obvious-\nly doubting our bona fide and good will,and beg you to try and differentiate ./.\nIMPORTANT.-Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS. for negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.",
+        "notes": "Typoskript auf Briefpapier der Firma. Die Seite ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "between \"obscure business\" and a regrettable error.\n\nWe are priding ourselves on the fact that no client of ours has,\nsince the reorganisation of this firm,had any reason for complaint,and that we\nare working in cordial and efficient collaboration with all our business friends.\nIt is all the more regrettable that we were unfortunate in making mistakes,as\nfar as the agency of your work is concerned,and have unwillingly caused dissatis-\nfaction and even distrust. We therefore attach particular importance to the\nclarification of the matter,and have given you all the facts frankly and in full\ndetails We can only add once more that we regret the mistakes,but must emphatic-\nally repudiate your accusation of \"misinformation\".\n\nYours sincerely,\n\nENCL:",
+        "notes": "Typoskript, Fortsetzung des Briefes. Die Unterschrift ist handschriftlich, aber unleserlich.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Identisch mit Seite 2, jedoch mit Archiv-Hilfsmitteln am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die Unterschrift auf Seite 2 ist schwer lesbar, aber der restliche Text ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 4189,
+    "total_words": 653,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3436,
+      753,
+      0
+    ],
+    "chars_per_page_median": 2094.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4949,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
