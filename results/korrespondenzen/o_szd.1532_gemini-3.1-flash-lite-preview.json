@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1532",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Briefausschnitt an Unbekannt, o. D., SZ-AAP/B2.41",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1532/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1532/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1532/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Briefausschnitt an Unbekannt, o. D., SZ-AAP/B2.41\n- Signatur: SZ-AAP/B2.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Seit gestern ist Mougn da, Frevental leider heute\nfortgefahren, er ist wirklich ein prachtvoller Mensch\nund lässt Dich vielmals grüssen. Rieger wird jetzt\nwohl auch bald ausrücken, er wollte eigentlich ge-\nmeinsam mit ihm zurück von Wien, aber das Wetter\nist so schön, dass ich lieber hier blieb, herrlicher\nMai und im Hause alles still? Dass Du es gut hattest",
+        "notes": "Handschriftlicher Text auf einem Papierstreifen. Die Tinte ist leicht verblasst, aber gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Der Textstreifen ist identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Einzig das Wort 'Mougn' (Eigenname?) und 'Frevental' sind aufgrund der Eigennamen-Schreibweise als sicher eingestuft."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 360,
+    "total_words": 60,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      360,
+      0,
+      0
+    ],
+    "chars_per_page_median": 360,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.45,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
