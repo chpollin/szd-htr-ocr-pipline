@@ -14,6 +14,7 @@ API-Endpunkte (nur lokal):
 
 import argparse
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -27,6 +28,17 @@ from config import COLLECTIONS, RESULTS_BASE
 
 DOCS_DIR = Path(__file__).parent.parent / "docs"
 DEFAULT_REVIEWER = "Christopher Pollin"
+_VALID_OBJECT_ID = re.compile(r"^o_szd\.[0-9a-zA-Z]+$")
+_VALID_COLLECTION = frozenset(COLLECTIONS.keys())
+
+
+def _validate_ids(object_id: str, collection: str) -> str | None:
+    """Return error message if IDs are invalid, None if OK."""
+    if not _VALID_OBJECT_ID.match(object_id):
+        return f"Ungueltige object_id: {object_id}"
+    if collection not in _VALID_COLLECTION:
+        return f"Ungueltige collection: {collection}"
+    return None
 
 
 def find_result_file(object_id: str, collection: str, model: str = "") -> Path | None:
@@ -52,14 +64,19 @@ def find_result_file(object_id: str, collection: str, model: str = "") -> Path |
 
 
 def handle_approve(data: dict) -> dict:
-    """Write review.status = approved to the result JSON."""
+    """Write review.status to the result JSON (approved or agent_verified)."""
     object_id = data.get("object_id", "")
     collection = data.get("collection", "")
     model = data.get("model", "")
     reviewer = data.get("reviewed_by", DEFAULT_REVIEWER)
+    status = data.get("status", "approved")
 
+    if status not in ("approved", "agent_verified"):
+        return {"error": f"Ungültiger Status: {status}"}
     if not object_id or not collection:
         return {"error": "object_id und collection sind Pflichtfelder."}
+    if err := _validate_ids(object_id, collection):
+        return {"error": err}
 
     result_path = find_result_file(object_id, collection, model)
     if not result_path:
@@ -67,12 +84,20 @@ def handle_approve(data: dict) -> dict:
 
     result = json.loads(result_path.read_text(encoding="utf-8"))
 
-    result["review"] = {
-        "status": "approved",
+    review = {
+        "status": status,
         "edited_pages": result.get("review", {}).get("edited_pages", []),
         "reviewed_by": reviewer,
         "reviewed_at": datetime.now(timezone.utc).isoformat(),
     }
+    if status == "agent_verified":
+        review["agent_model"] = data.get("agent_model", "claude-opus-4-6")
+        if "errors_found" in data:
+            review["errors_found"] = data["errors_found"]
+        if "estimated_accuracy" in data:
+            review["estimated_accuracy"] = data["estimated_accuracy"]
+
+    result["review"] = review
 
     try:
         backup_path = result_path.with_suffix(".json.bak")
@@ -83,8 +108,8 @@ def handle_approve(data: dict) -> dict:
     except OSError as e:
         return {"error": f"Schreibfehler: {e}"}
 
-    print(f"  APPROVED: {result_path.name} (by {reviewer})")
-    return {"ok": True, "file": result_path.name, "status": "approved"}
+    print(f"  {status.upper()}: {result_path.name} (by {reviewer})")
+    return {"ok": True, "file": result_path.name, "status": status}
 
 
 def handle_edit(data: dict) -> dict:
@@ -97,6 +122,8 @@ def handle_edit(data: dict) -> dict:
 
     if not object_id or not collection:
         return {"error": "object_id und collection sind Pflichtfelder."}
+    if err := _validate_ids(object_id, collection):
+        return {"error": err}
 
     result_path = find_result_file(object_id, collection, model)
     if not result_path:
@@ -160,19 +187,34 @@ def rebuild_viewer_data() -> dict:
         return {"error": str(e)}
 
 
+_ALLOWED_HOSTS = {"localhost", "127.0.0.1"}
+
+
 class SZDHandler(SimpleHTTPRequestHandler):
     """HTTP handler that serves docs/ and handles API requests."""
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(DOCS_DIR), **kwargs)
 
+    def _check_host(self) -> bool:
+        """Reject requests with unexpected Host header (DNS rebinding protection)."""
+        host = (self.headers.get("Host") or "").split(":")[0]
+        if host not in _ALLOWED_HOSTS:
+            self.send_error(403, "Forbidden: invalid Host header")
+            return False
+        return True
+
     def do_GET(self):
+        if not self._check_host():
+            return
         if self.path == "/api/status":
             self._json_response({"local": True, "server": "szd-htr-serve"})
         else:
             super().do_GET()
 
     def do_POST(self):
+        if not self._check_host():
+            return
         if not self.path.startswith("/api/"):
             self.send_error(404)
             return

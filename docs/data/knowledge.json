@@ -1,7 +1,7 @@
 {
   "meta": {
-    "built_at": "2026-04-02T12:47:29.915735+00:00",
-    "count": 10
+    "built_at": "2026-04-02T13:06:35.302288+00:00",
+    "count": 11
   },
   "sections": [
     {
@@ -21,6 +21,12 @@
         "teiCrafter-integration",
         "layout-analysis",
         "dia-xai-integration"
+      ]
+    },
+    {
+      "label": "Sicherheit",
+      "slugs": [
+        "security"
       ]
     },
     {
@@ -1266,6 +1272,145 @@
         }
       ],
       "wordCount": 2268
+    },
+    "security": {
+      "slug": "security",
+      "title": "Security Review",
+      "type": "reference",
+      "status": "active",
+      "tags": [],
+      "created": "2026-04-02",
+      "updated": "2026-04-02",
+      "related": [],
+      "html": "<h1 id=\"security-review-szd-htr\">Security Review — SZD-HTR</h1>\n<p>Systematische Sicherheitsanalyse des SZD-HTR-Projekts (Pipeline + Viewer + Dev-Server), verifiziert gegen OWASP-Richtlinien, CVE-Datenbanken und aktuelle Security-Literatur. Stand: 2. April 2026.</p>\n<h2 id=\"1-threat-model\">1  Threat Model</h2>\n<p>Die Applikation hat <strong>zwei Deployment-Kontexte</strong> mit unterschiedlichen Angriffsflaechern:</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>GitHub Pages (oeffentlich)</th>\n<th>Lokaler Dev-Server (<code>serve.py</code>)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Zugang</td>\n<td>Jeder im Internet</td>\n<td>Nur localhost (127.0.0.1)</td>\n</tr>\n<tr>\n<td>Schreibzugriff</td>\n<td>Keiner (statische Dateien)</td>\n<td>POST-Endpoints (approve, edit, rebuild)</td>\n</tr>\n<tr>\n<td>Authentifizierung</td>\n<td>n/a</td>\n<td>Keine</td>\n</tr>\n<tr>\n<td>Daten</td>\n<td><code>catalog.json</code>, <code>data/*.json</code>, <code>knowledge.json</code> — committed, oeffentlich</td>\n<td>Dieselben + live Pipeline-JSONs in <code>results/</code></td>\n</tr>\n<tr>\n<td>Edit-Funktionen</td>\n<td>UI-seitig deaktiviert via <code>isLocal</code>-Check</td>\n<td>Aktiv</td>\n</tr>\n<tr>\n<td>CORS</td>\n<td>n/a (GitHub setzt eigene Header)</td>\n<td><code>Access-Control-Allow-Origin: *</code></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Datenklassifikation</strong>: Alle Daten sind oeffentliche Archivmaterialien (Stefan-Zweig-Nachlass, bereits auf GAMS publiziert). Keine PII, keine Credentials in den ausgelieferten Dateien. API-Keys nur in <code>.env</code> (gitignored, nie committed).</p>\n<hr />\n<h2 id=\"2-findings-verifiziert-und-priorisiert\">2  Findings — Verifiziert und priorisiert</h2>\n<h3 id=\"21-hoch-fix-empfohlen\">2.1  HOCH (Fix empfohlen)</h3>\n<h4 id=\"h1-xss-via-innerhtml-fehlendes-csp\">H1  XSS via <code>innerHTML</code> + fehlendes CSP</h4>\n<p><strong>Datei</strong>: <code>docs/app.js</code>, Zeilen 524, 547; <code>docs/index.html</code>\n<strong>Vektor</strong>: <code>content.innerHTML = doc.html</code> — pre-rendered HTML aus <code>knowledge.json</code> wird ohne Sanitisierung eingefuegt. Python-<code>markdown</code> laesst Raw-HTML durch (<a href=\"https://github.com/Python-Markdown/markdown/issues/230\">Issue #230</a>). Event-Handler-Payloads (<code>onerror</code>, <code>onload</code>) sind via <code>innerHTML</code> ausfuehrbar, <code>&lt;script&gt;</code>-Tags nicht (HTML5-Spec). Ohne CSP gibt es keine zweite Verteidigungslinie.\n<strong>Voraussetzung</strong>: Kompromittierter Contributor oder manipulierte Markdown-Datei im Repo (Supply-Chain). Bei Single-Maintainer-Projekt mit Review kein externer Angriffsvektor.\n<strong>Referenzen</strong>: <a href=\"https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html\">OWASP DOM XSS Prevention Rule #1</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations\">MDN innerHTML Security</a>, <a href=\"https://github.com/orgs/community/discussions/13309\">GitHub Pages CSP Discussion #13309</a></p>\n<p><strong>Status</strong>: OFFEN\n<strong>Fix</strong>: CSP-Meta-Tag in <code>index.html</code> (blockiert Inline-Scripts inkl. Event-Handler):</p>\n<pre><code class=\"language-html\">&lt;meta http-equiv=&quot;Content-Security-Policy&quot;\n      content=&quot;default-src 'self';\n               script-src 'self';\n               style-src 'self' https://fonts.googleapis.com 'unsafe-inline';\n               font-src https://fonts.gstatic.com;\n               img-src 'self' https://gams.uni-graz.at data:;\n               connect-src 'self'&quot;&gt;\n</code></pre>\n<p>GitHub Pages erlaubt keine HTTP-Header; <code>&lt;meta&gt;</code> ist der einzige Weg. Einschraenkung: <code>frame-ancestors</code> funktioniert nicht via Meta-Tag. Optional: DOMPurify fuer Defense-in-Depth.</p>\n<hr />\n<h4 id=\"h2-unescaped-attribute-in-katalog-rendering\">H2  Unescaped Attribute in Katalog-Rendering</h4>\n<p><strong>Datei</strong>: <code>docs/app.js</code>, Zeilen 831-832\n<strong>Vektor</strong>: <code>obj.thumbnail</code> in <code>&lt;img src&gt;</code> und <code>obj.id</code> in <code>data-id</code> werden ohne <code>escapeHtml()</code> interpoliert. Attribut-Breakout via <code>\" onerror=\"...\"</code> moeglich. <code>javascript:</code>-URIs in <code>&lt;img src&gt;</code> werden von modernen Browsern nicht ausgefuehrt (verifiziert), aber Event-Handler-Injection funktioniert.\n<strong>Datenquelle</strong>: <code>catalog.json</code>, deterministisch gebaut von <code>build_viewer_data.py</code> aus GAMS-URLs und TEI-IDs. Praktisches Risiko sehr niedrig, aber <code>escapeHtml()</code> wird bei allen Nachbarfeldern bereits korrekt eingesetzt — Inkonsistenz.\n<strong>Referenz</strong>: <a href=\"https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Scripting_Prevention_Cheat_Sheet.html\">OWASP XSS Prevention Cheat Sheet</a></p>\n<p><strong>Status</strong>: OFFEN\n<strong>Fix</strong>: <code>escapeHtml(obj.thumbnail || '')</code> und <code>escapeHtml(obj.id)</code> — zwei Einzeiler.</p>\n<h4 id=\"h3-path-traversal-in-servepy\">H3  Path Traversal in <code>serve.py</code></h4>\n<p><strong>Datei</strong>: <code>pipeline/serve.py</code>, Zeilen 32-51\n<strong>Vektor</strong>: <code>object_id</code> wird unvalidiert in Dateipfade eingebaut. Pathlib schuetzt <strong>nicht</strong> gegen Traversal (verifiziert via <a href=\"https://docs.python.org/3/library/pathlib.html\">Python Docs</a> und <a href=\"https://cwe.mitre.org/data/definitions/22.html\">CWE-22</a>). <code>col_dir / f\"../../etc/passwd_model.json\"</code> resolves ausserhalb von <code>results/</code>.\n<strong>Verifikation</strong>: Pathlib's <code>/</code>-Operator joined Pfade ohne Sanitisierung. Fix: <code>.resolve()</code> + Prefix-Check gegen Base-Directory.\n<strong>Praktisches Risiko</strong>: Nur lokal, aber via CORS-Wildcard (H4) oder DNS-Rebinding von extern triggerbar.</p>\n<p><strong>Status</strong>: OFFEN\n<strong>Fix</strong>: Regex-Whitelist <code>^o_szd\\.[0-9a-zA-Z]+$</code> auf <code>object_id</code>, <code>.resolve()</code> + Prefix-Check.</p>\n<h4 id=\"h4-cors-wildcard-keine-authentifizierung-auf-dev-server\">H4  CORS Wildcard + keine Authentifizierung auf Dev-Server</h4>\n<p><strong>Datei</strong>: <code>pipeline/serve.py</code>, Zeilen 208-219\n<strong>Vektor</strong>: <code>Access-Control-Allow-Origin: *</code> erlaubt jeder Website Requests an den lokalen Server. Preflight-OPTIONS mit <code>*</code> erlaubt auch POST-Requests (<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS\">MDN CORS</a>, <a href=\"https://portswigger.net/web-security/cors\">PortSwigger CORS</a>). DNS-Rebinding kann die 127.0.0.1-Bindung umgehen (<a href=\"https://github.com/nccgroup/singularity\">NCC Group Singularity</a>).\n<strong>Praktisches Risiko</strong>: Niedrig-Mittel. Nur ausnutzbar waehrend <code>serve.py</code> laeuft und User gleichzeitig eine boeswillige Seite besucht.</p>\n<p><strong>Status</strong>: OFFEN\n<strong>Fix</strong>: CORS auf <code>http://127.0.0.1:{port}</code> einschraenken, Host-Header-Validierung.</p>\n<hr />\n<h3 id=\"22-mittel-bei-gelegenheit\">2.2  MITTEL (bei Gelegenheit)</h3>\n<h4 id=\"m1-keine-input-validierung-auf-api-endpoints\">M1  Keine Input-Validierung auf API-Endpoints</h4>\n<p><strong>Datei</strong>: <code>pipeline/serve.py</code>, Zeilen 56-99\n<strong>Felder ohne Validierung</strong>: <code>reviewed_by</code> (beliebige Laenge), <code>pages[].transcription</code> (keine Laengenbegrenzung), <code>model</code> (koennte Path-Traversal enthalten).\n<strong>Risiko</strong>: In Kombination mit CORS-Wildcard ausnutzbar (Disk-Exhaustion, Datenmanipulation).\n<strong>Status</strong>: OFFEN</p>\n<h4 id=\"m2-xml-parsing-ohne-xxe-schutz\">M2  XML-Parsing ohne XXE-Schutz</h4>\n<p><strong>Datei</strong>: <code>pipeline/tei_context.py</code>, Zeilen 54-55\n<strong>Verifikation</strong>: CPython's <code>xml.etree.ElementTree</code> (Expat-Parser) resolvet <strong>keine</strong> externen Entities (kein klassisches XXE). Anfaellig fuer Billion-Laughs-Entity-Expansion — in Python 3.7.2+ mit 10MB-Limit entschaerft. <code>defusedxml</code> bleibt offizielle Empfehlung des Python Security Teams.\n<strong>Referenzen</strong>: <a href=\"https://docs.python.org/3/library/xml.html#xml-vulnerabilities\">Python XML Vulnerabilities</a>, <a href=\"https://github.com/tiran/defusedxml\">defusedxml</a>\n<strong>Praktisches Risiko</strong>: Vernachlaessigbar (nur eigene, vertrauenswuerdige TEI-Dateien).\n<strong>Status</strong>: AKZEPTIERT — Defense-in-Depth-Verbesserung optional.</p>\n<h4 id=\"m3-escapehtml-ohne-single-quote-escaping\">M3  <code>escapeHtml()</code> ohne Single-Quote-Escaping</h4>\n<p><strong>Datei</strong>: <code>docs/app.js</code>, Zeilen 78-85\n<strong>Verifikation</strong>: Die Funktion escaped <code>&amp;</code>, <code>&lt;</code>, <code>&gt;</code>, <code>\"</code> — ausreichend fuer Double-Quoted-Attribute-Kontexte (OWASP XSS Prevention Cheat Sheet Rule #2). Single-Quote (<code>'</code> → <code>&amp;#x27;</code>) fehlt, ist aber derzeit nicht ausnutzbar, da alle Template-Literals Double-Quotes verwenden.\n<strong>Status</strong>: AKZEPTIERT — Verbesserung bei Gelegenheit.</p>\n<h4 id=\"m4-api-response-parsing-speichert-roh-text\">M4  API-Response-Parsing speichert Roh-Text</h4>\n<p><strong>Datei</strong>: <code>pipeline/transcribe.py</code>, Zeilen 136-216\n<strong>Vektor</strong>: Wenn Gemini kein valides JSON liefert, wird der rohe Response als <code>{\"raw\": text}</code> gespeichert. Keine Laengenbegrenzung.\n<strong>Verifikation</strong>: LLM-Output-Injection ist ein dokumentierter Angriffsvektor (OWASP LLM01:2025, CVE-2026-25802, CVE-2026-32626). Allerdings: <code>renderTranscription()</code> in <code>app.js</code> escaped alle Transkriptionstexte korrekt via <code>escapeHtml()</code> <strong>bevor</strong> sie in den DOM eingefuegt werden (Zeile 87-89). Die Mitigation ist bereits vorhanden.\n<strong>Referenzen</strong>: <a href=\"https://genai.owasp.org/llmrisk/llm01-prompt-injection/\">OWASP LLM01:2025</a>, <a href=\"https://portswigger.net/web-security/llm-attacks\">PortSwigger Web LLM Attacks</a>\n<strong>Status</strong>: MITIGIERT — <code>escapeHtml()</code> in <code>renderTranscription()</code> schuetzt vor XSS. Laengenbegrenzung waere zusaetzliche Haertung.</p>\n<h4 id=\"m5-import_reviewspy-ohne-schema-validierung\">M5  <code>import_reviews.py</code> ohne Schema-Validierung</h4>\n<p><strong>Datei</strong>: <code>pipeline/import_reviews.py</code>, Zeile 208\n<strong>Vektor</strong>: Externe JSON-Dateien (Frontend-Exporte) werden geladen und in Pipeline-JSONs geschrieben, ohne Feldtypen oder Schema zu pruefen.\n<strong>Praktisches Risiko</strong>: Niedrig — nur manuell via CLI aufrufbar, Eingabedateien sind selbst-generiert.\n<strong>Status</strong>: AKZEPTIERT</p>\n<h4 id=\"m6-dependencies-nicht-gepinnt\">M6  Dependencies nicht gepinnt</h4>\n<p><strong>Datei</strong>: <code>requirements.txt</code>\n<strong>Verifikation</strong>: Supply-Chain-Angriffe auf PyPI sind real und zunehmend (Ultralytics-Kompromittierung Dez 2024, LiteLLM 2025). Floating Versions (<code>&gt;=</code>) ziehen kompromittierte Releases automatisch. Bei nur 4 gut gepflegten Dependencies ist das Risiko niedrig, aber exaktes Pinnen ist ein Low-Effort-Fix.\n<strong>Referenzen</strong>: <a href=\"https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/\">PyPI Ultralytics Attack Analysis</a>, <a href=\"https://blog.securelayer7.net/pypi-litellm-supply-chain-attack/\">LiteLLM Supply Chain Attack</a>\n<strong>Status</strong>: OFFEN — exakte Versionen pinnen.</p>\n<hr />\n<h3 id=\"23-niedrig-akzeptiert\">2.3  NIEDRIG (akzeptiert)</h3>\n<h4 id=\"l1-api-key-in-env-datei\">L1  API Key in <code>.env</code>-Datei</h4>\n<p><strong>Status</strong>: OK — <code>.env</code> ist in <code>.gitignore</code> (Zeile 5), war nie im Git-Verlauf. Fuer lokale Forschungsprojekte akzeptabel. Key-Rotation bei Verdacht auf Kompromittierung.</p>\n<h4 id=\"l2-hardcoded-default-reviewer-name\">L2  Hardcoded Default-Reviewer-Name</h4>\n<p><strong>Datei</strong>: <code>pipeline/serve.py</code>, Zeile 29\n<code>DEFAULT_REVIEWER = \"Christopher Pollin\"</code> — Name steht ohnehin in Commits und README.\n<strong>Status</strong>: AKZEPTIERT</p>\n<h4 id=\"l3-cli-argumente-ohne-bereichspruefung\">L3  CLI-Argumente ohne Bereichspruefung</h4>\n<p><code>--chunk-size 0</code> verursacht <code>ValueError</code> in <code>range()</code>. Kein Security-Issue, nur Robustheit.\n<strong>Status</strong>: AKZEPTIERT</p>\n<h4 id=\"l4-hardcoded-windows-pfade-in-configpy\">L4  Hardcoded Windows-Pfade in <code>config.py</code></h4>\n<p><code>C:/Users/Chrisi/...</code> als Fallback-Pfad. Durch <code>SZD_BACKUP_ROOT</code> ueberschreibbar.\n<strong>Status</strong>: AKZEPTIERT</p>\n<h4 id=\"l5-race-condition-bei-file-backup\">L5  Race Condition bei File-Backup</h4>\n<p><strong>Datei</strong>: <code>pipeline/serve.py</code>, Zeilen 78-82\n<strong>Verifikation</strong>: TOCTOU ist ein dokumentierter Angriffsvektor (CVE-2026-22702, CVE-2026-22701), aber nur relevant in Multi-User-Systemen oder bei Privilege-Escalation. Fuer ein Single-User-Localhost-Tool nicht realistisch.\n<strong>Status</strong>: AKZEPTIERT</p>\n<h4 id=\"l6-simplehttprequesthandler\">L6  SimpleHTTPRequestHandler</h4>\n<p>Python-Docs warnen explizit: \"not recommended for production\". Binding auf 127.0.0.1 mitigiert die Hauptrisiken. Der Server ist ein Dev-Tool, kein Produktionsserver.\n<strong>Status</strong>: AKZEPTIERT</p>\n<hr />\n<h3 id=\"24-geprueft-kein-handlungsbedarf\">2.4  Geprueft — kein Handlungsbedarf</h3>\n<table>\n<thead>\n<tr>\n<th>Aspekt</th>\n<th>Begruendung</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Transkriptions-Rendering</td>\n<td><code>renderTranscription()</code> escaped via <code>escapeHtml()</code> vor DOM-Insertion (Zeile 87-89)</td>\n</tr>\n<tr>\n<td>Keine <code>eval()</code>/<code>exec()</code>/<code>pickle</code></td>\n<td>Kein Vorkommen in der gesamten Codebase</td>\n</tr>\n<tr>\n<td>Keine SQL-Interaktion</td>\n<td>Kein Datenbank-Layer vorhanden</td>\n</tr>\n<tr>\n<td>Keine Subprocess-Injection</td>\n<td><code>serve.py</code> nutzt List-Form (kein <code>shell=True</code>), Pfad ist hardcoded</td>\n</tr>\n<tr>\n<td><code>.env</code> nie committed</td>\n<td>Git-History bestaetigt: kein Credential-Leak</td>\n</tr>\n<tr>\n<td><code>localStorage</code> nur lokal</td>\n<td>Via <code>isLocal</code>-Check gesteuert (Zeile 149), keine Credentials gespeichert</td>\n</tr>\n<tr>\n<td>Oeffentliche JSON-Daten</td>\n<td>Archivmaterial, keine PII, keine Secrets — Information Disclosure nicht zutreffend</td>\n</tr>\n<tr>\n<td><code>img src</code> von GAMS</td>\n<td>Vertrauenswuerdige institutionelle Quelle, geladen via sicheres <code>&lt;img&gt;</code>-Element</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2 id=\"3-fix-tracker\">3  Fix-Tracker</h2>\n<table>\n<thead>\n<tr>\n<th>ID</th>\n<th>Prioritaet</th>\n<th>Fix</th>\n<th>Aufwand</th>\n<th>Status</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>H1</td>\n<td>Hoch</td>\n<td>CSP-Meta-Tag in <code>index.html</code> (entschaerft innerHTML-XSS)</td>\n<td>5 Min</td>\n<td>OFFEN</td>\n</tr>\n<tr>\n<td>H2</td>\n<td>Hoch</td>\n<td><code>escapeHtml()</code> fuer <code>obj.thumbnail</code> und <code>obj.id</code></td>\n<td>2 Zeilen</td>\n<td>OFFEN</td>\n</tr>\n<tr>\n<td>H3</td>\n<td>Hoch</td>\n<td>Path-Traversal-Schutz in <code>serve.py</code></td>\n<td>15 Min</td>\n<td>OFFEN</td>\n</tr>\n<tr>\n<td>H4</td>\n<td>Hoch</td>\n<td>CORS einschraenken + Host-Header-Validierung</td>\n<td>15 Min</td>\n<td>OFFEN</td>\n</tr>\n<tr>\n<td>M1</td>\n<td>Mittel</td>\n<td>Input-Validierung auf API-Endpoints</td>\n<td>30 Min</td>\n<td>OFFEN</td>\n</tr>\n<tr>\n<td>M3</td>\n<td>Mittel</td>\n<td>Single-Quote in <code>escapeHtml()</code></td>\n<td>1 Zeile</td>\n<td>OFFEN</td>\n</tr>\n<tr>\n<td>M6</td>\n<td>Mittel</td>\n<td>Dependencies exakt pinnen</td>\n<td>5 Min</td>\n<td>OFFEN</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2 id=\"4-methodik\">4  Methodik</h2>\n<ul>\n<li><strong>Statische Analyse</strong>: Alle Python- und JavaScript-Dateien manuell gegen OWASP Top 10 (2021) und OWASP LLM Top 10 (2025) geprueft</li>\n<li><strong>Web-Verifikation</strong>: Jedes Finding gegen OWASP Cheat Sheets, MDN Web Docs, CVE-Datenbanken, Python Security Docs und PortSwigger Research abgeglichen</li>\n<li><strong>Threat Modeling</strong>: Zwei Deployment-Kontexte (GitHub Pages vs. localhost) separat bewertet</li>\n<li><strong>False-Positive-Pruefung</strong>: <code>javascript:</code>-URIs in <code>&lt;img src&gt;</code> (von Browsern geblockt), <code>xml.etree.ElementTree</code> XXE (Expat resolvet keine externen Entities), TOCTOU fuer Single-User (nicht realistisch) — als uebertrieben/nicht zutreffend eingestuft</li>\n</ul>",
+      "headings": [
+        {
+          "level": 1,
+          "id": "security-review-szd-htr",
+          "text": "Security Review — SZD-HTR"
+        },
+        {
+          "level": 2,
+          "id": "1-threat-model",
+          "text": "1 Threat Model"
+        },
+        {
+          "level": 2,
+          "id": "2-findings-verifiziert-und-priorisiert",
+          "text": "2 Findings — Verifiziert und priorisiert"
+        },
+        {
+          "level": 3,
+          "id": "21-hoch-fix-empfohlen",
+          "text": "2.1 HOCH (Fix empfohlen)"
+        },
+        {
+          "level": 4,
+          "id": "h1-xss-via-innerhtml-fehlendes-csp",
+          "text": "H1 XSS via innerHTML + fehlendes CSP"
+        },
+        {
+          "level": 4,
+          "id": "h2-unescaped-attribute-in-katalog-rendering",
+          "text": "H2 Unescaped Attribute in Katalog-Rendering"
+        },
+        {
+          "level": 4,
+          "id": "h3-path-traversal-in-servepy",
+          "text": "H3 Path Traversal in serve.py"
+        },
+        {
+          "level": 4,
+          "id": "h4-cors-wildcard-keine-authentifizierung-auf-dev-server",
+          "text": "H4 CORS Wildcard + keine Authentifizierung auf Dev-Server"
+        },
+        {
+          "level": 3,
+          "id": "22-mittel-bei-gelegenheit",
+          "text": "2.2 MITTEL (bei Gelegenheit)"
+        },
+        {
+          "level": 4,
+          "id": "m1-keine-input-validierung-auf-api-endpoints",
+          "text": "M1 Keine Input-Validierung auf API-Endpoints"
+        },
+        {
+          "level": 4,
+          "id": "m2-xml-parsing-ohne-xxe-schutz",
+          "text": "M2 XML-Parsing ohne XXE-Schutz"
+        },
+        {
+          "level": 4,
+          "id": "m3-escapehtml-ohne-single-quote-escaping",
+          "text": "M3 escapeHtml() ohne Single-Quote-Escaping"
+        },
+        {
+          "level": 4,
+          "id": "m4-api-response-parsing-speichert-roh-text",
+          "text": "M4 API-Response-Parsing speichert Roh-Text"
+        },
+        {
+          "level": 4,
+          "id": "m5-import_reviewspy-ohne-schema-validierung",
+          "text": "M5 import_reviews.py ohne Schema-Validierung"
+        },
+        {
+          "level": 4,
+          "id": "m6-dependencies-nicht-gepinnt",
+          "text": "M6 Dependencies nicht gepinnt"
+        },
+        {
+          "level": 3,
+          "id": "23-niedrig-akzeptiert",
+          "text": "2.3 NIEDRIG (akzeptiert)"
+        },
+        {
+          "level": 4,
+          "id": "l1-api-key-in-env-datei",
+          "text": "L1 API Key in .env-Datei"
+        },
+        {
+          "level": 4,
+          "id": "l2-hardcoded-default-reviewer-name",
+          "text": "L2 Hardcoded Default-Reviewer-Name"
+        },
+        {
+          "level": 4,
+          "id": "l3-cli-argumente-ohne-bereichspruefung",
+          "text": "L3 CLI-Argumente ohne Bereichspruefung"
+        },
+        {
+          "level": 4,
+          "id": "l4-hardcoded-windows-pfade-in-configpy",
+          "text": "L4 Hardcoded Windows-Pfade in config.py"
+        },
+        {
+          "level": 4,
+          "id": "l5-race-condition-bei-file-backup",
+          "text": "L5 Race Condition bei File-Backup"
+        },
+        {
+          "level": 4,
+          "id": "l6-simplehttprequesthandler",
+          "text": "L6 SimpleHTTPRequestHandler"
+        },
+        {
+          "level": 3,
+          "id": "24-geprueft-kein-handlungsbedarf",
+          "text": "2.4 Geprueft — kein Handlungsbedarf"
+        },
+        {
+          "level": 2,
+          "id": "3-fix-tracker",
+          "text": "3 Fix-Tracker"
+        },
+        {
+          "level": 2,
+          "id": "4-methodik",
+          "text": "4 Methodik"
+        }
+      ],
+      "wordCount": 1514
     },
     "tei-target-structure": {
       "slug": "tei-target-structure",

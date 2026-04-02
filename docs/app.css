@@ -721,6 +721,19 @@ body.view-help #about { display: none; }
   font-weight: 600;
 }
 
+.badge-review-agent {
+  color: #fff;
+  background: #2563eb;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.catalog__stats-chip--agent {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
 /* Page anomaly marker */
 .viewer__page-anomaly {
   color: var(--sz-burgundy);

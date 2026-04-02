@@ -244,7 +244,7 @@
       "dwrScore": 0.75,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -349,7 +349,7 @@
       "dwrScore": 0.0,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -549,9 +549,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 86,
+        "totalChars": 115,
         "emptyPages": 3,
-        "avgCharsPerPage": 29,
+        "avgCharsPerPage": 38,
         "vlmConfidence": "high"
       },
       "needsReview": false,
@@ -561,7 +561,7 @@
       "dwrScore": 0.4,
       "consensusCategory": null,
       "consensusCer": null,
-      "reviewStatus": null,
+      "reviewStatus": "approved",
       "hasGT": false
     },
     {
@@ -2118,7 +2118,7 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 6212,
+        "totalChars": 6213,
         "emptyPages": 0,
         "avgCharsPerPage": 2071,
         "vlmConfidence": "high"
@@ -2130,7 +2130,7 @@
       "dwrScore": 0.5018,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.141,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": true,
       "gtVerified": false
     },
@@ -17561,9 +17561,9 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 2309,
+        "totalChars": 2310,
         "emptyPages": 0,
-        "avgCharsPerPage": 1154,
+        "avgCharsPerPage": 1155,
         "vlmConfidence": "high"
       },
       "needsReview": false,
@@ -17573,7 +17573,7 @@
       "dwrScore": 0.4447,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0546,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": true,
       "gtVerified": false
     },
@@ -19769,7 +19769,7 @@
       "dwrScore": 0.1739,
       "consensusCategory": "consensus_verified",
       "consensusCer": 0.0251,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": true,
       "gtVerified": false
     },
@@ -21214,7 +21214,7 @@
       "verification": {
         "uncertainCount": 0,
         "illegibleCount": 0,
-        "totalChars": 1655,
+        "totalChars": 1656,
         "emptyPages": 3,
         "avgCharsPerPage": 828,
         "vlmConfidence": "high"
@@ -21226,7 +21226,7 @@
       "dwrScore": 0.2126,
       "consensusCategory": "consensus_moderate",
       "consensusCer": 0.0308,
-      "reviewStatus": null,
+      "reviewStatus": "agent_verified",
       "hasGT": true,
       "gtVerified": false
     },

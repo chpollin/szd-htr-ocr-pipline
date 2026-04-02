@@ -21,7 +21,7 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Zwischen Herrn Dr Stefan Zweig, 49 Hallam Street,\nLondon W.1 und F° Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngedult des Herzens\nan die F° Socec & Co gegen eine einmalige Zahlung\nvon\n£ 30 (dreizig Pfund sterling).\nFalls das Buch nicht innerhalb ~~einem~~ {von einem} Jahre\nnach vertragsabschluss erscheint, fallen die Rechte\nan der Verfasser zurück.\nHerr Dr zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr zweig\nin Kraft.\nLondon, den 20 ~~April~~ {April} 1939 Bukarest, den 30 ~~März~~ {April} 1939\n(gs) Dr zweig (ps) Socec & Co",
+        "transcription": "Zwischen Herrn Dr Stefan Zweig, 49 Hallam Street,\nLondon W.1 und F° Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngedult des Herzens\nan die F° Socec & Co gegen eine einmalige Zahlung\nvon\n£ 30 (dreissig Pfund sterling).\nFalls das Buch nicht innerhalb ~~einem~~ {von einem} Jahre\nnach Vertragsabschluss erscheint, fallen die Rechte\nan den Verfasser zurück.\nHerr Dr Zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr Zweig\nin Kraft.\nLondon, den 20 ~~April~~ {April} 1939 Bukarest, den 30 ~~März~~ {April} 1939\n(gs) Dr Zweig (ps) Socec & Co",
         "notes": "Handschriftlicher Vertragsentwurf in schwarzer Tinte. Korrekturen und Einfügungen über der Zeile.",
         "type": "content"
       },
@@ -89,5 +89,16 @@
     "page_length_anomalies": [],
     "needs_review": false,
     "needs_review_reasons": []
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 5,
+    "estimated_accuracy": 0.991,
+    "edited_pages": [
+      1
+    ],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:06:07.802787+00:00"
   }
 }

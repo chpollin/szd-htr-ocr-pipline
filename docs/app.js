@@ -553,20 +553,24 @@ async function showAbout() {
 function renderReviewCell(obj) {
   // Tier 0: GT verified (highest) — human
   if (obj.gtVerified) {
-    return '<span class="badge-review badge-review-verified" data-tooltip="Manuell verifizierte Ground Truth">GT \u2713</span>';
+    return '<span class="badge-review badge-review-verified" data-tooltip="Ground Truth: Von einem Experten manuell verifiziert">GT \u2713</span>';
   }
   // Tier 1: Human expert approved — human
   if (obj.reviewStatus === 'approved' || isObjectApproved(obj.id)) {
-    return '<span class="badge-review badge-review-approved" data-tooltip="Manuell gepr\u00fcft und freigegeben">Gepr\u00fcft</span>';
+    return '<span class="badge-review badge-review-approved" data-tooltip="Von einem Experten manuell gepr\u00fcft und freigegeben">Gepr\u00fcft</span>';
+  }
+  // Tier 2: Agent verified — Claude Code judge compared image vs. transcription
+  if (obj.reviewStatus === 'agent_verified') {
+    return `<span class="badge-review badge-review-agent" data-tooltip="Claude Code Agent: Bild-Text-Vergleich durchgef\u00fchrt">Agent \u2713${LLM_ICON}</span>`;
   }
   if (obj.needsReview === undefined) return '';
-  // Tier 2: Quality signals flagged problems — automatic
+  // Tier 3: Quality signals flagged problems — automatic
   if (obj.needsReview) {
     const reasons = (obj.needsReviewReasons || []).join(', ');
-    return `<span class="badge-review badge-review-yes" data-tooltip="Automatisch flagged: ${escapeHtml(reasons)}">Review${LLM_ICON}</span>`;
+    return `<span class="badge-review badge-review-yes" data-tooltip="Automatisch erkannt: ${escapeHtml(reasons)}">Review${LLM_ICON}</span>`;
   }
-  // Tier 3: Machine says OK, no human check — automatic
-  return `<span class="badge-review badge-review-llm-ok" data-tooltip="Keine Auff\u00e4lligkeiten erkannt, nicht manuell gepr\u00fcft">LLM OK${LLM_ICON}</span>`;
+  // Tier 4: Machine says OK, no human check — automatic
+  return `<span class="badge-review badge-review-llm-ok" data-tooltip="Automatische Qualit\u00e4tssignale ohne Befund \u2014 keine Pr\u00fcfung erfolgt">LLM OK${LLM_ICON}</span>`;
 }
 
 /* ===== Quality Rendering ===== */
@@ -615,7 +619,7 @@ function renderStats() {
   for (const col of state.collections) perCol[col] = 0;
   const perGroup = {};
   const confDist = { high: 0, medium: 0, low: 0 };
-  let reviewCount = 0, verifiedCount = 0, approvedCount = 0, llmOkCount = 0;
+  let reviewCount = 0, verifiedCount = 0, approvedCount = 0, agentCount = 0, llmOkCount = 0;
   let totalPages = 0, totalContentPages = 0, totalBlankPages = 0;
   let totalChars = 0;
   let dwrSum = 0, dwrCount = 0;
@@ -629,7 +633,8 @@ function renderStats() {
     if (o.needsReview) reviewCount++;
     if (o.gtVerified) verifiedCount++;
     if (o.reviewStatus === 'approved') approvedCount++;
-    if (o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved') llmOkCount++;
+    if (o.reviewStatus === 'agent_verified') agentCount++;
+    if (o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved' && o.reviewStatus !== 'agent_verified') llmOkCount++;
     if (o.confidence) confDist[o.confidence] = (confDist[o.confidence] || 0) + 1;
     totalPages += o.pageCount || 0;
     totalContentPages += o.contentPages || 0;
@@ -659,6 +664,9 @@ function renderStats() {
     : '';
   const approvedChip = approvedCount > 0
     ? `<span class="catalog__stats-chip catalog__stats-chip--approved"><strong>${approvedCount}</strong> Gepr\u00fcft</span>`
+    : '';
+  const agentChip = agentCount > 0
+    ? `<span class="catalog__stats-chip catalog__stats-chip--agent"><strong>${agentCount}</strong> Agent \u2713</span>`
     : '';
   const verifiedChip = verifiedCount > 0
     ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> GT \u2713</span>`
@@ -690,7 +698,7 @@ function renderStats() {
     <span class="catalog__stats-bar-item"><strong>${totalChars.toLocaleString('de')}</strong> Zeichen</span>`;
 
   // Review stats (3-tier)
-  const humanCount = approvedCount + verifiedCount;
+  const humanCount = approvedCount + verifiedCount + agentCount;
   let reviewItems = '';
   if (state.hasReviewData) {
     reviewItems = `<span class="catalog__stats-bar-item"><strong>${humanCount}</strong> Human Verified</span>
@@ -714,7 +722,7 @@ function renderStats() {
   el.innerHTML = `
     <div class="catalog__stats-summary">
       <span class="catalog__stats-total">${total} Objekte</span>
-      <div class="catalog__stats-chips">${colChips}${verifiedChip}${approvedChip}${llmOkChip}${reviewChip}${consensusChip}</div>
+      <div class="catalog__stats-chips">${colChips}${verifiedChip}${approvedChip}${agentChip}${llmOkChip}${reviewChip}${consensusChip}</div>
       <button type="button" class="catalog__stats-toggle" id="statsToggle" aria-expanded="false">Details &#9662;</button>
     </div>
     <div class="catalog__stats-details" id="statsDetails">
@@ -759,7 +767,7 @@ function applyFilters() {
   }
   if (state.filterReviewStatus) {
     if (state.filterReviewStatus === 'human_verified') {
-      list = list.filter(o => o.reviewStatus === 'approved' || o.gtVerified);
+      list = list.filter(o => o.reviewStatus === 'approved' || o.reviewStatus === 'agent_verified' || o.gtVerified);
     } else if (state.filterReviewStatus === 'llm_ok') {
       list = list.filter(o => o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved');
     } else if (state.filterReviewStatus === 'needs_review') {
@@ -828,8 +836,8 @@ function renderCatalog() {
       const v = obj.verification || {};
       const qualityHtml = renderQualityCell(v, obj.confidence, obj);
       const titleFull = escapeHtml(obj.titleClean || obj.label);
-      html += `<tr data-id="${obj.id}" tabindex="0">
-        <td class="col-thumb"><img src="${obj.thumbnail || ''}" loading="lazy" alt=""></td>
+      html += `<tr data-id="${escapeHtml(obj.id)}" tabindex="0">
+        <td class="col-thumb"><img src="${escapeHtml(obj.thumbnail || '')}" loading="lazy" alt=""></td>
         <td class="col-title" data-tooltip="${escapeHtml(obj.title)}">${titleFull}</td>
         <td class="col-sig">${escapeHtml(obj.signature)}</td>
         <td class="col-pid">${escapeHtml(obj.pid)}</td>
@@ -1007,6 +1015,8 @@ function renderViewerContext(obj) {
   const approved = obj.reviewStatus === 'approved' || isObjectApproved(obj.id);
   if (approved) {
     qualItems.push('<span class="badge-review badge-review-approved">Gepr\u00fcft</span>');
+  } else if (obj.reviewStatus === 'agent_verified') {
+    qualItems.push(`<span class="badge-review badge-review-agent">Agent \u2713${LLM_ICON}</span>`);
   } else if (obj.needsReview) {
     qualItems.push('<span class="badge-review badge-review-yes">Review</span>');
   } else if (obj.needsReview === false) {
