@@ -57,7 +57,7 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
                 ▼
  ┌─────────────────────────────────────┐
  │  4. Enrichment & Quality Signals    │
- │     quality_signals.py v1.3         │
+ │     quality_signals.py v1.4         │
  │     • page.type (content/blank/     │
  │       color_chart) pro Seite        │
  │     • DWR, Marker-Dichte, Duplikate │
@@ -66,6 +66,20 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
  └──────────────┬──────────────────────┘
                 ▼
  results/{collection}/{object_id}_{model}.json
+        │
+ ┌──────┼──────────────────────────────┐
+ │      ▼                              ▼
+ │  verify.py                   build_viewer_data.py
+ │  Multi-Model-Konsensus       → catalog.json
+ │  (Flash Lite + Flash         → data/{collection}.json
+ │   + Claude Judge)            → data/knowledge.json
+ │      │                       → docs/ Viewer
+ │      ▼
+ │  generate_gt.py
+ │  3-Modell-GT-Pipeline
+ │  (Flash Lite + Flash + Pro)
+ │  → groundtruth/*_gt_draft.json
+ └─────────────────────────────────────┘
 ```
 
 ### Dreischichtiges Prompt-System
@@ -92,14 +106,14 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
 
 ## Status
 
-**557 / 2107 Objekte** transkribiert, **3417 Seiten** (2398 Content, 885 Leerseiten, 134 Farbskalen). Quality Signals v1.3 mit Seitentyp-Klassifikation (`content`/`blank`/`color_chart`) und Dictionary Word Ratio. Multi-Model-Konsensus-Verifikation (Gemini Flash Lite + Gemini 3 Flash + Claude Judge) in Validierung.
+**575 / 2107 Objekte** transkribiert (27%), **3463 / 18719 Seiten** (18%). Quality Signals v1.4 mit Seitentyp-Klassifikation (`content`/`blank`/`color_chart`) und Dictionary Word Ratio (DWR). Multi-Model-Konsensus-Verifikation (Gemini Flash Lite + Gemini 3 Flash + Claude Judge) mit 4-Tier-Klassifikation (verified/moderate/review/divergent). Ground-Truth-Pipeline mit 3-Modell-Merge (18 Objekte, 46 Seiten).
 
-| Sammlung | Objekte | Seiten | Content | Blank | Abdeckung |
-|---|---:|---:|---:|---:|---:|
-| Lebensdokumente | 101 / 127 | 963 | 628 | 335 | 80% |
-| Korrespondenzen | 287 / 1186 | 915 | 743 | 172 | 24% |
-| Aufsatzablage | 115 / 625 | 581 | 473 | 108 | 18% |
-| Werke | 54 / 169 | 958 | 554 | 404 | 32% |
+| Sammlung | Objekte | Seiten | Content | Blank | Farbskala | Abdeckung |
+|---|---:|---:|---:|---:|---:|---:|
+| Lebensdokumente | 112 / 127 | 992 | 614 | 289 | 46 | 88% |
+| Korrespondenzen | 290 / 1186 | 923 | 740 | 138 | 34 | 24% |
+| Aufsatzablage | 117 / 625 | 583 | 470 | 106 | 2 | 19% |
+| Werke | 56 / 169 | 965 | 551 | 352 | 52 | 33% |
 
 Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.github.io/szd-htr-ocr-pipeline/)
 
@@ -107,25 +121,29 @@ Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.git
 
 ```
 ├── pipeline/
-│   ├── prompts/              ← 9 Gruppen-Prompts + System-Prompt
+│   ├── prompts/              ← 9 Gruppen-Prompts + System-Prompt + Layout-Prompt
 │   ├── transcribe.py         ← Batch-CLI (Einzel/Sammlung/Alle)
 │   ├── verify.py             ← Multi-Model-Konsensus-Verifikation
-│   ├── quality_signals.py    ← 8 Qualitaetssignale + Seitentyp + DWR (v1.3)
-│   ├── evaluate.py           ← CER/WER-Berechnung
+│   ├── generate_gt.py        ← 3-Modell-GT-Pipeline (Flash Lite + Flash + Pro)
+│   ├── quality_signals.py    ← 8 Qualitaetssignale + Seitentyp + DWR (v1.4)
+│   ├── evaluate.py           ← CER/WER + word_overlap + normalize_for_consensus
 │   ├── quality_report.py     ← Aggregierte Qualitaetsstatistiken
+│   ├── layout_analysis.py    ← VLM-basierte Layout-Analyse (Regionen + BBoxes)
+│   ├── export_pagexml.py     ← Merged OCR + Layout → PAGE XML 2019
 │   ├── tei_context.py        ← TEI-Parser, resolve_group(), format_context()
 │   ├── config.py             ← Pfade, API-Key, Sammlungs-Mapping
-│   ├── build_viewer_data.py  ← Baut catalog.json + data/{collection}.json
+│   ├── build_viewer_data.py  ← Baut catalog.json + data/*.json + knowledge.json
 │   └── test_single.py        ← Test-Script (7 Referenz-Objekte)
 ├── data/                     ← TEI-Metadaten (4 Sammlungen)
 ├── results/                  ← Transkriptionsergebnisse (enriched JSON)
+│   └── groundtruth/          ← GT-Drafts (3-Modell-Merge + Expert-Review)
 ├── knowledge/                ← Research Vault (Methodik, Datenanalyse, Journal)
 └── docs/                     ← GitHub Pages (Single-Page-App)
-    ├── index.html            ← Katalog + Viewer
+    ├── index.html            ← Katalog + Viewer + Knowledge Vault + Projekt
     ├── app.css               ← SZD-Design-System
-    ├── app.js                ← Routing, Rendering, Edit, Export
+    ├── app.js                ← Routing, Rendering, Edit, Export, Knowledge
     ├── catalog.json          ← Leichtgewichtige Metadaten
-    └── data/                 ← Transkriptionen pro Sammlung
+    └── data/                 ← Transkriptionen + Knowledge-Daten
 ```
 
 ## Setup

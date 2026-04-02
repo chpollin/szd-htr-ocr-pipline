@@ -1,0 +1,210 @@
+{
+  "object_id": "o_szd.100",
+  "collection": "lebensdokumente",
+  "model": "gemini-3.1-flash-lite-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            3.9,
+            2.9,
+            4.8,
+            0.3
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Titel des Dokuments"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            3.2,
+            12.6,
+            1.0
+          ],
+          "reading_order": 2,
+          "lines": 4,
+          "label": "Einleitungstext"
+        },
+        {
+          "id": "r3",
+          "type": "list",
+          "bbox": [
+            3.9,
+            4.3,
+            12.6,
+            0.8
+          ],
+          "reading_order": 3,
+          "lines": 4,
+          "label": "Vertragspunkt 1"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            7.6,
+            5.1,
+            8.9,
+            0.3
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Buchtitel"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            5.4,
+            12.6,
+            0.6
+          ],
+          "reading_order": 5,
+          "lines": 3,
+          "label": "Fortsetzung Vertragspunkt 1"
+        },
+        {
+          "id": "r6",
+          "type": "list",
+          "bbox": [
+            3.9,
+            6.1,
+            12.6,
+            0.8
+          ],
+          "reading_order": 6,
+          "lines": 4,
+          "label": "Vertragspunkt 2"
+        },
+        {
+          "id": "r7",
+          "type": "list",
+          "bbox": [
+            3.9,
+            7.0,
+            12.6,
+            0.6
+          ],
+          "reading_order": 7,
+          "lines": 3,
+          "label": "Vertragspunkt 3"
+        },
+        {
+          "id": "r8",
+          "type": "list",
+          "bbox": [
+            3.9,
+            7.7,
+            12.6,
+            0.3
+          ],
+          "reading_order": 8,
+          "lines": 2,
+          "label": "Vertragspunkt 4"
+        },
+        {
+          "id": "r9",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            8.2,
+            12.6,
+            0.3
+          ],
+          "reading_order": 9,
+          "lines": 2,
+          "label": "Abschlusssatz"
+        },
+        {
+          "id": "r10",
+          "type": "heading",
+          "bbox": [
+            3.9,
+            8.7,
+            2.8,
+            0.2
+          ],
+          "reading_order": 10,
+          "lines": 1,
+          "label": "Anwesenheitsvermerk"
+        },
+        {
+          "id": "r11",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            8.9,
+            2.8,
+            0.3
+          ],
+          "reading_order": 11,
+          "lines": 1,
+          "label": "Unterschriftenlabel Zeuge"
+        },
+        {
+          "id": "r12",
+          "type": "paragraph",
+          "bbox": [
+            10.9,
+            8.9,
+            2.8,
+            0.3
+          ],
+          "reading_order": 12,
+          "lines": 1,
+          "label": "Unterschriftenlabel Autor"
+        },
+        {
+          "id": "r13",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            9.7,
+            2.8,
+            0.3
+          ],
+          "reading_order": 13,
+          "lines": 1,
+          "label": "Unterschriftenlabel Zeuge 2"
+        },
+        {
+          "id": "r14",
+          "type": "paragraph",
+          "bbox": [
+            10.9,
+            9.3,
+            5.5,
+            0.3
+          ],
+          "reading_order": 14,
+          "lines": 1,
+          "label": "Firmenname"
+        },
+        {
+          "id": "r15",
+          "type": "paragraph",
+          "bbox": [
+            10.9,
+            9.7,
+            5.5,
+            0.3
+          ],
+          "reading_order": 15,
+          "lines": 1,
+          "label": "Unterschriftenlabel Sekretär"
+        }
+      ]
+    }
+  ]
+}

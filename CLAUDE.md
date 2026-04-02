@@ -14,33 +14,36 @@ Phasen 1–3 erledigt, Phase 4 laufend. Details, offene Aufgaben und Entscheidun
 
 ### Transkriptionsfortschritt
 
-**557 / 2107 Objekte** transkribiert (26%), **3417 / 18719 Seiten** (18%):
+**575 / 2107 Objekte** transkribiert (27%), **3463 / 18719 Seiten** (18%):
 
 | Sammlung | Objekte | Seiten | Content | Blank | Farbskala | Abdeckung |
 |---|---:|---:|---:|---:|---:|---:|
-| Lebensdokumente | 101 / 127 | 963 | 628 | 289 | 46 | 80% |
-| Korrespondenzen | 287 / 1186 | 915 | 743 | 138 | 34 | 24% |
-| Aufsatzablage | 115 / 625 | 581 | 473 | 106 | 2 | 18% |
-| Werke | 54 / 169 | 958 | 554 | 352 | 52 | 32% |
+| Lebensdokumente | 112 / 127 | 992 | 614 | 289 | 46 | 88% |
+| Korrespondenzen | 290 / 1186 | 923 | 740 | 138 | 34 | 24% |
+| Aufsatzablage | 117 / 625 | 583 | 470 | 106 | 2 | 19% |
+| Werke | 56 / 169 | 965 | 551 | 352 | 52 | 33% |
 
 Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+verso gescannt, Zweig schrieb primaer auf Recto-Seiten, gelegentlich Notizen auf Verso.
 
 ### Pipeline-Status
 
 - **Alle 9 Prompt-Gruppen** aktiv (A-I), alle getestet
-- **quality_signals v1.3**: 8 Signale + `page.type` als First-Class-Feld auf jedem Page-Objekt (`content`/`blank`/`color_chart`) + DWR (Dictionary Word Ratio). needs_review bei ~41%.
-- **Multi-Model-Konsensus** (`verify.py`): Gemini Flash Lite + Gemini 3 Flash + Claude Judge. 19 Konsensus-Dateien. Blank-Seiten werden bei CER uebersprungen. Erste Tests: ~5% CER bei Typoskripten, hoeher bei Handschrift. Siehe `verification-concept.md` §7.
+- **quality_signals v1.4**: 8 Signale + `page.type` als First-Class-Feld auf jedem Page-Objekt (`content`/`blank`/`color_chart`) + DWR (Dictionary Word Ratio). Duplikat-Schwelle gesenkt fuer Halluzinationserkennung. needs_review bei ~41%.
+- **Multi-Model-Konsensus** (`verify.py`): Gemini Flash Lite + Gemini 3 Flash + Claude Judge. 29 Konsensus-Dateien. Blank-Seiten werden bei CER uebersprungen. Erste Tests: ~5% CER bei Typoskripten, hoeher bei Handschrift. Siehe `verification-concept.md` §7.
 - **CER/WER-Evaluierung**: `evaluate.py` mit Normalisierung per Annotationsprotokoll, `quality_report.py` fuer Aggregatstatistiken
 - **JSON-Parsing gehaertet**: Codeblock-Strip, Escape-Fix (`\j`, `\w`), Retry, Absicherung gegen leere API-Antworten
 - **System-Prompt**: Explizites JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien
 
 ### Naechste Schritte
 
-1. **Konsensus-Validierung**: 30 Objekte stratifiziert (3/Gruppe) mit `verify.py --sample 3`
-2. **Batch weiterfahren**: v.a. Korrespondenzen (24%) und Aufsatzablage (18%)
-3. **Pilot-Entscheidung**: 5-Seiten-Pilot (Plan.md 4a) noch offen — klaeren ob Multi-Model-Konsensus als Proxy-GT reicht
-4. **Statistik-Dashboard** und **Diff-Ansicht** im Viewer (L1)
+1. **Expert-Review**: 18 GT-Objekte im Frontend pruefen und approven (localhost, GT Review-Modus)
+2. **Batch weiterfahren**: v.a. Korrespondenzen (24%) und Aufsatzablage (19%)
+3. **Prompt-Ablation**: V1/V2/V3 × 18 GT-Objekte nach Expert-Review
+4. **Layout-Analyse ausweiten**: Stratifizierter Test (1 Objekt/Gruppe), dann Batch-Lauf
 5. **TEI-Export**: `export_interchange.py` (Phase 5)
+
+Erledigt (Session 14): Konsensus-Metriken v2, GT-Pipeline, Frontend GT-Review, Layout-Analyse + PAGE XML.
+Erledigt (Session 15): Knowledge Vault im Frontend, Projekt-Seite, README aktualisiert.
 
 ## Quelldaten
 
@@ -93,7 +96,7 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
                 ▼
  ┌─────────────────────────────────────┐
  │  4. Enrichment & Quality Signals    │
- │     quality_signals.py v1.3         │
+ │     quality_signals.py v1.4         │
  │     • page.type (content/blank/     │
  │       color_chart) pro Seite        │
  │     • DWR, Marker-Dichte, Duplikate │
@@ -103,12 +106,18 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
                 ▼
  results/{collection}/{object_id}_{model}.json
                 │
-        ┌───────┴────────┐
-        ▼                ▼
-   verify.py        build_viewer_data.py
-   Konsensus        → catalog.json
-   (Flash + Flash   → data/{collection}.json
-    Lite + Judge)   → docs/ Viewer
+        ┌───────┼────────────────────┐
+        ▼       ▼                    ▼
+   verify.py  layout_analysis.py   build_viewer_data.py
+   Konsensus  VLM-Layout (1/Seite) → catalog.json
+   (3 Modelle) → *_layout.json     → data/{collection}.json
+        │               │           → docs/ Viewer
+        │               ▼
+        │       export_pagexml.py
+        │       (deterministisch)
+        │       → *_page/page_NNN.xml
+        │         (PAGE XML 2019)
+        └───────────────────────────┘
 ```
 
 ### Dreischichtiges Prompt-System
@@ -139,14 +148,15 @@ Gruppenzuordnung automatisch via `resolve_group()` in `tei_context.py`: Korrespo
 szd-htr/
 ├── CLAUDE.md
 ├── Plan.md                          ← Phasen-Status, Aufgaben, Entscheidungslog
-├── requirements.txt                 ← google-genai, python-dotenv
+├── requirements.txt                 ← google-genai, python-dotenv, markdown, pyyaml
 ├── .env                             ← API Keys (nicht committet)
 ├── schemas/
-│   └── htr-interchange-v0.1.json    ← Validierbares JSON-Schema (Interchange-Format)
+│   ├── htr-interchange-v0.1.json    ← Validierbares JSON-Schema (Interchange-Format)
+│   └── layout-regions-v0.1.json     ← JSON-Schema fuer Layout-Analyse-Output
 ├── pipeline/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
-│   ├── quality_signals.py           ← 8 Signale + page.type + DWR (v1.3)
+│   ├── quality_signals.py           ← 8 Signale + page.type + DWR (v1.4)
 │   ├── verify.py                    ← Multi-Model-Konsensus (Flash Lite + Flash + Claude Judge)
 │   ├── evaluate.py                  ← CER/WER-Berechnung + normalize_for_consensus
 │   ├── quality_report.py            ← Aggregierte Qualitaetsstatistiken ueber alle Ergebnisse
@@ -154,36 +164,45 @@ szd-htr/
 │   ├── run_sample_batch.py          ← Gezielter Batch: fuellt jede Gruppe auf 10 auf
 │   ├── test_single.py               ← Testskript mit 7 hardcodierten Testobjekten
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
-│   ├── build_viewer_data.py         ← Baut 5 Dateien: catalog.json + 4× data/{collection}.json
-│   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts (Markdown)
+│   ├── layout_analysis.py            ← VLM-basierte Layout-Analyse (Regionen + Bounding Boxes)
+│   ├── export_pagexml.py             ← Merged OCR + Layout → PAGE XML 2019
+│   ├── generate_gt.py               ← 3-Modell-GT-Pipeline (Flash Lite + Flash + Pro)
+│   ├── build_viewer_data.py         ← Baut catalog.json + data/*.json + knowledge.json
+│   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts + Layout-Prompt
 ├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
 ├── results/
 │   ├── test/                        ← 7 Testergebnisse (enriched JSON)
 │   ├── groundtruth/                 ← Manuelle Referenztranskriptionen (Pilot + GT)
-│   ├── lebensdokumente/             ← 101 Ergebnisse + 11 Konsensus-JSONs
-│   ├── werke/                       ← 54 Ergebnisse + 5 Konsensus-JSONs
-│   ├── aufsatzablage/               ← 115 Ergebnisse
-│   └── korrespondenzen/             ← 287 Ergebnisse + 3 Konsensus-JSONs
+│   ├── lebensdokumente/             ← 112 Ergebnisse + 18 Konsensus-JSONs
+│   ├── werke/                       ← 56 Ergebnisse + 5 Konsensus-JSONs
+│   ├── aufsatzablage/               ← 117 Ergebnisse + 3 Konsensus-JSONs
+│   └── korrespondenzen/             ← 290 Ergebnisse + 3 Konsensus-JSONs
 ├── docs/
-│   ├── index.html                   ← Single-Page-App: Katalog + Viewer (GitHub Pages)
-│   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit
-│   ├── app.js                       ← Routing, Katalog, Viewer, Edit, Diff, Filter-URL
-│   ├── catalog.json                 ← Leichtgewichtige Metadaten für Katalog-Tabelle
-│   └── data/                        ← Transkriptionsdaten pro Sammlung (on-demand)
+│   ├── index.html                   ← SPA: Katalog + Viewer + Knowledge Vault + Projekt
+│   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit, Knowledge
+│   ├── app.js                       ← Routing, Katalog, Viewer, Edit, Diff, Knowledge, About
+│   ├── catalog.json                 ← Leichtgewichtige Metadaten fuer Katalog-Tabelle
+│   └── data/                        ← Transkriptionsdaten + Knowledge (on-demand)
 │       ├── lebensdokumente.json
 │       ├── werke.json
 │       ├── aufsatzablage.json
-│       └── korrespondenzen.json
+│       ├── korrespondenzen.json
+│       ├── groundtruth.json         ← GT-Drafts fuer Expert-Review
+│       └── knowledge.json           ← Knowledge Vault (12 Docs + About, pre-rendered HTML)
 └── knowledge/                       ← Research Vault (Methodik, Datenanalyse, Journal)
     ├── index.md                     ← Map of Content (MOC)
     ├── data-overview.md             ← Konsolidierte TEI-Analyse aller Sammlungen
     ├── verification-concept.md      ← GT-Sample, quality_signals, Cross-Model, Literatur
     ├── annotation-protocol.md       ← Transkriptionskonventionen fuer Referenz-Sample
-    ├── pilot-design.md              ← 5-Seiten-Pilot vor vollem GT-Sample
+    ├── pilot-design.md              ← 5-Seiten-Pilot (superseded)
+    ├── ground-truth-pipeline.md     ← 3-Modell-GT mit Expert-Review (18 Objekte, 46 Seiten)
     ├── htr-interchange-format.md    ← JSON-Schema: szd-htr → teiCrafter
     ├── tei-target-structure.md      ← TEI-Zielformat (DTABf-Profil, Markup→TEI-Mapping)
     ├── teiCrafter-integration.md    ← teiCrafter-Integration (JSON-Import, Mapping-Templates)
-    └── journal.md                   ← Chronologisches Session-Log
+    ├── verification-by-vision.md    ← LLM-gestuetzte Bildpruefung (Claude + Gemini)
+    ├── layout-analysis.md           ← VLM-basierte Layout-Analyse + PAGE XML Export
+    ├── dia-xai-integration.md       ← EQUALIS-Mapping: SZD-HTR → DIA-XAI
+    └── journal.md                   ← Chronologisches Session-Log (Sessions 1–15)
 ```
 
 ## CLI-Nutzung
@@ -246,7 +265,7 @@ Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits tr
     "confidence_notes": "..."
   },
   "quality_signals": {
-    "version": "1.3",
+    "version": "1.4",
     "total_chars": 2057,
     "total_words": 356,
     "total_pages": 1,
@@ -273,7 +292,7 @@ Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits tr
 }
 ```
 
-`page.type` ist ein First-Class-Feld auf jedem Page-Objekt (seit v1.3). Wird von `_classify_page()` in `quality_signals.py` gesetzt basierend auf Transkriptionslaenge (<10 Zeichen) und Notes-Keywords. Alle 557 bestehenden JSONs sind backfilled via `backfill_page_types.py`. Downstream-Nutzung:
+`page.type` ist ein First-Class-Feld auf jedem Page-Objekt (seit v1.3). Wird von `_classify_page()` in `quality_signals.py` gesetzt basierend auf Transkriptionslaenge (<10 Zeichen) und Notes-Keywords. Alle bestehenden JSONs sind backfilled via `backfill_page_types.py`. Downstream-Nutzung:
 - `verify.py`: Blank/color_chart-Seiten werden bei CER-Berechnung uebersprungen (`"agreement": "skipped"`)
 - `build_viewer_data.py`: `page.type` fliesst in Viewer-Daten, `blankPages`/`contentPages` im Katalog
 - Schema: `schemas/htr-interchange-v0.1.json` enthaelt `type` als optionales enum-Feld

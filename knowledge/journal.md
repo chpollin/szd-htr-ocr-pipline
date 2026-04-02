@@ -2,7 +2,7 @@
 title: "SZD-HTR Research Journal"
 aliases: ["Journal", "Session-Log"]
 created: 2026-03-30
-updated: 2026-04-01
+updated: 2026-04-02
 type: journal
 tags: [szd-htr, session-log]
 status: active
@@ -491,6 +491,69 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 | 5-Seiten-Pilot uebersprungen | Konsensus-Validierung + GT-Pipeline beantworten die Pilot-Fragen empirisch |
 | Bleed-Through im System-Prompt | Effizienter als Post-Processing; VLM soll es gar nicht erst transkribieren |
 
+### Frontend-Upgrade (Lane 1, parallel)
+
+- **build_viewer_data.py Bug-Fixes:** Consensus-Dateien aus Katalog entfernt (583→564 Objekte), quality_signals Naming-Mismatch behoben (camelCase→snake_case), alle 20 QS-Felder inkl. dwr_score exportiert
+- **Konsensus-Daten im Frontend:** 29 Objekte mit consensus category/CER im Katalog, volle Konsensus-Daten (transcription_a/b) in Collection-JSONs fuer Diff-View
+- **Diff-Ansicht:** DIFF_PLACEHOLDER durch echte Konsensus-Daten ersetzt, CER im Header, dynamische Modell-Namen, Button disabled ohne Konsensus
+- **Enhanced Stats Dashboard:** Seiten-Stats, Zeichen-Summen, Konfidenz-Verteilung, Review-%, DWR-Durchschnitt, Konsensus-Uebersicht
+- **Neue Anzeigen:** DWR-Badge im Viewer, Page-Type-Badges (Leer/Farbskala), Konsensus-Status V/M/R/D im Katalog + Viewer, per-Page Agreement-Dots, Konsensus-Filter
+- **Mobile:** Card-Layout fuer Katalog unter 600px
+- **Refactoring (7x):** Konsensus-Konstanten extrahiert, redundante Aufrufe entfernt, Inline-Styles→CSS, clearFilters vereinfacht, Feature-Flags gecacht, CSS-Fallback fuer Thumbnails
+
+### Layout-Analyse + PAGE XML (neu)
+
+- **`layout_analysis.py`:** VLM-basierte Layout-Analyse (Gemini Flash Lite, 1 Call/Seite), erkennt 5 Regionentypen (paragraph, heading, list, table, marginalia) mit Bounding Boxes in Prozent-Koordinaten
+- **`export_pagexml.py`:** Deterministischer PAGE XML 2019 Export — merged OCR-Text + Layout-Regionen, proportionales Text-Alignment nach Zeilenschaetzung
+- **`prompts/layout_system.md`:** Eigener System-Prompt fuer Layout-Analyse
+- **`schemas/layout-regions-v0.1.json`:** Validierbares JSON-Schema
+- **Test:** o_szd.100 (Typoskript, Vertrag) — 15 Regionen erkannt, PAGE XML valide
+- **Dokumentation:** `knowledge/layout-analysis.md` erstellt, `htr-interchange-format.md` §7 aktualisiert
+
+---
+
+## 2026-04-02 — Session 15: Knowledge Vault Frontend + Projekt-Seite
+
+**Schwerpunkt:** Knowledge Vault (12 Markdown-Dokumente) als navigierbare Ansicht ins Frontend bringen. Projekt-Seite aus README.md. README aktualisieren.
+
+### Knowledge Vault im Frontend
+
+- **Build-Pipeline:** `build_knowledge()` in `build_viewer_data.py` — liest `knowledge/*.md`, parst YAML-Frontmatter, loest `[[wiki-links]]` zur Build-Zeit auf, konvertiert Markdown zu HTML (Python `markdown` mit `tables`, `fenced_code`, `toc`), extrahiert TOC-Headings
+- **Output:** `docs/data/knowledge.json` — 12 Dokumente + About-Seite (aus README.md), Sektions-Struktur aus `index.md`
+- **Neue Python-Dependencies:** `markdown>=3.5`, `pyyaml>=6.0` in `requirements.txt`
+- **Frontend-Routing:** 3 neue Hash-Routes:
+  - `#knowledge` — Index mit Card-Layout, gruppiert nach Leseordnung / Spezifikationen / Projektlog
+  - `#knowledge/{slug}` — Einzeldokument mit Sidebar (TOC, Metadaten, Related Links, Prev/Next)
+  - `#about` — Projekt-Seite (gerendert aus README.md)
+- **CSS:** View-Toggles fuer 5 Views, Knowledge-Cards, Knowledge-Doc Grid (Sidebar + Content), Markdown-Content-Styles (Headings, Tabellen, Code-Bloecke, Wiki-Links, Blockquotes), About-Seite, responsive Breakpoints (900px, 600px)
+- **Navigation:** "Methodik" + "Projekt" Links im Header (alle Views sichtbar), Escape-Key zurueck, Wiki-Links als `<a href="#knowledge/...">` direkt via Hash-Routing
+
+### README.md aktualisiert
+
+- 575/2107 Objekte (27%), 3463/18719 Seiten (18%)
+- Quality Signals v1.3 → v1.4
+- Pipeline-Architektur: verify.py, generate_gt.py, build_viewer_data.py Downstream ergaenzt
+- Projektstruktur: generate_gt.py, layout_analysis.py, export_pagexml.py, groundtruth/ ergaenzt
+- Farbskala-Spalte in Statistik-Tabelle
+
+### Designentscheidung
+
+| Entscheidung | Begruendung |
+|---|---|
+| Pre-rendered HTML statt Client-Side Markdown | App hat null Runtime-Dependencies, kein Flicker, Wiki-Links zur Build-Zeit aufgeloest |
+| Eine knowledge.json statt 12 Einzeldateien | Gesamtgroesse ~200-300 KB, einmal laden, sofort navigieren |
+| Header-Nav statt eigener Sidebar-Navigation | Minimal-invasiv, folgt bestehendem Pattern, keine Mobile-Hamburger noetig |
+
+### Neue/Geaenderte Dateien
+
+- `pipeline/build_viewer_data.py` — `build_knowledge()`, `parse_frontmatter()`, `parse_index_sections()`
+- `docs/index.html` — Nav-Links + 3 `<main>` Elemente
+- `docs/app.css` — Sektionen 15-20 (Knowledge, Knowledge-Doc, Markdown, About, Responsive)
+- `docs/app.js` — `ensureKnowledgeData()`, `showKnowledgeIndex()`, `renderKnowledgeIndex()`, `showKnowledgeDoc()`, `renderKnowledgeDoc()`, `showAbout()`
+- `docs/data/knowledge.json` — generiert (12 Docs + About)
+- `requirements.txt` — +markdown, +pyyaml
+- `README.md` — Statistiken + Struktur aktualisiert
+
 ---
 
 ## Offene Fragen (Stand 2026-04-02)
@@ -510,6 +573,6 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 - [x] Pipeline-Bug: o_szd.147 repariert, 41 Bilder transkribiert (Session 13)
 - [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Konsensus-Validierung)
 - [x] Multi-Model-Konsensus: 27 Objekte validiert, 18 Objekte GT-Pipeline mit 3 Modellen (Session 14)
-- [ ] Statistik-Dashboard im Frontend (Session 13 → naechste Session)
+- [x] Statistik-Dashboard im Frontend — Enhanced Stats + Diff mit echten Daten (Session 14)
 - [ ] Expert-Review: 18 GT-Objekte im Frontend pruefen und approven
 - [ ] Prompt-Ablation: V1/V2/V3 gegen GT messen (18 Objekte × 3 Varianten)

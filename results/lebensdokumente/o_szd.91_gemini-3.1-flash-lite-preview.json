@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.91",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Contratto Sperling u. Kupfer, SZ-AAP/L13.14",
+    "language": "Italienisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.91/IMG.1",
+      "https://gams.uni-graz.at/o:szd.91/IMG.2",
+      "https://gams.uni-graz.at/o:szd.91/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Contratto Sperling & Kupfer\n- Signatur: SZ-AAP/L13.14\n- Datum: 8 dicembre 1937\n- Sprache: Italienisch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 3 Blatt\n- Schreibinstrument: Violettes Durchschlagpapier, schwarze und violette Tinte, Bleistift, Kugelschreiber\n- Hand: Stefan Zweig, Lotte Zweig, fremde Hand\n- Anmerkungen: Aufschrift „ANGST: in public | domain in | italy“ von fremder Hand in Kugelschreiber und „Inhalt | (Angst | Episode a Genfer See | Buch Mendel | Unsichtb Sammlung | Unverm. Bekanntsch.“ von Lotte Zweigs Hand in Bleistift, eigenhändige Unterschrift in violetter Tinte, Unterschrift von fremder Hand, violetter Stempel",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "sperling e kupfer\neditori e librai\nsocietà anonima italiana\ncap. soc. int. vers. L. 300.000\n\nmilano-roma\nu.p.e.c. milano 10405\n\nindirizzo postale\nsperling & kupfer\nvia carducci, 16 - milano\n\nmagazzino libri\nconsegne e ritiri\nvia panzacchi, 2\n\ntelefono\n89 - 993\n\nindirizzo telegrafico\nsperlingkupfer\nmilano\n\nconti correnti postali\nmilano 3-534\nleipzig 26113\n\ncitare sempre nella risposta\nreparto RG/ bi\n\nmilano, 8 dicembre 1937\nvia carducci, 16\n\nANGST: in public\ndomain in\nitaly\n\nC O N T R A T T O\n\nfra il sig. dott. Stefano Zweig di Salisburgo e la Casa Editri-\nce Sperling & Kupfer, in persona del suo Consigliere Delegato\nsig. Federico Giannoni, si stabilisce quanto segue/\n\n1°) L'editore pubblicherà un libro dal titole La Paura conten-\nte diverse novelle come stabilito d'accordo con l'autore.\n\n2°) La tiretura sarà di copie 2000 oppure 3000 come stabilirà\nl'editore e sarà munita del timbro della Società degli Autori ogni\ncopia.\n\n3°) L'editore affida la traduzione alla signorina anita Rho\nche già tradusse Le Leggende.\n\nLa traduzione é anzi già allestita e la pubblicazione avverrà\npresumibilmente entro un paio di mesi.\n\nL'autore proprietario delle Opera cede all'editore Italiano i\ndiritti per la edizione Italiana - la presente e le sucessive -\nin tutto il territorio del regno e dell'impero dell'Opera di\ncui sopra\n\n6°) Per la concessione dei diritti d'autore, l'editore si obbli-\nga al pagamento di un onorario del 10% sui prezzi di vendita di\nogni esemplare effettivamente venduto. La liquidazione degli ono-\nrari avverrà come d'uso fra i contraenti ogni fine anno. Le copie\ndate per recensione od omaggio sono esenti da onorario.\n\nAll'Autore spettano 5 esemplari gratuiti.\n\nIn fede\nL'Autore\nL'Editore\n\n[Unterschrift Stefan Zweig]\nS. A. SPERLING & KUPFER\nIL DIRETTORE GENERALE\n[Unterschrift Federico Giannoni]",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen und Unterschriften. Am linken Rand handschriftliche Notizen von Lotte Zweig: 'Inhalt (Angst Episode a Genfer See Buch Mendel Unsichtb Sammlung Unverm. Bekanntsch.'. Rechts oben handschriftliche Notiz in Kugelschreiber: 'ANGST: in public domain in italy'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig zuordenbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1822,
+    "total_words": 288,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1822,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1822,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0498,
+    "duplicate_page_pairs": [],
+    "language_expected": "",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

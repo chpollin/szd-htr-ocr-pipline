@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.85",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Wremja, SZ-AAP/L13.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.85/IMG.1",
+      "https://gams.uni-graz.at/o:szd.85/IMG.2",
+      "https://gams.uni-graz.at/o:szd.85/IMG.3",
+      "https://gams.uni-graz.at/o:szd.85/IMG.4",
+      "https://gams.uni-graz.at/o:szd.85/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Wremja\n- Signatur: SZ-AAP/L13.8\n- Datum: 16. September 1928\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Vertrag mit eigenhändiger Unterschrift und Ergänzungen in schwarzer Tinte, Unterschriften von fremder Hand und violette Stempel",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "V E R T R A G.\n\nLeningrad, den 16-ten September 1928. Wir, Endesunterzeich-\nneten Dr. Stefan Zweig einerseits und der Leningrader Kooperativ-\nverlag \"Wremja\" andererseits, haben folgenden Vertrag geschlos-\nsen.\n\n1) Dr. Stefan Zweig übergiebt dem Kooperativ-verlag \"Wremja\"\ndas alleinige Recht der Herausgabe aller seiner Werke in U.S.S.R\n2) Dr. Stefan Zweig verpflichtet sich alle neuen Werke dem\nVerlag \"Wremja\" drei monate vor dem Erscheinen im Auslande in\nManuskripten zukommen zu lassen.\n3) Der verlag \"Wremja\" verpflichtet sich für ihm zuge-\nkommene manuskripte neuer Werke dem Dr. Stefan Zweig fünfzig\n(50) Rbl.pro Bogen, aus 40.000 typographischen zeichen bestehend,\nzu zahlen.\n4) Das im Punkt 3 erwähnte Honorar wird in drei Terminen\nausgezahlt: einem Monat, drei Monaten und sechs Monaten nach\ndem Erscheinen des Buches zu je einem Drittel des zukommenden\nHonorars.\n5. Dieser Vertrag besteht zu Recht bis zu\ndem Zeitpunkt, da zwischen der Sowjetunion und\nDeutschland /respechve Osterreich/ ein Urheberrechtsvertrag\ngeschlossen wird. In diesem Falle müsste ein neuer Vertrag\ngeschlossen werden, aber Herr Dr. Stefan Zweig verpflichtet\nsich bei gleichen Bedingungen dem Verlag \"Wremja\" den\nVorzug zu geben. \nLeningrad 16. September 1928. [Stempel: Издательство „ВРЕМЯ“ Ленинград / Правление Кооперативного Товарищества] D. Welsche[?] [Unterschrift] Stefan Zweig",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in Tinte (Punkt 5 und Unterschriften). Violette Stempelabdrücke vorhanden. Die Lesung der Unterschrift links neben Stefan Zweig ist unsicher.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Vorderseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der maschinengeschriebene Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in Punkt 5 sind gut lesbar, lediglich die Unterschrift links neben Stefan Zweig ist aufgrund der Handschrift schwer zu identifizieren."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1368,
+    "total_words": 197,
+    "total_pages": 1,
+    "empty_pages": 4,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1368,
+      0,
+      0,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1368,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0051,
+    "dwr_score": 0.3315,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

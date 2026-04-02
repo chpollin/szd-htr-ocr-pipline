@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15">
+  <Metadata>
+    <Creator>szd-htr-pipeline</Creator>
+    <Created>2026-04-02T07:30:16.697926+00:00</Created>
+  </Metadata>
+  <Page imageFilename="IMG_1.jpg" imageWidth="4912" imageHeight="7360">
+    <ReadingOrder>
+      <OrderedGroup id="ro">
+        <RegionRefIndexed regionRef="r1" index="0" />
+        <RegionRefIndexed regionRef="r2" index="1" />
+        <RegionRefIndexed regionRef="r3" index="2" />
+        <RegionRefIndexed regionRef="r4" index="3" />
+        <RegionRefIndexed regionRef="r5" index="4" />
+        <RegionRefIndexed regionRef="r6" index="5" />
+        <RegionRefIndexed regionRef="r7" index="6" />
+        <RegionRefIndexed regionRef="r8" index="7" />
+        <RegionRefIndexed regionRef="r9" index="8" />
+        <RegionRefIndexed regionRef="r10" index="9" />
+        <RegionRefIndexed regionRef="r11" index="10" />
+        <RegionRefIndexed regionRef="r12" index="11" />
+        <RegionRefIndexed regionRef="r13" index="12" />
+        <RegionRefIndexed regionRef="r14" index="13" />
+        <RegionRefIndexed regionRef="r15" index="14" />
+      </OrderedGroup>
+    </ReadingOrder>
+    <TextRegion id="r1" type="heading" custom="structure {type:heading;} label {Titel des Dokuments};">
+      <Coords points="192,213 427,213 427,236 192,236" />
+      <TextEquiv>
+        <Unicode>THIS AGREEMENT
+</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r2" type="paragraph" custom="structure {type:paragraph;} label {Einleitungstext};">
+      <Coords points="192,236 810,236 810,309 192,309" />
+      <TextEquiv>
+        <Unicode>is made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam
+Street, London, W. 1., England, of the first part and Longmans, Green &amp; Co. Inc.,
+of 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually
+agreed as follows:
+
+1. The said Stefan Zweig agrees to furnish and deliver to the said Long-
+mans, Green &amp; Co. Inc. not later than October 31, 1938 a treatise in the German</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r3" type="list-label" custom="structure {type:list;} label {Vertragspunkt 1};">
+      <Coords points="192,316 810,316 810,375 192,375" />
+      <TextEquiv>
+        <Unicode>language containing about six thousand words to be used as a preface in a work
+which is to be published by the said Longmans, Green &amp; Co. Inc. entitled
+
+THE LIVING THOUGHTS OF TOLSTOI
+PRESENTED BY STEFAN ZWEIG
+
+together with a condensation to run from thirty thousand (30,000) to thirty-</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r4" type="heading" custom="structure {type:heading;} label {Buchtitel};">
+      <Coords points="373,375 810,375 810,397 373,397" />
+      <TextEquiv>
+        <Unicode>five thousand (35,000) words, said condensation to be indicated in German
+editions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred
+words.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r5" type="paragraph" custom="structure {type:paragraph;} label {Fortsetzung Vertragspunkt 1};">
+      <Coords points="192,397 810,397 810,442 192,442" />
+      <TextEquiv>
+        <Unicode>
+2. The copyright in this treatise and condensation including all foreign
+copyrights and all rights of translation and reproduction and all other rights
+shall be the property of the said Longmans, Green &amp; Co. Inc. subject to the pay-
+ment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r6" type="list-label" custom="structure {type:list;} label {Vertragspunkt 2};">
+      <Coords points="192,449 810,449 810,508 192,508" />
+      <TextEquiv>
+        <Unicode>cents ($666.67) to be paid on the acceptance of the manuscript by the said Long-
+mans, Green &amp; Co. Inc.
+
+3. The said Longmans, Green &amp; Co. Inc. shall be at liberty to deduct
+from any payment, or payments, which may become due to the said Stefan Zweig
+under this agreement any sum, or sums, which the said Longmans, Green &amp; Co. Inc.
+shall be under statutory obligation to pay in respect of income tax.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r7" type="list-label" custom="structure {type:list;} label {Vertragspunkt 3};">
+      <Coords points="192,515 810,515 810,559 192,559" />
+      <TextEquiv>
+        <Unicode>
+4. The said Longmans, Green &amp; Co. Inc. will present to the said Stefan
+Zweig upon publication, five (5) copies of the said work gratis.
+
+IN WITNESS WHEREOF the parties hereto have hereunto subscribed their names</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r8" type="list-label" custom="structure {type:list;} label {Vertragspunkt 4};">
+      <Coords points="192,567 810,567 810,589 192,589" />
+      <TextEquiv>
+        <Unicode>and affixed their seals the day and year first above written.
+
+In the presence of</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r9" type="paragraph" custom="structure {type:paragraph;} label {Abschlusssatz};">
+      <Coords points="192,604 810,604 810,626 192,626" />
+      <TextEquiv>
+        <Unicode>
+[Lotte Altmann signature] 
+Witness</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r10" type="heading" custom="structure {type:heading;} label {Anwesenheitsvermerk};">
+      <Coords points="192,640 329,640 329,655 192,655" />
+      <TextEquiv>
+        <Unicode>
+[Signature of witness] </Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r11" type="paragraph" custom="structure {type:paragraph;} label {Unterschriftenlabel Zeuge};">
+      <Coords points="192,655 329,655 329,677 192,677" />
+      <TextEquiv>
+        <Unicode>Witness
+</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r12" type="paragraph" custom="structure {type:paragraph;} label {Unterschriftenlabel Autor};">
+      <Coords points="535,655 673,655 673,677 535,677" />
+      <TextEquiv>
+        <Unicode>Stefan Zweig [Signature]
+Author</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r13" type="paragraph" custom="structure {type:paragraph;} label {Unterschriftenlabel Zeuge 2};">
+      <Coords points="192,714 329,714 329,736 192,736" />
+      <TextEquiv>
+        <Unicode>
+Longmans, Green &amp; Company, Inc.</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r14" type="paragraph" custom="structure {type:paragraph;} label {Firmenname};">
+      <Coords points="535,684 806,684 806,707 535,707" />
+      <TextEquiv>
+        <Unicode>By Edward Mill [Signature] (Secretary)</Unicode>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="r15" type="paragraph" custom="structure {type:paragraph;} label {Unterschriftenlabel Sekretär};">
+      <Coords points="535,714 806,714 806,736 535,736" />
+    </TextRegion>
+  </Page>
+</PcGts>

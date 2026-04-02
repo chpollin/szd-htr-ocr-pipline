@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.95",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Verlagsvertrag Athenaeum Publishing And Printing Establishment Limited, SZ-AAP/L13.18",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.95/IMG.1",
+      "https://gams.uni-graz.at/o:szd.95/IMG.2",
+      "https://gams.uni-graz.at/o:szd.95/IMG.3",
+      "SZ_AAP_L13.18_004.jpg",
+      "https://gams.uni-graz.at/o:szd.95/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Athenaeum Publishing And Printing Establishment Limited\n- Signatur: SZ-AAP/L13.18\n- Datum: 25. Nov. 1938\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarzes und blaues Farbband, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Unterschriften von fremder Hand, schwarzer Stempel",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "19.XI.1938.\n\nH e r r n  D r .  S t e f a n  Z w e i g\n\nL O N D O N  W. 1.\n49 Hallam Street.\n\nWir haben mit Ihnen nachstehende Vereinbarung getroffen:\n1./ Sie übertragen uns das ausschliessliche Recht der un-\ngarischen Ausgabe in Buchform Ihres Romans\nUNGEDULD DES HERZENS.\n2./ Wir sind verpflichtet, Ihnen für die Überlassung die-\nses Rechtes eine Anzahlung englischer Pfunds im Werte von P.800.-- bei Unter-\nschrift dieses Vertrages zu bezahlen, auf den Honoraranteil von acht Prozent\nnach dem gebundenen Exemplar, bis sechstausend Exemplaren; hernach zehn Pro-\nzent, ebenfalls nach dem gebundenen Exemplar. Es steht Ihnen frei, die\ndeutschsprachigen Zeitungsrechte auch in Ungarn zu verwerten; jedoch ver-\nzichten Sie auf die Verwertung der ungarischen Zeitungsrechte in Ungarn.\n3./ Sie haben das Recht, 10 gebundene und 10 broschierte\nExemplare des Buches sofort nach Erscheinen ohne Entgelt zu erhalten; aus\nLederbänden oder sonstigen Luxusausstattungen je drei Exemplare; weitere\nExemplare können Sie mit 50 % auf den Ladenpreis beziehen.\n4./ Wir sind verpflichtet, eine Abrechnung über die ver-\nkauften Exemplare jährlich zu leisten. Gleichzeitig mit der Abrechnung hat\ndie Überweisung des auf Sie entfallenden Honorars in Barem zu erfolgen.\n\n- 1 -",
+        "notes": "Typoskript. Unten links handschriftliche Notiz (Kürzel/Paraphe).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "5./ Im Falle, dass das Buch vergriffen werden sollte, ha-\nben Sie das Recht, sechs Monate nach Eintritt dieses Zustandes, wenn bis da-\nhin keine neue Auflage erschienen sein sollte, die Vereinbarung rechtskräf-\ntig durch einen rekommandierten Brief zu lösen; in diesem Falle kehren die\nRechte der ungarischen Ausgabe automatisch wieder in Ihr Eigentum zurück.\n6./ Sollte der Verlag fällig gewordene Beträge an den\nAutor trotz wiederholter schriftlich-rekommandierter Mahnung nicht erfüllen,\nso gelangt der Autor automatisch wieder in die Rechte der ungarischen Ausga-\nbe. Somit verliert der Verleger sein Recht auf den weiteren Vetrieb; wogegen\nder Autor befugt wird, über das Recht der ungarischen Ausgabe, als über sein\nrückerworbenes Eiegentum, frei zu verfügen. Dieselben Rechte fallen ihm zu,\nsobald der Verleger um Zwangsausgleich ansucht, oder in Konkurs gerät.\n7./ Die ungarische Ausgabe hat bis zum 1. Juli 1939 zu\nerscheinen. Die Übertragung hat sorgfältig und in vollem Umfange zu erfol-\ngen. Sollten irgendwelche Textveränderungen vorgenommen werden, so ist\nhiezu vorerst die schriftliche Zustimmung des Autors einzuholen.\n8./ Sämtliche Zahlungen aus diesem Vertrag sind an fol-\ngende Adresse zu leiten: Rechtsanwalt Dr. Eugen Kerpel, Budapest V., Do-\nrottya ucca 14; diese Kanzlei wird bei der Ungarischen Nationalbank um die\nÜberweisung der Beträge nach England vorstellig werden.\n9./ /Option/ s. unten.\n\nHochachtungsvoll\nATHENAEUM\nPUBLISHING AND PRINTING\nESTABLISHMENT LIMITED\n\n9./ Sie gewähren uns eine Option auf die ungarischen\nRechte Ihrer nächsten drei Werke und bei der tatsächlichen Erwerbung die-\nser Werke erhalten wir von Ihnen stets eine weitere Option auf die je-\nweiligen drei nächsten Werke.\n\nStefan Zweig\n25. Nov. 1938",
+        "notes": "Typoskript mit Stempel und handschriftlicher Unterschrift von Stefan Zweig.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 3002,
+    "total_words": 458,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1254,
+      0,
+      1748,
+      0
+    ],
+    "chars_per_page_median": 1501.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3848,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

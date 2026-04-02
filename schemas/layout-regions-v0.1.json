@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chpollin.github.io/szd-htr/schemas/layout-regions-v0.1.json",
+  "title": "Layout Regions Format",
+  "description": "VLM-basierte Layout-Analyse: Textregionen mit Bounding Boxes fuer Dokumentseiten. Dient als Input fuer PAGE XML Export.",
+  "type": "object",
+  "required": ["object_id", "collection", "model", "pages"],
+  "properties": {
+
+    "object_id": {
+      "type": "string",
+      "description": "Objekt-ID (z.B. 'o_szd.100')"
+    },
+
+    "collection": {
+      "type": "string",
+      "description": "Sammlungsname (z.B. 'lebensdokumente')"
+    },
+
+    "model": {
+      "type": "string",
+      "description": "VLM-Modell fuer Layout-Analyse (z.B. 'gemini-3.1-flash-lite-preview')"
+    },
+
+    "pages": {
+      "type": "array",
+      "description": "Layout-Daten pro Seite",
+      "items": {
+        "type": "object",
+        "required": ["page", "regions"],
+        "properties": {
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Seitennummer (1-basiert)"
+          },
+          "image_filename": {
+            "type": "string",
+            "description": "Bilddateiname (z.B. 'IMG_0001.jpg')"
+          },
+          "image_width_px": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Bildbreite in Pixel"
+          },
+          "image_height_px": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Bildhoehe in Pixel"
+          },
+          "regions": {
+            "type": "array",
+            "description": "Erkannte Textregionen auf dieser Seite",
+            "items": {
+              "type": "object",
+              "required": ["id", "type", "bbox", "reading_order", "lines", "label"],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^r\\d+$",
+                  "description": "Region-ID (z.B. 'r1', 'r2')"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": ["paragraph", "heading", "list", "table", "marginalia"],
+                  "description": "Regionstyp"
+                },
+                "bbox": {
+                  "type": "array",
+                  "items": { "type": "number", "minimum": 0, "maximum": 100 },
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "description": "Bounding Box als [x%, y%, breite%, hoehe%] — Prozent der Seitengroesse (0-100)"
+                },
+                "reading_order": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "description": "Lesereihenfolge (1, 2, 3, ...)"
+                },
+                "lines": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "description": "Geschaetzte Anzahl Textzeilen"
+                },
+                "label": {
+                  "type": "string",
+                  "description": "Kurze Beschreibung der Region (Deutsch)"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

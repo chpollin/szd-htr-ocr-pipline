@@ -47,6 +47,7 @@ const state = {
   editedTranscriptions: new Map(),
   gtReviews: new Map(),       // objectId:page → { transcription, approved, source }
   gtData: null,               // loaded from groundtruth.json
+  knowledgeData: null,         // loaded from knowledge.json
   isLocal: false,
 };
 
@@ -159,6 +160,10 @@ function parseHash() {
   if (!hash || hash === 'help' || hash.startsWith('catalog')) {
     return { view: 'catalog', objectId: null, page: 0 };
   }
+  if (hash === 'knowledge') return { view: 'knowledge' };
+  const km = hash.match(/^knowledge\/(.+)$/);
+  if (km) return { view: 'knowledge-doc', slug: km[1] };
+  if (hash === 'about') return { view: 'about' };
   const m = hash.match(/^view\/(.+?)(?:\/(\d+))?$/);
   if (m) return { view: 'viewer', objectId: m[1], page: m[2] ? parseInt(m[2], 10) - 1 : 0 };
   return { view: 'catalog', objectId: null, page: 0 };
@@ -221,6 +226,12 @@ function route() {
   const r = parseHash();
   if (r.view === 'viewer' && r.objectId) {
     showViewer(r.objectId, r.page);
+  } else if (r.view === 'knowledge') {
+    showKnowledgeIndex();
+  } else if (r.view === 'knowledge-doc' && r.slug) {
+    showKnowledgeDoc(r.slug);
+  } else if (r.view === 'about') {
+    showAbout();
   } else {
     parseCatalogParams(location.hash.slice(1));
     restoreFilterUI();
@@ -286,6 +297,189 @@ async function showViewer(objectId, page) {
   renderViewerPage();
   updateEditButtons();
   requestAnimationFrame(() => document.getElementById('viewerMeta')?.focus());
+}
+
+/* ===== Knowledge Vault + About ===== */
+
+async function ensureKnowledgeData() {
+  if (state.knowledgeData) return;
+  try {
+    const resp = await fetch('data/knowledge.json');
+    if (!resp.ok) throw new Error('Knowledge data not found');
+    state.knowledgeData = await resp.json();
+  } catch {
+    state.knowledgeData = { docs: {}, sections: [], about: { html: '' } };
+  }
+}
+
+async function showKnowledgeIndex() {
+  document.body.className = 'view-knowledge';
+  document.title = 'SZD-HTR \u2014 Research Vault';
+  state.currentObjectId = null;
+  state.editMode = false;
+  resetDiffMode();
+  await ensureKnowledgeData();
+  renderKnowledgeIndex();
+}
+
+function renderKnowledgeIndex() {
+  const el = document.getElementById('knowledgeSections');
+  if (!el || !state.knowledgeData) return;
+
+  const { sections, docs } = state.knowledgeData;
+  let html = '';
+
+  for (const sec of sections) {
+    html += `<div class="knowledge__section">
+      <div class="knowledge__section-label">${escapeHtml(sec.label)}</div>
+      <div class="knowledge__cards">`;
+
+    for (const slug of sec.slugs) {
+      const doc = docs[slug];
+      if (!doc) continue;
+      const statusCls = 'knowledge__badge--' + (doc.status || 'draft');
+      html += `<a href="#knowledge/${slug}" class="knowledge__card">
+        <div class="knowledge__card-title">${escapeHtml(doc.title)}</div>
+        <div class="knowledge__card-meta">
+          <span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>
+          <span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span>
+          <span class="knowledge__card-words">${doc.wordCount || 0} W\u00f6rter</span>
+        </div>
+      </a>`;
+    }
+
+    html += '</div></div>';
+  }
+
+  // Show docs not in any section
+  const allSectioned = new Set(sections.flatMap(s => s.slugs));
+  const unsectioned = Object.values(docs).filter(d => !allSectioned.has(d.slug));
+  if (unsectioned.length > 0) {
+    html += `<div class="knowledge__section">
+      <div class="knowledge__section-label">Weitere Dokumente</div>
+      <div class="knowledge__cards">`;
+    for (const doc of unsectioned) {
+      const statusCls = 'knowledge__badge--' + (doc.status || 'draft');
+      html += `<a href="#knowledge/${doc.slug}" class="knowledge__card">
+        <div class="knowledge__card-title">${escapeHtml(doc.title)}</div>
+        <div class="knowledge__card-meta">
+          <span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span>
+          <span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span>
+          <span class="knowledge__card-words">${doc.wordCount || 0} W\u00f6rter</span>
+        </div>
+      </a>`;
+    }
+    html += '</div></div>';
+  }
+
+  el.innerHTML = html;
+}
+
+async function showKnowledgeDoc(slug) {
+  document.body.className = 'view-knowledge-doc';
+  state.currentObjectId = null;
+  state.editMode = false;
+  resetDiffMode();
+  await ensureKnowledgeData();
+
+  const doc = state.knowledgeData?.docs?.[slug];
+  if (!doc) {
+    document.getElementById('knowledgeDocContent').innerHTML =
+      '<p>Dokument nicht gefunden.</p>';
+    document.getElementById('knowledgeDocSidebar').innerHTML =
+      `<div class="knowledge-doc__sidebar-nav"><a href="#knowledge">\u2190 Vault</a></div>`;
+    return;
+  }
+
+  document.title = `SZD-HTR \u2014 ${doc.title}`;
+  renderKnowledgeDoc(doc);
+  // Scroll to top
+  window.scrollTo(0, 0);
+}
+
+function renderKnowledgeDoc(doc) {
+  const sidebar = document.getElementById('knowledgeDocSidebar');
+  const content = document.getElementById('knowledgeDocContent');
+  if (!sidebar || !content) return;
+
+  // Navigation: back to index
+  let sidebarHtml = `<div class="knowledge-doc__sidebar-nav">
+    <a href="#knowledge">\u2190 Vault</a>`;
+
+  // Prev/Next based on reading order
+  const { sections } = state.knowledgeData;
+  const allSlugs = sections.flatMap(s => s.slugs);
+  const idx = allSlugs.indexOf(doc.slug);
+  if (idx > 0) {
+    const prev = state.knowledgeData.docs[allSlugs[idx - 1]];
+    if (prev) sidebarHtml += `<a href="#knowledge/${prev.slug}" title="${escapeHtml(prev.title)}">\u2190</a>`;
+  }
+  if (idx >= 0 && idx < allSlugs.length - 1) {
+    const next = state.knowledgeData.docs[allSlugs[idx + 1]];
+    if (next) sidebarHtml += `<a href="#knowledge/${next.slug}" title="${escapeHtml(next.title)}">\u2192</a>`;
+  }
+  sidebarHtml += '</div>';
+
+  // Metadata
+  const statusCls = 'knowledge__badge--' + (doc.status || 'draft');
+  sidebarHtml += `<dl class="knowledge-doc__sidebar-meta">
+    <dt>Typ</dt><dd><span class="knowledge__badge knowledge__badge--type">${escapeHtml(doc.type)}</span></dd>
+    <dt>Status</dt><dd><span class="knowledge__badge ${statusCls}">${escapeHtml(doc.status)}</span></dd>
+    <dt>Erstellt</dt><dd>${escapeHtml(doc.created)}</dd>
+    <dt>Aktualisiert</dt><dd>${escapeHtml(doc.updated)}</dd>`;
+
+  if (doc.tags && doc.tags.length > 0) {
+    sidebarHtml += `<dt>Tags</dt><dd>${doc.tags.map(t => escapeHtml(t)).join(', ')}</dd>`;
+  }
+
+  if (doc.related && doc.related.length > 0) {
+    const links = doc.related.map(relSlug => {
+      const rd = state.knowledgeData.docs[relSlug];
+      const title = rd ? rd.title : relSlug;
+      return `<a href="#knowledge/${relSlug}">${escapeHtml(title)}</a>`;
+    }).join('<br>');
+    sidebarHtml += `<dt>Verwandt</dt><dd>${links}</dd>`;
+  }
+  sidebarHtml += '</dl>';
+
+  // TOC from headings
+  if (doc.headings && doc.headings.length > 0) {
+    sidebarHtml += `<div class="knowledge-doc__toc">
+      <div class="knowledge-doc__toc-title">Inhalt</div>
+      <ul class="knowledge-doc__toc-list">`;
+    for (const h of doc.headings) {
+      const lvlCls = h.level >= 3 ? ` toc-h${h.level}` : '';
+      sidebarHtml += `<li><a href="#${h.id}" class="${lvlCls}">${escapeHtml(h.text)}</a></li>`;
+    }
+    sidebarHtml += '</ul></div>';
+  }
+
+  sidebar.innerHTML = sidebarHtml;
+  content.innerHTML = doc.html;
+
+  // Smooth-scroll TOC links
+  sidebar.querySelectorAll('.knowledge-doc__toc-list a').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const targetId = a.getAttribute('href').slice(1);
+      const target = document.getElementById(targetId);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+}
+
+async function showAbout() {
+  document.body.className = 'view-about';
+  document.title = 'SZD-HTR \u2014 Projekt';
+  state.currentObjectId = null;
+  state.editMode = false;
+  resetDiffMode();
+  await ensureKnowledgeData();
+
+  const el = document.getElementById('aboutContent');
+  if (el && state.knowledgeData?.about) {
+    el.innerHTML = state.knowledgeData.about.html;
+  }
 }
 
 /* ===== Review / Quality Signals ===== */
@@ -1795,6 +1989,17 @@ function initEvents() {
           navigate(buildCatalogHash());
         }
       }
+    }
+
+    // Escape from knowledge/about views
+    if (document.body.classList.contains('view-knowledge-doc') && e.key === 'Escape') {
+      navigate('knowledge');
+    }
+    if (document.body.classList.contains('view-knowledge') && e.key === 'Escape') {
+      navigate(buildCatalogHash());
+    }
+    if (document.body.classList.contains('view-about') && e.key === 'Escape') {
+      navigate(buildCatalogHash());
     }
   });
 

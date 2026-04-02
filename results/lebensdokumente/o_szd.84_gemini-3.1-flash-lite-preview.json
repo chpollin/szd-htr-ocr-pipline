@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.84",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vereinbarung Editorial Atenea, SZ-AAP/L13.7",
+    "language": "Französisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.84/IMG.1",
+      "https://gams.uni-graz.at/o:szd.84/IMG.2",
+      "https://gams.uni-graz.at/o:szd.84/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vereinbarung Editorial Atenea\n- Signatur: SZ-AAP/L13.7\n- Datum: 28/10/1934\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, violette und schwarze Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Briefliche Vereinbarung mit eigenhändiger Aufschrift „12 Pfund für Katalanisch Ubersetzung Marie Antoinet und Fouche erhalten“ in violetter Tinte, violetter Stempel „Editorial Atenea p. p.\" und Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "EDITORIAL ATENEA\nSANTA AGATA, 18 (Gracia)\nBARCELONA\n\n                                   28/10/1934\n\nMonsieur Stefan Zweig\n          11, Portland Place\n                    Londres, W.1\n\n\nCher Monsieur:\n          J'ai dûment reçu votre lettre 24 ct.\net, d'accord avec les termes de vos conditions, j'ai l'honneur de vous faire remise par mandat de poste, a votre adresse a Londres, comme règlement des droits de version et publication en catalan de vos ouvrages \"Marie-Antoinette\" et\n\"Fouché\", la somme de £ 12-10-0, equivalence de\nFrancs 960 (neufcent soixante), de laquelle je vous prie de\nm'accuser reception.\n          Ci-joint vous trouverez un certificat d'autorisation\nque, a supposer qu'il soit de votre conformité, je vous prie\nde me rendre dûment signé. Au cas contraire, veuillez rediger vous même le texte de votre concession.\n          Je puis vous informer que notre maison est constituée definitivement et qu'elle travaillera sous le nom de\nEDITORIAL ATENEA, a Barcelone.\n          En attente de vos nouvelles, je reste, cher Monsieur, votre devoué serviteur.\n                                   Editorial Atenea\n                                   p. p. [Unterschrift]\n\n\nP.S. Lors de la parution desdits ouvrages en catalan, nous\nnous empresserons a vous en remettre une copie.",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen (Unterschrift). Rechts oben handschriftliche Notiz in violetter Tinte: '12 Pfund für katalanisch Ubersetzung Marie Antoinet und Fouche erhalten'. Die Unterschrift ist unleserlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz rechts oben wurde transkribiert, die Unterschrift als [Unterschrift] markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1289,
+    "total_words": 173,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1289,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1289,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2712,
+    "duplicate_page_pairs": [],
+    "language_expected": "fr",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

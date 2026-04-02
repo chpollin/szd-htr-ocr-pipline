@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.90",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Sperling u. Kupfer, SZ-AAP/L13.13",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.90/IMG.1",
+      "https://gams.uni-graz.at/o:szd.90/IMG.2",
+      "https://gams.uni-graz.at/o:szd.90/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Sperling & Kupfer\n- Signatur: SZ-AAP/L13.13\n- Datum: 18. Mai 1932\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 3 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SPERLING & KUPFER\nCASA EDITRICE - LIBRERIA INTERNAZIONALE\nSOCIETÀ ANONIMA\nCAPIT. L. 300.000 INTERAMENTE VERSATO\nU. P. E. MILANO 10408\nMILANO\nTELEGRAMMI: SPERLINGKUPFER - MILANO\nC. C. POST.: MILANO III/534 - LEIPZIG 26113\nTELEFONO 89-998\n\nCITARE SEMPRE NELLA RISPOSTA\nMILANO, (105)\nVIA LARGA, 21\nRip.\n\nV E R T R A G .\n\nZwischen der Casa Editrice Sperling & Kupfer S.A.Mailand,\nVia Larga 21, im Vertrag \"Italienischer Verleger\" genannt, und Herrn\nDr.Stefan Zweig, Salzburg, Kapuziner 5, im Vertrag \"Eigentümer\" ge=\nnannt, wurde heute folgender Vertrag abgeschlossen:\n\n§ 1.\n\nDer Eigentümer überträgt dem italienischer Verleger die\nRechte für die italienische Buchausgabe im gesamten italienischen Sprach=\ngebiet seiner Novellen:y\n\" Brief einer Unbekannten \"\n\" Leporella \"\n\" Buchmedel \"\n\n§ 2.\n\nFür die Überlassung der Buchrechte verpflichtet sich der\nVerleger zur Zahlung eines Honorars von 10% des Ladenpreises aller fest=\nverkauften Exemplare .Die Abrechnung des Honorars erfolgt halbjährlich um\nzwar am 1.Juli bezw. 31. Dezember jeden Jahres.\n\n§ 3.\n\nFür das Vorabdruckrecht zahlt der italienischer Verleger\ndem Eigentümer 50% aller Eingänge aus solchen Verkäufen und Verpflichtet\nsich zur Überweisung dieses 50%igen Anteils innerhalb 14 Tagen nach Em=\npfang solcher Honorare .\n\n§ 4.\n\nBesprechung-und Freiexemplare sind honorarfrei .\n\n§ 5.\n\nDer italienische Verleger verpflichtet sich, das Werk inner=\nhalb des Jahres erscheinen zu lassen.\n\n§ 6.\n\nDer italienischer Verleger verpflichtet sich zur unentgetlich\nen Überlassung von 6 Pflichtexemplaren.\n\nN. 4 - 5000 1-932 BELLATI & MOSCA",
+        "notes": "Typoskript auf Firmenpapier. Die Zeilenumbrüche und Einrückungen wurden beibehalten. Das 'y' am Ende der Zeile 'Novellen:y' scheint ein Tippfehler zu sein.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "§ 7.\n\nAlle andern Rechte als die oben festgelegten Buch und\nVorabdruckrechte bleiben ausdrücklich dem Eigentümer vor behalten .\n\n§ 8.\n\nAlle Zahlungen unter diesem Vertrag sind zu leisten an\nHerrn Dr.Stefan Zweig, Salzburg, Kapuzinerberg 5.Der ausschliesliche\nGerichtsstand für Streitigkeiten aus diesem Vertrage ist Mailand.\nVorstehender Vertrag wurde in zwei gleichen Exemplaren\nausgefertigt von beiden vertragsschliessenden Teile gelesen, anerkannt\nund unnachfolger der Vertragsschliessenden über.\n\nMailand, den\nSalzburg, den 18. Mai 1932\n\nSperling & Kupfer\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen (Datum '18. Mai 1932' und Unterschrift 'Stefan Zweig' in violetter Tinte). Die Unterschrift 'Sperling & Kupfer' ist in schwarzer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 2, jedoch mit aufgelegten Archivierungshilfen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind klar als solche identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2154,
+    "total_words": 311,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1581,
+      573,
+      0
+    ],
+    "chars_per_page_median": 1077.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.283,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

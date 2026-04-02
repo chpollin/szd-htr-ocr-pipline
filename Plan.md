@@ -54,32 +54,38 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 ## Phase 4: Qualitaet & Vergleich (laufend)
 
-### 4a: Pilot & Ground Truth
-- [ ] **Pilot**: 5 Seiten manuell pruefen (→ `knowledge/pilot-design.md`)
-- [ ] Pilot-Ergebnisse auswerten, CER pro Gruppe bestimmen
-- [ ] Annotationsprotokoll ggf. anpassen (→ `knowledge/annotation-protocol.md`)
-- [ ] Ground-Truth-Sample: 30 Objekte manuell transkribieren (→ `knowledge/verification-concept.md` §1)
+### 4a: Ground Truth
 - [x] CER-Berechnungsscript (`pipeline/evaluate.py`)
-
-### 4b: Quality Signals & Batch
-- [x] `quality_signals` implementieren (6 Signale, needs_review, in catalog.json)
-- [x] `needs_review`-Indikator im Viewer
-- [x] quality_signals v1.1: datengetriebene Rekalibrierung (duplicate >0.9/200c, mismatch >75%, anomaly <10%, lang min 50w)
-- [x] quality_signals v1.2: Leerseiten-Klassifikation (blank/color_chart/content) + DWR (Dictionary Word Ratio)
-- [x] System-Prompt: Explizites JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien
-- [~] Alle Sammlungen transkribieren (~510/2107 Objekte, paralleler Batch laeuft)
+- [x] Konsensus-Metriken v2: `word_overlap()`, `effective_cer`, 4-Tier-Klassifikation (Session 14)
+- [x] GT-Pipeline: `generate_gt.py` — 3-Modell-Merge (Flash Lite + Flash + Pro), 18 Objekte, 46 Content-Seiten (Session 14)
+- [x] GT-Drafts in `results/groundtruth/` — consensus_3of3 (33%), majority_2of3 (43%), pro_only (24%)
+- [x] Pilot uebersprungen — Konsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch
+- [ ] **Expert-Review**: 18 GT-Objekte im Frontend pruefen und approven
 - [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
 
-### 4c: Multi-Model-Konsensus & Provider-Vergleich
-- [x] `verify.py`: Multi-Model-Konsensus (Gemini Flash Lite + Gemini 3 Flash + Claude Judge)
-- [x] Erste Konsensus-Tests: 5% CER bei Typoskript, hoeher bei Handschrift
-- [ ] Konsensus-Validierung: 30 Objekte stratifiziert (3/Gruppe), Konsensus-Rate bestimmen
-- [ ] Claude Code Subagent als Judge fuer moderate/divergente Objekte
-- [ ] Konsensus-GT fuer Schwellenwert-Kalibrierung verwenden
-- [ ] Prompt-Wirksamkeit: 3 Varianten x 30 GT-Objekte (→ `verification-concept.md` §3)
+### 4b: Quality Signals & Batch
+- [x] `quality_signals` implementieren (8 Signale + page.type + DWR, v1.4)
+- [x] `needs_review`-Indikator im Viewer
+- [x] quality_signals v1.1–v1.4: Rekalibrierung, Leerseiten-Klassifikation, DWR, Duplikat-Schwelle 200→50
+- [x] System-Prompt: JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien, Bleed-Through-Regel
+- [~] Alle Sammlungen transkribieren (~575/2107 Objekte, 27%)
+- [ ] quality_signals-Schwellenwerte anhand GT kalibrieren
+
+### 4c: Multi-Model-Konsensus & Vergleich
+- [x] `verify.py`: Multi-Model-Konsensus (Flash Lite + Flash + Claude Judge)
+- [x] Konsensus-Validierung: 29 Objekte (3/Gruppe), 4-Tier-Ergebnis: 26% verified, 33% moderate, 15% review, 26% divergent
+- [x] Diff-Ansicht im Viewer (echte Konsensus-Daten, CER, Modell-Namen)
+- [x] Statistik-Dashboard im Frontend (Seiten, Konfidenz, DWR, Konsensus, Review)
+- [x] GT Review-Modus: 3-Varianten-Panel, Approve, localStorage, JSON-Export
+- [ ] Prompt-Ablation: 3 Varianten × 18 GT-Objekte (nach Expert-Review)
+- [ ] Nondeterminismus-Test: 5 Objekte × 10 Runs
 - [ ] Provider-Vergleich: Gemini vs. Claude vs. GPT-4o
-- [ ] Diff-Ansicht im Viewer
-- [ ] Statistik-Dashboard im Frontend (Chart.js)
+
+### 4d: Frontend & Dokumentation
+- [x] Knowledge Vault im Frontend: 12 Markdown-Dokumente als navigierbare Ansicht (`#knowledge`, `#knowledge/{slug}`) (Session 15)
+- [x] Projekt-Seite aus README.md (`#about`) (Session 15)
+- [x] `build_viewer_data.py`: `build_knowledge()` — Markdown → HTML → knowledge.json (Session 15)
+- [x] Layout-Analyse (`layout_analysis.py`) + PAGE XML Export (`export_pagexml.py`) (Session 14)
 
 ## Phase 5: TEI-Integration
 
@@ -133,3 +139,8 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | 2026-04-01 | DWR statt PPPL als GT-freie Metrik | Keine schwere Dependency (transformers), wissenschaftlich fundiert (Springmann 2016) |
 | 2026-04-01 | Multi-Model-Konsensus statt manuellem GT | Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell |
 | 2026-04-01 | Gemini 3 Flash als Modell B | Staerker als Flash Lite, gleiche API, kein Provider-Wechsel noetig |
+| 2026-04-02 | word_overlap + effective_cer statt CER-only | CER bestraft Reading-Order-Divergenz unfair; Jaccard auf Wortmengen robust |
+| 2026-04-02 | 4-Tier statt 3-Tier Konsensus | "review" als Zwischenstufe fuer 75-90% word_overlap |
+| 2026-04-02 | Gemini Pro als 3. GT-Modell | Gleiche API, staerkstes Gemini-Modell, kein Provider-Wechsel |
+| 2026-04-02 | Pilot uebersprungen | Konsensus-Validierung + GT-Pipeline beantworten Pilotfragen empirisch |
+| 2026-04-02 | Pre-rendered Markdown statt Client-Side | Null Runtime-Dependencies, Wiki-Links zur Build-Zeit aufgeloest |

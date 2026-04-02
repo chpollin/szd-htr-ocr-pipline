@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.96",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Agreement The Viking Press, SZ-AAP/L13.19",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.96/IMG.1",
+      "https://gams.uni-graz.at/o:szd.96/IMG.2",
+      "https://gams.uni-graz.at/o:szd.96/IMG.3",
+      "https://gams.uni-graz.at/o:szd.96/IMG.4",
+      "https://gams.uni-graz.at/o:szd.96/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Agreement The Viking Press\n- Signatur: SZ-AAP/L13.19\n- Datum: 30th day of March, 1927\n- Sprache: Englisch\n- Objekttyp: Typoskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze und violette Tinte, Kugelschreiber\n- Hand: Stefan Zweig, Ben Huebsch\n- Anmerkungen: Eigenhändige Unterschrift in violetter Tinte, Unterschrift von Ben Huebsch",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "AGREEMENT made this 30th day of March, 1927, between Stefan Zweig\nof Salzburg, Austria, and The Viking Press of New York.\n\nI. The AUTHOR grants the sole and exclusive publication rights\nin the English language in his version of Ben Jonson's \"Volpone\"\nfor all countries.\n\nII. The PUBLISHERS agree to pay the following royalty:\n\na) On sales of the American edition 10% on the\nthe first five thousand copies; 12 1/2% on the\nsecond five thousand; and 15% on sales over\nten thousand. The royalty on copies sold\nat half the retail price or less shall be\none half the royalty then prevailing.\n\nb) If a British or other foreign edition be\nsold on royalty basis, the royalty derived\nis to be shared equally between the AUTHOR\nand the PUBLISHERS.\n\nc) On any other income to be derived from the\nsale of the use of the book in whole or in\npart, the net proceeds shall be divided\nequally between the AUTHOR and the PUBLISHERS.\n\nIII. The AUTHOR shall receive six free copies of the said work.\n\nIV. The PUBLISHERS agree to render semi-annual statements of\naccount as of April 30th and October 31st of each year, and to\nmake settlement in cash three months after the respective dates.\n\nV. In case of any infringement of the copyright of said work\nthe PUBLISHERS may, in their discretion, sue or employ such re-\nmedies as they may deem expedient, and all such suits or proceed-\nings shall be at the joint expense of the AUTHOR and PUBLISHERS ,\nand the net proceeds of any recovery collected shall be divided\nequally between the parties hereto.\n\nVI. If after two years from publication the PUBLISHERS wish to\nwithdraw from this agreement, the AUTHOR shall have the right\nupon three months' notice to purchase the plates at half the cost\nof production and the stock at cost, and all rights shall revert\nto him. Should he fail to exercise the option, the PUBLISHERS\nshall have the right to melt the plates.\n\nVII. If after two years from publication the PUBLISHERS shall\nallow said work to go out of print and fail to republish upon\nthree months' notice by the author, the latter shall have the op-\ntion to purchase the plates at fifty percent of the cost of pro-\nduction and all the rights herein granted shall thereupon revert\nto him.\n\nVIII. If after two years from publication the PUBLISHERS determine\nthat there is no further sale for said work in the regular chan-\nnels of the trade, they shall have the right to dispose of the\ncopies on hand at cost or less without payment of royalty to the\nAUTHOR on such copies.\n\nIX. This contract may be assigned by either party, but only with\nthe consent of the other party to this agreement.\n\nX. It is further agreed that the stipulations and agreements\nherein shall apply to and bind the heirs, executors, administra-\ntors and assigns of the AUTHOR and the successors and assigns of\nthe PUBLISHERS.",
+        "notes": "Typoskript, sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, durchscheinender Text vom Vorderblatt, kein eigenständiger Text.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "                                 -2-\n\nIN WITNESS WHEREOF the parties have hereunto set their hands and\nseals the day and year first above written.\n\n____________________ Stefan Zweig (L.S.)\n____________________ B. W. Huebsch (L.S.)\nFor THE VIKING PRESS, Inc.",
+        "notes": "Typoskript mit handschriftlichen Unterschriften. Die Unterschrift von Stefan Zweig ist in violetter Tinte, die von B. W. Huebsch in schwarzer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Agreement between\nStefan Zweig and\nThe Viking Press Inc\n\"Volpone\"",
+        "notes": "Rückseite des zweiten Blattes. Handschriftliche Notizen in blauer Tinte (vermutlich Archivvermerk oder Inhaltsangabe).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Darüber handschriftliche Notizen wie auf Seite 4.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die handschriftlichen Unterschriften und Notizen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 3145,
+    "total_words": 549,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2823,
+      0,
+      257,
+      65,
+      0
+    ],
+    "chars_per_page_median": 257,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4853,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

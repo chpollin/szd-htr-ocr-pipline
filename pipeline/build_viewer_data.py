@@ -1,7 +1,11 @@
-"""Build catalog.json + data/{collection}.json from enriched result files."""
+"""Build catalog.json + data/{collection}.json + data/knowledge.json from enriched result files."""
 
 import json
 import re
+from datetime import datetime, timezone
+
+import markdown
+import yaml
 
 from config import COLLECTIONS, DATA_DIR as TEI_DIR, GROUP_LABELS, PROJECT_ROOT, RESULTS_BASE, RESULTS_DIR
 from tei_context import parse_tei_for_object
@@ -317,5 +321,169 @@ def build():
     print(f"Gesamt: {len(objects)} Objekte, {len(collections)} Sammlungen, {len(gt_objects)} GT-Drafts")
 
 
+def parse_frontmatter(text: str) -> tuple[dict, str]:
+    """Split YAML frontmatter from markdown body."""
+    if not text.startswith("---"):
+        return {}, text
+    end = text.find("---", 3)
+    if end == -1:
+        return {}, text
+    fm_raw = text[3:end].strip()
+    body = text[end + 3:].strip()
+    try:
+        fm = yaml.safe_load(fm_raw) or {}
+    except yaml.YAMLError:
+        fm = {}
+    return fm, body
+
+
+def parse_index_sections(body: str) -> list[dict]:
+    """Parse index.md body to extract section groupings with slugs."""
+    sections = []
+    current_label = None
+    current_slugs = []
+
+    for line in body.split("\n"):
+        line = line.strip()
+        # Section headers: ## Leseordnung, ## Spezifikationen, ## Projektlog
+        if line.startswith("## "):
+            if current_label and current_slugs:
+                sections.append({"label": current_label, "slugs": current_slugs})
+            heading = line[3:].strip()
+            # Skip non-content sections
+            if heading.lower().startswith("verwandte"):
+                current_label = None
+                current_slugs = []
+                continue
+            current_label = heading
+            current_slugs = []
+            continue
+        # Extract [[slug]] from list items
+        m = re.search(r"\[\[(.+?)\]\]", line)
+        if m and current_label:
+            current_slugs.append(m.group(1))
+
+    if current_label and current_slugs:
+        sections.append({"label": current_label, "slugs": current_slugs})
+
+    return sections
+
+
+def build_knowledge():
+    """Build docs/data/knowledge.json from knowledge/*.md + README.md."""
+    knowledge_dir = PROJECT_ROOT / "knowledge"
+    if not knowledge_dir.exists():
+        print("  Knowledge-Verzeichnis nicht gefunden, ueberspringe.")
+        return
+
+    md_extensions = ["tables", "fenced_code", "toc"]
+    md_converter = markdown.Markdown(extensions=md_extensions)
+
+    # First pass: collect all slugs + titles for wiki-link resolution
+    title_map = {}
+    for md_file in sorted(knowledge_dir.glob("*.md")):
+        slug = md_file.stem
+        fm, _ = parse_frontmatter(md_file.read_text(encoding="utf-8"))
+        title_map[slug] = fm.get("title", slug)
+
+    # Parse index.md for section structure
+    index_file = knowledge_dir / "index.md"
+    sections = []
+    if index_file.exists():
+        _, index_body = parse_frontmatter(index_file.read_text(encoding="utf-8"))
+        sections = parse_index_sections(index_body)
+
+    # Flat reading order from sections
+    reading_order = []
+    for sec in sections:
+        reading_order.extend(sec["slugs"])
+
+    # Second pass: convert each document
+    docs = {}
+    for md_file in sorted(knowledge_dir.glob("*.md")):
+        slug = md_file.stem
+        if slug == "index":
+            continue  # index is used for structure, not rendered as doc
+
+        raw = md_file.read_text(encoding="utf-8")
+        fm, body = parse_frontmatter(raw)
+
+        # Resolve wiki-links: [[slug]] -> <a href="#knowledge/slug">title</a>
+        def resolve_wikilink(m):
+            target = m.group(1)
+            title = title_map.get(target, target)
+            return f'<a href="#knowledge/{target}" class="knowledge__wikilink">{title}</a>'
+
+        body = re.sub(r"\[\[(.+?)\]\]", resolve_wikilink, body)
+
+        # Convert markdown to HTML
+        md_converter.reset()
+        html = md_converter.convert(body)
+
+        # Extract headings from TOC extension
+        headings = []
+        if hasattr(md_converter, "toc_tokens"):
+            def extract_headings(tokens, result):
+                for tok in tokens:
+                    result.append({
+                        "level": tok.get("level", 2),
+                        "id": tok.get("id", ""),
+                        "text": tok.get("name", ""),
+                    })
+                    if tok.get("children"):
+                        extract_headings(tok["children"], result)
+            extract_headings(md_converter.toc_tokens, headings)
+
+        # Parse related links from frontmatter
+        related = []
+        for r in fm.get("related", []):
+            m_rel = re.search(r"\[\[(.+?)\]\]", str(r))
+            if m_rel:
+                related.append(m_rel.group(1))
+
+        # Word count
+        words = len(re.findall(r"\w+", body))
+
+        docs[slug] = {
+            "slug": slug,
+            "title": fm.get("title", slug),
+            "type": fm.get("type", ""),
+            "status": fm.get("status", ""),
+            "tags": fm.get("tags", []),
+            "created": str(fm.get("created", "")),
+            "updated": str(fm.get("updated", "")),
+            "related": related,
+            "html": html,
+            "headings": headings,
+            "wordCount": words,
+        }
+
+    # README.md -> About page
+    readme_file = PROJECT_ROOT / "README.md"
+    about = {"html": "", "title": "SZD-HTR-OCR-Pipeline"}
+    if readme_file.exists():
+        readme_raw = readme_file.read_text(encoding="utf-8")
+        md_converter.reset()
+        about_html = md_converter.convert(readme_raw)
+        about["html"] = about_html
+
+    knowledge_json = {
+        "meta": {
+            "built_at": datetime.now(timezone.utc).isoformat(),
+            "count": len(docs),
+        },
+        "sections": sections,
+        "docs": docs,
+        "about": about,
+    }
+
+    out_path = DATA_DIR / "knowledge.json"
+    out_path.write_text(
+        json.dumps(knowledge_json, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"  Knowledge Vault: {out_path} ({len(docs)} Dokumente)")
+
+
 if __name__ == "__main__":
     build()
+    build_knowledge()
