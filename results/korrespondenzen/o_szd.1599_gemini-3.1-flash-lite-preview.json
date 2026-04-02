@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1599",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 9. Oktober 1924, SZ-AAP/B2.4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1599/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1599/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1599/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 9. Oktober 1924, SZ-AAP/B2.4\n- Signatur: SZ-AAP/B2.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, am 9. Oktober 1924\n\n\n\nLieber Herr Friedental!\n\n\nAuch ich hatte Nachrichten von Axel Juncker und dabei den\nEindruck, dass er unbedingt entschlossen ist, Ihre Gedichte zu brin-\ngen. Es wäre natürlich schon ein Gewinn, jedenfalls aber spreche\nich noch in den nächsten Tagen mit Kippenberg von der Insel, der\nhier durchkommt, vielleicht dass seinerseits noch tätiges Interesse\nbesteht.\nDies nur in Eile heute und viele herzliche Grüsse Ihres\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift von Stefan Zweig in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Salzburg, am 9. Oktober 1924\n\n\n\nLieber Herr Friedental!\n\n\n\n\n\nDies nur in Eile heute und viele herzliche Grüsse Ihres\n\nStefan Zweig",
+        "notes": "Das Dokument wurde für die Archivierung mit einer Farb- und Grauskala überlagert. Der Text ist identisch mit Seite 1, jedoch durch die Skalen teilweise verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 591,
+    "total_words": 91,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      461,
+      0,
+      130
+    ],
+    "chars_per_page_median": 461,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4783,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

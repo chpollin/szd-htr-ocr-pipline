@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1551",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 29. Mai 1926, SZ-AAP/B2.25",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1551/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1551/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1551/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 29. Mai 1926, SZ-AAP/B2.25\n- Signatur: SZ-AAP/B2.25\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n\nam 29. Mai 1926.\n\nLieber Herr Doktor!\n\nLange habe ich nicht Ihre Schrift gesehen, Ihre Nachricht\ngehört und mahne Sie nur heute, nicht ganz an mich zu vergessen. Ich\nhabe jetzt endlich die dritte Novelle von meinem Band so ziemlich fer-\ntig, nachdem ich drei andere (auch die \"Leporella\" die Sie kennen)\nverworfen habeJe älter man wird umso schwerer wird das Schreiben .\nAusserdem plane ich noch einige andere Dinge, über die ich gern mit\nIhnen mich unterhielte. Vielleicht können Sie doch es möglich machen\nwieder einmal hier vorbei zu kommen. Ausser im August, bin ich im all-\ngemeinen immer hier.\n\nAlso schweigen Sie nicht zu lange und seien Sie herzlichst\ngegrüsst von Ihrem\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Das Wort 'habeJe' ist im Original zusammengeschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n\nam 29. Mai 1926.\n\nLieber Herr Doktor!\n\nIhnen mich unterhielte. Vielleicht können Sie doch es möglich machen\nwieder einmal hier vorbei zu kommen. Ausser im August, bin ich im all-\ngemeinen immer hier.\n\nAlso schweigen Sie nicht zu lange und seien Sie herzlichst\ngegrüsst von Ihrem\n\nStefan Zweig",
+        "notes": "Scan mit aufgelegten Archiv-Farbskalen und Grauskalen. Der Text ist identisch mit dem Ausschnitt der ersten Seite, jedoch durch die Skalen teilweise verdeckt.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die leichte Unregelmäßigkeit 'habeJe' wurde originalgetreu übernommen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1036,
+    "total_words": 170,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      718,
+      0,
+      318
+    ],
+    "chars_per_page_median": 518.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5276,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

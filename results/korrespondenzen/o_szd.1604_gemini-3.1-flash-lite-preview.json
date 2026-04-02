@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1604",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Richard Friedenthal vom 5. März 1925, SZ-AAP/B2.9",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1604/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1604/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1604/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Friedenthal vom 5. März 1925, SZ-AAP/B2.9\n- Signatur: SZ-AAP/B2.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Absender:\nSTEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nAn\nHerrn\nDr. R. Friedenthal\n\nB e r l i n NW.\nSchleswiger Ufer 13 /2.",
+        "notes": "Adressseite einer Postkarte. Gedruckter Absender, handschriftliche Ergänzung der Adresse. Poststempel 'SALZBURG -5. III. 25. 3a'. Zwei Briefmarken (200 Kronen und 500 Kronen) aufgeklebt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Salzburg, am 5. März 1925\n\nSehr verehrter Herr Doktor!\n\nHerr Dr. Stefan Zweig ist augenblicklich\nleider für einige Wochen verreist und wird nach\nseiner Rückkehr Ihre freundlichen Zeilen sofort\nselbst beantworten\n\nHochachtungsvoll\ndie Sekretärin",
+        "notes": "Nachrichtenseite der Postkarte. Maschinenschrift.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Salzburg, am 5. März 1925\n\nSehr verehrter Herr Doktor!\n\nHerr Dr. Stefan Zweig ist augenblicklich\nleider für einige Wochen verreist und wird nach\nseiner Rückkehr Ihre freundlichen Zeilen sofort\nselbst beantworten\n\nHochachtungsvoll\ndie Sekretärin",
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, da es sich um ein maschinengeschriebenes Dokument handelt."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 606,
+    "total_words": 90,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      118,
+      244,
+      244
+    ],
+    "chars_per_page_median": 181.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2549,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

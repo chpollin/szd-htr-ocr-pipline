@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1600",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 18. November 1924, SZ-AAP/B2.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1600/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1600/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1600/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 18. November 1924, SZ-AAP/B2.5\n- Signatur: SZ-AAP/B2.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, am 18. November 1924\n\n\n\nLieber Herr Doktor!\n\n\n\nSeien Sie mir nicht böse, dass ich Ihnen nicht antwortete.\nIch habe jetzt die ganze Zeit keine Briefe geschrieben, weil ich ein gros-\nses Buch fertig machte das im Frühjahr erscheinen soll und fahre jetzt für\ndrei Wochen fort, gänzlich[?] abgeschieden von aller Zeit. Ich schreibe\nIhnen dann einmal ausführlicher wenn ich zurück bin, auch wegen der Insel,\ndie mir lange über Ihr Werk geschrieben hat und ganz meine Ansicht teilt.\nWenn auch dort augenblicklich alles überfüllt ist, so wird man Ihnen dort\nimmer mit grösstem Interesse begegnen. Aber jetzt handelt es sich ja um\ndas neue Buch und wenn ich zurückkomme und es erscheint, so schreibe ich\ndann gern darüber. Momentan bin ich eigentlich unfähig irgend eine ver-\nnünftige Zeile zu schreiben, die letzten sechs Wochen waren ein wenig zu\nintensiv an Arbeit und jetzt möchte ich gern zwei, drei Wochen ebenso in-\ntensiv faulenzen. Ich bin sicher, dass Sie der Erste sind, das zu verste-\nhen.\n\nHerzlichst Ihr\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, zeigt den Durchdruck des Typoskripts der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 1, jedoch mit aufgelegten Archivierungshilfen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. 'gänzlich' wurde als 'gänzlich[?]' markiert, da das 'l' im Typoskript leicht verschwommen ist, aber der Kontext eindeutig ist."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1033,
+    "total_words": 170,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1033,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1033,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0059,
+    "dwr_score": 0.5119,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

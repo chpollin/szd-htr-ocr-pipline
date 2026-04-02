@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1587",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 10. März 1925, SZ-AAP/B2.10",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1587/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1587/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1587/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 10. März 1925, SZ-AAP/B2.10\n- Signatur: SZ-AAP/B2.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, am 10. März 1925.\n\nLieber Herr Friedenthal!\n\nIch komme eben von meiner dreiwöchentlichen Reise zurück\nund finde Ihr Manuskript. Selbstverständlich komme ich heute noch nicht\ndazu, es zu lesen, möchte Ihnen aber zunächst folgendes mitteilen:\nich hatte von Ihrer Novelle zu Rütten & Loening gesprochen (der wohl\nder beste Verleger für Novellen ist) und der mich darum bat, sie sehen\nzu dürfen. Nun scheinen Sie aber schon in den Armen der deutschen\nVerlagsanstalt zu sein. Sollten Sie aber sich für den Band noch nicht\nganz gebunden fühlen, so würde ich allenfalls die neue Novelle an Rüt-\nten und Loening schicken und Sie hätten dann zwei Eisen im Feuer.\nBitte, sagen Sie mir zunächst mit einer Postkarte, ob ich\nes tun soll und empfangen Sie die herzlichsten hastigen Grüsse Ihres\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Das Dokument weist leichte Gebrauchsspuren an den Rändern auf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Salzburg, am 10. März 1925.\n\nLieber Herr Friedenthal!\n\nVerlagsanstalt zu sein. Sollten Sie aber sich für den Band noch nicht\nganz gebunden fühlen, so würde ich allenfalls die neue Novelle an Rüt-\nten und Loening schicken und Sie hätten dann zwei Eisen im Feuer.\nBitte, sagen Sie mir zunächst mit einer Postkarte, ob ich\nes tun soll und empfangen Sie die herzlichsten hastigen Grüsse Ihres",
+        "notes": "Das Dokument wurde mit einer Farb- und Grauskala für Archivierungszwecke überlagert. Der Text ist teilweise durch die Skalen verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Überlagerung durch die Archivierungsskalen auf Seite 3 beeinträchtigt die Lesbarkeit nur dort, wo der Text physisch verdeckt ist; der Inhalt ist jedoch durch den Abgleich mit Seite 1 vollständig rekonstruierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1192,
+    "total_words": 197,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      804,
+      0,
+      388
+    ],
+    "chars_per_page_median": 804,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5194,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

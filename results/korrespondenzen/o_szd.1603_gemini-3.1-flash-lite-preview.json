@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1603",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 26. Januar 1925, SZ-AAP/B2.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1603/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1603/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1603/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 26. Januar 1925, SZ-AAP/B2.8\n- Signatur: SZ-AAP/B2.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, am 26, Januar 1925.\n\nLieber Herr Doktor!\n\nIch danke Ihnen noch sehr für die Novelle, die mir einen\nausserordentlichen Eindruck gemacht hat, sie ist von unerhörter\nPlastik und verbürgt mir absolut den Wert Ihres werdenden Romanes.\nWenn ich Ihnen raten darf, so geben Sie sie unbedingt dem \"Falken\"\ndenn für den Vordruck käme ja nur die \"Neue Rundschau\" in Betracht -\nalle diese Blätter haben zu wenig Raum und rein technisch hat die\nNovelle ein ungeschicktes Format, dadurch das sie einerseits zu\nlang ist für eine Nummer und sich nicht für Fortsetzungen recht eig-\nnet. Für die \"Neue Rundschau\" wäre sie ja mit ihrer kräftigen, ziel-\nsichern und bildnerischen Art vortrefflich und ich werde jedenfalls\nDr. Kayser, dem ich ohnehin zuschreiben habe, mit einem Wort daran\nerinnern. Inzwischen wird ja auch hoffentlich die Besprechung im\nBerliner Tageblatt erscheinen, aus der Sie besser als aus meinen et-\nwas eiligen und hastigen Briefen meine Sympathie entnehmen können.\nIhr aufrichtig ergebender\n\nStefan Zweig\nEben höre ich, dass das Referat im B.T. verfiel\nerschien, hoffentlich hat es seine Wirkung",
+        "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichem Nachsatz in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments mit aufgelegter Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1110,
+    "total_words": 176,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1110,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1110,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4713,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

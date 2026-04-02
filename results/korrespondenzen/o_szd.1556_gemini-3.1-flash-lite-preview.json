@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1556",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Briefkarte an Richard Friedenthal vom 30. April 1940, SZ-AAP/B2.30",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1556/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1556/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1556/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Richard Friedenthal vom 30. April 1940, SZ-AAP/B2.30\n- Signatur: SZ-AAP/B2.30\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Telephone:\n4983\n\n“ROSEMOUNT,”\nLYNCOMBE HILL,\nBATH.\n\n30. 4. 1940.\n\nLieber Freund!\n\nIch bin eben zu-\nrück. Paris war wirklich wun-\nderschön. Ich komme nächste\nWoche nach London und wir müssen\nnatürlich beisammen sein und über\nalles sprechen. Ich will jetzt\nscharf an die Arbeit gehen. Für\nMai ist Victor Fleischer hier, aber\ndanach hoffen wir sehr, Sie wieder\neinmal bei uns zu haben. Sie feh-\nlen mir sehr.\n\nHerzlichst Ihr\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber Freund!\n\nIch bin eben zu-\nrück. Paris war wirklich wun-\nderschön. Ich komme nächste\nWoche nach London und wir müssen\nnatürlich beisammen sein und über\nalles sprechen. Ich will jetzt\nscharf an die Arbeit gehen. Für\nMai ist Victor Fleischer hier, aber\ndanach hoffen wir sehr, Sie wieder\neinmal bei uns zu haben. Sie feh-\nlen mir sehr.\n\nHerzlichst Ihr\n\nStefan Zweig",
+        "notes": "Wiederholung des Textes mit Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist klar als 'Stefan Zweig' identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 804,
+    "total_words": 135,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      435,
+      0,
+      369
+    ],
+    "chars_per_page_median": 435,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5294,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

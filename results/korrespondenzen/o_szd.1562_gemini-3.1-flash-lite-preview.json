@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1562",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom [Oktober 1941], SZ-AAP/B2.36",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1562/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1562/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1562/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom [Oktober 1941], SZ-AAP/B2.36\n- Signatur: SZ-AAP/B2.36\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dear Fridental, I am so thankful for your letters which show me - but there was no\nproof necenary - how good and true our old friendship is. Let us continue in the\nsame way, we want more than ever now in this ~~shaken~~ shaken word some stability and\nsecurity and I {and} ~~no more~~ other than in the few friends which have remained. We\nlive here very isolated and I read a good deal, Balzac, Shakespearo, Goethe (especially\nWilhelm Meister which is an example that one should not leave too great an interval\nin the composition of a work, it is written quasi by two masters in quite a different\nstyle and composition) with my own work I am somewhat hampered by the subcon-\nsious feeling that I have no more my real public. When I for instance in the autobio\ngraphy I wished to dwell on Hofmannthal, Beer-Hofmann I had to remember that in the\nlanguage in which this book should appear nobody knows of them. So I am scribbling on a\nMontaigne - you should reread him. He gives a good lesson by his tenacity to remain\nfree in midst of the turmoil. But you will understand - there is something which\ndiminishes my 'elan' in writing. I miss the expectation of a public, of a publisher\nwhich once stimulated me; when every bookseller asked me, and when comes\nyour new book? there was in this an accumulated energy of thousand questions\nand I had to answer. Now I write without this tension, the translator translates,\nand the publisher publishes in the same mood. For you it is otherwise - you can\nin finishing your novel flow your way free. I hope, I expect your book! Dont\nhesitate! Your old friend\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist violett. Das Wort 'shaken' wurde durchgestrichen, dann wiederholt. 'and' wurde über der Zeile eingefügt. 'no more' wurde durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dear Fridental, I am so thankful for your letters which show me - but there was no\nproof necenary - how good and true our old friendship is. Let us continue in the\nsame way, we want more than ever now in this ~~shaken~~ shaken word some stability and\nsecurity and I {and} ~~no more~~ other than in the few friends which have remained. We\nlive here very isolated and I read a good deal, Balzac, Shakespearo, Goethe (especially\nWilhelm Meister which is an example that one should not leave too great an interval\nin the composition of a work, it is written quasi by two masters in quite a different\nstyle and composition) with my own work I am somewhat hampered by the subcon-\nsious feeling that I have no more my real public. When I for instance in the autobio\ngraphy I wished to dwell on Hofmannthal, Beer-Hofmann I had to remember that in the\nlanguage in which this book should appear nobody knows of them. So I am scribbling on a\nMontaigne - you should reread him. He gives a good lesson by his tenacity to remain\nfree in midst of the turmoil. But you will understand - there is something which\ndiminishes my 'elan' in writing. I miss the expectation of a public, of a publisher\nwhich once stimulated me; when every bookseller asked me, and when comes\nyour new book? there was in this an accumulated energy of thousand questions\nand I had to answer. Now I write without this tension, the translator translates,\nand the publisher publishes in the same mood. For you it is otherwise - you can\nin finishing your novel flow your way free. I hope, I expect your book! Dont\nhesitate! Your old friend\nStefan Zweig",
+        "notes": "Gleicher Brief wie auf Seite 1, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Die Korrekturen (Durchstreichungen und Einfügungen) sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 3214,
+    "total_words": 592,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1607,
+      0,
+      1607
+    ],
+    "chars_per_page_median": 1607,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5582,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

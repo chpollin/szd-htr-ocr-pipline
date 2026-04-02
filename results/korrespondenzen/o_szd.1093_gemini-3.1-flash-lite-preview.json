@@ -17,13 +17,13 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "An Herrn Max fleischer\nstud. phil.\nLeipzig (Sachsen)\nMünzgasse 16\n\n[Oben quer geschrieben:]\n[?] all valens an Stefan Zweig Wien I. Rathausstrasse 17",
-        "notes": "Adressseite der Postkarte. Die oberste Zeile ist quer zum gedruckten Text geschrieben.",
+        "transcription": "Correspondenz-Karte\n\nHerrn Max Fleischer\nStud. phil.\nLeipzig (Sachsen)\nMünzgasse 16\n\n[Quer geschrieben:] Absend[?] falls an Stefan Zweig Wien I. Rathausstrasse 17",
+        "notes": "Adressseite der Postkarte. Gedruckter Titel 'Correspondenz-Karte'. Oben quer eine Absendernotiz in Zweigs Hand.",
         "type": "content"
       },
       {
         "page": 2,
-        "transcription": "Lieber Max! So lang will ich dir doch\nschreiben, müßt aber nur ein mal, ob du\nin Leipzig bist, dir hier daher nur eine\nCorrespondenzkarte ohne Ansicht. Das einzige,\nwas ich von dir vernahme — war nicht von\ndir, nämlich die prächtige Besprechung eines\nBuches im Literarischen Centralblatt von\nHans Benzmann. Das müßte auch später\nan deine Seiten erinnern!\nIm Berliner Tageblatt schreibt jetzt constant\nein Victor fleischer. Ist das am Ende dein\nBruder?! das wäre ja fabelhaft.\nIch übersiedle in 14 Tagen von Wien\nund käme gegen Berlin. Im übrigen\ngeht es nur mäßig. Mein Novellenband\nist noch immer nicht fertig mein Studium\nläßt zu wünschen übrig. Aber sonst ist alles\nin Ordnung.\nHerzliche Grüße\nStefan Zweig",
+        "transcription": "Lieber Max! So lang wollt ich dir schon\nschreiben, wußte aber nie recht, ob du\nin Leipzig bist, u sende dir hier daher nur eine\nCorrespondenzkarte ohne Ansicht. Das einzige,\nwas ich von dir vernahm — war nicht von\ndir, nämlich die prächtige Besprechung deines\nBuches im Literarischen Centralblatt von\nHans Benzmann. Das müßte dich später\nan deine Sachen erinnern!\nIm Berliner Tageblatt schreibt jetzt constant\nein Victor Fleischer. Ist das am Ende dein\nBruder?! das wäre ja fabelhaft.\nIch übersiedle in 14 Tagen von Wien\nund käme gern nach Berlin. Im übrigen\ngeht es mir nur mäßig. Mein Novellenband\nist noch immer nicht fertig mein Studium\nläßt zu wünschen übrig. Aber sonst ist alles\nin Ordnung.\nHerzliche Grüße\nStefan Zweig",
         "notes": "Nachrichtenseite der Postkarte. Handschrift in violett-schwarzer Tinte.",
         "type": "content"
       },
@@ -36,6 +36,15 @@
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger flüchtiger Schreibweisen. Die Identifikation der Namen (Max Fleischer, Hans Benzmann, Victor Fleischer) ist durch den Kontext gesichert."
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 13,
+    "estimated_accuracy": 0.94,
+    "edited_pages": [1, 2],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",

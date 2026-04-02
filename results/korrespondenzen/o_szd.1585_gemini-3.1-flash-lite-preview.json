@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1585",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Hans Deißinger vom 12. Dezember 1932, HD-AHL/B1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1585/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1585/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1585/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Hans Deißinger vom 12. Dezember 1932, HD-AHL/B1\n- Signatur: HD-AHL/B1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n\nam 12. Dezember 1932\n\nSehr verehrter Herr Doktor!\n\nIch war zwei Wochen verreist und finde zurückkehrend, Ihren\nso freundlichen Brief und Ihr Gedichtbuch. Wunderbar, dass es in\nunserer Zeit noch Menschen gibt, welche diese innere Musik in sich\npflegen! Mir ist es nicht gegeben - und es ist wohl auch ein wider-\nnatürliches Beginnen - Gedichtbücher in einem Zuge durchzulesen, ich\nlege sie mir gewöhnlich auf den Tisch und nehme mir daraus, wie aus\neinem Obstkorb, immer nur sparsam die eine oder andere Frucht. So\nhabe ich von Ihrem Gedichtbuch bisher nur einige Gedichte auf guten\nZufall an mich genommen. Am stärksten hat auf mich das rein bildneri-\nsche gewirkt, wie \"Nacht\", \"Ueber Land\", \"Am Meierhof\" \"Sonntagsmorgen\"\nDiese Wahl ist nur eine vorläufige und den vollen Umblick werde ich\nerst in zwei oder drei Wochen haben, dank dieser langsamen Lesetech-\nnik. Aber dass ich gern und freudig weiterlese, kann Ihnen {ich}\nheute sagen, denn ich spüre hier wirklich einen schöpferischen\nWillen und aus lyrischem Zwange geschaffene Verse.\n\nUnd hoffentlich machen Sie mir die Freude, dass ich, da uns\nein freundliches Geschick zu Nachbarn gemacht hat, Sie in Salzburg\nbei mir einmal sehen darf.\n\nNochmals herzlichen Dank und viele Grüsse Ihres\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Ergänzung 'ich' in Zeile 13 und handschriftlicher Unterschrift 'Stefan Zweig'. Briefpapier mit Briefkopf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Enthält den durchscheinenden Text der Vorderseite sowie die handschriftliche Signatur 'Stefan Zweig' (durchscheinend/abgedrückt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung 'ich' wurde korrekt identifiziert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1283,
+    "total_words": 205,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1283,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1283,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

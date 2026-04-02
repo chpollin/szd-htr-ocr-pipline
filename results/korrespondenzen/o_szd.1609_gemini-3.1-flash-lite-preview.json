@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.1609",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Lotte Altmann vom 17. Juni 1938, SZ-AAP/B1.254",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1609/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1609/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1609/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1609/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1609/IMG.5"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Lotte Altmann vom 17. Juni 1938, SZ-AAP/B1.254\n- Signatur: SZ-AAP/B1.254\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "J. STROBL\nVEREINIGTE\nWIENER GROSSBUCHBINDEREIEN A.G.\nW I E N · III · R E N N W E G 50\nUNSER ZEICHEN: T/M\nWIEN, am 17. Juni 1938.\n\nHochwohlgeboren\nFräulein Lotte Altmann,\n\n50 Woodstock Road.\nNW 11, London.\n\nBETRIFFT:\n\nIn der Beilage übermitteln wir Ihnen eine Ab-\nschrift unseres rekommandierten Schreibens an das Schweizer\nVereinssortiment und hoffen, daß dasselbe seine Wirkung nicht\nverfehlen wird.\n\nHochachtungsvoll\nJ. STROBL\nVEREINIGTE\nWIENER GROSSBUCHBINDEREIEN A.G.\n\n1 Beilage\n\nBUCHEINBÄNDE JEDER ART / LINIERANSTALT\nTELEPHON: U-14-5-18 SERIE\nDin-Format A4 (210x297)",
+        "notes": "Geschäftsbrief auf Firmenpapier der Firma J. Strobl. Maschinenschrift mit handschriftlicher Unterschrift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "J. STROBL\nVEREINIGTE\nWIENER GROSSBUCHBINDEREIEN A.G.\nW I E N · III · R E N N W E G 50\nUNSER ZEICHEN: T/M\nWIEN, am 18. Juni 1938.\nTitl.\n\nSchweiz.Vereinssortiment,\n\nOlten.\nSchweiz.\n\nBETRIFFT:\n\nWir ersehen aus Ihrem den ausländischen Buchhand-\nlungen übermittelten Prospekt, daß Sie die von uns am 12.März 1938\ngelieferten Bücher von Stefan Zweig als Eigentum eines uns unbe-\nkannten Verlages Herbert Reichner Zürich zur alleinigen Auslieferung\nankündigen.\n\nDa diese Bücher von uns hergestellt und von uns an\nSie versandt wurden, müssen wir uns mit unserer Forderung an den\ngegenwärtigen Besitzer halten und fordern Sie auf, jede weitere Aus-\nlieferung dieser Bände zu unterlassen, oder unsere Forderung für die\nLieferung vom 12.März 1938 im Betrage von öS 4.061.35 = sfr 4758.47\nanzuerkennen.\n\nWir machen Sie für deren Eingang an uns oder an den\nunter kommissarischer Leitung stehenden Reichner Verlag in Wien\nunbedingt haftbar.\n\nWir erwarten Ihre umgehende Stellungnahme zu unseren\nvorstehenden Ausführungen.\n\nMit deutschem Gruß !\nJ. S T R O B L\nVEREINIGTE\nWIENER GROSSBUCHBINDEREIEN A. G.\n\nEINGESCHRIEBEN\n\nBUCHEINBÄNDE JEDER ART / LINIERANSTALT\nTELEPHON: U-14-5-18 SERIE\nDin-Format A4 (210x297)",
+        "notes": "Geschäftsbrief auf Firmenpapier der Firma J. Strobl. Maschinenschrift.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1766,
+    "total_words": 268,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      572,
+      0,
+      1194,
+      0,
+      0
+    ],
+    "chars_per_page_median": 883.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2471,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

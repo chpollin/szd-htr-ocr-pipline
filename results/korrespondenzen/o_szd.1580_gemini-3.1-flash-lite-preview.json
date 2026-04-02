@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1580",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 10. Juli 1939, SZ-AAP/B3.6",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1580/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1580/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1580/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. Juli 1939, SZ-AAP/B3.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n10.Juli 1939.\n\nHerrn Dr.Stefan Zweig,\n49,Hallam Street,\nW.1.\n\nSehr geehrter Herr Doktor,\n\nAls wir uns in der Vorwoche in wichtiger Angelegenheit tele-\nphonisch an Sie wenden wollten,wurde uns mitgeteilt,dass Sie fuer einige Tage\nverreist seien. Bei wiederholtem Anruf erfahren wir heute,dass Sie noch nicht\nzurueckgekehrt sind und uns der Zeitpunkt Ihrer Rueckkehr auch nicht ange-\ngeben werden kann.\nWir bitten Sie daher,sich frdl.umgehend mit uns in Verbindung\nzu setzen,wenn Sie wieder in London sind,da uns viel daran liegt,Sie bald\npersoenlich zu sprechen.\n\nMit den besten Empfehlungen\n\nfuer das INTERNATIONAL COPYRIGHT BUREAU LTD.:\n\n(DR.CZECH)",
+        "notes": "Typoskript auf Briefpapier mit Firmenkopf. Die Unterschrift ist handschriftlich (Tinte). Rechts oben handschriftliche Archivnummer '76'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rueckseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n10.Juli 1939.\n\nHerrn Dr.Stefan Zweig,\n49,Hallam Street,\nW.1.\n\nSehr geehrter Herr Doktor,\n\nAls wir uns in der Vorwoche in wichtiger Angelegenheit tele-\nphonisch an Sie wenden wollten,wurde uns mitgeteilt,dass Sie fuer einige Tage\nverreist seien. Bei wiederholtem Anruf erfahren wir heute,dass Sie noch nicht\nzurueckgekehrt sind und uns der Zeitpunkt Ihrer Rueckkehr auch nicht ange-\ngeben werden kann.\nWir bitten Sie daher,sich frdl.umgehend mit uns in Verbindung\nzu setzen,wenn Sie wieder in London sind,da uns viel daran liegt,Sie bald\npersoenlich zu sprechen.\n\nMit den besten Empfehlungen\n\nfuer das INTERNATIONAL COPYRIGHT BUREAU LTD.:\n\n(DR.CZECH)",
+        "notes": "Identisch mit Seite 1, jedoch mit Farbskala und Grauskala fuer Archivierung am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1706,
+    "total_words": 238,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      853,
+      0,
+      853
+    ],
+    "chars_per_page_median": 853,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3828,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

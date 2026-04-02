@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1569",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 3. Juli 1926, SZ-AAP/B2.26",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1569/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1569/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1569/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 3. Juli 1926, SZ-AAP/B2.26\n- Signatur: SZ-AAP/B2.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n\nam 3. Juli 1926.\n\nLieber Herr Friedenthal!\n\n                                     {der Verleger}\nMich besuchte dieser Tage Gustav Kiepenheuer, der eine Lieb-\nhaber-Bibliothek herausgeben will und da erinnerte ich mich daran,\ndass der \"Falke\" Ihre \"Vergewaltigung\" nicht gebracht hat. Sollte\ne[?] etwa davon abstehen, so würde ich sie gern Kiepenheuer vorschla-\ngen, der sich sehr dafür interessiert.\n\nLassen Sie sich selbst aber nicht inzwischen von den äusse-\nren Dingen des Lebens vergewaltigen, es wäre furchtbar schade, wenn\nSie gerade jetzt Ihre künstlerischen Arbeiten unterbrechen würden,\nwo Sie doch schon so stark im Zuge waren und es mir von höchster Wich-\ntigkeit schiene, dass Sie bald mit einem geschlossenen grösseren\nBuche herausträten. Die Zeit wird immer ungeduldiger und nichts\nist so wichtig als sie zu nützen. Sammeln Sie also Ihre ganze Kraft\nund wenn Sie zwischendurch Zeit behalten, so schreiben Sie wieder\neinmal an Ihren\n\n                                     herzlich ergebenen\n\n                                     Stefan Zweig",
+        "notes": "Typoskript mit handschriftlichen Korrekturen/Ergänzungen in violetter Tinte. Die Einfügung '{der Verleger}' ist handschriftlich über der Zeile platziert. Die Unterschrift ist handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n\nam 3. Juli 1926.\n\nLieber Herr Friedenthal!\n\nLassen Sie sich selbst aber nicht inzwischen von den äusse-\nren Dingen des Lebens vergewaltigen, es wäre furchtbar schade, wenn\nSie gerade jetzt Ihre künstlerischen Arbeiten unterbrechen würden,\nwo Sie doch schon so stark im Zuge waren und es mir von höchster Wich-\ntigkeit schiene, dass Sie bald mit einem geschlossenen grösseren\nBuche herausträten. Die Zeit wird immer ungeduldiger und nichts\nist so wichtig als sie zu nützen. Sammeln Sie also Ihre ganze Kraft\nund wenn Sie zwischendurch Zeit behalten, so schreiben Sie wieder\neinmal an Ihren",
+        "notes": "Scan mit Archiv-Farbskala und Grauskala. Der Text entspricht dem unteren Teil des Briefes von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1692,
+    "total_words": 244,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1078,
+      0,
+      614
+    ],
+    "chars_per_page_median": 1078,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0041,
+    "dwr_score": 0.5103,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

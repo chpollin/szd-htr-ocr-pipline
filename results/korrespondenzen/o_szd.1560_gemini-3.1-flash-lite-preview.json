@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1560",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom [August 1941], SZ-AAP/B2.34",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1560/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1560/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1560/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom [August 1941], SZ-AAP/B2.34\n- Signatur: SZ-AAP/B2.34\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                                                    from NY VIII. 1941\nMy dear friend, since long I wanted to write to you but I\nfeel not at all happy and in those times I do not like to\nsee friends and even to write to them. I am in a deep\ndepression. I liked for three month this wandering around,\nnow after more than a year and with sixty years I am tired\nvery tired of this life from hotel to hotel without books and\nwith the packing of manuscripts which fill already a whole\nward. and I do not see any possibility of settling down\nsomewhere - and to return to England, when will this\nbe possible? The difficulty in these American countries is\nthat you cannot stay somewhere the whole year like in\nLondon; New York in summer is terrific and Rio you have\nto leave for three months at least and I hate moving. Further\nmore we have some private difficulties and live in the\nnomadic state - those who came over and immigrated\nhave already given a new form to her life. And I am\nbound by new ties to a Europe which in reality does\nnot exist. We shall go probably back to Brazil and try to\nsettle down for ... for how long? ... because I want badly\nmental and physical rest. I have written my autobiography\n400 pages, the little book on Vespucci (a thorny question)\nthe Brazil book will be published here in September and\nI has to read the proofs; I have written some articles, given\nlectures in four languages, have travelled a distance which\nwould twice span the world and all this in one year -",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "And now I am quite down. The war is too long for a\nman of 60 who wants some rest - it is not laziness, for\nI like to work, but physical rest, two rooms or three, where\nto sit for some months. Sometimes I dream of Bath,\nshall I ever see it again? I doubt it very much and\nall the things I loved once, rare books and manuscripts,\nare for me indifferent; and I doubt very much if after\nthe war we shall have something important to say, it\nwill be a new generation which will take our place.\nThe Russian war is a great help and I believe a decisive\none for England, but I cannot overcome my desperation\nover the stupidity of all those government which waited\nquietly till her turn came instead from the first moment\nto offer an iron front to Hitler; how much misery would\nhave been spared to the world! And your novel, my\ndear friend? It is more than a year that you pro-\nmised me to finish it in a few weeks! You are not\nsixty as myself but you are in an age, where one\nhas not more the right to postpone!\nI have closed my autobiography with the first day of\nthe second war. I feel that I have not seen enough of\nthe war - and then, it is the right moment to close\nas I am afraid that your real life was terminated that\nday. The rest will be rubbish. Yours sincere friend\n                                                                    Stefan Zweig\nMy adress will be C/o Editora Guanabara 132 rua Ouvidor, Rio",
+        "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist violett. Der Text ist gut lesbar. Am linken Rand befindet sich eine vertikal geschriebene Adresse.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist identisch mit Seite 2, jedoch durch die Skalen teilweise verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die wenigen unsicheren Stellen betreffen lediglich die Platzierung der Skalen auf dem dritten Scan."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2921,
+    "total_words": 549,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1511,
+      1410,
+      0
+    ],
+    "chars_per_page_median": 1460.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5603,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

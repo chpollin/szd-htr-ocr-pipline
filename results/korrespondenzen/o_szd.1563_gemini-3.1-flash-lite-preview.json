@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1563",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 15. Januar 1942, SZ-AAP/B2.37",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1563/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1563/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1563/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 15. Januar 1942, SZ-AAP/B2.37\n- Signatur: SZ-AAP/B2.37\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n132, RUA OUVIDOR\nRIO DE JANEIRO\n\nPETROPOLIS, (BRASIL)\n(34, RUA GONÇALVES DIAS)\n\n15th Jan. 1942\n\nMy dear Friedenthal,\nI have to thank you for two letters and was very glad\nabout the good news that you are at work again and that you have written\nsome short stories. With respect to publication you must not expect too\nmuch from Bermann-Fischer. I do not yet know what will now become of the\npublishing house in Sweden, and he himself is mainly interested in his new\npublishing firm in English language. Another new publishing house which\nwas about to be established in Argentine will probably come to nothing on\naccount of the new expansion of the war which delays and complicates too\nmuch the transport of books and of correspondence also. - I hope that\nyour short stories will be in form and subject the right thing for\nmagazine publication and in any case I will remind Bermann to think\nand, if he himself cannot do anything, to give them to a good agent\nthis purpose.\n\nAs regards the P.E.N. club I do not know more about\nit than that inmidst the great War a small war has broken out between the\nvarious centres. Romains have made some technical mistakes, but I\ncan testify that he has done his utmost to get together all these different\ngroups in New York and to create a provisory unity. I am myself out of\ntouch with him for the moment as he has left New York, and I believe that\nas he has left there exists no more centre of the exiled literature in New\nYork. I can only tell you that Mr. Ferdinand Bruckner was the secretary\nof the European P.E.N. in America and if you write him (c/o Librairie de\nFrance, 610 Fifth Avenue) he will certainly give you information whether\nthey continue to exist. I for my person have, as you know, never believed\nin other effective propaganda than military success. One victorious\nbattle is more impressive than fifteen congresses and two hundred\npropaganda books. The word and the book will come into their right\nagain after the war.\n\nNow to ourselves. We ~~will~~ live the most retired life\nyou can imagine in a most beautiful nature and a delightful primitiveness.\nAll things of my father's and grandfather's time have come back here. A bath\nis something for which you have to boil water in a kettle in addition to\nheating the stove the whole morning, the kitchen stove is heated with wood\nand the fire has constantly to be fanned in order to burn, the bread is\nbrought by eight year old boys, the mail is delivered only on fine days and\nremains in the post office when it rains. But also the natural forms of\nlife of yore, the kindness of the lower classes has remained which are\nneither organised nor ~~must~~ envious. I see again how necessary it is in\norder to understand a country to live more in the interior. Who knows only\nLondon does not know anything about England, and foreigners who do not leave\nthe well-paved streets and international hotels of Rio and S. Paulo have no\nidea of Brazil, and even the Brazilians in these towns who are quite drunk\nby their sky scrapers do not know it. I have learned a good deal here.\n\nNext month a little study of mine on the Vespucci problem\nwill be published by the Viking Press. The autobiography is in status transla\ntionis and a pendant to Erasmus, a Montaigne, in status nascendi. In our sol\nude I am obliged to create me friends by imagining their life and the other\npleasure is to write to the old and true ones of which you are one of the b",
+        "notes": "Typoskript auf Briefpapier. Der Text bricht am Ende der Seite ab (letztes Wort 'b' vermutlich Beginn von 'best').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen Korrekturen (durchgestrichene Wörter) sind deutlich erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 3458,
+    "total_words": 634,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      3458,
+      0,
+      0
+    ],
+    "chars_per_page_median": 3458,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5368,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

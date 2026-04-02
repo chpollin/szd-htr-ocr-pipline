@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1570",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 11. Mai 1928, SZ-AAP/B2.29",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1570/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1570/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1570/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 11. Mai 1928, SZ-AAP/B2.29\n- Signatur: SZ-AAP/B2.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n11.Mai 1928.\n\nLieber Freund!\n\nIch nahm natürlich sofort den 1.Akt vor und finde ihn ganz\ntrefflich bis auf einige kleine Längen in den Ausführungen des\nNotars. Auch wäre vielleicht noch mit einer winzigen Retouche\ndie Frechheit der Untergebenen, solange Francesco noch nicht da\nist, gegenüber ihrem grenzenlosen Terror, sobald er eintrifft,\nherauszustreichen. Ferner finde ich, offen gesagt, nicht wichtig\ngenug den Einsatz der 7. Szene. Plautilla darf natürlich nicht\nhereinkommen und schreien \"Der Herr!\", sondern einfach: \"Er ist\nda!\" und das muss erst allmählich aus der Ungläubigkeit, aus dem\nSchrecken sich furchtbar entfalten, wen sie meint. Diese zwei\nSeiten müssten Sie meinem Empfinden nach noch einmal umschreiben\nund zu einer gewaltigen Vehemenz führen, nicht um der bloss mo-\nmentanen dramatischen Wirkung willen, sondern weil ja dieser\nTerror das Hauptmotiv des ganzen Stückes ist. Ich würde z.B.\nLucretia sich hinwerfen lassen vor das Kruzifix. Sie dürfen alle\nnicht so rasch besonnen sein, sondern wie bei einem Blitzschlag\nsich zuerst eine Panik mit sinnlosem Gestammel ergeben und\nselbstverständlich Beatrice die erste sein, die sich zusammen-\nrafft. Aber, wie gesagt, es handelt sich ja nur um zwei Seiten.\nUnd nun noch Dank für Ihre lieben Worte. Ich freue mich\nauf die Fortsetzung und grüsse Sie vielmals\nals Ihr getreuer\n\nStefan Zweig\n\nTumult und Not und Versagen\nUnplanbylkeit[?], Entsetzen, Jammerschreien ect",
+        "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichem Nachtrag am unteren Rand. Die Tinte der Unterschrift und des Nachtrags ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n11.Mai 1928.\n\nLieber Freund!\n\nIch nahm natürlich sofort den 1.Akt vor und finde ihn ganz\ntrefflich bis auf einige kleine Längen in den Ausführungen des\nNotars. Auch wäre vielleicht noch mit einer winzigen Retouche\ndie Frechheit der Untergebenen, solange Francesco noch nicht da\nist, gegenüber ihrem grenzenlosen Terror, sobald er eintrifft,\nherauszustreichen. Ferner finde ich, offen gesagt, nicht wichtig\ngenug den Einsatz der 7. Szene. Plautilla darf natürlich nicht\nhereinkommen und schreien \"Der Herr!\", sondern einfach: \"Er ist\nda!\" und das muss erst allmählich aus der Ungläubigkeit, aus dem\nSchrecken sich furchtbar entfalten, wen sie meint. Diese zwei\nSeiten müssten Sie meinem Empfinden nach noch einmal umschreiben\nund zu einer gewaltigen Vehemenz führen, nicht um der bloss mo-\nmentanen dramatischen Wirkung willen, sondern weil ja dieser\nTerror das Hauptmotiv des ganzen Stückes ist. Ich würde z.B.\nLucretia sich hinwerfen lassen vor das Kruzifix. Sie dürfen alle\nnicht so rasch besonnen sein, sondern wie bei einem Blitzschlag\nsich zuerst eine Panik mit sinnlosem Gestammel ergeben und\nselbstverständlich Beatrice die erste sein, die sich zusammen-\nrafft. Aber, wie gesagt, es handelt sich ja nur um zwei Seiten.\nUnd nun noch Dank für Ihre lieben Worte. Ich freue mich\nauf die Fortsetzung und grüsse Sie vielmals\nals Ihr getreuer\n\nStefan Zweig\n\nTumult und Not und Versagen\nUnplanbylkeit[?], Entsetzen, Jammerschreien ect",
+        "notes": "Gleiches Dokument wie Seite 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'Unplanbylkeit' im handschriftlichen Nachtrag ist orthographisch unklar, wurde aber buchstabengetreu transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2916,
+    "total_words": 440,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1458,
+      0,
+      1458
+    ],
+    "chars_per_page_median": 1458,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0045,
+    "dwr_score": 0.4495,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

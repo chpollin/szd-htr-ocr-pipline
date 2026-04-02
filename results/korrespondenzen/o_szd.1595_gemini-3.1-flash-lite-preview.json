@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1595",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 28. September 1925, SZ-AAP/B2.18",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1595/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1595/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1595/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 28. September 1925, SZ-AAP/B2.18\n- Signatur: SZ-AAP/B2.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n\nam 28. September 1925.\n\nLieber Friedenthal!\n\nIch finde eben in der Neuen Freien Presse vom Sonntag eine\nBesprechung Ihres Buches, die Ihnen hoffentlich Freude machen\nwird. Dies ist mir ein lieber Anlass, Sie auf das Herzlichste\nzu grüssen und Ihnen gute Arbeit zu wünschen.\nHerzlichst Ihr\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Briefpapier mit Briefkopf des Absenders.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung über das Dokument gelegt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, keine Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 328,
+    "total_words": 51,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      328,
+      0,
+      0
+    ],
+    "chars_per_page_median": 328,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3958,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

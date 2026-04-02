@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1601",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 10. Dezember 1924, SZ-AAP/B2.6",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1601/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1601/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1601/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 10. Dezember 1924, SZ-AAP/B2.6\n- Signatur: SZ-AAP/B2.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, am 10. Dezember 1924\n\nLieber Herr Doktor!\n\nEben von einer Reise zurückgekehrt, bekomme ich Ihren lie-\nben Brief, aus dem ich entnehme, dass Ihre Gedichte schon erschienen sind,\ndie ich {lieber} eiligst reklamiere, da ich kein Exemplar davon bekommen habe. Bit-\nte schicken Sie mir es bald zu, Sie hören dann ausführlicher von mir.\nGleichzeitig möchte ich Ihnen dringend raten, auch ein\nExemplar an meinen Freund Felix Braun, Wien XIX. Sieveringerstrasse\n191 zu schicken, den Sie im Manuskript sehr begeistert haben und der\nsich Ihrer vielleicht wohl auch öffentlich annehmen wird.\nVerzeihen Sie die Eile: ich bin vor einer halben Stunde\nvon einer dreiwöchentlichen Auslandsreise zurückgekehrt.\nIhr herzlich ergebener\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen (Einfügung 'lieber' über der Zeile, Unterschrift Stefan Zweig in violetter Tinte).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung über das Dokument gelegt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Einfügung 'lieber' wurde gemäß den Regeln als {lieber} transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 740,
+    "total_words": 112,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      740,
+      0,
+      0
+    ],
+    "chars_per_page_median": 740,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4679,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1584",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Briefkarte an Erich Ami Kaemmerer vom 8. Januar 1940, SZ-SHB/B3.3",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1584/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1584/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Erich Ami Kaemmerer vom 8. Januar 1940, SZ-SHB/B3.3\n- Signatur: SZ-SHB/B3.3\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "M. E. Kaemmerer\n\nKobe (Japan)\nP. O. Box 35",
+        "notes": "Adressseite einer Postkarte. Handschrift in violetter Tinte. Poststempel: BATH 6 45PM 8 JAN 1940. Briefmarke: 1/2d Revenue/Postage.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Dear E. A. Kaemmerer, & many thanks\nfor your kind wishes. I have\nleft London and live now permanently\nin Bath (Lyncombe Hill) - quite isolated\nby the war from my friends and doing quickly\nmy work in this turmoil. I hope one day\nto see you again - in Japan or here. Last\nyear I was fairly near to you, in San Francisco\non a lecture tour and I felt all the pleasure\nof voyage and adventure. Yours Stefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Gedruckter Briefkopf: LYNCOMBE HILL, BATH. TELEPHONE: BATH 4983. Handschrift in violetter Tinte.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist klar, die Tinte ist gut erhalten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 449,
+    "total_words": 90,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      42,
+      407
+    ],
+    "chars_per_page_median": 224.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4535,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

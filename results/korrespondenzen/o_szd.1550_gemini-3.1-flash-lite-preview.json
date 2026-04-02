@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1550",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 28. April 1926, SZ-AAP/B2.24",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1550/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1550/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1550/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 28. April 1926, SZ-AAP/B2.24\n- Signatur: SZ-AAP/B2.24\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n\nam 28. April 1926\n\nLieber Freund!\n\nIch bin von meiner Reise endlich zurück, habe vielerlei\ngesehen, mich eigentlich für die Arbeit wieder erholt: nun erst kann\nich daran denken Ihren guten Brief zu beantworten. Ich spüre\netwas wie eine gemeinsame Tendenz des Dramatischen in der Luft.\nGestern las ich von Alexander Lernet eine neue Komödie im Manu-\nskript, die absolut das ist was wir beide anstreben, die Komödie\nohne Sentimentalität im spanischen oder frühenglischen Geiste.\nUnd was Sie mir von Ihrer Arbeit erzählen, stimmt ja ganz in die-\nsen Kreis. Ich hoffe auch auf Ihren Don Juan, dass er gar nicht\nlustspielhaft sein wird, sondern eine Komödie in dem Sinn wie Sie\ndies deuten. Ihren Plan einer Essayreihe finde ich ausserordent-\nlich - fast gehört Lukian noch hinein mit seinen Dialogen und wohl\nauch Aretino, auf dessen \"Cortegiana\" ich jetzt ein Auge geworfen\nhabe. Das wäre auch noch zu bearbeiten. Ein Italiener gehört un-\nbedingt hinein und da ich mit Gozzi und Goldoni nicht viel anzu-\nfangen weiss, so wäre es viel eher der Aretin, und dann sind meine\nLieblinge wie Sie wissen, die Engländer des achtzehnten Jahrhunderts\ndie noch lange nicht entdeckt sind.\nFür Ihren \"Cortez\" will ich nachsuchen, ob ich noch etwas\nMaterial habe. Lesen Sie aber jedenfalls das ausgezeichnete Buch\nvon Blaise Cendrars \"L'Or\", um zu sehen wie solche Abenteurerromane\nsich auch noch im vergangenen Jahrhundert abgespielt haben. Ein",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Die letzte Zeile bricht mitten im Satz ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "famoses Buch!. Von \"Volpone\" kann ich noch immer nichts bestimm-\ntes sagen. Reinhardt, wie zu erwarten war, hat mich viele Wochen\nhingehalten, um dann mit allerhand Ausflüchten zu kommen, Hamburg\nund Wien wollen es jedenfalls haben und in Berlin steht seine\nChance bei der Volksbühne. Aber wie gesagt, die rechte Freude\ndaran wird einem immer abgetrieben durch die Hinausschiebung -\nich habe nie ein Stück von mir auf der Bühne gesehen ehe es schon\naltbacken war und mir möchte es eigentlich nur Freude machen, es\neinmal direkt aus dem Backofen auf die Bühne schieben zu können\nund den noch warmen Teig dort gleich weiter geknetet zu sehen.\nSie wissen, lieber Freund, wie herzlich ich Ihrer immer\ngedenke und bitte Sie sehr darum, mir nicht nur Ihre dichterischen\nsondern auch Ihre Reisepläne wissen zu lassen. Ich will wahrschein-\nlich im August den Festspielen bis nach Belgien entfliehen, viel-\nleicht könnten wir uns da treffen; ich habe immer jedes Beisammen-\nsein mit Ihnen als (hoffentlich beiderseitig) ergiebig und durchaus\nfreundschaftlich erheiternd empfunden.\nIhr aufrichtigst ergebener\nStefan Zweig",
+        "notes": "Typoskript. Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Die Seite enthält den Text von Seite 2, jedoch überlagert durch eine Farbskala und eine Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls klar lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2564,
+    "total_words": 410,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1453,
+      1111,
+      0
+    ],
+    "chars_per_page_median": 1282.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5296,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

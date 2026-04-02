@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1590",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 18. April 1925, SZ-AAP/B2.13",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1590/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1590/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1590/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 18. April 1925, SZ-AAP/B2.13\n- Signatur: SZ-AAP/B2.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n\nam 18. April 1925.\n\nLieber Herr Friedenthal!\n\nPrachtvoll sind Ihre weiten Pläne! Wäre ich nicht selbst\njetzt ganz in der Freude und Arbeit wieder im Novellistischen (nach-\ndem mein Buch \"Der Kampf mit dem Dämon) Gott sei Dank schon draussen\nist), so könnte ich beinahe neidisch werden. Und nun von Herzen ein\nRatschlag:\nAlle Zersplitterungen in einzelne Verlage sind schlecht.\nMan muss trachten mit seinem Werk und seinem Wesen auch äusserlich\neinheitlich zu bleiben und wenn Sie bei Rütten & Loening es durchset-\nzen können, so wäre es ein Glücksfall. Rütten & Loening sind langsa-\nme, zögernde Menschen, die sich schwer entschliessen, einen Autor zu\nnehmen. Haben sie aber dann einmal einen Autor, so setzen sie ihn mit\neiner zähen und wirklich liebevollen Entschlossenheit durch, (während\nSie bei der Deutschen Verlagsanstalt in einem Massenquartier hausen).\nWenn Sie dort Ihren Novellenband haben können, so ist es natürlich\nbesonders gut und wenn die eine, die \"Vergewaltigung\" zuerst einzeln\nerscheint, so kann dies nur den spätern Werken nützen. Haben Sie hof-\nfentlich bei dem Vertrag mit der Verlagsanstalt ausgemacht, dass Sie\ndie Novelle \"Heuschober\" auch später noch in einer Sammlung bringen\ndürfen. Ich weiss aus meiner Erfahrung, dass immer nur das",
+        "notes": "Typoskript mit Briefkopf. Die Tinte der Unterschrift auf der Folgeseite scheint leicht durch, wurde aber nicht transkribiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "zusammengeschlossene, das wirklich solide und konsistente Buch Dauer\nund Erfolg hat. Mir wäre es ein Kinderspiel, ein oder zwei Bände \"Ge-\nsammelte Essay\" herauszugeben oder ein oder zwei Novellenbände, aber\nich halte alles zurück bis es sich bindet zu einem innern Kreis, so-\nwie der \"Kampf mit dem Dämon\" oder die Novellen.\nSchreiben Sie also an Rütten & Loening einen ganz klaren\nBrief, Sie hätten jetzt diese und jene Angebote, möchten aber auf\nmeinen Rat Ihre Produktion zusammenhalten und ganz zu einem einzigen\nVerlag gehen. Werden die Verhandlungen aussichtsreich, so fahren Sie\neinmal auf einen Sonntag hinüber oder treffen Sie sich mit den Herren\nin Leipzig, wohin sie öfter fahren. Ein mündliches Gespräch ist mehr\nwert als hundert Briefe.\nDas möge auch für uns gelten: hoffentlich fühlen Sie, wie\nsehr ich innerlich an allem Anteil nehme was Sie tun und auch wir kön-\nnen dann einmal in Leipzig oder sonstwo immer eine erfreuliche Begeg-\nnung haben.\n\nHerzliche Grüsse Ihres\n\nStefan Zweig",
+        "notes": "Typoskript, Unterschrift handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Wiederholung des Textes von Seite 2 mit aufgelegten Archiv-Farbskalen und Grauskalen.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2288,
+    "total_words": 362,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1289,
+      999,
+      0
+    ],
+    "chars_per_page_median": 1144.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5281,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

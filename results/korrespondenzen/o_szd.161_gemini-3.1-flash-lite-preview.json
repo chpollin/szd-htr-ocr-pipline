@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.161",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Theaterkarte zur Uraufführung von „Jeremias“ 1918, SZ-SDP/L2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.161/IMG.1",
+      "https://gams.uni-graz.at/o:szd.161/IMG.2",
+      "https://gams.uni-graz.at/o:szd.161/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Theaterkarte zur Uraufführung von „Jeremias“ 1918, SZ-SDP/L2\n- Signatur: SZ-Results-SZ/SDP\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "I. Rang Seiten-Loge\nLinks\n27. Febr. 1918\nLoge 5\nPlatz 5\nStadttheater Zürich\n\nI. Rang Seiten-Loge\nLinks\nLoge 5\nPlatz 5\nKupon gilt als Ausweis\n27. Febr. 1918",
+        "notes": "Vorderseite einer Theaterkarte, gedruckt. Das Dokument ist perforiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Jerem[?]\nUraufführung",
+        "notes": "Rückseite der Theaterkarte, handschriftlich mit Bleistift beschriftet. Die Schrift ist etwas verblasst.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "I. Rang Seiten-Loge\nLinks\nLoge 5\nPlatz 5\n27. Febr. 1918\nStadttheater Zürich",
+        "notes": "Theaterkarte zusammen mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftliche Notiz auf Seite 2 ist aufgrund der Bleistiftführung und des Alters leicht unsicher, aber im Kontext der Uraufführung von Zweigs 'Jeremias' eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 251,
+    "total_words": 43,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      155,
+      21,
+      75
+    ],
+    "chars_per_page_median": 88.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0233,
+    "dwr_score": 0.0417,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

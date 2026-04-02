@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1596",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 10. Oktober 1925, SZ-AAP/B2.19",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1596/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1596/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1596/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 10. Oktober 1925, SZ-AAP/B2.19\n- Signatur: SZ-AAP/B2.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\n\nam 10. Oktober 1925.\n\nLieber Freund!\n\nIch antworte Ihnen sofort. Ihr Plan scheint mir schön,\naber nur, wenn er gelingt, das heisst, wenn nicht die Spitzen\nwie Hauptmann, George, Rilke, Beer-Hofmann ausbleiben, denn ~~XXXXX~~\nsonst macht die ganze Sache leicht einen unerquicklichen Eindruck.\nIch würde Ihnen also freundschaftlich raten - ehe Sie die Auffor-\nderung herausgeben lassen, an die sechs oder acht wahrhaft Promi-\nnenten zu schreiben. Haben Sie einmal diese als Vortänzer, so ~~kön-\nnen Sie~~ keine Bange{n} haben für die andern. Tun die, wie ich leider\nbefürchte, ~~nicht~~ {nur} mit, dann lieber gar nicht als Leute zweiten Ran-\nges. Nichts wäre bedauerlicher als bemühten Sie eine Menge Men-\nschen, ohne der Wesentlichen gewiss zu sein.\nAuf Ihre Novelle freue ich mich sehr. Ich habe gleich-\nzeitig zwei in Arbeit, von denen mir die eine viel Qual, die ande-\nre viel Freude macht. Nun, Sie werden sie ja bald sehen.\nHerzlichst Ihr ebener\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die Unterschrift ist ebenfalls handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text des Typoskripts der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung, über das Dokument gelegt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen und Ergänzungen von Stefan Zweig sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 990,
+    "total_words": 159,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      990,
+      0,
+      0
+    ],
+    "chars_per_page_median": 990,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4586,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

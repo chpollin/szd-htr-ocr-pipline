@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1586",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Richard Friedenthal vom 25. Juli 1924, SZ-AAP/B2.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1586/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1586/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1586/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Friedenthal vom 25. Juli 1924, SZ-AAP/B2.1\n- Signatur: SZ-AAP/B2.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Monsieur Richard Friedenthal\nParis (France)\nHôtel Normandy\n7, rue l'Echelle",
+        "notes": "Adressseite einer Postkarte. Gedruckter Text der Ausstellung 'Internationale Ausstellung Feuer-Rettungswesen Salzburg 10.-16. Juli 1925' im Hintergrund. Briefmarken und Poststempel vorhanden. Handschriftliche Adresse in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber Herr Friedenthal, ich beglück\nwünsche Sie zu Paris. Rolland lebt\nin der Schweiz was doch ist ja we-\nnig da, was Sie interessieren könnte,\nRic[h] sehr unzugänglich und felig\nBraun gerade heute abgereist. Ich\nselbst bin vom 3. Juni - 15 Juni\nnicht in Salzburg, vom 5-9 in\nReipzig beim Jantelfest mit Rolland\ndann in Wednes, Böhmen und Wien\naber nachher wieder hier und\nSie immer herzlich gern erwar-\ntend. Geniessen Sie die Tage, fahr\nSie doch einmal nach Rouen\no. Chartres zu den Kathedralen,\nil vaut bien la peine. Herz\nlichst\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Die Lesung 'Ric' könnte sich auf Romain Rolland beziehen, ist aber abgekürzt. 'Reipzig' ist möglicherweise ein Schreibfehler für Leipzig oder einen anderen Ort.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Die Postkarte ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist stellenweise schwer zu entziffern, insbesondere bei Eigennamen und Ortsbezeichnungen (z.B. 'Reipzig', 'Wednes')."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 621,
+    "total_words": 105,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      75,
+      546,
+      0
+    ],
+    "chars_per_page_median": 310.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3627,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

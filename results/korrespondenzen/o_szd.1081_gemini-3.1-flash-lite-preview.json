@@ -1,4 +1,14 @@
 {
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.979,
+    "edited_pages": [1, 2],
+    "notes": "Page 1: 'Hud. inr.' -> 'Stud. iur.' (Studiosus iuris, confirmed by Staatsprüfung reference in o_szd.1079). Page 2: 'devin' -> 'darin' (Kurrent r misread as v, a as e). Foreign quoted words ('graciösa', 'fittae') remain uncertain but not corrected.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
+  },
   "object_id": "o_szd.1081",
   "collection": "korrespondenzen",
   "group": "korrespondenz",
@@ -17,25 +27,25 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
-        "notes": "Adressseite der Postkarte. 'Hud. inr.' ist eine Abkürzung für 'Hudební inženýr' (tschechisch für Musik-Ingenieur) oder eine ähnliche Berufsbezeichnung. Poststempel: WIEN 5 6.01 6-7N.",
+        "transcription": "An\nMax Fleischer\nStud. iur.\nin\nKomotau\nNordböhmen",
+        "notes": "Adressseite der Postkarte. 'Stud. iur.' = Studiosus iuris (Jurastudent). Poststempel: WIEN 5 6.01 6-7N.",
         "type": "content"
       },
       {
         "page": 2,
-        "transcription": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa“ devin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+        "transcription": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa” darin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
         "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte.",
         "type": "content"
       },
       {
         "page": 3,
-        "transcription": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+        "transcription": "An\nMax Fleischer\nStud. iur.\nin\nKomotau\nNordböhmen",
         "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala im Bild.",
         "type": "color_chart"
       }
     ],
     "confidence": "high",
-    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Abkürzung 'Hud. inr.' ist kontextuell plausibel für die Zeit und Region."
+    "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Abkürzung 'Stud. iur.' ist kontextuell plausibel für die Zeit und Region."
   },
   "quality_signals": {
     "version": "1.4",

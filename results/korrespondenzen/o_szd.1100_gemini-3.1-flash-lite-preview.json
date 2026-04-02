@@ -23,19 +23,29 @@
       },
       {
         "page": 2,
-        "transcription": "Heil dem Zeitbesprochenen Fleischerknaben!\nSt. Z.\n\nIch habe die ganze Tragik Ihres\nBriefs empfunden. Aber, ganz be-\nstimmt stört es nicht. Ihr St.\nBesten Gruß St. Zweig",
+        "transcription": "Heil dem Zeitbesprochenen Fleischerknaben!\nSt. Z.\n\nIch habe die ganze Tragik Ihres\nBriefs empfunden. Aber, ganz be-\nstimmt stört es nicht.\nLiebsten Gruß Ihr St. Zweig",
         "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig.",
         "type": "content"
       },
       {
         "page": 3,
-        "transcription": "Heil dem Zeitbesprochenen Fleischerknaben!\nSt. Z.\n\nIch habe die ganze Tragik Ihres\nBriefs empfunden. Aber, ganz be-\nstimmt stört es nicht. Ihr St.\nBesten Gruß St. Zweig",
+        "transcription": "Heil dem Zeitbesprochenen Fleischerknaben!\nSt. Z.\n\nIch habe die ganze Tragik Ihres\nBriefs empfunden. Aber, ganz be-\nstimmt stört es nicht.\nLiebsten Gruß Ihr St. Zweig",
         "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet.",
         "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist trotz der flüchtigen Handschrift gut lesbar. Die Identifikation von 'St. Z.' als Stefan Zweig ist durch den Kontext des Nachlasses gesichert."
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.95,
+    "edited_pages": [2],
+    "notes": "Page 1 (address side): Correctly transcribed — 'Postkarte', addressee 'Max Fleischer', 'Komotau in Böhmen', 'Villa Fleischer' all match image. Page 2 (text side): Two errors corrected in closing formula. (1) 'Ihr St.' was incorrectly placed at end of line 5 — 'Ihr' belongs on the final line as part of the closing formula. (2) 'Besten' corrected to 'Liebsten' based on letter shape (initial ascender loop consistent with Kurrent 'L', not 'B'). Corrected closing: 'Liebsten Gruß Ihr St. Zweig' (standard early-20th-c. closing formula). Page 3 correctly classified as color_chart.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",

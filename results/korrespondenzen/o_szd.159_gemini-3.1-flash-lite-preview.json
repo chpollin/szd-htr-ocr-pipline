@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.159",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postvollmacht für Anna Meingast, SZ-SAM/L9",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.159/IMG.1",
+      "https://gams.uni-graz.at/o:szd.159/IMG.2",
+      "https://gams.uni-graz.at/o:szd.159/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postvollmacht für Anna Meingast, SZ-SAM/L9\n- Signatur: SZ-SAM/L9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Frau A n n a  M e i n g a s t\n\nLinzer Gasse 16, Salzburg.\n\nFrau Anna Meingast, Meine frühere Sekretärin ist von mir er-\nmächtigt, für mich einlangende Sendungen zu über-\nnehmen und Zahlungen entgegenzunehmen oder zu lei-\nsten, und habe ich dieselbe auch der Post gegen-\nüber legitimiert.\n\nStefan Zweig\n\nErneuert für Salzburg, 1. Januar 1936.",
+        "notes": "Typoskript mit handschriftlicher Ergänzung am Zeilenanfang ('Frau Anna Meingast,') und handschriftlicher Unterschrift ('Stefan Zweig').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 341,
+    "total_words": 60,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      341,
+      0,
+      0
+    ],
+    "chars_per_page_median": 341,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.386,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

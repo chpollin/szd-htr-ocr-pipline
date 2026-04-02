@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1561",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 19. September 1941, SZ-AAP/B2.35",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1561/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1561/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1561/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 19. September 1941, SZ-AAP/B2.35\n- Signatur: SZ-AAP/B2.35\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "For Friedenthal\n\nc/o Editora Guanabara\n132 Rua Ouvidor\nRio de Janeiro\nPetropolis, Sept. 19th, 1941.\n\nMy dear friend,\nI have received your letter and hope that in the meantime\nyou have already finished your novel. Times will be hard for everyone of\nus and we have no other legitimation than what we have done and finished in\nthese times. The moment is favourable for your novel as all countries take\nnow a special interest in their national history and I am sure that your\nnovel will illustrate it from another angle than the usual American novels.\nStop learning, my friend! You know so much and perhaps too much. Perhaps\nit would be good for you to live as we do here, nearly without books and\nwithout the possibility to find any documentation in libraries. This sti-\nmulates to invent and to be courageous. - I have still about a month to\ndo revising the autobiography and after that I will perhaps write one or two\nshort stories. - We arrived here tired and completely worn out, and this\nform of life without certitude nor plans is terribly depressing. Now at\nleast we live amidst beautiful nature and in complete isolation. We have\nrented for a few months a little bungalow whose only real room is a large\nterrace where I can write and work all day long and try to forget what is\ngoing on and what is still coming. The place itself, the only summer resort\nnear Rio, will be terribly crowded in January and February because the heat\nis here somewhat broken at night. Now it is completely deserted and we live\nwithout seeing anybody. Whatever I do now in literature and life, I have\nalways the feeling that it is not quite the right thing and that our best\nstrength is wasted in waiting and wishing. You are so much younger, you\nare just in the age of decisive work, while I have at least the excuse to\nhave lived, in and for another generation. Fight against all which is\nhampering you to finish your novel, and the new work will create for you\na new life!\n\nYours,\n\nStefan Zweig\n\n[Randnotiz links, von unten nach oben geschrieben:]\nI wish you would give me the good news that you have\nfinished your book! You must fight this neurotic fear\nnot to be perfect - remember Flaubert who spoiled his\nSalammbo by studying nine years. History is never to be\nreproduced exactly - who knows the truth - but we have\nto invent it. I myself continue to work but without\nthe old pleasure, I feel in writing that I have no\nreal public like once {and sometimes} I am rather\ncareless because I write for translators!\n\n[Randnotiz links, vertikal, quer:]\nI am just trying a very strange\n~~charbonelle~~ and his ~~pleasure~~ words be\npleasure\nto me!",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte am linken Rand. Die Randnotizen sind teilweise durchgestrichen oder mit Einfügungen versehen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Randnotizen sind aufgrund der Kursivschrift und der Platzierung am Rand etwas komplexer, aber eindeutig entzifferbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2630,
+    "total_words": 478,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2630,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2630,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5297,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

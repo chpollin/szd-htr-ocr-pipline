@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1567",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 21. Januar 1926, SZ-AAP/B2.22",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1567/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1567/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1567/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 21. Januar 1926, SZ-AAP/B2.22\n- Signatur: SZ-AAP/B2.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG\nam 21. Januar 1926\n\nLieber Herr Doktor!\n\nIch trete morgen meine Reise an, die mich am\n29. nach Berlin führt: vielleicht rufen Sie mich jeden-\nfalls am 29. morgens zwischen 8-9 im Hotel Prinz Friedrih\nKarl (Töpfer) Dorotheenstrasse, an. Ihre Novelle habe\nich sofort gelesen, finde sie ausserordentlich: mir\nfehlt nur noch ein Zusammenspiel darin, über das ich\nmit Ihnen persönlich noch sprechen will.\nVerzeihen Sie, dass ich Ihnen heute sonst nichts\nschreibe, ich bin schon ganz Vortrag, Koffer und Eisen-\nbahn.\n\nHerzlichst Ihr\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Das Wort 'Friedrih' ist ein Tippfehler im Original (statt Friedrich). Das Wort 'Eisenbahn' wurde im Original als 'Fisen-bahn' getippt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überlagert den Text des Briefes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Tippfehler im Original ('Friedrih', 'Fisen-bahn') wurden gemäß Transkriptionsregeln originalgetreu übernommen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 565,
+    "total_words": 89,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      565,
+      0,
+      0
+    ],
+    "chars_per_page_median": 565,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4578,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

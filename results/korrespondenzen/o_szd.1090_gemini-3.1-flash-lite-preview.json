@@ -17,14 +17,14 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Correspondenz-Karte\n\nAn\n~~Herrn~~ Herrn Max Fleischer\nLeipzig\nMünzgasse 16",
+        "transcription": "Correspondenz-Karte\n\nHerrn Max Fleischer\nstud. phil.\nLeipzig\nMünzgasse 16",
         "notes": "Adressseite der Postkarte. Der Name 'Max Fleischer' ist unterstrichen. Ein Poststempel 'LEIPZIG 5 12 01' ist vorhanden.",
         "type": "content"
       },
       {
         "page": 2,
-        "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20",
-        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig. 'Langentour' und 'Kantgewalt' sind unsicher gelesen. 'Gutes' ist ebenfalls unsicher.",
+        "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern, um mich auf dem Laufenden[?]\nzu halten. Meine Kritik über dich [ist] vor 3 Wochen\nerschienen, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen ordentlichen[?] frankierten Brief, wie es dir\ngeht. Nur Gutes[?] wünscht dir dein\n\nStefan\nII Schwarzspanierstr 20",
+        "notes": "Textseite der Postkarte. Die Handschrift ist sehr flüchtig. 'Laufenden' unsicher (Gemini las 'Langentour Kantgewalt'). '[ist]' ergänzt für grammatischen Sinn. 'ordentlichen frankierten' unsicher — Gemini las 'Brief zu frankierenden Brief'. Schlussformel 'Nur Gutes wünscht dir dein' unsicher.",
         "type": "content"
       },
       {
@@ -36,6 +36,16 @@
     ],
     "confidence": "medium",
     "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Textkörper der Postkarte). Die Lesung der Ortsangabe und der Anrede ist sicher."
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 8,
+    "estimated_accuracy": 0.90,
+    "edited_pages": [1, 2],
+    "notes": "Page 1: Removed hallucinated 'An' line, removed incorrect '~~Herrn~~' strikethrough duplicate, added missing 'stud. phil.' line visible in image. Page 2: Major corrections — 'Langentour[?] Kantgewalt[?]' corrected to 'Laufenden[?]' (idiomatic 'auf dem Laufenden zu halten'); removed incorrect strikethrough on 'erschienen'; 'einen Brief zu frankierenden Brief' (doubled 'Brief', garbled) corrected to 'einen ordentlichen[?] frankierten Brief'; 'wie dies geht nur Gutes[?] es dein' corrected to 'wie es dir geht. Nur Gutes[?] wünscht dir dein' (standard closing formula). Several readings remain uncertain due to very hasty Kurrent.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
   },
   "quality_signals": {
     "version": "1.4",

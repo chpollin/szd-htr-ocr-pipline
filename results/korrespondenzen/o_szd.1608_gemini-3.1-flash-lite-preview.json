@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.1608",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 15. Juni 1938, SZ-AAP/B1.253",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1608/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1608/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1608/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1608/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 15. Juni 1938, SZ-AAP/B1.253\n- Signatur: SZ-AAP/B1.253\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT. Sy.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR.\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\n\nLONDON, E.C.2.\n\n15.Juni 1938.\n\nHerrn Dr. Stefan Zweig,\n49, Hallam Street,\nW 1.\n\nSehr geehrter Herr Dr.Zweig,\n\nIm Besitze Ihrer gefl. Zeilen vom\n14.ds.Mts. und gemäss unserer heute Morgen gehabten fernmünd-\nlichen Besprechung habe ich dem Schweizerischen Vereinssorti-\n/ ment, Olten laut Anlage geschrieben.\n\nDen an Sie gerichteten Originalbrief\ndes Schweiz.Vereinssortiments vom 13.ds.Mts. sende ich Ihnen\n/ anbei wunschgemäss zurück.\n\nMit verbindlichem Gruss\n\nIhr sehr ergebener\n",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Unterschrift fehlt im Scan, der Platz ist jedoch vorhanden. Die Zeilenumbrüche mit Schrägstrich am Zeilenanfang deuten auf eine Umbruchkorrektur im Original hin.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Sy.\n\n15.Juni 1938.\n\nAn das\nSchweizerische Vereinssortiment\nO l t e n / Schweiz.\n\nHerr Dr.Zweig zeigt mir soeben Ihr gefl. Schreiben\nvom 13.ds.Mts., das sich mit meinem gestrigen Schreiben kreuzte.\nIch entnehme Ihren Mitteilungen, dass die Zahlungen\naus den etwa viertausend Bänden an Herrn Reichner persönlich erfol-\ngen, und dass daher Herr Reichner persönlich für den Anteil des\nHerrn Dr.Zweig haftet, und nicht etwa der Verlag Herbert Reichner\nZürich oder der Verlag Herbert Reichner Wien-Leipzig-Zürich.\n\nHerr Dr.Zweig wäre Ihnen verbunden, wenn Sie auch\nHerrn Reichner, der ihm seine Adresse nicht bekannt gegeben hat,\nübermitteln würden, dass Herr Dr.Zweig insbesondere für ein-\nkassierte Beträge ihn persönlich verantwortlich hält.\n\nMit vorzüglicher Hochachtung\n\nSigned A. KAUFFMANN.",
+        "notes": "Typoskript (Durchschlag/Kopie eines Schreibens an Dritte). 'Signed A. KAUFFMANN' ist maschinenschriftlich vermerkt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1477,
+    "total_words": 206,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      687,
+      0,
+      790,
+      0
+    ],
+    "chars_per_page_median": 738.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3029,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1589",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Richard Friedenthal vom 27. März 1925, SZ-AAP/B2.12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1589/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1589/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1589/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Friedenthal vom 27. März 1925, SZ-AAP/B2.12\n- Signatur: SZ-AAP/B2.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Absender:\nSTEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nPostkarte\n\nHerrn\nRichard Friedenthal\n\nB e r l i n W.23.\n\nSchleswiger Ufer 13.",
+        "notes": "Adressseite einer Postkarte. Gedruckter Text mit handschriftlichen Ergänzungen (Name und Adresse). Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Salzburg, am 27. 3. 25.\n\nLieber Herr Friedenthal!\n\nIch habe ganz unverbindlich Ihre No-\nvellen jetzt an Rütten & Loening gegeben; ich\nfinde auch die beiden neuen ganz ausgezeichnet.\nSobald ich etwas höte, schreibe ich Ihnen natür-\nlich sofort ausführlich. Verzeihen Sie die Eile:\nich bin jetzt immer unterwegs.\nHerzlich Ihr\n\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Maschinenschriftlicher Text, Unterschrift handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Salzburg, am 27. 3. 25.\n\nLieber Herr Friedenthal!\n\nIch habe ganz unverbindlich Ihre No-\nvellen jetzt an Rütten & Loening gegeben; ich\nfinde auch die beiden neuen ganz ausgezeichnet.\nSobald ich etwas höte, schreibe ich Ihnen natür-\nlich sofort ausführlich. Verzeihen Sie die Eile:\nich bin jetzt immer unterwegs.\nHerzlich Ihr\n\nStefan Zweig",
+        "notes": "Wiederholung der Nachrichtenseite mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist klar als Stefan Zweig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 801,
+    "total_words": 126,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      127,
+      337,
+      337
+    ],
+    "chars_per_page_median": 232.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2836,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

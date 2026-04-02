@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1597",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Richard Friedenthal vom 9. September 1924, SZ-AAP/B2.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1597/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1597/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1597/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 9. September 1924, SZ-AAP/B2.2\n- Signatur: SZ-AAP/B2.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG 9. Sept. 1924\n\nVerehrter Herr Doktor, man wird manchmal müde\nManuscripte zu lesen. Aber dadurch dass viele kommen\nkommt auch von selbst eine gewisse Technik des Blicks:\nich legte mir Ihre Sonette bei Seite, gerade das erste nur\nrasch überstreifend. Aber da hielt ich schon inne. Mich\nerreichte sofort da ein warmer gefüllter Ton der Worte,\neine schöne Dichtigkeit der Farbe und ich las weiter, von dem\neinen Gedicht zum andern hingezogen. Mein Eindruck ist\nnun eine wirklich ganz ungewöhnlicher: Sie haben eine so\nerstaunlich ähnliche Kraft bei stärkster Beherrschung der\nForm, dass für mich kein Zweifel an Ihrer inneren Berufung\n(wie für mich all Ihre Worte!) besteht: Sie verstehen so voll-\nkommen, Gestalt und Geschehnis zu verdichten (im wahrsten\nSinne des Worts) dass meinem Gefühl nach Ihnen unbegrenz-\nte Möglichkeiten offen sind. Ihr Name wird mir, seien Sie\ndessen gewiss, immer als ein wesentlicher Bewusst bleiben:\nWie sehr Sie ihn dann noch zu füllen und erfüllen wissen,\nist für mich aufrichtige Erwartung.\nIch verstehe, dass im Gefühl eines solchen Könnens Sie\nwohl den Wunsch weiterer Öffentlichkeit haben. Ohne Ihre\nbesondere Erlaubnis abzuwarten, zeige ich heute Ihre Sonette\ndem Insel-verlag: Hoffentlich bemerkt dies, dass er das\nganze Manuscript {von Ihnen} zum lesen {eingefügt} erbittet. Meine Wort hat doch keine",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Tinte ist violett. Die Lesbarkeit ist gut, trotz einiger Korrekturen und Einfügungen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "bestimmende Kraft, ich zähle mehr da auf die starke\nStimme Ihres Gedichts. Hoffnungen wage ich Ihnen keine zu\nmachen, da die Verlage {Leute} unschlüssig sind gegenüber einer noch\nunausgesprochenen Zeit. Aber das Meine geschieht gewiss. Und\nwenn ich Ihnen sonst irgendwie nützlich sein kann —\netwa eine Sendung an die Neue Rundschau und einer Zeile\nBegleitbrief oder an sonst eine Ihnen wichtige Stelle — so\nbrauchen Sie mir zu wollen nur es geschieht. Mögen Sie\nda zu mir das gleiche Vertrauen haben, wie Ihre Verse\nes mir gegeben haben!\n\nIhr herzlich ergebener\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierungszwecke. Kein Text vorhanden.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die wenigen Korrekturen und Einfügungen im Text wurden gemäß den Anweisungen transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1936,
+    "total_words": 306,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1361,
+      575,
+      0
+    ],
+    "chars_per_page_median": 968.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5099,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1573",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Richard Friedenthal, o. D., SZ-AAP/B2.38",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1573/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1573/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1573/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Richard Friedenthal, o. D., SZ-AAP/B2.38\n- Signatur: SZ-AAP/B2.38\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lieber Herr Doktor, vielen Dank\nfür Ihren Brief! Ich schliesse eben\nmeinen Brief ab (wie oft habe ich es\nalso getan und immer öffnet es mich\nmit neuen Bedenken) nur habe\ndafür die Correspondenz castriert.\nSie ~~alle~~ sind bereits geschlachtet\nund eingeheftet dem Verl. Tag\nüberantwortet: es ist aber kein\nKorn Salz oder Schärfe dabei. Herzlichst\nIhr Stefan Zweig",
+        "notes": "Handschriftliche Nachricht auf der Vorderseite einer Ansichtspostkarte (Salzburg-Motiv).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "d. Richard Friedenthal\n\nBerlin NW\nSchleswiger Ufer 13",
+        "notes": "Adressseite der Postkarte. Gedruckte Verlagsangabe am linken Rand: 'VERLAG U. DRUCK VON J. HUTTEGGER SALZBURG. GESETZLICH GESCHÜTZT 1922 Nr 281'. Briefmarken und Poststempel 'SALZBURG 2 -5. 1. 24' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "d. Richard Friedenthal\n\nBerlin NW\nSchleswiger Ufer 13",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 469,
+    "total_words": 75,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      363,
+      53,
+      53
+    ],
+    "chars_per_page_median": 208.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4545,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
