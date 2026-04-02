@@ -10,7 +10,7 @@ related:
   - "[[annotation-protocol]]"
   - "[[pilot-design]]"
   - "[[data-overview]]"
-  - "[[ground-truth-pipeline]]"
+  - "[[layout-analysis]]"
 ---
 
 # Verifikationskonzept: Qualitaetsmessung der SZD-HTR-Pipeline
@@ -728,13 +728,48 @@ Empfehlung: **Claude Sonnet** als zweites Modell neben Gemini Flash Lite. Begrue
 
 ---
 
-## 5. Frontend-Anforderungen
+## 5. Verification-by-Vision (VbV)
 
-### 5.1 Kontext
+Zwei VLMs vergleichen unabhaengig Faksimile-Bild mit Transkriptionstext und identifizieren Fehler. Staerker als Cross-Model (§4), weil das Quellbild einbezogen wird.
 
-Lane 1 (Frontend) baut den Viewer unter `docs/`. Die Abschnitte 2 (quality_signals) und 4 (Cross-Model-Verification) produzieren Daten, die im Frontend sichtbar werden muessen. Dieser Abschnitt definiert die Anforderungen aus methodischer Sicht — das UI-Design liegt bei Lane 1.
+### 5.1 Zwei-Kanal-Workflow
 
-### 5.2 Anforderung 1: needs_review-Indikator
+| Kanal | Methode | Kosten | Dauer |
+|---|---|---|---|
+| A: Claude Code Agent | Read-Tool (Vision), Faksimile + Transkription | $0 | ~2-5 Min/Objekt |
+| B: Gemini API | Bild + Text an Gemini Vision | ~$0.001/Seite | ~10 Sek/Objekt |
+
+Merge: Beide finden Fehler X = hoch konfident. Nur einer = mittel konfident. Keiner = verified.
+
+### 5.2 Error-Markup
+
+```
+«original→korrektur|konfidenz»
+```
+
+Beispiele: `«entbalten→enthalten|0.8»`, `«Kiow→Kiew|0.6»`. Guillemets gewaehlt, weil in keinem bestehenden Markup verwendet.
+
+### 5.3 Empirische Befunde (Session 11, 8 Objekte)
+
+| Muster | Befund |
+|---|---|
+| Gedruckter Text | Durchgehend korrekt bei Antiqua, 0 Fehler in 8 Objekten |
+| Fraktur | >99% korrekt, aber typische Verwechslungen (fl-Ligatur, langes s, u/n) |
+| Handschrift | Einzelwort-Ambiguitaeten, keine Halluzinationen. d/r-Verwechslung bei Korrespondenz |
+| Handschriftliche Korrekturen | Schwaechste Schicht (~60-70% korrekt), Nonsens-Woerter bei Ueberlagerungen |
+| Pipeline-Bug | Objekte mit >60 Bildern erzeugen leere Ergebnisse (o_szd.147) |
+
+Methodische Grenze: Claude und Gemini teilen VLM-typische Schwaechen bei Kurrent. Cross-Model-Agreement ist dort weniger informativ.
+
+---
+
+## 6. Frontend-Anforderungen
+
+### 6.1 Kontext
+
+Lane 1 (Frontend) baut den Viewer unter `docs/`. Die Abschnitte 2 (quality_signals), 4 (Cross-Model) und 5 (VbV) produzieren Daten, die im Frontend sichtbar werden muessen.
+
+### 6.2 Anforderung 1: needs_review-Indikator
 
 Jedes Objekt mit `needs_review: true` muss im Katalog visuell markiert sein. Der Viewer muss `needs_review_reasons` anzeigen koennen (welche Signale ausgeloest haben).
 
@@ -742,7 +777,7 @@ Jedes Objekt mit `needs_review: true` muss im Katalog visuell markiert sein. Der
 
 **Datenquelle:** `quality_signals.needs_review` und `quality_signals.needs_review_reasons` im Ergebnis-JSON.
 
-### 5.3 Anforderung 2: Quality-Signal-Dashboard
+### 6.3 Anforderung 2: Quality-Signal-Dashboard
 
 Pro Objekt eine kompakte Uebersicht der quality_signals:
 
@@ -756,7 +791,7 @@ Pro Objekt eine kompakte Uebersicht der quality_signals:
 
 Kein eigener View noetig — die Signale koennen im bestehenden Objekt-Detail-View eingeblendet werden.
 
-### 5.4 Anforderung 3: Diff-Ansicht fuer Cross-Model-Verification
+### 6.4 Anforderung 3: Diff-Ansicht fuer Cross-Model-Verification
 
 Wenn fuer ein Objekt zwei Transkriptionen vorliegen (Gemini + Claude), muss der Viewer einen Vergleichsmodus anbieten:
 
@@ -768,7 +803,7 @@ Wenn fuer ein Objekt zwei Transkriptionen vorliegen (Gemini + Claude), muss der 
 
 **Datenquelle:** Zwei separate JSON-Ergebnisse fuer dasselbe Objekt (unterschiedliche `model`-Werte). Die Zuordnung erfolgt ueber `object_id`.
 
-### 5.5 Anforderung 4: CER-Anzeige (nach Ground-Truth-Erstellung)
+### 6.5 Anforderung 4: CER-Anzeige (nach Ground-Truth-Erstellung)
 
 Wenn Ground-Truth-Referenzen vorliegen, soll der Viewer die CER pro Objekt und pro Seite anzeigen koennen.
 
@@ -786,7 +821,7 @@ Wenn Ground-Truth-Referenzen vorliegen, soll der Viewer die CER pro Objekt und p
 }
 ```
 
-### 5.6 Prioritaet
+### 6.6 Prioritaet
 
 | Anforderung | Abhaengigkeit | Prioritaet |
 |---|---|---|

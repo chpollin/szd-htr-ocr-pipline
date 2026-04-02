@@ -1,21 +1,21 @@
 ---
-title: "Pilot-Design: 5 Seiten zur Erstbewertung der Pipeline-Qualitaet"
+title: "Pilot-Design: 5 Seiten zur Erstbewertung (historisch)"
 aliases: ["Pilot"]
 created: 2026-04-01
 updated: 2026-04-02
 type: design
 tags: [szd-htr, methodology]
-status: superseded
+status: historical
 related:
   - "[[annotation-protocol]]"
   - "[[verification-concept]]"
 ---
 
-> **Status (2026-04-02):** Der 5-Seiten-Pilot wurde durch zwei empirische Evaluationen ersetzt:
-> 1. **27-Objekt-Konsensus-Validierung** (verify.py --sample 3): Stratifiziert ueber alle 9 Gruppen, CER + word_overlap-Metriken. Ergebnis: 26% verified, 33% moderate, 15% review, 26% divergent.
-> 2. **18-Objekt-GT-Pipeline** (generate_gt.py): 3-Modell-Merge (Flash Lite + Flash + Pro), 46 Content-Seiten, 33% Konsensus, 43% Mehrheit, 24% Pro-only.
+> **Historisches Dokument.** Dieses Design wurde nicht ausgefuehrt. Stattdessen wurden zwei empirische Evaluationen durchgefuehrt, die dieselben Fragen beantworten:
+> - **27-Objekt-Konsensus-Validierung** ([[verification-concept]] §4.7): CER + word_overlap, 4-Tier-Klassifikation.
+> - **18-Objekt-GT-Pipeline** ([[verification-concept]] §7.1): 3-Modell-Merge, 46 Content-Seiten, Expert-Review.
 >
-> Die urspruenglichen Pilot-Fragen (CER-Groessenordnung, Fehlertypen, Gruppenunterschiede, Protokoll-Praxistest) sind durch diese Evaluationen beantwortet. Das untenstehende Design bleibt als Referenz erhalten.
+> Das Design bleibt als Referenz fuer die Sampling-Kriterien und Eskalationsschwellen erhalten.
 
 # Pilot-Design: 5 Seiten zur Erstbewertung der Pipeline-Qualitaet
 
