@@ -25,6 +25,10 @@ Methodische Grundlagen, Datenanalysen und Entscheidungen des SZD-HTR-Projekts.
 - [[layout-analysis]] — VLM-basierte Layout-Analyse + PAGE XML Export
 - [[dia-xai-integration]] — EQUALIS-Mapping: SZD-HTR → DIA-XAI
 
+## Sicherheit
+
+- [[security]] — Security Review: Threat Model, verifizierte Findings, Fix-Tracker
+
 ## Projektlog
 
 - [[journal]] — Chronologisches Log aller Sessions (1–15)
