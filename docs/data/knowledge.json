@@ -1,6 +1,6 @@
 {
   "meta": {
-    "built_at": "2026-04-02T14:05:39.218582+00:00",
+    "built_at": "2026-04-02T14:41:03.689245+00:00",
     "count": 12
   },
   "sections": [
@@ -1478,7 +1478,7 @@
       "slug": "stats-dashboard",
       "title": "Statistik-Dashboard",
       "type": "spec",
-      "status": "draft",
+      "status": "implemented",
       "tags": [
         "visualization",
         "quality"
@@ -1489,7 +1489,7 @@
         "verification-concept",
         "data-overview"
       ],
-      "html": "<h1 id=\"statistik-dashboard\">Statistik-Dashboard</h1>\n<p>Dedizierte Statistik-Seite im SZD-HTR Viewer (<code>#stats</code>), die aggregierte Qualitaetsmetriken und Fortschrittsdaten als Informationsvisualisierungen darstellt.</p>\n<h2 id=\"1-motivation\">1 Motivation</h2>\n<p>Die bestehende Inline-Statistik im Katalog zeigt Zahlen als Text-Chips. Fuer eine wissenschaftliche Qualitaetsbewertung der Pipeline reicht das nicht: Verteilungen, Ausreisser und Zusammenhaenge zwischen Metriken sind erst durch Visualisierungen erkennbar. Mehrere aktuelle Arbeiten argumentieren, dass Standard-OCR-Metriken (CER/WER) fuer historische Dokumente unzureichend sind (Beyene &amp; Dancy 2026; Levchenko 2025) — proxy-basierte Quality Signals und deren Verteilung liefern bessere Einsichten.</p>\n<h2 id=\"2-expertenperspektive\">2 Expertenperspektive</h2>\n<p>Das Dashboard folgt der Perspektive <strong>Computational Philology / Digital Scholarly Editing</strong>, kombiniert mit Prinzipien der Informationsvisualisierung (Yuan et al. 2024). Primaere Nutzer sind DH-Forscher und Archivare, nicht ML-Engineers. Metriken muessen philologisch interpretierbar sein.</p>\n<h2 id=\"3-datenquellen\">3 Datenquellen</h2>\n<p>Alle Visualisierungen werden client-seitig aus <code>catalog.json</code> aggregiert — kein Backend-Umbau noetig. Jedes der 646 Objekte traegt quality_signals v1.4 (8 Signale + <code>page.type</code>), Review-Status, optional Modellkonsensus-Daten, und TEI-Metadaten.</p>\n<h2 id=\"4-visualisierungsbloecke\">4 Visualisierungsbloecke</h2>\n<h3 id=\"block-a-abdeckung-fortschritt\">Block A: Abdeckung &amp; Fortschritt</h3>\n<p>Horizontaler gestapelter Balken: 4 Sammlungen × (transkribiert / ausstehend). Archiv-Gesamtzahlen aus TEI-Katalog (2107 Objekte). KPIs: Gesamtobjekte, Prozent, Inhaltsseiten, Zeichen.</p>\n<h3 id=\"block-b-review-status\">Block B: Review-Status</h3>\n<p>Donut-Chart mit 5 mutually-exclusive Segmenten: GT verifiziert, Geprueft, Agent verifiziert, LLM OK, Needs Review. Prioritaet: gtVerified &gt; approved &gt; agent_verified &gt; needsReview &gt; llmOk.</p>\n<h3 id=\"block-c-dwr-verteilung\">Block C: DWR-Verteilung</h3>\n<p>Histogramm (8 Bins). Farbcodiert: rot fuer DWR &lt; 0.15 (Schwelle fuer <code>low_dwr</code>-Signal), gelb fuer Uebergangsbereich, gruen fuer akzeptabel. DWR (Dictionary Word Ratio) ist der staerkste verfuegbare Qualitaets-Proxy ohne Ground Truth.</p>\n<h3 id=\"block-d-qualitaetssignale-dokumenttyp-heatmap\">Block D: Qualitaetssignale × Dokumenttyp (Heatmap)</h3>\n<p>HTML-Tabelle: 9 Prompt-Gruppen (Zeilen) × 6 Quality-Signal-Typen (Spalten). Zellwert = Anteil Objekte in der Gruppe, die das Signal ausloesen. Farbintensitaet skaliert mit Prozent. Zeigt systematische Qualitaetsunterschiede zwischen Dokumenttypen.</p>\n<h3 id=\"block-e-seitenzusammensetzung\">Block E: Seitenzusammensetzung</h3>\n<p>Gestapelter Balken pro Sammlung: Inhaltsseiten vs. Leerseiten. Relevant weil Werke 42% Leerseiten haben (recto+verso-Scans, Zweig schrieb primaer recto).</p>\n<h3 id=\"block-f-review-gruende\">Block F: Review-Gruende</h3>\n<p>Horizontaler Balken, sortiert absteigend. Zeigt welche Quality Signals am haeufigsten feuern. Drill-Down: Klick navigiert zur gefilterten Katalog-Ansicht.</p>\n<h3 id=\"block-g-modellkonsensus-konditional\">Block G: Modellkonsensus (konditional)</h3>\n<p>Nur angezeigt wenn Konsensus-Daten vorhanden (aktuell 29/646 Objekte). Donut (4 Kategorien: verifiziert/moderat/Abweichung/divergent) + CER-vs-DWR-Scatter (testet ob DWR als CER-Proxy taugt). Ehrliche Einschraenkung im Untertitel.</p>\n<h2 id=\"5-metrik-definitionen\">5 Metrik-Definitionen</h2>\n<table>\n<thead>\n<tr>\n<th>Metrik</th>\n<th>Definition</th>\n<th>Schwelle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>DWR (Dictionary Word Ratio)</td>\n<td>Anteil Woerter im Woerterbuch / Gesamtwoerter</td>\n<td>&lt; 0.15 = low_dwr</td>\n</tr>\n<tr>\n<td>Marker-Dichte</td>\n<td>([?] + [...]) / Gesamtwoerter</td>\n<td>&gt; 0.05 = marker_density</td>\n</tr>\n<tr>\n<td>Seitenduplikate</td>\n<td>Jaccard-Aehnlichkeit &gt; 0.9 bei &gt; 50 Zeichen</td>\n<td>= duplicate_pages</td>\n</tr>\n<tr>\n<td>Sprachkonsistenz</td>\n<td>TEI-Sprache vs. erkannte Sprache</td>\n<td>Mismatch = language_mismatch</td>\n</tr>\n<tr>\n<td>Seitenlaengen-Anomalie</td>\n<td>Inhaltsseite &lt; 10% des Medians</td>\n<td>= page_length_anomaly</td>\n</tr>\n<tr>\n<td>Bild-Text-Mismatch</td>\n<td>Seitenzahl ≠ Bildzahl oder &gt; 75% leer</td>\n<td>= page_image_mismatch</td>\n</tr>\n<tr>\n<td>CER (Character Error Rate)</td>\n<td>edit_distance(A, B) / max(len(A), len(B))</td>\n<td>&lt; 3% = verifiziert</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"6-design-entscheidungen\">6 Design-Entscheidungen</h2>\n<ul>\n<li><strong>Chart.js 4.x</strong> (vendored, ~200KB): Lightweight, ausreichend fuer Bar/Donut/Scatter. D3.js waere Overkill.</li>\n<li><strong>Client-seitige Aggregation</strong>: Kein Pipeline-Umbau, <code>catalog.json</code> traegt alle noetigsten Felder.</li>\n<li><strong>Drill-Down via Hash-Navigation</strong>: Chart-Klick → <code>#catalog?collection=X</code> oder <code>?review_status=Y</code>.</li>\n<li><strong>Heatmap als HTML-Tabelle</strong>: Praeziser als Canvas fuer tabellarische Daten, besser zugaenglich.</li>\n<li><strong>Kein CER-Dashboard</strong>: Nur 4.5% der Objekte haben CER-Daten — ein CER-zentriertes Dashboard waere eine Fassade.</li>\n</ul>\n<h2 id=\"7-literatur\">7 Literatur</h2>\n<ul>\n<li>Beyene, F.S. &amp; Dancy, C.L. (2026). A Survey of OCR Evaluation Methods and Metrics and the Invisibility of Historical Documents. <em>FAccT 2026</em>. — CER reicht nicht, strukturelle Metriken noetig fuer historische Dokumente.</li>\n<li>Yuan, J. et al. (2024). Visual Analytics for Machine Learning: A Data Perspective Survey. <em>IEEE TVCG</em> 30(12). — Taxonomie fuer Dashboard-Features: Verteilungen statt Aggregate.</li>\n<li>Romein, C.A. et al. (2025). Assessing Advanced Handwritten Text Recognition Engines. <em>Int. J. Digital Humanities</em> 7(1), 115-134. — CER-Benchmarking-Methodik mit standardisierter Normalisierung.</li>\n<li>Levchenko, M. (2025). Evaluating LLMs for Historical Document OCR. <em>LM4DH 2025, RANLP</em>. — Domaenenspezifische Fehlertypen jenseits CER (Over-Historicization).</li>\n<li>Priestley, M. et al. (2023). A Survey of Data Quality Requirements That Matter in ML Development Pipelines. <em>JDIQ</em> 15(2). — Embedded Quality Monitoring entlang der Pipeline.</li>\n</ul>",
+      "html": "<h1 id=\"statistik-dashboard\">Statistik-Dashboard</h1>\n<p>Dedizierte Statistik-Seite im SZD-HTR Viewer (<code>#stats</code>), die aggregierte Qualitaetsmetriken als narrative Informationsvisualisierungen darstellt. Ziel: OCR-Qualitaet akademisch argumentierbar machen.</p>\n<h2 id=\"1-motivation\">1 Motivation</h2>\n<p>Die bestehende Inline-Statistik im Katalog zeigt Zahlen als Text-Chips. Fuer eine wissenschaftliche Qualitaetsbewertung der Pipeline reicht das nicht: Verteilungen, Ausreisser und Zusammenhaenge zwischen Metriken sind erst durch Visualisierungen erkennbar. Mehrere aktuelle Arbeiten argumentieren, dass Standard-OCR-Metriken (CER/WER) fuer historische Dokumente unzureichend sind (Beyene &amp; Dancy 2026; Levchenko 2025) — proxy-basierte Quality Signals und deren Verteilung liefern bessere Einsichten.</p>\n<h2 id=\"2-expertenperspektive\">2 Expertenperspektive</h2>\n<p>Das Dashboard folgt der Perspektive <strong>Computational Philology / Digital Scholarly Editing</strong>, kombiniert mit Prinzipien der Informationsvisualisierung (Yuan et al. 2024). Primaere Nutzer sind DH-Forscher und Archivare, nicht ML-Engineers. Metriken muessen philologisch interpretierbar sein.</p>\n<h2 id=\"3-datenquellen\">3 Datenquellen</h2>\n<p>Alle Visualisierungen werden client-seitig aus <code>catalog.json</code> aggregiert (<code>computeStatsData()</code>, Single-Pass ueber alle Objekte). Kein Backend-Umbau noetig. Jedes der 646 Objekte traegt quality_signals v1.4 (8 Signale + <code>page.type</code>), Review-Status, optional Modellkonsensus-Daten, und TEI-Metadaten. Archiv-Gesamtzahlen als <code>COLLECTION_TOTALS</code>-Konstante in <code>app.js</code>.</p>\n<h2 id=\"4-narrative-struktur-5-sektionen\">4 Narrative Struktur: 5 Sektionen</h2>\n<p>Das Dashboard erzaehlt eine Qualitaetsnarrative in 5 Schritten — jede Sektion hat einen Header mit Erklaerung und ein 2-Spalten-Grid fuer Charts.</p>\n<h3 id=\"sektion-1-abdeckung\">Sektion 1: Abdeckung</h3>\n<p>Zeigt Umfang und Fortschritt der Transkription.</p>\n<ul>\n<li><strong>Fortschritt pro Sammlung</strong> (Stacked Horizontal Bar): 4 Sammlungen × (transkribiert / ausstehend). Archiv-Gesamtzahlen aus <code>COLLECTION_TOTALS</code> (2107 Objekte). Klick navigiert zu <code>#catalog?collection=X</code>.</li>\n<li><strong>Seitenkomposition</strong> (Stacked Vertical Bar): Pro Sammlung aufgeschluesselt nach Inhalt / Leer / Farbskala.</li>\n</ul>\n<h3 id=\"sektion-2-mehrstufige-verifikation\">Sektion 2: Mehrstufige Verifikation</h3>\n<p>Zeigt die 3-stufige Verifikationsarchitektur (automatisch → Cross-Model → Expert).</p>\n<ul>\n<li><strong>Review-Status</strong> (Donut): 5 Segmente — GT Verifiziert, Expert Geprueft, Agent Verifiziert, LLM OK, Needs Review. Nur Segmente mit Wert &gt; 0 angezeigt. Klick auf \"Needs Review\" navigiert zu gefiltertem Katalog.</li>\n<li><strong>VLM-Konfidenz</strong> (Donut): High / Medium / Low. Explizit als \"schwaches Signal\" deklariert — Modelle ueberschaetzen ihre Leistung, validiert durch DWR und Konsensus.</li>\n</ul>\n<h3 id=\"sektion-3-qualitaetsverteilung\">Sektion 3: Qualitaetsverteilung</h3>\n<p>Zeigt die Verteilung der wichtigsten Quality-Proxy-Metriken.</p>\n<ul>\n<li><strong>DWR-Verteilung</strong> (Histogramm, 8 Bins): Farbcodiert — rot fuer DWR &lt; 0.2 (Schwelle fuer <code>low_dwr</code>-Signal bei 0.15), gelb fuer Uebergangsbereich, gruen fuer akzeptabel. DWR ist der staerkste verfuegbare Qualitaets-Proxy ohne Ground Truth.</li>\n<li><strong>Review-Gruende</strong> (Horizontaler Balken): 6 Quality Signals sortiert nach Haeufigkeit. Zeigt welche Signale am haeufigsten feuern. Klick navigiert zur Needs-Review-Ansicht.</li>\n</ul>\n<h3 id=\"sektion-4-modellkonsensus-konditional\">Sektion 4: Modellkonsensus (konditional)</h3>\n<p>Nur angezeigt wenn Konsensus-Daten vorhanden (<code>d.consensusCount &gt; 0</code>, aktuell 29/646 Objekte).</p>\n<ul>\n<li><strong>Konsensus-Kategorien</strong> (Donut): 4 Kategorien — Verifiziert (CER &lt; 3%), Moderat (CER &lt; 10%), Abweichung, Divergent. Farbskala: dunkelgruen → gelb → orange → rot.</li>\n<li><strong>CER-Verteilung</strong> (Histogramm, 5 Bins): &lt; 3%, 3–5%, 5–10%, 10–20%, ≥ 20%. Zeigt die Character Error Rate zwischen den beiden unabhaengigen VLM-Transkriptionen.</li>\n</ul>\n<h3 id=\"sektion-5-signalanalyse\">Sektion 5: Signalanalyse</h3>\n<p>Zeigt systematische Qualitaetsunterschiede zwischen Dokumenttypen.</p>\n<ul>\n<li><strong>Qualitaetssignale nach Dokumenttyp</strong> (HTML-Heatmap, volle Breite): 9 Prompt-Gruppen (Zeilen) × 6 Quality-Signal-Typen (Spalten). Zellwert = Anteil Objekte in der Gruppe, die das Signal ausloesen. Farbintensitaet (burgundy rgba) skaliert mit Prozent. Gruppen-Namen sind klickbare Links zum gefilterten Katalog. Horizontal scrollbar bei schmalen Viewports.</li>\n</ul>\n<h2 id=\"5-metrik-definitionen\">5 Metrik-Definitionen</h2>\n<table>\n<thead>\n<tr>\n<th>Metrik</th>\n<th>Definition</th>\n<th>Schwelle</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>DWR (Dictionary Word Ratio)</td>\n<td>Anteil Woerter im Woerterbuch / Gesamtwoerter</td>\n<td>&lt; 0.15 = low_dwr</td>\n</tr>\n<tr>\n<td>Marker-Dichte</td>\n<td>([?] + [...]) / Gesamtwoerter</td>\n<td>&gt; 0.05 = marker_density</td>\n</tr>\n<tr>\n<td>Seitenduplikate</td>\n<td>Jaccard-Aehnlichkeit &gt; 0.9 bei &gt; 50 Zeichen</td>\n<td>= duplicate_pages</td>\n</tr>\n<tr>\n<td>Sprachkonsistenz</td>\n<td>TEI-Sprache vs. erkannte Sprache</td>\n<td>Mismatch = language_mismatch</td>\n</tr>\n<tr>\n<td>Seitenlaengen-Anomalie</td>\n<td>Inhaltsseite &lt; 10% des Medians</td>\n<td>= page_length_anomaly</td>\n</tr>\n<tr>\n<td>Bild-Text-Mismatch</td>\n<td>Seitenzahl ≠ Bildzahl oder &gt; 75% leer</td>\n<td>= page_image_mismatch</td>\n</tr>\n<tr>\n<td>CER (Character Error Rate)</td>\n<td>edit_distance(A, B) / max(len(A), len(B))</td>\n<td>&lt; 3% = verifiziert</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"6-design-entscheidungen\">6 Design-Entscheidungen</h2>\n<ul>\n<li><strong>Chart.js 4.x</strong> (vendored in <code>docs/lib/</code>, ~200KB): Lightweight, ausreichend fuer Bar/Donut. D3.js waere Overkill.</li>\n<li><strong>Client-seitige Aggregation</strong>: Kein Pipeline-Umbau, <code>catalog.json</code> traegt alle noetigsten Felder. <code>computeStatsData()</code> als Single-Pass.</li>\n<li><strong>Donut-Charts mit eigener <code>donutOptions()</code></strong>: Getrennt von <code>chartOptions()</code>, da Doughnuts keine Achsen haben.</li>\n<li><strong>Drill-Down via Hash-Navigation</strong>: Chart-Klick → <code>#catalog?collection=X</code> oder <code>?review_status=Y</code>.</li>\n<li><strong>Heatmap als HTML-Tabelle</strong>: Praeziser als Canvas fuer tabellarische Daten, besser zugaenglich. In scrollbarem Container fuer schmale Viewports.</li>\n<li><strong>Kein CER-Dashboard</strong>: Nur 4.5% der Objekte haben CER-Daten — ein CER-zentriertes Dashboard waere eine Fassade. CER-Verteilung konditional im Konsensus-Block.</li>\n<li><strong>Narrative Sektionen statt flaches Grid</strong>: Jede Sektion hat Header + Beschreibung, die den Argumentationsschritt erklaert. Sektionen stacken vertikal, Cards 2-spaltig innerhalb.</li>\n</ul>\n<h2 id=\"7-literatur\">7 Literatur</h2>\n<ul>\n<li>Beyene, F.S. &amp; Dancy, C.L. (2026). A Survey of OCR Evaluation Methods and Metrics and the Invisibility of Historical Documents. <em>FAccT 2026</em>. — CER reicht nicht, strukturelle Metriken noetig fuer historische Dokumente.</li>\n<li>Yuan, J. et al. (2024). Visual Analytics for Machine Learning: A Data Perspective Survey. <em>IEEE TVCG</em> 30(12). — Taxonomie fuer Dashboard-Features: Verteilungen statt Aggregate.</li>\n<li>Romein, C.A. et al. (2025). Assessing Advanced Handwritten Text Recognition Engines. <em>Int. J. Digital Humanities</em> 7(1), 115-134. — CER-Benchmarking-Methodik mit standardisierter Normalisierung.</li>\n<li>Levchenko, M. (2025). Evaluating LLMs for Historical Document OCR. <em>LM4DH 2025, RANLP</em>. — Domaenenspezifische Fehlertypen jenseits CER (Over-Historicization).</li>\n<li>Priestley, M. et al. (2023). A Survey of Data Quality Requirements That Matter in ML Development Pipelines. <em>JDIQ</em> 15(2). — Embedded Quality Monitoring entlang der Pipeline.</li>\n</ul>",
       "headings": [
         {
           "level": 1,
@@ -1513,43 +1513,33 @@
         },
         {
           "level": 2,
-          "id": "4-visualisierungsbloecke",
-          "text": "4 Visualisierungsbloecke"
+          "id": "4-narrative-struktur-5-sektionen",
+          "text": "4 Narrative Struktur: 5 Sektionen"
         },
         {
           "level": 3,
-          "id": "block-a-abdeckung-fortschritt",
-          "text": "Block A: Abdeckung &amp; Fortschritt"
+          "id": "sektion-1-abdeckung",
+          "text": "Sektion 1: Abdeckung"
         },
         {
           "level": 3,
-          "id": "block-b-review-status",
-          "text": "Block B: Review-Status"
+          "id": "sektion-2-mehrstufige-verifikation",
+          "text": "Sektion 2: Mehrstufige Verifikation"
         },
         {
           "level": 3,
-          "id": "block-c-dwr-verteilung",
-          "text": "Block C: DWR-Verteilung"
+          "id": "sektion-3-qualitaetsverteilung",
+          "text": "Sektion 3: Qualitaetsverteilung"
         },
         {
           "level": 3,
-          "id": "block-d-qualitaetssignale-dokumenttyp-heatmap",
-          "text": "Block D: Qualitaetssignale × Dokumenttyp (Heatmap)"
+          "id": "sektion-4-modellkonsensus-konditional",
+          "text": "Sektion 4: Modellkonsensus (konditional)"
         },
         {
           "level": 3,
-          "id": "block-e-seitenzusammensetzung",
-          "text": "Block E: Seitenzusammensetzung"
-        },
-        {
-          "level": 3,
-          "id": "block-f-review-gruende",
-          "text": "Block F: Review-Gruende"
-        },
-        {
-          "level": 3,
-          "id": "block-g-modellkonsensus-konditional",
-          "text": "Block G: Modellkonsensus (konditional)"
+          "id": "sektion-5-signalanalyse",
+          "text": "Sektion 5: Signalanalyse"
         },
         {
           "level": 2,
@@ -1567,7 +1557,7 @@
           "text": "7 Literatur"
         }
       ],
-      "wordCount": 630
+      "wordCount": 807
     },
     "tei-target-structure": {
       "slug": "tei-target-structure",

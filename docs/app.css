@@ -2145,6 +2145,7 @@ body.view-stats #help { display: none; }
   margin: 0 auto;
   padding: 1.5rem 1.25rem;
   flex: 1;
+  overflow-x: hidden;
 }
 
 .stats-page__header {
@@ -2167,9 +2168,9 @@ body.view-stats #help { display: none; }
 }
 
 .stats-page__grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .stats-card {
@@ -2177,6 +2178,7 @@ body.view-stats #help { display: none; }
   border: 1px solid var(--sz-border);
   border-radius: 6px;
   padding: 1.25rem;
+  min-width: 0;
 }
 
 .stats-card--wide {
@@ -2217,6 +2219,10 @@ body.view-stats #help { display: none; }
 
 
 /* Heatmap table */
+.stats-heatmap-wrap {
+  overflow-x: auto;
+}
+
 .stats-heatmap {
   width: 100%;
   border-collapse: collapse;
@@ -2275,46 +2281,6 @@ body.view-stats #help { display: none; }
   text-decoration: underline;
 }
 
-/* KPI row */
-.stats-kpi-row {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.stats-kpi {
-  flex: 1;
-  text-align: center;
-  background: var(--sz-white);
-  border: 1px solid var(--sz-border);
-  border-radius: 6px;
-  padding: 1rem 0.5rem;
-}
-
-.stats-kpi__value {
-  font-family: var(--font-serif);
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: var(--sz-burgundy);
-  line-height: 1.2;
-}
-
-.stats-kpi__label {
-  font-family: var(--font-sans);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--sz-text-light);
-  margin-top: 0.15rem;
-}
-
-.stats-kpi__detail {
-  font-family: var(--font-sans);
-  font-size: 0.7rem;
-  color: var(--sz-text-light);
-  margin-top: 0.1rem;
-}
-
 /* Narrative sections */
 .stats-section {
   margin-bottom: 2rem;
@@ -2343,7 +2309,7 @@ body.view-stats #help { display: none; }
 
 .stats-section__grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.25rem;
 }
 
@@ -2355,17 +2321,8 @@ body.view-stats #help { display: none; }
 }
 
 @media (max-width: 900px) {
-  .stats-page__grid {
-    grid-template-columns: 1fr;
-  }
   .stats-section__grid {
     grid-template-columns: 1fr;
-  }
-  .stats-kpi-row {
-    flex-wrap: wrap;
-  }
-  .stats-kpi {
-    flex: 1 1 calc(50% - 0.5rem);
   }
 }
 

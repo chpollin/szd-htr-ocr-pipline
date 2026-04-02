@@ -2212,8 +2212,6 @@ function renderStatsPage() {
   const reasonEntries = Object.entries(d.reasonCounts).sort((a, b) => b[1] - a[1]);
   const signalTotal = reasonEntries.reduce((s, e) => s + e[1], 0);
   const catalogTotal = Object.values(COLLECTION_TOTALS).reduce((s, n) => s + n, 0);
-  const avgDwr = d.dwrCount > 0 ? Math.round((d.dwrSum / d.dwrCount) * 100) : 0;
-  const verifiedPct = d.total > 0 ? Math.round(((d.total - d.needsReview) / d.total) * 100) : 0;
 
   const subtitle = document.querySelector('.stats-page__subtitle');
   if (subtitle) subtitle.textContent = `Qualit\u00e4tsmetriken f\u00fcr ${d.total} transkribierte Objekte \u2014 ${formatNum(d.contentPages)} Inhaltsseiten, ${formatChars(d.totalChars)} Zeichen.`;
@@ -2241,34 +2239,6 @@ function renderStatsPage() {
     </div>`;
 
   grid.innerHTML = `
-    <div class="stats-kpi-row">
-      <div class="stats-kpi">
-        <div class="stats-kpi__value">${d.total}</div>
-        <div class="stats-kpi__label">Objekte</div>
-        <div class="stats-kpi__detail">${Math.round(d.total / catalogTotal * 100)}% von ${formatNum(catalogTotal)}</div>
-      </div>
-      <div class="stats-kpi">
-        <div class="stats-kpi__value">${formatNum(d.contentPages)}</div>
-        <div class="stats-kpi__label">Inhaltsseiten</div>
-        <div class="stats-kpi__detail">von ${formatNum(d.totalPages)} Seiten</div>
-      </div>
-      <div class="stats-kpi">
-        <div class="stats-kpi__value">${formatChars(d.totalChars)}</div>
-        <div class="stats-kpi__label">Zeichen</div>
-        <div class="stats-kpi__detail">\u00D8 ${formatNum(d.total > 0 ? Math.round(d.totalChars / d.total) : 0)} pro Objekt</div>
-      </div>
-      <div class="stats-kpi">
-        <div class="stats-kpi__value">${avgDwr}%</div>
-        <div class="stats-kpi__label">\u00D8 DWR</div>
-        <div class="stats-kpi__detail">${d.dwrCount} Objekte mit Score</div>
-      </div>
-      <div class="stats-kpi">
-        <div class="stats-kpi__value">${verifiedPct}%</div>
-        <div class="stats-kpi__label">Review OK</div>
-        <div class="stats-kpi__detail">${d.needsReview} brauchen Review</div>
-      </div>
-    </div>
-
     <div class="stats-section">
       <div class="stats-section__header">
         <h2 class="stats-section__title">1. Abdeckung</h2>
@@ -2539,7 +2509,7 @@ function renderHeatmap(d) {
     return `<tr><td><a href="#catalog?group=${g.toLowerCase()}" class="stats-heatmap__group">${g} \u2013 ${escapeHtml(d.byGroup[g].label)} (${total})</a></td>${cells}</tr>`;
   }).join('');
 
-  container.innerHTML = `<table class="stats-heatmap"><thead><tr><th>Gruppe</th>${headerCells}</tr></thead><tbody>${rows}</tbody></table>`;
+  container.innerHTML = `<div class="stats-heatmap-wrap"><table class="stats-heatmap"><thead><tr><th>Gruppe</th>${headerCells}</tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
 /* ===== Event Handlers ===== */
