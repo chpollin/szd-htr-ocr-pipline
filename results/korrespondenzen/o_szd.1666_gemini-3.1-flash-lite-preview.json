@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1666",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Unbekannt an Friderike Zweig, SZ-SAM/AK.299",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1666/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1666/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1666/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Friderike Zweig, SZ-SAM/AK.299\n- Signatur: SZ-SAM/AK.299\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "31.8.34\n\nBad Ischl",
+        "notes": "Vorderseite einer Ansichtskarte mit Ortsansicht von Bad Ischl. Handschriftliche Datierung und Ortsangabe oben links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Frau\nFr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\n31. VIII Hotel Post Ischl\nLiebe Fridl - Einen kurzen Urlaub\nverbringe ich hier, um meine\nzermürbten Nerven für meine\nUmgebung wieder erträglicher\nzu machen. Ich hätte Dich gerne\naufgesucht, doch möchte ich\nden Kurgebrauch nicht unter-\nbrechen. Hingegen denke ich wär's\nsehr schön, wenn Du einen Aus-\nflug nach hierher machen könntest.\nGrüße an Deine Lieben u. Dir von Rosl",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Archivaufnahme mit Farbskala und Grauskala. Zeigt die Rückseite der Ansichtskarte (identisch mit Seite 2).",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 438,
+    "total_words": 71,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      18,
+      420,
+      0
+    ],
+    "chars_per_page_median": 219.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3824,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

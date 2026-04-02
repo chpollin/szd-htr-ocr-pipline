@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.1614",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 12. Juli 1938, SZ-AAP/B1.259",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1614/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1614/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1614/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1614/IMG.4"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. Juli 1938, SZ-AAP/B1.259\n- Signatur: SZ-AAP/B1.259\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Agenten te Leipzig, Parijs, Londen, Brussel\nKopenhagen, Milaan, New-York, Tokio.\n\nTELEFOON 35609-37609-34461\nPOST-CHEQUE EN GIRO No 6113\n\nMEULENHOFF & Co. N.V.\n\nIMPORT VAN DUITSCHE, ENGELSCHE, FRANSCHE EN ANDERE BUITENLANDSCHE BOEKEN EN TIJDSCHRIFTEN\nEXPORT VAN HOLLANDSCHE EN BUITEN-\nLANDSCHE BOEKEN NAAR ALLE LANDEN\n\nAMSTERDAM, 12.7.1938\nBEULINGSTRAAT 2-4\n\nJRM/BG\n\nHerrn Stefan Zweig\n\nHallam Street 49\n\nLONLON.W.I\n\nSehr geehrter Herr Zweig,\n\nIhr Schreiben vom 6 Juli habe ich mit groszem Interesse\ngelesen und angesichts Ihrer dringenden Bitte und unserer sehr lang-\njährigen Verbindung habe ich mit meinem juridischen Berater überlegt\nin wie weit es mir juridisch möglich sei, Ihrer Bitte entgegen zu kom-\nmen.\nIch habe angesichts Ihrer früheren Briefen solang wie\nmöglich versucht eine restlose Zahlung des schon lange offenstehenden\nSaldo's an dem Verlag Reichner, aufzuschieben, in der Hoffnung dasz die\nAngelegenheit zwischen Ihnen und Herrn Reichner in der Zwischenzeit\nbeglichen werden konnte, mit der Folge dasz der Verlag Reichner mir\njetzt wieder dringend mahnt und die Gefahr nicht ausgeschlossen sei\ndasz die Lieferung an meiner Firma bei noch langerem Aufschub, ganz\neingestellt wird.\nDie Unterhaltung mit meinem juridischen Berater hat bider\nergeben dasz ich juridisch ohne Erlaubniss des Herrn Reichners keine\nZahlung an Sie leisten darf.\nNatürlich wäre es in normalen Umständen möglich einen\nTeil des, an Herrn Reicher zu zahlen {dis} Saldo's zu reservieren.\nAngesichts der obengenannten Mahnungen zur restlosen Zah-\nlung des Saldo's sehe ich leider auch keinen Weg oder Vorwand dieses\nzu umgehen.\nIch sehe mich leider gezwungen Ihnen den einzigen Weg zu\nempfehlen der Ihnen Recht verschaffen kann, d.h. durcheinen Rechts-\nanwalt auf gerichtlichem Wege beschlagnahmen zu lassen.\nMeine Firma selbst hat juridisch nur mit Herrn Reichner\nzu tun und hat deshalb auch keine Freiheit anders als an Herrn Reichner",
+        "notes": "Typoskript auf Firmenpapier. Die Zeile 'LONLON.W.I' enthält einen Tippfehler im Original. Das Wort 'dis' wurde über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "2)\n\nzu zahlen, wiesehr ich Ihnen persönlich auch behilflich sein\nmöchte.\nSollte ich weiter noch etwas für Sie tun können so bin ich\ngern dazu bereit.\n\nMit vorzüglicher Hochachtung,\n\nMeulenhoff & Co\n\nP.S. Ich bitte Sie höflichst\ndieses Schreiben streng vertrau-\nlich behandeln zu wollen.",
+        "notes": "Typoskript auf Firmenpapier, Fortsetzung des Briefes. Handschriftliche Unterschrift unter 'Meulenhoff & Co'.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die wenigen Korrekturen (wie das eingefügte 'dis') sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2210,
+    "total_words": 328,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1924,
+      0,
+      286,
+      0
+    ],
+    "chars_per_page_median": 1105.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3545,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1620",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Cassell and Company, Ltd. vom 19. August 1938, SZ-AAP/B1.265",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1620/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1620/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Cassell and Company, Ltd. vom 19. August 1938, SZ-AAP/B1.265\n- Signatur: Ltd. vom 19. August 1938, SZ-AAP/B1.265\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\nOtto Tressl",
+        "notes": "Die Rückseite der Postkarte (Nachrichtenseite). Der Text besteht aus einem gedruckten deutschen Teil und einer handschriftlichen englischen Übersetzung. Ein Stempel '22 AUG 1938' ist sichtbar. Die Unterschrift 'Otto Tressl' ist handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\nMr. Desmond Flower",
+        "notes": "Adressseite der Postkarte. Gedrucktes Formular mit handschriftlichen Ergänzungen (Absender, Empfängername 'Mr. Desmond Flower'). Drei Briefmarken 'Deutsches Reich' (5 Pfennig) sind aufgeklebt und gestempelt.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der Adressseite und der englische Text auf der Nachrichtenseite sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 569,
+    "total_words": 98,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      428,
+      141
+    ],
+    "chars_per_page_median": 284.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1591,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

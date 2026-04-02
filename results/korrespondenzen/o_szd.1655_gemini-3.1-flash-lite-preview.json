@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1655",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Otto Weddigen an Stefan Zweig, o. D., SZ-SAM/AK.243",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1655/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1655/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1655/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Otto Weddigen an Stefan Zweig, o. D., SZ-SAM/AK.243\n- Signatur: o. D., SZ-SAM/AK.243\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "View of Old Hakone.\n根 箱 元",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Landschaftsaufnahme von Hakone, Japan. Gedruckter Text unten links und rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "POSTKARTE.\n\nHerrn\nDr. Stefan Zweig\nKochgasse 8\nWien VIII\nAustria\n\nChina war wundervoll!\nLeider mussten wir aber doch\nnoch weiter. Die Kaiserliche\nBeerdigung in Peking machten\nwir mit. Jetzt sind wir\nin Japan, & sind trotz\nChina sehr davon angethan\nMit bestem Gruss\nIhr Fritz Weddigen\n~~Kommen Sie gar~~ nächst alles noch weiter köstlich!",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht und Adressierung. Die Zeile 'Kommen Sie gar' ist durchgestrichen. Der Text am unteren Rand ist teilweise über den gedruckten Text geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke am oberen und unteren Rand. Die Transkription wurde auf Seite 2 vorgenommen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die durchgestrichene Passage ist eindeutig als solche erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 362,
+    "total_words": 61,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      25,
+      337,
+      0
+    ],
+    "chars_per_page_median": 181.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.375,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

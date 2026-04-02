@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1635",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 1. August 1934, SZ-LAS/B1.51",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1635/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1635/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 1. August 1934, SZ-LAS/B1.51\n- Signatur: SZ-LAS/B1.51\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Frans Masereel\n\nEquihen près de Boulogne\nFrance",
+        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarken (1 Penny rot, 1/2 Penny grün) und Poststempel 'LONDON W 15 AUG 1934' vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Leider, ich muss rasch zu-\nrück nach Österreich. Ich\n fahre am Samstag um\n14 30 hier fort über Bou-\nlogne, wenn du an der\nBahn sein kannst, ohne\ndass es dir Mühe macht,\nkann ich dir wenigstens\ndie Hand schütteln. Von\nherz\n\nStefan",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Die Schrift ist gut lesbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist eindeutig Stefan Zweigs."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 276,
+    "total_words": 50,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      47,
+      229
+    ],
+    "chars_per_page_median": 138.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4583,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

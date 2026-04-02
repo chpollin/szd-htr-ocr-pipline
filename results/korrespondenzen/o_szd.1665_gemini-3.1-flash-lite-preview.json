@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1665",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Unbekannt an Friderike Zweig, SZ-SAM/AK.298",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1665/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1665/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1665/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Friderike Zweig, SZ-SAM/AK.298\n- Signatur: SZ-SAM/AK.298\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "224 MONTE-CARLO. - Vue prise de la Route de Menton. - View taken from the Road of Menton. - LL.\n7.3.27.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliches Datum unten links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Frau\nFriederike Zweig\nKapuzinerberg\nSalzburg\n[Österreich]\n\nLiebe gnädige Frau,\nich kann nicht hier\nsein ohne an die\nvierundzwanzig Stunden\nim Leben einer Frau\nzu denken. Frei von\nZurück kenne ich bereits\ner ist noch immer in\nSeiets[?] schwerst. Mit den\nherzlichsten Grüßen\nIhre H[...]",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Die Tinte ist teilweise verblasst, besonders im unteren Bereich. Die Unterschrift ist nur fragmentarisch lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. Die Ansichtskarte ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist teilweise sehr flüchtig und durch die verblasste Tinte schwer zu entziffern. Besonders das Wort 'Seiets' und die Unterschrift sind unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 387,
+    "total_words": 65,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      103,
+      284,
+      0
+    ],
+    "chars_per_page_median": 193.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0308,
+    "dwr_score": 0.459,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

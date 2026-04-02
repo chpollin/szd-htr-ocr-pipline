@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1645",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [April 1940], SZ-LAS/B1.61",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1645/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1645/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [April 1940], SZ-LAS/B1.61\n- Signatur: SZ-LAS/B1.61\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le\n\nF. MOLLARD, PROP RE\n\nMercredi 18 heures au Radio\net voila deux billets pour\nvendredi. Ton vieux\n\nStefanZweig",
+        "notes": "Briefpapier des Hotel Louvois. Handschriftlicher Text in violetter Tinte. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer, mit einem Ex-Libris-Stempel von 'CHRISTIAN ANDREE ET AUTOGRAPHIS' am unteren Rand.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und gut lesbar. Die Struktur des Briefpapiers wurde beibehalten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 237,
+    "total_words": 37,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      237,
+      0
+    ],
+    "chars_per_page_median": 237,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1471,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

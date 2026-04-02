@@ -13,19 +13,20 @@ related:
 
 # Evaluationsergebnisse: CER-Baseline der SZD-HTR-Pipeline
 
-Stand: Session 18 (2. April 2026)
+Stand: Session 19 (2. April 2026)
 
 ---
 
 ## 1. Ueberblick
 
-26 Objekte wurden manuell verifiziert — Faksimile-Bild gegen VLM-Transkription geprueft, Fehler dokumentiert und korrigiert. Alle 9 Prompt-Gruppen sind abgedeckt.
+34 Objekte wurden verifiziert — Faksimile-Bild gegen VLM-Transkription geprueft, Fehler dokumentiert und korrigiert. Alle 9 Prompt-Gruppen sind abgedeckt.
 
 | Review-Typ | Objekte | Content-Seiten | Zeichen |
 |---|---:|---:|---:|
 | Human Approved | 14 | 17 | 10.541 |
-| Agent Verified | 12 | 22 | 19.863 |
-| **Gesamt** | **26** | **39** | **30.404** |
+| Agent Verified (Batch 1+2) | 12 | 22 | 19.863 |
+| Agent Verified (Batch 3) | 8 | 18 | ~8.000 |
+| **Gesamt** | **34** | **57** | **~38.400** |
 
 **Human Approved**: Experte prueft Transkription im Frontend-Viewer gegen das Faksimile, korrigiert bei Bedarf, markiert als `approved`.
 
@@ -63,7 +64,7 @@ Stand: Session 18 (2. April 2026)
 | Zeitungsausschnitt | 2 | 10.032 | 9–12 | 99.7–99.8% | **Fraktur f/s-Verwechslung**, Grossschreibung |
 | Formular | 2 | 763 | 3 | 98.5–100% | Handschrift-Felder auf Formularen |
 | Konvolut | 1 | 1.655 | 5 | 99.1% | Artikelform (der/den), Grossschreibung |
-| Korrespondenz | 5 | 1.186 | 4–6 | 90–100% | Tabellarische Layouts, Handschrift |
+| Korrespondenz | 13 | ~3.600 | 37–39 | 90–100% | Kurrent-Verwechslungen, Nonsens-Halluzination, Grussformeln |
 | Handschrift | 6 | 709 | 1–3 | 99.4% | Fachbegriffe (Recension), Leseunsicherheiten |
 | Kurztext | 6 | 235 | 0 | ~100% | (zu kurz fuer Aussage) |
 | Tabellarisch | 1 | 457 | 1 | ~99% | (zu wenig Daten) |
@@ -94,7 +95,31 @@ Stand: Session 18 (2. April 2026)
 
 **Haeufigkeit**: 3 Faelle in ~10.000 Fraktur-Zeichen (~0.03%). Selten, aber sinnentstellend.
 
-### 4.2 Grossschreibung (Schweregrad: niedrig)
+### 4.2 Kurrent-Buchstabenverwechslungen (Schweregrad: hoch)
+
+*Neu in Session 19 — 8 Korrespondenzen an Max Fleischer (~1901-1902), alle Kurrent-Handschrift.*
+
+| Fehler | Transkription | Korrekt | Objekt |
+|---|---|---|---|
+| h ↔ I | muß ich jetzt **Ihre** schließen | muß ich jetzt **hier** schließen | o_szd.1079 |
+| St ↔ H | **Hud. inr.** | **Stud. iur.** | o_szd.1081 |
+| r ↔ v | gracioesa **devin** | gracioesa **darin** | o_szd.1081 |
+| L ↔ B | **Besten** Gruss | **Liebsten** Gruss | o_szd.1100 |
+| Nonsens | **Langentour Kantgewalt** | **Laufenden** | o_szd.1090 |
+
+**Ursache**: Kurrent-Minuskeln weichen systematisch von Antiqua-Formen ab. Gemini (trainiert primaer auf Antiqua/Drucktext) erkennt die Unterschiede nicht zuverlaessig. Besonders betroffen: hastige Schrift auf kleinen Postkarten, rote Tinte auf Bildhintergrund.
+
+**Haeufigkeit**: 33 Fehler in 8 Objekten (~4 pro Objekt). Genauigkeits-Spread: 90% (hastiger Kurrent) bis 99.7% (sauberer Kurrent). Groesster Einflussfaktor ist nicht der Prompt, sondern die Schriftqualitaet des Originals.
+
+**Besonders problematisch: Nonsens-Halluzination.** Bei unleserlichem Kurrent erfindet Gemini echte Woerter statt `[?]` zu setzen. Dies macht `marker_density` als Quality-Signal wertlos — das Modell signalisiert Unsicherheit nicht.
+
+### 4.3 Halluziniertes "An" auf Adressseiten (Schweregrad: niedrig)
+
+In 3 von 8 Korrespondenz-Objekten halluziniert Gemini ein "An" vor dem Adressaten auf Postkarten-Adressseiten. Auf den Originalen steht kein "An" — die Adresse beginnt direkt mit dem Namen.
+
+**Fix**: Hinweis im Gruppen-Prompt I (Korrespondenz) oder Post-Processing-Regel.
+
+### 4.4 Grossschreibung (Schweregrad: niedrig)
 
 | Fehler | Transkription | Korrekt | Objekt |
 |---|---|---|---|
@@ -104,7 +129,7 @@ Stand: Session 18 (2. April 2026)
 
 **Ursache**: VLM normalisiert gelegentlich Grossschreibung weg, besonders bei Handschrift und Fraktur, wo Gross-/Kleinbuchstaben visuell weniger distinkt sind.
 
-### 4.3 Fehlende Woerter/Zeichen (Schweregrad: mittel)
+### 4.5 Fehlende Woerter/Zeichen (Schweregrad: mittel)
 
 | Fehler | Transkription | Korrekt | Objekt |
 |---|---|---|---|
@@ -112,7 +137,7 @@ Stand: Session 18 (2. April 2026)
 | Wortgrenze | erhoben — Hand — | erhoben**e Hand** — | o_szd.1888 |
 | Fehlende Anfuehrung | ADEPTS IN SELF | **"**ADEPTS IN SELF | o_szd.102 |
 
-### 4.4 Strukturfehler bei tabellarischen Layouts (Schweregrad: hoch)
+### 4.6 Strukturfehler bei tabellarischen Layouts (Schweregrad: hoch)
 
 | Fehler | Beschreibung | Objekt |
 |---|---|---|
@@ -138,6 +163,8 @@ Stand: Session 18 (2. April 2026)
 
 ### Naechste Schritte
 
-- Weitere Objekte agent-verifizieren (besonders Korrespondenzen — groesste Sammlung mit 54% des Korpus, aber nur 5 verifiziert)
+- Weitere Objekte agent-verifizieren — 20 von 2107 verifiziert, Korrespondenzen-Sample jetzt 13 Objekte
 - Prompt-Ablation mit den 18 GT-Objekten (jetzt moeglich, da CER-Baseline steht)
 - Fraktur-spezifischen Post-Processing-Schritt evaluieren
+- `duplicate_pages` False-Positive fixen (Color-Chart-Seiten ausschliessen)
+- DWR-Score gegen Agent-Verifikation validieren (korreliert DWR mit tatsaechlicher Fehlerrate?)

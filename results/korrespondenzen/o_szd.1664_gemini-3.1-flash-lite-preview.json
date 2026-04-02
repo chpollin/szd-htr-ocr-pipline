@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1664",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Yella Hertzka an Friderike Zweig, SZ-SAM/AK.297",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1664/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1664/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1664/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Yella Hertzka an Friderike Zweig, SZ-SAM/AK.297\n- Signatur: SZ-SAM/AK.297\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hans Hübner Wien XIX Schlosshotel Cobenzl",
+        "notes": "Vorderseite einer Ansichtskarte mit dem Schlosshotel Cobenzl. Der Text ist gedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "1929. 16 III\nLiebe Frau Zweig!\nLeute die Sie kennen und\ndie Sie kennen nicht begrüß\nsen Sie von Kobenzl\n~ Sehr geehrte Frau Zweig\nViele und rechte herzliche\nGrüsse auch wie den Dank\nfür Ihre Zuschrift H. S. Tocker\nIhr Sergius Juanow\nW. Paderewska\nYella Hertzka",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (17.III.29) vorhanden. Der Text 'Photo-erie... 1928' am Rand ist gedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "1929. 16 III\nLiebe Frau Zweig!\nLeute die Sie kennen und\ndie Sie kennen nicht begrüß\nsen Sie von Kobenzl\n~ Sehr geehrte Frau Zweig\nViele und rechte herzliche\nGrüsse auch wie den Dank\nfür Ihre Zuschrift H. S. Tocker\nIhr Sergius Juanow\nW. Paderewska\nYella Hertzka",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Zeilenumbrüche wurden gemäß Vorlage übernommen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 561,
+    "total_words": 100,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      41,
+      260,
+      260
+    ],
+    "chars_per_page_median": 150.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.42,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

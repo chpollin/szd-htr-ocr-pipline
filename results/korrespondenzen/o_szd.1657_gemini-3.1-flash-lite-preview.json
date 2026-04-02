@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1657",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Unbekannt an Stefan Zweig, SZ-SAM/AK.287",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1657/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1657/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1657/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Stefan Zweig, SZ-SAM/AK.287\n- Signatur: SZ-SAM/AK.287\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "309.\nKREMS A.D.",
+        "notes": "Vorderseite einer Ansichtskarte mit einer Fotografie von Krems an der Donau. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herren\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nDie herzlichsten Grüße in freundlichem\nGedenken von Jesen\n\nGrüße, bitte, auch Ihrer lieben Frau\nvielmals von mir.",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke (10 Groschen, Österreich) mit Poststempel 'KREMS A.D. 1.IX.30'. Am unteren Rand gedruckter Hinweis: 'FOTO J. FARSKY KREMS A.D. 1930'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite der Ansichtskarte mit Farbskala und Grauskala für Archivierungszwecke. Kein eigenständiger Textinhalt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Identifikation des Absendernamens 'Jesen' ist aufgrund der kursiven Schrift leicht unsicher, aber im Kontext plausibel."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 179,
+    "total_words": 27,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      15,
+      164,
+      0
+    ],
+    "chars_per_page_median": 89.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3077,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

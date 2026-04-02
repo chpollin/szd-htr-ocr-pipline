@@ -26,7 +26,7 @@ Das Dashboard folgt der Perspektive **Computational Philology / Digital Scholarl
 
 ## 3 Datenquellen
 
-Alle Visualisierungen werden client-seitig aus `catalog.json` aggregiert (`computeStatsData()`, Single-Pass ueber alle Objekte). Kein Backend-Umbau noetig. Jedes der 646 Objekte traegt quality_signals v1.4 (8 Signale + `page.type`), Review-Status, optional Modellkonsensus-Daten, und TEI-Metadaten. Archiv-Gesamtzahlen als `COLLECTION_TOTALS`-Konstante in `app.js`.
+Alle Visualisierungen werden client-seitig aus `catalog.json` aggregiert (`computeStatsData()`, Single-Pass ueber alle Objekte). Kein Backend-Umbau noetig. Jedes der 746 Objekte traegt quality_signals v1.4 (8 Signale + `page.type`), Review-Status, optional Modellkonsensus-Daten, und TEI-Metadaten. Archiv-Gesamtzahlen als `COLLECTION_TOTALS`-Konstante in `app.js`.
 
 ## 4 Narrative Struktur: 5 Sektionen
 
@@ -55,7 +55,7 @@ Zeigt die Verteilung der wichtigsten Quality-Proxy-Metriken.
 
 ### Sektion 4: Modellkonsensus (konditional)
 
-Nur angezeigt wenn Konsensus-Daten vorhanden (`d.consensusCount > 0`, aktuell 29/646 Objekte).
+Nur angezeigt wenn Konsensus-Daten vorhanden (`d.consensusCount > 0`, aktuell 29/746 Objekte).
 
 - **Konsensus-Kategorien** (Donut): 4 Kategorien — Verifiziert (CER < 3%), Moderat (CER < 10%), Abweichung, Divergent. Farbskala: dunkelgruen → gelb → orange → rot.
 - **CER-Verteilung** (Histogramm, 5 Bins): < 3%, 3–5%, 5–10%, 10–20%, ≥ 20%. Zeigt die Character Error Rate zwischen den beiden unabhaengigen VLM-Transkriptionen.

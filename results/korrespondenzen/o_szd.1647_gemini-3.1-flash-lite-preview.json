@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1647",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 3. Juli 1941, SZ-LAS/B1.63",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1647/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1647/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 3. Juli 1941, SZ-LAS/B1.63\n- Signatur: SZ-LAS/B1.63\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o Vikingpress\n18 East 48th Street\nNewyork.\n\nle 3 juillet 1941.\n\nMon cher Franx,\n\nJ'ai entendu avec profond regret des difficultés\nbureaucrates qui ont empêchées jusqu'à présent ton arrivée.\nPour ne pas retarder ton départ, Monsieur Walter Engel qui\nprépare une exposition de ton oeuvre à Bogota, Columbia, a fait\ndes efforts pour vous obtenir des visas pour la Colombie, et le\nMinistre de la Belgique là-bas, René L. van Meerbeke, Chargé\nd'Affaires de Belgique, Bogota, s'occupe personnellement de ton\n~~sort.~~ Nous espérons d'avoir bientôt les visas pour toi et ta\nfemme qui - d'après ce qu'il paraît-ont déjà été accordés en\nprincipe par le Ministre des Affaires Extérieures de Colombie.\nEt dès que tu seras une fois à l'autre côté tout sera plus\nfacile.\n\nJ'ai grande envie de te rencontrer néanmoins\nque cela ne seront plus nos entretiens gais et insoucieux\nd'autrefois. On avait plus d'espoir, plus de force et plus\nde confiance il y a vingt-cinq ans, et avant tout on était\nplus jeune.\n\nDe tout coeur\n\nton vieux\n\nStefan\n\nJe te conseille en tout cas de t'adresser à la légation de\nla Columbie ou leur Consulat et de leur explique que ton visa\n- grâce à l'intervention du Chargé d'Affaire de Belgique\nauprès du Ministre de l'Extérieur à Bogota est déjà quasi\npromis, et tu peux aussi dire que German Arciniegas de la\nLégation de Colombie à Buenos Aires qui est leur meilleur\nécrivain et un ami personel de moi, s'occupera également\nde vos affaires.",
+        "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichen Korrekturen/Ergänzungen. Stempel '124 III' oben mittig. Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' unten mittig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Durchscheinender Text des Typoskripts der Vorderseite erkennbar. Unten mittig der Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Es handelt sich um ein Typoskript mit wenigen handschriftlichen Korrekturen (z.B. das durchgestrichene Wort und die Unterschrift)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1454,
+    "total_words": 248,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1454,
+      0
+    ],
+    "chars_per_page_median": 1454,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3878,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

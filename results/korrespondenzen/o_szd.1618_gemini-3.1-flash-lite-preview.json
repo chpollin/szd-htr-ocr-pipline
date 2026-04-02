@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1618",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 22. Juli 1938, SZ-AAP/B1.263",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1618/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1618/IMG.2",
+      "SZ_AAP_B1.263_003.jpg",
+      "SZ_AAP_B1.263_004.jpg"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 22. Juli 1938, SZ-AAP/B1.263\n- Signatur: SZ-AAP/B1.263\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "FERNSPRECHER\n35609-37609-43187-40066\n\nAUSLIEFERUNG\nDEUTSCHER VERLEGER\n\nJRM/JW.\n\nMEULENHOFF & Co.\nDEUTSCHE GROSS-BUCHHANDLUNG\nUND\nBARSORTIMENT\nDEUTSCHE BÜCHER UND ZEITSCHRIFTEN\nLIEFERUNG NUR\nAN DEN NIEDERLÄNDISCHEN BUCHHANDEL\n\nN.Z. VOORBURGWAL 296\nROKIN 44\n\nAMSTERDAM, 22 Juli 1938.\nROKIN 44\n\nHerrn Stefan Zweig\n49.Hallam Street,\nL O N D O N. W.1.\n\nSehr geehrter Herr Zweig,\nAnlässlich Ihrer Anfrage vom 14.Juni '38\nkann ich Ihnen mitteilen,dasz wir nach dem 1.März '38 noch zwei\nkleinere Zusendungen Ihrer Bücher aus Wien empfangen haben.\nWas Ihre zweite Frage ( ob die Sendung\njener Bücher aus Wien \" vor \" dem 1.März erfolgt ist ) so bitte\nich Sie freundlichst mir angeben zu wollen welche Bücher mit\n\" jener \" gemeint sind, sodasz ich Ihnen auch genau antworten kann.\nIn der Hoffnung Ihnen hiermit gedient zu\nhaben,\nzeichne ich\nmit vorzüglicher hochachtung,\n\n5.000-9-35",
+        "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich, aber im Scan nur als dunkler Strich/Kritzel erkennbar. Der Text ist klar lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite sichtbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist zwar nicht lesbar, aber als solche identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 872,
+    "total_words": 133,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      872,
+      0
+    ],
+    "chars_per_page_median": 872,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.3388,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

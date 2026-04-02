@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1659",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Unbekannt an Stefan Zweig, SZ-SAM/AK.289",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1659/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1659/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1659/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Stefan Zweig, SZ-SAM/AK.289\n- Signatur: SZ-SAM/AK.289\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "LOVRANA. — Verafels.\nVilla Iris.",
+        "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliche Notiz 'Villa Iris' sowie Datum '2.X.18'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Tomašić & Co.\nR. E. P. A.\nAbbazia.\n\nLieber Zweig!\ndas mir übersandte Referat\nin der Z. N. N. habe ich aufmerksam\ngelesen, und sage die besten\nDank für Ihre freundliche\nAbstellung und Zusendung.\nHoffentlich sehe ich dich bald nach Ihrem\nRückkehr (in etwa 8 Tagen) dann mündlich\nmehr. Einstweilen mit Dank und\nherzlichen Grüßen von uns Beiden\ndein\nPaulwiesner[?]\n\n[Adressseite]\nHerrn\nHerrn Dr Stefan Zweig\nSchriftsteller\nWien VIII\nKochgasse 8",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Briefmarke oben rechts (5 Heller, Franz Joseph I.). Poststempel teilweise lesbar. Der Name des Absenders ist schwer lesbar, 'Paulwiesner' ist eine Vermutung.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Postkartenrückseite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüssig, aber teilweise schwer zu entziffern, insbesondere der Name des Absenders. Die Abkürzung 'Z. N. N.' ist unklar (möglicherweise eine Zeitungsabkürzung)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 472,
+    "total_words": 76,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      32,
+      440,
+      0
+    ],
+    "chars_per_page_median": 236.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0132,
+    "dwr_score": 0.2877,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

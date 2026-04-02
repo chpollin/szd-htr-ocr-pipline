@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1628",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Richard Friedenthal, o. D., SZ-AAP/B2.40",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1628/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1628/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1628/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Friedenthal, o. D., SZ-AAP/B2.40\n- Signatur: o. D., SZ-AAP/B2.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lieber Herr Doktor, ne me\ngrouvez pas — ich schrei-\nbe diese Tage. Gegen mein\nkleine Novelle in der Voss.\nso sind Sie zu nachsichtig,\ndie muss einmal umgeschrie-\nben werden nur die weisen\nStellen heraus. Aber ich\nbin schon angestrickt, Ihnen\ndie neuen zuzusenden, ich\nwerde mit keiner fertig,\ndenn ich fange zwischen-\ndurch immer andere an,",
+        "notes": "Handschriftliche Nachricht auf der Rückseite einer Postkarte. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "eine an Infektion der\nMotive, manchmal\nmit fieberischer aufre-\ngung begleitet. Alles\nGute! Sie hören bald\nmehr! Herzlichst Ihr\nSt. Z\n\nAn\nDr. Richard Friedenthal\nin\nCharlottenburg\nBerlin\nBerlinerstrasse 147",
+        "notes": "Vorderseite der Postkarte mit gedrucktem Absender 'STEFAN ZWEIG, SALZBURG, Kapuzinerberg 5'. Handschriftliche Fortsetzung der Nachricht und Adressierung. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, Postkarte in der Mitte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Die Transkription folgt dem Layout der Postkarte."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 545,
+    "total_words": 88,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      340,
+      205,
+      0
+    ],
+    "chars_per_page_median": 272.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.407,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

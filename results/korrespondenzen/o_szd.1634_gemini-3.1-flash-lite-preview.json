@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.1634",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 10. August 1937, SZ-AAP/B8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1634/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1634/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1634/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. August 1937, SZ-AAP/B8\n- Signatur: SZ-AAP/B8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "OFFICE OF THE VICE-PRESIDENT\n\nOXFORD\nUNIVERSITY\nPRESS\nNew York\n\n114 FIFTH AVENUE\nAugust 10, 1937\n\n\n\nDear Dr. Zweig:\n\nI should have written to you before, first of all to thank\nyou for the very pleasant afternoon I spent with you in London and\nalso to tell you what progress has been made with Reichner over the\nMozart note book.\n\nI am enclosing to you a copy of my final telegram of nearly\na month ago to which I have had as yet no answer. I wish, if pos-\nsible, you could prevail upon Reichner to give me the necessary\ninformation. It is important that no copies should be exported\nfrom Austria or England with the knowledge of the publisher and I\nmust know the Austrian published price, as they must be kept in\nline. I also suggested that if not more than 500 copies are to\nbe printed they should be numbered and possibly signed by you.\nCertainly in America this is of additional interest to collectors.\n\nI had hoped that we should have this book for Christmas, but\nbegin to doubt that we shall see it before the New Year unless\nReichner has made more progress than he has informed me of.\n\nWhen are you coming to America? I am looking forward very\nmuch to seeing you and hope you will stay in New York and not be\ntempted away to California.\n\nYours sincerely\n\nPaul [Unterschrift]\n\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg\nAustria",
+        "notes": "Typoskript auf blauem Briefpapier mit Briefkopf der Oxford University Press. Die Unterschrift ist handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, die über das Dokument gelegt wurden.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist lesbar, aber nicht vollständig transkribierbar (daher als [Unterschrift] markiert)."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1329,
+    "total_words": 243,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1329,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1329,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5333,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

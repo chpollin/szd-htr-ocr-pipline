@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1658",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ephraim Mose Lilien an Stefan Zweig, SZ-SAM/AK.288",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1658/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1658/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1658/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ephraim Mose Lilien an Stefan Zweig, SZ-SAM/AK.288\n- Signatur: SZ-SAM/AK.288\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Braunschweig, Vaterländisches Museum.",
+        "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Postkarte.\n\nVielen dank für dein\nTelegramm. Unsere Ver-\nlobung wird am 4ten\nOkt. veröffentlicht.\nFreunde dürfen schon\nuns gratulieren! -\nAlso! - {hin gehen}\nViele Grüße!\nHelene Efra[?]\n\nDr. Stefan Zweig\nWien I\nRathausstr. 17.",
+        "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in Tinte. Briefmarke oben rechts, Poststempel teilweise lesbar. Die Signatur 'Helene Efra[?]' ist schwer lesbar, könnte auch 'Helene Efraim' oder ähnlich sein.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Postkartenrückseite.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Der handschriftliche Text ist gut lesbar, jedoch ist die Signatur am Ende der Nachricht aufgrund der flüchtigen Schriftführung unsicher."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 262,
+    "total_words": 38,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      37,
+      225,
+      0
+    ],
+    "chars_per_page_median": 131.0,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0263,
+    "dwr_score": 0.2286,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

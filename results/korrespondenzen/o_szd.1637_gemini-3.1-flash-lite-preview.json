@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1637",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [9. Dezember 1935], SZ-LAS/B1.53",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1637/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1637/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [9. Dezember 1935], SZ-LAS/B1.53\n- Signatur: SZ-LAS/B1.53\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mon vieux, je n'ai pas l'adresse\nde Jean Richard. Je te prie, remets\nlui cette lettre. Il ne m'a pas écrit\nun mot et je dois faire maintenant\nma conférence en Suisse. Tu sais que\nce n'est pas ma faute, mais je veux\nfaire absolument quelque chose et si\nParis et les amis n'ont pas voulu, je\nle dois faire ailleurs.\nJe serai a Vienne (Herbert Reichner\nVerlag Wien VI) le 17. et a Paris en janvier\nTon\nStefan",
+        "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Unten mittig befindet sich ein runder Stempelabdruck: 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'. Ansonsten leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und gut lesbar. Die französische Sprache wurde korrekt transkribiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 405,
+    "total_words": 79,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      405,
+      0
+    ],
+    "chars_per_page_median": 405,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4337,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

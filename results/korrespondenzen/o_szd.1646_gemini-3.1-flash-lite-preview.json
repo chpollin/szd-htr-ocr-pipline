@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1646",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 23. November 1940, SZ-LAS/B1.62",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1646/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1646/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 23. November 1940, SZ-LAS/B1.62\n- Signatur: SZ-LAS/B1.62\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "c/o EDITORA GUANABARA\n~~WEISS MAN KOOGAN LTDA~~\nLIVREIROS E EDITORES\nRUA DO OUVIDOR, 132\nTELEPH. 22-7231\nRIO DE JANEIRO\nEND. TELEG.: EDIGUA - BRASIL\n\nRio de Janeiro, 23rd November 1940.\n\nMon cher ami,\n\nPar un détour via New York j'ai enfin appris ton adresse. Tu\npeux bien t'imaginer quelle joie c'était pour moi d'avoir de tes\nnouvelles. Moi-même j'ai quitté l'Angleterre à la fin de juin après\nles difficultés habituelles et maintenant je ne sais pas qué sont de-\nvan~~e~~ ma maison, mes livres et mes travaux commencés. {et} Contraire aux\nautres je suis allé ici au Brésil pour quelque temps, puis j'ai donné\ndes conférences littéraires en Argentine ce qui était même bien avan-\ntageux puisque j'y ai un grand public, et maintenant je suis rentré\nau Brésil que j'aime passionnément. Au point de vue paysage c'est le\nplus beau, le plus varié avec les plus belles couleurs locales qu'on\npuisse s'imaginer, et je me sens ici aussi bien que c'est possible\ndans ces temps terribles. En février quand il sera trop chaud ici,\nje pense aller aux Etats-Unis pour quelque temps et puis, si la guerre\nn'a pas encore fini, de rentrer ici. Je n'aime pas beaucoup Newyork,\noù maintenant toute l'émigration se rencontre, et où la vie est chère\net commerciale. Pour toi comme peintre c'est différent. Ici tu\nserais heureux, tu te sentirais merveilleusement inspiré, tu aimerais\nle pays et les hommes qui sont charmants. Seulement je crains que les\npossibilités de gagner de l'argent sont très limitées ici, excepté en\nArgentine où je pourrais toujours t'arranger une exposition. En tout\ncas je saurais pour tes livres a gravures si tu les as encore à\nta disposition, un libraire à Buenos Aires et une galerie. Je crois\nqu'on s'occupe de toi à Newyork et je ne doute pas qu'on aura du succès.\nSi toutefois tu préférerais de venir ici au Brésil, écris-moi et donne-\nmoi toutes les dates nécessaires de toi-même et de ta femme. Quoique\nc'est très difficile en général, je crois être sûr de pouvoir l'arran-\nger pour une personne de ta qualité. De notre ami Villeneuve-Vezelay\nje n'ai pas eu un mot. Je lui ai écrit mais je ne sais pas si ma lettre\nl'a trouvé. - Pardonne-moi la froideur semblante de cette lettre. Tu\nsais mes sentiments envers toi, mais il fallait être clair. Et toutes\nles autres choses nous laisserons jusqu'à notre réunion.\n\nDe tout coeur ton vieux\n\nStefan\n\n[Randnotiz links:]\nl'obtenir\nde visa",
+        "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die Randnotiz links ist ebenfalls handschriftlich in violetter Tinte. Unten rechts ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Man sieht den Durchdruck des Textes der Vorderseite. Unten mittig befindet sich ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 2398,
+    "total_words": 413,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      2398,
+      0
+    ],
+    "chars_per_page_median": 2398,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4347,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

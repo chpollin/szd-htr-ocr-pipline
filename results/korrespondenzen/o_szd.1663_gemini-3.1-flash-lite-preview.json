@@ -1,0 +1,83 @@
+{
+  "object_id": "o_szd.1663",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Gisella Selden-Goth an Friderike Zweig, SZ-SAM/AK.296",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1663/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1663/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1663/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Gisella Selden-Goth an Friderike Zweig, SZ-SAM/AK.296\n- Signatur: SZ-SAM/AK.296\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Budapest\nLáthép",
+        "notes": "Vorderseite einer Ansichtskarte mit Budapest-Motiv. Gedruckter Text unten links und rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Frau\nFriederike Zweig\n~~[unleserlich]~~\n~~Hotel Regina~~\nWien IX.\n\nLiebste Frau Friederike\ndanke für Ihre Karte - ich\nliege hier, ganz gegen\nmeine Gewohnheit mit einer\nscheusslichen Grippe &\nwerde kaum vor Ende der\nWoche in Wien sein. Grosses\nPech, das mich sehr ärgert.\nIch rufe dann an. - Alles\nherzliche Ihren Beiden\nvon Ihrer\nGisella Selden-Goth",
+        "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Briefmarke und Poststempel vorhanden (9. II. 23). Die durchgestrichenen Zeilen sind im Original unleserlich überstrichen.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Frau\nFriederike Zweig\n~~[unleserlich]~~\n~~Hotel Regina~~\nWien IX.\n\nLiebste Frau Friederike\ndanke für Ihre Karte - ich\nliege hier, ganz gegenmeine Gewohnheit mit einer\nscheusslichen Grippe &\nwerde kaum vor Ende der\nWoche in Wien sein. Grosses\nPech, das mich sehr ärgert.\nIch rufe dann an. - Alles\nherzliche Ihren Beiden\nvon Ihrer\nGisella Selden-Goth",
+        "notes": "Gleiche Seite wie Seite 2, jedoch mit Farbskalen für Archivierungszwecke am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, abgesehen von den durchgestrichenen Passagen in der Adresszeile, die unkenntlich gemacht wurden."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 712,
+    "total_words": 113,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      15,
+      349,
+      348
+    ],
+    "chars_per_page_median": 348,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4364,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

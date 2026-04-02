@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1660",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Unbekannt an Stefan Zweig, SZ-SAM/AK.291",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1660/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1660/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1660/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Stefan Zweig, SZ-SAM/AK.291\n- Signatur: SZ-SAM/AK.291\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "26/V. 12\n\nLübeck. Haus der Schiffergesellschaft",
+        "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Datierung oben links, gedruckter Text unten.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Herrn\nStefan Zweig\nWien VIII\nKochgasse 8\n\nZ.Z. Lübeck 26 Mai 12 (Berlin Wilmersdorf\nJenaerstr. 3)\nLieber Herr Zweig, Ihr Brief ist mir\nnachgeschickt worden. In einigen Tagen\nbin ich wieder in Berlin und werde Ihnen\nausführlich antworten. Selbstverständlich\nstehe ich ganz zu Ihrer Verfügung: schreiben\nSie mir nur ruhig welche Auftragen über\nDostojewski Sie noch auf dem Herzen haben.\nNebenbei bemerkt bereitet Professor Masaryk\n(Prag - für Diederichs Jena) ein zweibändiges\nWerk über das russische Problem vor, in dessen\nMittelpunkt Dostojewski steht. Ich\nhabe mich kürzlich mit ihm darüber\n{besprochen} und freue mich, dass Sie mich noch nicht ganz vergessen\nhaben. Ich werde Ihnen, sobald ich\n{wieder} zurück bin, zu machen, er ist ja\nals übersetzer oft in Wien -",
+        "notes": "Rückseite der Ansichtskarte. Adressfeld gedruckt, Nachricht handschriftlich. Der Text am linken Rand ist vertikal geschrieben. Die Einfügungen {besprochen}, {wieder} sind über der Zeile ergänzt. Der Text am linken Rand scheint eine Fortsetzung oder Ergänzung des Haupttextes zu sein.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der vertikalen Randnotiz und der handschriftlichen Kursivschrift."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 813,
+    "total_words": 127,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      47,
+      766,
+      0
+    ],
+    "chars_per_page_median": 406.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4215,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

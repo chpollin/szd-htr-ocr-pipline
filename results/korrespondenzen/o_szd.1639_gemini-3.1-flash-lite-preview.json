@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1639",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [Januar 1936], SZ-LAS/B1.55",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1639/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1639/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [Januar 1936], SZ-LAS/B1.55\n- Signatur: SZ-LAS/B1.55\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[...10...]~~ -\nJe suis le dernier d'être ingrat vers un ami tel Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
+        "notes": "Handschriftlicher Brief in französischer Sprache. Unten mittig ein Prägestempel 'EX LIBRIS'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer, mit einem Ex-Libris-Stempel 'CHRISTIAN ANDREE ET AUTOGRAPHIS' am unteren Rand.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die durchgestrichene Stelle ist unleserlich, wurde aber als solche markiert."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 625,
+    "total_words": 118,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      625,
+      0
+    ],
+    "chars_per_page_median": 625,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0085,
+    "dwr_score": 0.4365,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

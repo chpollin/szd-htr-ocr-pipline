@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.1640",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 22. Januar 1936, SZ-LAS/B1.56",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1640/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1640/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 22. Januar 1936, SZ-LAS/B1.56\n- Signatur: SZ-LAS/B1.56\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hotel Westminster                    Nizza, den 22.Januar 1936.\n\nLieber Frans!\n          Natürlich schreibe ich mit grösster\nFreude die kleine Vorrede. Sage mir aber genau,\nwie lange es Zeit hat und zwar aus folgendem Grunde.\nIch denke, dass ich ungefähr am 5.Februar schon in\nParis sein werde, um dort paar Tage zu bleiben. Ich\nschriebe es ja am liebsten dort, wo wir gewisser-\nmassen zusammen den Ton und den Text durchkomponie-\nren können. Muss es aber früher sein, so tue ich es\nsofort. Jedesfalls kannst Du der Leicestergalerie\nsagen, dass ich mit Freuden einverstanden bin. Am\n3.März bin ich jedesfalls bei der Eröffnung dabei.\n          Hier verbrachte ich einen ausgezeich-\nneten Abend mit Jules Romains, er ist doch der\nklügste von allen und in gewissem Sinn auch der\ngradlinigste.\n          Für Rolland habe ich eine Rede geschrie-\n                                  {ausserdem noch}",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte. Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' unten links.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ben, die Hella übersetzen wird und an Jean Ri-\nchard Bloch geschickt. Ich glaube, sie ist bes-\nser als der Aufsatz und endet mit der Aufforde-\nrung, dass wir diesen freiesten Menschen mit\nfreien Augen anschauen müssen, nicht von einer\nNation, einer Partei her. Hoffentlich wirst Du\nsie hören. Jean Richard will sie persönlich vor-\nlesen.\n\nInnigst Dein\n\nStefan\n\nWenn es Zeit hat bis Paris, brauchst\ndu mir nicht zu schreiben.\n\nErgebene Empfehlungen LotteAltmann",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte (Unterschrift 'Stefan', Satz 'Wenn es Zeit hat...', 'LotteAltmann').",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1352,
+    "total_words": 207,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      892,
+      460
+    ],
+    "chars_per_page_median": 676.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5049,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -694,6 +694,74 @@ Implementierung: `serve.py` akzeptiert `status: "agent_verified"` mit Metadaten 
 
 ---
 
+## 2026-04-02 — Session 19: Korrespondenz-Batch + Agent-Verifikation Batch 3
+
+**Schwerpunkt:** 100 neue Korrespondenz-Transkriptionen, Agent-Verifikation von 8 Objekten (Korrespondenzen an Max Fleischer), systematische Fehlermuster bei Kurrent dokumentiert.
+
+### Batch-Transkription
+
+- **100 neue Korrespondenzen** (o_szd.1545–o_szd.1666), laeuft aktuell
+- Abdeckung Korrespondenzen steigt von 350/1186 (30%) auf ~450/1186 (~38%)
+- Batch-Steuerung: `--limit 450` noetig, weil `--limit 100` nur die ersten 100 sortierten Objekte nimmt (alle bereits erledigt). Erste 350 werden in Sekunden uebersprungen.
+
+### Agent-Verifikation Batch 3 (8 Objekte, Korrespondenzen)
+
+4 Sub-Agents parallel, jeweils 2 Objekte. Alle Objekte sind Korrespondenzen an Max Fleischer (~1901-1902).
+
+| Objekt | Fehler | Genauigkeit | Editiert | Hauptprobleme |
+|---|---:|---:|---|---|
+| o_szd.1079 | 3 | 99.7% | 3, 4 | Kurrent h/I-Verwechslung, "nicht"/"auch" |
+| o_szd.1081 | 2 | 97.9% | 1, 2 | "Stud. iur." → "Hud. inr." (Kurrent St/H) |
+| o_szd.1088 | 3 | 97% | 1, 2 | "Dein" → "H[?]", halluziniertes "An" |
+| o_szd.1090 | 8 | 90% | 1, 2 | Nonsens-Halluzination bei hastiger Kurrent |
+| o_szd.1093 | 13 | 94% | 1, 2 | Kurrent massiv verlesen (Postkarte 1902) |
+| o_szd.1096 | 0 | ~98% | — | Fehlerfrei, False-Positive bei Duplikat-Flag |
+| o_szd.1097 | 2 | 99% | 2 | Fehlende Buchstaben in Komposita |
+| o_szd.1100 | 2 | 95% | 2 | Kurrent L/B-Verwechslung, Grussformel |
+
+**Aggregat: 33 Fehler in 8 Objekten, Durchschnitt ~96.3% Genauigkeit.**
+
+### Systematische Fehlermuster (NEU)
+
+**1. Kurrent-Buchstabenverwechslungen** (haeufigste Fehlerquelle):
+- h ↔ I, n ↔ u, r ↔ v, L ↔ B, St ↔ H, f ↔ s
+- Ursache: Kurrent-Minuskeln unterscheiden sich systematisch von Antiqua. Gemini kennt die Unterschiede nicht zuverlaessig.
+- Besonders betroffen: hastige Schrift, kleine Postkarten, rote Tinte auf Bildhintergrund
+
+**2. Nonsens-Halluzination statt Unsicherheitsmarker**:
+- Gemini erfindet echte Woerter statt `[?]` zu setzen: "Langentour Kantgewalt" statt "Laufenden" (o_szd.1090)
+- Bereits in Session 8 beobachtet (Vorsichts-Guidance wird ignoriert), hier erstmals quantifiziert
+- Konsequenz: `marker_density` ist als Quality-Signal nahezu wertlos
+
+**3. Systematisches "An" auf Adressseiten**:
+- In 3 von 8 Objekten halluziniert Gemini ein "An" vor dem Adressaten
+- Auf den Originalen steht kein "An" — die Adresse beginnt direkt mit dem Namen
+- Fix: Hinweis im Gruppen-Prompt I (Korrespondenz) oder Post-Processing
+
+**4. Grussformel-Fehler**:
+- Zeilenumbrueche in Schlussformeln werden falsch zugeordnet
+- "Liebsten Gruss" → "Besten Gruss" (L/B-Verwechslung in Kurrent)
+- Epistolarische Konventionen koennten als Kontexthilfe im Prompt helfen
+
+### Quality-Signals Erkenntnisse
+
+- **`duplicate_pages` False-Positive**: Triggert bei Color-Chart-Doppelfotografie (selbe Seite mit/ohne Farbskala). Fix: Color-Chart-Seiten von Duplikat-Erkennung ausschliessen.
+- **`needs_review` korrekt bei echten Problemen**: o_szd.1090 und o_szd.1093 (die schlechtesten) waren beide geflaggt.
+- **`marker_density` wertlos**: Gemini setzt auch bei 10% Fehlerrate keine `[?]`-Marker.
+- **DWR als Alternative**: DWR-Score korreliert vermutlich besser mit tatsaechlicher Fehlerrate als marker_density — noch zu validieren.
+
+### Statistiken
+
+| Metrik | Wert |
+|---|---|
+| Neue Transkriptionen | ~100 (laeuft noch) |
+| Agent-verifizierte Objekte (Batch 3) | 8 |
+| Korrekturen (Agent Batch 3) | 33 Fehler |
+| Kumulativ agent-verified | 20 (12 + 8) |
+| Kumulativ reviewed gesamt | 34 (14 human + 20 agent) |
+
+---
+
 ## Offene Fragen (Stand 2026-04-02)
 
 - [ ] Optimale Bildgroesse: Resizing vor API-Call?
@@ -703,7 +771,7 @@ Implementierung: `serve.py` akzeptiert `status: "agent_verified"` mit Metadaten 
 - [x] Batch-Modus: transcribe.py (Session 5)
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)
 - [ ] Provider-Vergleich: Claude Vision, GPT-4o (Phase 4)
-- [~] Alle 2107 Objekte transkribieren — ~639/2107 fertig, Chunking fuer grosse Objekte eingebaut (Session 17)
+- [~] Alle 2107 Objekte transkribieren — ~746/2107 fertig nach Session 19 Batch (Session 17–19)
 - [x] quality_signals kalibrieren: v1.1, datengetrieben rekalibriert (Session 13)
 - [ ] Prompt-Wirksamkeit: Vorsichts-Guidance ignoriert — Experiment noetig (Session 8)
 - [x] o_szd.143 nur 20 Zeichen auf 3 Seiten — geloest: fehlende Bilder wegen API-Limit, Chunking eingebaut (Session 17)
@@ -712,7 +780,10 @@ Implementierung: `serve.py` akzeptiert `status: "agent_verified"` mit Metadaten 
 - [ ] VbV-Konfidenz gegen Ground Truth kalibrieren (nach Modellkonsensus-Validierung)
 - [x] Modellkonsensus: 27 Objekte validiert, 18 Objekte GT-Pipeline mit 3 Modellen (Session 14)
 - [x] Statistik-Dashboard im Frontend — Enhanced Stats + Diff mit echten Daten (Session 14)
-- [~] Expert-Review: 26/2107 Objekte verifiziert (14 human + 12 agent), CER-Baseline steht (Session 18)
+- [~] Expert-Review: 34/2107 Objekte verifiziert (14 human + 20 agent), CER-Baseline steht (Session 18–19)
 - [ ] Prompt-Ablation: V1/V2/V3 gegen GT messen (18 Objekte × 3 Varianten)
-- [ ] Agent-Verifikation auf weitere Objekte ausweiten (v.a. Korrespondenzen)
+- [~] Agent-Verifikation auf weitere Objekte ausweiten — 20/2107 agent-verified (Session 18–19)
 - [ ] Fraktur-Post-Processing evaluieren (f/s-Verwechslungen automatisch korrigieren)
+- [ ] `duplicate_pages` False-Positive fixen: Color-Chart-Seiten von Duplikat-Erkennung ausschliessen (Session 19)
+- [ ] Halluziniertes "An" auf Adressseiten: Prompt-Fix oder Post-Processing (Session 19)
+- [ ] DWR-Score gegen Agent-Verifikationsergebnisse validieren (Session 19)

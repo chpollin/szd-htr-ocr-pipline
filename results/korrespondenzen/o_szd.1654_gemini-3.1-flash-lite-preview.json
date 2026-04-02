@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.1654",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Stone and Blyth Gesellschaft M. B. H. an Stefan Zweig, SZ-SAM/AK.228",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1654/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1654/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1654/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Stone and Blyth Gesellschaft M. B. H. an Stefan Zweig, SZ-SAM/AK.228\n- Signatur: SZ-SAM/AK.228\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "10. Aug.\n1934\n\n2. - PARIS. - Le Trocadéro et le Pont d'Iéna,\nThe Trocadero and Iena Bridge",
+        "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Datumsangabe links oben. Gedruckter Text in der oberen Mitte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "H. H.\nF. Stefan Zweig\nKapuzinerg.\nSalzburg\nSalzburg\n\nVon unserer Pariser\nEinkaufsreise er-\nlauben wir uns Grü-\nße zu senden\n\nTAILORS\nSTONE & BLYTH\nGESELLSCHAFT M. B. H.\nWIEN, I. KÄRNTNERSTRASSE 41",
+        "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Stempel der Firma 'Stone & Blyth'. Briefmarke oben links. Poststempel über der Briefmarke und im Textbereich.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "H. H.\nF. Stefan Zweig\nKapuzinerg.\nSalzburg\nSalzburg\n\nVon unserer Pariser\nEinkaufsreise er-\nlauben wir uns Grü-\nße zu senden\n\nTAILORS\nSTONE & BLYTH\nGESELLSCHAFT M. B. H.\nWIEN, I. KÄRNTNERSTRASSE 41",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar. Die Abkürzung 'H. H.' steht vermutlich für 'Hochwohlgeboren' oder eine ähnliche Anrede, ist aber im Kontext der Korrespondenz eindeutig als solche identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 482,
+    "total_words": 82,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      90,
+      196,
+      196
+    ],
+    "chars_per_page_median": 143.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1136,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.1661",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Bad Schallerbach, Werbepostkarte an Friderike Zweig, SZ-SAM/AK.294",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1661/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1661/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1661/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Bad Schallerbach, Werbepostkarte an Friderike Zweig, SZ-SAM/AK.294\n- Signatur: Werbepostkarte an Friderike Zweig, SZ-SAM/AK.294\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "27. Mai\n1938\nSchallerbach",
+        "notes": "Vorderseite einer Werbepostkarte mit Abbildung einer Wandelhalle. Handschriftliche Datums- und Ortsangabe.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Bad Schallerbach ladet ein!\nWandelhalle, in welcher bei ungünstiger\nWitterung die Kurkonzerte stattfinden.\n308 m Seehöhe. Mildes, mäßig trockenes\nKlima des Alpenvorlandes. Schnellzugs-\nstation der Linie Wien — Wels — Passau.\nKohlensäurereiche geschwefelte alkalische\nAkrototherme von 36,4° Celsius. Beste\nHeilerfolge durch Bade- und Trinkkuren\nbei Gelenks-, Muskel- und Nervenerkran-\nkungen, Magen- und Darmerkrankungen\n(ausgenommen bösartige Neubildungen),\nchronischen Blasenkatarrhen, Ekzemen und\nExsudaten.\nGünstige Pauschalkuren.\n5 Badeärzte; Apotheke.\nI. Klasse Strom-Einzel-(Wannen-)Bad mit an-\nschließendem Ruheraum;\nII. Klasse Strom-Einzel-(Wannen-)Bad mit\nseparatem Ruheraum;\nIII. Klasse Strom-Gesellschaftsbäder mit\nRuheräumen.\nModernster Komfort. — Neue Wandelhalle.\nTäglich Kurkonzerte. — Tanzabende.\nFreibad: Mai bis Oktober, 23° Celsius.\nGrößtes Schwimmstadion Oberösterreichs.\nAuskünfte und Prospekte durch die Kur-\n\n6993\nFrau\nFriederike Maria Zweig\nSchriftstellersgattin\nSalzburg\nKapuzinerberg 5",
+        "notes": "Rückseite der Werbepostkarte. Gedruckter Werbetext und Adressfeld. Roter Stempel 'LINZ 27.5.38' und 'ÖSTERREICH 003 GROSCHEN BAR BEZAHLT' sichtbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die bereits transkribierte Rückseite der Postkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein gedruckter Werbetext auf einer Postkarte, daher sehr gut lesbar. Die handschriftlichen Ergänzungen auf Seite 1 sind ebenfalls klar lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1036,
+    "total_words": 121,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      25,
+      1011,
+      0
+    ],
+    "chars_per_page_median": 518.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.1983,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

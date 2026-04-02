@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1642",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [Juni 1939], SZ-LAS/B1.58",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1642/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1642/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [Juni 1939], SZ-LAS/B1.58\n- Signatur: SZ-LAS/B1.58\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49, Hallamstreet London W1\nMon vieux, je ne veux pas abuser de ton\ntemps. Je veux seulement un mot sur une\ncarte postale!\nLa dame qui dirige notre maison Hallamstreet\nveut aller dans un petit village français au\nbord de la mer, pour se reposer et ne voir\npersonne. J'ai pensé à Equihen. Dis-moi s'il\ny a là un petit hotel ou si tu sais un trou\npareil ou elle pourrait loger convenablement\n- elle ne veut que de la tranquillité après\nune reconvalescence.\nVoila tout. Justement un mot sur une carte\npostale\n\nEt maintenant: je n'ai pu trouver rien encore\npour cette sympathique tchécoslovaque. Les\néditeurs ne font rien en ce moment. Ils ont\npeur de la guerre. Et on ne vend rien - un\npeu mon roman, mais c'est le seul livre qui\nse vend. J'ai perdu la moitié de mon temps\nici à Londres depuis la chute de l'Autriche",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "avec des effort d'aider - je ne trouve plus rien\net je suis au bout de mes forces. Je vais d'ici pour\ndeux mois me retirer en province à Bath: je veux\ntravailler sans telefone, sans congrès, sans amis\nseul, seul, seul et avec ce qui me reste encore des\nforces. Je veux tenter d'oublier mon dégoût devant\nce monde absurde - on ne sait vraiment pas quel\nrégime on déteste le plus, la brutalité de uns ou\nla lâcheté et la bêtise des autres.\nTu as lu sans doute de la mort de Josef Roth,\n- rien qui nous pouvait surprendre. C'était un\nsuicide lent et cruel par l'alcool. Tu sais, ce que\nj'ai essayé de le sauver de cette folie. Mais dans\nson désespoir d'écraser l'infame il s'est rué\nsur soi même. Et Toller! Et combien suivront\nbientôt!\nMon ami, je pense souvent à toi. Il y a\nmaintenant une petite galerie ici (Arcade Gallery)\nqui aimerait d'exposer et qui ne fait presque\npas des frais. J'ai pensé à tes nouvelles gravures.\nSi cette été passe sans guerre, je crois de pouvoir\nl'arranger pour toi. Fidèlement ton vieux Stefan",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Sehr gut lesbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Die Handschrift ist sehr klar und gut lesbar. Es gibt keine nennenswerten Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1835,
+    "total_words": 343,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      812,
+      1023
+    ],
+    "chars_per_page_median": 917.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4607,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

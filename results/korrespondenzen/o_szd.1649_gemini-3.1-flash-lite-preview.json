@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.1649",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [15. August 1941], SZ-LAS/B1.65",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1649/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1649/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1649/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [15. August 1941], SZ-LAS/B1.65\n- Signatur: SZ-LAS/B1.65\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Editora Guanabara 132 rua Ouvidor\nGuanabara Rio de Janeiro Brasil\nAout 1941\n\nMon cher Frans, nous partons ce soir pour le Brésil.\nJ'ai recu au dernier moment la lettre. Le visa pour\nla Colombie est très important parsqu'il te facilite\ntous les autres visa de passage et aussi parsqu'on te\ndonnera plus de facilités de visa pour l'Argentine\nou Brésil (au moins „touriste“ si tu possedes déjà un\nvisa legal et permanent. On peut toujours transfor-\nmer les visas touristes sur place - la chose impor-\ntante était de posseder un visa permanent et c'est\npour cela que tu dois prendre celui de Colombie si\ntot que posible.\nAu Brésil je ferai mon mieux pour te obtenir\nun visa pour le Brésil ou tu trouverais tout -\non vit merveilleusement la bas et je suis sur qu'il\nte plairait énormément. Sois sur que je negligerai\nrien.\nEcris a notre ami Kezelay comme je regrette de\nne pouvoir des nouvelles de lui. J'étais ici en Ame\nrique pour six mois, mais c'est fatiguant et je\nn'aime de mon coeur les pays latins. En hate ton\n\nStefan",
+        "notes": "Handschriftlicher Brief in französischer Sprache. Tinte violett. Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (abgesehen von durchscheinendem Text der Vorderseite).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und trotz einiger kleinerer orthographischer Eigenheiten des Verfassers (z.B. 'parsqu'il' statt 'parce qu'il') eindeutig zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 1021,
+    "total_words": 185,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1021,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1021,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4368,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

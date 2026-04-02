@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.1653",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 3. Juli 1939, SZ-LAS/B2.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1653/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1653/IMG.2"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Juli 1939, SZ-LAS/B2.5\n- Signatur: SZ-LAS/B2.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "GRANDCOUR\nSAINT-AVERTIN\n(INDRE-ET-LOIRE)                               Le 3 Juillet 1939\n\n\nMon cher Ami,\n\nAprès des retards, des mésaventures et des tractations\ndont je vous épargne le détail (cela demanderait des pages\net ne présente qu'un intérêt médiocre), j'ai obtenu de la\nfirme de cinéma qui doit tourner \"Volpone\" une nouvelle\navance, que je vais toucher ces jours-ci, et dont je vous\nferai parvenir votre part aussitôt. Ensuite, nous touche-\nrons pendant quelque temps des versements réguliers. Il\nest heureux que, ni vous ni moi, n'ayons depuis deux ans,\nattendu cet argent pour manger, n'est-ce pas?\n\nQue devenez-vous? Où êtes-vous? Il y a bien longtemps\nque nous ne nous sommes vus, ni même écrit. Et nous au-\nrions pas mal de choses à nous dire. Le monde a encore\nsubi quelques légères modifications depuis notre dernière\nconversation.\n\nMa femme vous envoie toutes ses amitiés. Bien affec-\ntueusement à vous,\n\nJules Romains",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Handschriftliche Unterschrift 'Jules Romains'. Rote handschriftliche Ziffer '56' oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.4",
+    "total_chars": 935,
+    "total_words": 147,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      935,
+      0
+    ],
+    "chars_per_page_median": 935,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4231,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}
