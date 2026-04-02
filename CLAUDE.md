@@ -208,15 +208,15 @@ szd-htr/
 └── knowledge/                       ← Research Vault (Methodik, Datenanalyse, Journal)
     ├── index.md                     ← Map of Content (MOC)
     ├── data-overview.md             ← Datengrundlage (4 Sammlungen, 9 Gruppen)
-    ├── verification-concept.md      ← GT, quality_signals, Cross-Model, VbV, GT-Pipeline
+    ├── verification-concept.md      ← GT, quality_signals, Cross-Model, VbV, Agent-Verifikation (§8)
+    ├── evaluation-results.md        ← CER-Baseline: 26 Objekte, 9 Gruppen
     ├── annotation-protocol.md       ← Transkriptionskonventionen
-    ├── pilot-design.md              ← 5-Seiten-Pilot (historisch, nicht ausgefuehrt)
     ├── htr-interchange-format.md    ← JSON-Schema: szd-htr → teiCrafter
     ├── tei-target-structure.md      ← TEI-Zielformat (DTABf-Profil)
     ├── teiCrafter-integration.md    ← teiCrafter-Integration
     ├── layout-analysis.md           ← Layout-Analyse + PAGE XML Export
     ├── dia-xai-integration.md       ← DIA-XAI-Integration
-    └── journal.md                   ← Session-Log (Sessions 1–17)
+    └── journal.md                   ← Session-Log (Sessions 1–18)
 ```
 
 ## CLI-Nutzung
