@@ -560,75 +560,6 @@ function renderReviewCell(obj) {
   return '<span class="badge-review badge-review-llm-ok" data-tooltip="LLM-Transkription ohne manuelle Pr\u00fcfung">LLM OK</span>';
 }
 
-function renderQualitySignals(qs) {
-  if (!qs) return '';
-  const items = [];
-
-  // needs_review
-  if (qs.needs_review !== undefined) {
-    if (qs.needs_review) {
-      items.push(`<div class="viewer__quality-item">
-        <span class="badge-review badge-review-yes">Review empfohlen</span></div>`);
-    } else {
-      items.push(`<div class="viewer__quality-item">
-        <span class="badge-review badge-review-llm-ok">LLM OK</span></div>`);
-    }
-  }
-
-  // marker density
-  if (qs.marker_density !== undefined) {
-    const pct = (qs.marker_density * 100).toFixed(1);
-    items.push(`<div class="viewer__quality-item">
-      <span class="viewer__quality-label">Marker</span>
-      <span>${qs.marker_uncertain_count || 0}\u00d7 [?], ${qs.marker_illegible_count || 0}\u00d7 [...] (${pct}%)</span></div>`);
-  }
-
-  // empty pages
-  if (qs.empty_pages > 0) {
-    items.push(`<div class="viewer__quality-item">
-      <span class="viewer__quality-label">Leer</span>
-      <span>${qs.empty_pages} / ${qs.total_pages || '?'} Seiten</span></div>`);
-  }
-
-  // language match
-  if (qs.language_match !== undefined) {
-    const icon = qs.language_match ? '' : ' \u26A0';
-    const text = qs.language_match
-      ? qs.language_detected || '?'
-      : `${qs.language_detected || '?'} (erwartet: ${qs.language_expected || '?'})`;
-    items.push(`<div class="viewer__quality-item">
-      <span class="viewer__quality-label">Sprache</span>
-      <span>${escapeHtml(text)}${icon}</span></div>`);
-  }
-
-  // text volume
-  if (qs.total_chars) {
-    items.push(`<div class="viewer__quality-item">
-      <span class="viewer__quality-label">Umfang</span>
-      <span>${qs.total_chars.toLocaleString('de')} Zeichen, ${qs.total_words || '?'} Wörter</span></div>`);
-  }
-
-  // DWR score
-  if (qs.dwr_score !== undefined && qs.dwr_score > 0) {
-    const pct = Math.round(qs.dwr_score * 100);
-    const cls = pct >= 30 ? 'badge-dwr-good' : pct >= 15 ? 'badge-dwr-moderate' : 'badge-dwr-low';
-    items.push(`<div class="viewer__quality-item">
-      <span class="viewer__quality-label">DWR</span>
-      <span class="badge ${cls}">${pct}%</span></div>`);
-  }
-
-  let html = `<div class="viewer__quality"><div class="viewer__quality-grid">${items.join('')}</div>`;
-
-  // reasons
-  if (qs.needs_review && qs.needs_review_reasons && qs.needs_review_reasons.length > 0) {
-    const lis = qs.needs_review_reasons.map(r => `<li>${escapeHtml(r)}</li>`).join('');
-    html += `<div class="viewer__quality-reasons"><ul>${lis}</ul></div>`;
-  }
-
-  html += '</div>';
-  return html;
-}
-
 /* ===== Quality Rendering ===== */
 
 function renderQualityCell(v, confidence, obj) {
@@ -803,14 +734,6 @@ function renderStats() {
     </div>`;
 
   el.style.display = 'block';
-
-  document.getElementById('statsToggle').addEventListener('click', () => {
-    const details = document.getElementById('statsDetails');
-    const toggle = document.getElementById('statsToggle');
-    const open = details.classList.toggle('open');
-    toggle.innerHTML = open ? 'Weniger &#9652;' : 'Details &#9662;';
-    toggle.setAttribute('aria-expanded', String(open));
-  });
 }
 
 /* ===== Catalog Rendering ===== */
@@ -1250,12 +1173,11 @@ function renderViewerPage() {
   const key = editKey(state.currentObjectId, state.currentPage);
   const edited = state.editedTranscriptions.get(key);
   const transcriptionText = edited ? edited.transcription : (page ? page.transcription : '');
-  const notesText = edited ? edited.notes : (page ? page.notes : '');
 
   if (state.editMode && state.isLocal) {
-    renderEditMode(transcriptionText, notesText);
+    renderEditMode(transcriptionText);
   } else {
-    renderReadMode(transcriptionText, notesText, !!edited);
+    renderReadMode(transcriptionText, null, !!edited);
   }
 
   // Context bar below panels
@@ -1276,7 +1198,7 @@ function renderReadMode(transcription, notes, isEdited) {
   wrap.innerHTML = `${label}<div class="viewer__transcription" id="transcription">${renderTranscription(transcription)}</div>`;
 }
 
-function renderEditMode(transcription, notes) {
+function renderEditMode(transcription) {
   const wrap = document.querySelector('.viewer__transcription-wrap');
   if (!wrap) return;
   wrap.innerHTML = '<textarea class="viewer__transcription-edit" id="transcriptionEdit"></textarea>';
@@ -1286,7 +1208,6 @@ function renderEditMode(transcription, notes) {
 function saveCurrentEdit() {
   if (!state.editMode || !state.isLocal) return;
   const textarea = document.getElementById('transcriptionEdit');
-  const notesArea = document.getElementById('notesEdit');
   if (!textarea) return;
 
   const obj = getViewerObject(state.currentObjectId);
@@ -1296,7 +1217,7 @@ function saveCurrentEdit() {
   const origNotes = page ? page.notes : '';
 
   const newTranscription = textarea.value;
-  const newNotes = notesArea ? notesArea.value : origNotes;
+  const newNotes = origNotes;
 
   const key = editKey(state.currentObjectId, state.currentPage);
 
@@ -2031,6 +1952,18 @@ function showHelp() {
 /* ===== Event Handlers ===== */
 
 function initEvents() {
+  // Stats toggle (event delegation — statsToggle is re-created on each renderStats)
+  document.getElementById('catalogStats').addEventListener('click', e => {
+    if (e.target.id === 'statsToggle' || e.target.closest('#statsToggle')) {
+      const details = document.getElementById('statsDetails');
+      const toggle = document.getElementById('statsToggle');
+      if (!details || !toggle) return;
+      const open = details.classList.toggle('open');
+      toggle.innerHTML = open ? 'Weniger &#9652;' : 'Details &#9662;';
+      toggle.setAttribute('aria-expanded', String(open));
+    }
+  });
+
   // Search
   const searchInput = document.getElementById('searchInput');
   searchInput.addEventListener('input', debounce(() => {

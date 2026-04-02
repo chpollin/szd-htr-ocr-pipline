@@ -676,55 +676,6 @@ body.view-help #about { display: none; }
   font-weight: 600;
 }
 
-/* Quality signals in viewer */
-.viewer__quality {
-  padding: 0.6rem 1.25rem;
-  border-top: 1px solid var(--sz-border-light);
-  font-size: 0.78rem;
-  color: var(--sz-text-light);
-}
-
-.viewer__quality-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 1.25rem;
-  align-items: center;
-}
-
-.viewer__quality-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-}
-
-.viewer__quality-label {
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--sz-gold);
-}
-
-.viewer__quality-reasons {
-  margin-top: 0.35rem;
-  padding-top: 0.35rem;
-  border-top: 1px solid var(--sz-border-light);
-  font-size: 0.72rem;
-  color: var(--sz-burgundy);
-}
-
-.viewer__quality-reasons ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.15rem 1rem;
-}
-
-.viewer__quality-reasons li::before {
-  content: "\26A0\00a0";
-  font-size: 0.7rem;
-}
-
 /* Page anomaly marker */
 .viewer__page-anomaly {
   color: var(--sz-burgundy);
