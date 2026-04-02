@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
-        "notes": "Adressseite der Postkarte. 'Hud. inr.' ist eine Abkürzung für 'Hudební inženýr' (tschechisch für Musik-Ingenieur) oder eine ähnliche Berufsbezeichnung. Poststempel: WIEN 5 6.01 6-7N."
+        "notes": "Adressseite der Postkarte. 'Hud. inr.' ist eine Abkürzung für 'Hudební inženýr' (tschechisch für Musik-Ingenieur) oder eine ähnliche Berufsbezeichnung. Poststempel: WIEN 5 6.01 6-7N.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa“ devin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
-        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
-        "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala im Bild."
+        "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala im Bild.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Abkürzung 'Hud. inr.' ist kontextuell plausibel für die Zeit und Region."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 282,
     "total_words": 42,
     "total_pages": 3,

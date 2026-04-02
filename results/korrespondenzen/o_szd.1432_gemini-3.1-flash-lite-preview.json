@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.1432",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Friderike Zweig vom 7. Juni 1925, SZ-AAP/B11.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1432/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1432/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1432/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Friderike Zweig vom 7. Juni 1925, SZ-AAP/B11.1\n- Signatur: SZ-AAP/B11.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lg. ich kann nur in Eile antworten,\ndass ich deinen Brief dankbar\nerhielt. Bitte schreibe [?]freut, es\nmöge an Rouger senden und\nselbstverständlich keine Kosten\nHandels Belager[?] unerfüll[?], ein\nelementares [?] [?] [?]. Koppenberg\nich erst heute, auch der junge\nFieventhal ist da, und [?] ich\nviel zusammen bei [?]erfol[?].\n[?] wir fahren vielleicht noch\nnach Land. Roll hat mir den illu-\nstrierten Jean Cristof aufgebracht\ner geht ihm nur seines [?] [?]\nweiß gut [?] [?] [?]. lebe wohl\nalles Gute dein\nSonntas",
+        "notes": "Handschriftliche Postkarte, violette Tinte. Die Schrift ist sehr flüchtig und schwer lesbar, teilweise überlagert durch den Rand des Papiers.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Carone war ver-\nreist, Leonhard\nwohnte zu einer. Brenner\nso hatte ich [?] [?]\nmeinen letzten stillen\nabend.\n\nFrau Friderike Zweig\n[?] Salzburg\nKapuzinerberg 5",
+        "notes": "Adressseite der Postkarte. Gedruckter Postkartenvordruck mit handschriftlichen Ergänzungen. Briefmarke und Poststempel (Leipzig 7.6.25) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "low",
+    "confidence_notes": "Die Handschrift ist extrem flüchtig, teilweise kursiv ineinander verschlungen und weist viele schwer identifizierbare Wörter auf. Besonders die erste Seite ist aufgrund der Schriftführung und der teilweise unklaren Worttrennungen sehr schwer zu transkribieren."
+  },
+  "quality_signals": {
+    "version": "1.3",
+    "total_chars": 670,
+    "total_words": 109,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      512,
+      158,
+      0
+    ],
+    "chars_per_page_median": 335.0,
+    "marker_uncertain_count": 18,
+    "marker_illegible_count": 0,
+    "marker_density": 0.1651,
+    "dwr_score": 0.4211,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "marker_density"
+    ]
+  }
+}

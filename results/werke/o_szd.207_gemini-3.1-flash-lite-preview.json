@@ -20,34 +20,39 @@
       {
         "page": 1,
         "transcription": "Magellan\n3. Fassung\nIX",
-        "notes": "Die römische Ziffer IX ist unterstrichen."
+        "notes": "Die römische Ziffer IX ist unterstrichen.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Leere Rückseite der Mappe (mit Grauskala)."
+        "notes": "Leere Rückseite der Mappe (mit Grauskala).",
+        "type": "color_chart"
       },
       {
         "page": 3,
         "transcription": "handschriftliche\nMSS\n\nHistory of to-morrow (unvollst)\nTolstoi Vorrede (unvollst)\nSecret of Artistic creation\nDie Kunst ohne Sorgen zu leben\nDas erste Wort über den Ocean\nWorte am Sarge Freud\nCicero (1. Fassung)",
-        "notes": "Die Liste enthält verschiedene Werktitel. 'unvollst' steht für unvollständig. 'Freud' ist am Ende des Wortes leicht abgeschnitten, aber lesbar."
+        "notes": "Die Liste enthält verschiedene Werktitel. 'unvollst' steht für unvollständig. 'Freud' ist am Ende des Wortes leicht abgeschnitten, aber lesbar.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "",
-        "notes": "Leere Innenseite der Mappe (mit Grauskala)."
+        "notes": "Leere Innenseite der Mappe (mit Grauskala).",
+        "type": "color_chart"
       },
       {
         "page": 5,
         "transcription": "",
-        "notes": "Leere Rückseite der Mappe (mit Farb- und Grauskala)."
+        "notes": "Leere Rückseite der Mappe (mit Farb- und Grauskala).",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist in deutlicher Blockschrift bzw. gut lesbarer Handschrift mit blauem Stift verfasst. Die Identifikation der Werktitel ist aufgrund der klaren Schrift eindeutig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 232,
     "total_words": 36,
     "total_pages": 2,

@@ -22,44 +22,51 @@
       {
         "page": 1,
         "transcription": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die",
-        "notes": "Die Zeile ist unterstrichen."
+        "notes": "Die Zeile ist unterstrichen.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die",
-        "notes": "Spiegelbildliche Durchzeichnung der Vorderseite."
+        "notes": "Spiegelbildliche Durchzeichnung der Vorderseite.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Sainte-Beuve",
-        "notes": "Handschriftlicher Eintrag auf der Rückseite."
+        "notes": "Handschriftlicher Eintrag auf der Rückseite.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "Sainte-Beuve",
-        "notes": "Spiegelbildliche Durchzeichnung der Rückseite."
+        "notes": "Spiegelbildliche Durchzeichnung der Rückseite.",
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die",
-        "notes": "Identisch mit Seite 1."
+        "notes": "Identisch mit Seite 1.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "Sainte-Beuve",
-        "notes": "Identisch mit Seite 3."
+        "notes": "Identisch mit Seite 3.",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Stimmung in Frankreich nach dem Siege und vor dem Frieden, Die",
-        "notes": "Identisch mit Seite 1, inklusive Farb- und Grauskala."
+        "notes": "Identisch mit Seite 1, inklusive Farb- und Grauskala.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist kurz, deutlich geschrieben und wiederholt sich über die verschiedenen Scans hinweg."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 284,
     "total_words": 47,
     "total_pages": 7,

@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "11 Portland Place\n\nLondon, den 18.4.34.\n\nLiebe Frau Meingast!\n\nBitte schreiben Sie Herrn Lindenfeld nach\nWarschau, dass der Erasmus nur in einer bibliophilen Aus-\ngabe in einer beschränkten Auflage in Deutschland erscheint\nund ihm dann gleich ein Exemplar für die polnische Ausgabe\nzugeht. Herrn Willi Haas schreibe ich direkt.\n\nMit besten Grüssen Ihr\n\nS.Z.\n\nIch lasse Johann herzlich\nfür seinen Brief danken.\nHerr Dr hätte mich sehr\nüber die Nachrichten über Kaspi\ngefreut.\nGrüsse an alle!",
-        "notes": "Der Text besteht aus einem maschinengeschriebenen Teil und einem handschriftlichen Nachtrag in violetter Tinte. Die Unterschrift 'S.Z.' ist ebenfalls handschriftlich."
+        "notes": "Der Text besteht aus einem maschinengeschriebenen Teil und einem handschriftlichen Nachtrag in violetter Tinte. Die Unterschrift 'S.Z.' ist ebenfalls handschriftlich.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Die Rückseite ist leer."
+        "notes": "Die Rückseite ist leer.",
+        "type": "blank"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der maschinengeschriebene Teil als auch die handschriftlichen Ergänzungen von Stefan Zweig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 490,
     "total_words": 76,
     "total_pages": 1,

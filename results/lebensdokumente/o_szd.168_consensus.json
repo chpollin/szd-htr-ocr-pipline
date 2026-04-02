@@ -1,0 +1,140 @@
+{
+  "object_id": "o_szd.168",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.0155,
+    "category": "consensus_verified",
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.0044,
+        "agreement": "high",
+        "chars_a": 454,
+        "chars_b": 453
+      },
+      {
+        "page": 1,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 2,
+        "cer": 0.0968,
+        "agreement": "moderate",
+        "chars_a": 62,
+        "chars_b": 68
+      },
+      {
+        "page": 3,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 0,
+        "chars_b": 0
+      },
+      {
+        "page": 4,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 0,
+        "chars_b": 0
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.168",
+    "collection": "lebensdokumente",
+    "group": "handschrift",
+    "title": "Vollmacht Alfred Zweig, SZ-SEF/L1",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.0155,
+      "category": "consensus_verified",
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.0044,
+          "agreement": "high",
+          "chars_a": 454,
+          "chars_b": 453
+        },
+        {
+          "page": 1,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 2,
+          "cer": 0.0968,
+          "agreement": "moderate",
+          "chars_a": 62,
+          "chars_b": 68
+        },
+        {
+          "page": 3,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 0,
+          "chars_b": 0
+        },
+        {
+          "page": 4,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 0,
+          "chars_b": 0
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.168/IMG.1",
+        "transcription_a": "Ich ermächtige hiemit meinen\nBruder Alfred Zweig in Angele-\ngenheiten des mir zu Hälfte ge\nhörigen Hauses IX Garnisongasse\n10 Wien alle Massnahmen und\nVerfügungen rechtsgiltig zu treffen\nund über diese mir gehörige Hälfte\nin meinem Auftrage so zu verfügen\nwie er es für richtig befindet\nund ich ermächtige ihn, diese\nVollmacht, über den mir gehörigen\nAnteil ebenso frei und berechtigt\nwie über seinen eigenen zu verfügen\njederzeit weiterzugeben an Personen",
+        "transcription_b": "Ich ermächtige hiemit meinen\nBruder Alfred Zweig in Angele-\ngenheiten des mir zu Hälfte ge-\nhörigen Hauses IX Garnisongasse\n10 Wien alle Massnahmen und\nVerfügungen rechtsgültig zu treffen\nund über diese mir gehörige Hälfte\nin meinem Auftrage so zu verfügen\nwie er es für richtig befindet\nund ich ermächtige ihn, diese\nVollmacht, über den mir gehörigen\nAnteil ebenso frei und berechtigt\nwie über seinen eigenen zu verfügen\njederzeit weiterzugeben an Personen",
+        "cer": 0.0044,
+        "agreement": "high"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.168/IMG.2",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.168/IMG.3",
+        "transcription_a": "die er dazu bevollmächtigt\n\nStefan Zweig\nNewyork 9. August 1940",
+        "transcription_b": "die er dazu bevollmächtigt\n\nStefan Zweig\ns. H.[?]\nNewyork 9. August 1940",
+        "cer": 0.0968,
+        "agreement": "moderate"
+      },
+      {
+        "page": 3,
+        "image_url": "https://gams.uni-graz.at/o:szd.168/IMG.4",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 4,
+        "image_url": "https://gams.uni-graz.at/o:szd.168/IMG.5",
+        "transcription_a": "",
+        "transcription_b": "",
+        "cer": 0.0,
+        "agreement": "high"
+      }
+    ]
+  },
+  "judge_result": null
+}

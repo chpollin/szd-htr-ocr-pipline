@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Frau\nAnna Meingast\nc/o Dr. St. Zweig\nSalzburg (Austria)\nKapuzinerberg 5",
-        "notes": "Adressseite einer Postkarte. Enthält einen Poststempel 'WIEN 1 FLUGPOST 10.IV.37.11' sowie einen 'BY AIR MAIL' Aufkleber."
+        "notes": "Adressseite einer Postkarte. Enthält einen Poststempel 'WIEN 1 FLUGPOST 10.IV.37.11' sowie einen 'BY AIR MAIL' Aufkleber.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "London, den 9.April 1937.\n\nLiebe Frau Meingast!\nHerr Dr. Z. lässt Ihnen viel-\nmals für die Sendung danken und bittet nur um so-\nfortige Zusendung des letzten Exemplares von I,\nda es für die Kollationierung benötigt wird.\n\nMit besten Grüssen\nLAltmann",
-        "notes": "Textseite der Postkarte. Maschinenschrift, Unterschrift handschriftlich."
+        "notes": "Textseite der Postkarte. Maschinenschrift, Unterschrift handschriftlich.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist klar lesbar, da es sich um eine maschinengeschriebene Postkarte handelt."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 320,
     "total_words": 52,
     "total_pages": 2,

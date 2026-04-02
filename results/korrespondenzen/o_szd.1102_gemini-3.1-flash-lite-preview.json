@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMein Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
-        "notes": "Die Transkription umfasst den gedruckten Text der Postkarte sowie den handschriftlichen Text auf der Bildseite."
+        "notes": "Die Transkription umfasst den gedruckten Text der Postkarte sowie den handschriftlichen Text auf der Bildseite.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "CARTE POSTALE\nCe côté est exclusivement réservé à l'adress\n\nHerrn\nMax Fleischer\nOstseereisender\n\nKomotau in Böhmen\nVilla Fleischer\n\nAutriche",
-        "notes": "Die Transkription umfasst die Adressseite der Postkarte. Der Stempel 'KOMOTAU' und die Briefmarke wurden gemäß Anweisung nicht transkribiert."
+        "notes": "Die Transkription umfasst die Adressseite der Postkarte. Der Stempel 'KOMOTAU' und die Briefmarke wurden gemäß Anweisung nicht transkribiert.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "CARTE POSTALE\nCe côté est exclusivement réservé à l'adress\n\nHerrn\nMax Fleischer\nOstseereisender\n\nKomotau in Böhmen\nVilla Fleischer\n\nAutriche",
-        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 2) mit Farbskala. Die Transkription ist identisch."
+        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 2) mit Farbskala. Die Transkription ist identisch.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 435,
     "total_words": 58,
     "total_pages": 3,

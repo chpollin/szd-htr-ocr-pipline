@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Herzlichste Grüße an\nSie und Empfehlungen Ihrer\nFrau Mama\n\nIhre\nFriderike[?] W.",
-        "notes": "Adressseite der Postkarte. Der Name der Absenderin ist etwas flüchtig geschrieben."
+        "notes": "Adressseite der Postkarte. Der Name der Absenderin ist etwas flüchtig geschrieben.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Mein lieber Herr Doktor,\ndarf ich Sie um eine \"ver-\nschwiegene\" Gefälligkeit bitten?\nIch möchte zu Stefans\nLilencron, ohne dass er es\nweiß (er sagt es störe ihn\nmich dort zu wissen) Bitte\nversorgen Sie mir eine Karte.\nIch hoffe, dass ich kommen\nkann. Macht es Ihnen\nkeine Mühe? Nur dazu\nbitte. Falls Sie mit Ihrer Frau\nMutter herauskommen, bitte\nich Sie zu Mittag bei mir zu\nspeisen. Ein Kujal[?] etwa!\nVielleicht wird das Wetter\nwieder besser.",
-        "notes": "Nachrichtenseite der Postkarte. 'Kujal' ist eine unsichere Lesung, möglicherweise ein Eigenname oder eine spezifische Bezeichnung."
+        "notes": "Nachrichtenseite der Postkarte. 'Kujal' ist eine unsichere Lesung, möglicherweise ein Eigenname oder eine spezifische Bezeichnung.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Herzlichste Grüße an\nSie und Empfehlungen Ihrer\nFrau Mama\n\nHerrn Dr Victor Fleischer\n\nIhre\nFriderike W.\n\nWien XIX\nBillrothstrasse 20\n2/2 1917",
-        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) mit ergänzenden Informationen (Datum und Empfängername)."
+        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) mit ergänzenden Informationen (Datum und Empfängername).",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger flüchtiger Buchstaben. Die Identifikation der Namen und Orte ist durch den Kontext (Friderike von Winternitz an Victor Fleischer) gesichert."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 664,
     "total_words": 111,
     "total_pages": 3,

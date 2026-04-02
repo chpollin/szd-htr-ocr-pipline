@@ -22,44 +22,51 @@
       {
         "page": 1,
         "transcription": "Herrn Dr Viktor Fleischer\n\nWien XIX\nBillrothstrasse 20",
-        "notes": "Adressseite eines Briefumschlags."
+        "notes": "Adressseite eines Briefumschlags.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Briefumschlags mit zwei Briefmarken (5 Heller, Österreichisch-Ungarische Monarchie) und Poststempel 'BADEN 3 - 3.VIII.14 - 8'."
+        "notes": "Rückseite des Briefumschlags mit zwei Briefmarken (5 Heller, Österreichisch-Ungarische Monarchie) und Poststempel 'BADEN 3 - 3.VIII.14 - 8'.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "Sonntag ,\n\nLieber Herr Doktor ,\n\nder Brief kam aus Tobelbad und\nich will nicht warten Ihnen zu\ndanken, für die Freude, die ich\nnachträglich hatte. Sie haben mich\nletzthin sehr versagt gesehen . Nun\nhabe ich wieder etwas mehr\nFestigkeit gewonnen. Dienstag\nbin ich in Wien ; vielleicht begegnen\nwir einander .\n\nIn Baden ist es jetzt so still\nund schön, dass man oft Minuten,\nlang das Schreckliche vergisst\nund nur diesen leisen Herbstbeginn\nin der Landschaft spürt, der so",
-        "notes": "Erste Seite des Briefes."
+        "notes": "Erste Seite des Briefes.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "",
-        "notes": "Leeres Blatt (Rückseite von Seite 3)."
+        "notes": "Leeres Blatt (Rückseite von Seite 3).",
+        "type": "blank"
       },
       {
         "page": 5,
         "transcription": "ruhend ist. Dann reisst einem das ferne\nRollen der Südbahnzüge, in dessen jetzt\nkeine Vergnügungsreisende dahinfahren\naus dem sonnigen Wahn.\n\nDie Kinder mit ihrer Sorglosigkeit\nsind jetzt ein Segen. Sie sagen es\neinem stündlich, dass die Freude\nnicht aussterben kann und steht\nauch die Welt im entsetzlichsten\nKampf. Ich habe nie so starke\nwie jetzt das Glück empfunden sie\nzu haben und {ich} wollte, ich hätte noch\nein paar .\n\nLieber, guter Herr Doktor einige\nGrüsse an Sie und ergebene\nEmpfehlungen zu Hause !\n\nIhre\nFriderike Winternitz",
-        "notes": "Zweite Seite des Briefes."
+        "notes": "Zweite Seite des Briefes.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "",
-        "notes": "Rückseite von Seite 5 mit Archivnummer '22421/7'."
+        "notes": "Rückseite von Seite 5 mit Archivnummer '22421/7'.",
+        "type": "blank"
       },
       {
         "page": 7,
         "transcription": "",
-        "notes": "Scan mit Farbskala und Grauskala, zeigt die Rückseite von Seite 5."
+        "notes": "Scan mit Farbskala und Grauskala, zeigt die Rückseite von Seite 5.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, die Struktur des Briefes ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 1062,
     "total_words": 176,
     "total_pages": 3,

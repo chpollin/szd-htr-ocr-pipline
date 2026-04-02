@@ -18,29 +18,40 @@
       {
         "page": 1,
         "transcription": "                                                                 50\n\nSaint-Avertin, le 29 Juillet 1939\n\n\n\nMon cher Ami,\n\nMerci de votre lettre rassurante. Je crois que tout s'ar-\nrangera très bien.\n\nA ce propos, je me permets de vous faire une petite\nremarque. Il serait peut-être nuisible à nos intérêts que\nnous nous servions de cette thèse, que le sujet et le titre\nde \"Volpone\" ont été créés par Ben Jonson et existent en\ndehors de notre adaptation.\n\nEn effet, j'ai soutenu âprement la thèse contraire\nvis-à-vis de la société qui réalise le film, et qui était\nbien décidée, à l'origine, à se passer totalement de nous\net à faire soi-disant directement appel à l'oeuvre de Ben\nJonson. C'est ~~en~~ prétendant que le sujet avait été entière-\nment transformé par nous, et que même le titre était\nnouveau (le vrai titre de Ben Jonson étant \"Volpone ou le\nrenard\") que j'ai réussi à obtenir le versement de droits\nd'auteur. Il ne faudrait donc pas que maintenant, cette\nsociété pût, si elle venait à connaître vos déclarations,\nen tirer argument contre nous.\n\nRecevez toutes nos amitiés.\n\nJules Romains",
-        "notes": "Die Unterschrift ist handschriftlich, der Rest des Briefes ist maschinengeschrieben. Die Zahl '50' oben rechts ist handschriftlich in roter Tinte hinzugefügt."
+        "notes": "Die Unterschrift ist handschriftlich, der Rest des Briefes ist maschinengeschrieben. Die Zahl '50' oben rechts ist handschriftlich in roter Tinte hinzugefügt.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Briefes, leer."
+        "notes": "Rückseite des Briefes, leer.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "",
-        "notes": "Farbkarte/Grauskala, keine Transkription erforderlich."
+        "notes": "Farbkarte/Grauskala, keine Transkription erforderlich.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig als 'Jules Romains' identifizierbar."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 1101,
     "total_words": 178,
     "total_pages": 1,
     "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
     "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
     "chars_per_page": [
       1101,
       0,
@@ -50,6 +61,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.4225,
     "duplicate_page_pairs": [],
     "language_expected": "fr",
     "language_detected": "fr",

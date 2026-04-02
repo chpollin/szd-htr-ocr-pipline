@@ -1,0 +1,1579 @@
+{
+  "object_id": "o_szd.73",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Tagebuch 1931, SZ-AAP/L7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.73/IMG.1",
+      "https://gams.uni-graz.at/o:szd.73/IMG.2",
+      "https://gams.uni-graz.at/o:szd.73/IMG.3",
+      "https://gams.uni-graz.at/o:szd.73/IMG.4",
+      "https://gams.uni-graz.at/o:szd.73/IMG.5",
+      "https://gams.uni-graz.at/o:szd.73/IMG.6",
+      "https://gams.uni-graz.at/o:szd.73/IMG.7",
+      "https://gams.uni-graz.at/o:szd.73/IMG.8",
+      "https://gams.uni-graz.at/o:szd.73/IMG.9",
+      "https://gams.uni-graz.at/o:szd.73/IMG.10",
+      "https://gams.uni-graz.at/o:szd.73/IMG.11",
+      "https://gams.uni-graz.at/o:szd.73/IMG.12",
+      "https://gams.uni-graz.at/o:szd.73/IMG.13",
+      "https://gams.uni-graz.at/o:szd.73/IMG.14",
+      "https://gams.uni-graz.at/o:szd.73/IMG.15",
+      "https://gams.uni-graz.at/o:szd.73/IMG.16",
+      "https://gams.uni-graz.at/o:szd.73/IMG.17",
+      "https://gams.uni-graz.at/o:szd.73/IMG.18",
+      "https://gams.uni-graz.at/o:szd.73/IMG.19",
+      "https://gams.uni-graz.at/o:szd.73/IMG.20",
+      "https://gams.uni-graz.at/o:szd.73/IMG.21",
+      "https://gams.uni-graz.at/o:szd.73/IMG.22",
+      "https://gams.uni-graz.at/o:szd.73/IMG.23",
+      "https://gams.uni-graz.at/o:szd.73/IMG.24",
+      "https://gams.uni-graz.at/o:szd.73/IMG.25",
+      "https://gams.uni-graz.at/o:szd.73/IMG.26",
+      "https://gams.uni-graz.at/o:szd.73/IMG.27",
+      "https://gams.uni-graz.at/o:szd.73/IMG.28",
+      "https://gams.uni-graz.at/o:szd.73/IMG.29",
+      "https://gams.uni-graz.at/o:szd.73/IMG.30",
+      "https://gams.uni-graz.at/o:szd.73/IMG.31",
+      "https://gams.uni-graz.at/o:szd.73/IMG.32",
+      "https://gams.uni-graz.at/o:szd.73/IMG.33",
+      "https://gams.uni-graz.at/o:szd.73/IMG.34",
+      "https://gams.uni-graz.at/o:szd.73/IMG.35",
+      "https://gams.uni-graz.at/o:szd.73/IMG.36",
+      "https://gams.uni-graz.at/o:szd.73/IMG.37",
+      "https://gams.uni-graz.at/o:szd.73/IMG.38",
+      "https://gams.uni-graz.at/o:szd.73/IMG.39",
+      "https://gams.uni-graz.at/o:szd.73/IMG.40",
+      "https://gams.uni-graz.at/o:szd.73/IMG.41",
+      "https://gams.uni-graz.at/o:szd.73/IMG.42",
+      "https://gams.uni-graz.at/o:szd.73/IMG.43",
+      "https://gams.uni-graz.at/o:szd.73/IMG.44",
+      "https://gams.uni-graz.at/o:szd.73/IMG.45",
+      "https://gams.uni-graz.at/o:szd.73/IMG.46",
+      "https://gams.uni-graz.at/o:szd.73/IMG.47",
+      "https://gams.uni-graz.at/o:szd.73/IMG.48",
+      "https://gams.uni-graz.at/o:szd.73/IMG.49",
+      "https://gams.uni-graz.at/o:szd.73/IMG.50",
+      "https://gams.uni-graz.at/o:szd.73/IMG.51",
+      "https://gams.uni-graz.at/o:szd.73/IMG.52",
+      "https://gams.uni-graz.at/o:szd.73/IMG.53",
+      "https://gams.uni-graz.at/o:szd.73/IMG.54",
+      "https://gams.uni-graz.at/o:szd.73/IMG.55",
+      "https://gams.uni-graz.at/o:szd.73/IMG.56",
+      "https://gams.uni-graz.at/o:szd.73/IMG.57",
+      "https://gams.uni-graz.at/o:szd.73/IMG.58",
+      "https://gams.uni-graz.at/o:szd.73/IMG.59",
+      "https://gams.uni-graz.at/o:szd.73/IMG.60",
+      "https://gams.uni-graz.at/o:szd.73/IMG.61",
+      "https://gams.uni-graz.at/o:szd.73/IMG.62",
+      "https://gams.uni-graz.at/o:szd.73/IMG.63",
+      "https://gams.uni-graz.at/o:szd.73/IMG.64",
+      "https://gams.uni-graz.at/o:szd.73/IMG.65",
+      "https://gams.uni-graz.at/o:szd.73/IMG.66",
+      "https://gams.uni-graz.at/o:szd.73/IMG.67",
+      "https://gams.uni-graz.at/o:szd.73/IMG.68",
+      "https://gams.uni-graz.at/o:szd.73/IMG.69",
+      "https://gams.uni-graz.at/o:szd.73/IMG.70",
+      "https://gams.uni-graz.at/o:szd.73/IMG.71",
+      "https://gams.uni-graz.at/o:szd.73/IMG.72",
+      "https://gams.uni-graz.at/o:szd.73/IMG.73",
+      "https://gams.uni-graz.at/o:szd.73/IMG.74",
+      "https://gams.uni-graz.at/o:szd.73/IMG.75",
+      "https://gams.uni-graz.at/o:szd.73/IMG.76",
+      "https://gams.uni-graz.at/o:szd.73/IMG.77",
+      "https://gams.uni-graz.at/o:szd.73/IMG.78",
+      "https://gams.uni-graz.at/o:szd.73/IMG.79",
+      "https://gams.uni-graz.at/o:szd.73/IMG.80",
+      "https://gams.uni-graz.at/o:szd.73/IMG.81",
+      "https://gams.uni-graz.at/o:szd.73/IMG.82",
+      "https://gams.uni-graz.at/o:szd.73/IMG.83",
+      "https://gams.uni-graz.at/o:szd.73/IMG.84",
+      "https://gams.uni-graz.at/o:szd.73/IMG.85",
+      "https://gams.uni-graz.at/o:szd.73/IMG.86",
+      "https://gams.uni-graz.at/o:szd.73/IMG.87",
+      "https://gams.uni-graz.at/o:szd.73/IMG.88",
+      "https://gams.uni-graz.at/o:szd.73/IMG.89",
+      "https://gams.uni-graz.at/o:szd.73/IMG.90",
+      "https://gams.uni-graz.at/o:szd.73/IMG.91",
+      "https://gams.uni-graz.at/o:szd.73/IMG.92",
+      "https://gams.uni-graz.at/o:szd.73/IMG.93",
+      "https://gams.uni-graz.at/o:szd.73/IMG.94",
+      "https://gams.uni-graz.at/o:szd.73/IMG.95",
+      "https://gams.uni-graz.at/o:szd.73/IMG.96",
+      "https://gams.uni-graz.at/o:szd.73/IMG.97",
+      "https://gams.uni-graz.at/o:szd.73/IMG.98",
+      "https://gams.uni-graz.at/o:szd.73/IMG.99",
+      "https://gams.uni-graz.at/o:szd.73/IMG.100",
+      "https://gams.uni-graz.at/o:szd.73/IMG.101",
+      "https://gams.uni-graz.at/o:szd.73/IMG.102",
+      "https://gams.uni-graz.at/o:szd.73/IMG.103",
+      "https://gams.uni-graz.at/o:szd.73/IMG.104",
+      "https://gams.uni-graz.at/o:szd.73/IMG.105",
+      "https://gams.uni-graz.at/o:szd.73/IMG.106",
+      "https://gams.uni-graz.at/o:szd.73/IMG.107",
+      "https://gams.uni-graz.at/o:szd.73/IMG.108",
+      "https://gams.uni-graz.at/o:szd.73/IMG.109",
+      "https://gams.uni-graz.at/o:szd.73/IMG.110",
+      "https://gams.uni-graz.at/o:szd.73/IMG.111",
+      "https://gams.uni-graz.at/o:szd.73/IMG.112",
+      "https://gams.uni-graz.at/o:szd.73/IMG.113",
+      "https://gams.uni-graz.at/o:szd.73/IMG.114",
+      "https://gams.uni-graz.at/o:szd.73/IMG.115",
+      "https://gams.uni-graz.at/o:szd.73/IMG.116",
+      "https://gams.uni-graz.at/o:szd.73/IMG.117",
+      "https://gams.uni-graz.at/o:szd.73/IMG.118",
+      "https://gams.uni-graz.at/o:szd.73/IMG.119",
+      "https://gams.uni-graz.at/o:szd.73/IMG.120",
+      "https://gams.uni-graz.at/o:szd.73/IMG.121",
+      "https://gams.uni-graz.at/o:szd.73/IMG.122",
+      "https://gams.uni-graz.at/o:szd.73/IMG.123",
+      "https://gams.uni-graz.at/o:szd.73/IMG.124",
+      "https://gams.uni-graz.at/o:szd.73/IMG.125",
+      "https://gams.uni-graz.at/o:szd.73/IMG.126",
+      "https://gams.uni-graz.at/o:szd.73/IMG.127",
+      "https://gams.uni-graz.at/o:szd.73/IMG.128",
+      "https://gams.uni-graz.at/o:szd.73/IMG.129",
+      "https://gams.uni-graz.at/o:szd.73/IMG.130",
+      "https://gams.uni-graz.at/o:szd.73/IMG.131",
+      "https://gams.uni-graz.at/o:szd.73/IMG.132",
+      "https://gams.uni-graz.at/o:szd.73/IMG.133",
+      "https://gams.uni-graz.at/o:szd.73/IMG.134",
+      "https://gams.uni-graz.at/o:szd.73/IMG.135",
+      "https://gams.uni-graz.at/o:szd.73/IMG.136",
+      "https://gams.uni-graz.at/o:szd.73/IMG.137",
+      "https://gams.uni-graz.at/o:szd.73/IMG.138",
+      "https://gams.uni-graz.at/o:szd.73/IMG.139",
+      "https://gams.uni-graz.at/o:szd.73/IMG.140",
+      "https://gams.uni-graz.at/o:szd.73/IMG.141",
+      "https://gams.uni-graz.at/o:szd.73/IMG.142",
+      "https://gams.uni-graz.at/o:szd.73/IMG.143",
+      "https://gams.uni-graz.at/o:szd.73/IMG.144",
+      "https://gams.uni-graz.at/o:szd.73/IMG.145",
+      "https://gams.uni-graz.at/o:szd.73/IMG.146",
+      "https://gams.uni-graz.at/o:szd.73/IMG.147",
+      "https://gams.uni-graz.at/o:szd.73/IMG.148",
+      "https://gams.uni-graz.at/o:szd.73/IMG.149",
+      "https://gams.uni-graz.at/o:szd.73/IMG.150",
+      "https://gams.uni-graz.at/o:szd.73/IMG.151",
+      "https://gams.uni-graz.at/o:szd.73/IMG.152",
+      "https://gams.uni-graz.at/o:szd.73/IMG.153",
+      "https://gams.uni-graz.at/o:szd.73/IMG.154",
+      "https://gams.uni-graz.at/o:szd.73/IMG.155",
+      "https://gams.uni-graz.at/o:szd.73/IMG.156",
+      "https://gams.uni-graz.at/o:szd.73/IMG.157",
+      "https://gams.uni-graz.at/o:szd.73/IMG.158",
+      "https://gams.uni-graz.at/o:szd.73/IMG.159",
+      "https://gams.uni-graz.at/o:szd.73/IMG.160",
+      "https://gams.uni-graz.at/o:szd.73/IMG.161",
+      "https://gams.uni-graz.at/o:szd.73/IMG.162",
+      "https://gams.uni-graz.at/o:szd.73/IMG.163",
+      "https://gams.uni-graz.at/o:szd.73/IMG.164",
+      "https://gams.uni-graz.at/o:szd.73/IMG.165",
+      "https://gams.uni-graz.at/o:szd.73/IMG.166",
+      "https://gams.uni-graz.at/o:szd.73/IMG.167",
+      "https://gams.uni-graz.at/o:szd.73/IMG.168",
+      "https://gams.uni-graz.at/o:szd.73/IMG.169"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Tagebuch 1931\n- Signatur: SZ-AAP/L7\n- Datum: 1931 21. October begonnen\n- Sprache: Deutsch\n- Objekttyp: Notizbuch\n- Umfang: 76 Blatt, 25\n                            Blatt beschrieben, eingelegt: Manuskript, 3 Blatt;\n                            Telegrammaufgabeblatt\n- Schreibinstrument: Violette Tinte, Bleistift, blauer Buntstift\n- Hand: Stefan Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite des Einbands, kariertes Muster.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "10 x 8 cm",
+        "notes": "Innere Vorderseite des Einbands, handschriftliche Notiz oben links.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Vorsatzblatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Vorsatzblatt, Rückseite, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Richard Strauss\n[...]\n\nTagebuch\n\n1931\n\n21. October begonnen",
+        "notes": "Erste Seite mit handschriftlichen Einträgen. Richard Strauss ist durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Donnerstag 21. October 1931. Plötzlich\nhabe ich mich entschlossen, nach Jahren\nder Pause wieder ein Tagebuch zu führen.\nDie Gründe dafür das Bewusstsein, dass\nwir kritischen, kriegsgefährlichen Zeiten ent-\ngegengehen, die documentarische Niederle-\ngung ebenso fordern wie seinerzeit die frohen\nReisen oder die Zeit des Krieges. Ich werde nicht\nerwarte keine Conflagration mit Waffen, nur\ninnere sociale Umstürze, bei uns vielleicht\neine faschist-feindliche Revolte. Jeden-\nfalls, es ist gut, sich wieder einmal zur Klar-\nheit zu erziehen.\nUnmittelbaren Anstoss bot, dass man mir\ngestern nachts von der Neuen freien Presse\ntelefonierte, Schnitzler sei gestorben. Der Tod\nvon Schnitzler ergreift mich wenig, wenn nicht\nTragik für ihre Familie damit verbunden\nmit das öfter Werk erfüllt ist - wer war\nnach Trots wohl, müde war der Lebens satt?",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Aber doch, Erinnerungen waren damit ver-\nbunden, Dankbarkeit für die Ehrlichkeit des\nersten Menschen, der so wundervoll Mass zu\nhalten wusste - viel mehr als ich, aber viel-\nleicht auch, weil er nichts viel von sich persön-\nlich zeigte, sich nicht stark herauswagte und\nstärker auf sich als in sich centriert war. Aber\nwelche noble Gestalt! Ich weiss, dass er auch von\nAnfang gerne hatte auf eine höhere Art -\nzu echter Freundschaft war er schon zu alt,\naber er gab mir ab, soviel er wohl damals an\nJüngere geben konnte und wollte. Ich habe ein\npaar Worte des Gedenkens geschrieben, fastig\naber zumindest ohne falsches Zuviel und ohne\ndie öffentlich erweichte Träne in der Kehle. Nach-\nmittag weiter an M. Ant.\nFreitag 22. Ekel vor der österreichischen Po-\nlitik. Man muss sich gewöhnen, den Staatsbür-\ngergedanken immer wieder innerlich zu\namortisieren nur all das, was von uns\ngefordert wird, als illusorisch abzulehnen\nmit Gefühlsstärke zu verwerfen und eine",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "künstlich galvanisierte Mumie. Immer wie-\nder an Ekel die Tragik: alle Länder\nsind gleich unmöglich, Europa ist eine un-\nbar, wenn es eins ist, Raum gibt nur Beave-\ngung. Wie soll man erst über den Innig lachen,\nmit dem wir uns fertig abgeben: wenn ich jetzt\nin Mercys Berichten die politischen Sorgen von\n1780 lese, spüre ich genau die gleiche Kraft\nverwendung, eine Balance zu erhalten, die\nunmöglich ist, eine Kartenhaustechnik, die man\nDiplomatie nennt. Weiter an M. A.\nSamstag 23. Bericht über Schnitzlers Begräbnis.\nKeine Condolenz des Bundespräsidenten, kein\nMinister am Sarge, die Universität schweigt\n- recht, so nur klare Verhältnisse. Nicht\npaktieren mit diesen Leuten, alles refusie-\nren. Je weniger sie sind, desto stärker fühlen\nsie sich in ihrem Dünkel! Und sich immer be-\nstärken in Gefühle, was sie genießt, geht\neinen innerlich nichts an, weiter arbeitet\nvielleicht seither\nSonntag 24 Ärgernis wegen Araid, der alles,",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 12,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 13,
+        "transcription": "Bibliographie und gar Katalogtotal ver-\nwirrt. Immer mehr die Erkenntnis -\nwirklich auch für das Buch M. A. - dass Heinrich\ndas größte Laster ist, weil er die anderen co-\npiert. Kleiber, Heinrich, alle im Hause habe\nich durch meine Nachgiebigkeit, mein Brauser-\nfüllen und Vertrauen nicht angespornt, sondern\ngeschwächt, sie moralisch verdorben. Nur der Är-\nger schürt aus dem Unterbewusstsein gegen einen\nMonch und mit Recht: Schärfe ist schlecht. Einige\nLektüre, etwas Arbeit. Ich sollte fleissiger sein und\nwill auch jetzt mit dem Tagebuch etwas spornen.\nMontag 25 Telefon aus Wien wegen eines\nmystificativen Artikels, der A. sehr aufgeregt\nhat, meiner Meinung, keine Ursache. Telefon\nBerlin wegen Film, antrag für Russland, kleiner\nNachtrag für Schnitzler und daneben Arbeit an\nM. A. der erste Teil im Brouillon fertig. Ich\nbin recht abgespannt und nixe mit abends\netwas zu erholen.\nDienstag 26 Turnen wieder ausgeführt: war\nnach den Cavarer ich faltwegs erhalter, dann\närger wegen Hämisch, der mich cutlerweise",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 14,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 15,
+        "transcription": "hingehalten hat und wir jetzt noch die Halt\ngeben nicht. Ideen zu einem Drama Maria\nTheresia Verlag Polen Josef II wohl aber eher\nein Roman. Sehr interessant durch den Willen\nzum Moralischen bei ihr und Gefühl der Drapierung\nArbeit an M. A. weiter: es wird furchtbar um-\nfangreich.\nMittwoch 27 Allerhand Arbeit. M. A. voran-\ngeht. Nachmittag Lichtenberg, sehr gut anse-\nhen. Wir bringen alle Dinge nach und gleich: ich\nhabe das Gefühl, dass er über die Situation or-\nhandener redet als er über die denkt: vielleicht\nmit ohne Nebensache. Aber wenn er alles in\nOrdnung bringt dann gut.\nDonnerstag Lichtenberg bis abends, dann\nBriefe. Dann recht müde, gerade kann ich\nauch die Haltung des Rabbiners ertragen\nFreitag 29 sofort wieder weiter gearbeitet\nIch kann nicht so viel tun, als ich wollte,\ndas Stoffliche ist ungeheuer umfangreich\nwer will erst gelüftet und gerichtet sein.\nSamstag 30 M. A. doch recht weiter gebracht\nviel Briefe. Die Politik lag recht hinter: die\nUnruhe von der Heimweltbewegung allerts",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 16,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 17,
+        "transcription": "führbar. Ich überlege immer noch ein Fort: nur\nsolange die unsicheren Verhältnisse bestehen kann\nweg als nicht an fixe Resolutionen zu denken.\nSonntag 1. Nov. Etwas weiter M. A. Ärger bei\nBinh und A. & S. Knabenflut in dieser Atmos-\nphäre von Dummheit nur jeder Anmassung zu leben\nist etliche darin und vor allem alles active in\nmir. Etwas Atempause täte gut. Nachmittag Schlaf\ngut war auch\nMontag 2. Briefe von Richard Strauss, Carring, Ernst\nNeuert in jener Sache, Falten wegen Tour. Das 4512\nhypte: weitergearbeitet an Marie A. sehr bald die\nAffaire Mirabeau hinter mir, damit ein starker\nWirton gegen das Centrum. Ein paar langweilige\nStellen dann Zusammenfassung. Da der Sitan-\ngedanke an mir es leicht sein. Willig ist jetzt\ndie strenge Concentration: nicht sich aufgeben, ehe\nder Minister muss beisammen ist. Dann zwei Kapitel\nprobeweise ausarbeiten. Abends beim Spazieren\ngehen reinluftiger Eindruck von den vielen\nHeimwehpatrouillen, die mit Fahrrädern und\nAutomobilen im und her sausen; für mich\nist es keine Frage, dass ein neuer Punkt ver-\nsucht wird und ich glaube, es wird gelingen.\nNach historischer Fassung zeigt eine Kürzung",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 18,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 19,
+        "transcription": "der Gefährten, die weite Kreise erfasst, das ganze\nLand auch nur treibt die Unzufriedenheit denen\nin die Arme, die gegen die Regierung stehen,\ndass noch die Erfolge der nationalsoz. Bewegung\nin Deutschland, die Menschen zittern Morgens und\nwar fangen die Mäntel heraus. Ob dahinter als Kern\nweitragende politische Ideen stehen, lässt sich\nkaum übersehen; was das alles sind um die ersten\nEtappen durchlauf und der Rest dem Zufall über-\nlassen. Innerlich bewegt mich das alles nicht, kein\ndie Freiheit, die nun äusserlich gegeben ist, reize\nich gar nicht aus, sondern lebe unendlich der\nArbeit allein in einer, wie ich selbst zugeben\nmuss, übertriebenen Absonderung der Befried-\nnungslosigkeit. Etwas mehr Durchblutung und Lebens-\nstoff täte not.\nDienstag weiter M. A. Gerade jetzt an eine\nsehr schwierigen Part gelangt. Aber das Ergste\nschert überstanden: es gilt jetzt ein hinter\ndem historischen die Person wieder hervorzu-\narbeiten. M. trage mit Frau Zummings, abends\ndas neue Buch von Carossa gelesen, woher\nkommt die Frage, das klare edle körnige Denken\nbester Tradition. Ein bei Stifter als Nahe und\nWirken war also gemacht: in Natur diese Lage",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 20,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 21,
+        "transcription": "blühe wo sie überwillig wird. Ein tiefer Blick für\ndas Geheimnisvolle, ebenso wie bei dem in mancher\nKriegstagebuch. Ein teureres Werk, ein reiner Dichter\nwie nur einer! Nur einer der wenigen Dichter zu\ndenen man zunichte ist.\nMittwoch weiter M. A. Bis zu Plicht nach Carossa\ndie Situation in Politikern scheint etwas gelass,\nich glaube nicht, dass wir den Putsch in nächster Zeit\nzu befürchten haben, weil die Situation in Deutsch-\nland jetzt Legalität erfordert und eine gewaltsame\nAktion des redlich auftauchen wird: die National-\nsozialisten verfügen über so schmierenden Zuwachs, dass\nsie illegale Massnahmen nicht mehr anzuwenden\nbrauchen. Sie hoffen mit Stimmzetteln zu erben, was\nnun mit Granaten bis vor langem erreicht\nschien. Die materielle Krise dagegen unabsehbar. -\nVon Accuso geiser einen Brief aus Paris, herzlich\nwar etwas mutlos; entbehrlich mit fünfzig Jahren\nnoch einmal anfangen zu müssen, er hatte nicht\nmehr die Kraft. Aber vielleicht wächst ein grün zu,\nwenn man muss. Eigentlich möchte ich ihn gerne\nsehen, es wäre Wiedersehen mit der eigenen Jugend\nDonnerstag M. A. Brief von Albergleit. Ob man\nihn noch retten kann? Jedenfalls wollen wir nichts\nunversucht lassen. Abends ins Kino, einen Ton\nFilm aus Paris zu sehen, der mir als einfallen",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 22,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 23,
+        "transcription": "erweist. \"Le million\" von René Clair ohne\nSentimentalität und das Überschlage der den\nwen.\nFreitag. Weiter M. A. weiterstraßen weiter.\nEs ist nur Darstellung, ob ich glaube, eine\nbewegte. Sonst nichts von Belang. Brief von\nRichard Strauss, der mich für 20ten erwartet\nSamstag Arbeit M. A. Bericht der merkwürdigen\nTraumten Seroff, ich muss sein Buch lesen, es\nkam und morgens auch nützlich sein. Nach\npersönlich lernen morgende Eintritt.\nSonntag ganzen Tag mit Hinterberger Besprech-\nungen wegen Aliv. vertan. Sehr müde von dem\nlangen Calcutieren, dieselbe kombinatorische\nKraft auf das Gittige gewandt hätte eine gute\nNovelle ergeben\nMontag 29. Absolute Nachrichten, der 60\nMillionen Credit verweisen: offenbar auf den\nStrich Seipels hin, der ja famos arbeitet, aber als\nArger mit bestimmten vertraulichen Neuen\nder der Unt. hat für politique da pire, die Ni-\nrabeen umfasst. Es wird zur Katastrophe, weil\ndie besser ist als der Marasmus. Aber was\nkommen jetzt für Zeitraubende, nervenzerrende\nZwischenzüge, Buhlagnahmen, Fahrungen, Ver-\nordnungen - man hatte wirklich besser getan, nach",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 24,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 25,
+        "transcription": "Frankreich zu reisen war ich da auch zu Hause\n- in Russland hätte ich gleichfalls das alles verla-\nfen. Aber weiter an M. A.\nDienstag wieder ein Stück M. A. Morgen hoffe ich die\nPlicht nach Carossa fertig zu kriegen, es wird das\nallein an die vierzig durcharbeiten sein. Das ganze\nBuch wäre ich auf 500 Seiten nach zweifel schon,\nob ich es im Frühjahr an Klein fertig kriege. Wenn\ndas Tempo so bleibt oder sich verstärkt wäre es denk-\nbar, aber man muss nun achten, dass nicht die Quali-\ntät darunter leidet. Begonnen habe ich Anfang Sep-\ntember, also drei Monate Diktat, ein Monat General-\nrevision und drei Monate Skript, das heute besten-\nfalls Ende März fertig sein. Dann Correcturen - es\nwird heiss. Schramm klebt, alles andere impri-\nmen abjisten\nMittwoch M. A. wird voluminös: das Histo-\nrische muss daran wieder zurückgedrängt wer-\nden, damit man das Bild im Auge behält, die\nGestalt. Überhaupt wie viel ist daran noch zu-\ntun. Fertig kann ich zunächst nur einzelne Ka-\npitel machen. 8 Stunden Arbeit am Tag werden\nnötig sein. Überhaupt: mehr weg jetzt. Mehr Con-\ncentration\nDonnerstag Nationalfeiertag. Ruhig verlaufen.\nDie Krise der Welt unterdrückt und Vormittags\nPapier gedreht.\nFreitag M. A. vorwärts. Dann hier, nächtlich gut",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 26,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 27,
+        "transcription": "mutig, wortgewandte Historie, das wird der Mensch\nunserer Zeit. Schwieriger leben, auch er ein Opfer\nder Krise: ihm kaum zu helfen. Wer diese Dramen\naber oder hinter der Zeit schreibt, hat wenig Raum\nfür sich. Merkwürdig wie er verkommen war in\nall dem Begraben, zerstreut, zerfahren und plötzlich\nbeim Ausströmen. Ich habe ihn eigentlich sehr gern\nSamstag M. A. vorwärts, vorwärts. Abends früh\nins Bett, auch physisch durch\nSonntag Ordnung und Vorarbeit, ich will ja mor-\ngen fort. Neues Kapitel vorbereitet\nMontag ganzen Tag wie ein Irrsinniger Post erle-\ndigt. Nichts zurückgeblieben. Dann Sammelgenre-\nden, der gleichfalls vom Finanziellen ganz verstört\nist - alte Leute und Geld um einem Seite beinahe\nleid. Er quält sich damit nicht ab, er, der nicht\nüberall. Gönnte Macca je davon haben wird; fer-\nneres wie es aber zu gewissen versteht mit seinen Ge-\nten saftigen Mund, gestern heullos geübt. Alles wird\ngeschliffen in dem Gericht und der Kraft darin, etwas\nvon russischen Alexander\nDienstag München. Zu Stifter, der Novelle ferida\ngefasst, ein wenig noher. So herrlich in im Anfang\nist, so wenig wird mir dann klar: in der Stimmung\njunger Menschen müsste dann eine Überwandung\nkommen. Eine Orgie wäre zu schichten. Auch Plan jener\nFrau, wäre zu erwägen. Oder einfach Sinn zu machen",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 28,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 29,
+        "transcription": "und noch Kurt ferie zu spielen. Abends Nachmittags\nbei Schwerin zum Essen, abends beim weissen Rössel\nund Lotte S. und nachher in die Caféconditorei etc. Egal\nWir habe ich mich sehr gut unterhalten war bis auf die\neine Katerscene gar keinen üblen angenehmen gepasst.\nMittwoch Vormittags erfreut durch Carossas Anruf\nein Brief von Richard Strauss, Coriateffaire an\nElement erledigt. Mittags mit dem famosen Kind\nKopf, ein prächtiger idealistischer Mensch, der mir wie\nnicht gefällt - der einzige, der jener Buch gut gehört\nBla hatte. Voll Feier war Tatkraft: wenn man ihn\nnur wo rüberbringen könnte! Auf den Tiefe ist. For-\ntwährt bei Schwerin, sehr intensiv, der Mann ist wirk-\nlich portraitierend, abends mit Carossa. Er will etwas\nerwähnt haben, in Bad ohne Waffe\nJahre langer Raubbau in der ärztlichen\nPraxis beginnt sich zu rächen, dass bleibt auch in\nkeinem feindlichen Leben (mit Frau war doch) vieles\nnicht zu schreiben. Schön was er erzählt aber seine Er-\nfahrung durch Hofmannsthal, jener Brief, den er in der\nNacht bekam und ja entlöste war, um ihn zu lesen\nund dann ebenso mein Antrag in B. T. der ihm\nsoviel vorwärts geholfen. Er ist unter seines robasten\nHärte sehr zart und aufwändig. Er würde be-\nreuen ihn hier und da er weniger eigentlich er\nlebt hat, bleibt er jedem Eindruck heiterer hier",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 30,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 31,
+        "transcription": "ihr: Jeder die Pflichtheit und Verlebung des Lebens\nstammte wirklich auf den Traumplätze hatte einen\npraktischen Leben: er hat viel geträumt und auch der\nTraume sind eben für ihr Erlebnisstoff und nicht wie\nfür die anderen Geschlechter, die vorübergegangen\ngeworden. Wie einfach, wie baulich fast dem Leben,\njenseits von aller Eleganz, aller sogenannten Cultur\nund doch ein Zentrum geistig bedeutend, sehr langsam\nin Aufblühen und nun in vollster Entfaltung. Er\ngibt von seinen Patienten, die sich jetzt wieder an sich\nher besinnen was den Tagen in Mittelhaus in\nMirfot: er lebt in engem Kreise, aber in dieser ganz.\nWir treffen ganz harten Leute im Cafélauf, mit viel\nkeine angenehme Abwehr voll Gute. Ich gebe übrigens\nin keiner Schrift (nicht zufällig) greifende Züge was in\nseinem Wesen ist, tat sich ein Schimmer aus Blöcken\ndavon.\nDonnerstag Vormittag etwas Arbeit, nachmittag\nder Schwerin, dann bei Bah. Friste Härte. Ich\nkam mich begreifen, dass die Welt nicht immer\nweiter ihre Ordnung, Prinzip vorbei ist, sie kann\nnicht abholen nehmen, will ich jetzt in Salzburg\neinhaften, nun zu wollen - von überall fällt\nsie mir verlauf und passt das weiss nicht ob\nkein Fall immer so anspruchslos war. Er war sehr",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 32,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 33,
+        "transcription": "erläutert zu sehen, die Augen, sonst tätig und\nluftig farblos, matt und tot, ohne Glanz. Nichts in\nResemell ist mehr ausser die Kohle. Er kann keine\nZusammenhänge mehr behalten, vergisst alles -\nsie ergibt nun, dass er sich fünfmal in sein Notiz-\nbuch aufgeschrieben, dass ich komme und dabei bin\nob der einzige auf den er sich freut. Aber wie\nmatt das alles, - das ganze, man wagt es kaum\nweiterzuschreiben, eine Art Verblödung. Wenn das\nso weiter geht wünschte ich ihm einen realen Tod\nstatt dieser langsamer Schmerzwerdens. Ich begleitete ihn\nnoch in die Tromlerkapelle, - wie deren Hand\ndie feinen Fragen, die Fingernägel rein an der ganz\nroten Händen, das Gesicht gerissen, der Schritt schwer, und\nzwei Dollar war doch ärztlich bei den Hausen über-\ngehen - wie jede Verfall eines Menschen in Kindheit\nin Malthon so furchtbar ansehen. Eigentlich ohne ich\nauf, wie ich ihm die Hand reiche: ich glaube, ich habe\nihn zum letztenmal gesehen. Dann bei Emil Kind,\nabends Concert Bindo Walter, concerto grosso von\nHandel, gute, aber nicht wesentlich erhebende Kunst\nein Symphonie von Haydn (12) dieses Gottes\nLiedes, selige andächtige Heiterkeit. Doch nicht\nvom Dauer der Erkenntnis gegeben. Leben und Tara\ndiese. Erst mit Beethoven ist der Mensch da, das\nHaydn die Kindheit, Beeth. Wiener von die Welt",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 34,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 35,
+        "transcription": "schaffen mit Mühe, die gigantische Arbeit. Da trocke\ngearbeitet Kunst, oft überarbeitet, zu breit, zu\nwollt oft, zu gewollt gestern, Prometheus die sind, nur\ngöttlich, der geistige Engel, der weiter empor will.\nBegegnung mit der Malerei, dank die Kunst von viel uns gibt.\n- Distanzen und Rüstung. Überhaupt wie viel Men-\nschen ich streife auf jedem Blick, wieviel gelöste\nLeben Reflexe zurückwirft. Ich bin mit diesen\nTagen unermesslich zufrieden.\nFreitag Vormittags bei Richard Strauss. Er wirkt\ngemütlich, gutmütig, bayerisch aus, rotbackig, etwas\ndas Geistige vergröbert, aber die Augen scharf und klar\nund lebendig, seine Sprache voll Bewegtheit und Humor,\nHelligkeit des Geistes leuchtet auf intakt seit der Kunst\nLänder. Wir sprechen von dem Thema, er findet die\nPantomime eine große Anforderung, braucht 8\nStunden Raum dafür, ja, wie es freiwillig sagt\ndie reine damische Melodie weder ihm noch irgend\neinem andern einfällt, es nicht überhaupt nicht wie\nmit auch weitergehen könne was glaubt er.\neine gewiss Bahn. In knapp 250 Jahren habe ich\neigentlich die ganze Musik entfaltet, das sei wesentlich\nrank gewesen, daher jetzt neue Ordnung - ringend\nvöllig nach meinem Gefühl das andere Schritt\ngefallt ihm sehr, er encouragiert mich er ausführt",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 36,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 37,
+        "transcription": "wünschte ich kleine Couplets, Strophen, hingeschafft -\nalso der Rosenkavalier sei ja lang gewesen. Alles\ngibt bei ihm sehr auf Knappheit des Stils, aber Stil.\nviel von mir leben, seine Art zu arbeiten. Er ist eigent-\nlich arbeitsam, lebt regelmässig ohne jede Erregung\naber immer parat, immer in Form, er \"commentiert\ndie Musik\" frei nach Goethe, das Inspirative gemäß dem\nWerkhaften. Von Inspiration erzählt er wie er den\nTraum durch die Erinnerung schreibt. Seine Frau\nwartete auf ihn wollte nun noch sich zu einem Spa-\nziergang sich anziehen, da blätterte er im Notenbuch\nund schrieb also nieder die Melodie für nur ab\nseine Frau hereinkam und sagte, \"Ich bin fertig\" und\nwortete er, \"Ich auch\". 45 Jahre in dieser Leben für\nkeinen etwas angetan, mit That ist es eine Art Regu-\nlation und Entlastung. Hierfür keine Begeisterung für\nMozart, deren Produktivität er noch heute nicht so\ngreift, für ihn das absolut Göttliche, einmalige. Er\nhat Wagner noch in Wien vor 1882 in Wahnfried\ngesehen, war later, der Oberkommiss hatte noch einen\nConflict, weil es war die anderen stall bewirft\nspielend an in Bayreuth mit jener vollter -\nda doch Wagner in könnte täuscht (er macht\nes famos nach) \"Tret Eure sauren Jahre wo ihr\nwollt\". Brahms hat er auch noch gekannt, wo",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 38,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 39,
+        "transcription": "Meiningen nähst da aber nicht sehr, die jüngeren von\nheute haben ihm zuwenig Fülle, es fehlt ihm doch recht\nwarm als der letzte der großen Linie. Seinen Brief\nBrief empfindet er die seltene, die ihm hindert (autor)\njenst als Libretto bearbeiten wollte, dann gute a\nplötzlich die erste Zeile des Textes der Musik und alles\nwas entschieden. Wagner verfiel er über alle Mannen,\ndass man er heute gerade in den Bassformen der\nMeisteringer ich nach fürchterlichen kennen noch\nalle Neuheit der Instrumentierung entdeckt habe\n- gegen Bayreuth ist er ganz gesichert, erzählt kaum\nwie man ihn nicht was dann getan habe\nweil er die Linie verlassen hat dann wegen beg\nfroh. Wagner mit Beethoven die ganzen Dramatiker\nfür ihn, die eine Spannung zu schaffen war zu\nsteigern wissen. Von Beethoven erzählt er, dass er\nLagner noch kannte, dem Beethoven die Compon\nkönnen durchgehen und der mit Schubert freund\nschlaftlich verheft. Alle seine Urteile frei unter\nmit persönlich, absolut in seiner Ruhe war zu\nInternationalismus und die Kunst, die Künstler\nals höchsten gültigen Ausdruck jeder Nation, als\nohren Zweck und Sinn anschaut. Diese Sicherheit\nauch ihm haben, er drängt nach, er ist nicht wie andere",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 40,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 41,
+        "transcription": "dij, arbeitet oft Wochen, besonders im Winter nicht\nhat dank der nervenlosen Tagesunterteilung wollen\nZeit was war vermutlich nur krank. Geist hell und\nMax, selber ein Instrument war ihm ganz zu trauen\ndeshalb also Gelassenheit. Die Frau ohne Platten\nluft es tief wegen ihrer Traumplätze, Arabella klebt\nihn nicht zu freuen, er arbeitet daran, ist aber bereit\ner für etwas Besseres liegen zu lassen, weil er vor\nder Zeit wenig dafür hofft. Auch eine Symphonie\nhat er angefangen. Ich habe den Eindruck, dass er\neigentlich pflichthaft weiterarbeitet, nicht aber getrie-\nben, sondern ausdauernd. Mir fiel ein dabei, dass\nwir in der Dichtung auch in der Musik die Intelli-\ngenz immer mehr eindringt, es gibt keine Frohlocken\nmehr ohne Geist, ohne Formgeist: Talent nicht, Bil-\ndungsgemeint, mitgearbeitet, mir war es, dass\nder Künstler mit 15 Jahr mit dem Talenten berät\nfertig in neue war das Wichtigste als Summa\nsein. Er sagt von sich selbst, dass er mit 15 Jahren\nmit alles Handwerkliche hatte was dadurch dem\nFaszinativen völlig frei war. - Abends dann\nDie Elektra, die mir unermesslich gefiel: süß fiel\nnoch die blinkenden Stellen, jene Begegnung mit viel",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 42,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 43,
+        "transcription": "9 A. wie das Rosenwasser am dürren Thal, wenn\naus Elektra die verschüttete vergewaltete Zartheit\naufblüht - etwas was Hofmannsthal nicht gab und\ner über ihn hinaus fühlte, nur reine Erkennung der\nLyrik, grandiose, sonnige, bemalte Stimmungen\n- das rein Gesangliche daneben etwas erzwungen,\nmehr Psychologie als Urstrom der Melodie. Aber ein\nganzes Werk ein Opus. Schöner Tag, dann noch mit\nLevalarit hilfreich betrachtet.\nSamstag Vormittags Ärgernis durch Briefe Tele-\nfonate, Telegramme, Nervenzerrung, Nachereien\naus allen Unfug. Bei Schwerin, nachmittags\nmit der schönen Lotte S. nach Starnberg, sehr nett\nunterhalten und eigentlich gar nicht dem Datum\neiner verhängnisvollen Woche entsprechend. Abends\ndann still ins Café und von mir erholt. Es ist per\neine reizende Atmosphäre nur auch den gleichen für\nallein zu sein, frage mich eigentlich wozu ich nach\nReichenhall vor dem 25. fahren will, voranige\ngeht, dass ich morgen und übermorgen etwas\nzur Arbeit komme.\nSonntag Erich Mosse, Peter Flamen, sehr nett\nund sympathisch. Er war mir nicht, wohin er\naus sich will. Talent, sehr viel war doch nicht",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 44,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 45,
+        "transcription": "genug, kein Temperament aber auch nicht gebändig.\nAber mir gut war klein mit ihm zu sprechen. Nach-\nmittags weiter M. A.\nMontag M. A. gut gefördert. Abends dann mit\ndem netten Mattson aus dem Café. Furchtbar der\nAnforderungen, dreht Dreht 1 - 1/2 2 ohne Hürden,\ndann künstlich der Weg nach Hause, zerstörung der\nganzen Existenz. Sehr nett mit ihm in der Bar, er\nstammende Conferenz\nDienstag 1. Kapitel fertig. Wieviel werden es\nsein. Ich schätze doch 20, das wären fünf Monate\nArbeit wenn ich das Tempo nicht schärfer nehme,\nwas unbedingt nötig wäre und getan sein würde.\nFreitag auch gleichjahrig Diktat des ersten Teil. Über-\nmittags mit Levalarit der auch in Form ist, abends\nnur noch still ins Café\nMittwoch weiter M. A. Niemanden den ganzen\nTag gesehen, abends zu Fidelio. Blasse Aufführung\nohne besonderen Reiz, die Stimme wie durch eine\nMaschine, auch hat eigentlich die Oper auch noch\nnicht den alten Eindruck gemacht. Die Nummer\nja abgestellt, im Arienhaft - ist ja eine ganze\nStrad ist in Opernform Mozart war bis ein\nDoch nicht gegen die organische Verbundenheit\nStücks, was Wagner nicht fühlte und fand die\nJahrhunderte macht, indem er jene der\ngrosser Tradition waren\nDonnerstag Nichts von Belang. M. A. weiter, die",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 46,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 47,
+        "transcription": "ersten Gratulierbriefe, da freut jener Bahrs, an\nmehrere mit einiger Anstrengung geschrieben, in der\npolaren einiger ohne Bilanz, ich lese all das\nheute. Abends fr. die Sachen im Haus bereits in\nOrdnung - jetzt könnt es nun, daran arbeiten\nFreitag Vormittags quer überwandert gute Auf-\nsatz von Fromhauer, Spaziergang, abends jener Film\naus Russland, der Weg zu Leben?, geniale allver-\nständliche Propaganda mit reifer nationalöko-\nnomischer Symbolik, anwenden eine moralische These\nob Erziehung durch eine Combination von gute und\nKraft mit wunderbarer Psychologie möglich sei: allerdings\nin der entscheidenden Minute knallt auch per der\nRevolver, großartige Hauptsache, intensiv munternd,\naufregend war, das ganze mächtig be-\nplatzend mit ausgeht - ein absoluter Kontrast\nalles Russische geht mir sofort ein und wirkt in\neinem von aller Intellektualität zerstörten Alter\nmeines Herzen ein merkwürdiges Entbrennen: welche\nNaison, welche Kraft! Dann abends Café und nach\nHaus - Blick auf die Uhr, morgen, nein, in einer\nViertelstunde werde ich (grässlich!) fünfzig Jahre\nob je noch ein neues Element bei mir ins Spiel\nkommt? Ob in Reserven, ob die Spannkraft reicht?\nFederemo. Nur aus Kalenderdaten mich aber\nglaubig bezeigen oder mich gesegnet fühlen. Wir\nwarst, auch einmal. Hoffentlich nicht weit, aber\ndie stark anständig.",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 48,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 49,
+        "transcription": "Samstag 28 der letzte Tag. 50. Jahr. Mittags\nbei Alway mit Zichmayer, der uns zwei fa-\nmose Circatnaveln vom Circat Knie mitgab,\nChampagnerlaune des Herrn Alway war toll\nmit gute Laune. Profi geht in Kalatn, ich zum\nCafé, Arbeit nehmen, abends das göttliche Concer\nder 60er Onegin. Welche Stimme, Frank warthy\nwir, rein, vollendend, besonders jene Arie aus\nMacbeth!! Nachher mit Frau Falsi, die wir durch\nZufall treffen.\nSonntag 29 Zurück nach Salzburg, Unzahlige Tele-\ngramme, Briefe, Gedanke, am wohnsten die da\nganz fremden. Abends still im Haus\nMontag, Dienstag, Mittwoch, Donnerstag nichts\nals Posterlesung im Seelenstertempo. An Arbeit\nnicht zu denken. Alles durcheinander weil ich\nam 3 ten in Wien sein will. Abends noch mit\nZammings, sehr froh, der Berenbert hat eine\nPersonenangst in sehr viel Alkohol ertränkt.\n4. Freitag vormittags mit Alfred, mittags\nZuhause, dann der Reich ins bei Zammings\nwo das Diner des Abends auftaucht, Marga\nrethe Meyer, welcher heimlicher Mut, abends\nGerats 42 an Theater wo mit Fräulein Fory\nmann in der Lage zu Hauptmann Gittel. Was\nfür ein interessanter Kopf, welche Hoheit, die ihm",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 50,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 51,
+        "transcription": "mächtig anbringen, der Mund scharf und gut fein\ngekerbt, keine Falten sondern nur Fältchen wie auf\neinem alten Gemälde, elementare Gesundheit. Ein Goethe\ngewirkt in einer erhobenen Form bei lemp beweglichen\nund doch gewaltigen Körper, die Haare schneeweiss\nals flammend weiss Aura - man kann sich kaum\nentziehen daran. Sein erstes merkwürdig gefeiert\nals etwas verworren wie aus einem starken Traum\nheraus. Etwas Entfremdetes darin, nicht etwas blasses.\ndes, auch die Augen tief abergläubisch, aber gleiche\nmit Sätze, er spricht von seinem Verlauf, den er\nüber alles. Liebe war der oft wenig gekannt sei\ndenkt an die Festspiele. Der Abend recht inter-\nessant. Zammings mächtig und zugleich gross\nin der Abweiche, das Breitere, das 90jährige denk-\nchen Wesens, das Trübe kommt herrlich für\nAusdruck. Nachher dann mit Shalom auch (persönlich\nin einer Urwelt) bei Safer und in Bars.\nSamstag 5. Vormittag bei Alfor, mittags Johann\nHauptmann Dejenner bei Safer von Trebbar gege-\nben, Björn Bjornson, sehr sympathisch und lebendig\nabends seine Frau, Hauptmann ein tröstliche An-\nblick, lange Diskussionen mit Falten und anderen,\nabends dann bei Wessel komplizierter Test, eine sehr\nauf leuchtenden Villa, ein reinlich gutes Essen mit cham-\npagnerströmen, alles, ein Dom Hermann und Tänzer",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 52,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 53,
+        "transcription": "Coudenhove war Alban Berg, Moll war selten,\nunerfahren, Ernst Neuert war schöner, Zsolnay\nwar Zsolor, alles was es nun gibt, aber er also\nWerfel, wirklich wie ein kleinerer Componist, altrate-\nrisch in seinem Hausherrn, ein Bändchen wie der Wert\nverbirgt hinter einem kuriosen Antlitz sein Genie -\nsie ändern, wenn nur fällig, ganz Sache des Re-\npräsentation nur als wohlbeachtend. Wiederbar in\nsolchen marmornen Käfig solche Dichterwerke zu schaffen.\nHauptmann, total betrunken, redet in sehr tiefen\nden Wein metaphysischen Stress, verliert den Aratre\nfast wankend aber fällt auf von in diesem Laby-\nrint. Unendlich froh allem und trotz allem diese\neinige Mann\nSonntag Rückfahrt und japanischen Briefe war etwas\nArbeit, nicht zuviel (die nötigen Belastungen) am\nFreitag",
+        "notes": "Handschriftlicher Tagebucheintrag.",
+        "type": "content"
+      },
+      {
+        "page": 54,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 55,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 56,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 57,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 58,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 59,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 60,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 61,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 62,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 63,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 64,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 65,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 66,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 67,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 68,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 69,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 70,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 71,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 72,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 73,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 74,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 75,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 76,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 77,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 78,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 79,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 80,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 81,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 82,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 83,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 84,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 85,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 86,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 87,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 88,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 89,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 90,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 91,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 92,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 93,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 94,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 95,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 96,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 97,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 98,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 99,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 100,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 101,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 102,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 103,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 104,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 105,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 106,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 107,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 108,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 109,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 110,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 111,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 112,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 113,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 114,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 115,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 116,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 117,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 118,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 119,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 120,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 121,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 122,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 123,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 124,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 125,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 126,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 127,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 128,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 129,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 130,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 131,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 132,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 133,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 134,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 135,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 136,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 137,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 138,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 139,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 140,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 141,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 142,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 143,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 144,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 145,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 146,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 147,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 148,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 149,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 150,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 151,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 152,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 153,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 154,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 155,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 156,
+        "transcription": "",
+        "notes": "Kariertes Blatt, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 157,
+        "transcription": "",
+        "notes": "Innere Rückseite des Einbands.",
+        "type": "blank"
+      },
+      {
+        "page": 158,
+        "transcription": "",
+        "notes": "Rückseite des Einbands, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 159,
+        "transcription": "",
+        "notes": "Rückseite des Einbands, kariertes Muster.",
+        "type": "blank"
+      },
+      {
+        "page": 160,
+        "transcription": "Richard Strauss 1935 Juni Brief\nSein Gesicht ist wieder wunderbar gewor-\nden, wie ein roter Apfelchen. Die Augen\nwachs, das Blau darin wieder glanz-\nhaft, er wirkt gutmütiger, gerader\nals vordem, das Alter sieht man eher\nam Gang, die Beine recht steif und aber\ndie Stirn im Vergleich zu dem älteren\nKörper, ein gewisses unsicheres Stehen\nist in seinem Schritt\nTheoretisches, schon war es von Wag-\nner sagt, er sei das Ende, eine Grenze\nüber das niemand werde je mehr\nhinüberstreiten können - er selbst\nhabe einen Umweg darum gemacht.\nDie Symphonie sei seit Beethovens\nMeister zu Ende, wie auch Wagner sagt,\nwohin er habe erkannt, dass das wohl\nnötig ist. Allen andern fehle die letzte\nErnsthaftigkeit, [...]",
+        "notes": "Eingelegtes Manuskript, Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 161,
+        "transcription": "sei nicht mehr {entfaltet} Form, sondern formell\n- in der Variationen nicht, aber\nkeine Fortschritte. Immer wieder betont\ner wie Walter Toscanini, dass die\nMusik sich enthöht hat, er sieht\nkeine Möglichkeit sich zu erneuern. Er\nselbst habe das Konzert vermindert und\nsich immer als Revolutionär betrach-\ntet - in den Symphonien, in bei\nSalome sei es bis nun Antwort gegen\nden - einige seiner Sachen erwar-\nten ihn nicht durch ihre Schwierig-\nkeit, die er auf das dem Hörer\ngestellt hat, lachen tut er, es stol-\nzier fern hin auch als Bolen\nwirkt zu betrachten, weil er ja doch\nein Anführer gewesen sei - es fällt\nich auch mit ihm verständlich\nihm beide Stellung an Conservatorin\nwieder gewahrt. Sinn dagegen den\nkann gegen Farbwaryler, wie unter",
+        "notes": "Eingelegtes Manuskript, Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 162,
+        "transcription": "ein Nasser stärkste Güte aber vielleicht\nUngute geblieben ist; jener Redakteur\nvom Berl. Beob. ist auf eine fatal\nreale Hoff genommen worden, weil er\nauf der Seite Hitlers in seiner Oper\nSache widerriefe. Vor H. hat er einen\ngrossen Respekt, kann ich ansehen\ndurch das Lächeln der Ungaab über\nihn lachen, - er sei gutmütig, er\nlässt es immer wieder, das sauber\nBane, das für alle Welt unverstand\nliebe dabei ist, dass er officiell\ndas Antisemitische acceptiert und\nvorrat auf das Unglaubwürdigste\nArtikel - der Clavierauszug ist\nin Paris von einem Bewunderer\nvon Kapellwerka aus Köln\nWolfes gemacht, der Verleger, der\nTextdichter einfade; er meint an\neine Freude zu machen, denn er\nerzählt, Frau Eoffels finde den\nText entzückend oder an ihm",
+        "notes": "Eingelegtes Manuskript, Seite 3.",
+        "type": "content"
+      },
+      {
+        "page": 163,
+        "transcription": "Evening am offenen Torb weite, am\nmorgten, er werde fünfzig Jahr\nalt werden; bis dahin wird er eine\nandere Textdichter gefunden habe. Ich\nsag ihm dann hoch klar, dass wie\nman in die Hand drehen wird hat\nwar wenn Wilhelm II seinen Denkmal\ndie Autorität durchgesetzt hatte, meiner\nseine Symphonien zur Aufführung zu\nkommen wäre. Er erzählt abwegig\ndass er schon einige seiner Lebens-\ninnerungen geschrieben hat, in denen er\nnicht eine Darstellung seiner Werke\ngeben will, all das aber ganz in\nadel. Er weiss, wer er ist und was\ner kann, ist aber zugleich von einer\nüberwundenden Objectivität gegen sich\nselber; er erzählt, dass er seit dem\nJahr an einer Symphonie fleissig\narbeitet, aber er wird nicht? er\nkönne ohne die Anregung der Arbeit",
+        "notes": "Eingelegtes Manuskript, Seite 4.",
+        "type": "content"
+      },
+      {
+        "page": 164,
+        "transcription": "nicht mehr recht abgerissen componieren,\nihm mache eigentlich erst die Klarung\nhat recht produktiv. Als dramatischer\nunter den Kunden erkennt er nur\nBeethoven (der vom ersten Sinn zu\nzu halten wird/Wagner an uns dann\nsich, (in beinahe ein Missverständnis)\nBei Brahms fehle es ihm vollkommen\nHehler in dem Sprunghaft gut von\nBrahms aufbessern vollkommen der\nSpannung - \"er mache eher\nab\" sagt er / was ihm wachsen ge-\nfällt. Ausdauer keine Ungeduld\nnach Arbeit, er ist das Ganze was\nja noch interessant. Ob er ge-\nfüllt wird oder nicht, sei ihm\ngleichgültig, er habe alles gezeigt\nwas wisse eigentlich gar nicht\nwas damit zu tun, aber bitter\nselbst zeigt er, dass die ganze\nAntwort schwierig die durch das Er-\nlepathie, glaubt aber, dass die wird",
+        "notes": "Eingelegtes Manuskript, Seite 5.",
+        "type": "content"
+      },
+      {
+        "page": 165,
+        "transcription": "dern Sängerinnen mit die schon zurück\nsehen würden, sonst findet er alle die\nAbbildungen gut gelungen, der erste einfi-\nnale im Stile des Rossini. Die Oper ist\nkleiner als Arabella durch das Tempo\ngar noch bedeutender als Rosenkavalier\nobwohl er betont, dass die Leute über\nuns Oper eigentlich gern lang und die\nlangen, auch hat er noch eine dieser\ntive Zapfenformel, die in der\nMinuten alle Motive hier zeigt von\nihm sehr gefällt, vielleicht ein Concert\nmit werden haben, an eine neue\nAufführung glaubt er nicht wegen\nder Teurigkeit, da diese Weingart\nner aber dann so, man in der\nofficiellen Leeren schaft gegen ihn\neingenommen, er behauptet aber,\ndie Elektra sei auf ausdrucksvoll\nWiener von oben gestorben vor\nallem. Seine Anforderung ist er\nstaunlich, er hat von seiner Frau\nda anderen Dinge abgegeben",
+        "notes": "Eingelegtes Manuskript, Seite 6.",
+        "type": "content"
+      },
+      {
+        "page": 166,
+        "transcription": "Telegramm-Formular, leer.",
+        "notes": "Telegrammaufgabeblatt, unbeschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 167,
+        "transcription": "",
+        "notes": "Rückseite des Telegrammaufgabeblatts, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 168,
+        "transcription": "Wünschte ich kleine Couplets, Strophen, hingeschafft -\nalso der Rosenkavalier sei ja lang gewesen. Alles\ngibt bei ihm sehr auf Knappheit des Stils, aber Stil.\nviel von mir leben, seine Art zu arbeiten. Er ist eigent-\nlich arbeitsam, lebt regelmässig ohne jede Erregung\naber immer parat, immer in Form, er \"commentiert\ndie Musik\" frei nach Goethe, das Inspirative gemäß dem\nWerkhaften. Von Inspiration erzählt er wie er den\nTraum durch die Erinnerung schreibt. Seine Frau\nwartete auf ihn wollte nun noch sich zu einem Spa-\nziergang sich anziehen, da blätterte er im Notenbuch\nund schrieb also nieder die Melodie für nur ab\nseine Frau hereinkam und sagte, \"Ich bin fertig\" und\nwortete er, \"Ich auch\". 45 Jahre in dieser Leben für\nkeinen etwas angetan, mit That ist es eine Art Regu-\nlation und Entlastung. Hierfür keine Begeisterung für\nMozart, deren Produktivität er noch heute nicht so\ngreift, für ihn das absolut Göttliche, einmalige. Er\nhat Wagner noch in Wien vor 1882 in Wahnfried\ngesehen, war later, der Oberkommiss hatte noch einen\nConflict, weil es war die anderen stall bewirft\nspielend an in Bayreuth mit jener vollter -\nda doch Wagner in könnte täuscht (er macht\nes famos nach) \"Tret Eure sauren Jahre wo ihr\nwollt\". Brahms hat er auch noch gekannt, wo",
+        "notes": "Notizbuch mit Farbskala für Archivierung.",
+        "type": "content"
+      },
+      {
+        "page": 169,
+        "transcription": "",
+        "notes": "Rückseite des Notizbuchs, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist viele Abkürzungen sowie unkonventionelle Buchstabenverbindungen auf. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tinte schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.3",
+    "total_chars": 33276,
+    "total_words": 5360,
+    "total_pages": 34,
+    "empty_pages": 135,
+    "blank_pages": 135,
+    "color_chart_pages": 0,
+    "content_pages": 34,
+    "input_images": 169,
+    "page_types": [
+      "blank",
+      "content",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      0,
+      9,
+      0,
+      0,
+      59,
+      0,
+      840,
+      0,
+      961,
+      0,
+      935,
+      0,
+      1015,
+      0,
+      1006,
+      0,
+      1141,
+      0,
+      1150,
+      0,
+      1264,
+      0,
+      1088,
+      0,
+      1239,
+      0,
+      1290,
+      0,
+      1307,
+      0,
+      1212,
+      0,
+      1299,
+      0,
+      1251,
+      0,
+      1262,
+      0,
+      1190,
+      0,
+      1157,
+      0,
+      1103,
+      0,
+      1228,
+      0,
+      1326,
+      0,
+      1123,
+      0,
+      1282,
+      0,
+      770,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      707,
+      745,
+      741,
+      738,
+      745,
+      806,
+      25,
+      0,
+      1262,
+      0
+    ],
+    "chars_per_page_median": 1113.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 2,
+    "marker_density": 0.0004,
+    "dwr_score": 0.4658,
+    "duplicate_page_pairs": [
+      [
+        36,
+        167
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      1,
+      4,
+      165
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "duplicate_pages"
+    ]
+  }
+}

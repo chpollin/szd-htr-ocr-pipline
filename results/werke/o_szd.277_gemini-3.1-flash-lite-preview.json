@@ -108,24 +108,27 @@
       {
         "page": 1,
         "transcription": "handschriftl. korrigiert\nund Einschalte\n\nder Fall von Byzanz",
-        "notes": "Deckblatt, handschriftlich mit blauer Tinte."
+        "notes": "Deckblatt, handschriftlich mit blauer Tinte.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Leere Rückseite des Deckblatts."
+        "notes": "Leere Rückseite des Deckblatts.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "1. Erkenntnis der Gefahr.\n\nAm 5. Februar 1451 bringt ein geheimer\nBote dem ältesten Sohn des Sultan Murad, dem ein-\nundzwanzigjährigen Mahomet, nach Kleinasien die\nNachricht, dass sein Vater gestorben sei. Ohne\nseine Minister, seine Berater zu verständigen, {auch nur mit einem Wort}\n{ebenso versklavte wie energische Fürst beste sein}\nwirft sich der ~~ersten einen~~ auf das Pferd ~~und~~,\n{reitet dabei u das herrliche Gebiet}\n~~reiten~~ in einem Zuge die hundertzwanzig Meilen\nbis zum Bosporus und setzt sofort nach Gallipoli\n{auf das europäische Ufer über} ~~erst entbalten~~ den ~~Ictreesten~~\n~~Dort~~ ~~er~~ ~~den Tod seines Va-\nters~~ ~~um~~ ~~jeden~~ ~~andern Thronanspruch eisern\nniederschlagen zu können, auserlesene~~ {und} {mit} {auch tatsächlich}\n~~seien~~, eine gute Truppe {und} ~~begibt sich~~ nach Adrianopel, wo er gehorsam\n{ohne Widerspruch} als Gebieter der von seinem Vater eroberten Rei-\n{ottomanischen} che anerkannt wird. Gleich seine erste Regierungs-\n{Mahomets} handlung zeigt ~~furchtbar~~ rücksichtslose\nEntschlossenheit. ~~um~~ {im voraus jeden Rivalen}\n{beseitigen lässt er}\n{gleichen} Blutes ~~zu~~, ~~ihm sein Reich zu bestreiten~~, seinen\nunmündigen Bruder im Bade ertränken und sofort\ndarauf - auch dies erweist seine vorbedenkende\nSchlauheit in der Wildheit - ~~beseitigen~~ den\n{aus der Welt schaffen, den er zu dieser Tat gezwungen.}\nMörder, ~~den er gezwungen.~~ {hundert}\n\nDie Nachricht, dass {dieser junge lei-}\n{Mahomet nun}\ndenschaftliche, fähige und ruhmgierige {Sultan}\n{durch kurzes Später}\ngeworden, erfüllt Byzanz mit Entsetzen. Denn {sie alle wiss man}\n{der Türken} {dass} dieser Ehrgeizige {geschworen hat,}\ndie einstige Hauptstadt der Welt in seinen Besitz\n{er trotz seiner Jugend, immer an den Plan arbeitet}\nzu bringen, dass ~~er eine~~ {die neue}\n~~er~~ ~~die~~ ~~Stadt~~ ~~in~~ ~~seine~~ ~~Hände~~ ~~zu~~ ~~kriegen~~\n{unermüdlich die Tage und Nächte mit militärischen Erwägungen für diesen seinen Lebensplan verbringt}\n{stellt des alten Murad}",
-        "notes": "Typoskript mit umfangreichen handschriftlichen Korrekturen und Ergänzungen in blauer und schwarzer Tinte sowie Bleistift. Die Anordnung der Einfügungen folgt dem visuellen Bezug zum Text."
+        "notes": "Typoskript mit umfangreichen handschriftlichen Korrekturen und Ergänzungen in blauer und schwarzer Tinte sowie Bleistift. Die Anordnung der Einfügungen folgt dem visuellen Bezug zum Text.",
+        "type": "content"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die Transkription der handschriftlichen Korrekturen auf Seite 3 ist aufgrund der dichten Überlagerungen und der komplexen Einfügungsstruktur teilweise interpretativ."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 2058,
     "total_words": 288,
     "total_pages": 2,

@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Correspondenz-Karte.\nAn\nHerrn Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer",
-        "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 6.10.02. Briefmarke: 5 Heller."
+        "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 6.10.02. Briefmarke: 5 Heller.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Lieber Max, ich kann es dir leider nicht verhehlen,\ndass ich heute abends deinen Bruder abhole, aber ich\nwill auch beweisen. Ich bin nämlich heute ziemlich matt,\netwas ~~f~~[?] krankhaftes! den Auftrag über ~~C~~[?]...[?] rathe\nich die andere Post zu schicken z.B. an die Böhm[e]n,\netwa beim „Prager Tagblatt“ liegt schon ein\nFeuilleton meiner wenigen, das in „leuchtenden A[...2...]“\nhabe gefallen ist. Deinen Brief habe ich dringend\nentgegen. Herzlich und eilig\nStefan",
-        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig, einige Wörter sind schwer lesbar."
+        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig, einige Wörter sind schwer lesbar.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Correspondenz-Karte.\nAn\nHerrn Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer",
-        "notes": "Wiederholung der Adressseite im Kontext der Farbskala."
+        "notes": "Wiederholung der Adressseite im Kontext der Farbskala.",
+        "type": "content"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die Handschrift auf der Textseite ist sehr kursiv und teilweise schwer zu entziffern, insbesondere bei Eigennamen und einigen Wörtern am Zeilenende."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 630,
     "total_words": 94,
     "total_pages": 3,

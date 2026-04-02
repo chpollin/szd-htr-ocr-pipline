@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1423",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Heinrich York-Steiner vom 26. Juli 1929, SZ-SAH/B4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1423/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1423/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1423/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Heinrich York-Steiner vom 26. Juli 1929, SZ-SAH/B4\n- Signatur: SZ-SAH/B4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n\n26. Juli 1929.\n\nLieber und verehrter York-Steiner!\n\nEs ist mir ein schmerzliches Gefühl, Sie so nahe zu wissen\nund nicht sehen zu dürfen, aber Dr. Jellinek, bei dem wir uns in-\nformierten, sagte uns, dass man von Besuchen zunächst absehen soll,\num Sie nicht zu ermüden. Andererseits gab er uns die erfreuliche\nHoffnung, dass Sie in allerkürzester Zeit als vollkommen genesen\nbetrachtet werden können, und diese Mitteilung hat bei meiner Frau\nund mir die äusserste Freude erregt und ich habe sie sofort auch\nmeinem Bruder weitergegeben, der mit lebhaftester Anteilnahme von\nfernher Ihre Rekonvaleszenz verfolgt. Hoffentlich wird es uns bald\nerlaubt sein, Ihnen die Hand drücken zu dürfen.\n\nHeute nur alle Genesungswünsche und herzliche Grüsse\nvon Ihrem ergebenen\n\nStefan Zweig",
+        "notes": "Das Wort 'York' in der Anrede ist handschriftlich über das gedruckte 'Fork' korrigiert (durchgestrichen). Die Unterschrift ist handschriftlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "ZWEIG",
+        "notes": "Rückseite des Briefes, enthält lediglich das handschriftlich notierte Wort 'ZWEIG' in der unteren Mitte.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n\n26. Juli 1929.\n\nLieber und verehrter York-Steiner!\n\nEs ist mir ein schmerzliches Gefühl, Sie so nahe zu wissen\nund nicht sehen zu dürfen, aber Dr. Jellinek, bei dem wir uns in-\nformierten, sagte uns, dass man von Besuchen zunächst absehen soll,\num Sie nicht zu ermüden. Andererseits gab er uns die erfreuliche\nHoffnung, dass Sie in allerkürzester Zeit als vollkommen genesen\nbetrachtet werden können, und diese Mitteilung hat bei meiner Frau\nund mir die äusserste Freude erregt und ich habe sie sofort auch\nmeinem Bruder weitergegeben, der mit lebhaftester Anteilnahme von\nfernher Ihre Rekonvaleszenz verfolgt. Hoffentlich wird es uns bald\nerlaubt sein, Ihnen die Hand drücken zu dürfen.\n\nHeute nur alle Genesungswünsche und herzliche Grüsse\nvon Ihrem ergebenen\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit eingeblendeten Farbkarten/Grauskalen des Archivs.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen maschinengeschriebenen Brief mit handschriftlicher Korrektur und Unterschrift handelt."
+  },
+  "quality_signals": {
+    "version": "1.3",
+    "total_chars": 1607,
+    "total_words": 247,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      801,
+      5,
+      801
+    ],
+    "chars_per_page_median": 801.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5124,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

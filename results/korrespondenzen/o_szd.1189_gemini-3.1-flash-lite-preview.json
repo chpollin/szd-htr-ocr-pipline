@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "42. PALAIS DE VERSAILLES - Petit Trianon. Le Pavillon de la Musique. 3.3. 32",
-        "notes": "Die Datumsangabe '3.3. 32' ist handschriftlich in der rechten unteren Ecke ergänzt."
+        "notes": "Die Datumsangabe '3.3. 32' ist handschriftlich in der rechten unteren Ecke ergänzt.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "liebe Frau Meingast, man\nhat die Maurine bis es\nFrühling wird in das heure\nZimmer, das dickarton ist\nvorzimmer gestellt - bitte\n~~in~~ senden Sie Briefe auf\n~~in~~ wepen bis ich\nvom Zahnarzt komme",
-        "notes": "Die Handschrift ist in violett-grauer Tinte verfasst. Das Wort 'wepen' ist schwer lesbar, könnte auch 'wegen' oder eine andere Ortsangabe sein. Der Text ist in einer flüchtigen Kursivschrift verfasst. Ein Stempel 'EDITION DES MUSÉES NATIONAUX - PALAIS DU LOUVRE - PARIS' ist vorhanden."
+        "notes": "Die Handschrift ist in violett-grauer Tinte verfasst. Das Wort 'wepen' ist schwer lesbar, könnte auch 'wegen' oder eine andere Ortsangabe sein. Der Text ist in einer flüchtigen Kursivschrift verfasst. Ein Stempel 'EDITION DES MUSÉES NATIONAUX - PALAIS DU LOUVRE - PARIS' ist vorhanden.",
+        "type": "content"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die Handschrift ist aufgrund der blassen Tinte und der flüchtigen Schreibweise an einigen Stellen (insbesondere 'wepen'/'wegen') schwer zu entziffern. Die Transkription der gedruckten Teile ist sicher."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 272,
     "total_words": 48,
     "total_pages": 2,

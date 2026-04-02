@@ -1,0 +1,59 @@
+{
+  "object_id": "o_szd.1453",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 21. Mai 1940, SZ-AAP/B3.17",
+    "language": "Englisch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1453/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1453/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1453/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 21. Mai 1940, SZ-AAP/B3.17\n- Signatur: SZ-AAP/B3.17\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n\nMay 21st, 1940.\n\nDr.Stefan Zweig,\nLyncombe Hill,\nBath.\n\nDear Dr.Zweig,\n\nThank you for your letter of the 16th inst.- We have written\nto Dr.Horch as per our draft, and hope to hear from him in due course,when\nwe will, of course,communicate with you again.\n\nWe have to approach you to-day in a rather unpleasant matter,\nin connection with the \"VOLPONE\" film rights. You will remember that we\ndiscussed this matter with you last summer,and that you advised us to make\nit clear to the Theatre Guild that there were two different versions of\n\"VOLPONE\" in existence: the one you wrote in collaboration with Jules Romains\nand which was eventually sold for a film ein France, and the other version\nwritten by you alone, and acquired and performed by the Theatre Guild. This\nwe have done, and have recently sent copy of your letter to the Theatre Guild,\nas they had had trouble with their client,Mr.Hakim,who had acquired an option\non the English film rights,and now asks for the return of the money beacause\nthe French film of \"Volpone\" is being announced by the Ile de France Film Co.\n\nWe are enclosing copy of our reply to the Theatre Guild,which\nwe hope,will find your approval. We must,however,leave it to you to get in\ntouch with the \"Ile de France\" Co.in this matter,as we have had nothing to\ndo with the sale of the French film rights,and have no details available.\n\nPerhaps you will be good enough to let us know what attitude\nyou wish to take,and let us have copy of any letter you may intend to write\nto the Theatre Guild on the matter. We would in fact appreciate it if you\nwould write to the Theatre Guild via this firm,so that we can be fully in-\nformed of any steps that are being taken.\n\nWith kindest regards,\n\nYours sincerely,\nF of the letter received from the Theatre\nGuild to-day,and copy ...\nENCL:\nIMPORTANT.-Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS. for negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.",
+        "notes": "Das Dokument ist ein maschinengeschriebener Geschäftsbrief. Die handschriftlichen Ergänzungen am Ende (vor 'ENCL:') scheinen eine Notiz des Empfängers oder des Büros zu sein. Die Scans 2 und 3 zeigen lediglich die Rückseite bzw. eine mit Farbkarten überlagerte Version des gleichen Dokuments.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klar lesbarer, maschinengeschriebener Geschäftsbrief. Die handschriftlichen Zusätze am Ende sind ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.3",
+    "total_chars": 2407,
+    "total_words": 413,
+    "total_pages": 1,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content"
+    ],
+    "chars_per_page": [
+      2407
+    ],
+    "chars_per_page_median": 2407,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.5023,
+    "duplicate_page_pairs": [],
+    "language_expected": "en",
+    "language_detected": "en",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.1081",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.5106,
+    "category": "consensus_divergent",
+    "pages": [
+      {
+        "page": 0,
+        "cer": 1.5,
+        "agreement": "low",
+        "chars_a": 48,
+        "chars_b": 117
+      },
+      {
+        "page": 1,
+        "cer": 0.1022,
+        "agreement": "low",
+        "chars_a": 186,
+        "chars_b": 184
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.1081",
+    "collection": "korrespondenzen",
+    "group": "korrespondenz",
+    "title": "Postkarte an Max Fleischer vom 5. Juni 1901, SZ-LAS/B3.3",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.5106,
+      "category": "consensus_divergent",
+      "pages": [
+        {
+          "page": 0,
+          "cer": 1.5,
+          "agreement": "low",
+          "chars_a": 48,
+          "chars_b": 117
+        },
+        {
+          "page": 1,
+          "cer": 0.1022,
+          "agreement": "low",
+          "chars_a": 186,
+          "chars_b": 184
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.1081/IMG.1",
+        "transcription_a": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+        "transcription_b": "Correspondenz-Karte.\n\nAn\nMax Fleischer\nstud. jur.\nin Komotau\nNordböhmen\n\n[Vertikal am linken Rand:] Nur für die Adresse",
+        "cer": 1.5,
+        "agreement": "low"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.1081/IMG.2",
+        "transcription_a": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa“ devin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+        "transcription_b": "Lieber Herr Fleischer! Anbei die Recension:\nNatürlich macht es statt „graciöse“ darin\n„graciöse“ hinten. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+        "cer": 0.1022,
+        "agreement": "low"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.1081/IMG.3",
+        "transcription_a": "An\nMax Fleischer\nHud. inr.\nin\nKomotau\nNordböhmen",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "unknown"
+      }
+    ]
+  },
+  "judge_result": null
+}

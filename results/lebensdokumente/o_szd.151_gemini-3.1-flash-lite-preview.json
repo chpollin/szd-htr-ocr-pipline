@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Ihr freundliches Schreiben erreicht mich leider in einer Zeit,\nda mir aus persönlichen Gründen eine wirklich eingehende\nBeantwortung nicht möglich wird.\nWollen Sie dies mit Nachsicht zugute halten\nIhrem ergebenen",
-        "notes": "Gedruckter Text auf einer Karte."
+        "notes": "Gedruckter Text auf einer Karte.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Neungast",
-        "notes": "Handschriftlicher Vermerk auf der Rückseite der Karte."
+        "notes": "Handschriftlicher Vermerk auf der Rückseite der Karte.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "Ihr freundliches Schreiben erreicht mich leider in einer Zeit,\nda mir aus persönlichen Gründen eine wirklich eingehende\nBeantwortung nicht möglich wird.\nWollen Sie dies mit Nachsicht zugute halten\nIhrem ergebenen",
-        "notes": "Wiederholung des gedruckten Textes auf der Karte (im Kontext der Farbkarte/Grauskala)."
+        "notes": "Wiederholung des gedruckten Textes auf der Karte (im Kontext der Farbkarte/Grauskala).",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist klar lesbar, sowohl der Druck als auch die handschriftliche Notiz auf der Rückseite."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 432,
     "total_words": 61,
     "total_pages": 2,

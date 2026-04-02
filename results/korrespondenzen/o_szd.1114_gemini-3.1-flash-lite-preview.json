@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "An\nMax & Victor Fleischer\nin Kornhaus in Böhmen\nWohnung:\n(Straße und Hausnummer.)",
-        "notes": "Adressseite der Postkarte. Stempel: CHARLOTTENBURG 28.12.02. Briefmarke: 5 Pfennig Deutsches Reich."
+        "notes": "Adressseite der Postkarte. Stempel: CHARLOTTENBURG 28.12.02. Briefmarke: 5 Pfennig Deutsches Reich.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Prost, Maxel!\nGrüße der [?]\n[...10...] \n\nProbiestube.\nKantstr. 28.\nDer Anfang in Berlin ist gemacht; aber\ngalt es für Wok. Stefan",
-        "notes": "Bildseite der Postkarte. Der Text ist teilweise schwer lesbar, insbesondere die Zeile unter 'Grüße der'. 'Wok' könnte auch 'Wok.' oder eine Abkürzung sein."
+        "notes": "Bildseite der Postkarte. Der Text ist teilweise schwer lesbar, insbesondere die Zeile unter 'Grüße der'. 'Wok' könnte auch 'Wok.' oder eine Abkürzung sein.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "An\nMax & Victor Fleischer\nin Kornhaus in Böhmen\nWohnung:\n(Straße und Hausnummer.)",
-        "notes": "Dies ist eine Wiederholung der Adressseite im Kontext der Farb- und Grauskala."
+        "notes": "Dies ist eine Wiederholung der Adressseite im Kontext der Farb- und Grauskala.",
+        "type": "content"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die Handschrift auf der Bildseite ist teilweise verblasst oder durch den Untergrund (Bildmotiv) schwer zu entziffern. Die Adressseite ist sehr gut lesbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 291,
     "total_words": 47,
     "total_pages": 3,

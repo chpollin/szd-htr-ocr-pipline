@@ -22,44 +22,51 @@
       {
         "page": 1,
         "transcription": "Wiener Malerei in Zürich, Die Jahrhundertausstellung\n\nDie Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
-        "notes": "Das Dokument enthält zwei Textblöcke. Der obere Teil ist eine einzeilige Notiz, der untere Teil ist ein dreizeiliger Textblock."
+        "notes": "Das Dokument enthält zwei Textblöcke. Der obere Teil ist eine einzeilige Notiz, der untere Teil ist ein dreizeiliger Textblock.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Wiener Malerei in Zürich, Die Jahrhundertausstellung",
-        "notes": "Dies ist ein Ausschnitt des oberen Textblocks aus Seite 1."
+        "notes": "Dies ist ein Ausschnitt des oberen Textblocks aus Seite 1.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Die Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
-        "notes": "Dies ist ein Ausschnitt des unteren Textblocks aus Seite 1."
+        "notes": "Dies ist ein Ausschnitt des unteren Textblocks aus Seite 1.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "Die Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
-        "notes": "Spiegelverkehrte oder durchscheinende Ansicht des Textes von der Rückseite."
+        "notes": "Spiegelverkehrte oder durchscheinende Ansicht des Textes von der Rückseite.",
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "Wiener Malerei in Zürich, Die Jahrhundertausstellung",
-        "notes": "Ausschnitt des oberen Textblocks."
+        "notes": "Ausschnitt des oberen Textblocks.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "Die Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
-        "notes": "Ausschnitt des unteren Textblocks."
+        "notes": "Ausschnitt des unteren Textblocks.",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Wiener Malerei in Zürich, Die Jahrhundertausstellung\n\nDie Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
-        "notes": "Gesamtansicht des Dokuments mit Farb- und Graukarte."
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Graukarte.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar und wiederholt sich in den verschiedenen Scans konsistent."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 562,
     "total_words": 59,
     "total_pages": 7,

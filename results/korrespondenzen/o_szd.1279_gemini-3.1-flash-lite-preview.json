@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "18/1. 31\nPARIS - Palais Royal - Hôtel vu des Jardins LIP\nRoyal Palace, View of the hotel from the gardens\n\nHôtel Beaujolais, 15, Rue du Beaujolais",
-        "notes": "Vorderseite der Postkarte mit gedrucktem Text und handschriftlichem Datum."
+        "notes": "Vorderseite der Postkarte mit gedrucktem Text und handschriftlichem Datum.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Bitte 1 Exemplar auch an verwirrung[?]\nzu senden an\nDr. Paul Schiff\nParis\n14, rue César Franck\n\nLiebe Frau Meingast, adresse\nist also\nPalma di Mallorca\n(Spanien)\nHotel Mediterraneo\nBitte telefonieren Sie es\nauch Herrn Fels, telefonie[?] \nSt. Z\n\nFrau Anna Meingast\nSalzburg (Autriche)\nLinzergasse 16",
-        "notes": "Rückseite der Postkarte. Der Text ist in violetter Tinte geschrieben. Der Poststempel 'PARIS R.P. 17 * I 1931' ist vorhanden. Die Briefmarke zeigt Marcelin Berthelot."
+        "notes": "Rückseite der Postkarte. Der Text ist in violetter Tinte geschrieben. Der Poststempel 'PARIS R.P. 17 * I 1931' ist vorhanden. Die Briefmarke zeigt Marcelin Berthelot.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, einige Wörter wie 'verwirrung' oder 'telefonie' sind aufgrund der flüchtigen Schreibweise leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 444,
     "total_words": 73,
     "total_pages": 2,

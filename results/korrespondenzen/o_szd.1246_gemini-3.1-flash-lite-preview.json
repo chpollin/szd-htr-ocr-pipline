@@ -22,44 +22,51 @@
       {
         "page": 1,
         "transcription": "F.\n\nLieber Victor,\nhier die Karte. Ich hoffe\ndich dort zu sprechen.\nStefan will Mittwoch\nwegfahren, er ist lieb\nund will mich mitnehmen.\nIch hätte dir allerlei zu\nerzählen. Herzlichst\nEmpfehlungen deiner Frau Mama. Friderike",
-        "notes": "Das 'F.' am Anfang ist vermutlich ein Kürzel für Friderike. Die Handschrift ist gut lesbar."
+        "notes": "Das 'F.' am Anfang ist vermutlich ein Kürzel für Friderike. Die Handschrift ist gut lesbar.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Briefbogens, leer."
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "",
-        "notes": "Rückseite des Briefbogens, leer."
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
       },
       {
         "page": 4,
         "transcription": "",
-        "notes": "Rückseite des Briefbogens, leer."
+        "notes": "Rückseite des Briefbogens, leer.",
+        "type": "blank"
       },
       {
         "page": 5,
         "transcription": "Herrn Dr Victor Fleischer\nXIX Billrothstraße\n20",
-        "notes": "Adressseite eines Briefumschlags. Briefmarke 'Kaiserliche Königliche Österreichische Post' mit Stempel 'Wien 15. X. 15'."
+        "notes": "Adressseite eines Briefumschlags. Briefmarke 'Kaiserliche Königliche Österreichische Post' mit Stempel 'Wien 15. X. 15'.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "F.\n2121917",
-        "notes": "Rückseite des Briefumschlags. Die Zahl '2121917' könnte ein Archivvermerk oder ein Datum (21. 2. 1917) sein."
+        "notes": "Rückseite des Briefumschlags. Die Zahl '2121917' könnte ein Archivvermerk oder ein Datum (21. 2. 1917) sein.",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Herrn Dr Victor Fleischer\nXIX Billrothstraße\n20",
-        "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala des Archivs."
+        "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala des Archivs.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist klar lesbar, die Struktur des Briefes und des Umschlags ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 328,
     "total_words": 51,
     "total_pages": 4,

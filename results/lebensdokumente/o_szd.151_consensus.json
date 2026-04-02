@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.151",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.4908,
+    "category": "consensus_divergent",
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.0,
+        "agreement": "high",
+        "chars_a": 212,
+        "chars_b": 212
+      },
+      {
+        "page": 1,
+        "cer": 0.375,
+        "agreement": "low",
+        "chars_a": 8,
+        "chars_b": 9
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.151",
+    "collection": "lebensdokumente",
+    "group": "kurztext",
+    "title": "Abwesenheitsnotiz II, SZ-SAM/L18",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.4908,
+      "category": "consensus_divergent",
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.0,
+          "agreement": "high",
+          "chars_a": 212,
+          "chars_b": 212
+        },
+        {
+          "page": 1,
+          "cer": 0.375,
+          "agreement": "low",
+          "chars_a": 8,
+          "chars_b": 9
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.151/IMG.1",
+        "transcription_a": "Ihr freundliches Schreiben erreicht mich leider in einer Zeit,\nda mir aus persönlichen Gründen eine wirklich eingehende\nBeantwortung nicht möglich wird.\nWollen Sie dies mit Nachsicht zugute halten\nIhrem ergebenen",
+        "transcription_b": "Ihr freundliches Schreiben erreicht mich leider in einer Zeit,\nda mir aus persönlichen Gründen eine wirklich eingehende\nBeantwortung nicht möglich wird.\nWollen Sie dies mit Nachsicht zugute halten\nIhrem ergebenen",
+        "cer": 0.0,
+        "agreement": "high"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.151/IMG.2",
+        "transcription_a": "Neungast",
+        "transcription_b": "Neugast[?]\n\nV",
+        "cer": 0.375,
+        "agreement": "low"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.151/IMG.3",
+        "transcription_a": "Ihr freundliches Schreiben erreicht mich leider in einer Zeit,\nda mir aus persönlichen Gründen eine wirklich eingehende\nBeantwortung nicht möglich wird.\nWollen Sie dies mit Nachsicht zugute halten\nIhrem ergebenen",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "unknown"
+      }
+    ]
+  },
+  "judge_result": null
+}

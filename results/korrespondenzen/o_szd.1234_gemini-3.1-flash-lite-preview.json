@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Elferkofel mit dem Bödensee – Dolomiten. Tirol.",
-        "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text."
+        "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Lieber Victor, Dank für Deinen Brief.\nMir ist's bitter, so Schönes hier zu erle-\nben, indem du mit entsetzlichen Dingen\nzu kämpfen hast. Aber jetzt muss sich ja\nAlles wenden, hoffentlich für immer.\nMit vielen Grüßen Dein\nStefan\n\nBozen\n\nDr. Victor Fleischer\nRoustavin[?] u\nBöhmen\nVilla Hanka",
-        "notes": "Rückseite der Postkarte. Handschriftlicher Text von Stefan Zweig. Der Adressort 'Roustavin' ist schwer lesbar, möglicherweise 'Roustavin' oder ähnlich. Briefmarke und Poststempel vorhanden."
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text von Stefan Zweig. Der Adressort 'Roustavin' ist schwer lesbar, möglicherweise 'Roustavin' oder ähnlich. Briefmarke und Poststempel vorhanden.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Lieber Victor, Dank für Deinen Brief.\nMir ist's bitter, so Schönes hier zu erle-\nben, indem du mit entsetzlichen Dingen\nzu kämpfen hast. Aber jetzt muss sich ja\nAlles wenden, hoffentlich für immer.\nMit vielen Grüßen Dein\nStefan\n\nBozen\n\nDr. Victor Fleischer\nRoustavin[?] u\nBöhmen\nVilla Hanka",
-        "notes": "Identisch mit Seite 2, inklusive Farb- und Grauskala am Rand."
+        "notes": "Identisch mit Seite 2, inklusive Farb- und Grauskala am Rand.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, lediglich der Ortsname in der Adresse ('Roustavin') ist aufgrund der Handschrift leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 627,
     "total_words": 101,
     "total_pages": 3,

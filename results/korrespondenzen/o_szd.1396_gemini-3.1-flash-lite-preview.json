@@ -18,29 +18,40 @@
       {
         "page": 1,
         "transcription": "BISHOP LOYDS HOUSE. CHESTER.\n3828. \n\n[Handschriftlich:]\n\n[...5...] [?]\n\n[...10...]",
-        "notes": "Die handschriftliche Notiz unter 'BISHOP LOYDS HOUSE' ist stark verblasst und schwer lesbar. Die Signatur '3828' ist gedruckt."
+        "notes": "Die handschriftliche Notiz unter 'BISHOP LOYDS HOUSE' ist stark verblasst und schwer lesbar. Die Signatur '3828' ist gedruckt.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "POST CARD—GREAT BRITAIN & IRELAND\nWriting space for Inland use only.\n\nfraülein Eugenie Hirschfeld\nI/1 Mariatheresienstr 30\nb. H. Dr Wolheim\nVienna (Austria)\n\n~~I~~ IX. Nußdorferstrasse 5",
-        "notes": "Die Adresse enthält Korrekturen (durchgestrichenes 'I' und hinzugefügtes 'IX. Nußdorferstrasse 5'). Die Tinte ist violett."
+        "notes": "Die Adresse enthält Korrekturen (durchgestrichenes 'I' und hinzugefügtes 'IX. Nußdorferstrasse 5'). Die Tinte ist violett.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "POST CARD—GREAT BRITAIN & IRELAND\nWriting space for Inland use only.\n\nfraülein Eugenie Hirschfeld\nI/1 Mariatheresienstr 30\nb. H. Dr Wolheim\nVienna (Austria)\n\n~~I~~ IX. Nußdorferstrasse 5",
-        "notes": "Identisch mit Seite 2, inklusive Farbkarten-Referenz."
+        "notes": "Identisch mit Seite 2, inklusive Farbkarten-Referenz.",
+        "type": "content"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die handschriftlichen Notizen auf der Vorderseite der Postkarte sind aufgrund der Verblassung der Tinte nur schwer zu entziffern. Die Adressseite ist gut lesbar."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 454,
     "total_words": 63,
     "total_pages": 3,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
     "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
     "chars_per_page": [
       82,
       186,
@@ -50,6 +61,7 @@
     "marker_uncertain_count": 1,
     "marker_illegible_count": 2,
     "marker_density": 0.0476,
+    "dwr_score": 0.0,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",

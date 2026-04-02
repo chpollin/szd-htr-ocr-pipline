@@ -20,39 +20,54 @@
       {
         "page": 1,
         "transcription": "Herrn\n\nFriedrich Siegbert M e e s\nKapellmeister\n\nB a d e n w e i l e r\n\nDeutschland.                Villa Erhard",
-        "notes": "Adressseite eines Briefumschlags. Maschinenschrift. Poststempel: 'SALZBURG 1 16. V. 27 11'. Briefmarke: Österreich 10g."
+        "notes": "Adressseite eines Briefumschlags. Maschinenschrift. Poststempel: 'SALZBURG 1 16. V. 27 11'. Briefmarke: Österreich 10g.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "SALZBURG\nKAPUZINERBERG 5",
-        "notes": "Rückseite des Briefumschlags mit Logo und Absenderadresse."
+        "notes": "Rückseite des Briefumschlags mit Logo und Absenderadresse.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "SALZBURG\nKAPUZINERBERG\n\n16. Mai 1927.\n\nSehr verehrter Herr Kapellmeister!\n\nVerzeihen Sie, dass ich Ihnen so spät schreibe -\nich wollte es längst schon tun, war nur von vielerlei Ab-\nhaltungen immer wieder abgedrängt, Ihnen das rechte Wort zu\nsagen. Ich bin so sehr für die Wärme, die aus Ihren Worten\nund Ihrem Wesen spricht, empfänglich und wünsche Ihnen von\nferne für Ihr Werk das Allerbeste - ich lebte meine Zeit lie-\nber, wären ein paar Musiker darin, die ich restlos verehre\nkönnte, aber mein Verhältnis zu den gegenwärtigen ist leider\nein recht unsicheres. Mir fehlt vor allem jener ethische\nElan, den wir herrlich noch bei Mahler sahen und den ich\nmenschlich so wunderbar in Busoni erkennen durfte. Mich\nhätte es oft sogar gereizt, etwas für Musik zu schreiben, und\nich habe einiges unter meinen Papieren. Alles blieb aber un-\nausgeführt, weil der elementare Musiker meines Alters fehlte:\neinmal wollte ich mit Oskar Fried etwas gemeinsam machen,\ndoch sein Dirigieren war im wichtiger, und so hat er sein\ngrosses, leidenschaftliches Talent vollkommen zerstört.\nHoffentlich habe ich die Freude, Ihnen zu begegnen:\nich komme öfters nach Leipzig und wenn Sie da von Halle einmal\nherüberkommen wollen, so will ich Sie dann gerne verständigen,\nsobald Sie im Amt und Würden sind.\nMit den besten Grüssen\n\nIhr herzlich ergebener\n\nStefan Zweig",
-        "notes": "Brieftext auf Briefpapier mit Logo. Maschinenschrift, Unterschrift handschriftlich in violetter Tinte."
+        "notes": "Brieftext auf Briefpapier mit Logo. Maschinenschrift, Unterschrift handschriftlich in violetter Tinte.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "",
-        "notes": "Rückseite des Briefbogens, leer (durchscheinender Text des Briefes sichtbar)."
+        "notes": "Rückseite des Briefbogens, leer (durchscheinender Text des Briefes sichtbar).",
+        "type": "blank"
       },
       {
         "page": 5,
         "transcription": "SALZBURG\nKAPUZINERBERG\n\n16. Mai 1927.\n\nSehr verehrter Herr Kapellmeister!\n\n[Farbkarte/Grauskala überdeckt Text]\n\nber, waren ein paar Musiker darin, die ich restlos verehren\nkönnte, aber mein Verhältnis zu den gegenwärtigen ist leider\nein recht unsicheres. Mir fehlt vor allem jener ethische\nElan, den wir herrlich noch bei Mahler sahen und den ich\nmenschlich so wunderbar in Busoni erkennen durfte. Mich\nhätte es oft sogar gereizt, etwas für Musik zu schreiben, und\n\n[Farbkarte/Grauskala überdeckt Text]\n\nherüberkommen wollen, so will ich Sie dann gerne verständigen,\nsobald Sie im Amt und Würden sind.\nMit den besten Grüssen\n\nIhr herzlich ergebener\n\nStefan Zweig",
-        "notes": "Identisch mit Seite 3, jedoch mit aufgelegten Kalibrierungstafeln (Farbkarte/Grauskala) über dem Text."
+        "notes": "Identisch mit Seite 3, jedoch mit aufgelegten Kalibrierungstafeln (Farbkarte/Grauskala) über dem Text.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 2141,
     "total_words": 340,
     "total_pages": 4,
     "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 4,
     "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "content"
+    ],
     "chars_per_page": [
       112,
       24,
@@ -64,6 +79,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.4448,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

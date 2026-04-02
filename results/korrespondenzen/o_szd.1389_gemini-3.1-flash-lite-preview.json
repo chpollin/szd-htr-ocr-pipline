@@ -18,29 +18,40 @@
       {
         "page": 1,
         "transcription": "Verzeihen Sie mir in Ihrer lieben Eile, dass ich Ihnen noch nicht\nschrieb, noch nicht für Ihre herzliche Einladung\ndankte. Aber ich möchte Ihnen gerne auch\nzum Volkstheaterpreis gratulieren und der muss\ndoch bald Ihrem Bruder zufallen. Dann\nhören Sie auch von\nIhrem Stefan Zweig",
-        "notes": "Die Transkription bezieht sich auf den handschriftlichen Text auf der Bildseite der Postkarte."
+        "notes": "Die Transkription bezieht sich auf den handschriftlichen Text auf der Bildseite der Postkarte.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "fräulein\nEugenie Hirschfeld\nVienna (Austria)\nIX. Nussdorferstrasse 5",
-        "notes": "Adressseite der Postkarte. Briefmarke und Poststempel (London 15. Juni 1906) vorhanden."
+        "notes": "Adressseite der Postkarte. Briefmarke und Poststempel (London 15. Juni 1906) vorhanden.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Verzeihen Sie mir in Ihrer lieben Eile, dass ich Ihnen noch nicht\nschrieb, noch nicht für Ihre herzliche Einladung\ndankte. Aber ich möchte Ihnen gerne auch\nzum Volkstheaterpreis gratulieren und der muss\ndoch bald Ihrem Bruder zufallen. Dann\nhören Sie auch von\nIhrem Stefan Zweig",
-        "notes": "Dies ist eine Wiederholung der Bildseite aus Scan 1 im Kontext der Farbtafeln."
+        "notes": "Dies ist eine Wiederholung der Bildseite aus Scan 1 im Kontext der Farbtafeln.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 624,
     "total_words": 98,
     "total_pages": 3,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
     "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
     "chars_per_page": [
       278,
       68,
@@ -50,6 +61,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.4536,
     "duplicate_page_pairs": [
       [
         0,

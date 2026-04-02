@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Correspondenz-Karte.\n\nAn\nHerru Max Fleischer\n\nin Halle a. d. Saale\nMartinsberg 6 I Hstk",
-        "notes": "Adressseite der Postkarte. Der Stempel ist datiert auf den 29.1.04. Die Briefmarke ist eine 5 Heller Marke."
+        "notes": "Adressseite der Postkarte. Der Stempel ist datiert auf den 29.1.04. Die Briefmarke ist eine 5 Heller Marke.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Mein lieber Max, man sollte Dir ja böse sein,\naber es geht doch nicht recht, wenn Du einem\nso liebe und herzliche Karten schreibst, die\ngeradezu Labnise[?] sind inmitten des philoso-\nphischen Foliantenquarkes. Ich höre dass Du ar-\nbeitest: das würde mich herzlich freuen. Und\nnoch mehr, wenn wir uns bald begegneten und\nrespectvoll vor einander die Doktorhüte zögen\n— ach du schönes Traum, du Wunderland, zu\ndem man nur durch Berge von Haut und\nHindern erst durchbeören[?] muss. In alter\nSamuigkeit[?] Dein Stefan",
-        "notes": "Textseite der Postkarte. Handschrift in violetter Tinte. 'Labnise' könnte 'Labnisse' oder eine spezifische Anspielung sein. 'durchbeören' ist schwer lesbar, möglicherweise 'durchbohren' oder 'durchbeissen'. 'Samuigkeit' ist unsicher, könnte 'Traulichkeit' oder 'Herzlichkeit' gemeint sein."
+        "notes": "Textseite der Postkarte. Handschrift in violetter Tinte. 'Labnise' könnte 'Labnisse' oder eine spezifische Anspielung sein. 'durchbeören' ist schwer lesbar, möglicherweise 'durchbohren' oder 'durchbeissen'. 'Samuigkeit' ist unsicher, könnte 'Traulichkeit' oder 'Herzlichkeit' gemeint sein.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Mein lieber Max, man sollte Dir ja böse sein,\naber es geht doch nicht recht, wenn Du einem\nso liebe und herzliche Karten schreibst, die\ngeradezu Labnise[?] sind inmitten des philoso-\nphischen Foliantenquarkes. Ich höre dass Du ar-\nbeitest: das würde mich herzlich freuen. Und\nnoch mehr, wenn wir uns bald begegneten und\nrespectvoll vor einander die Doktorhüte zögen\n— ach du schönes Traum, du Wunderland, zu\ndem man nur durch Berge von Haut und\nHindern erst durchbeören[?] muss. In alter\nSamuigkeit[?] Dein Stefan",
-        "notes": "Identisch mit Seite 2, jedoch mit Farbskala abgebildet."
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala abgebildet.",
+        "type": "content"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere 'Labnise', 'durchbeören', 'Samuigkeit') sind aufgrund der individuellen Schreibweise von Stefan Zweig schwer eindeutig zu identifizieren."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 1113,
     "total_words": 182,
     "total_pages": 3,

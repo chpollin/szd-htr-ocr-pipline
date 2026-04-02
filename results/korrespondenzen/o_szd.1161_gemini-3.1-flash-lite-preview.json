@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "20. 1. 30",
-        "notes": "Datum auf der Bildseite der Postkarte."
+        "notes": "Datum auf der Bildseite der Postkarte.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Liebe Frau Meingast\nhier sieht Willi einen\nTeil des ausgegrabenen\nPompei.\nHoffentlich sind Sie\nbeide wohl. Wir haben\nes sehr schön, auch meist\ngutes, warmes Wetter\nu. sind sehr dankbar\nfür all das Gendrene[?]\nHerzlichst grüßt Sie\nFriderike Zweig\nViele herzliche Grüße Stefan Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
-        "notes": "Die Postkarte enthält einen Poststempel 'POMPEI - PROVINCIA' und zwei italienische Briefmarken. Der Text 'POMPEI. - Foro civile.' ist gedruckt. Das Wort 'Gendrene' ist schwer lesbar, möglicherweise ein Schreibfehler für 'Gedrene' oder 'Gedränge' (im Sinne von Erlebtem/Eindrücken)."
+        "notes": "Die Postkarte enthält einen Poststempel 'POMPEI - PROVINCIA' und zwei italienische Briefmarken. Der Text 'POMPEI. - Foro civile.' ist gedruckt. Das Wort 'Gendrene' ist schwer lesbar, möglicherweise ein Schreibfehler für 'Gedrene' oder 'Gedränge' (im Sinne von Erlebtem/Eindrücken).",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, abgesehen von dem Wort 'Gendrene', das orthographisch unklar ist."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 344,
     "total_words": 53,
     "total_pages": 2,

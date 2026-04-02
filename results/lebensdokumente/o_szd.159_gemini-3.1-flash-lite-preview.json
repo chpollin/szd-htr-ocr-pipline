@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Frau A n n a  M e i n g a s t\n---------------------------\nLinzer Gasse 16, Salzburg.\n\nFrau Anna Meingast, Meine frühere Sekretärin ist von mir er-\nmächtigt, für mich einlangende Sendungen zu über-\nnehmen und Zahlungen entgegenzunehmen oder zu lei-\nsten, und habe ich dieselbe auch der Post gegen-\nüber legitimiert.\n\nStefan Zweig\n\nErneuert für Salzburg, 1. Januar 1936.",
-        "notes": "Das Dokument besteht aus einem maschinengeschriebenen Text, der handschriftlich durch die Anrede 'Frau Anna Meingast,' am Zeilenanfang ergänzt wurde. Die Unterschrift 'Stefan Zweig' ist ebenfalls handschriftlich."
+        "notes": "Das Dokument besteht aus einem maschinengeschriebenen Text, der handschriftlich durch die Anrede 'Frau Anna Meingast,' am Zeilenanfang ergänzt wurde. Die Unterschrift 'Stefan Zweig' ist ebenfalls handschriftlich.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Dokuments, keine Beschriftung erkennbar (Durchdruck der Vorderseite)."
+        "notes": "Rückseite des Dokuments, keine Beschriftung erkennbar (Durchdruck der Vorderseite).",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "",
-        "notes": "Farb- und Graustufen-Referenzkarte, kein historischer Text."
+        "notes": "Farb- und Graustufen-Referenzkarte, kein historischer Text.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist klar lesbar, die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 368,
     "total_words": 61,
     "total_pages": 1,

@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Frau\nA. Meingast\nMauthen i. Gailtal\nPension Panner",
-        "notes": "Adressseite der Postkarte. Die Tinte ist violett. Der Poststempel ist 'SALZBURG 2' vom 19. VIII. 32."
+        "notes": "Adressseite der Postkarte. Die Tinte ist violett. Der Poststempel ist 'SALZBURG 2' vom 19. VIII. 32.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Salzburg, 19. August 1932.\n\nLiebe Frau Meingast\nherzlichen Dank für Ihre freundliche Kar=\nte. Ich freue mich sehr daß Sie sich gut\nerholen. Kommen Sie so spät als möglich:\nEs ist hier unerträglich heiß und überfüllt.\nDie Arbeit geht tadellos weiter: für nächste\nWoche erwarten wir die letzten Fahnen.\nSie werden nur noch den „Umbruch“ erleben!\nAlles Schöne von Ihrem ergebenen\nErwin Rieger",
-        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Die Schrift ist gut lesbar."
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Die Schrift ist gut lesbar.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist klar und gut lesbar. Die Transkription folgt den Regeln der diplomatischen Wiedergabe."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 439,
     "total_words": 71,
     "total_pages": 2,

@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Absender:\n\nPostkarte\n\nAnna Meingast\nbei Zweig\n\nSalzburg\nKapuzinerberg 5",
-        "notes": "Adressseite der Postkarte. Poststempel 'SALZBURG 1 2.IV.35' ist vorhanden."
+        "notes": "Adressseite der Postkarte. Poststempel 'SALZBURG 1 2.IV.35' ist vorhanden.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Liebe Frau Meingast, bitte\nsenden Sie eines der ab-\ngeschriebenen Exemplare\nvon „Rahel rettet mit Gott”\nan\nFräulein Margarete Bach\nWien XVII\nOttakringerstrasse 40\nMit besten Grüßen Z\n\nBitte ein Exemplar des\nErasmus (einfaches Ex)\nan\nDr. Paul Amann\nWien\nXIII\nEiswanggasse 25\n\nStefan Zweig",
-        "notes": "Textseite der Postkarte. Die Unterschrift 'Stefan Zweig' ist rechts unten platziert. Der Zusatz am linken Rand ist in kleinerer Schrift eingefügt."
+        "notes": "Textseite der Postkarte. Die Unterschrift 'Stefan Zweig' ist rechts unten platziert. Der Zusatz am linken Rand ist in kleinerer Schrift eingefügt.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, die Namen und Adressen sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 358,
     "total_words": 54,
     "total_pages": 2,

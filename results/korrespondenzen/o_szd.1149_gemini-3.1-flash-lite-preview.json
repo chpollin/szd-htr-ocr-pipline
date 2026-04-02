@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Vielen Dank\nherzliche Grüße\nGehen Sie bald auf Urlaub.\n[?] Lotte, jedenfalls.\nStefan Zweig\nGrüßen Sie\nvielmals die\nFamilie\n[?] [?] [?]\n\nLondon, den 3.Juli 1937.\n\nLiebe Frau Meingast!\n\nIch schicke Ihnen anbei\nmehrere Beschreibungen, die Belegexemplare\nmit Ausnahme des rumänischen, das ich bereits\nfür Frau Zweig angefordert habe, gehen gleich-\nzeitig ~~an sie~~ {Frau Zweig} ab.\n\nSonst ist nichts zu berich-\nten mit Ausnahme eines Vertrags mit Livraria\nCivilizacao, Porto über die portugiesischen\nRechte für Portugal ausschliesslich für\nMaria Stuart,\nMarie Antoinette\nFouché\nKaleidoskop (nicht alle Erzählungen)\nPhantastische Nacht,\n\nwofür je eine einmalige Zahlung vereinbart wor-\nden ist.\n\nMit den besten Grüssen\nIhre\nLAltmann",
-        "notes": "Die handschriftlichen Notizen am oberen Rand sind in violett geschrieben und teilweise schwer lesbar. Die Korrektur im Text 'an sie' zu 'Frau Zweig' ist ebenfalls handschriftlich eingefügt."
+        "notes": "Die handschriftlichen Notizen am oberen Rand sind in violett geschrieben und teilweise schwer lesbar. Die Korrektur im Text 'an sie' zu 'Frau Zweig' ist ebenfalls handschriftlich eingefügt.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "A",
-        "notes": "Rückseite des Briefes, enthält lediglich ein handschriftliches 'A' in der oberen linken Ecke."
+        "notes": "Rückseite des Briefes, enthält lediglich ein handschriftliches 'A' in der oberen linken Ecke.",
+        "type": "blank"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der maschinengeschriebene Text ist sehr gut lesbar. Die handschriftlichen Anmerkungen am oberen Rand sind aufgrund der kursiven Schrift und der violetten Tinte teilweise unsicher."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 729,
     "total_words": 106,
     "total_pages": 1,

@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "POSTKARTE  CARTE POSTALE  CARTOLINA POSTALE\n\n[Bildmotiv: Brugg]\n\n[Poststempel: ZÜRICH 7-8 30.XI 1932 HAUPTBAHNHOF]\n\n[Briefmarke: HELVETIA 20]\n\nFrau Anna Meingast\nbei Zweig\n\nSalzburg/Österreich/\nKapuzinerberg 5",
-        "notes": "Adressseite der Postkarte. Die Handschrift ist gut lesbar."
+        "notes": "Adressseite der Postkarte. Die Handschrift ist gut lesbar.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Liebe Frau Meingast, ich habe\nden Montagbrief richtig[?] heute\nbekommen nur das Wichtigste\nselbst beantwortet. Jede Liste der\nin der Bibliografie fehlenden Bü-\ncher liegt in der Briefordner ge-\nstellt[?] / etwas / neben dem Sofa.\nDem Italiener schreiben Sie wegen\nd. brennender Zeitschriften[?] ab. Un-\nsere Adresse erfahren Sie sofort\ndurch Telegramme. Wir haben\nwir alles vortrefflich gefaßt.\nMit besten Grüßen an alle\nzu Hause\nStefan Zweig",
-        "notes": "Nachrichtenseite der Postkarte. Die Handschrift ist flüchtig, aber weitgehend gut lesbar. 'richtig' könnte auch 'fertig' bedeuten, 'Zeitschriften' ist eine unsichere Lesung für das Wort nach 'brennender'."
+        "notes": "Nachrichtenseite der Postkarte. Die Handschrift ist flüchtig, aber weitgehend gut lesbar. 'richtig' könnte auch 'fertig' bedeuten, 'Zeitschriften' ist eine unsichere Lesung für das Wort nach 'brennender'.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift von Stefan Zweig ist charakteristisch und gut lesbar. Einige Wörter im Textkörper der Postkarte sind aufgrund der flüchtigen Schreibweise leicht interpretativ, aber im Kontext schlüssig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 651,
     "total_words": 92,
     "total_pages": 2,

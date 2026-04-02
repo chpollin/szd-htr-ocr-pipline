@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Correspondenz-Karte.\n\nAn\nMax Fleischer stud. iur.\nin Komotau\nNordböhmen",
-        "notes": "Adressseite der Postkarte. Poststempel 'KOMOTAU 31.5.01' und 'WIEN 30.5.01' vorhanden."
+        "notes": "Adressseite der Postkarte. Poststempel 'KOMOTAU 31.5.01' und 'WIEN 30.5.01' vorhanden.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "L. g. F! bin Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Bin Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin brief kommt nächster Tage!",
-        "notes": "Textseite der Postkarte. 'L. g. F!' steht vermutlich für 'Lieber guter Freund'. 'Se.' könnte 'Seite' oder 'Sendung' bedeuten."
+        "notes": "Textseite der Postkarte. 'L. g. F!' steht vermutlich für 'Lieber guter Freund'. 'Se.' könnte 'Seite' oder 'Sendung' bedeuten.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "L. g. F! bin Sie nicht bös, dass ich einen so liebens-\nwürdigen Brief noch nicht beantwortet habe. Ich warte\nnämlich auf die Se. des Residenzblattes, wo meine\nBespr. am Samstag erschien; ich möchte es Ihnen\nsenden. Ich schreibe aus der Vorlesung, weil\nich in der Zeit sehr gedrängt bin. Bin Sie ge-\ngrüßt von Ihrem freundschaftlich ergebenen\nStefan Zweig\nEin brief kommt nächster Tage!",
-        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet."
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Abkürzungen (L. g. F., Se., Bespr.)."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 841,
     "total_words": 139,
     "total_pages": 3,

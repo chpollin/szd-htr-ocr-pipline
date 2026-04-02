@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "",
-        "notes": "Vorderseite der Postkarte: Porträtzeichnung von Stefan Zweig."
+        "notes": "Vorderseite der Postkarte: Porträtzeichnung von Stefan Zweig.",
+        "type": "blank"
       },
       {
         "page": 2,
         "transcription": "Lieber verehrter Herr Doktor, der\nprachtvolle Pariser Maler Le Fau-\nconnier war für einige Tage bei\nmir nun hat mir stehendes grosse\nPorträt gemacht das er mir nun\nin kleiner Reproduktion zu senden\nerlaube. Mein neues Buch folgt\nin diesen Tagen nach: die Exemplare\nbummeln langsam auf der Bahn\nvon Leipzig sicher. Hoffentlich geht\nes den Ihren nur Ihnen gut in diesen\nwenig erbaulichen Zeiten. In inniger\nErgebenheit Ihr Stefan Zweig\n\n[Adressfeld:]\nHerrn Ami Kaemmerer\nHamburg\nMusenhaus[?] 35",
-        "notes": "Die Handschrift ist flüssig, aber stellenweise eng. Der Poststempel 'SALZBURG 16. X. 22' ist über den Text gestempelt. Das Wort 'Musenhaus' ist aufgrund der Handschrift und des Kontexts unsicher."
+        "notes": "Die Handschrift ist flüssig, aber stellenweise eng. Der Poststempel 'SALZBURG 16. X. 22' ist über den Text gestempelt. Das Wort 'Musenhaus' ist aufgrund der Handschrift und des Kontexts unsicher.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, trotz der Überlagerung durch den Poststempel. Die Identifikation der Eigennamen (Le Fauconnier, Ami Kaemmerer) ist durch den historischen Kontext gesichert."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 492,
     "total_words": 78,
     "total_pages": 1,

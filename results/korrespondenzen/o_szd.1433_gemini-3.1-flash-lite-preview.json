@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1433",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Friderike Zweig vom 13. Mai 1932, SZ-AAP/B11.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1433/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1433/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1433/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Friderike Zweig vom 13. Mai 1932, SZ-AAP/B11.2\n- Signatur: SZ-AAP/B11.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 13. Mai 1932.\n\nLiebe Fritzi!\nBis heute Freitag, ist ausser Deiner Karte noch nichts\neingetroffen (eben Dein Brief!) Ich schicke Dir einen Brief von\nBarbra Ring nach. Alix ist heute auf Urlaub gefahren und kommt\nerst Dienstag zurück, so dass ich inzwischen die Post für Dich\nübermittle. Zu meiner Freude kommt wahrscheinlich morgen oder\nübermorgen Friedenthal für acht Tage her, so dass meine Bildung\nkräftige Fortschritte machen wird. Gestern abends war ich mit\nZuckmayer und Jannings sehr vergnügt zusammen, es {besteht} also keine Ge-\nfahr ist, dass ich mich langweile. Von Florenz sind schöne Foto-\n\nfür R. Friedenthal",
+        "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die letzte Zeile 'für R. Friedenthal' ist handschriftlich am unteren Rand hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "grafien gekommen, ein Porträt aus einer italienischen Zeitung\nlege ich Dir bei und bitte, es mir dann wieder zurückzubringen.\nHerzlichst\nStefan\n\nBitte mir Deinen Ankunft- nur Abfahrts daten genau und\nrechtzeitig mitzuteilen.",
+        "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichem Nachsatz in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "grafien gekommen, ein Porträt aus einer italienischen Zeitung\nlege ich Dir bei und bitte, es mir dann wieder zurückzubringen.\nHerzlichst\nStefan\n\nBitte mir Deinen Ankunft- nur Abfahrts daten genau und\nrechtzeitig mitzuteilen.",
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala für Archivierung am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in violetter Tinte sind eindeutig Stefan Zweigs Handschrift zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.3",
+    "total_chars": 1098,
+    "total_words": 166,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      650,
+      224,
+      224
+    ],
+    "chars_per_page_median": 224,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.454,
+    "duplicate_page_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

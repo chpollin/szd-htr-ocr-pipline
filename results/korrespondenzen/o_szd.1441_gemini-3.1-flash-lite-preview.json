@@ -1,0 +1,80 @@
+{
+  "object_id": "o_szd.1441",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Berthold Viertel vom [September 1941], SZ-AAP/B9",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1441/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1441/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1441/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Berthold Viertel vom [September 1941], SZ-AAP/B9\n- Signatur: SZ-AAP/B9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                     undatiert\nBrasilien\n(Rio?) 1941\n\nLieber Viertel, ich habe keine Nachricht von Ihnen. Hier\nist es herrlich, die zauberhafteste Stadt der Erde, billig, farbig, die\n{Menschen von res} groesste Courtoisie - waere die Sommerhitze nicht acht Monate, ich moechte\nnur hier leben. Alle Emigranten sind hier gluecklich und ich glaube,\nhier wird nie etwas geschenmdass in dieser Richtung geht {das}\nbiblische Salz in seiner Schaerfe unter. Ich bleibe hier jedenfalls\nbis Anfang October, soll dann weiter nach Uruguay, Argentinien, Chile, Ve-\nnezuela, vorlesen - in spanisch. Vielleicht, wenn es gelingt oder in Europa\nwieder Ruhe ausbricht, komme ich schon frueher, es steckt in mir doch\nein gutes Stueck Muedigkeit. Herzlichst Ihr\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die handschriftliche Einfügung '{Menschen von res}' am linken Rand bezieht sich auf die Zeile 'groesste Courtoisie'. Das Wort 'das' wurde handschriftlich über der Zeile eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (Durchschlag/Abdruck des Typoskripts erkennbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "                                     undatiert\nBrasilien\n(Rio?) 1941\n\nLieber Viertel, ich habe keine Nachricht von Ihnen. Hier\nist es herrlich, die zauberhafteste Stadt der Erde, billig, farbig, die\n{Menschen von res} groesste Courtoisie - waere die Sommerhitze nicht acht Monate, ich moechte\nnur hier leben. Alle Emigranten sind hier gluecklich und ich glaube,\nhier wird nie etwas geschenmdass in dieser Richtung geht {das}\nbiblische Salz in seiner Schaerfe unter. Ich bleibe hier jedenfalls\nbis Anfang October, soll dann weiter nach Uruguay, Argentinien, Chile, Ve-\nnezuela, vorlesen - in spanisch. Vielleicht, wenn es gelingt oder in Europa\nwieder Ruhe ausbricht, komme ich schon frueher, es steckt in mir doch\nein gutes Stueck Muedigkeit. Herzlichst Ihr\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.3",
+    "total_chars": 1542,
+    "total_words": 224,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      771,
+      0,
+      771
+    ],
+    "chars_per_page_median": 771.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.4587,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

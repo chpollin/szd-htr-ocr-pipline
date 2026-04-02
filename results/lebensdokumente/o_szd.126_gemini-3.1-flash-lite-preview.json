@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "                                     unbezahlt\n                                     März 40\n\nV e r t r a g\n--------------\n\nZwischen Herrn Dr. Stefan Zweig, 49 Hallam Street,\nLondon W.1. und Herrn Eugen Relgis, Strada A.no.24,\nParcul \"Mica\", Bukarest ist nachstehende Vereinbarung\ngetroffen worden:\n\nHerr Dr. Zweig überlässt Herrn Relgis die rumänischen\nBuchrechte für sein Buch\n\n\"Heilung durch den Geist\"\n\ngegen eine einmalige Abfindung von\n\n£ 35 (fünfunddreissig Pfund Sterling)\n\nDieses Honorar ist bei Vertragsabschluss fällig,\nund der Vertrag tritt erst nach Zahlung dieses Be-\ntrages in Kraft.\n\nFalls dieses Buch nicht innerhalb von zwei Jahren\nnach Vertragsabschluss erschienen ist oder nach\nAusverkauf einer Auflage nicht innerhalb eines\nhalben Jahres eine neue Auflage in Angriff genom-\nmen ist, fallen die Rechte an den Verfasser zurück.\n\nBei Erscheinen der rumänischen Ausgabe sind Herrn\nDr. Zweig zwei Belegexemplare zu übersenden.\n\nLondon, den 25. Juli 39... Bukarest, den 2. August 1939\nStefan Zweig. . . . . . . . . . . . . . . Eugen Relgis . . . .",
-        "notes": "Das Dokument ist ein Typoskript-Durchschlag. Die handschriftlichen Ergänzungen (Datum, Unterschriften, Notiz oben) wurden gemäß den Anweisungen integriert. Die Punkte hinter den Unterschriften und Datumsangaben sind als Platzhalter im Original vorhanden."
+        "notes": "Das Dokument ist ein Typoskript-Durchschlag. Die handschriftlichen Ergänzungen (Datum, Unterschriften, Notiz oben) wurden gemäß den Anweisungen integriert. Die Punkte hinter den Unterschriften und Datumsangaben sind als Platzhalter im Original vorhanden.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Dokuments, leer."
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "",
-        "notes": "Rückseite des Dokuments mit Farb- und Graukarte, kein Text."
+        "notes": "Rückseite des Dokuments mit Farb- und Graukarte, kein Text.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist trotz des Durchschlag-Charakters sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig den genannten Personen zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 1061,
     "total_words": 161,
     "total_pages": 1,

@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Correspondenz-Karte\n\nAn\n~~Herrn~~ Herrn Max Fleischer\nLeipzig\nMünzgasse 16",
-        "notes": "Adressseite der Postkarte. Der Name 'Max Fleischer' ist unterstrichen. Ein Poststempel 'LEIPZIG 5 12 01' ist vorhanden."
+        "notes": "Adressseite der Postkarte. Der Name 'Max Fleischer' ist unterstrichen. Ein Poststempel 'LEIPZIG 5 12 01' ist vorhanden.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20",
-        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig. 'Langentour' und 'Kantgewalt' sind unsicher gelesen. 'Gutes' ist ebenfalls unsicher."
+        "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig. 'Langentour' und 'Kantgewalt' sind unsicher gelesen. 'Gutes' ist ebenfalls unsicher.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Lieber Max! Du bist zwar ein elender Kerl, der mir\nseit drei Wochen nicht geschrieben hat, aber ich habe dich\ndoch so gern um mich auf den Langentour[?] Kantgewalt[?]\nzu halten. Meine Kritik über dich vor 3 Wochen\n~~erschienen~~, ich erwarte täglich das versprochene ein-\nmal schon verlorene Belegexemplar. Und schreib mir\neinen Brief zu frankierenden Brief, wie dies\ngeht nur Gutes[?] es dein\n\nStefan\nII Schwarzspanierstr 20",
-        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskalen-Referenzkarten abgebildet."
+        "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskalen-Referenzkarten abgebildet.",
+        "type": "content"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Textkörper der Postkarte). Die Lesung der Ortsangabe und der Anrede ist sicher."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 924,
     "total_words": 145,
     "total_pages": 3,

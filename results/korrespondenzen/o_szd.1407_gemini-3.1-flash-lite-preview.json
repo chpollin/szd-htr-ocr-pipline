@@ -20,39 +20,54 @@
       {
         "page": 1,
         "transcription": "VIII. KOCHGASSE\nWIEN,\n\nLieber Freund, gestatten Sie mir\nin aller Herzlichkeit eine Gegen-\nrede zu Ihren Worten über Romain\nRolland. Niemand war in diesem\nKriege gerechter als er, sein Zorn\ngalt der (vom Bureau Wolff verbrei-\nteten) Lüge, Löwen sei „vom Erdboden\nverschwunden“, seine Liebe zu Deutsch-\nland, unentwegt in deren Tagen noch\nbekundet, hat ihn jetzt in Frankreich\nzum verhasstesten Menschen gemacht.\nLange, lange nach dieser Zeit wird erst\ndie ungeheure ~~[...1...]~~ Aufopferung die-\nses moralischen Helden sichtbar wer-\nden: ich darf heute nicht öffentlich\nsie bezeugen, aber meinen Freunden",
-        "notes": "Briefkopf gedruckt. Handschrift in violetter Tinte. Das Wort 'ungeheure' ist durchgestrichen, danach folgt ein unleserliches Wort, das ebenfalls durchgestrichen scheint."
+        "notes": "Briefkopf gedruckt. Handschrift in violetter Tinte. Das Wort 'ungeheure' ist durchgestrichen, danach folgt ein unleserliches Wort, das ebenfalls durchgestrichen scheint.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "will ich doch in den Arm fallen, wenn\nsie ihn gegen ihn erheben. Niemand\nhat hier seine herrlichen Essays im\n„Journal de Genève“ gelesen, jeder nur\njenen einen Brief der Anwallung. Ich\nbitte Sie, mir zu glauben und jenen\nNamen immer nur mit höchster Ach-\ntung und Bewunderung zu nennen.\nEine Bitte noch: könnten Sie\nFrau Schnitzler ein paar schöne Verton-\n„nungen“ [?] [?]-chens nennen ausser\nden zwei Brahmsliedern? Sie war so\ngütig, ihre Mithilfe an einem L. Abend\nzu versprechen, den wir jetzt als Re-\nquiem für einen abhalten, der für die-\nsen Krieg zu früh gestorben ist.\nIch würde mich so sehr freuen\nSie einmal mit Ihrer lieben Frau\nbeim Thee zu haben: sagen Sie mir\nselbst, bitte, zwei drei Tage vorher,",
-        "notes": "Die Anführungszeichen bei 'nungen' sind im Original vorhanden. Das Wort 'L.' steht vermutlich für 'Lieder' oder einen Namen."
+        "notes": "Die Anführungszeichen bei 'nungen' sind im Original vorhanden. Das Wort 'L.' steht vermutlich für 'Lieder' oder einen Namen.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "wann es Ihnen recht ist oder ich bitte\nnoch einen oder den andern Freund\ndazu. Ich reise jetzt bei Militär, bin\nvorläufig dem Kriegsarchiv zugeteilt\nund habe dort schweren und schönen\nDienst. Aber von 4 Uhr an bin ich\ndoch immer frei.\nGedenken Sie gut Ihres herz-\nlich ergebenen\n\nStefan Zweig\n\n173 STEMR",
-        "notes": "Die Zahl '173' und 'STEMR' am unteren Rand sind vermutlich Archivvermerke."
+        "notes": "Die Zahl '173' und 'STEMR' am unteren Rand sind vermutlich Archivvermerke.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "",
-        "notes": "Rückseite des Briefbogens, leer bis auf leichte Durchdruckspuren und einen Tintenfleck."
+        "notes": "Rückseite des Briefbogens, leer bis auf leichte Durchdruckspuren und einen Tintenfleck.",
+        "type": "blank"
       },
       {
         "page": 5,
         "transcription": "",
-        "notes": "Scan zeigt den Briefbogen mit aufgelegter Farb- und Grauskala zur Kalibrierung."
+        "notes": "Scan zeigt den Briefbogen mit aufgelegter Farb- und Grauskala zur Kalibrierung.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz der violetten Tinte und einiger kleinerer Tintenflecken. Die Struktur des Briefes ist klar erkennbar."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 1618,
     "total_words": 268,
     "total_pages": 3,
     "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
     "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
     "chars_per_page": [
       604,
       711,
@@ -64,6 +79,7 @@
     "marker_uncertain_count": 2,
     "marker_illegible_count": 1,
     "marker_density": 0.0112,
+    "dwr_score": 0.4924,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

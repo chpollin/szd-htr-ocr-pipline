@@ -66,19 +66,26 @@
       {
         "page": 1,
         "transcription": "Adam Lux an seine Freunde Gnadet und Pétion 6. Juni 1793.\n\n\"Ich theile Ihnen hier meinen, seit dem 1. Juni gefassten\nEntschluss mit. Der heftige Unwille, den ich gegen den Triumph\ndes Verbrechens empfinde, und die Hoffnung, dass mein Tod in\neiner solchen Krisis einiges Aufsehen unter den Bürgern erre-\ngen und vielleicht die gänzliche Auflösung des Konvents verhin-\ndern werde, haben mich bestimmt, mein Blut zu opfern und mein\nschuldloses Leben durch einen Tod zu beschliessen, welcher der\nFreiheit mehr Nutzen bringen wird, als es je mein Leben vermöch-\nte. Das ist der erste und entscheidende Beweggrund. Der andere\nist, das Andenken meines Lehrers J.J. Rousseau durch einen Akt\ndes Patriotismus zu ehren, erhaben über jede Verleumdung und\njeden Verdacht. Es ist wahr, ich lasse meine Frau und meine bei-\nden Töchter ohne Stütze zurück, und (da der Krieg mein Besitz-\nthum zerstörte) fast ohne Brod. Aber die sterbende Freiheit\nmag ich nicht überleben und wenn sie triumphiert, wird hoffent-\nlich der Konvent, indem er die Beweggründe meines Schrittes wür-\ndigt, niemals meine Frau und Kinder vergessen. Ich hinterlasse\ndem Konvent eine Denkschrift, die ich Ihnen aber nicht mitthei-\nle, damit die Verleumdung nicht behaupten kann, Sie seien dabei\nbeteiligt gewesen. Meine Betrachtungen stammen ebenso ganz\nallein von mir, wie mein Entschluss zu sterben, den nur ein\ndurchaus unabhängiger Geist fassen und ausführen kann. Ich gehö-\nre dem Gemeinwesen, nicht einer Partei, und ich würde aufhören\nSie zu achten, wenn Sie einer andern Partei dienten, als der\ndes öffentlichen Wohles, für welches Sie und Ihresgleichen gegen-\nwärtig leiden.\nIch grüsse herzlich den tugendhaften Roland, den muthigen\nVergniaud, die Republikaner Brissot und Gensonné. Schade, dass\nes mir nicht vergönnt war, ihre Bekanntschaft zu machen, dennoch\nhoffe ich, ihre Achtung, wie die ihrer republikanischen Freunde\nzu verdienen. Ausser ihr aber genügt mir die Zustimmung meines\nGewissens, die ich mit mir nehme, um mich ihrer in einer anderen\nWelt zu erfreuen.\nIch grüsse Ihre Frauen und umarme Ihre Kinder.\nAdam Lux",
-        "notes": "Die Transkription umfasst den Text auf dem ersten Blatt. Die Rückseite (IMG_2) ist ein Durchschlag des Textes."
+        "notes": "Die Transkription umfasst den Text auf dem ersten Blatt. Die Rückseite (IMG_2) ist ein Durchschlag des Textes.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist klar lesbar, da es sich um ein sauberes Typoskript handelt."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 2092,
     "total_words": 329,
     "total_pages": 1,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 1,
     "input_images": 51,
+    "page_types": [
+      "content"
+    ],
     "chars_per_page": [
       2092
     ],
@@ -86,6 +93,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.5015,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

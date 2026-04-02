@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Liebe Frau Meingast, besten Dank für\nIhre Nachrichten. Von Sotheby[?] dachte\nich wäre die Originalfassung bitten[?],\num sie von hier begleiten zu können,\nsonst alles in Ordnung. Die Rota-\nsitzinken[?] Rechte hat schon vergeben.\nIch danke Ihnen für die verläss-\nliche Besorgung, ich bin völlig\nruhig und ohne Ungeduld nach\nPost, und heute höre ich erst,\ndass ein Interview von mir in\neiner Pariser Zeitung stehen soll,\nwahrscheinlich wieder etwas Unfin-\ndetes und Peinliches. Zu\nwarren[?] sie sobald vielmals. Stefan Zweig",
-        "notes": "Die Handschrift ist flüchtig. 'Sotheby' ist eine Vermutung aufgrund des Kontextes. 'Rotasitzinken' ist schwer lesbar, möglicherweise ein Eigenname oder ein Fachbegriff für Rechte. 'Zu warren sie sobald vielmals' ist syntaktisch unklar."
+        "notes": "Die Handschrift ist flüchtig. 'Sotheby' ist eine Vermutung aufgrund des Kontextes. 'Rotasitzinken' ist schwer lesbar, möglicherweise ein Eigenname oder ein Fachbegriff für Rechte. 'Zu warren sie sobald vielmals' ist syntaktisch unklar.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Noch eines: wenn persönliche\nAngriffe in deutschen Ausblättern\nsind, bitte schonen Sie mich und\nsondern senden Sie sie mir. Es ist\ngegen Berichtigungen etc. nötig.\n\nFrau Anna Meingast\nbei Zweig\nSalzburg (Österreich)\nKapuzinerberg 5",
-        "notes": "Postkarte mit Stempel 'MONTREUX 6. X 1933'. Die Adresse ist deutlich lesbar."
+        "notes": "Postkarte mit Stempel 'MONTREUX 6. X 1933'. Die Adresse ist deutlich lesbar.",
+        "type": "content"
       }
     ],
     "confidence": "medium",
     "confidence_notes": "Einige Wörter im Fließtext der ersten Seite sind aufgrund der kursiven, schnellen Handschrift und der Tinte schwer zu entziffern (insb. 'Rotasitzinken' und 'warren')."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 752,
     "total_words": 115,
     "total_pages": 2,

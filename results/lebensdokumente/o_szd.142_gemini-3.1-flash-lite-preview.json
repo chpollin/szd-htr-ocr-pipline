@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "DR. PHIL. STEFAN ZWEIG\n\nWIEN\nI. RATHHAUSSTRASSE 17.",
-        "notes": "Es handelt sich um eine spiegelverkehrte Druckmatrize. Die Transkription gibt den lesbaren Text im korrekten Schriftsinn wieder."
+        "notes": "Es handelt sich um eine spiegelverkehrte Druckmatrize. Die Transkription gibt den lesbaren Text im korrekten Schriftsinn wieder.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite der Druckmatrize, keine Beschriftung erkennbar."
+        "notes": "Rückseite der Druckmatrize, keine Beschriftung erkennbar.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "DR. PHIL. STEFAN ZWEIG\nWIEN\nI. RATHHAUSSTRASSE 17.",
-        "notes": "Gesamtansicht mit Farbskala. Der Text auf der Matrize ist spiegelverkehrt abgebildet, hier in korrekter Lesart transkribiert."
+        "notes": "Gesamtansicht mit Farbskala. Der Text auf der Matrize ist spiegelverkehrt abgebildet, hier in korrekter Lesart transkribiert.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist kurz, eindeutig und entspricht den Angaben in den Metadaten."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 101,
     "total_words": 16,
     "total_pages": 2,

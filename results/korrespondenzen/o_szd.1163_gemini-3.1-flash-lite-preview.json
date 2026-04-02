@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "25. X. 34\nFr. Zweig\n\nWien, Panorama mit Hochhaus\n207",
-        "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notizen oben rechts und links, gedruckter Text unten."
+        "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notizen oben rechts und links, gedruckter Text unten.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "liebe Frau Meingast, wegen\nVersagen der Füllfeder mit\ndiesen Bleistiftgrüßen herzliche\nGrüße und Dank für Ihr Mitteilungen.\nBin neugierig\nab ich wieder Arbeit vorfinde\nund hoffentl. keine versäumt\nhabe. Ich werde Samstag\nzuhause sein und hoffe\nSie beide wohl zu finden.\nVon Luse einen Gruß u.\nalles Gute von Ihrer\nFriderike Zw.\n\nFrau\nanna Meingast\nSalzburg\nKapuzinerberg\nVilla Zweig",
-        "notes": "Rückseite der Ansichtskarte. Der Text ist in violettem Bleistift geschrieben. Die Adresse ist rechtsbündig angeordnet. Die Briefmarke (Österreich, 12 Groschen) ist oben rechts aufgeklebt."
+        "notes": "Rückseite der Ansichtskarte. Der Text ist in violettem Bleistift geschrieben. Die Adresse ist rechtsbündig angeordnet. Die Briefmarke (Österreich, 12 Groschen) ist oben rechts aufgeklebt.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz der Verwendung eines Bleistifts. Die Abkürzungen (Fr., hoffentl., u., Zw.) sind im Kontext eindeutig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 434,
     "total_words": 69,
     "total_pages": 2,

@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Zwischen Herrn Dr. Stefan Zweig, 49 Hallam Street, London W.I\nund Eugen Relgis, Strada A.no.24, Parcul Mica, Bucarest (4), ist\nnachstehende Vereinbarugg getroffen worden:\nDr. Stefan Zweig überlässt die rumänischen Buchrechte an\nMAGELLAN Herrn Eugen Relgis gegen eine einmalige Zahlung von\n400 ~~verlart~~ \n300 (dreihundert) oesterreichischen Schillingen oder den\nGegenwert dieser Summe in englischen Pfunden.\nFalls das Buch nicht innerhalb von zwei Jahren erscheint,\nfallen die Rechten an den Verfasser zurück.\nBei Erscheinen der MAGELLAN sind Dr. Stefan Zweig zwei\ngebundene Exemplare zu übersenden.\nDas Honorar ist bei Abschluss des Vertrags zu erlegen und\nder Vertrag selbst tritt mit der Ueberweisung dieses Betrages\nin Kraft.\n\nLondon, den 6. Dezember 1937      Bucarest, den 2. Dezember 1937\n\nStefan Zweig                      Eugen Relgis\n\n                                  Ich bin einverstanden dass ich\n                                  Herrn Stefan Zweig 400 (vierhundert)\n                                  oesterreichischen Schillingen für\n                                  die rumänischen Buchrechte an\n                                  Magellan zahlen soll.\n                                  Eugen Relgis\n                                  Bucarest, den 22 Dezember 1937",
-        "notes": "Das Dokument enthält handschriftliche Korrekturen in violetter Tinte (die Zahl 400 über 300, Durchstreichung). Die Unterschriften und der untere Absatz sind ebenfalls handschriftlich."
+        "notes": "Das Dokument enthält handschriftliche Korrekturen in violetter Tinte (die Zahl 400 über 300, Durchstreichung). Die Unterschriften und der untere Absatz sind ebenfalls handschriftlich.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Dokuments, leer (Durchschlag-Abdruck schwach sichtbar)."
+        "notes": "Rückseite des Dokuments, leer (Durchschlag-Abdruck schwach sichtbar).",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "",
-        "notes": "Rückseite mit Farbskala, leer."
+        "notes": "Rückseite mit Farbskala, leer.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist trotz der handschriftlichen Korrekturen und der Durchschlag-Qualität sehr gut lesbar. Die Korrekturen wurden originalgetreu übernommen."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 1281,
     "total_words": 146,
     "total_pages": 1,

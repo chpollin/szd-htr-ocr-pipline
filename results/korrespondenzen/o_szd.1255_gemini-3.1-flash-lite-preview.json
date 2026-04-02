@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "KAPUZINERBERG 5\nSALZBURG\n27. Dez. 1927.\n\nLieber Max!\n\nIch habe Reclams Universum, das mich bat, in einer\nSehnzeilen-Kritiken zu schreiben, Dein Buch vorgeschla-\ngen und glücklicherweise war es noch nicht vergeben. Bitte, sende\nmir nun allenfalls ein Bildnis, weil diese zwar sehr kurzen,\naber sehr wirksamen Kritiken meistens das Bildnis des Ver-\nfassers bringen. So kommt, grauhaarig, Dein Antlitz in die\nOeffentlichkeit und hoffentlich vielen Menschen näher.\n\nHerzlichst Dein\n\nStefan Zweig",
-        "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte. Das Wort 'Zehnzeilen' wurde im Original als 'Sehnzeilen' getippt (Tippfehler)."
+        "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte. Das Wort 'Zehnzeilen' wurde im Original als 'Sehnzeilen' getippt (Tippfehler).",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite."
+        "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "KAPUZINERBERG 5\nSALZBURG\n27. Dez. 1927.\n\nLieber Max!\n\nHerzlichst Dein\n\nStefan Zweig",
-        "notes": "Scan mit Farb- und Graustufen-Referenzkarten. Der Textkörper fehlt hier, da er durch die Farbkarte verdeckt ist."
+        "notes": "Scan mit Farb- und Graustufen-Referenzkarten. Der Textkörper fehlt hier, da er durch die Farbkarte verdeckt ist.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Maschinenschrift handelt. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 574,
     "total_words": 83,
     "total_pages": 2,

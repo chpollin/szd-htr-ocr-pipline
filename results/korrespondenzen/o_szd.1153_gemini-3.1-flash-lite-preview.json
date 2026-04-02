@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Montag,\nLiebe Frau Meingast,\nbei Dr Junger hat sich herausgestellt,\ndass Sie doch ein oder beide Ori=\nginale an Bl. gesandt haben. Es\nist ein Original u. eine Copie von\nIhnen an mich zurückgekommen.\nEs muss daher wohl noch ein Ori=\nginal bei Ihnen sein oder in Verlust\ngeraten. Vielleicht finden Sie es noch.\nDa die Amtsstempel auf der 2. Seite ange",
-        "notes": "Der Text bricht am Ende der Seite ab. 'Dr Junger' könnte auch 'Dr Jung' gelesen werden, das 'er' ist jedoch erkennbar."
+        "notes": "Der Text bricht am Ende der Seite ab. 'Dr Junger' könnte auch 'Dr Jung' gelesen werden, das 'er' ist jedoch erkennbar.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Absender:\nF M Zweig\nNonntalerstr. 49\n\n[vertikal am linken Rand:]\nhat das erste Packet erhalte=\n[...]\n\n[Textkörper:]\nbracht sind bemerkte\nerst Dr. S. dass es das\nOriginal war, so mag\nIhnen auch der Irrtum\nunterlaufen sein 1 Copie\nu. 1 Original gesandt\nzu haben. Bitte rufen\nSie mich an. Ich möchte\netwas wegen der Post\nbesprechen. Mein Mann\n\n[Adressfeld:]\nFrau Anna\nMeingast\nSalzburg\nLinzergasse\nHauer u. Laubingerhaus",
-        "notes": "Der vertikale Text am linken Rand ist teilweise durch den Rand des Scans oder die Faltung beschnitten. 'Dr. S.' bezieht sich vermutlich auf Stefan Zweig. Die Postkarte enthält einen Poststempel 'SALZBURG 2' und eine 12 Groschen Briefmarke."
+        "notes": "Der vertikale Text am linken Rand ist teilweise durch den Rand des Scans oder die Faltung beschnitten. 'Dr. S.' bezieht sich vermutlich auf Stefan Zweig. Die Postkarte enthält einen Poststempel 'SALZBURG 2' und eine 12 Groschen Briefmarke.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Abkürzungen und der vertikalen Platzierung am Rand der Postkarte."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 766,
     "total_words": 129,
     "total_pages": 2,

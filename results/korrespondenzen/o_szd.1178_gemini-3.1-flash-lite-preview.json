@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Lieber Willi,\n\nhabe Ihre Mutter in\nsehr guter Verfassung\nverlassen. Wollen\nSie bald einmal\nzu einer Mahlzeit\nheraufkommen?\nBitte machen Sie\nvorher einen Sprung\nherein, dass wir\nes verabreden.",
-        "notes": "Vorderseite der Karte."
+        "notes": "Vorderseite der Karte.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "~~Absender: STEFAN ZWEIG~~\n~~SALZBURG, Kapuzinerberg 5~~\n{Frau}\nHoffe Sie fühlen\nsich nicht zu\neinsam.\nHerzlichen Gruss\nvon\nFr. Zweig\n\nHerru\nWilli Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
-        "notes": "Rückseite der Karte. Der Absender 'STEFAN ZWEIG' ist durchgestrichen, darüber steht handschriftlich 'Frau'. Der Poststempel ist vom 29. VIII. 35."
+        "notes": "Rückseite der Karte. Der Absender 'STEFAN ZWEIG' ist durchgestrichen, darüber steht handschriftlich 'Frau'. Der Poststempel ist vom 29. VIII. 35.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "~~Absender: STEFAN ZWEIG~~\n~~SALZBURG, Kapuzinerberg 5~~\n{Frau}\nHoffe Sie fühlen\nsich nicht zu\neinsam.\nHerzlichen Gruss\nvon\nFr. Zweig\n\nHerru\nWilli Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
-        "notes": "Identisch mit Seite 2, inklusive Farbskalen."
+        "notes": "Identisch mit Seite 2, inklusive Farbskalen.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar. Die Durchstreichungen und Einfügungen sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 571,
     "total_words": 79,
     "total_pages": 3,

@@ -150,34 +150,39 @@
       {
         "page": 1,
         "transcription": "LETTER REGISTER",
-        "notes": "Einbandvorderseite des Notizbuchs."
+        "notes": "Einbandvorderseite des Notizbuchs.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "MADE IN ENGLAND\nFRANK SMYTHSON LTD. NEW BOND ST. W.",
-        "notes": "Rückseite des Einbands."
+        "notes": "Rückseite des Einbands.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "25. II. 35 - 23. XI. 36\n\nTHE\n“FEATHERWEIGHT”\n(Copyright)\nBOOKS\n\nKNOWN THE WORLD OVER\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of “Featherweight” Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
-        "notes": "Titelseite mit handschriftlicher Datumsangabe oben."
+        "notes": "Titelseite mit handschriftlicher Datumsangabe oben.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "25. II. 35 - 23. XI. 36\n\nTHE\n“FEATHERWEIGHT”\nBOOKS\n\nKNOWN THE WORLD OVER\n\nFRANK SMYTHSON (Ltd.)\nPublishers of “Featherweight” Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
-        "notes": "Rückseite der Titelseite (durchscheinend)."
+        "notes": "Rückseite der Titelseite (durchscheinend).",
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "(leer)",
-        "notes": "Leere Seite."
+        "notes": "Leere Seite.",
+        "type": "blank"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die handschriftliche Datumsangabe auf Seite 3 ist ebenfalls eindeutig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 457,
     "total_words": 73,
     "total_pages": 4,

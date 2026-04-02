@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan",
-        "notes": "Die Transkription bezieht sich auf den handschriftlichen Text auf der Bildseite der Postkarte. Der Text ist teilweise über das gedruckte Bild geschrieben."
+        "notes": "Die Transkription bezieht sich auf den handschriftlichen Text auf der Bildseite der Postkarte. Der Text ist teilweise über das gedruckte Bild geschrieben.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
-        "notes": "Die Adressseite enthält einen Poststempel 'WIEN 23.10.01' und eine 5-Heller-Briefmarke. 'Leipzig' wurde handschriftlich korrigiert/ergänzt."
+        "notes": "Die Adressseite enthält einen Poststempel 'WIEN 23.10.01' und eine 5-Heller-Briefmarke. 'Leipzig' wurde handschriftlich korrigiert/ergänzt.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
-        "notes": "Dies ist eine Gesamtaufnahme der Postkarte mit Farbskala. Die Transkription entspricht den Inhalten von Seite 1 und 2."
+        "notes": "Dies ist eine Gesamtaufnahme der Postkarte mit Farbskala. Die Transkription entspricht den Inhalten von Seite 1 und 2.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, lediglich die Unterschrift und die Abkürzung am Ende der Nachricht auf der Bildseite sind aufgrund der Überlagerung mit dem Bildhintergrund leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 440,
     "total_words": 70,
     "total_pages": 3,

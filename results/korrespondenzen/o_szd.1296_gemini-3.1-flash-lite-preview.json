@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Stefan Zweig",
-        "notes": "Handschriftliche Signatur auf der Vorderseite der Fotopostkarte."
+        "notes": "Handschriftliche Signatur auf der Vorderseite der Fotopostkarte.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "SETZER\nPhoto-Bildnisse\nWIEN VII\nMuseumstraße 5\n\nDankbaren Gruß\n\n[...]\n\nHerrn R. Möller\n\nGriebow b. Marnitz\nMecklenburg",
-        "notes": "Die Nachrichtenseite der Postkarte enthält einen Stempel des Fotografen Setzer, eine handschriftliche Grußformel und die Anschrift. Das Zeichen unter 'Gruß' ist unleserlich (evtl. ein Kürzel oder eine grafische Verzierung)."
+        "notes": "Die Nachrichtenseite der Postkarte enthält einen Stempel des Fotografen Setzer, eine handschriftliche Grußformel und die Anschrift. Das Zeichen unter 'Gruß' ist unleserlich (evtl. ein Kürzel oder eine grafische Verzierung).",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, die gedruckten Teile (Stempel) sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 130,
     "total_words": 18,
     "total_pages": 2,

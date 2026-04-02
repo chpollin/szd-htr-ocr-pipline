@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Frau\nAnna Meingast\n\nSalzburg (Austria)\nLinzergasse 16",
-        "notes": "Adressseite einer Postkarte. Poststempel: LONDON 1 FEB 1938. Briefmarken: 1/2d und 1d (König Georg VI.)."
+        "notes": "Adressseite einer Postkarte. Poststempel: LONDON 1 FEB 1938. Briefmarken: 1/2d und 1d (König Georg VI.).",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "London, den 23. Februar 1938.\n\nLiebe Frau Meingast!\nIch danke Ihnen vielmals für\ndie Briefe, die mir nachgesandt wurden und sende\nIhnen in den nächsten Tagen einige Bücherbeschrei-\nbungen sowie Bericht für Januar-Februar.\n\nMit den besten Grüssen\nIhre\nLotte Altmann",
-        "notes": "Maschinengeschriebener Text auf der Rückseite der Postkarte. Die Unterschrift ist handschriftlich."
+        "notes": "Maschinengeschriebener Text auf der Rückseite der Postkarte. Die Unterschrift ist handschriftlich.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig als 'Lotte Altmann' identifizierbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 317,
     "total_words": 47,
     "total_pages": 2,

@@ -22,19 +22,21 @@
       {
         "page": 1,
         "transcription": "Shakespeares „Sturm“, Prolog und Epilog zu",
-        "notes": "Die Transkription bezieht sich auf den Text auf dem Blatt, wie er in den Scans 1, 3 und 7 zu sehen ist."
+        "notes": "Die Transkription bezieht sich auf den Text auf dem Blatt, wie er in den Scans 1, 3 und 7 zu sehen ist.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Ein Tag aus dem Leben\nTolstois",
-        "notes": "Die Transkription bezieht sich auf den Text auf dem Blatt, wie er in den Scans 2, 5 und 6 zu sehen ist. Scan 4 zeigt den Text von Scan 1 spiegelverkehrt durch das Papier hindurch."
+        "notes": "Die Transkription bezieht sich auf den Text auf dem Blatt, wie er in den Scans 2, 5 und 6 zu sehen ist. Scan 4 zeigt den Text von Scan 1 spiegelverkehrt durch das Papier hindurch.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die Zuordnung der Texte zu den verschiedenen Scans (Vorder- und Rückseite des Blattes) ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 72,
     "total_words": 12,
     "total_pages": 2,

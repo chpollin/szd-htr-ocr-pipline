@@ -1,0 +1,111 @@
+{
+  "object_id": "o_szd.2326",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Schlaf, Johannes, SZ-AAP/W-AA178.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2326/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2326/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2326/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2326/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2326/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2326/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2326/IMG.7"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Schlaf, Johannes\n- Signatur: SZ-AAP/W-AA178.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Johannes\n                        Schlaf\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Schlaf, Johannes\nPeter Boies Freite (Recession) [check]\nJohannes Schlaf (Würdigung) [check]\n\n\n\nJohannes Schlaf\n\nJohannes Schlaf\nPeter Boies Freite\nMaeterlinck (s. dort)",
+        "notes": "Das Dokument enthält mehrfache Nennungen von Namen. 'Recession' und 'Würdigung' sind als Klammerzusätze erkennbar. Die Häkchen sind als solche transkribiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Johannes Schlaf\n\nJohannes Schlaf\nPeter Boies Freite\nMaeterlinck (s. dort)",
+        "notes": "Ausschnitt der unteren Hälfte von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leeres Blatt.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Schlaf, Johannes\nPeter Boies Freite (Recession) [check]\nJohannes Schlaf (Würdigung) [check]",
+        "notes": "Ausschnitt der oberen Hälfte von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leeres Blatt.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Schlaf, Johannes\nPeter Boies Freite (Recession) [check]\nJohannes Schlaf (Würdigung) [check]\n\n\n\nJohannes Schlaf\n\nJohannes Schlaf\nPeter Boies Freite\nMaeterlinck (s. dort)",
+        "notes": "Gesamtansicht des Dokuments mit Farbskala.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Begriffe 'Recession' und 'Würdigung' sind trotz der kursiven Schreibweise eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.3",
+    "total_chars": 500,
+    "total_words": 63,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      168,
+      0,
+      73,
+      0,
+      91,
+      0,
+      168
+    ],
+    "chars_per_page_median": 129.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.0476,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
+  }
+}

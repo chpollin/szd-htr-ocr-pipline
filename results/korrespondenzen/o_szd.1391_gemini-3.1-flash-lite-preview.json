@@ -18,29 +18,40 @@
       {
         "page": 1,
         "transcription": "CARTE POSTALE\nPOSTKAART\n(Côté réservé à l'adresse. — Zijde voor het adres alleen.)\n\nFraulein Eugenie Hirschfeld\n\nNeuhaus (Autriche)\nbei Weissenbach n.Ö.\nvra Vienne!",
-        "notes": "Adressseite der Postkarte. Links am Rand handschriftlicher Absender: 'St.t. bei Emile Verhaeren, Roisin (Caillou qui bique) Belgien'. Poststempel: 'QUIEVRAIN 7 AOUT 08'."
+        "notes": "Adressseite der Postkarte. Links am Rand handschriftlicher Absender: 'St.t. bei Emile Verhaeren, Roisin (Caillou qui bique) Belgien'. Poststempel: 'QUIEVRAIN 7 AOUT 08'.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Sehr verehrter Fräulein, ich hoffe\nSie spielen in Neuhaus nicht mehr\ndie Patientin, sondern denken an\ndie Sanatoriumslage schon wie an\netwas ganz Fremdes zurück. Ich\nbin hier in der Ländlichkeit ge-\nlandet, lebe einfach prachtvoll\nunter lieben Freunden, einigen\nweisen Hunden, Katzen und Kühen,\nübersetze ein wenig, trinke Milch\nund spiele den Bauern. Es ist dies\nsehr angenehm, wenigstens für\neinige Zeit, und überdies birgt\ndieses Landhaus an Büchern und\nBildern so viel wie ein kleines\nMuseum und überdies eine Mensch\nsoviel wie eine ganze Welt. Viel!\nleicht bestätigen Sie mir umge-\nhend Ihr Wohlergehen, denn ich\nfürchte, sonst erhielte ich die\nNachricht nicht mehr hier. In\nherzlicher Ergebenheit bei SZ.",
-        "notes": "Textseite der Postkarte. Der letzte Satz am linken Rand ist vertikal geschrieben."
+        "notes": "Textseite der Postkarte. Der letzte Satz am linken Rand ist vertikal geschrieben.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "CARTE POSTALE\nPOSTKAART\n(Côté réservé à l'adresse. — Zijde voor het adres alleen.)\n\nFraulein Eugenie Hirschfeld\n\nNeuhaus (Autriche)\nbei Weissenbach n.Ö.\nvra Vienne!",
-        "notes": "Scan zeigt die Postkarte zusammen mit Farbkarten/Grauskala. Inhalt identisch mit Seite 1."
+        "notes": "Scan zeigt die Postkarte zusammen mit Farbkarten/Grauskala. Inhalt identisch mit Seite 1.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, die Struktur der Postkarte ist eindeutig."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 1038,
     "total_words": 158,
     "total_pages": 3,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
     "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
     "chars_per_page": [
       164,
       710,
@@ -50,6 +61,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.3563,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

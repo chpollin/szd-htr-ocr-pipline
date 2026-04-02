@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Roisin (Caillou-qui-Bique). — Allée de la Crèmerie Laurent Quenon, restaurateur.\nA. Godry, Roisin.",
-        "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text."
+        "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Viele herzliche Grüße\naus Verhaerens Haus\n\nStefan Zweig\n\nJe suis heureux mon cher\nMonsieur de parler de vous\navec M. Stephan Zweig qui,\nen ces jours, est mon hôte. Et\ntoute ma reconnaissance s'en\nva vers vous, quand Zweig\nm'assure de l'attention que\nvous prête a mon art. Je suis\ncharmé d'être apprécié par un\ncritique de votre valeur. Bien a vous\nEmile Verhaeren.\n\n[Vertikal am rechten Rand:]\nNach Bois a/Sehlern\nTirol\n\n[Adressfeld:]\nFrieda de Oppeln-Bronikowski\nBois a/Sehlern\nTirol\n~~Charlottenburg-Berlin~~\n~~Monsieur [?]~~",
-        "notes": "Rückseite der Postkarte. Der Text ist in violett geschrieben. Die Adresse wurde teilweise durchgestrichen und durch 'Bois a/Sehlern' ersetzt. Der Text von Verhaeren ist an den Ehemann (Friedrich) gerichtet, die Adresse an die Ehefrau (Frieda)."
+        "notes": "Rückseite der Postkarte. Der Text ist in violett geschrieben. Die Adresse wurde teilweise durchgestrichen und durch 'Bois a/Sehlern' ersetzt. Der Text von Verhaeren ist an den Ehemann (Friedrich) gerichtet, die Adresse an die Ehefrau (Frieda).",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Viele herzliche Grüße\naus Verhaerens Haus\n\nStefan Zweig\n\nJe suis heureux mon cher\nMonsieur de parler de vous\navec M. Stephan Zweig qui,\nen ces jours, est mon hôte. Et\ntoute ma reconnaissance s'en\nva vers vous, quand Zweig\nm'assure de l'attention que\nvous prête a mon art. Je suis\ncharmé d'être apprécié par un\ncritique de votre valeur. Bien a vous\nEmile Verhaeren.\n\n[Vertikal am rechten Rand:]\nNach Bois a/Sehlern\nTirol\n\n[Adressfeld:]\nFrieda de Oppeln-Bronikowski\nBois a/Sehlern\nTirol\n~~Charlottenburg-Berlin~~\n~~Monsieur [?]~~",
-        "notes": "Identisch mit Seite 2, jedoch mit Farbkarten-Referenz."
+        "notes": "Identisch mit Seite 2, jedoch mit Farbkarten-Referenz.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist trotz der handschriftlichen Kursivschrift von Verhaeren gut lesbar. Die durchgestrichenen Passagen sind eindeutig als solche identifizierbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 1152,
     "total_words": 177,
     "total_pages": 3,

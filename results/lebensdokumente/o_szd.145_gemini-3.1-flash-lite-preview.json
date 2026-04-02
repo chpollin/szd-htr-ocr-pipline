@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebühren à S 2.50\nvom 1. Juli 1937 bis incl. 1. Februar 1938\nd.i. 2.50 x 8 = S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
-        "notes": "Das Dokument enthält links oben das blaue Signet von E. M. Lilien. Der Text ist in violetter Maschinenschrift verfasst."
+        "notes": "Das Dokument enthält links oben das blaue Signet von E. M. Lilien. Der Text ist in violetter Maschinenschrift verfasst.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Dokuments, leer."
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
       },
       {
         "page": 3,
         "transcription": "",
-        "notes": "Rückseite des Dokuments mit Farb- und Grauskala zur Dokumentation, leer."
+        "notes": "Rückseite des Dokuments mit Farb- und Grauskala zur Dokumentation, leer.",
+        "type": "color_chart"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist klar lesbar, die Struktur ist einfach und eindeutig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 201,
     "total_words": 34,
     "total_pages": 1,

@@ -22,44 +22,51 @@
       {
         "page": 1,
         "transcription": "Von\nMax Fleischer\naus Komotau\nKomotau\nin Leipzig ~~Währinger~~ [?]\n~~Währingergasse~~",
-        "notes": "Umschlagvorderseite. Die durchgestrichenen Wörter sind schwer lesbar, scheinen aber eine Adresskorrektur zu sein."
+        "notes": "Umschlagvorderseite. Die durchgestrichenen Wörter sind schwer lesbar, scheinen aber eine Adresskorrektur zu sein.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Stefan Zweig\nI. Rathhausstrasse 17\nWien",
-        "notes": "Umschlagrückseite. Enthält Poststempel von Komotau (4.3.1902) und Wien (5.3.1902)."
+        "notes": "Umschlagrückseite. Enthält Poststempel von Komotau (4.3.1902) und Wien (5.3.1902).",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Lieber Max,\nes ist wirklich nicht Faulheit, wenn ich bis jetzt\nnicht geschrieben habe, im Gegenteil, ich nöthige\nmich zum Fleiss. Ich gehe in cca 14 Tagen nach Berlin,\nwill aber früher colloquiren und was lernen, dazu\nbin ich litterarisch sehr gebunden: so habe ich jetzt\neinen großen Essay für das „Litterarische Echo“ über\nJohannes Schlaf zu schreiben, daneben überdies\nviel um des lieben Geldes willen, etwas Flays[?] über\nBaudelaire, Paul Adam, Viktor Hugo, Friedrich\nNietzsches Nachlaß und manches andere. Und da-\nzu plagt mich eine Novelle, allerdings ist das\nVerhältniß fast glatonisch[?] – ich bearbeite sie nicht,\nbedürfte nicht einmal die Hand[?]reihe mit der\nFeder, wenn du Hilfe von mir haben willst, so lief\nin den diesmaligen „Lotsen“, auf die „Deutsche\nDichtung“ und „Werke Welt“[?] kraften einiger.",
-        "notes": "Briefseite 1. Handschrift in violetter Tinte. Einige Wörter sind aufgrund der kursiven Schrift schwer zu entziffern."
+        "notes": "Briefseite 1. Handschrift in violetter Tinte. Einige Wörter sind aufgrund der kursiven Schrift schwer zu entziffern.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "",
-        "notes": "Leere Seite (Rückseite von Blatt 1)."
+        "notes": "Leere Seite (Rückseite von Blatt 1).",
+        "type": "blank"
       },
       {
         "page": 5,
         "transcription": "Im übrigen ist mir sehr ekel vor Litteratur u. Co.\nEtwas interessantes will ich dir aber erzählen: Ich\nhabe einen Freund in Leipzig – ich glaube Ihn so\nnennen zu dürfen – der sehr schöne Werke gemacht\nhat, zuerst Jurist war und jetzt dort etwas studiert.\nWas sein Fach ist, kann ich nicht erfahren, obwohl er\nSchon mehr als ein halbes Jahr von Wien weg ist.\nDas macht dein Herr Bruder[?]. für seine Buch\ninteressiere ich mich natürlich sehr und will dafür\nThun, was ich kann. Wieso ist er eigentlich Referent\ndes Berliner Tageblattes geworden? Und wieso liest\nman von ihr absolut nichts, außer jener hohen\nKritik, durch die Du mich zu aufrichtigem Dank\nverpflichtest. Und was willst Du werden? Hast Du\nSchon irgend einen Entschluß gefaßt? Bitte schreibe\nmir darüber ausführlich, Du weißt, ich interessiere\nmich sehr dafür.",
-        "notes": "Briefseite 2. Fortsetzung des Textes."
+        "notes": "Briefseite 2. Fortsetzung des Textes.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "Von unseren Bekannten gibt es nicht all-\nzu viel der Neuigkeiten. „Mensch & Liebe“ ist schon\nda und wird richtig besprochen, der Autor ist eben-\nfalls bei bester Wohlbefinden, der liebe Camill\nHofmann wird sehr berühmt; er hat eine Novelle bei\nder „Neuen Freien Presse“ angebracht, ist aber darum\nnoch immer so lieb und bescheiden worüber.\nUnd sonst – sonst geschieht eben nichts. Ein\nzwar stille Tage, dann wieder dunkle, ein paar\nkleine Mädchengeschichten, die unterhalten, aber nicht\nhin bewegen, hin und da ein neuer Kerl, manch-\nmal darunter einer, der nicht nichtswerten ist –\nich glaube wir leben ja alle so und warten auf\n„das große sagende Etwas“. Ich hoffe aber, obwohl\nich mich selbst erbittere, Du wirst darum nicht fein\neingebildet halten deinen treuen Freund\nStefan Zweig\nHerzliche Empfehlungen deinen Herrn Bruder!",
-        "notes": "Briefseite 3. Schluss des Briefes."
+        "notes": "Briefseite 3. Schluss des Briefes.",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Und sonst – sonst geschieht eben nichts. Ein\nzwar stille Tage, dann wieder dunkle, ein paar\nkleine Mädchengeschichten, die unterhalten, aber nicht\nhin bewegen, hin und da ein neuer Kerl, manch-\nmal darunter einer, der nicht nichtswerten ist –",
-        "notes": "Ausschnitt aus Seite 6, überlagert durch Farbskala."
+        "notes": "Ausschnitt aus Seite 6, überlagert durch Farbskala.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz der kursiven Schreibweise und der violetten Tinte. Einige Eigennamen und spezifische Begriffe wurden kontextuell erschlossen."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 2831,
     "total_words": 457,
     "total_pages": 6,

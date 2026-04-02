@@ -150,34 +150,39 @@
       {
         "page": 1,
         "transcription": "LETTER REGISTER",
-        "notes": "Einbandvorderseite des Briefregisters."
+        "notes": "Einbandvorderseite des Briefregisters.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "MADE IN ENGLAND\nFRANK SMYTHSON LTD.    NEW BOND ST W.",
-        "notes": "Innenseite des hinteren Einbanddeckels."
+        "notes": "Innenseite des hinteren Einbanddeckels.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "23. XI. 1936 - 30. VII. 38\n\nTHE\n“FEATHERWEIGHT”\n(Copyright)\nBOOKS\n\nKNOWN THE WORLD OVER\nREGISTERED\n\nFRANK SMYTHSON (Ltd.)\nPublishers of “Featherweight” Books\n54, NEW BOND STREET,\nLONDON, W. 1.\n\n(Registered).",
-        "notes": "Titelseite des Registers. Das Datum '23. XI. 1936 - 30. VII. 38' ist handschriftlich in roter Tinte eingetragen."
+        "notes": "Titelseite des Registers. Das Datum '23. XI. 1936 - 30. VII. 38' ist handschriftlich in roter Tinte eingetragen.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "",
-        "notes": "Vorsatzblatt, Rückseite der Titelseite (durchscheinender Text)."
+        "notes": "Vorsatzblatt, Rückseite der Titelseite (durchscheinender Text).",
+        "type": "blank"
       },
       {
         "page": 5,
         "transcription": "",
-        "notes": "Leeres Vorsatzblatt."
+        "notes": "Leeres Vorsatzblatt.",
+        "type": "blank"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Transkription ist aufgrund der gedruckten Vorlagen und der klaren handschriftlichen Datierung auf der Titelseite eindeutig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 275,
     "total_words": 43,
     "total_pages": 3,

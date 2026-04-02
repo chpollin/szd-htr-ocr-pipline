@@ -28,74 +28,87 @@
       {
         "page": 1,
         "transcription": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]\n\n(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
-        "notes": "Das Blatt enthält zwei verschiedene Handschriften. Der obere Teil ist in violetter Tinte, der untere Teil in Bleistift geschrieben."
+        "notes": "Das Blatt enthält zwei verschiedene Handschriften. Der obere Teil ist in violetter Tinte, der untere Teil in Bleistift geschrieben.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]",
-        "notes": "Ausschnitt des oberen Teils von Seite 1."
+        "notes": "Ausschnitt des oberen Teils von Seite 1.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
-        "notes": "Ausschnitt des unteren Teils von Seite 1."
+        "notes": "Ausschnitt des unteren Teils von Seite 1.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
-        "notes": "Rückseite des ersten Blattes, sehr blasse Bleistiftspur."
+        "notes": "Rückseite des ersten Blattes, sehr blasse Bleistiftspur.",
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]",
-        "notes": "Wiederholung des oberen Teils."
+        "notes": "Wiederholung des oberen Teils.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
-        "notes": "Wiederholung des unteren Teils."
+        "notes": "Wiederholung des unteren Teils.",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
-        "notes": "Zweites Blatt. Die Zeile 'Dichter' wurde nachträglich rechts eingefügt."
+        "notes": "Zweites Blatt. Die Zeile 'Dichter' wurde nachträglich rechts eingefügt.",
+        "type": "content"
       },
       {
         "page": 8,
         "transcription": "",
-        "notes": "Leere Rückseite."
+        "notes": "Leere Rückseite.",
+        "type": "blank"
       },
       {
         "page": 9,
         "transcription": "",
-        "notes": "Leere Rückseite."
+        "notes": "Leere Rückseite.",
+        "type": "blank"
       },
       {
         "page": 10,
         "transcription": "",
-        "notes": "Leere Rückseite."
+        "notes": "Leere Rückseite.",
+        "type": "blank"
       },
       {
         "page": 11,
         "transcription": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
-        "notes": "Wiederholung des zweiten Blattes."
+        "notes": "Wiederholung des zweiten Blattes.",
+        "type": "content"
       },
       {
         "page": 12,
         "transcription": "",
-        "notes": "Leere Rückseite."
+        "notes": "Leere Rückseite.",
+        "type": "blank"
       },
       {
         "page": 13,
         "transcription": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
-        "notes": "Wiederholung mit Farbskala."
+        "notes": "Wiederholung mit Farbskala.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Unsicherheiten bestehen lediglich bei der Abkürzung 'Rezensio[?]' aufgrund der Tintenführung."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 958,
     "total_words": 128,
     "total_pages": 9,

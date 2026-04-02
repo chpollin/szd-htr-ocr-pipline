@@ -164,6 +164,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
     for page in pages:
         text = page.get("transcription", "")
         ptype = _classify_page(page)
+        page["type"] = ptype
         page_types.append(ptype)
         chars_per_page.append(len(text))
         words = set(text.lower().split())
@@ -253,7 +254,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         reasons.append("low_dwr")
 
     return {
-        "version": "1.2",
+        "version": "1.3",
         "total_chars": total_chars,
         "total_words": total_words,
         "total_pages": len(non_empty),

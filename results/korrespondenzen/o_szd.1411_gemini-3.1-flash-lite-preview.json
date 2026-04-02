@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "An Herrn Alfred Kubin\nin Wernstein a/ Inn\nOberösterreich",
-        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Poststempel: '-1 III. 24 20'. Briefmarke: 500 Kronen Österreich."
+        "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Poststempel: '-1 III. 24 20'. Briefmarke: 500 Kronen Österreich.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "gnädiger Herr, wie gerne hätte ich Ihnen\ndas kleine Büchel gesandt, aber es ist\nseit vielen Jahren vergriffen und ich habe\nkein mehr ein Exemplar davon gesehen.\nIch komme gerade aus Paris -\nes ist wahrhaftig notwendig, ich von\nZeit zu Zeit europäisch aufzuatmen\nund das habe ich nach Salzburgs Ende\ngut und glücklich getan. Wann\nkommen anders einmal Sie, gern\nwär freudig begrüßter Gast, auf\nunsern Berg? Ein Zimmer steht Ihnen\nallzeit bereit! Viele frohe Grüße\nherzlichst Ihren\nStefan Zweig",
-        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Oben links: 'gnädiger Herr' (Datum '1. März' steht darüber)."
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Oben links: 'gnädiger Herr' (Datum '1. März' steht darüber).",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "gnädiger Herr 1. März.\nLieber Freund, wie gerne hätte ich Ihnen\ndas kleine Büchel gesandt, aber es ist\nseit vielen Jahren vergriffen und ich habe\nkein mehr ein Exemplar davon gesehen.\nIch komme gerade aus Paris -\nes ist wahrhaftig notwendig, ich von\nZeit zu Zeit europäisch aufzuatmen\nund das habe ich nach Salzburgs Ende\ngut und glücklich getan. Wann\nkommen anders einmal Sie, gern\nwär freudig begrüßter Gast, auf\nunsern Berg? Ein Zimmer steht Ihnen\nallzeit bereit! Viele frohe Grüße\nherzlichst Ihren\nStefan Zweig",
-        "notes": "Identisch mit Seite 2, jedoch mit Farbskalen zur Archivierung. Die erste Zeile 'gnädiger Herr 1. März.' ist hier deutlicher lesbar als auf dem vorherigen Scan."
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskalen zur Archivierung. Die erste Zeile 'gnädiger Herr 1. März.' ist hier deutlicher lesbar als auf dem vorherigen Scan.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die leichte Diskrepanz in der ersten Zeile zwischen Scan 2 und 3 wurde durch den klareren Scan 3 aufgelöst."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 1061,
     "total_words": 175,
     "total_pages": 3,

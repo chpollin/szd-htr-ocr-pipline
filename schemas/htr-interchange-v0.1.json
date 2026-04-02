@@ -78,6 +78,7 @@
             "properties": {
               "page":  { "type": "integer", "minimum": 1, "description": "Seitennummer (1-basiert, entspricht Bild-Index)" },
               "text":  { "type": "string", "description": "Transkribierter Text der Seite" },
+              "type":  { "type": "string", "enum": ["content", "blank", "color_chart"], "description": "Seitentyp: content (transkribierter Text), blank (Leerseite), color_chart (Farbskala/Grauskala)" },
               "notes": { "type": "string", "description": "Beobachtungen des Modells zu dieser Seite" }
             }
           }

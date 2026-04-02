@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.1088",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model_a": "gemini-3.1-flash-lite-preview",
+  "model_b": "gemini-3-flash-preview",
+  "consensus": {
+    "overall_cer": 0.7378,
+    "category": "consensus_divergent",
+    "pages": [
+      {
+        "page": 0,
+        "cer": 0.9,
+        "agreement": "low",
+        "chars_a": 110,
+        "chars_b": 196
+      },
+      {
+        "page": 1,
+        "cer": 0.0192,
+        "agreement": "high",
+        "chars_a": 104,
+        "chars_b": 105
+      }
+    ]
+  },
+  "judge_data": {
+    "object_id": "o_szd.1088",
+    "collection": "korrespondenzen",
+    "group": "korrespondenz",
+    "title": "Ansichtspostkarte an Max Fleischer vom 23. Oktober 1901, SZ-LAS/B3.10",
+    "model_a": "gemini-3.1-flash-lite-preview",
+    "model_b": "gemini-3-flash-preview",
+    "consensus": {
+      "overall_cer": 0.7378,
+      "category": "consensus_divergent",
+      "pages": [
+        {
+          "page": 0,
+          "cer": 0.9,
+          "agreement": "low",
+          "chars_a": 110,
+          "chars_b": 196
+        },
+        {
+          "page": 1,
+          "cer": 0.0192,
+          "agreement": "high",
+          "chars_a": 104,
+          "chars_b": 105
+        }
+      ]
+    },
+    "pages": [
+      {
+        "page": 0,
+        "image_url": "https://gams.uni-graz.at/o:szd.1088/IMG.1",
+        "transcription_a": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan",
+        "transcription_b": "Gruss aus Wien Währingerstrasse\n\nHoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele Grüße Stefan\n\nSperlings Postkartenverlag Wien III/2. deponirt No. 1111.",
+        "cer": 0.9,
+        "agreement": "low"
+      },
+      {
+        "page": 1,
+        "image_url": "https://gams.uni-graz.at/o:szd.1088/IMG.2",
+        "transcription_a": "Correspondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "transcription_b": "Correspondenz-Karte.\nNur für die Adresse.\n\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "cer": 0.0192,
+        "agreement": "high"
+      },
+      {
+        "page": 2,
+        "image_url": "https://gams.uni-graz.at/o:szd.1088/IMG.3",
+        "transcription_a": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+        "transcription_b": "",
+        "cer": null,
+        "agreement": "unknown"
+      }
+    ]
+  },
+  "judge_result": null
+}

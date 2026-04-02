@@ -126,6 +126,8 @@ def build():
             "verification": verification,
             "needsReview": qs.get("needs_review", False),
             "needsReviewReasons": qs.get("needs_review_reasons", []),
+            "blankPages": qs.get("blank_pages", 0),
+            "contentPages": qs.get("content_pages", 0),
             "qualitySignals": {
                 "charsPerPage": qs.get("chars_per_page", []),
                 "charsPerPageMedian": qs.get("chars_per_page_median", 0),
@@ -167,6 +169,8 @@ def build():
             "verification": obj["verification"],
             "needsReview": obj["needsReview"],
             "needsReviewReasons": obj["needsReviewReasons"],
+            "blankPages": obj.get("blankPages", 0),
+            "contentPages": obj.get("contentPages", 0),
         })
 
     catalog = {"objects": catalog_objects, "collections": collections}

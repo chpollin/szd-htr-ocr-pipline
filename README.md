@@ -21,11 +21,58 @@ Sprachen: Deutsch (primär), Englisch, Französisch, Italienisch, Spanisch.
 
 ## Pipeline-Architektur
 
-Dreischichtiges Prompt-System für VLM-Transkription:
+### Datenfluss
+
+```
+ Faksimile-Scans (JPG, ~5000x7400px)
+ + TEI-XML-Metadaten + Backup-Metadaten
+                │
+                ▼
+ ┌─────────────────────────────────────┐
+ │  1. Kontext-Aufloesung              │
+ │     tei_context.py                  │
+ │     • TEI-XML → Titel, Datum,       │
+ │       Sprache, Signatur, Objekttyp  │
+ │     • resolve_group() → Prompt-     │
+ │       Gruppe A-I (automatisch)      │
+ └──────────────┬──────────────────────┘
+                ▼
+ ┌─────────────────────────────────────┐
+ │  2. Dreischichtiger Prompt          │
+ │     • System-Prompt (Rolle, Regeln, │
+ │       JSON-Schema, Blank-Handling)  │
+ │     • Gruppen-Prompt (1 von 9)      │
+ │     • Objekt-Kontext (aus TEI)      │
+ └──────────────┬──────────────────────┘
+                ▼
+ ┌─────────────────────────────────────┐
+ │  3. VLM-Transkription               │
+ │     Gemini 3.1 Flash Lite (t=0.1)  │
+ │     Input: Alle Bilder + Prompt     │
+ │     Output: JSON {pages[], conf.}   │
+ │     • Exponential Backoff (429)     │
+ │     • JSON-Sanitisierung (Codeblock,│
+ │       Escape-Fix, Retry)            │
+ └──────────────┬──────────────────────┘
+                ▼
+ ┌─────────────────────────────────────┐
+ │  4. Enrichment & Quality Signals    │
+ │     quality_signals.py v1.3         │
+ │     • page.type (content/blank/     │
+ │       color_chart) pro Seite        │
+ │     • DWR, Marker-Dichte, Duplikate │
+ │     • Sprachkonsistenz (TEI vs. det)│
+ │     • needs_review + Gruende        │
+ └──────────────┬──────────────────────┘
+                ▼
+ results/{collection}/{object_id}_{model}.json
+```
+
+### Dreischichtiges Prompt-System
 
 | Schicht | Funktion |
 |---|---|
-| **System-Prompt** | Rolle, Regeln, JSON-Output (für alle Objekte gleich) |
+| **System-Prompt** | Rolle, Regeln, JSON-Output (fuer alle Objekte gleich) |
 | **Gruppen-Prompt** | Typspezifische Anweisungen (9 Gruppen, s.u.) |
 | **Objekt-Kontext** | Metadaten aus TEI-XML (Sprache, Hand, Instrument, Typ) |
 
@@ -45,7 +92,14 @@ Dreischichtiges Prompt-System für VLM-Transkription:
 
 ## Status
 
-**~510 / 2107 Objekte** transkribiert (Batch laeuft). Qualitaetssignale v1.2 mit Leerseiten-Klassifikation und Dictionary Word Ratio. Multi-Model-Konsensus-Verifikation (Gemini Flash Lite + Gemini 3 Flash + Claude Judge) in Validierung.
+**557 / 2107 Objekte** transkribiert, **3417 Seiten** (2398 Content, 885 Leerseiten, 134 Farbskalen). Quality Signals v1.3 mit Seitentyp-Klassifikation (`content`/`blank`/`color_chart`) und Dictionary Word Ratio. Multi-Model-Konsensus-Verifikation (Gemini Flash Lite + Gemini 3 Flash + Claude Judge) in Validierung.
+
+| Sammlung | Objekte | Seiten | Content | Blank | Abdeckung |
+|---|---:|---:|---:|---:|---:|
+| Lebensdokumente | 101 / 127 | 963 | 628 | 335 | 80% |
+| Korrespondenzen | 287 / 1186 | 915 | 743 | 172 | 24% |
+| Aufsatzablage | 115 / 625 | 581 | 473 | 108 | 18% |
+| Werke | 54 / 169 | 958 | 554 | 404 | 32% |
 
 Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.github.io/szd-htr-ocr-pipeline/)
 
@@ -56,7 +110,7 @@ Viewer & Katalog: [chpollin.github.io/szd-htr-ocr-pipeline](https://chpollin.git
 │   ├── prompts/              ← 9 Gruppen-Prompts + System-Prompt
 │   ├── transcribe.py         ← Batch-CLI (Einzel/Sammlung/Alle)
 │   ├── verify.py             ← Multi-Model-Konsensus-Verifikation
-│   ├── quality_signals.py    ← 8 Qualitaetssignale + Leerseiten + DWR (v1.2)
+│   ├── quality_signals.py    ← 8 Qualitaetssignale + Seitentyp + DWR (v1.3)
 │   ├── evaluate.py           ← CER/WER-Berechnung
 │   ├── quality_report.py     ← Aggregierte Qualitaetsstatistiken
 │   ├── tei_context.py        ← TEI-Parser, resolve_group(), format_context()

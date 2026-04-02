@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer\nKohlstasse[?]",
-        "notes": "Adressseite der Postkarte. Der Stempel ist teilweise unleserlich, zeigt aber 'KOMOTAU' und das Datum '21.6.02'. Die Briefmarke ist ein 5-Pfennig-Wert des Deutschen Reiches, gestempelt 'BERLIN 20.6.02'."
+        "notes": "Adressseite der Postkarte. Der Stempel ist teilweise unleserlich, zeigt aber 'KOMOTAU' und das Datum '21.6.02'. Die Briefmarke ist ein 5-Pfennig-Wert des Deutschen Reiches, gestempelt 'BERLIN 20.6.02'.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Lieber Max, zunächt nur die\ndringende Bitte um die zwei An-\nfangzeilen zum „Colloque sentimental“\nBeides dafür gebe ich Montag zur Uni-\nversität. Herzliche Grüße Dein\nStefan",
-        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer\nKohlstasse[?]",
-        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) im Kontext der Farb- und Grauskala-Referenzkarten."
+        "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) im Kontext der Farb- und Grauskala-Referenzkarten.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, lediglich das letzte Wort der Adresse ('Kohlstasse' oder 'Kohlstraße') ist aufgrund der Handschrift leicht unsicher."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 355,
     "total_words": 53,
     "total_pages": 3,

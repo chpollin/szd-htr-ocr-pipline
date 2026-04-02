@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.1431",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lotte und Stefan Zweig an Alfred und Stefanie Zweig, SZ-AAP/B10.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1431/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1431/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1431/IMG.3"
+    ]
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lotte und Stefan Zweig an Alfred und Stefanie Zweig, SZ-AAP/B10.5\n- Signatur: SZ-AAP/B10.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "MERRY XMAS\n\nRIO\n\nHAPPY NEW YEAR\nSchöne Weihnachten und\ngleich für Geburtstag und\nNamenstag alles Herzliche\nvon uns Beiden\nStefan\nLotte\nPluchy (dog)",
+        "notes": "Vorderseite der Postkarte. 'Pluchy (dog)' ist in einer anderen, kleineren Handschrift hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "CARTÃO POSTAL\nDie Ansicht ist aus\nSchmetterlingsflügeln\nzusammengesetzt und\nder „Sugar Loaf“ sieht\nwirklich so aus.\nHerzlichst\nLotte\n\nUSA\nMrs. Stefanie Zweig\n18 West 70th Street\nNew York",
+        "notes": "Rückseite der Postkarte. Enthält eine Briefmarke (200 Reis) und einen Poststempel. Die Adresse ist in einer anderen Handschrift als der Text links.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "MERRY XMAS\n\nRIO\n\nHAPPY NEW YEAR\nSchöne Weihnachten und\ngleich für Geburtstag und\nNamenstag alles Herzliche\nvon uns Beiden\nStefan\nLotte\nPluchy (dog)",
+        "notes": "Identisch mit Seite 1, inklusive Farbskala und Grauskala am Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar. Die Unterscheidung zwischen den verschiedenen Handschriften (Stefan/Lotte vs. die Adresse von Stefanie Zweig) ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.3",
+    "total_chars": 480,
+    "total_words": 74,
+    "total_pages": 3,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      147,
+      186,
+      147
+    ],
+    "chars_per_page_median": 147,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "dwr_score": 0.2297,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

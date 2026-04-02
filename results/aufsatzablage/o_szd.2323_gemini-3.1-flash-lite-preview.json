@@ -22,49 +22,68 @@
       {
         "page": 1,
         "transcription": "Suttner, Berta v.\n(Huldigung)\n\nBerta von Suttner.\n\nfeher 12.11.59\nRF",
-        "notes": "Die Transkription bezieht sich auf den Text auf dem Blatt. 'feher' ist vermutlich eine Archivnotiz oder ein Name, 'RF' steht für Richard Friedenthal."
+        "notes": "Die Transkription bezieht sich auf den Text auf dem Blatt. 'feher' ist vermutlich eine Archivnotiz oder ein Name, 'RF' steht für Richard Friedenthal.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Suttner, Berta v.\n(Huldigung)",
-        "notes": "Ausschnitt aus dem oberen Teil des Blattes."
+        "notes": "Ausschnitt aus dem oberen Teil des Blattes.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Berta von Suttner.\n\nfeher 12.11.59\nRF",
-        "notes": "Ausschnitt aus dem mittleren/unteren Teil des Blattes."
+        "notes": "Ausschnitt aus dem mittleren/unteren Teil des Blattes.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": ".renttuS nov altreB",
-        "notes": "Spiegelverkehrte Durchzeichnung des Namens auf der Rückseite."
+        "notes": "Spiegelverkehrte Durchzeichnung des Namens auf der Rückseite.",
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "Suttner, Berta v.\n(Huldigung)",
-        "notes": "Ausschnitt, identisch mit Seite 2."
+        "notes": "Ausschnitt, identisch mit Seite 2.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": ".renttuS nov altreB",
-        "notes": "Spiegelverkehrte Durchzeichnung, identisch mit Seite 4."
+        "notes": "Spiegelverkehrte Durchzeichnung, identisch mit Seite 4.",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Suttner, Berta v.\n(Huldigung)\n\nBerta von Suttner.\n\nfeher 12.11.59\nRF",
-        "notes": "Gesamtansicht mit Farbskala."
+        "notes": "Gesamtansicht mit Farbskala.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist kurz und deutlich lesbar. Die Archivnotizen sind klar als solche erkennbar."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 269,
     "total_words": 40,
     "total_pages": 7,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 7,
     "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content"
+    ],
     "chars_per_page": [
       68,
       29,
@@ -78,12 +97,15 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.0811,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": false,
-    "needs_review_reasons": []
+    "needs_review": true,
+    "needs_review_reasons": [
+      "low_dwr"
+    ]
   }
 }

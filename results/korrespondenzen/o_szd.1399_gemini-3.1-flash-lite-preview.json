@@ -18,29 +18,40 @@
       {
         "page": 1,
         "transcription": "Liebes Fräulein Hirschfeld, ich eile mich Ihnen von meinem ersten\nAufenthaltsort ein Lebenszeichen zu senden und füge die besten\n{Grüße für Ihren Bruder}\nbei. Ich bin hier bei\nVerhaeren und befinde mich infolgedessen so glücklich wie nur\neben möglich. Nach London komme ich erst nächste Woche. Ihr ergebenst\nStefan Zweig",
-        "notes": "Der Text ist auf der Vorderseite der Postkarte um das Bild herum geschrieben. Die Zeile 'Grüße für Ihren Bruder' wurde nachträglich über den Text eingefügt. Die Unterschrift 'Stefan Zweig' ist vertikal am rechten Rand notiert."
+        "notes": "Der Text ist auf der Vorderseite der Postkarte um das Bild herum geschrieben. Die Zeile 'Grüße für Ihren Bruder' wurde nachträglich über den Text eingefügt. Die Unterschrift 'Stefan Zweig' ist vertikal am rechten Rand notiert.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Mademoiselle\nEugenie Hirschfeld\nVienne (Autriche)\nIX. Nussdorferstrasse 5",
-        "notes": "Adressseite der Postkarte. Briefmarke vorhanden, Poststempel 'Liège 22-IV 08'."
+        "notes": "Adressseite der Postkarte. Briefmarke vorhanden, Poststempel 'Liège 22-IV 08'.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Mademoiselle\nEugenie Hirschfeld\nVienne (Autriche)\nIX. Nussdorferstrasse 5",
-        "notes": "Wiederholung der Adressseite mit Farbskala."
+        "notes": "Wiederholung der Adressseite mit Farbskala.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist trotz der ungewöhnlichen Anordnung auf der Bildseite gut lesbar. Die Handschrift ist eindeutig Stefan Zweigs."
   },
   "quality_signals": {
-    "version": "1.1",
+    "version": "1.3",
     "total_chars": 466,
     "total_words": 66,
     "total_pages": 3,
     "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 3,
     "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "content"
+    ],
     "chars_per_page": [
       320,
       73,
@@ -50,6 +61,7 @@
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.3438,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",

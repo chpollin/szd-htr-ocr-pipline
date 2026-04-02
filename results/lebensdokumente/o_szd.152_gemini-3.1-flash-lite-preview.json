@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Stefan Zweig\n\nist derzeit verreist, so daß Ihr freundliches\nSchreiben zur Zeit von ihm nicht beantwortet\nwerden kann.\n\nSalzburg, Datum des Poststempels.",
-        "notes": "Vorderseite der Karte (identisch auf allen drei Scans)."
+        "notes": "Vorderseite der Karte (identisch auf allen drei Scans).",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "An\n\n\n\n\nDrucksache",
-        "notes": "Rückseite der Karte (Adressseite)."
+        "notes": "Rückseite der Karte (Adressseite).",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Stefan Zweig\n\nist derzeit verreist, so daß Ihr freundliches\nSchreiben zur Zeit von ihm nicht beantwortet\nwerden kann.\n\nSalzburg, Datum des Poststempels.",
-        "notes": "Vorderseite der Karte (identisch mit Scan 1, hier mit Farbkarten-Referenz)."
+        "notes": "Vorderseite der Karte (identisch mit Scan 1, hier mit Farbkarten-Referenz).",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Es gibt keine handschriftlichen Ergänzungen."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 321,
     "total_words": 46,
     "total_pages": 3,

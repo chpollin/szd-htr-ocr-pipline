@@ -22,44 +22,51 @@
       {
         "page": 1,
         "transcription": "Wort zur Schutzfristfrage, Ein\n\nEin Wort zur\nSchutzfristfrage",
-        "notes": "Das Dokument besteht aus einem Hauptblatt mit dem Titel und einem aufgeklebten Streifen, der den gleichen Text (in leicht abweichender Reihenfolge) enthält."
+        "notes": "Das Dokument besteht aus einem Hauptblatt mit dem Titel und einem aufgeklebten Streifen, der den gleichen Text (in leicht abweichender Reihenfolge) enthält.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Wort zur Schutzfristfrage, Ein",
-        "notes": "Dies ist der aufgeklebte Streifen auf der Rückseite des Hauptblattes."
+        "notes": "Dies ist der aufgeklebte Streifen auf der Rückseite des Hauptblattes.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Ein Wort zur\nSchutzfristfrage",
-        "notes": "Vorderseite des Hauptblattes."
+        "notes": "Vorderseite des Hauptblattes.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "Ein Wort zur\nSchutzfristfrage",
-        "notes": "Rückseite des Hauptblattes (durchscheinend)."
+        "notes": "Rückseite des Hauptblattes (durchscheinend).",
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "Wort zur Schutzfristfrage, Ein",
-        "notes": "Rückseite des aufgeklebten Streifens."
+        "notes": "Rückseite des aufgeklebten Streifens.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "Ein Wort zur\nSchutzfristfrage",
-        "notes": "Rückseite des Hauptblattes (durchscheinend)."
+        "notes": "Rückseite des Hauptblattes (durchscheinend).",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Wort zur Schutzfristfrage, Ein\n\nEin Wort zur\nSchutzfristfrage",
-        "notes": "Gesamtansicht mit Farbskala."
+        "notes": "Gesamtansicht mit Farbskala.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die Transkription spiegelt die Anordnung auf dem Blatt und dem aufgeklebten Streifen wider."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 269,
     "total_words": 36,
     "total_pages": 7,

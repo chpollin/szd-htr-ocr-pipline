@@ -115,15 +115,32 @@ def transcribe_with_flash(
 
 def compute_consensus(
     text_a: str, text_b: str, pages_a: list[str], pages_b: list[str],
+    page_types: list[str] | None = None,
 ) -> dict:
-    """Compute consensus metrics between two transcriptions."""
-    norm_a = normalize_for_consensus(text_a)
-    norm_b = normalize_for_consensus(text_b)
-    overall_cer = cer(norm_b, norm_a)
+    """Compute consensus metrics between two transcriptions.
 
-    # Per-page CER
+    Args:
+        page_types: Optional list of page types ('content', 'blank', 'color_chart').
+            Non-content pages are skipped in CER calculation.
+    """
+    # Per-page CER (skip non-content pages)
     page_results = []
+    content_texts_a = []
+    content_texts_b = []
+
     for i, (pa, pb) in enumerate(zip(pages_a, pages_b)):
+        ptype = page_types[i] if page_types and i < len(page_types) else "content"
+        if ptype != "content":
+            page_results.append({
+                "page": i,
+                "cer": None,
+                "agreement": "skipped",
+                "type": ptype,
+                "chars_a": len(pa),
+                "chars_b": len(pb),
+            })
+            continue
+
         na = normalize_for_consensus(pa)
         nb = normalize_for_consensus(pb)
         page_cer = cer(nb, na) if na else (0.0 if not nb else 1.0)
@@ -132,9 +149,17 @@ def compute_consensus(
             "page": i,
             "cer": round(page_cer, 4),
             "agreement": agreement,
+            "type": ptype,
             "chars_a": len(na),
             "chars_b": len(nb),
         })
+        content_texts_a.append(pa)
+        content_texts_b.append(pb)
+
+    # Overall CER from content pages only
+    norm_a = normalize_for_consensus(" ".join(content_texts_a))
+    norm_b = normalize_for_consensus(" ".join(content_texts_b))
+    overall_cer = cer(norm_b, norm_a) if norm_a else (0.0 if not norm_b else 1.0)
 
     # Consensus category
     if overall_cer < 0.03:
@@ -144,9 +169,14 @@ def compute_consensus(
     else:
         category = "consensus_divergent"
 
+    content_count = sum(1 for pr in page_results if pr["agreement"] != "skipped")
+    skipped_count = len(page_results) - content_count
+
     return {
         "overall_cer": round(overall_cer, 4),
         "category": category,
+        "content_pages": content_count,
+        "skipped_pages": skipped_count,
         "pages": page_results,
     }
 
@@ -222,13 +252,14 @@ def verify_object(
         print(f"  FEHLER: Modell B konnte nicht transkribieren")
         return None
 
-    # Compute consensus
+    # Compute consensus (skip blank/color_chart pages)
     text_a = extract_transcription_text(result_a)
     text_b = "\n\n".join(p.get("transcription", "") for p in result_b.get("pages", []))
     pages_a = extract_page_texts(result_a)
     pages_b = [p.get("transcription", "") for p in result_b.get("pages", [])]
+    page_types = [p.get("type", "content") for p in result_a.get("result", {}).get("pages", [])]
 
-    consensus = compute_consensus(text_a, text_b, pages_a, pages_b)
+    consensus = compute_consensus(text_a, text_b, pages_a, pages_b, page_types=page_types)
     print(f"  CER A<->B: {consensus['overall_cer']:.2%} -- {consensus['category']}")
 
     # Prepare judge data (for Claude Code Subagent)

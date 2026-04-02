@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Nom\net adresse\nde l'expéditeur\nZweig\nHotel du Cap, Antibes\n\nCARTE POSTALE\n\nADRESSE\nHerrn Dr Stefan Zweig\nfür Frau Meingast\nSalzburg\nKapuzinerberg 5",
-        "notes": "Die Adressseite der Postkarte. Der Name 'Zweig' und 'Hotel du Cap, Antibes' sind handschriftlich ergänzt. Der Empfänger ist 'Herrn Dr Stefan Zweig für Frau Meingast'."
+        "notes": "Die Adressseite der Postkarte. Der Name 'Zweig' und 'Hotel du Cap, Antibes' sind handschriftlich ergänzt. Der Empfänger ist 'Herrn Dr Stefan Zweig für Frau Meingast'.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "3/II 31\n\nLiebe Frau Meingast,\nbitte teilen Sie „Narodno\nDelo“ mit, dass gegen\n100 Schilling auf 2 Jahre\ndas Uebertragungsrecht gegeben\nwerden kann.\nVielen Dank für alle Nachrichten\nund Besorgungen: es ist\nalles in bester Ordnung. Ich hoffe\nnun, dass Sie mit Willi keine Sorge\nmehr haben und die Unglücksnadel\nbereits entfernt ist. Wir haben hier\nherrliches Wetter und fühlen uns in\nCap d'Antibes wohl. Meine Frau\nlässt mit vielen herzlichen Grüßen\nbitten, Sie möchten\n\n[am linken Rand vertikal geschrieben:]\nfür Fotografien von Manuel bedanken.",
-        "notes": "Der Text ist in violetter Tinte geschrieben. Der vertikale Text am linken Rand ist eine Ergänzung zum Haupttext."
+        "notes": "Der Text ist in violetter Tinte geschrieben. Der vertikale Text am linken Rand ist eine Ergänzung zum Haupttext.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Die Handschrift ist gut lesbar, trotz der kursiven Schreibweise. Die Ergänzung am Rand ist eindeutig dem Haupttext zuzuordnen."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 691,
     "total_words": 108,
     "total_pages": 2,

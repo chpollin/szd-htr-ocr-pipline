@@ -22,44 +22,51 @@
       {
         "page": 1,
         "transcription": "Tolstoi\nTolstois Antlitz\nEin Tag aus dem Leben Tolstois",
-        "notes": "Die Transkription bezieht sich auf den oberen Teil des Blattes (die handschriftlichen Notizen)."
+        "notes": "Die Transkription bezieht sich auf den oberen Teil des Blattes (die handschriftlichen Notizen).",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Tolstoi\nTolstois Antlitz\nEin Tag aus dem Leben Tolstois",
-        "notes": "Dies ist eine Detailaufnahme des oberen Textbereichs."
+        "notes": "Dies ist eine Detailaufnahme des oberen Textbereichs.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Tolstois Antlitz.",
-        "notes": "Dies ist eine Detailaufnahme des unteren Textbereichs."
+        "notes": "Dies ist eine Detailaufnahme des unteren Textbereichs.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "Tolstois Antlitz.",
-        "notes": "Dies ist eine Detailaufnahme der Rückseite (durchscheinend)."
+        "notes": "Dies ist eine Detailaufnahme der Rückseite (durchscheinend).",
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "Tolstoi\nTolstois Antlitz\nEin Tag aus dem Leben Tolstois",
-        "notes": "Dies ist eine Detailaufnahme des oberen Textbereichs."
+        "notes": "Dies ist eine Detailaufnahme des oberen Textbereichs.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "Tolstois Antlitz.",
-        "notes": "Dies ist eine Detailaufnahme der Rückseite."
+        "notes": "Dies ist eine Detailaufnahme der Rückseite.",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Tolstoi\nTolstois Antlitz\nEin Tag aus dem Leben Tolstois\n\nTolstois Antlitz.",
-        "notes": "Gesamtansicht des Dokuments mit Farbskala und Grauskala."
+        "notes": "Gesamtansicht des Dokuments mit Farbskala und Grauskala.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr kurz, gut lesbar und wiederholt sich in den verschiedenen Aufnahmen."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 290,
     "total_words": 44,
     "total_pages": 7,

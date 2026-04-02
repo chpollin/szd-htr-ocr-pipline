@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "ROYAL MAIL TURBINE STEAMER \"ALCANTARA\" (TWIN SCREW 22.209 TONS GROSS)\nSOUTH AMERICAN SERVICE",
-        "notes": "Vorderseite der Postkarte mit Bildunterschrift."
+        "notes": "Vorderseite der Postkarte mit Bildunterschrift.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Lieber Alfred, wie du siehst\nbin ich also\nauf dem unterwegs\ndas Schiff ist ausgezeichnet\nwas man erhofft und auf\neiner solchen Fahrt. Alles\nGute für dich der Stefa\nne. Herzlichst\nStefan\n\nAlfred Zweig\nWien I (Austria)\nEsslinggasse 16",
-        "notes": "Rückseite der Postkarte. Der Text ist handschriftlich in violett. Die Adresse ist ebenfalls handschriftlich. Es gibt einen Poststempel 'CHERBOURG MANCHE' und einen weiteren 'POSTED ON THE HIGH SEAS -8 AUG 1936'. Briefmarke: 1 1/2 Penny (King George V)."
+        "notes": "Rückseite der Postkarte. Der Text ist handschriftlich in violett. Die Adresse ist ebenfalls handschriftlich. Es gibt einen Poststempel 'CHERBOURG MANCHE' und einen weiteren 'POSTED ON THE HIGH SEAS -8 AUG 1936'. Briefmarke: 1 1/2 Penny (King George V).",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Lieber Alfred, wie du siehst\nbin ich also\nauf dem unterwegs\ndas Schiff ist ausgezeichnet\nwas man erhofft und auf\neiner solchen Fahrt. Alles\nGute für dich der Stefa\nne. Herzlichst\nStefan\n\nAlfred Zweig\nWien I (Austria)\nEsslinggasse 16",
-        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Maßstab abgebildet."
+        "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Maßstab abgebildet.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Zeilenumbrüche wurden gemäß der Vorlage übernommen."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 556,
     "total_words": 91,
     "total_pages": 3,

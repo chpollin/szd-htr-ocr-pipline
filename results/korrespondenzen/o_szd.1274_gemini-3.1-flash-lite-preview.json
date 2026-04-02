@@ -17,19 +17,21 @@
       {
         "page": 1,
         "transcription": "Liebe Frau Meingast, ich freue mich\nsehr, dass es Ihnen schon besser geht\n— ich wäre selbst gekommen, hätte\nich mich nicht gefürchtet Sie zu stören —\nwir bitte Sie nur, Sie auf das sorgfältigste\nzu schonen u. gar nicht zu beeilen. Sie\nmüssen zuerst ganz zu Kräften kommen\nes hat gar keine Eile; Correcturen kann ich\nIhnen ja allenfalls in den nächsten Tagen\nschicken. Ich begleite auch noch Ihren Gehalt\nu. bitte Sie also auf das Dringlichste sich\nvor allem sehr zu schonen und ja nicht vorzeitig\nanzufangen. Vielen Dank für Ihre wärme das\nherzlichste Gruss Ihr\n\nStefan Zweig",
-        "notes": "Die Handschrift ist flüssig, aber stellenweise eng geschrieben. Das Wort 'wärme' am Ende könnte auch 'Worte' oder eine ähnliche Form sein, ist aber aufgrund der Schreibweise als 'wärme' (evtl. für 'Wärme' oder 'Worte') transkribiert."
+        "notes": "Die Handschrift ist flüssig, aber stellenweise eng geschrieben. Das Wort 'wärme' am Ende könnte auch 'Worte' oder eine ähnliche Form sein, ist aber aufgrund der Schreibweise als 'wärme' (evtl. für 'Wärme' oder 'Worte') transkribiert.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "",
-        "notes": "Rückseite des Briefes, unbeschrieben."
+        "notes": "Rückseite des Briefes, unbeschrieben.",
+        "type": "blank"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Die Interpretation der Wörter ist durch den Kontext der Korrespondenz gesichert."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 575,
     "total_words": 100,
     "total_pages": 1,

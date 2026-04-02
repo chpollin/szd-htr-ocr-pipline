@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Correspondenz-Karte.\n\nAn\n\n\n\n\n\nin\n\nNur für die Adresse",
-        "notes": "Die Anordnung entspricht dem gedruckten Formular. 'Nur für die Adresse' steht vertikal am linken Rand."
+        "notes": "Die Anordnung entspricht dem gedruckten Formular. 'Nur für die Adresse' steht vertikal am linken Rand.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "STEFAN ZWEIG",
-        "notes": "Das Logo zeigt eine stilisierte Figur, die einen Reifen rollt (Fidus-Signet)."
+        "notes": "Das Logo zeigt eine stilisierte Figur, die einen Reifen rollt (Fidus-Signet).",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Correspondenz-Karte.\n\nAn\n\n\n\n\n\nin\n\nNur für die Adresse",
-        "notes": "Dies ist eine Wiederholung der Vorderseite im Kontext der Farb- und Grauskalen-Referenz."
+        "notes": "Dies ist eine Wiederholung der Vorderseite im Kontext der Farb- und Grauskalen-Referenz.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die Transkription ist vollständig."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 118,
     "total_words": 16,
     "total_pages": 3,

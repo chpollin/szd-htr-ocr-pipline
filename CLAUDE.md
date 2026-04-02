@@ -8,18 +8,39 @@ VLM-basierte HTR/OCR-Pipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - Python 3.10+ (getestet mit 3.11)
 - Lizenz: MIT
 
-## Aktueller Stand
+## Aktueller Stand (2. April 2026)
 
-Phasen 1–3 erledigt. Details, offene Aufgaben und Entscheidungslog → `Plan.md`.
+Phasen 1–3 erledigt, Phase 4 laufend. Details, offene Aufgaben und Entscheidungslog → `Plan.md`.
 
-- **~510 Objekte** transkribiert (von ~2107): 98 Lebensdokumente, 256 Korrespondenzen, 104 Aufsatzablage, 52 Werke (+ 7 in `results/test/`). Paralleler Batch laeuft.
-- **Alle 9 Prompt-Gruppen** aktiv, 10+/Gruppe
-- **quality_signals v1.2**: 8 Signale inkl. Leerseiten-Klassifikation (blank/color_chart/content) und DWR (Dictionary Word Ratio). needs_review bei ~40%.
-- **Multi-Model-Konsensus** (`verify.py`): Gemini Flash Lite + Gemini 3 Flash + Claude Judge. Erste Tests zeigen 5% CER bei Typoskripten, hoeher bei Handschrift. Siehe `verification-concept.md` §7.
+### Transkriptionsfortschritt
+
+**557 / 2107 Objekte** transkribiert (26%), **3417 / 18719 Seiten** (18%):
+
+| Sammlung | Objekte | Seiten | Content | Blank | Farbskala | Abdeckung |
+|---|---:|---:|---:|---:|---:|---:|
+| Lebensdokumente | 101 / 127 | 963 | 628 | 289 | 46 | 80% |
+| Korrespondenzen | 287 / 1186 | 915 | 743 | 138 | 34 | 24% |
+| Aufsatzablage | 115 / 625 | 581 | 473 | 106 | 2 | 18% |
+| Werke | 54 / 169 | 958 | 554 | 352 | 52 | 32% |
+
+Werke haben den hoechsten Leerseiten-Anteil (42%) — Manuskripte wurden recto+verso gescannt, Zweig schrieb primaer auf Recto-Seiten, gelegentlich Notizen auf Verso.
+
+### Pipeline-Status
+
+- **Alle 9 Prompt-Gruppen** aktiv (A-I), alle getestet
+- **quality_signals v1.3**: 8 Signale + `page.type` als First-Class-Feld auf jedem Page-Objekt (`content`/`blank`/`color_chart`) + DWR (Dictionary Word Ratio). needs_review bei ~41%.
+- **Multi-Model-Konsensus** (`verify.py`): Gemini Flash Lite + Gemini 3 Flash + Claude Judge. 19 Konsensus-Dateien. Blank-Seiten werden bei CER uebersprungen. Erste Tests: ~5% CER bei Typoskripten, hoeher bei Handschrift. Siehe `verification-concept.md` §7.
 - **CER/WER-Evaluierung**: `evaluate.py` mit Normalisierung per Annotationsprotokoll, `quality_report.py` fuer Aggregatstatistiken
 - **JSON-Parsing gehaertet**: Codeblock-Strip, Escape-Fix (`\j`, `\w`), Retry, Absicherung gegen leere API-Antworten
-- **System-Prompt verbessert**: Explizites JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien
-- Naechster Schritt: **Konsensus-Validierung** (30 Objekte), dann Statistik-Dashboard, dann Prompt-Konsistenz
+- **System-Prompt**: Explizites JSON-Schema, Blank-Page-Handling, Konfidenz-Kriterien
+
+### Naechste Schritte
+
+1. **Konsensus-Validierung**: 30 Objekte stratifiziert (3/Gruppe) mit `verify.py --sample 3`
+2. **Batch weiterfahren**: v.a. Korrespondenzen (24%) und Aufsatzablage (18%)
+3. **Pilot-Entscheidung**: 5-Seiten-Pilot (Plan.md 4a) noch offen — klaeren ob Multi-Model-Konsensus als Proxy-GT reicht
+4. **Statistik-Dashboard** und **Diff-Ansicht** im Viewer (L1)
+5. **TEI-Export**: `export_interchange.py` (Phase 5)
 
 ## Quelldaten
 
@@ -32,17 +53,67 @@ Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJ
 | `aufsatz/` | `aufsatzablage` | ~625 | `szd_aufsatzablage_tei.xml` |
 | `facsimiles/` | `werke` | ~169 | `szd_werke_tei.xml` |
 
-Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/images/IMG_*.jpg` (ca. 4912x7360px). TEI-XML enthält mehr Objekte als im Backup vorhanden sind.
+Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/images/IMG_*.jpg` (ca. 4912x7360px). Gesamt: **18719 Bilder** ueber alle 4 Sammlungen. TEI-XML enthält mehr Objekte als im Backup vorhanden sind. METS-Dateien enthalten Bildreihenfolge und EXIF-Dimensionen, aber keine Seitentyp-Annotation (0/1222 Labels leer).
 
 ## Pipeline-Architektur
 
+### Datenfluss
+
 ```
-Faksimile (JPG) → Gemini Vision API → JSON (Transkription pro Seite + Konfidenz)
+ Faksimile-Scans (JPG, ~5000x7400px)
+ + TEI-XML-Metadaten + Backup-Metadaten
+                │
+                ▼
+ ┌─────────────────────────────────────┐
+ │  1. Kontext-Aufloesung              │
+ │     tei_context.py                  │
+ │     • TEI-XML → Titel, Datum,       │
+ │       Sprache, Signatur, Objekttyp  │
+ │     • resolve_group() → Prompt-     │
+ │       Gruppe A-I (automatisch)      │
+ └──────────────┬──────────────────────┘
+                ▼
+ ┌─────────────────────────────────────┐
+ │  2. Dreischichtiger Prompt          │
+ │     • System-Prompt (Rolle, Regeln, │
+ │       JSON-Schema, Blank-Handling)  │
+ │     • Gruppen-Prompt (1 von 9)      │
+ │     • Objekt-Kontext (aus TEI)      │
+ └──────────────┬──────────────────────┘
+                ▼
+ ┌─────────────────────────────────────┐
+ │  3. VLM-Transkription               │
+ │     Gemini 3.1 Flash Lite (t=0.1)  │
+ │     Input: Alle Bilder + Prompt     │
+ │     Output: JSON {pages[], conf.}   │
+ │     • Exponential Backoff (429)     │
+ │     • JSON-Sanitisierung (Codeblock,│
+ │       Escape-Fix, Retry)            │
+ └──────────────┬──────────────────────┘
+                ▼
+ ┌─────────────────────────────────────┐
+ │  4. Enrichment & Quality Signals    │
+ │     quality_signals.py v1.3         │
+ │     • page.type (content/blank/     │
+ │       color_chart) pro Seite        │
+ │     • DWR, Marker-Dichte, Duplikate │
+ │     • Sprachkonsistenz (TEI vs. det)│
+ │     • needs_review + Gruende        │
+ └──────────────┬──────────────────────┘
+                ▼
+ results/{collection}/{object_id}_{model}.json
+                │
+        ┌───────┴────────┐
+        ▼                ▼
+   verify.py        build_viewer_data.py
+   Konsensus        → catalog.json
+   (Flash + Flash   → data/{collection}.json
+    Lite + Judge)   → docs/ Viewer
 ```
 
 ### Dreischichtiges Prompt-System
 
-1. **System-Prompt** (`prompts/system.md`): Rolle, diplomatische Transkriptionsregeln, JSON-Output-Format
+1. **System-Prompt** (`prompts/system.md`): Rolle, diplomatische Transkriptionsregeln, JSON-Output-Format, Blank-Page-Handling
 2. **Gruppen-Prompt** (`prompts/group_*.md`): Spezifische Anweisungen pro Dokumenttyp (9 Gruppen)
 3. **Objekt-Kontext** (automatisch aus TEI-XML via `tei_context.py`): Titel, Signatur, Datum, Sprache, Objekttyp etc.
 
@@ -75,10 +146,11 @@ szd-htr/
 ├── pipeline/
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
-│   ├── quality_signals.py           ← 8 Signale + Leerseiten-Klassifikation + DWR (v1.2)
+│   ├── quality_signals.py           ← 8 Signale + page.type + DWR (v1.3)
 │   ├── verify.py                    ← Multi-Model-Konsensus (Flash Lite + Flash + Claude Judge)
 │   ├── evaluate.py                  ← CER/WER-Berechnung + normalize_for_consensus
 │   ├── quality_report.py            ← Aggregierte Qualitaetsstatistiken ueber alle Ergebnisse
+│   ├── backfill_page_types.py       ← Backfill: page.type auf bestehende JSONs stempeln
 │   ├── run_sample_batch.py          ← Gezielter Batch: fuellt jede Gruppe auf 10 auf
 │   ├── test_single.py               ← Testskript mit 7 hardcodierten Testobjekten
 │   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
@@ -88,10 +160,10 @@ szd-htr/
 ├── results/
 │   ├── test/                        ← 7 Testergebnisse (enriched JSON)
 │   ├── groundtruth/                 ← Manuelle Referenztranskriptionen (Pilot + GT)
-│   ├── lebensdokumente/             ← ~98 Ergebnisse (+ Konsensus-JSONs)
-│   ├── werke/                       ← ~52 Ergebnisse
-│   ├── aufsatzablage/               ← ~104 Ergebnisse
-│   └── korrespondenzen/             ← ~256 Ergebnisse
+│   ├── lebensdokumente/             ← 101 Ergebnisse + 11 Konsensus-JSONs
+│   ├── werke/                       ← 54 Ergebnisse + 5 Konsensus-JSONs
+│   ├── aufsatzablage/               ← 115 Ergebnisse
+│   └── korrespondenzen/             ← 287 Ergebnisse + 3 Konsensus-JSONs
 ├── docs/
 │   ├── index.html                   ← Single-Page-App: Katalog + Viewer (GitHub Pages)
 │   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit
@@ -166,23 +238,30 @@ Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits tr
   "context": "## Dieses Dokument\n- Titel: ...\n- Signatur: ...",
   "result": {
     "pages": [
-      {"page": 1, "transcription": "...", "notes": "..."}
+      {"page": 1, "transcription": "...", "notes": "...", "type": "content"},
+      {"page": 2, "transcription": "", "notes": "Rueckseite, leer.", "type": "blank"},
+      {"page": 3, "transcription": "", "notes": "Farbskala fuer Archivierung.", "type": "color_chart"}
     ],
     "confidence": "high | medium | low",
     "confidence_notes": "..."
   },
   "quality_signals": {
-    "version": "1.0",
+    "version": "1.3",
     "total_chars": 2057,
     "total_words": 356,
     "total_pages": 1,
     "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
     "input_images": 3,
+    "page_types": ["content", "blank", "color_chart"],
     "chars_per_page": [2057, 0, 0],
     "chars_per_page_median": 2057.0,
     "marker_uncertain_count": 0,
     "marker_illegible_count": 0,
     "marker_density": 0.0,
+    "dwr_score": 0.42,
     "duplicate_page_pairs": [],
     "language_expected": "de",
     "language_detected": "de",
@@ -194,16 +273,24 @@ Ergebnisse landen in `results/{collection}/{object_id}_{model}.json`. Bereits tr
 }
 ```
 
+`page.type` ist ein First-Class-Feld auf jedem Page-Objekt (seit v1.3). Wird von `_classify_page()` in `quality_signals.py` gesetzt basierend auf Transkriptionslaenge (<10 Zeichen) und Notes-Keywords. Alle 557 bestehenden JSONs sind backfilled via `backfill_page_types.py`. Downstream-Nutzung:
+- `verify.py`: Blank/color_chart-Seiten werden bei CER-Berechnung uebersprungen (`"agreement": "skipped"`)
+- `build_viewer_data.py`: `page.type` fliesst in Viewer-Daten, `blankPages`/`contentPages` im Katalog
+- Schema: `schemas/htr-interchange-v0.1.json` enthaelt `type` als optionales enum-Feld
+```
+
 ## Technische Entscheidungen
 
-- **Gemini 3.1 Flash Lite** als primäres VLM (günstig, schnell, multimodal). Claude Vision und GPT-4o als Vergleichskandidaten für Phase 4, aber noch nicht implementiert.
-- **Kein Preprocessing** — Bilder gehen unverändert an die API. Optimale Bildgröße ist ein offener Punkt.
+- **Gemini 3.1 Flash Lite** als primaeres VLM (guenstig, schnell, multimodal). Claude Vision und GPT-4o als Vergleichskandidaten fuer Phase 4, aber noch nicht implementiert.
+- **Kein Preprocessing** — Bilder gehen unveraendert an die API. Optimale Bildgroesse ist ein offener Punkt.
+- **Alle Bilder an die API** — auch Leerseiten, weil Stefan Zweigs Schreibpraxis unregelmaessig ist (Verso-Seiten haben manchmal wichtige Notizen). Seitentyp-Klassifikation erfolgt post-hoc, nicht als Pre-Filter.
 - **3-Ebenen-Verifikation** statt naiver Konfidenz:
-  1. **Unsicherheits-Marker** (stark): Zählung von `[?]` und `[...]` im Transkriptionstext
-  2. **VLM-Selbsteinschätzung** (schwach): high/medium/low aus dem Gemini-Output — LLMs überschätzen ihre Leistung
-  3. **Textstatistik** (mittel): Zeichenzahl, Leerseiten, Zeichen/Seite als Plausibilitäts-Check
-- **Diplomatische Transkription** — keine Normalisierung, keine Korrektur. Markup: `[?]` unsicher, `[...]` unleserlich, `~~...~~` durchgestrichen, `{...}` Einfügung.
+  1. **Unsicherheits-Marker** (stark): Zaehlung von `[?]` und `[...]` im Transkriptionstext
+  2. **VLM-Selbsteinschaetzung** (schwach): high/medium/low aus dem Gemini-Output — LLMs ueberschaetzen ihre Leistung
+  3. **Textstatistik** (mittel): Zeichenzahl, Leerseiten, Zeichen/Seite als Plausibilitaets-Check
+- **Diplomatische Transkription** — keine Normalisierung, keine Korrektur. Markup: `[?]` unsicher, `[...]` unleserlich, `~~...~~` durchgestrichen, `{...}` Einfuegung.
 - **Bilder direkt von GAMS** im Viewer — kein lokaler Image-Store im Repo, GAMS-URLs als `<img src>`.
+- **Multi-Model-Konsensus statt manuellem GT** — Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell. Gemini Flash Lite (Modell A) + Gemini 3 Flash (Modell B), Claude als Judge fuer divergente Faelle.
 
 ## Verwandte Projekte
 

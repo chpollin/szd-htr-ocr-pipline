@@ -22,44 +22,51 @@
       {
         "page": 1,
         "transcription": "Urlaubsbedürftigen, Die\n\nDie Vision des\ngeistlichen Morgens\n(nach Baudouin)",
-        "notes": "Das Dokument besteht aus einem Blatt mit zwei verschiedenen Texten auf Vorder- und Rückseite. Die erste Zeile ist in violetter Tinte geschrieben, der untere Teil in schwarzer Tinte."
+        "notes": "Das Dokument besteht aus einem Blatt mit zwei verschiedenen Texten auf Vorder- und Rückseite. Die erste Zeile ist in violetter Tinte geschrieben, der untere Teil in schwarzer Tinte.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "Urlaubsbedürftigen, Die",
-        "notes": "Rückseite des Blattes, zeigt den Text in violetter Tinte."
+        "notes": "Rückseite des Blattes, zeigt den Text in violetter Tinte.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "Die Vision des\ngeistlichen Morgens\n(nach Baudouin)",
-        "notes": "Vorderseite des Blattes, zeigt den Text in schwarzer Tinte."
+        "notes": "Vorderseite des Blattes, zeigt den Text in schwarzer Tinte.",
+        "type": "content"
       },
       {
         "page": 4,
         "transcription": "Die Vision des\ngeistlichen Morgens\n(nach Baudouin)",
-        "notes": "Spiegelbildliche Durchzeichnung des Textes auf der Rückseite."
+        "notes": "Spiegelbildliche Durchzeichnung des Textes auf der Rückseite.",
+        "type": "content"
       },
       {
         "page": 5,
         "transcription": "Urlaubsbedürftigen, Die",
-        "notes": "Wiederholung der Vorderseite."
+        "notes": "Wiederholung der Vorderseite.",
+        "type": "content"
       },
       {
         "page": 6,
         "transcription": "Die Vision des\ngeistlichen Morgens\n(nach Baudouin)",
-        "notes": "Wiederholung der Rückseite."
+        "notes": "Wiederholung der Rückseite.",
+        "type": "content"
       },
       {
         "page": 7,
         "transcription": "Urlaubsbedürftigen, Die\n\nDie Vision des\ngeistlichen Morgens\n(nach Baudouin)",
-        "notes": "Gesamtansicht mit Farbskala."
+        "notes": "Gesamtansicht mit Farbskala.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist kurz, deutlich lesbar und wiederholt sich über die verschiedenen Scans hinweg."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 346,
     "total_words": 43,
     "total_pages": 7,

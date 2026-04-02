@@ -18,24 +18,27 @@
       {
         "page": 1,
         "transcription": "Liebe Frau Meingast!\n\nHerr Doktor beauftragt mich Ihnen den Erhalt der\nBriefe zu bestätigen. Mama dankt auch noch für Ihr\nIhre liebe Karte und freut sich dass Sie und\nWilly sich gut erholt haben. Mama lääst sagen, dass\ndie Anweisungen nicht von ihr sonder von Herrn\nDoktor sind, mit Ausnahme der letzten, dankt Ihnen\ngleichfalls für Ihre Mühe und Nachsendung der\nPost.",
-        "notes": "Der Text ist maschinengeschrieben. In Zeile 3 ist 'Ihr' durchgestrichen (bzw. überschrieben) durch 'Ihre'. In Zeile 4 ist 'lääst' ein Tippfehler im Original."
+        "notes": "Der Text ist maschinengeschrieben. In Zeile 3 ist 'Ihr' durchgestrichen (bzw. überschrieben) durch 'Ihre'. In Zeile 4 ist 'lääst' ein Tippfehler im Original.",
+        "type": "content"
       },
       {
         "page": 2,
         "transcription": "4.8.28 Autriche\n\n[Absender:]\nM. Zweig\nOstende\nHotel Miramar\n\nIch selbst, danke auch herz-\nlichst für Ihre lieben\nGrüsse.\nIhre ergebene\nSusie Winternitz.\n\n[Empfänger:]\nFrau\nAnna Meingast\nSalzburg\nLinzergasse (Laubinger)",
-        "notes": "Handschriftliche Postkarte. Der Absenderbereich ist links vertikal geschrieben. Der Empfängerbereich ist rechts unten. 'Autriche' ist handschriftlich oben rechts ergänzt. Poststempel 'OOSTENDE 9.8.28'."
+        "notes": "Handschriftliche Postkarte. Der Absenderbereich ist links vertikal geschrieben. Der Empfängerbereich ist rechts unten. 'Autriche' ist handschriftlich oben rechts ergänzt. Poststempel 'OOSTENDE 9.8.28'.",
+        "type": "content"
       },
       {
         "page": 3,
         "transcription": "4.8.28 Autriche\n\n[Absender:]\nM. Zweig\nOstende\nHotel Miramar\n\nIch selbst, danke auch herz-\nlichst für Ihre lieben\nGrüsse.\nIhre ergebene\nSusie Winternitz.\n\n[Empfänger:]\nFrau\nAnna Meingast\nSalzburg\nLinzergasse (Laubinger)",
-        "notes": "Identisch mit Seite 2, inklusive Farb- und Grauskala-Referenzkarten."
+        "notes": "Identisch mit Seite 2, inklusive Farb- und Grauskala-Referenzkarten.",
+        "type": "content"
       }
     ],
     "confidence": "high",
     "confidence_notes": "Der Text ist sehr gut lesbar, sowohl die Maschinenschrift als auch die Handschrift sind eindeutig identifizierbar."
   },
   "quality_signals": {
-    "version": "1.2",
+    "version": "1.3",
     "total_chars": 804,
     "total_words": 120,
     "total_pages": 3,
