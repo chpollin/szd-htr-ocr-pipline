@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.2502",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Für die Maccabi-Association, London, SZ-AAP/W-AA103.5",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2502/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2502/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2502/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2502/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2502/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Für die Maccabi-Association, London\n- Signatur: SZ-AAP/W-AA103.5\n- Datum: Okt. 1937\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarzes\n                                       Durchschlagpapier, blauer Buntstift\n- Hand: Lotte Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "für die Maccabi-Association, London\nOkt. 1937\n\nDie körperliche Ertüchtigung der jüdischen Jugend\nscheint mir deshalb besonders wichtig, weil sie mithel-\nfen kann, das Inferioritätsgefühl, das oft schon von\nKindheit an auf den Juden lastet, zu vermindern. Kör-\nperliche Kraft, Geschicklichkeit, Sicherheit ist ein\nwichtiges Moment für das seelische Gleichgewicht, und\ngerade weil die Juden infolge der ihnen historisch auf-\ngezwungenen Schichtung nur zum geringen Teil Landarbei-\nter und Landbewohner sind, ist eine gewisse sportliche\nBetätigung für sie besonders notwendig. Je mehr sich\ndie Städte vergrössern, je mehr sich die Aktivität ih-\nrer Bewohner innerhalb von Zimmern und Büros, also in\ngeschlossenen Räumen abspielt, umso wichtiger wird eine\ngesteigerte Pflege und Anspannung des Körpers in den\nFerienstunden. Die Erfahrungen haben gezeigt, dass die\njüdische Jugend keine geringeren Fähigkeiten besitzt und\ndass gerade in den letzten Jahrzehnten der körperliche\nHabitus der ganzen Rasse sich sichtbarlich gekräftigt\nhat.\nFreilich muss darauf geachtet werden, dass die Wage\nnicht zu tief nach der andern Seite hinunterschnellt. Die\nGefahr der übermässigen Sportbetätigung liegt darin, dass",
+        "notes": "Typoskript mit handschriftlicher Notiz am Kopf (in blauem Buntstift). Die Notiz ist von Lotte Zweig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "sie einerseits leicht zur Vernachlässigung geistiger In-\nteressen führt und dass sie anderseits kriegerische und\nmilitaristische Instinkte befördert. Keinesfalls darf\ndie körperliche Kultur der jüdischen Jugend die geisti-\nge Kultur, die unsere Ehre und unser Stolz durch die\nJahrtausende gewesen, gefährden, und es wird eine der\nwesentlichen Aufgaben sein, in dieser Beziehung das\nrichtige Gleichgewicht zu halten.",
+        "notes": "Typoskript, Fortsetzung des Textes von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Notiz am Kopf ist ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1613,
+    "total_words": 226,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1198,
+      0,
+      415,
+      0,
+      0
+    ],
+    "chars_per_page_median": 806.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

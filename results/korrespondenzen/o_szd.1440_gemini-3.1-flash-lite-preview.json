@@ -40,6 +40,12 @@
         "transcription": "",
         "notes": "Rückseite des zweiten Blattes mit Farbskala und Grauskala zur Dokumentation.",
         "type": "color_chart"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -50,19 +56,21 @@
     "total_chars": 1286,
     "total_words": 186,
     "total_pages": 1,
-    "empty_pages": 3,
-    "blank_pages": 2,
+    "empty_pages": 4,
+    "blank_pages": 3,
     "color_chart_pages": 1,
     "content_pages": 1,
-    "input_images": 4,
+    "input_images": 5,
     "page_types": [
       "content",
       "blank",
       "blank",
-      "color_chart"
+      "color_chart",
+      "blank"
     ],
     "chars_per_page": [
       1286,
+      0,
       0,
       0,
       0

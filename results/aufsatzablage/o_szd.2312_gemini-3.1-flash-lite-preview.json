@@ -30,6 +30,36 @@
         "transcription": "Ein Tag aus dem Leben\nTolstois",
         "notes": "Die Transkription bezieht sich auf den Text auf dem Blatt, wie er in den Scans 2, 5 und 6 zu sehen ist. Scan 4 zeigt den Text von Scan 1 spiegelverkehrt durch das Papier hindurch.",
         "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -40,18 +70,28 @@
     "total_chars": 72,
     "total_words": 12,
     "total_pages": 2,
-    "empty_pages": 0,
-    "blank_pages": 0,
+    "empty_pages": 5,
+    "blank_pages": 5,
     "color_chart_pages": 0,
     "content_pages": 2,
     "input_images": 7,
     "page_types": [
       "content",
-      "content"
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank"
     ],
     "chars_per_page": [
       42,
-      30
+      30,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "chars_per_page_median": 36.0,
     "marker_uncertain_count": 0,
@@ -62,9 +102,7 @@
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_image_mismatch"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

@@ -40,6 +40,12 @@
         "transcription": "",
         "notes": "Farbskala/Grauskala fuer Archivierung.",
         "type": "color_chart"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -50,21 +56,23 @@
     "total_chars": 3002,
     "total_words": 458,
     "total_pages": 2,
-    "empty_pages": 2,
-    "blank_pages": 1,
+    "empty_pages": 3,
+    "blank_pages": 2,
     "color_chart_pages": 1,
     "content_pages": 2,
-    "input_images": 4,
+    "input_images": 5,
     "page_types": [
       "content",
       "blank",
       "content",
-      "color_chart"
+      "color_chart",
+      "blank"
     ],
     "chars_per_page": [
       1254,
       0,
       1748,
+      0,
       0
     ],
     "chars_per_page_median": 1501.0,

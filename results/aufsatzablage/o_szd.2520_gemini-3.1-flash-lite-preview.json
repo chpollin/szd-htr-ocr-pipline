@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2520",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kippenberg, SZ-AAP/W-AA111.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2520/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2520/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2520/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2520/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2520/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2520/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2520/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kippenberg\n- Signatur: SZ-AAP/W-AA111.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Kippenberg Prof. Dr.\n                        Anton\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kippenberg\n✓ Bericht über ein Goethe-Museum\n? (Der Katalog der Sammlung K.)\n✓ Verse aus einem Stammbuch\n\n\nKippenberg Prof. Dr. Anton\n\nWille zur Universalität\nSammlung Kippenberg",
+        "notes": "Handschrift in violetter Tinte. Es handelt sich um ein Blatt, das aus zwei Teilen besteht (einem schmalen Streifen oben und einem größeren Blatt unten).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Streifens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Ellen Key\n\n✓ Rahel Varnhagen\n  Drei Frauenschicksale\n\n- Ellen Keys Rahelbuch\n  Titel",
+        "notes": "Handschrift in violetter Tinte. Die Anordnung der Wörter 'Titel' und 'Ellen Keys Rahelbuch' ist leicht versetzt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des mittleren Teils, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Key, Ellen\nEllen Keys Rahelbuch\nDrei Frauenschicksale",
+        "notes": "Handschrift in violetter Tinte auf einem schmalen Papierstreifen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Kippenberg Prof. Dr. Anton\nWille zur Universalität\nSammlung Kippenberg",
+        "notes": "Rückseite des unteren Blattes, durchscheinende Schrift von der Vorderseite (Bleed-through).",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Kippenberg\n✓ Bericht über ein Goethe-Museum\n? (Der Katalog der Sammlung K.)\n✓ Verse aus einem Stammbuch\n\n\nKippenberg Prof. Dr. Anton\n\nWille zur Universalität\nSammlung Kippenberg",
+        "notes": "Gesamtansicht des Dokuments mit Grauskala und Farbkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Struktur des Dokuments (zusammengesetzte Zettel) ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 561,
+    "total_words": 80,
+    "total_pages": 4,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      177,
+      0,
+      84,
+      0,
+      53,
+      70,
+      177
+    ],
+    "chars_per_page_median": 77.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

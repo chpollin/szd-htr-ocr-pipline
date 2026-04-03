@@ -27,6 +27,18 @@
         "transcription": "",
         "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite sichtbar.",
         "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -37,17 +49,21 @@
     "total_chars": 872,
     "total_words": 133,
     "total_pages": 1,
-    "empty_pages": 1,
-    "blank_pages": 1,
+    "empty_pages": 3,
+    "blank_pages": 3,
     "color_chart_pages": 0,
     "content_pages": 1,
-    "input_images": 2,
+    "input_images": 4,
     "page_types": [
       "content",
+      "blank",
+      "blank",
       "blank"
     ],
     "chars_per_page": [
       872,
+      0,
+      0,
       0
     ],
     "chars_per_page_median": 872,

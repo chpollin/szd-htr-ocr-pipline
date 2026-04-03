@@ -28,6 +28,18 @@
             "source": "agent"
           }
         ]
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -50,16 +62,20 @@
     "total_chars": 6097,
     "total_words": 885,
     "total_pages": 1,
-    "empty_pages": 0,
-    "blank_pages": 0,
+    "empty_pages": 2,
+    "blank_pages": 2,
     "color_chart_pages": 0,
     "content_pages": 1,
     "input_images": 3,
     "page_types": [
-      "content"
+      "content",
+      "blank",
+      "blank"
     ],
     "chars_per_page": [
-      6097
+      6097,
+      0,
+      0
     ],
     "chars_per_page_median": 6097,
     "marker_uncertain_count": 0,
@@ -70,9 +86,7 @@
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_image_mismatch"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

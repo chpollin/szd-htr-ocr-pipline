@@ -26,6 +26,12 @@
         "transcription": "Herrn\nHr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nDie herzlichsten\nOsterwünsche\nIhrer ergebenen\nWilly [?]",
         "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Grußtext. Briefmarke und Poststempel vorhanden. Der Name des Absenders ist schwer lesbar, möglicherweise 'Willy' oder ähnlich.",
         "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "medium",
@@ -36,18 +42,20 @@
     "total_chars": 139,
     "total_words": 19,
     "total_pages": 2,
-    "empty_pages": 0,
-    "blank_pages": 0,
+    "empty_pages": 1,
+    "blank_pages": 1,
     "color_chart_pages": 0,
     "content_pages": 2,
-    "input_images": 2,
+    "input_images": 3,
     "page_types": [
       "content",
-      "content"
+      "content",
+      "blank"
     ],
     "chars_per_page": [
       35,
-      104
+      104,
+      0
     ],
     "chars_per_page_median": 69.5,
     "marker_uncertain_count": 1,

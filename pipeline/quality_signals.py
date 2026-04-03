@@ -81,6 +81,56 @@ def _jaccard(words_a: set, words_b: set) -> float:
     return len(words_a & words_b) / len(words_a | words_b)
 
 
+def _fill_missing_pages(pages: list, image_count: int) -> list:
+    """Ensure pages list has exactly image_count entries, filling gaps with blanks.
+
+    Handles two cases:
+    1. VLM numbered by manuscript sheets (1,3,5,...) skipping blank versos
+       → insert blank pages at the missing positions
+    2. VLM returned fewer pages than images (no gaps in numbering)
+       → append blank pages at the end
+
+    Modifies pages in-place AND returns the list.
+    """
+    if not pages or image_count <= 0 or len(pages) == image_count:
+        return pages
+
+    # Case 1: pages have non-sequential numbering (gaps)
+    page_nums = [p.get("page", i + 1) for i, p in enumerate(pages)]
+    max_page = max(page_nums) if page_nums else 0
+
+    if max_page > len(pages):
+        # Build a map from page number to page data
+        page_map = {}
+        for p in pages:
+            page_map[p.get("page", 0)] = p
+
+        filled = []
+        for i in range(1, image_count + 1):
+            if i in page_map:
+                filled.append(page_map[i])
+            else:
+                filled.append({
+                    "page": i,
+                    "transcription": "",
+                    "notes": "Leerseite (automatisch ergaenzt).",
+                    "type": "blank",
+                })
+        pages.clear()
+        pages.extend(filled)
+        return pages
+
+    # Case 2: sequential numbering but fewer pages than images → append blanks
+    while len(pages) < image_count:
+        pages.append({
+            "page": len(pages) + 1,
+            "transcription": "",
+            "notes": "Leerseite (automatisch ergaenzt).",
+            "type": "blank",
+        })
+    return pages
+
+
 def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -> dict:
     """Compute quality signals from transcription result and metadata.
 
@@ -93,6 +143,7 @@ def compute_signals(result_json: dict, metadata: dict, input_image_count: int) -
         quality_signals dict per verification-concept.md §2.5
     """
     pages = result_json.get("pages", [])
+    _fill_missing_pages(pages, input_image_count)
     all_text = ""
     content_text = ""  # Only content pages (no blanks/color charts)
     chars_per_page = []

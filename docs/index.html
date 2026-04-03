@@ -49,7 +49,7 @@
 
 <!-- ===== Catalog View ===== -->
 <main id="catalog" class="catalog">
-  <div class="catalog__stats" id="catalogStats"></div>
+  <div class="catalog__stats is-hidden" id="catalogStats"></div>
   <div class="catalog__toolbar">
     <div class="catalog__search">
       <label for="searchInput" class="sr-only">Suche nach Titel, Signatur oder PID</label>
@@ -72,7 +72,7 @@
       <option value="low">low</option>
     </select>
     <label for="filterReviewStatus" class="sr-only">Review-Status filtern</label>
-    <select class="catalog__filter" id="filterReviewStatus" style="display:none">
+    <select class="catalog__filter is-hidden" id="filterReviewStatus">
       <option value="">Alle Status</option>
       <option value="gt_verified">Verifiziert</option>
       <option value="human_verified">Gepr&uuml;ft</option>
@@ -102,16 +102,16 @@
       <tbody id="catalogBody"></tbody>
     </table>
   </div>
-  <div class="catalog__empty" id="catalogEmpty" style="display:none">
+  <div class="catalog__empty is-hidden" id="catalogEmpty">
     Keine Objekte gefunden.
   </div>
 
   <div class="catalog__pagination" id="pagination">
     <span class="catalog__pagination-info" id="paginationInfo" aria-live="polite"></span>
     <div class="catalog__pagination-controls">
-      <button type="button" class="catalog__page-btn" id="prevPage">&#8249;</button>
+      <button type="button" class="catalog__page-btn" id="prevPage" aria-label="Vorherige Seite">&#8249;</button>
       <span id="paginationPages"></span>
-      <button type="button" class="catalog__page-btn" id="nextPage">&#8250;</button>
+      <button type="button" class="catalog__page-btn" id="nextPage" aria-label="N&auml;chste Seite">&#8250;</button>
     </div>
   </div>
 </main>
@@ -123,29 +123,29 @@
   <div class="viewer__nav">
     <div class="viewer__nav-group">
       <button type="button" class="viewer__nav-btn" id="prevObjBtn"
-              data-tooltip="Vorheriges Objekt">&#171;</button>
+              aria-label="Vorheriges Objekt" data-tooltip="Vorheriges Objekt">&#171;</button>
       <span class="viewer__obj-info" id="objInfo"></span>
       <button type="button" class="viewer__nav-btn" id="nextObjBtn"
-              data-tooltip="Nächstes Objekt">&#187;</button>
+              aria-label="N&auml;chstes Objekt" data-tooltip="Nächstes Objekt">&#187;</button>
     </div>
 
     <div class="viewer__nav-group">
       <button type="button" class="viewer__nav-btn" id="prevPageBtn"
-              data-tooltip="Vorherige Seite (←)">&#8249;</button>
-      <span class="viewer__page-info" id="pageInfo" data-tooltip="Klick für Seitensprung">1 / 1</span>
+              aria-label="Vorherige Seite" data-tooltip="Vorherige Seite (&larr;)">&#8249;</button>
+      <span class="viewer__page-info" id="pageInfo" data-tooltip="Klick f&uuml;r Seitensprung">1 / 1</span>
       <button type="button" class="viewer__nav-btn" id="nextPageBtn"
-              data-tooltip="Nächste Seite (→)">&#8250;</button>
+              aria-label="N&auml;chste Seite" data-tooltip="N&auml;chste Seite (&rarr;)">&#8250;</button>
       <span class="viewer__nav-sep"></span>
       <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navZoomInBtn"
-              data-tooltip="Zoom + (Scrollrad)">+</button>
+              aria-label="Vergr&ouml;&szlig;ern" data-tooltip="Zoom + (Scrollrad)">+</button>
       <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navZoomOutBtn"
-              data-tooltip="Zoom −">&minus;</button>
+              aria-label="Verkleinern" data-tooltip="Zoom &minus;">&minus;</button>
       <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navRotateBtn"
-              data-tooltip="90° drehen (R)">&#8635;</button>
+              aria-label="90 Grad drehen" data-tooltip="90&deg; drehen (R)">&#8635;</button>
       <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navResetBtn"
-              data-tooltip="Ansicht zurücksetzen (0)">&#8634;</button>
+              aria-label="Ansicht zur&uuml;cksetzen" data-tooltip="Ansicht zur&uuml;cksetzen (0)">&#8634;</button>
       <button type="button" class="viewer__nav-btn viewer__nav-btn--tool" id="navFitBtn"
-              data-tooltip="Einpassen umschalten">&#x21F2;</button>
+              aria-label="Einpassen umschalten" data-tooltip="Einpassen umschalten">&#x21F2;</button>
     </div>
 
     <div class="viewer__nav-group">
@@ -153,15 +153,15 @@
               data-tooltip="Transkription bearbeiten (Änderungen werden direkt im JSON gespeichert)">
         &#9998; Edit <span class="indicator" id="editIndicator"></span>
       </button>
-      <button type="button" class="viewer__action-btn" id="editSaveBtn" style="display:none"
+      <button type="button" class="viewer__action-btn is-hidden" id="editSaveBtn"
               data-tooltip="Änderungen ins Pipeline-JSON speichern (Ctrl+S). Original bleibt in edit_history.">
         &#10003; Speichern
       </button>
-      <button type="button" class="viewer__action-btn" id="editUndoPageBtn" style="display:none"
+      <button type="button" class="viewer__action-btn is-hidden" id="editUndoPageBtn"
               data-tooltip="Diese Seite zurücksetzen">
         &#8630; Seite
       </button>
-      <button type="button" class="viewer__action-btn" id="discardBtn" style="display:none"
+      <button type="button" class="viewer__action-btn is-hidden" id="discardBtn"
               data-tooltip="Alle Änderungen an diesem Objekt verwerfen">
         Alles verwerfen
       </button>
@@ -173,36 +173,36 @@
               data-tooltip="Modellkonsensus: Transkriptionen zweier VLMs vergleichen">
         &#8700; Diff
       </button>
-      <button type="button" class="viewer__action-btn" id="reviewGtBtn" style="display:none"
+      <button type="button" class="viewer__action-btn is-hidden" id="reviewGtBtn"
               data-tooltip="Ground Truth: 3 VLM-Transkriptionen vergleichen und pr&uuml;fen">
         &#9733; GT Review
       </button>
-      <button type="button" class="viewer__action-btn" id="approveBtn" style="display:none"
+      <button type="button" class="viewer__action-btn is-hidden" id="approveBtn"
               data-tooltip="Approve (Tier 1): Transkription als korrekt markieren">
         &#10003; Approve
       </button>
-      <button type="button" class="viewer__action-btn" id="gtVerifyBtn" style="display:none"
+      <button type="button" class="viewer__action-btn is-hidden" id="gtVerifyBtn"
               data-tooltip="GT Verify (Tier 0): Jede Seite zeichengenau gegen Faksimile geprüft. Höchster Status — zählt als Ground Truth für CER.">
         &#9733; GT Verify
       </button>
     </div>
   </div>
 
-  <div class="viewer__edit-status" id="editStatus" aria-live="polite" style="display:none"></div>
+  <div class="viewer__edit-status is-hidden" id="editStatus" aria-live="polite"></div>
 
   <div class="viewer__panels" id="viewerPanels">
     <div class="viewer__panel-label" id="panelLabelLeft">Faksimile</div>
     <div class="viewer__panel-label" id="panelLabelRight">Transkription</div>
     <div class="viewer__img-panel" id="imgPanel">
       <span class="viewer__img-spinner" id="imgSpinner">Lade Bild…</span>
-      <img id="faksimile" src="" alt="Faksimile" style="display:none">
+      <img id="faksimile" src="" alt="Faksimile" class="is-hidden">
     </div>
     <div class="viewer__text-panel" id="textPanel">
       <div class="viewer__transcription-wrap">
         <div class="viewer__transcription" id="transcription"></div>
       </div>
     </div>
-    <div class="viewer__diff-panel" id="diffPanel" style="display:none">
+    <div class="viewer__diff-panel is-hidden" id="diffPanel">
       <div class="diff__tabs" id="diffTabs">
         <button class="diff__tab active" data-diff-tab="consensus" onclick="switchDiffTab('consensus')">Modellkonsensus</button>
         <button class="diff__tab" data-diff-tab="edits" onclick="switchDiffTab('edits')">Korrekturen</button>
@@ -215,11 +215,11 @@
         </div>
         <div class="diff__stats" id="diffStats"></div>
       </div>
-      <div class="diff__header" id="diffHeaderEdits" style="display:none">
+      <div class="diff__header is-hidden" id="diffHeaderEdits">
         <div class="diff__provider-toggle">
-          <span class="diff__provider-label" style="background:var(--diff-edit-old-bg);color:var(--diff-edit-old-text)">Original</span>
+          <span class="diff__provider-label diff__provider-label--old">Original</span>
           <span class="diff__vs">&rarr;</span>
-          <span class="diff__provider-label" style="background:var(--diff-edit-new-bg);color:var(--diff-edit-new-text)">Korrigiert</span>
+          <span class="diff__provider-label diff__provider-label--new">Korrigiert</span>
         </div>
         <div class="diff__stats" id="diffStatsEdits"></div>
       </div>

@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.2504",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufruf für die österreichischen Juden, SZ-AAP/W-AA103.7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2504/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2504/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2504/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2504/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2504/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufruf für die österreichischen Juden\n- Signatur: SZ-AAP/W-AA103.7\n- Datum: 1938\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Durchschlagpapier, blauer Buntstift, rote Tinte\n- Hand: Lotte Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufruf für die öster. Juden\n1938\n\nEs ist immer ungerecht, ein Unglück mit einem\nandern zu vergleichen. Dennoch wird man sagen dürfen, dass die\nTragödie des österreichischen Judentums die deutsche in ihrer\nGrausamkeit noch übertrifft. In Deutschland war die Entrech-\ntung, die gewaltsame Verarmung ~~langsamer~~ {allmählicher} erfolgt, jahrelang war\nden Betroffenen Zeit gegeben, sich umzustellen, eine Auswande-\nrung langsam vorzubereiten. In Oesterreich hat der vernichtende\nSchlag Hunderttausende innerhalb einer einzigen Woche, eines Mo-\nnats aus ihrer Existenz gerissen und dem furchtbarsten Elend ge-\ngenübergestellt. Unabsehbar, unausdenklich ist, was dort ge-\nschehen ist und noch geschieht.\n\nDoppelt rasch, fast so rasch, wie diese Kata-\nstrophe über alle die Tausende hereingebrochen ist, muss darum\ndie Hilfe sein. Es nützt kein Anklagen, kein Protestieren in-\nnerhalb an den tagtäglichen Verletzungen des Völkerrechts\nschon gleichgültig gewordenen Welt; will das Judentum in einer\nsolchen Stunde wenigstens seine Ehre retten, so muss es Solida-\nrität bekunden und zwar die einzig moralisch gültige - die So-\nlidarität aufopfernder Hilfe und aktiver Bereitschaft. In den\nnächsten Monaten und Jahren wird dann noch viel Besinnen und Or-\nganisieren notwendig sein, um das ungeheure Problem zu bewälti-\ngen, wie man Hunderttausende, wie man eine Viertel- eine halbe\nMillion Juden, denen man die heimatliche Erde unter den Füssen\nwegreisst, in andere Länder verpflanzt; eine Aufgabe steht dem\nJudentum bevor, wie es in den zweitausend Jahren seiner Geschich-\nte kaum eine schwierigere gekannt. Aber jedem Ueberlegen muss\njetzt die Tat vorangehen, ohne Zögern muss jetzt Geld und zwar\nsehr, sehr viel Geld gesammelt und bereitgestellt werden, um\ndie Brücke zu bauen, welche die Bedürftigen in eine neue Existenz",
+        "notes": "Typoskript mit handschriftlichen Korrekturen (blauer Buntstift, rote Tinte). Die Korrektur 'allmählicher' ist in roter Tinte über dem durchgestrichenen 'langsamer' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "hinüberführt. Die Ehre der Gemeinschaft fordert von der Ehre\njedes einzelnen, dass er aus voller Kraft gebe und sogar über\nseine Kraft; in einer Stunde, da wir von andern Völkern und\nLändern Gastlichkeit für die Ausgetriebenen erbitten, muss es\nunsere erste Pflicht sein, uns selbst vor allen andern aufzu-\nrufen und von jedem und von allen das Aeusserste an Aufopferung\nzu fordern.",
+        "notes": "Typoskript, Fortsetzung des Textes auf einem neuen Blatt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen sind eindeutig zuordenbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2198,
+    "total_words": 328,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1816,
+      0,
+      382,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1099.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

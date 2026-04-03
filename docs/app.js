@@ -312,8 +312,8 @@ function resetDiffMode() {
   const textPanel = document.getElementById('textPanel');
   const labelRight = document.getElementById('panelLabelRight');
   const diffBtn = document.getElementById('diffBtn');
-  if (diffPanel) diffPanel.style.display = 'none';
-  if (textPanel) textPanel.style.display = '';
+  if (diffPanel) diffPanel.classList.add('is-hidden');
+  if (textPanel) textPanel.classList.remove('is-hidden');
   if (labelRight) labelRight.textContent = 'Transkription';
   if (diffBtn) diffBtn.classList.remove('active');
   // Reset tab visuals
@@ -695,7 +695,7 @@ function renderStats() {
   const confItems = ['high', 'medium', 'low'].map(c => {
     if (!confDist[c]) return '';
     const cls = c === 'high' ? 'badge-markers-clean' : c === 'medium' ? 'badge-markers-some' : 'badge-markers-many';
-    return `<span class="catalog__stats-bar-item"><span class="badge ${cls}" style="font-size:0.68rem">${confDist[c]}</span> ${c}</span>`;
+    return `<span class="catalog__stats-bar-item"><span class="badge ${cls}">${confDist[c]}</span> ${c}</span>`;
   }).filter(Boolean).join('');
 
   // Page stats
@@ -758,7 +758,7 @@ function renderStats() {
       </div>` : ''}
     </div>`;
 
-  el.style.display = 'block';
+  el.classList.remove('is-hidden');
 }
 
 /* ===== Catalog Rendering ===== */
@@ -839,11 +839,11 @@ function renderCatalog() {
 
   if (total === 0) {
     tbody.innerHTML = '';
-    empty.style.display = '';
-    document.querySelector('.catalog__table-wrap').style.display = 'none';
+    empty.classList.remove('is-hidden');
+    document.querySelector('.catalog__table-wrap').classList.add('is-hidden');
   } else {
-    empty.style.display = 'none';
-    document.querySelector('.catalog__table-wrap').style.display = '';
+    empty.classList.add('is-hidden');
+    document.querySelector('.catalog__table-wrap').classList.remove('is-hidden');
 
     let html = '';
     for (const obj of pageItems) {
@@ -881,7 +881,7 @@ function renderCatalog() {
   updateGroupFilter();
 
   // Show review filter only if data supports it
-  document.getElementById('filterReviewStatus').style.display = state.hasReviewData ? '' : 'none';
+  document.getElementById('filterReviewStatus').classList.toggle('is-hidden', !state.hasReviewData);
 
   // Highlight active selects + render filter chips
   for (const id of ['filterCollection', 'filterGroup', 'filterConfidence', 'filterReviewStatus']) {
@@ -1212,11 +1212,11 @@ function renderViewerPage() {
   if (img && spinner) {
     const imgUrl = (obj.images && obj.images[state.currentPage]) || '';
     img.classList.remove('zoomed');
-    img.style.display = 'none';
-    spinner.style.display = '';
+    img.classList.add('is-hidden');
+    spinner.classList.remove('is-hidden');
 
     if (imgUrl) {
-      img.onload = () => { img.style.display = ''; spinner.style.display = 'none'; applyFitMode(); };
+      img.onload = () => { img.classList.remove('is-hidden'); spinner.classList.add('is-hidden'); applyFitMode(); };
       img.onerror = () => {
         spinner.textContent = 'Bild konnte nicht geladen werden.';
         spinner.className = 'viewer__img-error';
@@ -1341,9 +1341,9 @@ function updateEditButtons() {
   indicator.classList.toggle('visible', objCount > 0);
 
   // Show save/undo only in edit mode
-  editSaveBtn.style.display = state.editMode ? '' : 'none';
-  undoPageBtn.style.display = state.editMode && hasPageEdit ? '' : 'none';
-  discardBtn.style.display = objCount > 0 && state.isLocal ? '' : 'none';
+  editSaveBtn.classList.toggle('is-hidden', !state.editMode);
+  undoPageBtn.classList.toggle('is-hidden', !(state.editMode && hasPageEdit));
+  discardBtn.classList.toggle('is-hidden', !(objCount > 0 && state.isLocal));
 
   // Edit status bar
   if (statusBar) {
@@ -1355,9 +1355,9 @@ function updateEditButtons() {
           <strong>${objCount} ${pageLabel}</strong> bearbeitet an diesem Objekt${totalCount > objCount ? ` (${totalCount} gesamt)` : ''}
         </span>
         <span class="viewer__edit-status-storage">${state.isLocal ? 'JSON · results/' : 'localStorage · bleibt im Browser'}</span>`;
-      statusBar.style.display = '';
+      statusBar.classList.remove('is-hidden');
     } else {
-      statusBar.style.display = 'none';
+      statusBar.classList.add('is-hidden');
     }
   }
 
@@ -1383,14 +1383,14 @@ function updateEditButtons() {
   const gtBtn = document.getElementById('reviewGtBtn');
   if (gtBtn) {
     const gt = state.currentObjectId ? getGtDraft(state.currentObjectId) : null;
-    gtBtn.style.display = gt && state.isLocal ? '' : 'none';
+    gtBtn.classList.toggle('is-hidden', !(gt && state.isLocal));
     gtBtn.classList.toggle('gt-active', state.gtReviewMode);
   }
 
   // Approve button: show when local, toggle approved state
   const approveBtn = document.getElementById('approveBtn');
   if (approveBtn) {
-    approveBtn.style.display = state.isLocal ? '' : 'none';
+    approveBtn.classList.toggle('is-hidden', !state.isLocal);
     const approved = state.currentObjectId && isObjectApproved(state.currentObjectId);
     approveBtn.classList.toggle('approved', approved);
     approveBtn.innerHTML = approved ? '&#10003; Gepr\u00fcft' : '&#10003; Approve';
@@ -1402,7 +1402,7 @@ function updateEditButtons() {
   // GT Verify button: show when local
   const gtVerifyBtn = document.getElementById('gtVerifyBtn');
   if (gtVerifyBtn) {
-    gtVerifyBtn.style.display = state.isLocal ? '' : 'none';
+    gtVerifyBtn.classList.toggle('is-hidden', !state.isLocal);
     const gtv = state.currentObjectId && state.approvals.get(state.currentObjectId)?.gt_verified;
     gtVerifyBtn.classList.toggle('approved', !!gtv);
     gtVerifyBtn.innerHTML = gtv ? '&#9733; GT Verified' : '&#9733; GT Verify';
@@ -1680,7 +1680,7 @@ function renderDiffView() {
 
   const consensus = getConsensusData(state.currentObjectId);
   if (!consensus || !consensus.pages) {
-    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Kein Modellkonsensus-Vergleich für dieses Objekt verfügbar.</div>';
+    diffContent.innerHTML = '<div class="placeholder-message">Kein Modellkonsensus-Vergleich für dieses Objekt verfügbar.</div>';
     if (diffStats) diffStats.innerHTML = '';
     return;
   }
@@ -1688,7 +1688,7 @@ function renderDiffView() {
   const pageData = consensus.pages[state.currentPage];
   if (!pageData || pageData.agreement === 'skipped') {
     const reason = pageData?.agreement === 'skipped' ? 'Seite übersprungen (leer/Farbskala).' : 'Keine Daten für diese Seite.';
-    diffContent.innerHTML = `<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">${reason}</div>`;
+    diffContent.innerHTML = `<div class="placeholder-message">${reason}</div>`;
     if (diffStats) diffStats.innerHTML = '';
     return;
   }
@@ -1697,7 +1697,7 @@ function renderDiffView() {
   const textB = pageData.transcription_b || '';
 
   if (!textA && !textB) {
-    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Keine Transkription auf dieser Seite.</div>';
+    diffContent.innerHTML = '<div class="placeholder-message">Keine Transkription auf dieser Seite.</div>';
     if (diffStats) diffStats.innerHTML = '';
     return;
   }
@@ -1770,9 +1770,9 @@ function toggleDiffMode() {
 
   state.diffMode = true;
   // Hide only text panel; image panel stays visible
-  document.getElementById('textPanel').style.display = 'none';
+  document.getElementById('textPanel').classList.add('is-hidden');
   document.getElementById('panelLabelRight').textContent = 'Diff (Cross-Model)';
-  document.getElementById('diffPanel').style.display = '';
+  document.getElementById('diffPanel').classList.remove('is-hidden');
   document.getElementById('diffBtn').classList.add('active');
 
   // Update provider labels from consensus data
@@ -1792,8 +1792,8 @@ function switchDiffTab(tab) {
   document.querySelectorAll('.diff__tab').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.diffTab === tab);
   });
-  document.getElementById('diffHeaderConsensus').style.display = tab === 'consensus' ? '' : 'none';
-  document.getElementById('diffHeaderEdits').style.display = tab === 'edits' ? '' : 'none';
+  document.getElementById('diffHeaderConsensus').classList.toggle('is-hidden', tab !== 'consensus');
+  document.getElementById('diffHeaderEdits').classList.toggle('is-hidden', tab !== 'edits');
   renderDiffView();
 }
 
@@ -1818,7 +1818,7 @@ function renderEditDiffView() {
 
   const history = getEditHistory(state.currentObjectId, state.currentPage);
   if (!history || history.length === 0) {
-    diffContent.innerHTML = '<div style="color:var(--sz-text-light);font-style:italic;padding:2rem">Keine Korrekturen auf dieser Seite.</div>';
+    diffContent.innerHTML = '<div class="placeholder-message">Keine Korrekturen auf dieser Seite.</div>';
     if (diffStatsEdits) diffStatsEdits.innerHTML = '';
     return;
   }
@@ -2019,14 +2019,14 @@ function toggleGtReview() {
   btn.classList.toggle('gt-active', state.gtReviewMode);
 
   if (state.gtReviewMode) {
-    document.getElementById('textPanel').style.display = 'none';
+    document.getElementById('textPanel').classList.add('is-hidden');
     document.getElementById('panelLabelRight').textContent = 'GT Review';
-    document.getElementById('diffPanel').style.display = '';
+    document.getElementById('diffPanel').classList.remove('is-hidden');
     renderGtReview();
   } else {
-    document.getElementById('textPanel').style.display = '';
+    document.getElementById('textPanel').classList.remove('is-hidden');
     document.getElementById('panelLabelRight').textContent = 'Transkription';
-    document.getElementById('diffPanel').style.display = 'none';
+    document.getElementById('diffPanel').classList.add('is-hidden');
     renderViewerPage();
   }
 }
@@ -2068,8 +2068,8 @@ function renderGtReview() {
   // Stats
   const stats = gt.merge_stats || {};
   diffStats.innerHTML = `<span class="gt-review-panel__source ${sourceClass}">${sourceLabel}</span>
-    <span style="font-size:0.72rem;margin-left:0.5rem">
-      ${stats.consensus_3of3 || 0} Modellkonsensus · ${stats.majority_2of3 || 0} Mehrheit · ${stats.pro_only || 0} Pro · ${stats.skipped || 0} Skip
+    <span class="gt-review-panel__stats">
+      ${stats.consensus_3of3 || 0} Modellkonsensus \u00b7 ${stats.majority_2of3 || 0} Mehrheit \u00b7 ${stats.pro_only || 0} Pro \u00b7 ${stats.skipped || 0} Skip
     </span>`;
 
   if (source === 'skipped') {
@@ -2108,7 +2108,7 @@ function renderGtReview() {
 
   diffContent.innerHTML = `
     <div class="gt-review-panel">
-      <div style="font-size:0.75rem;color:var(--sz-text-light)">
+      <div class="gt-review-panel__hint">
         Klick auf eine Variante um sie als GT zu uebernehmen:
       </div>
       ${variantsHtml}

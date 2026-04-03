@@ -55,6 +55,12 @@
         "transcription": "",
         "notes": "Rückseite des Dokuments, leer. Am unteren Rand befinden sich digitale Artefakte/Störungen (Farbbalken).",
         "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -65,17 +71,18 @@
     "total_chars": 292,
     "total_words": 52,
     "total_pages": 4,
-    "empty_pages": 2,
-    "blank_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 3,
     "color_chart_pages": 0,
     "content_pages": 4,
-    "input_images": 6,
+    "input_images": 7,
     "page_types": [
       "content",
       "blank",
       "content",
       "content",
       "content",
+      "blank",
       "blank"
     ],
     "chars_per_page": [
@@ -84,6 +91,7 @@
       26,
       79,
       79,
+      0,
       0
     ],
     "chars_per_page_median": 79.0,

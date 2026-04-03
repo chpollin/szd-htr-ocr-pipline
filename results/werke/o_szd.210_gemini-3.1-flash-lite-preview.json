@@ -68,6 +68,54 @@
         "transcription": "7\n\nresté que les armes suprêmes du faible: l'espoir et la prière.\nDe milliers de maisons, de millions de coeurs, cette prière\nsecrète s'élève vers le ciel. Et la vie ne me dirait plus rien\nsi je n'avais pas la conviction ardente que leur silence\naccusateur sera exaucé par la justice éternelle.",
         "notes": "Die Rückseite (IMG_14) ist ein Durchschlag/Spiegelbild. IMG_15 zeigt eine Farbkarte/Grauskala.",
         "type": "color_chart"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 12,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 13,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 14,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 15,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -78,8 +126,8 @@
     "total_chars": 10750,
     "total_words": 1762,
     "total_pages": 6,
-    "empty_pages": 0,
-    "blank_pages": 0,
+    "empty_pages": 8,
+    "blank_pages": 8,
     "color_chart_pages": 1,
     "content_pages": 6,
     "input_images": 15,
@@ -90,7 +138,15 @@
       "content",
       "content",
       "content",
-      "color_chart"
+      "color_chart",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank"
     ],
     "chars_per_page": [
       1739,
@@ -99,7 +155,15 @@
       1720,
       1673,
       1733,
-      294
+      294,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "chars_per_page_median": 1736.0,
     "marker_uncertain_count": 0,
@@ -110,9 +174,7 @@
     "language_detected": "fr",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_image_mismatch"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

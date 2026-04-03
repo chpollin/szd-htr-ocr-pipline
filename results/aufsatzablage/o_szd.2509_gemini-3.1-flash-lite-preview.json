@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2509",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kainz, Josef, SZ-AAP/W-AA106.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2509/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kainz, Josef\n- Signatur: SZ-AAP/W-AA106.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Josef Kainz | In memoriam\n                        J. K. | Titel | Die Stimme\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kainz, Josef\nDie Stimme (In memoriam J. K.)\n\n\n\n\nJosef Kainz\n\nIn memoriam J K\n\nTitel\nDie Stimme",
+        "notes": "Handschriftliches Dokument auf Papier. Die erste Zeile 'Kainz, Josef' enthält eine kleine Korrektur/Einfügung über dem 'o' von Josef.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Josef Kainz\n\nIn memoriam J K\n\nTitel\nDie Stimme",
+        "notes": "Handschriftliches Dokument, identisch mit dem unteren Teil von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Kainz, Josef\nDie Stimme (In memoriam J. K.)",
+        "notes": "Handschriftlicher Text auf einem Papierstreifen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Kainz, Josef\nDie Stimme (In memoriam J. K.)\n\n\n\n\nJosef Kainz\n\nIn memoriam J K\n\nTitel\nDie Stimme",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 277,
+    "total_words": 51,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      94,
+      0,
+      46,
+      0,
+      43,
+      0,
+      94
+    ],
+    "chars_per_page_median": 46,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

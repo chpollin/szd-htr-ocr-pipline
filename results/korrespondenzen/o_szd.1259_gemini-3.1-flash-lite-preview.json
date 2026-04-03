@@ -20,6 +20,18 @@
         "transcription": "Wiener\nKünstler Postkarte\n\nHerzlichen Dank\nDeiner Stefan Zweig\n\nWien. — Schönbrunn.\nSerie 432/8\n\nDr. Max Fleischer\nFiliale der Länderbank\nWien IX\nNußdorferstraße",
         "notes": "Die Transkription bezieht sich auf die Rückseite der Postkarte (Scan 2). Scan 1 und 3 zeigen die Vorderseite bzw. die Farbkarte. Die Briefmarke ist eine 5-Heller-Marke mit dem Porträt von Kaiser Franz Joseph I.",
         "type": "color_chart"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -30,16 +42,20 @@
     "total_chars": 161,
     "total_words": 22,
     "total_pages": 0,
-    "empty_pages": 0,
-    "blank_pages": 0,
+    "empty_pages": 2,
+    "blank_pages": 2,
     "color_chart_pages": 1,
     "content_pages": 0,
     "input_images": 3,
     "page_types": [
-      "color_chart"
+      "color_chart",
+      "blank",
+      "blank"
     ],
     "chars_per_page": [
-      161
+      161,
+      0,
+      0
     ],
     "chars_per_page_median": 0.0,
     "marker_uncertain_count": 0,
@@ -50,9 +66,7 @@
     "language_detected": "",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_image_mismatch"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

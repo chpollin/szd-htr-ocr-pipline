@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2512",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kaßner, Rudolf, SZ-AAP/W-AA108.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2512/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2512/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2512/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2512/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2512/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2512/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2512/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kaßner, Rudolf\n- Signatur: SZ-AAP/W-AA108.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Rudolf Kassner\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kaßner, Rudolf\nDer Tod und die Maske\nElemente der Menschengröße",
+        "notes": "Handschriftliche Notiz auf einem Papierstreifen, der auf ein Blatt aufgeklebt ist.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Papierstreifens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Rudolf Kassner\nDer Tod und die Maske\nDer Künstler, die Mystik und das Leben (s. W. Blakes Auferste-\nhung)\nVon den Elementen der menschlichen Größe",
+        "notes": "Handschrift auf dem Hauptblatt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Hauptblatts, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Kaßner, Rudolf\nDer Tod und die Maske\nElemente der Menschengröße",
+        "notes": "Einzelaufnahme des aufgeklebten Papierstreifens.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Hauptblatts, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Kaßner, Rudolf\nDer Tod und die Maske\nElemente der Menschengröße\n\nRudolf Kassner\nDer Tod und die Maske\nDer Künstler, die Mystik und das Leben (s. W. Blakes Auferste-\nhung)\nVon den Elementen der menschlichen Größe",
+        "notes": "Gesamtaufnahme des Dokuments mit Grauskala und Farbskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 483,
+    "total_words": 80,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      63,
+      0,
+      146,
+      0,
+      63,
+      0,
+      211
+    ],
+    "chars_per_page_median": 63,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

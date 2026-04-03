@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2519",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Drei Frauenschicksale., SZ-AAP/W-AA110.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2519/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2519/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2519/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Drei Frauenschicksale.\n- Signatur: SZ-AAP/W-AA110.2\n- Datum: 2. VIII 1908.\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Seite 16\n\nBücher.\nDrei Frauenschicksale.\nVon Ellen Key. Berlin 1908. S. Fischer.\n\nAehnlich wie in ihrem schönen Buche über die\nNabel hat Ellen Key hier versucht, dreier Frauen\nPorträt nachzuzeichnen, die ihr nicht minder um der\nkünstlerischen Lebensform als um des literarischen\nWertes besonders bedeutsam schienen. Was die\ndrei ungleichen Charaktere vereint und diese drei zu\nverschiedenen Zeiten entstandenen Aufsätze in ein\nBuch organisch zusammenfügt, ist der Gedanke des\nEntwicklungskampfes der Frau im neunzehnten\nJahrhundert, und ferner, daß Ellen Key selbst lange\nbevor sie sich schriftstellerisch versuchte, diesen drei\nFrauen persönlich nahestand. Wirklich berühmt ist\nvon den drei Frauen nur eine: Sonja Kowalewska,\nund zwar doppelt berühmt, als mathematisches\nPhänomen einmal, und dann um ihrer Lebens-\ngeschichte willen, die ein Dokument weiblicher Ge-\nfühlsintellektualität bedeutet, wie vielleicht nur mehr\nin unseren Tagen die Tagebücher der Maria Baskir-\nzew. Von den beiden anderen, von Anna Charlotte\nLeffler und Ernst Ahlgren (dem Pseudonym für\nViktoria Benedictson), ist nach Deutschland zuvor\nkaum der Name gedrungen, und um uns zu fesseln,\nmuß Ellen Key die ganze Glut ihres Temperaments\nund ihre ungestüme Liebe für diese Menschen auf-\nbringen. Denn diese zwei anderen sind uns so fremd\nund fern (da wir ihre Werke ja nicht kennen) wie\ndie Gestalten einer Novelle, und ihr äußeres Er-\nleben ist vielleicht doch etwas zu mattfarben, um uns\nhinzureißen, wie etwa jene Geschichte der Liebe von\nBrowning und Elisabeth Barrett, die Ellen Key zum\nerstenmal den Deutschen erzählt hat. Von allen\nWerken der wundervollen Schwedin wird dieses viel-\nleicht die Deutschen am uninteressiertesten lassen,\naber es muß gleich hinzugefügt sein, unverdienter-\nweise. Denn hier wie immer ist ein großer Reich-\ntum lebendigen Gefühls verschwenderisch verstreut\nund kaum jemals besser die Gabe der Ellen Key,\nFreundschaft in einer einzig vollendeten Weise zu\nempfinden, bewiesen. Man fühlt mit freudigem Er-\nstaunen, wie sehr sie trotz genauer innerer Distan-\nzierung doch viele Menschen gleichzeitig liebend um-\nfassen kann, und daß ihr großer Enthusiasmus nicht\nein literarischer nachträglicher ist, sondern daß all ihre\nSchriftstellerei nur ein Ventil für diesen stürmischen\nUeberfluß tätiger Liebe war. Und verdankte man\ndiesen drei Studien nichts als die Bestätigung dieses\n\nlange schon bewußten Gefühls, so müßte man ihnen\nschon dankbar sein; denn man hat drei neue Men-\nschen in seinem Leben, große, schöne Charaktere, ge-\nsehen durch die verschönende Optik von Verehrung\nund Liebe: Und hier wird dann vielleicht ein Bei-\nspiel geboten sein, wie es einzig nötig ist, große\nGestalten darzustellen und seine eigene Liebe zu\nihnen schöpferisch zu vervielfachen.\nWien. Stefan Zweig.",
+        "notes": "Zeitungsdruck. Handschriftliche Annotation am linken Rand: 'Die Zeit' und '2. VIII 1908.' in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen klaren Zeitungsdruck handelt. Die handschriftlichen Annotationen sind ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2788,
+    "total_words": 416,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      2788,
+      0,
+      0
+    ],
+    "chars_per_page_median": 2788,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

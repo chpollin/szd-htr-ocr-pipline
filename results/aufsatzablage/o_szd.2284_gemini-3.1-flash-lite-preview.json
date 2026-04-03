@@ -68,6 +68,54 @@
         "transcription": "Bogen 7\n\nZweig, Ein Tag bei Albert Schweitzer\n\nkommenen Tag fühlt man schon wieder Gläubigkeit für die widrig-\nste Zeit. Aber der Zug rollt und rollt weiter über die elsässi-\nsche Erde, und plötzlich schreckt man auf, denn die Stationen,\ndie draussen ausgerufen werden, wecken bedrückende Erinnerung:\nSchlettstadt, Mülhausen, Thann, an alle diese Namen erinnert\nman sich noch aus den Heeresberichten: da zehntausend Tote, da\nfünfzehntausend, und dort in den Vogesen, die silbern durch den\nNebel geistern, hunderttausend oder hundertfünfzigtausend, gefal-\nlen unter Bajonetten, unter Kugeln, vergast, vergiftet im Bruder-\nkrieg, im brudermörderischen Hass. Und man verzagt wieder und\nversteht nicht, wie ebendieselbe Menschheit, welche die unfass-\nbarsten und unbegreiflichsten Meisterwerke im Geistigen hervor-\nbringt, seit tausend und tausend Jahren nicht das einfachste\nGeheimnis zu meistern lernt: zwischen Menschen und Menschen,\nwelche solche unvergängliche Güter gemeinsam haben, den Geist\nder Verständigung lebendig bewahren.\n\nDezember 1932",
         "notes": "Die Transkription umfasst den Text von Bild 13. Bild 14 und 15 sind Spiegelbilder bzw. Rückseiten.",
         "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 10,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 11,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 12,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 13,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 14,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
+      },
+      {
+        "page": 15,
+        "transcription": "",
+        "notes": "Leerseite (automatisch ergaenzt).",
+        "type": "blank"
       }
     ],
     "confidence": "high",
@@ -78,8 +126,8 @@
     "total_chars": 21721,
     "total_words": 3131,
     "total_pages": 7,
-    "empty_pages": 0,
-    "blank_pages": 0,
+    "empty_pages": 8,
+    "blank_pages": 8,
     "color_chart_pages": 0,
     "content_pages": 7,
     "input_images": 15,
@@ -90,7 +138,15 @@
       "content",
       "content",
       "content",
-      "content"
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank"
     ],
     "chars_per_page": [
       3194,
@@ -99,7 +155,15 @@
       3534,
       3531,
       3325,
-      1046
+      1046,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "chars_per_page_median": 3432,
     "marker_uncertain_count": 0,
@@ -110,9 +174,7 @@
     "language_detected": "de",
     "language_match": true,
     "page_length_anomalies": [],
-    "needs_review": true,
-    "needs_review_reasons": [
-      "page_image_mismatch"
-    ]
+    "needs_review": false,
+    "needs_review_reasons": []
   }
 }

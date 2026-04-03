@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2507",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Jusquauboutismus, Gegen den, SZ-AAP/W-AA104.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2507/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2507/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2507/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2507/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2507/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2507/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2507/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Jusquauboutismus, Gegen den\n- Signatur: SZ-AAP/W-AA104.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig\n- Anmerkungen: Ursprüngliche Aufschrift: \"Die Kathedrale von\n                        Chartres\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Jusquauboutismus, Gegen den",
+        "notes": "Handschrift in violetter Tinte. Vorderseite des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Die Kathedrale von Chartres",
+        "notes": "Handschrift in violetter Tinte. Rückseite des Blattes (auf dem Kopf stehend).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Vorderseite des Blattes, leer (durchscheinender Text von der Rückseite sichtbar, aber nicht transkribiert).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Jusquauboutismus, Gegen den",
+        "notes": "Handschrift in violetter Tinte. Vorderseite des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Blattes, leer (durchscheinender Text von der Rückseite sichtbar, aber nicht transkribiert).",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Jusquauboutismus, Gegen den",
+        "notes": "Handschrift in violetter Tinte. Vorderseite des Blattes. Farbskala und Grauskala für Archivierung am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 108,
+    "total_words": 13,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      27,
+      0,
+      27,
+      0,
+      27,
+      0,
+      27
+    ],
+    "chars_per_page_median": 27,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
