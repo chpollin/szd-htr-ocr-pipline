@@ -1,0 +1,80 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.185",
+    "title": "Beglaubigung einer Kopie der Geburtsurkunde von Stefan Zweig",
+    "language": "en",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AP2/L-S7.14",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.185/IMG.1",
+      "https://gams.uni-graz.at/o:szd.185/IMG.2"
+    ],
+    "date": "1941 April 5",
+    "document_type": "form",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "origin_place": "Bath",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs 2002"
+      ],
+      "notes": "Kopie der Geburtsurkunde selbst fehlt"
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Beglaubigung einer Kopie der Geburtsurkunde von Stefan Zweig\n- Signatur: SZ-AP2/L-S7.14\n- Datum: 1941 April 5\n- Sprache: Englisch\n- Objekttyp: Beglaubigung\n- Umfang: 1 Blatt\n- Anmerkungen: Kopie der Geburtsurkunde selbst fehlt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.752193+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "I HENRY GABRIEL SHELDON of the City of Bath Notary\n\nPublic CERTIFY that I have examined the annexed\n\nphotographic copy of the Certificate of Birth of\n\nSTEFAN ZWEIG with the Certificate of his birth dated\n\n22nd April 1919 and that such copy is a true copy of\n\nthe said Certificate.\n\nD A T E D this fifth day of\n\napril One thousand nine hundred and forty\n\none.\n\n[Unterschrift: H. G. Sheldon]\n\nNotary Public\n\nBath England",
+      "notes": "Das Dokument enthält ein rotes Siegel mit grünem Band sowie eine einshilling Briefmarke (Postage & Revenue). Die handschriftlichen Ergänzungen sind 'fifth', 'april' und die Unterschrift."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "I HENRY GABRIEL SHELDON of the City of Bath Notary\n\nPublic CERTIFY that I have examined the annexed\n\nphotographic copy of the Certificate of Birth of\n\nSTEFAN ZWEIG with the Certificate of his birth dated\n\n22nd April 1919 and that such copy is a true copy of\n\nthe said Certificate.\n\nD A T E D this fifth day of\n\napril One thousand nine hundred and forty\n\none.\n\n[Unterschrift: H. G. Sheldon]\n\nNotary Public\n\nBath England",
+      "notes": "Identisch mit Seite 1, inklusive Siegel und Briefmarke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 836,
+    "total_words": 150,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

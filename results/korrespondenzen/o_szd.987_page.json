@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.987",
+    "title": "Brief an Sigmund Freud vom 31. Mai 1939, SZ-LAS/B7.44",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.987/IMG.1",
+      "https://gams.uni-graz.at/o:szd.987/IMG.2",
+      "https://gams.uni-graz.at/o:szd.987/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 31. Mai 1939, SZ-LAS/B7.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:48.426579+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "31. Mai 1939\n\n49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nTeurer, verehrter Herr Professor\nseit ich aus Bath zurück\nbin, will ich jeden Tag mich\nmelden. Aus jeden Tag fressen\nmir die jetzt am Wien und ganz\nDeutschland Instrumenten die\nZeit weg. Endlich scheint es etwas\nlichter zu werden nur ich frage\nmich morgen oder übermorgen\nan; ich bin schon so ungeduldig\nSie wiederzusehen. Herzlichst\nIhr getreuer\nStefan Zweig",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett. Die Lesung 'Instrumenten' in Zeile 6 ist unsicher, könnte auch 'Instrumente' oder ein ähnliches Wort sein, das sich auf die politische Lage bezieht."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung. Überdeckt den linken Teil des Briefes von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, abgesehen von einem Wort in Zeile 6, das aufgrund der Handschrift leicht interpretierbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 421,
+    "total_words": 70,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

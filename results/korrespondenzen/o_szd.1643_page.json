@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1643",
+    "title": "Brief an Frans Masereel vom [August 1939], SZ-LAS/B1.59",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1643/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1643/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [August 1939], SZ-LAS/B1.59\n- Signatur: SZ-LAS/B1.59\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:50.957932+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon vieux - oui mon vieux!! - j'entends\nque tu est entré dans nos rangs, que tu\na passé la „quarantaine” et comptes deja\ncinquante ans, Net'effraye point! Souviens\ntoi ce que Hokusai disait, que a 80 ans\nil commencait a comprendre les lois du\ndessin, a 90 la beauté de la couleur, a\n100 ans la maitrise du pinceau!\nQuel taleté; notre monde! Je suis souvent\ndegouté et j'ai l'intention de m'acheter\n(peut-etre ici) un petit coin de terre et\nde „cultiver mon jardin”. Je viendrai en\nFrance des que j'aurai de nouveau un\npasseport (ce qui ne durera plus long-\ntemps) et je resterai deux mois près de\nParis. J'ai un travail a faire qui rend\nun sejour prolongé necessaire.",
+      "notes": "Handschriftlicher Brief in violetter Tinte. Gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ce mot seulement pour te dire que\nje ne t'oublie pas! Pour deux ans nous\nsommes encore dans la même ligne -\naprès cela j'aurai 60 ans. Je suis donc toujours\nun peu plus près de la mort et de\nl'imbecillité que toi et je tacherai de te\nmontrer, qu'on continue quant même.\nDonc, cher vieillard, je t'embrasse\net je suis impatient de te revoir et\nde causer de notre jeunesse et des\n„bons temps d'autrefois”! Ton copain\npour toujours\n\nStefan",
+      "notes": "Handschriftlicher Brief in violetter Tinte. Am unteren Rand befindet sich ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die wenigen Akzentzeichen im Französischen sind teilweise flüchtig gesetzt, aber eindeutig interpretierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1103,
+    "total_words": 203,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

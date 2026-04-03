@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.511",
+    "title": "Nika Milićević an Stefan Zweig, 1927-06-04, SZ-SAM/AK.220",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.511/IMG.1",
+      "https://gams.uni-graz.at/o:szd.511/IMG.2",
+      "https://gams.uni-graz.at/o:szd.511/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Nika Milićević an Stefan Zweig, 1927-06-04, SZ-SAM/AK.220\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.220\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.221619+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Holzminden\n\n4.6.27",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Haarmann-Denkmal. Handschriftliche Notizen oben und unten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "HOLZMINDEN a. d. Weser — Haarmanndenkmal\n\nDas gibt's!!\n\nDeine\n\nNika\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nOesterreich\nKapuzinerberg",
+      "notes": "Rückseite der Ansichtskarte. Gedruckter Text links und mittig, handschriftliche Nachricht und Adresse. Briefmarke oben rechts mit Poststempel 'HOLZMINDEN 4.6.27'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "HOLZMINDEN a. d. Weser — Haarmanndenkmal\n\nDas gibt's!!\n\nDeine\n\nNika\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nOesterreich\nKapuzinerberg",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz und gut lesbar. Die Handschrift ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 270,
+    "total_words": 36,
+    "language_detected": "",
+    "language_match": true
+  }
+}

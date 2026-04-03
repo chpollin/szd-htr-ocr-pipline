@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1529",
+    "title": "Brief an Stefan Zweig vom 9. Dezember 1925, SZ-AAP/B2.60",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1529/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1529/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1529/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 9. Dezember 1925, SZ-AAP/B2.60\n- Signatur: SZ-AAP/B2.60\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:39.690507+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Charlottenburg, den 9.12.25\n\nLieber Herr Zweig !\nWie freundlich, dass Sie gleich nach Ihrer Rückkehr an mich denken!\nIch muss Ihnen nun aber auch etwas von meinen Arbeiten zeigen. Das Haupt-\nstück, eine grössere Novelle \"Habakuk\" ist freilich immer noch nicht ab-\ngeschrieben; ich schicke es Ihnen aber sobald ich es bekomme. Es soll\netwa im Januar bei Axel Juncker als Buch erscheinen. Zu Weihnachten hat\nman dort die chinesische Novelle in der kleinen Orplid-Sammlung illustriert\nherausgebracht. Ich bringe das Büchelchen zugleich mit diesen Brief als\nDrucksache auf die Post. Die Deutsche Verlags-Anstalt ist mit dem Erfolg\nmeines \"Heuschober\" sehr zufrieden und will demnächst die \"Vergewaltigung\"\nin der gleichen Sammlung drucken. Die beiliegende Kritik aus dem Berliner\nTageblatt wird Sie interessieren. Ich kenne den Herrn Zadek tatsächlich\nnicht; umso erfreuter ist man sich so ernstwillig besprochen zu sehen.\nFreilich graut mir auch schon ein wenig vor dem Neid der Götter und mehr\nnoch der Halbgötter. Ich bin bisher von der Kritik überall so gut behandelt\nworden, dass bald wohl von irgendwoher der Widerspruch einsetzen wird. Wenn\nman etwas Vernünftiges einwendet höre ich aber gern zu; ich mache mir ja\nselbst die schärfsten Vorbehalte.\nDie andere Einlage ist eine Probe aus einen Komödie nach dem Spa-\nnischen des Alarcon. Sie werden die \"Verdad sospechosa\", sicher aber wohl\nden \"Menteur\" Corneille's kennen. Auch Goldoni hat den Stoff in seinen\n\"Bugiardo\" bearbeitet. Ich kam durch einen Aufsatz Ihres Lehrers Minor\nim Euphorion auf das herrliche Thema. Freilich bin ich sehr frei mit ihm\n~~umgegangen~~; es geht mir nicht um die Moral der Lüge, sondern um die Gestalt\ndes Helden, den ich als den Träumer und Poeten fast exochön sehe. Dadurch\nbekomme ich auch den Schluss, der beiden Spanier konventionell, bei Cor-\nneille eine Verlegenheit bleibt. Der Held hat sich durch seine ungestümen\nSchwindeleien um die Hand seiner wahren Geliebten gebracht, man glaubt ihm",
+      "notes": "Typoskript. Die Seite ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "nun auch nicht als er wahr spricht. Bei Alarcon wird er dann vom Vater mit\nden Degen in der Faust gezwungen, die andere Dame zu heiraten. Ich lasse\nihn aber in einen heiter träumerischen Schluss ganz lässig auf diese Ver-\ntauschung eingehen; die wahre Geliebte ist keine von beiden, sie lebt in\nseiner Phantasie und er hat alle Möglichkeiten, die ihm die Wirklichkeit\nbieten könnte bereits voraus genommen. - Die Probe ist die berühmte Lügen-\nerzählung des Gastmahls, die er seinen beiden Nebenbuhlern auftischt. Ich\nwürde sehr gern hören, ob Sie Stil und Tempo gelungen finden.\nDas Sammelbuch der autobiographischen Essais rückt auch ganz erfreu-\nlich weiter. Von etwa 30 Aufgeforderten habe ich schon Zusagen, darunter\nThomas Mann, Wassermann, Schäfer etc. Vollständig wird es freilich nicht\nwerden; ich hatte aber auch von vornherein nicht damit gerechnet. Der Plan\nals solcher hat bei allen lebhafte Zustimmung gefunden. Sehr wichtig wäre\nmir nun noch Hauptmann, der bisher nicht geantwortet hat. Er soll aller-\ndings krank sein, wie man bei Fischer sagte.\nAuf Ihre Jonson- Komödie bin ich sehr lüstern. Auch die Novelle im\nStil des Boccaccio, von der Sie mir in Leipzig einen Zipfel lüfteten, könnte\nich mir sehr schön denken.\nMit den herzlichsten Wünschen für Ihre Arbeit\nbin ich",
+      "notes": "Typoskript. Die Seite ist gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Die Seite zeigt den unteren Teil des Typoskripts von Seite 2, der durch die aufgelegten Farbkarten teilweise verdeckt ist."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die wenigen Korrekturen (durchgestrichenes Wort) sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3266,
+    "total_words": 518,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

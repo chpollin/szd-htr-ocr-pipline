@@ -1,0 +1,118 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.207",
+    "title": "Umschlagmappe „History of tomorrow“",
+    "language": "de",
+    "collection": "werke",
+    "shelfmark": "SZ-AAP/W22.4",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.207/IMG.1",
+      "https://gams.uni-graz.at/o:szd.207/IMG.2",
+      "https://gams.uni-graz.at/o:szd.207/IMG.3",
+      "https://gams.uni-graz.at/o:szd.207/IMG.4",
+      "https://gams.uni-graz.at/o:szd.207/IMG.5"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Essays/Reden/Feuilletons"
+      ],
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London\n                                            2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Blauer Buntstift",
+        "writing_material": "Blaue Umschlagmappe",
+        "hands": [
+          "Lotte Zweig"
+        ],
+        "dimensions": "35x24 cm",
+        "inscriptions": [
+          "Mappe beschriftet „handschriftliche MSS / History of\n                                            to-morrow (unvollst) / Tolstoi Vorrede (unvollst.) /                               \n             Secret of Artistic Creation / Die Kunst, ohne Sorgen zu\n                                            leben / Das erste Wort über den Ozean / Worte am Sarge\n                                            Freuds / Cicero (I. Fassung)“ und auf der Innenseite\n                                            „Magellan 3. Fassung X“ von Lotte Zweigs Hand in blauem\n                                            Buntstift"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Umschlagmappe „History of tomorrow“\n- Signatur: SZ-AAP/W22.4\n- Sprache: Deutsch\n- Objekttyp: Umschlagmappe\n- Schreibinstrument: Blauer Buntstift\n- Hand: Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:49.655490+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Magellan\n3. Fassung\nIX",
+      "notes": "Die römische Ziffer IX ist unterstrichen."
+    },
+    {
+      "page": 2,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Leere Rückseite der Mappe (mit Grauskala)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "handschriftliche\nMSS\n\nHistory of to-morrow (unvollst)\nTolstoi Vorrede (unvollst)\nSecret of Artistic creation\nDie Kunst ohne Sorgen zu leben\nDas erste Wort über den Ocean\nWorte am Sarge Freud\nCicero (1. Fassung)",
+      "notes": "Die Liste enthält verschiedene Werktitel. 'unvollst' steht für unvollständig. 'Freud' ist am Ende des Wortes leicht abgeschnitten, aber lesbar."
+    },
+    {
+      "page": 4,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Leere Innenseite der Mappe (mit Grauskala)."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Leere Rückseite der Mappe (mit Farb- und Grauskala)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist in deutlicher Blockschrift bzw. gut lesbarer Handschrift mit blauem Stift verfasst. Die Identifikation der Werktitel ist aufgrund der klaren Schrift eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 232,
+    "total_words": 36,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

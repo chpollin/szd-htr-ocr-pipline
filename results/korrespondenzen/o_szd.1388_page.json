@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1388",
+    "title": "Brief an Heinrich Glücksmann vom 10. Januar 1942, SZ-SEF/B4.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1388/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1388/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1388/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Heinrich Glücksmann vom 10. Januar 1942, SZ-SEF/B4.2\n- Signatur: SZ-SEF/B4.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:30.563351+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "PETROPOLIS\n(34, RUA GONÇALVES DIAS)  \n\n10. Januar 1942\n\nLieber Herr Glücksmann!\n\nSie können sich schwer\ndenken, wie erfreut ich war, Ihre vertraute Schrift zu\nsehen, die mir durch ihre Festigkeit beweist, dass Sie\nnach all diesen Prüfungen und Schwierigkeiten selbst\nfest und aufrecht geblieben sind. Auf der Landkarte\nsind wir jetzt ziemlich nahe beieinander - es ist\nnach europäischen Begriffen nur mehr so weit wie von\nSevilla nach Petersburg - aber ich gebe doch nicht\ndie Hoffnung auf, wieder einmal zu Vorlesungen nach\nArgentinien kommen zu können und Sie dort zu begrüssen.\n\nWegen Ihrer Sammlung ist hier\nin Südamerika wohl kaum eine rechte Möglichkeit. Die\neinzige bestünde allenfalls in New York und ich würde\nIhnen raten, allenfalls einen Auszugskatalog zu machen\nmit bloss den wichtigsten Stücken und sie zur Vermitt-\nlung an den sehr verlässlichen Antiquar Emil Hirsch,\n558 Madison Avenue, New York anzubieten. Er ist\neiner der ältesten Händler und Kenner, früher Mün-\nchen und ehrlich wie Gold.\n\nVielen Dank noch für Ihr\ngutes Gedenken und herzliche Grüsse\n\nvon Ihrem\n\nStefan Zweig",
+      "notes": "Die handschriftliche Signatur 'Stefan Zweig' wurde transkribiert. Die handschriftliche Notiz oben 'crl 29/92' wurde ebenfalls transkribiert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer bis auf eine kleine handschriftliche Notiz '734' unten links."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "PETROPOLIS\n(34, RUA GONÇALVES DIAS)  \n\n10. Januar 1942\n\nLieber Herr Glücksmann!\n\nSie können sich schwer\ndenken, wie erfreut ich war, Ihre vertraute Schrift zu\n\nArgentinien kommen zu können und Sie dort zu begrüssen.\n\nWegen Ihrer Sammlung ist hier\nin Südamerika wohl kaum eine rechte Möglichkeit. Die\neinzige bestünde allenfalls in New York und ich würde\nIhnen raten, allenfalls einen Auszugskatalog zu machen\n\nvon Ihrem\n\nStefan Zweig",
+      "notes": "Dieser Scan enthält Farbkarten und verdeckt Teile des Textes. Die Transkription wurde auf Basis der sichtbaren Fragmente und des vollständigen Textes aus Scan 1 erstellt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine Schreibmaschinenschrift handelt, ergänzt durch eine gut lesbare handschriftliche Signatur.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1527,
+    "total_words": 239,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

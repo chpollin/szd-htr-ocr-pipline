@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1244",
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.60",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1244/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1244/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1244/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.60\n- Signatur: SZ-LAS/B3.60\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:23.019879+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber Herr Doktor\ngestern beim Telefon hab\nich /mir war gerade recht\nelend/ Ihnen nicht gesagt,\ndass ich Ihr Buch in\neinem Zug gelesen habe.\nEs wirkt so beruhigend\namüsant. Ich habe zwischen\ndurch manchmal als Contrast\nan Sternheim gedacht, denn\nman spürt wie z. B. Herr\nPohl und auch dieser\ncomitéhansel ruden[?] kreisenden\nclarile[?] atmen werden könnten.\nSehr gut ist Frl. Grete Leitner, die\nWiener Brent sehe ich nicht ganz. Entzückend\nsind die nächtlichen Praterbilder.\nProf. Lorenz ist mir nicht sympathisch,\ner betrügt eigentlich beide Mädeln aus\nTemperamentlosigkeit. Glücklich ist ein\nPrachtkerl. - Ihre Bauerngeschichten\nentdeckte ich letzthin in der lieben",
+      "notes": "Die Transkription folgt der Vorderseite der Karte. Einige Wörter sind aufgrund der Handschrift schwer lesbar (z.B. 'ruden', 'clarile')."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Reclameausgabe und versandte\nsie als Feldpost. Vielleicht\nsehe ich Sie Donnerstag\nim Café K. Sie er wüsste[?]\naber nicht. Ich bin noch\nnicht entschlossen wohin ich\n fahre. Ich freu mich aufs\nArbeiten inbändig und\ndas Kind in frischer Luft zu\nhaben, ansonsten fällt mir\ndas Wegfahren schwer. Empfehle\nSie mich Ihrer Mutter u. Schwägerin\nHerzlichst Ihre Friderike M. W.",
+      "notes": "Die Transkription folgt der Rückseite der Karte. Briefmarke und Poststempel (Wien 68, 3. VIII. 15) sind vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herrn Dr. Victor Fleischer\n\nWien XIX\nBillrothstrasse 20",
+      "notes": "Adressfeld der Postkarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber stellenweise durch die Tinte und die Schreibweise der Eigennamen oder spezifischen Begriffe (z.B. 'comitéhansel', 'clarile') schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1090,
+    "total_words": 169,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

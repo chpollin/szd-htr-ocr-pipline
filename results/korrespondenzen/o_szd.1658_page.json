@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1658",
+    "title": "Ephraim Mose Lilien an Stefan Zweig, SZ-SAM/AK.288",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1658/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1658/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1658/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ephraim Mose Lilien an Stefan Zweig, SZ-SAM/AK.288\n- Signatur: SZ-SAM/AK.288\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:52.888140+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Braunschweig, Vaterländisches Museum.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Postkarte.\n\nVielen dank für dein\nTelegramm. Unsere Ver-\nlobung wird am 4ten\nOkt. veröffentlicht.\nFreunde dürfen schon\nuns gratulieren! -\nAlso! - {hin gehen}\nViele Grüße!\nHelene Efra[?]\n\nDr. Stefan Zweig\nWien I\nRathausstr. 17.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in Tinte. Briefmarke oben rechts, Poststempel teilweise lesbar. Die Signatur 'Helene Efra[?]' ist schwer lesbar, könnte auch 'Helene Efraim' oder ähnlich sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Postkartenrückseite."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der handschriftliche Text ist gut lesbar, jedoch ist die Signatur am Ende der Nachricht aufgrund der flüchtigen Schriftführung unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 262,
+    "total_words": 38,
+    "language_detected": "",
+    "language_match": true
+  }
+}

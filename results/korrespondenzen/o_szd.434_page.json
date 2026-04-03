@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.434",
+    "title": "Herbert Reichner an Stefan Zweig, 1930-03-24, SZ-SAM/AK.151",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.434/IMG.1",
+      "https://gams.uni-graz.at/o:szd.434/IMG.2",
+      "https://gams.uni-graz.at/o:szd.434/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Herbert Reichner an Stefan Zweig, 1930-03-24, SZ-SAM/AK.151\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.151\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.017505+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lompei - 18 - Casa degli Amorini d'Oro 24.3.30",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSALZBURG\nAUSTRIA\n\nPompei, 24. 3. 30.\nLieber Herr Doktor:\nvon unserer Sizilienreise\nheimkehrend begrüßen wir\nSie aufs herzlichste.\nIhre\nEdith und Herbert\nReichner.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Adresse und Nachricht. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Herrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSALZBURG\nAUSTRIA\n\nPompei, 24. 3. 30.\nLieber Herr Doktor:\nvon unserer Sizilienreise\nheimkehrend begrüßen wir\nSie aufs herzlichste.\nIhre\nEdith und Herbert\nReichner.",
+      "notes": "Identisch mit Seite 2, jedoch mit Grauskala und Farbkarte für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 448,
+    "total_words": 67,
+    "language_detected": "",
+    "language_match": true
+  }
+}

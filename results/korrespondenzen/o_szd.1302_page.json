@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1302",
+    "title": "Brief an Ida Zweig vom 10. August 1938, SZ-SEF/B12.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1302/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1302/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1302/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Ida Zweig vom 10. August 1938, SZ-SEF/B12.1\n- Signatur: SZ-SEF/B12.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.103059+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "10. August 1938\n\n49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLiebe Mama, ich hoffe dich in Wien\nzurück und einigermassen erholt; was\ngäbe ich darum, wenn ich ein paar Tage\nzu dir könnte, aber es ist ja aus verschie-\ndenen Gründen nicht möglich. Der Gedanke,\ndass du so allein bist, bedrückt uns beide\nsehr; solche Zeiten hat der arme Papa nie\nerlebt und dabei muss heute der noch Gott\ndanken, der zu Essen und ein Dach über dem\nKopf hat. Wir haben glücklicherweise hier\nin London ziemlich kühles Wetter und\nes ginge mir recht gut, kämen nicht\nununterbrochen von allen Seiten Hilferufe,\nman wolle dies verschaffen nur jenes – die\nMenschen sind ja wirklich alle verzweifelt",
+      "notes": "Briefkopf gedruckt, Text handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "und mit Recht.\nDie Angelegenheit mit Fritzi wird jetzt\nbald erledigt werden müssen, sie ist leider\nahrerlich[?] unverlässlich und was sie heute\nzusagt, nimmt sie morgen zurück. Sie hat\nes natürlich auch nicht leicht – aber warum\nhat sie vor vier Jahren, als ich meinen Auf-\nenthalt ändern wollte, so auf Salzburg be-\nstanden, warum wollte sie immer die Ge-\nscheitere sein, statt sich dem zu fügen, der\nfür Alles sorgen und sich mühen musste!\nViele Grüsse an Fräulein Josefine\nund herzlichst dein\n\nStefan",
+      "notes": "Handschriftlich in violetter Tinte. 'ahrerlich' ist schwer lesbar, möglicherweise 'wahrlich' oder 'ärgerlich' gemeint."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "und mit Recht.\nDie Angelegenheit mit Fritzi wird jetzt\nbald erledigt werden müssen, sie ist leider\nahrerlich[?] unverlässlich und was sie heute\nzusagt, nimmt sie morgen zurück. Sie hat\nes natürlich auch nicht leicht – aber warum\nhat sie vor vier Jahren, als ich meinen Auf-\nenthalt ändern wollte, so auf Salzburg be-\nstanden, warum wollte sie immer die Ge-\nscheitere sein, statt sich dem zu fügen, der\nfür Alles sorgen und sich mühen musste!\nViele Grüsse an Fräulein Josefine\nund herzlichst dein\n\nStefan",
+      "notes": "Dieser Scan zeigt das Dokument mit aufgelegter Farbskala, der Text ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, abgesehen von einem Wort in der zweiten Seite, das als 'ahrerlich' transkribiert wurde, aber vermutlich 'wahrlich' oder 'ärgerlich' meint.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1681,
+    "total_words": 285,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.564",
+    "title": " Unidentified an Stefan Zweig, 1932-05-29, SZ-SAM/AK.270",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.564/IMG.1",
+      "https://gams.uni-graz.at/o:szd.564/IMG.2",
+      "https://gams.uni-graz.at/o:szd.564/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1932-05-29, SZ-SAM/AK.270\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.270\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.350915+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [],
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ],
+    "total_chars": 0,
+    "total_words": 0,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1732",
+    "title": "Postkarte an Anna Meingast vom 19. Oktober 1937, SZ-SAM/B7.99",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1732/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1732/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 19. Oktober 1937, SZ-SAM/B7.99\n- Signatur: SZ-SAM/B7.99\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.572992+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "P O S T C A R D\n\nFrau Anna Meingast\n\nSalzburg (Austria)\nLinzergasse 16",
+      "notes": "Adressseite einer Postkarte. Gedruckter Text 'POST CARD', handschriftliche Adresse in violetter Tinte. Poststempel '19 OCT 1937'. Briefmarken: 1/2d und 1d (Großbritannien)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, vielen\nDank. In kurzer Zeit er\nhalten Sie die besten Bücher\nvon deren einem Sie das\nMeiste selbst geschrieben\nhaben / als Zeugen, das ist\ndankbar Ihrer gewalt![?]\nGrüßen Sie vielmals Herrn\nSchierl, ich schreibe ihm\nbald. Mit herzlichen\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Das Wort 'gewalt' ist schwer lesbar, möglicherweise 'gewaltig' oder eine Abkürzung/Verschreibung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich das Wort 'gewalt' am Ende der siebten Zeile ist aufgrund der Handschrift leicht zweideutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 339,
+    "total_words": 59,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

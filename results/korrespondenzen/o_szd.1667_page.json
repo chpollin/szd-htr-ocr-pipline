@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1667",
+    "title": "Stefanie und Alfred Zweig an Friderike Zweig, SZ-SAM/AK.300",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1667/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1667/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1667/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Stefanie und Alfred Zweig an Friderike Zweig, SZ-SAM/AK.300\n- Signatur: SZ-SAM/AK.300\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:54.044655+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Joe Lesti's Café - Restaurant „Eisvogel”\nWien II. Prater 44. (R 41-3-80).\n21.6.30.",
+      "notes": "Vorderseite einer Ansichtskarte mit Motiv des Wiener Praters. Das Datum '21.6.30.' ist handschriftlich in blauer Tinte hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Frau\nFriederike Maria Zweig\nSalzburg\nKapuzinerberg 5.\n\nMeine l. Fritzi, noch vielen vielen\nDank für alles Liebe, Schöne und\nGüte, was ich bei Euch genossen habe.\nWir verbringen heute mit Mama bei\nEisvogel und Salamutschi einen\ngemütlichen Abend und gedenken\nEuer! Herzlichste Grüße Euch allen\nmit Ausnahme v. Kaspar! Eure\nStefanie\n\nHerzl. Grüße Alfred\nHerzliche Grüße von der\n[?] Eisvogel [?]schreibenden",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich in blauer Tinte. Briefmarke und Poststempel vorhanden. Die letzte Zeile ist schwer lesbar und teilweise durch den Stempel überlagert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, identisch mit der Rückseite der Postkarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der Text ist gut lesbar, jedoch sind die letzten zwei Zeilen auf der Rückseite der Postkarte durch den Poststempel und eine etwas flüchtigere Handschrift schwerer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 486,
+    "total_words": 74,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

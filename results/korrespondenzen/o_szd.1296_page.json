@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1296",
+    "title": "Ansichtspostkarte an Rudolf Möller ohne Datum, SZ-SHB/B6.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1296/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1296/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Rudolf Möller ohne Datum, SZ-SHB/B6.1\n- Signatur: SZ-SHB/B6.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:26.599793+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Stefan Zweig",
+      "notes": "Handschriftliche Signatur auf der Vorderseite der Fotopostkarte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "SETZER\nPhoto-Bildnisse\nWIEN VII\nMuseumstraße 5\n\nDankbaren Gruß\n\n[...]\n\nHerrn R. Möller\n\nGriebow b. Marnitz\nMecklenburg",
+      "notes": "Die Nachrichtenseite der Postkarte enthält einen Stempel des Fotografen Setzer, eine handschriftliche Grußformel und die Anschrift. Das Zeichen unter 'Gruß' ist unleserlich (evtl. ein Kürzel oder eine grafische Verzierung)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die gedruckten Teile (Stempel) sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 130,
+    "total_words": 18,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2494",
+    "title": "Das Haus der tausend Schicksale",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA103.1.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2494/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2494/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2494/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2494/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2494/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2494/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2494/IMG.7"
+    ],
+    "date": "Sept. 1937",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Prag",
+      "extent": "3 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Prag"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Lotte Zweig"
+        ],
+        "inscriptions": [
+          "Jüdische\n                                 Revue, Prag"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Das Haus der tausend Schicksale\n- Signatur: SZ-AAP/W-AA103.1.1\n- Datum: Sept. 1937\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 3 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:27.466091+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Jüdische Revue, Prag Sept. 1937\n\ndie Juden im eigenen Bezirk nie behelligen, wie er es auch bisher nicht getan hat, er wird an jeder jüdischen Selbsthilfe-Aktion desinteressiert sein. Dieser Antisemitismus ist, so könnte man sagen, zu souverän, als dass er den Juden vernichten wollte, er will eigentlich nur nichts mit ihm zu tun haben. Man stellt Juden nicht an, man lässt sich von ihnen in die eigenen Angelegenheiten nicht dreinreden, aber man wird auch ihre Kreise nicht stören, ja man wird sich mit den Juden, wenn sie als selbständiger Körper auftreten, sogar irgendwie arrangieren. Ich glaube, gerade Österreich ist das Land, in dem bewiesen werden könnte, dass jüdischer Zusammenschluss auf bewusst jüdischer Basis, die Dissimilierung, das beste Kampfmittel gegen den Antisemitismus ist.\n\nIm Rahmen einer grosszügigen Umschichtungsaktion und mit ihren Plänen zur Schaffung einer jüdischen Volksgemeinde will die Wiener Kultusgemeinde diesen Weg gehen. Das bedeutet keinen Rückzug ins Ghetto. Eine Minderheit, die sich bewusst und planmässig organisiert, ist keine Ghetto-Minderheit. Im Ghetto sind wir jetzt, wohl nicht kollektiv und nicht auf Grund eines Statuts, aber jeder für sich und moralisch, also umso hoffnungsloser. Individuell kann sich niemand daraus befreien, es gibt nur eine Befreiung des Ganzen. Dazu muss aber das Ganze erst vorhanden sein.\n\nDas Haus der tausend Schicksale\nvon Stefan Zweig\n\nWenn Du heute reist von einem Lande zum anderen, im Schiff oder in der Bahn und Du Zeit hast und die Kunst zu beobachten, so wird es Dir immer wieder auffallen, wie viele unter den reisenden Menschen sich plötzlich verändern, sobald sie sich der Grenze nähern. Sie werden unruhig, sie können nicht mehr sitzen bleiben, sie wandern auf und ab mit gespannten Mienen. Eine Angst hat sie überfallen, man sieht es ihnen an, eine geheimnisvolle Angst. Denn eine Stunde noch, eine halbe Stunde, dann beginnt die Fremdheit und damit die große Unsicherheit. Man ist losgelöst von allem Gewohnten, anders sind die Sitten, anders die Gesetze, anders die Sprache, und die Beunruhigung, die sie dort erwartet, ergreift schon jetzt von ihrem ganzen Wesen Besitz. Geradezu körperlich sieht man ihre Sorgen, denn immer tasten sie mit nervösen\n552",
+      "notes": "Typoskript/Druck. Handschriftliche Annotation oben links: 'Jüdische Revue, Prag Sept. 1937'. Ein violettes Kreuz wurde über den Text gezeichnet."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Deutsche ist von Natur kein aktiver Antisemit, ja im Sinne Karl Eötvös, des Verteidigers im Tisza-Eszlarer Prozess, der gesagt hat, Antisemit sei der, dessen Abneigung gegen den Juden gewisse Grenzen überschreite, gibt es im Norden keine Antisemiten. Der Antisemitismus in Hitlers Programm war dem Süden wichtig, der Norden hat den Antisemitismus mitgenommen, weil ihm das Wichtigste, was Hitler brachte, so sympathisch und so aus der Seele gegriffen war: Eben das Marschieren. Das hat er noch aus Zeiten, die Tacitus beschreibt. In Wien aber kann man nicht einmal eine normale Verkehrsordnung durchsetzen.\n\nDer Antisemitismus in Hitlers Programm aber kann dem Österreicher ganz und gar nicht imponieren, ja der methodische, umständlich begründete, sich durch Heranziehung von „Wissenschaft“ immer wieder rechtfertigende, organisierte, den Juden als Feind erst entdeckende, sich durch diese Methode im Grunde immer wieder dementierende und seine innere Unsicherheit verratende Antisemitismus nationalsozialistischer Prägung kann dem echten Antisemiten, der einfach darum Antisemit ist, weil er es ist, nur als Verfälschung des Antisemitismus vorkommen. Hitler hat den Antisemitismus aus Österreich nach Deutschland exportiert, dem Geschmack des dortigen konsumierenden Publikums angepasst, wie man es oft mit einer gewöhnlichen Ware macht. Diesen Antisemitismus jetzt nach Österreich reimportieren wollen, ist noch sinnloser als Eulen nach Athen tragen. Das ist ein denaturierter Antisemitismus.\n\nUnd es spielt auch in dieses Problem wieder das Individualistische hinein. Der Österreicher macht seinen Antisemitismus allein, nach seinem Geschmack, jeder für sich. Er sieht nicht ein, wozu man da grosse Aktionen braucht, und er sträubt sich dagegen, dass ihm vorschreibe, was er im Einzelnen über den Juden denken solle und wie er im Einzelnen seine antisemitischen Gefühle auszuleben habe. Er liest nicht einmal antisemitische Literatur, auch nicht das in Österreich wieder zugelassene Buch „Mein Kampf“. Hitlers Antisemitismus könnte dem Österreicher den Antisemitismus höchstens abgewöhnen.\n\nFacit und Prognose —?\nSo verzweifelt die jüdische Situation in Österreich ist, sind wir doch nicht verloren — wenn wir uns selbst helfen wollen. Der österreichische Ur-Antisemitismus wird nie systematisch werden und er wird\n551",
+      "notes": "Druck. Violettes Kreuz über den Text gezeichnet."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Fingern an die Brusttasche hin, wo sie ihren Paß, ihr bißchen Geld und ihre Papiere haben. Zu Hause hat man sie versichert, daß alles in Ordnung ist, sie haben bezahlt für Stempel und Gebühren. Aber doch, aber doch, wird es gelten? Wird man ihnen nicht noch im letzten Augenblick die Tür verriegeln vor dem fremden Land? Unruhiger und unruhiger wandern sie auf und nieder, je näher man der Grenze kommt. Und wenn Du sie ansiehst, mitleidig ergriffen, sehen sie scheu zurück. Man fühlt sie möchten Dich fragen, mit Dir sprechen, sich beruhigen, sich trösten lassen in ihrer Unsicherheit, einen Freund, einen Helfer haben in dieser Fremde, die jetzt vor ihnen beginnt. Aber gleichzeitig ist man ihnen verdächtig, denn zu Hause hat man sie gewarnt vor den Fremden, die sich andrängen und noch die Ärmsten in ihrer Armut berauben wollen. Und so ducken sie sich wieder scheu und ängstlich, bis dann der Augenblick kommt, wo sie vor den Grenzbeamten treten wie Angeklagte vor einen Richter.\n\nTausende und abertausende solcher Menschen sind heute unterwegs und viele Juden sind unter ihnen. Denn wieder einmal ist ein großer Sturm durch die Welt gefahren und reißt die Blätter vom tausendjährigen Stamm und wirbelt sie über die Straßen der Erde. Wieder, wie ihre Väter und Urväter, müssen unzählige Juden das Land verlassen und das Haus, in dem sie friedlich wohnten und sich irgendwo — meist wissen sie selbst nicht, wo — eine neue Heimat suchen. Aber wenn es immer schwer war, in der Fremde bestehen, so nie schwerer als in unseren Tagen. Denn feindselig und eifersüchtig sperren sich die Länder gegeneinander ab. Es ist mehr Mißtrauen unter den Menschen als je zu einer Zeit, und wer heute heimatlos ist, der ist mehr, als jemals ein Volk gewesen.\n\nSieh sie darum gut an, die Heimatlosen, der Glücklicher, der Du weißt, wo Dein Haus ist und Deine Heimat, der Du, heimkehrend von der Reise, Dein Zimmer gerüstet findest und Dein Bett, und die Bücher stehen um Dich, die Du liebst und die Geräte, die Du gewohnt bist. Sieh sie Dir gut an, die Ausgetriebenen, Du Glücklicher, der Du weißt, wovon Du lebst und für wen, damit Du demütig begreifst, wie Du durch Zufall bevorzugt bist vor den anderen. Sieh sie Dir gut an, die Menschen dort zusammengedrängt am Rande des Schiffes und tritt zu ihnen, sprich zu ihnen, schon dies ist Tröstung, daß Du ihnen trittst, und indem Du sie ansprichst in ihrer Sprache, trinken sie unbewußt\n553",
+      "notes": "Druck."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "einen Atemzug der Heimat, die sie verlassen haben, und ihre Augen werden hell und beredt. Frag sie, wohin sie fahren! Die Gesichter werden dunkel. Nach Südamerika wanderten sie, dort hätten sie Verwandte. Aber würden sie dort ihr Leben finden, würden sie dort arbeiten können und sich ein neues Leben bauen? Und weiter fragt man, wie lange sie in London blieben. Oh, nur drei Tage bis zum nächsten Schiff. Ob sie die Sprache sprechen? Nein. Ob sie dort Menschen kennen, die ihnen helfen könnten? Nein. Ob sie Geld genug hätten für die Unterkunft? Nein. Wie sie also es anfangen würden, um sich dort durchzuschlagen diese drei Tage und Nächte? Aber da lächeln sie zuversichtlich und getrost: „Dafür ist gesorgt. Wir gehen in den Shelter“.\n\nShelter? Ich weiß nicht, was das ist, obzwar ich ziemlich lange in London gewesen. Nie hat mir jemand von diesem Hause, von dieser Institution gesprochen. Aber sonderbar, alle diese Juden aus den fernsten und fremdesten Städten wissen davon. In Polen, in der Ukraine, in Lettland und Bulgarien, vom einen Ende bis zum anderen Europas wissen alle armen Juden vom Shelter in London. So wie ein einzelner Stern von unzähligen Menschen gesehen wird, die selbst einer vom anderen nichts wissen, so ist dieser Name für sie eine Gemeinschaft des Trostes und vom einen bis zum anderen Ende der jüdischen Welt geht diese Saga weiter von Mund zu Mund, die Saga vom Shelter in London, dass es irgendwo ein Haus gibt, das den wandernden Juden -- und wie viele müssen wandern — Rast gibt für den ermüdeten Leib und Trost für die Seele, ein Haus, das ihnen Ruhe schenkt für ein paar Tage und ihnen noch weiterhilft auf ihrem Wege von Fremde zu Fremde. Daß gerade ich, der doch oft in London gelebt, der einzige war, unter all diesen Juden am Schiff, der nicht wußte von diesem Hause, beschämte mich sehr. Denn so sind wir: von all dem Schlechten, was auf Erden geschieht, erfahren wir. Jeden Morgen schreit uns die Zeitung Krieg und Mord und Verbrechen ins Gesicht, der Wahnwitz der Politik überfüllt unsere Gedanken. Aber von dem Guten, das im Stillen geschieht, erfahren wir selten. Und gerade dies täte not in einer Zeit wie unsern, denn jede moralische Leistung erregt in uns durch ihr Beispiel die wahrhaft wertvollen Kräfte, und jeder Mensch wird besser, wenn er redlich das Gute zu bewundern weiß.\n\nSo ging ich, diesen Shelter zu sehen. Es ist ein Haus im East\n554",
+      "notes": "Druck."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "End in einer unscheinbaren Gasse, aber jede Not hat noch immer den Weg zu ihm gefunden. Zweckdienlich eingerichtet, ohne jeden Luxus, aber von besonderer Reinlichkeit, wartet es mit immer geöffneter Tür auf den Wandernden, den Auswanderer, der hier rasten will. Ein Bett steht ihm bereit, ein Tisch ist ihm gerüstet und mehr noch: er kann Rat haben und Hilfe inmitten fremder Welt. Die Sorge, die ihn drängt, er kann sie endlich unbesorgt vor freundlichen Helfern aussprechen, man denkt, man schreibt für ihn und sucht ihm wenigstens ein Stück des schweren unbekannten Weges zu bahnen, der vor ihm liegt. Inmitten der ungeheuren Unsicherheit, die für Tausende jetzt das Leben wie eine frostige Nebelwolke umhüllt, fühlt er für ein paar Tage Wärme und Licht der Menschlichkeit und — wirklicher Trost in all seiner Trostlosigkeit — er sieht, er erlebt, daß er nicht einsam und verlassen ist in der Fremde, sondern der Gemeinschaft seines Volkes und der höheren Gemeinschaft des Menschlichen verbunden.\n\nLange Rast freilich ist keinem gegönnt, denn das jüdische Elend geht heute wie ein unaufhörlicher Strom durch die Welt. Eine andere Vertriebenheit als die seine wird morgen in diesem Bette ruhen, eine andere an dem Tische essen: tausende und tausende Menschen haben in den fünfzig Jahren seit seiner Gründung geruht und sich gekräftigt in diesem Shelter und sind dankbar weitergegangen; kein Dichter hätte Erfindungskraft genug, um die Vielfalt, die Tragik dieser tausend Schicksale zu schildern. Denn wo eine neue Welle des Unglücks sich erhebt in der Welt, ob in Deutschland oder Polen oder Spanien, schwemmt sie zerbrochene, zertrümmerte Existenzen heran gegen dieses eine — den Glücklichen, den Reichen, den Sorglosen unbekannte — Haus, das bisher ruhmreich jedem Ansturm standgehalten und dessen Hüter mit bewundernswerter Hingabe ihrer Helferpflicht gedient. Wenn sie auch immer nur einen Tropfen abschöpfen können aus dem unerschöpflichen Meere des Menschlichen, des jüdischen Elends, wie viel ist schon damit getan, einem Unglücklichen bloß einen Tag glücklich zu machen, einem Heimatlosen nur für Stunden das Gefühl der Heimat zu geben, einem schon völlig Verzagten neue Sicherheit! Wundervoll darum dieses Haus, das den Vertriebenen dient und den Heimatlosen! Dank allen, die es erschaffen und erhalten, dies unbekannte und unvergleichliche Denkmal jüdischer und menschlicher Solidarität!\n555",
+      "notes": "Druck."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Das sefardische Saloniki\nvon Maximo José Kahn\nspanischem Generalkonsul in Saloniki\n\nI. DAS LEBEN\n\nIch bedaure, Saloniki nicht vor fünfundzwanzig Jahren kennen gelernt zu haben, als es noch türkisch war und die antiken sefardischen Quartiere der Stadt noch nicht von jenem schrecklichen Brand des Jahres 1917 zerstört dalagen, der von einem Feind der Israeliten angestiftet worden zu sein scheint, und dessen Löschung von einem General verhindert wurde, der auch antijüdisch war.\n\nDamals, vor einem Viertel Jahrhundert, zeigte das innere Gefüge Salonikis noch die ästhetischen Charakterzüge, die es vor vier Jahrhunderten umrissen hatten, vor vier Jahrhunderten, als die sefardischen Juden, von der Pyrenäen-Halbinsel vertrieben, von dem Sultan Bajazet II. die Erlaubnis erhielten, sich auf der Balkan-Halbinsel niederzulassen und den kleinen türkischen Hafen-Ort in eine üppige hispanische Stadt umgestalteten.\n\n80.000 Juden lebten in Saloniki, als am 26. Oktober 1912 die griechischen Truppen einmarschierten, um die Stadt, die im Ganzen einige 130.000 Einwohner hatte, endgültig dem hellenischen Machtbereich einzuverleiben.\n\nDer türkische Besitz, der damals in die Hände der Griechen überging, war eine spanische und jüdische Stadt, deren Viertel den verschiedenen Regionen Spaniens entsprachen. Man lebte in Häusern, die im 16. Jahrhundert und im Stil derjenigen errichtet worden waren, welche die Vorfahren in Segovia, Toledo, Sevilla, Granada und Cordoba hatten aufgeben müssen. Und neuere Bauten, zum grössten Teil aus geschnitztem Holz gefügt, atmeten ebenfalls den Empfindungsgeschmack des spanischen Menschen der vergangenen Jahrhunderte. Die Frauen trugen sehr malerische Kleidung, aus köstlichem Material gewebt und mit Gold, Perlen und Edelsteinen geschmückt. Ihre Brüste, kaum von duftigem Musselin umhüllt, drückten den unerschütterlichen Willen aus, die ererbte Kultur bis alle Ewigkeit weiterzuführen. Die Männer waren voll einem weisen religiösen Leben. Am Sabbat arbeitete niemand. Am Sabbat waren alle Läden von Saloniki geschlossen und die Synagogen überfüllt, die 36 kleinen und grossen\n556",
+      "notes": "Druck. Violettes Kreuz über den Text gezeichnet."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Über den Text auf dem Blatt wurde ein violettes Kreuz gezeichnet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die violetten Markierungen (Kreuze) beeinträchtigen die Lesbarkeit kaum.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 13904,
+    "total_words": 2150,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.537",
+    "title": "Leopold Winkler an Stefan Zweig, 1923-11-26, SZ-SAM/AK.245",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.537/IMG.1",
+      "https://gams.uni-graz.at/o:szd.537/IMG.2",
+      "https://gams.uni-graz.at/o:szd.537/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Leopold Winkler an Stefan Zweig, 1923-11-26, SZ-SAM/AK.245\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.245\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:16.232171+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "大正 12. 9. 1. 東京大震災実二兄\n焼け残れ3二王門と仲見世",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Fotografie der Zerstörungen nach dem Großen Kantō-Erdbeben 1923. Japanischer Text im Bild."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTALE\nvia America!\n\nHerrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nTokyo 26. Nov. 23\n\nSehr geehrter Herr Doktor!\nErlauben Sie, daß ich Ihnen\nund Ihrer Familie die besten Wünsche\nzum Jahreswechsel hiermit übersende.\nDie Erdbebenkatastrophe hat mich\npersönlich glücklicherweise gar nicht ge-\ntroffen, und ich bitte Sie, sich auch in\nZukunft gelegentlich freundlich erinnern\nzu wollen.\nThres sehr ergebenen\nLeopold Winkler\nTokyo, Okubo\nHyakuninmachi 277",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht in deutscher Sprache. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die japanischen Schriftzeichen auf der Vorderseite wurden als solche identifiziert, die deutsche Handschrift ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 493,
+    "total_words": 72,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

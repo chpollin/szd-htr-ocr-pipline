@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1807",
+    "title": "Brief an Stefan Zweig vom 19. Mai 1938, SZ-AAP/B1.241",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1807/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1807/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. Mai 1938, SZ-AAP/B1.241\n- Signatur: SZ-AAP/B1.241\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.703959+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "DEUTSCHE GROSZBUCHHANDLUNG FÜR HOLLAND\n\nMEULENHOFF & Co. N.V.\n\nAMSTERDAM-C.\nBEULINGSTRAAT 2-4\nFERNSPRECHER 35609-37609-34461\n\nIMPORT DEUTSCHER BÜCHER UND ZEITSCHRIFTEN · VERTRETUNG DEUTSCHER VERLEGER\n\nEXPORT HOLLÄNDISCHER\nBÜCHER UND ZEITSCHRIFTEN\nJMM/SB\n\nden 19. Mai 1938\n\nHerrn Stefan Zweig\n49, Hallan Street\nL o n d o n W.I.\n\nSehr geehrter Herr Zweig,\n\nVon der Buchhaltung erfahre ich soeben\ndass diese schon im März ein Schreiben des Herbert Reichner Ver-\nlages erhalten hat, worin dieser uns mitteilte, dass seine Adresse\nSankt Peterstrasse 18, Zürich, sei. Wir haben dem Verlag an diese\nAdresse geschrieben um zu sehen, ob er dort noch wohnhaft ist.\nHeute erhalten wir wieder einen Brief, worauf nur angegeben ist:\nHerbert Reichner, Hauptpostlagernd, Zürich. Wir werden, wo wir uns\njetzt auch mit dem Schweizerischen Vereinssortiment in Olten in\nVerbindung gestellt haben, Ihnen wohl bald Näheres mitteilen kön-\nnen.\n\nInzwischen zeichne ich\n\nmit vorzüglicher Hochachtung,\n\n[Unterschrift]\n\ni/F Meulenhoff",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich, ebenso der Zusatz 'i/F Meulenhoff'. Links am Rand ist ein Stempelabdruck (teilweise durchscheinend) erkennbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Es handelt sich um den Durchdruck (Show-through) des Textes der Vorderseite, da das Papier dünn ist. Kein eigenständiger Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist typisch für Geschäftskorrespondenz dieser Zeit und gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1008,
+    "total_words": 145,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

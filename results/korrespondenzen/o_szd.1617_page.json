@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1617",
+    "title": "Brief an Cassell and Company, Ltd. vom 20. Juli 1938, SZ-AAP/B1.262",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1617/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1617/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1617/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1617/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Cassell and Company, Ltd. vom 20. Juli 1938, SZ-AAP/B1.262\n- Signatur: Ltd. vom 20. Juli 1938, SZ-AAP/B1.262\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:48.336124+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "OTTO J.TRESSL\nWIEN, 20.Juli 1938\nIII. RENNWEG 50\nTEL. U-14-5-18\n\nTitl.\nCassell & Company, Ltd.\nLa Belle Sauvage\nLondon E.C.4\n\nBetrifft:Stefan Zweig.\n\nAuf Ihr letztes Schreiben kann ich Ihnen\nleider erst heute Antwort zukommen lassen.\n\nIhrem Wunsche gemäß habe ich mich genau\nerkundigt und kann Ihnen mitteilen,daß selbstverständlich\nder Herbert Reichner-Verlag,der derzeit staatlich verwal-\ntet wird,keinerlei Einwände gegen den Verkauf und Vertrieb\nder von Ihnen zu erwerbenden Werke STEFAN ZWEIG durch Sie\nerheben wird,solange Sie nicht versuchen,diese im großdeut-\nschen Staatsgebiet zu verkaufen.Dies schon vor allem des-\nhalb nicht,weil Sie ja diese Bestände vom H.Reichner-Ver-\nlag in Wien kaufen würden.\n\nHerr Dr.Zweig wird meines Wissens nichts\ngegen Sie in dieser Hinsicht unternehmen,worüber Sie sich\nja eventuell selbst bei Herrn Dr.Zweig in London verge-\nwissern könnten.\n\nIch habe bei meiner Anwesenheit in London\nzufällig Gelegenheit gehabt mit Herrn Dr.Zweig über dieses\nKapitel zu sprechen und dabei erfahren,daß Herr Dr.Zweig\ndie Verlagsverträge mit dem H.Reichner - Verlag in Wien ge-\nkündigt hat,um für seine zukünftigen Neuauflagen in deut-\nscher Sprache freie Hand zu haben.\n\nIch übersende Ihnen in der Beilage ein Ver-\nzeichnis der bei der Buchbinderei lagernden Bestände und\nnenne Ihnen bei Abnahme des Gesamtlagerbestandes den Preis\nvon äußerst durchschnittlich 2s3d pro 1 Stück.\n\nDie Voraussetzung für den Abschluß des Ge-\nschäftes mit Ihnen ist,daß Sie den Gegenwert für die Bücher\nin Form eines Akkreditivs in Wien oder Hamburg im Voraus\nerlegen und hiefür auf keinem Fall Inlandsguthaben verwenden\ndürfen.Der oben genannte Preis versteht sich exkl.Verpak-\nkungs-und Speditionskosten.\nb.w.S.g.u.",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Abkürzung 'b.w.S.g.u.' steht für 'bitte wenden, Seite geht um'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text von der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Um ganz sicher zu gehen muß ich noch\ndie schriftliche Verkaufsbewilligung der zuständigen{behördlichen} Stelle\nabwarten,würde Ihnen aber empfehlen,sich die Option für die\nÜbernahme der Bestände durch ein direktes Schreiben an den\nH.Reichner - Verlag in Wien zu sichern,da sich bereits eine\nschweizerische und eine holländische Firma ernstlich für die\nErwerbung der gesamten Bestände interessieren.\n\nMit deutschem Gruß !\n\nOtto Tressl [?]",
+      "notes": "Typoskript mit handschriftlicher Ergänzung '{behördlichen}' über der Zeile und handschriftlicher Unterschrift. Das Wort 'behördlichen' ist am linken Rand mit einem Sternchen markiert."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text von der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Unterschrift auf Seite 3 ist leicht stilisiert, aber als 'Otto Tressl' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2158,
+    "total_words": 309,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

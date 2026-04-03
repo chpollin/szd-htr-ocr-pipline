@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1409",
+    "title": "Brief an Unbekannt vom 28. Juni 1920, SZ-LAS/B4.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1409/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1409/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1409/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt vom 28. Juni 1920, SZ-LAS/B4.3\n- Signatur: SZ-LAS/B4.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:32.074153+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, am 28. Juni 1920\n\nLieber Herr Doktor!\n\nHaben Sie vielen Dank für Ihren langen ausführli-\nchen Brief. Die Gesellschaft ist nun im Stadium der\nGründung, wir haben aber darüber noch keine öffentli-\nche Verlautbarung gemacht, weil wir bisher noch nicht\ndie behördliche Bewilligung haben und auch noch einige\nEntscheidungen ausständig sind. Für Ihren freundlichen\nWunsch, uns zu helfen zu wollen, danke ich Ihnen auf\ndas herzlichste und vielleicht werde ich Ihre Güte in\nAnspruch nehmen. Vorläufig ist eben alles noch in Schwe-\nbe, wir warten auf Meister Ginzkey um zu den letzten\nEntscheidungen zu kommen.\n\nWas die Sache mit Professor Kippenberg betrifft,\nso will ich ihm lieber nicht schreiben, weil brieflich-\nder zufällige und gelegentliche Findruck, den eine\nsolche Aussprache haben soll und muss, verloren geht.\nNun kommt entweder Kippenberg im Sommer her, oder ich\nIhre nach Leipzig und da ich mir immer auf Wochen vor-\naus ein Vormerkblatt anlege was in diesen Tagen zu be-\nreden ist, so habe ich sofort heute Ihren Namen einge-\nschrieben und es soll wahrhaftig nicht vergessen wer-\nden. Ich werde schon irgend eine Form finden, ich habe",
+      "notes": "Handschriftlicher Brief in violetter Tinte. Die Lesbarkeit ist gut."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "sogar eine bestimmte Idee die ich einmal mit Ihnen durch\nsprechen möchte und dazu ist ja hoffentlich bald Gelegen-\nheit. Meine eigenen Bücher schicke ich Ihnen, wenn es\ndie Insel nicht tut natürlich gern selbst; durch die\nreichlichen Auflagen habe ich meist ja einen gewissen\ngewissen Vorrat und brauche nicht so sparsam zu sein.\nDagegen möchte ich Sie erinnern an Hofmannsthals Rodau-\nner Nachträge, ich würde gerne darüber ein Referat in\neiner allerersten Zeitung schreiben, dass dem Verlage\ndas Exemplar reichlich aufliegen würde. Denn nie war es\nso notwendig wie jetzt auf Bücher hinzuweisen, wo die\nZeitungen keinen Raum haben und die Käufer anscheinend\nkein Geld mehr. Gestern sah ich z.B. durch Zufall, was\ndas schäbig geheftete Reisetagebuch des Grafen Keyser-\nling kostet, geschlagene 800 Kronen, ein Betrag, mit\ndem man früher sämtliche Philosophen von Confuzius bis\nNietzsche sich in den schönsten Ausgaben anschaffen konn-\nte. Ich glaube, dass der Höhepunkt auch der bibliophilen\nPreise schon überschritten ist. Aber dennoch, wer könn-\nte sich von seinen Büchern trennen, solange es einen\nnoch nicht auf den Nägeln brennt!\n\nIch freue mich schon sehr, Sie im Sommer hier zu\nsehen, Salzburg ist jetzt geladen mit Literatur und The-\nater, ausser Max Reinhardt ist noch Dr. Paul Eger stän-\ndig über den Sommer hier und jeder Tag bringt neue Nach-\nricht. Sie werden also über Langeweile nicht zu klagen\nhaben.\n\nMit besten Grüssen Ihr\n\nStefan Zweig",
+      "notes": "Handschriftlicher Brief in violetter Tinte. Unten links Archivvermerk 'VI/16' und 'Sorn'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Überdeckt Teile des Textes der zweiten Seite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die Farbskala auf dem dritten Bild verdeckt den Text, der jedoch auf dem zweiten Bild vollständig lesbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2604,
+    "total_words": 418,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

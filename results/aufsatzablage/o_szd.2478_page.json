@@ -1,0 +1,98 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2478",
+    "title": "Alter Anfang für eine Legende \"Mitleiden\"",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA119.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2478/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2478/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2478/IMG.3"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, roter Buntstift",
+        "hands": [
+          "Stefan Zweig"
+        ],
+        "inscriptions": [
+          "Nur für\n                                 mich verwertbar"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Alter Anfang für eine Legende \"Mitleiden\"\n- Signatur: SZ-AAP/W-AA119.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, roter Buntstift\n- Hand: Stefan Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:25.529130+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Nur für mich verwertbar.\n\nAlter Anfang für eine Legende „Mitleide“?",
+      "notes": "Handschrift auf einem Briefumschlag. Die erste Zeile ist in rotem Buntstift geschrieben, die zweite in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefumschlags, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, darüber das bereits transkribierte Dokument (Seite 1)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz und trotz der kursiven Handschrift Stefan Zweigs eindeutig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 67,
+    "total_words": 10,
+    "language_detected": "",
+    "language_match": true
+  }
+}

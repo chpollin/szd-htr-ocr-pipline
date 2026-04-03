@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1824",
+    "title": "Brief an Anna Meingast vom 7. November 1936, SZ-SAM/B7.83",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1824/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1824/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 7. November 1936, SZ-SAM/B7.83\n- Signatur: SZ-SAM/B7.83\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.480592+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 7.November 1936.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr herzlich\nfür Ihre Nachsendungen. Es ist alles wie immer bei\nIhnen in bester Ordnung. Auch der Friedell ist\nglücklich angekommen.\n\nDass Band XV jener Reisebeschrei-\nbungen fehlen soll, ist mir eigentlich unerklärlich.\nEr ist nie ausser Haus gewesen und ich bitte, meine\nFrau möge nachschauen, ob nicht in andern Bänden\ndie Reisebeschreibung von Pigafetta, von der ich be-\nstimmt auch sonst noch ein Exemplar hatte, enthalten\nist. Ich weiss bestimmt, dass ich mir seinerzeit zwei\nBücher über Magellan bestellte, eines war, glaube ich,\nvon Wieser. Aber beide sind kleine Broschüren gewesen,\nsowohl Pigafetta als das andere und vielleicht nicht\neingetragen worden.\n\nFür die Bibliographie ist Ihnen ja\nwohl alles geschickt worden. Vielleicht kann man wirk-\nlich ein solches Exemplar auf Karten anlegen.",
+      "notes": "Typoskript auf hellblauem Papier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ich hoffe, liebe Frau Meingast,\nim Dezember vorbeizukommen und freue mich dann\nschon sehr, Sie und den braven Johann zu sehen,\nder mir hier in manchen Stunden sehr fehlt und\nauch die vier Kinder von Henny kennenzulernen.\nIhrem Sohn geht es hoffentlich\ngut und Ihnen ebenso.\n\nAlles Herzliche von Ihrem\n\nStefan Zweig\n\nWenn noch ein Band der alten Ausgabe von \"Heilung\ndurch den Geist\" da ist, bitte ich ihn an \"Ibis\"-\nVerlagsbuchhandlung, Pl. Bankowy 1, Warschau zu\nsenden.\n\nVon der Unterschrift, die meine Frau\nfür jemanden haben wollte\n\nDie Reisebeschreibung bitte vorläufig nicht zu senden, wenn\nsich nicht der fehlende Band noch findet.",
+      "notes": "Typoskript mit handschriftlicher Unterschrift (violette Tinte) und handschriftlichem Zusatz (violette Tinte) zwischen den Absätzen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in violetter Tinte sind klar lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1508,
+    "total_words": 236,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.858",
+    "title": "Brief an Stefan Zweig vom 13. Juli 1937, SZ-AAP/B1.73",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.858/IMG.1",
+      "https://gams.uni-graz.at/o:szd.858/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Juli 1937, SZ-AAP/B1.73\n- Signatur: SZ-AAP/B1.73\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:38.062898+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "OFFICE OF THE VICE-PRESIDENT\n\n                                  OXFORD\n                                UNIVERSITY\n                                   PRESS\n                                  NewYork\n\n114 FIFTH AVENUE\n\nCOPY OF CABLE\n\n                                  July 13, 1937\n\nHERBERT REICHNER\nCARE REICHNERVERLAG WIEN\n\n\"WILL TAKE TWO HUNDRED FIFTY COPIES  WILL NOT EXPORT COPIES TO\n\nEUROPE PROVIDED SAME APPLIES COPIES FROM EUROPE TO AMERICA  STOP\n\nPAYMENT TO JAFFE DIRECT  STOP  WILL USE YOUR SUPPLEMENT  STOP\n\nPUBLISHED PRICE EUROPE AND AMERICA SHOULD BE IN SAME PROPORTION\n\nFEEL COPIES SHOULD BE NUMBERED  WRITE ME ALL DETAILS DESCRIPTION\n\nBOOK TOTAL EDITION PRINTED ETCETERA.\"\n\n                                  WILLERT",
+      "notes": "Typoskript auf hellblauem Papier. Briefkopf der Oxford University Press."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 727,
+    "total_words": 79,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

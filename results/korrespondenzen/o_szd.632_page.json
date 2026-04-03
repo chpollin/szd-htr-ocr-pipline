@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.632",
+    "title": "Oskar Maurus Fontana an Stefan Zweig, 1919-08-10, SZ-SAM/AK.62",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.632/IMG.1",
+      "https://gams.uni-graz.at/o:szd.632/IMG.2",
+      "https://gams.uni-graz.at/o:szd.632/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Oskar Maurus Fontana an Stefan Zweig, 1919-08-10, SZ-SAM/AK.62\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.62\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.340136+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "„MURAU, Obersfeier im Winter“",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text unten links. Am oberen Rand handschriftliche Notiz in Bleistift, schwer lesbar: „[...10...] beweisen. [...] [...10...]“."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Dr. Zweig\nvon einer kleinen Reise\nin die steirischen [?] und\nBerge grüße ich Sie herzlich.\nEs thut mir sehr leid, von\nIhnen gar nichts zu hören,\nnicht einmal, ob meine\n„Erinnerung“ an Ihren\n[...] oder nicht. Dass\nich daran sogar in solcher\n[...] Landschaft denke,\n[...5...] Ihnen zeigen, dass mir\nIhre Stimme, die ich als\nehe als gleichgiltig ist,\n[...5...] Viel wieder sehen\nVielleicht kann ich Sie im Herbst\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel „MURAU 10. VIII. 19“ vorhanden. Der Text ist teilweise durch die Tinte und das Alter schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Die Postkarte ist in der Mitte platziert, entspricht inhaltlich Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und teilweise verblasst, insbesondere im linken Bereich der Postkarte. Einige Wörter sind aufgrund der Tintenführung oder Überlagerungen nur schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 499,
+    "total_words": 83,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

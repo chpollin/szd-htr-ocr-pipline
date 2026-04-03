@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1536",
+    "title": "Brief an Stefan Zweig vom 30. Oktober 1924, SZ-AAP/B2.45",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1536/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1536/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1536/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 30. Oktober 1924, SZ-AAP/B2.45\n- Signatur: SZ-AAP/B2.45\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:40.449120+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Berlin-Schmargendorf, den 30.10.24.\nMarienbaderstrasse 9.\n\nLieber Herr Zweig!\n\nIch danke Ihnen herzlichst für Ihren letzten Brief. Ich habe nun aber\ninzwischen doch mit Axel Muncker abgeschlossen. Vielleicht ist das\nauch die richtigste Lösung im jetzigen Stadium der Dinge. Der Insel-\nVerlag kann ja eventuell später die Sammlung übernehmen, wenn sie sich\ndurchgesetzt hat. Ich habe durchaus Verständnis dafür, dass ein Verlag\nvon seinem Range und seiner Eigenart nicht experimentieren will, und als\nExperiment muss ihm wohl nach dem Fiasko der letzten Kunstbewegung jede\nneue Dichtung erscheinen. Sie haben das ja seinerzeit in Ihrem ersten\nBriefe an mich auch gleich angedeutet.\n\nDarf ich Sie nun ganz unbefangen um eine Freundlichkeit bitten?\nDer Verlag will einen Prospekt versenden, mit 3 Seiten Proben und einer\nTitelseite. Würden Sie dafür ein paar empfehlende Worte, die möglichst\nein ungefähres Bild des Inhalts, kühn gesagt eine Art kleines Vorwort\ndarstellen sollen, schreiben? Eine weitere Bitte wäre die, mir Ihre\nAdresse anzugeben; es würde mir gesagt, dass Sie die Absicht hätten für\nlängere Zeit ins Ausland zu verreisen. Ich weiss nun allerdings nicht,\nob Sie sich dabei nicht einmal der ganzen Literatur und ihrem Umtrieb\nentziehen wollen. Sollten Sie aber während der Zeit doch die Musse finden\ndas Büchlein zu besprechen - es wird noch vor Weihnachten erscheinen -\nso wäre mir das zweifellos eine grosse Hilfe. Ich habe auch verschie-\ndentlich von anderer Seite sehr zustimmende Urteile über die Sonette\ngehört und bin im Übrigen auch nicht unsicher. Trotzdem werden Sie wissen\nwie wichtig es für einen jungen Autor ist bei seinem ersten Auftreten\neinen",
+      "notes": "Typoskript auf Briefpapier. Die letzte Zeile 'einen' bricht den Satz ab, der auf der nächsten Seite fortgesetzt wird."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "einen gewissen Schwung zu bekommen. Diese Dinge haben sich nun von\nmir abgelöst und wollen leben. Mit dem Augenblick wo sie aber so\nherausgestellt werden beginnen sie nach rückwärts auf einen einzuwirken,\nstärker als vorher. Für mich hat das Manuskript fast etwas Unpersön-\nlicheres als das Buch.\n\nIch will nicht aus meinen Bitten einen ganzen Strauss machen, sonst\nwürde ich noch versuchen Sie für meine Prosa zu interessieren. Ich habe\neinige Novellen geschrieben, von denen ich Ihnen gern eine vorlegen\nwürde. Es ist so selten, dass man das Gefühl hat sich wirklich mensch-\nlich jemand anvertrauen zu dürfen, geschweige denn in der Sphäre der\nLiteratur, - die wenigen Menschen, die einem diese Sicherheit geben\nmüssen es sich schon gefallen lassen, wenn man sie dann vielleicht\netwas heftig in Anspruch nimmt.",
+      "notes": "Typoskript, Fortsetzung des Briefes."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "einen gewissen Schwung zu bekommen. Diese Dinge haben sich nun von\nmir abgelöst und wollen leben. Mit dem Augenblick wo sie aber so\nherausgestellt werden beginnen sie nach rückwärts auf einen einzuwirken,\nstärker als vorher. Für mich hat das Manuskript fast etwas Unpersön-\nlicheres als das Buch.\n\nIch will nicht aus meinen Bitten einen ganzen Strauss machen, sonst\nwürde ich noch versuchen Sie für meine Prosa zu interessieren. Ich habe\neinige Novellen geschrieben, von denen ich Ihnen gern eine vorlegen\nwürde. Es ist so selten, dass man das Gefühl hat sich wirklich mensch-\nlich jemand anvertrauen zu dürfen, geschweige denn in der Sphäre der\nLiteratur, - die wenigen Menschen, die einem diese Sicherheit geben\nmüssen es sich schon gefallen lassen, wenn man sie dann vielleicht\netwas heftig in Anspruch nimmt.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3297,
+    "total_words": 519,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

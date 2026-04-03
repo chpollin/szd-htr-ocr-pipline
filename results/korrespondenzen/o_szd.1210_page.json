@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1210",
+    "title": "Brief an Anna Meingast vom [August 1934], SZ-SAM/B7.40",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1210/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1210/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom [August 1934], SZ-SAM/B7.40\n- Signatur: SZ-SAM/B7.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.019519+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Klosters (Schweiz)\nHotel Weisskreuz\n\nLiebe Frau Meingast, hier Capitel I, die andern\nfolgen jetzt in regelmässiger Reihenfolge.\nBitte eilen Sie nicht nur schreiben Sie lang\nsam nur möglichst sorgfältig, damit wir\nein möglichst klares Manuscript bekommen.\nIn der nächsten Woche bin ich\nauf dem Weg nach Wien einen Tag in S.\nViele herzliche Grüsse\n\nStefan Zweig",
+      "notes": "Die Abkürzung 'S.' in 'einen Tag in S.' bezieht sich vermutlich auf Salzburg oder einen anderen Ort, ist aber im Kontext nicht eindeutig auflösbar. Die Handschrift ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist in diesem Dokument klar und deutlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 359,
+    "total_words": 56,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

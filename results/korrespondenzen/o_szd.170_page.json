@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.170",
+    "title": "Promotionskarte, SZ-SEF/L3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.170/IMG.1",
+      "https://gams.uni-graz.at/o:szd.170/IMG.2",
+      "https://gams.uni-graz.at/o:szd.170/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Promotionskarte, SZ-SEF/L3\n- Signatur: SZ-SEF/L3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.186472+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Stefan Zweig ∴ ∴\n\n                    gestattet sich, Ihnen seine\n                    Promotion zum Dr. phil.\n                    ergebenst mitzutheilen. ∴ ∴\n\nWien, 19. Juli 1904.",
+      "notes": "Gedruckte Promotionskarte auf braunem Karton. Unten rechts kleiner Druckvermerk: 'M. MUNK, WIEN'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Das Dokument aus Seite 1 ist hier erneut abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 179,
+    "total_words": 20,
+    "language_detected": "",
+    "language_match": true
+  }
+}

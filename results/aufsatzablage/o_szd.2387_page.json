@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2387",
+    "title": "Nietzsche",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA152.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2387/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2387/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Blatt nachträglich zugeschnitten, ursprüngliche Aufschrift\n                        unleserlich"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Nietzsche\n- Signatur: SZ-AAP/W-AA152.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Blatt nachträglich zugeschnitten, ursprüngliche Aufschrift\n                        unleserlich"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:13.931726+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Nietzsche\nNietzsche und der Freund\nMater Dolorosa (Die Briefe von N.s Mutter an Overbeck",
+      "notes": "Handschrift in violetter Tinte auf beigem Papier. Vorderseite des Blattes."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, leer bis auf einen braunen Fleck (Büroklammerabdruck)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2. Juli.\n~~Der mordische Torture~~",
+      "notes": "Rückseite des Blattes, gedreht. Bleistiftnotiz '2. Juli.' und eine durchgestrichene Zeile in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, leer bis auf einen Fleck."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Nietzsche\nNietzsche und der Freund\nMater Dolorosa (Die Briefe von N.s Mutter an Overbeck",
+      "notes": "Vorderseite des Blattes."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, leer."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Nietzsche\nNietzsche und der Freund\nMater Dolorosa (Die Briefe von N.s Mutter an Overbeck",
+      "notes": "Vorderseite des Blattes mit Archiv-Farbskalen oben und unten."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die durchgestrichene Zeile auf Seite 3 ist aufgrund der Tintenführung gut als 'Der mordische Torture' (oder ähnlich) lesbar, wobei das letzte Wort aufgrund der Durchstreichung leicht unsicher ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 298,
+    "total_words": 47,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

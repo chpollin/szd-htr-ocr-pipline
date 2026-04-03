@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1653",
+    "title": "Brief an Stefan Zweig vom 3. Juli 1939, SZ-LAS/B2.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1653/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1653/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Juli 1939, SZ-LAS/B2.5\n- Signatur: SZ-LAS/B2.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:52.207541+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "GRANDCOUR\nSAINT-AVERTIN\n(INDRE-ET-LOIRE)                               Le 3 Juillet 1939\n\n\nMon cher Ami,\n\nAprès des retards, des mésaventures et des tractations\ndont je vous épargne le détail (cela demanderait des pages\net ne présente qu'un intérêt médiocre), j'ai obtenu de la\nfirme de cinéma qui doit tourner \"Volpone\" une nouvelle\navance, que je vais toucher ces jours-ci, et dont je vous\nferai parvenir votre part aussitôt. Ensuite, nous touche-\nrons pendant quelque temps des versements réguliers. Il\nest heureux que, ni vous ni moi, n'ayons depuis deux ans,\nattendu cet argent pour manger, n'est-ce pas?\n\nQue devenez-vous? Où êtes-vous? Il y a bien longtemps\nque nous ne nous sommes vus, ni même écrit. Et nous au-\nrions pas mal de choses à nous dire. Le monde a encore\nsubi quelques légères modifications depuis notre dernière\nconversation.\n\nMa femme vous envoie toutes ses amitiés. Bien affec-\ntueusement à vous,\n\nJules Romains",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Handschriftliche Unterschrift 'Jules Romains'. Rote handschriftliche Ziffer '56' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 935,
+    "total_words": 147,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1431",
+    "title": "Lotte und Stefan Zweig an Alfred und Stefanie Zweig, SZ-AAP/B10.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1431/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1431/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1431/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte und Stefan Zweig an Alfred und Stefanie Zweig, SZ-AAP/B10.5\n- Signatur: SZ-AAP/B10.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:33.477303+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "MERRY XMAS\n\nRIO\n\nHAPPY NEW YEAR\nSchöne Weihnachten und\ngleich für Geburtstag und\nNamenstag alles Herzliche\nvon uns Beiden\nStefan\nLotte\nPluchy (dog)",
+      "notes": "Vorderseite der Postkarte. 'Pluchy (dog)' ist in einer anderen, kleineren Handschrift hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTÃO POSTAL\nDie Ansicht ist aus\nSchmetterlingsflügeln\nzusammengesetzt und\nder „Sugar Loaf“ sieht\nwirklich so aus.\nHerzlichst\nLotte\n\nUSA\nMrs. Stefanie Zweig\n18 West 70th Street\nNew York",
+      "notes": "Rückseite der Postkarte. Enthält eine Briefmarke (200 Reis) und einen Poststempel. Die Adresse ist in einer anderen Handschrift als der Text links."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "MERRY XMAS\n\nRIO\n\nHAPPY NEW YEAR\nSchöne Weihnachten und\ngleich für Geburtstag und\nNamenstag alles Herzliche\nvon uns Beiden\nStefan\nLotte\nPluchy (dog)",
+      "notes": "Identisch mit Seite 1, inklusive Farbskala und Grauskala am Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Unterscheidung zwischen den verschiedenen Handschriften (Stefan/Lotte vs. die Adresse von Stefanie Zweig) ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 480,
+    "total_words": 74,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

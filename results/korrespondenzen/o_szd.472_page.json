@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.472",
+    "title": "Albert Sergel an Stefan Zweig, 1905-11-03, SZ-SAM/AK.186",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.472/IMG.1",
+      "https://gams.uni-graz.at/o:szd.472/IMG.2",
+      "https://gams.uni-graz.at/o:szd.472/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Albert Sergel an Stefan Zweig, 1905-11-03, SZ-SAM/AK.186\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.186\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.782596+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "HILDESHEIM, 1000 JÄHR. ROSENSTOCK.\n3/11. 05",
+      "notes": "Vorderseite einer Ansichtskarte mit Motiv des Hildesheimer Doms. Gedruckter Text unten rechts, handschriftliches Datum darunter."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Postkarte.\nCarte postale. Postcard.\nCartolina postale. Correspondenzkarte.\nWeltpostverein. Union postale universelle.\n\nLieber Herr Doctor! Herzlichsten\nDank für Ihren lieben schönen\nBrief der mich in Berlin traf\nIch komme wohl bald vom Ro-\nstock aus näher darauf zurück\nBeste Grüße! Ihr Albert Sergel\nHerzlichen Gruß, lieber\nHerr Dr. - Es kann ge-\nstehen, dass unsere\nPariser Bekanntschaft\nso kurz war; ich hoffe\nauf baldige [?] \nIhre Hedwig Ravenlan.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke oben rechts mit Poststempel. Die Handschrift wechselt nach 'Albert Sergel' zu einer anderen Person (Hedwig Ravenlan)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Postkartenrückseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Handschrift von Hedwig Ravenlan ist etwas flüchtiger, aber im Kontext verständlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 494,
+    "total_words": 73,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

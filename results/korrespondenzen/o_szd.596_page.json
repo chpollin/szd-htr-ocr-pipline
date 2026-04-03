@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.596",
+    "title": "Jo van Ammers-Küller an Stefan Zweig, 1929-07-11, SZ-SAM/AK.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.596/IMG.1",
+      "https://gams.uni-graz.at/o:szd.596/IMG.2",
+      "https://gams.uni-graz.at/o:szd.596/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Jo van Ammers-Küller an Stefan Zweig, 1929-07-11, SZ-SAM/AK.3\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:20.021546+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "PRAHA.ORLOJ NA STAROMĚSTSKÉ RADNICI.\n11. VII. 29.",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Prager Rathaus-Orloj. Handschriftliches Datum am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Herr und Frau\nZweig, Aus Prag sende\nwer Ihnen einen herz-\nlichen Gruss und möchte\nSie nochmals Ihr sehr\ndanken für den wunder\nschönen Abend die Sie\nuns in Salzburg geschenkt\nhaben und die uns un\nvergesslich sein wird.\nWir sind jetzt in Prag, und\ngehen morgen nach Hause\nda mein älteste Sohn, der\nFredes leider krank ist.\nGlücklich nicht schlimmste,\nich will doch so bald möglich\nbei Ihnen. Mit herzlichen\nGruss Ihr sehr Jo van Tonny van\nAmmers.",
+      "notes": "Rückseite der Ansichtskarte, handschriftlich. Adressfeld rechts: 'Herrn und Frau / Dr Stefan Zweig / 5 Kapuzinerberg / Salzburg / O. Österreich'. Poststempel 'PRAHA 25' erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Liebe Herr und Frau\nZweig, Aus Prag sende\nwer Ihnen einen herz-\nlichen Gruss und möchte\nSie nochmals Ihr sehr\ndanken für den wunder\nschönen Abend die Sie\nuns in Salzburg geschenkt\nhaben und die uns un\nvergesslich sein wird.\nWir sind jetzt in Prag, und\ngehen morgen nach Hause\nda mein älteste Sohn, der\nFredes leider krank ist.\nGlücklich nicht schlimmste,\nich will doch so bald möglich\nbei Ihnen. Mit herzlichen\nGruss Ihr sehr Jo van Tonny van\nAmmers.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige grammatikalische Unsicherheiten sowie orthographische Eigenheiten auf (z.B. 'sende wer' statt 'senden wir', 'Ihr sehr danken' statt 'Ihnen sehr danken'). Die Lesung ist insgesamt sicher, aber die Interpretation der Satzstruktur ist aufgrund der Grammatik des Schreibers herausfordernd.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 949,
+    "total_words": 167,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

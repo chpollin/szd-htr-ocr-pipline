@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1434",
+    "title": "Brief an Unbekannt, o. D., SZ-AAP/B12",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1434/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1434/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1434/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt, o. D., SZ-AAP/B12\n- Signatur: SZ-AAP/B12\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:33.751140+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49, HALLAM STREET,\nLONDON, W.1.\nLangham 3693.\n\n\n\nMon cher monsieur et ami,\nJ'ai ecrit encore ce soir a\nJaime Chermont et il serait un grand service amical si vous\nvoudriez lui faire parvenir la lettre avec votre courrier.\nJe compte donc de voir votre chere femme et vous\nla prochaine semaine. Il faut qu'on se voie encore ici abon-\ndamment avant Rio.\n\nVotre tout devoue,",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, durchscheinender Text der Vorderseite erkennbar, ansonsten leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "49, HALLAM STREET,\nLONDON, W.1.\nLangham 3693.\n\nJe compte donc de voir votre chere femme et vous\nla prochaine semaine. Il faut qu'on se voie encore ici abon-\ndamment avant Rio.\n\nVotre tout devoue,",
+      "notes": "Das Dokument wurde für die Archivierung mit einer Farb- und Grauskala überlagert. Der Text ist identisch mit dem Ausschnitt auf Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 565,
+    "total_words": 99,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

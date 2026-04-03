@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.969",
+    "title": "Brief an Sigmund Freud vom 15. November 1937, SZ-LAS/B7.28",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.969/IMG.1",
+      "https://gams.uni-graz.at/o:szd.969/IMG.2",
+      "https://gams.uni-graz.at/o:szd.969/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 15. November 1937, SZ-LAS/B7.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.971644+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "15. Nov 1937\n\n49. HALLAM STREET.\nLONDON. W.1.\n\nLieber verehrter Herr Professor, nur dies will\nich Ihnen sagen, wie glücklich ich war, Ihre Schrift\nzu sehen und mit wie viel Liebe und Treue ich\nan Sie denke (ich war lange hier mit Arnold\nZweig von Ihnen.) Und noch Eines – eine solche\nFreude ist unendlich kostbar heute. Ich vermag\nIhnen nicht zu sagen, wie sehr ich an der Zeit\nleide, wie hat ein schlimmer Gott die Gabe zugetan,\nveles vorauszusehen nur was jetzt hereinbricht,\nspüre ich in den Nerven seit vier Jahren. Hätte\nich nicht hier gelebt, ich hätte nicht arbeiten können\n– wohl denen die mit „Illusionen“ gesegnet sind!\nSie bekommen dieser Tage noch ein „Nebenbuch“\nden „Magellan“; ich arbeite aber an einem sehr schweren\naber nun langen psychologischem Roman der\n„Mord durch Mitleid“ heissen will und darum,\ndass das halbe Mitleid, das nicht\nbis zum letzten Opfer geht, mörderischer ist als die\nGewalt. Es ist eine Rückkehr in die Welt was das",
+      "notes": "Handschriftlicher Brief von Stefan Zweig. Die Tinte ist violett. Die Lesbarkeit ist gut."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Buch spielt ins Medizinische hinein – es ist mein\nTrost. Das eigentliche Buch, das man schreiben\nmüsste, wäre die Tragödie des Indentums, aber\nich fühlte, die Realität wird, indem man es zu\ngrössten Intensitäten steigerte, ~~die Phantasie noch~~ {unsere verzweifelte}\nübertreffen. Ihnen ist der Trost gegeben: Sie haben\nIhr Werk getan, unvergessbar und unerschütterbar,\nSie haben bezeugt, dass wir nicht ganz vergeblich\nwaren, indem unsere Aussage vielleicht überhört\nwird – dennoch bleibt die Pflicht, sein Bestes\nzu versuchen.\nWenn ich an Wien denke und bitter\nwerde, denke ich an Sie! Von Jahr zu Jahr wird\nmir Ihre kühle Strenge vorbildlicher und ich\nfühle mich immer dankbarer Ihnen verbunden.\nIn Verehrung schon Ihr\n\nStefan Zweig",
+      "notes": "Handschriftlicher Brief von Stefan Zweig, Fortsetzung. Die Tinte ist violett. Die Lesbarkeit ist gut."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Buch spielt ins Medizinische hinein – es ist mein\nTrost. Das eigentliche Buch, das man schreiben\nmüsste, wäre die Tragödie des Indentums, aber\nich fühlte, die Realität wird, indem man es zu\ngrössten Intensitäten steigerte, ~~die Phantasie noch~~ {unsere verzweifelte}\nübertreffen. Ihnen ist der Trost gegeben: Sie haben\nIhr Werk getan, unvergessbar und unerschütterbar,\nSie haben bezeugt, dass wir nicht ganz vergeblich\nwaren, indem unsere Aussage vielleicht überhört\nwird – dennoch bleibt die Pflicht, sein Bestes\nzu versuchen.\n\nStefan Zweig",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist identisch mit Seite 2, jedoch ist der untere Teil des Briefes durch die Farbskala verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die Korrekturen/Einfügungen sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2231,
+    "total_words": 358,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

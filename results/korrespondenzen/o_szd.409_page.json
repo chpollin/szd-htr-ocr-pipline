@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.409",
+    "title": "Marianne Neumann an Stefan Zweig, 1928-09-14, SZ-SAM/AK.128",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.409/IMG.1",
+      "https://gams.uni-graz.at/o:szd.409/IMG.2",
+      "https://gams.uni-graz.at/o:szd.409/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Marianne Neumann an Stefan Zweig, 1928-09-14, SZ-SAM/AK.128\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.128\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.412535+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "hier, dann wieder in Wien. mit sehr herzlichen Grüßen Ihre\nGrand Hôtel, 14. 9 28 Marianne Neumann\nAuch von mir die\nherzlichsten Grüße!\nIhr stets ganz ergebener\nAlfred Neumann",
+      "notes": "Vorderseite einer Postkarte mit Ansicht von Juan-les-Pins. Handschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Doktor, nach meiner\nRückkehr aus Gastein hat mein\nMann mir Ihre Briefe gezeigt, aus\ndenen ich mit Vergnügen ersehe, dass\nSie noch an mich und Ihre Besuche\nbei uns sich erinnern. Hätten Sie\nnicht Lust gelegentlich eines Ihres\nAufenthaltes uns einmal aufzu-\nsuchen? Bitte fassen Sie diese Auf-\nforderung nicht als Aufdringlichkeit\nauf, aber seien Sie überzeugt, dass wir\nuns jederzeit außerordentlich\nfreuen würden Sie bei uns zu\nsehen. Wir sind bis Ende September\n\nHerrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nAutriche",
+      "notes": "Rückseite der Postkarte mit Adressfeld und Nachricht. Handschrift in violetter Tinte. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. In der Mitte die bereits transkribierte Rückseite der Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz der violetten Tinte auf dem leicht vergilbten Papier.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 706,
+    "total_words": 113,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

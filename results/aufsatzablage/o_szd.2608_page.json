@@ -1,0 +1,100 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2608",
+    "title": "Für das Goethe-Haus. Ein Brief von Stefan Zweig.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA69.5",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2608/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2608/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2608/IMG.3"
+    ],
+    "date": "19 III. 28",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Frankfurt a. M.",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Frankfurt a. M."
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Roter Buntstift",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "Frankf\n                                 Zeit"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Für das Goethe-Haus. Ein Brief von Stefan Zweig.\n- Signatur: SZ-AAP/W-AA69.5\n- Datum: 19 III. 28\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Roter\n                                       Buntstift\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:46.944429+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Für das Goethe-Haus.\nEin Brief von Stefan Zweig.\nDer Fall ist durch den Entschluß des preußischen\nStaatsministeriums nicht mehr akut, aber die Gesichts-\npunkte, die der hier mitgeteilte schöne Brief des Dichters\nStefan Zweig, an den Leiter des Goethehauses und\n-museums, die Subvention zur Erhaltung von Goe-\nthes Gebuetshaus für dieses Jahr doch noch zu\ngewähren, enthält, sind so wichtig, auch für die späteren\nEntschlüsse einer hochwohllöblichen Staats- oder Reichs-\nbehörde, daß wir sie der Oeffentlichkeit nicht vorenthalten\nmöchten. Red\nSehr verehrter Herr Doktor! Ich kann sehr gut Ihr schmerz-\nliches Gefühl verstehen, plötzlich in einem so erfolgreich geförderten\nWerke gehemmt zu sein. Selbstverständlich muß ich es mir als\nNichtpreuße verbieten, an einer Maßnahme der Regierung Kritik\nzu üben, aber dies auszusprechen wird mir wohl gestattet sein,\ndaß ich die Entziehung der Subvention gerade im gegenwärtigen\nAugenblick für einen schweren Fehler halte. Uebersehe ich die\nSituation recht so sind dies eben jetzt die letzten glückhaften Jahre,\nwo es einem Museum noch gelingen kann, die irdisch faßbaren\nSpuren jener unvergänglichen Existenzen wieder organisch in eine\nGesamtheit einzuordnen; die Zeitspanne ist nicht weit, wo die letz-\nten Reliquien unerreichbar sein werden. Was ein solches Ver-\nsäumnis bedeutet, haben wir ja in Wien gesehen, das den rechten\nAugenblick zweimal vergeudete, den ganzen Nachlaß Beethovens\nan sich zu ziehen und im kleineren Maßstabe erfährt dies noch\nheute das Beethovenhaus in Bonn, dessen Mittel nicht hinreichen,\num Stücke sich zu sichern, die vor einem Jahrzehnt um ein\nZehntel der gegenwärtigen geforderten Preise leicht erreichbar ge-\nwesen wären. Besonders schmerzlich ist nun dieses Fallengelassen-\nwerden gerade für das Goethehaus, weil es gleichfalls spät zur\nMahd angetreten ist und nun, wo die Sense schon so schön im\nSchwunge war und dank Ihrer Werktätigkeit manche kostbare\nGarbe eingeheimst werden konnte, plötzlich mitten im vollem Ernte-\ngang innegehalten muß. Ein Mu'eum, das nicht wächst\nund sich erweitert, sinkt zum kalten Katalog herab, statt ein schöpf-\nerischer Organismus zu bleiben, und gerade Goethes Gestalt, die\nsinnlichste und sinnfälligste aller deutschen, war mit Weimar in\nIhrem Hause gerade am schönsten neu aufgebaut. Hoffentlich ist\njener Entschluß nicht unwiderruflich und wenn der Widersinn sich\ntatsächlich ereignen sollte, so hilft Ihnen hoffentlich die Stadt\nund der Opferwille einzelner bei Ihrem schön begonnenen Werke.\nMit den herzlichsten Grüßen Ihr ergebener\nStefan Zweig.",
+      "notes": "Zeitungsausschnitt. Am linken Rand handschriftliche Annotation mit rotem Buntstift: '19. III. 28'. Der Text ist in Fraktur gesetzt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung. Das Dokument ist im Hintergrund sichtbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift. Die handschriftliche Annotation am Rand wurde in den Notizen erfasst.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2562,
+    "total_words": 378,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

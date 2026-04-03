@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1267",
+    "title": "Brief an Stefan Zweig vom 8. März 1938, SZ-SAM/B4.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1267/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1267/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1267/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 8. März 1938, SZ-SAM/B4.4\n- Signatur: SZ-SAM/B4.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.997976+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 8. März 1938\n\nSehr verehrter Herr Doktor!\n\nNach einer einwöchigen, fast gänzlichen Poststille\nkann ich Ihnen heute beifolgenden Brief übersenden, und lege auch\nden Scheck bei, da ich nicht weiss, wie Sie darüber verfügen wollen\nund Frau Dr. Z. ja auch noch abwesend ist.\nAuch an Drucksachen ist fast nichts eingelaufen, nur\nein Probeheft einer französischen Zeitschrift: \"Messages\" und einige\nLagerkataloge.\nMit den besten Empfehlungen, Ihre sehr ergebene\n\nP.S. Frl. Altmann besten Dank für die Karte, ich erwarte gerne die\nangekündigten Berichte.\n< [...10...] [...10...] [...10...] [...10...] [...10...] >",
+      "notes": "Der Text ist maschinengeschrieben. Die letzte Zeile auf der Vorderseite ist eine unleserliche handschriftliche Notiz in violetter Tinte, die sich teilweise über den Rand erstreckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "< [...10...] [...10...] [...10...] [...10...] [...10...] >",
+      "notes": "Die Rückseite enthält eine handschriftliche Notiz in violetter Tinte, die aufgrund der kursiven Schreibweise und der schwachen Linienführung weitgehend unleserlich ist."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "< [...10...] [...10...] [...10...] [...10...] [...10...] >",
+      "notes": "Identisch mit Seite 2, zeigt die Rückseite des Dokuments mit Farbskala und Graustufen-Referenz."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der maschinengeschriebene Text ist sehr gut lesbar (high confidence). Die handschriftlichen Ergänzungen am Ende der ersten Seite und auf der Rückseite sind aufgrund der flüchtigen, kursiven Handschrift und der schwachen Tinte kaum zu entziffern (low confidence).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 751,
+    "total_words": 107,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

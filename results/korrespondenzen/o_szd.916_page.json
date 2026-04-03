@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.916",
+    "title": "Brief an Frans Masereel vom 4. Juni 1930, SZ-LAS/B1.36",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.916/IMG.1",
+      "https://gams.uni-graz.at/o:szd.916/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 4. Juni 1930, SZ-LAS/B1.36\n- Signatur: SZ-LAS/B1.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:43.123940+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG 5\nam 4, Juni 1930\n\nLieber Frans!\n\nSelbstverständlich bin ich mit grösster Freude bereit\nund Du kannst dem Transmare-Verlag sofort mein Einverständnis\nübermitteln. Heinrich Mann hat seine Adresse gewechselt und wohnt n\nnicht mehr in München, das einfachste ist, Du schreibst ihm an\nPaul Zsolnay's Verlag Wien, IV. Prinz Eugenstrasse 30.\nUnd nun meinen herzlichen Glückwunsch, dass Du die giganti-\nsche Arbeit der Kantons für Winterthur vollendet hast und ich melde\nmich hiermit zur feierlichen Eröffnung des Sonnenbades an; es wird\nfreilich noch ein Jahr dauern, und wenn Du inzwischen eine Fotografie\nDeiner Kanton-Serie hast, so würde ich sie furchtbar gern sehen, wir\nsind alle sehr neugierig darauf. Nun hast Du ja die Hände wieder zur\nArbeit frei und ich kann mir denken, wie Du sie nützen wirst.\nRieger hat mir sehr viel Gutes von euch erzählt und ich\nhatte eine Art Heimweh nach eurem guten Kreis. Dagegen ist heiterer-\nweise Scheyer böse auf mich. Ich war nämlich acht Tage in Wien, hatte\nden ganzen Tag und Nacht Proben im Burgtheater für mein neues Stück\nund verabsäumte so, bei Madame Scheyer offiziell Besuch zu machen.\n{on Verstoss gegen die höfischen Sitten}\nDies hat sein bürgerliches Gemüt empört und er grollt mir nun sehr.\nAber man muss seinen sonderbaren Nerven schon allerhand verzeihen, weil\ner im Grunde doch ein guter und anständiger Kerl ist\nGetreulichst Dein\n\nStefan\n\nViel Grüsse a ta chère femme et\na Charlotte!",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (violette Tinte). Die Zeile 'on Verstoss gegen die höfischen Sitten' ist handschriftlich zwischen den Zeilen eingefügt. Die Grußformel am Ende ist ebenfalls handschriftlich hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Enthält einen Ex-Libris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' am unteren Rand. Ansonsten leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind klar als solche identifizierbar und wurden entsprechend transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1459,
+    "total_words": 237,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1308",
+    "title": "Ansichtspostkarte an Ami Kaemmerer vom 18. August 1912, SZ-SHB/B2.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1308/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1308/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Ami Kaemmerer vom 18. August 1912, SZ-SHB/B2.1\n- Signatur: SZ-SHB/B2.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.446108+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Noel [?] Angere [?] a vous et aux bons\nVos heures d'allégresse, parti\nCécile [?] et de Hambourg Verhaeren",
+      "notes": "Die Handschrift auf der Bildseite ist sehr kursiv und schwer lesbar, teilweise französische Begriffe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Verehrter Herr Doktor, ich grüße Sie von\nVerhaerens Heim [?] wo wir Ihrer herzlichst\ngedachten viele Male.\nDie Hymnen an das Leben erscheinen\njetzt im 20-30 Tausend & ich freue mich\nwirklich für Deutschland. Im Herbst hoffe\nich nach Hamburg zu meiner Premiere\nzu reisen, die Aufführung ist in Wien\nEnde September und Hasemann will\nbald folgen: ein willkommener Anlass,\nIhre verehrte Familie und Sie wieder\nbegrüßen zu können. In aufrichtiger Er-\ngebenheit\nStefan Zweig\n\n[Adressseite:]\nDr. Ami Kaemmerer\n~~Adressbuch~~ Hmb 37\n~~Innocentiastr 35~~\nHamburg (Allemagne)\nVictoriastrasse 35\nGr. Borsteler Ch 24",
+      "notes": "Die Adressseite enthält mehrere durchgestrichene Zeilen. Die Postkarte ist mit einer belgischen Briefmarke (König Albert I.) frankiert und trägt einen Poststempel."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf der Bildseite ist aufgrund der kursiven französischen Schrift und der Überlagerung mit dem Bildhintergrund schwer zu entziffern. Der Text auf der Rückseite ist gut lesbar, abgesehen von den durchgestrichenen Adresszeilen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 709,
+    "total_words": 111,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

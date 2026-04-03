@@ -1,0 +1,107 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.173",
+    "title": "Kuvert Testament",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SEF/L7",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.173/IMG.1",
+      "https://gams.uni-graz.at/o:szd.173/IMG.2",
+      "https://gams.uni-graz.at/o:szd.173/IMG.3"
+    ],
+    "document_type": "form",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "extent": "1 Stück",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Inge und Erich Fitzbauer",
+        "Erwerb: Ankauf 2023"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "writing_material": "Briefkuvert",
+        "hands": [
+          "Stefan Zweig"
+        ]
+      },
+      "notes": "Kuvert zu einer Abschrift des Testaments von Stefan Zweig"
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Kuvert Testament\n- Signatur: SZ-SEF/L7\n- Sprache: Deutsch\n- Objekttyp: Kuvert\n- Umfang: 1 Stück\n- Schreibinstrument: Violette Tinte\n- Hand: Stefan Zweig\n- Anmerkungen: Kuvert zu einer Abschrift des Testaments von Stefan Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.343320+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "AFTER 5 DAYS, RETURN TO\n\n\n\nNEW YORK, N. Y.\n\nTestament (Abschrift ohne\nSignatur und Namen der Zeugen)\nOriginal bei Dr Artur Bondi\nNewyork\n551 Fifth Avenue",
+      "notes": "Die Transkription umfasst den vorgedruckten Text des Kuverts sowie die handschriftliche Notiz in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Kuverts, keine Beschriftung."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "AFTER 5 DAYS, RETURN TO\n\n\n\nNEW YORK, N. Y.\n\nTestament (Abschrift ohne\nSignatur und Namen der Zeugen)\nOriginal bei Dr Artur Bondi\nNewyork\n551 Fifth Avenue",
+      "notes": "Identisch mit Seite 1, inklusive Farbskala und Farbkarte im Bild."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar und eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 306,
+    "total_words": 52,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 1.0,
+    "edited_pages": [],
+    "notes": "Page 1 (envelope front) verified against faksimile: printed text and handwritten violet ink note match transcription exactly. Pages 2 (blank) and 3 (color_chart) correctly classified.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T19:00:00Z"
+  }
+}

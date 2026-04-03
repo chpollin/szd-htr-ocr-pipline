@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.951",
+    "title": "Brief an Sigmund Freud vom 31. Dezember 1929, SZ-LAS/B7.11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.951/IMG.1",
+      "https://gams.uni-graz.at/o:szd.951/IMG.2",
+      "https://gams.uni-graz.at/o:szd.951/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 31. Dezember 1929, SZ-LAS/B7.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:45.454141+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG 5\n31.Dez.\n1929.\n\nHochverehrter Herr Professor !\n\nNehmen Sie meinen innigsten Dank entgegen für Ihr\nausserordentliches Werk, das mich in diesen Tagen sehr beschäftigt\nhatte und noch beschäftigen wird. Ich habe sofort beim Wiener Tageblatt\nangefragt, ob ich dort noch zurecht komme, um mein bewunderndes Wort\ndarüber sagen zu dürfen. Ich erwarte darüber noch Antwort und hoffe\ndann dort ausführen zu können, für wie wichtig ich diesen geistigen\nKuppelbau zu Ihrem Werk halte. Lassen Sie mich darum heute nur meinen\nDank auf diese flüchtigen Worte beschränken, Ihre Zeit ist zu kostbar\nfür Briefe und das, was ich zu sagen habe, möchte ich gerne zu vielen\naussprechen. Es ist mir ein sehr beglückender Gedanke, dass Sie in so\ngesteigertem und erhöhtem Masse produktiv sind, weil mir dies auch\nBürgschaft bietet für Ihr körperliches Wohlergehen. Eine geistige Aus-\neinandersetzung dieser Art konnte nur aus der gesammelten Vollkraft\ndes Wesens geschrieben werden.\n\nIn innigster Verehrung\nIhr getreu ergebener\n\nStefan Zweig\n\nHerrn Prof. Sigm. F r e u d\nW i e n , IX.",
+      "notes": "Typoskript mit handschriftlicher Unterschrift. Der Brief weist einen horizontalen Knick in der Mitte auf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "SALZBURG\nKAPUZINERBERG 5\n31.Dez.\n1929.\n\nHochverehrter Herr Professor !\n\nNehmen Sie meinen innigsten Dank entgegen für Ihr\nausserordentliches Werk, das mich in diesen Tagen sehr beschäftigt\nhatte und noch beschäftigen wird. Ich habe sofort beim Wiener Tageblatt\nangefragt, ob ich dort noch zurecht komme, um mein bewunderndes Wort\ndarüber sagen zu dürfen. Ich erwarte darüber noch Antwort und hoffe\ndann dort ausführen zu können, für wie wichtig ich diesen geistigen\nKuppelbau zu Ihrem Werk halte. Lassen Sie mich darum heute nur meinen\nDank auf diese flüchtigen Worte beschränken, Ihre Zeit ist zu kostbar\nfür Briefe und das, was ich zu sagen habe, möchte ich gerne zu vielen\naussprechen. Es ist mir ein sehr beglückender Gedanke, dass Sie in so\ngesteigertem und erhöhtem Masse produktiv sind, weil mir dies auch\nBürgschaft bietet für Ihr körperliches Wohlergehen. Eine geistige Aus-\neinandersetzung dieser Art konnte nur aus der gesammelten Vollkraft\ndes Wesens geschrieben werden.\n\nIn innigster Verehrung\nIhr getreu ergebener\n\nStefan Zweig\n\nHerrn Prof. Sigm. F r e u d\nW i e n , IX.",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2168,
+    "total_words": 346,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

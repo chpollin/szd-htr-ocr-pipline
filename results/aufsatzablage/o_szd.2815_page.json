@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2815",
+    "title": "Aufsätze B",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA-B",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2815/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2815/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2815/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Register"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Aufsätze B\n- Signatur: SZ-AAP/W-AA-B\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:08.704431+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufsätze\n--------\n\nBahr\nBalzac\nBarbusse\nBekenntnis zum Defaitismus ✓\nBelgien\nBelgien, Warum nur...? ✓\nBesuch bei den Milliarden ✓\nBewerber, Sechsunddreissig e hrenwerte ✓\nBlake ✓\nBonchamps, Irrfahrt und Ende des Pierre\nBrandes ✓\nBriefe Elisabeth Lensings an Christine Hebbel, Drei ✓\nBriefe, Offene ✓\nBrod, Max ✓\nBuch\nBureuaphobie ✓\nBusoni\nByron\nBrasilien, Kleine Reise nach ✓",
+      "notes": "Typoskript mit handschriftlichen Haken (✓) und einer handschriftlichen Markierung oben rechts (B). Die Zeile 'Bewerber, Sechsunddreissig e hrenwerte' weist eine Lücke im Wort 'ehrenwerte' auf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Aufsätze\n--------\n\nBahr\nBalzac\n\nBonchamps, Irrfahrt und Ende des Pierre\nBrandes ✓\nBriefe Elisabeth Lensings an Christine Hebbel, Drei ✓\nBriefe, Offene ✓\nBrod, Max ✓\nBuch\nBureuaphobie ✓\nBusoni\nByron\nBrasilien, Kleine Reise nach ✓",
+      "notes": "Typoskript mit aufgelegten Farb- und Grauskalen zur Archivierung. Der Text ist teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, abgesehen von den durch die Archivierungsskalen verdeckten Bereichen auf Seite 3.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 603,
+    "total_words": 94,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

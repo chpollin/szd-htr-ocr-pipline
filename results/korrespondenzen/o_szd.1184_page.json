@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1184",
+    "title": "Postkarte an Anna Meingast vom 29. Februar 1931, SZ-SAM/B7.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1184/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1184/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 29. Februar 1931, SZ-SAM/B7.14\n- Signatur: SZ-SAM/B7.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.376925+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frau Anna Meingast\n\nSalzburg/Autriche/\n~~[...6...]~~\nKapuzinerberg 5",
+      "notes": "Adressseite der Postkarte. Die durchgestrichene Zeile ist unleserlich."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, vielen Dank\nfür die Berichte aus Salzburg,\nes ist alles in bester Ordnung. Ich\nmöchte nur bitten, ein Exemplar\nder italienischen Ausgabe der\nTre poeti (bei Kapper & Zerling)\nmir sicher zu senden & mir ein\nBrief zu sagen, dass wir das\nnicht dagegen haben, wenn wir\nKapper jetzt Nachkommenschaft\n[?] legt. Herzlich grüßt\n\nS. Z.",
+      "notes": "Textseite der Postkarte. Die Tinte ist violett. Das Wort 'Nachkommenschaft' ist schwer lesbar, 'Nachkommenschaft' oder 'Nachkommenhaft' [?]. Die Unterschrift ist 'S. Z.'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der violetten Tinte und einiger flüchtiger Schreibweisen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 414,
+    "total_words": 66,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

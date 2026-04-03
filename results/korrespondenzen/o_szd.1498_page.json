@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1498",
+    "title": "Brief an Stefan Zweig, o. D., SZ-AAP/B2.72",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1498/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1498/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1498/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig, o. D., SZ-AAP/B2.72\n- Signatur: SZ-AAP/B2.72\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:37.909762+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "like to be rescued, eventually, if only it could be done\nwithout too much inconvenience to themselves. They even\nwould like to strike some petty bargain during the time\nof \"inevitable collaboration\". That simply will not do. They\nwill get very poor, and not in money alone.\nA strange spot it is, this London, now. Out of the four streets\ngoing out from the corner of my house, two are more or less\nuninhabited for the time being. Passing through them by night\none might feel like in Rome during the time of the attacks\nof the Goths. The smell of broken brickwork and plaster; some\nshy cats; an iron dangling somewhere on a slowly collapsing\nroof. But in daylight the whole scene has changed. The same\nenormous vitality that was always a characteristic sign of\nthis amazing city: all the red buses running, and green coaches,\nincredibly large masses of glittering private cars rushing\nfor shopping, the shops full of gay spring colours, barrel-org-\nans at every corner. Living in a basement I hear all the noises\nfrom the street, and I enjoy them indeed. In the evening there\nwill always stroll around some couples, singing on the top of\ntheir voices, this being a rather proletarian district. I do\nnot think that anybody will sing in Berlin, inspite of all the\nvictories they have to digest. They will sit sullen and sulky\nin their chairs, listening with supicion to constant dripping\nof well-measured propaganda that is pouring from Goebbels'\nradio fountains. During one of the Blitz nights I heard some\nvoices in my entrance and went out to see who it was. It was\none of these singing couples; very young, perhaps eighteen or\nso. The whole sky was lit up by some large fire and bright like\nin daylight. They were sitting on the top of my dustbin, closely\nembraced, not at all afraid; the boy perhaps a bit, because he\nfelt responsible for the girl. I asked them to come in and take\nshelter. \"Oh no, thank you. We are quite all-right here. It's only\nfor a moment.\" I heard them for some hours, whispering quietly.\nThe other day I went to friends of mine in Park Lane. Their\nhouse was shattered during the last attack, and they had to\nclear out. Now they invited me again to the old place for tea.\nIn front of the house there was a large bomb hole, and a sort\nof trench dug by the gas repair people, some planks leading to\nthe entrance. They would show me their neatly repaired terra-\ncotta statues, almost invisibly mended, and the clever way they\nhad reconstructed their windows. Behind the cloak-room there\nwas a door leading to the shelter. They opened it. The whole\nshelter-room was one mass of fallen-down bricks and girders.\nA small bomb had smashed just that part of the house. Luckily\nnobody was in at that time. They closed the door, which, by the\nway, was spotlessly white and clean, and I put my mackintosh on\na hook of that door.\nThese are but a few instances, and not at all especially extra-\nordinary ones. But I have to close now.",
+      "notes": "Typoskript. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2946,
+    "total_words": 534,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

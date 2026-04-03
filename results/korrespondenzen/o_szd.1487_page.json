@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1487",
+    "title": "Brief an das International Copyright Bureau vom 14. Mai 1940, SZ-AAP/B3.14",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1487/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1487/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1487/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an das International Copyright Bureau vom 14. Mai 1940, SZ-AAP/B3.14\n- Signatur: SZ-AAP/B3.14\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:37.107338+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                    42\n\n                                          14th May 1940.\n\nInternational Copyright Bureau,\nDewar House,\nHaymarket,\nLondon S.W.1.\n\nDear Sir,\n\n          I have received the following letter\nof Dr. Franz Horch, New York, whom I had autho-\nrised to try to place the English version of\n\"Legende eines Lebens\" in USA provided that the\nfinal agreement would be concluded through your\nfirm as my agents. (His letter and my reply enclosed)\n          I am not quite certain about the justi-\nfication of all the claims of translators, adaptors\netc. and would like to have your opinior in this\nmatter. To me it seems that besides Dr. Horch -\nif he should really succeed in placing the play\nin the United States - and yourself as agents\nno one else should be entitled to claim part of\nmy royalties and I would be grateful for your\nsuggestions how best to arrange this matter.\n          Thanking you for an early reply, Yours sincerely",
+      "notes": "Typoskript auf Briefpapier. Oben rechts handschriftliche Paginierung '42' in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "P.S.Is it not the usual procedure that the agents\npay the sub-agent a part of their share?",
+      "notes": "Typoskript. Rückseite des ersten Blattes, Text steht im oberen Drittel."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "P.S.Is it not the usual procedure that the agents\npay the sub-agent a part of their share?",
+      "notes": "Typoskript. Identisch mit Seite 2, jedoch mit aufgelegten Archivierungs-Farbskalen (Farbkarte #13 und Grauskala #13)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Paginierung '42' ist handschriftlich, aber deutlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1172,
+    "total_words": 186,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

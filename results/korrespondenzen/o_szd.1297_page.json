@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1297",
+    "title": "Ansichtspostkarte an Rudolf Möller vom 28. November 1930, SZ-SHB/B6.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1297/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1297/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1297/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Rudolf Möller vom 28. November 1930, SZ-SHB/B6.2\n- Signatur: SZ-SHB/B6.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:26.700737+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "NOCH STEHT MANCH\nALTES HAUS: VER\nEHRT ALS SEINES\nWIRKENS STAETTE\n\nKEIN NEUES WARD\nERBAUT: DAS NICHT\nSEIN LIED DURCH\nKLUNGEN HAETTE\n\n1827\n1927",
+      "notes": "Vorderseite der Ansichtspostkarte mit Beethoven-Porträt und verschiedenen Ortsansichten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Möller haben Sie\naufrichtigsten Dank für Ihre guten\nWorte; jenes Stück hat merkwürdiger\nweise in Berlin nur keinen rechten\nUnterstand gefunden und ich fange\ngerade ihn an, weil ich es für das\nwichtigste halte, den Heroismus des\nkleinen, der anonymen Menschen dar-\nzustellen – die Generäle haben die\nWeltgeschichte als Posaunen, aber das\nSchicksal des Einzelnen, nicht minder\nverantwortungsvoll, wartet immer auf\nden Künstler. Ein Wort wie das Ihre ist\nlebendigere Freude als die gedruckten\nRecensionen und mir daher Ihnen sehr\neinig dafür. Aufrichtigst\nStefan Zweig\n\nHerru Rudolf Möller\nZittow (Post Cambs)\nMecklenburg",
+      "notes": "Rückseite der Postkarte. Handschrift von Stefan Zweig in violetter Tinte. Poststempel 'SALZBURG 2' vom 28.XI.30. Briefmarke '10 Groschen' Österreich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Herr Möller haben Sie\naufrichtigsten Dank für Ihre guten\nWorte; jenes Stück hat merkwürdiger\nweise in Berlin nur keinen rechten\nUnterstand gefunden und ich fange\ngerade ihn an, weil ich es für das\nwichtigste halte, den Heroismus des\nkleinen, der anonymen Menschen dar-\nzustellen – die Generäle haben die\nWeltgeschichte als Posaunen, aber das\nSchicksal des Einzelnen, nicht minder\nverantwortungsvoll, wartet immer auf\nden Künstler. Ein Wort wie das Ihre ist\nlebendigere Freude als die gedruckten\nRecensionen und mir daher Ihnen sehr\neinig dafür. Aufrichtigst\nStefan Zweig\n\nHerru Rudolf Möller\nZittow (Post Cambs)\nMecklenburg",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Graustufen-Referenzkarten des Archivs."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. 'Zittow (Post Cambs)' und 'Mecklenburg' sind als Adressangaben eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1401,
+    "total_words": 214,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

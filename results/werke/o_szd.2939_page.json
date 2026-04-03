@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2939",
+    "title": "Worte am Sarge Sigmund Freuds [Fragment I], SZ-AP2/W-H206",
+    "language": "de",
+    "collection": "werke",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2939/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2939/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2939/IMG.3"
+    ],
+    "document_type": "manuscript",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Worte am Sarge Sigmund Freuds [Fragment I], SZ-AP2/W-H206\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:53.967611+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Stefan Zweig Worte am Sarge Sigmund Freuds\n[26 September 1939 im Crematorium, London]\n\nErlauben Sie mir, {angesichts dieses ~~~~ rührreichen Sarges} einige Worte erschütterten\nDankes im Namen seiner Wiener, seiner österreichischen\n{sazer weltfreunde} ~~[...10...]~~ in jener Sprache zu wagen, die Sigmund\nFreud durch sein Werk so großartig bereichert und gea-\ndelt hat. Lassen Sie sich vor allem ins Bewusstsein\nrufen, dass wir, die wir hier in gemeinsamer Trauer\nversammelt sind, einen historischen Augenblick durch-\nleben, wie er keinem von uns wohl ein zweites Mal\nvom Schicksal verstattet sein wird. Erinnern wir uns\n— bei andern Sterblichen, bei fast allen, ist innerhalb\nder knappen Minute, da der Leib erkaltet, ihr Dasein,\nihr Mitwissein für immer beendet. Bei diesem einen\ndagegen, an dessen Bahre wir stehen, bei diesem Einen\n{trostlosen}\nwar Einzigen innerhalb unserer Zeit bedeutet Tod\nnur eine flüchtige und fast wesenlose Erscheinung.\nHier ist {das vorübergehen} ~~~~ kein Ende, kein Abschluss, sondern bloss\n{harter}\nlinder Übergang von Sterblichkeit in Unsterblichkeit.\nFür das körperlich Vergängliche, das wir heute schmerz-\nvoll verlieren, ist das Unvergängliche seines Werks,\nseines Wesens gerettet — wir alle in diesem Raume,\ndie noch ahmen und leben und sprechen und lau-\nschen, wir alle hier sind im geistigen Sinne nicht",
+      "notes": "Handschriftliches Manuskript mit Korrekturen und Einfügungen. Die Tinte ist violett, Korrekturen teilweise in Bleistift oder dunklerer Tinte. Der Text bricht am Ende der Seite ab."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Unten rechts befindet sich ein kleiner, handschriftlicher Vermerk 'alb'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der zahlreichen Korrekturen und Einfügungen gut lesbar. Die Handschrift Stefan Zweigs ist charakteristisch und weitgehend eindeutig interpretierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1343,
+    "total_words": 202,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1154",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1154/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1154/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.13\n- Signatur: SZ-SAM/B11.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.372351+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Fröhliche\nWeihnachten!\n\nIhre\nFriderike M.\nZweig",
+      "notes": "Die handschriftliche Signatur ist vertikal am rechten Rand platziert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "1937\n\nliebe Frau Meingast,\nleider verspätet\nmeine Feder. Nun\n~~w~~ wieder herzlich\nIhnen und Willi\ngute Wünsche.\nein Packchen\nliegt bei Ladra.\nDank für Ihren\nBrief\n\nAnna Meingast\nSalzburg\nLinzergasse\n(Haubingerhaus)",
+      "notes": "Der Text auf der linken Seite ist in violett-blauer Tinte geschrieben. Der Poststempel 'SALZBURG 2 23.XII.37' ist deutlich lesbar. Die Jahreszahl '1937' wurde handschriftlich oben mittig ergänzt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Struktur der Postkarte ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 262,
+    "total_words": 37,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

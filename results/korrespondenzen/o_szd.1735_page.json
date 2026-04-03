@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1735",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 9. Januar 1909, SZ-SEF/B5.15",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1735/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1735/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1735/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 9. Januar 1909, SZ-SEF/B5.15\n- Signatur: SZ-SEF/B5.15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.760647+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Ich bin neugierig zu hören wie\nHannover den Herzog begrüßte\nnach Berlin den .... aber\ndas darf ich ja nicht schrei-\nben! oder ist es schon kein\nGeheimnis mehr. Herz-\nlichst\ngehren\n\nStefan Zweig",
+      "notes": "Handschriftliche Nachricht auf der Bildseite einer Ansichtspostkarte. Die Tinte ist teilweise verblasst oder durch das Papierbild schwer lesbar. 'gehren' scheint ein Schreibfehler für 'geehrt' oder ein Teil eines abgeschnittenen Wortes zu sein, ist aber so transkribiert, wie es auf dem Bild erscheint."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Austria / Europe /\n\nMrs Eugenie Hirschfeldt\n\nVienna / Austria /\nIX. Türkenstrasse 5.",
+      "notes": "Adressseite der Postkarte. Gedruckter Text 'POST CARD' und 'This space may be used for Correspondence' etc. vorhanden. Briefmarke (1 Anna, Indien) und Poststempel (Aden, 23 JA 09) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Austria / Europe /\n\nMrs Eugenie Hirschfeldt\n\nVienna / Austria /\nIX. Türkenstrasse 5.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, abgesehen von einer Stelle in der ersten Zeile des Textkörpers auf der Bildseite, die durch das gedruckte Bild der Pagode leicht überlagert wird.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 361,
+    "total_words": 62,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

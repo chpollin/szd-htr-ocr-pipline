@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1164",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1164/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1164/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.5\n- Signatur: SZ-SAM/B11.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.009834+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "3/12. 39\n99. - PARIS. - Panorama du Carrousel et l'Arc de Triomphe.",
+      "notes": "Vorderseite der Postkarte mit gedrucktem Titel und handschriftlichem Datum oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Frau\nAnna Meingast\nSalzburg\nKapuzinerberg 5\nbei Frau Zweig\n\nliebe Frau Meingast, bitte\nreclamiren Sie nicht das\nUngarische, da mein Mann\nanders darüber entschieden hat.\nFalls Sie es schon getan haben, bitte\nschreiben Sie, dass es ein Irrtum war.\nBitte senden Sie an holländ. Erasmus\nan Frau Martha Holl-Walden\nJava, Holl. Indien Madisen\nSt. Rédjosari. Bitte diese Adresse\ndu verändert ist eintragen. Ihre Briefe\nsind angekommen. Grüssen Sie alle\nmit Hausl. Alles Herzliche Ihre Fr. Zw.",
+      "notes": "Rückseite der Postkarte. Handschrift in violetter Tinte. Die Adresse ist vertikal am rechten Rand notiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Abkürzungen (holländ., Fr. Zw.) sind im Kontext eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 552,
+    "total_words": 89,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1694",
+    "title": "Brief an Anna Meingast vom 7. Juni 1935, SZ-SAM/B7.61",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1694/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1694/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 7. Juni 1935, SZ-SAM/B7.61\n- Signatur: SZ-SAM/B7.61\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.210961+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Bellerive\n\nZürich, den 7. Juni 1935.\n\nLiebe Frau Meingast,\nDanke schön für das Probeexemplar, das ich jetzt noch\neinmal durchgesehen habe und an dem mir jetzt doch einiges aus-\nzusetzten scheint. Mir fehlt darin der Abschlusstag des Vertra-\nges und ob ein solcher Vertrag vorhanden ist, damit wir bei einer\nGeneralordnung einmal feststellen können, wo diese Exemplare sind.\nZweitens scheint es mir richtig (und dafür müsste die\nletzte Seite eigentlich reserviert werden,) soweit es geht, fort-\nwährend den jeweiligen Verkaufsstand eines Buches in Evidenz zu\nhalten. Und da man doch ohnehin jetzt immer von den Verlegern\ndie Abrechnungen einfordern will, müsste eben die letzte Seite\nden Stand jedes Jahres festhalten.\nDrittens habe ich mir auch die Anmerkungen anders ge-\ndacht. Ob ein Buch tatsächlich erschienen ist oder nicht, dafür\nkein Raum verschwendet zu werden sondern es ist selbstverständ-\nlich im Falle einer solchen Unsicherheit eine Erkundigung einzu-\nziehen. Schliesslich gibt es dafür Handbücher und das ist nicht\nmeine Sache. Dagegen wollte ich unter \"Anmerkungen\" (und dies kann\nman vielleicht auf die zweite {Abteilung} Zeile der ersten Seite stellen) die\nallgemeinen verschiedenen Ausstrahlungen, die ein Buch betreffen,\nz.B. Dramatisierung (in diesem Falle wäre hinzuweisen auf den\nVertrag mit Harald Simpson und wie lange er läuft); zweitens Film,\nnatürlich kurz und verweisend auf den abgeschlossenen Vertrag für\nstummen Film, Tonfilm oder Rezitationsrechte, wenn sie an eine Per-\nson vergeben sind usw. Sie erinnern sich ja z.B. dass ein Vertrag\n[Randnotiz links: So genügt vielleicht\nam Rand oder ein Text\nein V (Rahmen in\nKlammer) das würde\nbedeuten:\nvorhanden\n3.B.\n1934 1935 1936\n3200 4100]\n[Randnotiz unten links: x in jenem Lande]",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen und Randnotizen in violettem Stift. Die Randnotiz links ist vertikal geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "bei \"Marie Antoinette\" für eine französische Dramatisierung besteht\noder bei \"Amok\" für eine englische. Das fehlt völlig auf diesem Exemplar\nViertens dürfte die Ueberschrift natürlich nicht mit Schreib-\nmaschine in so kleiner, und schwer lesbarer Form erfolgen sondern sollte\nmit Rundschrift gross geschrieben werden oder aus zusammengesetzten\nBuchstaben bestehen. Ich frage mich auch, ob man nicht gleich das\ndeutsche Erscheinungsdatum und die verschiedenen Formen des Erscheinens\ngleich auf diese erste Seite setzen könnte, sodass dass das Exemplar\nimmer eine vollständige Personalbeschreibung {des} Buches darstellt.\nHier fehlt also wie gesagt eine ganze Menge, der jeweilige Auflage-\nstand in Deutschland und Ausland, die Daten der Verträge, Film und\nDramatisierung; ferner wäre durch einen Rotstift deutlich kenntlich\nzu machen an welche Länder keine Honorarforderungen mehr bestehen.\nIch schicke den Moissi-Vortrag auf italienisch und deutsch.\nEr ist einfach unter den Vorträgen abzulegen.\nVon Jespersen sind die Fr. 300.-- für die ersten dreitausend\nExemplare eingegangen.\nMit der Viking-Press ist dies nicht mehr ein Vertragsent-\nwurf sondern bereits ein Vertrag und unter den Verträgen aufzuheben.\n\nMit den besten Grüssen\nIhr\n\nStefan Zweig\nMeiner Frau bitte zu sagen, dass jener Brief nach Mailand\nnoch immer nicht eingetroffen ist.",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (violette Tinte). Die Unterschrift und der letzte Absatz sind handschriftlich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig sind deutlich erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3105,
+    "total_words": 461,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

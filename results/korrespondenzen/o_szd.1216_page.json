@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1216",
+    "title": "Brief an Anna Meingast vom 7. November 1934, SZ-SAM/B7.46",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1216/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1216/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 7. November 1934, SZ-SAM/B7.46\n- Signatur: SZ-SAM/B7.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.521165+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "7. November 1934.\n\nLiebe Frau Meingast!\n\nAn René Levy und Frau Schultze kann man je ein Exemplar\nschicken, wenn schon genug eingetroffen sind.\n\nMit den besten Grüssen\n\nStefan Zweig\nHeute geht Kapitel XV ab,\nCapitel XVI morgen. Sie\nsehen, ich bin nicht müssig",
+      "notes": "Der handschriftliche Teil beginnt unter der gedruckten Grußformel und Unterschrift. Das Wort 'müssig' ist am Ende leicht abgeschnitten, aber lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, unbeschrieben."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der maschinengeschriebene Teil als auch die handschriftliche Ergänzung von Stefan Zweig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 258,
+    "total_words": 43,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

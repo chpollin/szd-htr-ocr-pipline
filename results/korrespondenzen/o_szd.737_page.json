@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.737",
+    "title": "Brief an Hermann Löw vom 2. Dezember 1937, SZ-AAP/B1.144",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.737/IMG.1",
+      "https://gams.uni-graz.at/o:szd.737/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Hermann Löw vom 2. Dezember 1937, SZ-AAP/B1.144\n- Signatur: SZ-AAP/B1.144\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:27.371344+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Dr.Hermann Löw\nRechtsanwalt\nHerrengasse 21\nWien,I.\n\nTal gegen Zweig,Begegnungen\n---------------------------\nIhr Schreiben DEL/B vom 1.Dezember 1937          2.Dezember 1937 /F\n\nSehr geehrter Herr Doktor:\n\nSie sprechen davon,dass Herr Dr.Zweig beginnt,die gegenständlichen\nDifferenzen bei Wiener Freunden zu verbreiten.Es ist uns weder etwas\ndavon bekannt,noch haben wir etwas damit zu tun.Wir haben mit nieman-\ndem darüber gesprochen,weil wir an der Sache überhaupt kein Interesse\nhaben,und im übrigen Frau Tal als tüchtige Nachfolgerin ihres Gatten\nhoch genug schätzen.\nWir haben auch nicht im mindesten irgendeine Verstimmung zwischen uns\nund Frau Tal festgestellt.Wenn eine Verstimmung Platz gegriffen hat,\nso doch nur zwischen Frau Tal und Herrn Dr.Stefan Zweig,worüber Sie\nIhre Mandantin unterrichten möge.\nUnser alleiniges Interesse besteht darin,dass Herr Dr.Zweig sich mit\nIhrer Mandantin in irgendeinem Sinne einigt.Deswegen geben wir heute\neine Kopie Ihres Briefes nach London weiter und bitten Herrn Dr.Zweig,\nsich entweder selbst oder durch seinen Anwalt mit Ihnen ins Einverneh-\nmen zu setzen.\nWir bitten Sie nochmals um freundliche Kenntnisnahme,dass wir die\nganze Angelegenheit Frau Tal nicht im mindesten nachtragen.Es ist in-\nfolgedessen unnötig \"von einem befremdenden Verhalten\" unseres Verlags\nzu sprechen.Wir weisen diese Behauptung energisch zurück.\n\nMit verbindlicher Begrüssung",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Beschädigungen oder Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1407,
+    "total_words": 189,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

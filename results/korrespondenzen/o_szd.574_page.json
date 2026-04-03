@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.574",
+    "title": "Armand Brody an Stefan Zweig, 1910-02-04, SZ-SAM/AK.28",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.574/IMG.1",
+      "https://gams.uni-graz.at/o:szd.574/IMG.2",
+      "https://gams.uni-graz.at/o:szd.574/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1910-02-04, SZ-SAM/AK.28\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:19.178870+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4. II. 1910.\nLe Caire-Ghezireh Palace Hôtel\nVue prise de la grotte",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliches Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "UNION POSTALE UNIVERSELLE\nEGYPTE\nCARTE POSTALE\n\n~~so leben wir - so leben wir - alle~~ \nTag !!\n\nAber nur noch heut, denn\nmorgen dampf' ich\nder wieder nach Wien ab\n(wo die u Zeit\" noch immer\n~~besten~~ \nGruss\nMelli\nernheint). herzlich\n\nDr. Stefan Zweig,\nWien\nIII. Kochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Poststempel 'CAIRO 4-II 10 7-PM'. Am linken Rand vertikal gedruckt: 'Made specialy for Nicolas Papadopoulos'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Dazwischen liegt die Rückseite der Postkarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Durchstreichungen und Einfügungen sind eindeutig zuzuordnen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 340,
+    "total_words": 60,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.391",
+    "title": "Mark Lothar an Stefan Zweig, 1928-05-01, SZ-SAM/AK.111",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.391/IMG.1",
+      "https://gams.uni-graz.at/o:szd.391/IMG.2",
+      "https://gams.uni-graz.at/o:szd.391/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Mark Lothar an Stefan Zweig, 1928-05-01, SZ-SAM/AK.111\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.111\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.269772+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Postkarte: Ansicht der Piazza della Signoria in Florenz."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "FIRENZE - Piazza della Signoria\ne Loggia dei Lanzi\n\nSehr verehrter Herr Dr. Zweig\nVon unserer ersten\nsehr erfolgreichen Italien-\nreise senden wir Ihnen u.\nIhrer lieben Frau in herz-\nlichem Gedenken unseres\nso anregenden Zusammen-\nseins viele Grüße.\nStets Ihr ergebenster\nChiuso Mark Lothar\nIhre Corry Nera.",
+      "notes": "Rückseite der Postkarte mit handschriftlichem Text. Adressseite: 'Dr. Stefan Zweig / Salzburg / Kapuzinerberg 5'. Poststempel 'FIRENZE FERROVIA 1.V.28'. Briefmarke 'POSTE ITALIANE' mit Aufdruck 'VISITATE LA TERZA FIERA INTERNAZIONALE DEL LIBRO FIRENZE'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Postkarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die Ortsangabe 'Kapuzinerberg' wurde aufgrund der bekannten Adresse von Stefan Zweig korrekt als 'Kapuzinerberg' identifiziert (im Original 'Kapueinerberg' geschrieben).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 306,
+    "total_words": 48,
+    "language_detected": "",
+    "language_match": true
+  }
+}

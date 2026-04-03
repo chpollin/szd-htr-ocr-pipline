@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1761",
+    "title": "Brief an Stefan Zweig vom 3. November 1937, SZ-AAP/B1.122",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1761/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1761/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. November 1937, SZ-AAP/B1.122\n- Signatur: SZ-AAP/B1.122\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:00.605676+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef.\nIhr Schreiben vom 31.Oktober 1937\n3.November 1937 /F\nStefan Zweig,Begegnungen, gegen Tal & Co.\nSehr verehrter Herr Dr.Zweig:\nWir danken bestens für Ihren Brief vom 31.Oktober und Ihre Postkarte.\nVorläufig haben wir von Frau Tal nichts gehört und wir rühren uns\nnatürlich nicht.Sollte sie etwas unternehmen,so werden wir die ge-\nsamten Akten Herrn Dr.Geiringer einhändigen und ihm Ihre Vollmacht\nüberreichen,um den Prozess zu führen.\nLassen Sie sich bitte die Sache nicht zu sehr zu Herzen gehen.Im\nErnstfall wird gewiss ein Vergleich möglich sein.\nWegen Schönbergs Mahler-Aufsatz wenden wir uns an Herrn Dr.Reich\nund danken Ihnen nochmals für Ihren liebenswürdigen Hinweis.\nMit freundlichen Grüssen sind wir\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/schwarz)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1168,
+    "total_words": 165,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

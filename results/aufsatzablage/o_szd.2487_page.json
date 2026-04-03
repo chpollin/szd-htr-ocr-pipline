@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2487",
+    "title": "In memoriam Camille Lemonnier.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA120.7",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2487/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2487/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2487/IMG.3"
+    ],
+    "date": "29. 8. 1913",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Mannheim",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Mannheim"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Blauer Buntstift",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "ZweigS"
+        ]
+      },
+      "notes": "Mit angehängter Quellenangabe: Zeitungsausschnittdienst\n                        \"Observer\", Wien"
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: In memoriam Camille Lemonnier.\n- Signatur: SZ-AAP/W-AA120.7\n- Datum: 29. 8. 1913\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Blauer\n                                       Buntstift\n- Hand: Unbekannt\n- Anmerkungen: Mit angehängter Quellenangabe: Zeitungsausschnittdienst\n                        \"Observer\", Wien"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:26.658217+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Telephon 12.801\n„OBSERVER“\n1. österr. behördl. konz. Unternehmen für Zeitungs-Ausschnitte\nWien, I., Concordiaplatz 4.\nVertretungen\nin Berlin, Basel, Budapest, Chicago, Cleveland, Christiania,\nGenf, Kopenhagen, London, Madrid, Mailand, Minneapolis,\nNew-York, Paris, Rom, San Francisco, Stockholm, St. Peters-\nburg, Toronto.\n(Quellenangabe ohne Gewähr.)\nNeue Badische Landes Zeitung\nAusschnitt aus: Mannheim\nvom: 29 8 1913\n\nFeuilleton.\nIn memoriam Camille Lemonnier.\nVon Stefan Zweig (Wien).\nDie Zeitschrift „Der Strom“ (Organ\nder Wiener Freien Volksbühne) veröffent-\nlicht soeben eine Nummer, die sich aus-\nschließlich mit dem großen jüngst verstor-\nbenen belgischen Dichter Lemonnier be-\nfaßt. Nachstehend zwei der interessantesten\nStücke daraus:\n\nSchriftsteller, das geläufige Wort, es deckt einen\nweiten Begriff. Einen Menschen will es erklären und meint\nnur eine Beschäftigung. Denn in einem Schriftsteller kann\nalles sein, was sich geistig zu einem Typus erhebt, ein\nPriester und ein Seher, ein Kaufmann und ein Dilettant,\nein Schauspieler und ein Märtyrer. Durchgangsform des\ninneren Charakters, nicht seine Wesenheit, bedeutet diese\nEinstellung.\n\nLemonnier war als Schriftsteller ein Arbeiter, ein\ngrandioser, unermüdlicher Arbeiter, mit aller Qual, aller\nLust und vor allem dem schöpferischen Stolz seines Hand-\nwerks. Sechzig Bücher hat er geschaffen, keines ohne Liebe,\nkeines ohne Glut. Vor vierzig Jahren hat er begonnen und\nals der erste in Belgien gewagt, frei von seiner Feder zu\nleben, und diese Freiheit des Schaffens blieb ihm bis zu\nseinem letzten Tage höchster Stolz. Der Staat bot ihm\nschließlich, beschämt und im Bestreben, kleinliche Vergehen\ngutzumachen (man hatte Lemonnier vor Gericht geschleppt,\nweil man in seinen Büchern zuviel Freiheit im sinnlichen\nSinne fand), schöne öffentliche Stellungen an, den Senator-\ntitel sogar, aber der Stolz des Arbeiters war schon zu\nstark in ihm. Für nichts gab er seine Schaffensfreiheit ab\nund unermüdlich bis zur letzten Stunde blühte Blatt an\nBlatt der üppige hochragende Bau seiner Kunst.\n\nUnübersehbar fast die Reihe seiner Bücher und kaum\nzu ermessen die Fülle von spendender Schönheit, die aus\nihnen zutage tritt. Nicht aus Schwäche, nicht aus Gier,\nwie die meisten unserer Schriftsteller von heute, hat dieser\naufrechte Mann geschaffen, sondern aus Kraft, die irgend-\nwie fest mit dem Sinnlichen seiner Natur verbunden war.\nImmer strömte sie stürmisch aus seinem Blut in das\nWerk, um alles zu feiern, was ihr, der Urkraft, ähnlich\nwar: die Landschaft und ihre ewig erneuerte Fülle, das\nbrennende Begehren vom Mann zum Weib und Weib\nzum Mann, das mit seinen Flammen alle Bretterzäune\nder Kultur und Konvention niederbrennt, und schließlich\nden gewaltigen Schwung, mit dem ein ganzes Volk von\nUnterdrückten sich empört gegen die Vergewaltigung des\nVolkes und der Macht. Das Elementare war seine Heimat:\nkünstlich wurde er nur im Künstlichen, wo seine freie Natur\ndie Verlogenheiten und die krummen Gesten der Stadtmen-\nschen nicht voll zu schildern verstand. Ein Bann, ein\nganzer Wald, der im Frührot raucht, die kühnen Tiere\ndes Waldes, sie waren ihm mehr Brüder als die Diplo-\nmaten, die Kaufleute, die Rechner und die Sparer, und\nin den drei Bänden seiner groß angelegten Utopie träumte\ner davon, die ganze Menschheit wieder zurückzuführen an die\nQuelle der großen Reinigung, den ewigen Jungborn des\nHerzens, in das naturhaft Einfache. Er hat das Heroische\ndes Krieges mit harter Hand zertrümmert und hinter der\naufgegipten Maske in seinem Sedanbuch das wahre Antlitz\ngezeigt: Grauen, Gier und Mord. Diese Blätter werden\nblutige Dokumente im Buch der Menschheit bleiben und für\nimmer an die Hand erinnern lassen, die sie im heiligen\nZorn schuf.\n\nDieser große Arbeiter war aber auch ein großer\nKünstler, nicht nur durch die Aufrichtigkeit und Mannhaftig-\nkeit seines Wesens, sondern auch durch bildnerische Kraft.\nSanftere Farben als die seinen sind kaum zu denken, und\nmeisterhaft sind sie hingeschneit, bald zu straffen, starken\nSkizzen, bald zu breiten, heroischen Gemälden. Sein Roman\n„Der eiserne Moloch“ braucht den Vergleich mit\nZolas „Germinal“ nicht zu scheuen, und sein berühmtestes\nBuch „Ein Mann“ ist eherner Guß für die Unsterb-\nlichkeit. Viel mußte freilich im Eifer und Übereifer des\nSchaffens höchster Vollendung entgehen, doch auch die Fülle\ndient, um den Reichtum eines Menschen zu messen. Hier\nwar noch einer in unserer Zeit, der so reich war, daß er\nverschwenden durfte, selber ähnlich der Natur, die er so\nunendlich liebte und die doch achtlos sich an Gleich-\ngültigem übt, um sich nur selten im Vollkommenen zu\nvollenden.",
+      "notes": "Zeitungsausschnitt (Typoskript/Druck). Handschriftliche Annotationen (Datumsangabe '29 8 1913' und 'Mannheim') im Kopfbereich. Die Transkription umfasst den gesamten Text des Ausschnitts."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Zeitungsausschnitt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Frakturschrift ist klar gedruckt. Die handschriftlichen Ergänzungen im Kopfbereich sind ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 4613,
+    "total_words": 697,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

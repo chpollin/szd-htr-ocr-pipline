@@ -1,0 +1,406 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2861",
+    "title": "Histoire de l'idée européenne",
+    "language": "fr",
+    "collection": "werke",
+    "shelfmark": "SZ-AP2/W-H172.2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2861/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.11",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.12",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.13",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.14",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.15",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.16",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.17",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.18",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.19",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.20",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.21",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.22",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.23",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.24",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.25",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.26",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.27",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.28",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.29",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.30",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.31",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.32",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.33",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.34",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.35",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.36",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.37",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.38",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.39",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.40",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.41",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.42",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.43",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.44",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.45",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.46",
+      "https://gams.uni-graz.at/o:szd.2861/IMG.47"
+    ],
+    "document_type": "typescript",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Essays/Reden/Feuilletons"
+      ],
+      "extent": "24 Blatt,\n                                                  korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs\n                                            2002"
+      ],
+      "physical_description": {
+        "hands": [
+          "Fremde Hand"
+        ]
+      },
+      "notes": "Korrekturen von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Histoire de l'idée européenne\n- Signatur: SZ-AP2/W-H172.2\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 24 Blatt,\n                                                  korrigiert\n- Hand: Fremde Hand\n- Anmerkungen: Korrekturen von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:53.558639+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Geschichte des Europäischen\nGedankens\nFlorenz, 1932\ngedruckt: Zeit\nund Welt\n\nHistoire\nde l'idée européenne",
+      "notes": "Handschriftliche Notizen auf einem Deckblatt. Die blauen Zeilen sind handschriftlich, die grauen/roten ebenfalls."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "HISTOIRE de l'IDEE EUROPEENNE\n\npar Stefan Zweig.\n\nTexte français de Suzanne Clauser.\n\nL'histoire, cet océan en apparence déréglé qui charrie les\névènements, obéit en réalité à une loi immuable et rythmée. Le jeu\ndes vagues partage ses époques en flux et reflux, il déverse{s} ses\neaux à grands flots et les retie{nt} tour à tour. Il ne pourrait en\nêtre autrement puisque l'histoire est faite par les hommes et que\nses lois psychiques reflètent celles qui régissent l'individu. Cette\ndualité existe en chacun de nous et le processus que nous appelons\nla vie n'est autre chose qu'une tension de pôle à pôle. Peu importe\nle nom que nous dispensons à ces forces, que nous appelions cen-\ntrifuges et centripètes, introvertes et extrovertes dans l'esprit de\nla psychologie moderne, égoistes et altruistes dans le langage de\nla morale, c'est partout et toujours sous cette forme que se tradui-\nsent les tendances alternantes du Moi, qui aspire d'un côté à s'i-\nsoler du monde, de l'autre à se fondre avec l'univers. Nous vou-\nlons conserver notre moi, rester la personnalité type que nous\nsommes, nous voulons attirer à nous toutes les possibilités qu'offre\nla vie, pour rendre plus personnelle encore notre individualité.\nMais nous tendons également à établir un lien entre l'être unique\nque nous sommes et le monde, nous sommes poussés à noyer notre in-\ndividualité dans la communauté. Les peuples ne sont autre chose que\ndes individus collectifs et c'est ainsi que les nations sont également\nsoumises à la double tendance de nationaliser d'une part leur culture\net leur esprit, de chercher de l'autre une communauté plus élevée en\ndehors du nationalisme, pour se féconder et céder aux autres peuples\nquelque chose de leur richesse individuelle.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text von Seite 3 sichtbar)."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "- 2 -\n\nCes deux instincts moteurs, l'attraction et la répulsion, qui déter-\nminent la paix et la guerre, et qu'on pourrait appeler concentriques\net expansifs, se combattent à travers l'histoire. De grands états\npolitiques et religieux se fondent et se dissolvent. A des siècles\nd'inimitié succèdent des siècles de réconciliation et d'amitié, mais\nen raison des vues toujours plus larges qu'acquière{t} l'humanité, elle\ntend progressivement vers une union de plus en plus élevée et fertile.\nAu point de vue de la culture comme au point de vue physique, la ten-\ndance nationaliste et la tendance surnationaliste, par leur existence\nmême, ont un sens très précis, et l'une ne pourrait exister{ph} sans l'au-\ntre, car elles collaborent toutes les deux à l'organisme spirituel de\nce que nous appelons l'Etat ou la Nation. Leur antagonisme est néces-\nsaire pour maintenir l'humanité la tension créatrice.\n\nUne seule de ces tendances fera aujourd'hui l'objet de mes ré-\nflexions, car je voudrais, à une époque de division nationale, insis-\nter sur l'élément de concorde, sur le mystérieux Eros, qui, au mépris\nde la langue, de la culture et des idées, poussa les peuples dès le\ndébut des siècles vers une union plus élevée. Permettez-moi en cette\nheure de jeter un regard rétrospectif sur le développement intellec-\ntuel de l'Europe pour essayer de vous donner un abrégé de l'histoire\nde cette éternelle nostalgie qui tendit toujours à l'union des sen-\ntiments, des énergies, des pensées et des vies, et qui en deux mille\nans finit par créer l'admirable communauté que nous appelons fière-\nment : Culture européenne.\n\nJ'ai dit deux mille ans, mais en réalité la tendance profon-\ndément humaine vers une communauté créatrice date des temps préhisto-\nriques, existe dans la légende et le mythe, bien avant que la science\nait éclairé les ténèbres de l'histoire. Nous trouvons dans les pre-\nmières pages de la Bible, le plus ancien livre du monde, un admirable",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "- 3 -\n\nsymbole de la nostalgie d'unité créatrice qui tenaille les hommes,\nà savoir la légende significative de la Tour de Babel. Per{mettez-moi}\nde vous rappeler ici ce mythe admirable pour pouvoir ensuite vous\nl'expliquer. En ce temps-là l'humanité ( sortant de l'inconnu ) s'é-\ntait unie pour la première fois en vue d'une oeuvre commune. Au-des-\nsus d'elle, elle voyait le ciel, et comme il s'agissait d'hommes\nils eurent immédiatement le désir d'accomplir une action surhumaine,\nd'atteindre à ce qui se trouvait hors de leur portée. Ils se réu-\nnirent donc et se dirent : Bâtissons une ville, bâtissons une tour,\ndont le sommet s'élève jusqu'au ciel, afin que notre nom passe à\nla postérité. Ensemble ils se mirent à pétrir l'argile, à calciner\nles briques, à construire l'édifice qui devait symboliser leur\npuissance. Mais, dit la Bible, du haut du ciel, Dieu contemplait\nleurs travaux ambitieux, et voyait monter vers lui le fruit de leur\nlabeur. Il reconnut la grandeur de l'esprit qu'il avait lui-même in-\nsufflé à l'homme et l'indomptable force qui réside en l'humanité du\nmoment qu'elle est unie. Aussi, pour enrayer leur orgueil, pour em-\npêcher qu'ils s'élèvent vers les hauteurs où réside seul le créateur,\nil décida d'entraver leurs efforts.\n\n\"Troublons leur entente\" dit-il, \"en sorte qu'aucun ne com-\nprenne plus la langue de l'autre\". Et la Bible rapporte encore que la\nnuit, en plein travail, les hommes cessèrent de se comprendre car ils\nne parlaient plus la même langue. Et comme ils ne se comprenaient pas,\nl'irritation les gagna. Ils jetèrent au loin leurs briques, leurs\ntruelles et tous leurs outils, luttèrent les uns contre les autres,\npuis désertant le chantier commun, ils regagnèrent leurs pays, leurs\nvilles, leurs demeures. Désormais ils ne cultivèrent plus que le sol\nde leur pays ou de leur patrimoine, désormais ils n'aimèrent plus\nque leur patrie et leur idiome. Quant à la Tour de Babel, leur gigan-\ntesque oeuvre commune, elle resta abandonnée et tomba en ruines.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 9,
+      "type": "content",
+      "text": "- 4 -\n\nCe mythe qui se trouve aux premières pages de la Bible est\nun admirable symbole qui démontre que, unie, l'humanité peut attein-\ndre aux buts les plus grands, tandis que, désunie, ses possibilités\nse restreignent. Nous ne savons rien en réalité des mystérieuses\nsurvivances d'un souvenir dans notre sang; peut-être cette époque\npréhistorique a-t-elle laissé en notre esprit une obscure reminis-\ncence qui nous fait sentir que l'humanité fut une, qui nous fait\nardemment désirer qu'elle soit une à nouveau pour compléter et\nterminer l'oeuvre abandonnée. Ce qui reste certain, c'est que le\nrêve d'un monde uni, d'une humanité unie, est plus vieux que toute\nlittérature, tout art et toute notre science.\n\nUne légende, direz-vous, un mythe puéril, un conte héroïque.\nMais les légendes, notre ami Sigmund Freud nous l'a appris, ne sont\nautre chose que le rêve {electif} optatif des peuples, comme du reste tout rê-\nve individuel n'est autre chose qu'un souhait déguisé, travesti,\npoétisé. Aucun rêve n'est absolument dépourvu de sens, et le rêve de\ngénérations moins que tout autre. Ne méprisons donc point ces mythes\nde l'époque préhistorique. Toute pensée qui devient réalité commen-\nça toujours par n'être qu'un rêve; les hommes ne peuvent rien inven-\nter, rien réaliser, que l'esprit hardi d'un prédécesseur n'ait{ait} déjà\nconçu ou tout au moins prévu comme une nécessité impérieuse. Mais\nle {le péristyle} quittons l'avant-cour de la légende pour pénétrer dans le temple de\nl'histoire. Les ténèbres règnent au début. En Orient et au bord de\nla Méditerranée, des royaumes se fondent et s'évanouissent. La vo-\nlonté dominatrice d'un Alexandre, ou d'un peuple entier devient puis-\nsance; telle une vague de fond, elle balaie les pays pour piller,\nincendier, anéantir; lorsque le flot guerrier se retire, il ne lais-\nse derrière lui que la vase de la destruction. Les cultures écloses\nà l'aube de l'histoire n'ont aucune force d'édification, et d'organi-",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 10,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 11,
+      "type": "content",
+      "text": "- 5 -\n\nsation, elles ne servent pas encore l'idée d'un bien commun; la\nculture grecque elle-même n'imprime pas au monde un sceau d'unité.\nElle donne une nouvelle et magnifique mesure à l'âme humaine, une\nmesure qui cependant n'est pas encore du domaine public. Dans\nl'histoire universelle la véritable unité politique et spirituelle\nde l'Europe commence avec l'Empire romain. Nous voyons pour la pre-\nmière fois émaner d'une ville, d'une loi, l'inébran-\nlable volonté de régner sur tous les peuples du monde, de les régir\nd'après un plan unique, génialement établi: domination qui n'est pas\ncomme naguère basée uniquement sur la force militaire, mais sur un\nprincipe spirituel, domination qui ne s'exerce pas pour elle-même,\nmais qui a pour but une organisation raisonnable du monde. C'est\nRome qui pour la première fois donne à l'Europe une forme homogène,\npour la première et pour la dernière fois car jamais depuis le même\ndegré d'homogénéité ne fut atteint. Des brouillards de la Bretagne\njusqu'aux déserts brûlants des Parthes, des colonnes d'Hercule jus-\nqu'au Pont-Euxin et aux steppes scythiques, ce plan spirituel, tel\nun filet artistement tissé, enveloppe les peuples d'Europe demeurés\njusque là stupides et amorphes. Un seul gouvernement, un seul système\néconomique, une seule stratégie, une seule jurisprudence, une seule\nmorale, une seule érudition domine le monde d'alors; une seule langue,\nla langue latine, domine toutes les autres langues. Derrière les\nlégions romaines, marche la culture romaine sur des routes bâties\nselon les principes de la technique romaine; l'esprit régénérateur\nsuit la force destructrice. La langue, la loi et les moeurs sèment\nune graine nouvelle dans les clairières brutalement taillées par\nl'épée. Pour la première fois ~~dans~~ le chaos européen devient untout\nhomogène, une idée nouvelle vient de naître, l'idée de la civilisa-\ntion, en un mot l'idée d'une humanité régie par des lois morales. Si\n..cet...",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 12,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 13,
+      "type": "content",
+      "text": "- 6 -\n\nédifice avait subsisté pendant deux ou trois siècles encore, les\nracines des peuples se seraient à tel point enchevêtrées que l'u-\nnité de l'Europe, qui nous apparait comme un rêve, aurait été réa-\nlité dès alors, ~~unité~~ {et cette} ~~qui~~ {Principe primordial} aurait soumis à son idée centrale les\ncontinents découverts plus tard.\n\nC'est justement parce que l'Empire Romain était si grand,\nd'une étendue si mondiale, et d'une essence si profondément enra-\ncinée dans le sol européen, que son effondrement fut une ruine mo-\nrale et intellectuelle effroyable, un instant de catastrophe, indi-\ncible dans l'histoire de la culture européenne. L'état mental de\nl'Europe après la chute de l'Empire romain ne peut être comparé qu'à\nl'aspect d'un homme auquel une commotion cérébrale aurait fait per-\ndre la mémoire, et qui d'une grande maturité d'esprit tomberait\nsoudain dans un état d'imbécilité. Le commerce des peuples entre\neux est interrompu, les routes tombent en ruines, les villes se de-\npeuplent, depuis que la langue commune, depuis que l'organisation\nromaine ne {relie} plus les différents pays. Colonies anciennes et\ncolonies nouvellement conquises oublient en un laps de temps d'une\nbrièveté invraisemblable {elles} ce qu'ils avaient appris : les arts, les\nsciences, l'architecture, la peinture, la médecine tarissent ~~comme~~\ntarissent les puits au lendemain d'un tremblement de terre. Le ni-\nveau de la culture européenne baisse subitement et se trouve au des-\nsous de celui de {la} Chine ou d'Orient. Souvenons-nous de cette époque\nde honte européenne : les oeuvres littéraires sont brûlées ou moi-\nsissent dans des bibliothèques. L'Italie et l'Espagne empruntent\naux Arabes leurs médecins et leurs savants, aux Byzantins leur art\net leur industrie; toute une éducation est à refaire; notre grande\nEurope, maîtresse de la civilisation, devra s'instruire auprès de\nses propres élèves. Un immense héritage est gaspille, les bâtiments",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 14,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 15,
+      "type": "content",
+      "text": "- 7 -\n\nsont pillés, les acqueducs s'effondrent, les rues se dépeuplent.\nUne humanité qui quatre siècles plus tôt trouvait des Tacite, des\nTite-Live, des César, des Pline pour raconter l'histoire mondiale\navec une admirable maîtrise, ne trouve même plus la force de ra-\nconter l'histoire de sa propre époque.\n\nJe m'attarde à ce tragique instant de reflux car il marque\nle point culminant de la désagrégation, la plus profonde dépression\nde notre commune puissance spirituelle, notre culture. Il est effra-\nyant de penser à cette époque, effrayant parce que, implicitement,\nnous craignons de voir un{e} autre tremblement de terre anéantir l'oeu-\nvre à laquelle nous apportons tous notre invisible {contribution} écot, parce que\nnous redoutons le souffle meurtrier qui se dégagerait d'une erreur\nspirituelle et morale semblable à celle-là. Mais même en cet instant\n{extreme} d'implacable anarchie, l'Europe ne perdit pas complètement la cons-\ncience de son unité. Car - et nous en arrivons là au suc{coeur} même de ma\nconference - l'idée de l'unité humaine demeure indestructible. Dans\nles instants de péril l'organisme du monde dispose de puissances\ncuratives, comme le corps de l'homme dispose de contre-poisons pour\nlutter contre un microbe mortel. A l'instant où la terre ravagée est\nlivrée aux éléments destructeurs, l'esprit construit un nouvel édi-\nfice dans des régions plus élevées; à l'instant du démembrement de\nl'Empire romain, le désir de régénération dans l'unité qui est inhé-\nrent à l'humanité crée une oeuvre nouvelle : l'Eglise\nCatholique; cette Eglise projette jusque dans les nues le reflet de\nla puissance humaine. La matière est détruite mais la forme est sau-\nvée, un germe a résisté à la grêle : la langue latine. Et nous sommes\nheureux de constater que l'esprit est plus fort que la matière : les\nforteresses, les châteaux-forts, les castels de l'Empire romain s'ef-\nfondrent, mais la langue latine renait de ses cendres, tel le phoenix.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 16,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 17,
+      "type": "content",
+      "text": "- 8 -\n\nCe que créa la force physique peut périr, ce qu'édifia l'esprit pour\nla communauté peut être enseveli mais non perdu. Le latin, langue\nunique, langue mère de toutes nos cultures européennes, survit à ces\nheures apocalyptiques.\n\nLes moines cependant ne purent sauver cette langue commune\nqu'en l'ensevelissant en quelque sorte dans les voûtes souterraines\ndes cloîtres et des catacombes, pour la soustraire aux fureurs des-\ntructrices de la migration des peuples; la vitalité du latin souffrit\nde cette claustration. Commes les perles perdent leur éclat lors-\nqu'elles sont privées de la chaleur du corps humain, le latin, muré\ndans les écrits de la scolastique, perd sa signification vivante\npour les peuples. Isolée de l'air, privée des doux rayons du soleil\nitalien, cette langue ne peut pas conserver sa sensualité, sa clare-\nté, son élégance, ses admirables et {nobles} hautes vertus, qui nous ravissent\ndans les écrits des poètes anciens. On ne peut plus exprimer en latin\nni la joie, ni la gaîté, ni l'ironie, on ne peut plus avec une ex-\nquise finesse dire des choses tendres et vivantes. Le latin n'est plus\nla langue des lettres amicales et des conversations intimes. Mondiale\nautrefois, cette langue qui fut celle d'une entente universelle, ne\nsert plus désormais qu'à la science, aux artibus liberatis et non\naux peuples. L'Europe pendant des siècles aura perdu le moyen de\ncommuniquer.\n\nSur le monde de l'esprit plane un lourd sommeil que traversent\ndes visions et des rêves mystérieux. Mais le jour pointe car des hom-\nmes nouveaux sont en route. Le latin desséché à l'ombre de la théo-\nlogie ne semble plus qu'un parchemin; tiré de sa torpeur, il est ren-\ndu au soleil, à la chaleur de la vie. Il reprend la souplesse d'une\nlangue vivante sous l'influence de grands poètes, de Petrarque sur-\ntout qui lui imprime les pulsations de son propre coeur. Renouvelé,",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 18,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 19,
+      "type": "content",
+      "text": "- 9 -\n\nrégénérée, telle un Esperanto classique, cette langue servira dé-\nsormais à l'entente des grands esprits de ce monde. Et le miracle\nest accompli, les esprits dominants d'Europe qui ne pouvaient pas {plus}\ncommuniquer ensemble, ont retrouvé une langue pour se parler, pour\ns'écrire, pour fraterniser. D'un coup la langue a raison des frontiè-\nres; s'inquiète-t-on, à l'époque de l'humanisme, de savoir si un\nétudiant travaille à Bologne, à Prague, à Paris ou à Oxford ? Les li-\nvres sont latins, les professeurs enseignent en latin, les intellec-\ntuels de l'époque n'ont qu'une seule façon de parler, d'agir, de pen-\nser. Erasme de Rotterdam, Giordano Bruno, Spinoza, Bacon, Leibnitz,\nDescartes, se croient tous citoyens d'une même république, de la\ngrande république des savants. L'Europe recommence à sentir qu'elle\ntravaille à une oeuvre commune, à une forme {future} avenir de la civilisation\noccidentale. Les intellectuels de toutes les nations échangent des\nvisites, se dédient des livres, et discutent ensemble les grands pro-\nblèmes de leur époque. Avec une rapidité qui contraste étrangement\navec la lente allure des diligences et des bateaux à voiles, ils é-\nchangent leurs connaissances, leurs oeuvres poétiques sans se soucier\nde leur nationalité. L'un est hollandais, l'autre allemand, le troi-\nsième italien, le quatrième français et le cinquième un juif portu-\nguais. Mais que leur importe ! Tous ils éprouvent comme un bonheur,\nle sentiment d'être les députés de l'invisible parlement d'Europe,\nd'être chargés de veiller sur un précieux héritage, de posséder en\ncommun toutes les découvertes et les acquisitions nouvelles de l'es-\nprit. Qu'une comédie de Térence, disparue, soit soudain retrouvée\ndans un coin obscur d'Italie, aussitôt un cri d'allégresse retentira\nen Angleterre, en Espagne, en Pologne; les membres du cénacle jubi-\nleront comme si l'on venait de leur faire don d'un enfant ou d'une\nfortune. Dans le royaume {supra} national de l'humanisme, règne une élite",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 20,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 21,
+      "type": "content",
+      "text": "- 10 -\n\ninternationale, qui dans sa passion artistique méprise les querelles\npolitiques et sociales et s'élève au-dessus de leurs mesquines fron-\ntières. Pour la première fois depuis l'Empire romain, il s'avère\nqu'une pensée commune est possible en Europe et la joie de s'être\nenfin retrouvés grise les esprits d'une fulgurante ivresse. Tous ces\nhommes délivrés sentent que la richesse est rendue au monde. Les es-\nprits de l'antiquité dont le langage{leur} est redevenu familier ressusci-\ntent sous formes de statues, des continents disparus émergent de\nl'eau, l'imprimerie portée par d'invisibles ailes répand partout la\nparole spirituelle dont la semence germera. Et plus le monde devient\nvaste, plus les esprits seront tournés vers la joie; la surabondance\nde leur force, de leur vitalité, de leur confiance, créera entre\nautres le mouvement le plus impérissable qui {soit} {monument} fut : la Renaissance,\nqui est littéralement une naissance nouvelle de l'esprit. Proclamons\njalousement cette nouvelle forme d'union car elle marque, après une\nlongue période de guerre, de brutalité, de mésentente, l'apogée de\nl'ère nouvelle dans une Europe humanisée. Séparés par des milliers\nde lieues, par des semaines et des mois de voyage, les poètes, les\npenseurs, les artistes d'Europe sont plus intimement unis qu'à notre\nsiècle de perfection technique, d'automobiles, de chemins de fer et\nd'aéroplanes. L'instant du plus grand optimisme, celui de l'édifica-\ntion d'une Tour de Babel, semble revenu.\n\nMais au flux succède le reflux. Ces instants de fraternité\npassionnée sont suivis par des éléments contraires de haine et de\ndiscorde. La nature humaine ne peut pas vivre sans contrastes, en-\ncore une fois l'apogée marque l'instant de la chute la plus profonde.\nL'unité religieuse de la foi catholique qui depuis mille ans régnait\nsur l'Occident est détruite, les guerres de religion commencent, la\nRéforme anéantit la Renaissance, et avec la Renaissance finit la su-",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Einfügungen."
+    },
+    {
+      "page": 22,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 23,
+      "type": "content",
+      "text": "- 11 -\n\nprématie de la langue latine nouvellement créée. Cette fois encore\nl'idée européenne n'est plus qu'un torse, monument commencé qui sera\noublié avant que d'être terminé. Car les provisions de forces que les\nnations puisèrent dans la découverte de l'antiquité se transforment.\nComme il arrive toujours, la puissance devient orgueil. Chaque na-\ntion veut dominer à son tour, chacune veut créer une langue, une lit-\ntérature dignes de l'antiquité. Dans tous les pays, les poètes aban-\ndonnent la langue commune, le latin, pour écrire leurs chefs-d'oeuvre\ndans leur propre langue: Le Tasse et Arioste en Italie, Ronsard, Cor-\nneille et Racine en France, Calderon, Cervantès et Lope de Vega en\nEspagne, Milton et Shakespeare en Angleterre. Un concours semble s'ê-\ntre ouvert; on croirait que tous les peuples d'Europe sentent le de-\nvoir de se découvrir eux-mêmes devant l'aéropage de l'histoire, de don-\nner leur mesure, de prendre la succession de Rome dans la littéra-\nture mondiale. Le nationalisme littéraire vient de naître, cette forme\nrudimentaire et pacifique encore dans laquelle s'exprime la force cons-\nciente d'unenation. Pendant les trois siècles qui séparent la Renais-\nsance de la Révolution française, l'admirable fraternité de l'esprit\net des arts de l'humanisme s'éteint complètement.\n\nMais comme je l'ai dit au début, le désir d'union et de rap-\nprochement est une des parties immanentes de l'âme humaine et rien de\nce qui constitue notre être intime ne se laisse refouler à la longue.\nL'histoire universelle ne connaît que des pauses, et non des arrêts;\nsans cesse elle va de l'avant, poussée par le désir d'un lien plus éle-\nvé, par sa faculté d'amour spirituel; elle reste la même, tout au plus\nchange-t-elle de forme. Sa première forme symbolique fut la civilisa-\ntion romaine, la langue latine; après ce fut la religion, puis l'hu-\nmanisme avec son latin nouveau et ses sciences. Maintenant que l'u-\nnité de la langue vient d'être détruite par la naissance des langues",
+      "notes": "Typoskript."
+    },
+    {
+      "page": 24,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 25,
+      "type": "content",
+      "text": "- 12 -\n\nindividuelles de chaque pays, de l'Italie, de l'Espagne, de la France,\nde l'Angleterre, de l'Allemagne, elle cherche une nouvelle forme du\nsentiment de communauté, une nouvelle langue qui régirait toutes les\nlangues, et elle trouve la musique. Aux 17e et 18e siècles, les pion-\nniers de l'unité européenne ne sont plus les poètes, les théologiens,\nles savants, mais les musiciens. Ils sont les meilleurs représentants\ndu cosmopolitisme et ne forment qu'une seule et grande famille. A pei-\nne Monteverde et Palestrina ont-ils trouvé le \"stile nuovo\" qui libère\nle langage musical de ses anciennes entraves en lui permettant d'expri\nmer les sentiments dans toute leur ampleur, qu'immédiatement l'Europe\na senti la création d'idiome nouveau dans lequel les artistes de\ntous les pays s'entendront. Il leur est indifférent, à ces artistes,\nde savoir dans quel pays, dans quelle langue ils travaillent: \"Ubi ars,\nibi patria\". Partout où ils trouvent l'occasion d'exercer leur musique,\nils se sentent chez eux. Une nation offre à l'autre une hospitalité\nsans réserve. Les musiciens sont les grands voyageurs du 17e et du 18e\nsiècles, les émissaires de peuple à peuple. Rappelons-nous leurs inces-\nsants pèlerinages: le vieux Heinrich Schütz vient en Italie pour tra-\nvailler auprès de Gabrieli, Haendel vit à Naples et à Londres, Gluck\ntantôt à Vienne, tantôt à Paris. L'un des fils du grand protestant, du\nMaître Bach, s'installe à Milan, l'autre en Angleterre. L'Autrichien\nMozart est reçu à l'âge de quatorze ans à l'Académie de Bologne et ses\nchefs-d'oeuvre les plus connus \"Don Giovanni\", \"Cosi fan tutte\", \"le\nNozze di Figaro\" élèvent des paroles italiennes dans le ciel d'une mu-\nsique impérissable. Mais tandis que les Allemands et les étrangers du\nmonde entier immigrent en Italie, les Maîtres italiens à leur tour re-\ncherchent d'autres villes d'Europe. Porpora s'en va à Londres et à\nDresde, Piccini et Cherubini à Paris, Gimelli à Stuttgart, Caldara et\nSalieri à Vienne, Cimarosa à Petersburg. C'est à Vienne cependant que\nce dernier composa son oeuvre immortelle : \"Il matrimonio segrete\",",
+      "notes": "Typoskript."
+    },
+    {
+      "page": 26,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 27,
+      "type": "content",
+      "text": "- 13 -\n\ndans cette même Vienne où Metastasio écrit pour tous les musiciens de\ntous les pays les textes de leurs opéras. Cette grande famille d'ar-\ntistes cosmopolites vit au dessus des pays, au dessus des langues, au\ndessus des nations, fière de sa fraternité. Haendel, Mozart, Haydn,\nGluck, Spontini écrivent leurs opéras soit en Français, soit en An-\nglais, soit en Allemand, soit en Italien; le texte des lettres qu'ils\néchangent est souvent polyglotte et lorsqu'ils se combattent il ne\ns'agit jamais de questions de langues, mais toujours de questions\nd'art. Ils ne tendent dans leur musique qu'à exprimer des sentiments\nhumains, tous ils veulent être les prêtres d'un seul Dieu, les ser-\nviteurs d'une seule oeuvre commune.\n\nVous voyez donc, et c'est ce que j'ai désiré vous faire com-\nprendre, que le rythme du mouvement des peuples vers l'unité n'est\njamais interrompu. Après ces pauses et ces intervalles, il reprend\navec un nouvel élan dans un autre mode. Une Europe spirituelle domine\nl'Europe géographique depuis que les peuples se sont éveillés à la\nculture. Une science ou un art nouveaux brandissent l'étendard de l'u-\nnité. Mais la force combat l'esprit, la force détruit ce sentiment de\nfraternité. La Révolution et les guerres napoléoniennes créent des\narmées que l'on oppose les unes aux autres. L'idée de patrie n'est\nplus uniquement l'affaire des princes régnants, mais celle des nations.\nPar cette division des peuples, l'esprit devient absolument national.\nUne nouvelle marche régressive commence. La musique de Beethoven,\nde Schubert et plus encore celle de Wagner, de Chopin, de Rossini,\nde Verdi, supra-internationales jusque là redeviennent nationales a\nl'exemple de la philosophie et de la littérature. Un état qui, à cer-\ntains points de vue, dure jusqu'à nos jours, vient de commencer, ce-\nlui d'une autarchie, d'un isolement conscient et exclusif.\n\nMais à cet instant dangereux de divergence forcée, une grande\nvoix s'élève et fait entendre cette parole prophétique : \"Le temps",
+      "notes": "Typoskript."
+    },
+    {
+      "page": 28,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 29,
+      "type": "content",
+      "text": "- 14 -\n\nde la littérature nationale est révolu, le temps de la littérature\nmondiale a commencé.\" Qui a prononcé cette parole? Un poète sans\nnationalité, un homme qui n'a pas le sentiment de sa langue, qui\nn'a pas la compréhension et l'amour de son peuple? Un \"fuoruscito\",\nun exilé, un sans patrie? Non, c'est Goethe qui {l'a} dit, car plus\ncet esprit vieillit, plus il devient limpide, plus il cherche les\ngrands horizons. Lui qui, d'un {seul} coup d'oeil, embrasse le monde\nentier, ne peut s'arrêter au monde allemand, au point de vue allemand.\nConscient de son identité européenne, {avec} le poète allemand, le plus\ngrand de son pays, essaye de penser par l'âme des autres peuples. Il\ndit, et cette parole pourrait avoir été prononcée aujourd'hui, qu'à\nl'instant où l'on s'ingénie partout à créer des patries nouvelles,\nle penseur impartial qui peut s'élever au dessus de son époque devrai t\nchercher sa patrie partout et nulle part.\n\nVous voyez donc que l'esprit de Goethe qui possédait la réa-\nlité et prévoyait l'avenir reconnaît avec une admirable {divination} anticipa-\ntion, à une époque où il n'y avait encore ni chemins de fer ni avions,\nla nécessité d'une intime collaboration des nations, dictée par les\nprogrès de la technique. \"Le libre échange des pensées et des senti-\nments\", dit-il, {a été} augmente la richesse et le bien-être des hommes, au-\ntant que le libre commerce des denrées. Si ce point fut négligé jus-\nqu'ici, c'est qu'on manquait de lois stables qui auraient régi le\ntrafic international. Quelle sage et profonde parole à une époque\nqui ignorait tout de ces vérités ! Les premières années du XIXème\nsiècle la confirment. Sans aucun doute, Goethe pressentit à travers\nl'atmosphère les effluves qui émanent de l'union des âmes. Aux\nXVème, XVIe, XVIIe, XVIIIe siècles, des années passaient avant que\nl'influence littéraire et artistique d'un pays se fît sentir dans\nl'autre. Shakespeare attendit son traducteur pendant cent cinquante ans",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Einfügungen."
+    },
+    {
+      "page": 30,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 31,
+      "type": "content",
+      "text": "- 15 -\n\nMaintenant le système sanguin de l'Europe est alimenté par un flot\nunique. En France, en Allemagne, en Italie, en Angleterre, les hommes\nsemblent avoir des dispositions identiques; pour la première fois des\ntendances et des sentiments collectifs se font jour. Si le pessimisme\nlyrique d'un Byron, d'un Shelley, d'un Hölderlin, d'un Pouchkine, d'un\nMiezkeWicz se manifestent de la même façon et à la même époque dans\nles différents pays du monde, ce n'est pas uniquement l'effet du ha-\nsard. Le même phénomène se produit en 1848 lorsqu'éclate une explosion\npolitique qui se fait sentir simultanément dans les capitales d'Europe\nalors que naguère l'étincelle qui jaillissait mettait dix ou cent ans\nà embraser le monde. Pour la première fois le 19e siècle apprend à\nconnaître, à voir et à ressentir certains évènements d'une façon\nidentique et à lui propre, pour la première fois il sent que l'âme\neuropéenne est en train de naître et qu'au dessus de la littérature\nnationale, de la pensée nationale, il y a une littérature mondiale,\nune pensée européenne, une pensée humaine.\n\nMais aussitôt qu'un phénomène spirituel a été reconnu, aus-\nsitôt qu'un processus spirituel s'impose à nous dans son irréfutable\nclarté, nous sentons naître en nous la force d'accélérer la marche\nde cette évolution pour la faire aboutir rapidement.\n\nJ'ai essayé tout à l'heure de vous démontrer que l'unité spi-\nrituelle avait été réalisée en Europe à certains moments, mais il ne\ns'agissait là que d'une fluctuation instable de l'humeur des peuples,\nd'une fraternité vue d'un angle très personnel, d'une constellation\nspéciale propre à engendrer des sentiments cosmopolites. La pensée des\nEtats-Unis d'Europe n'apparaît qu'à la fin du 19ème siècle et semble\ndevenir très vite une nécessité politique, je dirais même une nécessi-\nté qui s'élève au dessus de la politique. Le postulat d'une Europe\ndont tous les pays s'uniraient en une grande communauté psychique et\néconomique, en un seul organisme, date d'il y a cinquante ans. Parmi\nles penseurs des temps modernes, c'est Nietzsche le premier qui de-",
+      "notes": "Typoskript."
+    },
+    {
+      "page": 32,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 33,
+      "type": "content",
+      "text": "- 16 -\n\nmande d'une façon catégorique et consciente qu'on renonce aux simu-\nlacres de la patrie en Europe pour donner aux esprits une conscience\nnationale au dessus du nationalisme, un sentiment de patrie {à l'égard de} pour la\n\"nouvelle Europe\". Pour Nietzsche qui fut un précurseur, qui devança\nl'esprit de son temps d'une manière quasiment tragique, il semble\nindiscutable que l'Europe, \"la petite presqu'île d'Asie\", comme il\nappelle notre continent, soit destinée à devenir une. \"Grâce à la mé-\nsentente maladive que l'animosité des nations a semé et sème toujours\nparmi les peuples\", dit-il, \" grâce à la politique dont les vues sont\ncourtes et les actions irréfléchies et qui ne {son action} semble pas prévoir\nqu'une politique dissolvante ne peut {constituer} qu'un régime d'entr'acte,\ngrâce à tout cela les symptômes qui expriment le désir de l'Europe\nd'être une passent inaperçus ou sont interprétés d'une façon menson-\ngere.\" Vous direz peut-être que la realite a cruellement démenti cette\nparole d'un philosophe, puisqu'un quart de siècle plus tard {dans l'histoire} la guerre\nla plus effroyable de l'humanité éclata entre les peuples. Mais dans\nson calcul des probabilités, Nietzsche avait prevu cette éventualité\nsans que la conviction qu'il nous communique n'en fut troublée. Le\npostulat de l'homme vers l'Europe Patrie peut être entravé par des\nrechutes mais cet arrêt momentané lui apporte un renfort de véhémence\net de profondeur. Celui qui croit à une idée ne peut être dérouté par\ncertains faits qui semblent la contredire, car une pensée dont on a\ncomplètement compris la nécessité possède en elle une force d'expan-\nsion invincible et l'intermède tragique de la guerre européenne appor-\nta peut-être à la pensée européenne la véhémence et la profondeur ré-\nclamées par Nietzsche et non encore prévues par la formule moins âpre\nde Goethe. Quelques années plus tard, dans des hymnes magnifiques, un\npoète lyrique, Emile Verhaeren, réclame l'union européenne basée sur\nla conscience d'une race commune. Ce poète belge vivant entre deux\nlangues, vivant entre deux peuples qui depuis des siècles n'ont jamais",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Einfügungen."
+    },
+    {
+      "page": 34,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 35,
+      "type": "content",
+      "text": "- 17 -\n\ncessé de se combattre, s'émut profondément d'apprendre qu'au delà\ndes mers un poète nommé Walt Whitman célébrait \"l'Americano\" comme\nl'homme d'avenir. En effet Walt Whitman proclame hautement que seul\nson peuple américain porte en lui les possibilités d'un avenir fécond\nqui lui conférera la suprématie mondiale. Révolté dans son orgueil,\nl'Européen Verhaeren chercha à répondre. L'Europe doit-elle vraiment\nrésigner ses ambitions ? Non, jamais. Elle qui pendant plus de deux\nmille ans fut la forge de l'idée, la sainte forge où naquirent tou-\ntes les grandes pensées du monde et cette architecture incomparable\nfaite du sang et de l'esprit de toutes les nations, la latine, la\ngermaine, l'anglosaxone, la slave, doit-elle vraiment abdiquer ? Non!\nLa perspective qu'elle remette son épée et son sceptre aux mains\nd'héritiers plus jeunes révolta l'ardent Verhaeren. Il détestait les\ndiscours pusillanimes où il n'était question que de la chute des pays\nd'Occident, il ne considérait pas notre mission sur terre comme termi-\nnée, il ne croyait pas que le soleil levant dût oublier désormais\nd'éclairer l'Europe. Verhaeren avait foi en la vitalité de l'Europe;\nànotre tour, nous avons foi en lui. Il n'estimait pas comme épuisées\nles forces de notre continent, il croyait que les nations d'Europe\nétaient appelées à diriger le monde, à protéger, à le maintenir.\nElles y réussiraient pour peu qu'elles sussent unir leurs forces et\nleurs efforts, niveler les classes, oublier les races afin de ne pas\nperdre en luttes stériles ce qui pourrait constituer leur unité passion-\nnée. Verhaeren voyait avec enthousiasme le lien qui unirait toutes\nles nations d'Europe et dont l'élément principal serait une sincère\net réciproque admiration de leurs exploits respectifs.\n\n\"Si nous nous admirons vraiment les uns les autres\nDu fond même de notre ardeur et notre foi,\nVous, les penseurs, vous les savants, vous les apôtres\nPour les temps qui viendront, vous extrairez la loi.\"",
+      "notes": "Typoskript."
+    },
+    {
+      "page": 36,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 37,
+      "type": "content",
+      "text": "- 18 -\n\nSi nous faisons abstraction des contrastes, si nous n'essayons pas\nd'établir une hiérarchie des états d'Europe, si nous ne soulignons\npas malicieusement les divergences au lieu de proclamer joyeusement\nles supériorités d'autres peuples, nous acquerrons cette force mo-\nrale qui fut toujours décisive dans le cours de l'histoire. Unissons-\nnous, nous autres Occidentaux, héritiers d'une vieille culture, si\nnous voulons garder notre rôle de chefs, si nous voulons terminer\nl'oeuvre commencée il y a deux mille ans. Sacrifions tous nos diffé-\nrends, toutes nos jalousies à la seule passion qui serve un grand but,\nla fidélité à notre passé commun, la foi en notre avenir commun.\n\nVous voyez qu'avant la guerre on approchait de cet idéal qui\nest une unité d'ation et de pensée en Europe. Un philosophe le pro-\nclame avec une conviction basée sur la raison; un poète lyrique avec\ntout le feu que lui inspire son enthousiasme. Une troisième oeuvre\nimportante de cette époque traduit par des exemples vécus sa profes-\nsion de foi en les Etats-Unis d'Europe. Je parle du roman de Romain\nRolland, \"Jean-Christophe\". Un poète essaye de réunir les voix des\npeuples en une grande symphonie homogène, d'apaiser comme Orphée la\nlutte des éléments, grâce à l'esprit de la musique. Dans ce livre le\nhéros de Romain Rolland constate tristement : \"L'Europe d'aujourd'hui\nn'a plus de livre commun, plus un poème, plus une prière, plus un acte\nde foi qui appartienne à tous et voilà une honte qui devrait anéantir\ntous les artistes contemporains. Il n'en est pas un qui écrive pour\ntous, qui pense pour tous\". Jean-Christophe voulait suppléer à cette\npénurie. Les contrastes entre les nations qui jusque là avaient ren-\ndu une jonction difficile, devaient servir maintenant d'élément de\nconcorde. Ce roman était destiné à être le catéchisme de la compré-\nhension mutuelle, d'une meilleure entente, pour faciliter la rançon\nde la dette qu'à toute nation envers l'autre. Jean-Christophe est un",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Einfügungen."
+    },
+    {
+      "page": 38,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 39,
+      "type": "content",
+      "text": "- 19 -\n\nAllemand muré dans son Allemagne, il ne comprend ni les autres peu-\nples, ni les autres nations. Le voilà à Paris où tout lui semble é-\ntranger, mensonger et stupide. Il rencontre un ami, un Français\nOlivier, qui lui apprend à pénétrer ce qu'il y a de spécial dans la\nculture française. Ils s'élèvent l'un l'autre. La force allemande\nreconnaît l'intelligence française, l'action créatrice s'unit à l'i-\ndée créatrice. Mais l'Allemagne et la France ne constituent qu'une\ndouble note dans la gamme des pays et Romain Rolland sent lui-même\nque la dernière harmonie n'est pas encore atteinte. Il fait surgir\nGrazia, originaire d'un troisième pays et d'une importance symboli-\nque. La force aveugle de l'Allemand, la limpidité du Français se trou-\nvent complétées par la belle maturité de l'esprit italien. \"Le sourire\ndu ciel italien\" nous dit-il, \"éclaire soudain la place du combat et\nl'atmosphère purifiée resplendit d'une lumière dorée. Tant au point\nde vue musical qu'au point de vue humain la symphonie de ce livre ne\nse trouve complètement réalisée qu'en Italie. En pénétrant ces trois\nnations Jean-Christophe est devenu Européen, il a atteint l'élévation,\nla liberté intime et la justice psychique qui subordonnent l'orgueil\nà la raison.\n\nJe n'ai nommé que trois oeuvres, trois hommes seulement qui\nconsciemment avant la guerre eussent réclamé l'unité de l'Europe.\nD'innombrables autres partageaient leur croyance sans oser l'affirmer\nhautement. En effet l'époque d'avant-guerre, avec son commerce floris-\nsant, avec ses pays auxquels la guerre n'avait rien encore fait perdre\ndeleur vigueur, semblait inciter à un optimisme absolu. Certains d'entre\nvous se rappelleront encore l'heureux état d'esprit du début du XXème\nsiècle. Une émotion quasi-religieuse secoue l'humanité lorsque se\ncroie sur le point de s'unir, et dans ces instants d'exaltation, le\nlointain semble près, l'irréalisable réalisé. Voilà comment nous, les\njeunes gens de ce siècle, nous qui avions foi en notre époque, qui",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Einfügungen."
+    },
+    {
+      "page": 40,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 41,
+      "type": "content",
+      "text": "- 21 -\nle gré de ceux-ci, et tous ces hommes sont moulés sur la même forme.\nOr cette forme nouvelle procède directement de l'étroite communauté\nqui s'est établie entre les peuples et les nations. Une technique\ncommune supprime en quelque sorte les distances et nous pousse les\nuns vers les autres dans l'espace et dans le temps. L'aéroplane sur-\nvole des étendues immenses; le voyage le plus fantastique n'est-il\npas celui que nous accomplissons avec la T.S.F où un tour de vis de\n1 millimètre permet à notre oreille d'être en une minute à Rome, à\nMoscou, à Madrid, à Londres. Les progrès de la technique nous donnent\ndes possibilités de simultanéité et de présence que ~~xxxx~~ ne soupçon-\nmaient pas les générations précédentes. Ce qui importe à une nation\npeut être transmis à l'autre, le temps d'un soupir, et il est impro-\nbable que notre sentiment puisse rester étranger à cette impulsion\nvers le collectivisme. Les acquisitions de l'esprit technique nous\npoussent les uns vers les autres avec une force surhumaine. Sans la\nnature individuelle qui reste toujours mobile, et sans cette autre\npuissance qui entraine les nations vers une jalouse indépendance, il\ny aurait longtemps que notre unité serait accomplie. Cependant les\nforces nationalistes ont également mûri dans l'adversité, leurs for-\nces se sentant opprimées {elles} se sont décuplées, et voilà pourquoi le pro-\nblème de {la} cette lutte entre le nationalisme et l'internationalisme, de\nl'État ou {du} d'un \"Surétat\" européen est arrivé au point le plus dramati-\nque de l'histoire.\nJe {me suis} efforcé de vous démontrer en grandes lignes comment\nau cours des siècles les deux tendances contraires, l'une qui s'effor-\nçait d'accentuer son nationalisme {et} l'autre son désir d'unité {surna-} \ntionale se relayaient avec le rythme du flux et du reflux. Pour la\npremière fois aujourd'hui nous les trouvons en opposition ouverte; ja-\nmais la séparation d'un état à l'autre ne fut plus grande, plus vhé-\nmente, plus consciente, plus organisée en Europe que de nos jours.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen und Einfügungen."
+    },
+    {
+      "page": 42,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 43,
+      "type": "content",
+      "text": "- 22 -\nGrâce à des décrets, à des mesures économiques ou autarchiques, un\nétat s'isole de intentionnellement des autres. Mais tout en s'isolant,\nil reste persuadé que l'économie et la politique européenne ont un\ndestin commun, qu'aucun pays ne pourra se soustraire à une crise\nmondiale, parce que, comme le dit Goethe dans la seconde partie de\nFaust : \"les soucis ne s'arrêtent pas devant les portes fermées, ils\npénètrent {à travers} par le trou de la serrure.\" Le nationalisme et le surma-\ntionalisme luttent maintenant dans un corps à corps qui sera décisif.\nIl n'y a plus moyen de reculer. Le problème de savoir si les États\nd'Europe devront rester divisés par l'inimitié économique et poli-\ntique ou si, renonçant à ce conflit qui use leurs forces, ils s'u-\nniront définitivement pour ne former qu'un grand organisme au-dessus\ndes états, ce problème va être résolu. Tous, nous sentons l'électri-\ncité dont l'air est chargé et les étincelles qui jaillissent sans\ncesse du choc des contrastes; tous, nous sentons qu'une de ces deux\ntendances devra prendre le dessus. Laquelle sera victorieuse ? L'Eu-\nrope continuera-t-elle son oeuvre autodestructive ou deviendra-t-elle\nu n e ? Ne m'en veuillez pas si je ne dis pas, comme beaucoup d'entre\nvous le désireraient : la raison vaincra, demain, après-demain nous\naurons une Europe unie où il n'y aura plus de guerres, plus de politi-\nque jalousement circonscrite, plus de haines destructrices! Hélas, non\nje n'ose pas vous le promettre, pardonnez-moi ce manque d'audace! Mais\nnotre génération qui depuis un quart de siècle constate que les évè-\nnements politiques vont à l'encontre de la raison, notre génération qui\nvoit sans cesse différer les décisions les plus pressantes en attendant\nqu'il soit trop tard, notre génération tant éprouvée et tant déçue par\nles folies de la guerre et les errements d'après guerre, n'a plus cette\nfoi enfantine, cet espoir solide en un clair et rapide dénouement . Elle\nconnait la puissance des forces adverses, le pouvoir des intérêts mes-\nquins et immédiats qui s'opposent aux grandes idées nécessaires, indis-",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 44,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 45,
+      "type": "content",
+      "text": "- 23 -\npensables, elle connait enfin la force de l'égoisme contre l'esprit\nqui prêche la fraternite. Non, ce n'est pas encore demain que nous ver-\nrons une Europe unie. Peut-être devrons-nous attendre dix ans, vingt\nans encore, peut-être ne sera-t-il pas donné à notre génération de le\nvoir. Mais notre conviction n'a pas besoin d'être confirmée par les\nfaits pour que nous la sentions juste; aussi chacun peut-il dès au-\njourd'hui et de par lui-même se naturaliser européen, se dire citoyen\nde cet état non encore créé. Il peut malgré les frontières toujours\nexistantes considérer notre monde si dévers comme une seule unité qui\nfraternise. Fantasmagorie peut-être, mais celui qui sait ne pas voir\nl'état de choses actuel et ses usages vieillis atteint au moins\nà une liberté personnelle en opposition avec notre époque insensée.\nIl peut sourire des artifices vains et mensongers d'une diplomatie di-\nlatoire, il peut mépriser l'hostilité haineuse des journaux de tous\nles partis et les provocations de nation à nation, il peut constater\navec pitié la maladive irascibilité d'un peuple contre l'autre. Libre,\nil pourra défendre son âme de cette haine pestiférée qui tel un nuage\nde gaz asphyxiants plane sur notre terre. Volontairement hors du con-\nflit il sera en mesure de mieux comprendre l'élément essentiellement\nhumain de la question, il sera un Juste qui ne connaissant pas de pré-\njugés pourra selon l'admirable mot de Goethe \"Etre sensible au destin\nde chaque nation comme au sien propre.",
+      "notes": "Typoskript."
+    },
+    {
+      "page": 46,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 47,
+      "type": "color_chart",
+      "text": "Histoire\nde l'idée européenne",
+      "notes": "Deckblatt mit handschriftlichen Notizen in Bleistift und Tinte. Farbskala/Grauskala für Archivierung rechts."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "S.1-20: Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die handschriftlichen Korrekturen sind deutlich und wurden entsprechend der Anweisungen transkribiert.; S.21-40: Der Text ist sehr gut lesbar, da es sich um ein sauberes Typoskript handelt. Die wenigen handschriftlichen Korrekturen sind eindeutig zuzuordnen.; S.41-47: Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen sind eindeutig zuzuordnen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ],
+    "total_chars": 43347,
+    "total_words": 6977,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

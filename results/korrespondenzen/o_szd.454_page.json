@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.454",
+    "title": "Friedrich Walther Bischoff an Stefan Zweig, 1928-10-05, SZ-SAM/AK.17",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.454/IMG.1",
+      "https://gams.uni-graz.at/o:szd.454/IMG.2",
+      "https://gams.uni-graz.at/o:szd.454/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friedrich Walther Bischoff an Stefan Zweig, 1928-10-05, SZ-SAM/AK.17\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.457370+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wein-Terrasse „Vier Jahreszeiten“ 5.10.28 Breslau, Gartenstr. 66/70",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "L. Th. Zweig – Sie müssen\nmir sofort schreiben, wenn\nSie nach Berlin kommen\n\nLieber Herr Stefan Zweig\nAlford[?] Brenner hat gestern\nein Einladung aus Südwest[?]\n„lebt uns gültig u. willkommen“\nmein Gezwungen u. ich füßen[?]\nmich Ihnen sehr nahe mein\nwert Güt F. W. Gischoff\nHerzliche Grüßen, Ihr\nFranzjosephIngle[?] Otto[?] [?] \nRobert Marlitz.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich, Tinte. Enthält Poststempel 'BRESLAU 5.10.28' und Briefmarke '8' (Deutsches Reich). Der Text ist teilweise schwer lesbar und weist Korrekturen/Überlagerungen auf."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "L. Th. Zweig – Sie müssen\nmir sofort schreiben, wenn\nSie nach Berlin kommen\n\nLieber Herr Stefan Zweig\nAlford[?] Brenner hat gestern\nein Einladung aus Südwest[?]\n„lebt uns gültig u. willkommen“\nmein Gezwungen u. ich füßen[?]\nmich Ihnen sehr nahe mein\nwert Güt F. W. Gischoff\nHerzliche Grüßen, Ihr\nFranzjosephIngle[?] Otto[?] [?] \nRobert Marlitz.",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere die Eigennamen und einige Wörter im Textkörper (z.B. 'Alford', 'Südwest', 'füßen').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 755,
+    "total_words": 115,
+    "language_detected": "",
+    "language_match": true
+  }
+}

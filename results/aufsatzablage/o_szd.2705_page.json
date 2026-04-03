@@ -1,0 +1,144 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2705",
+    "title": "Chartres, Die Kathedrale von",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA33.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2705/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2705/IMG.9"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        },
+        {
+          "name": "Richard Friedenthal",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118535579"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, roter Kugelschreiber",
+        "hands": [
+          "Erwin Rieger",
+          "Richard Friedenthal",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Chartres, Die Kathedrale von\n- Signatur: SZ-AAP/W-AA33.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, roter Kugelschreiber\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:57.308307+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Chartres, Die Kathedrale von\n\nin: Zeit u. Welt\n\nDie Kathedrale von\n\nChartres",
+      "notes": "Handschriftliches Dokument auf einem gefalteten Blatt. Der obere Teil ist eine Notiz, der untere Teil scheint ein Titelblatt oder eine Beschriftung zu sein."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Die Kathedrale von\n\nChartres",
+      "notes": "Rückseite des unteren Teils des gefalteten Blattes."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Chartres, Die Kathedrale von\n\nin: Zeit u. Welt",
+      "notes": "Vorderseite des oberen Teils des gefalteten Blattes."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Die Kathedrale von\n\nChartres",
+      "notes": "Rückseite des unteren Teils des gefalteten Blattes (durchscheinend)."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Chartres, Die Kathedrale von\n\nin: Zeit u. Welt\n\nDie Kathedrale von\n\nChartres",
+      "notes": "Vorderseite des gefalteten Blattes."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 9,
+      "type": "color_chart",
+      "text": "Chartres, Die Kathedrale von\n\nin: Zeit u. Welt\n\nDie Kathedrale von\n\nChartres",
+      "notes": "Dokument mit Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und deutlich geschrieben. Die Wiederholungen in den Scans resultieren aus der Faltung des Blattes.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 330,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

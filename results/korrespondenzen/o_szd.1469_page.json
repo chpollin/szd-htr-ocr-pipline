@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1469",
+    "title": "Brief an Warren P. Munsell vom 22. Juni 1940, SZ-AAP/B3.33",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1469/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1469/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1469/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Warren P. Munsell vom 22. Juni 1940, SZ-AAP/B3.33\n- Signatur: SZ-AAP/B3.33\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:35.536136+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                    22nd June 1940.\n\nThe Theatre Guild Inc.\n245 West 52nd Street,\nNew York City.\n\nDear Mr. Munsell,\n\n          Thank you very much for your\nletter of June 7th. I hope that you will be\nable to settle all the outstanding questions\nsatisfactorily. I for my part have until the\npresent moment, the 22nd June 1940, not yet received\nany information from the International Copyright\nBureau about the whole option deal, I do not know\nthe conditions, I do not know the sums paid over,\nand I for my part have after so many months not\nreceived a statement about it nor a single penny\nfrom this deal.\n\n          As all the communications with\nFrance are now interrupted it is impossible for\nme to get any informations from Jules Romains\nabout the French version, and I am afraid that\nbefore the end of the war the situation will\nnot be cleared up completely.\n\n          I am sorry about all the dif-\nficulties which have arisen. This would never\nhave happened had I always been informed\ncompletely and had not facts and agreements kept\nfrom me for months and years instead of asking\nmy consent and informing me what was going on.\n\n                               Yours sincerely,",
+      "notes": "Typoskript auf Briefpapier. Die Seitenzahl '3' ist handschriftlich in roter Tinte oben rechts vermerkt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Das Dokument wurde mit einer Farb- und Grauskala für Archivierungszwecke fotografiert. Der Text ist identisch mit Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1230,
+    "total_words": 199,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

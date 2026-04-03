@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1350",
+    "title": "Postkarte an Erich Ami Kaemmerer vom 25. Januar 1938, SZ-SHB/B3.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1350/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1350/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Erich Ami Kaemmerer vom 25. Januar 1938, SZ-SHB/B3.2\n- Signatur: SZ-SHB/B3.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:28.110781+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correio Aereo Air Mail\nPOR AVIÃO\nPAR AVION\nEngland / Inglaterra\nE. A. Kaemmerer Esqr\nCumberland Hotel\nMarble Arch\nLondon",
+      "notes": "Adressseite der Postkarte. Enthält gedruckte Post-Elemente und handschriftliche Adressierung. Poststempel: LISBOA 25 JAN 38."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Kaemmerer, ich bin\naufrichtig betrübt Sie zu ver-\nsäumen, es wäre mir ein rest-\nliches Bedürfnis gewesen, Sie wieder-\nzusehen, ehe Sie in die / zur Zeit\nvon Lande erbauliche / östliche\nWelt zurückkehren. Aber ich bin\nauch der üblichen Nebelflucht\naus London nur hier in dem\nherrlich sonnigen Portugal; wie\nleide, wie jammerschade, ich habe\neuch, als ich Ihre Ankündigung\nIhres Kommens erhielt also so\nsehr auf Sie gefreut! Mit vielen\nGrüßen aus Windes[?] \nEstoril / Portugal / Stefan Zweig\nHotel Atlantico",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Das Wort 'Windes' ist schwer lesbar, möglicherweise 'Windesheim' oder ein Schreibfehler für 'Windes' (als Teil eines Ortes oder Grußes)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Die Transkription folgt den Regeln der diplomatischen Wiedergabe.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 637,
+    "total_words": 105,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

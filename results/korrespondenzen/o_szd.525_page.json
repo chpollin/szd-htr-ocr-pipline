@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.525",
+    "title": " Unidentified an Stefan Zweig, 1933-04-17, SZ-SAM/AK.233",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.525/IMG.1",
+      "https://gams.uni-graz.at/o:szd.525/IMG.2",
+      "https://gams.uni-graz.at/o:szd.525/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1933-04-17, SZ-SAM/AK.233\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.233\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:15.227115+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "G 3697 Schloss Kyburg vom Flugzeug aus gesehen",
+      "notes": "Vorderseite einer Ansichtskarte mit Luftaufnahme von Schloss Kyburg. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herren\nDr. Stefan Zweig,\nSchriftsteller\nSalzburg\nOesterreich\n\n17/IV 33.\n\nSehr verehrter Herr\nDoktor,\n\nHerzliche Grüße von\neinem schönen Ausflug\nsendet Ihnen eine\nunbekannte Zürcher\nVerehrerin.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (Zürich) vorhanden. Am linken Rand vertikal geschrieben: 'Warm [?] [?]'. Am rechten Rand vertikal gedruckt: 'Luftphoto Aviafoto heider Basel'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die handschriftlichen Passagen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 238,
+    "total_words": 33,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1157",
+    "title": "Friderike Zweig an Anna Meingast, o. D., SZ-SAM/B11.16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1157/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1157/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, o. D., SZ-SAM/B11.16\n- Signatur: SZ-SAM/B11.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.550909+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Liebe Frau Meingast,\nvielen herzlichen Dank\nfür Ihre so lieben\nWünsche und auch Willi\nschönen Dank.\nMit den Geburtstagen\nkönnen mein Mann und\nich recht zufrieden sein:\nwir haben sie beide\nwirklich gut verbracht u.\ndeshalb sind die lieben\nWünsche besonders erfreu-\nlich gewesen.",
+      "notes": "Die Handschrift ist gut lesbar. Das 'u.' am Ende der zehnten Zeile steht für 'und'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Es tut uns sehr leid,\ndass in S. Nebel ist.\nWir hatten zwar wenig\nSonne bisher, aber doch\nklares Wetter und\nmein Mann ist wirklich\nam besten Wege sich auszu=\nruhen.\nHoffentlich ist der grosse\nWilli und Sie recht\nwohl!\nNochmals vielen Dank\nund gute Grüsse\nvon Ihrer\nFriderike Zweig",
+      "notes": "Das 'S.' in der zweiten Zeile bezieht sich vermutlich auf einen Ortsnamen (z.B. Salzburg). Das 'auszu=\nruhen' ist am Zeilenende getrennt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift von Friderike Zweig ist gut zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 557,
+    "total_words": 94,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

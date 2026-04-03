@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.816",
+    "title": "Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.35",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.816/IMG.1",
+      "https://gams.uni-graz.at/o:szd.816/IMG.2",
+      "https://gams.uni-graz.at/o:szd.816/IMG.3",
+      "https://gams.uni-graz.at/o:szd.816/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.35\n- Signatur: SZ-AAP/B1.35\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:34.349066+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig Esq.\n49,Hallam Street\nLondon W.1\n\nENGLAND\n\nRef.\n● Bahnhofsbuchhandlungen 19.Mai 1937 /H\n\nSehr verehrter Herr Dr. Zweig:\n\nWir haben uns auf Grund Ihrer Beschwerde sofort mit der Fa.Karl Schmel-\nzer in Verbindung gesetzt,die die sämtlichen Bahnhofsbuchhandlungen\nOesterreichs besitzt.Wir haben seinerzeit mit Schmelzer eine Verein-\nbarung getroffen,derzufolge er mit 50% Rabatt beliefert wird,unter\nder ausdrücklichen Bedingung,dass er unsere gangbarsten Verlagswerke\n- vor allem also die Bücher Stefan Zweigs - in den Bahnhofsbuchhand-\nlungen von Wien,Salzburg,Innsbruck und den Kurorten ständig in der\nersten Reihe aufliegen lässt.\nDa wir auf Grund dieser Vereinbarung verlangen können,dass diese Be-\ndingungen eingehalten werden,haben wir gestern Schmelzer energisch\ngeschrieben.Er hat unser Schreiben gar nicht abgewartet,sondern\nschon auf Grund der telephonisch übermittelten Beschwerde uns den\nhier im Original beiliegenden Brief gesandt.\nAus unserer Statistik geht hervor,dass Schmelzer tatsächlich Ihre\nBücher sehr gut verkauft.Seine Erklärung,dass der Feiertags-Verkauf\nso unvermutet stark einsetzte,dass die Bestände zum Teil ausgingen,\nist glaubhaft.Jedenfalls haben wir veranlasst,dass sofort eine Er-\ngänzung stattfindet.\nIm allgemeinen werden die Bahnhofsbuchhandlungen tatsächliche Neu-\nheiten verkaufen,daneben aber selbstverständlich auch Neuauflagen,\ndie vom Publikum verlangt werden.Schmelzer bestellt selbstverständ-",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Seite ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nlich immer nur das,was er absetzt.Es hätte also keinen Sinn,ihm\nschwer verkäufliche Bücher,wie z.B. Albertini oder Gregor aufzu-\ndrängen.\nWir bitten Sie, das Originalschreiben von Schmelzer zurückzusenden\nund sind im voraus bestens dankend und Sie begrüssend\n\nIhre sehr ergebenen\n[Unterschrift]",
+      "notes": "Typoskript auf Geschäftspapier, Fortsetzung des Briefes. Die Unterschrift ist handschriftlich (Tinte)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift auf Seite 3 ist nicht entzifferbar, wurde aber als solche markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2504,
+    "total_words": 319,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

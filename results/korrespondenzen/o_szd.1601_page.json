@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1601",
+    "title": "Brief an Richard Friedenthal vom 10. Dezember 1924, SZ-AAP/B2.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1601/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1601/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1601/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 10. Dezember 1924, SZ-AAP/B2.6\n- Signatur: SZ-AAP/B2.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:46.201975+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, am 10. Dezember 1924\n\nLieber Herr Doktor!\n\nEben von einer Reise zurückgekehrt, bekomme ich Ihren lie-\nben Brief, aus dem ich entnehme, dass Ihre Gedichte schon erschienen sind,\ndie ich {lieber} eiligst reklamiere, da ich kein Exemplar davon bekommen habe. Bit-\nte schicken Sie mir es bald zu, Sie hören dann ausführlicher von mir.\nGleichzeitig möchte ich Ihnen dringend raten, auch ein\nExemplar an meinen Freund Felix Braun, Wien XIX. Sieveringerstrasse\n191 zu schicken, den Sie im Manuskript sehr begeistert haben und der\nsich Ihrer vielleicht wohl auch öffentlich annehmen wird.\nVerzeihen Sie die Eile: ich bin vor einer halben Stunde\nvon einer dreiwöchentlichen Auslandsreise zurückgekehrt.\nIhr herzlich ergebener\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Einfügung 'lieber' über der Zeile, Unterschrift Stefan Zweig in violetter Tinte)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung über das Dokument gelegt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Einfügung 'lieber' wurde gemäß den Regeln als {lieber} transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 740,
+    "total_words": 112,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

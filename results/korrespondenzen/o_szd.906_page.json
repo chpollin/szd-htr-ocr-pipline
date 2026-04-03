@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.906",
+    "title": "Brief an Frans Masereel vom [26. Januar 1924], SZ-LAS/B1.27",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.906/IMG.1",
+      "https://gams.uni-graz.at/o:szd.906/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [26. Januar 1924], SZ-LAS/B1.27\n- Signatur: SZ-LAS/B1.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:42.317652+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nTrés l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. {GUTENBERG 20-53\n\" 20-54\n\" 20-55\nINTER 719\nParis, le\n\nF. MOLLARD, PROP RE\n\nLieber Frans, merci de tout\ncoeur, je me tiens reconnu\net j'aurai[?] desormais peur de\nla police, si ton portrait paraîtra.\nMa chere epouse arrivera Jeudi\nsoir et nous te telefonerons\npour dejeuner ou diner ensemble.\nElle, elle apportera des nouvelles\nfraiches de Paule a ta femme.\nA bientot mon vieux\nStefan\n\nEAU COURANTE CHAUDE ET FROIDE DANS TOUTES LES CHAMBRES\nHOT AND GOLD RUNNING WATER IN EVERY ROOM\nCHAMBRES ET APPARTEMENTS AVEC BAIN PRIVÉ _ ROOMS AND SUITS WITH BATH",
+      "notes": "Brief auf Hotelbriefpapier. Der handschriftliche Text ist in französischer Sprache verfasst. Das Wort 'j'aurai' ist leicht unsicher lesbar, da das Ende des Wortes etwas verschliffen ist."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Unten mittig befindet sich ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift von Stefan Zweig ist klar erkennbar. Einzig bei 'j'aurai' besteht eine minimale Unsicherheit aufgrund der Schreibweise.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 627,
+    "total_words": 106,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

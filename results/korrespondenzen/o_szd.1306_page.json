@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1306",
+    "title": "Brief an Heinrich Glücksmann vom 11. September 1911, SZ-SEF/B15",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1306/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1306/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1306/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1306/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1306/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Heinrich Glücksmann vom 11. September 1911, SZ-SEF/B15\n- Signatur: SZ-SEF/B15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.354599+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8\nWIEN, 11. Sept. 1911\n\nVerehrter Herr Director,\n\nes war mir\nungemein bedauerlich von Ihrer Er-\nkrankung zu vernehmen, die mich\nhinderte Ihnen meinen aufrichtigen\nDank für die schöne Darbietung von\nVerhaerens Werk {selbst} sagen zu können.\nIch habe mit lebhaftester Freude ge-\nsehen, wie alle Künstler unter der\nwirklich hingebungsvollen Führung\nSteinert's an diesen heissen Tagen keine\nMühe scheuten, um dies eine doch herben\nund eigentlich wenig zugänglichen\nStück zu einem Erfolge zu verhelfen und\nich freue mich, dass das verdient[?] dies\nTheaters (wenn auch lange nicht genug)\nanerkannt würde. Ich habe auch so-\nfort Herrn Verhaeren in diesem Sinne",
+      "notes": "Briefkopf gedruckt, Text handschriftlich. 'selbst' wurde über der Zeile eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "telegrafisch berichtet und ich zweifle\nnicht, dass auch er Ihnen innig Dank\nwissen wird.\n\nDarf ich eine Bitte anfügen?\nIch habe heute zwei Dutzend Briefe von\nBekannten und Unbekannten aus den\nSommerfrischen bekommen, die mir alle\nschreiben, wie sehr sie sich dem „Kloster“\nentgegenfreuen. Nun möchte ich bitten,\nauch falls der Besuch jetzt kein gün-\nstiger sein sollte, jedenfalls noch eine\nAufführung Anfangs October zu wagen,\num den vielen Gelegenheit zu geben, die-\nse wirklich meisterliche Darstellung zu\nsehen, die jetzt noch fern von Wien sind.\n\nNochmals meinen innigen Dank!\nWir sind in diesen Tagen der Proben\nvele der Herren, die an dem Werke\nhalfen, persönlich sehr wert geworden,\nvor allem Herr Glücksmann und Herr\nSteinert, die jedem Wunsche gütigst\nentgegenkamen, und mir - falls sich",
+      "notes": "Fortsetzung des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "wie ich hoffe, auch mit eigenem Werke\nGelegenheit ergeben sollte - ein {weiteres} Zusammen-\nwirken als fremde erscheinen lassen\n\nIn aufrichtiger Ergebenheit\n\nStefan Zweig",
+      "notes": "Schluss des Briefes. 'weiteres' wurde über der Zeile eingefügt."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "wie ich hoffe, auch mit eigenem Werke\nGelegenheit ergeben sollte - ein {weiteres} Zusammen-\nwirken als fremde erscheinen lassen\n\nIn aufrichtiger Ergebenheit\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 4, jedoch mit Farbskala und Lineal überlagert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar. Die Ergänzungen sind eindeutig als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1806,
+    "total_words": 277,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

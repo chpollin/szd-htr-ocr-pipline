@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1205",
+    "title": "Brief an Anna Meingast vom 27. April 1934, SZ-SAM/B7.35",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1205/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1205/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 27. April 1934, SZ-SAM/B7.35\n- Signatur: SZ-SAM/B7.35\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.686775+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place                                London, den 27.April 1934.\n\nLieber Frau Meingast!\n\n        Herzlichen Dank für Ihren Brief. Wenn Sie jetzt\nunbeschäftigt sind, so wäre ich Ihnen dankbar, wenn Sie von\nunserem Riesenfolio-Hauptbuch vielleicht eine handliche Ab-\nschrift anfertigen könnten in der Form, dass Sie auf ein-\nzelnen Blättern oder mehreren Blättern immer den Stand je-\ndes Buches zusammenfassen. Natürlich könnte man alle Vor-\nverhandlungen und Anfragen, die dann durch das wirkliche\nErscheinen schon erledigt sind, einfach beiseite lassen.\nEs wäre mir nur natürlich angenehm, auf der Reise dann an\neiner zweiten Stelle ein solches Exemplar zu besitzen, das\nja nicht so vollständig sein muss und vielleicht machen Sie\nsich da einen Plan zurecht. Manche Bücher, die wenig über-\nsetzt wurden und über die keine Verhandlungen gepflogen wur-\nden, brauchen ja gar kein eigenes Blatt.\n        Bitte grüssen Sie alle im Hause, die zweibeinigen\nund die vierbeinigen Inwohner.\n\nHerzlichst Ihr\n\nStefan Zweig",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein maschinengeschriebenes Dokument handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1021,
+    "total_words": 148,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

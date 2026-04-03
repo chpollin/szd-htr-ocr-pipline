@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1406",
+    "title": "Brief an Stefan Zweig vom 29. Juli 1939, SZ-LAS/B2.8",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1406/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1406/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1406/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 29. Juli 1939, SZ-LAS/B2.8\n- Signatur: SZ-LAS/B2.8\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.780889+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                 50\n\nSaint-Avertin, le 29 Juillet 1939\n\n\n\nMon cher Ami,\n\nMerci de votre lettre rassurante. Je crois que tout s'ar-\nrangera très bien.\n\nA ce propos, je me permets de vous faire une petite\nremarque. Il serait peut-être nuisible à nos intérêts que\nnous nous servions de cette thèse, que le sujet et le titre\nde \"Volpone\" ont été créés par Ben Jonson et existent en\ndehors de notre adaptation.\n\nEn effet, j'ai soutenu âprement la thèse contraire\nvis-à-vis de la société qui réalise le film, et qui était\nbien décidée, à l'origine, à se passer totalement de nous\net à faire soi-disant directement appel à l'oeuvre de Ben\nJonson. C'est ~~en~~ prétendant que le sujet avait été entière-\nment transformé par nous, et que même le titre était\nnouveau (le vrai titre de Ben Jonson étant \"Volpone ou le\nrenard\") que j'ai réussi à obtenir le versement de droits\nd'auteur. Il ne faudrait donc pas que maintenant, cette\nsociété pût, si elle venait à connaître vos déclarations,\nen tirer argument contre nous.\n\nRecevez toutes nos amitiés.\n\nJules Romains",
+      "notes": "Die Unterschrift ist handschriftlich, der Rest des Briefes ist maschinengeschrieben. Die Zahl '50' oben rechts ist handschriftlich in roter Tinte hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbkarte/Grauskala, keine Transkription erforderlich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig als 'Jules Romains' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1101,
+    "total_words": 178,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

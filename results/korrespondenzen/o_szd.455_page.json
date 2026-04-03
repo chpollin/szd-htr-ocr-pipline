@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.455",
+    "title": "Ernst Ludwig Schellenberg an Stefan Zweig, 1926-06-12, SZ-SAM/AK.170",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.455/IMG.1",
+      "https://gams.uni-graz.at/o:szd.455/IMG.2",
+      "https://gams.uni-graz.at/o:szd.455/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ernst Ludwig Schellenberg an Stefan Zweig, 1926-06-12, SZ-SAM/AK.170\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.170\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.542106+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Elgersburg mit Carl Eduard-Warte, 810 m.\n\n12. Juni 1926",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliches Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Heute erhielt ich Ihre Legende, lieber\nHerr Dr. Zweig; soeben habe ich\nsie meiner Frau vorgelesen. Ich\ndanke Ihnen nochmals von Herzen\nfür diese neue und gütige Dich-\ntung, die mir sehr wohl getan. Ich\nhalte das Bändchen zu den\npaar Büchern, die ich lieb habe.\n\nMit guten Grüßen\nIhr:\nErnst Ludwig Schellenberg\n12. Juni 1926\n\n[am unteren Rand eingefügt:]\nalso sind die „Salzburger Geschichten“\nfertig erschienen?",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text. Briefmarke und Poststempel (Erfurt-Bahnhof) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Heute erhielt ich Ihre Legende, lieber\nHerr Dr. Zweig; soeben habe ich\nsie meiner Frau vorgelesen. Ich\ndanke Ihnen nochmals von Herzen\nfür diese neue und gütige Dich-\ntung, die mir sehr wohl getan. Ich\nhalte das Bändchen zu den\npaar Büchern, die ich lieb habe.\n\nMit guten Grüßen\nIhr:\nErnst Ludwig Schellenberg\n12. Juni 1926\n\n[am unteren Rand eingefügt:]\nalso sind die „Salzburger Geschichten“\nfertig erschienen?",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen am unteren Rand der Postkarte sind klar zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 877,
+    "total_words": 143,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

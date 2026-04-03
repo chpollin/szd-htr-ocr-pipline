@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.113",
+    "title": "Verlagsvertrag Oy Suomen Kirja",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.36",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.113/IMG.1",
+      "https://gams.uni-graz.at/o:szd.113/IMG.2",
+      "https://gams.uni-graz.at/o:szd.113/IMG.3"
+    ],
+    "date": "12 March 1938",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, schwarze und violette Tinte, Bleistift",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "35x22 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Oy Suomen Kirja\n- Signatur: SZ-AAP/L13.36\n- Datum: 12 March 1938\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze und violette Tinte, Bleistift\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:43.653109+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Zwischen den Unterzeichneten, Schriftsteller Stefan Zweig, hiernach Ver-\nfasser genannt, und Oy Suomen Kirja, hiernach Verleger genannt, ist heute fol-\ngender Vertrag abgeschlossen:\n\n1. Der Verfasser verkauft dem Verleger das Alleinrecht der Übersetzung\nund dasjenige der Herausgabe des von ihm geschriebenen Werkes \"Ma-\ngellan\", ins Finnische für einen einmaligen Verkaufsbetrag von 7.000\n(siebentausend) finn.Mark.\n2. Die Übersetzung des genannten Werkes soll, dem Originaltext gemäss,\ngut und sorgfältig übersetzt werden.\n3. Der ursprüngliche Name soll unter dem finnischen Titel oder hinter\ndem Titelblatt auf jedem Exemplar der finnischen Übersetzung, ange-\ngeben sein.\n4. Der Verleger verpflichtet sich dazu, dass der Name des Schriftstellers\nin seiner üblichen Form auf dem Titelblatt und auf dem Einband jedes\nExemplares, sowie in allen, das Werk betreffend Anzeigen, genannt\nwird.\n5. Drei Gratisexemplare von dem genannten Werke, werden an die Londoner\nAdresse des Verfassers gesandt.\n6. Der, im Punkt 1) erwähnte Verkaufsbetrag soll dem Verfasser sofort\nnachdem, als das zweite Exemplar von diesem Vertrage mit der Unter-\nschrift des Verfassers versehen, in die Hände des Verlegers gelangt\nist, bezahlt werden.\nDieser Vertrag ist in zwei gleichlautende Exemplare abgefasst, von\ndenen das eine dem Verfasser, das andere dem Verleger ausgehändigt\nwird.\n\nLondon, 12 March 1938\n\nStefan Zweig\n\nHelsinki am 9 März 1938.\nVuorikatu 16\nOy SUOMEN KIRJA\n[Unterschrift unleserlich]",
+      "notes": "Das Dokument ist ein Typoskript mit handschriftlichen Ergänzungen (Datum, Unterschrift Stefan Zweig). Die Unterschrift des Verlegers ist unleserlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite mit Farb- und Grauskala (Archiv-Scan)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Struktur ist klar. Die Unterschrift des Verlegers ist aufgrund der Handschrift nicht eindeutig zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1479,
+    "total_words": 212,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

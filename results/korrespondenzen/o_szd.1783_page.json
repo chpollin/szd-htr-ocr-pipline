@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1783",
+    "title": "Brief an Stefan Zweig vom 6. Mai 1938, SZ-AAP/B1.217",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1783/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1783/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1783/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1783/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 6. Mai 1938, SZ-AAP/B1.217\n- Signatur: SZ-AAP/B1.217\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.997114+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "RASCHER & CIE. A.-G., ZÜRICH\nBUCHHANDLUNG · KUNSTHANDLUNG · VERLAGSBUCHHANDLUNG\nTelephon 21.601 · Telegramm-Adresse: Rascherco\nPostcheck-Konti: Zürich VIII 466, Stuttgart 29/298\n\nZürich 1, Limmatquai 50\n\nHerrn\nDr. Stefan Z w e i g ,\nL o n d o n W. I.\n49. Hallam street.\n\nZürich, den 6. Mai 1938.\n\nLieber Herr Doktor,\nIhr Schreiben an die Vereinigung schweizer Verleger habe ich an den Präsidenten des Vereins schweizerischer Verlagsbuchhändler weitergeleitet.\nOb ein Ausländer die Genehmigung zur Ausübung seiner Tätigkeit und die Niederlassung erhält, wird von der städtischen, kantonalen und eidgenössischen Behörde entschieden. Falls Herr Reichner in Zürich eine Niederlassung verlangen würde, so würde mir hier davon Mitteilung gemacht. Sie können sicher sein, dass wir Schweizerischen Buchhändler und Verleger alles tun werden, um die Niederlassung zu verhindern, da wir sonst bei den gegenwärtigen Verhältnissen von den Ausländern die in die Schweiz kommen einfach erdrückt würden.\nEs wundert mich übrigens sehr, dass Herr Reichner diesen Standpunkt einnimmt, nachdem Sie mir doch vor einigen Jahren erklärt haben, dass Sie Ihre Verlagswerke ihm übergeben haben, weil es Ihr intimer Freund sei.\nWenn ich Ihnen einen Rat erteilen darf\nso würde ich in der Weise vorgehen, dass Sie Herrn Reichner durch eingeschriebenen Brief mitteilen, dass Sie verlangen,\ndass Ihre Bücher innert drei Monaten wieder im Buchhandel",
+      "notes": "Typoskript auf Firmenpapier. Die letzte Zeile bricht mitten im Satz ab, Fortsetzung auf Seite 3."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "RASCHER & CIE. A.-G., ZÜRICH\nBUCHHANDLUNG · KUNSTHANDLUNG · VERLAGSBUCHHANDLUNG\nTelephon 21.601 · Telegramm-Adresse: Rascherco\nPostcheck-Konti: Zürich VIII 466, Stuttgart 29/298\n\nZürich 1, Limmatquai 50\n\nBlatt 2 zu Brief an Herrn Dr. Stefan Zweig, London, 6.Mai 38.\n\nzu haben sind, ansonst Sie auf jeden Fall die Verlagsrechte wieder an sich zurückziehen würden.\nVor einigen Wochen habe ich sowohl an den Inselverlag, als auch an Herrn Reichner geschrieben, ob sie uns gestatten würden die Sternstunden der Menschheit in unserer Europäischen Bibliothek erscheinen zu lassen. Vom Inselverlag habe ich die Antwort bekommen, dass er die Verlagsrechte nicht mehr besitze. Von Herrn Reichner bin ich bis heute ohne Antwort geblieben.\nIch möchte Ihnen daher heute vorschlagen, dass Sie uns das Recht einräumen, die Sternstunden der Menschheit in unserer Europäischen Bibliothek erscheinen zu lassen. Es wäre dies zugleich ein Versuchsballon in der Reichner Angelegenheit.\nDarf ich Sie bitten sich gleich zu äussenn und uns Ihre Bedingungen mitzuteilen.\n\nMit den besten Grüssen zeichnet\nhochachtungsvoll:\nRascher & Cie A.-G.\n~~Rascher~~",
+      "notes": "Typoskript auf Firmenpapier. Die Unterschrift 'Rascher' ist handschriftlich durchgestrichen, darüber steht 'Rascher & Cie A.-G.' in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des dritten Blattes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Korrektur auf Seite 3 ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2546,
+    "total_words": 375,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

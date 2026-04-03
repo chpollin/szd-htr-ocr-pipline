@@ -1,0 +1,109 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.169",
+    "title": "Schulnachricht",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SEF/L2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.169/IMG.1",
+      "https://gams.uni-graz.at/o:szd.169/IMG.2",
+      "https://gams.uni-graz.at/o:szd.169/IMG.3"
+    ],
+    "date": "1890/91",
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Andreas Rzehaczek",
+          "role": "contributor"
+        },
+        {
+          "name": "Hugo Schindler",
+          "role": "contributor"
+        },
+        {
+          "name": "Moriz Zweig",
+          "role": "contributor"
+        }
+      ],
+      "subject": [
+        "Diverses"
+      ],
+      "origin_place": "Wien, I. B., Werderthorgasse Nr. 6",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Inge und Erich Fitzbauer",
+        "Erwerb: Ankauf 2023"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarze,rote und blaue Tinte, blaue Stempelfarbe",
+        "writing_material": "Vorgedrucktes Formular",
+        "hands": [
+          "Hugo Schindler",
+          "Andreas Rzehaczek",
+          "Moriz Zweig"
+        ],
+        "dimensions": "31x24 cm"
+      },
+      "notes": "Schulnachricht über Stefan Zweig der Volksschule Werdertorgasse zum Schuljahr 1890/91"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Schulnachricht\n- Signatur: SZ-SEF/L2\n- Datum: 1890/91\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze,rote und blaue Tinte, blaue Stempelfarbe\n- Hand: Hugo Schindler, Andreas Rzehaczek, Moriz Zweig\n- Anmerkungen: Schulnachricht über Stefan Zweig der Volksschule Werdertorgasse zum Schuljahr 1890/91"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.228052+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "N. 36\n\nSchulnachricht\nSchuljahr 1890/91.\nüber Zweig Stefan, geboren am 28./11. 81 zu Wien in N.Ö.\nSchüler der 4. b Classe an der allgemeinen Volksschule in Wien, I. B., Werdertorgasse Nr. 6.\n\n[Tabelle mit Noten]\n16/9. - 30/11. | 2 | | 1 1 1 1 1 1 2 2 2 2 | Moriz Zweig\nDec. - Jän. | 12 | | 1 1 1 1 1 1 2 2 2 1 | Moriz Zweig\nFebr. - März | 5 | | 1 2 1 1 1 2 1 1 2 2 1 | Moriz Zweig\nApril - Mai - Juni - 10 Juli | | | 1 1 2 1 1 1 1 1 1 1 1 | Lobensw. | Moriz Zweig\n\nAuf Grund dessen wird dieser Schüler zum Aufsteigen in die nächst höhere Classe für reif erklärt.\nZweck der Ausfolgung dieser Schulnachricht:\n\nBezeichnung der Rangstufen für:\nsittliches Betragen: Fleiss: den Fortgang in den Lehrgegenständen:\n1 = vollkommen entsprechend. 1 = ausdauernd. 1 = sehr gut.\n2 = entsprechend. 2 = befriedigend. 2 = gut.\n3 = minder entsprechend. 3 = ungleichmässig. 3 = genügend.\n4 = nicht entsprechend. 4 = gering. 4 = kaum genügend.\n 5 = ungenügend.\n\nRzehaczek [?] Hugo Schindler\nLeiter der Volksschule. Classenlehrer.\nObiger Schüler wurde am zur Uebersiedlung nach abgemeldet.\nAnfang des Schulbesuches am Leiter der Volksschule.\nZufolge des § 68 der Verordnung des k. k. Ministeriums für Cultus und Unterricht vom 20. August 1870, Z. 7648 sind die Eltern (oder deren Stellvertreter)\nverpflichtet, die Schulnachrichten mit ihrer Unterschrift zu bestätigen.\nFormular für allg. Knaben-Volksschulen",
+      "notes": "Die Tabelle wurde zeilenweise transkribiert. Die Unterschriften 'Moriz Zweig' sind handschriftlich eingetragen. Der Name des Schulleiters 'Rzehaczek' ist aufgrund des Stempels und der Handschrift schwer lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Gesetzliche Bestimmungen:\n\n1. Die Eltern (oder deren Stellvertreter) sind nach §. 68 der Schul- und Unterrichtsordnung vom 20. August 1870 verpflichtet, die Mittheilung der\nSchulnachrichten durch den Lehrer mit ihrer Unterschrift zu bestätigen.\nWird diese Bestätigung verweigert, so hat der Lehrer die Unterstützung der Ortsschulbehörde in Anspruch zu nehmen.\n2. Die Eltern oder deren Stellvertreter dürfen ihre Kinder oder Pflegebefohlenen nicht ohne den Unterricht lassen, welcher für die öffentlichen\nVolksschulen vorgeschrieben ist; sie sind für den regelmässigen Schulbesuch der schulpflichtigen Kinder verantwortlich und können zur Erfüllung\ndieser Pflicht durch Zwangsmittel angehalten werden.\n3. Die Schulpflichtigkeit beginnt mit dem vollendeten sechsten und dauert bis zum vollendeten vierzehnten Lebensjahre.\n4. Die Aufnahme findet, die Fälle der Uebersiedlung der Eltern ausgenommen, nur beim Beginn des Schuljahres statt.\n5. Den Eltern oder deren Stellvertretern obliegt es, die schulpflichtigen Kinder an einem der letzten drei Tage vor Beginn des Schuljahres in die\nSchule zu bringen und in die Liste der schulbesuchenden Kinder (die Schulmatrik) eintragen zu lassen.\nEltern oder deren Stellvertreter, welche dieser Pflicht nicht nachkommen, sind von dem Leiter der Schule der Ortsschulbehörde behufs der\ngesetzlichen Amtshandlung namhaft zu machen.\n6. Kein Kind darf ohne statthafte Entschuldigungsgründe einzelne Stunden oder Tage der gesetzlichen Schulzeit versäumen.\nSchulversäumnisse, welche binnen acht Tagen nicht genügend entschuldigt werden, sind, wenn deren Grund unstatthaft ist, als\nunentschuldigt anzusehen.\n7. Als statthafte Entschuldigungsgründe sind insbesondere anzusehen:\na) Krankheit des Kindes;\nb) Krankheit der Eltern oder Angehörigen, wenn diese der Pflege des Kindes erwiesenermassen nothwendig bedürfen;\nc) schlechte Witterung, wenn dadurch den Kindern Gefahr an der Gesundheit droht;\nd) Ungangbarkeit der Wege.\n8. Die Löschung aus der Liste der schulpflichtigen Kinder erfolgt erst dann, wenn der Besitz der nothwendigsten Kenntnisse durch ein\nZeugnis einer öffentlichen Volksschule nachgewiesen erscheint.\n9. Uebersiedelt ein Kind, so haben die Eltern oder deren Stellvertreter sich rechtzeitig um die Ausfüllung und Bestätigung der Ueber-\nsiedlungsclausel an den Leiter der Schule zu wenden.",
+      "notes": "Vollständiger Text der gesetzlichen Bestimmungen auf der Rückseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "N. 36\n\nSchulnachricht\nSchuljahr 1890/91.\nüber Zweig Stefan, geboren am 28./11. 81 zu Wien in N.Ö.\nSchüler der 4. b Classe an der allgemeinen Volksschule in Wien, I. B., Werdertorgasse Nr. 6.\n\n[Tabelle mit Noten]\n16/9. - 30/11. | 2 | | 1 1 1 1 1 1 2 2 2 2 | Moriz Zweig\nDec. - Jän. | 12 | | 1 1 1 1 1 1 2 2 2 1 | Moriz Zweig\nFebr. - März | 5 | | 1 2 1 1 1 2 1 1 2 2 1 | Moriz Zweig\nApril - Mai - Juni - 10 Juli | | | 1 1 2 1 1 1 1 1 1 1 1 | Lobensw. | Moriz Zweig\n\nAuf Grund dessen wird dieser Schüler zum Aufsteigen in die nächst höhere Classe für reif erklärt.\nZweck der Ausfolgung dieser Schulnachricht:\n\nBezeichnung der Rangstufen für:\nsittliches Betragen: Fleiss: den Fortgang in den Lehrgegenständen:\n1 = vollkommen entsprechend. 1 = ausdauernd. 1 = sehr gut.\n2 = entsprechend. 2 = befriedigend. 2 = gut.\n3 = minder entsprechend. 3 = ungleichmässig. 3 = genügend.\n4 = nicht entsprechend. 4 = gering. 4 = kaum genügend.\n 5 = ungenügend.\n\nRzehaczek [?] Hugo Schindler\nLeiter der Volksschule. Classenlehrer.\nObiger Schüler wurde am zur Uebersiedlung nach abgemeldet.\nAnfang des Schulbesuches am Leiter der Volksschule.\nZufolge des § 68 der Verordnung des k. k. Ministeriums für Cultus und Unterricht vom 20. August 1870, Z. 7648 sind die Eltern (oder deren Stellvertreter)\nverpflichtet, die Schulnachrichten mit ihrer Unterschrift zu bestätigen.\nFormular für allg. Knaben-Volksschulen",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein gedrucktes Formular mit handschriftlichen Ergänzungen. Die Handschrift ist gut lesbar, die gedruckten Teile sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 5105,
+    "total_words": 837,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

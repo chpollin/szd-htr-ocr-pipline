@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1182",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B7.12",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1182/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1182/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B7.12\n- Signatur: SZ-SAM/B7.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.222380+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Freitag,\n\nliebe Frau Meingast,\nwir freuen uns sehr,\ndaß Willi „nadelfrei“\nist. Hoffentlich hat er\nbald keine Schmerzen mehr\nvon dem Eingriff.\nMein Mann lässt Ihnen\nfür die Berichte danken.\nJohann werde ich bald\nschreiben. Wir lassen\nIhn u. Fr. Marie recht\ngrüßen. Herzlichst grüßt\nIhre Fr. M. Zweig",
+      "notes": "Die Handschrift ist flüssig, aber stellenweise eng geschrieben. 'nadelfrei' steht in Anführungszeichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Also alles wieder in bester\nOrdnung. Ich danke Ihnen\nsehr für die punktuellen\nund durchaus richtigen Nach-\nrichtungen. Wir haben sehr\nschönes Wetter und es geht\nuns unerlaubt gut. Herzlich\nIhr Stefan\n\n[Adressseite]\n\nAutriche\n\nHerrn Dr. St. Zweig\nfür Frau Meingast\nSalzburg\nKapuzinerberg 5",
+      "notes": "Die Adressseite enthält gedruckte Elemente der Postkarte. Der Text auf der linken Seite ist in der Handschrift von Stefan Zweig verfasst. Der Poststempel 'ANTIBES' ist deutlich erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Friderike und Stefan Zweig ist bekannt und konsistent.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 586,
+    "total_words": 93,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

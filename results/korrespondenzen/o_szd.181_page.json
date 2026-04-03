@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.181",
+    "title": "Heimat-Schein, SZ-AP2/L-S7.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.181/IMG.1",
+      "https://gams.uni-graz.at/o:szd.181/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Heimat-Schein, SZ-AP2/L-S7.1\n- Signatur: SZ-AP2/L\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.444537+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Selbständiger Wirkungskreis.\nNieder-Oesterreich. Nr. L 15/1919\nWien.\nHeimat-Schein,\nwomit bestätiget wird, daß\nName: Dr Stefan Zweig\nCharakter oder Beschäftigung Schriftsteller\nAlter 28. November 1881 Wien\nStand ledig\nin Wien das Heimatrecht besitzt und in der Gemeinde-Matrik\n1857 Stadt 648/8 eingetragen erscheint.\nEigenhändige Unterschrift der Partei: Stefan Zweig\nVon dem magistratischen Bezirks-Amte für den 8 Bezirk.\nWien, den 26 IV 1919\nFür den Bürgermeister:\n[Unterschrift unleserlich]\n[Unterschrift unleserlich] [Unterschrift unleserlich]",
+      "notes": "Formulardruck, ausgefüllt mit handschriftlichen Einträgen. Eine Briefmarke (2 Kronen) ist aufgeklebt. Die Unterschriften am unteren Rand sind schwer lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Enthält einen violetten Stempel 'Bundespolizeidirektion' mit Datum '20. Juni 1933' sowie schwache, durchscheinende Prägungen/Schriftzüge von der Vorderseite. Keine eigenständigen handschriftlichen Texte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text des Formulars ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar, lediglich die Unterschriften am unteren Rand des ersten Dokuments sind aufgrund der kursiven Schrift schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 547,
+    "total_words": 69,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

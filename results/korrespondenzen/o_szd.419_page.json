@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.419",
+    "title": "Gregory Petnikow an Stefan Zweig, 1929-04-24, SZ-SAM/AK.137",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.419/IMG.1",
+      "https://gams.uni-graz.at/o:szd.419/IMG.2",
+      "https://gams.uni-graz.at/o:szd.419/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Gregory Petnikow an Stefan Zweig, 1929-04-24, SZ-SAM/AK.137\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.137\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.099466+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "24.4.29",
+      "notes": "Vorderseite einer Postkarte mit einer Ansicht von Leningrad. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ПОЧТОВАЯ КАРТОЧКА\nPOŠTA KARTO\n\nSehr geehrter Herr Zweig!\n~~Haben~~ Sie herzlichen\nDank für Ihre freundliche\nKarte, und die Gesammel[?]\nten Gedichte die ich heute\nrichtig bekommen habe.\nMit herzlichen Gruß\nIhr ergebener\nGregory Petnikow\n\nКуда Австрия\nOestreich.\nКому Kapuzinerberg, 5\nHerrn Stefan Zweig\n\nЛЕНИНГРАД. Вид на здание Глав-\nного Адмиралтейства и Исаакиевский\nсобор с Дворца Искусств.\n№ 30\nЦена 5 коп.\nМеццо-тинто Сокрайшефсовета. Москва.\nГлавлит А 22515. ХРО Гиз № 26. Тираж 10.000.",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Gedruckte russische Angaben zur Postkarte und zum Bildmotiv. Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte die bereits transkribierte Postkarte (Rückseite)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Das Wort 'Gesammelten' ist aufgrund der Handschrift leicht unsicher, aber im Kontext der 'Gedichte' eindeutig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 499,
+    "total_words": 74,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

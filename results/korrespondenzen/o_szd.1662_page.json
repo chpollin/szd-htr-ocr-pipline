@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1662",
+    "title": "Katharina Kippenberg an Stefan Zweig, SZ-SAM/AK.295",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1662/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1662/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1662/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Katharina Kippenberg an Stefan Zweig, SZ-SAM/AK.295\n- Signatur: SZ-SAM/AK.295\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:53.424698+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bayrisch Gmain 9.9.30.\nHotel am Forst\nK. Kippenberg",
+      "notes": "Vorderseite einer Ansichtskarte mit Hotelmotiv. Handschriftliche Ergänzungen am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Kurhaus Hotel am Forst\nBayrisch Gmain - Bad Reichenhall\n100 m über Reichenhall am Fuße des Lattengebirges\nElektrische Bahnstation Reichenhall-Berchtesgaden.\nPrachtvolle Lage am Alpengarten. 20 Min. Fußweg\nnach Reichenhall. Eigene Badeanstalt mit Inhala-\ntorium, fließend. Wasser in Zimmern. Zentralheizung.\nJagdgelegenheit.\nGanzjährig geöffnet. 8 Tennisplätze\nWintersportplatz.\n\nLiebe Frau Zweig! Ich war\nvon Freitag & wieder eben\nvon beiden fertig. Das Wetter\nist gar zu widerspenstig! Wenn\nauch ich nun nicht mehr\nSalzburg kommen, muß\nich immer, das Sie da\nund für die Einladung\ndanken! Herzliche Grüße\nIhren Damen von Ihrer\nKatha Kippenberg.\n\nFrau\nFrederike Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Gedruckter Text oben, handschriftlicher Text links und rechts. Briefmarke und Poststempel (30 JUNI 1930) vorhanden. Ein Papierstreifen verdeckt einen Teil des Textes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Kurhaus Hotel am Forst\nBayrisch Gmain - Bad Reichenhall\n100 m über Reichenhall am Fuße des Lattengebirges\nElektrische Bahnstation Reichenhall-Berchtesgaden.\nPrachtvolle Lage am Alpengarten. 20 Min. Fußweg\nnach Reichenhall. Eigene Badeanstalt mit Inhala-\ntorium, fließend. Wasser in Zimmern. Zentralheizung.\nJagdgelegenheit.\nGanzjährig geöffnet. 8 Tennisplätze\nWintersportplatz.\n\nLiebe Frau Zweig! Ich war\nvon Freitag & wieder eben\nvon beiden fertig. Das Wetter\nist gar zu widerspenstig! Wenn\nauch ich nun nicht mehr\nSalzburg kommen, muß\nich immer, das Sie da\nund für die Einladung\ndanken! Herzliche Grüße\nIhren Damen von Ihrer\nKatha Kippenberg.\n\nFrau\nFrederike Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz des überklebten Bereichs durch den Papierstreifen (Archivierungshilfe). Die Handschrift ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1433,
+    "total_words": 202,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

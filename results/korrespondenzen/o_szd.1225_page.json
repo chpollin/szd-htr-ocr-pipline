@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1225",
+    "title": "Postkarte an Anna Meingast vom 1. März 1935, SZ-SAM/B7.55",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1225/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1225/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 1. März 1935, SZ-SAM/B7.55\n- Signatur: SZ-SAM/B7.55\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.314238+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender:\nHotel Regina,\n1. III. 35 22 Wien.\n\nPostkarte\n-1. III. 35 22\n\nFrau\n\nAnna Meingast\n\np. Adr. Zweig,\n\nKapuzinerberg 5.\n\nS a l z b u r g .",
+      "notes": "Adressseite der Postkarte. Die Datumsangaben im Stempel sind '1. III. 35 22'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wien, den 1. März 1935.\n\nLiebe Frau Meingast,\nvielen Dank! Die Sache mit Herrn Gross kann man\nwohl als erledigt betrachten und ich danke Ihnen, dass\nSie an die Binoza bereits geschrieben haben. Das\nMasereel-Buch, das Sie Reichner sandten war leider\neines, aus welchem gerade mein Aufsatz schon heraus-\ngenommen war. Vielleicht können Sie deshalb doch noch\naus meiner Bibliothek das einfache Exemplar ihm leih-\nweise schicken, weil er sich darüber orientieren möch-\nte. Sonst ist alles in bester Ordnung. Hoffentlich\nbei Ihnen auch.\nViele Grüsse Ihres\nStefan Zweig\nP.S. Ich möchte Sie noch bitten, mir ein Exemplar des\nitalienischen \"Erasmus\" herzusenden.\nEbenso ist, dass jener Herr Nintic[?] die vorliegen-\nden Ausgaben an drei Verleger zugleich verkauft hat\nund dann geflüchtet ist!!",
+      "notes": "Textseite der Postkarte. Der letzte Absatz ist handschriftlich in violetter Tinte hinzugefügt. 'Nintic' ist eine unsichere Lesung des Eigennamens."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen von Stefan Zweig sind typisch für seine Handschrift und gut entzifferbar, mit Ausnahme des Namens 'Nintic'.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 928,
+    "total_words": 152,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

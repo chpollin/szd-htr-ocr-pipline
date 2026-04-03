@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.423",
+    "title": "Kurt Pinthus an Stefan Zweig, 1914-04-15, SZ-SAM/AK.140",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.423/IMG.1",
+      "https://gams.uni-graz.at/o:szd.423/IMG.2",
+      "https://gams.uni-graz.at/o:szd.423/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Kurt Pinthus an Stefan Zweig, 1914-04-15, SZ-SAM/AK.140\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.140\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.328511+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "15. 4. 14.\nMalcesine",
+      "notes": "Vorderseite einer Ansichtskarte mit Motiv 'Malcesine bei Sonnenuntergang'. Handschriftliche Datierung und Ortsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Malcesine am Garda, 15. IV. 14\n\nSehr verehrter Herr Dr.! Ihr liebens-\nwürdiger Brief wurde mir erst vor\neinigen Tagen nachgesandt. Sobald\nich, Ende April, nach Deutschland\nzurückgekehrt sein werde, werde\nich Ihnen eine Auswahl der Gedichte,\ndie mir genehm sein\nwürde. Vorläufig meine herzlich-\nsten Dank für Ihr Freundlichkeit\nund schönste Grüsse\nIhr ergebenst Kurt Pinthus",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Adressseite rechts: 'Francia! Dr. Stefan Zweig, Hotel Beaujolais, 15, rue de Beaujolais, Paris'. Ein Poststempel ist teilweise erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Dazwischen liegt die bereits transkribierte Postkarte (Vorder- und Rückseite in einem Bild)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist klar, lediglich bei 'Gedichte' und 'Freundlichkeit' sind die Buchstaben leicht flüchtig geschrieben, aber eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 393,
+    "total_words": 61,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

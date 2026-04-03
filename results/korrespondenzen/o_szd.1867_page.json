@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1867",
+    "title": "Brief an das Schweizerische Vereinssortiment Olten vom 7. Januar 1947,\n        SZ-AAP/B1AN.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1867/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1867/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an das Schweizerische Vereinssortiment Olten vom 7. Januar 1947,\n        SZ-AAP/B1AN.1\n- Signatur: SZ-AAP/B1AN.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.932416+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "xxx 6436 London, den 7.Jan,47\n\nMessrs.Schweizerisches\nVerlags sortiment,\nOlten bei Zuerich\n\nSehr geehrte Herren,\n\nIch bin,gemeinsam mit meiner Frau Johanna(Hannah)\nAltmann,Testamentsvollstrecker und Erbe des verstorbenen Dr.\nStefan Zweig.Wir entnehmen aus der vorgefundenen Korrespon-\ndenz,dass sich Ihnen seinerzeit ein beträchtlicher Posten\nvon Zweig's Büchern befand,der in den Auseinandersetzungen\nmit dem Reichnerverlage eine Rolle spielte.\nMeine Frau wird am Samstag,den 11.Januar,in Zuerich\nsein,und am Vormittag Herrn Dr.jur.H.David,Bahnhofstr.56,\naufsuchen.Sollte es zeitlich möglich sein(ich bitte um Entschul-\ndigung,dass ich so kurz vorher schreibe),so wären wir Ihnen sehr\ndankbar,wenn Sie dorthin mitteilen könnten,ob diese Bestände\nseinerzeit restlos verkauft worden sind,und ob noch irgendwelche\nSchritte in dieser Angelegenheit nötig oder zweckmässig sind-\nin diesem Falle würde meine Frau sich mit Ihnen in Verbindung\nsetzen und Sie evtl.aufsuchen.Bitte adressieren Sie Ihre evtl.\nMitteilung an Frau Dr.J.Altmann,c.o.Dr.David.\nSollte dieser Brief Sie zu spat erreichen,so bitte\nich Sie,an die obige Adresse in London mir mitzuteilen,was\nSie uns in dieser Angelegenheit für Aufklärungen geben können.\nMeine Frau hat eine photostatische Kopie des englischen\"Pro-\nbate's\"bei sich,das uns als Testamentsvollstrecker bestätigt.\nSelbstverständlich sind wir bereit,uns weiterhin durch die\nerforderlichen Dokumente auszuweisen,wenn sich noch Geschäfte\nergeben sollten,die das notwendig machen.\n\nMit vorzüglicher Hochachtung,\n\nManfred Altmann\nAntwort 14.1.47 am 2.2.48 an F. Neumann gesandt\n1938 Kommissionslager mit zahlreichen Zweig büchern\nan Schw. V. durch Reichner gegeben. 1940 alles ausverkauft\n+ mit R. abgerechnet. Saldo beim Gericht einberecht[?],\nangeblich später R. zur Verfügung gestellt.\n(laut Brief",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen am unteren Rand. Die handschriftliche Notiz ist in Tinte verfasst."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz am Ende ist gut lesbar, lediglich das Wort 'einberecht[?]' ist aufgrund der Handschrift leicht unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1822,
+    "total_words": 231,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

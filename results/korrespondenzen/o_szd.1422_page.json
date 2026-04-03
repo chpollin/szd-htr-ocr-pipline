@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1422",
+    "title": "Postkarte an Otto Weissel vom 17. Februar 1934, SZ-SAH/B3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1422/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1422/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1422/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Otto Weissel vom 17. Februar 1934, SZ-SAH/B3\n- Signatur: SZ-SAH/B3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:32.924234+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender: STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nPostkarte\n\nDr. Otto W e i s s e l\n\nRechtsanwalt\nI. Freyung 6\n\nW i e n I.",
+      "notes": "Adressseite der Postkarte. Enthält gedruckte Absenderangaben und maschinenschriftliche Empfängeradresse. Poststempel 'SALZBURG 17 II 34' vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg, am 17. Februar 1934\n\nSehr geehrter Herr Doktor!\n\nIch fahre gerade wieder nach London,\num an einem grösseren Buch weiterzuarbeiten,\ndas ich nur dort machen kann. An jenes andere\nProjekt denke ich immer sehr heftig, aber ist\nes in der jetzigen Zeit nicht etwas gefährlich,\ngerade Dobruska den Leuten nahezubringen? Würde\nde nicht der Typus des jüdischen Spekulanten\nin Politik jetzt gerade dort Beifall finden, wo\nwir ihn nicht wünschen? Die Stunde scheint mir\nnicht sehr gut geeignet.\nMit den herzlichsten Grüssen Ihr\nsehr ergebener\n\nStefan Zweig",
+      "notes": "Textseite der Postkarte. Handschriftlich in violetter Tinte verfasst. Das Wort 'de' in Zeile 7 ist vermutlich ein Tippfehler für 'würde' oder 'da', wurde aber originalgetreu transkribiert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Salzburg, am 17. Februar 1934\n\nSehr geehrter Herr Doktor!\n\nIch fahre gerade wieder nach London,\num an einem grösseren Buch weiterzuarbeiten,\ndas ich nur dort machen kann. An jenes andere\nProjekt denke ich immer sehr heftig, aber ist\nes in der jetzigen Zeit nicht etwas gefährlich,\ngerade Dobruska den Leuten nahezubringen? Würde\nde nicht der Typus des jüdischen Spekulanten\nin Politik jetzt gerade dort Beifall finden, wo\nwir ihn nicht wünschen? Die Stunde scheint mir\nnicht sehr gut geeignet.\nMit den herzlichsten Grüssen Ihr\nsehr ergebener\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbkarten und Grauskala im Bildausschnitt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Transkription folgt exakt dem Schriftbild inklusive der Zeilenumbrüche.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1232,
+    "total_words": 201,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

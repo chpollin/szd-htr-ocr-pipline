@@ -1,0 +1,104 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2694",
+    "title": "Flüchtiger Spiegelblick",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA52.3",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2694/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2694/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2694/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "Zweig, Stefan"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte",
+        "hands": [
+          "Lotte Zweig"
+        ],
+        "inscriptions": [
+          "Flüchtiger\n                                 Spiegelblick"
+        ]
+      },
+      "notes": "Ende des Textes fehlt"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Flüchtiger Spiegelblick\n- Signatur: SZ-AAP/W-AA52.3\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte\n- Hand: Lotte Zweig\n- Anmerkungen: Ende des Textes fehlt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:56.156408+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Flüchtiger Spiegelblick:\n\nS T E F A N  Z W E I G\n\nWir alle, die wir etwa dressig Jahre alt waren, als der Krieg\nbegann, werden das sonderbare Gefühl eines zweigeteilten, eines\ndoppelten Lebens nicht mehr los. Uns kreuzte der Krieg mitwegs [?] \nentscheidenden Uebergangsjahre, und seitdem empfinden wir alle unser\nLeben zweiförmig, als ein V o r d e m und ein N a c h d e m.\nMein Vordem war besonders leicht und beflügelt, um so sch[?] \nfühle ich jene Z[?]sur. Denn meine Jugend spielt in einer vollkommenen\nsorglosen, heute kaum mehr darstellbaren Sphäre der Freizügigkeit\ngleichsam über alle Länder hinweg, nirgends verhaftet, nirgends durch\nBeruf oder Pflicht gebunden. 1881 in Wien warmbürgerlich geboren,\ndurchlief ich ungeduldig die Schule, freudiger die Universität.\nInzwischen hatte schon Verse begonnen, ein Buch und ein Zweites sich\neingestellt. Aber kaum kann ich mich entsinnen, in welcher Weise\ndiese Bücher entstanden, wie hergeweht und geschenkt kam dieses dicht-\n-rischer [?] von dem musikalischen Wien, der unser Wien von damals so\nweich überströmte (Gustav Mahler, Busoni, Hofmannstahl und Rilke\nhatten ihn geweckt). Mein persönlicher Ehrgeiz ging an der Literatur\nvollkommen vorbei, er drängte nur ~~xxxxx~~ stark und knabenhaft unge-\nbärdig der Welt und ihrer Vielfalt zu. Eine geheimnisvolle Neugierde\nlockte mich jahrelang, immer wieder andere Grenzen zu überschreiten,\nim Wirklichen und im Geistigen, und dies bis weit ins Exotische und\nGefährliche hinein. Wo bin ich nicht gewandert und gewesen in jenen\nJahren: Ich habe in Paris, London und Florenz, in Berlin und Rom\nkameradschaftlich mit der gleichalterigen Jugend gelebt, bin nach\nSpanien und Schottland, nach Indien, an die chinesischen Grenzen, durch\nAfrika, Nordamerika, Kanada, nach Kuba und an den Panamakanal gereist.\nAll dies aber, weiss Gott, nicht aus literarischer ambition oder um\nBücher zu schreiben. Diese Gleichgültigkeit gegen das eigene Werk\nbeflügelte mich anderen Werken zu dienen. Jahre habe ich den Versen\nVerhaerens, der Einführung ausländischer Dichter, Studien und Vermitt-\nlungen bei gänzlicher Vernachlässigung der eigenen Produktion geopfert,\nund darum erscheint mir das Spaziergängerische jener Wanderjahre nicht\nganz ohne Sinn. Offenbar haben eben diese landstreifenden Sorglosen\neine besondere biologische Aufgabe im Organismus unserer Kultur. Sie\nbringen geistige Botschaft von Nation zu Nation, ihre Wanderjahre\nsind die Lehrjahre der andern.\n\nDann kam der Krieg. Furchbar wurde mir diese ungeahnte, nicht zu\nahnende Erschütterung. Alle meine untersten Wesenswurzeln fühlte ich\nbei diesem Sturz gewaltsam angerissen und griff mit einmal taumelnd\nins Leere. Die besten, die vertrautesten Menschen waren in ihrer\nGesinnung schwankend und umgeworfen ~~xxxxx~~ worden, die wenigen aufrech-\n-ten Freunde, wie Romain Roland und einige andere nur durch unsicht-\n-bare Lichtsignale über die Fronten zu grüssen. So griff ich nach\neinem Halt zum erstenmal ganz in mein wirklichstes hinein, und meine\nGegenwehr wurde das dramatische Gedicht \"Jeremias\", das, 1916\ngeschrieben, in Deutschland als erster tragischer Protest sich gegen\ndas Unvermeidliche erhob, das einzige meiner Bücher vielleicht, dem\nein gewisses Unrecht geschehen ist. Denn während des Krieges fehlte\ninfolge der Zensur diesem Drama (ausser im neutralen Zürich) die\nMöglichkeit, mahnendes Wort zu werden; nach dem Zusammenbruch wieder gespielt\nspielte die Wirklichkeit selbst, was hier gedichtet und vorausgespielt\nwar, mit noch feurigeren Farben. So blieb im wesentlichen Buch, was\nrechtzeitig warnender Schrei werden sollte. Aber wenn nicht der Zeit,\nso hatte ich mir selbst geholfen, zum erstenmal waren alle Saiten meines\ndeines Wesens vehement in Schwingung gekommen und das lässig Spielende\nder zufälligen Gestaltung endlich in Leidenschaft verwandelt.\n\nAls der Krieg dann beender war oder schien (schwelt denn nicht\nnoch immer Funke und erstickte Glut unter der Asche?), galt es\nUmschau zu halten nach innen. Meine Welt war zerstört, eine neue\nwollte gebaut sein. Das forderte Selbstprüfung, entschlossene Lebens-\nbilanz. Was war verloren? was war geblieben? Verloren: die\nLeichtigkeit des Vordem, das Brio, das spielende des Schaffens, das\nflutende Dahin über die Erde und dann noch ein paar äusserliche Dinge,\nwie Geld und materielle Unbesorgtheit. Geblieben dagegen ein paar\nkostbaren Freundschaften, gute Kenntniss der Welt, jene alte\nleidenschaftliche Liebe zur Erkenntnis hin und, plötzlich dazugekommen\nein neuer harter Mut und volles Gefühl der Verantwortung nach so\nvielen verlorenen Jahren.",
+      "notes": "Typoskript auf Papier. Die Seite enthält handschriftliche Korrekturen (z.B. Zeile 27: 'rischer' eingefügt, Zeile 32: 'Gefährliche' korrigiert). Die Lesbarkeit ist insgesamt gut, trotz einiger Durchschlag-typischer Schwächen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan mit Archiv-Farbskala und Grauskala. Kein neuer Textinhalt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Einige wenige Stellen sind durch den Durchschlag-Charakter oder leichte Unschärfen im Scan als [?] markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 4571,
+    "total_words": 674,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

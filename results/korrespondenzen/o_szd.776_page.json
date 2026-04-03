@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.776",
+    "title": "Brief an Stefan Zweig vom 26. März 1937, SZ-AAP/B1.18",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.776/IMG.1",
+      "https://gams.uni-graz.at/o:szd.776/IMG.2",
+      "https://gams.uni-graz.at/o:szd.776/IMG.3",
+      "https://gams.uni-graz.at/o:szd.776/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 26. März 1937, SZ-AAP/B1.18\n- Signatur: SZ-AAP/B1.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:30.824426+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\n\nRef.\n26.März 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir schicken Ihnen heute als Drucksachen vorläufig je ein Exemplar\nvon \"Kette\" und \"Kaleidoskop\" in den neuen Einbänden,die hoffentlich\nIhren Beifall finden werden.Wir hätten natürlich gern schon im ver-\nkaufstechnischen Interesse auch die Untertitel \"Kette\" und \"\n\"Kaleidoskop\" angebracht,was aber deshalb unmöglich war,weil sonst\ndie Schrift noch kleiner hätte ausfallen müssen.Wir glauben aber,\ndass die Einbände sich jetzt sehr anständig ausnehmen,und da ausserdem\nnoch die frühere Ausgabe in den Einzelbänden lieferbar ist,so werden\nwir es künftig so halten,dass die Bestellungen der einzelnen Bände\nsolange in der alten Ausgabe ausgeliefert werden,als noch Vorrat\nvorhanden ist,dann aber nur in der neuen Ausgabe,Wer aber beide Bände\ngleichzeitig bestellt,wird nur die neue Ausgabe erhalten.\n\nSehr Bei dieser Gelegenheit möchten wir Sie um die folgende Gefälligkeit\ndrin- bitten.Wir haben selbst bemerkt,dass unsere Bücher in London nicht\ngend so gut verkauft werden,wie wir es wünschen.Unsere bisherige Vertre-\nund tung ist die Firma Bailey Brothers (32 Ludgate Hill,London,E.C.4),\nwichtig! die aber trotz dem 50%-igen Rabatt nichts anderes tut,als die bei\nihr eingehenden Bestellungen zu sammeln und uns weiterzuschicken.\n\nNun bietet sich uns eine ganz neue Firma zur Vertretung an;nämlich:",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Am linken Rand handschriftliche Notiz in roter Tinte: 'Sehr dringend und wichtig!'. Die Zeilenumbrüche entsprechen dem Original."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\n\nRef.\n\nBest-Books\nRolf E.Heukeshoven\n39-41,New Oxford Street\nLondon,W.C.1\n\nHerr Heukeshoven ist ein Deutscher und vertritt angeblich den\nS.Fischer Verlag in London.Wir wissen nun nicht,ob diese Firma tat-\nsächlich repräsentabel ist und bitten Sie,sich dort zu erkundigen.\nLieber wäre uns allerdings eine andere Vertretung,die eventuell\nQuerido oder Allert de Lange ausliefert.Vielleicht können Sie bei\neinem guten Londoner Buchhändler sich danach erkundigen.\n\nWir sind Ihnen dafür im voraus wirklich sehr verpflichtet.\n\nWir wünschen Ihnen das Beste zum Osterfeste und begrüssen Sie als\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Am Ende handschriftliche Unterschrift (Signatur des Verlagsvertreters)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2191,
+    "total_words": 302,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

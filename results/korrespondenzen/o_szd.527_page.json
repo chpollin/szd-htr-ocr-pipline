@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.527",
+    "title": " Unidentified an Stefan Zweig, 1906-03-20, SZ-SAM/AK.235",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.527/IMG.1",
+      "https://gams.uni-graz.at/o:szd.527/IMG.2",
+      "https://gams.uni-graz.at/o:szd.527/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1906-03-20, SZ-SAM/AK.235\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.235\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:15.374398+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "7. PARIS – Avenue de l'Opéra E. L. D\n20. III 06.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTALE\n\nCorrespondance\n\nLieber Herr Doktor!\nBin zwar im Begriffe meine\nKoffer zu packen, da ich hier\nschon in einigen Tagen Paris\nverlasse. Bei dieser Gelegenheit\nbrauche ich an alten Briefe nur\nfür da eine diverse Karten für\nnumismatische von Ihnen. die\nveranlasst mir Ihnen eine\nherzliche Grüße zu senden in\nErinnerung an meine hier gemein-\nsame verlebte Stunden.\nIhr Königsharz[?].\n\n[Adressseite:]\nH. H.\nH. Dr. Stephan Zweig\nVienne I.\nRathausstrasse 17\nAutriche",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in violetter Tinte. Briefmarke und Poststempel vorhanden. Der Name des Absenders ist schwer lesbar, 'Königsharz' ist eine Vermutung."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Postkartenrückseite."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere der Name des Absenders und Teile des Satzbaus im Mittelteil) sind aufgrund der kursiven Schreibweise und der Tintenführung schwer eindeutig zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 519,
+    "total_words": 85,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

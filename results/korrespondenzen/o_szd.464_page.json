@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.464",
+    "title": "Wilhelm von Scholz an Stefan Zweig, 1904-05-05, SZ-SAM/AK.179",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.464/IMG.1",
+      "https://gams.uni-graz.at/o:szd.464/IMG.2",
+      "https://gams.uni-graz.at/o:szd.464/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Wilhelm von Scholz an Stefan Zweig, 1904-05-05, SZ-SAM/AK.179\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.179\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.258443+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "5.V.14\nHerzlichen Dank und herzlichen\nGruß! Auch Hans Müller bittet\nNiemals von mir zu grüßen. Ihr\nWilhelm von Scholz.",
+      "notes": "Vorderseite der Postkarte mit Bild einer Eiche. Handschriftliche Notiz über dem gedruckten Text 'Grosse Eiche im Schiesshausholz, Weimar'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "POSTKARTE.\nWELTPOSTVEREIN.\nCARTE-POSTALE.\nUNION POSTALE UNIVERSELLE.\n\nHerrn Stefan Zweig.\nWien I\nRathenstr. 12\n\nAbsender:\nDr. Wilhelm von Scholz\nWeimar, Kegelplatz 5",
+      "notes": "Rückseite der Postkarte. Gedruckte Formularvorgaben, handschriftliche Adressierung. Briefmarke 'Deutsches Reich' 5 Pfennig, Poststempel 'WEIMAR 5.04.14'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Rückseite der Postkarte (IMG_2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Datumsangabe auf der Vorderseite (5.V.14) korrespondiert mit dem Poststempel auf der Rückseite (5.04.14), wobei die '14' auf der Vorderseite vermutlich das Jahr 1914 meint, während der Stempel '5.04.14' (5. April 1914) lautet.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 283,
+    "total_words": 40,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

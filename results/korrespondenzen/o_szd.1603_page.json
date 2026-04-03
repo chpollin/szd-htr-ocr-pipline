@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1603",
+    "title": "Brief an Richard Friedenthal vom 26. Januar 1925, SZ-AAP/B2.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1603/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1603/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1603/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 26. Januar 1925, SZ-AAP/B2.8\n- Signatur: SZ-AAP/B2.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:46.383253+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, am 26, Januar 1925.\n\nLieber Herr Doktor!\n\nIch danke Ihnen noch sehr für die Novelle, die mir einen\nausserordentlichen Eindruck gemacht hat, sie ist von unerhörter\nPlastik und verbürgt mir absolut den Wert Ihres werdenden Romanes.\nWenn ich Ihnen raten darf, so geben Sie sie unbedingt dem \"Falken\"\ndenn für den Vordruck käme ja nur die \"Neue Rundschau\" in Betracht -\nalle diese Blätter haben zu wenig Raum und rein technisch hat die\nNovelle ein ungeschicktes Format, dadurch das sie einerseits zu\nlang ist für eine Nummer und sich nicht für Fortsetzungen recht eig-\nnet. Für die \"Neue Rundschau\" wäre sie ja mit ihrer kräftigen, ziel-\nsichern und bildnerischen Art vortrefflich und ich werde jedenfalls\nDr. Kayser, dem ich ohnehin zuschreiben habe, mit einem Wort daran\nerinnern. Inzwischen wird ja auch hoffentlich die Besprechung im\nBerliner Tageblatt erscheinen, aus der Sie besser als aus meinen et-\nwas eiligen und hastigen Briefen meine Sympathie entnehmen können.\nIhr aufrichtig ergebender\n\nStefan Zweig\nEben höre ich, dass das Referat im B.T. verfiel\nerschien, hoffentlich hat es seine Wirkung",
+      "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichem Nachsatz in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments mit aufgelegter Farb- und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1110,
+    "total_words": 176,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

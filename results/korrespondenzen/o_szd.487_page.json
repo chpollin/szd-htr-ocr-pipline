@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.487",
+    "title": "Erna Alexich-Brettauer an Stefan Zweig, 1930-08-04, SZ-SAM/AK.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.487/IMG.1",
+      "https://gams.uni-graz.at/o:szd.487/IMG.2",
+      "https://gams.uni-graz.at/o:szd.487/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Erna Alexich-Brettauer an Stefan Zweig, 1930-08-04, SZ-SAM/AK.2\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.784712+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzkammergut, Traunkirchen. 4. 8. 30.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n\nHerzlichen Dank für Ihre Antwort. Ich be-\ndauere sehr, dass Sie schon von S. Almunsel\nsind, umso mehr als es mir in Salzburg\nleider nicht möglich sein wird Sie zu sehen.\nWünschen Sie doch den nahtlos an meinen\nAufenthalt hier ist ein von kurzer Dauer die\nnächsten Monate verbringe ich bei Mama\nin der Schweiz. Indessen hoffe ich auf ein\nWiedersehen in einem andern Jahr u. grüße\nSie u. Ihre Gattin herzlich Erna Alexich-Brettauer",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Ein Papierstreifen verdeckt einen Teil des Textes. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Herrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n\nHerzlichen Dank für Ihre Antwort. Ich be-\ndauere sehr, dass Sie schon von S. Almunsel\nsind, umso mehr als es mir in Salzburg\nleider nicht möglich sein wird Sie zu sehen.\nWünschen Sie doch den nahtlos an meinen\nAufenthalt hier ist ein von kurzer Dauer die\nnächsten Monate verbringe ich bei Mama\nin der Schweiz. Indessen hoffe ich auf ein\nWiedersehen in einem andern Jahr u. grüße\nSie u. Ihre Gattin herzlich Erna Alexich-Brettauer",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz des überklebten Bereichs auf der Rückseite der Karte, der durch den Kontext rekonstruierbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 994,
+    "total_words": 167,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

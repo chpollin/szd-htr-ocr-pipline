@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1234",
+    "title": "Ansichtspostkarte an Victor Fleischer vom 5. November 1913, SZ-LAS/B3.50",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1234/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1234/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1234/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Victor Fleischer vom 5. November 1913, SZ-LAS/B3.50\n- Signatur: SZ-LAS/B3.50\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:22.125826+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Elferkofel mit dem Bödensee – Dolomiten. Tirol.",
+      "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Victor, Dank für Deinen Brief.\nMir ist's bitter, so Schönes hier zu erle-\nben, indem du mit entsetzlichen Dingen\nzu kämpfen hast. Aber jetzt muss sich ja\nAlles wenden, hoffentlich für immer.\nMit vielen Grüßen Dein\nStefan\n\nBozen\n\nDr. Victor Fleischer\nRoustavin[?] u\nBöhmen\nVilla Hanka",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text von Stefan Zweig. Der Adressort 'Roustavin' ist schwer lesbar, möglicherweise 'Roustavin' oder ähnlich. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Victor, Dank für Deinen Brief.\nMir ist's bitter, so Schönes hier zu erle-\nben, indem du mit entsetzlichen Dingen\nzu kämpfen hast. Aber jetzt muss sich ja\nAlles wenden, hoffentlich für immer.\nMit vielen Grüßen Dein\nStefan\n\nBozen\n\nDr. Victor Fleischer\nRoustavin[?] u\nBöhmen\nVilla Hanka",
+      "notes": "Identisch mit Seite 2, inklusive Farb- und Grauskala am Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich der Ortsname in der Adresse ('Roustavin') ist aufgrund der Handschrift leicht unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 627,
+    "total_words": 101,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

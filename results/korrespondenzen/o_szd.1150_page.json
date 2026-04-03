@@ -1,0 +1,72 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1150",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1150/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1150/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.1\n- Signatur: SZ-SAM/B11.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.111989+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "28. IX. 27. Fr. M. Zweig\nJ. J. 5743. - Château de Nyon et le Mont-Blanc",
+      "notes": "Die handschriftliche Notiz '28. IX. 27. Fr. M. Zweig' befindet sich am unteren Rand der Bildseite."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast\nIhnen und Villi\nvon Luse u. mir\nherzliche Grüße.\nHerzlichst\nIhre Sie\nschätzende\nFr. M. Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzerstrasse\n(Hauer u. Laubingerhaus)",
+      "notes": "Die Nachricht ist linksbündig, die Adresse rechtsbündig angeordnet. 'Ihre Sie schätzende' ist eine gängige Briefschlussformel. Die Briefmarke (Helvetia 20) ist oben rechts aufgeklebt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Struktur der Postkarte ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 251,
+    "total_words": 43,
+    "language_detected": "fr",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.93,
+    "edited_pages": [
+      2
+    ],
+    "notes": "Page 2: Corrected 'Ihre Le' to 'Ihre Sie' (standard epistolary formula 'Ihre Sie schätzende'). Corrected 'n. mir' to 'u. mir' (abbreviation for 'und'). 'Luse' left as-is — possibly a nickname, not confident enough to change.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:30:00Z"
+  }
+}

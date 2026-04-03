@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1294",
+    "title": "Brief an ? Jeanrenaud ohne Datum, SZ-SHB/B5.2",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1294/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1294/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1294/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1294/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an ? Jeanrenaud ohne Datum, SZ-SHB/B5.2\n- Signatur: SZ-SHB/B5.2\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:26.407672+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VIII. KOCHGASSE\nWIEN,\n\nChère mademoiselle, je suis\nbien content d'entendre que M.\nKaemmerer a été charmé de votre\nsurprise. Et je vous en prie: ne\npensez plus a me remercier. J'ai\ntant de portraits de Verhaeren et\nj'en reçois autant de ses amis pein-\ntres que je suis heureux, si je peux\nen faire cadeau a ses vrai amis.\nDites franchement la verité a M.\nKaemmerer et faites le en lui\ndisant les meilleurs saluts de ma\npart. Agréez, chère mademoiselle,\nles ~~politesse~~ {expression} de mes sentiments les\nplus distingués\nStefan Zweig",
+      "notes": "Der Text ist in violetter Tinte geschrieben. Das Wort 'expression' wurde über das durchgestrichene 'politesse' eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, zeigt Durchdruck des Textes von Seite 1."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt, zeigt schwache Abdrücke von der Vorderseite."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des leeren Blattes, weist Tintenflecken auf."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Korrektur 'expression' über 'politesse' ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 533,
+    "total_words": 92,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

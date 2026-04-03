@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1700",
+    "title": "Brief an Anna Meingast vom 6. Dezember 1935, SZ-SAM/B7.67",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1700/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1700/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 6. Dezember 1935, SZ-SAM/B7.67\n- Signatur: SZ-SAM/B7.67\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.607116+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London 6. 12. 35\n\nLiebe Frau Meingast,\n          nur kurz , die Arbeit stockt jetzt ein\nwenig, weil meine Sekretaerin krank ist. Ich denke aber\n17. fuer I bis 2 Tage in Salzburg zu sein. Und nun eine\nschwere Frage. Waere es Ihnen moeglich zwischen Weiynachten\nund Neujahr mit mir in Wien zu sein  Es ist nicht unbedingt\nnitwendig, falles Ihr Sohn gerade auf Ferien kommen sollte.\nAber ich wuerde mich seht freuen, wenn Sie es sich s o einteilen\nkoenntem.\n\nMit besten Gruessen\n\nStefan Zweig",
+      "notes": "Typoskript auf blauem Papier mit handschriftlicher Unterschrift in violetter Tinte. Der Text enthält einige Tippfehler (z.B. 'Weiynachten', 'nitwendig', 'seht', 'koenntem')."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz einiger offensichtlicher Tippfehler im Original-Typoskript.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 489,
+    "total_words": 85,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

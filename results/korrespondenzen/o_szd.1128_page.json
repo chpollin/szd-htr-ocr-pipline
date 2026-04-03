@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1128",
+    "title": "Briefkarte an Max Fleischer vom 17. Juli 1901, SZ-LAS/B3.7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1128/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1128/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1128/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1128/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1128/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Max Fleischer vom 17. Juli 1901, SZ-LAS/B3.7\n- Signatur: SZ-LAS/B3.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:14.750977+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn\nMax Fleischer\nJurist\nKomotau\nNordböhmen",
+      "notes": "Adressseite der Postkarte. Briefmarke und Stempel 'MARIENBAD' vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "19.7.01\nKOMOTAU\nV\n\n212191[?]",
+      "notes": "Rückseite der Postkarte mit Ankunftsstempel."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Lieber Freund! Was ich als Überraschung geplant hatte,\nist nun leider eine Ungezogenheit geworden – ich wollte\nIhnen nämlich nicht schreiben und Sie jählings in K.\nüberfallen, aber das Schicksal hat es nicht gewollt; ich\nmuss schon Sonntag von hier wegfahren, zunächst nach\nBlankenberge u. da habe ich keine Zeit mehr. Aber\nwir werden uns ja bald in Wien wiedersehen.\nVerse habe ich nicht zuviel geschrieben, Kritisches\nkeine Zeile, die Baudelaireübersetzung (gemeinsam\nmit meinem l. Camill Hoffmann, ist fertig), auf\ngebent habe ich etwas, ich bin ziemlich zufrieden\nmit mir.\nIch befinde mich hier auch sehr wohl, d. h. nicht\nin Marienbad Stadt, sondern in der Umgegend.\nDiese satten goldenen Felder in Böhmen sind herr-",
+      "notes": "Erste Seite des Textes."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "lich und den Genuss, den sie einem lyrischen Pro-\nsadttes bereiten, können Sie vielleicht nicht recht\nverstehen, weil Sie das von Jugend auf genossen haben,\nwahrscheinlich ohne es recht zu wissen.\nAlso fröhlichen Sommer für Sie und Ihren\nHerren Bruder, den ich gerne kennen gelernt hätte!\nIch werde hoffentlich mehrmals Ihnen von der\nReise aus durch Lebenszeichen beweisen können,\ndass ich an Sie denke und aufrichtig ver-\nbleibe Ihr\nStefan Zweig\n\n17. Juli 1901 Marienbad / Haus Ausbras",
+      "notes": "Zweite Seite des Textes."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "lich und den Genuss, den sie einem lyrischen Pro-\nsadttes bereiten, können Sie vielleicht nicht recht\nverstehen, weil Sie das von Jugend auf genossen haben,\nwahrscheinlich ohne es recht zu wissen.\nAlso fröhlichen Sommer für Sie und Ihren\nHerren Bruder, den ich gerne kennen gelernt hätte!\nIch werde hoffentlich mehrmals Ihnen von der\nReise aus durch Lebenszeichen beweisen können,\ndass ich an Sie denke und aufrichtig ver-\nbleibe Ihr\nStefan Zweig\n\n17. Juli 1901 Marienbad / Haus Ausbras",
+      "notes": "Identisch mit Scan 4, jedoch mit Farb- und Grauskala abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, der Kontext der Korrespondenz ist klar. Einige wenige Wörter (z.B. 'sadttes') sind orthographisch ungewöhnlich, aber im Schriftbild eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1766,
+    "total_words": 281,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

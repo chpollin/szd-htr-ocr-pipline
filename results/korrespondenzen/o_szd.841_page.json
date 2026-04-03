@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.841",
+    "title": "Brief an Stefan Zweig vom 11. Juni 1937, SZ-AAP/B1.58",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.841/IMG.1",
+      "https://gams.uni-graz.at/o:szd.841/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 11. Juni 1937, SZ-AAP/B1.58\n- Signatur: SZ-AAP/B1.58\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:36.639982+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\nRef. Ihr Schreiben vom 7.Juni 1937\nMagellan: 11.Juni 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr obiges Schreiben.Schicken Sie uns bitte\nDr.Bagrows Liste möglichst in zwei Exemplaren - sonst lassen wir sie\nauch gern für Sie vervielfältigen - und lassen Sie uns bitte auch\nwissen,ob und wann wir mit dem gesamten bei Ihnen befindlichen Material\nrechnen dürfen.Wenn Sie es uns leihen,erleichtern Sie uns ganz bedeu-\ntend die Vorarbeiten und wir gewinnen auch viel Zeit.\n\nNötig ist,dass wir auch von Dr.Bagrow erfahren,was er für unentbehrlich\nhält.Das muss auf jeden Fall gleich besorgt werden.\n\nWir sind Ihnen dafür dankbar,dass Sie sich mit unserem Vorschlag,das\nMS. auch durch Herrn Dr.Bagrow lesen zu lassen,einverstanden erklärten.\nBitte sprechen Sie mit ihm darüber,damit er es noch tut,solange er in\nLondon bleibt.Selbstverständlich braucht er bloss die geographischen\nund rein historischen Daten nachzuprüfen.\n\nFerner bitten wir Sie,Dr.Bagrow zu fragen,ob er irgendwo in Europa\nSammlungen über die Entdeckungsreisen und im speziellen über Magellan\nkennt.Nur Spanien und Portugal müssen wir ganz ausscheiden,weil die\nLeute dort zu faul sind,um überhaupt zu antworten.Am liebsten sind uns\nParis.London und die deutschen Sammlungen.\n\nWir freuen uns ausserordentlich,die interessanten Illustrationen be-\nsorgen zu können,und erwarten nun bloss Ihre Liste.\nIm voraus bestens dankend sind wir\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, unleserlich, vermutlich ein Kürzel des Verlagsmitarbeiters). Der Text enthält einige rote Unterstreichungen (vermutlich durch Stefan Zweig oder einen Lektor)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine nennenswerten Probleme bei der Transkription.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1865,
+    "total_words": 261,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

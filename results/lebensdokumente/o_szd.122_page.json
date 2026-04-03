@@ -1,0 +1,105 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.122",
+    "title": "Verlagsvertrag Eugen Relgis",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.45",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.122/IMG.1",
+      "https://gams.uni-graz.at/o:szd.122/IMG.2",
+      "https://gams.uni-graz.at/o:szd.122/IMG.3"
+    ],
+    "date": "6. Dezember I937",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Eugen Relgis",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/1057079499"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, schwarze und violette Tinte",
+        "hands": [
+          "Stefan Zweig",
+          "Eugen Relgis"
+        ],
+        "dimensions": "25x23 cm"
+      },
+      "notes": "Unterschrift und Korrekturen eigenhändig in violetter Tinte, Unterschrift und Notiz von Eugen Relgis"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Eugen Relgis\n- Signatur: SZ-AAP/L13.45\n- Datum: 6. Dezember I937\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze und violette Tinte\n- Hand: Stefan Zweig, Eugen Relgis\n- Anmerkungen: Unterschrift und Korrekturen eigenhändig in violetter Tinte, Unterschrift und Notiz von Eugen Relgis"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:43.904252+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Zwischen Herrn Dr. Stefan Zweig, 49 Hallam Street, London W.I\nund Eugen Relgis, Strada A.no.24, Parcul Mica, Bucarest (4), ist\nnachstehende Vereinbarugg getroffen worden:\nDr. Stefan Zweig überlässt die rumänischen Buchrechte an\nMAGELLAN Herrn Eugen Relgis gegen eine einmalige Zahlung von\n400 ~~verlart~~ \n300 (dreihundert) oesterreichischen Schillingen oder den\nGegenwert dieser Summe in englischen Pfunden.\nFalls das Buch nicht innerhalb von zwei Jahren erscheint,\nfallen die Rechten an den Verfasser zurück.\nBei Erscheinen der MAGELLAN sind Dr. Stefan Zweig zwei\ngebundene Exemplare zu übersenden.\nDas Honorar ist bei Abschluss des Vertrags zu erlegen und\nder Vertrag selbst tritt mit der Ueberweisung dieses Betrages\nin Kraft.\n\nLondon, den 6. Dezember 1937      Bucarest, den 2. Dezember 1937\n\nStefan Zweig                      Eugen Relgis\n\n                                  Ich bin einverstanden dass ich\n                                  Herrn Stefan Zweig 400 (vierhundert)\n                                  oesterreichischen Schillingen für\n                                  die rumänischen Buchrechte an\n                                  Magellan zahlen soll.\n                                  Eugen Relgis\n                                  Bucarest, den 22 Dezember 1937",
+      "notes": "Das Dokument enthält handschriftliche Korrekturen in violetter Tinte (die Zahl 400 über 300, Durchstreichung). Die Unterschriften und der untere Absatz sind ebenfalls handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (Durchschlag-Abdruck schwach sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite mit Farbskala, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der handschriftlichen Korrekturen und der Durchschlag-Qualität sehr gut lesbar. Die Korrekturen wurden originalgetreu übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1281,
+    "total_words": 146,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

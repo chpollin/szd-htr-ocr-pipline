@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1724",
+    "title": "Brief an Anna Meingast vom 19. Februar 1937, SZ-SAM/B7.91",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1724/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1724/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 19. Februar 1937, SZ-SAM/B7.91\n- Signatur: SZ-SAM/B7.91\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.032757+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49 Hallam Street\nLondon W.1.                19.Februar 1937.\n\nLiebe Frau Meingast!\n\n                    Vielen Dank für die\nNachsendungen. Ich möchte Sie nun bitten,\nfolgendes zu schicken:\n                    1 Exemplar der \"Flucht zu Gott\"\nund           1 Exemplar des \"Verwandelten Komödianten\" (Reclam)\nan Herrn William Kozlenko, The One Act Play\nMagazine, 112 West 42nd Street, New York,\nferner an mich:\n                    2 Rilke Rede\n                    2 Desbordes-Valmore\n                    2 Flucht zu Gott\n                    5 Exemplare der Bibliografie und\n                    1 Das Buch als Eingang zur Welt.",
+      "notes": "Typoskript mit handschriftlicher Ergänzung in Klammern: \"(Reclam)\"."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Und falls noch genügend Exemplare der Biblio-\ngrafie da sind, schicken Sie bitte eines an\nHerrn Georges Glaser, Agence Littéraire,\nAchillesstraat 71/II, Amsterdam-Z. {und zwei an mich}\n                    Jetzt geht es wieder\nscharf an die Arbeit und vielleicht kann\nich Ihnen noch einiges inzwischen schicken,\nda wir hier Ueberfülle haben.\n\n                    Mit besten Grüssen\n\n                    Ihr\n                    Stefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Ergänzung am Zeilenende: \"{und zwei an mich}\" sowie handschriftlicher Unterschrift \"Stefan Zweig\"."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1061,
+    "total_words": 130,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.159",
+    "title": "Postvollmacht für Anna Meingast, SZ-SAM/L9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.159/IMG.1",
+      "https://gams.uni-graz.at/o:szd.159/IMG.2",
+      "https://gams.uni-graz.at/o:szd.159/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postvollmacht für Anna Meingast, SZ-SAM/L9\n- Signatur: SZ-SAM/L9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:45.868551+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frau A n n a  M e i n g a s t\n\nLinzer Gasse 16, Salzburg.\n\nFrau Anna Meingast, Meine frühere Sekretärin ist von mir er-\nmächtigt, für mich einlangende Sendungen zu über-\nnehmen und Zahlungen entgegenzunehmen oder zu lei-\nsten, und habe ich dieselbe auch der Post gegen-\nüber legitimiert.\n\nStefan Zweig\n\nErneuert für Salzburg, 1. Januar 1936.",
+      "notes": "Typoskript mit handschriftlicher Ergänzung am Zeilenanfang ('Frau Anna Meingast,') und handschriftlicher Unterschrift ('Stefan Zweig')."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 341,
+    "total_words": 60,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1146",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1146/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1146/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.6\n- Signatur: SZ-SAM/B10.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.862307+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 5.April 1937.\n\nLiebe Frau Meingast!\n\nBesten Dank für die Zu-\nsendung des russischen Buches, dessen Be-\nschreibung ich beilege. Nr. 433 habe ich\nder lettischen \"Marie Antoinette\" gegeben,\nderen Beschreibung zwar in der Bibliografie\nenthalten ist, von der aber kein Exemplar\nvorhanden war, Nr. 434 erhielt das portugie-\nsische Buch (24 Stunden...), dessen Beschrei-\nbung ebenfalls beiliegt, die russische Ausga-\nbe der Novellen hat demnach Nr. 435. Vielleicht\nsind Sie so freundlich, das in Ihrem Exemplar\nzu ändern.\n\nJener Zettel von der Post,\nden Sie Herrn Zweig einsandten, bezog sich auf\neine zweite Sendung Papier. Da es nur ein klei-\nnes Quantum war und nach so vielem Hin und Her",
+      "notes": "Maschinengeschriebener Brieftext auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "sicherlich nicht mehr gebrauchsfähig wäre, ist\nes am besten, da gar nichts mehr zu unternehmen.\nSagen Sie mir nur bitte, ob Sie die Rolle mit dem\nPapier oder ein Couvert mit Papier erhalten haben.\nEs ist etwas schwierig mit dem Schicken, da Sie\nsonst leicht einen erheblichen Zoll zahlen müssen.\nKapitel II mit beigelegtem Papier (in zwei Couverts)\nhaben Sie hoffentlich richtig erhalten.\n\nFür März ist ausser der Anfra-\nge von Pathé Cinéma, die Sie ja selbst einsandten,\nund den zwei Büchern nichts zu berichten.\n\nMit den besten Grüssen\n\nIhre\nLotte Altmann",
+      "notes": "Fortsetzung des maschinengeschriebenen Briefes. Die Unterschrift 'Lotte Altmann' ist handschriftlich in violetter Tinte ausgeführt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1253,
+    "total_words": 204,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

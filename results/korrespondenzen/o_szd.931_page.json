@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.931",
+    "title": "Brief an Frans Masereel vom [März 1919], SZ-LAS/B1.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.931/IMG.1",
+      "https://gams.uni-graz.at/o:szd.931/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [März 1919], SZ-LAS/B1.5\n- Signatur: SZ-LAS/B1.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.574438+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "{Je resterai jusqu'a 19 ou 22. Si tu peux}\n{m'envoyer le livre d'heures encore avant je le gardera}\nMon cher Frans, je te remercie pour ta bonne lettre. De l'uli je\nvoudrais 5 exemplaires (5 x 12f = 60f) et de ton livre d'heures (3 x 25f = 75fr.)\nje t'envoyer 140 francs, car tu auras pour les envoyer charges (ce qu'il\nfaut absolument) des frais de 5 francs. Mon adresse sera (si je n'l'aver-\ntirai pas autrement) St Stefan Zweig Salzburg (Autriche) Kapuzinerberg 5\nJe regrette beaucoup ton manque de décision (je ne connais ce\nphénomène que trop bien de moi même) car Rieger est parti pour quelques\njours au Tenin et ma femme qui ne connait pas ce pays veut le suivre\npour 4 jours, si tu ne t'avises pas telegrafiquement lundi. Les derniers jours\nseront remplis de ces ~~degoûtantes~~ affaires de passeport, des douanes et des con-\ntrôles: comme on aurait été heureux avec toi si tu serais venus encore\nmardi. Mais après c'est trop tard.\nNous savons bien que c'est folie de nous de partir, mais nous sa-\nvons aussi qu'un delai ne fait que augmenter le desordre que nous trou-\nverons chez nous. Et je brûle de desir de vivre tranquillement sous mon\ntoit pendant l'été: ce qui sera après, si je pourrai continuer ma vie\nlibre ou si je serai oblizé de travailler pour le pain quotidien, je ne le\nsais pas encore. Je crois que tout que nous avons de fortune, coulera et\nque je ne garderai pas plus que cette admirable maison et peut-être un\npeu pour me defendre quelques années. Mais ce n'est pas cela qui pèse si\nlourdement sur moi: c'est plutot l'incertitude, l'état de folie et de hai-\nne qui gouverne le monde. Sauvons notre âme et nous seront sauvés.\nMon cher, mon bon Frans, il nous sera dûr d'être si\nloin de toi, mais nous avons confiance que tu ne nous oublieras pas, que\nnous nous reverrons bientôt (si tu ne prends pas la decision de nous\nenvoyer lundi un telegramme). Je serre ta main vaillante en affection\nfraternelle! Ton\nStefan Zweig\nS'elis te gardera la dite somme",
+      "notes": "Handschriftlicher Brief von Stefan Zweig an Frans Masereel. Die Tinte ist violett. Der Text ist in Französisch verfasst. Am oberen Rand befindet sich eine handschriftliche Einfügung. Am unteren Rand befindet sich ein Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Sie ist leer, weist jedoch am unteren Rand den Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' auf."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, obwohl die Handschrift flüchtig ist. Einige französische Begriffe weisen eine individuelle Orthographie auf (z.B. 'oblizé' statt 'obligé'), die originalgetreu transkribiert wurde.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1979,
+    "total_words": 360,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

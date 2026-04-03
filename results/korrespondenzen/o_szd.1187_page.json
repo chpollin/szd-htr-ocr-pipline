@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1187",
+    "title": "Postkarte an Anna Meingast vom 8. Januar 1932, SZ-SAM/B7.17",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1187/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1187/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 8. Januar 1932, SZ-SAM/B7.17\n- Signatur: SZ-SAM/B7.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.569145+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "CARTE POSTALE\n\nFrau A. Meingast\nbei Zweig\n\nSalzburg (Autriche)\nKapuzinerberg 5",
+      "notes": "Adressseite der Postkarte. Der Poststempel 'PARIS 8. I. 1932' ist mittig platziert. Die Briefmarke zeigt 'REPUBLIQUE FRANCAISE JUSTICE ET PITIE POUR LES ANIMAUX'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, bitte sen-\nden Sie mir ein Exemplar\nder „Drei Dichter ihres Lebens”\nhieher! Grüßen Sie Willy,\nFrau Marie und Johann, ich\nhoffe hier bis Ende Januar\ndurchhalten zu können. Herz-\nlichst Ihr\n\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 300,
+    "total_words": 48,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 1.0,
+    "edited_pages": [],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
+  }
+}

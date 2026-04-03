@@ -1,0 +1,80 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1173",
+    "title": "Gert René Podbieliki an Anna Meingast, SZ-SAM/B16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1173/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1173/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1173/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Gert René Podbieliki an Anna Meingast, SZ-SAM/B16\n- Signatur: SZ-SAM/B16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.646715+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "28. Mai 36\n\nSehr verehrte Frau –\n{mit der gleichen Post}\nschicke ich einen Brief und eine Druck-\nsache für Herrn Stefan Zweig, die ich weiter-\nzuleiten bitte, falls Herr Zweig noch in\nLondon ist. – Erlauben Sie mir, bei dieser\nGelegenheit zu sagen, wie rührend es im\nNovember gewesen ist, dass Sie die drei Seiten\ndes Manuskripts, die ich Ihnen schickte, \"sehr\nschön\" fanden. Ich war damals so sehr auf\nErmutigung angewiesen.. Darf ich Ihnen\nzum Dank das indessen bei Danker in",
+      "notes": "Die letzte Zeile bricht mitten im Satz ab, der auf der Rückseite der Postkarte fortgesetzt wird. 'mit der gleichen Post' ist als Einfügung über der Zeile geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Absender: Gert René Podbieliki\nz.Zt. Hindenburg O/Schl\nKronprinzenstrasse 29\n\n[Text auf der linken Seite:]\nfürd erschienene Buch –\n(freilich leider nur kartoniert) –\nzum Geschenke machen?\nBitte, nehmen Sie es an!\nmit herzlichen Wünschen\ngrüsst Sie\nIhr Ihnen unbekannt\nergebener Gert R. Podbieliki\n\n[Text auf der rechten Seite:]\nPostkarte\nÖsterreich!\nAn die Sekretärin\ndes Herrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Die Postkarte enthält eine Briefmarke (Hindenburg, 6 Pfennig) und einen Poststempel. Der Text auf der linken Seite setzt den Satz von Seite 1 fort: '...bei Danker in fürd erschienene Buch...' (hier wohl 'für das erschienene Buch')."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Absender: Gert René Podbieliki\nz.Zt. Hindenburg O/Schl\nKronprinzenstrasse 219\n\n[Text auf der linken Seite:]\nfürd erschienene Buch -\n(freilich leider nur kartoniert) -\nzum Geschenke machen?\nBitte, nehmen Sie es an!\nmit herzlichen Wünschen\ngrüsst Sie\nIhr Ihnen unbekannt\nergebener Gert R. Podbieliki\n\n[Text auf der rechten Seite:]\nPostkarte\nÖsterreich!\nAn die Sekretärin\ndes Herrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Dies ist eine Wiederholung des Inhalts von Seite 2 (Scan mit Farbskala)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Fortsetzung des Satzes über die beiden Seiten hinweg ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1316,
+    "total_words": 205,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 4,
+    "estimated_accuracy": 0.97,
+    "edited_pages": [
+      1,
+      2
+    ],
+    "notes": "Page 1: (1) marked 'mit der gleichen Post' as insertion {..} — written above the line; (2) added missing word 'es' in 'wie rührend es im'; (3) normalized hyphens to en-dashes where appropriate. Page 2: (1) corrected house number '219' to '29'; (2) normalized hyphens to en-dashes. Page 3 skipped (color_chart). duplicate_pages flag is a known false-positive (color chart copy of page 2).",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:30:00Z"
+  }
+}

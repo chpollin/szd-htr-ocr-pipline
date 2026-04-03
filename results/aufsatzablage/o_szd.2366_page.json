@@ -1,0 +1,113 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2366",
+    "title": "Romain Rolland",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA165.4",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2366/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2366/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2366/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2366/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2366/IMG.5"
+    ],
+    "date": "25. IV 1930",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "extent": "2 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Durchschlagpapier, Bleistift, schwarze Tinte, violette Tinte",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "Aufsatz\n                                 eingesandt an Cranbrook-School, Michigan 25 IV 1930"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Romain Rolland\n- Signatur: SZ-AAP/W-AA165.4\n- Datum: 25. IV 1930\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt,\n                                          korrigiert\n- Schreibinstrument: Violettes\n                                       Durchschlagpapier, Bleistift, schwarze Tinte, violette\n                                       Tinte\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:11.464638+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufsatz abgesandt an\nHandbook-School, Michigan\n25. IV 1930\n\nDer Kampf für den Frieden und für die Verständigung der\nVölker, so notwendig er in unseren Tagen ist, hat eine moralische\nSchönheit verloren: die Gefahr. Es ist heute allgemein erlaubt, vom\nFrieden zu sprechen und die Brüderschaft zwischen den Nationen als\nSelbstverständlichkeit unserer Zivilisation zu fordern, und man\nfordert{eingefügt} damit eigentlich dasselbe ~~was~~ die meisten Staats-\nmänner, ~~was~~ die ersten geistigen Menschen der Epoche. Aber es gab\neine Zeit, wo das Wort \"Friede\" als Verrat galt, die Forderung nach\nVerständigung als Verbrechen gegen den eigenen Staat, und damals, als\nes Mut galt, diese Idee zu verteidigen, waren es nur wenige, die sich\naus den europäischen Ländern um Romain Rolland zu scharen wagten, eine\nkleine, heute fast vergessene Gruppe. Aber sie allein hat damals gezeigt\ndass Ideale nicht eine Sache sind, die man im unbequemen Augenblick\nablegt wie ein zu enges Kleid, sondern dass jede Idee, einmal als\nwahr und notwendig erkannt, auch in Zeiten der Gefahr verteidigt\nwerden muss. Es ist darum nicht genug, wenn wir ~~heute viel von Frieden~~ den gefährlichen Begeisterten\nund xxx Verständigung reden, denn die meisten ~~unter uns~~ werden im\ngefährlichen Augenblick genau wie 1914 ~~wieder Hass predigen, über-~~\ntätigt von der Massensuggestion. Wichtig ist darum, die jungen Men-\nschen darauf vorzubereiten, innerlich gerüstet und bereit zu sein für\nden Augenblick, wo ihre Gesinnung ein Opfer verlangt, ~~und sogar gegen ihr Vaterland~~ (~~von Frieden~~)\nGegensatz zur allgemeinen Gesinnung steht. Das blosse Sprechen ~~genug~~\nnicht, es muss ein Gelöbnis werden, auch in den schweren Stunden bei\ndieser Ueberzeugung zu verharren, und es ist besser, wie bleiben wenige,\naber vollkommen Sichere als viele Ungewisse und Schwankende. Das Bei-.\nspiel Romain Rollands möge da einer ganzen Generation ein Vorbild sein,\n~~sie~~ an den Preis, den er für seine Haltung bezahlte, nähmlich\n~~sie~~ möge sich erinnern, dass sein eigenes Land ihn wie einen Feind ver-\nfolgt hat, weil er der Idee der Humanität treu blieb, und dass noch\nheute ihm ein engstirniger und unhumaner Patriotismus sein Bekennt-\nnis zur Unabhängigkeit des Geistes nicht verziehen hat. Vergessen wir\nnicht, dass den Krieg verabscheuen keineswegs bedeutet, dem geistigen\nKampf auszuweichen - im Gegenteil, wir lieben diesen Kampf, er ist der\neinzige auf Erden, um dessenwillen wir freundig und verantwortlich leben",
+      "notes": "Typoskript mit zahlreichen handschriftlichen Korrekturen und Ergänzungen in Tinte und Bleistift. Die Lesbarkeit ist aufgrund der Korrekturen stellenweise erschwert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "- 2 -\nund indem wir immer und immer wieder die Jugend aufrufen, den Krieg zu\nhassen, rufen wir sie auch gleichzeitig auf, diesem einzigen, der\nMenschheit würdigen Krieg gegen die Gleichgültigkeit, die Lauheit und\ndem Opportunismus auf Morden[?] immer treu zu sein.",
+      "notes": "Typoskript, Fortsetzung des Textes. Handschriftliche Ergänzung 'auf Morden' über der Zeile eingefügt."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "- 2 -\nund indem wir immer und immer wieder die Jugend aufrufen, den Krieg zu\nhassen, rufen wir sie auch gleichzeitig auf, diesem einzigen, der\nMenschheit würdigen Krieg gegen die Gleichgültigkeit, die Lauheit und\ndem Opportunismus auf Morden[?] immer treu zu sein.",
+      "notes": "Identisch mit Seite 3, jedoch mit einer Farbskala/Grauskala für Archivierungszwecke am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist weitgehend klar lesbar. Die handschriftlichen Korrekturen sind gut identifizierbar, auch wenn sie den ursprünglichen Typoskript-Text teilweise überlagern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3012,
+    "total_words": 462,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

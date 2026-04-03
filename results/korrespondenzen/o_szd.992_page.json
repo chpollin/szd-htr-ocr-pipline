@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.992",
+    "title": "Brief an Sigmund Freud vom 15. April 1925, SZ-LAS/B7.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.992/IMG.1",
+      "https://gams.uni-graz.at/o:szd.992/IMG.2",
+      "https://gams.uni-graz.at/o:szd.992/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 15. April 1925, SZ-LAS/B7.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:48.864571+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG 15. IV 1925\n\nVerehrter Herr Professor, es ist ergreifend\nund ehrend für mich, dass Sie, der so sehr\nund so wichtig Beschäftigte, mein Buch gleich\nzur Hand nahmen und Ihre Worte bedeuten mir\nviel. Wenn ich Ihren Namen über das Buch\nlegte, war es nicht nur ein Sinn dankbarer Ver-\nehrung: manche Capitel wie „die Pathologie des\nGefühls“ bei Kleist oder die „Apologie der Krank-\nheit“ {in Nietzsche} hätten nicht geschrieben werden können ohne\nSie. Ich meine damit nicht, dass sie Resultate\npsychoanalytischer Methode wären — aber Sie haben\nuns den Mut gelehrt, an die Dinge nahe heranzu-\ngehen, furchtlos und ohne jede falsche Schamhaftigkeit\nauch an das Äusserste wie das Innerste des Gefühls\nheranzugehen. Und Mut ist notwendig für die Wahr-\nhaftigkeit — das bezeugt Ihr Werk wie kaum eines\nunserer Zeit.\nHoffentlich darf ich Sie einmal in Wien wieder",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Die Einfügung 'in Nietzsche' ist über der Zeile ergänzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "besuchen — mein Verlangen ist gross, nur der\nRespect vor Ihrer Zeit immer noch grösser.\nMit vielen Empfehlungen an Ihr ver-\nehrtes Fräulein Tochter\nund in Ehrerbietung getreu\nIhr\nStefan Zweig",
+      "notes": "Handschriftliche Fortsetzung des Briefes auf der Rückseite des ersten Blattes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "besuchen — mein Verlangen ist gross, nur der\nRespect vor Ihrer Zeit immer noch grösser.\nMit vielen Empfehlungen an Ihr ver-\nehrtes Fräulein Tochter\nund in Ehrerbietung getreu\nIhr\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala am unteren Rand zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1258,
+    "total_words": 206,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

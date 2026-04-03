@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.504",
+    "title": " Unidentified an Stefan Zweig, 1906-11-23, SZ-SAM/AK.214",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.504/IMG.1",
+      "https://gams.uni-graz.at/o:szd.504/IMG.2",
+      "https://gams.uni-graz.at/o:szd.504/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1906-11-23, SZ-SAM/AK.214\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.214\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.749524+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "23/11. 16\n~~Aus Villa Igiea mir~~ {eingefügt} ~~d~~ {eingefügt} ~~e~~ {eingefügt} ~~s~~ {eingefügt} ~~t~~ {eingefügt} ~~e~~ {eingefügt} ~~s~~ {eingefügt} ~~u~~ {eingefügt} ~~n~~ {eingefügt} ~~d~~ {eingefügt} ~~v~~ {eingefügt} ~~i~~ {eingefügt} ~~e~~ {eingefügt} ~~l~~ {eingefügt} ~~e~~ {eingefügt} ~~K~~ {eingefügt} ~~r~~ {eingefügt} ~~ü~~ {eingefügt} ~~ß~~ {eingefügt} ~~e~~ {eingefügt}!",
+      "notes": "Vorderseite einer Ansichtskarte (Palermo - Villa Giulia). Handschriftliche Notizen am unteren Rand, teilweise durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Palermo, G[ro]d Hotel Villa\nIgiea.\n\nLieber Freund, ich habe\ndie[?] frohe Gelegenheit zum neuen\nHerzog[?] Genua gewünscht und\nwiederhole dies jetzt. Ich habe\neine herrliche italienische Reise\ngemacht Rom, Neapel und bleibe\nnun über den Winter in Palermo.\nLaß doch hier von hören!! Herzlichst\n[Unterschrift unleserlich]\n\nSignore Dr Stefan Zweig\n\nVienna I\nRathausstrasse 17.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden. Der Name des Absenders ist unleserlich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Ansichtskarte wie auf Seite 1 und 2 abgebildet."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Unterschrift und einige Wörter im Textkörper der Postkarte. Die Durchstreichungen auf der Vorderseite sind nur fragmentarisch entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 759,
+    "total_words": 99,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

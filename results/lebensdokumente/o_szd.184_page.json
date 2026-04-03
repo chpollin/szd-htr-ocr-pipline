@@ -1,0 +1,83 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.184",
+    "title": "Liste mit wichtigen Daten und persönlichen Papieren",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AP2/L-S7.13",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.184/IMG.1",
+      "https://gams.uni-graz.at/o:szd.184/IMG.2"
+    ],
+    "document_type": "manuscript",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "subject": [
+        "Verzeichnisse"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs 2002"
+      ],
+      "physical_description": {
+        "hands": [
+          "Stefan Zweig"
+        ]
+      },
+      "notes": "Eigenhändige Liste mit wichtigen Daten und persönlichen Papieren die Familie Zweig betreffend"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Liste mit wichtigen Daten und persönlichen Papieren\n- Signatur: SZ-AP2/L-S7.13\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Hand: Stefan Zweig\n- Anmerkungen: Eigenhändige Liste mit wichtigen Daten und persönlichen Papieren die Familie Zweig betreffend"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.730747+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Daten: Heirat in Bath 6. Sept. 1939\nSheidung in Salzburg 22. November 1938\nCertificate of Naturalisation A.Z. 15747\n~~Passport~~ ausgestellt 12. März 1940\nPassport No\n ausgestellt\nTod Moritz Zweig Wien 1927\nTod Ida Zweig 1938\nVita Versicherung aufgelöst\nVersicherung Haus P[?] H. 653274\n# North British Bristol [3500]\nNational Registration Identity Card W N B F\n 20/3\nLotte W N. B. F\n 20/4\nOath of Allegiance\n Bath 15. III 1940\nPass No 342995 1. April 1940\nNaturalisation Certificate No\n A Z. 15747\n London 12 März 1940\nRegistered \" 18 \" \"",
+      "notes": "Das Dokument ist eine handschriftliche Notizliste. Die Durchstreichung bei 'Passport' ist deutlich. Die Abkürzung 'P[?]' bei der Versicherung ist schwer lesbar, könnte 'P.H.' oder eine ähnliche Abkürzung sein. Die Zahlen in Klammern bei der Versicherungssumme sind in der Vorlage als [3500] interpretiert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Daten: Heirat in Bath 6. Sept. 1939\nSheidung in Salzburg 22. November 1938\nCertificate of Naturalisation A.Z. 15747\n~~Passport~~ ausgestellt 12. März 1940\nPassport No\n ausgestellt\nTod Moritz Zweig Wien 1927\nTod Ida Zweig 1938\nVita Versicherung aufgelöst\nVersicherung Haus P[?] H. 653274\n# North British Bristol [3500]\nNational Registration Identity Card W N B F\n 20/3\nLotte W N. B. F\n 20/4\nOath of Allegiance\n Bath 15. III 1940\nPass No 342995 1. April 1940\nNaturalisation Certificate No\n A Z. 15747\n London 12 März 1940\nRegistered \" 18 \" \"",
+      "notes": "Identisch mit Seite 1 (Scan zeigt das gleiche Dokument)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der schnellen Handschrift gut lesbar, da es sich primär um eine strukturierte Liste mit Daten und Aktenzeichen handelt.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1078,
+    "total_words": 182,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

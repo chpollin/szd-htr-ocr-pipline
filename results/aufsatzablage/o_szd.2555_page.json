@@ -1,0 +1,91 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2555",
+    "title": "Stadt der Mitte",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA76.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2555/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2555/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2555/IMG.3"
+    ],
+    "date": "1929",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Hannover",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Hannover"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ]
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Stadt der Mitte\n- Signatur: SZ-AAP/W-AA76.1\n- Datum: 1929\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:36.983307+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Festtage in Hannover\n2. SONDERBEILAGE DES HANNOVERSCHEN KURIERS\nZUR FESTWOCHE 1929\n\nSTEFAN ZWEIG:\nStadt der Mitte\n\nHannover habe ich zweimal gesehen, beide\nMale bedauerlich kurz, einmal vor dem\nKriege, etwa 1908, und nun 1929. Von\ndem ersten Besuch bewahrte ich den\nnachhaltigen Eindruck einer vornehm-stillen,\nin sich gesammelten Stadt. Das, was\nwir Österreicher in Preußen als zu eckig,\nzu scharf, zu schneidend empfinden (genau\nten an, die ihrerseits (insbesondere das Theater)\ntrotz aller Größe nicht unbescheiden wirkten.\nDas tat wohl: hier war Gleichmaß, kein Mehr-\nsein-wollen, keine Ueberheblichkeit; wenige\ndeutsche Städte erschienen mir so gleichgewichtig\nzwischen Großstadt und Kleinstadt, Residenz und\nIndustriezentrum, zwischen alt und neu, so\ndurchaus harmonisch. Und wie wichtig sind ge-\ndie hinzugekommen ist, der vehementere Rhyth-\nmus von Licht, Verkehr und die ganz hervor-\nragenden Leistungen der Architektur, die sich vor-\nteilhaft den alten, klaren Formen angliedern.\nAuch im Wirtschaftlichen scheint also Hannover\ndiese ihm so eigentümliche Mittelstellung glück-\nlich gerettet zu haben — nicht zurückgefallen, wie\nmanche deutsche Kleinstädte in eine heute schon\n\nLeineschloss: Blick durch die roten Säle in den Konzertsaal\n\nwie in der Aussprache, in der Vokalisation),\nwar hier im Hannoverschen wohltuend gemildert\nin eine reinliche, aber nie peinliche Ordnung:\nebenso wie in Hamburg zeigte die Architektur in\nHaus und Straße eine sehr noble, geradlinige\nSchlichtheit, ein Sichverhalten in den Maßen,\neine selten Art der Ehrlichkeit. Nicht wie in\nden meisten anderen deutschen Residenzen be-\nstand ein Mißverhältnis zwischen den über-\ndimensionalen Gebäuden des Hofs (immer ein\nVersailles, in eine Kleinstadt breit hineingestellt)\nund der Zweckstadt, sondern die bürgerlichen, die\ngeschäftlichen Häuser gliederten sich hier selbst-\ngewiß und selbstverständlich den staatlichen Bau-\nrade heute solche Städte für das deutsche geistige\nLeben, Provinz als Gegenwart gegen die Zen-\ntralisationsgefahr, Provinz, aber nicht provinz-\nlerisch und spießig, sondern eine eigene persön-\nliche, eine stillere Form der Schönheit bewahrend\nund ausbauend; das Norddeutsche, sonst uns nur\nin der Landschaft verständlich, selten in den\nStädten, in Hannover offenbarte sich's mir\nebenso wie in Hamburg, Bremen und Lübeck\nauf das allerglücklichste im belebten und doch\nnicht lauten Wohnbilde. Ich habe seitdem oft\nnoch an Hannover als eine der schönsten deut-\nschen Residenzen gedacht.\nDiesmal, 1929, überraschte mich die Vitalität,\nzu leblose Vergangenheit und andererseits doch\nnicht überrannt von einer zu wild vorstehenden\nIndustrie. Vielleicht war die Zeit zu knapp\ngemessen, um im einzelnen meinen Eindruck zu\nrevidieren, aber so jedenfalls sehe ich innerlich\ndie Stadt: als besten Typus der deutschen\nMittelstadt, Stadt der Mitte, die alle Kräfte\neines Landes in sich ordnend sammelt zu per-\nsönlicher Synthese, die genug geistigen Raum und\nkünstlerischen Humus hat, um Kunst zu schaffen\nund zu fördern und vor allem genug Form-\ncharakter und musealen Besitz, um jeden Be-\nsucher mit Bereicherung und allerdankbarster\nErinnerung zu belohnen.",
+      "notes": "Zeitungsdruck, Frakturschrift. Der Text ist in drei Spalten gesetzt. Die Bildunterschrift 'Leineschloss: Blick durch die roten Säle in den Konzertsaal' ist mittig unter dem Bild platziert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "HERRENHAUSEN\n\nEs ist doch wohl unsere größte Sehenswürdigkeit: die\nGärten von Herrenhausen. Zumal jetzt im Früh-\nsommer, wo die Wiesen noch nicht alle gemäht, die Azaleen noch\nnicht alle verblüht sind und der Flieder und die Kastanien allent-\nhalben im Rausch ihrer Farben stehen.\nDie Gärten, besonders der Große Garten, haben der allge-\nmeinen deutschen Verarmung wegen nicht ganz die Pflege, die\nihre Schönheit zur vollen Entfaltung bringt. Die schwierigen\nBesitz- und Verwaltungsverhältnisse sind die Ursache mancher\nHemmung. Es mag ein bestehender Gedanke sein, sich diese Be-\n\nVerliert man sich weiter in Alleen, so entdeckt man, daß\nin den umschlossenen Rechtecken Gärtnerhäuser und Obstbaum-\nreihen ein stilles Dasein führen. Hier hinter den liebens-\nwürdigsten schlanken Torpfosten riecht es nach Sonne, Heu, Obst\nund Dunst wie in Bauerngärten. Die feierliche Geste des Barok\numschließt das Arkadische.\nJenseits des kleinen Schlosses wartet der Berggarten.\nDa ist heute fast ein jeder Baum und Strauch übersät mit\nduftenden Blüten. Der Flieder steht in ganzen Wänden und in\ndrei und vier Farbschattierungen, die Kastanien haben ihr stolzes\n\nHerrn trug ein krummes Araberschwert (made in France) als\nAndenken im Hofengurt und zum Ausgleich in der Hand die\nweltumspannende rote Friedensfahne des Baedekers.\nMan sieht, ich komme von meinem „Andenken“ nicht los.\nMein Führer sagte, daß sich das springende Sachsenroß vor\ndem Welfenschloß befinde. Ich eilte hin, aber es war leider\nkein Schimmel. — Nun war ich in der Herrenhäuser Gegend.\nüber die Gärten und ihre Ausmaße, ihre Schwingungen und\nihr Licht, das weiter und silbriger ist an diesem Tage als zu\nVersailles und Sanssouci. Mir deucht, es fehlt ein wenig die\nzusammenfassende Hand, um aus den Bestreuungen dieser kost-\nbar herrlichen Gefilde eine überwältigende Verbundenheit zu\nschaffen. Die überragende Schönheit dieser Anlagen erkennt\nman aus den Gartenplänen auf den ersten Blick; man lege\nVersailles und Potsdam daneben, und man wird sehen, wie\nbevorzugt Herrenhausen dasteht. Nicht die Eilenriede, die größer\nsein soll als der Bois, nicht das bewundernswerte Ausstellungs-\ngelände der Stadthalle, nicht die Stadien können je die Kern-\npunkte für eine hannoversche Verkehrswerbung sein.\nDenn dergleichen andere Städte auch. Die heutige\nFremdenwerbung kann im Reigen der Wettbewerbe, denen\nvor Internationalität immer eines dasselbe einfällt, mit Erfolg\nnur an die ureigensten Besonderheiten ihrer Stadt anknüpfen\nund wird sie gewöhnlich in ihrer Landschaft und ihrer Ueber-\nlieferung finden. Diese Ueberlieferungen sind natürlich außer-\nhalb der Museen zu pflegen. Ganz sicher kann beispielsweise\ndie äthiopische Diana mit dem erlegten Fabeltier zu Herren-\nhausen heutzutage eine weit größere Anziehungskraft ausüben\nals etwa ein naturhistorisches Museum, und vielleicht mit Recht.\nMuseen dürften nie den Duft des persönlichen Sammlers ver-\nlieren, und die kleine Schloßsammlung alter Gemälde im\n„Fürstenhaule“ ist meines Erachtens wichtiger und genußreicher\nfür Fremde als das Provinzialmuseum. Die Sammlung der\nStaatswagen aber steht jener zu Lissabon vergleichsweise nicht\nnach. (Es gibt selbst Hannoveraner, die sie nicht kennen.) Die\nGeschichte des Fuhrwerks ist das aufschlussreichste Kapitel aller\nKulturgeschichte. Der Reisewagen jenes Herzogs von Kent, mit\ndem er, sechs feurige Rappen im Zügel, sich selber von Amster-\ndam zur Universität Göttingen kutschierte, ist die märchenhafte\nUebersteigerung des Begriffes „hochmögend“ für den Transport\nzweier Reisekoffer. Und gerade dieser Wagen allein schon könnte\nein sicherer Anziehungspunkt sein für alle Angelssachsen, die auf\ndem Kurs Oberammergau oder Salzburg eigentlich bisher nie in\nHannover aussteigen. Denn der genannte Kenter war der Vater\nder Königin Viktoria.\nUeberhaupt sollte Hannover alles, was noch an die englische\nPersonalunion erinnert, mit geschichtlicher Freude ans Licht\n\nzirke vorzustellen, offen etwa für einen Kurbetrieb, der keinen\nschöneren Rahmen fände, für Sommernächte mit endlosen Zeilen\nvon Lampions, für kleine Gaststätten hier und da, in dem ent-\nzückenden Pavillon zum Beispiel, den wir im Bilde bringen.\nAber wer weiß, der Genius loci, der Reiz des Verschollenen und\ndes Alters, die Schönheit einer adleren Zeit würden möglicher-\nweise entweichen, wenn der Eifer der Gegenwart auch hier un-\ngehemmt buddeln und richten dürfte.\nDen Geist des Barok, der in weiten Perspektiven und großen\nLinien dachte, findet man kaum irgendwo in Europa so lebendig,\nals in dem Großen Garten. Er paßte nicht mehr zu unserem\nGeschmack? Wer sagt, hat den feierlichen Atem, die Freude\ndes in die Weite gelenkten Auges, die Freiheit unter dem hoch-\ngewölbten Himmel nicht erlebt, die der Blick über das Parterre\nhin, wenn man aus der Schnur der Buchenhecken heraustritt,\nspendet.\n\nWeiß und ihr herrlicheres Rot; braune Buchen, Rotdorn und was\nnoch tupft mit starken Farben in alle die Spielarten des Laub-\ngrüns vom Schwarz der fremden Nadelsbäume bis zum ganz\nHellgrünen der jüngsten Schößlinge. Und die Wiesen langen\nhalbmannshoch mit dichtem gelbem, weißem und rotem Taumel\n\nauch die Hannovera, dem Zeitalter nach eine jüngere Dame, die sehr\nanmutig ist. Mir fiel ein, daß ich schon einmal kurz hier war\nund sie für eine Madonna gehalten hatte. Ich kam damals aus\nNeuruppin von der Reichswehr, um auf halbem Wege ein\nMädchen aus Bremen zu treffen. Inzwischen habe ich erfahren,\ndaß Hannover der Schnittpunkt mancher Kreuzwege ist, sowohl\nnach Süden als Westen, und daß die Hannovera im allgemeinen\nkeine Madonna zu sein braucht. Daß aber auch der zu Hamburg\nseit Urzeiten umgehende geheime Schulvers, der beginnt: „In\nHannover an der Leine —“ aus dem Wunschtraume eines Pata-\ngoniers entsprungen sein muß. Oder aber die Rasse muß sich\ngeändert haben, und es mag dem verschwenderischen Asphalt,\nden diese Stadt unter die zarten Schuhe ihrer Bewohnerinnen\nbreitet, zu danken sein, daß nun das entzückte Auge des Fremden\nsie unter ihrem Herzen trug, von der Knidmeyerschen Sammlung\ntüchtige Schiffsmodelle gehört, die noch heute (in einer treff-\nlichen Lokalmischung aus Lübecker Schifferhaus und Papa\nHaases Museum St. Pauli) nicht sehr abseits des Kreuzweges\ndaran gemahnen, daß die Leine ein schiffbarer Fluß und daß\nBremen der Seehafen Hannovers ist? Wie dem auch sei.\nJedenfalls liegt bestimmt eine andere Schöne, für die Goethe\ngeschwärmt hat, zu Hannover begraben, Charlotte Kestner. Ihr\nEnkel schenkte der Stadt den Grundstock eines der besten Kunst-\ngewerbemuseen. Das Grab des Dichters Hölty aber ist ver-\nschollen. (Letzteres entnehme ich dem Führer Herrn Schulzes\nund auch, daß Hannover die Unübertroffenste deutsche Bade-\nanstalt besitzt.)\nEs ist eine saubere und — man merkt es an Kellnern und\nStraßenbahnschaffnern — eine höfliche Stadt. Früher muß es\nweniger gut gewesen sein; denn hier schrieb Knigge seinen Um-\ngang mit Menschen.",
+      "notes": "Zeitungsdruck, Frakturschrift. Mehrspaltiger Satz. Enthält ein Foto von Herrenhausen. Die Seite ist in drei Spalten unterteilt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Identisch mit Seite 2, jedoch mit aufgelegten Archivierungshilfen (Farbskala #13, Grauskala #13)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der Zeitungsqualität. Die Struktur der Spalten wurde beibehalten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 10034,
+    "total_words": 1487,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

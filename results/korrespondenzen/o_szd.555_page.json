@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.555",
+    "title": "Paul Zech an Stefan Zweig, 1914-03-31, SZ-SAM/AK.262",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.555/IMG.1",
+      "https://gams.uni-graz.at/o:szd.555/IMG.2",
+      "https://gams.uni-graz.at/o:szd.555/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Paul Zech an Stefan Zweig, 1914-03-31, SZ-SAM/AK.262\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.262\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:17.613566+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "DUISBURG-HOUHFELD\nNiederrheinische Hütte\n31. III 14. P. Zech",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Industrieansicht. Der Text ist teilweise gedruckt, teilweise handschriftlich (Datum und Signatur)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Monsieur\nDr. Stefan Zweig\nParis\n15 rue de Beaujolais\nHôtel Beaujolais\n\nLieber Freund, ich schreibe Ihnen in\nden nächsten Tagen ein paar Briefzeilen.\nVorläufig wäre Dank für die Karte.\nVon Verweyen erhielt ich die Adresse aus\neinem frühen Briefe. Würden Sie die Güte\nhaben und unserem dem Meister\nmeinen herzlichen Dank übermitteln.\nHand und Gruß Ihr Paul Zech",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke 'Deutsches Reich' 10 Pfennig oben links, Poststempel 'BERLIN-WILMERSDORF 31.3.14 3-4N'. Verlagsangabe am unteren Rand: 'Kunstverlag Bernhard Wandt, Oberhausen, Rbld. Nachdruck verboten. No. 9165'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Monsieur\nDr. Stefan Zweig\nParis\n15 rue de Beaujolais\nHôtel Beaujolais\n\nLieber Freund, ich schreibe Ihnen in\nden nächsten Tagen ein paar Briefzeilen.\nVorläufig wäre Dank für die Karte.\nVon Verweyen erhielt ich die Adresse aus\neinem frühen Briefe. Würden Sie die Güte\nhaben und unserem dem Meister\nmeinen herzlichen Dank übermitteln.\nHand und Gruß Ihr Paul Zech",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz der kursiven Schreibweise.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 778,
+    "total_words": 124,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

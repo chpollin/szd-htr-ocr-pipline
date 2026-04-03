@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2700",
+    "title": "Cäsar und Napoleon",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA30.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2700/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2700/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2700/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2700/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2700/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2700/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2700/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Cäsar und Napoleon\n- Signatur: SZ-AAP/W-AA30.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:56.771702+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Cäsar und Napoleon\n\nCäsar und Napoleon\n(Georg Brandes)",
+      "notes": "Handschrift in violetter Tinte. Es handelt sich um ein Deckblatt oder eine Beschriftung."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, zeigt durchscheinende Tinte der Vorderseite (bleed-through)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Cäsar und Napoleon",
+      "notes": "Ausschnitt/Streifen mit der Überschrift."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Cäsar und Napoleon",
+      "notes": "Ausschnitt/Streifen mit der Überschrift, Rückseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Cäsar und Napoleon\n(Georg Brandes)",
+      "notes": "Ausschnitt/Teil des Dokuments."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Ausschnitts, zeigt durchscheinende Tinte."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Cäsar und Napoleon\n\nCäsar und Napoleon\n(Georg Brandes)",
+      "notes": "Gesamtansicht mit Farb- und Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz, deutlich geschrieben und mehrfach auf den verschiedenen Scans identisch vorhanden.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 178,
+    "total_words": 27,
+    "language_detected": "",
+    "language_match": true
+  }
+}

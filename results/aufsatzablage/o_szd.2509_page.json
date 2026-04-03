@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2509",
+    "title": "Kainz, Josef",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA106.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2509/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2509/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Josef Kainz | In memoriam\n                        J. K. | Titel | Die Stimme\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Kainz, Josef\n- Signatur: SZ-AAP/W-AA106.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Josef Kainz | In memoriam\n                        J. K. | Titel | Die Stimme\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:29.377402+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kainz, Josef\nDie Stimme (In memoriam J. K.)\n\n\n\n\nJosef Kainz\n\nIn memoriam J K\n\nTitel\nDie Stimme",
+      "notes": "Handschriftliches Dokument auf Papier. Die erste Zeile 'Kainz, Josef' enthält eine kleine Korrektur/Einfügung über dem 'o' von Josef."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Josef Kainz\n\nIn memoriam J K\n\nTitel\nDie Stimme",
+      "notes": "Handschriftliches Dokument, identisch mit dem unteren Teil von Seite 1."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Kainz, Josef\nDie Stimme (In memoriam J. K.)",
+      "notes": "Handschriftlicher Text auf einem Papierstreifen."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Kainz, Josef\nDie Stimme (In memoriam J. K.)\n\n\n\n\nJosef Kainz\n\nIn memoriam J K\n\nTitel\nDie Stimme",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 277,
+    "total_words": 51,
+    "language_detected": "",
+    "language_match": true
+  }
+}

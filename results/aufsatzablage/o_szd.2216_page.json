@@ -1,0 +1,134 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2216",
+    "title": "Whitman, Walt",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA216.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2216/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2216/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2216/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2216/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2216/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2216/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2216/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Whitman, Walt\n- Signatur: SZ-AAP/W-AA216.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:55.156478+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Whitman, Walt\n✓ Das deutsche W. W.-Werk\n✓ W. W. (Würdigung)\n\nDas deutsche Walt\nWhitman Werk",
+      "notes": "Das Dokument besteht aus zwei Teilen: einem oberen Abschnitt in violetter Tinte (mit Häkchen) und einem unteren Abschnitt in Bleistift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Das deutsche Walt\nWhitman Werk",
+      "notes": "Ausschnitt des unteren Teils (Bleistift)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Whitman, Walt\nDas deutsche W. W.-Werk\nW. W. (Würdigung)",
+      "notes": "Ausschnitt des oberen Teils (violette Tinte)."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Whitman, Walt\n✓ Das deutsche W. W.-Werk\n✓ W. W. (Würdigung)\n\nDas deutsche Walt\nWhitman Werk",
+      "notes": "Gesamtansicht mit Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich lesbar und weist keine komplexen Kürzel auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 267,
+    "total_words": 46,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Short handwritten document (Whitman, Walt). 3 content pages are detail crops of the same document; all transcriptions match the images accurately. Checkmarks and text correctly captured.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T19:30:00Z"
+  }
+}

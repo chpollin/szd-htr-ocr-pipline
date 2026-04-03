@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.505",
+    "title": "Ernst Sander an Stefan Zweig, 1927-09-21, SZ-SAM/AK.215",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.505/IMG.1",
+      "https://gams.uni-graz.at/o:szd.505/IMG.2",
+      "https://gams.uni-graz.at/o:szd.505/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ernst Sander an Stefan Zweig, 1927-09-21, SZ-SAM/AK.215\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.215\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.786097+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lago Maggiore Brissago e le Isole\n21.9 1927.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten rechts, handschriftliches Datum unten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nBrissago, 21. IX. 27.\nLieber Herr Doktor Zweig,\nnehmen Sie recht herzliche\nGrüße aus meinen überseeischen\nFerienorten!\nIhr ergebener\nE. Sander",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben links, Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, Ansichtskarte in der Mitte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzungen (Dr., IX.) sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 230,
+    "total_words": 35,
+    "language_detected": "",
+    "language_match": true
+  }
+}

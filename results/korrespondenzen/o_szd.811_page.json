@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.811",
+    "title": "Brief an Herbert Reichner vom 1. Mai 1937, SZ-AAP/B1.30",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.811/IMG.1",
+      "https://gams.uni-graz.at/o:szd.811/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 1. Mai 1937, SZ-AAP/B1.30\n- Signatur: SZ-AAP/B1.30\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:33.933644+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1. Mai 1937.\n\nGeehrter Herr Reichner!\n\nIch erhalte heute Ihre\nVertragsvorschläge. Bei der ersten Durchsicht\nhabe ich bereits gefunden, dass sie eine Reihe\nvon neuen Einfügungen enthalten, die sämtlich\nzu meinen Ungunsten sind. Sie haben Ihrem Tipp-\nfräulein damit vollkommen unnötige Mühe gemacht,\ndenn ich bin fest entschlossen, nicht einen ein-\nzigen Punkt anzunehmen, der eine Verschlechterung\nmeiner bisherigen Verträge darstellt und sehe\nkeine Veranlassung dazu.\n\nMit besten Empfehlungen\n\nBesonders hat mich der Abschnitt § 9 erheitert:\nDer Verlag ist Verpflichtet, das Werk in für ihn\ngeeigneter Weise zu fördern. Es ist dies die ein-\nzige Verpflichtung, an die Sie dabei gedacht haben.",
+      "notes": "Typoskript auf Papier. Der Text ist klar und vollständig lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite ist sichtbar, wird gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne Unklarheiten oder Beschädigungen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 692,
+    "total_words": 103,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

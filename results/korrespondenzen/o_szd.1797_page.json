@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1797",
+    "title": "Brief an Stefan Zweig vom 14. Mai 1938, SZ-AAP/B1.231",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1797/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1797/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 14. Mai 1938, SZ-AAP/B1.231\n- Signatur: SZ-AAP/B1.231\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.999712+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Int. Telefoon :\n35609-37609-43187-34461\nAgenten te Leipzig, Parijs, Londen,\nBrussel, Kopenhagen, Turijn en Madrid\n\nUITGEVERS van de\nALGEMEENE MAANDELIJKSCHE\nBIBLIOGRAPHIE\n\nPost-cheque en Girodienst No. 6113\n\nMEULENHOFF & Co. N.V.\nDUITSCHE, ENGELSCHE EN FRANSCHE\nIMPORT-BOEKHANDEL\n\nJMM/SB\n\nAMSTERDAM, den 14. Mai 1938\nROKIN 44\n\nHerrn Stefan Zweig\n49, Hallan Street\nL o n d o n W I\n-------------------\n\nSehr geehrter Herr Zweig,\n\nNach Erhalt Ihres Briefes vom\n9. Mai haben wir versucht, die Adresse des Herrn Herbert\nReichner zu erfahren, was uns jedoch bis jetzt leider noch\nnicht gelungen ist. Wohl erhielten wir die Mitteilung, dass\nder Verlag nach Zürich übergesiedelt sei, doch die Bestel-\nlungen die wir nach Zürich sandten kamen entweder nicht\noder unerledigt zurück, sodass die Adresse dort wahrschein-\nlich nicht bekannt war. Jedenfalls wurde uns die Adresse\nnicht genau mitgeteilt.\n\nSoeben erhalten wir jedoch eine\nKarte vom Schweizerischen Vereinssortiment in Olten, dass\ndie Bücher des Reichner Verlages dort zu beziehen seien.\nRabatt und sonstige Bedingungen wurden nicht genannt. Wir\nhaben darum versuchsweise einige Bücher durch die Post ver-\nlangt, damit wir sehen können, wie das Schweizerische Ver-\neinssortiment die Bücher liefert.\n\nWir werden, wie{eingefügt} Sie verlangen,\nden Herbert Reichner Verlag nicht bezahlen. Leider haben\nwir jedoch schon am 14. Februar eine à Konto-Zahlung von\nSchw.Fr. 2500.-- geleistet. Ist es Ihnen recht, dass wir\ndas Schweizerische Vereinssortiment bitten uns mitzuteilen\nob dort die Adresse des Verlages bekannt ist? Bevor wir\njedoch dazu übergehen, möchten wir erst gern Ihre Antwort\nerhalten.\n\nStets gern zu Ihren Diensten,\n\nhochachtungsvoll\nIhr sehr ergebener",
+      "notes": "Typoskript auf Firmenpapier. Die Korrektur 'wie' wurde handschriftlich über der Zeile eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftliche Einfügung 'wie' ist gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1713,
+    "total_words": 251,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

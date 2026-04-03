@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.747",
+    "title": "Brief an Herbert Reichner vom 13. Dezember 1937, SZ-AAP/B1.153",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.747/IMG.1",
+      "https://gams.uni-graz.at/o:szd.747/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 13. Dezember 1937, SZ-AAP/B1.153\n- Signatur: SZ-AAP/B1.153\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:28.338653+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "13.Dezember 1937.\n\nGeehrter Herr Reichner!\n\nIch erhalte Ihren Brief vom 9.12. Es wundert\nmich, dass nachdem ich erklärte, unter Eid die Aussage\nabzugeben, dass jene Anthologie meiner Verse und Reise-\naufsätze bei Tal ausschliesslich eine konzessionierte\nwar, Sie diese meine eidliche Aussage nur mit fünfzig\nProzent berechnen und durchblicken lassen, dass ich in\ndieser Sache im Unrecht wäre. Ich hatte selbstverständ-\nlich bei der Sachlage die Firma Tal ebenso wenig zu fra-\ngen, wie ich einen Dritten zu fragen habe, ob ich über\nmein eigenes Bankkonto verfügen darf. Und da Sie genau\nwissen, dass es sich um einen Racheakt handelt, so durf-\nten Sie nicht von mir erwarten, dass ich in einer Sache,\nwo ich von meinem Recht und der Bosheit auf der andern\nSeite überzeugt bin, in Wien Bittgänge machen würde.\nIch scheue den Prozess absolut nicht, weil ich mich im\nRecht weiss und werde ihn, wenn es dazu kommt, ruhig\nausfechten, sosehr ich auch aus Ihrem Briefe ersehe,\ndass ich auf Ihre Solidarität nicht zählen kann. Wenn",
+      "notes": "Typoskript auf Briefpapier. Die letzte Zeile bricht mitten im Satz ab, der auf der nächsten Seite fortgesetzt wird."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "es Ihnen dagegen so sehr darum zu tun ist, den Prozess\nzu vermeiden, so empfehle ich Ihnen, an die Firma Tal\nzu schreiben und ihr mitzuteilen, dass nach Ihren noch-\nmaligen Nachfragen ich nicht nur eidlich bekunden würde,\ndass die Ausgabe bei Tal nur eine von der Insel und mir\nkonzessionierte war, sondern dass ich mir die notwendigen\nBeweise dazu bereits beschafft habe. Da Sie aber hörten,\ndass ich den Vorschlag eines Schiedsgerichts gemacht hät-\nte, erklärten Sie sich gleichfalls damit einverstanden\nund schlügen vor, ein solches Ehrengericht aus dem Wie-\nner Buchhändlerverein oder aus Verlegern zusammenzuset-\nzen. Es scheint mir wichtig für den Prozess, dass ein\nsolches Angebot der Firma Reichner, sich einer fachmas-\nsigen Instanz {bereitwillig} zu unterwerfen, vorliegt,\nweil es selbstverständlich die Position in einem Pro-\nzess verstärken würde, dass das Angebot von uns ausge-\ngangen ist und von der Gegenseite abgelehnt wurde.\nEinen Brief an Dr. Glaser, der versehentlich\ndem meinen beilag, gebe ich anbei zurück und bestätige\ngleichzeitig den Erhalt von Frs. 3658.14 durch Oltener\nVereinsbank.\n\nMit den besten Empfehlungen",
+      "notes": "Typoskript auf Briefpapier. Das Wort 'bereitwillig' wurde handschriftlich über der Zeile eingefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Einfügung auf Seite 2 ist klar als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2161,
+    "total_words": 344,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.89",
+    "title": "Vertrag Sperling & Kupfer S.A.",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.12",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.89/IMG.1",
+      "https://gams.uni-graz.at/o:szd.89/IMG.2",
+      "https://gams.uni-graz.at/o:szd.89/IMG.3"
+    ],
+    "date": "9. Mai 1931",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Mailand/Salzburg",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze und violette Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "30x21 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte, Datum und Unterschrift von fremder Hand, violetter Stempel"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag Sperling & Kupfer S.A.\n- Signatur: SZ-AAP/L13.12\n- Datum: 9. Mai 1931\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Datum und Unterschrift von fremder Hand, violetter Stempel"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:47.149781+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "V E R T R A G.\n===============\n\nZwischen Libreria Internazionale Sperling & Kupfer\nS.A., Mailand, Via Larga 21, im Vertrage \"Italienischer Ver-\nleger\" genannt, und Herrn Stefan Zweig, Salzburg, Kapuzinerberg 5,\nim Vertrag genannt \"Eigentuemer\", wurde heute folgender Vertrag\nabgeschlossen:\n\n§ 1.\nDer Eigentuemer uebertraegt dem italienischen Ver-\nleger die Rechte fuer die italienische Buchausgabe im gesamten\nitalienischen Sprachgebiet seines Werkes\n\" Die Heilung durch den Geist \".\n\n§ 2.\nFuer die Ueberlassung der Buchrechte verpflichtet\nsich der italienische Verleger zu einer Vorschusszahlung von\nLire 1000.-- à Conto eines Honorars von 10 % des Ladenpreises\nalles festverkauften Exemplare. Die Abrechnung des Honorars\nvon 10% erfolgt halbjaehrlich und zwar am 1.Juli bezw. 31.De-\nzember jedes Jahres.\n\n§ 3.\nFuer das Vorabdrucksrecht zahlt der italienische Ver-\nleger dem Eigentuemer 50 % aller Eingaenge aus solchen Verkaeu-\nfen und verpflichtet sich zur Ueberweisung dieses 50%igen An-\nteils innerhalb 14 Tagen nach Empfang solcher Honorare.\n\n§ 4.\nBesprechungs-und Freiexemplare sind honorarfrei.\n\n§ 5.\nDer italienische Verleger verpflichtet sich, das Werk\nbis Weihnachten 1931 erscheinen zu lassen.\n\n§ 6.\nDer italienische Verleger verpflichtet sich zur un -\nentgeltlichen Ueberlassung von 6 Pflichtexemplaren.\n\n§ 7.\nAlle andern Rechte als die oben festgelegten Buch-\nund Vorabdrucksrechte bleiben ausdruecklich dem Eigentuemer vor-\nbehalten.\n\n§ 8.\nAlle Zahlungen unter diesem Vertrag sind zu leisten\nan Herrn Stefan Zweig, Salzburg, Kapuzinerberg 5. Der ausschliess-\nliche Gerichtsstand fuer Streitigkeiten aus diesem Vertrage ist\nMailand.\nVorstehender Vertrag wurde in zwei gleichen Exemplaren\nausgefertigt von beiden vertragsschliessenden Teilen gelesen,\nanerkannt und unterschrieben und geht mit seinen Rechten und\nPflichten auf die Rechtsnachfolger der Vertragsschliessenden\nueber. S. A. SPERLING & KUPFER\nIl Presidente\nMailand, den 12. Mai 1931 [?] [?] [?]\nSalzburg den 9. Mai 1931 Stefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Unterschriften und Datumsangaben). Die Unterschrift des Präsidenten von Sperling & Kupfer ist schwer lesbar. Das Datum '12. Mai 1931' ist teilweise durch die Unterschrift überlagert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Unterschriften sind als solche erkennbar, die Unterschrift des Präsidenten ist aufgrund der Handschriftlichkeit etwas unklar, aber im Kontext eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2006,
+    "total_words": 285,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

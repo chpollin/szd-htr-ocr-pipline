@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.456",
+    "title": "Will Scheller an Stefan Zweig, 1927-05-20, SZ-SAM/AK.171",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.456/IMG.1",
+      "https://gams.uni-graz.at/o:szd.456/IMG.2",
+      "https://gams.uni-graz.at/o:szd.456/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Will Scheller an Stefan Zweig, 1927-05-20, SZ-SAM/AK.171\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.171\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.587152+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Cassel. Französ. Kirche mit Landgraf- Carl-Denkmal.\n20.V.\n1927",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text oben, handschriftliches Datum links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Postkarte.\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nLieber Herr Doktor! Haben Sie Dank für Ihre\nfreundliche Mitteilung und seien versichert, daß\nich Respekt ~~habe~~ geduldig werde - als Revanche im\nAugenblick des Opfers, das Sie mir bringen!!!\nMein Respekt gilt dann auch in erster Linie,\ndaß Sie nicht zu sehr enttäuscht sein möchten,\nindem Sie denken, daß das formhaft Reizvollere\nmeiner Lyrik stärker ist als der seelische Gehalt.\nAber reicht es nicht „auch solche Köpfe“ geben?\nHoffentlich ist dann der um den sichs hier han-\ndelt, nicht gerade einer der schlechtesten. Aber\ndas wissen Sie besser als Herr Sie in dankbarer\nGesinnung herzlich grüßender\nWill Scheller\n20.V.\n1927",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden (Cassel, 20.5.27). Der Text enthält eine durchgestrichene Stelle."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Enthält die bereits transkribierte Rückseite der Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die durchgestrichene Stelle ist eindeutig als 'habe' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 752,
+    "total_words": 117,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

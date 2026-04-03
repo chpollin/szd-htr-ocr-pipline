@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.839",
+    "title": "Brief an Herbert Reichner vom 9. Juni 1937, SZ-AAP/B1.56",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.839/IMG.1",
+      "https://gams.uni-graz.at/o:szd.839/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 9. Juni 1937, SZ-AAP/B1.56\n- Signatur: SZ-AAP/B1.56\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:36.409403+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "9.Juni 1937.\n\nGeehrter Herr Reichner!\n\nDr. Bagrow, den ich eben telefonisch sprach,\nkündigt mir für morgen die vollständige Liste an. Ich\nlasse sie sofort in mehreren Exemplaren abschreiben und\nsende sie Ihnen zu. Wir machen dann zwei Merkzeichen\nfür die Dinge, die absolut wichtig sind und unter die-\nsen wieder für diejenigen, welche nur hier zu finden\nsind und welche Sie sich auch in Wien beschaffen kön-\nnen.\n\nEin Zufall will es, dass ich gerade heute\ndie Antwort bekam wegen des Mozart. Es ist die Oxford\nUniversity Press in New York, welche die Faksimile-\nausgabe machen will. Aber es bestünde die Möglichkeit\neiner Einteilung, dass Sie hundertfünfzig Exemplare\nmit englischem Text und Sie in Wien dann hundertfünf-\nzig mit deutschem Texte herstellen. Die Faksimile-\nherstellung könnte in Wien erfolgen, die kleine Ein-\nleitung deutsch in Wien, die englische in Amerika ge-\ndruckt werden. Können Sie vielleicht ungefähr eine\nKalkulation machen, 1) wie viel Seiten in Lichtdruck",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "kosten würden (selbstverständlich darf das Buch nicht\nauseinandergenommen werden) und die farbige Reproduk-\ntion des Einbandes. Das Format kennen Sie ja aus dem\nLiepmannsohn-Katalog. 2) welchen Preis Sie für rich-\ntig hielten, 3) Das Honorar würde mit der Einleitung,\ndie ich eventuell selbst schreibe, zehn Prozent betra-\ngen. Vielleicht kalkulieren Sie sich das durch und ge-\nben mir Bescheid, den ich dann nach New York weiter-\ngebe.\n\nMit den besten Empfehlungen\nIhr",
+      "notes": "Typoskript auf Briefpapier. Fortsetzung der Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1453,
+    "total_words": 228,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

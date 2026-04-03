@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1266",
+    "title": "Brief an Stefan Zweig vom 26. Februar 1938, SZ-SAM/B4.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1266/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1266/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1266/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 26. Februar 1938, SZ-SAM/B4.3\n- Signatur: SZ-SAM/B4.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.950941+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 26. Februar 1938\n\nSehr verehrter Herr Doktor!\n\nIch übermittle Ihnen anbei die beiden eingelangten\nBriefe.\n\nHeute langte ein Buch von van Miller: \"La Nation\nde la Mort\" ein, das ich vorläufig hier zurückbehalte. Es trägt\nnur die kurze Widmung: \"Pour M. Stefan Zweig, cordialement Bernard\nLecache.\" (der Uebersetzer)\n\nSonst nur unbedeutende Drucksachen.\nMit den besten Empfehlungen, Ihre sehr ergebene\n\nMeinast\n\nP.S. Auch das Philobiblon",
+      "notes": "Der Text ist eine Mischung aus Maschinenschrift und handschriftlichen Ergänzungen (Unterschrift 'Meinast' und P.S.-Zeile)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Scan mit Farbreferenzkarten, keine Textinhalte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da er größtenteils maschinengeschrieben ist. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 464,
+    "total_words": 68,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

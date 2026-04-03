@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1202",
+    "title": "Brief an Anna Meingast vom 7. April 1934, SZ-SAM/B7.32",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1202/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1202/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 7. April 1934, SZ-SAM/B7.32\n- Signatur: SZ-SAM/B7.32\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.509870+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place                               London, den 7.April 1934.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr, ich habe alles richtig er-\nhalten. Von dem Verlag Apollo verlangen Sie am besten für\n\"Verwirrung der Gefühle\" eine einmalige Zahlung von 800\noesterreichischen Schillingen (nicht einmal 350 Auslands-\nmark) und ich hoffe, dass die Herren damit einverstanden\nsein werden. Herrn Fuchs lasse ich vielmals für die Kor-\nrekturen danken, ich habe ihm vor ca. acht oder zehn Tagen\ngeschrieben und hoffe, dass er den Brief inzwischen erhal-\nten hat.\n\nAn Arbeit fehlt es hier nicht und es wird noch\nsehr viel nötig sein, selbst wenn ich auch weiterhin die\nSache so scharf angehe, bis Ende Juni (der Termin, den ich\nmir ungefähr vorgesehen habe) mit dem Buche fertig zu sein.\nDie ersten Korrekturen des Erasmus sind inzwischen glücklich\nerledigt.\n\nMit den besten Grüssen an alle im Haus\nIhr sehr ergebener\nStefan Zweig\n\nBitte schreiben Sie mir, ob wir für Holland über den Erasmus\netwas versprochen haben, weil ich heute bereits eine Anfrage\nbekomme.",
+      "notes": "Der Brief ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klarer Maschinendruck, die Unterschrift ist gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1057,
+    "total_words": 168,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

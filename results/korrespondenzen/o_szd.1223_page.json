@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1223",
+    "title": "Brief an Anna Meingast vom 5. Januar 1935, SZ-SAM/B7.53",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1223/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1223/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 5. Januar 1935, SZ-SAM/B7.53\n- Signatur: SZ-SAM/B7.53\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.166801+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Westminster                                Nizza, den 5.Januar 1935.\n\nLiebe Frau Meingast!\n\nSie bekommen noch heute oder morgen Kapitel XV und vielleicht\nauch gerade die letzten Kapitel schon durchkorrigiert. Sie können\ndann, da ich schon eine Vereinbarung mit Herrn Reichner getroffen\nhabe, sowohl die Einleitung als auch das ganze restliche Manuskript\nan ihn schicken. Es wird nur eben dann mehr Korrektur kosten, wenn\nKapitel XVII-XXII noch ziemlich zu ändern sind.\n\nFerner bitte ich Kapitel X-XV, sobald sie neu hergerichtet\nsind, an Eden & Cedar Paul zu schicken und auch von den Schluss-\nkapiteln alles, was ich mit endgültig bezeichnet habe. Ebenso an\nFrau Lavinia Mazzuchetti und Alzir Hella.\n\n                                          Mit besten Grüssen\n\n                                          Stefan Zweig",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt. Das Wort 'endgültig' ist im Original unterstrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da er maschinengeschrieben ist. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 824,
+    "total_words": 110,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

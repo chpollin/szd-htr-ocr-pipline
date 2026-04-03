@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.864",
+    "title": "Brief an Stefan Zweig vom 12. August 1937, SZ-AAP/B1.79",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.864/IMG.1",
+      "https://gams.uni-graz.at/o:szd.864/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. August 1937, SZ-AAP/B1.79\n- Signatur: SZ-AAP/B1.79\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:38.606155+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\n\nHerrn Dr.Stefan Zweig\nVilla Souvenir\nWaldquellzeile\nMarienbad\nC.S.R.\n\nRef. Mozart, Werkverzeichnis 12.August 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nDie Oxford University Press, bzw. deren Direktor Willert, depeschierte\nschon zweimal wegen des Werkverzeichnisses von Mozart und drängt auf\ndessen Herstellung. Wir haben ein langes Kabel von ihm erhalten, in dem\ner ausführt, dass er 250 Exemplare für Amerika braucht.\n\nWas sollen wir ihm antworten ? Und wann ist es möglich, die Handschrift\nin London zu übernehmen ?\n\nAm liebsten wäre es uns, wenn Sie Ihren englischen Partner umgehend er-\nsuchten, dass er die Handschrift etwa 2 - 3 Tage vor Ihrer Wiener An-\nkunft gut verpackt und versichert abschickt, damit die Sendung während\nIhres Wiener Aufenthaltes übernommen werden kann, am liebsten in Ihrer\nAnwesenheit.\n\nWir verpflichten uns, die Versicherungskosten des Hin- und Rückweges\nzu tragen, und bürgen Ihnen für volle Versicherung während der Aufbe-\nwahrung bei Jaffé. Wir haben uns in dieser Angelegenheit mit Jaffé be-\nreits verständigt.\n\nFalls die Faksimile-Ausgabe noch vor Weihnachten erscheinen soll, ist\nes nötig, dass wir die Handschrift bis spätestens Ende August erhalten.\n\nWir schreiben heute Mr.Willert, dass wir ihm in den nächsten Tagen te-\nlegraphischen Bescheid geben werden, und bitten Sie um Ihre liebenswür-\ndige Antwort, für die wir im voraus bestens danken.\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (vermutlich Herbert Reichner). Der Text enthält einige Unterstreichungen mit einem violetten Stift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar, gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine unsicheren Stellen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1491,
+    "total_words": 222,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

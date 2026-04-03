@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2586",
+    "title": "Hofmannsthal",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA88.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2586/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2586/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2586/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2586/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2586/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2586/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2586/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Hofmannsthal\n- Signatur: SZ-AAP/W-AA88.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:42.989180+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hofmannsthal\nDie Gedichte und kleinen Dramen\nDas Buch „tausend und eine Nacht”\nDie „Elektra” des Hugo von Hofmannsthal\nRodauer Nachträge\n\n\nHugo v. Hofmannsthal\n\nElektra\ntausend und eine Nacht\nDie Gedichte und kleinen Dramen. (F. P. Greve)",
+      "notes": "Handschrift. Die erste Seite zeigt eine Liste von Werken und den Namen des Autors, sowie eine Namensnennung (F. P. Greve) am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Hugo v. Hofmannsthal\n\nElektra\ntausend und eine Nacht\nDie Gedichte und kleinen Dramen. (F. P. Greve)",
+      "notes": "Handschrift. Ausschnitt des unteren Teils von Seite 1."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Hofmannsthal\nDie Gedichte und kleinen Dramen\nDas Buch „tausend und eine Nacht”\nDie „Elektra” des Hugo von Hofmannsthal\nRodauer Nachträge",
+      "notes": "Handschrift. Ausschnitt des oberen Teils von Seite 1."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Hofmannsthal\nDie Gedichte und kleinen Dramen\nDas Buch „tausend und eine Nacht”\nDie „Elektra” des Hugo von Hofmannsthal\nRodauer Nachträge\n\n\nHugo v. Hofmannsthal\n\nElektra\ntausend und eine Nacht\nDie Gedichte und kleinen Dramen. (F. P. Greve)",
+      "notes": "Handschrift. Gesamtaufnahme mit Farbskalen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich. Die Transkription folgt dem Layout des Originals.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 711,
+    "total_words": 108,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

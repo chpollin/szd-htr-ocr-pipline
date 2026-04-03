@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.218",
+    "title": "Vortrag über Dostojewski II [Beilage]",
+    "language": "de",
+    "collection": "werke",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.218/IMG.1",
+      "https://gams.uni-graz.at/o:szd.218/IMG.2"
+    ],
+    "document_type": "manuscript",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Vortrag über Dostojewski II [Beilage]\n- Signatur: SZ-Results-SZ/AAP\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:50.385021+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "- are - Eine Dostojewski-Feier hat die Künstlerhilfe für die\nhungernden Rußlands im Staatstheater bereitet. Eine Veran-\nstaltung, die nicht nur der gute Zweck, sondern der Künstler heilige\ninnigste Innerlichkeit trug die Ansprache Stefan Zweigs, der\ner wie in einem meisterlichen Essai über Dostojewski fern einer nur\ngeratenhaften Geste sich zu dem Propheten und dem Apostel des\nLeidens bekannte. Als nach ihm Fritz Kortner jenes wunder-\nsame Kapitel aus dem VII. Buche der Russenbibel aus den „Brüdern\nKaramasow“ „Die Hochzeit zu Kana“ las, die Glut seiner Natur\nund seine vollendete Sprechkunst in die Seele des Jünglings Aljoscha\nstürzend, war die Stimme Dostojewskis gebannt: „De profundis\nclamavi“. Nicht restlos schöpfte die immer bewußte Tilla\nDurieux das Gefühl aus, das in Zweigs „Dostojewski“-\nGedicht pocht, aber sicher traf sie die revolutionäre Wucht in der\ngespenstisch-wilden Ballade „Die Zwölf“, mit der Alex. Blok die Herr-\nschaft der Bolschewiki ankündet. Die Muttersprache dieses leidenden\nVolkes brachte ein Herold der Stanislawski-Truppe, Wassily\nKatschalow, dessen seltsam eindringlichen Gebärden und\nMiene zu folgen auch dem Freude gab, der keineswegs\ndie Laute seiner Heimat zu deuten verstand. Nicht besser konnte die\nFeier beschlossen werden, als mit russischen Volksweisen, wie Feuer\nglimmenden und schwebenden, die das Balalaikaorchester Romanow\nvollendet spielte.",
+      "notes": "Der Text ist ein gedruckter Zeitungsausschnitt. Die roten Markierungen (Striche/Zahlen) sind auf dem Original vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "fürchten, daß er das Vertrauen der europäischen Leser durch\npolitischen Urteile verloren habe(?). Seine Vorwürfe gegen F-\nreich seien ungeheuerlich. Obendrein habe er sich dazu verführen la\nzu sagen, er hoffe, daß es in einem Jahrhundert kein b\ntisches Weltreich mehr geben werde. Die Frage,\ner damit gemeint habe, könne man offen lassen. Aber der Ein\nauf jedermann könne nicht anders als ungünstig sein. Das A\nerklärt dann, die weitere Berichterstattung seinem ständigen\nrespondenten überlassen zu wollen. (Es mag dahingestellt bleiben, ob\ndem Blatte Lord Northcliffes das Recht zusteht, sich auf eine s\nerhabene Warte zu stellen und einem Manne wie Wells die Unpartei-\nlichkeit abzusprechen. Wells wird sich mit Keynes und anderen\nGleichgesinnten trösten, denn selbst Götter kämpfen bekanntlich ver-\ngebens gegen — Unbelehrbarkeit. Die Red.)\nZ Washington, 28. November.\nWells gibt bekannt, daß er von jetzt ab seine Artikel in der\nLondoner Zeitung „Daily Expreß“ und im „New York World“\nerscheinen werde. Als die Redaktion der „Daily Mail“ da-\ngegen protestierte, richtete die „New York World“ ein scharfes\nTelegramm an die „Daily Mail“, in dem gesagt wird,\ndie „Daily Mail“ möge sich um ihre eigenen Angelegen-\nheiten kümmern. Die Washingtoner Presse lobt\neinmütig Wells als ein leuchtendes Beispiel\njournalistischer Redlichkeit.",
+      "notes": "Gedruckter Zeitungsausschnitt. Der linke Rand ist teilweise abgeschnitten, wodurch Satzanfänge fehlen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Da es sich um gedruckte Texte handelt, ist die Lesbarkeit sehr hoch. Die wenigen fehlenden Buchstaben am linken Rand von Seite 2 sind durch den Kontext eindeutig ergänzbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2725,
+    "total_words": 403,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

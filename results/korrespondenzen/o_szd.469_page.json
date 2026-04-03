@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.469",
+    "title": "Heinrich Schwarz an Stefan Zweig, 1932-05-04, SZ-SAM/AK.183",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.469/IMG.1",
+      "https://gams.uni-graz.at/o:szd.469/IMG.2",
+      "https://gams.uni-graz.at/o:szd.469/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Heinrich Schwarz an Stefan Zweig, 1932-05-04, SZ-SAM/AK.183\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.183\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.593390+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4.5.1932",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Landschaftsaufnahme. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Villa Argentina\nDubrovnik - Rijeka\n4.5.1932.\n\nHerrliche dalmatinische\nFrühjahrstage, Erho-\nlung von einem recht\nbewegten und tätigen\nWinter, über den ich\nIhnen im Sommer in\nSalzburg zu berichten\nhope. Mögen diese Grüße\nSie bei guter Gesundheit\nerreichen. Ihr aufrichtig\nergebene\nHeinrich Schwarz\n\nHerrn u. Frau\nDr. Stefan Zweig\n\nSalzburg\nKapuzinerberg\nÖsterreich",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Zwei Briefmarken (Jugoslavija, 75 Para) sind oben rechts aufgeklebt. Vertikaler Aufdruck am linken Rand: 'Déposé, Ljubo Tosović Dubrovnik'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Archiv-Scan mit Farbskala und Grauskala. Enthält die gleiche Ansichtskarte wie in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 370,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

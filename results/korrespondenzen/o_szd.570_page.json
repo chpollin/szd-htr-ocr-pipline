@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.570",
+    "title": " Unidentified an Stefan Zweig, 1917-08-18, SZ-SAM/AK.276",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.570/IMG.1",
+      "https://gams.uni-graz.at/o:szd.570/IMG.2",
+      "https://gams.uni-graz.at/o:szd.570/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1917-08-18, SZ-SAM/AK.276\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.276\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.841921+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "18. Aug. 1917\n\nMarienbad\n\n& unser Logis",
+      "notes": "Vorderseite einer Ansichtskarte von Marienbad. Handschriftliche Notizen in blauer Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "MARIENBAD, den 18. Aug. 1917\n\nLiebster Stefan!\nAnbei schicke ich\nDir das Photo [?] unseres\nLogis! Wollte ich schnell\ngeben wir zwar\nkurz verbleiben an\nhier ist es sehr angenehm\nHab zu Wien das kühl\nAbends sogar kalt\nmuß ich etwas Pelz mit\nnehmen? Laß[?] man\nmis [?] uns f. G. m. senden",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in blauer Tinte. Die Adressseite enthält den gedruckten Text 'Hermann Selbt, Meßen. 1/1/160. Doppelton braun. Nachdruck verboten. 1917.' sowie die Empfängeradresse 'Herrn Dr. Stefan Zweig, Kalksburg, nächst Wien, Liechtensteinstraße 12'. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farb- und Grauskala für Archivierung. In der Mitte befindet sich die bereits transkribierte Rückseite der Postkarte (IMG_2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere am linken Rand der Postkarte, wo der Text durch den Falz oder die Platzierung beeinträchtigt ist. Einige Wörter sind aufgrund der kursiven Schreibweise und der Tinte unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 324,
+    "total_words": 60,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

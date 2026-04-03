@@ -1,0 +1,152 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2756",
+    "title": "Autographen",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA11.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2756/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2756/IMG.11"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Autographen\n- Signatur: SZ-AAP/W-AA11.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:02.296577+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen\n\nMeine Autographensammlung",
+      "notes": "Handschrift in violetter Tinte auf beigem Papier. Das Dokument ist einmal horizontal gefaltet."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen",
+      "notes": "Oberer Teil des Dokuments, Handschrift in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Meine Autographensammlung",
+      "notes": "Unterer Teil des Dokuments, Handschrift in violetter Tinte."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen",
+      "notes": "Detailaufnahme des oberen Teils."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 9,
+      "type": "content",
+      "text": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen\n\nMeine Autographensammlung",
+      "notes": "Gesamtaufnahme des Dokuments."
+    },
+    {
+      "page": 10,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 11,
+      "type": "color_chart",
+      "text": "Autographen\n\nMeine Autographensammlung\nEin Blättchen Papier...\nDie Autographensammlung als Kunstwerk\nVon echten und falschen Autographen\nVon Handschriften-Sammlern\nHandschriften als schöpferische Dokumente\nDie Welt der Autographen\n\nMeine Autographensammlung",
+      "notes": "Dokument mit Farbskala und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und deutlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1256,
+    "total_words": 133,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

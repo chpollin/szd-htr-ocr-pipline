@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.404",
+    "title": "Kurt Meyerowitz an Stefan Zweig, 1929-03-03, SZ-SAM/AK.123",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.404/IMG.1",
+      "https://gams.uni-graz.at/o:szd.404/IMG.2",
+      "https://gams.uni-graz.at/o:szd.404/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Kurt Meyerowitz an Stefan Zweig, 1929-03-03, SZ-SAM/AK.123\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.123\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.104351+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "3.3.29.\n\nLeipzig.\nVölkerschlachtdenkmal.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Völkerschlachtdenkmals. Handschriftliches Datum oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5.\n\n3/III 1929.\nLieber Herr Zweig!\nJetzt bin ich in L,\nund versuche, mein Leben\nganz neu aufzubauen. Sie\nwissen selbst, wie sehr Sekun\nden über Leben u. Schicksal\n{können} eine solche warf\nmich hierher. - So recht in den\nMesstrubel! Herzlichst\nLeipzig C 1, \nReichelstr. 5. Ihr Kurt Meyerowitz",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben links mit Poststempel. Die Einfügung '{können}' steht über dem Wort 'bestimmen' (welches durchgestrichen ist, aber im Transkriptionskontext als 'bestimmen' lesbar bleibt, hier jedoch als 'können' über der Zeile ergänzt wurde)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5.\n\n3/III 1929.\nLieber Herr Zweig!\nJetzt bin ich in L,\nund versuche, mein Leben\nganz neu aufzubauen. Sie\nwissen selbst, wie sehr Sekun\nden über Leben u. Schicksal\n{können} eine solche warf\nmich hierher. - So recht in den\nMesstrubel! Herzlichst\nLeipzig C 1, \nReichelstr. 5. Ihr Kurt Meyerowitz",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Einfügung '{können}' über dem durchgestrichenen Wort 'bestimmen' ist eindeutig als Korrektur des Satzbaus erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 708,
+    "total_words": 113,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

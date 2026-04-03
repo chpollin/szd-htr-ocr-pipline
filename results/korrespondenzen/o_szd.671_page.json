@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.671",
+    "title": "Hans Müller Einigen an Stefan Zweig, SZ-SAM/AK.150",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.671/IMG.1",
+      "https://gams.uni-graz.at/o:szd.671/IMG.2",
+      "https://gams.uni-graz.at/o:szd.671/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, SZ-SAM/AK.150\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.150\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:24.376045+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gries bei Bozen u. der Rosengarten. Etscherin Heinrich-Promenade.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text am oberen Rand. Farbiges Landschaftsbild."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Bozen, 14. 8.\n\nHerzliche Grüße\n~~ein altes Haus~~\nBestens grüßend\nMary des Renards\ndito [?] Lothar\n\nMr le dr. Stefan Zweig\nParis\nHôtel Beaujolais, rue\nde Beaujolais",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in Tinte. Zwei Briefmarken (5 Heller, Österreich) mit Poststempel. Der Text 'ein altes Haus' ist durchgestrichen. 'dito' ist schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke, Ansicht der Postkarte (Vorder- und Rückseite) in der Mitte. Kein eigenständiger Text."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise flüchtig. 'dito' und die Zeile unter 'Mary des Renards' sind schwer zu entziffern. Die Adresszeile 'Hôtel Beaujolais' ist durch die Platzierung auf der Karte und die Handschrift etwas unklar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 229,
+    "total_words": 35,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

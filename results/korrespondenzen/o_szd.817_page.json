@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.817",
+    "title": "Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.36",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.817/IMG.1",
+      "https://gams.uni-graz.at/o:szd.817/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.36\n- Signatur: SZ-AAP/B1.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:34.451968+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\n\nPostcheckkonto\nLeipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr.Stefan Zweig Esq.\n49,Hallam Street\nLondon W.1\n\nENGLAND\n\nDr.Ernst Pollak\n19.Mai 1937 /H\n\nSehr verehrter Herr Dr. Zweig:\n\nHerr Dr.Ernst Pollak ruft uns soeben auf und ersucht\nuns für Sie einige Literatur über österreichisches\nMilitär zu besorgen u.a.\n\n8er-Ulanen (Tagblatt-Bibliothek)\nHeydenau,Leutnant Lugger (Bermann-Fischer\nVerlag)\n\nWir bitten Sie um Ihr freundliches Einverständnis,dass\nwir diese und eventuelle andere Bücher Ihnen direkt\nzuschicken, und sind im voraus bestens dankend\n\nIhre sehr ergebenen\n\nWIEN, VI., Strohmayergasse 6\nHERBERT REICHNER VERLAG",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/violett). Der Text unter 'Dr. Ernst Pollak' ist unterstrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Sichtbare Klebestreifen/Papierverstärkungen an den Rändern."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 823,
+    "total_words": 109,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

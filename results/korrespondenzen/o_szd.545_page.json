@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.545",
+    "title": "Paul Zifferer an Stefan Zweig, 1921-05-04, SZ-SAM/AK.253",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.545/IMG.1",
+      "https://gams.uni-graz.at/o:szd.545/IMG.2",
+      "https://gams.uni-graz.at/o:szd.545/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Paul Zifferer an Stefan Zweig, 1921-05-04, SZ-SAM/AK.253\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.253\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:16.797739+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4430. NEUILLY-SUR-SEINE - Porte de Neuilly entrée du Bois de Boulogne E M.",
+      "notes": "Vorderseite der Postkarte mit Ansicht des Porte de Neuilly. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "le 4 Mai 1921\nCher amis,\nprofitant d'un bref\ncourt séjour d'aura [?] heureux\nnous prenons le déjeuner\nensemble ~~et~~ avons\nbeaucoup parlé de vous.\nQue diriez-vous ? Donnez\nvite signe de vie! Tant à vous\nPaul Zifferer\n\nAu revoir à Salzbourg!\nRaoul Auernheimer\nOui, mon vieux, une réunion\ninespérée — Alsazette,\nEt moi je ne vous ai pas oublié.\nQuand vous reverrai-je?\nF. Crommelynck\n\nCARTE POSTALE\nMonsieur\nStefan Zweig\nKapuzinerberg\nSalzbourg\nAutriche\nE. Malcuit phot.édit., Paris",
+      "notes": "Rückseite der Postkarte mit handschriftlichen Grüßen von Paul Zifferer, Raoul Auernheimer und F. Crommelynck. Zwei französische Briefmarken (5c und 25c) mit Poststempel 'PARIS 5 21 GRENELLE'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Postkarte (identisch mit Scan 1 und 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise sehr flüchtig und überlagert. Besonders die Zeilen von Raoul Auernheimer und F. Crommelynck sind schwer zu entziffern. 'Alsazette' ist eine unsichere Lesung.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 555,
+    "total_words": 90,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.985",
+    "title": "Ansichtspostkarte an Sigmund Freud vom 7. Januar 1939, SZ-LAS/B7.42",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.985/IMG.1",
+      "https://gams.uni-graz.at/o:szd.985/IMG.2",
+      "https://gams.uni-graz.at/o:szd.985/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Sigmund Freud vom 7. Januar 1939, SZ-LAS/B7.42\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:48.288882+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "88A.—\t\tFIFTH AVE. AT 42nd STREET\t\tN. Y.\n\nEWING GALLOWAY",
+      "notes": "Vorderseite der Ansichtspostkarte mit einer Schwarz-Weiß-Aufnahme von New York. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Professor, ich\nhoffe, dass Sie sich in London\nwohl befinden. Ich sende [?]\nein ferngeballendertes[?] Packet\nvon Ort zu Ort, bin aber wohl\ndurchaus intact was freue\nmich schon mächtig, Sie in\nLondon wiederzusehen. In\nherzlichst geben\nStefan Zweig\n\nSigmund Freud, Esq\n20 Maresfield Gardens\nLondon N W 3\nEngland",
+      "notes": "Rückseite der Postkarte mit handschriftlichem Text in violetter Tinte. Briefmarke und Poststempel (New York, 7. Jan 1939) vorhanden. Das Wort 'ferngeballendertes' ist schwer lesbar und könnte eine individuelle Schreibweise oder ein Fehler sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Herr Professor, ich\nhoffe, dass Sie sich in London\nwohl befinden. Ich sende [?]\nein ferngeballendertes[?] Packet\nvon Ort zu Ort, bin aber wohl\ndurchaus intact was freue\nmich schon mächtig, Sie in\nLondon wiederzusehen. In\nherzlichst geben\nStefan Zweig\n\nSigmund Freud, Esq\n20 Maresfield Gardens\nLondon N W 3\nEngland",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am oberen Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere 'ferngeballendertes') sind orthographisch ungewöhnlich oder schwer zu entziffern. Die Transkription spiegelt die Originalschreibweise wider.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 695,
+    "total_words": 114,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

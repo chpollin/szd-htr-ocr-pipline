@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.802",
+    "title": "Brief an Stefan Zweig vom 2. April 1937, SZ-AAP/B1.22",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.802/IMG.1",
+      "https://gams.uni-graz.at/o:szd.802/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. April 1937, SZ-AAP/B1.22\n- Signatur: SZ-AAP/B1.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:33.206710+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\nPostcheckkonto\nLeipzig 8442 Wien 46.469\nPrag 501.701 Zürich VIII 18122\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr. Stefan Zweig, Esq.\n49, Hallam Street\nLondon, W.1\nENGLAND\n\nIhre Postkarte vom 31.März 1937    2.April 1937 /F\n\nSehr verehrter Herr Dr. Zweig:\n\nVielen schönen Dank für Ihre obige Postkarte. Es haben\nsich schon wiederholt verschiedene Damen in London an\nuns gewandt, um die Vertretung für London zu erhalten.\nNun liegt aber die Sache so, dass mit einer Londo-\nner Vertretung allein nicht gedient ist, sondern dass\nwir jemand brauchen, der auch wenigstens 1 - 2-mal im\nJahre in die Provinz kommt. Auch muss der betreffende\nVertreter oder die Vertreterin nicht nur zu den neuen\nEmigranten-Buchhandlungen Beziehungen haben, sondern\nauch zu den alteingesessenen Buchhandlungen wie z.B.\nBumpus und zu den Leihbibliotheken wie z.B. Mudie's.\nWenn Sie da etwas bei Press[?] erfahren, so sind wir Ihnen\nwirklich sehr verpflichtet und noch mehr, wenn Sie mit\ndem betreffenden Herrn oder der betreffenden Dame spre-\nchen.\nNochmals besten Dank und freundliche Grüsse\n\nIhres sehr ergebenen\nHERBERT REICHNER VERLAG\n\nWIEN, VI., Strohmayergasse 6",
+      "notes": "Typoskript auf Briefpapier mit gedrucktem Briefkopf. Die Unterschrift ist handschriftlich. Das Wort 'Press' ist am Zeilenende leicht verschmiert, daher mit [?] markiert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Es handelt sich um die Adressseite einer Postkarte mit zwei aufgeklebten österreichischen Briefmarken (30 Groschen und 5 Groschen) und einem Poststempel 'WIEN 101 -2.IV.37.22'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Einzig das Wort 'Press' am Zeilenende der ersten Seite ist leicht unklar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1288,
+    "total_words": 192,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

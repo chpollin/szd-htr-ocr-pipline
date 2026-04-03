@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1728",
+    "title": "Postkarte an Anna Meingast vom 12. April 1937, SZ-SAM/B7.95",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1728/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1728/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 12. April 1937, SZ-SAM/B7.95\n- Signatur: SZ-SAM/B7.95\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.249453+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frau Anna Meingast\n\nSalzburg (Austria)\nKapuzinerberg 5",
+      "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarke oben rechts (König Georg VI., 1 1/2d). Poststempel teilweise lesbar: 'LONDON' und '12 APR 1937'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast,\nvielen Dank für alle\nSendungen. Es geht jetzt wie immer scharf zu, wenn eine Sache dem Ende nahert nur drei vier Personen\ngegen einander verglichen werden müssten – ich bin\nchon wieder in dem Zustand, dass ich nichts mehr klar\nsehe vor vielen Lesen nur überlesen, dazu werde ich\ngerade jetzt von vielen andern Dingen beschwert, aber\nes wird schon gehen. Die nächsten Capitel sind schon\nhier gemacht werden, Ihre waren tavelllos. Liebe Frau M\nGrüssen Sie mir bitte Ginthen herzlichst\nStZ\n\n[Am linken Rand, vertikal geschrieben:]\nSonntag\nBasel\nPasswang\nStrasse\n33\nSeumstrasse\nnid mich\nzu nicht\nich\nmehr.\n\n[Am rechten Rand, vertikal geschrieben:]\nBitte ein Exemplar da lassen wo Ihnen\nan Josef Hasting",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Der Text am linken und rechten Rand ist vertikal geschrieben. 'tavelllos' ist so im Original geschrieben (vermutlich 'tadelos' gemeint). 'Ginthen' könnte auch 'Günther' oder ähnlich gelesen werden, ist aber so transkribiert wie geschrieben."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige orthographische Besonderheiten auf. Die vertikalen Randnotizen sind aufgrund der Ausrichtung und der Überschneidung mit dem Haupttext teilweise schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 773,
+    "total_words": 124,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

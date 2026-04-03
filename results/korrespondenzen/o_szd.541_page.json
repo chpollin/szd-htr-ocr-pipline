@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.541",
+    "title": "Armand Brody an Stefan Zweig, 1907-04-18, SZ-SAM/AK.25",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.541/IMG.1",
+      "https://gams.uni-graz.at/o:szd.541/IMG.2",
+      "https://gams.uni-graz.at/o:szd.541/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1907-04-18, SZ-SAM/AK.25\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.25\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:16.525152+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "18.4.07.\nEdlach bei Reichenau in N.-Oe., 593 m Seehöhe.\n[...]",
+      "notes": "Vorderseite einer Ansichtskarte mit Landschaftsmotiv. Handschriftliche Datumsangabe und Ortsbezeichnung oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Stefan, solltest Du dies für\neinen Witz halten, so versichere ich\nDir im vollen Ernst: ich bin und\nbleibe in Edlach, Hotel Edlacherhof. Erwarte\nDich an einem schönen, sonnigen Tag, wie dem\nheutigen. Glaube mir es ist reizend. Herb\nerfrischend, lenzesbang, und - holla! -\nabsolut jundenrein!! Es sei denn, dass\nDu die Sünden meiner Väter mir auf\ndas Konto stellst ...) Am liebsten sähe\nich es, wenn Du eines Nachmittags heraus\nfrühst, übernachtetest und nächsten\nAbend nach Wien heimreistest!! Da Du\ndoch in Eile bist. Das ist dann just ein\nTag, nicht wahr? Einverstanden?! Du\nweisst, wie ich mich freuen werde. Schreibe\nzuvor, damit ich Dich erwarten kann in Payer-\nbach! Komm bald!!! Mehr hab ich dir nicht\nzu schreiben, oder höchstens noch: zwei Fanfaren\nfür Niederösterreich im Vorfrühling!!! Du wirst\n9276 Deine Reise nicht bereuen, mein\nBester!! Servus, auf Wiedersehen! Dein Armand.\n\n[Am linken Rand, quer geschrieben:]\n& dann wirst ins Höllental\nfahren, am nächsten Morgen!!",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Gedruckte Postkarten-Elemente vorhanden. Poststempel 'REICHENAU' teilweise lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Stefan, solltest Du dies für\neinen Witz halten, so versichere ich\nDir im vollen Ernst: ich bin und\nbleibe in Edlach, Hotel Edlacherhof. Erwarte\nDich an einem schönen, sonnigen Tag, wie dem\nheutigen. Glaube mir es ist reizend. Herb\nerfrischend, lenzesbang, und - holla! -\nabsolut jundenrein!! Es sei denn, dass\nDu die Sünden meiner Väter mir auf\ndas Konto stellst ...) Am liebsten sähe\nich es, wenn Du eines Nachmittags heraus\nfrühst, übernachtetest und nächsten\nAbend nach Wien heimreistest!! Da Du\ndoch in Eile bist. Das ist dann just ein\nTag, nicht wahr? Einverstanden?! Du\nweisst, wie ich mich freuen werde. Schreibe\nzuvor, damit ich Dich erwarten kann in Payer-\nbach! Komm bald!!! Mehr hab ich dir nicht\nzu schreiben, oder höchstens noch: zwei Fanfaren\nfür Niederösterreich im Vorfrühling!!! Du wirst\n9276 Deine Reise nicht bereuen, mein\nBester!! Servus, auf Wiedersehen! Dein Armand.\n\n[Am linken Rand, quer geschrieben:]\n& dann wirst ins Höllental\nfahren, am nächsten Morgen!!",
+      "notes": "Scan enthält die Postkarte sowie Archiv-Farbskalen (Grauskala #13 und Farbkarte #13). Transkription entspricht der Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Anmerkung am linken Rand wurde korrekt zugeordnet.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2037,
+    "total_words": 328,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

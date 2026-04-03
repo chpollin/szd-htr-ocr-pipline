@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.984",
+    "title": "Postkarte an Sigmund Freud vom 16. November 1938, SZ-LAS/B7.41",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.984/IMG.1",
+      "https://gams.uni-graz.at/o:szd.984/IMG.2",
+      "https://gams.uni-graz.at/o:szd.984/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Sigmund Freud vom 16. November 1938, SZ-LAS/B7.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:48.203038+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Prof. Dr. Sigmund Freud\nLondon NW 3\n20, Maresfield Gardens",
+      "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Poststempel 'LONDON 16 NOV 1938'. Briefmarke 'POSTAGE REVENUE 1d' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Verehrter teurer Professor, ich habe\nmich lange nicht sehen lassen, aber nur\naus Besorgnis, Ihnen meine innere Verstörung\nüber die deutschen Dinge ins Haus zu\ntragen. Sie möchte ich immer klaren\nHerzens sehen! Ich erlaube mir, mich\nmorgen anzufragen. In Verehrung getreu\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Es gibt einen kleinen Fleck auf der rechten Seite, der den Text jedoch nicht unleserlich macht."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Verehrter teurer Professor, ich habe\nmich lange nicht sehen lassen, aber nur\naus Besorgnis, Ihnen meine innere Verstörung\nüber die deutschen Dinge ins Haus zu\ntragen. Sie möchte ich immer klaren\nHerzens sehen! Ich erlaube mir, mich\nmorgen anzufragen. In Verehrung getreu\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am oberen Bildrand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 624,
+    "total_words": 98,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

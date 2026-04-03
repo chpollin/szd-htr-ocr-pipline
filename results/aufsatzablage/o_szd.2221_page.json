@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2221",
+    "title": "Wiener Malerei in Zürich, Die Jahrhundertausstellung",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA218.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2221/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2221/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2221/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2221/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2221/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2221/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2221/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Die Jahrhundertausstellung\n                        Wiener Malerei in Zürich\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Wiener Malerei in Zürich, Die Jahrhundertausstellung\n- Signatur: SZ-AAP/W-AA218.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Die Jahrhundertausstellung\n                        Wiener Malerei in Zürich\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:55.808174+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wiener Malerei in Zürich, Die Jahrhundertausstellung\n\nDie Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
+      "notes": "Das Dokument enthält zwei Textblöcke. Der obere Teil ist eine einzeilige Notiz, der untere Teil ist ein dreizeiliger Textblock."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wiener Malerei in Zürich, Die Jahrhundertausstellung",
+      "notes": "Dies ist ein Ausschnitt des oberen Textblocks aus Seite 1."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Die Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
+      "notes": "Dies ist ein Ausschnitt des unteren Textblocks aus Seite 1."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Die Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
+      "notes": "Spiegelverkehrte oder durchscheinende Ansicht des Textes von der Rückseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Wiener Malerei in Zürich, Die Jahrhundertausstellung",
+      "notes": "Ausschnitt des oberen Textblocks."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Die Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
+      "notes": "Ausschnitt des unteren Textblocks."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Wiener Malerei in Zürich, Die Jahrhundertausstellung\n\nDie Jahrhundertausstellung\noesterreichischer Wiener Malerei:\nin Zürich",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Graukarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar und wiederholt sich in den verschiedenen Scans konsistent.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 562,
+    "total_words": 59,
+    "language_detected": "",
+    "language_match": true
+  }
+}

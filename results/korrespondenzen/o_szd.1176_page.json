@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1176",
+    "title": "Erwin Rieger an Anna Meingast, SZ-SAM/B18.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1176/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1176/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Erwin Rieger an Anna Meingast, SZ-SAM/B18.2\n- Signatur: SZ-SAM/B18.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.861719+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender: \n\nPostkarte\n\nFrau\n\nM. Meingast\nbei Herrn Dr. Zweig\n\nS A L Z B U R G\n\nKapuzinerberg 5.",
+      "notes": "Adressseite einer Postkarte. Briefmarke und Poststempel (13.4.1934) vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wien, XIII. Hietzing,\nHadikgasse 96.\n1.12.33.\n\nLiebe Frau Meingast,\n\nsind nicht Bücher aus Paris an mich[?] gekommen ?\n(Jules Romains : Les hommes de bonne volonté, 5.\nund 6. Band.) Der Autor behauptet es. Wenn ja, so\nerbitte ich die Nachsendung an die obige Adresse.\nAuch wäre ich für ein Exemplar der Marie Antoinet-\nte dankbar, das ich für eine Arbeit brauchen würde.\nWie geht es Ihnen ? Herr Doktor schreibt mir sehr\noft. Bitte, grüßen Sie, falls sie noch oben ist,\nFräulein Alix bestens von mir. Sie ist hoffentlich\nschon gesund. Auch an Herrn Johann beste Grüße.\nIm voraus bestens dankend, stets Ihr\nErwin Rieger",
+      "notes": "Maschinengeschriebener Text mit handschriftlicher Unterschrift. Das Wort 'mich' ist im Original als 'mihh' getippt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da er weitgehend maschinengeschrieben ist. Die handschriftliche Unterschrift ist eindeutig als 'Erwin Rieger' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 713,
+    "total_words": 125,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

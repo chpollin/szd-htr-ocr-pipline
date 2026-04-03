@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1799",
+    "title": "Brief an Werner Stauffacher vom 14. Mai 1938, SZ-AAP/B1.233",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1799/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1799/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Werner Stauffacher vom 14. Mai 1938, SZ-AAP/B1.233\n- Signatur: SZ-AAP/B1.233\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.135066+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "14.Mai 1938.\nHerrn Dr. Werner Stauffacher,\nSt. Peterstrasse 18,\nZürich.\n\nSehr geehrter Herr Doktor!\n\nIch möchte Sie so gerne mit der Führung mei-\nner Angelegenheiten als Anwalt betrauen, nur glaube ich,\ndass es juristisch nicht zulässig ist, dass Sie einer-\nseits mich gegen Herrn Reichner vertreten, während Sie\ngleichzeitig Prokurist seiner Firma sind.\nDas Verhalten des Herrn Reichner gegen Sie\nist ja anscheinend ebenso merkwürdig, da er sich - wahr-\nscheinlich weil er weiss, dass Sie die richtigen Tatsa-\nchen genau kennen - plötzlich eines anderen Anwalts be-\ndient. Es handelt sich im wesentlichen darum, dass Herr\nReichner jetzt die Konstruktion vornimmt, der Herbert\nReichner Verlag sei in Zürich etabliert, Zürich der\nHauptsitz oder alleinige Sitz des Verlages und ich hätte\ndeshalb kein Kündigungsrecht ihn, während er meines\nWissens dort keinen Sitz als Verlag hat und haben darf.\nEr behauptet, dass St.Peterstrasse 18 sich der Verlag\nHerbert Reichner befindet, der früher Aegidigasse 6 in",
+      "notes": "Typoskript. Der Text bricht am Ende der Seite mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "und sich bekanntlich in Zwangsliquidation befindet\nWien war, also bei Ihnen, während ich behaupte, dass\nbei Ihnen an dieser Stelle keine Bücher geführt worden\nnach dem internationalen Verlagsrecht zureichende/\nsind über Ausgang und Eingang und keinerlei Verlagstä-\ntigkeit stattfindet. Ich glaube, Sie wissen selbst,\ndass meine Behauptung die richtige ist und mit Ihrer\nAdresse Schindluder getrieben wird. Nun hat Herr Reich-\nner diese unrichtige Behauptung \"Herbert Reichner Verlag\nauf Prospekten/\nZürich\" sogar drucken lassen, was baldigst zu Weiterungen\nführen wird. Ich warte aber zunächst Ihre Entscheidung\nab, ob und wann ich Sie mit der Führung meiner Angelegen-\nheiten betrauen kann und wäre für eine baldige Klärung\nder Situation äusserst dankbar.\n\nMit den besten Empfehlungen\nIhr sehr ergebener\n\nDas Schweizer Vereinsortiment versendet Prospekte, in\ndenen es mitteilt, dass es den Vertrieb der Bücher des\n\"Herbert Reichner Verlags Zürich\" übernommen hat.\nIch möchte Sie ausdrücklich darum bitten, mir mitzuteilen,\nob Sie als der Prokurist des angeblichen Züricher Verlages\nHerbert Reichner buchmässige oder sonstige Kenntnis von den\nTransaktionen haben, die Herr Herbert Reichner im Namen\nIhrer \"Firma\" vornimmt und ob Sie die Verantwortung dafür\nübernehmen.",
+      "notes": "Typoskript. Fortsetzung des Briefes. Der Text enthält einige manuelle Korrekturen/Einfügungen (Schrägstriche zur Zeilentrennung)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Struktur des Briefes ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2270,
+    "total_words": 336,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

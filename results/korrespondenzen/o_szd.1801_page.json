@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1801",
+    "title": "Brief an Stefan Zweig vom 16. Mai 1938, SZ-AAP/B1.235",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1801/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1801/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 16. Mai 1938, SZ-AAP/B1.235\n- Signatur: SZ-AAP/B1.235\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.318717+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "DR W. STAUFFACHER\nRECHTSANWALT\nTELEPHON 33.503\nPOSTCHECK VIII. 9754\nTelegramme: Stauffacherjur Zürich\n\nZÜRICH, den 16. Mai 1938.\nST. PETERSTRASSE 18\n\nHerrn Dr. St. Z w e i g ,\n\n49 Hallam Street 49,\n\nL O N D O N W 1.\n==================\n\nSehr geehrter Herr Doktor,\n\nIch bestätige mein heutiges Schreiben, nach\ndessen Versendung mich Ihr Herr Bruder bat, Ihnen\ndie handelsregistermässige Eintragung des hiesigen\nGeschäftes bekannt zu geben. Sie lautet:\nHerbert Reichner, Verlag, Einzelfirma, St. Peterstr.\n18, Zürich 1, Inhaber: Herbert Reichner, Wien,\nProkurist: der Unterzeichnete. Natur des Geschäf-\ntes: Verlag von Büchern und Zeitschriften. Eintra-\ngung: 17. April 1935.\n\nIch gebe Ihnen auch diese Information streng\npersönlich.\n\nMit vorzüglicher Hochachtung\n",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich, aber aufgrund der Qualität des Scans schwer zu entziffern (sieht aus wie 'Stauffacher')."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist die einzige Stelle, die aufgrund der Handschrift nicht eindeutig als Buchstabensequenz transkribierbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 761,
+    "total_words": 112,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

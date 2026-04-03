@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.384",
+    "title": "Lebisch an Stefan Zweig, 1908-12-30, SZ-SAM/AK.105",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.384/IMG.1",
+      "https://gams.uni-graz.at/o:szd.384/IMG.2",
+      "https://gams.uni-graz.at/o:szd.384/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lebisch an Stefan Zweig, 1908-12-30, SZ-SAM/AK.105\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.105\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.838604+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Düsseldorf\n30.12.08.\nKunstakademie\nLebisch",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung der Kunstakademie Düsseldorf. Handschriftliche Notizen oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sehr geehrter Herr\nZweig!\nAnlässlich d. Jahres\nwende und weil\nich gerne in die\nHeimat schreibe\ndie besten Glückwünsche\nIch bin hier in\nStellung und sehr\nzufrieden. Langsam\ngehts ja weiter, aber\nsicher. Bitte schreiben\nSie mir einmal,\nich würde mich sehr\nfreuen. Nehmen\nSie mirs nicht\nübel, dass ich eine\nKarte schreibe. Leider\njetzt nur sehr wenig\nfreie Zeit. Ein andermal mehr; mit besten\nGruss f. Lebisch.\n\n[Vertikal am linken Rand:]\nKath. Kunstakademie Düsseldorf, Prinz-Georg-Strasse 16\n\n[Adressseite:]\nWolg.\n\nHerrn Stefan Zweig\nWien\nVIII. Kochgasse 8.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Briefmarke oben rechts (Deutsches Reich, 5 Pfennig), Poststempel teilweise lesbar. Die Adresse ist in zwei Spalten/Bereichen angeordnet."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die vertikale Notiz am linken Rand und die Adressierung wurden strukturell korrekt zugeordnet.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 598,
+    "total_words": 90,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

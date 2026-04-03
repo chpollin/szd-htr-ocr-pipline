@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1621",
+    "title": "Brief an Unbekannt, o. D., SZ-AAP/B1.266",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1621/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1621/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt, o. D., SZ-AAP/B1.266\n- Signatur: o. D., SZ-AAP/B1.266\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:48.802687+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Entwurf\n-------\n\nHerbert Reichner Verlag,\nSt. Peterstrasse 18,\nZürich.\n\nMein Klient Dr. Stefan Zweig erfährt, dass ein\nZüricher Verlag Herbert Reichner öffentlich in Prospek-\nten die Bücher meines Klienten als sein Eigentum ankün-\ndigt, vertreibt und anscheinend Beträge für ihn einkas-\nsiert. Mein Klient bestreitet, jemals mit einem anderen\nVerlag als dem Herbert Reichner Verlag Wien-Leipzig-Zü-\nrich Verträge abgeschlossen zu haben, und ich möchte Sie\nauffordern, mir mitzuteilen, wann sein Züricher Rechts-\nvertreter zweckes Aufklärung des Sachverhalts Einsicht\nin die Geschäftsbücher des Verlages Herbert Reichner\nZürich nehmen kann.",
+      "notes": "Typoskript auf weißem Papier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar, gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 639,
+    "total_words": 88,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

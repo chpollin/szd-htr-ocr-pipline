@@ -1,0 +1,80 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1088",
+    "title": "Ansichtspostkarte an Max Fleischer vom 23. Oktober 1901, SZ-LAS/B3.10",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1088/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1088/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1088/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Max Fleischer vom 23. Oktober 1901, SZ-LAS/B3.10\n- Signatur: SZ-LAS/B3.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.275163+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewig Dein Stefan",
+      "notes": "Die Transkription bezieht sich auf den handschriftlichen Text auf der Bildseite der Postkarte. Der Text ist teilweise über das gedruckte Bild geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Correspondenz-Karte.\nNur für die Adresse\nMax Fleischer\nStud. phil. (nicht jur)\nLeipzig\nMünzgasse 3",
+      "notes": "Die Adressseite enthält einen Poststempel 'WIEN 23.10.01' und eine 5-Heller-Briefmarke. 'Leipzig' wurde handschriftlich korrigiert/ergänzt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Hoffentlich bist Du schon tief in der Philoso-\nphie drinnen! Dank für Deine lieben Karten\nViele. Ewi[g] H[?] Stefan\n\nCorrespondenz-Karte.\nNur für die Adresse\nAn\nMax Fleischer\nStud. phil. (nicht jur)\nin Leipzig\nMünzgasse 3",
+      "notes": "Dies ist eine Gesamtaufnahme der Postkarte mit Farbskala. Die Transkription entspricht den Inhalten von Seite 1 und 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich die Unterschrift und die Abkürzung am Ende der Nachricht auf der Bildseite sind aufgrund der Überlagerung mit dem Bildhintergrund leicht unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 432,
+    "total_words": 68,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 3,
+    "estimated_accuracy": 0.97,
+    "edited_pages": [
+      1,
+      2
+    ],
+    "notes": "Page 1: 'Ewi[g] H[?]' corrected to 'Ewig Dein' — standard epistolary closing, Kurrent 'D' misread as 'H'. Page 2: Removed hallucinated 'An' line (not visible in image) and 'in' before Leipzig.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
+  }
+}

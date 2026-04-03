@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1189",
+    "title": "Ansichtspostkarte an Anna Meingast vom 3. März 1932, SZ-SAM/B7.19",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1189/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1189/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Anna Meingast vom 3. März 1932, SZ-SAM/B7.19\n- Signatur: SZ-SAM/B7.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.681826+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "42. PALAIS DE VERSAILLES - Petit Trianon. Le Pavillon de la Musique. 3.3. 32",
+      "notes": "Die Datumsangabe '3.3. 32' ist handschriftlich in der rechten unteren Ecke ergänzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "liebe Frau Meingast, man\nhat die Maurine bis es\nFrühling wird in das heure\nZimmer, das dickarton ist\nvorzimmer gestellt - bitte\n~~in~~ senden Sie Briefe auf\n~~in~~ wepen bis ich\nvom Zahnarzt komme",
+      "notes": "Die Handschrift ist in violett-grauer Tinte verfasst. Das Wort 'wepen' ist schwer lesbar, könnte auch 'wegen' oder eine andere Ortsangabe sein. Der Text ist in einer flüchtigen Kursivschrift verfasst. Ein Stempel 'EDITION DES MUSÉES NATIONAUX - PALAIS DU LOUVRE - PARIS' ist vorhanden."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist aufgrund der blassen Tinte und der flüchtigen Schreibweise an einigen Stellen (insbesondere 'wepen'/'wegen') schwer zu entziffern. Die Transkription der gedruckten Teile ist sicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 272,
+    "total_words": 48,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

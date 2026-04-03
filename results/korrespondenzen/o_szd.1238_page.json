@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1238",
+    "title": "Brief an Victor Fleischer vom 10. Juli 1914, SZ-LAS/B3.54",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1238/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1238/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1238/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1238/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1238/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Victor Fleischer vom 10. Juli 1914, SZ-LAS/B3.54\n- Signatur: SZ-LAS/B3.54\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:22.489147+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Dr. Victor F l e i s c h\n\nB A D  1 S C H L\nPension Lehner, Brennerstrasse 19",
+      "notes": "Adressseite eines Briefumschlags. Briefmarke: Kaisertum Österreich, 10 Heller, Kaiser Franz Joseph I. Poststempel: BAD ISCHL, 10.V.14."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8.",
+      "notes": "Rückseite des Briefumschlags mit Logo (SZ-Monogramm) und Absenderadresse."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8\nWIEN,\n10.Juli 1914.\n\nLieber Victor !\n\nDu hast wiederholt mir gesagt ,wie sehr Du\nes wünschen würdest ,eine Wohnung mit Garten zu ha-\nben und ich möchte Dich auf eine Gelegenheit aufmerk-\nsam machen, die sich jetzt bietet .Meine Sekretärin\nFrau Mandl zieht jetzt aus ,womöglich sogar schon im\nAugust und ihre Wohnung wird frei ,die folgende Ei-\ngenschaften hat. Sie ist im Parterre des Hauses\nDöblinger Hauptstrasse 42 gelegen, enthält :Vorzimmer,\nKüche und Kabinet auf die Fantzergasse, zwei Zimmer\nund eine grosse Veranda in den Garten , ein Badezim-\nmerchen und einen Gang,wo das Mädchen schläft .Die\nMiete beträgt 1200.-Kronen .Die Wohnung ist absolut\ngarantiert trocken und rein ,licht,gut heizbar und\nfreundlich .Es wäre nur notwendig ,sie schon vom Au-\ngust an zu nehmen ,allerdings wäre dieser Verlust\neiner doppelten Wohnung dadurch kompensiert,dass sie\nbilliger ist als Eure bisherige und jenen Garten hat,\nnachdem Du Dich so sehnst ,der zwar nicht übermässig\ngross istaber doch wieder an Gärten grenzt und da -\ndurch ein gutes Luftreservoir bietet .\nDadurch dass Du den Kaiser zum Ortsgenossen\nhast,bin ich über die traurige Wetterlage in Ischl\nunterrichtet ,Du siehst wie sehr recht ich hatte ,\nDich vor dem Salzkammergut zu warnen .Hoffentlich\nwirds bald besser und Du erfreust Dich Deines Urlaubs",
+      "notes": "Brieftext, Schreibmaschinenschrift."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Dein Brief trifft mich nur mehr ,wenn er umgehend\nabgesandt wird ,tue dies und sei herzlichst ge -\ngrüsst von Deinem\n\nStefan",
+      "notes": "Fortsetzung des Brieftextes, Unterschrift handschriftlich in blauer Tinte."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Dein Brief trifft mich nur mehr ,wenn er umgehend\nabgesandt wird ,tue dies und sei herzlichst ge -\ngrüsst von Deinem\n\nStefan",
+      "notes": "Identisch mit Seite 4, jedoch mit Farbreferenzkarten am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist in klarer Schreibmaschinenschrift verfasst und sehr gut lesbar. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1675,
+    "total_words": 281,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

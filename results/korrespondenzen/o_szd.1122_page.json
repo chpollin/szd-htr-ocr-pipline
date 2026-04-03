@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1122",
+    "title": "Postkarte an Max Fleischer vom 19. Februar 1906, SZ-LAS/B3.41",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1122/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1122/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1122/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 19. Februar 1906, SZ-LAS/B3.41\n- Signatur: SZ-LAS/B3.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:14.356191+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Korrespondenz-Karte.\n\nAn Doktor Victor Fleischer\n\nin Konigstau\nin Böhmen\nVilla Fleischer",
+      "notes": "Adressseite der Postkarte. Poststempel: 20.06.VI. (Datum unklar, evtl. 20.06.06). Briefmarke vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sämtliche Frauen genieren sich\nvor einander Dir zuerst zu schreiben\n\nHelene\nEs wird uns nämlich sehr\n~~schwer~~ {eingefügt} das Geschreibsel zu\n~~schreiben~~ {eingefügt} und desselbe\nGratulieren. M. A[?] \n\nHerzliche Grüße Irma Hoffmann\n\nIch werde Sie niemalr\n„Fiechl“ schimpfen. Sind Sie\nalso gut und kommen\nrecht bald. Fräulein Handl\n\nMalte Baltus gratuliert\nCamilla Hoffmann schönste Grüße und an den Max fleische\ngrüsst auch der Max!\nWie ist es mit den Briefen und der\nRitterlich Reit? Willi Haude",
+      "notes": "Textseite der Postkarte. Am rechten Rand vertikal geschrieben: 'Ach! Du siehst, wie ich vor 10 Uhr nach Hause komme.' Die Anordnung der Unterschriften ist aufgrund der Überlagerungen und der handschriftlichen Dichte komplex."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Sämtliche Frauen genieren sich\nvor einander Dir zuerst zu schreiben\n\nHelene\nEs wird uns nämlich sehr\n~~schwer~~ {eingefügt} das Geschreibsel zu\n~~schreiben~~ {eingefügt} und desselbe\nGratulieren. M. A[?] \n\nHerzliche Grüße Irma Hoffmann\n\nIch werde Sie niemalr\n„Fiechl“ schimpfen. Sind Sie\nalso gut und kommen\nrecht bald. Fräulein Handl\n\nMalte Baltus gratuliert\nCamilla Hoffmann schönste Grüße und an den Max fleische\ngrüsst auch der Max!\nWie ist es mit den Briefen und der\nRitterlich Reit? Willi Haude",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala im Bild."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr dicht, teilweise überlagert und weist Korrekturen auf. Einige Namen und Abkürzungen sind schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1088,
+    "total_words": 163,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

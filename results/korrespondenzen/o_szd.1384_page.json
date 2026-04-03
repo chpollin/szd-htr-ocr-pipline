@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1384",
+    "title": "Ansichtspostkarte an Gisela von Berger vom 30. April 1906, SZ-SEF/B1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1384/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1384/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1384/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Gisela von Berger vom 30. April 1906, SZ-SEF/B1\n- Signatur: SZ-SEF/B1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:30.182283+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Viele Grüße aus der ferne von Ihrem\nergebenen\n\nStefan Zweig\n\n(Hoffen Sie nun eine\nKarte nach\n[...3...]schicken !)\n\n[...3...] man Ihnen dies\nherüber nach.",
+      "notes": "Die Transkription der Vorderseite ist aufgrund der Überlagerung mit dem Bildmotiv und der teilweise unleserlichen Handschrift schwierig. Die Klammerung im Text wurde übernommen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Gisela Baronen Berger\n\nVienna (Austria)\n\nI. Tuchlauben 7",
+      "notes": "Die Adressseite ist gut lesbar. Der Poststempel 'PADDINGTON' und das Datum 'APL 30 06' sind vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Viele Grüße aus der ferne von Ihrem\nergebenen\n\nStefan Zweig\n\n(Hoffen Sie nun eine\nKarte nach\n[...3...]schicken !)\n\n[...3...] man Ihnen dies\nherüber nach.",
+      "notes": "Dies ist eine Wiederholung der Vorderseite (Scan 1) mit Farbskala."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf der Vorderseite der Postkarte ist teilweise schwer zu entziffern, da sie über das gedruckte Bildmotiv geschrieben wurde und die Tinte teilweise verblasst ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 362,
+    "total_words": 56,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

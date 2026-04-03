@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.627",
+    "title": "Victor Fleischer an Stefan Zweig, 1914-07-06, SZ-SAM/AK.58",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.627/IMG.1",
+      "https://gams.uni-graz.at/o:szd.627/IMG.2",
+      "https://gams.uni-graz.at/o:szd.627/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Victor Fleischer an Stefan Zweig, 1914-07-06, SZ-SAM/AK.58\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.58\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:21.855535+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "6/7 1914.\nIschl.",
+      "notes": "Vorderseite einer Ansichtskarte mit Ortsansicht von Bad Ischl. Handschriftliche Datierung und Ortsangabe oben links/mittig."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzkammergut\nBad Ischl mit kais. Villa\n\nMein lieber, es ist trotz aller\nberechtigten Einwände wun-\nderschön hier. Wenn ich nur\nzur Arbeit komme, will ich ganz\nzufrieden sein. Wir wohnen\nvon morgen an: Pension\nLehner, Brennerstr. 19, was\nDu Dir jedenfalls notieren\nkannst.\nHerzlichst\nVictor\n\nHerrn\nStefan Zweig\n\nWien VIII/1\n\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke (5 Heller, Franz Joseph I.) und Poststempel vorhanden. Gedruckte Verlagsangabe 'F. E. Brandt, Gmunden. No. 045 1918' am linken Rand."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Salzkammergut\nBad Ischl mit kais. Villa\n\nMein lieber, es ist trotz aller\nberechtigten Einwände wun-\nderschön hier. Wenn ich nur\nzur Arbeit komme, will ich ganz\nzufrieden sein. Wir wohnen\nvon morgen an: Pension\nLehner, Brennerstr. 19, was\nDu Dir jedenfalls notieren\nkannst.\nHerzlichst\nVictor\n\nHerrn\nStefan Zweig\n\nWien VIII/1\n\nKochgasse 8",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen und Grauskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Passagen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 688,
+    "total_words": 107,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1587",
+    "title": "Brief an Richard Friedenthal vom 10. März 1925, SZ-AAP/B2.10",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1587/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1587/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1587/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 10. März 1925, SZ-AAP/B2.10\n- Signatur: SZ-AAP/B2.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:44.406452+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, am 10. März 1925.\n\nLieber Herr Friedenthal!\n\nIch komme eben von meiner dreiwöchentlichen Reise zurück\nund finde Ihr Manuskript. Selbstverständlich komme ich heute noch nicht\ndazu, es zu lesen, möchte Ihnen aber zunächst folgendes mitteilen:\nich hatte von Ihrer Novelle zu Rütten & Loening gesprochen (der wohl\nder beste Verleger für Novellen ist) und der mich darum bat, sie sehen\nzu dürfen. Nun scheinen Sie aber schon in den Armen der deutschen\nVerlagsanstalt zu sein. Sollten Sie aber sich für den Band noch nicht\nganz gebunden fühlen, so würde ich allenfalls die neue Novelle an Rüt-\nten und Loening schicken und Sie hätten dann zwei Eisen im Feuer.\nBitte, sagen Sie mir zunächst mit einer Postkarte, ob ich\nes tun soll und empfangen Sie die herzlichsten hastigen Grüsse Ihres\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Das Dokument weist leichte Gebrauchsspuren an den Rändern auf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Salzburg, am 10. März 1925.\n\nLieber Herr Friedenthal!\n\nVerlagsanstalt zu sein. Sollten Sie aber sich für den Band noch nicht\nganz gebunden fühlen, so würde ich allenfalls die neue Novelle an Rüt-\nten und Loening schicken und Sie hätten dann zwei Eisen im Feuer.\nBitte, sagen Sie mir zunächst mit einer Postkarte, ob ich\nes tun soll und empfangen Sie die herzlichsten hastigen Grüsse Ihres",
+      "notes": "Das Dokument wurde mit einer Farb- und Grauskala für Archivierungszwecke überlagert. Der Text ist teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Überlagerung durch die Archivierungsskalen auf Seite 3 beeinträchtigt die Lesbarkeit nur dort, wo der Text physisch verdeckt ist; der Inhalt ist jedoch durch den Abgleich mit Seite 1 vollständig rekonstruierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1192,
+    "total_words": 197,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

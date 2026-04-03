@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1647",
+    "title": "Brief an Frans Masereel vom 3. Juli 1941, SZ-LAS/B1.63",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1647/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1647/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 3. Juli 1941, SZ-LAS/B1.63\n- Signatur: SZ-LAS/B1.63\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:51.461635+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "c/o Vikingpress\n18 East 48th Street\nNewyork.\n\nle 3 juillet 1941.\n\nMon cher Franx,\n\nJ'ai entendu avec profond regret des difficultés\nbureaucrates qui ont empêchées jusqu'à présent ton arrivée.\nPour ne pas retarder ton départ, Monsieur Walter Engel qui\nprépare une exposition de ton oeuvre à Bogota, Columbia, a fait\ndes efforts pour vous obtenir des visas pour la Colombie, et le\nMinistre de la Belgique là-bas, René L. van Meerbeke, Chargé\nd'Affaires de Belgique, Bogota, s'occupe personnellement de ton\n~~sort.~~ Nous espérons d'avoir bientôt les visas pour toi et ta\nfemme qui - d'après ce qu'il paraît-ont déjà été accordés en\nprincipe par le Ministre des Affaires Extérieures de Colombie.\nEt dès que tu seras une fois à l'autre côté tout sera plus\nfacile.\n\nJ'ai grande envie de te rencontrer néanmoins\nque cela ne seront plus nos entretiens gais et insoucieux\nd'autrefois. On avait plus d'espoir, plus de force et plus\nde confiance il y a vingt-cinq ans, et avant tout on était\nplus jeune.\n\nDe tout coeur\n\nton vieux\n\nStefan\n\nJe te conseille en tout cas de t'adresser à la légation de\nla Columbie ou leur Consulat et de leur explique que ton visa\n- grâce à l'intervention du Chargé d'Affaire de Belgique\nauprès du Ministre de l'Extérieur à Bogota est déjà quasi\npromis, et tu peux aussi dire que German Arciniegas de la\nLégation de Colombie à Buenos Aires qui est leur meilleur\nécrivain et un ami personel de moi, s'occupera également\nde vos affaires.",
+      "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichen Korrekturen/Ergänzungen. Stempel '124 III' oben mittig. Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' unten mittig."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Durchscheinender Text des Typoskripts der Vorderseite erkennbar. Unten mittig der Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Es handelt sich um ein Typoskript mit wenigen handschriftlichen Korrekturen (z.B. das durchgestrichene Wort und die Unterschrift).",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1454,
+    "total_words": 248,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

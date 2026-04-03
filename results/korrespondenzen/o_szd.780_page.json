@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.780",
+    "title": "Brief an Stefan Zweig vom 2. März 1938, SZ-AAP/B1.183",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.780/IMG.1",
+      "https://gams.uni-graz.at/o:szd.780/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. März 1938, SZ-AAP/B1.183\n- Signatur: SZ-AAP/B1.183\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:31.277976+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\n\nRef.\nAbrechnung per 28.Februar 1938\n-------------------------------\n2.März 1938 /F/F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir senden Ihnen anbei die Honorar-Abrechnung per 28.Februar 1938\nund legen einen Scheck über\n\n          sFr.1,047.20\n          ------------\nbei.Den Schillingbetrag von\n\n          ö.S.3,147.64\n          ------------\nübermitteln wir unter einem an Herrn Dr.Geiringer.\n\nWir bitten Sie um gefällige Kenntnisnahme und Bestätigung der Abrech-\nnung und sind im voraus bestens dankend in vorzüglicher Hochachtung\n\n                                  Ihre sehr ergebenen\n\n\n\nCala\nWert. -\nBerliner\nRing",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Handschriftliche Notiz am linken unteren Rand (violette Tinte). Die Unterschrift ist als unleserliches Kürzel vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite sichtbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Notiz am unteren linken Rand ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 753,
+    "total_words": 86,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

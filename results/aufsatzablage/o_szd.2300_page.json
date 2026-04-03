@@ -1,0 +1,99 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2300",
+    "title": "Stimme eines Blinden.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA187.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2300/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2300/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2300/IMG.3"
+    ],
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Bleistift, blauer Buntstift",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "Sonntag 25\n                                 Mai | o. J. | Pester Lloyd"
+        ]
+      },
+      "notes": "Eventuell Vorabdruck von Zweigs Vorwort zu Max Zodykow:\n                        Stimme aus dem Dunkel. Publikationsangabe \"Pester Lloyd\"\n                        vermutlich fehlerhaft"
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Stimme eines Blinden.\n- Signatur: SZ-AAP/W-AA187.1\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Bleistift,\n                                       blauer Buntstift\n- Hand: Unbekannt\n- Anmerkungen: Eventuell Vorabdruck von Zweigs Vorwort zu Max Zodykow:\n                        Stimme aus dem Dunkel. Publikationsangabe \"Pester Lloyd\"\n                        vermutlich fehlerhaft"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:03.900706+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Feuilleton.\nStimme eines Blinden.\nVon STEFAN ZWEIG.\n\nWas den Dichter ausmacht, ist im Letzten die\nBesondere, die erstmalige Art seines Anschauens. Er\nsieht nicht von außen die Dinge, gleichsam flächen-\nhaft und glatt, sondern plastisch in ihrer Tiefe: er\nsieht nicht bloß an, sondern sieht und zieht in sich\nhinein. Indem er aber so das Besondere jeden Gegen-\nstandes und jeder Erscheinung faßt, ist er unwill-\nkürlich gezwungen, sie mit anderen, ebenso einmalig\ngeschauten Wesenheiten zu vergleichen, und schafft\nsich dadurch innen eine kommunizierende Welt\nlebendig gegeneinander wirkender Bezüge. Weil er\ndeutlicher sieht als die anderen, erinnert er sich leb-\nhafter, weil er sinnlicher erfaßt, wird sein Ausdruck\nsinnlicher, weil seine Anschauung eine lebendigere\nist, wird alles Lebendige durch ihn Anschauung.\nDa nun alles Dichterische im Letzten und Eigent-\nlichen auf der Intensität der Anschauung beruht, er-\ngibt sich die Frage, ob geistige Produktivität, ob\nDichtung auch jenem möglich sei, dem durch eine\nUngerechtigkeit der Natur — und sie ist selten ge-\nrecht — die Möglichkeit der unmittelbaren An-\nschauung genommen ist. Zwar: man hat uns berich-\ntet, Homer sei blind gewesen und wir wissen es von\nMilton, aber diese hohen Dichter waren nicht von\nAnfang an der Fähigkeit der Anschauung beraubt.\nMan kann sie blind nennen im Sinne, wie wir\nvon Beethoven sagen, er sei taub gewesen, indem er\nes nicht war, sondern erst wurde. Erst in späteren\nJahren hatte gerade die Überfeinerung des schöpfe-\nrischen Organs das Organ selbst zerstört. Aber der\ninnere Bestand war längst gerettet, in Homer und\nMilton die Anschauung, in Beethoven die Melodie,\nund wie bei der Laterna magica gab gerade das\nvollkommene Dunkel vollere Farbe und ungetrübte\nForm. Daß der Blindgewordene Dichter zu sein\nvermag, der taubgewordene Musiker, ist der Mensch-\nheit längst bewiesen gerade an den vollendetsten\nihrer Geschöpfe.\nAnders der Blindgeborene. Ihm, dem die Mög-\nlichkeit der Anschauung von vorneweg genommen\nist, wie sollte er sinnlich zu gestalten vermögen, wo\nder Sinn selber fehlt. Wie einer unsere Welt nach-\nbilden können, der nicht ihren Umriß kennt, ihre\nFläche und ihre Tiefe und ihr Maß im umgrenzten\nRaum? wie einer wiederzugeben vermögen, dem nie\ngegeben war.\nSchon außerordentlich ist es, wenn einer von\ndiesen Verkürzten von dem verminderten Geschenk\ndes Daseins nur verworrene Ahnung für sich selber\nempfängt, wenn er sich durchtastet durch den\nschmalen und gefährlichen Weg seines Dunkels.\nDazu kommt, daß wir den vitalen Willen im Blinden\neher als geschwächt annehmen müssen, weil er sich\nnicht ins Unbegrenzte entfalten kann, weil er überall\nschmerzhafte Grenzen spürt, Unerreichbares, Un-\nfaßbares und Undeutbares und ihn die Ahnung der\nMinderwertigkeit bedrückt, andere Wesen, ähnlich\nwie er, seien berufener und begabter zu höherer\nErfüllung, zu einer anderen, ihm nicht ganz faß-\nbaren Lust und Tätigkeit. Darum ziemt uns eine\nganz außerordentliche Ehrfurcht für die Seltenen\nunter ihnen, die trotz ihrer körperlichen Eingeengt-\nheit die geistige Triebkraft sich voll bewahren und\nden inneren Zustand als Erlebnis dichterisch oder\ndeuterisch auszusagen suchen. Helen Keller war das\nerste Beispiel einer derart heldischen Überwindung\ndes Widerstands für unsere Welt: die moralische\nKraft, die von ihr ausging, hat über ihre Schicksals-\ngenossen hinaus auf Unzählige gewirkt.\nNun legt ein anderer Blindgeborener, Max\nZodykow, seine dichterischen Monologe, Verse und\nProsa vor: auch sein Buch darf als moralisches Do-\nkument gelten. Das ungeheure und einmalige Schick-\nsal dieses jungen Menschen ausführlich zu erzählen,\nhieße brutal um Mitleid für sein Werk werben,\nwährend es Achtung verdient; nur flüchtig, behut-\nsam und ohne Sentimentalität sei es darum ange-\ndeutet. Seine Eltern flüchteten vor mehr als fünf-\nundzwanzig Jahren aus Rußland, und weil sie arm\nsind, wollen sie nicht die Last eines blindgeborenen\nKindes in ein fremdes Land mitnehmen. So bleibt\nin einem jämmerlichen kleinen Dorf bei der Groß-\nmutter ein kleiner blinder Junge zurück, vollkommen\nvernachlässigt und verwahrlost von seiner Um-\ngebung und abgeschlossen wie mit stählernen Mauern\nvon der wirklichen Welt. Einem Dienstmädchen\ndankt er, daß er im dreizehnten Jahre einige we-\nnige Buchstaben abtasten kann, die er — welcher\nDichter würde einen solchen Zug so genial erfinden?\n— von den vorspringenden Glasbuchstaben auf\nSodawasserflaschen gelernt hat. Dann stirbt die alte\nGroßmutter, man weiß nicht, wohin mit ihm, so\nschickt man ihn wie ein unnützes Bündel den Eltern\nnach Berlin nach, aber die können dort nicht blei-\nben, sie ziehen nach Amerika und können oder\nwollen das blinde Kind abermals nicht mitnehmen.\nSo landet es nach manchen schwierigen Verhandlun-\ngen in der Jüdischen Blindenanstalt in Steglitz. Der\nDirektor der Anstalt und ein paar gütige Frauen\nnehmen sich seiner an, man lehrt ihn die Schrift,\naus dem Radio hört er Musik und gestaltetes Wort,\nund irgend etwas drängt in ihm, diesen fremden\nStimmen zu antworten. Und hier erinnert man sich,\nwäre es nichts als dies allein, daß es den Blinden\neine Welt auftut, so müßte man endlich einmal den\nflachen Kulturschwätzern, die das Radio verdam-\nmen, auf den Mund schlagen, denn schon dies, und\ndies allein, daß die schwingende Sphäre den Ge-\nlähmten, Greisen und Blinden Botschaft und geistige\nGeselligkeit in ihre innere Einsamkeit bringt, Strom\nund Fülle aus unerreichbarer Welt, schon dies, daß\nvielleicht das nächste Geschlecht der Blindgeborenen\nnicht so unglücklich sein wird, so abgesondert und\nso allein, sollte uns Dankbarkeit einflößen für diese\nSchöpfung menschlichen Geistes. Dank dieser Schal-\ntung ist hier ein junger, unerfahrener, vom Leben\nabgeschlossener Mensch mit dem ganzen Leben ver-\nbunden worden, hier lernte er sinnlicher als in der\nSchrift oder in der Vorlesung das menschliche Wort\nkennen in seiner vollendetsten Form als Dichtung\nund Gesang, hier hat er sich gebildet und versucht\nnun, mit eigenem Gebilde dieser unfaßbaren und\nmagischen Welt zu antworten.\nUm dieser großartigen Anstrengung willen\nallein, mit der hier ein Blindgeborener uns, denen\ndas Antlitz der Welt offen liegt, seine eigene unzu-\nlängliche Welt aufschließt, haben Max Zodykows\nGedichte ein Anrecht, aufmerksam und respektvoll\nbeachtet zu werden. Formal sind sie selten voll-\nendet, denn wie könnte sich Formsinn völlig ent-\nfalten bei einem, der nie einen Kristall geschaut,\nder nie die ebenmäßig reine Linie eines Horizonts\nbewundern durfte oder das farbig harmonische Ge-\nbilde einer Blüte. Immer oder fast immer ereignen\nsich innerhalb seiner Gedichte kleine Abweichungen\nund Fehlzüge: es ist, als wenn einer im Dunkel\nzeichnen wollte. Seine Stimme schwankt im Spre-\nchen, aber sie bleibt wahr und viele seiner Bekennt-\nnisse sind menschlich aufschlußreich, manche in\neinzelnen Strophen der Anklage aufwühlend und\nerschütternd und von dem ganzen Versuche, ohne\ndem eingeborenen Sinn sinnliche Anschauung zu\ngeben, geht ein so starker dynamischer Wille aus,\ndaß man über die private Person hinaus die Trieb-\nkraft des menschlichen Geistes bewundert, der in\ntiefster Bedrängnis am gewaltsamsten sich seinen\nWeg bahnt, um dem Leben sieghaft mehr abzurin-\ngen, als es freiwillig zu geben gewillt war. Wie weit\ndiese Gedichte der Literatur gehören, bleibt zweit-\nreihig und fast nebensächlich gegenüber der morali-\nschen Leistung, die hier völlig einsam und unbelehrt\nein Einzelner, ein Anonymer im Dunkel für sich\n(und damit für alle) vollbracht. Denn an jeder\nheroischen Leistung eines Einzelnen steigert sich das\nsolidarische Selbstvertrauen Unzähliger und in\ndiesem Sinne bedeuten Zodykows dem Dunkel ab-\ngerungenen und mühsam erschaffenen Gedichte\nmehr, als manche mühelos vollendeten; diesem Blin-\nden war nichts geschenkt, er hat jedes Wort, jeden\nReim sich erobert. Und darum ist sein Buch mehr\nals literarische Bemühung, es ist eine seelische Tat.",
+      "notes": "Die Transkription umfasst den gesamten Text des Zeitungsausschnitts. Die handschriftliche Annotation 'Pester Lloyd' und 'Sonntag 25 Mai' (unten links) wurde nicht in den Haupttext aufgenommen, da sie als Metadaten/Notiz gilt. Der Text auf der Rückseite (IMG_2) ist ein separates Feuilleton-Fragment und wurde hier nicht transkribiert, da der Fokus auf dem Hauptartikel liegt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die Struktur ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 7916,
+    "total_words": 1208,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

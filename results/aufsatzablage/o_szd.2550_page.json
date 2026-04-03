@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2550",
+    "title": "Italien",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA98.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2550/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2550/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2550/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2550/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2550/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2550/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2550/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Italien\n- Signatur: SZ-AAP/W-AA98.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:36.137435+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Italien\nVom neuen Italien\nWiedersehen mit Italien\n\n\n\nItalien\n\nVom neuen Italien\nsiehe: Karl Scheffler: Italien",
+      "notes": "Handschriftliches Dokument. Der Text ist auf dem Blatt zweimal vorhanden (einmal als Liste oben, einmal als Eintrag in der Mitte/unten)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Italien\n\nVom neuen Italien\nsiehe: Karl Scheffler: Italien",
+      "notes": "Ausschnitt/Detailaufnahme der unteren Hälfte des Dokuments."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Italien\nVom neuen Italien\nWiedersehen mit Italien",
+      "notes": "Ausschnitt/Detailaufnahme des oberen Teils des Dokuments."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Italien\nVom neuen Italien\nWiedersehen mit Italien\n\n\n\nItalien\n\nVom neuen Italien\nsiehe: Karl Scheffler: Italien",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Die mehrfachen Aufnahmen zeigen denselben Inhalt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 326,
+    "total_words": 45,
+    "language_detected": "",
+    "language_match": true
+  }
+}

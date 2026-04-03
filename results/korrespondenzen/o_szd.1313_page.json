@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1313",
+    "title": "Ansichtspostkarte an Ami Kaemmerer vom 16. Oktober 1922, SZ-SHB/B2.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1313/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1313/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Ami Kaemmerer vom 16. Oktober 1922, SZ-SHB/B2.6\n- Signatur: SZ-SHB/B2.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.918974+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Postkarte: Porträtzeichnung von Stefan Zweig."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber verehrter Herr Doktor, der\nprachtvolle Pariser Maler Le Fau-\nconnier war für einige Tage bei\nmir nun hat mir stehendes grosse\nPorträt gemacht das er mir nun\nin kleiner Reproduktion zu senden\nerlaube. Mein neues Buch folgt\nin diesen Tagen nach: die Exemplare\nbummeln langsam auf der Bahn\nvon Leipzig sicher. Hoffentlich geht\nes den Ihren nur Ihnen gut in diesen\nwenig erbaulichen Zeiten. In inniger\nErgebenheit Ihr Stefan Zweig\n\n[Adressfeld:]\nHerrn Ami Kaemmerer\nHamburg\nMusenhaus[?] 35",
+      "notes": "Die Handschrift ist flüssig, aber stellenweise eng. Der Poststempel 'SALZBURG 16. X. 22' ist über den Text gestempelt. Das Wort 'Musenhaus' ist aufgrund der Handschrift und des Kontexts unsicher."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der Überlagerung durch den Poststempel. Die Identifikation der Eigennamen (Le Fauconnier, Ami Kaemmerer) ist durch den historischen Kontext gesichert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 492,
+    "total_words": 78,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.862",
+    "title": "Brief an Stefan Zweig vom 2. August 1937, SZ-AAP/B1.77",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.862/IMG.1",
+      "https://gams.uni-graz.at/o:szd.862/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. August 1937, SZ-AAP/B1.77\n- Signatur: SZ-AAP/B1.77\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:38.478034+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                         Briefadresse: Wien · VI · Strohmayergasse 6\nHerrn Dr.Stefan Zweig     Telegrammadresse: Reichnerverlag Wien\nVilla Souvenir           Telephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nWaldquellzeile           Postscheckkonten: Leipzig 8442\nMarienbad                                 Wien 46.469\n                         C.S.R.           Prag 501.701\n                                          Zürich VIII 18122\n                         Banken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\n                                 Schweizerischer Bankverein, Zürich\n                                 Swiss Bank Corporation, London E. C. 2\n\nRef.\n\"Sternstunden der Menschheit\"\n----------------------------\n                         2.August 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWährend meiner Schweizer Reise habe ich so ziemlich alle in Frage\nkommenden Buchhandlungen besucht, um Wünsche des dortigen Sortiments\nkennen zu lernen.Unter anderem wurde mir von zwei grossen Firmen nahe-\ngelegt, eine Einzelausgabe Ihrer \" Sternstunden \" im Pappband heraus-\nzubringen,da - so behauptet z.B. Herr Stäheli - jüngere Leute sich\nsehr oft diese \" Sternstunden \" schenken möchten,sich aber doch die\nAusgabe von RM 5.- für den ganzen Band überlegen.\nHerr Stäheli meint,dass die \" Sternstunden \" in einem hübschen Papp-\nband für etwa RM 1.80 glänzend gehen würden.\nEs sind genau 112 Seiten,die auf unserem neuen englischen Esparto-\nPapier gedruckt einen doch ziemlich ansehnlichen Band ergeben würden.\nDa der Satz steht und Korrekturen ja nicht zu machen sind,könnten wir\ndiesen Band jetzt im August bequem ausdrucken und schon im Herbst in\nden Handel bringen.\nBitte nehmen Sie zu diesem Vorschlag Stellung und lassen Sie uns bitte\nwissen,ob Sie damit einverstanden sind.\nWir hoffen,recht bald von Ihnen zu hören,und sind im voraus bestens\ndankend\n\n                         mit verbindlicher Begrüssung",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist eine handschriftliche Paraphe (vermutlich Herbert Reichner). Rote Unterstreichungen im Text sind vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Paraphe am Ende ist nicht als Text lesbar, wurde aber als solche erkannt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1949,
+    "total_words": 238,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

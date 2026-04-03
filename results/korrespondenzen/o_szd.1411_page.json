@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1411",
+    "title": "Postkarte an Alfred Kubin vom 1. März 1924, SZ-LAS/B4.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1411/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1411/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1411/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Alfred Kubin vom 1. März 1924, SZ-LAS/B4.5\n- Signatur: SZ-LAS/B4.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:32.227020+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "An Herrn Alfred Kubin\nin Wernstein a/ Inn\nOberösterreich",
+      "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Poststempel: '-1 III. 24 20'. Briefmarke: 500 Kronen Österreich."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "gnädiger Herr, wie gerne hätte ich Ihnen\ndas kleine Büchel gesandt, aber es ist\nseit vielen Jahren vergriffen und ich habe\nkein mehr ein Exemplar davon gesehen.\nIch komme gerade aus Paris -\nes ist wahrhaftig notwendig, ich von\nZeit zu Zeit europäisch aufzuatmen\nund das habe ich nach Salzburgs Ende\ngut und glücklich getan. Wann\nkommen anders einmal Sie, gern\nwär freudig begrüßter Gast, auf\nunsern Berg? Ein Zimmer steht Ihnen\nallzeit bereit! Viele frohe Grüße\nherzlichst Ihren\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Oben links: 'gnädiger Herr' (Datum '1. März' steht darüber)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "gnädiger Herr 1. März.\nLieber Freund, wie gerne hätte ich Ihnen\ndas kleine Büchel gesandt, aber es ist\nseit vielen Jahren vergriffen und ich habe\nkein mehr ein Exemplar davon gesehen.\nIch komme gerade aus Paris -\nes ist wahrhaftig notwendig, ich von\nZeit zu Zeit europäisch aufzuatmen\nund das habe ich nach Salzburgs Ende\ngut und glücklich getan. Wann\nkommen anders einmal Sie, gern\nwär freudig begrüßter Gast, auf\nunsern Berg? Ein Zimmer steht Ihnen\nallzeit bereit! Viele frohe Grüße\nherzlichst Ihren\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskalen zur Archivierung. Die erste Zeile 'gnädiger Herr 1. März.' ist hier deutlicher lesbar als auf dem vorherigen Scan."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die leichte Diskrepanz in der ersten Zeile zwischen Scan 2 und 3 wurde durch den klareren Scan 3 aufgelöst.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1061,
+    "total_words": 175,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

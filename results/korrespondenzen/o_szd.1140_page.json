@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1140",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.18",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1140/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1140/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.18\n- Signatur: SZ-SAM/B10.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.499715+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 5.März 1938.\n\nLiebe Frau Meingast!\nIch sende Ihnen anbei einige Buch-\nbeschreibungen {etwas später} und den Bericht für Januar und Februar,\nund möchte Sie auch gleichzeitig im Auftrag von Herrn\nDr. Zweig um eine Auskunft bitten.\nEs ist eine Anfrage wegen der\nfranzösischen Verfilmung von \"Vierundzwanzig Stunden\neiner Frau\" eingelaufen und ich habe keinen Vertrag\ndarüber zur Hand und kann aus den Büchern nur fest-\nstellen, dass diese Novelle als Stummfilm \"Das Schick-\nsal einer Nacht\" von Pan Europa Film gedreht wurde und\ndann 1931 als Tonfilm von der Nero Film A.G. und Henny\nPorten Film-Produktion gespielt worden ist. Soviel ich\nweiss, sind alle vorhandenen Verträge schon hierher ge-\nschickt worden, aber vielleicht können Sie aus der Kor-\nrespondenz Näheres darüber feststellen, ob dieser Ver-\ntrag die ausländischen Rechte einschliesst oder nicht.\nIch wäre Ihnen für baldigen Bescheid sehr dankbar.\nMit den besten Grüssen\nLotte Altmann\n\nViele herzliche Grüsse! Hoffentlich bleibt alles ruhig und\nwir haben von Überraschungen Ruhe, es gab zu viele in den letzten\nJahre[?]",
+      "notes": "Der handschriftliche Zusatz am Ende ist in violetter Tinte verfasst. Das Wort 'Jahre' am Ende ist leicht abgeschnitten, aber lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, unbeschrieben."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen sind ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1092,
+    "total_words": 169,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

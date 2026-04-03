@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1486",
+    "title": "Brief an das International Copyright Bureau vom 11. Mai 1940, SZ-AAP/B3.13",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1486/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1486/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1486/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an das International Copyright Bureau vom 11. Mai 1940, SZ-AAP/B3.13\n- Signatur: SZ-AAP/B3.13\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:37.056328+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                    11th May 1940.\nDear Sir,\n        Thank you for your letter of May 10th\nand your explanation.\n        As to the amount received from the\nFrench Society of Authors for the film rights\nof \"Volpone\" the facts are as follows:\n        As M. Alfred Bloch did not know my\naddress at that time and as a letter of mine\nhas apparently been lost, he sent the amount\ndirectly to you, not knowing that these film\nrights did not concern you at all. as these\nare outside our agreements. This amount has\ntherefore been sent to you only by a mistake\non the part of M. Alfred Bloch and should not\nhave gone through your hands at all. It is\nmy opinion therefore that the deduction of\n15 percent which you made in this case is\nwithout justification as you received this\namount only owing to a misunderstanding, and",
+      "notes": "Typoskript. Oben rechts handschriftliche Nummerierung '43' in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "I propose that you pay me back half of the\ndeduction you have made in the case of this\namount for the film rights.\n        May I request you at the same time\nto make a note of my new and permanent address,\n\"Lyncombe Hill, BATH\".\n\n                                Yours very truly,\n\n                                Stefan Zweig",
+      "notes": "Typoskript. Fortsetzung des Briefes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "I propose that you pay me back half of the\ndeduction you have made in the case of this\namount for the film rights.\n        May I request you at the same time\nto make a note of my new and permanent address,\n\"Lyncombe Hill, BATH\".",
+      "notes": "Typoskript. Identisch mit dem oberen Teil von Seite 2. Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1414,
+    "total_words": 240,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

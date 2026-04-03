@@ -1,0 +1,140 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1056",
+    "title": "Bankkontoauszüge Bayerische Vereinsbank",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AP2/L-S7.6",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1056/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.7",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.8",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.9",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.10",
+      "https://gams.uni-graz.at/o:szd.1056/IMG.11"
+    ],
+    "date": "1937-1939",
+    "document_type": "form",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "subject": [
+        "Finanzen"
+      ],
+      "origin_place": "München",
+      "extent": "7 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs 2002"
+      ]
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Bankkontoauszüge Bayerische Vereinsbank\n- Signatur: SZ-AP2/L-S7.6\n- Datum: 1937-1939\n- Sprache: Deutsch\n- Objekttyp: Kontoauszug\n- Umfang: 7 Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:43.371892+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 2896\nFernverkehr 28992\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nIn diesem Tagesauszug sind die heurigen Umsätze auf dem Konto, sowie der letzte und der jetzige Saldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung der Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\n| Soll RM | Haben RM | Konto-Nr. | Buchfolio | Text | SOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo | Haben RM |\n|---|---|---|---|---|---|---|---|---|---|---|\n| | 39.00 | Kred. Sperrg. | | | | | | | | |\n\nMünchen, den 31.5.38\nUebertr. a. Kto. Oesterreich 39.00 31.12. -- --\nDas Konto ist hiermit ausgeglichen\n\nHerrn Dr. Stefan Zweig\n\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —\nMit deutschem Gruß!\nBayerische Vereinsbank\nForm. B. 561b. I. 37.",
+      "notes": "Kontoauszug, Typoskript auf Formularvordruck. Die Tabelle wurde zur besseren Lesbarkeit in die geforderte Struktur überführt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 2896\nFernverkehr 28992\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nLetzter Saldo\nSoll RM | Haben RM\n39.00\nKonto-Nr. Kred. Sperrg.\nBuchfolio | Text\nMünchen, den 31.5.38\nUebertr. a. Kto. Oesterreich\nDas Konto ist hiermit ausgeglichen\nHerrn Dr. Stefan Zweig\nForm. B. 561b. I. 37.",
+      "notes": "Ausschnitt des Kontoauszugs (linke Seite)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "In diesem Tagesauszug sind die heurigen Umsätze auf dem Konto, sowie der letzte und der jetzige Saldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung der Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nSOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo | Haben RM\n39.00 31.12. -- --\n\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —\nMit deutschem Gruß!\nBayerische Vereinsbank",
+      "notes": "Ausschnitt des Kontoauszugs (rechte Seite)."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 2896\nFernverkehr 28992\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nLetzter Saldo\nSoll RM | Haben RM\n236.60\nKonto-Nr. 303855\nBuchfolio | Text\nOesterreich\nUebertr. v. Kred. Sperrg.\ndo. v. Freies Guth.\nMünchen, den 31.5.38\nHerrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nForm. B. 561b. I. 37.",
+      "notes": "Ausschnitt des Kontoauszugs (linke Seite)."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "In diesem Tagesauszug sind die heurigen Umsätze auf dem Konto, sowie der letzte und der jetzige Saldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung der Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nSOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo | Haben RM\n31.12. 39.00\n31.12. 9.00 284.60\n\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —\nMit deutschem Gruß!\nBayerische Vereinsbank",
+      "notes": "Ausschnitt des Kontoauszugs (rechte Seite)."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Gegr. 1869\nBayerische Vereinsbank\nMünchen\nFernsprecher: Ortsverkehr 2896\nFernverkehr 28992\nTelegr.-Adr.: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\n\nLetzter Saldo\nSoll RM | Haben RM\n9.00\nKonto-Nr. 303855\nBuchfolio | Text\nFreies Guth.\nUebertr. a. Kto. Oesterreich\nDas Konto ist hiermit ausgeglichen\nMünchen, den 31.5.38\nHerrn Dr. Stefan Zweig\nForm. B. 561b. I. 37.",
+      "notes": "Ausschnitt des Kontoauszugs (linke Seite)."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "In diesem Tagesauszug sind die heurigen Umsätze auf dem Konto, sowie der letzte und der jetzige Saldo aufgeführt. Unstimmigkeiten bitten wir uns sofort unter der Anschrift: Revisionsabteilung der Bayerischen Vereinsbank München I, Brieffach, anzuzeigen.\n\nSOLL RM | Wert | HABEN RM | Soll RM | Jetziger Saldo | Haben RM\n9.00 31.12. -- --\n\nDieser Auszug ersetzt die bisherigen Halb- und Vierteljahres-Auszüge.\nDie Gutschrift von Schecks und Wechseln erfolgt „Eingang vorbehalten“.\n— Blatt für die Sammelmappe —\nMit deutschem Gruß!\nBayerische Vereinsbank",
+      "notes": "Ausschnitt des Kontoauszugs (rechte Seite)."
+    },
+    {
+      "page": 8,
+      "type": "content",
+      "text": "Gegr. 1869\nBayerische Vereinsbank\nFernsprecher-Sammelnummern:\nOrtsverkehr 2896 / Fernverkehr 28992\nTelegramm-Adresse: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nAnschrift: Bayerische Vereinsbank\nMünchen I, Schalterfach\nRevision\nHerrn Dr. Stefan Zweig,\nSchriftsteller,\nLondon 49\nHallam Street.\n\nKonto-Nr. 303855\nMünchen, den 2. Januar 1939.\n\nNach unseren Büchern weist Ihre werte Rechnung einen Roh-Saldo von:\nRM 284.60 per 31. Dezember 1938 zu Ihren Gunsten/zu Gunsten der Bank\nRM per 31. Dezember 1938 zu Ihren Gunsten/zu Gunsten der Bank\nRM per 31. Dezember 1938 zu Ihren Gunsten/zu Gunsten der Bank\nauf.\nWir bitten Sie, uns zu Kontrollzwecken auf der Anlage zu bestätigen, daß Sie mit uns einiggehen.\nBei dieser Gelegenheit möchten wir auf unsere, Ihnen bereits bekannten Geschäftsbedingungen verweisen, die für den gesamten Geschäftsverkehr mit uns maßgebend sind.\nDie für den verflossenen Rechnungsabschnitt angefallenen Zinsen, Provisionen, Spesen und Gebühren buchen wir in neuer Rechnung. Aufgabe darüber erteilen wir Ihnen in einem Tagesauszug, der Ihnen innerhalb Monatsfrist zugehen wird.\nHeil Hitler!\nBayerische Vereinsbank\nppa. [Unterschrift]\nSie ersparen uns Arbeit und sich selbst die Kosten\neines Einschreibebriefes, wenn Sie uns einliegende\nBestätigung umgehend unterschrieben zurück-\nsenden.\nForm. B 543",
+      "notes": "Bankmitteilung, Typoskript auf Formularvordruck."
+    },
+    {
+      "page": 9,
+      "type": "content",
+      "text": "Gegr. 1869\nBayerische Vereinsbank\nFernsprecher-Sammelnummern:\nOrtsverkehr 2896 / Fernverkehr 28992\nTelegramm-Adresse: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nAnschrift: Bayerische Vereinsbank\nMünchen I, Schalterfach\nRevision\nHerrn Dr. Stefan Zweig\nSchriftsteller\nSalzburg\nKapuzinerberg 5\n\nKonto-Nr. 303855\nMünchen, den 4. Juli 1938\n\nNach unseren Büchern weist Ihre werte Rechnung einen Roh-Saldo von:\nRM 284.60 per 30. Juni 1938 zu Ihren Gunsten/zu Gunsten der Bank\nRM per zu Ihren Gunsten/zu Gunsten der Bank\nRM per zu Ihren Gunsten/zu Gunsten der Bank\nauf.\nWir bitten Sie, uns zu Kontrollzwecken auf der Anlage zu bestätigen, daß Sie mit uns einiggehen.\nBei dieser Gelegenheit möchten wir auf unsere, Ihnen bereits bekannten Geschäftsbedingungen verweisen, die für den gesamten Geschäftsverkehr mit uns maßgebend sind.\nDie für den verflossenen Rechnungsabschnitt angefallenen Zinsen, Provisionen, Spesen und Gebühren buchen wir in neuer Rechnung. Aufgabe darüber erteilen wir Ihnen in einem Tagesauszug, der Ihnen innerhalb Monatsfrist zugehen wird.\nHeil Hitler!\nBayerische Vereinsbank\nppa. [Unterschrift]\nSie ersparen uns Arbeit und sich selbst die Kosten\neines Einschreibebriefes, wenn Sie uns einliegende\nBestätigung umgehend unterschrieben zurück-\nsenden.\nForm. B 543",
+      "notes": "Bankmitteilung, Typoskript auf Formularvordruck."
+    },
+    {
+      "page": 10,
+      "type": "content",
+      "text": "Gegr. 1869\nBayerische Vereinsbank\nFernsprecher-Sammelnummern:\nOrtsverkehr 2896 / Fernverkehr 28992\nTelegramm-Adresse: Vereinsbank\nFernschreiber (München) K 63 25\nPostscheckkonto: München 200\nAnschrift: Bayerische Vereinsbank\nMünchen I, Brieffach\nRevision\nHerrn\nStefan Zweig\nSchriftsteller\nSalzburg\nKapuzinerberg 5\n\nMünchen, den 19. Oktober 1937\n\nKonto Nr. 303855\n\nNach unseren Büchern weist Ihre werte Rechnung einen Saldo von\nRM 338.-- Alt. G. per 30. Juni 1937 zu Ihren Gunsten/zu Gunsten der Bank\n\" 40.-- Kred. Sp. do. \"\nRM 10.-- Fr. G. per do. zu Ihren Gunsten/zu Gunsten der Bank\nauf.\nWir bitten Sie, uns zu Kontrollzwecken auf der Anlage zu bestätigen, daß Sie mit uns einiggehen.\nBei dieser Gelegenheit möchten wir neuerdings auf unsere Ihnen bereits bekannten Geschäftsbedingungen verweisen, die für den gesamten Geschäftsverkehr mit uns maßgebend sind.\n\nMit deutschem Gruß\nBayerische Vereinsbank.\n[Unterschrift]\nForm. B 514 a. II. 37. (750)",
+      "notes": "Bankmitteilung, Typoskript auf Formularvordruck. Handschriftliche Notiz oben rechts: \"Beilage eingese[hen?]\"."
+    },
+    {
+      "page": 11,
+      "type": "content",
+      "text": "Bestätigung\nAn\nBayerische Vereinsbank\nRevisions-Büro\nMünchen\nvon:\nHerrn Dr. Stefan Zweig,\nSchriftsteller,\nLondon 49\nHallam Street.\n\nKonto Nr. 303855\nBetr. Ihr Schreiben vom 2. Januar 1939.\n\nWunschgemäß bestätige(n) ich/wir Ihnen, daß meine/unsere Rechnung bei Ihnen einen Roh-Saldo von:\nRM 284.60 per 31. Dezember 1938 zu meinen/unseren Gunsten/zu Gunsten der Bank\nRM per 31. Dezember 1938 zu meinen/unseren Gunsten/zu Gunsten der Bank\nRM per 31. Dezember 1938 zu meinen/unseren Gunsten/zu Gunsten der Bank\naufweist.\nIhre Geschäftsbedingungen sind in meinem/unserem Besitz.\nIch/Wir bemerkte(n) mir/uns, daß die für den verflossenen Rechnungsabschnitt angefallenen Zinsen, Provisionen, Spesen und Gebühren in neuer Rechnung innerhalb Monatsfrist aufgegeben werden.\n, den Name:\nAdresse:\nWir bitten dringend, das Formular zu keinen weiteren Mitteilungen zu verwenden.\nForm. B. 545\nOriginal-Transkript 11. 38. Mz.",
+      "notes": "Bestätigungsformular für den Kunden, Typoskript auf Formularvordruck."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Dokumente sind gut lesbar, es handelt sich um standardisierte Bankformulare mit maschinellen Einträgen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 8374,
+    "total_words": 1188,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

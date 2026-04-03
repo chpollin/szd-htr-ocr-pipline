@@ -1,0 +1,144 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2704",
+    "title": "Cenci, Legende und Wahrheit der Beatrice",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA32.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2704/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2704/IMG.9"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        },
+        {
+          "name": "Richard Friedenthal",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118535579"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, roter Kugelschreiber",
+        "hands": [
+          "Erwin Rieger",
+          "Richard Friedenthal",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Cenci, Legende und Wahrheit der Beatrice\n- Signatur: SZ-AAP/W-AA32.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, roter Kugelschreiber\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:57.215976+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Cenci, Legende und Wahrheit der Beatrice\n\nin Zeit u. Welt\n\nBeatrice Cenci",
+      "notes": "Handschriftliches Dokument, violette Tinte für Titel und Name, roter Stift für 'in Zeit u. Welt'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Cenci, Legende und Wahrheit der Beatrice\n\nin Zeit u. Welt\n\nBeatrice Cenci",
+      "notes": "Rückseite von Seite 1, durchscheinender Text sichtbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Beatrice Cenci",
+      "notes": "Rückseite von Seite 2, Text durchscheinend."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Cenci, Legende und Wahrheit der Beatrice\n\nBeatrice Cenci",
+      "notes": "Rückseite von Seite 3, Text durchscheinend."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Cenci, Legende und Wahrheit der Beatrice\n\nin Zeit u. Welt\n\nBeatrice Cenci",
+      "notes": "Handschriftliches Dokument, violette Tinte und roter Stift."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 9,
+      "type": "color_chart",
+      "text": "Cenci, Legende und Wahrheit der Beatrice\n\nin Zeit u. Welt\n\nBeatrice Cenci",
+      "notes": "Dokument mit Grauskala und Farbkarte für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich geschrieben und wiederholt sich auf den verschiedenen Scans.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 362,
+    "total_words": 58,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

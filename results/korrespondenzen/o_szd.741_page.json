@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.741",
+    "title": "Brief an Stefan Zweig vom 6. Dezember 1937, SZ-AAP/B1.148",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.741/IMG.1",
+      "https://gams.uni-graz.at/o:szd.741/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 6. Dezember 1937, SZ-AAP/B1.148\n- Signatur: SZ-AAP/B1.148\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:27.755967+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag: 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\n\nRef.\nTal gegen Zweig,Begegnungen\n6.Dezember 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für die Kopien des an Sie gerichteten Schreibens\ndes Herrn Dr.Löw vom 1.12.1937 und Ihres an ihn gerichteten Schreibens\nvom 3.12.1937.\nEs ist nicht ausgeschlossen,dass Frau Tal auf ein Schiedsgericht ein-\ngeht,obzwar unserer Meinung nach dazu gar keine Veranlassung besteht,\nsolange sie sich im Recht glaubt.\nDürfen wir Sie bitten,uns schon jetzt mitzuteilen,wen Sie unter Umstän-\nden als Schiedsrichter im Auge haben,damit wir dann den betreffenden\nHerrn rasch und zuverlässig über alle Einzelheiten informieren.\n\nAm liebsten würden wir es sehen,wenn Sie Ihren eigenen Anwalt,Herrn\nDr.Josef Geiringer zum Schiedsrichter bestimmen,damit Sie dessen si-\ncher sind,dass er Ihre Interessen vertritt.\n\nFür Ihre Antwort dankbar begrüssen wir Sie als\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (violette Tinte, unleserlich, vermutlich ein Kürzel des Verlagsmitarbeiters). Der Text ist sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text vom Briefkopf und Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist zwar ein unleserliches Kürzel, aber der restliche Text ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1306,
+    "total_words": 179,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

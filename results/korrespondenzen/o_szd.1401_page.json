@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1401",
+    "title": "Brief an Moritz Zander vom 20. Februar 1904, SZ-SAH/B5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1401/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1401/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1401/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1401/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1401/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Moritz Zander vom 20. Februar 1904, SZ-SAH/B5\n- Signatur: SZ-SAH/B5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.529455+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wien 20. Februar 1904\n\nSehr werter Herr Zander,\n\nhalten Sie mich nicht\nfür ungezogen, dass ich Ihnen das Bild\nnicht sandte. Es ist eingerahmt in einen\nPassepartout und als ich es verpacken\nwollte, zerbrach das Glas. Momentan\nhabe ich mich noch nicht zu einer Re-\nparierung und Neuverpackung ent-\nschlossen, da ich ~~es~~ kurz vor den Prü-\nfungen stehe und die Strasse selten sehe.\nIst es Ihnen sehr wichtig, so lasse ich\nes trotz der grossen Umständlichkeit\nrichten und verpacken; wenn nicht,\nso möchte ich Sie bitten, darauf für",
+      "notes": "Die erste Seite des Briefes. Das Wort 'es' ist durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "diesmal zu verzichten, da die Un-\nannehmlichkeit mit Verpackung, Repa-\nrierung, Verzollung erst ziemlich grosse\nsind und mir wie gesagt gerade jetzt\njede Viertelstunde ein Capital bedeutet.\nMit ergebenen Grüssen\n\nStefan Zweig\nWien I. Rathhausstrasse 17",
+      "notes": "Zweite Seite des Briefes mit Unterschrift und Adresse."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes mit Archiv-Nummer '7446' am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist sehr gut lesbar, die Tinte ist klar erkennbar. Die Struktur des Briefes ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 781,
+    "total_words": 125,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.828",
+    "title": "Brief an Stefan Zweig vom 1. Juni 1937, SZ-AAP/B1.46",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.828/IMG.1",
+      "https://gams.uni-graz.at/o:szd.828/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. Juni 1937, SZ-AAP/B1.46\n- Signatur: SZ-AAP/B1.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:35.421161+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                         Briefadresse: Wien · VI · Strohmayergasse 6\n                         Telegrammadresse: Reichnerverlag Wien\n   Dr.Stefan Zweig,Esq.  Telephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\n   49,Hallam Street      Postscheckkonten: Leipzig 8442\n   London,W.1                            Wien 46.469\n                                         Prag 501.701\n                         ENGLAND         Zürich VIII 18122\n                         Banken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\n                                 Schweizerischer Bankverein, Zürich\n                                 Swiss Bank Corporation, London E. C. 2\nRef.\n•  Abrechnung per 31.Mai 1937           1.Juni 1937 /F\n   --------------------------\n\nSehr verehrter Herr Dr.Zweig:\n\nWir übersenden Ihnen anbei die Abrechnung per 31.Mai 1937 und geben\nder Freude darüber Ausdruck,dass sogar in diesem Monat insgesamt\nüber 900 Bücher von Ihren Werken verkauft wurden.\nWir haben die diesmonatliche Abrechnung schon auf Grund der neuen\nVereinbarungen erstellt und Ihnen S.1200.- als Differenz für honorar-\nfreie Exemplare gutgebracht.\nWir bitten Sie um Kenntnisnahme und Bestätigung der Abrechnung.\nGleichzeitig wollen Sie uns auch gefälligst mitteilen,wie Sie über\nIhr Guthaben verfügen wollen.\nMit vorzüglicher Hochachtung\n\n                                  Ihre sehr ergebenen\n                                  [Unterschrift]",
+      "notes": "Geschäftsbrief auf Firmenpapier des Herbert Reichner Verlags. Maschinenschrift. Die Unterschrift ist handschriftlich, aber unleserlich. Die Seite ist in sehr gutem Zustand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Briefkopfes und des Textes von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klarer Maschinendruck. Die einzige handschriftliche Komponente ist die Unterschrift, die nicht entzifferbar ist, was jedoch den Gesamttext nicht beeinträchtigt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1457,
+    "total_words": 149,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

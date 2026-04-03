@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1273",
+    "title": "Brief an Anna Meingast, o. D., SZ-SAM/B7.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1273/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1273/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast, o. D., SZ-SAM/B7.2\n- Signatur: SZ-SAM/B7.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:25.572880+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8\nWIEN,\n\nLiebe Frau Meingast, ich höre mit grossem\nBedauern, dass Sie erkrankt sind: bitte\nschonen Sie sich nur gut und machen\nSie sich gar keine Sorgen wegen der Ar-\nbeit: Sie wissen ja es ist jetzt gar nichts\nWichtiges zu tun. Wichtig ist nur, dass\nSie sich gut pflegen und nicht abgeben\nlassen.\nIch sende Ihnen gleich etwas Geld mit\nund bitte Sie ganz über mich und\nmeine Frau zu verfügen, auch wenn\nSie z. B. Willi heraufgeben wollen oder\nsonst irgend einen Wunsch haben.\nAlso: gute Besserung! Und beste Grüsse!\nIhr herzlich ergebener\nStefan Zweig",
+      "notes": "Der Brief ist in gut lesbarer Handschrift verfasst. Die Tinte ist violett."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer, bis auf den durchscheinenden Text der Vorderseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist keine schwierigen Abkürzungen oder unleserlichen Stellen auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 567,
+    "total_words": 99,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

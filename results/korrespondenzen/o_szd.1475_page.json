@@ -1,0 +1,76 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1475",
+    "title": "Auflistung Tantiemen Volpone, o. D., SZ-AAP/B3.29",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1475/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1475/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1475/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Auflistung Tantiemen Volpone, o. D., SZ-AAP/B3.29\n- Signatur: SZ-AAP/B3.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:36.050001+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1. Volpone - Film\nerhalten f. franc. Volpone\nOkt 37 drch Romains\nAug 39 \" Copyr Bnr. [?] ffr 10 340\n£ 125.6.9\nMai 40 bei A Bloch, Paris noch ffrs 3000",
+      "notes": "Handschriftliche Notiz auf einem Blatt Papier. Die Zahl '78' oben rechts ist in roter Tinte geschrieben. Die restlichen Notizen sind in blauer Tinte verfasst."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "1. Volpone - Film\nerhalten f. franc. Volpone\nOkt 37 drch Romains\nAug 39 \" Copyr Bnr. [?] ffr 10 340\n£ 125.6.9\nMai 40 bei A Bloch, Paris noch ffrs 3000",
+      "notes": "Gleiches Dokument wie Seite 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Abkürzungen 'Bnr.' und die Währungsangaben. Die Transkription der Zahlen und Namen ist jedoch weitgehend sicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 300,
+    "total_words": 64,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 4,
+    "estimated_accuracy": 0.9,
+    "edited_pages": [],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.667",
+    "title": "Ellen Key an Stefan Zweig, 1908-06-20, SZ-SAM/AK.95",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.667/IMG.1",
+      "https://gams.uni-graz.at/o:szd.667/IMG.2",
+      "https://gams.uni-graz.at/o:szd.667/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ellen Key an Stefan Zweig, 1908-06-20, SZ-SAM/AK.95\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.95\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:24.168284+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kastelruth 20. VI. 08.",
+      "notes": "Vorderseite einer Ansichtskarte mit Motiv (Kirche und Berge). Handschriftliche Notiz am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Bitte nachschicken!\nKurpension Kastelruth\nbei Waidbruck, Süd Tirol.\n20. VI 08. Lieber Stefan\nZweig, ich sehne mich\nnach Nachrichten\nvon Ihnen? Ellen Key\nIch sehne mich gleichfalls\nIch bin dauernd hier zur\nRuhe nach 6 Wochen Klinik!\nEllen's Adr: Wichersdorf bei\nSaalfeld, bis Anf. Juli. Wie\ngeht es Ihnen? Wie hübsch\nwenn wir uns auch treffen\nkönnten! Ellen besucht\nmich hier; hab ich's\nnicht gut?! Herzl.\nGruss! [Unterschrift: Lenore]",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich in violett. Briefmarke und Poststempel vorhanden. Der Text ist teilweise über das gedruckte Adressfeld geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Bitte nachschicken!\nKurpension Kastelruth\nbei Waidbruck, Süd Tirol.\n20. VI 08. Lieber Stefan\nZweig, ich sehne mich\nnach Nachrichten\nvon Ihnen? Ellen Key\nIch sehne mich gleichfalls\nIch bin dauernd hier zur\nRuhe nach 6 Wochen Klinik!\nEllen's Adr: Wichersdorf bei\nSaalfeld, bis Anf. Juli. Wie\ngeht es Ihnen? Wie hübsch\nwenn wir uns auch treffen\nkönnten! Ellen besucht\nmich hier; hab ich's\nnicht gut?! Herzl.\nGruss! [Unterschrift: Lenore]",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der Überlagerung mit dem gedruckten Adressfeld und der teilweise engen Schriftführung gut lesbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 890,
+    "total_words": 142,
+    "language_detected": "",
+    "language_match": true
+  }
+}

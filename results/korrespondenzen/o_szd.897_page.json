@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.897",
+    "title": "Briefkarte an Frans Masereel vom [Juli 1920], SZ-LAS/B1.19",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.897/IMG.1",
+      "https://gams.uni-graz.at/o:szd.897/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Frans Masereel vom [Juli 1920], SZ-LAS/B1.19\n- Signatur: SZ-LAS/B1.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:41.582961+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon cher Frans, je te prie de\nremettre cette lettre a R. R.\nqui me donne ta adresse comme\nla sienne. J'ai envoyé a toi\naujourdhui mon nouveau livre\n„Drei Meister“ ~ le „Zwang“ pa-\nraîtra bientôt. Mon vieux, j'ai\ngrand envie de venir en Suisse\nen automne et j'espère cela ira,\nsurtout si je saurai que toi et\nR. R seront encore la. Dis a\nMasereel mes salutations et ne\ntravaille pas trop: tu as aussi le\ndroit de reposer un peu. Laisse les\narbres croître tranquillement pendant\nquinze jours; au lieu de couper leur\nbois, met-toi dans leur ombre! Fidé-\nlement ton\nStefan",
+      "notes": "Handschriftlicher Brief von Stefan Zweig in violetter Tinte. Die Lochungen am linken Rand sind deutlich sichtbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Enthält einen Ex-Libris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' am unteren Rand. Die Lochungen vom linken Rand der Vorderseite sind hier rechts sichtbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Orthographie ist originalgetreu übernommen (inklusive fehlender Akzente wie 'a' statt 'à' oder 'adresse' statt 'adresse').",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 568,
+    "total_words": 105,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

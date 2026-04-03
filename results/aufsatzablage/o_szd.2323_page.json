@@ -1,0 +1,134 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2323",
+    "title": "Suttner, Berta v.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA176.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2323/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2323/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2323/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2323/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2323/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2323/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2323/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        },
+        {
+          "name": "Richard Friedenthal",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118535579"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, rote Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Richard Friedenthal",
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "fehlt 12.\n                                 11. 59 RF"
+        ]
+      },
+      "notes": "Ursprünglich beiliegender Aufsatz fehlt."
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Suttner, Berta v.\n- Signatur: SZ-AAP/W-AA176.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, rote Tinte\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt\n- Anmerkungen: Ursprünglich beiliegender Aufsatz fehlt."
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:06.208712+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Suttner, Berta v.\n(Huldigung)\n\nBerta von Suttner.\n\nfeher 12.11.59\nRF",
+      "notes": "Die Transkription bezieht sich auf den Text auf dem Blatt. 'feher' ist vermutlich eine Archivnotiz oder ein Name, 'RF' steht für Richard Friedenthal."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Suttner, Berta v.\n(Huldigung)",
+      "notes": "Ausschnitt aus dem oberen Teil des Blattes."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Berta von Suttner.\n\nfeher 12.11.59\nRF",
+      "notes": "Ausschnitt aus dem mittleren/unteren Teil des Blattes."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": ".renttuS nov altreB",
+      "notes": "Spiegelverkehrte Durchzeichnung des Namens auf der Rückseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Suttner, Berta v.\n(Huldigung)",
+      "notes": "Ausschnitt, identisch mit Seite 2."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": ".renttuS nov altreB",
+      "notes": "Spiegelverkehrte Durchzeichnung, identisch mit Seite 4."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Suttner, Berta v.\n(Huldigung)\n\nBerta von Suttner.\n\nfeher 12.11.59\nRF",
+      "notes": "Gesamtansicht mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz und deutlich lesbar. Die Archivnotizen sind klar als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 269,
+    "total_words": 40,
+    "language_detected": "",
+    "language_match": true
+  }
+}

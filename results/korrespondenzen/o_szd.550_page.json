@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.550",
+    "title": "Stephanus Fabijanović an Stefan Zweig, 1926-09-24, SZ-SAM/AK.258",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.550/IMG.1",
+      "https://gams.uni-graz.at/o:szd.550/IMG.2",
+      "https://gams.uni-graz.at/o:szd.550/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Stephanus Fabijanović an Stefan Zweig, 1926-09-24, SZ-SAM/AK.258\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.258\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:17.251943+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "R9. HORSESHOE BEND OVERLOOKING LIEBRE GULCH, “RIDGE ROUTE”,\n\nLOS ANGELES TO BAKERSFIELD, CALIFORNIA.",
+      "notes": "Vorderseite einer Ansichtskarte. Farbdruck. Text gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "24. IX. 1926.\nSehr geehrter Herr!\nMein Freund H. C.\nStuart hatte ein\nautobiograph[?] Unglück\nund Zeit nahm\nsehr übel. Raum\nbitte gedanken\nSie sich an „Rysen-\ndings-Kritik“ von\nihm. Sonst geht\nes im Tempo: Jazz!\n\nergebenst\nS. Fabijanović\n154 E Washington St.\nLos Angeles, Cal.",
+      "notes": "Rückseite der Ansichtskarte. Handschrift in violetter Tinte. Adressseite mit Briefmarken (2 Cent und 1 Cent) und Poststempel 'LOS ANGELES ARCADE STA. APR 25 1926'. Die Empfängeradresse 'Hr. Stefan Zweig, 5 Kapuzinerberg, Salzburg, Austria' ist quer über die linke Seite geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Postkarte (identisch mit Scan 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der handschriftliche Text ist teilweise schwer lesbar, insbesondere das Wort 'autobiograph[?]' und die Zeilenumbrüche im Textkörper. Die Adressierung ist quer geschrieben und überlagert den gedruckten Bereich der Postkarte.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 375,
+    "total_words": 59,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

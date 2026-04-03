@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2334",
+    "title": "Wege zum deutschen Ruhm, Die zehn",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA209.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2334/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Luise Wolf\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Wege zum deutschen Ruhm, Die zehn\n- Signatur: SZ-AAP/W-AA209.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Luise Wolf\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:07.312411+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wege zum deutschen Ruhm, Die zehn",
+      "notes": "Handschrift in violetter Tinte. Vorderseite des Dokuments."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Luise Wolf\nDie Schule der Empfindsamkeit. Übertragen von Gustav Flamm",
+      "notes": "Handschrift in violetter Tinte. Die Zeile 'Luise Wolf' ist durchgestrichen, darunter der Titel und Übersetzer."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Wege zum deutschen Ruhm, Die zehn",
+      "notes": "Handschrift in violetter Tinte. Identisch mit Seite 1."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Wege zum deutschen Ruhm, Die zehn",
+      "notes": "Handschrift in violetter Tinte. Dokument mit Archiv-Farbskalen und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich geschrieben und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 168,
+    "total_words": 28,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

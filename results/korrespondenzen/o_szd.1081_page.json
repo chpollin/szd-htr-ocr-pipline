@@ -1,0 +1,177 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1081",
+    "title": "Postkarte an Max Fleischer vom 5. Juni 1901, SZ-LAS/B3.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1081/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1081/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1081/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 5. Juni 1901, SZ-LAS/B3.3\n- Signatur: SZ-LAS/B3.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.076924+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "An\nMax Fleischer\nStud. iur.\nin\nKomotau\nNordböhmen",
+      "notes": "Adressseite der Postkarte. 'Stud. iur.' = Studiosus iuris (Jurastudent). Poststempel: WIEN 5 6.01 6-7N.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            34.0,
+            39.5,
+            25.0,
+            3.5
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Postkartentitel: Correspondenz-Karte",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            21.5,
+            45.0,
+            44.6,
+            14.1
+          ],
+          "reading_order": 2,
+          "lines": 4,
+          "label": "Adressfeld: Max Fleischer, Komotau, Nordböhmen (mit Poststempel Wien)",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "heading",
+          "bbox": [
+            20.9,
+            48.5,
+            2.2,
+            8.6
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Vordruck (vertikal): Nur für die Adresse",
+          "source": "docling"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            56.3,
+            49.4,
+            16.0,
+            3.1
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Handschriftliche Notiz",
+          "source": "docling"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Fleischer! Außer die Recension:\nNatürlich heißt es statt „graciösa” darin\n„graciösa“ „fittae“. Ich schreibe Ihnen nächste\nTage. Herzlichen, aber eiligen Gruß\nIhr\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte.",
+      "image": "IMG_2.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            17.1,
+            36.3,
+            62.7,
+            16.0
+          ],
+          "reading_order": 1,
+          "lines": 4,
+          "label": "Brieftext inkl. Anrede",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            46.0,
+            56.6,
+            28.8,
+            8.4
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Unterschrift Helmut Wein",
+          "source": "docling"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "An\nMax Fleischer\nStud. iur.\nin\nKomotau\nNordböhmen",
+      "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala im Bild.",
+      "image": "IMG_3.jpg",
+      "image_width": 4912,
+      "image_height": 7360
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Abkürzung 'Stud. iur.' ist kontextuell plausibel für die Zeit und Region.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 284,
+    "total_words": 42,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.979,
+    "edited_pages": [
+      1,
+      2
+    ],
+    "notes": "Page 1: 'Hud. inr.' -> 'Stud. iur.' (Studiosus iuris, confirmed by Staatsprüfung reference in o_szd.1079). Page 2: 'devin' -> 'darin' (Kurrent r misread as v, a as e). Foreign quoted words ('graciösa', 'fittae') remain uncertain but not corrected.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
+  }
+}

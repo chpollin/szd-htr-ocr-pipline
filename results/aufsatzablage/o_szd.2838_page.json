@@ -1,0 +1,144 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2838",
+    "title": "H. G. Wells. Zum 70. Geburtstag",
+    "language": "fr",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA212.3",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2838/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2838/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2838/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2838/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2838/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2838/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2838/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2838/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2838/IMG.9"
+    ],
+    "date": "1936",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "origin_place": "Buenos Aires",
+      "extent": "korrigiert, 4\n                                          Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Buenos Aires"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, Bleistift, violette Tinte",
+        "hands": [
+          "Stefan Zweig"
+        ],
+        "inscriptions": [
+          "Rede in\n                                 Buenos Aires beim Pen Club Kongress 1936"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: H. G. Wells. Zum 70. Geburtstag\n- Signatur: SZ-AAP/W-AA212.3\n- Datum: 1936\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: korrigiert, 4\n                                          Blatt\n- Schreibinstrument: Schwarzes\n                                       Farbband, Bleistift, violette Tinte\n- Hand: Stefan Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:10.859774+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "M.G. Wells Zum 70. Geburtstag\n\nMes chers confrères : C'est toujours un moment heureux quand des\nécrivains, pour mille raisons tout différents les uns des autres,\nse rencontrent dans un sentiment commun, dans une pensée commune.\nUne telle chance s'offre à nous aujourd'hui. Car, je le crois,\nnous sommes unanimes pour exprimer ici le sentiment de respect et\nde gratitude que nous inspire un homme. Cet homme n'est malheureusement\npas parmi nous ce soir, mais sa pensée est présente , elle {même} est\nsur nous et nous anime. Vous l'avez deviné sans doute, c'est de\nH.G.Wells que je parle, de ce grand écrivain et combattant\ninfatigable d'une humanité meilleure, du président de notre\nPen Club .\n\nEn lui rendant hommage, {c'est aussi} nous nous honorons ~~aussi~~ nous-mêmes; {car} \npuisque nous autres, artistes, écrivains, et créateurs ne vivons\nen \npas isolés , en dehors du temps et de l'espace. Nous exerçons une\nprofession qui nous réunit en une étroite communauté. Chaque\nprofession, chaque communauté possède un sentiment propre de\ndignité et d'honneur. Une dignité, un honneur que nous avons à\ndéfendre, mais aussi à glorifier. Nous ne sommes pas des solitaires,\nmais bien plutôt solidaires les uns des autres, puisque nos\naspirations, si diverses qu'elles soient, sont dirigées selon la\nmême trajectoire . A nos efforts, communs, répond une responsabilité\ncommune, et {que} d'injure faite à l'un de nous est une injure faite à\ntous. Mais par contre, les oeuvres impérissables que nous créons\net l'attitude pure et humaine, dont chacun de nous fait profession\nde foi, sont autant de titres de noblesse pour notre communauté .\nToutes les fois que l'un ou l'autre parmi nous ait bien mérité soit\nde l'art, soit de la société, il sera notre devoir à nous tous de\nLui en témoigner notre profonde gratitude.\n\nMes chers confrères: Ces jours-ci la question a été ardemment à\ndébattue, à savoir si l'écrivain, au delà de son oeuvre doit encore\nprendre part à {au} monde extérieur. D'une manière générale\nce problème a été posé dans le cadre politique, alors qu'il me\nparaît bien plus important de le transposer sur un plan moral.\nIl me paraît que nous n'avons pas le droit de nous abriter\nderrière nos écrits pour nous mettre à l'écart des soucis de\nnos semblables, de vouloir planer au-dessus de tous les autres",
+      "notes": "Typoskript mit handschriftlichen Korrekturen in Tinte und Bleistift. Randnotizen links: 'Rede in Buenos Aires beim Pen Club Kongress 1936' sowie weitere schwer lesbare Notizen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "- 2 -\n\nhommes et de nous bercer dans la commode pensée qu'il nous suffit\nd'écrire nos livres pour avoir rempli notre devoir. {Même} L'artiste le\nplus isolé ne peut s'enfermer impunément dans sa tour d'ivoire.\nIl n'est pas aussi libre et indépendant qu'il puisse croire .\nNous avons tous une dette à payer . Rappelons-nous, chers amis,\ncomment nous avons commencé: car nous avons passé tous par le même\nstade, sans considération de langue ou de pays. Nous étions des homm-\nmes jeunes ( de jeunes gens ) inquiets et traînions à nos pieds\nle boulet de notre incertitude. Nous avions nos idées personnelles,\nmais aussi nos questions, nos problèmes et nos préoccupations.\nEt nous n'avions personne à confier nos sentiments, nos rêves\net notre état d'âme. C'était alors que nous avons saisi la plume\npour les confier au papier. Un livre était né . Nous le lançâmes\ndans le monde, tel le navigateur égaré lançant à la mer, au gré\ndes vogues, une lettre dans une bouteille hermétiquement close\ndans l'espérance que quelqu'un, dans quelque rivage inconnu, la\nrencontrera et répondra à son appel. Ne l'oublions pas: {c'étaient} Nous étions\n{nous d'abord}\neeux qui invitions les autres hommes à partager nos pensées, nos\némotions, nos amours et nos haines, bref à partager notre âme.\nC'est nous, qui, en premier lieu, avons demandé au monde de nous\nrépondre.... et par merveille , nous n'avions pas appelé dans le\nvide. Un écho se fit entendre .... des hommes que nous ne\nconnaissions pas répondirent à notre appel et beaucoup d'entre eux\ndevinrent nos amis et prirent part à notre vie interieure .\npur amour de l'art, ils nous témoignèrent une confiance merveilleuse\nqui, au-delà de l'écrivain, s'adressait surtout à l'homme. Ils nous\nfaisaient crédit, ils se livraient à nous les yeux fermés. Mille\nfois déçue, mais jamais désespérée, l'humanité fait toujours foi\nau poete. Elle lui attribue un entendement plus profond, un esprit\nplus vaste , un coeur plus chaud qu'à tous les autres hommes. Elle\nle croit plus compréhensif, plus généreux dans ses sentiments , plus\ndisposé à partager la joie et la souffrance, à soulager la douleur\net redresser les torts.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen in Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "- 3 -\n\nCette confiance que nous témoignent le lecteur est la haute idée\nqu'il possède de notre profession et de notre mission confère a\nnotre travail l'honneur le plus grand et la satisfaction la plus\ncomplète , mais aussi - ne l'oublions pas ! - une grave\nresponsabilité. Nous ne devons pas accepter cette confiance en nous\npurement et simplement comme un cadeau qu'on n'a pas à acquitter,\nmais bien comme une dette dont nous devons nous acquitter envers\nl'humanité jour par jour et heure par heure..Ne détruisons pas\npar un isolment égoïste l'idéalisme admirable que nous manifeste\ntoujours de nouveau chaque jeune génération. Efforçons-nous par\nune attitude pure et humaine de nous modeler sur cette image que\nle public se fait du poète comme l'être le plus humain {comme le veut et donc le}, efforçons-\nnous d'être ce modèle même .-\n\nCette confiance, {humaine} mes chers confrères, est la plus belle\n{si flatteur}\nrécompense que nous puissions recevoir de nos lecteurs, mais pour\nl'artiste consciencieux elle est {devrent} également le poids le plus lourd.\nPlus notre succès littéraire grandit , plus cette dette {personnelle} augmente\nnous nous démontrons avec angoisse , si notre coeur\net souvent notre âme est pressée d'angoisse de ne pas pouvoir\nremplir notre service à autrui avec toute la passion voulue.\n\nDans des heures pareilles l'artiste sera bien inspiré de lever\nson regard vers ceux qui ont rempli leur devoir humain avec la\n{ferveur exemplaire}\nmême pureté et la même ferveur que leur tache artistique, et c'est\ndans cet esprit que j'ai {j'ai invoqué} mentionné devant vous le nom de\nH.G.Wells.\n\nWells n'est pas seulement un excellent artiste, il est dans\ntoute l'acceptation, une {la force de terre} puissance morale. Toute main tendue, il\nl'a prise et serrée, toute injustice, il l'a ressentie et vengée,\ntoute menace contre la liberté l'a trouvé sous les armes.\n\nLa parole que Henri Heine a forgée pour lui-même, peut-être\n{lui}\nappliquée au même titre à H.G.Wells. / Il fut un combattant {en déférer raconter un gros référent}\ncourageux dans les grandes luttes pour la liberté de l'humanité.\nMême dans la plus atroce des guerres Wells a lutté pour cet idéal.\n{Alors que}\n{qui a toujours été}\n{un veillant vivant dans}\n{la grande guerre de}\n{la humanité}",
+      "notes": "Typoskript mit umfangreichen handschriftlichen Korrekturen und Ergänzungen in Tinte und Bleistift."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "- 4 -\n\nAlors, que le monde semblait aveugle, Wells a su voir\nclair comme son célèbre Britting. En dépit des misères\net des catastrophes de notre Monde Wells a toujours con-\nservé intacte la certitude optimiste que le jour où les\nhommes sauront s'unir, au lieu de se détester, ils feront\ndes choses surprenantes. Qu'il soit remercié pour avoir\nmaintenu l'écrivain dans son exaltante fonction de\nconsolateur.\n\nL'homme que je me suis permis de {vous} présenter comme notre\nmodèle atteindra son 70ème anniversaire le treize\nOctobre prochain. Il faut que cette fête soit un peu\nnotre fête à tous, la fête des hommes de plume. Je propose\n{donc} que dans tous les pays du monde, toutes les sections de\nnotre CLUB lui consacrent une séance pour faire acte de\ngratitude. Et je propose que notre Président invite toute\nl'assemblée de se lever pour saluer et honorer H.G.WELLS ,\nnotre président, notre compagnon, homme libre, honneur des\nlettres.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen in Tinte."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 9,
+      "type": "color_chart",
+      "text": "- 4 -\n\nAlors, que le monde semblait aveugle, Wells a su voir\nclair comme son célèbre Britting. En dépit des misères\net des catastrophes de notre Monde Wells a toujours con-\nservé intacte la certitude optimiste que le jour où les\nhommes sauront s'unir, au lieu de se détester, ils feront\ndes choses surprenantes. Qu'il soit remercié pour avoir\nmaintenu l'écrivain dans son exaltante fonction de\nconsolateur.\n\nL'homme que je me suis permis de {vous} présenter comme notre\nmodèle atteindra son 70ème anniversaire le treize\nOctobre prochain. Il faut que cette fête soit un peu\nnotre fête à tous, la fête des hommes de plume. Je propose\n{donc} que dans tous les pays du monde, toutes les sections de\nnotre CLUB lui consacrent une séance pour faire acte de\ngratitude. Et je propose que notre Président invite toute\nl'assemblée de se lever pour saluer et honorer H.G.WELLS ,\nnotre président, notre compagnon, homme libre, honneur des\nlettres.",
+      "notes": "Identisch mit Seite 7, jedoch mit Farbskala/Grauskala für Archivierung am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die handschriftlichen Ergänzungen sind trotz ihrer Komplexität im Kontext der Rede gut interpretierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 8603,
+    "total_words": 1444,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

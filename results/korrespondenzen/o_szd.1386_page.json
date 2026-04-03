@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1386",
+    "title": "Brief an Victor Fleischer ohne Datum, SZ-SEF/B3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1386/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1386/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1386/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Victor Fleischer ohne Datum, SZ-SEF/B3\n- Signatur: SZ-SEF/B3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:30.412294+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mein lieber Victor, ich habe mich herzlich über Deine\nNachricht gefreut und freue mich noch nebenbei sehr\ndarüber, dass ich mich so herzlich an allem Guten\nfreuen kann, was Dir begegnet. Das wäre prächtig, wenn\ndie Sache contractlich fest würde: aus solchen Ausstellungen\nwachsen unzählige kleine Nebenverdienste heraus und vor allem:\nvier Stunden Berufsarbeit sind für den Dichter eher von Nutzen\nwie von Schaden. Von ganzem Herzen: Glückwünsch!\nNun zu Deinem Vorschlag. Bist Du böse, wenn ich ihn\nvon vorneherein ablehne? Ich glaube, ein Zusammenwohnen ist\neiner Freundschaft nicht, immer ganz förderlich war – warum\nsoll ich nicht aufrichtig zu Dir sein? – es wäre nun aus Grün-\nden meiner Erotik nicht ganz angenehm und schließlich: ich\nbrauche oft absolutes Alleinsein. Ich darf mich nicht zu einem\nlieben Menschen nebenan flüchten können, weil ich es zu\noft täte. Darum ist nun der Gedanke einer Ehe oft so unnatür-\nlich, nur, der ich oft einsam durch Wochen reise, ohne mit je-\nmandem ein Wort zu reden und nur freudig spüre, wie ich auch\nmanches wächst und dich regt. Sei nur nicht böse, dass ich so\naufrichtig bin: wäre ich Deiner Freundschaft nicht so sicher,\nso hälte ich mich hinter eine Ausrede versteckt, die doch so\numnöthig ist.\nMeine Angelegenheit im Kgl. Theater, die Hehl hat\nund schlecht. Einiges soll ich ändern, – was nun nicht unsym-\npathisch ist – angenehmen wird es jedenfalls, aber in diesem\nSpieljahre noch nicht gespielt. Den Ternites-Schauspieler kriegen\nsie, da Heine weg ist, erst nächstes Jahr. Es ist ein prachtvoll\ngrosses Theater und ich warte gern ein Jahr für die Premiere,\ndie dort, im merhin ein Ereignis wäre. Ich denke in 8 Tagen,\nwenn Hülsen hier ist, zu unterschreiben. Hofrat Barnay ist zu",
+      "notes": "Die Transkription umfasst den Text auf der ersten Seite des Briefes. Das Wort 'contractlich' ist so geschrieben. 'Ternites' ist schwer lesbar, könnte auch 'Termites' oder ähnlich sein."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "mir wie ein Vater zu seinem Sohn.\nDass wir uns in Wien dauernd wiedersehen, ist\nmir innig lieb. Ich habe Dir viel zu erzählen und hoffent-\nlich auch zu zeigen. Von Herzen Dein\n\n[E.M. Lilien:]\nLieber Fleischer, auch mich freute sehr Ihre\nNachricht an Stefan und ich wünsche Ihnen\nvon Ihnen viel Glück. Ich bin erst wenige\nTage in Berlin und atme noch ganz jema-\nnen Luft. Es war eine schöne Zeit und\nich hoffe sie werden {in} meinen nächsten Arbei-\nten mitgeniessen können.\n\nViele herzliche Grüße\nIhres getreuen\nE.M. Lilien",
+      "notes": "Die Seite enthält den Schluss des Briefes von Stefan Zweig und einen angefügten Brief von E.M. Lilien. Die Signatur 'Stefan Zweig und E.M. Lilien an Victor Fleischer' am unteren Rand wurde nicht transkribiert, da sie als Archivvermerk identifiziert wurde."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "mir wie ein Vater zu seinem Sohn.\nDass wir uns in Wien dauernd wiedersehen, ist\nmir innig lieb. Ich habe Dir viel zu erzählen und hoffent-\nlich auch zu zeigen. Von Herzen Dein\n\n[E.M. Lilien:]\nLieber Fleischer, auch mich freute sehr Ihre\nNachricht an Stefan und ich wünsche Ihnen\nvon Ihnen viel Glück. Ich bin erst wenige\nTage in Berlin und atme noch ganz jema-\nnen Luft. Es war eine schöne Zeit und\nich hoffe sie werden {in} meinen nächsten Arbei-\nten mitgeniessen können.\n\nViele herzliche Grüße\nIhres getreuen\nE.M. Lilien",
+      "notes": "Dies ist eine Wiederholung der zweiten Seite mit einer Farb- und Grauskala-Referenzkarte. Der Text ist identisch."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, abgesehen von einigen Eigennamen oder spezifischen Begriffen (z.B. 'Ternites'). Die Struktur ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2777,
+    "total_words": 469,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

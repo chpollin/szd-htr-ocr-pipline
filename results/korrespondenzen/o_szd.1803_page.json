@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1803",
+    "title": "Brief an Werner Stauffacher vom 18. Mai 1938, SZ-AAP/B1.237",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1803/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1803/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Werner Stauffacher vom 18. Mai 1938, SZ-AAP/B1.237\n- Signatur: SZ-AAP/B1.237\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.427038+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                          18.Mai 1938.\n\nHerrn Dr. W. Stauffacher,\nSt. Peterstrasse 18,\nZürich.\n\nSehr geehrter Herr Doktor!\n\n          Ich danke Ihnen vielmals für Ihre private\nMitteilung, die ich als einen Beweis Ihres menschli-\nchen Vertrauens betrachte und selbstverständlich auf\ndas strengste privat behandle.\n          In der Angelegenheit Reichner möchte ich,\nsoweit es irgendwie möglich ist, schon aus Taktgefühl\ndie Schweizer Gerichte nicht bemühen. Wir Oesterrei-\ncher haben unsere Auseinandersetzungen nicht gewaltsam\nin die Schweiz zu zerren. Aber selbstverständlich muss\nich, wenn es dann dazu kommt, dass Herr Reichner ver-\nsucht, weiter diktatorisch zu handeln, ohne mich als\nAutor zu fragen und zu verständigen, meine Bücher als\nEigentum des Herbert Reichner Verlags Zürich anzukün-\ndigen (worüber keinerlei Kontrakt vorliegt) und aus\nanderen Gründen gegen ihn vorgehen. Heute ist es ja\nnoch nicht so weit, weil ich ausschliesslich Wien als\nden Ort des Vertragsabschlusses {und Gerichtsstand} anerkenne, wo meine",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in Tinte. Die Ergänzung '{und Gerichtsstand}' wurde über der Zeile eingefügt, das Wort 'und' wurde ebenfalls handschriftlich über 'zu' eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Auseinandersetzungen mit Herrn Reichner zu erfolgen\nhaben. Aber ich werde mich natürlich sofort an Sie\nwenden, sobald die Möglichkeit vorhanden ist.\n\n                    Mit herzlichem Dank\n                    Ihr sehr ergebener",
+      "notes": "Typoskript. Die Seite ist am unteren Rand leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Einfügungen auf Seite 1 sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1270,
+    "total_words": 169,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

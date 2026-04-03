@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.696",
+    "title": "Brief an Herbert Reichner vom 15. Oktober 1937, SZ-AAP/B1.107",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.696/IMG.1",
+      "https://gams.uni-graz.at/o:szd.696/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 15. Oktober 1937, SZ-AAP/B1.107\n- Signatur: SZ-AAP/B1.107\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:24.949233+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                          15. Oktober 1937.\n\nGeehrter Herr Reichner!\n\n          Ich benötige von Ihnen folgenden Brief.\n\n\"Herrn Justizrat Dr. Rosenberger,\nJoachimstalerstrasse 17,\nBerlin W.15.\n\nIch bestätige hiermit, dass die Filmrechte\nder in meinem Verlag erschienenen Novelle\n\"Brennendes Geheimnis\" ganzlich das Eigen-\ntum von Herrn Dr. Stefan Zweig, London sind\nund ich keinerlei \"quit-claim\" Ansprüche\nbei einer Zession derselben zu stellen be-\nrechtigt bin, oder stellen werde.\n\n                    Herbert Reichner Verlag.\"\nLeider handelt es sich nicht, wie Sie vielleicht opti-\nmistisch annehmen werden, um einen sehr erträgnisreichen\nVerkauf der Rechte, sondern es soll nur der alte Berliner\nFilm in amerikanische Hände übergehen, wobei ich mit\neinem Trinkgeld abgespeist werde. Aber man muss auch\nTrinkgelder nehmen und jeder Film bedeutet doch für einen\nAutor eine unersetzbare Propagande.\n\n                    Mit den besten Empfehlungen\n\nDen Brief senden Sie bitte in meinem Auftrag direkt an\nJustizrat Dr. Rosenberger.",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1048,
+    "total_words": 137,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

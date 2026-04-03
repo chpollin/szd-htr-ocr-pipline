@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1706",
+    "title": "Postkarte an Anna Meingast vom [März 1936], SZ-SAM/B7.73",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1706/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1706/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom [März 1936], SZ-SAM/B7.73\n- Signatur: SZ-SAM/B7.73\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.962070+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "März 1936\n\nFrau Anna Meingast\nOer Zweig\nSalzburg (Austria)\nKapuzinerberg 5",
+      "notes": "Adressseite einer Postkarte. Handschriftliche Anschrift in violetter Tinte. Briefmarke (1 1/2 Penny, King George V) und Poststempel (London W.1) vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLiebe Frau Meingast\nvielen Dank für die Briefauszüge, ich brauche jetzt\nnicht mehr. Aber was ich vermisse, ist ein Ver-\nzeichnis aller Bücher, die in dem Vierteljahr meiner\nAbwesenheit gekommen sind. Einiges davon werde\nich doch sehen müssen und sicher erbitten!\nHerzlichst Ihr\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Gedruckter Briefkopf, handschriftlicher Text in violetter Tinte. Rechts oben handschriftliche Archivnotizen '42.24' und '54.22'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 412,
+    "total_words": 64,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

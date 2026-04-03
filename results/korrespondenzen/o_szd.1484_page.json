@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1484",
+    "title": "Brief an Stefan Zweig vom 18. März 1940, SZ-AAP/B3.11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1484/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1484/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1484/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 18. März 1940, SZ-AAP/B3.11\n- Signatur: SZ-AAP/B3.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:36.806210+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n\n18.Maerz 1940.\n\nHerrn Dr.Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nB a t h .\n\nSehr geehrter Herr Doktor,\n\nWir erhalten aus der Schweiz eben Nachricht bezueglich Ihres\nWerkes \"DER VERWANDELTE KOMOEDIANT\",die wir Ihnen tieferstehend in Abschrift\nwiedergeben.\n\n\" La maison Felix Bloch Erben me fait remarquer que le\n\"Copyright de la piece de Stefan Zweig, \"Der verwandelte\n\"Komoediant\",s'ecoule au cours de cette annee. Il faudrait\n\"absolument faire une demande pour le renouvellement du\n\"Copyright. Je vous prie de prendre connaissance de ce\n\"fait et vous presente,Chere Mademoiselle,mes salutations\n\"empressees. \"\n\nIch weiss nicht,ob Sie selber,lieber Herr Doktor,bereits dies-\nbezuegliche Schritte unternommen haben oder was Sie vorzunehmen wuenschen.\nVielleicht haben Sie die Liebenswuerdigkeit,mir recht bald darueber Bescheid\nzu geben. Wir wuerden uns freuen,Ihnen in der Sache behilflich sein zu koennen.\n\nMit den besten Empfehlungen\nIhre\n\n(DR.SUZANNE CZECH)\n\nIMPORTANT.-Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS. for negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.",
+      "notes": "Typoskript auf offiziellem Briefpapier des International Copyright Bureau Ltd. Die handschriftliche Unterschrift von Dr. Suzanne Czech ist deutlich erkennbar. Rote handschriftliche Notiz '45' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rueckseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala fuer Archivierung. Der Text ist teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1538,
+    "total_words": 223,
+    "language_detected": "en",
+    "language_match": false
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Typed letter on International Copyright Bureau letterhead. German body text with embedded French quotation and English letterhead/footer — explains language_mismatch flag. Transcription accurate: letterhead, addresses, body text, French passage, closing and signature all verified against faksimile. Minor letterhead margin details (telephone/telegram refs) omitted but these are decorative printed elements.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
+  }
+}

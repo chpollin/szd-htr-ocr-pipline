@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1788",
+    "title": "Brief an Stefan Zweig vom 10. Mai 1938, SZ-AAP/B1.222",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1788/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1788/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. Mai 1938, SZ-AAP/B1.222\n- Signatur: SZ-AAP/B1.222\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.315984+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn\nDr. St. Zweig\nLomdon\n\nSchweiz. Vereinssortiment Olten\nTelegramm-Adr.: Sortiment Olten\nTelefon Nr. 2123 Postcheck Vb 107\n\nOlten, den 10. Mai 1938.\n\nSehr geehrter Herr Doktor!\n\nAuf Ihre beiden Schreiben vom 3. und 9. ds.Mts. teilen\nwir Ihnen mit, dass wir die ganze Angelegenheit unserem Rechtsan-\nwalt unterbreitet haben. Wir möchten nämlich in dieser heiklen Frage\nnichts unternehmen, was rechtlich anfechtbar wäre. Da sich Herr\nReichner bereit erklärte die Honorare für die Ihnen gemeldeten Exemplare\nIhres Buches durch uns bezahlen zu lassen, so werden wir selbstver-\nständlich diesen Betrag für Sie zurückhalten. Es wäre lediglich noch\nzu vereinbaren, welchen Betrag wir als Garantie für diesen Zweck\nzurückbehalten müssen. Irgendein Verfügungsrecht über{ausser der} die Ihnen ge-\nmeldete Anzahl können wir ohne die Zustimmung von Herrn Reichner, oder\nein gerichtliches Urteil nicht treffen. Sie müssten schon eine ge-\nrichtliche Weisung erwirken, wonach alle hier lagernden Bestände des\nReichner Verlages mit Beschlag belegt werden. Ohne ein solches Vor-\ngehen sind wir rechtlich allein unserem Lieferanten, d.i. Herr Reichner,\nverpflichtet.\n\nSoweit wir die Angelegenheit überblicken, glauben wir\nnicht, dass irgendwelche Gefahr besteht, da Herr Reichner bis heute\nüberhaupt an uns kein Begehren stellte von seinem Guthaben Aus-\nzahlungen vorzunehmen.\n\nMit vorzüglicher Hochachtung\nSchweiz. Vereinssortiment\n\nH/G.\n\nII. 37. No. 21 a. - 3000.",
+      "notes": "Typoskript auf Geschäftspapier. Die Einfügung 'ausser der' wurde über der Zeile ergänzt. Der Tippfehler 'Lomdon' ist im Original enthalten."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Enthält handschriftliche Adressnotizen in violetter Tinte: 'White lands House / Cheltonham / Terrace / S W 3 / Flat 107'. Der Rest ist der durchscheinende Text der Vorderseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Einfügung auf Seite 1 wurde korrekt zugeordnet.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1450,
+    "total_words": 208,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

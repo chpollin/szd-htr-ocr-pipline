@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1442",
+    "title": "Brief an Stefan Zweig vom 5. August 1937, SZ-LAS/B2.1",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1442/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1442/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 5. August 1937, SZ-LAS/B2.1\n- Signatur: SZ-LAS/B2.1\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:34.467175+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "GRANDCOUR\nSAINT-AVERTIN\n(INDRE-ET-LOIRE)\n\nLe 5 Août 1937\n\nMon cher Ami,\n\nJ'ai appris qu'une maison française de films, que\nje ne connais pas autrement, et qui s'intitule \"Ile-de-\nFrance-Films\", a l'intention de faire un film avec \"Vol-\npone\". A ce que j'ai compris, ils se flattent de recourir\ndirectement au texte de Ben Jonson; mais, comme ils ne\nsont peut-être pas très tranquilles quant à la réalisa-\ntion de ce projet, ils ont tenté auprès de moi une dé-\nmarche assez naïve. Ils m'ont demandé si je n'accepte-\nrais pas d'\"écrire les dialogues\" de leur \"Volpone\". Ils\nespéraient que, m'ayant ainsi intéressé à leur affaire,\nils obtiendrais que je ferme les yeux, et que je vous\namène à fermer les yeux, sur les emprunts qu'ils seraient\nprobablement obligés de faire au \"Volpone\" joué chez\nDullin, dont ils comptent bien d'ailleurs exploiter la\ncélébrité pour le lancement de leur film.\n\nJe leur ai dit très nettement que cette aimable\ncombinaison était impossible; qu'au reste j'estimais\nqu'il n'y avait pas moyen de porter \"Volpone\" à l'écran\nsans faire des emprunts à la pièce que nous avons signée;\nqu'en conséquence le seul moyen honnête pour eux était\nde traiter avec nous; qu'au surplus nous serions vigi-\nlants, et que nous ne tolérerions pas le plus petit\nemprunt sans faire valoir nos droits.\n\nLà-dessus, ils m'ont répondu qu'ils viendraient\nme voir à Saint-Avertin pour examiner la chose avec moi.\n\nJ'attends leur visite. Si elle se produit, je vous\nferai part aussitôt de ce qu'elle aura donné. Si elle ne\nse produit pas d'ici quelques jours, je leur enverrai\nune lettre recommandée (registered) où je les prévien-\ndrai, d'une façon courtoise mais ferme, que nous leur\ninterdisons de faire le moindre emprunt à notre pièce,\net que nous surveillerons les plus petites infractions.\nJe crois qu'il serait utile qu'à ce moment-là vous leur\nenvoyiez de votre côté une lettre analogue, ou que vous\nme l'envoyiez à moi pour que je puisse la leur transmet-\ntre, et agir éventuellement par la suite au mieux de nos\nintérêts.",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "J'aimerais aussi que vous me disiez le plus rapide-\nment possible, pour le cas où des négociations s'engage-\nraient avec eux, quel ordre de conditions vous envisage-\nriez pour une autorisation en règle que nous leur don-\nnerions. Peut-être faudrait-il, vu le caractère particu-\nlier du cas, se montrer accommodant. Indiquez-moi un\nordre de grandeur, pour que j'aie la marge de négocier.\nBien entendu, dans ce cas, je m'efforcerais de ne traiter\nque pour la version française; mais il se peut qu'ils\ninsistent pour d'autres versions. Je ne conclurai rien\nde définitif sans avoir votre avis.\n\n°\n° °\n\nMa femme et moi regrettons de ne pas vous avoir vu\ndepuis bien longtemps. Avez-vous l'intention de venir\nà Paris cet hiver? J'aimerais savoir où vous passez vos\nvacances (d'ailleurs, il serait important que j'aie vo-\ntre adresse actuelle, et même une adresse télégraphique,\nà cause de l'affaire \"Volpone\").\n\nMa femme vous envoie ses amitiés. Bien affectueu-\nsement à vous,\n\nJules Romains",
+      "notes": "Typoskript, Unterschrift handschriftlich in Tinte. Die blauen Markierungen im Text sind vermutlich spätere Archivierungs- oder Korrekturmarkierungen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig als 'Jules Romains' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3015,
+    "total_words": 501,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

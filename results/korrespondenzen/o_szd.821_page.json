@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.821",
+    "title": "Brief an den Insel-Verlag vom 17. Januar 1937, SZ-AAP/B1.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.821/IMG.1",
+      "https://gams.uni-graz.at/o:szd.821/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an den Insel-Verlag vom 17. Januar 1937, SZ-AAP/B1.4\n- Signatur: SZ-AAP/B1.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:34.863040+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "z.Z. Neapel, den 17.I.1937.\n\nAn den Insel-Verlag,\nKurze Strasse 7,\nLeipzig.\n\nSehr geehrte Herren!\n\nIch erhalte Ihren freund-\nlichen Brief vom 12.I. Ich bin leider nicht\nfinanztechnisch erfahren genug um zu wissen,\nwas diese allfällige Ueberweisung auf Sperr-\nmarkkonto mir für Einlösemöglichkeiten ge-\nwährt und möchte Sie bitten, insolange die\nSachlage noch unverändert zu lassen, bis\nich mich erkundigt habe. Seien Sie bitte ge-\nwiss, dass ich Ihnen für Ihre Bemühungen auf\ndas Herzlichste verpflichtet bin und empfan-\ngen Sie die besten Empfehlungen\n\nIhres aufrichtig ergebenen",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 580,
+    "total_words": 86,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

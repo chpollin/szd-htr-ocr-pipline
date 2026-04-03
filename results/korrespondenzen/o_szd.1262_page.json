@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1262",
+    "title": "Brief an Stefan Zweig vom 19. August 1931, SZ-SAM/B2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1262/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1262/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1262/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1262/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1262/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. August 1931, SZ-SAM/B2\n- Signatur: SZ-SAM/B2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.568824+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bandong, d. 19. Aug. 1931.\nDagoweg 10.\nJava.\n\nSehr verehrter, lieber Herr Zweig!\ndarf ich mich Ihnen recht eben vorstellen:\nich bin Frau Trana Hahnefeld[?], wohne\nmit meinem Mann und zwei\nKindern seit zehn Jahren in Bandong\nauf Java, wo ich vormittags an\neinem holländischen Seminar für\nLehrer und Lehrerinnen Unterricht\nin Geschichte und Erdkunde gebe.",
+      "notes": "Der Name 'Hahnefeld' ist schwer lesbar, könnte auch 'Hahnefals' oder ähnlich lauten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Man hat mich gefragt, um vor dem\nMikrophon der örtlichen Regierungs-\nsender P.M.V., der jedoch auch in\nAustralien und in den Niederlanden\ngehört wird, Vorträge zu halten.\nEs ist etwas Wundervolles, um auf\ndiese Weise vielen Menschen,\nwovon Tausende auf sehr isolierten\nPlätzen und Inseln mitten im\nUrwald wohnen, die kostbaren\nSchätze aus der Welt des Geistes\nvermitteln zu dürfen. So haben mein\nMann und ich vor einigen Monaten\neine Anna-Panslowa-Gedächtnisfeier",
+      "notes": "Der Name 'Panslowa' ist eine Vermutung, könnte auch 'Pavlowa' (Anna Pawlowa) sein, was historisch plausibler wäre."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "organisiert, in der ich versucht habe,\ndiese Künstlerin den Zuhörern\nnahe zu bringen.\nDa von den modernen deutschen\nSchriftstellern Sie den tiefsten\nEindruck auf mich machen,\nkomme ich mit der Bitte zu Ihnen:\nDarf ich durch den Radio einige von\nIhren Werken im holländischen\nmeinen Zuhörern bekannt machen?\nUnd wenn Ihr Leben noch einen\nAugenblick Zeit fände, könnten\nSie mir nicht einiges über sich selber\nüber den Menschen und Künstler Stefan",
+      "notes": "Der Text bricht am Ende der Seite ab und setzt auf der nächsten Seite fort."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Zweig mitteilen?\nDas Interesse der meisten Menschen\nist am lebendigsten, wenn es gilt\nZeitgenossen kennen zu lernen.\nEin Mensch wie Sie wird viele\nfördern können, wenn er ihnen\nvon eigenen Mühen und Freuden\nerzählt, wenn er ihnen zeigt, was\nein Lebeninhalt ist, was seine\nIdeen sind über Ruhm und Geld,\nArbeit und Genuß, Liebe und Tod.\nVielleicht wird der Gedanke, einsamen\nMenschen damit helfen zu können,\nSie dahinbringen, mir auf diesen Brief\nantworten zu wollen.\nEs grüßt Sie\nFrau Trana Hahnefeld[?].",
+      "notes": "Die Unterschrift entspricht dem Namen in der ersten Seite."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "Zweig mitteilen?\nDas Interesse der meisten Menschen\nist am lebendigsten, wenn es gilt\nZeitgenossen kennen zu lernen.\nEin Mensch wie Sie wird viele\nfördern können, wenn er ihnen\nvon eigenen Mühen und Freuden\nerzählt, wenn er ihnen zeigt, was\nein Lebeninhalt ist, was seine\nIdeen sind über Ruhm und Geld,\nArbeit und Genuß, Liebe und Tod.\nVielleicht wird der Gedanke, einsamen\nMenschen damit helfen zu können,\nSie dahinbringen, mir auf diesen Brief\nantworten zu wollen.\nEs grüßt Sie\nFrau Trana Hahnefeld[?].",
+      "notes": "Dies ist eine Dublette von Seite 4, vermutlich ein Scan des gleichen Blattes mit Farbskala."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber einige Eigennamen (Hahnefeld, Panslowa) sind aufgrund der Schreibweise unsicher. Der Text ist inhaltlich gut verständlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2268,
+    "total_words": 360,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

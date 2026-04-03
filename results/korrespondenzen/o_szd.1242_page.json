@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1242",
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.58",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1242/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1242/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1242/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.58\n- Signatur: SZ-LAS/B3.58\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:22.858484+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herzlichste Grüße an\nSie und Empfehlungen Ihrer\nFrau Mama\n\nIhre\nFriderike[?] W.",
+      "notes": "Adressseite der Postkarte. Der Name der Absenderin ist etwas flüchtig geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mein lieber Herr Doktor,\ndarf ich Sie um eine \"ver-\nschwiegene\" Gefälligkeit bitten?\nIch möchte zu Stefans\nLilencron, ohne dass er es\nweiß (er sagt es störe ihn\nmich dort zu wissen) Bitte\nversorgen Sie mir eine Karte.\nIch hoffe, dass ich kommen\nkann. Macht es Ihnen\nkeine Mühe? Nur dazu\nbitte. Falls Sie mit Ihrer Frau\nMutter herauskommen, bitte\nich Sie zu Mittag bei mir zu\nspeisen. Ein Kujal[?] etwa!\nVielleicht wird das Wetter\nwieder besser.",
+      "notes": "Nachrichtenseite der Postkarte. 'Kujal' ist eine unsichere Lesung, möglicherweise ein Eigenname oder eine spezifische Bezeichnung."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herzlichste Grüße an\nSie und Empfehlungen Ihrer\nFrau Mama\n\nHerrn Dr Victor Fleischer\n\nIhre\nFriderike W.\n\nWien XIX\nBillrothstrasse 20\n2/2 1917",
+      "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) mit ergänzenden Informationen (Datum und Empfängername)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger flüchtiger Buchstaben. Die Identifikation der Namen und Orte ist durch den Kontext (Friderike von Winternitz an Victor Fleischer) gesichert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 664,
+    "total_words": 111,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

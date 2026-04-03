@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.418",
+    "title": "Ferdinand von Paungarten an Stefan Zweig, 1908-11-02, SZ-SAM/AK.136",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.418/IMG.1",
+      "https://gams.uni-graz.at/o:szd.418/IMG.2",
+      "https://gams.uni-graz.at/o:szd.418/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ferdinand von Paungarten an Stefan Zweig, 1908-11-02, SZ-SAM/AK.136\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.136\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.037681+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "GRAZ.Karl Ludwig-Ring. Graz, Hans Sachsgasse 12, am 2. XI. 1908.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlicher Orts- und Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Korrespondenz-Karte.\n\nAn Herrn\nDr. Stephan\nZweig\nin\nKochgasse № 8\n\nSehr geehrter Herr Dr.! freundlichen\nDank für die gütige Retonierung meines\nManuskriptes mit der ehrlichen Versiche=\nrung, daß ich Ihnen gewiß nicht bös bin.\nIch kann es recht gut verstehen, daß\nes oft merkwürdige Constellationen gibt,\ndie hindernd einschreiten. Wünsche Ihnen\neine recht schöne glückliche Studienreise mit\ngroßer reicher Ausbeute. Mit den\nbesten Grüßen Ihr ergebenster F. Paungarten.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Briefmarke oben links, Poststempel teilweise lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Die Ansichtskarte ist identisch mit der in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 531,
+    "total_words": 78,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1091",
+    "title": "Postkarte an Max Fleischer vom 12. Dezember 1901, SZ-LAS/B3.13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1091/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1091/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1091/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 12. Dezember 1901, SZ-LAS/B3.13\n- Signatur: SZ-LAS/B3.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.483926+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte.\n\nAn\nHerrn Maximilian Fleischer\nUniversitätsgasse\nin Leipzig (Sachsen)\nMünzgasse 16",
+      "notes": "Adressseite der Postkarte. Poststempel 'WIEN 1/1 12.XII.01' und 'LEIPZIG 13.12.01'. Briefmarke 5 Heller."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Max! Sei auch böse – aber Du hast mir eigentlich einen sehr ver-\ndrehten Brief geschrieben. Ich weiß noch immer nicht, was Du studierst, ob\ndu etwas dichtest, ob Du nach Berlin gehst, wo auch ich bin? Alles\ndasbei. Ich arbeite sehr viel, (außer Litteratur) schreibe aus alter\nGewohnheit nach und zu ein Gedicht, werde berühmt durch x\nZeitungen, kriege aber gar nichts dafür. In der „Gesellschaft“, Zeit-\nschrift „Echo“ habe ich Buchrezensionen, das ist aber keine Arbeit u es\nhat mit Kunst gar nichts mehr zu thun. In der letzten Welt\nhabe ich ein Gedicht, das zwar ganz hübsch und auch gescheit ist,\naber doch zu gut ist für diese Welt, in der man sich lang quält.\nMein Baudelaire Manuskript liegt bei Reclam, ich bin sehr\ngespannt, ob es es bringen wird. Chi lo sa!? Mir ist übrigens\nalles Wien einerlei, schlagt den Passen [?] Ihn entgegen, jage mal\nzwei macht niemals drei, dass ich auch ein Dichter sei, laßt\nsich dieses Reimes getrei. Allzeit! Helau Du.",
+      "notes": "Textseite der Postkarte. Handschrift in violetter Tinte. 'Passen' ist unsicher gelesen, könnte auch 'Passen' oder 'Possen' sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Correspondenz-Karte.\n\nAn\nHerrn Maximilian Fleischer\nUniversitätsgasse\nin Leipzig (Sachsen)\nMünzgasse 16",
+      "notes": "Wiederholung der Adressseite im Kontext der Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Einige Wörter im Textkörper sind aufgrund der schnellen Schreibweise leicht interpretativ, aber im Kontext schlüssig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1172,
+    "total_words": 191,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2637",
+    "title": "Père Lachaise.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA56.5",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2637/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2637/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2637/IMG.3"
+    ],
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "notes": "Quelle des Abdrucks unbekannt"
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Père Lachaise.\n- Signatur: SZ-AAP/W-AA56.5\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Anmerkungen: Quelle des Abdrucks unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:50.447983+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Père Lachaise.\n\nZwischen tausenden Gräbern das seine im unendlichen Fried-\nhof von Paris. Vorbei an unzähligen Namen, berühmten und\nunberühmten, durch einen Wald von Kreuzen und verwitterndem\nMarmor.\nUnten liegt Paris in einer zarten Wolke von Dunst. Aus\ntausend Schornsteinen keucht es schmutzigen Atem, wildes Brausen\nhebt sich manchmal mit dem Wind hoch und spült einen feindlich\nan. Man spürt diese Welt da drunten leben wie ein Einziges,\ndiese Myriadenmasse als eine einzige Gewalt. Und plötzlich über-\nkommt einen die Erinnerung, wie Rastignac in Balzacs Roman von\neben demselben Friedhof die Fäuste ballt und seinen Fluch, seine\nFeindschaft diesem grollenden Tiere entgegenschreitet. Der einzelne\ngegen die Masse, der Enttäuschte gegen die Welt — so ist er ein\nLeben lang gegen seine ganze Nation gestanden, der hier ruht\nunter dem kalten Stein eines täglichen Denkmals, erdrückt von der\nArbeit, zerschmettert von seinen Siegen.\nRiesenhaft ist unten die Stadt gewachsen. Wo die Mühlenflügel\nvon Montmartre sich im Grünen idyllisch drehten, steht weiß die\nKirche, umgeben von hochstöckigen Häusern, ein stählernes Spielzeug\nbohrt sich der Eiffelturm in die Luft hoch über das Gewirr der\nStraßen und Kirchen, weiße Fluten von Stein spülen endlos über\ndie Wiesen von einst und reichen bis an den Horizont. Aber so sehr\nsie sich dehnt, so sehr sie ihren Reichtum vertausendfacht, ihren\nGlanz aufblendet, ihre Leidenschaften steigert — hier ruht einer, der\nsie noch größer geschaut, und ihre Verwirklichungen erfüllen nur\nmatt seinen gebildeten Traum. Jetzt erst, in ihrer vielmaligen Ver-\nvielfachung beginnt das wahrhafte Paris seinem dämonisch erschauten\nähnlich zu werden, und sie alle, die da unten ihre Leidenschaften in\nTat verwandeln, schaffen erst seine Welt, die, früher überdimensional,\nsich den Proportionen der wirklichen anpaßt. Indes er ruht, gestaltet\nsich die Welt der seinen entgegen, und man spürt, steigt man wieder\nnieder von seinem Grab in das Fieber der Straßen, seinen Atem und\nseine Glut, in den Geschehnissen der Politik und der Journalistit[?] seine\nGestalten, in dem Reichtum der Läden, dem Prunt der Frauen seine\ngierigen Träume von Geld und Geld. Seine Bücher werden jetzt\nneuerlich wahr als Wirklichkeiten, und nirgends stärker als in der\nHeimkehr von seinem Grab fühlt man sein wahrhaftiges Leben und\nseine ungebrochene fortschaffende Gewalt.",
+      "notes": "Zeitungsausschnitt, Frakturschrift. Das Wort 'Journalistit' scheint ein Druckfehler für 'Journalistik' zu sein, wurde aber diplomatisch transkribiert. 'Prunt' ist vermutlich ein Druckfehler für 'Prunk'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Der Ausschnitt des Textes ist hier teilweise verdeckt durch die Skalen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die wenigen fragwürdigen Stellen (z.B. 'Journalistit') sind als solche markiert, da sie offensichtliche Druckfehler im Original sind.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2376,
+    "total_words": 362,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

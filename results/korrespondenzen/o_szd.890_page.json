@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.890",
+    "title": "Brief an Frans Masereel vom 16. Oktober 1919, SZ-LAS/B1.12",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.890/IMG.1",
+      "https://gams.uni-graz.at/o:szd.890/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 16. Oktober 1919, SZ-LAS/B1.12\n- Signatur: SZ-LAS/B1.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:41.054768+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, 15.10.1919.\nKapuzinerberg 5.\n\nLieber Freund !\n\nIch komme geradenwegs aus Wien und fahre\nmorgen nach Deutschland weiter. Bin also nur einen Tag in\nSalzburg und benütze diesen Tag, um 50 Briefe zu diktie-\nren, von denen nun einer auch an Dich geht. Entschuldige,\ndass ich Dir in dieser maschinierten Form schreibe,\nab{er} ich komme sonst nicht dazu und ich möchte Dir nur\neiniges Wichtige sagen.\nZunächst dies, dass ich den Alvoun - Ver-\nlag in Wien unser Buch weggenommen habe, weil er zu-\nlange damit gezögert hat und weil man in Oesterreich\nheute überhaupt nicht mehr mit Menschen geschäftlich\nzu tun haben soll. Ich bringe die Holzschnitte mit nach\nLeipzig, wo ich sie dem Insel - Verlag geben will und\nwir werden das Buch jetzt dort heraus bringen, falls\nKippenberg, wie ich nicht zweifle, damit einverstanden\nist. Wir können ja später hin noch eine französische\nAusgabe davon machen. Ich warte eben nur ab, wie Kip-\npenberg darüber denkt und schreibe Dir dann sofort.\nVielleicht kannst Du später dann öfters für ihn arbei-\nten, freillich ist bei den heutigen Verhältnissen unse-\nrer Valuta ja alles unberechenbar und Du hast selbst\nwie ich fürchte an der seinerzeitigen Bezahlung in\nöesterreichischer Valuta schweren Schaden gelitten\n./.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen (z.B. 'er' eingefügt). Briefkopf mit Logo. Die Tinte der Korrekturen ist violett."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "und kannst daraus ermessen, wie unsere Situation ist,\ndie wir mit unserer ganzen Produktion auf Deutschland\nund Oesterreich angewiesen sind. Zweitens, mit Curt Wolf\nwerde ich in München persönlich verhandeln. Dr. Marder-\nsteig hat mir geschrieben, ich seh ihn in vierzehn Ta-\ngen und werde dann Dir sofort Bescheid geben. Drittens,\nHugo Heller konnte ich in Wien nicht erreichen, ich habe\nihm\nnoch einmal geschrieben und hoffe, dass er die Sache\nbald in Ordnung bringen wird. Es ist möglich, dass man\nihm Schwierigkeiten macht, jetzt ins Ausland zu zahlen,\naber seine Verpflichtung ist sicher - er ist ein ver-\nmögender Mann - eine grosse Firma und wird sicherlich\nseine Verpflichtung einhalten. Nun noch eine grosse Pit-\nte, mein lieber Franz ! Ich bitte Dich, beschwöre die\nFreunde auf das Innigste, sie möchten mir nicht böse\nsein, dass ich ihnen solange nicht schrieb. Ich war\njetzt vierzehn Tage in Wien und dort ganz von den Froben\nzum \" Jeremias \" in Beschlag genommen, der dann auch\nein grosser Erfolg geworden ist. Morgen fahre ich auf\ndrei Wochen nach Deutschland, seit vier Jahren zum er-\nstenmal und habe dort unermesslich zu tun. Seit Monaten\nist meine ganze Korrespondenz in Unordnung geraten aber\nich bitte Euch, mir zu glauben, das mein Gefühl noch\nganz in Ordnung ist und mir zu vertrauen, auch wenn ich\njetzt solange schweigsam war und bin, aber Briefe sind\nimmer ein Festtag für mich und Ihr solltet damit nicht\nsparsam sein. Herzlich Dein\n\nStefan Zweig\n\n{Am Rand links, vertikal geschrieben:} Il est honnete et a mes gentils, tout oblige. Peut être il rendra le voir. Je\n{Am Rand links, vertikal geschrieben:} l'ai pas vu longtemps - il etait en presse - il ne pourra pas le dire rien de moi,\n{Am Rand links, vertikal geschrieben:} mais tu trouveras ma lettre tres intressant et amusant en lieu\n{Am Rand unten, horizontal geschrieben:} Un ami de moi, Hermann Nereuer, est maintenant a Geneve en fonction de correspondant de l'Agence Centrale",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen am Rand (französisch). Exlibris-Stempel 'Christian Andree' oben mittig. Unterschrift 'Stefan Zweig' handschriftlich in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen am Rand sind ebenfalls gut lesbar, wenngleich die französische Handschrift etwas flüchtiger ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3212,
+    "total_words": 533,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

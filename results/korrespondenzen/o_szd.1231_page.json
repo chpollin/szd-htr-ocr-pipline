@@ -1,0 +1,77 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1231",
+    "title": "Brief an Max Fleischer vom 23. Januar 1912, SZ-LAS/B3.47",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1231/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1231/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1231/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 23. Januar 1912, SZ-LAS/B3.47\n- Signatur: SZ-LAS/B3.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.867010+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8\nWIEN 23. Januar 1912\n\nLieber Max!\n\nDu weisst wohl schon, dass wir Fräulein Eugenie zu ihrem\nfünfzigsten Geburtstag am siebenten Februar eine Mappe mit\nhandschriftlichen literarischen Widmungen ihrer Freunde über-\ngeben wollen und rechnen dabei sehr stark auf deine Mithil-\nfe. Ich sende dir anbei ein Blatt, das du mit mit einem\ngrösseren Beitrag in Vers oder Prosa baldmöglichst unge-\nbrochen zurücksenden willst und grüsse dich vielmals herzlichst\n\nStefan",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'Stefan' ist handschriftlich in violetter Tinte ausgeführt. Das Wort 'mit' wurde in der vorletzten Zeile doppelt getippt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "21219/12",
+      "notes": "Rückseite des Briefes. Enthält lediglich eine Archivnummer/Signatur unten rechts."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "VIII. KOCHGASSE 8\nWIEN 23. Januar 1912\n\nLieber Max!\n\nDu weisst wohl schon, dass wir Fräulein Eugenie zu ihrem\nfünfzigsten Geburtstag am siebenten Februar eine Mappe mit\nhandschriftlichen literarischen Widmungen ihrer Freunde über-\ngeben wollen und rechnen dabei sehr stark auf deine Mithil-\nfe. Ich sende dir anbei ein Blatt, das du mit mit einem\ngrösseren Beitrag in Vers oder Prosa baldmöglichst unge-\nbrochen zurücksenden willst und grüsse dich vielmals herzlichst",
+      "notes": "Dies ist eine Aufnahme des Briefes mit aufgelegter Farb- und Grauskala. Der Text entspricht Seite 1, jedoch ohne die handschriftliche Unterschrift."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da er maschinengeschrieben ist. Die einzige handschriftliche Ergänzung ist die Unterschrift auf Seite 1.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 950,
+    "total_words": 144,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.99,
+    "edited_pages": [],
+    "notes": "Typewritten letter on Zweig letterhead. All text verified against faksimile: header, body, and handwritten signature 'Stefan' all match. Double 'mit' in line 9 is present in the original typescript. Page 2 is blank (verso with faint archive number), page 3 is color chart duplicate — both skipped per protocol.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T12:00:00Z"
+  }
+}

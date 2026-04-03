@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.847",
+    "title": "Brief an Stefan Zweig vom 14. Juni 1937, SZ-AAP/B1.63",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.847/IMG.1",
+      "https://gams.uni-graz.at/o:szd.847/IMG.2",
+      "https://gams.uni-graz.at/o:szd.847/IMG.3",
+      "https://gams.uni-graz.at/o:szd.847/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 14. Juni 1937, SZ-AAP/B1.63\n- Signatur: SZ-AAP/B1.63\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:37.106012+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig Esq.\n49,Hallam Street\nLondon W.1\n\nENGLAND\n\nRef.\nGregor,Welttheater\n------------------\n\n14.Juni 1937 /H\n\nSehr verehrter Herr Dr.Zweig:\n\nWie uns soeben Herr Hofrat Dr.Gregor mitteilt,haben Sie ihm wegen der\nAbsage von Cassel[?] geschrieben und gleichzeitig haben wir auch Cassel[?]s\nnegativen Bescheid erhalten.\nDie augenblickliche Situation ist die folgende: der Verlag Bell in\nLondon hat sich schon lange vor Erscheinen des Buches eine Art Option\ngesichert,d.h. er ist auf unsere Bedingungen eingegangen unter der\nVoraussetzung,dass er,der hohen Uebersetzungskosten wegen,einen\namerikanischen Verlag als Partner für die amerikanische Ausgabe fin-\ndet.Dies ist bisher nicht der Fall gewesen und Bell schreibt uns,\ndass er Mr.Huebsch in London abwartet,um mit der Viking Press zu\nverhandeln.\nDiesen wahren Sachverhalt haben wir Cassel[?] mitgeteilt - weil wir der\nMeinung sind,dass wir dies nicht verbergen sollten.Cassel[?] scheint uns\nnun missverstanden zu haben und glauben,dass wir eine fixe Bindung\nBell gegenüber eingegangen sind.\nWenn Mr.Huebsch für Gregors ausgezeichnetes Werk ernstliches Interesse\nhat und die amerikanischen Rechte erwerben will,dann ist es uns\ngleichgültig,ob nun die englische Ausgabe bei Cassel[?] oder bei Bell\nerscheint - die Hauptsache ist,dass sie überhaupt erscheint.\nDeshalb bitten wir Sie,mit Mr.Huebsch zu sprechen und ihm zu sagen,\ndass wir Bell gegenüber gar nicht gebunden sind und die Viking Press",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Tinte ist schwarz. Die Lesbarkeit ist sehr gut."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\n\nvollkommen frei ist,wen sie als englischen Partner vorzieht.\nMit Cassel[?] aber sprechen Sie auch bitte,und klären Sie ihn darüber\nauf.Wenn Mr.Huebsch mit Cassel[?] arbeiten will,so ist uns das nur lieb.\n\nWir danken Ihnen dafür,dass Sie sich für Gregors schönes Buch so\nsehr einsetzen und uns und dem Verfasser Ihre unschätzbaren Dienste\nleihen.\n\nMit freundlichen Grüssen,sind wir\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Am Ende befindet sich eine handschriftliche Signatur (Tinte, blau/schwarz). Die Lesbarkeit ist sehr gut."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen unsicheren Stellen bei 'Cassel' resultieren aus der leichten Unschärfe des Druckbildes am Ende des Namens, sind aber im Kontext eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2031,
+    "total_words": 284,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

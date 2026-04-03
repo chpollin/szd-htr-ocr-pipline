@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1407",
+    "title": "Brief an Unbekannt, o. D., SZ-LAS/B4.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1407/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1407/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1407/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1407/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1407/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt, o. D., SZ-LAS/B4.1\n- Signatur: SZ-LAS/B4.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.875991+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VIII. KOCHGASSE\nWIEN,\n\nLieber Freund, gestatten Sie mir\nin aller Herzlichkeit eine Gegen-\nrede zu Ihren Worten über Romain\nRolland. Niemand war in diesem\nKriege gerechter als er, sein Zorn\ngalt der (vom Bureau Wolff verbrei-\nteten) Lüge, Löwen sei „vom Erdboden\nverschwunden“, seine Liebe zu Deutsch-\nland, unentwegt in deren Tagen noch\nbekundet, hat ihn jetzt in Frankreich\nzum verhasstesten Menschen gemacht.\nLange, lange nach dieser Zeit wird erst\ndie ungeheure ~~[...1...]~~ Aufopferung die-\nses moralischen Helden sichtbar wer-\nden: ich darf heute nicht öffentlich\nsie bezeugen, aber meinen Freunden",
+      "notes": "Briefkopf gedruckt. Handschrift in violetter Tinte. Das Wort 'ungeheure' ist durchgestrichen, danach folgt ein unleserliches Wort, das ebenfalls durchgestrichen scheint."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "will ich doch in den Arm fallen, wenn\nsie ihn gegen ihn erheben. Niemand\nhat hier seine herrlichen Essays im\n„Journal de Genève“ gelesen, jeder nur\njenen einen Brief der Anwallung. Ich\nbitte Sie, mir zu glauben und jenen\nNamen immer nur mit höchster Ach-\ntung und Bewunderung zu nennen.\nEine Bitte noch: könnten Sie\nFrau Schnitzler ein paar schöne Verton-\n„nungen“ [?] [?]-chens nennen ausser\nden zwei Brahmsliedern? Sie war so\ngütig, ihre Mithilfe an einem L. Abend\nzu versprechen, den wir jetzt als Re-\nquiem für einen abhalten, der für die-\nsen Krieg zu früh gestorben ist.\nIch würde mich so sehr freuen\nSie einmal mit Ihrer lieben Frau\nbeim Thee zu haben: sagen Sie mir\nselbst, bitte, zwei drei Tage vorher,",
+      "notes": "Die Anführungszeichen bei 'nungen' sind im Original vorhanden. Das Wort 'L.' steht vermutlich für 'Lieder' oder einen Namen."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "wann es Ihnen recht ist oder ich bitte\nnoch einen oder den andern Freund\ndazu. Ich reise jetzt bei Militär, bin\nvorläufig dem Kriegsarchiv zugeteilt\nund habe dort schweren und schönen\nDienst. Aber von 4 Uhr an bin ich\ndoch immer frei.\nGedenken Sie gut Ihres herz-\nlich ergebenen\n\nStefan Zweig\n\n173 STEMR",
+      "notes": "Die Zahl '173' und 'STEMR' am unteren Rand sind vermutlich Archivvermerke."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer bis auf leichte Durchdruckspuren und einen Tintenfleck."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan zeigt den Briefbogen mit aufgelegter Farb- und Grauskala zur Kalibrierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der violetten Tinte und einiger kleinerer Tintenflecken. Die Struktur des Briefes ist klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1618,
+    "total_words": 268,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

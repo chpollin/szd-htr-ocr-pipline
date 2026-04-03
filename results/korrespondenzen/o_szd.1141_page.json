@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1141",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.19",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1141/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1141/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1141/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.19\n- Signatur: SZ-SAM/B10.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.571109+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 16. III. 38\n\nLiebe Frau Meingast!\nIm Auftrag meines Chefs, der wie\nSie sich denken können jetzt nicht zum\nSchreiben kommt danke ich Ihnen viel-\nmals für Ihren freundlichen Brief. Er\nlässt Sie jedoch bitten, in Zukunft\nIhre Nachrichten lieber auf das rein Sach-\nliche zu beschränken, um jede Möglich-\nkeit von Missverständnissen oder Schwie-\nrigkeiten, die ja nur zu leicht bei brief-\nlichen Mitteilungen entstehen, von vorn-\nherein auszuschliessen. Er weiss ja, wie\nherzlich Sie an ihn denken und zweifelt\nnicht einen Augenblick an Ihrer guten Ge-\nsinnung. – Ich bin heute in grosser\nEile und kann deshalb nicht mehr\nschreiben.\nMit den besten Grüssen\nIhre\nLotte Altmann",
+      "notes": "Der Brief ist in einer gut lesbaren, flüssigen Handschrift verfasst. Die Tinte ist dunkel, vermutlich violett oder schwarz."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "A",
+      "notes": "Rückseite des Briefbogens, leer bis auf ein kleines 'A' in der oberen linken Ecke."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Diese Seite enthält lediglich technische Kalibrierungselemente (Farbkarte, Grauskala) für die Digitalisierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist keine unleserlichen Stellen auf. Die Transkription ist vollständig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 682,
+    "total_words": 112,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

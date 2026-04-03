@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1311",
+    "title": "Brief an Ami Kaemmerer vom 10. Oktober 1917, SZ-SHB/B2.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1311/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1311/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Ami Kaemmerer vom 10. Oktober 1917, SZ-SHB/B2.4\n- Signatur: SZ-SHB/B2.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.694474+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wien, am 10. Oktober 1917.\n\n\n\nLieber Herr Doktor!\n\nEs sind Wochen, dass ich Ihren lieben und herzlichen Brief\nerhielt und glauben Sie mir, es war nicht Undankbarkeit, wenn ich bis=\nhermich noch nicht gemeldet habe. Aber ich bin jetzt in einer merkwür=\ndig gespannten und bewegten Zeit. Ich soll zu einer Reihe von Vorträ=\ngen in die Schweiz reisen und da sind soviele Formalitäten bei Militär,\nPolizei und Auswärtigem Amt zu erledigen, dass ich meine Briefe ganz\nvernachlässige und zum Teil auch mein Stück. Doch das geht inzwischen\nrüstig und ruhig seinen Weg. Eine Aufführung in Deutschland ist zwar\njetzt nicht möglich, aber vielleicht wird sich jetzt beim Züricher Be=\nsuch etwas rühren. Das Buch hat bei uns einen merkwürdig starken Er=\nfolg und zwar noch vor aller Kritik, eigentlich nur aus sich selbst\nheraus. In Hamburg ist Grube sehr begeistert und fest entschlo=\nssen, es zu spielen. Die formelle Annahme ist nur jetzt in der Kriegs=\nzeit nicht möglich, weil er sowohl von der Zensur als von dem Mangel\nan Personal und Kostümen eine Verstümmelung der Aufführung zu erwar=\nten hätte. Hier in Wien soll es im grössten Stile mit Dekorationen von\nRoller und mit Ludwig Wüllner als Gast gespielt werden. Es ist leider\njetzt alles so unsäglich schwer, jeder Brief, jede Verabredung eine\nUnsicherheit, aber schliesslich haben wir das Gedulden reichlich ge=\nlernt und ich bin das Warten vom militärischen Dienst her gewöhnt\nHier in Oesterreich ist seit dem energischen Auftreten\nCzernins eine völlige und restlose Einheitlichkeit zwischen Volk, Re=\ngierung und den Intellektuellen. Alle haben wir die grosse Rede mit\nunserem Herzen unterschrieben und ich wünschte Ihnen für Deutschland\nmöglichst bald einen ähnlichen Zustand von Einheitlichkeit des Wollens\nund der Gesinnung. Für uns, die wir doch in einem gewissen Sinn aussen\nstehen, ist es unbegreiflich, wie in einem national so einheitlichen\nStaate in einer solchen Zeit der Gefahr ein so leidenschaftlicher Hass\nder Parteien aufgezüchtet werden konnte und ich glaube, auch da müsste\njeder einzelne verantwortliche Mensch mit dem ganzen Gewichte seiner\nPersönlichkeit tätig sein, um das wahnwitzig Ueberhitzte dieses Kon=\nfliktes zu dämpfen und zu mindern. Freilich, es handelt sich da um\nGrosses, aber die eigentliche Erneuerung wird nicht durch Gesetze\nund Verfassung sondern nur durch den Geist schliesslich hervorgebracht\nwerden und etwas mehr Geduld, etwas mehr Ruhe in diesen Dingen schiene\nmir der grösste Segen. Uns in Oesterreich erwarten ja noch ganz andere,\nweit schwierigere Probleme und vielleicht sind wir nicht in der La=\nge, alle diese Konflikte als so wesentliche zu empfinden, weil sie ja\nfurchtbare und unabweisbare Realitäten sind. Dass auch von gewisser\nSeite versucht wurde, in das Verhältnis zwischen Oesterreich und\nDeutschland einen Antagonismus zu bringen, ist selbstverständlich ein\ngrober Unfug. Hier denkt von den ernsten Menschen kein einziger daran\nund ich möchte nur, dass diese Ueberzeugung auch in Deutschland eine\nlebendige würde.\n./.",
+      "notes": "Der Text ist maschinengeschrieben. Die Zeilenumbrüche wurden beibehalten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ehe ich in die Schweiz fahre, schreibe ich Ihnen noch. Für\nheute nur Ihnen und Ihrer Familie die allerherzlichsten Grüsse.\n\nIhr aufrichtig ergebener\n\nStefan Zweig",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3189,
+    "total_words": 497,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

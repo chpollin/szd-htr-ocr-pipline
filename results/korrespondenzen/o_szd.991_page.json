@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.991",
+    "title": "Brief an Anna Freud vom 4. August 1939, SZ-LAS/B7.48",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.991/IMG.1",
+      "https://gams.uni-graz.at/o:szd.991/IMG.2",
+      "https://gams.uni-graz.at/o:szd.991/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Freud vom 4. August 1939, SZ-LAS/B7.48\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:48.764586+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lansdown Lodge\nLansdown Road\nBath.\n\nBath, 4.August 1939.\n\nLiebes verehrtes Fräulein!\n\nIch las hier in\neiner Zeitung, dass Ihr verehrter Herr Vater\nein paar ungünstige Tage gehabt hätte. Hof-\nfentlich ist jede Gefahr schon vorüber. Ich\nwollte mich eigentlich telephonisch von hier\naus erkundigen, hatte aber Angst, in diesen\nTagen, wo Sie ohnehin sicher viele Anfragen\nhatten, zu stören. Sobald man Ihren Herrn\nVater dann wieder besuchen kann, möchte ich\nsofort kommen und würde auch die Reise nicht\nscheuen.\n\nAlles Gute dem ver-\nehrten Freunde und Ihrer ganzen Familie\n\nvon Ihrem\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Die Unterschrift ist auf dem Scan IMG_1.jpg gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lansdown Lodge\nLansdown Road\nBath.\n\nBath, 4.August 1939.\n\nLiebes verehrtes Fräulein!\n\nIch las hier in\neiner Zeitung, dass Ihr verehrter Herr Vater\nein paar ungünstige Tage gehabt hätte. Hof-\nfentlich ist jede Gefahr schon vorüber. Ich\nwollte mich eigentlich telephonisch von hier\naus erkundigen, hatte aber Angst, in diesen\nTagen, wo Sie ohnehin sicher viele Anfragen\nhatten, zu stören. Sobald man Ihren Herrn\nVater dann wieder besuchen kann, möchte ich\nsofort kommen und würde auch die Reise nicht\nscheuen.\n\nAlles Gute dem ver-\nehrten Freunde und Ihrer ganzen Familie\n\nvon Ihrem\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala/Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1186,
+    "total_words": 186,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

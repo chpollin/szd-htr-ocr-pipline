@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1120",
+    "title": "Postkarte an Max Fleischer vom 17. Juni 1901, SZ-LAS/B3.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1120/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1120/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1120/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 17. Juni 1901, SZ-LAS/B3.4\n- Signatur: SZ-LAS/B3.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:14.248516+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Postkarte.\n\nHerrn Max Fleischer\n\nstud. iur.\n\nKornotau in Böhmen",
+      "notes": "Adressseite der Postkarte. Briefmarke: 5 Heller, Österreichische Post. Poststempel: KOMOTAU 18.6.01."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Freund! Besten Dank für Ihre l. Karte! Wir hat Ihre\ngütige Einladung [?] für Sie\ngesendet, hoffentlich doch ohne\nzur Unan-\nnehmlichkeit?\nWir haben hier\nin Wien ein\nganz Wien\ntage verbracht mit dem großen\nBildmaler E. M. Lilien, ferner Martin Buber, Feiwel, Donath\nes war wirklich sehr nett. für Ihre lieben Bemühungen um\nmein Buch hoffe ich Ihnen bald persönlich danken zu können\nSie kommen doch zur Staatsprüfung nach Wien?! Luthinski\nwird mir diese Tage sehr anerkennen [?] über die Silb. Seite\nauf ein ganz günstiges Politiken [?] erfreuen werde. Herzl. Grüße Ihr",
+      "notes": "Nachrichtenseite der Postkarte. Der Text ist teilweise schwer lesbar, da er über das gedruckte Bildmotiv geschrieben wurde. Einige Wörter sind aufgrund der Handschrift und Überlagerung unsicher."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Freund! Besten Dank für Ihre l. Karte! Wir hat Ihre\ngütige Einladung [?] für Sie\ngesendet, hoffentlich doch ohne\nzur Unan-\nnehmlichkeit?\nWir haben hier\nin Wien ein\nganz Wien\ntage verbracht mit dem großen\nBildmaler E. M. Lilien, ferner Martin Buber, Feiwel, Donath\nes war wirklich sehr nett. für Ihre lieben Bemühungen um\nmein Buch hoffe ich Ihnen bald persönlich danken zu können\nSie kommen doch zur Staatsprüfung nach Wien?! Luthinski\nwird mir diese Tage sehr anerkennen [?] über die Silb. Seite\nauf ein ganz günstiges Politiken [?] erfreuen werde. Herzl. Grüße Ihr",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala-Referenz."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und teilweise über das Bildmotiv geschrieben, was die Lesbarkeit erschwert. Einige Wörter wie 'Einladung', 'anerkennen' und 'Politiken' sind aufgrund der Tintenführung und des Kontextes unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1209,
+    "total_words": 199,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

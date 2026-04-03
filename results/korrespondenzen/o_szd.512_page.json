@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.512",
+    "title": " Unidentified an Stefan Zweig, 1921-08-30, SZ-SAM/AK.221",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.512/IMG.1",
+      "https://gams.uni-graz.at/o:szd.512/IMG.2",
+      "https://gams.uni-graz.at/o:szd.512/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1921-08-30, SZ-SAM/AK.221\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.221\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.306963+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hannover - Alte Häuser am Markt 30.8.21",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Bildmotiv und handschriftlicher Datumsangabe am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5\n\nLieber Freund! Es bedrückt mich\ndass ich mich bei Ihrer verehrten Frau\nGemahlin nicht persönlich für wirk-\nliche Liebenswürdigkeit bedanken konnte -\nzu einem Brief will es viel lange[?]. Ich\nbin bis Hamburg unterwegs, aber be-\nfriedigt, wenn auch gestillt[?] in ein-\nmüde. Anfang Sept. bin ich daheim\nund bringe viel Arbeitseifer mit.\nHerzlichst Ihr\n\nR. Midmann grüßt sie herzlichst.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarken und Poststempel vorhanden. Der Text am unteren Rand ist quer zum Haupttext geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5\n\nLieber Freund! Es bedrückt mich\ndass ich mich bei Ihrer verehrten Frau\nGemahlin nicht persönlich für wirk-\nliche Liebenswürdigkeit bedanken konnte -\nzu einem Brief will es viel lange[?]. Ich\nbin bis Hamburg unterwegs, aber be-\nfriedigt, wenn auch gestillt[?] in ein-\nmüde. Anfang Sept. bin ich daheim\nund bringe viel Arbeitseifer mit.\nHerzlichst Ihr\n\nR. Midmann grüßt sie herzlichst.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Wörter 'lange' und 'gestillt' sind unsicher interpretiert. Der Text am unteren Rand der Postkarte ist in einer anderen Ausrichtung geschrieben und teilweise überlagert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 895,
+    "total_words": 139,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

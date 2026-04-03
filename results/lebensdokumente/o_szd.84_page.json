@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.84",
+    "title": "Vereinbarung Editorial Atenea",
+    "language": "fr",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.7",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.84/IMG.1",
+      "https://gams.uni-graz.at/o:szd.84/IMG.2",
+      "https://gams.uni-graz.at/o:szd.84/IMG.3"
+    ],
+    "date": "28/10/1934",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Santa Agata, 18 (Gracia) | Barcelona",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette und schwarze Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "28x22 cm"
+      },
+      "notes": "Briefliche Vereinbarung mit eigenhändiger Aufschrift „12 Pfund für Katalanisch Ubersetzung Marie Antoinet und Fouche erhalten“ in violetter Tinte, violetter Stempel „Editorial Atenea p. p.\" und Unterschrift von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vereinbarung Editorial Atenea\n- Signatur: SZ-AAP/L13.7\n- Datum: 28/10/1934\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, violette und schwarze Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Briefliche Vereinbarung mit eigenhändiger Aufschrift „12 Pfund für Katalanisch Ubersetzung Marie Antoinet und Fouche erhalten“ in violetter Tinte, violetter Stempel „Editorial Atenea p. p.\" und Unterschrift von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:46.966919+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "EDITORIAL ATENEA\nSANTA AGATA, 18 (Gracia)\nBARCELONA\n\n                                   28/10/1934\n\nMonsieur Stefan Zweig\n          11, Portland Place\n                    Londres, W.1\n\n\nCher Monsieur:\n          J'ai dûment reçu votre lettre 24 ct.\net, d'accord avec les termes de vos conditions, j'ai l'honneur de vous faire remise par mandat de poste, a votre adresse a Londres, comme règlement des droits de version et publication en catalan de vos ouvrages \"Marie-Antoinette\" et\n\"Fouché\", la somme de £ 12-10-0, equivalence de\nFrancs 960 (neufcent soixante), de laquelle je vous prie de\nm'accuser reception.\n          Ci-joint vous trouverez un certificat d'autorisation\nque, a supposer qu'il soit de votre conformité, je vous prie\nde me rendre dûment signé. Au cas contraire, veuillez rediger vous même le texte de votre concession.\n          Je puis vous informer que notre maison est constituée definitivement et qu'elle travaillera sous le nom de\nEDITORIAL ATENEA, a Barcelone.\n          En attente de vos nouvelles, je reste, cher Monsieur, votre devoué serviteur.\n                                   Editorial Atenea\n                                   p. p. [Unterschrift]\n\n\nP.S. Lors de la parution desdits ouvrages en catalan, nous\nnous empresserons a vous en remettre une copie.",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Unterschrift). Rechts oben handschriftliche Notiz in violetter Tinte: '12 Pfund für katalanisch Ubersetzung Marie Antoinet und Fouche erhalten'. Die Unterschrift ist unleserlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz rechts oben wurde transkribiert, die Unterschrift als [Unterschrift] markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1289,
+    "total_words": 173,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

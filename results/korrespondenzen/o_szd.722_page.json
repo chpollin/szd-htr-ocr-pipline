@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.722",
+    "title": "Brief an Stefan Zweig vom 12. November 1937, SZ-AAP/B1.130",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.722/IMG.1",
+      "https://gams.uni-graz.at/o:szd.722/IMG.2",
+      "https://gams.uni-graz.at/o:szd.722/IMG.3",
+      "https://gams.uni-graz.at/o:szd.722/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. November 1937, SZ-AAP/B1.130\n- Signatur: SZ-AAP/B1.130\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:26.061656+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig, Esq.\n49.Hallam Street\nLondon,W.1\nENGLAND\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef.\nIhr Schreiben vom 8.November 1937\n12.November 1937 /F\nSehr verehrter Herr Dr.Zweig:\nWir danken bestens für Ihr obiges Schreiben und freuen uns, dass Ihnen\ndie \"Begegnungen\" so gut gefallen.Dass dieser Eindruck überall dersel-\nbe ist,bestätigen die zahlreichen Nachbestellungen und wir hoffen,dass\nder nun in ein paar Tagen erscheinende \"Magellan\" zusammen mit den\n\"Begegnungen\" wirkliche Best-Seller werden.\nDie beanstandete Rechnung für die {gebundenen Drucke} des \"Magellan\" ist\neinem der früheren Briefe beigelegen.Damit Sie sich aber überzeugen,\ndass die Sache vollkommen in Ordnung geht,legen wir hier die Original-\nRechnung von Rohrer,datiert vom 30.September 1937,bei und bitten Sie,\nsie uns umgehend zurückzuschicken,da wir sie zur Buchung brauchen.\nDie von Rohrer separat berechneten Abzüge beziehen sich auf die von\nIhnen ausdrücklich bestellten Vorexemplare,von denen der grösste Teil\nan Sie selbst und einige andere Ihre Uebersetzer und ausländische\nVerleger geliefert wurden.Wohlgemerkt handelt es sich also nicht um die\nendgültige Auflage,sondern um die Exemplare,die nach dem ersten Umbruch\nund vor der zweiten Korrektur hergestellt wurden.Wir bitten Sie also,\ndiesen Posten anzuerkennen.\nDie gewünschte Ueberweisung erfolgt nach London.\nDie Magellan-Exemplare werden am 15.November pünktlich an Sie abgehen.",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Handschriftliche Einfügung 'gebundenen Drucke' über der Zeile."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef.\nDas Buch ist grossartig ausgefallen und wird Ihnen sehr viel\nFreude machen.\nMit den besten Grüssen sind wir\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Handschriftliche Unterschrift (unleserlich, vermutlich Reichner)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Einfügung auf Seite 1 ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2276,
+    "total_words": 310,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1726",
+    "title": "Brief an Anna Meingast vom 5. März 1937, SZ-SAM/B7.93",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1726/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1726/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 5. März 1937, SZ-SAM/B7.93\n- Signatur: SZ-SAM/B7.93\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.127623+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 5.März 1937.\n\nLiebe Frau Meingast!\n\nVielen Dank für Ihre Nach-\nsendung des Leopardi. Ein Zeugnis für Johann\nsende ich anbei. Es ist mir doch recht nahe ge-\ngangen, ihn fort zu wissen. Hätte man meine\nWünsche befolgt, das Haus schon vor drei Jahren\naufzugeben, in Salzburg oder anderswo ein klei-\nneres zu nehmen, das den Bedürfnissen angepass-\nter ist nun, nachdem ich wegbin, so wäre dies\nalles vermieden worden. Aber es ist ja leider\nalles immer gegen meinen ausdrücklichen Willen\ngeschehen und für niemanden zum Gewinn.-Ich\nglaube schon, dass ich Ihnen bald etwas schicken\nkann, es ist jetzt viel an Arbeit zu tun.\n\nMit herzlichen Grüssen\n\nIhr\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift von Stefan Zweig."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 671,
+    "total_words": 111,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

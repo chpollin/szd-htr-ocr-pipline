@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1222",
+    "title": "Brief an Anna Meingast vom 4. Januar 1935, SZ-SAM/B7.52",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1222/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1222/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 4. Januar 1935, SZ-SAM/B7.52\n- Signatur: SZ-SAM/B7.52\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.047122+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Westminster                                Nizza, den 4.Januar 1935.\n\nLiebe Frau Meingast!\n\nVor allem erinnere ich daran, dass ich am 10. mit dem Conte\ndi Savoia nach New York fahre. Drüben ist meine Adresse selbst-\nverständlich die Viking Press, New York, 18 East, 48th Street.\nDa ich aber noch nicht gewiss bin, so lange drüben zu bleiben,\nbis Post mir nachkommen kann, bringe ich für alle Fälle in Er-\ninnerung, dass die Telegrammadresse Vikpress New York lautet\nund wichtigere Dinge allenfalls per Nachtbrief (nightletter)\nhinübertelegraphiert werden können. Im allgemeinen geben Sie\nbei allen Briefen jetzt Auskunft, dass ich zur Zeit in Amerika\nbin und eine Beantwortung vor längerer Frist nicht zu erwarten\nist.\n\nEin Exemplar des Erasmus wollen Sie freundlichst senden an\nProfessor Dr. Eugen Wolbe, Berlin N.W.21, Dortmunderstr.11. Und\nwenn ich es noch nicht geschrieben habe, ein Exemplar an Dr. H~~amb~~[?]\nGoetzfried bei Professor Lob, La Margolaine, Avenue Primrose, Nice.\nDen Brief an die Kultusgemeinde lege ich bei und ich bitte {sende ich selbst}\nnur gleichwertig[?] \nSie, dann den Betrag per Postsparkasse einzuzahlen.\n\nIch möchte Sie noch informieren, damit Sie ungefähr wissen,\nwas vorgeht. Herr Reichner hat unglückseligerweise (das sage ich\nIhnen privat) in seiner Kleinlichkeit eine Reihe von Wünschen {wenn ich ihm meine Bücher gebe}\nnicht erfüllt, die ich an ihn als Bedingung stellte, so unter an-\nderm, dass er Herrn Fuchs, der jetzt postenlos ist, in den Verlag\naufnimmt. Ich habe darum alles gestoppt, solange er nicht restlos",
+      "notes": "Der Text enthält mehrere handschriftliche Einfügungen in violetter Tinte. Die Zeile 'nur gleichwertig' ist durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "die Bedingungen erfüllt und wahrscheinlich kann das Buch erst im\nHerbst erscheinen. Ich werde Sie also bitten, weiteres Manuskript\nnur auszufolgen, wenn ich Ihnen dazu telegraphische Order gegeben\nhabe.\n\nZum zweiten möchte ich Sie informieren, dass ich jetzt in\nziemlich aussichtsreichen Verhandlungen bin, Maria Stuart für Vor-\nabdrucke, Uebersetzungen, soweit sie noch nicht vergeben sind und\nüberhaupt alle Vertriebsangelegenheiten einem sehr grossen und {damit all das von mir abfällt}\ntüchtigen Agenten zu übergeben. Ich bitte also alle Anfragen auf\nMaria Stuart zunächst dahin zu beantworten, dass eine Entscheidung\nvorerst nicht getroffen werden kann.\n\nMit besten Grüssen Ihr\n\nStefan[?]\n\nIhre Gehalt lauft natürlich voll weiter, solange noch so\nviel zu tun ist. Wir besprechen dann alles in Februar durch,\nich sehe noch nicht was weiter geschieht\n\nHerr Relgis habe ich, bitte eintragen, Autorisation für\nLesung durch den Geist erteilt",
+      "notes": "Die Unterschrift 'Stefan' ist handschriftlich. Der untere Teil des Briefes ist ebenfalls handschriftlich ergänzt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist weitgehend maschinenschriftlich und sehr gut lesbar. Die handschriftlichen Ergänzungen sind in der für Stefan Zweig typischen Handschrift verfasst und weitgehend entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2500,
+    "total_words": 376,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

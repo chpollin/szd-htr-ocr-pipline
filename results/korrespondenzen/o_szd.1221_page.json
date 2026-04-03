@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1221",
+    "title": "Brief an Anna Meingast vom 2. Januar 1935, SZ-SAM/B7.51",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1221/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1221/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 2. Januar 1935, SZ-SAM/B7.51\n- Signatur: SZ-SAM/B7.51\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.952790+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Westminster                                Nizza, den 2.Januar 1935.\n\nLiebe Frau Meingast!\n\nHeute ging die Einleitung ab und Kapitel XIII. Kapitel XIV\nund XV folgen sehr bald und wahrscheinlich auch die endgültige\nFassung der letzten Kapitel, die ich zuerst mache. Ich muss jetzt\nin diesen sechs Tagen wirklich zaubern, um fertig zu werden.\nIch gebe Ihnen dann noch Aufträge, ob Sie das weitere end-\ngültige Manuskript an Herrn Reichner senden sollen, weil noch nicht\nalles mit ihm in Ordnung gebracht ist.\nDas Pirandellostück haben Sie hoffentlich gesandt.\nAlles Gute und viele Grüsse auch an Ihren Sohn von\n                                          Ihrem aufrichtig ergebenen\n\n                                          Stefan Zweig\n\nGleichzeitig möchte ich Sie bitten, per Postanweisung die bei-\nliegende Rechnung zu bezahlen.",
+      "notes": "Der Brief ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "[...unleserlich...]\n\n[...unleserlich...]",
+      "notes": "Die Rückseite des Briefes enthält handschriftliche Notizen in violetter Tinte, die jedoch stark durchgestrichen und in einer sehr flüchtigen Kursivschrift verfasst sind, wodurch sie weitgehend unleserlich bleiben."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Transkription der ersten Seite ist aufgrund der klaren Maschinenschrift sehr sicher. Die zweite Seite ist aufgrund der starken Durchstreichungen und der flüchtigen Handschrift als unleserlich einzustufen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 874,
+    "total_words": 114,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

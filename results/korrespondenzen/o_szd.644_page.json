@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.644",
+    "title": "Else Graf an Stefan Zweig, 1927-07-26, SZ-SAM/AK.73",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.644/IMG.1",
+      "https://gams.uni-graz.at/o:szd.644/IMG.2",
+      "https://gams.uni-graz.at/o:szd.644/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Else Graf an Stefan Zweig, 1927-07-26, SZ-SAM/AK.73\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.73\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.220452+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SAN PAOLO, 6.7.27\n\n45 BRASIL SÃO PAULO AVENIDA SÃO JOÃO",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlicher Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg, 5\n(Austria)\n\nS. Paulo, 26-7-27\nVerehrter Herr Zweig,\nbin etwas besorgt, wegen\nder letzten Ereignisse in Wien.\nSie haben doch hoffentlich nichts\ndavon gespürt?\nSeien Sie herzlichst gegrüßt\nvon Ihrer Else Graf.\nRua Bella Cintra 521 - São Paulo - Brasil",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Ein violetter Poststempel ist oben links erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\nSalzburg\nKapuzinerberg, 5\n(Austria)\n\nS. Paulo, 26-7-27\nVerehrter Herr Zweig,\nbin etwas besorgt, wegen\nder letzten Ereignisse in Wien.\nSie haben doch hoffentlich nichts\ndavon gespürt?\nSeien Sie herzlichst gegrüßt\nvon Ihrer Else Graf.\nRua Bella Cintra 521 - São Paulo - Brasil",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar und eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 641,
+    "total_words": 102,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

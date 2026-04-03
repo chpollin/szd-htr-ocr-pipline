@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.815",
+    "title": "Brief an Stefan Zweig vom 18. Mai 1937, SZ-AAP/B1.34",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.815/IMG.1",
+      "https://gams.uni-graz.at/o:szd.815/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 18. Mai 1937, SZ-AAP/B1.34\n- Signatur: SZ-AAP/B1.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:34.255031+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\n● Wunderlich 18.Mai 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir erhielten den hier beiliegenden Brief von Frau Dr.Eva C.Wunderlich,\nBennington College,Bennington,Vermont,U.S.A.\nWir bitten Sie,Frau Dr.Wunderlich direkt zu antworten oder aber uns\nmit der Antwort zu beauftragen,in welchem Falle wir Sie um Ihre freund-\nliche Entscheidung bitten.\nWir danken Ihnen im voraus bestens und sind Sie begrüssend\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/schwarz), jedoch nicht vollständig lesbar (evtl. ein Kürzel). Die roten Unterstreichungen im Original wurden als Text transkribiert, da sie keine inhaltliche Änderung darstellen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Es ist ein Durchscheinen des Textes der Vorderseite erkennbar, jedoch kein eigenständiger Text. Unten links befindet sich ein schwacher, unleserlicher handschriftlicher Vermerk (evtl. ein Archivvermerk oder eine Notiz)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift auf Seite 1 ist ein unleserliches Kürzel, was jedoch für Geschäftskorrespondenz dieser Art typisch ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 575,
+    "total_words": 77,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

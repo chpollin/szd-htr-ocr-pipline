@@ -1,0 +1,107 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.112",
+    "title": "Agreement Werner Söderström",
+    "language": "en",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.35",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.112/IMG.1",
+      "https://gams.uni-graz.at/o:szd.112/IMG.2",
+      "https://gams.uni-graz.at/o:szd.112/IMG.3"
+    ],
+    "date": "30 October, 1939",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Bath (England)",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze und violette Tinte, Bleistift",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "Lotte Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "23x18 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt!!“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Agreement Werner Söderström\n- Signatur: SZ-AAP/L13.35\n- Datum: 30 October, 1939\n- Sprache: Englisch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte, Bleistift\n- Hand: Stefan Zweig, Lotte Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt!!“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:43.632094+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "A g r e e m e n t\n\nThe following agreement has been made between\nStefan ZWEIG, Lyncombe Hill, BATH (England)\nand the publishing house Werner Söderström, Osakeyhtiö,\nHelsinki, Finland; regarding the publication in\nFinnish language of Stefan Zweig's novel\n\nBEWARE OF PITY (Ungeduld des Herzens)\n\n1. The publishers Werner Söderström Osakeyhtiö agree\nto publish the novel in Finnish language and to\npay the author, Stefan Zweig, the sum of\n\n£ 10 (ten pounds)\n\nfor each thousand copies sold.\n\n2. At the signature of this agreement the publishers\npay the author the sum of £ 20 (twenty pounds)\nas an advance on the agreed royalty of £ 10 per\neach thousand copies sold.\n\n3. On publication of the book in Finnish language\nthe author receives two copies free of charge.\n\n4. Should the book not be published in Finnish\nlanguage by January 1st, 1942, the author has\nthe right to revoke this agreement.\n\nStefan Zweig                                Werner Söderström Osakeyhtiö\n                                            [Unterschrift][?]\nBath (England), October 31st, 1939          Helsinki,\n\nbezahlt!!",
+      "notes": "Das Dokument ist ein Typoskript mit handschriftlichen Ergänzungen. Die Unterschrift von Stefan Zweig ist in violetter Tinte ausgeführt. Die Notiz 'bezahlt!!' am unteren Rand ist in Bleistift geschrieben. Die Unterschrift des Verlagsvertreters ist schwer lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments mit Farb- und Grauskala zur Kalibrierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, lediglich die Unterschrift des Verlagsvertreters ist aufgrund der Handschrift und der Qualität des Durchschlags nicht eindeutig zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1091,
+    "total_words": 167,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

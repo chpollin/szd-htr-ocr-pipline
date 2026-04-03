@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1113",
+    "title": "Postkarte an Max und Victor Fleischer vom 22. Dezember 1902, SZ-LAS/B3.33",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1113/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1113/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1113/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max und Victor Fleischer vom 22. Dezember 1902, SZ-LAS/B3.33\n- Signatur: SZ-LAS/B3.33\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.797933+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte.\n\nAn Herren\nMax und Victor Fleischer\nVictor und Max Fleischer\nin Komotau in Böhmen\nPostlagernd",
+      "notes": "Adressseite der Postkarte. Der Name 'Victor und Max Fleischer' ist unter 'Max und Victor Fleischer' handschriftlich eingefügt. Poststempel: 'WIEN 1 22.12.02'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebwerthes Brüderpaar, theure Freunde,\nda Ihr Euch mit so viel Eifer müßt, Euch\nin der Faulheit des Schreibens zu übertreffen,\nadelgeborne Volksgenossen, hört die Botschaft,\nso Euch zu bringen hat Stefan, der öfter Silberwort\nKarten und Briefe zahlloser Riesenhausbewahrer:\nIn der Nacht vom 26 zum 27 wird ein Glanz sich ab-\nKehren von Wien und verkehren zu Berlin in das\nHaus Ephra's des Libenzeichners und Fritzen des Hüters.\nAber er wird wieder kehren in die Stadt der Libanonia,\nKommen des 3 Januar sich erfüllen. Dies ist noch auch so\nsicher, wie die Tatsache, dass Ihr von Gott mit Faulheit ge-\nlassen seid bis ins letzte Glied, aber doch der Wahrheit sehr nah.",
+      "notes": "Textseite der Postkarte. Am linken Rand vertikal geschrieben: 'Es grüßt der Schreiber des Reifens'. Der Text ist in violett-brauner Tinte verfasst."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Liebwerthes Brüderpaar, theure Freunde,\nda Ihr Euch mit so viel Eifer müßt, Euch\nin der Faulheit des Schreibens zu übertreffen,\nadelgeborne Volksgenossen, hört die Botschaft,\nso Euch zu bringen hat Stefan, der öfter Silberwort\nKarten und Briefe zahlloser Riesenhausbewahrer:\nIn der Nacht vom 26 zum 27 wird ein Glanz sich ab-\nKehren von Wien und verkehren zu Berlin in das\nHaus Ephra's des Libenzeichners und Fritzen des Hüters.\nAber er wird wieder kehren in die Stadt der Libanonia,\nKommen des 3 Januar sich erfüllen. Dies ist noch auch so\nsicher, wie die Tatsache, dass Ihr von Gott mit Faulheit ge-\nlassen seid bis ins letzte Glied, aber doch der Wahrheit sehr nah.",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala-Referenz."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger eigenwilliger Formulierungen (z.B. 'Libanonia', 'Libenzeichners').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1450,
+    "total_words": 240,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

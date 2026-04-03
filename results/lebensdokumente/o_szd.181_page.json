@@ -1,0 +1,86 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.181",
+    "title": "Heimat-Schein",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AP2/L-S7.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.181/IMG.1",
+      "https://gams.uni-graz.at/o:szd.181/IMG.2"
+    ],
+    "date": "26.04.1919",
+    "document_type": "form",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "origin_place": "Wien",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs 2002"
+      ]
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Heimat-Schein\n- Signatur: SZ-AP2/L-S7.1\n- Datum: 26.04.1919\n- Sprache: Deutsch\n- Objekttyp: Nachweis\n- Umfang: 1 Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.620064+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Selbständiger Wirkungskreis.\nNieder-Oesterreich. Nr. 15/1919\nWien.\nHeimat-Schein,\nwomit bestätiget wird, daß\nName: Dr Stefan Zweig\nCharakter oder Beschäftigung Schriftsteller\nAlter 28. November 1881 Wien\nStand ledig\nin Wien das Heimatrecht besitzt und in der Gemeinde-Matrik\n1857 Stadt 648/8 eingetragen erscheint.\nEigenhändige Unterschrift der Partei: Stefan Zweig\nVon dem magistratischen Bezirks-Amte für den 8 Bezirk.\nWien, den 26. IV. 1919\nFür den Bürgermeister:\n[Unterschrift unleserlich]\n[Stempel/Siegel]",
+      "notes": "Das Dokument enthält eine Steuermarke (2 Kronen, 1910). Die Unterschrift des Bürgermeisters/Beamten ist schwer leserlich. Am unteren Rand befinden sich zwei unleserliche Stempel/Siegel."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "20. Juni 1933\n[Stempel: Bundespolizeidirektion Wien]",
+      "notes": "Rückseite des Dokuments. Enthält einen violetten Stempel der Bundespolizeidirektion Wien mit Datum vom 20. Juni 1933."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar. Die Stempel auf der Rückseite sind klar als 'Bundespolizeidirektion' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 562,
+    "total_words": 71,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 3,
+    "estimated_accuracy": 0.985,
+    "edited_pages": [],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
+  }
+}

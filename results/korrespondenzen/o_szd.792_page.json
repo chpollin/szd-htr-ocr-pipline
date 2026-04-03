@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.792",
+    "title": "Brief an Herbert Reichner vom 25. März 1938, SZ-AAP/B1.194",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.792/IMG.1",
+      "https://gams.uni-graz.at/o:szd.792/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 25. März 1938, SZ-AAP/B1.194\n- Signatur: SZ-AAP/B1.194\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:32.330431+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "25.März 1938.\n\nHerrn Herbert Reichner,\np.A. Dr. W. Stauffacher,\nSt. Peterstrasse 18,\nZürich.\n\nSehr geehrter Herr Reichner!\n\nDer Ordnung halber teile ich Ihnen mit, dass\nder Kittl-Verlag in Mährisch Ostrau gerne mit Ihnen zu-\nsammenarbeiten, respektive übernehmen würde. Vielleicht\nist das eine Möglichkeit, auf diesem Wege beschlagnahmte\nExemplare zu retten, indem man als Tschechoslowaken ihm\n~~die~~ {unsere} Rechte gemeinsam überträgt. Vielleicht setzen Sie\nsich mit ihm in Verbindung.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+      "notes": "Typoskript mit handschriftlicher Korrektur (Einfügung 'unsere' über dem durchgestrichenen 'die')."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Korrektur ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 536,
+    "total_words": 75,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

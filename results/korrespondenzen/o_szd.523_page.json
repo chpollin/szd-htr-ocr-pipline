@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.523",
+    "title": " Unidentified an Stefan Zweig, 1907-06-26, SZ-SAM/AK.231",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.523/IMG.1",
+      "https://gams.uni-graz.at/o:szd.523/IMG.2",
+      "https://gams.uni-graz.at/o:szd.523/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1907-06-26, SZ-SAM/AK.231\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.231\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.984756+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "26/6\n1907\nTravail. En tout cas, envoyez moi\ndeux mots. Tout à vous. Votre\n84 – LILLE – Statue de Napoléon – Intérieur de la Bourse\n39 Bouly. Victor Hugs.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten, handschriftliche Notizen in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Allemagne!\nCARTE POSTALE\n\nCorrespondance\nCher Monsieur Zweig\nJe m'étonne beaucoup\nde ne pas recevoir de réponse\nà mes lettres diverses. Seriez\nvous donc souffrant? ou m'\nen voudriez vous? Je ne sais\nrien qui m'ait mérité votre\ncolère?... J'espère encore que\ndès que vous aurez un instant\nlibre, vous voudrez bien me\nrépondre, et aider ainsi à mon\n\nAdresse\nHerr Dr. Stefan Zweig\nin Wien (Vienne) VIII\n8 Kochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke oben rechts, Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farb- und Grauskala für Archivierung. In der Mitte die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die französische Sprache wurde korrekt erfasst.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 566,
+    "total_words": 100,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

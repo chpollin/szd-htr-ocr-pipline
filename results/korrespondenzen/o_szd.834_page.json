@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.834",
+    "title": "Brief an Herbert Reichner vom 5. Juni 1937, SZ-AAP/B1.51",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.834/IMG.1",
+      "https://gams.uni-graz.at/o:szd.834/IMG.2",
+      "https://gams.uni-graz.at/o:szd.834/IMG.3",
+      "https://gams.uni-graz.at/o:szd.834/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 5. Juni 1937, SZ-AAP/B1.51\n- Signatur: SZ-AAP/B1.51\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:35.991234+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "5.Juni 1937.\n\nGeehrter Herr Reichner!\n\nDank für den Mercator. Aber er ist nicht die\ngeeignete Karte für den Umschlag. Wir nehmen lieber eine\nspätere in Kupferstich, die für den Leser einfacher und\nübersichtlicher ist. Wir haben inzwischen alles zusammen-\ngestellt. Ich erwarte Bagrows Liste spätestens Montag,\nlasse sie dann in mehreren Exemplaren abschreiben und sen-\nde Ihnen ein oder zwei zu. Vielleicht fragen Sie dann\ngleich nach, welche der genannten Stücke in Wien repro-\nduzierbar sind, damit Sie an Kosten sparen. Denn alles\nPhotographische ist hier bedeutend teurer und ich wäre\ndafür, dass wir es beschränken auf ganz wenige Aufnah-\nmen, die nur hier und in der Ambrosiana in Mailand ge-\nmacht werden können.",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "vielleicht fünfzig oder hundert Exemplare, bei denen\nwir die Karte Kaiser Karls und ein paar andere Stücke\nmit der Hand kolorieren lassen, eine Vorzugsausgabe,\ndie ein besonderes Plus enthält, sodass sie von Biblio-\ntheken und geografischen Gesellschaften der ganzen Welt\ngekauft werden muss. Vielleicht ist das ratsamer, als\nzwei Ausgaben zu machen, aber ich überlasse das ganz\nIhnen. In ein paar Tagen haben Sie das Material. In-\nzwischen ist Ende Juni Huebsch hier und mit Cassell ist\nauch sehr leicht zu arbeiten. Wenn Sie also an den\nIllustrationen von diesen auswärtigen Verlegern verdie-\nnen, so wäre es vielleicht möglich, dass herrlich aus-\ngestattete Buch zu diesem Preise von acht Mark zu brin-\ngen und es damit zum idealen Geschenkbuch zu machen, das\nfür seine Ausstattung staunenswert billig ist.\nInzwischen haben Sie hoffentlich die\nFahnen zu den \"Begegnungen\" schon flattern lassen. Ich\nerledige dann die Fahnenkorrekturen noch im Juli, über-\ngebe Ihnen Ende Juli auch das vollkommen endgültige\nManuskript, das ich besonders genau durcharbeite, um\nin Ihrem Interesse die Korrekturen sehr zu beschränken.\nIch möchte alles tun, dass wir bei diesem Buche durch",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2)\n\ndiese Kombination etwas Staunenswertes an Ausstattung\nund Preis leisten. Teilen Sie mit bitte auch rechtzei-\ntig Ihre Pläne mit, wann und wo Sie erreichbar sind.\nIch möchte es wegen Huebsch wissen, von dem ich noch\nnicht weiss, ob er zuerst nach London oder nach Paris\nfährt und der Sie doch auch in Oesterreich dann gern\nsprechen möchte.\n\nMit den besten Empfehlungen\n\nDer Mercator geht gleichzeitig als Drucksache zurück.\n\nWegen der Dispositionen der Abrechnung schreibe ich in\nden nächsten Tagen.",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2393,
+    "total_words": 376,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

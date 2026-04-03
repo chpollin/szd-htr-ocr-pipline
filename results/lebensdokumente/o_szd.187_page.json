@@ -1,0 +1,73 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.187",
+    "title": "Mitteilung des britischen Home Office",
+    "language": "en",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AP2/L-S7.2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.187/IMG.1"
+    ],
+    "date": "1934 June 29",
+    "document_type": "form",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs 2002"
+      ],
+      "notes": "Mitteilung des Home Office, Whitehall, bezüglich des Aufenthalts von Stefan Zweig in Großbritannien"
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Mitteilung des britischen Home Office\n- Signatur: SZ-AP2/L-S7.2\n- Datum: 1934 June 29\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 1 Blatt\n- Anmerkungen: Mitteilung des Home Office, Whitehall, bezüglich des Aufenthalts von Stefan Zweig in Großbritannien"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.829386+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Any communication on the\nsubject of this letter should be\naddressed to—\nTHE UNDER SECRETARY OF STATE,\nALIENS DEPARTMENT,\nHOME OFFICE,\nLONDON, S.W.I.\nand the following number quoted:—\nZ. 33.\n\n                                     A 2 / 6   Z 33 1\n\n                                     HOME OFFICE,\n                                     WHITEHALL.\n\n                                     29th June, 1934.\n\nWith reference to the application made on your\nbehalf by Mr. E. H. Carr; I am directed by the Secretary of\nState to say that he does not desire to raise objection to\nyour prolonging your stay in this country provided that you\ndo not take employment.\n\n                                     I am,\n\n                                     Sir,\n\n                                     Your obedient Servant,\n\n                                     J. Hounes[?]\n\n\nMr. S. Zweig,\n11, Portland Place,\nW.1.",
+      "notes": "Das Dokument enthält einen Stempel 'NATIONAL SCHEME FOR DISABLED MEN'. Die handschriftliche Signatur des Absenders ist schwer lesbar, vermutlich 'J. Hounes' oder ähnlich. Die roten handschriftlichen Notizen 'A 2/6' und 'Z 33 1' befinden sich im oberen rechten Bereich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftliche Signatur ist die einzige unsichere Stelle.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 889,
+    "total_words": 105,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

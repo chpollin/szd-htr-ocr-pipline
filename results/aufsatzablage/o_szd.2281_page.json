@@ -1,0 +1,100 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2281",
+    "title": "Schnitzler, der Oesterreicher.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA180.3",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2281/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2281/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2281/IMG.3"
+    ],
+    "date": "22.10.31",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Wien",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Wien"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "N. Wr.\n                                 Journal"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Schnitzler, der Oesterreicher.\n- Signatur: SZ-AAP/W-AA180.3\n- Datum: 22.10.31\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:01.897211+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "N. Wr. Yournal\n22. 10. 31\nNr. 24104 Wien, Donnerstag\n\nSchnitzler, der Oesterreicher.\nVon Stefan Zweig.\n\nWas Arthur Schnitzler als Dichter und Darsteller\nunserer österreichischen Welt bedeutet, weiß man in allen\nSprachen Europas und Amerikas. Und mehr noch: Fast\nalles, was diese Länder von unserer Kultur, von der durch\nbesondere Mischung und Geschick bedingten Lebensart Oester-\nreichs wissen, das wissen sie durch ihn und durch ihn allein.\nDiesem klaren und wahren Zeugen hat seine Heimat das\nAußerordentliche zu danken, daß ein Oesterreich, welches\nin seiner weltpolitischen Macht längst vergangen und in\nseiner geistigen Lebensgefährlich bedroht ist, dennoch un-\nbeirrt und unverändert von der Gegenwart und Ge-\nschichte als ein Lebendiges weiterlebt. Denn alle Ele-\nmente unserer gemischten und eben durch Vermischung\neigenartigen Nation waren in seinem weiträumigen\nWerke lebenswirklich vertreten, die alte, die neue Zeit und\nIhr Uebergang, Adel und Bürgertum, die Stadt und das\nLand, das Sterben und doch nicht Sterbenwollen unserer\nKultur, der innere Glaube des Oesterreichers und sein skep-\ntisches Nichtanschlaubenwollen, seine Melancholie und seine\nIronie, all dieses merkwürdig und einmalig Verbundene, das\nkeine Formel ausdrücken kann, und daß nur anschaulich wird\ndurch wahrhaft gesehene Gestalten eines Dichters.\n\nSolcher Gestalten hat Schnitzler unzählige geschaffen, ein\nganzes Volk, eine ganze Welt, ein ganzes und wirkliches\nOesterreich steht unvergänglich in seinem Werke. Vielleicht\nnur eine Gestalt, die beliebteste, die bedeutendste ist nicht\nganz deutlich geworden, er selbst, denn selbst hat der allzu\nBescheidene nie beschrieben und dargestellt, sondern ist still\nund ehrfürchtig hinter dem Bildnis seiner Zeit und seiner\nWelt zurückgetreten. Aber wer ihn näher kennen durfte in\nder gütigen Gerechtigkeit seines Herzens, in der klaren\nGerechtigkeit seines Geistes, immer ebenmäßig in seiner\nGüte, die zu edel war, um jemals ostentativ zu werden, wer\nihn kannte, mit scharfem Blicke aufnehmend, mit weicher\nSeele teilnehmend, nur weiß, aus welcher inneren Fülle\njenes außerordentliche Wissen um seine Zeit, um seine Welt\nentstanden war.\n\nAllen verbunden, wußte er doch innerlich frei zu bleiben,\nund niemandem verpflichtet als seiner eigenen Pflicht zeigte\ner uns Jüngeren ein Vorbild exemplarischen Lebens und\nreinen Dichtertums. Nicht das alte Oesterreich und nicht das\nneue, nicht das Kaisertum und nicht die Republik haben\nihn um dieser herrlichen Unabhängigkeit willen mit Orden\nund Auszeichnungen beschwert, Nulla crux, nulla corona,\nkein Kreuz und keine Krone schmücken diesen teuren Sarg.\nUnd doch birgt diese tragische Hülle den repräsentativen\nDichter Oesterreichs, einen unvergeßlichen Meister und\nunseren geliebtesten Führer.",
+      "notes": "Handschriftliche Annotationen oben: 'N. Wr. Yournal' (violette Tinte), '22. 10. 31' (Bleistift). Der Text ist ein Zeitungsausschnitt in Frakturschrift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "N. Wr. Yournal\n22. 10. 31\nNr. 24104 Wien, Donnerstag\n\n[...]\nganz deutlich geworden, er selbst, denn selbst hat der allzu\nBescheidene nie beschrieben und dargestellt, sondern ist still\nund ehrfürchtig hinter dem Bildnis seiner Zeit und seiner\nWelt zurückgetreten. Aber wer ihn näher kennen durfte in\nder gütigen Gerechtigkeit seines Herzens, in der klaren\nGerechtigkeit seines Geistes, immer ebenmäßig in seiner\nGüte, die zu edel war, um jemals ostentativ zu werden, wer\nihn kannte, mit scharfem Blicke aufnehmend, mit weicher\nSeele teilnehmend, nur weiß, aus welcher inneren Fülle\njenes außerordentliche Wissen um seine Zeit, um seine Welt\nentstanden war.\nAllen verbunden, wußte er doch innerlich frei zu bleiben,\nund niemandem verpflichtet als seiner eigenen Pflicht zeigte\ner uns Jüngeren ein Vorbild exemplarischen Lebens und\nreinen Dichtertums. Nicht das alte Oesterreich und nicht das\nneue, nicht das Kaisertum und nicht die Republik haben\nihn um dieser herrlichen Unabhängigkeit willen mit Orden\nund Auszeichnungen beschwert, Nulla crux, nulla corona,\nkein Kreuz und keine Krone schmücken diesen teuren Sarg.\nUnd doch birgt diese tragische Hülle den repräsentativen\nDichter Oesterreichs, einen unvergeßlichen Meister und\nunseren geliebtesten Führer.",
+      "notes": "Ausschnitt zeigt den unteren Teil des Artikels mit Farb- und Grauskala-Referenzkarten."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der Frakturschrift. Die handschriftlichen Notizen sind klar als solche identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 4017,
+    "total_words": 580,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

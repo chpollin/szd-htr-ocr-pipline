@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1689",
+    "title": "Brief an Anna Meingast vom 15. August 1938, SZ-SAM/B7.105",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1689/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1689/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 15. August 1938, SZ-SAM/B7.105\n- Signatur: SZ-SAM/B7.105\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.903980+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "15. August 1938.\n\nLiebe Frau Meingast!\n\nIch glaubte, ich hätte Ih-\nnen bereits bestätigt, dass ich von Herrn Fuch\nerfreuliche Nachricht hatte. Die Post erhalte\nich regelmässig nachgesandt, aber es kommt ja\nnur mehr ganz wenig. - Ich selbst bin den gan-\nzen Sommer in London geblieben und gehe erst\nim Winter hinüber nach Amerika zu einer Vor-\ntragsreise. Es heisst jetzt doppelt so viel\narbeiten wie früher und mit einem Fünftel der\nFreude.\n\nHoffentlich geht es Ihnen\ngut und Ihr Sohn kann seine Studien vollenden,\nund Sie sind damit von der eigentlich schwer-\nsten Sorge befreit.\n\nAlle herzlichen Wünsche\nvon Ihrem ergebenen\n\nStefan",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Die Unterschrift ist als 'Stefan' lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Leichte Durchzeichnung des Textes von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist eindeutig als 'Stefan' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 633,
+    "total_words": 104,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

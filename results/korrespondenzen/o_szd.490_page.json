@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.490",
+    "title": " Unidentified an Stefan Zweig, 1924-08-26, SZ-SAM/AK.201",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.490/IMG.1",
+      "https://gams.uni-graz.at/o:szd.490/IMG.2",
+      "https://gams.uni-graz.at/o:szd.490/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1924-08-26, SZ-SAM/AK.201\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.201\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.974736+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Meridianstötten ved Hammerfest.\n26.8. 1924",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Hammerfest, 26.8. 1924.\nVon meiner heurigen Urlaubs-\nreise sende ich Euch von\nder nördlichsten Stadt\nder Welt die allerherzlich-\nsten Grüsse und hoffe Euch Wohlgebor[e]n\nbei bestem Wohlsein.\nEuer aufrichtiger\n[Unterschrift]\n\nHerrn & Frau\nDr. S t e f a n\nZ w e i g\n\nS a l z b u r g .\nØ s t e r r i g .",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text, gedruckte Adresslinien. Vertikaler Aufdruck: 'Eneberettiget G. Hagens Forlag, Hammerfest. No 187.' Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsaufnahme mit Farb- und Grauskala sowie der Postkarte (Rückseite)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift ist nicht entzifferbar, daher als [Unterschrift] markiert. Das Wort 'Wohlgebor[e]n' ist leicht durch den Zeilenumbruch und die Platzierung am Rand beeinträchtigt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 342,
+    "total_words": 69,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

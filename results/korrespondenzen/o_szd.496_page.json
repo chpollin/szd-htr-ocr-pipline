@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.496",
+    "title": "Hugo Salus an Stefan Zweig, 1930-05-03, SZ-SAM/AK.207",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.496/IMG.1",
+      "https://gams.uni-graz.at/o:szd.496/IMG.2",
+      "https://gams.uni-graz.at/o:szd.496/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hugo Salus an Stefan Zweig, 1930-05-03, SZ-SAM/AK.207\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.207\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.233832+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "3/E 30",
+      "notes": "Vorderseite einer Ansichtskarte mit Motiv der Karlsbrücke in Prag. Handschriftliche Notiz '3/E 30' oben mittig."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Hugo Salus Prag I Celakovskyplatz 6\n\nlieber Freund Zweig,\nwir freuen uns Alle, Mutter, Vater\nund Kind, auf Ihr Kommen und\nIhre Vorlesung, vor allem aber auf\neinige gemütliche Stunden zusammen-\nsein. Sie wissen, den Sie zu\nfreunde Kommen!\nfür das neue Jahr alles Gute und\nHerzliche! Ihr Salus\nPrag. 3.V. 1930\n\np.t. Herrn\nDr. Stefan Zweig\nWien VIII\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text von Hugo Salus. Briefmarke (5 Heller, Franz Joseph I.) und Poststempel 'PRAHA' vorhanden. Gedruckter Text am linken Rand: 'Carl Bellmann in Prag. 1909. 1507.' und unten 'Ein Teil der Karlsbrücke mit Hradschin. — 485.'"
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Hugo Salus ist klar erkennbar. Die Transkription folgt der Anordnung auf der Postkarte.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 364,
+    "total_words": 63,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

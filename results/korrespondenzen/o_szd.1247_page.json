@@ -1,0 +1,95 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1247",
+    "title": "Brief an Victor Fleischer vom 1. November 1916, SZ-LAS/B3.63",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1247/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1247/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1247/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1247/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1247/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1247/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1247/IMG.7"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Victor Fleischer vom 1. November 1916, SZ-LAS/B3.63\n- Signatur: SZ-LAS/B3.63\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:23.269030+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender: Salzburg, Park-Hotel\n\nVictor Fleischer\n\nWien-Döbling\n\nBillrothstrasse 20",
+      "notes": "Adressseite eines Briefumschlags. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "24. Nov. 1916\nPapa Mittler 13 u. 8",
+      "notes": "Rückseite des Briefumschlags mit handschriftlichen Notizen."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Lieber Victor, ich schreibe Dir gleich auf Deine\nKarte, das ist famos, dass Deine Premiere\nso bald ist. Sie Dich nicht zuvor mit An-\nnahmen, das dresdener Zentraltheater ist\nganz wunderverlie[?] nur ich glaube, am\nAlbert-Theater wäre dort (durch Camille)\ndie Sache leicht durchzusetzen. für wichtig\nhalte ich das Meininger Schauspielhaus\n- das absolut richtige und ideale Theater\nfür das Stück mit einem guten Lustspiel\nensemble.\nwirklich ist jetzt, dass Du jetzt das Feuille-\nton für die N.F.P. schreibt, ohne nur\ndass die Kritik da zu verstärken und\nDich zu repräsentieren. Auch noch Dich\nSetzer photographieren und versenden,\ndas lockt alle jungen Martyren im Theater\nwenn sie Dein Gesicht sehen. wegen der Ein-\nladungen Schnitzlers, Auerheimers werde\nich Dich noch in Wien erinnern und auf\nwas möglich Dir zu beraten suchen.",
+      "notes": "Brieftext, Seite 1. 'N.F.P.' steht für Neue Freie Presse."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Am 9. November früh bin ich in Wien\nund komme nach Tisch ins Café Kaiser-\nhof, wo ich Dich zu finden hoffe.\nwirklich wäre auch (System Müller\nist nur doch auch unfair) Du würdest\nim Volkheim am Sonntag vorher lesen\nEine Anfrage an die Direction genügt\ndas ist gar nicht aufdringlich, die Leute\ndenken von selbst ja natürlich nicht\ndaran. Eine gewisse Erwerbung der In-\nteressen kann nur von Vorteil sein.\nHast Du schon das Burgtheater\nBrief gehört? Tu es! Er ist der Börsen-\ncurier aber ich wünschte, dass Du ihn\npersönlich vorher kennen lernst. Auf\nAuerheimer würde ich es wirken, selbst\nwenn er nicht darüber schreibt, eventuell\nauch Salten, der ich dafür zweifelsohne\ninteressiert. So ist übrigens ein sehr",
+      "notes": "Brieftext, Seite 2."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "angenehmer Brief.\nhier erlebe ich unwahrscheinliche Tage.\nHeute am 1. November so strahlend\nsonnig, dass ein Mantel lächerlich wäre\nder Herbst überhaupt göttlich. Die Ar-\nbeit geht gut vorwärts, das Wesentlich-\nste am Stücke ich ist getan aber ich\nhoffe, es wird mich - nach neuerlich\nsechs Monaten Ingarbeit - sehen\nlassen können.\nHerzlichst Dein\nStefan",
+      "notes": "Brieftext, Seite 3."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Lieber Victor,\nFrau von W. will Dich auch herzlich\ngrüßen und Dir auch für\ndas Burgtheater Buch\ndanken. Ich freue mich\nkindisch auf die Premiere\nendlich einmal die\nrichtige Sehnsucht ins\nTheater zu gehen.\nViele viele Grüße\nvon\nFriderike",
+      "notes": "Beilage von Friderike Zweig."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "mindisch auf die Premiere\nendlich einmal die\nrichtige Sehnsucht ins\nTheater zu gehen.\nViele viele Grüße",
+      "notes": "Ausschnitt der Beilage von Friderike Zweig, teilweise verdeckt durch Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, der Kontext (Zweig-Korrespondenz) stützt die Interpretation der Abkürzungen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2346,
+    "total_words": 378,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

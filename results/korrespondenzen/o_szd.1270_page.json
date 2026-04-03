@@ -1,0 +1,83 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1270",
+    "title": "Brief an Stefan Zweig vom 9. Dezember 1935, SZ-SAM/B5.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1270/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1270/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1270/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1270/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1270/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 9. Dezember 1935, SZ-SAM/B5.3\n- Signatur: SZ-SAM/B5.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:25.333797+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Villeneuve (Vaud) villa Olga\n9 décembre 1935\n\nMon cher ami\nC'est très fâcheux. Je crains bien que\nJean-Richard ne soit dans une de ses\néclipses périodiques. Il n'y a point là mauvaise\nvolonté, mais je ne sais quelle neurasthénie,\nimpossibilité d'écrire, que j'ai déjà maintes\nfois, observé. Harry Prunières (de la\nRevue musicale) qui avait mis en branle,\nm'a aussi écrit, il y a six jours, avec\ndésespoir, que depuis deux mois, il a adressé\nà Jean-Richard trois lettres, sans obtenir\nun mot de réponse. (Vous voyez que ce\nsilence n'est pas dirigé contre vous. Nous\nen souffrons, tous). - Que faire? Il faudrait",
+      "notes": "Der Text ist in französischer Sprache verfasst. Die Handschrift ist flüssig, aber stellenweise eng geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "pouvoir lui aller de l'adresser à quelques amis musiciens\n{en} Touraine. (Amie de Harry Prunières : 11 rue Duzoc, Paris [?])\nSachez que Jean-Richard a déménagé, - mais pour\ns'installer à quelques milles de là, de l'autre côté du square Port-Royal\n8.)\nJe sais que Aragon et les rédacteurs de \"Commune\"\n{le} veulent quelque chose, leur base - mais c'est affaire particulière,\nqui n'a rien à voir avec ce que fait, on devrait faire \"l'Europe\".\nNaturellement aussi, les journaux soviétiques s'y préparent.\nJ'ai appris indirectement hier,",
+      "notes": "Die Transkription enthält einige Korrekturen und Einfügungen über der Zeile. Die Lesbarkeit ist aufgrund der kursiven Handschrift und der Durchstreichungen anspruchsvoll."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "pouvoir aller le relancer. Il n'y a que les amis\nde Paris qui peuvent le faire.\nÊtes-vous en relation avec Jean Guéhenno?\nIl est possible que \"l'Europe\" s'en occupe. Mais\nje n'en sais rien. Rien ne m'en est dit.\nEn tout cas, laissez aux amis de\nParis, et à nous, votre adresse, en ces mois!\nIl est possible que, si l'on organise quelque\npublication à Paris, votre nom soit absent.\n[Car je n'envisage rien de plus qu'une\npublication. C'est tout ce qu'on peut attendre\nde l'indifférence du temps.]\nA vous affectueusement,\nRomain Rolland\nPrunières dit publier quelques articles ou\ntémoignages de la Revue musicale - Peut-être",
+      "notes": "Die Unterschrift 'Romain Rolland' ist deutlich lesbar. Der Text am unteren Rand ist eine Ergänzung zum Haupttext."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Leere Seite mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift von Romain Rolland gut lesbar. Die Sprache ist Französisch, was bei der Interpretation der Wörter geholfen hat.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1765,
+    "total_words": 296,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

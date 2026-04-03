@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.620",
+    "title": "Elfriede Eisenprobst an Stefan Zweig, 1928-05-19, SZ-SAM/AK.51",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.620/IMG.1",
+      "https://gams.uni-graz.at/o:szd.620/IMG.2",
+      "https://gams.uni-graz.at/o:szd.620/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Elfriede Eisenprobst an Stefan Zweig, 1928-05-19, SZ-SAM/AK.51\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.51\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:21.294853+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LUSSINGRANDE - Vista del Porto",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung des Hafens von Lussingrande (Veli Lošinj)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\nSalzburg\n\nfür Ihre lieben Glückwünsche\ndanken Ihnen ergebenst\n\nElfriede Eisenprobst\nLussingrande, 19.5.28",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text. Zwei Briefmarken mit Poststempel 'LUSSINGRANDE 20.5.28'. Die Adresse ist teilweise durch den Poststempel überlagert. Der Text 'und Frau' ist links neben der Adresszeile vertikal geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Das Dokument ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der Überlagerung durch den Poststempel auf der Adressseite.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 154,
+    "total_words": 20,
+    "language_detected": "",
+    "language_match": true
+  }
+}

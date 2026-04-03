@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.408",
+    "title": "Hans Müller Einigen an Stefan Zweig, 1913-03-25, SZ-SAM/AK.127",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.408/IMG.1",
+      "https://gams.uni-graz.at/o:szd.408/IMG.2",
+      "https://gams.uni-graz.at/o:szd.408/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1913-03-25, SZ-SAM/AK.127\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.127\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.375280+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "5298 Lago di Garda. Gardone-Riviera.",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung des Gardasees in Gardone-Riviera. Gedruckter Text am oberen linken Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Gardone, Ostermontag\nLieber Stefan, ich\nweiß nicht, ob diese Karte\ndich erreicht, aber ich\ngebe ihm das herzlichste\nreisen mit, ~~daß~~ {daß} ich dich\nin Wien nicht mehr gesehen\nhabe. Übermorgen für\nein paar Tage nach Bozen\n(Laurin), dann Berlin und\nHamburg. Grüß dich in Paris\nherzlichst dein Hans Müller",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in violetter Tinte. Ein Poststempel 'GARDONE RIVIERA 25.3.13-6' und eine italienische Briefmarke sind vorhanden. Die Adresse 'Stefan Zweig, Kochgasse 8, Vienna VIII.' ist ebenfalls handschriftlich vermerkt."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Gardone, Ostermontag\nLieber Stefan, ich\nweiß nicht, ob diese Karte\ndich erreicht, aber ich\ngebe ihm das herzlichste\nreisen mit, ~~daß~~ {daß} ich dich\nin Wien nicht mehr gesehen\nhabe. Übermorgen für\nein paar Tage nach Bozen\n(Laurin), dann Berlin und\nHamburg. Grüß dich in Paris\nherzlichst dein Hans Müller",
+      "notes": "Gesamtansicht der Postkarte mit Archiv-Farbskalen und Grauskalen. Der Text entspricht der Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die Korrektur 'daß' wurde als Einfügung/Korrektur gemäß den Regeln erfasst.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 646,
+    "total_words": 105,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

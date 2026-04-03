@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1669",
+    "title": "Berta Burgio-Ahrens an Stefan Zweig, SZ-SAM/AK.36",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1669/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1669/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1669/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Berta Burgio-Ahrens an Stefan Zweig, SZ-SAM/AK.36\n- Signatur: SZ-SAM/AK.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:54.182190+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Palermo - Quattro Canti e Corso Vittorio Emanuele",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text am unteren Rand. Handschriftliche Datierung oben links: '19. 9. 33'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Doktor Stefan Zweig\n5. Kapuzinerberg\nSalzburg\n(Austria)\n\n17. 9. 33. Palermo, o Colle [?]\nSehr geehrter Herr Doktor!\nIch bin Ihnen von Herzen\ndankbar für Ihren lieben\nBrief. Nun erwarte ich\ngerne die mir von Ihnen\nzugesagte Notiz v. Sperl.\nu. Hupfer. Ich werde Ihnen\ndann gleich schreiben.\nMit den herzlichsten Grüßen\nu. Wünschen, Hochachtungsvoll\nBerta Burgio Ahrens.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Briefmarken und Poststempel vorhanden. Die Zeile '17. 9. 33. Palermo, o Colle [?]' ist teilweise durch den Poststempel überlagert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Die Postkarte ist identisch mit der in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich ein Wort in der Datumszeile der Rückseite ist durch den Poststempel leicht beeinträchtigt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 416,
+    "total_words": 66,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

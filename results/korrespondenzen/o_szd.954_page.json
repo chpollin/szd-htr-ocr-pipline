@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.954",
+    "title": "Ansichtspostkarte an Sigmund Freud vom [Februar 1931], SZ-LAS/B7.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.954/IMG.1",
+      "https://gams.uni-graz.at/o:szd.954/IMG.2",
+      "https://gams.uni-graz.at/o:szd.954/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Sigmund Freud vom [Februar 1931], SZ-LAS/B7.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:45.718086+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Ansichtspostkarte mit einer Landschaftsaufnahme von Antibes. Kein Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Antibes, Hôtel du Cap,\nLA DOUCE FRANCE\n\n415\t\tCOTE D'AZUR\n\t\tANTIBES (Alpes-Maritimes)\nLa Ville vue à travers les pins de la Corniche\n\nVerehrter Herr Professor, ich\nhoffe mein Buch bereits in\nIhren Händen und wünschte\nmir sehr, Sie könnten darin\nnicht zu viel Fehlerhaftes fin-\nden. Seien Sie in innigster\nVerehrung gegrüsst von Ihrem\ngetreu ergebenen\n\t\tStefan Zweig\n\nProf. D. Siegmund Freud\n\nWien IX (Autriche)\n\nBerggasse 19",
+      "notes": "Rückseite der Postkarte mit handschriftlichem Text von Stefan Zweig. Briefmarken und Poststempel vorhanden. Die Adresse ist teilweise gedruckt, teilweise handschriftlich ergänzt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Antibes, Hôtel du Cap,\nLA DOUCE FRANCE\n\n415\t\tCOTE D'AZUR\n\t\tANTIBES (Alpes-Maritimes)\nLa Ville vue à travers les pins de la Corniche\n\nVerehrter Herr Professor, ich\nhoffe mein Buch bereits in\nIhren Händen und wünschte\nmir sehr, Sie könnten darin\nnicht zu viel Fehlerhaftes fin-\nden. Seien Sie in innigster\nVerehrung gegrüsst von Ihrem\ngetreu ergebenen\n\t\tStefan Zweig\n\nProf. D. Siegmund Freud\n\nWien IX (Autriche)\n\nBerggasse 19",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am oberen Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist klar und eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 846,
+    "total_words": 134,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

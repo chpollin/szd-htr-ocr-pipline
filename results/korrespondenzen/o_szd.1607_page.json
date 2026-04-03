@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1607",
+    "title": "Brief an Alfred Kauffmann vom 14. Juni 1938, SZ-AAP/B1.252",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1607/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1607/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Alfred Kauffmann vom 14. Juni 1938, SZ-AAP/B1.252\n- Signatur: SZ-AAP/B1.252\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:47.009703+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                          14.Juni 1938.\n\nHerrn Dr. Alfred Kauffmann,\n16 Coleman Street,\nE.C.2.\n\nSehr geehrter Herr Doktor!\n\n          Ich sende Ihnen den Originalbrief des Schwei-\nzerischen Vereinssortiments und meine Antwort. Ich wäre\nIhnen nur sehr dankbar, wenn Sie etwa den folgenden\nBrief an das Vereinssortiment richten würden:\n\n          \"Mein Mandant Herr Dr. Zweig, zeigt mir Ihren\n          Brief vom 13.Juni, der mein Schreiben von ge-\n          stern überholt hat. Ich entnehme Ihrem Brief\n          nur die Feststellung, dass die Zahlungen aus\n          jenen etwa viertausend Bänden an Herrn Reich-\n          ner persönlich erfolgen und also nur Herr Reich-\n          ner persönlich für die Auszahlung des Herrn Dr.\n          Zweig als Eigentumsanteil an diesen Büchern zu-\n          stehenden Betrages haftbar zu machen ist, und\n          nicht etwa der Verlag Herbert Reichner Zürich,\n          oder der Verlag Herbert Reichner, Wien-Leipzig\n          Zürich. Ich wäre Ihnen dankbar, wenn Sie Herrn\n          Reichner, dessen Adresse meinem Klienten nicht\n          bekannt ist, hiervon Mitteilung machen würden.\"\n\nIch drücke mich da vielleicht nicht ganz richtig aus,\naber Sie verstehen, worum es sich handelt. Wenn Herr\nReichner, wie er vorhat, nach Amerika verschwindet, so\nkann ich ihn auch dort belangen, nachdem er die Beträge",
+      "notes": "Typoskript auf Briefpapier. Die Lochungen am linken Rand sind sichtbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ad personam einkassiert hat. Sie werden das schon rich-\ntig formulieren, das weiss ich.\n\nMit herzlichem Dank\n\nIhr sehr ergebener",
+      "notes": "Typoskript, Fortsetzung des Briefes von Seite 1. Die Lochungen am rechten Rand sind sichtbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1492,
+    "total_words": 199,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

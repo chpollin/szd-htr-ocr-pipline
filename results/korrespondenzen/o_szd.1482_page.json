@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1482",
+    "title": "Brief an das International Copyright Bureau vom 14. November 1938, SZ-AAP/B3.1",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1482/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1482/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1482/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an das International Copyright Bureau vom 14. November 1938, SZ-AAP/B3.1\n- Signatur: SZ-AAP/B3.1\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:36.646167+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "C O P Y\n\n49, Hallam Street,\nLondon, W.1.\n\nNovember 14th, 1938.\n\nThe International Copyright Bureau Ltd.,\nDewar House, Haymarket,\nS.W.1.\n\nDear Sirs,\nWith reference to communications addressed to your firm\nand Felix Bloch Erben of Berlin, dated 14.Nov., I hereby nominate\nyour firm to be my sole and exclusive representatives for my works,\non the lines arranged between myself and Messrs. Felix Bloch Erben,\nwhereby it is understood that commissions payable to your firm shall\nbe fixed at 10% (ten per cent) if and whenever fresh business is\nintroduced by myself, and 15% (fifteen per cent) if and whenever\ncontracts are introduced and completed by your firm.\n\nWill you please confirm this arrangement in writing.\nOur exchange of letters will then constitute a contract in the usual\nway.\n\nKindest regards,\n\nYours,\n\n(signed): STEFAN ZWEIG",
+      "notes": "Typoskript auf Papier. Oben rechts handschriftliche Ziffer '13' in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 835,
+    "total_words": 135,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

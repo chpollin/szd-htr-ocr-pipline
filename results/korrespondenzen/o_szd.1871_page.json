@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1871",
+    "title": "Brief an Manfred Altmann vom 9. September 1947, SZ-AAP/B1AN.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1871/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1871/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1871/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1871/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Manfred Altmann vom 9. September 1947, SZ-AAP/B1AN.5\n- Signatur: SZ-AAP/B1AN.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.184477+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr. H. David & Dr. H. Gwalter\nRechtsanwälte\nTelefon 23 52 89 / Postcheck VIII 453\n\nZürich, den 9. September 1947.\nBahnhofstraße 56\n\nHerrn\nDr. M. Altmann,\nHampstead 6436,\n352, Finchley Road,\nH a m p s t e a d . N.W. - London.\n\nSehr geehrter Herr D-oktor,\n\nIch bestätige den Empfang Ihres Schreibens vom 1. Septem-\nber 1947. Ich habe das Vereinssortiment gemäss beigefüg -\nter Kopie sofort um Auskunft gebeten und werde nach deren\nEintreffen darauf zurückkommen.\n\nMit vorzüglicher Hochachtung:\nH. David.",
+      "notes": "Typoskript auf Briefpapier mit gedrucktem Briefkopf. Die Unterschrift 'H. David' ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. David\nZürich, Bahnhofstrasse 56.\n\n27.10.47.\n\nSehr geehrter Herr Doktor,\n\nBesten Dank für Ihr Schreiben vom\n18.9.das ich nur vorläufig beantworten\nkann. Es ist ein sehr umfangreiches\nAktenmaterial das ich studieren müsste\num Ihnen genau Bescheid geben zu können.\nIch hoffe in der nächsten Zeit dazu Zeit\nzu haben und werde Ihnen dann weiteres\nmitteilen.\n\nMit der vorzüglichsten Hochachtung",
+      "notes": "Typoskript. Es handelt sich um ein Antwortschreiben an Dr. David."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Dr. H. David & Dr. H. Gwalter\nRechtsanwälte\nTelefon 23 52 89 / Postcheck VIII 453\nMitglieder des\nSchweiz. Anwaltsverbandes\n\nZürich, den 9. September 1947.\nBahnhofstraße 56\n\nAn das\nVereinssortiment des Schweiz. Buch-\nhändlervereins,\nO l t e n .\n\nIch vertrete die Erben des Herrn Stefan Zweig, nämlich\nHerrn und Frau Dr. Altmann in London.\n\nIch habe festgestellt, dass Sie am 25. September 1938\nFr.17004.23 bei der [...1...]zirksgerichtskasse deponierten.\nDer Betrag stellte [...1...]emen an den Verlag H. Reichner\nin Wien dar, fü[...1...] auf der Werke des Herrn Stefan\nZweig. Sie sch[...1...] dem Gericht, dass Sie noch\neinen Betrag [...1...]r Kosten zurückbehalten\nhätten und das [...1...]en Bücherbestand von\nFr.7.340.-- be[...1...]ftrage der Erben ersuche ich\nSie höfl. um [...1...]eser Betrag von Fr.800.--\nverwendet wur[...1...] dem Gegenwert der seither\nzweifelsohne v[...1...]er geschah.\n\nHochachtungsvoll:\nDr.H.David, Rechtsanwalt",
+      "notes": "Typoskript. Das Dokument weist ein großes Loch in der Mitte auf, wodurch Text verloren gegangen ist. Die Unterschrift 'Dr.H.David, Rechtsanwalt' ist ein violetter Stempel."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Seite 3, zeigt den durchscheinenden Text des Typoskripts der Vorderseite (spiegelverkehrt). Keine eigene Transkription."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Transkription ist bei den Seiten 1 und 2 sehr sicher. Bei Seite 3 erschweren die physischen Beschädigungen (Loch im Papier) die vollständige Lesbarkeit der Zeilen 10-16.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1837,
+    "total_words": 278,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

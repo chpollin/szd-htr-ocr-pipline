@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1408",
+    "title": "Postkarte an Eugenie Hirschfeld vom 29. Januar 1908, SZ-LAS/B4.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1408/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1408/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1408/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Eugenie Hirschfeld vom 29. Januar 1908, SZ-LAS/B4.2\n- Signatur: SZ-LAS/B4.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.977023+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Fräulein Eugenie Hirschfeld\nWien IX\nNußdorferstraße 5 I",
+      "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarke und Poststempel 'WIEN 9/1 29. I. 08' vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sehr verehrtes Fräulein, verzeihen\nSie mir, dass ich Sie bei diesem\nAbend nicht begrüßen\nkonnte, ich war so verwirrt,\nbedrängt und verloren, dass\nich an die Nächsten und\nLiebsten vergaß. Ich bin froh,\ndass der Anfang vorbei ist –\nbei dem nun die Gegenwart\nund der freundschaftliche Ent-\ngegenkommen Hofmansthal\neine große Freude gab (frei-\nlich auch eine Depression\ndurch das Verantwortlichkeits-\ngefühl, vor ihm zu lesen.) Auf\nbaldiges Wiedersehn Stefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Sehr verehrtes Fräulein, verzeihen\nSie mir, dass ich Sie bei diesem\nAbend nicht begrüßen\nkonnte, ich war so verwirrt,\nbedrängt und verloren, dass\nich an die Nächsten und\nLiebsten vergaß. Ich bin froh,\ndass der Anfang vorbei ist –\nbei dem nun die Gegenwart\nund der freundschaftliche Ent-\ngegenkommen Hofmansthal\neine große Freude gab (frei-\nlich auch eine Depression\ndurch das Verantwortlichkeits-\ngefühl, vor ihm zu lesen.) Auf\nbaldiges Wiedersehn Stefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala zur Archivierung abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 975,
+    "total_words": 152,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

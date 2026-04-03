@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1718",
+    "title": "Ansichtspostkarte an Anna Meingast vom 2. Dezember 1936, SZ-SAM/B7.85",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1718/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1718/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Anna Meingast vom 2. Dezember 1936, SZ-SAM/B7.85\n- Signatur: SZ-SAM/B7.85\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.614602+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Law Courts and Fleet Street, London. 2. Dez. 36\nStefan Z.",
+      "notes": "Vorderseite einer Ansichtspostkarte. Gedruckter Titel der Ansicht, handschriftliche Datierung und Signatur von Stefan Zweig."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, ich habe\nIhnen noch gar nicht\ngedankt, aber sei es drum\nwir sind seit einem schrecklich\nknappen nur an London ja\nbald. Ich melde mich vor\nder Rückkehr nur rechtzeitig\nan. Viele Grüße an alle\nStefan Zweig\n\nFrau Anna Meingast\nSalzburg (Austria)\nLinzergasse 16",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Gedruckter Text im oberen Bereich ('POST CARD', 'CHURCH OF ST. CLEMENT DANES...'). Briefmarke oben rechts mit Poststempel."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist charakteristisch und weitgehend eindeutig zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 335,
+    "total_words": 58,
+    "language_detected": "",
+    "language_match": true
+  }
+}

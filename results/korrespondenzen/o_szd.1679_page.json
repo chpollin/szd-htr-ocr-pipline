@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1679",
+    "title": "Otto Heuschele an Stefan Zweig, SZ-SAM/AK.83",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1679/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1679/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1679/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Otto Heuschele an Stefan Zweig, SZ-SAM/AK.83\n- Signatur: SZ-SAM/AK.83\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.192408+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Marbach a.N., Schillermuseum 23. V. 27",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Schillermuseums in Marbach am Neckar. Handschriftliche Datumsangabe am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ich denke Ihrer in\nTreue an der Stätte,\nda wir zusammen\nwaren. Herzl. Dank\nfür letzte Grüße.\nGruß folgt bald.\nHerzlichst\nIhr treuer\nOtto Heuschele",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke 'Deutsches Reich' 5 Pfennig, Poststempel 'MARBACH A. NECKAR 23.5.27'. Adressat: 'Herrn Dr. Stefan Zweig, Salzburg, Kapuzinerberg 5'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Darüber die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Identifikation des Absenders 'Otto Heuschele' und des Empfängers 'Dr. Stefan Zweig' ist durch den Kontext und die Signatur gesichert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 184,
+    "total_words": 31,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

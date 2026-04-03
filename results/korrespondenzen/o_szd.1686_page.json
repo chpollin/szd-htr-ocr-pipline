@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1686",
+    "title": "Brief an Anna Meingast vom 9. Mai 1938, SZ-SAM/B7.102",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1686/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1686/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 9. Mai 1938, SZ-SAM/B7.102\n- Signatur: SZ-SAM/B7.102\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.734960+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 9.Mai 1938.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen bestens für Ihre\nfreundliche Mitteilung. Da Post an mich schon\nin den letzten zwei Jahren immer seltener nach\nSalzburg adressiert wird, kann man das Postfach\nruhig auflassen, und ich bitte Sie nur, dann an\ndas Postamt einen Brief zu richten, den ich al-\nlenfalls auch selbst unterzeichne, dass sämtli-\nche einlangenden Briefe und Drucksachen direkt\nan meine hiesige Adresse nachzusenden sind.\nWegen des Postsparkassenkontos werde ich veran-\nlassen, dass es mit dem bei meinem Anwalt be-\nfindlichen Sperrkonto vereinigt wird. Ich hoffe,\ndass jener letzte Scheck Ihnen schliesslich doch\nausgezahlt wurde. Wenn es nicht geschehen ist,\nmüsste ich noch um eine ausdrückliche Bewilli-\ngung einkommen, dass es geschieht.\nHoffentlich geht es Ihnen gut und",
+      "notes": "Typoskript auf Papier. Die Seite weist leichte Verfärbungen (Stockflecken) auf."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ihr Sohn hat seine Studien bald vollendet. Ich\nwar in der letzten Zeit einigermassen in der\nArbeit gehemmt, habe sie aber wieder aufgenom-\nmen und bleibe wohl vorläufig hier. Erst später\ngeht es zu einer Vorlesungstournee über das Meer.\n\nMit den besten Grüssen\n\nStefan Zweig",
+      "notes": "Typoskript auf Papier, Unterschrift handschriftlich in violetter Tinte. Die Unterschrift ist deutlich als 'Stefan Zweig' lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1084,
+    "total_words": 169,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

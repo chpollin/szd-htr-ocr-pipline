@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1741",
+    "title": "Postkarte an Hermann Bahr vom 21. September 1923, SZ-SHB/B1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1741/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1741/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1741/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Hermann Bahr vom 21. September 1923, SZ-SHB/B1\n- Signatur: SZ-SHB/B1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:59.176066+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "STEFAN ZWEIG\nAbsender:\nSALZBURG, Kapuzinerberg 5\n\nPostkarte\n\nAn\nHerren Hermann Bahr\n\nin\nMünchen\nBarerstrasse 50",
+      "notes": "Adressseite einer Postkarte. Gedruckter Absender und Textbausteine, handschriftliche Adressierung in violetter Tinte. Poststempel 'SALZBURG 21.IX.23 21' und Briefmarke 'Österreich 300 Kronen' vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Verehrter Herr Bahr, Ihr Zimmer\nwird zuverlässigst im Öst. Hof\nam 25. reserviert sein; ich selbst\nkäme dann um 7 Uhr in den\nÖst. Hof, Sie abholen (sind\nSie noch nicht dort, so warte ich\ngeduldig.) Suarez herrliche Bücher\nsollen Sie auf der Reise begleiten,\nSie werden sich daran wirklich\nentzücken.\nWir freuen uns Ihnen innigst ent-\ngegen und bleiben getreulichst\nIhr\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Verehrter Herr Bahr, Ihr Zimmer\nwird zuverlässigst im Öst. Hof\nam 25. reserviert sein; ich selbst\nkäme dann um 7 Uhr in den\nÖst. Hof, Sie abholen (sind\nSie noch nicht dort, so warte ich\ngeduldig.) Suarez herrliche Bücher\nsollen Sie auf der Reise begleiten,\nSie werden sich daran wirklich\nentzücken.\nWir freuen uns Ihnen innigst ent-\ngegen und bleiben getreulichst\nIhr\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 871,
+    "total_words": 143,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

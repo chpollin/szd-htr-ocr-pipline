@@ -1,0 +1,66 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1166",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1166/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1166/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.7\n- Signatur: SZ-SAM/B11.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.165294+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4. April 35\n\nLiebe Frau Meingast,\nbitte lassen Sie von der Postsparkasse\n5000 Sch an die Länderbank anweisen\nund weitere 4000 Sch für sich auf\nIhr Buch, sei es direkt von der\nPostsparkasse und wenn dies nicht\ngeht an die Länderbank für Ihr\ndortiges Buch.\nBesten Dank für Ihre Aufzeichnungen\nund auch Johann. Anbei ein Zettel,\nmit dem er sich ~~v~~ 500 Sch\nvon der Länderbank für seine\nAusgaben und auf Rechnung\nholen soll. Er soll Legitimation mitnehmen.\nAlles Schöne für Sie und Willi\nHerzlich Ihre Friderike Zweig",
+      "notes": "Das Wort 'Länderbank' wurde im Original als 'Länderbank' (mit 'ä') gelesen, obwohl es im Schriftbild 'Läuderbank' ähnelt. Das durchgestrichene 'v' vor '500' ist deutlich erkennbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Friderike Zweig ist klar strukturiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 515,
+    "total_words": 88,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T15:01:18.379785+00:00"
+  }
+}

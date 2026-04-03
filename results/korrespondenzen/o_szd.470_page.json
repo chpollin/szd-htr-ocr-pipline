@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.470",
+    "title": "Carl Seelig an Stefan Zweig, 1931-09-03, SZ-SAM/AK.184",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.470/IMG.1",
+      "https://gams.uni-graz.at/o:szd.470/IMG.2",
+      "https://gams.uni-graz.at/o:szd.470/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Carl Seelig an Stefan Zweig, 1931-09-03, SZ-SAM/AK.184\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.184\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.674009+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "37 CONSTANTINOPLE. Bosphore (Tours de Roumeli-Hissar)",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Fotografie der Festung Rumeli Hisarı am Bosporus."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nSalzburg\nOesterreich (Austriche)\n\nStamboul, 3. Sept. 1930.\nLieber Stefan Zweig, Nachdem ich vor 2 Jahren für die N.F.P. in\nJapan, Australien u. China war, habe ich vor zwei Monaten\neine neue Reise durch den Balkan u. Kleinasien angetreten.\nVon hier aus wollte ich durch Russland heim, aber leider kommt\ndie Reise trotz den Erleichterungen, die mir die Sowjetgranddydje[?]\nauf den charmanten Empf. Brief von Barbusse verschaffen wollte,\nzu teuer. Ich gehe also durch Rumänien u. Ungarn, mache in\nWien wegen Tal etc. einige Tage Rast u. treffe wahrscheinlich\nam 28. Sept. in Salzburg ein. Hast Du Lust, dass wir uns dort\ntreffen, nur für ein, zwei Stunden, da ich Dich nicht aufhalten\nmöchte - jedoch nur, wenn es Dir wirklich Vergnügen macht,\nmich wiederzusehen? Dann bitte ich Dich um ein Wort an die Ad-\nresse: Carl Seelig, Schweizerische Gesandtschaft, Seilerstätte 3, Wien.\nMit besten [umgedreht am Rand:] Grüß an Dich u.\nDeine Frau.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in violett-blauer Tinte. Briefmarke und Poststempel vorhanden. Das Wort 'Granddydje' ist schwer lesbar und könnte eine fehlerhafte Transkription oder ein Eigenname sein. Der Text am unteren Rand ist um 180 Grad gedreht geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farb- und Grauskala für Archivierungszwecke. Die Ansichtskarte ist in der Mitte platziert."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch gibt es bei einigen Wörtern (z.B. 'Granddydje') Unsicherheiten aufgrund der Handschrift. Die Ausrichtung des Textes am unteren Rand der Postkarte ist ungewöhnlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1012,
+    "total_words": 163,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

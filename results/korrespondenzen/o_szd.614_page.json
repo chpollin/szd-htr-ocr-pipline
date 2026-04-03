@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.614",
+    "title": "Ernst Deutsch an Stefan Zweig, 1914-12-15, SZ-SAM/AK.45",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.614/IMG.1",
+      "https://gams.uni-graz.at/o:szd.614/IMG.2",
+      "https://gams.uni-graz.at/o:szd.614/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ernst Deutsch an Stefan Zweig, 1914-12-15, SZ-SAM/AK.45\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.45\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:20.799035+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Alter Judenfriedhof in Prag. 15/XII 14",
+      "notes": "Vorderseite einer Ansichtskarte mit Fotomotiv. Handschriftliche Notiz unten links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CORRESPONDENZ-KARTE.\nHerrn\nStefan Zweig\nWien XIII\nKochgasse 8\n\nVerehrter Herr Doktor!\nIch schrieb Ihnen vor\nkurzer Zeit. Kommen\nSie? Hoffentlich!\nHerzlichst grüßt\nErnst Deutsch\nJa bitte kommen Sie! Sehr\ngrüsse Sie alltherzlichst\nErnst Deutsch",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht. Der Text ist teilweise überlagert durch den Poststempel. 'Der alte Judenfriedhof. - 32' und 'Gravure-Imit. Carl Bellmann in Prag.' sind gedruckt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbskala für Archivierung. Die Ansichtskarte ist identisch mit der in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der Überlagerung durch den Poststempel auf der Rückseite.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 280,
+    "total_words": 40,
+    "language_detected": "",
+    "language_match": true
+  }
+}

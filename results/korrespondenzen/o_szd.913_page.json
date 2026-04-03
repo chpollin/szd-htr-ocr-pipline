@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.913",
+    "title": "Postkarte an Frans Masereel vom 15. Dezember 1926, SZ-LAS/B1.33",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.913/IMG.1",
+      "https://gams.uni-graz.at/o:szd.913/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 15. Dezember 1926, SZ-LAS/B1.33\n- Signatur: SZ-LAS/B1.33\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:42.880614+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon vieux, je viens de retourner\n- douze conferences, 2 representations\nouff, ouff!! Mais maintenant je suis\ntout a fait fatigué!\nJe trouve une lettre pressante de\nLeningrad : ils veulent mon por-\ntrait par Frans M. Mais Frans\nM. oublie sa bonne promesse, il\nprefere je crois de dessiner des\nnegres, des grues et les autres\ntypes honnetes de ce miserable\nEurope que de faire la belle et\nimposante figure de son vieux\nStefan\nqui le prie, de ne pas le faire\nattendre, puisqu'on le presse de\nLeningrad: alors fais les 11 centimetres\nmon vieux. Moi pour mon article j'ai trouvé[?] un",
+      "notes": "Handschriftliche Nachricht auf der Rückseite einer Postkarte. Der Text am rechten Rand ist vertikal geschrieben. Die Tinte ist violett."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "An Frans Masereel\nParis France\n32, rue Lamarck\n\n[Gedruckt: STEFAN ZWEIG, SALZBURG, Kapuzinerberg]\n\nvu ton Uylenspiegel au Berli-\nner Tageblatt et moi, je\nn'oublie pas mes promesses\nni mes amis. Amitiés a\nvous tous\nStefan",
+      "notes": "Adressseite der Postkarte. Enthält gedruckte Absenderangaben und handschriftliche Nachricht. Briefmarken und Poststempel (Salzburg 15.XII.26) vorhanden."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Ein Wort am Ende der ersten Seite ist leicht durch den Rand beschnitten, aber kontextuell erschließbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 799,
+    "total_words": 138,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

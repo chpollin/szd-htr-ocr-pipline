@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1250",
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.66",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1250/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1250/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1250/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.66\n- Signatur: SZ-LAS/B3.66\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:23.560099+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber Viktor, vielen Dank für Eure\nGrüße aus Heidelberg. Indessen\nhast Du auf meine Veranlassung\nein Märchenbuch vom Verlag Orell\nFüssli erhalten, das wir gar rei[?]\nrend finden, für das der Verlag\naber gar nichts tut, wie wohl wir\naus Erfahrung weiß, wie wenig man\nauf diesem Gebiete findet. Auch\nzum Vorlesen eignen sich diese\nSachen sehr. Deine Frau soll sie\nauch ansehen. Der Autor den wir\ngut kennen, möchte das Buch gern\nan einen anderen Verlag geben, evnt.\nerweitert. Es sind noch erst\netwa 400 Exemplare verkauft\nund event. die restliche Auflage\nzu haben. Bitte sieh Dir die\nSache an und lass uns dann\nwissen, ob Du Dich für [?] [?]\ndafür interessierst. Gehen müsste\ndas Buch sehr, wenn man es\nüberhaupt nur halbwegs vertreibt.\nHoffentlich erfüllen sich nun bald",
+      "notes": "Die Transkription umfasst die Vorderseite der Postkarte. Das Ende des Textes bricht mitten im Satz ab, da die Karte auf der Rückseite fortgesetzt wird."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "all Deine Wünsche. Du hast\nsehr recht nichts mehr hin[?]\nauszuschreiben. Wie wäre\nes mit einer Hochzeitsreise\nhierher? Wie in guter alter\nZeit. Bitte schreib uns\nhald wieder aus früherer.\nUnd sag Deiner Familie\nalles Gute. Sei herzlichst\ngegrüsst\nvon\nStefan und\nFriderike",
+      "notes": "Dies ist die linke Seite der Postkartenrückseite. Der Text schließt an den Satz auf der Vorderseite an."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herrn Dr Viktor Fleischer\nWien (Österr.)\nXIX Billrothstrasse\n20",
+      "notes": "Dies ist die rechte Seite der Postkartenrückseite (Adressfeld). Der Absendervermerk oben links 'Fr. v. Winternitz, Rütistrasse 6, Zürich' ist teilweise durchgestrichen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der kursiven und teilweise flüchtigen Schreibweise von Stefan Zweig. Einige Wörter am Zeilenende oder bei Abkürzungen sind leicht unsicher, aber im Kontext gut erschließbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1105,
+    "total_words": 183,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.757",
+    "title": "Brief an Stefan Zweig vom 23. Dezember 1937, SZ-AAP/B1.162",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.757/IMG.1",
+      "https://gams.uni-graz.at/o:szd.757/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 23. Dezember 1937, SZ-AAP/B1.162\n- Signatur: SZ-AAP/B1.162\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:29.187981+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT. Sy.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR.\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\n\n23. Dezember 1937. LONDON, E.C.2.\n\nHerrn Stefan Zweig,\n49, Hallam Street,\nW 1.\n\nSehr verehrter Herr Zweig,\nHaben Sie besten Dank für Ihre Zeilen vom\n22.ds.Mts. Ich fürchte, dass ein Brief, den ein Anwalt, gleich-\nviel in welcher Rolle und unter welcher Begründung, an den Verlag\nschreiben würde, von vornherein mittelbar oder unmittelbar ungün-\nstig auf den Versuchs wirken könnte.\nIch möchte die Sache nunmehr zunächst informatorisch\nmit dem Dezernenten des Board of Trade besprechen, und zwar in der\nersten Woche nach Neujahr. Sodann werde ich Ihnen auch eine eng-\nlische Fassung des Testaments unterbreiten, deren inzwischen ausge-\narbeiteter erster Entwurf vorweg von einem geeigneten Solicitor\nüberprüft werden soll.\nDie Anlagen Ihres Briefes, nämlich Urschrift des\nSchreibens des Insel-Verlags an Sie vom 12.Jan.ds.Jhrs. und Kopie\nIhrer Antwort an den Insel-Verlag vom 17.Jan. ds.Jhrs., folgen\nanbei nach Kenntnisnahme mit Dank zurück.\nMit freundlichem Gruss\nIhr sehr ergebener\n[Unterschrift]",
+      "notes": "Typoskript auf Briefpapier mit gedrucktem Briefkopf. Die Unterschrift ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift ist als solche markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1205,
+    "total_words": 173,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1806",
+    "title": "Brief an Stefan Zweig vom 19. Mai 1938, SZ-AAP/B1.240",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1806/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1806/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. Mai 1938, SZ-AAP/B1.240\n- Signatur: SZ-AAP/B1.240\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.668590+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "RASCHER & CIE. A.-G., ZÜRICH\nBUCHHANDLUNG · KUNSTHANDLUNG · VERLAGSBUCHHANDLUNG\nTelephon 21.601 · Telegramm-Adresse: Rascherco\nPostcheck-Konti: Zürich VIII 466, Stuttgart 29/298\nZürich 1, Limmatquai 50\n\nHerrn\nDr. Stefan Z w e i g ,\nL o n d o n W.1.\n49, Hallam street,\n\nZürich, den 19. Mai 1938.\n\nSehr geehrter Herr Doktor,\nfür Ihr Schreiben vom 15. ds.\nMts. welches ich ebenfalls dem Verein Schweizerischer Ver-\nlagsbuchhändler zugestellt habe, danke ich Ihnen bestens.\nAuch ich bin der Ansicht, dass\nder Verlag Herbert Reichner immer noch in Wien den eigent-\nlichen Sitz der Gesellschaft hat, da ja die hiesige Eintrag-\nung durch einen Advokaten als Strohmann erfolgt ist.\n\nMit den besten Grüssen zeichnet:\nRascher",
+      "notes": "Typoskript auf Geschäftspapier der Firma Rascher & Cie. A.-G. Die Unterschrift 'Rascher' ist handschriftlich in blauer Tinte ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 715,
+    "total_words": 114,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

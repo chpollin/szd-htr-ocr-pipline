@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.900",
+    "title": "Brief an Frans Masereel vom 11. Dezember 1920, SZ-LAS/B1.21",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.900/IMG.1",
+      "https://gams.uni-graz.at/o:szd.900/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 11. Dezember 1920, SZ-LAS/B1.21\n- Signatur: SZ-LAS/B1.21\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:41.898879+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5 Salzburg\n11. XII\n\nMon cher Frans, j'ai recu ton dernier\nlivre „Idee“. C'est le plus beau que tu\nas jamais produit, un poème saisissant,\nplein de force, incomparable dans toute\nl'art nouvelle. Mon vieux, j'étais bien\nfièr de toi! Et je tacherai de rendre\nmes impressions sur tes dessins dans\nun petit essay qui paraîtra dans le\nZeitschrift en allemand et dans l'Art\nlibre en français. Je me faut seule-\nment une minute tranquille. J'ai\nenfin fini la traduction du Cleram-\nbault; et mon livre sur le grand ami\na paru. Un exemplaire est part aujourd-\nhui et j'espère tu l'auras demain\nentre tes mains. Je suis heureux que\ntu sais l'allemand et que tu pourras",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf (Adresszeile und Logo). Die Tinte ist violett. Die Lesbarkeit ist sehr gut."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "le lire!\nJ'ai donne a un excellent ecrivain\ntemoin de Geneve un mot de recommen-\ndation. Il viendra te voir et je suis sur\nqu'il te plaira. Il ecrit très bien et fera\ncertainement un excellent avocat de tes\noeuvres.\nIl est horrible que je doit venir en\nSuisse pour 3 jours a Zurich. Mais je\nne sais pas, si je pourrai pousser jusqu'a\nGeneve, car pour nous le franc se cen-\ntuple en couronnes. Mais je t'averti-\nrai encore.\nMa femme, qui t'aime comme moi,\nte gronde, lorsque nous t'attendons\nencore ici a Salzbourg vainement. Tu\nauras une belle chambre, vivras tout a\nfait dans le calme et au mois de\nprintemps et même en hiver Salzbourg\nest une merveille. Fidèlement ton\nStefan Zweig",
+      "notes": "Fortsetzung des handschriftlichen Briefes. Die Tinte ist violett. Die Lesbarkeit ist sehr gut."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Es gibt keine größeren Unklarheiten.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1354,
+    "total_words": 243,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1201",
+    "title": "Brief an Anna Meingast vom 3. April 1934, SZ-SAM/B7.31",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1201/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1201/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 3. April 1934, SZ-SAM/B7.31\n- Signatur: SZ-SAM/B7.31\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.436886+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place                                  London, den 3.April 1934.\n\n\nLiebe Frau Meingast!\n\nIch habe das Erasmusmanuskript S.1-97 erhalten und\ndanke Ihnen dafür sowie für die anderen Nachrichten. Der\nGoethegesellschaft bitte den Betrag von Mark 9.- für 1934\nzu senden und gleichzeitig mitzuteilen, dass ich wegen Auf-\ngebe meiner Bibliothek die Teilnahme an Vereinen in Hinkunft\naufgebe. Bitte betonen Sie dabei, dass ich zur Zeit verreist\nbin. Ferner möchte ich Sie bitten, ein Exemplar der gesam-\nmelten Gedichte (grosse Ausgabe) an Herrn Joseph Leftwich,\n24 Shepherds Hill, Highgate Village, London zu schicken.\nMit besten Grüssen an alle im Hause Ihr\n\n                                            Stefan Zweig\n\nHerrn Fuchs lasse ich vielmals für seine Korrekturen dan-\nken und hoffe dann noch auf den zweiten Teil. Mit der zwei-\nten Korrektur werde ich ihn dann nicht mehr bemühen.",
+      "notes": "Der Brief ist maschinengeschrieben, die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen maschinengeschriebenen Brief handelt. Die handschriftliche Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 893,
+    "total_words": 129,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

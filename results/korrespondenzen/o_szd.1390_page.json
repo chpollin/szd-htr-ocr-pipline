@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1390",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom August 1908, SZ-SEF/B5.10",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1390/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1390/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1390/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom August 1908, SZ-SEF/B5.10\n- Signatur: SZ-SEF/B5.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:30.786920+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Nieuport — La Tour de l'Eglise.\n\n1443 — Héliotypie De Graeve, Gand.",
+      "notes": "Vorderseite der Ansichtspostkarte mit Bildunterschrift."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTALE\nPOSTKAART\n\nAntworten!\n\nSehr verehrte Fräulein, ich hatte\nIhnen ob eine Adresse hingeschrie-\nben, aber die gilt nicht mehr, wenn\nsie den Karte erreicht. Ich wan-\ndere durch alle flandrischen Orte\nlangsam nach Haus. Anfangs\nSeptember hoffe ich Sie dort schon\nbegrüßen zu können und, wie\nich gar nicht zweifeln will, in\nbestem Wohler sein. Mit vielen\nGrüßen Ihr herzlich getreuer\nStefan Zweig\n\nFräulein Eugenie Hirschfeld\n\nWein Neuhaus (Austria)\nbei Weissenbach n.Ö.",
+      "notes": "Rückseite der Postkarte. Handschrift von Stefan Zweig. Der Text 'Antworten!' ist handschriftlich hinzugefügt. Der Ortsname 'Wein Neuhaus' ist durchgestrichen, aber lesbar. Poststempel: 'NIEUPORT 18-8 08'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "CARTE POSTALE\nPOSTKAART\n\nAntworten!\n\nSehr verehrte Fräulein, ich hatte\nIhnen ob eine Adresse hingeschrie-\nben, aber die gilt nicht mehr, wenn\nsie den Karte erreicht. Ich wan-\ndere durch alle flandrischen Orte\nlangsam nach Haus. Anfangs\nSeptember hoffe ich Sie dort schon\nbegrüßen zu können und, wie\nich gar nicht zweifeln will, in\nbestem Wohler sein. Mit vielen\nGrüßen Ihr herzlich getreuer\nStefan Zweig\n\nFräulein Eugenie Hirschfeld\n\nWein Neuhaus (Austria)\nbei Weissenbach n.Ö.",
+      "notes": "Identisch mit Seite 2, inklusive Farbskala und Maßstab."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift von Stefan Zweig gut lesbar. Die durchgestrichene Stelle ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1021,
+    "total_words": 158,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

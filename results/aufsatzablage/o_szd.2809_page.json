@@ -1,0 +1,118 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2809",
+    "title": "Aufruf zur Geduld",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA9.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2809/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2809/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2809/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2809/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2809/IMG.5"
+    ],
+    "date": "1919",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Richard Friedenthal",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118535579"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "roter Kugelschreiber",
+        "hands": [
+          "Richard Friedenthal"
+        ],
+        "inscriptions": [
+          "1919"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Aufruf zur Geduld\n- Signatur: SZ-AAP/W-AA9.1\n- Datum: 1919\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 2 Blatt\n- Schreibinstrument: roter\n                                       Kugelschreiber\n- Hand: Richard Friedenthal"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:08.165605+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1919\n\nVolk, das noch keine Basis hat! Wir sind Deutsche, aber die\nmeisten wissen es gar nicht, daß dies ein Schicksal ist, eine un-\nentrinnbare Gemeinsamkeit, der sie weder auf katholischen,\nnoch auf sozialistischen Wegen entschlüpfen können; auch nicht\nmit Rätesystem und tollster Internationalität. Vielleicht werden\nwir in drei Jahren, wenn wir lang genug in der Wolfsgrube ge-\nlegen sein werden, allmählich dazu kommen, eine Ahnung von\nVolkseinheit zu empfinden, Dein Hindenburg ebenso wie mein\nLedebour. Vielleicht werden wir, vor der Tür des Völker-\nbundes liegend, oder im Völkerbund, isoliert und überstimmt,\nerkennen, daß wir ein Volk werden müssen.\n\nSTEFAN ZWEIG\t\t\t\tAUFRUF ZUR GEDULD\n\nZu den siebenhundertfünfzig Aufrufen und Manifesten\ndes letzten Jahres noch einen (den niemand zu unterschreiben\nbraucht): Aufruf zur Geduld!\nEinen Aufruf gegen die Aufrufe, gegen die voreilige Zu-\nsammenrottung zusammenhangloser Menschen, die, um irgend\netwas zu beschleunigen, was sie dumpf wünschen, sich zu\nGruppen vereinen, die unter gleichem Wort wahllose Ver-\nschiedenheit der Begriffe einhürden. Nie war geistig die Nei-\ngung zum Herdentrieb bei den Intellektuellen stärker als in\ndiesen Jahren, die Neigung, sich durch Masse zu verstärken,\ndurch Echo — das doch nur bewegte Luft bleibt, so laut es\nauch dröhnt — statt durch innere Intensität. Die rasende, die\nkrankhafte Angst, irgendwo bei einer Bewegung nicht dabei zu\nsein, einen Anschluß zu versäumen, hat ein Mitläufertum er-\nzeugt, so kläglich, so klein, so geistig wertlos, so moralisch\nnichtig wie alle Uniformität. Kaum ist der Krieg da, so rotten\nsich die Entlegensten zusammen, um, jeder, Deutschland der\nWelt zu erklären, kaum ist das Wort Expressionismus erfunden,\nso deutet und deutelt jeder kleine Schreiber, jeder Maler, jeder\nDozent und Schullehrer sein höchst unpersönliches Sein in das\nneue Wort hinein. Kaum hängt die rote Wolle des Bolsche-\nwismus am Himmel, so schreibt jeder sein Broschüren, alles\nbündelt sich hastig zu geistigen, zu handwerklichen Sowjets.\n7",
+      "notes": "Typoskript/Druck. Handschriftliche Annotation '1919' oben rechts. Die Seitenzahl '7' am Ende ist Teil des Druckbildes."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Und kaum ist der Krieg zu Ende, so entdecken sie plötzlich\nalle ein neues Feld, die Völkerversöhnung, die Internationale\ndes Geistes, und flöten Rolland an und Barbusse.\nHier nun Halt zu rufen und zur Geduld zu mahnen, scheint\nmir Pflicht. Denn jene Zusammendrängungen nationaler und\nartistischer Bestrebung waren in einem höheren Sinn gleich-\ngültig. Die zwölftausend Broschüren der deutschen Professoren\nund siebentausend Bände deutscher Kriegslyriker las draußen\nkein Mensch, und die Neutralen, denen sie zentnerweise von der\nPropaganda ins Haus geschickt wurden, heizten im kohlen-\narmen Winter ihre Oefen damit. Ob sich zweitausend oder\nsechstausend deutsche Dichter und Maler zum Expressionismus\nbekannten, war unwesentlich — ein Buch wie Franz Wertels\n„Gerichtstag“ stellt ihn so strahlend in die Zeit, daß der Begriff\nvor dem Werk erblindet. Aber wo diese deutsche Neigung zur\nBündelei an Europa rührt, an die Welt, muß der unwissenden\nUngeduld energisch in den Weg getreten werden: das Manifest\nder 93 hat gezeigt, welchen Schaden Ungeduld und unbelehrte\nEilfertigkeit anzurichten vermag.\nEine Anzahl Menschen empfinden jetzt plötzlich den\nWunsch nach geistiger Einheit Europas. Begreiflicherweise:\ndenn Deutschland befindet sich heute in einer Isolierung des\nHasses, wie niemals eine Nation, und der Durst nach Freund-\nschaft, nach Brüderschaft und Anteilnahme brennt in Mil-\nlionen Herzen. Begreiflich, daß sie nach jedem Funken, jedem\nLichtschein vom andern Ufer hinüberschauen und sehnsüchtig\nihm entgegenwinken, daß sie rufen, schreien und jubeln, wenn\nirgendein Gruß — wie etwa jener der „Clarté“, die ja doch\nnur auch ein Fünkchen Licht ist, keine Helligkeit — her-\nweht, daß sie freudig die Möglichkeit begrüßen, wieder kosmo-\npolitisch an einem Tisch beisammenzusitzen.\nAber an einem Tisch — seien wir uns darüber klar! —,\nviel weiter hinaus reicht es heute noch nicht. Die paar\nMenschen, die drei Dutzend in allen Nationen, die immer einig\nwaren, brauchen einander nicht anzurufen, sie kennen einander,\nund was jetzt eilig dazutritt, sich hastig zu ihnen drängt, bleibt\nbedeutungslos für das Ziel. Denn es handelt sich bei der\nIdee des zukünftigen einigen Europa nicht darum, wer der\nmomentanen Meinung nach Internationalist ist, sondern wer\n8",
+      "notes": "Druck. Seitenzahl '8' am Ende."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "es der Ueberzeugung nach ist. Ich versuchte einmal,\ndiesen Gegensatz (den die wenigsten erkennen) zu formulieren:\n„Meinung haben viele, Ueberzeugung ganz wenige. Meinung\nfliegt zu aus Wort, Zeitungsblatt, Wunsch und Gerede, fliegt\nwieder fort mit dem nächsten Wind und ist immer dem Druck\nder Luft unterworfen. Ueberzeugung wächst aus Erlebnis,\nnährt sich an Bildung, bleibt persönlich und unteilbar an den\nTatsachen. Meinung ist Masse, Ueberzeugung der Mensch.“\nUnd ich füge noch bei: Meinung ist Ungeduld, Ueberzeugung\nGeduld. Wer rasch zuläuft, läuft rasch wieder fort. Deshalb\ndies Mißbehagen, das wir empfinden, wenn der Internationalis-\nmus, der heute nach dem Kriege als Bekenntnis ganz gefahrlos\nist, mit einemmal soviel Zuläufer findet. Denn diese Un-\ngeduldigen wollen Scheinresultate: Kongresse und Besuche,\neine Attrappe von Versöhnung, die immer nur dieselben drei\nDutzend Schauspieler mit immer anders verteilten Rollen\nspielen werden, begleitet von einigen opportunistischen\nStatisten, die jetzt, wo das Stück einigen Applaus hat, sich\nzugesellen.\nAber geben wir uns keiner Täuschung hin: es ist ein Schau-\nspiel nur. Ernüchtern wir die eigene Neigung, zwingen wir uns\num zu jenem bessern Gefühl, das mit dem unheroischen Namen\nResignation genannt wird und doch der wahre Heroismus ist:\nzur Geduld. Haben wir den Mut, uns zu sagen: wir sind eine\nverlorene Generation, wir werden das einige Europa nicht mehr\nsehen. Zwischen uns und Frankreich liegen die verwüsteten\nGebiete und drei Millionen Gräber. Zaubern wir keine Potem-\nkinsten Dörfer herauf, täuschen wir uns nicht darüber, daß\nall die Zuläufer abfallen werden, wenn nicht im ersten An-\nsprung die Völkerversöhnung zusammenkommt (oder ein neuer\nSprengstoff erfunden wird, der den Sieg sichert). Haben wir\nden Mut, sagen: wir sind drüben und herüben nur kleine,\nganz unendlich kleine verläßliche Minoritäten, alles, was wir\ntun und wirken, ist unfruchtbar, unsichtbar, undenkbar in der\ngegenwärtigen Zeit, die vierhundert oder tausend Menschen,\ndie jetzt die Manifeste unterschreiben, nässen nur weißes\nPapier. Locken nicht die Begeisterung der Jugend in den\nWahn, sie könnten morgen oder in fünf Jahren schon wieder\nauf den Bänken der Sorbonne und den geliebten Straßen des\n9",
+      "notes": "Druck. Seitenzahl '9' am Ende."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Quartier Latin mit Kameraden schwärmen, bewahren wir sie\nvor allzu stürmischer Anbiederung (die, enttäuscht, in Haß um-\nschlagen würde), mahnen wir mit zum einen: zur Geduld. Vor\nGott sind tausend Jahre ein Tag, im Leben eines Volkes jede\nGeneration nur eine Stunde: denken wir über unsere verlorene\nhinaus der nächsten entgegen, die — ich fürchte es gegen meinen\nWunsch — wohl schon hinter unseren Tagen ist. Und suchen\nwir keine Fülle, kein Getümmel von Menschen, wo immer nur\nder Platz einiger weniger war: in der geduldigen werktätigen,\nanonymen Aufopferung zu unsichtbarem Ziel. Lassen wir die\nrasch aufsteigenden Feuerwerke der Manifeste, sie stürzen tat-\nlos aus den Himmeln unserer Hoffnung zurück: gehen wir lang-\nsam den dunklen Weg unserer Erde, den Weg der Geduld!\n\nLOUIS GILLET in der\t\tLUDENDORFF IN FRANZÖSISCHER\n„Revue des deux Mondes“\t\tBELEUCHTUNG\n\nIn dem von den Deutschen verlassenen Schloß Versigny, wo sich\nvor unserer großen Juli-Offensive das Hauptquartier der 10. Armee\nbefand, hing unter Nuditäten und Kaiserbildern das Porträt des\nGenerals Ludendorff. Ein unvornehmer Denkerkopf mit riesiger\nStirn erzwang unsere Beachtung. Damals wußten wir wenig vom\nungekrönten Herrscher Deutschlands. Wir kannten den General als\nEroberer Lüttichs, als Seele der deutschen Unternehmungen im Osten,\nals Angreifer und Verteidiger an der Westfront. Soviel war uns\ndamals schon klar: der Kaiser war seit langem nur noch eine\nParadefigur, Hindenburg ein Fetisch, ein harmloser Knecht Ruprecht;\ndie eigentliche Triebkraft auf feindlicher Seite, der Herr und Meister\ndes Deutschen Reiches war Ludendorff. Immer wieder kehrte unsere\nUnterhaltung zu ihm zurück.\nAls Flüchtling hat Ludendorff in Schweden seine Erinnerungen\ngeschrieben. Sie sind eine Enttäuschung. Etwas schnell, in einem\nknappen halben Jahr, ist der Wälzer von 600 Seiten zustande ge-\nkommen. Immerhin handelt es sich um ein Quellenwerk ersten\nRanges. Nicht an ferne Zukunft, an unmittelbare Gegenwart hat\nLudendorff bei Niederschrift seiner Erinnerungen gedacht. Er ist\nkein abgeklärter Philosoph, er ist ein Kämpfer, der sein Schwert\nnoch nicht an den Nagel gehängt hat. Der Mann, dem Deutschland\nsein Schicksal anvertraut, den es jahrelang für seinen rettenden Gott\ngehalten hat, den es heute für den Zusammenbruch verantwortlich\n10",
+      "notes": "Druck. Seitenzahl '10' am Ende."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Quartier Latin mit Kameraden schwärmen, bewahren wir sie\nvor allzu stürmischer Anbiederung (die, enttäuscht, in Haß um-\nschlagen würde), mahnen wir mit zum einen: zur Geduld. Vor\n\nLOUIS GILLET in der\t\tLUDENDORFF IN FRANZÖSISCHER\n„Revue des deux Mondes“\t\tBELEUCHTUNG\n\nIn dem von den Deutschen verlassenen Schloß Versigny, wo sich\nvor unserer großen Juli-Offensive das Hauptquartier der 10. Armee\nbefand, hing unter Nuditäten und Kaiserbildern das Porträt des\nGenerals Ludendorff. Ein unvornehmer Denkerkopf mit riesiger\nStirn erzwang unsere Beachtung. Damals wußten wir wenig vom\n\nkein abgeklärter Philosoph, er ist ein Kämpfer, der sein Schwert\nnoch nicht an den Nagel gehängt hat. Der Mann, dem Deutschland\nsein Schicksal anvertraut, den es jahrelang für seinen rettenden Gott\ngehalten hat, den es heute für den Zusammenbruch verantwortlich\n10",
+      "notes": "Druck. Ausschnitt mit Archiv-Farbskalen überlagert. Die Transkription umfasst nur die sichtbaren Textfragmente, die nicht von den Skalen verdeckt sind."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die Überlagerungen durch die Farbskalen in Bild 5 wurden bei der Transkription berücksichtigt (nur sichtbare Teile transkribiert).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 9694,
+    "total_words": 1449,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

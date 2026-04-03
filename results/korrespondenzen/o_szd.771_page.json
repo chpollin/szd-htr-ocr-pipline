@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.771",
+    "title": "Brief an Herbert Reichner vom 13. Januar 1938, SZ-AAP/B1.175",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.771/IMG.1",
+      "https://gams.uni-graz.at/o:szd.771/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 13. Januar 1938, SZ-AAP/B1.175\n- Signatur: SZ-AAP/B1.175\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:30.419073+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                   13.Januar 1938.\n\nGeehrter Herr Reichner,\n\n                                   Ich übersende Ihnen anbei in Sa-\nchen Tal die Kopie des Briefes, den ich knapp vor der\nAbreise an Dr. Geiringer gerichtet habe, zu Ihrer\nKenntnisnahme.\n                                   Zu meinem Bedauern ist von Olten\nder Scheck, um dessen sofortige Uebersendung ich in\nmeinem Brief vom 30. an Sie bat, noch nicht eingelangt\nund so tritt gerade das ein, was ich vermeiden wollte,\nnämlich dass der Scheck von Olten in meiner Abwesenheit\neinlangt. Sollten Sie den Auftrag nach Olten noch nicht\ngegeben haben, so bitte ich zu tun mit dem ausdrücklichen\nVermerk, dass der Betrag mit einem gekreuzten Scheck ge-\nschickt wird, damit das Risiko vermindert ist. Ebenso\nhabe ich auch noch keine Bestätigung von Dr. Geiringer\nüber den Erhalt des Schecks. Ich habe auf Ihre sonstige\nPünktlichkeit unbedingt gerechnet und es ist mir inso-\nferne besonders unangenehm, als der Scheck jetzt nach\nmeiner Abreise einlangt und mir nachirren wird. Ich bitte\nSie auch den Scheck an Dr. Geiringer sofort abzusenden.",
+      "notes": "Typoskript auf Briefpapier. Die Lochungen am linken Rand sind sichtbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite ist erkennbar, wird aber gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1108,
+    "total_words": 163,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

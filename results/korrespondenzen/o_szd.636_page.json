@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.636",
+    "title": "Erich Freund an Stefan Zweig, 1912-01-06, SZ-SAM/AK.66",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.636/IMG.1",
+      "https://gams.uni-graz.at/o:szd.636/IMG.2",
+      "https://gams.uni-graz.at/o:szd.636/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Erich Freund an Stefan Zweig, 1912-01-06, SZ-SAM/AK.66\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.66\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.669852+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Breslau. Matthiaskunst.",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Breslau. Handschriftliche Notizen am oberen Rand: '6. 1. 12.', 'Erich Freund', 'A. Samegger' und ein unleserliches Wort links oben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Freund Zweig!\nZum Zeigen, daſs ich weder Ihre\nGrüße noch die Sorge mit\nMontor vergaſs, sende ich\nIhnen einen schönen Gruſ,\nim Verein mit Herrn Dr.\nFreund.\nNehmen Sie einen herzlichen\nGruſ von Ihren Ihren\nmit ergebenen Erich Freund\nA. Samegger.\n\nHerrn\nDr. Stefan Zweig\nin Wien VIII\nKochgasse 8.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Briefmarke 'Deutsches Reich' 5 Pfennig, Poststempel 'Breslau -6. 1. 12'. Die Zeile 'von Ihren Ihren' scheint ein Schreibfehler des Autors zu sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte die bereits transkribierte Rückseite der Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist klar, auch wenn die Tinte teilweise etwas verblasst ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 323,
+    "total_words": 53,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

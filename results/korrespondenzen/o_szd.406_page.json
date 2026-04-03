@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.406",
+    "title": "Jüdischer Jugendverein (Düsseldorf) an Stefan Zweig, 1930-06-18, SZ-SAM/AK.125",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.406/IMG.1",
+      "https://gams.uni-graz.at/o:szd.406/IMG.2",
+      "https://gams.uni-graz.at/o:szd.406/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Jüdischer Jugendverein (Düsseldorf) an Stefan Zweig, 1930-06-18, SZ-SAM/AK.125\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.125\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.230810+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Schnellenburg Düsseldorf 18.VI.1930\n\nGarten",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Notiz am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Rheinrestaurant Schnellenburg\nInh.: Franz Herriger, Düsseldorf. Fernruf 301 20\nSchönstgelegenes Lokal an der Rheinfront\n\nVon einem [?] [?] [?]\n[?] [?] [?] [?] [?]\n[?] [?] [?] [?] [?]\n[?] [?] [?] [?] [?]\nHans Morth, [?] [?]\n[?] [?] [?]\n[?] [?] [?]\nIrene Spiess, W. [?] [?]\nHiede ell Vries, Margot Engel\nH. [?] [?] [?]\n[?] [?] [?] [?]\n\nHerrn\nStephan Zweig\nSalzburg\nKapuzinergasse 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Grußbotschaft mit zahlreichen Unterschriften, teilweise schwer lesbar. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Rheinrestaurant Schnellenburg\nInh.: Franz Herriger, Düsseldorf. Fernruf 301 20\nSchönstgelegenes Lokal an der Rheinfront\n\nVon einem [?] [?] [?]\n[?] [?] [?] [?] [?]\n[?] [?] [?] [?] [?]\n[?] [?] [?] [?] [?]\nHans Morth, [?] [?]\n[?] [?] [?]\n[?] [?] [?]\nIrene Spiess, W. [?] [?]\nHiede ell Vries, Margot Engel\nH. [?] [?] [?]\n[?] [?] [?] [?]\n\nHerrn\nStephan Zweig\nSalzburg\nKapuzinergasse 5",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "low",
+  "confidence_notes": "Die Unterschriften und der handschriftliche Text auf der Rückseite sind aufgrund der Überlagerung und der kursiven, teils flüchtigen Schrift sehr schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 801,
+    "total_words": 140,
+    "language_detected": "",
+    "language_match": true
+  }
+}

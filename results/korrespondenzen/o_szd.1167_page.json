@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1167",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1167/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1167/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.8\n- Signatur: SZ-SAM/B11.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.278892+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Montag,\nLiebe Frau Meingast,\nbitte schreiben Sie mir, ob die\nBücher richtig eingetroffen sind.\nIch sandte Sie Samstag und\nauch Täglich die spärter ein[?]\nTreffende Briefpost. Hoffentlich\nist es nicht zu heiss in Wien.\nHier ist es zwar noch warm, aber\nherrlich klar. Willi war heute\nbei uns zu Tisch und abends\nsah er in einen sehr schönen\nFilm „Bengali“. Er sieht gut und\nmunter aus und ist, wie er sagt\nviel eingeladen.\nDie Stadt erholt sich langsam\nvon dem Goldregen, den sie heuer\ngenoss. Noch gestern mussten die",
+      "notes": "Die Handschrift ist flüssig, aber teilweise eng geschrieben. 'spärter ein' ist eine unsichere Lesung."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Absender: Frau STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\nLeute in Badezimmern\nübernachten u. manche\nHotels sind noch bis gegen\nMitte des Monats ausver-\nkauft u. viele Villen schon\nfür nächstes Jahr gemietet.\nDie Menschen sehen daher\nfroh und zufrieden aus,\nwas sehr angenehm wirkt.\nHoffentl. ist mein Mann\nweder von Zahnarzt noch te-\nlefon arg belästigt. Alles\nGute u. schönen Gruss\nvon Ihrer Friderike Zweig\n\nPostkarte\nFrau\nAnna Meingast\nWien IX\nDollfussplatz\nHotel Regina",
+      "notes": "Die Adressseite enthält einen Poststempel 'SALZBURG -3. IX. 35 12' und eine Briefmarke. Der Text ist gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Abkürzungen und der kursiven Schreibweise von Friderike Zweig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 986,
+    "total_words": 162,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1705",
+    "title": "Brief an Anna Meingast vom 18. Februar 1936, SZ-SAM/B7.72",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1705/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1705/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 18. Februar 1936, SZ-SAM/B7.72\n- Signatur: SZ-SAM/B7.72\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.928501+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place\nLondon W.1.                                18.Februar 1936.\n\nLiebe Frau Meingast!\n                                     morgen\nIch schicke Ihnen die ersten\nfünf Kapitel. Was neu zu übertragen ist oder zu\nschmierig, bitte ich neu herzustellen und dann\nein möglichst tadelloses Manuskript an Reichner\nnach Wien zu schicken (selbstverständlich rekom-\nmandiert). Mein Manuskript geht dann am besten\nan mich zurück. Sie werden ja selbst aus dem Frü-\nheren sehen, welche Seiten es nottut neu zu schrei-\nben. Das Ganze eilt nicht sehr, ich bin ja hier mit\ndem andern Teil noch nicht ganz fertig und lasse\nkeinesfalls drucken, ehe nicht das ganze Manuskript\nvorliegt. Bitte nur sehr sorgfältig das Manuskript\naufzuheben, denn wir haben es nur zum Teil nachkor-\nrigiert.\n\n                                     Mit besten Grüssen\n\n                                     Stefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Korrektur ('morgen' über der Zeile eingefügt) und handschriftlicher Unterschrift. Die Tinte der Unterschrift und der Korrektur ist violett."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Einfügung 'morgen' wurde als solche erkannt und entsprechend markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 886,
+    "total_words": 119,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

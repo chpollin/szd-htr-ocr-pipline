@@ -1,0 +1,77 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1423",
+    "title": "Brief an Heinrich York-Steiner vom 26. Juli 1929, SZ-SAH/B4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1423/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1423/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1423/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Heinrich York-Steiner vom 26. Juli 1929, SZ-SAH/B4\n- Signatur: SZ-SAH/B4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:33.022956+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG 5\n\n26. Juli 1929.\n\nLieber und verehrter York-Steiner!\n\nEs ist mir ein schmerzliches Gefühl, Sie so nahe zu wissen\nund nicht sehen zu dürfen, aber Dr. Jellinek, bei dem wir uns in-\nformierten, sagte uns, dass man von Besuchen zunächst absehen soll,\num Sie nicht zu ermüden. Andererseits gab er uns die erfreuliche\nHoffnung, dass Sie in allerkürzester Zeit als vollkommen genesen\nbetrachtet werden können, und diese Mitteilung hat bei meiner Frau\nund mir die äusserste Freude erregt und ich habe sie sofort auch\nmeinem Bruder weitergegeben, der mit lebhaftester Anteilnahme von\nfernher Ihre Rekonvaleszenz verfolgt. Hoffentlich wird es uns bald\nerlaubt sein, Ihnen die Hand drücken zu dürfen.\n\nHeute nur alle Genesungswünsche und herzliche Grüsse\nvon Ihrem ergebenen\n\nStefan Zweig",
+      "notes": "Das Wort 'York' in der Anrede ist handschriftlich über das gedruckte 'Fork' korrigiert (durchgestrichen). Die Unterschrift ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "ZWEIG",
+      "notes": "Rückseite des Briefes, enthält lediglich das handschriftlich notierte Wort 'ZWEIG' in der unteren Mitte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "SALZBURG\nKAPUZINERBERG 5\n\n26. Juli 1929.\n\nLieber und verehrter York-Steiner!\n\nEs ist mir ein schmerzliches Gefühl, Sie so nahe zu wissen\nund nicht sehen zu dürfen, aber Dr. Jellinek, bei dem wir uns in-\nformierten, sagte uns, dass man von Besuchen zunächst absehen soll,\num Sie nicht zu ermüden. Andererseits gab er uns die erfreuliche\nHoffnung, dass Sie in allerkürzester Zeit als vollkommen genesen\nbetrachtet werden können, und diese Mitteilung hat bei meiner Frau\nund mir die äusserste Freude erregt und ich habe sie sofort auch\nmeinem Bruder weitergegeben, der mit lebhaftester Anteilnahme von\nfernher Ihre Rekonvaleszenz verfolgt. Hoffentlich wird es uns bald\nerlaubt sein, Ihnen die Hand drücken zu dürfen.\n\nHeute nur alle Genesungswünsche und herzliche Grüsse\nvon Ihrem ergebenen\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, jedoch mit eingeblendeten Farbkarten/Grauskalen des Archivs."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen maschinengeschriebenen Brief mit handschriftlicher Korrektur und Unterschrift handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1607,
+    "total_words": 247,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.99,
+    "edited_pages": [],
+    "notes": "Typewritten letter with handwritten correction (Fork→York) and signature. All text accurately transcribed. Page 2 blank (faint pencil mark 'ZWEIG' correctly noted). Page 3 confirmed color chart. Duplicate_pages flag is expected (color chart re-photograph).",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
+  }
+}

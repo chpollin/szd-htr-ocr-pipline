@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1557",
+    "title": "Brief an Richard Friedenthal vom 22. Februar 1941, SZ-AAP/B2.31",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1557/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1557/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1557/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 22. Februar 1941, SZ-AAP/B2.31\n- Signatur: SZ-AAP/B2.31\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:42.098476+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "c/o Viking Press\n18 East 48th Street\nNew York City\n\nNewhaven, 22nd February 1941\n\nDear friend,\n\nYou may imagine my disappointment on learning that the\ntwo telegrams which the Minister of the Exterior of Argentine sent\non behalf of your visa have been without success owing to the re-\nsistance of the Consul. Here in the United States nothing can be\ndone just now as emergency visa are only given for people in the\nGerman-occupied countries, and it is a source of happiness in these\ndays to know that England will never be one of those. I shall pro-\nbably have to return to South America and then I hope to be more\nsuccessful in another country about your visa. The misfortune was\nthat I felt of course sure that two telegrams of the Minister of the\nExterior would be sufficient, and I considered the whole affair al-\nready as completely settled.\n\nThere is not much to be told about myself. I have given\ntwenty lectures in South America, have been deep in the interior of\nArgentine and Brazil and have seen a lot, but only now I feel how\nexhausted I was by all this - it was not so much the travelling nor\nthe lectures themselves, but the brain feels the strain if one speaks\nfour or five languages from morning till night, all at the same time.\n- In the meantime I have come to Newhaven because I have the library\nof the Yale University at my disposition so that I can finally take\nup my work again. A return to England for which I had hoped is in\nthis moment technically impossible as for months to come there are no\npassages available, and so I will have to take up lecturing again in\nspring. Sometimes I begin to feel that I am near the sixties and\nthat I have to pay this nomadic life with lack of concentration. But\nnobody has the right to complain now, and I know that you are having\na much harder time. Unfortunately you did not tell me whether your\nnovel is already finished. I would like to help in finding a\npublisher.\nI need not assure you, my dear friend, that I do not\nfor one moment forget you and that you can always count upon my help\nin the literary and material sense. The best is that you write to me\nc/o my publishers, the Viking Press, Newyork, as I do not yet know\nwhen I shall have to return to South America and in which countries\nI shall go.\n\nWith kindest regards,\n\nYours as ever,\n\nKindest regards, best wishes,\nLotte Zweig\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Grußformeln und Unterschriften von Lotte und Stefan Zweig). Die Unterschriften befinden sich am Ende des Textkörpers."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (bleed-through)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "c/o Viking Press\n18 East 48th Street\nNew York City\n\nNewhaven, 22nd February 1941\n\nDear friend,\n\nYou may imagine my disappointment on learning that the\ntwo telegrams which the Minister of the Exterior of Argentine sent\non behalf of your visa have been without success owing to the re-\nsistance of the Consul. Here in the United States nothing can be\ndone just now as emergency visa are only given for people in the\nGerman-occupied countries, and it is a source of happiness in these\ndays to know that England will never be one of those. I shall pro-\nbably have to return to South America and then I hope to be more\nsuccessful in another country about your visa. The misfortune was\nthat I felt of course sure that two telegrams of the Minister of the\nExterior would be sufficient, and I considered the whole affair al-\nready as completely settled.\n\n[...]\n\nnobody has the right to complain now, and I know that you are having\na much harder time. Unfortunately you did not tell me whether your\nnovel is already finished. I would like to help in finding a\npublisher.\nI need not assure you, my dear friend, that I do not\nfor one moment forget you and that you can always count upon my help\nin the literary and material sense. The best is that you write to me",
+      "notes": "Dasselbe Dokument wie Seite 1, jedoch mit aufgelegter Farbskala und Grauskala zur Archivierung. Der Text ist teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript, die handschriftlichen Ergänzungen sind gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3613,
+    "total_words": 677,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

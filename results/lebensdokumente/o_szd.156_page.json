@@ -1,0 +1,93 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.156",
+    "title": "Correspondenz-Karte [blanko]",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SAM/L6",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.156/IMG.1",
+      "https://gams.uni-graz.at/o:szd.156/IMG.2",
+      "https://gams.uni-graz.at/o:szd.156/IMG.3"
+    ],
+    "document_type": "postcard",
+    "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Fidus",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118687077"
+        }
+      ],
+      "subject": [
+        "Büromaterialien"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047604132",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Anna Meingast",
+        "Erwerb: Schenkung Wilhelm Meingast 2000"
+      ],
+      "physical_description": {
+        "dimensions": "14x9 cm"
+      },
+      "notes": "Auf der Rückseite ein von Fidus (Hugo Höppener) gestaltetes schwarzes Signet mit dem Namenszug Stefan Zweigs"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Correspondenz-Karte [blanko]\n- Signatur: SZ-SAM/L6\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Auf der Rückseite ein von Fidus (Hugo Höppener) gestaltetes schwarzes Signet mit dem Namenszug Stefan Zweigs"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.996416+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte.\n\nAn\n\n\n\n\n\nin\n\nNur für die Adresse",
+      "notes": "Die Anordnung entspricht dem gedruckten Formular. 'Nur für die Adresse' steht vertikal am linken Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "STEFAN ZWEIG",
+      "notes": "Das Logo zeigt eine stilisierte Figur, die einen Reifen rollt (Fidus-Signet)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Correspondenz-Karte.\n\nAn\n\n\n\n\n\nin\n\nNur für die Adresse",
+      "notes": "Dies ist eine Wiederholung der Vorderseite im Kontext der Farb- und Grauskalen-Referenz."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die Transkription ist vollständig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 118,
+    "total_words": 16,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

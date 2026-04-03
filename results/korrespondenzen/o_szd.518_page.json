@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.518",
+    "title": "Barbra Ring an Stefan Zweig, 1923-06-11, SZ-SAM/AK.227",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.518/IMG.1",
+      "https://gams.uni-graz.at/o:szd.518/IMG.2",
+      "https://gams.uni-graz.at/o:szd.518/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Barbra Ring an Stefan Zweig, 1923-06-11, SZ-SAM/AK.227\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.227\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.701847+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Utsigt fra Frognersæterens Hovedrestaurant.\n1\nEneret",
+      "notes": "Vorderseite einer Ansichtskarte mit Landschaftsaufnahme. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Stefan Zweig\nKapuzinerberg 5\nSalzburg\nÖsterreich\n\nLiebe Freunde Zweig und Fridel,\nEin Gruss from the founder\nand general secretary of the\nP.E.N Club and a view\nof Oslo! Ich vermisse\nEuch! - Amyh Scott\nBarbra Ring Hermon Ould",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adresse. Briefmarke und Poststempel (Oslo 11 VI 23) vorhanden. Der Text ist teilweise überlagert durch den Poststempel."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, sowie die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der Überlagerung durch den Poststempel auf Seite 2. Die Namen der Absender (Amyh Scott, Barbra Ring, Hermon Ould) sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 282,
+    "total_words": 45,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

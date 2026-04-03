@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1117",
+    "title": "Brief an Max Fleischer vom 23. März 1903, SZ-LAS/B3.37",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1117/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1117/IMG.7"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 23. März 1903, SZ-LAS/B3.37\n- Signatur: SZ-LAS/B3.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:14.057241+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Max Fleischer\n\nBöhmen\nKomotau\nKohlstadtgasse",
+      "notes": "Adressseite eines Briefumschlags. Briefmarke: 10 Heller Österreich. Poststempel: WIEN 1/1, 23. III. 03."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefumschlags mit Poststempel (unleserlich)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Lieber Max,\nes war mein fester Entschluß,\ndir, der mir fünf Monate keine Zeile\nsendet, nicht zu schreiben. Und nun un-\ngern thu ich es heute.\nIch habe gestern deinen lieben\nBruder gesprochen. Er ist sicher einer,\nder dich gern hat und dem du nicht\nnachsagen kannst, er mache sich schlecht.\nDa, als die best. Aber ich will dich doch\nerinnern, wenn die deine Dissertation\nbegonnen hast – es ist bald ein Jahr.\nIch bin kein Moralprediger und\nhätte für meine eigene Dissertation\nauf etwas mehr Fleiß von nöthen,\naber ich hoffe, du erkennst mich noch\nals Freund an, der dich bittet, end-\nlich einmal ein Ende zu machen.\nVielleicht dankst du doch einmal",
+      "notes": "Erste Seite des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite (Rückseite von Seite 3)."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "nach, was aus dir werden soll.\nVon mir schreibe ich nichts,\nweil ich – durch die Schmerzen\nveranlaßt – fürchte, dich mit din-\ngen zu belästigen, die dich nicht im\nmindesten in Betracht ziehen. Und die\nGrüße von Fräulein Josefa Metz\nfühle ich mich verpflichtet, dir zu\nübertragen.\nEs thut mir leid, daß\ndas kein Brief geworden ist\nwie es sich unter guten Freunden\ngehört; ich hoffe, du läßt aber\nein, daß da keine Schuld trifft\nDeine dir trotz allem in alter\nHerzlichkeit und Treue zugethan\nStefan Zweig",
+      "notes": "Zweite Seite des Briefes."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite (Rückseite von Seite 5)."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan mit Farb- und Grauskala zur Kalibrierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, der Kontext der Korrespondenz ist klar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 1199,
+    "total_words": 208,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

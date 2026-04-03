@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1609",
+    "title": "Brief an Lotte Altmann vom 17. Juni 1938, SZ-AAP/B1.254",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1609/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1609/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1609/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1609/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1609/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Lotte Altmann vom 17. Juni 1938, SZ-AAP/B1.254\n- Signatur: SZ-AAP/B1.254\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:47.244508+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "J. STROBL\nVEREINIGTE\nWIENER GROSSBUCHBINDEREIEN A.G.\nW I E N · III · R E N N W E G 50\nUNSER ZEICHEN: T/M\nWIEN, am 17. Juni 1938.\n\nHochwohlgeboren\nFräulein Lotte Altmann,\n\n50 Woodstock Road.\nNW 11, London.\n\nBETRIFFT:\n\nIn der Beilage übermitteln wir Ihnen eine Ab-\nschrift unseres rekommandierten Schreibens an das Schweizer\nVereinssortiment und hoffen, daß dasselbe seine Wirkung nicht\nverfehlen wird.\n\nHochachtungsvoll\nJ. STROBL\nVEREINIGTE\nWIENER GROSSBUCHBINDEREIEN A.G.\n\n1 Beilage\n\nBUCHEINBÄNDE JEDER ART / LINIERANSTALT\nTELEPHON: U-14-5-18 SERIE\nDin-Format A4 (210x297)",
+      "notes": "Geschäftsbrief auf Firmenpapier der Firma J. Strobl. Maschinenschrift mit handschriftlicher Unterschrift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "J. STROBL\nVEREINIGTE\nWIENER GROSSBUCHBINDEREIEN A.G.\nW I E N · III · R E N N W E G 50\nUNSER ZEICHEN: T/M\nWIEN, am 18. Juni 1938.\nTitl.\n\nSchweiz.Vereinssortiment,\n\nOlten.\nSchweiz.\n\nBETRIFFT:\n\nWir ersehen aus Ihrem den ausländischen Buchhand-\nlungen übermittelten Prospekt, daß Sie die von uns am 12.März 1938\ngelieferten Bücher von Stefan Zweig als Eigentum eines uns unbe-\nkannten Verlages Herbert Reichner Zürich zur alleinigen Auslieferung\nankündigen.\n\nDa diese Bücher von uns hergestellt und von uns an\nSie versandt wurden, müssen wir uns mit unserer Forderung an den\ngegenwärtigen Besitzer halten und fordern Sie auf, jede weitere Aus-\nlieferung dieser Bände zu unterlassen, oder unsere Forderung für die\nLieferung vom 12.März 1938 im Betrage von öS 4.061.35 = sfr 4758.47\nanzuerkennen.\n\nWir machen Sie für deren Eingang an uns oder an den\nunter kommissarischer Leitung stehenden Reichner Verlag in Wien\nunbedingt haftbar.\n\nWir erwarten Ihre umgehende Stellungnahme zu unseren\nvorstehenden Ausführungen.\n\nMit deutschem Gruß !\nJ. S T R O B L\nVEREINIGTE\nWIENER GROSSBUCHBINDEREIEN A. G.\n\nEINGESCHRIEBEN\n\nBUCHEINBÄNDE JEDER ART / LINIERANSTALT\nTELEPHON: U-14-5-18 SERIE\nDin-Format A4 (210x297)",
+      "notes": "Geschäftsbrief auf Firmenpapier der Firma J. Strobl. Maschinenschrift."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1766,
+    "total_words": 268,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

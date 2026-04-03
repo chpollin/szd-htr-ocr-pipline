@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1165",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1165/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1165/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.6\n- Signatur: SZ-SAM/B11.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.060579+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "27/XII 34\nLiebe Frau Meingast nochmals alles\nGute für 1935 u. Dank für die Grüsse. Bitte\nalso jetzt am 1ten meinen Cassier zu machen\nJohann, Lese zu beteilen u. nach Wien\nan die adresse meiner Schwester 100 Sch\nzu senden. Ferner bitte für ein Tr. [?] Alfresco\nMeyer 25 Sch. zu einem Couvert bereitzuhalten.\nBitte Frau Meingast sehen Sie nach wie viel Abdrucke\noder Abdrucke mir von „Beschäftigung mit einem\nHandwerk“ haben, ferner ob ein Buch von Zulika\nPary (im Gangkasten?) sich befindet -\n\n[Randnotiz, vertikal:] Manst erhalt[?] auch\netwas im Januar",
+      "notes": "Die Handschrift ist flüchtig. Die Randnotiz am rechten Rand ist schwer lesbar. 'Tr.' könnte für 'Traktat' oder eine Abkürzung für einen Namen stehen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Es soll im April gekommen\nsein. Ich hoffe Sie haben Villi\nnoch bei sich. An alle\nGrüsse, Johann, Friderl,\nalltags noch gute Wünsche.\nGrüsse an meine Tochter,\ndenen ich morgen wieder\nschreibe.\nAlles Gute Ihre Fr Zw\n\n[Adressseite:]\nFrau Anna Meingast\nbei Fr. Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Die Postkarte enthält einen Poststempel 'NICE CENTRE 29 XII 34' und eine französische Briefmarke (90c). Der Text auf der linken Seite ist in der für Friderike Zweig typischen Handschrift verfasst."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Einige Wörter (insb. Abkürzungen und Eigennamen wie 'Zulika Pary' oder 'Villi') sind aufgrund der kursiven, flüchtigen Handschrift schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 839,
+    "total_words": 139,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1213",
+    "title": "Brief an Anna Meingast vom 12. Oktober 1934, SZ-SAM/B7.43",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1213/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1213/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 12. Oktober 1934, SZ-SAM/B7.43\n- Signatur: SZ-SAM/B7.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.284676+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "TEL.: LANGHAM 2030.\n\n11, PORTLAND PLACE,\nLONDON, W.1\n\n12. Oktober 1934\n\nLiebe Frau Meingast!\n\nIch habe mit bestem Dank die fünf Kapitel empfangen,\nwo nur drei Seiten schlecht geheftet waren, was ich umstelle.\nGeändert wird nichts Wesentliches darinnen ausser ganz klei-\nnen Kleinigkeiten mehr. Inzwischen haben Sie ja Kapitel XI und\ndas frühere Kapitel VI bekommen, und so wird es rastlos weiter-\ngehen. Sie sehen, wie sehr Sie im Irrtum waren mit der Befürch-\ntung, nichts zu tun zu bekommen und ich fürchte, oder vielmehr\nich hoffe, es wird nicht besser werden.\nAn Frau Paula Bernstein bitte die Marie Antoinette zu\nsenden, aber bitte rekommandiert, und wenn dann neue Exemplare\nda sind, auch einen Erasmus. Bitte das zur Notiz zu nehmen. Ich\nschreibe ihr inzwischen selbst.\nAn den Verlag Pantheon bitte zu schreiben, dass ich\neinverstanden bin, dass er die \"Heilung durch den Geist\" heraus-\nbringt und ich fünfhundert oesterreichische Schillinge ein für\nallemal dafür verlange.\nSonst geht es mir gut und hoffentlich Ihnen gleichfalls.\n\nViele Grüsse Ihres ergebenen Stefan Zweig\n\nBitte auf jeden Fall Frau Bernstein in unser Uebersetzerlexikon\neinzutragen.",
+      "notes": "Der Brief ist maschinenschriftlich verfasst, die Unterschrift 'Stefan Zweig' ist handschriftlich in violett-blauer Tinte hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klarer Maschinendruck, die Transkription ist eindeutig. Die handschriftliche Unterschrift ist gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1158,
+    "total_words": 181,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1623",
+    "title": "Brief an Stefan Zweig, o. D., SZ-AAP/B1.268",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1623/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1623/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig, o. D., SZ-AAP/B1.268\n- Signatur: o. D., SZ-AAP/B1.268\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:49.119787+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1, Granville Square\nW.C.1\n\nStefan Zweig Esq.\n49, Hallam Street\nW.1\n\nSehr geehrter Herr Zweig,\n\nIch wollte Ihnen nur sagen, wie\ndankbar ich Ihnen bin, dass Sie mir diese Exemplare Ihrer\nBuecher fuer einige Zeit zur Verfuegung gestellt haben.\nIch werde Ihnen alles wieder zuerueckerstatten, sobald ich\nExemplare direkt vom Verlag erhalten kann. Schliesslich\nkonnte ich ja diese Auftraege, die an mich gelangten, nicht\nunbeachtet lassen und wie Sie aus der Karte ersehen, die\nich beilege und die ich gerade heute vom Schweizer Vereins-\nsortiment erhalten habe, koennen mir diese Leute ja nicht\nden Rabatt geben, der unbedingt notwendig ist, wenn ich\nhier Buecher an Buchhandlungen wieter verkaufen will. Ich\nhabe zwar mein ganzes hiesiges Geschaeft bereits aufgegeben,\nda ich ja keine Exemplare von Reichner erhalten kann, aber\nich musste einfach die bei mir bereits liegenden Auftraege\nausfuehren, denn sonst haette der Verlag selbst Schaden er-\nlitten. Denn das war ja der ganze Sinn der englischen Aus-\nlieferung, dass die englischen Buchhaendler, die sehr be-\nquem sind, die Buecher hier bekommen koennen. Denn in die\nSchweiz schicken die eine Bestellung nicht, das ist ihnen\nviel zu unbequem. Man muss also hier eine Auslieferungs-\nstelle haben, die die Buecher vom Verlag direkt bekommt.",
+      "notes": "Typoskript auf Briefpapier. Die Lochungen am linken Rand deuten auf eine Archivierung in einem Ordner hin."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Vom Reichner Verlag selber habe ich aber bereits die\nlaengste Zeit nichts gehoert, keinerlei Antwort auf\nmeine Anfragen erhalten und auch aus Wien habe ich keine\nNachricht bekommen, obwohl ich zwei Briefe und drei Be-\nstellungen geschickt habe. Ich weiss also nicht, wo sich\nder Verlag jetzt befindet.\nEs war also wirklich so sehr freundlich von Ihnen, mir aus\ndieser unangenehmen Lage herauszuhelfen. Vielen Dank\ndafuer. Alle Buecher wurden von mir genau notiert und\nSie bekommen dann die gleiche Anzahl neu zurueck, sobald\nich direkt von Herrn Reichner gehoert habe.\n\nMit vielem Dank und bestem Gruss,\nhochachtungsvoll\nKlara Modere[?]",
+      "notes": "Typoskript mit handschriftlicher Unterschrift. Die Unterschrift ist schwer lesbar, 'Modere' ist eine Schätzung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die einzige Unsicherheit besteht bei der handschriftlichen Unterschrift am Ende des zweiten Blattes.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1926,
+    "total_words": 301,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

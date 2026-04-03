@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.836",
+    "title": "Brief an Herbert Reichner vom 7. Juni 1937, SZ-AAP/B1.53",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.836/IMG.1",
+      "https://gams.uni-graz.at/o:szd.836/IMG.2",
+      "https://gams.uni-graz.at/o:szd.836/IMG.3",
+      "https://gams.uni-graz.at/o:szd.836/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 7. Juni 1937, SZ-AAP/B1.53\n- Signatur: SZ-AAP/B1.53\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:36.132382+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "7.Juni 1937.\n\nGeehrter Herr Reichner!\n\nEben Ihr Brief. Der Magellan-Vertrag war nur\nversehentlich von mir nicht unterzeichnet, ich schicke\nihn beiliegend unterschrieben zurück. Von Dr. Bagrow\nhoffe ich die Liste sehr bald zu bekommen. Wegen der\nGrösse der Ausgabe müssten wir nun eine Entscheidung\ntreffen. Einerseits wäre es gut, das Buch etwas grös-\nser zu halten, damit die Karten-Reproduktionen besser\nzur Geltung kommen, andererseits hat es wieder seine\nVorteile, wenn wir für meine Bücher ein gewisses Ein-\nheitsformat festhalten. Sie müssen sich all dies durch-\ndenken. Vielleicht können Sie auch ein Exposé in diesem\nSinne ausarbeiten, sobald ich die Liste Bagrows habe,\ndamit ich Cassell und Viking je ein Exemplar geben kann\nund alles Hin- und Herschreiben erspart ist. Die Leute\nhaben gerne präzise Vorschläge und auch in Anbetracht\nder materiellen Bedingungen für die Verteilung der\nKosten. Wenn Herr Dr. Bagrow so freundlich sein will,\nso wäre ich sehr einverstanden, dass er das Manuskript\ninzwischen durchliest. Ich setze mich mit ihm noch in",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Verbindung. Die Magellanliteratur bekommen Sie sofort\nzugesandt, sowie ich sie verlässlich entbehren kann.\n\nRobert Neumann. Ich kann Ihnen nur wieder-\nholen, dass Sie meiner Meinung nach einen Fehler be-\ngehen, denn selbstverständlich hat Neumann einen an-\ndern Verlag freudigst bereit. Und was die Buchhändler\nbetrifft, so entscheidet bei ihnen nur eines, ob ein\nBuch gut geht oder nicht, und dieses Buch würde beson-\nders in Oesterreich und in den Nachfolgestaaten gross-\nartig gehen. Es ist und bleibt eben einer der besten\nRomane der letzten Zeit und ist mit seinen letzten\nBüchern nicht zu vergleichen. So viel ich weiss, fährt\nNeumann heute nach Wien und ist in zwei, drei Tagen\nsicher in seiner Wohnung Andrassystrasse 7, Wien XIX,\nzu erreichen. Meine Angst ist eben, dass alle sogenann-\nten Nebenumstände gleichgültig sind, wenn es sich um ein\nwirklich gutes und entscheidend gutes Buch handelt, wie\nich Sie leider in Ihrem Verlagskatalog vermisse.\n\nMozart Werkverzeichnis. kann ich nicht allein\nentscheiden. Man verhandelt gerade mit Amerika wegen\neiner Faksimileausgabe. Vielleicht lässt sich das noch\nzusammenspannen. An Einstein wird leider für eine Ein-\nleitung bei Ihnen nicht zu denken sein. Sie haben ihn",
+      "notes": "Typoskript, Fortsetzung des Briefes."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2)\n\ndoch etwas zu unfreundlich behandelt.\n\nHonorarabrechnung. Ich möchte Sie bitten,\ndie 630,28 Franken mir hierher in einem Scheck zu\nschicken und die 1179,25 Schilling an Friderike Maria\nZweig, Länderbank, Filiale Salzburg, Salzburg.\n\nMit den besten Empfehlungen\n\nEben Ihr zweiter Brief. Selbstverständlich habe ich\nseinerzeit in dem Vertrage mit Tal die Bedingung ge-\nhabt, dass ich Teile daraus oder alle Stücke ganz\nnach meinem Belieben später verwerten kann.",
+      "notes": "Typoskript, Fortsetzung des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2741,
+    "total_words": 419,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

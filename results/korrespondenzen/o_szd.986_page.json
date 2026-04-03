@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.986",
+    "title": "Brief an Sigmund Freud vom 16. März 1939, SZ-LAS/B7.43",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.986/IMG.1",
+      "https://gams.uni-graz.at/o:szd.986/IMG.2",
+      "https://gams.uni-graz.at/o:szd.986/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 16. März 1939, SZ-LAS/B7.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:48.338998+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\n16.März 1939.\n\nLieber, verehrter Herr Professor!\n\nIch bin soeben zurück und muss\nnur zuerst einen Berg von Briefen abräumen.\nAber ich bin schon furchtbar ungeduldig,\nSie zu sehen und frage mich in den näch-\nsten Tagen bescheidentlich an.\n\nMit den innigsten Grüssen\n\nverehrungsvoll\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\n16.März 1939.\n\nLieber, verehrter Herr Professor!\n\nIch bin soeben zurück und muss\nnur zuerst einen Berg von Briefen abräumen.\nAber ich bin schon furchtbar ungeduldig,\nSie zu sehen und frage mich in den näch-\nsten Tagen bescheidentlich an.\n\nMit den innigsten Grüssen\n\nverehrungsvoll\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Mit Farbskala für Archivierung am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist deutlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 684,
+    "total_words": 106,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1096",
+    "title": "Postkarte an Max Fleischer vom 21. März 1902, SZ-LAS/B3.18",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1096/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1096/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1096/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 21. März 1902, SZ-LAS/B3.18\n- Signatur: SZ-LAS/B3.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.837367+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte.\n\nAn Herrn\nMax Fleischer\n\nin\nKomotau\nBöhmen",
+      "notes": "Adressseite der Postkarte. Poststempel: Wien 21.5.02 und Komotau 22.3.02 (Datumsdifferenz auffällig, vermutlich Stempel- oder Lesefehler im Original)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Max,\n\nmeine Berliner Adresse vom 1. April ist S. W. 46 Bernburgerstrasse\n20. Ich hoffe, du wirst davon Gebrauch machen. Hast du meinen\nEssay über „Friedrich Nietzsche“ vorgestern im Prager Tagblatt\ngelesen? Herzlich grüßend Dein\nStefan Zweig",
+      "notes": "Textseite der Postkarte. Handschrift in violett/schwarzer Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Max,\n\nmeine Berliner Adresse vom 1. April ist S. W. 46 Bernburgerstrasse\n20. Ich hoffe, du wirst davon Gebrauch machen. Hast du meinen\nEssay über „Friedrich Nietzsche“ vorgestern im Prager Tagblatt\ngelesen? Herzlich grüßend Dein\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 559,
+    "total_words": 84,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Transcription of both content pages verified against faksimile images. Page 1 (address side): 'Correspondenz-Karte' header, addressee 'Max Fleischer, Komotau, Böhmen' all correct. Page 2 (text side): Handwritten message correctly transcribed, closing 'Stefan Zweig' matches signature. Page 3 correctly classified as color_chart. The duplicate_pages flag is expected — page 3 repeats page 2 text because it is the same card side photographed with color scale. needs_review flag can be cleared.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
+  }
+}

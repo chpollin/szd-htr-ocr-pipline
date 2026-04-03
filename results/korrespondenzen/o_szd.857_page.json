@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.857",
+    "title": "Brief an Herbert Reichner vom 12. Juli 1937, SZ-AAP/B1.72",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.857/IMG.1",
+      "https://gams.uni-graz.at/o:szd.857/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 12. Juli 1937, SZ-AAP/B1.72\n- Signatur: SZ-AAP/B1.72\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:38.015361+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "12.Juli 1937.\n\nGeehrter Herr Reichner!\n\nFuchs zeigt mir soeben die Karte,\ndie er von Ihnen erhielt. Hoffentlich haben\nSie sich gut erholt. Da ich in der Sache des\nMozart-Manuskripts noch nicht die Zusicherung\nder bereits getätigten Versicherung in Händen\nhabe und verpflichtet bin, ohne eine solche\ndas Manuskript nicht aus der Hand zu geben,\nso kann ich es vor meiner Abfahrt natürlich\nnicht mehr absenden oder Herrn Fuchs über-\ngeben. Ich hoffe aber Anfang September wieder\nzurückzusein und vielleicht auch in Wien Gele-\ngenheit zu haben, die Einzelheiten zu bespre-\nchen.\n\nDas Manuskript des \"Magellan\" geht\nnoch vor meiner Abreise nach Wien ab. Ich habe",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "noch einiges geändert und zusammengestrafft.\nIm Druck selbst wird wesentlich kaum verän-\ndert werden. Vielleicht mache ich noch einen\nkurzen Nachtrag von zwei oder drei Dokumenten,\ndie in einem andern Druck gebracht werden kön-\nnen.\n\nMit den besten Empfehlungen",
+      "notes": "Typoskript, Fortsetzung des Briefes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 918,
+    "total_words": 144,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

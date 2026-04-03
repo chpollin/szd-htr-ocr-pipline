@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.907",
+    "title": "Brief an Frans Masereel vom [3. Dezember 1924], SZ-LAS/B1.28",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.907/IMG.1",
+      "https://gams.uni-graz.at/o:szd.907/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [3. Dezember 1924], SZ-LAS/B1.28\n- Signatur: SZ-LAS/B1.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:42.413890+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Cher Frans, donc pour samedi\ncomme nous avons convenus! Je\nte propose Druant ala [?] {in} [?] (on\nnous étions si bien ensemble) a\n7 1/2. Qui arrive le premier prend\nune table, j'aurai choisi un restaurant en ville\nmais comme je suis chez Dalamei, ma femme\nailleurs, toi tu descend de la montagne ou te\nrencontre la comme sur un carrefour.\nDimanche nous partirons, je crois\ncette fois pour longtemps: je sens, que je serais vieux,\ncar je suis déjà impatient de rentrer dans l'esclavage\ndu travail. — autrefois je ne pouvais pas m'arracher de\nParis, cette fois je ne comprends presque plus toute ette\nbête vie de luxe que les gens mènent — ou plutot que\nles etrangers amènent — et tout en l'admirant cette\ngrande machine a plaisir m'est peu sympathique. Je de-\ncouvre en moi une nouvelle passion depuis quelque temps:\nde devenir eremite, de m'enfoncer dans le foret de tra-",
+      "notes": "Briefpapier des 'Hôtel Beaujolais'. Handschrift in violetter Tinte. Der Text ist flüssig, aber stellenweise aufgrund der kursiven Handschrift schwer zu entziffern. Ein Stempelabdruck am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "vail. Mais n'est ce pas deja une certaine sorte de re-\nsignation a la vie, de se laisser tellement asservir par\nson propre oeuvre? Je crois, chez nous deux {la volonté du travail} est deja de-\nvenu plus imperieux que notre propre volonte'.\nMon cher Frans, j'espere de te trouver same-\ndi et de passer cette derniere soirée de Paris avec toi. Et\npuis chacun a sa place, a ton oeuvre! Comme le tien est\ngrand — si ~~[?]~~ ne serait pas de toi, je l'enverrais!\nAmities a ta femme! Ton vieux (oui: vieux)\nStefan\nSi tu preferais un autre rendez-vous tu n'as qu'a\ndire et si j'ai l'avertissement d'un changement [?]\njusqua samedi 2 heures ~~[?]~~ tu peux\ntout changer a ta volonte'. Si je n'ai pas de repon-\nse nous nous trouverons donc samedi 1/2 8 chez\nDruant, boulevard Sebastopol, je crois, chez la gare du\nNord, ou nous étions ensemble l'année passé.",
+      "notes": "Fortsetzung des Briefes. Handschrift in violetter Tinte. Am unteren Rand ein aufgeklebtes Ex Libris 'Christian Andree'."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüssig und kursiv, was die Identifikation einzelner französischer Wörter erschwert. Einige Wörter sind durchgestrichen oder über der Zeile eingefügt, was die Lesbarkeit beeinträchtigt.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1720,
+    "total_words": 310,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

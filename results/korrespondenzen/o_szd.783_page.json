@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.783",
+    "title": "Brief an Stefan Zweig vom 7. März 1938, SZ-AAP/B1.186",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.783/IMG.1",
+      "https://gams.uni-graz.at/o:szd.783/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 7. März 1938, SZ-AAP/B1.186\n- Signatur: SZ-AAP/B1.186\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:31.520890+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\nIhr Schreiben vom 2.März 1938\n7.März 1938 /F\n---------------------------\n\nSehr verehrter Herr Dr.Zweig:\n\nWir erhielten Ihr Schreiben vom 2.März,mit dem Sie die Abrechnung\nvom Februar reklamierten.Es ist aus rein technischen Gründen unmöglich,\ndie monatlichen Abrechnungen vor dem ersten oder zweiten Tag des fol-\ngenden Monates fertigzustellen.Herr Fuchs hat die Februar-Abrechnung\nnun pünktlich am 1.März fertiggestellt.Sie ist am 2.März mit dem inlie-\ngenden Scheck an Sie abgegangen und ebenso hat Herr Dr.Joseph Geiringer\nIhr gesamtes Schilling-Guthaben erhalten.Infolgedessen war Ihre Mahnung\nwohl etwas verfrüht.\n\nWir haben Ihr Schreiben vom 19.Februar zur Kenntnis genommen,demzufolge\nSie die automatische Ueberweisung der Schilling-Beträge an Herrn\nDr.Josef Geiringer und der Franken-Beträge an Sie selbst wünschen.Ob\ndie Ueberweisung nun von uns aus oder von Olten erfolgt,wird Ihnen\ngleichgültig sein.\n\nWir bitten Sie bei dieser Gelegenheit,nicht ein unnötiges Misstrauen\nuns gegenüber zu bezeigen.Wir sind unseren Verpflichtungen bisher stets\nsorgfältig nachgekommen.Wir verstehen allerdings,dass die Verhältnisse\nSie etwas nervös machen.\n\nHerr Dr.Geiringer hat,trotzdem wir ihn darum ersuchten,die Schilling-\nZahlung nicht bestätigt.Hoffentlich hat er sie wenigstens Ihnen avi-\nsiert.\n\nWir begrüssen Sie als\nIhre sehr ergebenen [Unterschrift]",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich (Tinte). Die Lochungen am linken Rand sind Archivierungsspuren."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist eine handschriftliche Paraphe, die nicht transkribiert werden kann.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1788,
+    "total_words": 231,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

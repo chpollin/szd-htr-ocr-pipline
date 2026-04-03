@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1809",
+    "title": "Brief an Stefan Zweig vom 20. Mai 1938, SZ-AAP/B1.243",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1809/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1809/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 20. Mai 1938, SZ-AAP/B1.243\n- Signatur: SZ-AAP/B1.243\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.857267+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "DR W. STAUFFACHER\nRECHTSANWALT\nTELEPHON 33.503\nPOSTCHECK VIII. 9754\nTelegramme: Stauffacherjur Zürich\n*\n\nZÜRICH, den 20. Mai 1938.\nST. PETERSTRASSE 18\n\nHerrn Dr. St. Z w e i g,\n49 Hallam Street 49,\n\nL O N D O N W 1.\n========================\n\nSehr geehrter Herr Doktor,\n\nIhr Schreiben vom 18. ds. habe ich erhalten und seither\nsprach ich auch mit Ihrem Herrn Bruder. Leider habe ich die\nvon Herrn Reichner in Aussicht gestellte Aufklärung noch nicht\nerhalten. Herr Reichner will die Rückkehr des Herrn Dr. Weis-\nflog abwarten, der abwesend sei. Eine Klage in Zürich anzu-\nbringen, wäre nicht so leicht, weil Zürich nur einen Gerichts-\nstand ergäbe, für Geschäft, welche von der züricher Niederlas-\nsung aus getätigt wurden, während Sie m.W. gerade auf dem\nStandpunkte stehen, dass Ihre Verträge nicht mit dem züricher\nSitz abgeschlossen seien. Es wäre mir wohl möglich, an der\nrechtlichen Auseinandersetzung zwischen Ihnen und Herrn Reich-\nner teilzunehmen, sofern nicht schon in nächster Zeit die Fra-\nge einer gerichtlichen Klage akut würde. Inzwischen ändern sich\nvielleicht die Verhältnisse in der hiesigen Firma.\n\nMit vorzüglicher Hochachtung\n\n[Unterschrift]",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Unterschrift ist handschriftlich (Stauffacher). Die Lochungen am linken Rand sind Archivierungsspuren."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Briefes von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift ist als solche markiert, da sie nicht transkribierbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1162,
+    "total_words": 181,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

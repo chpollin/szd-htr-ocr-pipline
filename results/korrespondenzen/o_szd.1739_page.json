@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1739",
+    "title": "Postkarte an Eugenie Hirschfeld vom 4. August 1906, SZ-SEF/B5.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1739/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1739/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1739/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Eugenie Hirschfeld vom 4. August 1906, SZ-SEF/B5.6\n- Signatur: SZ-SEF/B5.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.987028+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "frau lein Eugenie Hirschfeld\nan (Wien, II. Kundorferstrase 5)\nHotel Fluhsegg Gersau\nLuzern (Switherland)\n\nposte restante",
+      "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Poststempel: PADDINGTON W 1.45PM AUG 4 05 sowie BRE-DISTE LUZERN 5.VIII.06. Briefmarke: Great Britain One Penny."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sehr verehrter frau lein, ich würde\nmich sehr freuen, sie am Herwald-\nstättersee zu sehen, aber erstens habe,\nverachte, verabscheue ich die Schweiz\nals grosstädtisch, panoramahaft, eng-\nlisch und berlinerisch, zweitens komme\nich gerade aus Schottland, drittens\nmuss ich nach Berlin, um dort zu käm-\npfen. Director Barnay und die höchste\nExcellenz der Baron Hülsen wollen meine\n„Territes“ am Kgl. Schauspielhaus spielen\nund stellen nur die Bedingung einiger\nÄnderungen (die ich noch nicht weiss)\nund die härtere, dass ich meine näch-\nsten drei Stücke ihnen zuerst übergeben\nmuss. Um mich möglichst gütlich aus-\neinanderzusetzen, fahre ich Mitte August\nnach Berlin - schliesslich als Start ist das\nKgl. Schauspielhaus doch nicht ganz zu\nverachten - und hoffe dort alles ins Reine\nzu bringen und flüchte dann schleunigst\nnach Wien zurück, wo Sie so mehr hören\nwerden von Ihrem getreu ergebenen\nLondon 4. august. Stefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte fuer Archivierung, dazwischen die Adressseite der Postkarte (identisch mit Seite 1)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1041,
+    "total_words": 160,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

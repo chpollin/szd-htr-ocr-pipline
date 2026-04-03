@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1719",
+    "title": "Brief an Anna Meingast vom 3. Dezember 1936, SZ-SAM/B7.86",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1719/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1719/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 3. Dezember 1936, SZ-SAM/B7.86\n- Signatur: SZ-SAM/B7.86\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.686119+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 3.Dezember 1936.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr für die\nNachsendungen und Briefe. Meine Dispositionen sind\nnun ungefähr so getroffen, dass ich Samstag, den\n19.Dezember, morgens um etwa neun Uhr vierzig von\nParis eintreffe. Ich möchte bitten, an diesem Tage\ndas grosse Bibliothekszimmer vorher heizen zu las-\nsen, weil ich dort mir einige Bücher und Sachen\nheraussuchen muss. Ich würde dann bis zu dem Halb-\nSechs-Uhr-Zuge bleiben und abends nach Wien weiter-\nfahren, das Gepäck grösstenteils an der Bahn las-\nsen. Mit aller äussersten Bestimmtheit kann ich\nnatürlich nicht sagen, dass ich dieses Datum ein-\nhalte, weil ja manchmal bei Sturm die Verbindungen\nüber den Kanal unterbrochen sind. Ich würde aber\nrechtzeitig mindestens einen Tag vorher Sie tele-\ngraphisch verständigen, wenn sich etwas verschieben\nsollte.",
+      "notes": "Typoskript auf hellblauem Papier. Die Datumsangabe 'Samstag, den 19.Dezember' ist mit einem violetten Stift unterstrichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ich brauche Ihnen nicht zu\nsagen, wie ich mich schon sehr freue, Sie, Herrn\nSchirl und Johann zu sehen. Die kleinen Hunde\nmöchte ich mir lieber gar nicht anschauen, weil\nsonst die Versuchung zu gross wäre, einen mitzu-\nnehmen.\n\nMit den herzlichsten Grüssen\n\nIhr\n\nStefan Zweig\n\nSamstag, 19.XII.",
+      "notes": "Typoskript auf hellblauem Papier. Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt. Die Zeile 'Samstag, 19.XII.' ist ebenfalls handschriftlich in violetter Tinte unterstrichen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen (Unterschrift und Unterstreichungen) sind ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1134,
+    "total_words": 176,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

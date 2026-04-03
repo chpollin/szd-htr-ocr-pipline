@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1697",
+    "title": "Brief an Anna Meingast vom 17. Oktober 1935, SZ-SAM/B7.64",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1697/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1697/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 17. Oktober 1935, SZ-SAM/B7.64\n- Signatur: SZ-SAM/B7.64\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.370782+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place\nLondon W.1.                                17.Oktober 1935.\n\nLiebe Frau Meingast!\n                                Ich schicke Ihnen heute die\nPostanweisung gleich unterschrieben zurück. Es wä-\nre besser gewesen, gegen die Meinung meiner Frau\ngleich einige zu schicken, denn zwar habe ich die\nAbsicht, im Dezember vorbeizukommen, aber die Zeit\nsieht eben nicht sehr nach Gewissheiten aus. Lei-\nder geht es mit der Arbeit sehr schlecht, das schöne\nTempo von Marienbad ist völlig verschwunden, denn\nich habe hier furchtbar viele Besprechungen wegen\nwichtigen Anträgen, habe unermesslich viel Zeit auf\nSuchen eines ständigen kleinen Absteigequartiers ver-\nwendet und ausserdem ist einem ja der Kopf von den\npolitischen Sorgen reichlich vergiftet. Dennoch be-\nkommen Sie das erste Kapitel in wenigen Tagen.\n\n                                Mit schönen Grüssen\n\n                                Ihr\n\nBeilage\n                                R.3.",
+      "notes": "Typoskript auf Briefpapier. Unten rechts handschriftliche Archivsignatur 'R.3.' in Bleistift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 955,
+    "total_words": 120,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

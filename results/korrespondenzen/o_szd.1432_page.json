@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1432",
+    "title": "Postkarte an Friderike Zweig vom 7. Juni 1925, SZ-AAP/B11.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1432/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1432/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1432/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Friderike Zweig vom 7. Juni 1925, SZ-AAP/B11.1\n- Signatur: SZ-AAP/B11.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:33.527598+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lg. ich kann nur in Eile antworten,\ndass ich deinen Brief dankbar\nerhielt. Bitte schreibe [?]freut, es\nmöge an Rouger senden und\nselbstverständlich keine Kosten\nHandels Belager[?] unerfüll[?], ein\nelementares [?] [?] [?]. Koppenberg\nich erst heute, auch der junge\nFieventhal ist da, und [?] ich\nviel zusammen bei [?]erfol[?].\n[?] wir fahren vielleicht noch\nnach Land. Roll hat mir den illu-\nstrierten Jean Cristof aufgebracht\ner geht ihm nur seines [?] [?]\nweiß gut [?] [?] [?]. lebe wohl\nalles Gute dein\nSonntas",
+      "notes": "Handschriftliche Postkarte, violette Tinte. Die Schrift ist sehr flüchtig und schwer lesbar, teilweise überlagert durch den Rand des Papiers."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Carone war ver-\nreist, Leonhard\nwohnte zu einer. Brenner\nso hatte ich [?] [?]\nmeinen letzten stillen\nabend.\n\nFrau Friderike Zweig\n[?] Salzburg\nKapuzinerberg 5",
+      "notes": "Adressseite der Postkarte. Gedruckter Postkartenvordruck mit handschriftlichen Ergänzungen. Briefmarke und Poststempel (Leipzig 7.6.25) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "low",
+  "confidence_notes": "Die Handschrift ist extrem flüchtig, teilweise kursiv ineinander verschlungen und weist viele schwer identifizierbare Wörter auf. Besonders die erste Seite ist aufgrund der Schriftführung und der teilweise unklaren Worttrennungen sehr schwer zu transkribieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 670,
+    "total_words": 109,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

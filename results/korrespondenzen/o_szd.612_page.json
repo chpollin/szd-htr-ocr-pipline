@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.612",
+    "title": "Fernand Desprès an Stefan Zweig, 1922-11-06, SZ-SAM/AK.43",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.612/IMG.1",
+      "https://gams.uni-graz.at/o:szd.612/IMG.2",
+      "https://gams.uni-graz.at/o:szd.612/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Fernand Desprès an Stefan Zweig, 1922-11-06, SZ-SAM/AK.43\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:20.680670+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VERSAILLES - Hameau de Marie Antoinette - Le Moulin\nThe Hamlet of Marie Antoinette - The Mill",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des 'Le Moulin' im Hameau de la Reine in Versailles. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Monsieur et Madame\nStefan Zweig\n5 Kapuzinerberg\nSalzburg\nAutriche\n\n17, Belgrand, Paris (XXe) le 6 nov. 22\nChers Amis De graves préoccupations\nont surgi, dès mon arrivée à Paris qui ne m'ont\npas laissé la liberté d'esprit nécessaire pour écrire\nà mes amis. Vous savez nos émissions de rédacteurs\nSuivant mon exemple Marcel Martinet a cherché des\noccupations dans les imprimeries, il a travaillé deux\njours à l'écho de Paris comme correcteur, il espère trou-\nver une place fixe. J'attends l'on désire mon succes-\nseur pour en faire autant. J'assure l'interim, je n'ai\npas ~~non~~ vu Le Fauconnier, ni le \"P'tit Père\". On\nm'a appris une nouvelle navrante : Pierre au-\nsait ~~foutu~~ Andrée pour vivre tout à fait avec Mlle R.\nJe regrette de n'avoir pu m'arrêter en Allemagne\nSi je suis tout à fait chômeur, j'essaierai d'al-\nler vivre soit à Munich soit à Berlin.\nBonjour à M. Fuchs. Bien cordialement à\ntous deux Fernand Desprès",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarken und Poststempel vorhanden. Der Text ist in französischer Sprache verfasst."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Monsieur et Madame\nStefan Zweig\n5 Kapuzinerberg\nSalzburg\nAutriche\n\n17, Belgrand, Paris (XXe) le 6 nov. 22\nChers Amis De graves préoccupations\nont surgi, dès mon arrivée à Paris qui ne m'ont\npas laissé la liberté d'esprit nécessaire pour écrire\nà mes amis. Vous savez nos émissions de rédacteurs\nSuivant mon exemple Marcel Martinet a cherché des\noccupations dans les imprimeries, il a travaillé deux\njours à l'écho de Paris comme correcteur, il espère trou-\nver une place fixe. J'attends l'on désire mon succes-\nseur pour en faire autant. J'assure l'interim, je n'ai\npas ~~non~~ vu Le Fauconnier, ni le \"P'tit Père\". On\nm'a appris une nouvelle navrante : Pierre au-\nsait ~~foutu~~ Andrée pour vivre tout à fait avec Mlle R.\nJe regrette de n'avoir pu m'arrêter en Allemagne\nSi je suis tout à fait chômeur, j'essaierai d'al-\nler vivre soit à Munich soit à Berlin.\nBonjour à M. Fuchs. Bien cordialement à\ntous deux Fernand Desprès",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift und einiger Durchstreichungen gut lesbar. Die Sprache ist Französisch.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1945,
+    "total_words": 333,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

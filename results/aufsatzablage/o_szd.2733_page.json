@@ -1,0 +1,138 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2733",
+    "title": "Blake",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA19.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2733/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2733/IMG.9"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Blake\n- Signatur: SZ-AAP/W-AA19.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:00.137022+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Blake\nAusgewählte Dichtungen.\nDas Werk des William Blake.\nWilliams Blakes Auferstehung.\n\nWilliam Blake\n\nDas Werk des William Blake\nW. Blakes Auferstehung\nWilliam Blake\nDie visionäre Kunstphilosophie\ndes William Blake\nAusgewählte Dichtungen\n\n[?] Dr. A. Zweig[?]\n(Dr. Helene Richter)\n(Titel Blakes Auferstehung)\n\"\n(übersetzt v. Adolf Knoblauch[?])",
+      "notes": "Handschriftliches Dokument, violette Tinte. Die Transkription umfasst den gesamten Text auf der Vorderseite des Blattes."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Blake\nAusgewählte Dichtungen.\nDas Werk des William Blake.\nWilliams Blakes Auferstehung.",
+      "notes": "Ausschnitt der oberen Hälfte der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "William Blake\n\nDas Werk des William Blake\nW. Blakes Auferstehung\nWilliam Blake\nDie visionäre Kunstphilosophie\ndes William Blake\nAusgewählte Dichtungen\n\n[?] Dr. A. Zweig[?]\n(Dr. Helene Richter)\n(Titel Blakes Auferstehung)\n\"\n(übersetzt v. Adolf Knoblauch[?])",
+      "notes": "Ausschnitt der unteren Hälfte der Vorderseite."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Blake\nAusgewählte Dichtungen.\nDas Werk des William Blake.\nWilliams Blakes Auferstehung.",
+      "notes": "Wiederholung der oberen Hälfte der Vorderseite."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "William Blake\n\nDas Werk des William Blake\nW. Blakes Auferstehung\nWilliam Blake\nDie visionäre Kunstphilosophie\ndes William Blake\nAusgewählte Dichtungen\n\n[?] Dr. A. Zweig[?]\n(Dr. Helene Richter)\n(Titel Blakes Auferstehung)\n\"\n(übersetzt v. Adolf Knoblauch[?])",
+      "notes": "Wiederholung der unteren Hälfte der Vorderseite."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 9,
+      "type": "color_chart",
+      "text": "Blake\nAusgewählte Dichtungen.\nDas Werk des William Blake.\nWilliams Blakes Auferstehung.\n\nWilliam Blake\n\nDas Werk des William Blake\nW. Blakes Auferstehung\nWilliam Blake\nDie visionäre Kunstphilosophie\ndes William Blake\nAusgewählte Dichtungen\n\n[?] Dr. A. Zweig[?]\n(Dr. Helene Richter)\n(Titel Blakes Auferstehung)\n\"\n(übersetzt v. Adolf Knoblauch[?])",
+      "notes": "Gesamtaufnahme des Dokuments mit Grauskala und Farbkarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der Text ist gut lesbar, jedoch sind einige Eigennamen und Abkürzungen (insbesondere die Zeile mit 'Dr. A. Zweig' und der Übersetzername) aufgrund der Handschrift und der Tintenspuren leicht unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1376,
+    "total_words": 184,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

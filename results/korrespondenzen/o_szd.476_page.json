@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.476",
+    "title": "Paul Block an Stefan Zweig, 1920-08-03, SZ-SAM/AK.19",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.476/IMG.1",
+      "https://gams.uni-graz.at/o:szd.476/IMG.2",
+      "https://gams.uni-graz.at/o:szd.476/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Paul Block an Stefan Zweig, 1920-08-03, SZ-SAM/AK.19\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.045377+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BADGASTEIN. 5/8 1920",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Datum unten links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nVerehrter Herr Zweig! Herzlichen Dank\nfür Ihre freundliche Karte. Ich bin\nvon Donnerstag Abend bis zum Frei-\ntag Nachmittag in Salzburg (Hotel\nBristol) und würde mich freuen, Sie\nzu begrüssen. Jedoch kann ich es\nnicht mit Sicherheit versprechen,\ndass ich Sie in Ihrem sicherlich\nschönen Heim - welcher Ort und\nwelche Aussicht! - aufsuchen werde,\nda meine Frau und ich in den wenigen\nStunden eine Menge zu besorgen haben.\nIhr aufrichtig Ergebener und grüßender\nBad Gastein 3.8. 1920. Paul Block.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Briefmarke oben links, Poststempel teilweise lesbar. Der Text am unteren Rand 'Heliogravüre No. 18 F. Fuchs Kunstverlag Hofgastein. Nachdruck verboten.' ist gedruckt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsbild mit Farbskala und Grauskala. Die Postkarte ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 560,
+    "total_words": 89,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

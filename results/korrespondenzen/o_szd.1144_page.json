@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1144",
+    "title": "Anna Meingast an Lotte Altmann, SZ-SAM/B10.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1144/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1144/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Anna Meingast an Lotte Altmann, SZ-SAM/B10.4\n- Signatur: SZ-SAM/B10.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.757209+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, am 5. März 1937\n\nLiebes Fräulein Altmann!\n\nVielen Dank für den Bericht.\nDie gewünschten Vertragskopien von Alzir Hella, sowie\neinige Blätter für das Hauptbuch folgen morgen als eingeschriebene\nDrucksache.\nVerträge von Mo{a}dadori und A. de Lange befinden sich\nleider keine mehr hier, wie denn überhaupt jetzt alle Verträge\nausser einigen deutschen älteren (Rütten & Löening, Schuster & Löff-\nler etc) und einigen Verträgen von Herbert Reichner, Strauss und\neinigen russischen Verträgen mit der Wremja, bereits in London sein\nmüssen. Vereinbarungen über italienische Abschlüsse gehen auch\naus den hiesigen Eintragungen nicht hervor, Herr Dr. Zweig überliess\ndie Verrechnung meist Frau Prof. Mazzuchetti und seit 1935 ist auch\ndie Briefkorrespondenz nicht mehr nach Salzburg geleitet worden.\nHerr Dr. Zweig steht ja in direkter Korrespondenz mit Frau Mazzu-\nchetti und dürfte Briefe und Verträge an seinen unmittelbaren Auf-\nenthaltsort erhalten haben.\nAus Eintragungen der holländischen Maria Stuart geht\nhervor, dass im April 1935 bereits 300 hol. Gulden bezahlt wurden,\nwomit das Werk in der Abrechnung erledigt ist.\nIch habe am 1. März auch wieder an \"Binoza\" in Zagreb\ngeschrieben und die Zahlung für \"Erasmus\" gemahnt. Das Buch scheint\naber weder zu erscheinen noch bezahlt zu werden.\nDie letzte Zahlung von Mondadori, über die ich infor-\nmiert bin, war im März 1936 (Lire 1000.- für \"Erasmo\", hier wird\nim März wieder die Verrechnung fällig.\nDie spanischen Aussenstände habe ich nicht eingemahnt,\nim gegenwärtigen Augenblick ist wohl von Spanien kein Geld zu erwar-\nten.\nMit bestem Dank für Ihre Nachrichten, die ich sofort\neingetragen habe und schönen Grüssen, Ihre A. Meingast",
+      "notes": "Der Brief ist maschinenschriftlich verfasst, die Unterschrift 'A. Meingast' ist handschriftlich. Das Wort 'Modadori' enthält eine handschriftliche Korrektur (Einfügung eines 'a' über dem 'o')."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die einzige handschriftliche Ergänzung im Wort 'Modadori' ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1693,
+    "total_words": 257,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

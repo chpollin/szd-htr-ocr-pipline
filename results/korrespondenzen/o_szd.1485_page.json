@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1485",
+    "title": "Brief an Stefan Zweig vom 10. Mai 1940, SZ-AAP/B3.12",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1485/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1485/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1485/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. Mai 1940, SZ-AAP/B3.12\n- Signatur: SZ-AAP/B3.12\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:36.918756+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS·COMPOSERS·STAGE & FILM PRODUCERS·MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS·LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON·S·W·I\n\n10th May, 1940.\n\nDr. Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nBATH.\n\nDear Sir,\n\nRe. statement dated 27th November, 1939\n\"VOLPONE\" France and Belgium.\n\nWe understand with regret that you are not satisfied\nwith the above mentioned statement.\n\nIn sending you statements of monies we receive for\nyou from the French Society of Authors, we always give you\nan exact copy of their statement, showing of course their\ndeduction of commission - in this case at 10%. We in our\nturn deduct 15% commission as arranged, from the total\namount received.\n\nWe regret that we misread the word \"Folder\" at the\nfoot of page one of our statement. We find now that this\nshould read \"Solde\" and we also find that there is a faintly\nstamped \"Cinema Statutaire\" above the figures.\n\nWe understood that you relied upon us to collect\nthese monies for you and automatically included them with\nthe other monies, deducting our commission as usual.\n\nWe are not quite clear as to your complaint, as\nall statements we receive from the French Society of Authors\nbear a deduction of 10% for their commission, and as you\nwill realise, our usual method is to deduct the arranged\ncommission from all monies we receive for the credit of\nclients.\n\nIf this explanation is insufficient, perhaps you\nwill write us further on the matter.\nYours faithfully,\n\nIMPORTANT.—Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS on the negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.\nSecretary.",
+      "notes": "Typoskript auf offiziellem Briefpapier. Die Unterschrift ist handschriftlich, aber aufgrund der Überlagerung durch den Textblock schwer lesbar (scheint ein Namenszug zu sein). Die handschriftliche Zahl '44' oben rechts ist vermutlich eine Archivnummer."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS·COMPOSERS·STAGE & FILM PRODUCERS·MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS·LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON·S·W·I\n\n10th May, 1940.\n\nDr. Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nBATH.\n\nWe regret that we misread the word \"Folder\" at the\nfoot of page one of our statement. We find now that this\nshould read \"Solde\" and we also find that there is a faintly\nstamped \"Cinema Statutaire\" above the figures.\n\nWe understood that you relied upon us to collect\nthese monies for you and automatically included them with\nthe other monies, deducting our commission as usual.",
+      "notes": "Dieses Bild zeigt das Dokument mit aufgelegten Archiv-Hilfsmitteln (Farb- und Grauskala). Der Text ist identisch mit Teilen der ersten Seite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Archiv-Hilfsmittel auf Seite 3 verdecken einen Teil des Textes, dieser ist jedoch durch Seite 1 vollständig rekonstruierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2580,
+    "total_words": 409,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

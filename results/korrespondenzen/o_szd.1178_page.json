@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1178",
+    "title": "Friderike Zweig an Willi Meingast, SZ-SAM/B19",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1178/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1178/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1178/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Willi Meingast, SZ-SAM/B19\n- Signatur: SZ-SAM/B19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.964375+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber Willi,\n\nhabe Ihre Mutter in\nsehr guter Verfassung\nverlassen. Wollen\nSie bald einmal\nzu einer Mahlzeit\nheraufkommen?\nBitte machen Sie\nvorher einen Sprung\nherein, dass wir\nes verabreden.",
+      "notes": "Vorderseite der Karte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "~~Absender: STEFAN ZWEIG~~\n~~SALZBURG, Kapuzinerberg 5~~\n{Frau}\nHoffe Sie fühlen\nsich nicht zu\neinsam.\nHerzlichen Gruss\nvon\nFr. Zweig\n\nHerru\nWilli Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
+      "notes": "Rückseite der Karte. Der Absender 'STEFAN ZWEIG' ist durchgestrichen, darüber steht handschriftlich 'Frau'. Der Poststempel ist vom 29. VIII. 35."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "~~Absender: STEFAN ZWEIG~~\n~~SALZBURG, Kapuzinerberg 5~~\n{Frau}\nHoffe Sie fühlen\nsich nicht zu\neinsam.\nHerzlichen Gruss\nvon\nFr. Zweig\n\nHerru\nWilli Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
+      "notes": "Identisch mit Seite 2, inklusive Farbskalen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Durchstreichungen und Einfügungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 571,
+    "total_words": 79,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

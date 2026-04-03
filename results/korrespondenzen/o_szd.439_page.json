@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.439",
+    "title": "Eugenie Reitter an Stefan Zweig, 1933-04-14, SZ-SAM/AK.156",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.439/IMG.1",
+      "https://gams.uni-graz.at/o:szd.439/IMG.2",
+      "https://gams.uni-graz.at/o:szd.439/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Eugenie Reitter an Stefan Zweig, 1933-04-14, SZ-SAM/AK.156\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.156\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.329129+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wien,\nGrinzing,\nBeethovengasse\n14/IV. 33",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Orts- und Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wien, 14.4.33.\n\nLieb im Gedanken[?] bin ich\nheute bei Ihnen, lieber Stefan\nZweig, meine allerherzlichsten\nGrüße zu senden. Die Welt\nreift nun, alles grünt und\nblüht, aber was tun die Men-\nschen? Wie innig gedenke ich\nIhrer, wie folgen Sie all meine\nGedanken. Ihr Eugenie Reitter\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in violetter Tinte. Briefmarke und Poststempel (Wien 14.V.33) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Lesung 'Gedanken' in Zeile 2 ist aufgrund der Tintenführung leicht unsicher, aber im Kontext schlüssig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 368,
+    "total_words": 58,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

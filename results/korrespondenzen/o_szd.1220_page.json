@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1220",
+    "title": "Brief an Anna Meingast vom 20. Dezember 1934, SZ-SAM/B7.50",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1220/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1220/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 20. Dezember 1934, SZ-SAM/B7.50\n- Signatur: SZ-SAM/B7.50\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.859213+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Westminster                                Nizza, den 20. Dezember 1934.\n\nLiebe Frau Meingast!\n\nHeute geht das vorletzte Kapitel an Sie ab, morgen oder über-\nmorgen die Einleitung. Dann habe ich nur mehr die andern Kapitel\nvon XI an zu revidieren und von denen müssen nur mehr vier Exemplare\nangefertigt werden und nicht mehr acht, da die Uebersetzer ja ohne-\nhin nicht nachkommen.\n\nIch bitte also nun zu senden an\nHerbert Reichner: Kapitel I-X und Dramatis Personae\nEden & Cedar Paul: Kapitel VI-X\nLavinia Mazzuchetti: Kapitel VI-X.\n\nDie späteren Kapitel werden wir den Uebersetzern dann wohl schon\naus den Korrekturen schicken können.\n\nSollte Herr Dr. Eger vom Prager Landestheater noch einmal das\nPirandellostück anfordern, so bitte senden Sie es ihm. Ich habe\nzunächst versucht, für ihn das Exemplar, das noch beim Deutschen\nVolkstheater liegt, zu bekommen.\n\nWenn wir genug Exemplare des Jeremias haben, so können wir\nzwei an die Firma in Offenbach schicken, aber nicht per Nachnahme,\nich habe kein Recht, selber Buchhändler zu sein.\n\nApolloverlag bitte nachsehen im Exemplar von Amok, der bei\nHoy erschienen ist, ob er die \"Phantastische Nacht\" enthält. Wenn\nja, so können wir die Autorisation natürlich nicht noch einmal an\nApollo geben.\n                                      Une noche fantastica",
+      "notes": "Der handschriftliche Zusatz am Ende der Seite ist in spanischer Sprache."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ferner bitte ich nachsehen zu wollen, ob von Felix Bloch Erben\nim letzten Monat eine Ueberweisung in Schillingen eingetroffen ist,\ndie er mir angekündigt hat. Ueberhaupt bitte ich, ein besonderes\nBlatt anzulegen für alle Honorare und sonstigen Eingänge, die ein-\ngetroffen sind.\n\nUnd nun noch herzliche Weihnachtsgrüsse, wir werden beide\njetzt ein bischen ausruhen können.\n\n                                      Stefan[?]\n\nSelbstverständlich zahle ich darauf, dass Sie dem\nSparcassenbuch die übliche Weihnachtsremuneration\nentnehmen.",
+      "notes": "Die Unterschrift 'Stefan' ist handschriftlich in violetter Tinte. Der Text unter der Unterschrift ist ebenfalls handschriftlich hinzugefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der maschinenschriftliche Teil als auch die handschriftlichen Ergänzungen von Stefan Zweig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1841,
+    "total_words": 264,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

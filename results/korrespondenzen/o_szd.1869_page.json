@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1869",
+    "title": "Brief an Manfred Altmann vom 27. Januar 1947, SZ-AAP/B1AN.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1869/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1869/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Manfred Altmann vom 27. Januar 1947, SZ-AAP/B1AN.3\n- Signatur: SZ-AAP/B1AN.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.080633+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr. H. David & Dr. H. Gwalter\nRechtsanwälte\nTelefon 23 52 89 / Postcheck VIII 453\nMitglieder des\nSchweiz. Anwaltsverbandes\n\nZürich, den 27. Januar 1947.\nBahnhofstraße 56\n\nHerrn Dr. M. Altmann,\n352, Finchley Road,\nHampstead, N.W.3\nEngland\n\nSehr geehrter Herr Doktor,\n\nVom Schweizerischen Vereinsortiment in Olten erhalte ich\ndie Kopie eines Schreibens vom 14. Januar 1947 an Sie.\nFalls Sie es wünschen, könnte ich ermitteln, welcher Betrag\nbeim Gericht deponiert und ob dieser Betrag tatsächlich\nHerrn Reichner ausbezahlt wurde. Für diesen Fall bitte ich\nSie, mir die beigefügte Vollmacht auszustellen.\n\nMit vorzüglicher Hochachtung\n\nBeilage:\nVollmachtformular. \n\nD. H. David.\n\nAnbei Vollmacht. Wir wären Ihnen dankbar, wenn\nSie zunächst die feststellen würde[?]\nund uns das Res.[?] mitteilen würde[?],",
+      "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichem Nachtrag am unteren Rand. Der Nachtrag ist in Bleistift geschrieben und teilweise schwer lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Haupttext ist sehr gut lesbar. Der handschriftliche Nachtrag am unteren Rand ist etwas undeutlich, insbesondere die Wörter 'feststellen' und 'Res.' (vermutlich Abkürzung für Resultat oder Resultate).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 801,
+    "total_words": 116,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

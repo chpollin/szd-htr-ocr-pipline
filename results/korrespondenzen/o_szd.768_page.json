@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.768",
+    "title": "Brief an Alfred Kauffmann vom 11. Januar 1938, SZ-AAP/B1.172",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.768/IMG.1",
+      "https://gams.uni-graz.at/o:szd.768/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Alfred Kauffmann vom 11. Januar 1938, SZ-AAP/B1.172\n- Signatur: SZ-AAP/B1.172\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:30.132555+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Alfred Kaufmann\n\n11.Januar 1938.\n\nSehr geehrter Herr Doktor!\n\nIch erlaube mir, Ihnen in der Anlage zu\nsenden erstens einen Scheck zur Begleichung Ihrer Note,\nzweitens in einem verschlossenen Couvert die photosta-\ntische Kopie des Testaments und einige dazugehörige Do-\nkumente. Ich habe darauf ausdrücklich die Stelle ver-\nmerkt, wo sich das Original meines Testaments immer be-\nfinden wird. Darf ich Sie bitten, dies für mich in Ver-\nwahrung zu nehmen?\n\nHaben Sie noch besten Dank für Ihre Bemü-\nhungen und empfangen Sie mit Fräulein Dr. Melchior die\nbesten Empfehlungen\n\nIhres ergebenen",
+      "notes": "Typoskript auf Briefpapier. Der Name 'Alfred Kaufmann' ist handschriftlich in Tinte hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 588,
+    "total_words": 91,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

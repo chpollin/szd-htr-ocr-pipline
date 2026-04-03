@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.532",
+    "title": "Armand Brody an Stefan Zweig, 1907-03-05, SZ-SAM/AK.24",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.532/IMG.1",
+      "https://gams.uni-graz.at/o:szd.532/IMG.2",
+      "https://gams.uni-graz.at/o:szd.532/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1907-03-05, SZ-SAM/AK.24\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.24\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:15.806715+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "45 SOUSSE. — Panorama pris de la Casbah. — LL. Imp.-Lib. Française — Petit à Sousse\n5.3.07.\n(Tunis)",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text mit handschriftlicher Datumsangabe und Ortskorrektur."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTALE\nTous les Pays étrangers n'acceptent pas la Correspondance au recto\n(Se renseigner à la Poste).\n\nCORRESPONDANCE | ADRESSE\nServus! Morgen in Automobüll\nnach Sfax.\nArmand\n\nN.B.\nBrauchst Du schon eine Landkarte?\nHehe! Es kommt noch imposanter!\n\nle Dr. Stefan Zweig,\nWien VIII.\nKochgasse 8.\nAutriche!",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text von Armand Brody an Stefan Zweig. Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung, sowie die Ansichtskarte (Vorder- und Rückseite) in einem Bild."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die handschriftlichen Ergänzungen auf der Postkarte sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 408,
+    "total_words": 65,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

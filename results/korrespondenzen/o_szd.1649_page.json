@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1649",
+    "title": "Brief an Frans Masereel vom [15. August 1941], SZ-LAS/B1.65",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1649/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1649/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1649/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [15. August 1941], SZ-LAS/B1.65\n- Signatur: SZ-LAS/B1.65\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:51.677169+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Editora Guanabara 132 rua Ouvidor\nGuanabara Rio de Janeiro Brasil\nAout 1941\n\nMon cher Frans, nous partons ce soir pour le Brésil.\nJ'ai recu au dernier moment la lettre. Le visa pour\nla Colombie est très important parsqu'il te facilite\ntous les autres visa de passage et aussi parsqu'on te\ndonnera plus de facilités de visa pour l'Argentine\nou Brésil (au moins „touriste“ si tu possedes déjà un\nvisa legal et permanent. On peut toujours transfor-\nmer les visas touristes sur place - la chose impor-\ntante était de posseder un visa permanent et c'est\npour cela que tu dois prendre celui de Colombie si\ntot que posible.\nAu Brésil je ferai mon mieux pour te obtenir\nun visa pour le Brésil ou tu trouverais tout -\non vit merveilleusement la bas et je suis sur qu'il\nte plairait énormément. Sois sur que je negligerai\nrien.\nEcris a notre ami Kezelay comme je regrette de\nne pouvoir des nouvelles de lui. J'étais ici en Ame\nrique pour six mois, mais c'est fatiguant et je\nn'aime de mon coeur les pays latins. En hate ton\n\nStefan",
+      "notes": "Handschriftlicher Brief in französischer Sprache. Tinte violett. Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (abgesehen von durchscheinendem Text der Vorderseite)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und trotz einiger kleinerer orthographischer Eigenheiten des Verfassers (z.B. 'parsqu'il' statt 'parce qu'il') eindeutig zu entziffern.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1021,
+    "total_words": 185,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

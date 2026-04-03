@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.429",
+    "title": "Hans Müller Einigen an Stefan Zweig, 1911-01-24, SZ-SAM/AK.146",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.429/IMG.1",
+      "https://gams.uni-graz.at/o:szd.429/IMG.2",
+      "https://gams.uni-graz.at/o:szd.429/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1911-01-24, SZ-SAM/AK.146\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.146\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.714381+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Halle. Moritzburg.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung der Moritzburg in Halle. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Halle, 24. 1. 11.\n\nHerzlichen Gruß\nund auf baldiges\nWiedersehen!\n\nHans.\n\nHerren D[r] Stefan Zweig\nWien VIII.\nKochgasse 8.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel 'HALLE (SAALE) 24.1.11' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Halle, 24. 1. 11.\n\nHerzlichen Gruß\nund auf baldiges\nWiedersehen!\n\nHans.\n\nHerren D[r] Stefan Zweig\nWien VIII.\nKochgasse 8.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen und Grauskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die Abkürzung 'D[r]' für 'Dr.' wurde als sicher interpretiert, da es sich um eine Standardanrede für Stefan Zweig handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 260,
+    "total_words": 40,
+    "language_detected": "",
+    "language_match": true
+  }
+}

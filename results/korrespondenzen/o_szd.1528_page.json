@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1528",
+    "title": "Brief an Stefan Zweig vom 1. September 1925, SZ-AAP/B2.57",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1528/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1528/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1528/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. September 1925, SZ-AAP/B2.57\n- Signatur: SZ-AAP/B2.57\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:39.578804+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Charlottenburg, den 1.9.25\n\nLieber Herr Zweig,\nhalten Sie mich nicht für träge, dass ich Ihnen erst jetzt\nantworte. Ich habe hier fortdauernd den schändlichsten Ärger auszustehen\nund wollte nur in klarer Stimmung an Sie schreiben. Nun, in ein paar Wochen,\nhoffe ich, ist alles überstanden. Dann will ich auch wieder ein wenig heraus\nund etwas südlichere Luft schnappen. Weiter als bis nach Wien werde ich aller-\ndings wohl kaum kommen. Solletn Sie aber um diese Zeit zu Haus sein, so würde\nich sehr gern auf der Durchreise bei Ihnen vorsprechen. Die Leipziger Zu-\nsammenkunft hat mir doch so viel gegeben, dass ich grossen Appetit verspüre\nsie zu wiederholen. Vieles lässt sich auch nur mündlich sagen, namentlich in\ndem, was ich über Ihre Arbeiten denke.\nDas neue Stück \"Leporella\" finde ich nun ganz ausgezeichnet und es\nist eigentlich kritisch für mein Gefühl nichts daran auszusetzen. In der\nKnappheit und Folgerichtigkeit ist es wie von Maupassant. Den Zug mit dem\nKlaps auf den Hintern habe ich recht wohl bemerkt und meine stille Freude\ndaran gehabt. Menschlich besonders schön ist es, wie aus dem dürren Scheit\ndoch noch etwas herausblüht - solche Wandlungen gelingen Ihnen überhaupt\nimmer sehr überzeugend und gut. Sie ist in dem Augenblick wirklich eine\nprachtvolle Kupplerin, und schliesslich ist es ja gleichgültig was ein\nMensch betreibt, wenn er nur das auswirken kann, was in ihm steckt. Den heim-\nlichen Hochmut des\"besseren Menschen\"vor niedrigen Verrichtungen werden wir\nja nur schwer los. Freilich sollte man sich auch nicht verleiten lassen, das\nandere zu überschätzen, und die Verhimmlung der Dirne, die man oft beliebt,\nist mir sehr zuwider.\nVortrefflich ist auch der Stil auf das Thema abgestimmt. Es ist sehr\nerfrischend, was Ihnen für eine Menge von Worten zur Verfügung steht, um diese\nderbe Gestalt und ihre Art zu bezeichnen. Einige Wiederholungen und Überdeut-\nlichkeiten - auch hier habe ich, wie schon bei dem vorigen Stück zuweilen das",
+      "notes": "Typoskript auf dünnem Papier. Die Tinte des Textes auf der Rückseite scheint leicht durch, wurde aber gemäß Anweisung ignoriert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Gefühl, dass die Freude am treffenden Wort und der gutsitzenden Farbe Sie\nüberwältigen - werden Sie bei der Korrektur selbst bemerken.\nZu Ihren weiteren Plänen alles Gute, und den jungen Plantagen das\nschönste Wetter !\nMit den herzlichsten Grüssen",
+      "notes": "Typoskript. Fortsetzung des Briefes von Seite 1."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Ein kleiner Tippfehler im Original ('Solletn' statt 'Sollten') wurde originalgetreu übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2214,
+    "total_words": 355,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

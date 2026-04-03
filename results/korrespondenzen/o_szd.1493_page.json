@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1493",
+    "title": "Warren P. Munsell an das International Copyright Bureau, SZ-AAP/B3.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1493/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1493/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1493/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Warren P. Munsell an das International Copyright Bureau, SZ-AAP/B3.5\n- Signatur: SZ-AAP/B3.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:37.711478+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     COPY\n\n                                     The Theatre Guild, Inc.\n                                     245 West 52nd Street\n                                     New York City\n\n                                     June 22, 1939.\n\nInternational Copyright Bureau, Ltd.,\nDewar House,\nHaymarket, London, S.W.1.\n\nDear Sirs:\n\n          This is in reference to the motion picture rights for the play\nVOLPONE which we bought through you under contract dated the 12th day of April,\n1927, signed by H.M.Schiffer as your attorney in fact. Under this contract\nwe are entitled to 50% of the motion picture rights and because of this interest\nwe have been working on these rights for several years. Recently there seemed\nto have been several prospective purchasers and in order to expedite the sale,\nMr.Schiffer wrote to Dr.Zweig suggesting that he prepare a motion picture\ntreatment of the play, particularly in order to have the ban against the play\nlifted so that a picture could be made. Mr.Schiffer was informed by Dr.Zweig\nthat he was not interested in making such a film treatment because the film\nrights for VOLPONE had been sold a long time ago to a French Company.\n\n          I will appreciate it very much if you will advise us at your\nearliest possible convenience concerning the circumstances of this sale as,\nof course, we had no knowledge of it and did not receive our interest in the\nfilm rights, neither has Mr.Schiffer received his commission. It was therefore\nan unauthorized sale of these rights in which we did not participate. Therefore\nwe cannot permit the contract to remain in force or a picture authorized by\nsuch a contract to be shown.\n\n          I will appreciate any information you may be able to give me in\nthis matter. With best wishes,\n\n                                     Cordially yours,\n\n                                     signed: Warren P.Munsell\n                                     Business Manager",
+      "notes": "Typoskript auf Briefpapier. Rote handschriftliche Notiz '71' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument liegt unter der Skala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1964,
+    "total_words": 279,
+    "language_detected": "en",
+    "language_match": false
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Carbon copy of typed English-language letter from Warren P. Munsell (Theatre Guild) to International Copyright Bureau re VOLPONE film rights. language_mismatch flag correct — document is entirely in English despite TEI metadata listing Deutsch. Transcription accurate: all names, dates, legal references, and formatting verified against faksimile.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
+  }
+}

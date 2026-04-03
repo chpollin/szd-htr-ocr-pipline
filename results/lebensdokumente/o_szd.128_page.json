@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.128",
+    "title": "Vertrag Américo Fraga Lamares & Ca. Lda. LIVRARIA CIVILIZAÇÃO",
+    "language": "fr",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.51",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.128/IMG.1",
+      "https://gams.uni-graz.at/o:szd.128/IMG.2",
+      "https://gams.uni-graz.at/o:szd.128/IMG.3"
+    ],
+    "date": "2-i 937",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Porto",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, schwarze Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "28x22 cm"
+      },
+      "notes": "Eigenhändige Notiz in schwarzer Tinte, Unterschrift von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag Américo Fraga Lamares & Ca. Lda. LIVRARIA CIVILIZAÇÃO\n- Signatur: SZ-AAP/L13.51\n- Datum: 2-i 937\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Eigenhändige Notiz in schwarzer Tinte, Unterschrift von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.097906+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Américo Fraga Lamares & C.ª, L.da\nLIVRARIA CIVILIZAÇÃO\nTELEFONE, 1819\nRUA DO ALMADA, 107\nPÔRTO\n\nPorto, 2-i 937\n\nMonsieur Stefan Zweig\n49 Hallen Street London.\n\nCher Monsieur\n\nNous vous remercions de votre dernier letre et vous envoyons, ci-\njonit un chéque de Fr. 500, pour paiement des droits de traduction, ex-\nclusif, pour le Portugal et Colonies portugaises.\nNous vous remettons un exemplaire de la traduction de votre roman\nVint-Quatre Heures de la vie dune feme, que sera publieé dans le delaî\nd'un année.\nNous vous prions de nous envoyer des eléments de publicite, tels\nque des résumées de critiques et aussi une de vos photos, une plus\npetite pour la publicité dans les journaux, et une autre d'une plus\ngrand format pour l'exposition du livre.\nAgréeie, Monsieur, nos salutations, les plus empressés.\n\n[Unterschrift]\n\n24 Stunden aus dem Leben einer Frau\nportugiesische Buchrechte ausschliesslich fürs Portugal\nund Kolonien. 500.- ffrs als einmalige Abfindung bezahlt.",
+      "notes": "Die handschriftliche Notiz am unteren Rand ist in deutscher Sprache verfasst. Die Unterschrift ist unleserlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments mit Farb- und Grauskala-Referenzkarten."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, abgesehen von der unleserlichen Unterschrift und leichten Tippfehlern im französischen Originaltext (z.B. 'letre' statt 'lettre', 'dune feme' statt 'd'une femme').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 975,
+    "total_words": 154,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

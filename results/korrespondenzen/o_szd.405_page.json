@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.405",
+    "title": "Kurt Mickoleit an Stefan Zweig, 1908-07-23, SZ-SAM/AK.124",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.405/IMG.1",
+      "https://gams.uni-graz.at/o:szd.405/IMG.2",
+      "https://gams.uni-graz.at/o:szd.405/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Kurt Mickoleit an Stefan Zweig, 1908-07-23, SZ-SAM/AK.124\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.124\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.191545+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Warnicken\nWolfsschlucht\n23. 7. 08.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung der Wolfsschlucht in Warnicken. Handschriftliche Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Warnicken, 23. 7. 08.\nLieber Herr Dr. Zweig!\nBesten Dank für Ihre\nfreundliche Karte. Beiliegend\nfinden Sie ja meinen Wohn-\nsitz wohl mir jetzt auch\ndurch das Jahr: ich weile seit\neiner Woche im Ostseebade\nRossitten, seit dem 10. Juni\nbereits auf Reisen in Ost-\npreußen. Gern werde ich Sie\nim Winter in Berlin be-\nsuchen.\nMit schönstem Gruß\nIhr ergebener\nKurt Mickoleit.\n\nHerrn Dr. Stefan Zweig\n\nWien VIII\nKochg. 8II.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Briefmarke 'Deutsches Reich' 5 Pfennig oben rechts, Poststempel 'Warnicken'. Vertikaler Druck am linken Rand: 'Stengel & Co. Dresden 596'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Warnicken, 23. 7. 08.\nLieber Herr Dr. Zweig!\nBesten Dank für Ihre\nfreundliche Karte. Beiliegend\nfinden Sie ja meinen Wohn-\nsitz wohl mir jetzt auch\ndurch das Jahr: ich weile seit\neiner Woche im Ostseebade\nRossitten, seit dem 10. Juni\nbereits auf Reisen in Ost-\npreußen. Gern werde ich Sie\nim Winter in Berlin be-\nsuchen.\nMit schönstem Gruß\nIhr ergebener\nKurt Mickoleit.\n\nHerrn Dr. Stefan Zweig\n\nWien VIII\nKochg. 8II.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Grauskala und Farbkarte am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Ortsangabe 'Rossitten' ist aufgrund der Handschrift leicht interpretativ, aber im Kontext der Region (Ostpreußen) und der Schriftzüge eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 866,
+    "total_words": 147,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

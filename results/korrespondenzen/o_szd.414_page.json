@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.414",
+    "title": "Akira Osawa an Stefan Zweig, 1921-07-01, SZ-SAM/AK.132",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.414/IMG.1",
+      "https://gams.uni-graz.at/o:szd.414/IMG.2",
+      "https://gams.uni-graz.at/o:szd.414/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Akira Osawa an Stefan Zweig, 1921-07-01, SZ-SAM/AK.132\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.132\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.784878+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "ASSISI - Panorama dalla Rocca minore 2.7.21",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "1 juli 1921 Assisi, Umbria\n(Hotel minerva)\nLieber Herr\nVerzeihen Sie mir dass ich so\nlange Ihnen nicht geschrieben\nhabe. Ich habe gehört von Romain\nRolland dass Sie waren in Florenz\nbeim Herrn P.J. Jouve gewesen, er\nhat mir seine Adresse gegeben; aber\nunglücklicherweise konnte ich damals\nnicht Rom verlassen. Jetzt bin ich in\nOmbrien; Assisi ist wahrlich wunder-\nbar, ich habe nie gedacht dass Cima-\nbue so ein so grosser Maler sei. In Flo-\nrenz oder in Rom man kann nicht\ngenug erfassen die Grösse Cimabues\noder Giottos. Vielleicht muss man\nnach Padova und Pisa gehen um Giotto\nin seiner Ganze zu erfassen. Es tut\nziemlich heiss selbst in dieser hohe\nBergstadt. I will hier zwei mon\nbleiben und studieren.\nIhr treuer Akira Osawa.\n\nWerner Hermann\nper Adr.\nSt. Haus Weg 7.21.15\nNW 7\nDorotheenstrasse 31\n\nSignor Stefan Zweig\n5. Kapuzinerberg\nSalzburg\nAustria",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Enthält Poststempel und Briefmarke (Italien). Der Text rechts oben scheint eine Adressnotiz des Empfängers oder Absenders zu sein, die quer zum Haupttext steht."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte befindet sich die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz einiger kleinerer orthographischer Eigenheiten des Schreibers.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 900,
+    "total_words": 151,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

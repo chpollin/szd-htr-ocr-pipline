@@ -1,0 +1,115 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2504",
+    "title": "Aufruf für die österreichischen Juden",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA103.7",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2504/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2504/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2504/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2504/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2504/IMG.5"
+    ],
+    "date": "1938",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "extent": "2 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, blauer Buntstift, rote Tinte",
+        "hands": [
+          "Lotte Zweig"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Aufruf für die österreichischen Juden\n- Signatur: SZ-AAP/W-AA103.7\n- Datum: 1938\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Durchschlagpapier, blauer Buntstift, rote Tinte\n- Hand: Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:28.731044+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufruf für die öster. Juden\n1938\n\nEs ist immer ungerecht, ein Unglück mit einem\nandern zu vergleichen. Dennoch wird man sagen dürfen, dass die\nTragödie des österreichischen Judentums die deutsche in ihrer\nGrausamkeit noch übertrifft. In Deutschland war die Entrech-\ntung, die gewaltsame Verarmung ~~langsamer~~ {allmählicher} erfolgt, jahrelang war\nden Betroffenen Zeit gegeben, sich umzustellen, eine Auswande-\nrung langsam vorzubereiten. In Oesterreich hat der vernichtende\nSchlag Hunderttausende innerhalb einer einzigen Woche, eines Mo-\nnats aus ihrer Existenz gerissen und dem furchtbarsten Elend ge-\ngenübergestellt. Unabsehbar, unausdenklich ist, was dort ge-\nschehen ist und noch geschieht.\n\nDoppelt rasch, fast so rasch, wie diese Kata-\nstrophe über alle die Tausende hereingebrochen ist, muss darum\ndie Hilfe sein. Es nützt kein Anklagen, kein Protestieren in-\nnerhalb an den tagtäglichen Verletzungen des Völkerrechts\nschon gleichgültig gewordenen Welt; will das Judentum in einer\nsolchen Stunde wenigstens seine Ehre retten, so muss es Solida-\nrität bekunden und zwar die einzig moralisch gültige - die So-\nlidarität aufopfernder Hilfe und aktiver Bereitschaft. In den\nnächsten Monaten und Jahren wird dann noch viel Besinnen und Or-\nganisieren notwendig sein, um das ungeheure Problem zu bewälti-\ngen, wie man Hunderttausende, wie man eine Viertel- eine halbe\nMillion Juden, denen man die heimatliche Erde unter den Füssen\nwegreisst, in andere Länder verpflanzt; eine Aufgabe steht dem\nJudentum bevor, wie es in den zweitausend Jahren seiner Geschich-\nte kaum eine schwierigere gekannt. Aber jedem Ueberlegen muss\njetzt die Tat vorangehen, ohne Zögern muss jetzt Geld und zwar\nsehr, sehr viel Geld gesammelt und bereitgestellt werden, um\ndie Brücke zu bauen, welche die Bedürftigen in eine neue Existenz",
+      "notes": "Typoskript mit handschriftlichen Korrekturen (blauer Buntstift, rote Tinte). Die Korrektur 'allmählicher' ist in roter Tinte über dem durchgestrichenen 'langsamer' eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "hinüberführt. Die Ehre der Gemeinschaft fordert von der Ehre\njedes einzelnen, dass er aus voller Kraft gebe und sogar über\nseine Kraft; in einer Stunde, da wir von andern Völkern und\nLändern Gastlichkeit für die Ausgetriebenen erbitten, muss es\nunsere erste Pflicht sein, uns selbst vor allen andern aufzu-\nrufen und von jedem und von allen das Aeusserste an Aufopferung\nzu fordern.",
+      "notes": "Typoskript, Fortsetzung des Textes auf einem neuen Blatt."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen sind eindeutig zuordenbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2198,
+    "total_words": 328,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

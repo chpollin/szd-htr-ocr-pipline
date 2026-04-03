@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1209",
+    "title": "Brief an Anna Meingast vom 26. Juli 1934, SZ-SAM/B7.39",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1209/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1209/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 26. Juli 1934, SZ-SAM/B7.39\n- Signatur: SZ-SAM/B7.39\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.931884+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "TEL.: LANGHAM 1069\n\n11, PORTLAND PLACE,\nLONDON, W.1\n\n26.Juli 1934.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr für Ihren freundlichen Brief und\n{nächster Tag}\n~~lege~~ meinen Vertrag über Kaleidoscope ~~bei~~, der zu den andern\nOriginalverträgen zu kommen hat. (Meine Frau weiss, wo sie sind).\nFerner bitte ich zu vermerken, in den Büchern, dass ich für \"Lamm\ndes Armen\" englische Zusage gemacht habe an International Copy-\nright-Bureau für Herrn Harold Simpson und \"Erasmus von Rotterdam\"\nfür Dänemark, wo Abschrift der Vereinbarung beiliegt. Bitte wol-\nlen Sie noch folgendes freundlich vermerken. Ich habe in zwei\nPaketen die Erasmusexemplare, die mir hierher zugesandt wurden,\nzurückgeschickt. Für diese Pakete ist selbstverständlich eine\nZollgebühr nicht zu bezahlen und zu sagen, dass es Waren oester-\nreichischen Ursprungs sind, die nur auf diesem Wege zurückgelangen.\n\nMit den besten Grüssen Ihr\n\nStefan Zweig\n\nIch werde auch nächster Tage / falls alles ruhig bleibt /\neinen Fach abgelegter Briefe zum Einordnen",
+      "notes": "Der Text enthält eine handschriftliche Korrektur/Einfügung in der zweiten Zeile des Textkörpers. Der letzte Satz am unteren Rand ist ebenfalls handschriftlich hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1019,
+    "total_words": 152,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

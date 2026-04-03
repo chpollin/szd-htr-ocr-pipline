@@ -1,0 +1,95 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1239",
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.55",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1239/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1239/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1239/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1239/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1239/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1239/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1239/IMG.7"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.55\n- Signatur: SZ-LAS/B3.55\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:22.599992+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Dr Viktor Fleischer\n\nWien XIX\nBillrothstrasse 20",
+      "notes": "Adressseite eines Briefumschlags."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefumschlags mit zwei Briefmarken (5 Heller, Österreichisch-Ungarische Monarchie) und Poststempel 'BADEN 3 - 3.VIII.14 - 8'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Sonntag ,\n\nLieber Herr Doktor ,\n\nder Brief kam aus Tobelbad und\nich will nicht warten Ihnen zu\ndanken, für die Freude, die ich\nnachträglich hatte. Sie haben mich\nletzthin sehr versagt gesehen . Nun\nhabe ich wieder etwas mehr\nFestigkeit gewonnen. Dienstag\nbin ich in Wien ; vielleicht begegnen\nwir einander .\n\nIn Baden ist es jetzt so still\nund schön, dass man oft Minuten,\nlang das Schreckliche vergisst\nund nur diesen leisen Herbstbeginn\nin der Landschaft spürt, der so",
+      "notes": "Erste Seite des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt (Rückseite von Seite 3)."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "ruhend ist. Dann reisst einem das ferne\nRollen der Südbahnzüge, in dessen jetzt\nkeine Vergnügungsreisende dahinfahren\naus dem sonnigen Wahn.\n\nDie Kinder mit ihrer Sorglosigkeit\nsind jetzt ein Segen. Sie sagen es\neinem stündlich, dass die Freude\nnicht aussterben kann und steht\nauch die Welt im entsetzlichsten\nKampf. Ich habe nie so starke\nwie jetzt das Glück empfunden sie\nzu haben und {ich} wollte, ich hätte noch\nein paar .\n\nLieber, guter Herr Doktor einige\nGrüsse an Sie und ergebene\nEmpfehlungen zu Hause !\n\nIhre\nFriderike Winternitz",
+      "notes": "Zweite Seite des Briefes."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Seite 5 mit Archivnummer '22421/7'."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan mit Farbskala und Grauskala, zeigt die Rückseite von Seite 5."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Struktur des Briefes ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1062,
+    "total_words": 176,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

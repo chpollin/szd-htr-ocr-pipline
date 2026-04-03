@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1414",
+    "title": "Brief an Unbekannt vom 8. November 1937, SZ-LAS/B6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1414/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1414/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1414/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt vom 8. November 1937, SZ-LAS/B6\n- Signatur: SZ-LAS/B6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:32.478412+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\n8.November 1937.\n\nHochverehrter Herr Minister!\n\nErlauben Sie mir,\ndass ich Ihnen meinen innigsten Dank ausspre-\nche für die gütige Art, in der Sie sich per-\nsönlich meiner Bitte angenommen haben, und\nich hoffe, Sie empfinden es, sehr verehrter\nHerr Minister, nicht als eine Unbescheiden-\nheit, wenn ich mir gestatte, Ihnen mein eben\nerschienenes Buch als Zeichen meiner aufrich-\ntigen Erkenntlichkeit zu überreichen. Ich\nbrauche nicht zu wiederholen, eine wie will-\nkommene Entlastung es für meine Arbeit be-\ndeutet, diese so lange schwebende Angelegen-\nheit in rechtlichster Weise erledigt zu wis-\nsen.\n\nMit dem Ausdruck\nlebhaftester Hochachtung\n\nIhr sehr ergebener\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer, leichte Stockflecken."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung über das Dokument gelegt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript, die Unterschrift ist deutlich lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 728,
+    "total_words": 109,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

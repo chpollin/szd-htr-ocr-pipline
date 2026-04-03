@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.104",
+    "title": "Vertrag „Editorial Apolo“ Barcelona",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.27",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.104/IMG.1",
+      "https://gams.uni-graz.at/o:szd.104/IMG.2",
+      "https://gams.uni-graz.at/o:szd.104/IMG.3"
+    ],
+    "date": "23. Nov. 1934",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Salzburg | Barcelona",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Durchschlagpapier, schwarze und violette Tinte, Bleistift",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "25x23 cm"
+      },
+      "notes": "Aufschrift „rekl. 27.4. | 1935“ von fremder Hand in Bleistift, Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand, violetter Stempel"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag „Editorial Apolo“ Barcelona\n- Signatur: SZ-AAP/L13.27\n- Datum: 23. Nov. 1934\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Violettes Durchschlagpapier, schwarze und violette Tinte, Bleistift\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Aufschrift „rekl. 27.4. | 1935“ von fremder Hand in Bleistift, Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand, violetter Stempel"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:43.349572+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "          Vertrag\n          -------\n\nZwischen der Verlagsanstalt \"Editorial Apolo\" Barcelona\nPasaje Marimon 7 und Dr. Stefan Zweig, drzt London (Salzburg)\nist nachstehende Vereinbarung getroffen worden:\n\nDr. Stefan Zweig überlässt die spanischen Rechte an\nseiner Novelle \"Vierundzwanzig Stunden aus dem Leben einer Frau\"\ngegen eine einmalige Zahlung von RM 300.- (dreihundert Mark)\n\nDer Verlag verpflichtet sich, innerhalb von zwei Jah-\nren das Buch in einer sorgfältigen Uebersetzung herauszubrin-\ngen und dem Verfasser vier gebundene Exemplare zu übersenden.\n\nDas Honorar ist in zwei Monatsraten von je RM 150.-\nnach Abschluss des Vertrages zu erlegen.\n\n\n\nSalzburg, am 23. Nov. 1934                Barcelona, am\n                                         EDITORIAL APOLO\nStefan Zweig                             [Unterschrift unleserlich]\n                                         GERENTE\n\n                                         rekl. 27.4.\n                                         1935",
+      "notes": "Das Dokument ist ein Typoskript mit handschriftlichen Ergänzungen (Datum, Unterschrift Stefan Zweig, Unterschrift des Verlagsvertreters, handschriftliche Notiz unten rechts). Die Unterschrift des Verlagsvertreters ist unleserlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, keine Beschriftung."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments mit Farb- und Grauskala, keine Beschriftung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind ebenfalls gut identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 987,
+    "total_words": 107,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

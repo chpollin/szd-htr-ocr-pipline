@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.724",
+    "title": "Brief an Herbert Reichner vom 15. November 1937, SZ-AAP/B1.132",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.724/IMG.1",
+      "https://gams.uni-graz.at/o:szd.724/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 15. November 1937, SZ-AAP/B1.132\n- Signatur: SZ-AAP/B1.132\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:26.284438+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "15.November 1937.\n\nSehr geehrter Herr Reichner!\n\nIch erhielt vom Anwalt von Frau Tal einen\nBrief, aus dem hervorgeht, dass sie nichts anderes\nwollen als etwas Geld herausholen. Sie können ja in-\nzwischen antasten, wie viel die Dame wünscht und wir\ndann immer schlüssig werden, ob wir darauf eingehen\noder nicht. Sie haben ja die Absatzzahlen aus der\nAbrechnung. Ich stelle mich selbstverständlich dem\nAnwalt gegenüber auf den Standpunkt, dass ich den Pro-\nzess führen will und bin überzeugt, sie wird nicht zum\nAeussersten gehen.\nEine Abschrift des Briefes schicke ich an\nDr. Geiringer.\n\nMit den besten Empfehlungen\n\nAnbieten können Sie, dass ich\nvon jetzt ab auf sämtliche\nHonorare von „Fahrten“ ver-\nzichte.",
+      "notes": "Typoskript mit handschriftlicher Ergänzung am Ende (Bleistift). Die handschriftliche Ergänzung ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite ist sichtbar, wird gemäß Anweisung nicht transkribiert)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die handschriftliche Ergänzung am Ende ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 709,
+    "total_words": 112,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

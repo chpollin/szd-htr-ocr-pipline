@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1278",
+    "title": "Postkarte an Anna Meingast vom 14. August 1928, SZ-SAM/B7.7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1278/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1278/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 14. August 1928, SZ-SAM/B7.7\n- Signatur: SZ-SAM/B7.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:25.916920+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1928\n\nLiebe Frau Meingast\nvielen Dank für die\nliebe rasche Erledigung.\nWir bitten Sie allfällige\ntelegrafische Nachrichten\nuns so zu senden, dass sie uns bis\nMontag früh hier erreichen.\n~~Bitte auch an~~ Weiterer\nTelegrafieren oder schreiben wir.\nSchönen Gruß auch an Willi\nu. an Herrn Johann, Fr. Marie Ihre F. H. [?] \n\nS. Zweig\nFrau Meingast\nSalzburg (Autriche)\nKapuzinerberg 5",
+      "notes": "Die Postkarte enthält einen Poststempel 'OOSTENDE 14 VIII 28'. Die handschriftliche Adresse ist auf der rechten Seite der Karte platziert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, vielen Dank für\nIhre Nachrichten. darf ich Sie noch\nbitten, ein Exemplar „Drei Dichter\nIhres Lebens“ an\nEmil Alphons Rheinhardt\nBénodet (Kerlidan)\nFrance, Depart. Finistère\n{zu senden}\nmit dem Vermerk „Im Auftrag von\nS. Z (verreist)“. Ferner bitte Frau\nMarie zu sagen, sie möchte unbe-\ndingt vor unserer Rückkehr die junge\nKatzen irgendwo abgeben, wir\nhaben an dreien gerade genug.\nGrüßen Sie bitte Herrn Johann\nund haben Sie nochmals herzlichen\nDank Ihr\nStefan Zweig\nLetzte Post bitte Donnerstag\nzu senden. Eventuell telegrafiere ich dann.",
+      "notes": "Der Text ist in violetter Tinte geschrieben. Die Zeile '{zu senden}' wurde über der Zeile eingefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger kleinerer Abkürzungen und der typischen Zweig-Kursivschrift.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 940,
+    "total_words": 147,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.822",
+    "title": "Brief an Herbert Reichner vom 24. Mai 1937, SZ-AAP/B1.40",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.822/IMG.1",
+      "https://gams.uni-graz.at/o:szd.822/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 24. Mai 1937, SZ-AAP/B1.40\n- Signatur: SZ-AAP/B1.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:34.913661+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "24.Mai 1937.\n\nGeehrter Herr Reichner!\n\nIch bin ein Mann des Friedens und mir ist es\ndarum das Wichtigste, zu meiner Arbeit zu kommen. Wir ver-\neinbaren also in Ihrem Sinne, dass der niedrigere Honorar-\nsatz nur für das erste und zweite Tausend gilt und ich ge-\nbe in dem andern Punkte nach, der ja ohnehin ein ziemlich\nillusorischer ist, denn ich glaube, wenn Sie ein Jahr nicht\nzahlen können, aus welchen Gründen immer, so ist ja die Sa-\nche ohnehin zuende. Hoffen wir, dass uns das alles erspart\nbleibt.\n\nEs wäre natürlich bedauerlich, wenn Dr. Bagrow\nmich hier nicht aufsuchte, denn langsam müssen wir ja jetzt\nan die Illustrationen heran. Ich korrigiere inzwischen ge-\nlegentlich an Magellan herum, sodass dann ein drucktech-\nnisch möglichst tadelloses Exemplar vorliegen wird.\n\nMit den besten Empfehlungen\n\nDer Korrektheit halber teile ich Ihnen noch mit, dass",
+      "notes": "Typoskript auf Briefpapier. Der letzte Satz bricht am Ende der Seite ab und setzt sich auf der Rückseite fort."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "mich Meulenhoff, der ja zwei Schulausgaben schon von mir\nbrachte, um eine Schulausgabe der \"Augen des ewigen Bru-\nders\" bat und ich ihm in Hinblick auf die erfahrungsge-\nmäss gute Wirkung solcher Schulausgaben die Erlaubnis erteilt\nhabe.",
+      "notes": "Typoskript, Fortsetzung des Textes von Seite 1. Der Rest der Seite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1102,
+    "total_words": 178,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

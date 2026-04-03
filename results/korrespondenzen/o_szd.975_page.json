@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.975",
+    "title": "Brief an Sigmund Freud von [etwa 10. Juli 1938], SZ-LAS/B7.33",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.975/IMG.1",
+      "https://gams.uni-graz.at/o:szd.975/IMG.2",
+      "https://gams.uni-graz.at/o:szd.975/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud von [etwa 10. Juli 1938], SZ-LAS/B7.33\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:47.439412+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Prof. Sigmund Freud\n49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nVerehrter Herr Professor, Salvador\nDali, der grosse Maler, der ein\nfanatischer Bewunderer Ihres Werks\nist, möchte Sie gerne sehen und\nich weiss niemanden, der Ihnen\ninteressanter sein könnte. Ihr\nliebe sein Werk ausserordentlich\nund wäre froh, wenn Sie mit\nihm eine Stunde hätten.\nIn Verehrung geben[?]\nStefan Zweig",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett. Das Wort 'geben' in der vorletzten Zeile ist schwer lesbar, könnte auch 'gebe' oder eine andere Grußformel sein."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung. Das Dokument ist identisch mit Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die einzige Unsicherheit besteht in der Grußformel 'In Verehrung geben', da das letzte Wort etwas flüchtig geschrieben ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 383,
+    "total_words": 59,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

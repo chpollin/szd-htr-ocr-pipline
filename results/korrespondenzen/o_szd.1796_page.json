@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1796",
+    "title": "Brief an Stefan Zweig vom 13. Mai 1938, SZ-AAP/B1.230",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1796/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1796/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Mai 1938, SZ-AAP/B1.230\n- Signatur: SZ-AAP/B1.230\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.928733+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "RASCHER & CIE. A.-G., ZÜRICH\nBUCHHANDLUNG · KUNSTHANDLUNG · VERLAGSBUCHHANDLUNG\nTelephon 21.601 · Telegramm-Adresse: Rascherco\nPostcheck-Konti: Zürich VIII 466, Stuttgart 29/298\nZürich 1, Limmatquai 50\n\nHerrn\nDr. Stefan Z w e i g ,\nL o n d o n . W 1.\n49, Hallam Street.\n\nZürich, den 13. Mai 1938.\n\nLieber Herr Doktor,\nIhr Schreiben vom 12. ds.Mts. hat mich\nallerdings sehr überrascht. Inzwischen habe ich festgestellt,\ndass die Firma Herbert Reichner sich vor etwa drei Jahren\nüber einen hiesigen Advokaten der als Strohmann figuriert\nins Zürcher Handelsregister eintragen liess. Wir halten es\njedoch für ausgeschlossen, dass Herr Reichner in Zürich die\nAufenthalts-und Arbeitsbewilligung erhalten wird.\nInteressieren würde es mich, ob Ihre Ver-\nlagsverträge mit Herbert Reichner Wien oder mit Herbert Reich-\nner Zürich abgeschlossen sind.\n\nMit den besten Grüssen, zeichnet\nIhr\nmax Rascher",
+      "notes": "Typoskript auf Geschäftspapier mit handschriftlicher Unterschrift. Die Unterstreichungen bei 'Wien' und 'Zürich' im Textkörper sind ebenfalls handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite sichtbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Unterschrift und die Unterstreichungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 889,
+    "total_words": 135,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

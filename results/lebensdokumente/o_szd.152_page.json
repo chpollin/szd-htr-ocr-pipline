@@ -1,0 +1,86 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.152",
+    "title": "Abwesenheitsnotiz I",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SAM/L2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.152/IMG.1",
+      "https://gams.uni-graz.at/o:szd.152/IMG.2",
+      "https://gams.uni-graz.at/o:szd.152/IMG.3"
+    ],
+    "document_type": "postcard",
+    "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "subject": [
+        "Büromaterialien"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047604132",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Anna Meingast",
+        "Erwerb: Schenkung Wilhelm Meingast 2000"
+      ],
+      "physical_description": {
+        "dimensions": "15x10 cm"
+      },
+      "notes": "Aufdruck „Stefan Zweig | ist derzeit verreist, so daß Ihr freundliches Schreiben zur Zeit von ihm nicht beantwortet werden kann. | Salzburg, Datum des Poststempels“; 3 Exemplare"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Abwesenheitsnotiz I\n- Signatur: SZ-SAM/L2\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Aufdruck „Stefan Zweig | ist derzeit verreist, so daß Ihr freundliches Schreiben zur Zeit von ihm nicht beantwortet werden kann. | Salzburg, Datum des Poststempels“; 3 Exemplare"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.887313+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Stefan Zweig\n\nist derzeit verreist, so daß Ihr freundliches\nSchreiben zur Zeit von ihm nicht beantwortet\nwerden kann.\n\nSalzburg, Datum des Poststempels.",
+      "notes": "Vorderseite der Karte (identisch auf allen drei Scans)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "An\n\n\n\n\nDrucksache",
+      "notes": "Rückseite der Karte (Adressseite)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Stefan Zweig\n\nist derzeit verreist, so daß Ihr freundliches\nSchreiben zur Zeit von ihm nicht beantwortet\nwerden kann.\n\nSalzburg, Datum des Poststempels.",
+      "notes": "Vorderseite der Karte (identisch mit Scan 1, hier mit Farbkarten-Referenz)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Es gibt keine handschriftlichen Ergänzungen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 321,
+    "total_words": 46,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1094",
+    "title": "Postkarte an Max Fleischer vom 25. Februar 1902, SZ-LAS/B3.16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1094/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1094/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1094/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 25. Februar 1902, SZ-LAS/B3.16\n- Signatur: SZ-LAS/B3.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.689913+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "An\n~~Herrn~~ Max Fleischer\n~~Weimar und Kötzschau~~\n~~in~~ Leipzig (Sachsen)\nMünzgasse 16\nKomotau[?] 25/2",
+      "notes": "Adressseite der Postkarte. Der Stempel ist teilweise unleserlich, 'Komotau' ist eine Vermutung basierend auf dem Kontext."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Max, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur“ Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit“ und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende Dir\nherzliche Grüße Dein\nStefan Zweig",
+      "notes": "Textseite der Postkarte. 'Pariser' und 'Binder' sind unsichere Lesungen aufgrund der Handschrift."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Mac, momentan besitze ich kein Brief-\npapier, sobald ich aber etwas habe (nur so viel\nMoney habe ich noch) kriegst Du einen Brief. Die\nBesprechung über Dich war im letzten oder vorletzten\nHeft des „schönen Literatur“ Beilage z. Litt. Central-\nBlatt. Die meine in der Pariser[?] Rundsch. ist seit\nMonaten erschienen. Einen Binder[?] lese ich mit Ver-\ngnügen in der „Zeit“ und hoffe ihn noch oft zu\nlesen, aber auch einmal Dich, denn ich sende nur\nherzliche Grüße Viele\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala abgebildet."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber einige Eigennamen und Abkürzungen sind schwer zu entziffern. Die Lesung 'Komotau' und 'Binder' ist aufgrund der Schriftführung unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1078,
+    "total_words": 178,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 3,
+    "estimated_accuracy": 0.95,
+    "edited_pages": [
+      2
+    ],
+    "notes": "Page 1 (address side): Transcription captures main address elements but postal stamps obscure some text; pre-printed 'Correspondenz-Karte' header not transcribed — acceptable. Page 2: Three corrections made: (1) 'Mac' → 'Max' (addressee is Max Fleischer, Kurrent x misread as c), (2) 'nur' → 'Dir' (Kurrent n/D confusion, 'sende Dir' is grammatically correct), (3) 'Viele' → 'Dein' (closing formula 'Dein Stefan Zweig' is standard). Uncertain readings 'Pariser[?]' and 'Binder[?]' retained — both plausible but not confirmable from image alone. Page 3 correctly classified as color_chart. duplicate_pages flag is a false positive caused by color-chart re-photography of page 2.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:00:00Z"
+  }
+}

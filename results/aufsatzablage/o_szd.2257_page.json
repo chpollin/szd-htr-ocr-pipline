@@ -1,0 +1,126 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2257",
+    "title": "Theater",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA191.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2257/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2257/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Theater\n- Signatur: SZ-AAP/W-AA191.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:59.600848+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Theater\nDas zukünftige Theater des Geistes\n(Theater der deutschen Residenzen [Hannover])\n\nTheater",
+      "notes": "Der Text erscheint auf dem Blatt zweimal, einmal als Überschrift/Notiz im oberen Bereich und einmal mittig als einzelnes Wort."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des oberen Teils des Blattes, Text scheint durchzuschimmern, aber nicht lesbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Theater",
+      "notes": "Ausschnitt des unteren Teils des Blattes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Theater\nDas zukünftige Theater des Geistes\n(Theater der deutschen Residenzen [Hannover])",
+      "notes": "Ausschnitt des oberen Teils des Blattes."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Theater\nDas zukünftige Theater des Geistes\n(Theater der deutschen Residenzen [Hannover])\n\nTheater",
+      "notes": "Gesamtansicht des Blattes mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich geschrieben und weist keine komplexen Kürzel auf. Die Lesung ist eindeutig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 289,
+    "total_words": 36,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

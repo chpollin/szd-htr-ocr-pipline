@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.529",
+    "title": "Aloys Wach an Stefan Zweig, 1923-01-19, SZ-SAM/AK.237",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.529/IMG.1",
+      "https://gams.uni-graz.at/o:szd.529/IMG.2",
+      "https://gams.uni-graz.at/o:szd.529/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Aloys Wach an Stefan Zweig, 1923-01-19, SZ-SAM/AK.237\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.237\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:15.590035+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Braunau a. Inn 19. I. 23. Wach Alois[?]",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Notiz am unteren Rand. Die Schrift ist in violetter Tinte verfasst."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sehr verehrter Herr\nDr. Zweig!\nTausend Dank für Ihre\nerfreuliche Nachricht,\nich bitte Sie[?] nach\nIhrem Vorschlage den\nErlös der Arbeiten an\nGewerbebank Simbach,\nConto A. Wach, frdl. anzuweisen!\nVon Ihnen wirklich dank-\nbarst verbunden für Ihre\ngroßfreundlichkeit. Mit den\nfern allerbesten Grüßen\nIhr sehr ergebener A. Wach",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Am linken Rand vertikal gedruckt: 'Phot. u. Verlag Atelier G. Zimmermann, Braunau a. Inn' und 'Serie I. Nr. 3. Ges. gesch. 1921'. Rechts oben eine Briefmarke mit Poststempel 'BRAUNAU AM INN'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Sehr verehrter Herr\nDr. Zweig!\nTausend Dank für Ihre\nerfreuliche Nachricht,\nich bitte Sie[?] nach\nIhrem Vorschlage den\nErlös der Arbeiten an\nGewerbebank Simbach,\nConto A. Wach, frdl. anzuweisen!\nVon Ihnen wirklich dank-\nbarst verbunden für Ihre\ngroßfreundlichkeit. Mit den\nfern allerbesten Grüßen\nIhr sehr ergebener A. Wach",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist trotz der kursiven Ausprägung eindeutig zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 685,
+    "total_words": 104,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

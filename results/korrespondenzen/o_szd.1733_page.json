@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1733",
+    "title": "Postkarte an Richard Strauss vom [Dezember 1932], SZ-SAM/B8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1733/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1733/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1733/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Strauss vom [Dezember 1932], SZ-SAM/B8\n- Signatur: SZ-SAM/B8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.649631+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender: STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nPostkarte\n\nDr. Richard Strauss\n\nGarmisch-Partenkirchen\nZöppritzstrasse",
+      "notes": "Adressseite einer Postkarte. Gedruckter Vordruck mit handschriftlicher Adresse in violetter Tinte. Briefmarke oben rechts (10 Groschen, Österreich)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Verehrter Herr Doktor, ich warte\nnur Ihre Rückkunft ab, um Ihnen\nden abgeänderten und stark\nverkürzten Text der Scene im\nzweiten Akt zu senden. Auch\nder dritte Akt ist zur Hälfte fertig\nund wird bald ganz vollendet sein,\nso dass Sie das Sicherheitsgefühl\ndes completten Librettos bei der\nArbeit haben. Wenn es Ihnen recht\nist, würde ich dann ohne Sie zu\nstören (ich will selbst arbeiten)\nMitte Januar für ein paar Tage\nnach Garmisch kommen, um jede\nEinzelheit durchberaten zu können.\nherzlichst Ihr Stefan Zweig\n\nErgebene Empfehlungen Ihrer verehrten Frau Gemahlin",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Der letzte Satz am linken Rand ist vertikal von unten nach oben geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Enthält das gleiche Dokument wie Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die vertikale Randnotiz auf Seite 2 wurde korrekt zugeordnet.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 684,
+    "total_words": 103,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

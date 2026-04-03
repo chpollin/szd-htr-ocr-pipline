@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1713",
+    "title": "Brief an Anna Meingast vom 6. August 1936, SZ-SAM/B7.80",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1713/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1713/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 6. August 1936, SZ-SAM/B7.80\n- Signatur: SZ-SAM/B7.80\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.403289+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49 Hallam Street\nLondon W.1.                                6.August 1936.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen noch sehr für\nIhre Nachrichten und hoffe, dass Sie sich gut er-\nholt haben und sich nun mit Ihrem Sohne freuen.\nIch habe kopfüber zu tun, um all die Besorgungen\nvor einer grossen Reise mit all den amtlichen Pa-\npieren und Faxen zu erledigen. Aber es ist bereits\nso viel wie alles getan und morgen kann ich beru-\nhigt wegreisen.\n\nWegen der Post bitte alles ener-\ngisch zu erledigen, indem Sie schreiben, dass ich\nin Brasilien und Argentinien bin und vor einem Vier-\nteljahre auf Erledigung nicht zu rechnen ist. Damit\ngeben die Leute die Hoffnung auf, von mir Antwort zu\nerhalten.\n\nIch habe in letzter Zeit viel ge-\narbeitet, jetzt kommt die gute Erholung. Im Oktober",
+      "notes": "Typoskript mit handschriftlicher Unterstreichung in Zeile 13."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "und November will ich in England {wieder an die Arbeit} scharf ~~daran~~ ge-\nhen und hoffe Sie dann im Winter, wenn mich nichts\nDringendes schon früher heimrufen sollte, in Salz-\nburg zu sehen.\n\nAlles Gute und Herzliche\n\nvon Ihrem\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in Zeile 1 (violette Tinte) und handschriftlicher Unterschrift (violette Tinte)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf Seite 2 sind klar als solche erkennbar und wurden entsprechend den Regeln transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1024,
+    "total_words": 171,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

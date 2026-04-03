@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1303",
+    "title": "Ansichtspostkarte an Ida Zweig vom 19. Januar 1935, SZ-SEF/B12.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1303/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1303/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1303/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Ida Zweig vom 19. Januar 1935, SZ-SEF/B12.2\n- Signatur: SZ-SEF/B12.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.200772+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "CONTE DI SAVOIA",
+      "notes": "Vorderseite der Ansichtspostkarte mit Abbildung des Schiffes."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Mama, die\nReise ist schon soviel wie\nüberstanden und trotz\nbewegtem Meeres bin ich\nsehr angenehm gefahren.\nDafür bleibe ich dann\nim März für einen Monat\nin Wien. Hoffentlich geht\nes Dir andernwegs gut.\nViele Grüße Deines\nStefan\n\nIda Zweig\nIX Garnisongasse 10\nWien (Austria)",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text von Stefan Zweig. Poststempel: 'NEW YORK - GENOVA 19 I XIII'. Briefmarke: 'POSTE ITALIANE 75'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Liebe Mama, die\nReise ist schon soviel wie\nüberstanden und trotz\nbewegtem Meeres bin ich\nsehr angenehm gefahren.\nDafür bleibe ich dann\nim März für einen Monat\nin Wien. Hoffentlich geht\nes Dir andernwegs gut.\nViele Grüße Deines\nStefan\n\nIda Zweig\nIX Garnisongasse 10\nWien (Austria)",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala-Referenzkarten abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift von Stefan Zweig ist gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 573,
+    "total_words": 95,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

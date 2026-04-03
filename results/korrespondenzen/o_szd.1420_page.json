@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1420",
+    "title": "Brief an Friedrich Siegbert Mees vom 26. August 1930, SZ-SAH/B2.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1420/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1420/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1420/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1420/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1420/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Friedrich Siegbert Mees vom 26. August 1930, SZ-SAH/B2.4\n- Signatur: SZ-SAH/B2.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:32.828050+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn\n\nSiegbert Mees\n\nKapellmeister der städtischen Bühnen\n\nH a n n o v e r\n\nSchauspielhaus.",
+      "notes": "Adressseite eines Briefumschlags. Enthält einen Poststempel 'SALZBURG 2 26. VIII. 30. 21' und eine 20 Groschen Briefmarke."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefumschlags, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 26. August 1930\n\nSehr verehrter Herr Mees!\n\nIch freue mich riesig, dass Sie nach Hannover gekommen\nsind. Ich weiss aus Erfahrung, ein wie guter menschlicher Ton dort\nauf der Bühne herrscht und wie streng und künstlerisch von allen\ngearbeitet wird. Sie werden da gewiss viel leisten können und hof-\nfentlich wird mir die Freude, mich einmal persönlich überzeugen zu\nkönnen, Seien Sie gewiss, der herzlichen Anteilnahme\n                                       Ihres\n\nStefan Zweig",
+      "notes": "Brieftext. Das Logo 'SZ' ist links oben gedruckt. Der Text ist maschinenschriftlich, die Unterschrift handschriftlich."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, zeigt den Durchdruck des Textes von Seite 3."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 26. August 1930\n\nSehr verehrter Herr Mees!\n\nIch freue mich riesig, dass Sie nach Hannover gekommen\nsind. Ich weiss aus Erfahrung, ein wie guter menschlicher Ton dort\nauf der Bühne herrscht und wie streng und künstlerisch von allen\ngearbeitet wird. Sie werden da gewiss viel leisten können und hof-\nfentlich wird mir die Freude, mich einmal persönlich überzeugen zu\nkönnen, Seien Sie gewiss, der herzlichen Anteilnahme\n                                       Ihres\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 3, jedoch mit Farb- und Grauskala am Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinenschriftlich und sehr gut lesbar. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1102,
+    "total_words": 162,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

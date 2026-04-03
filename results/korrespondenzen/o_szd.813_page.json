@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.813",
+    "title": "Brief an Stefan Zweig vom 13. Mai 1937, SZ-AAP/B1.32",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.813/IMG.1",
+      "https://gams.uni-graz.at/o:szd.813/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Mai 1937, SZ-AAP/B1.32\n- Signatur: SZ-AAP/B1.32\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:34.094075+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wien, am 13.Mai 1937.\n\nWohlgeb.Herrn\n\nDr. Stefan Z w e i g ,\n\nW i e n , 9., Hotel Regina.\n\nSehr geehrter Herr Dr. Zweig !\n\nDa Sie gegen die bisherige Abrechnung den Vorwurf\nerheben, daß ich jeweils 10% der abgesetzten Exemplare als\nhonorarfrei verrechnet habe, während Ihrer Meinung nach ledig-\nlich elf für zehn zu verrechnen waren, so habe ich mich, um\nIhnen meinen guten Willen zu beweisen, trotzdem ich auf Grund\nder bestenenden Verträge und Abrechnungen meiner Meinung nach\nberechtigt war so abzurechnen, wie ich tatsächlich abgerechnet\nhabe, zu folgendem entschlossen :\n\n1.) Ich willige in die Abänderung der bestehenden\nVerträge ein so zwar, daß auch in diesen Verträgen an Stelle\nder bisherigen Fassung, nach welcher 10% einer jeden Auflage\nhonorarfrei zu drucken waren, die nunmehr im Magellan-Vertrag\ngewählte Fassung zu treten hat, laut welcher das elfte Exemplar\nhonorarfrei gehalten werden kann und die Abrechnung demgemäß\njeweils elf für zehn zu erfolgen hat.\n\n2.) Ich bin einverstanden, daß diese Abänderung\nrückwirkende Kraft erhält so zwar, daß wir die bisherigen Ab-\nrechnungen demgemäß richtigstellen werden. Der Einfachheit halber\nhaben wir uns, um die Abrechnungen nicht detailliert durchgehen\nzu müssen, auf den Betrag von S 1.200.-( Schilling eintausend-\nzweihundert ) geeinigt, welchen ich Ihnen zur gänzlichen Besei-\ntigung der diesbezüglich bestehenden Differenz unter einem gut-\nbringe.\n\n3.) In Hinkunft werden sämtliche Abrechnungen auf\nder Grundlage: 10 für 11 gepflogen werden.\n\nIch hoffe Sie mit dieser Erledigung, die einen\nintegrierenden Bestandteil unserer heutigen Vereinbarungen bil-\ndet und nur mit diesen gemeinsam in Kraft tritt, zufrieden und\nbegrüße Sie\nhochachtungsvoll",
+      "notes": "Typoskript auf Briefpapier. Die Zahl '10' und '11' in Punkt 3 wurden nachträglich mit einem blauen Stempel oder einer blauen Tinte korrigiert/hervorgehoben."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Korrektur in Punkt 3 ist deutlich als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1711,
+    "total_words": 259,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

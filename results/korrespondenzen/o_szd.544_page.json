@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.544",
+    "title": "Paul Zech an Stefan Zweig, 1915-10-05, SZ-SAM/AK.252",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.544/IMG.1",
+      "https://gams.uni-graz.at/o:szd.544/IMG.2",
+      "https://gams.uni-graz.at/o:szd.544/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Paul Zech an Stefan Zweig, 1915-10-05, SZ-SAM/AK.252\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.252\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:16.751090+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dombières-Friedhof. 5. 10. 15.",
+      "notes": "Vorderseite einer Ansichtskarte mit Fotografie eines Friedhofs. Handschriftliche Notiz oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Schriftsteller\nDr. Stefan Zweig\nWien VIII\nKochgasse 8\n\nLieber guter Freund, ich danke Ihnen viel-\nmals für Ihre mitgedenkende Karte. In der\nWüsten kommt jetzt fastferd[?]. Tage über:\nschlagen sich in furchtbaren Satz der Aufregung\nund Aufregung. Man kommt kaum zur\nBesinnung. Wäre nur das Ende bald da!\nHerzlich beide Hände\n81 Res. Bat. 3 Komp. Paul Zech\nFeldpost-Station 96 Conflans",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Poststempel 'K.D. Feldpoststation 5.10.15' und Stempel 'Res.-Bataillon Nr. 81 3. Komp.' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Herrn Schriftsteller\nDr. Stefan Zweig\nWien VIII\nKochgasse 8\n\nLieber guter Freund, ich danke Ihnen viel-\nmals für Ihre mitgedenkende Karte. In der\nWüsten kommt jetzt fastferd[?]. Tage über:\nschlagen sich in furchtbaren Satz der Aufregung\nund Aufregung. Man kommt kaum zur\nBesinnung. Wäre nur das Ende bald da!\nHerzlich beide Hände\n81 Res. Bat. 3 Komp. Paul Zech\nFeldpost-Station 96 Conflans",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskalen zur Archivierung am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich das Wort 'fastferd' ist aufgrund der Handschrift unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 808,
+    "total_words": 128,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

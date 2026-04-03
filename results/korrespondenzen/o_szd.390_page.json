@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.390",
+    "title": "Felix Lorenz an Stefan Zweig, 1911-09-14, SZ-SAM/AK.110",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.390/IMG.1",
+      "https://gams.uni-graz.at/o:szd.390/IMG.2",
+      "https://gams.uni-graz.at/o:szd.390/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Felix Lorenz an Stefan Zweig, 1911-09-14, SZ-SAM/AK.110\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.110\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.194471+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "HOTEL d'ANGLETERRE. 14. IX 11 Le café. KOPENHAGUE.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung eines Hotel-Cafés. Gedruckter Text am unteren Rand, handschriftliches Datum '14. IX 11' eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Kopenhagen 14. 9. 11.\nSehr verehrter Herr Zweig, ich\nweile seit einigen Tagen in\nDänemark und möchte Ihnen\nnur rasch mitteilen, daß ich\ndem Kassner-Aufsatz mit\ngrösstem Vergnügen entgegen-\nsche! Ihre liebenswürdige Be-\nsprechung der Kühlen Wälder\nin der N. Fr. P. las ich - und ich\ndanke Ihnen herzlich. Dass Sie\nnoch ausführliches einmal\nan anderer Stelle schreiben\nsollen, freut mich, wie Sie sich\ndenken können, ungemein.\nAuf wiedersehen in Berlin!\nIhr herzlich ergebene Felix Lorenz\n\nBREVKORT\nKun for Adressen:\n\nPaquebot\n\nHerrn Stefan Zweig\n\nWien VIII.\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Enthält Briefmarke und Poststempel 'BERLIN-WARNEMÜNDE BAHNPOST ZUG 16 15 9 11'. Vertikaler Aufdruck 'Stenders Forlag Enebettiget 24764'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Darunter befindet sich die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 618,
+    "total_words": 97,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

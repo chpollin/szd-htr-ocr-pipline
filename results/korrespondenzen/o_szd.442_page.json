@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.442",
+    "title": "Erwin Rieger an Stefan Zweig, 1921-08-31, SZ-SAM/AK.159",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.442/IMG.1",
+      "https://gams.uni-graz.at/o:szd.442/IMG.2",
+      "https://gams.uni-graz.at/o:szd.442/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Erwin Rieger an Stefan Zweig, 1921-08-31, SZ-SAM/AK.159\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.159\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.486839+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "31.VIII 21.\nBUDAPEST. Alagut - Tunnel.",
+      "notes": "Vorderseite einer Ansichtskarte mit Motiv des Budapester Burgtunnels. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nLieber verehrter Herr Doktor, da ich nicht\nweiß, ob die Post funktioniert, nur ein\nWort des herzlichsten aufrichtigsten Dankes\nfür die wahrhaft rührende ~~Worte~~ und\nfeinehafte freundschaftliche Besprechung der\n„Zer.“[?], die ich heute in der Presse las. Verdienen\nich sie wirk[?] - Ich reise anfangs nächster\nWoche nach Wien und hoffe in der 2. Hälfte\nSeptember in Salzburg zu sein. Alles Liebe\nder verehrten Frau und Herzen von\nIhrem getreuen Erwin Rieger\nB., 31. VIII. 21.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel oben links. Die Lesung von 'Zer.' ist unsicher, vermutlich eine Abkürzung für ein Werk von Stefan Zweig (z.B. 'Jeremias' oder ähnlich). 'B.' steht vermutlich für Budapest."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Das Dokument selbst ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, abgesehen von einer Abkürzung im Textkörper ('Zer.') und einem Wort, das durchgestrichen wurde. Die Handschrift ist flüssig und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 563,
+    "total_words": 89,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

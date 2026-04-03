@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1107",
+    "title": "Postkarte an Max Fleischer vom 5. Oktober 1902, SZ-LAS/B3.28",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1107/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1107/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1107/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 5. Oktober 1902, SZ-LAS/B3.28\n- Signatur: SZ-LAS/B3.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.452000+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte.\nAn\nHerrn Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer",
+      "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 6.10.02. Briefmarke: 5 Heller."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Max, ich kann es dir leider nicht verhehlen,\ndass ich heute abends deinen Bruder abhole, aber ich\nwill auch beweisen. Ich bin nämlich heute ziemlich matt,\netwas ~~f~~[?] krankhaftes! den Auftrag über ~~C~~[?]...[?] rathe\nich die andere Post zu schicken z.B. an die Böhm[e]n,\netwa beim „Prager Tagblatt“ liegt schon ein\nFeuilleton meiner wenigen, das in „leuchtenden A[...2...]“\nhabe gefallen ist. Deinen Brief habe ich dringend\nentgegen. Herzlich und eilig\nStefan",
+      "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig, einige Wörter sind schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Correspondenz-Karte.\nAn\nHerrn Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer",
+      "notes": "Wiederholung der Adressseite im Kontext der Farbskala."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf der Textseite ist sehr kursiv und teilweise schwer zu entziffern, insbesondere bei Eigennamen und einigen Wörtern am Zeilenende.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 630,
+    "total_words": 94,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

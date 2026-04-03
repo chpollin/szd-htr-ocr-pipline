@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1727",
+    "title": "Brief an Anna Meingast vom 17. März 1937, SZ-SAM/B7.94",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1727/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1727/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 17. März 1937, SZ-SAM/B7.94\n- Signatur: SZ-SAM/B7.94\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.188686+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 17.März 1937.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr\nfür Ihre Nachsendungen. Nun ist schon wie-\nder eine kleine Schwierigkeit da wegen des\nAmok-Films. Es fehlt mir erstens das Origi-\nnal des seinerzeitigen Vertrages mit Frau\nLola Kreuzberg. Vielleicht können Sie noch\naus Ihren stenografischen Kopien und den\nvorliegenden Briefen feststellen, was ich\nmit Frau Kreuzberg im Jahre 1933 (etwa Juni,\nJuli) vereinbart habe. (und Briefe mit Pathé-Nathan)\nIch sende Ihnen nächster\nTage wieder einen gesammelten Packen von Auto-\ngrafenkatalogen mit der Bitte, dass meine\nFrau sie dann einordnet.\n\nJenen Brief hatte ich mit\nAbsicht rekommandiert an meine Frau geschickt,",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte (Klammerzusatz in Zeile 11). Die Zeile 'und Briefe mit Pathé-Nathan' ist handschriftlich eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "damit er ihr gleich in die Hände kommt, wenn\nsie ankommt. Sie ist ja längst vom Semmering\nwieder nach Wien zurück und ich fürchte, dass\ndieser Brief noch verloren geht. Bitte meiner\nFrau zu sagen, dass sie ihn sofort bestätigen\nsoll, sobald sie ihn erhalten hat.\n\nMit besten Grüssen\n\nIhr\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 979,
+    "total_words": 154,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

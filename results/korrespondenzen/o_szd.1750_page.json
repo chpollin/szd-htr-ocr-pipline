@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1750",
+    "title": "Brief an Herbert Reichner vom 7. Oktober 1937, SZ-AAP/B1.103",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1750/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1750/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 7. Oktober 1937, SZ-AAP/B1.103\n- Signatur: SZ-AAP/B1.103\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:59.799646+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "7.Oktober 1937.\n\nGeehrter Herr Reichner!\n\nDer Umschlag von Kredel scheint mir sehr\neindrucksvoll, ich glaube nur doch, dass ein dunkles\nBraun schöner, weil origineller wäre. Zweitens möchte\nich, da es sich doch um einen Umschlag handelt, dass\ndann unten in roten Lettern (unterhalb des Portraits)\nnoch gesetzt oder geschrieben würde \"Die erste Umseg-\nlung der Erde\" oder \"Die Geschichte der ersten Erdum-\nseglung\".\n\nIch halte dies rein verlegertechnisch\nfür wichtig, weil neun Zehntel der Leute nicht die lei-\nseste Ahnung haben, wer Magellan ist, und damit eine\nautomatische Aufklärung gegeben wäre. Vielleicht könn-\nten Sie es sogar noch eindringlicher sagen \"Das Helden-\nepos der ersten Erdumseglung\" oder \"Der Held der ersten\nUmseglung der Welt\". Ich glaube, dass Sie mir da selbst\nrehtgeben werden, denn ich schreibe das ja in Ihrem In-\nteresse.\n\nMit H.W.Allen werden Sie nicht direkt ver-",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "handeln können, weil er nach Deutschland gefahren ist, um\nsich dort seine Rückreisebillet nach Amerika von dem zu-\nrückgehaltenen Gelde zu kaufen. Ich glaube, Sie kommen\nschon mit Curtis Brown am raschesten daran.\n\nDie Illustrationen können am 8.Oktober ruhig\nin Druck gehen. Wichtig ist nur, dass ich bald Exemplare\nhabe, da, wie Sie aus dem andern heutigen Briefe sehen\n(Melantrich) immer neue Anfragen kommen, wo auch bei man-\nchen Sie sich mit den Illustrationen anschliessen können.\n\nMozart hoffe ich bereits wohlbehalten bei\nJaffé.\n\nHandel Luxusausgabe ist hier in ganz anderer\nWeise beabsichtigt, Zweifarbendruck und grosses Format,\nsodass keines Kredels Bilder dazu passen würden.\n\nMit den besten Empfehlungen",
+      "notes": "Typoskript auf Briefpapier."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1611,
+    "total_words": 246,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.145",
+    "title": "Rückerstattung der Postfachgebühren",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SAM/L11",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.145/IMG.1",
+      "https://gams.uni-graz.at/o:szd.145/IMG.2",
+      "https://gams.uni-graz.at/o:szd.145/IMG.3"
+    ],
+    "date": "4. Februar 1938",
+    "document_type": "typescript",
+    "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Ephraim Moses Lilien",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Finanzen"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047604132",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Anna Meingast",
+        "Erwerb: Schenkung Wilhelm Meingast 2000"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Durchschlagpapier",
+        "dimensions": "23x15 cm"
+      },
+      "notes": "Blaues Signet, entworfen von Ephraim Moses Lilien, mit den Initialen „SZ“ und „Kapuzinerberg 5 | SALZBURG, am ...“"
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Rückerstattung der Postfachgebühren\n- Signatur: SZ-SAM/L11\n- Datum: 4. Februar 1938\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Violettes Durchschlagpapier\n- Anmerkungen: Blaues Signet, entworfen von Ephraim Moses Lilien, mit den Initialen „SZ“ und „Kapuzinerberg 5 | SALZBURG, am ...“"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.655928+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 4. Februar 1938\n\nRückerstattung der Postfachgebühren à S 2.50\nvom 1. Juli 1937 bis incl. 1. Februar 1938\nd.i. 2.50 x 8 = S 20.- (Schilling zwanzig)\n\nMit besten Empfehlungen",
+      "notes": "Das Dokument enthält links oben das blaue Signet von E. M. Lilien. Der Text ist in violetter Maschinenschrift verfasst.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            11.5,
+            34.0,
+            7.0,
+            4.5
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Logo",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            52.8,
+            35.2,
+            31.5,
+            2.8
+          ],
+          "reading_order": 2,
+          "lines": 2,
+          "label": "Absenderadresse und Datum",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            25.0,
+            41.5,
+            48.3,
+            5.8
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Mitteilungstext zur Rückerstattung",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            58.7,
+            49.5,
+            23.0,
+            1.2
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Grußformel",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer.",
+      "image": "IMG_2.jpg",
+      "image_width": 4912,
+      "image_height": 7360
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments mit Farb- und Grauskala zur Dokumentation, leer.",
+      "image": "IMG_3.jpg",
+      "image_width": 4912,
+      "image_height": 7360
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Struktur ist einfach und eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 201,
+    "total_words": 34,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 1.0,
+    "edited_pages": [],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:06:07.802787+00:00"
+  }
+}

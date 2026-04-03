@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.993",
+    "title": "Brief an Sigmund Freud vom 15. Juni 1925, SZ-LAS/B7.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.993/IMG.1",
+      "https://gams.uni-graz.at/o:szd.993/IMG.2",
+      "https://gams.uni-graz.at/o:szd.993/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 15. Juni 1925, SZ-LAS/B7.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:48.948805+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG 15. Juni 1925\n\nHochverehrter Herr Profesor, ich komme\neben vom Händel-Fest aus Leipzig zurück\nund finde, innig erfreut, Ihren Brief. Wie schön,\ndass Sie einen Beitrag gaben! Selbstverständlich\nist keinerlei Zuschuss nötig, im Gegenteil, das\nWerk wird einem anderen, claritativen, dienen,\ndadurch dass es Namen wie die Ihren aufweist.\n\nVielleicht ist es Ihnen lieb, zu hören, dass\nmein Buch, das sich durch die Widmung an Sie\nselbst geehrt hat, auf gutem Wege ist: die ersten\nzehntausend Exemplare sind schon fast fort\nund vor Weihnachten kommt eine neue Auflage.\n\nIch denke oft an Sie und immer mit\nden innigsten Wünschen für Ihre Gesundheit und\nIhr Schaffen! Grüssen Sie, bitte, Ihre verehrte Tochter\nund bewahren Sie Ihr Wohlwollen\n\nIhrem getreu ergebenen\nStefan Zweig",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf (Logo und Adresse). Violette Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "KAPUZINERBERG 5\nSALZBURG 15. Juni 1925\n\nHochverehrter Herr Profesor, ich komme\neben vom Händel-Fest aus Leipzig zurück\nund finde, innig erfreut, Ihren Brief. Wie schön,\ndass Sie einen Beitrag gaben! Selbstverständlich\nist keinerlei Zuschuss nötig, im Gegenteil, das\nWerk wird einem anderen, claritativen, dienen,\ndadurch dass es Namen wie die Ihren aufweist.\n\nVielleicht ist es Ihnen lieb, zu hören, dass\nmein Buch, das sich durch die Widmung an Sie\nselbst geehrt hat, auf gutem Wege ist: die ersten\nzehntausend Exemplare sind schon fast fort\nund vor Weihnachten kommt eine neue Auflage.\n\nIch denke oft an Sie und immer mit\nden innigsten Wünschen für Ihre Gesundheit und\nIhr Schaffen! Grüssen Sie, bitte, Ihre verehrte Tochter\nund bewahren Sie Ihr Wohlwollen\n\nIhrem getreu ergebenen\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala/Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar und eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1590,
+    "total_words": 248,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1194",
+    "title": "Brief an Anna Meingast vom 25. Oktober 1933, SZ-SAM/B7.24",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1194/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1194/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 25. Oktober 1933, SZ-SAM/B7.24\n- Signatur: SZ-SAM/B7.24\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.010743+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11, Portland Place,\nLondon, W.                                London, den 25. Oktober 1933.\n\n\nLiebe Frau Meingast,\n\nIch danke Ihnen herzlich fuer Ihre Nachsendungen.\nEs geht alles in bester Ordnung. Ich moechte nur um folgendes\nbitten. 1. Um jenen Brief der Hollaendischen Vortragsgesellschaft\nvor etwa 14 Tagen oder drei Wochen weil ich ihn damals nicht\nbeantwortet habe.\n\n2. Ein Exemplar des \"Land des Armen\".\n\n3. Ich sende natuerlich alle Buecher die ich hier\nbekomme, sowie ich es von Montreux{t} am Ende des Aufenthalts\nals Buchpakete nach Hause. Die Erasmus Buecher bitte lassen Sie\nvorlaeufig noch beisammen, die anderen ordnen Sie provisorisch\nein.\n\nManuskript kann ich Ihnen leider keines senden, aber\nich habe alles so weit vorbereitet, dass ich dann durch Wochen\nin einem Zuge diktieren kann. Vorlaeufig fuehle ich mich hier\nsehr wohl und geniesse das Fortbleiben ungemein.\nMit den besten Gruessen an Johann {und} Sie\n\nIhr\n\nStefan Zweig",
+      "notes": "Der Text ist maschinengeschrieben, mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte (Korrektur 't' bei Montreux, Einfügung 'und' in der Grußformel, Unterschrift)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein maschinengeschriebenes Dokument handelt. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 947,
+    "total_words": 145,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

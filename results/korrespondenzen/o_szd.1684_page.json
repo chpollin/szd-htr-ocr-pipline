@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1684",
+    "title": "Postkarte an Anna Meingast vom 25. Oktober 1937, SZ-SAM/B7.100",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1684/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1684/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 25. Oktober 1937, SZ-SAM/B7.100\n- Signatur: SZ-SAM/B7.100\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.536942+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frau\n\nAnna Meingast\n\nSalzburg (Austria)\n\nLinzergasse 16",
+      "notes": "Adressseite einer Postkarte. Gedruckter Text 'POST CARD' und Briefmarken (1/2 Penny und 1 Penny) vorhanden. Poststempel 'LONDON 15 PM 25 OCT 37'. Handschriftliche Adressierung."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "London, den 25.Oktober 1937.\n\nLiebe Frau Meingast!\n\nVielen Dank. Fräulein Alt-\nmann hat das Gesandte richtig erhalten. Wollen\nSie so freundlich sein und mir das mir angekün-\ndigte Buch von Bartlett: \"They dared to live\",\nsobald es eintrifft, zu senden. Meine eigenen\nBücher erhalten Sie direkt vom Verlag.\n\nHerzlichst Ihr\n\nS.Z.",
+      "notes": "Nachrichtenseite der Postkarte. Maschinenschriftlicher Text, Unterschrift 'S.Z.' in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift 'S.Z.' ist eindeutig als Stefan Zweigs Kürzel identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 382,
+    "total_words": 58,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

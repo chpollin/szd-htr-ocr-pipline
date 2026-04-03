@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.629",
+    "title": "Hildegard Bandler an Stefan Zweig, 1931-04-06, SZ-SAM/AK.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.629/IMG.1",
+      "https://gams.uni-graz.at/o:szd.629/IMG.2",
+      "https://gams.uni-graz.at/o:szd.629/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hildegard Bandler an Stefan Zweig, 1931-04-06, SZ-SAM/AK.6\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.028850+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "6.4.31\nTRIESTE - Riva 3 Novembre",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herru\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg / Salzkammer[?]\ngut.\nOesterreich.\n\nTrieste d. 6.4.31.\nLieber Herr Doktor, von einer wunder-\nschönen Osterreise sende ich Ihnen die\nherzlichsten Grüsse. Ich bin drei Tage in\nVenedig gewesen u. jetzt die drei Oster-Tage\nin Triest bei Verwandten. Von Venedig\nbin ich ganz begeistert, war noch nie dort\nu. hatte bei Ihnen sehr gemütlich gehabt.\nWie geht es Ihnen? Man hört ja gar\nnichts mehr von Ihnen. Ich würde mich\nsehr freuen, wenn Sie mal wieder schriebe\nwürden. In Zagreb geht's mir recht gut, Frau\nDr. Alexander sehe ich manchmal, wir sprechen\ndann oft von Ihnen. Alles Gute u. nochmals",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Der Text am linken Rand ist um 90 Grad gedreht geschrieben. Poststempel 'TRIESTE 6.IV.31' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. 'Salzkammer[?]' ist eine unsichere Lesung, da das Wort am Rand abgeschnitten ist.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 669,
+    "total_words": 112,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.962",
+    "title": "Brief an Sigmund Freud vom 30. Dezember 1932, SZ-LAS/B7.21",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.962/IMG.1",
+      "https://gams.uni-graz.at/o:szd.962/IMG.2",
+      "https://gams.uni-graz.at/o:szd.962/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 30. Dezember 1932, SZ-LAS/B7.21\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.339868+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 30. Dezember 1932\n\nHochverehrter Herr Professor!\n\nHeute, am vorletzten Tage des Jahres lese ich mit wirk-\nlich geistigem Genuss Ihre wunderbaren Vorlesungen. Schon rein\nkünstlerisch könnten wir von dieser Prosa lernen, die so wundervoll\nklar den Gedanken fasst und umfasst, und es scheint mir geradezu\nunglaubhaft,\n~~wunderbar~~, dass dies Alter, das sonst bei den andern den Geist\nverdunkelt, bei Ihnen ein grösseres Mass von Helligkeit erzeugt.\nIch wage nicht einzelnes heute noch anzugeben, möchte aber das\nJahr nicht vorübergehen lassen, ohne Ihnen und Ihren Verehrern und\nder ganzen Welt gewünscht zu haben, Sie möchten im neuen Jahr sich",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Ergänzungen in violetter Tinte. Das Wort 'unglaubhaft' wurde handschriftlich über der Zeile eingefügt, 'wunderbar' wurde durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "voller Gesundheit und Arbeitsfreude erfreuen und uns die Früchte\ndieser Arbeit wieder neu beglückt geniessen lassen.\n\nMit tiefster Verehrung, Ihr immer ergebener\n\nStefan Zweig",
+      "notes": "Typoskript, Unterschrift handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "voller Gesundheit und Arbeitsfreude erfreuen und uns die Früchte\ndieser Arbeit wieder neu beglückt geniessen lassen.\n\nMit tiefster Verehrung, Ihr immer ergebener\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1022,
+    "total_words": 150,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

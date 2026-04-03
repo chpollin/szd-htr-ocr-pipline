@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2253",
+    "title": "Richard Strauß und Wien",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA189.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2253/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2253/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2253/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2253/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2253/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2253/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2253/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Richard Strauß und Wien\n- Signatur: SZ-AAP/W-AA189.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:59.185412+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Richard Strauß und Wien",
+      "notes": "Dies ist die Vorderseite des Umschlags/Blattes."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Richard Strauß und Wien",
+      "notes": "Dies ist die Rückseite des Umschlags/Blattes (durchscheinend)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Richard Strauß\nund Wien",
+      "notes": "Dies ist die Vorderseite des Umschlags/Blattes (Detailaufnahme)."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Richard Strauß\nund Wien",
+      "notes": "Dies ist die Rückseite des Umschlags/Blattes (durchscheinend, Detailaufnahme)."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Richard Strauß und Wien",
+      "notes": "Dies ist die Vorderseite des Umschlags/Blattes (Detailaufnahme)."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Richard Strauß und Wien",
+      "notes": "Dies ist die Rückseite des Umschlags/Blattes (durchscheinend, Detailaufnahme)."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Richard Strauß und Wien",
+      "notes": "Dies ist die Vorderseite des Umschlags/Blattes mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, eindeutig lesbar und wiederholt sich auf den verschiedenen Aufnahmen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 161,
+    "total_words": 28,
+    "language_detected": "",
+    "language_match": true
+  }
+}

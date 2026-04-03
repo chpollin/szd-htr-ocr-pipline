@@ -1,0 +1,106 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.160",
+    "title": "Certified Copy of an Entry of Marriage",
+    "language": "en",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SDP/L1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.160/IMG.1",
+      "https://gams.uni-graz.at/o:szd.160/IMG.2",
+      "https://gams.uni-graz.at/o:szd.160/IMG.3"
+    ],
+    "date": "Sixth September 1939",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "origin_place": "Bath",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Donald Prater"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarze Tinte",
+        "writing_material": "Vorgedrucktes Vertragsformular",
+        "hands": [
+          "Fremde Hand"
+        ],
+        "dimensions": "35x17 cm"
+      },
+      "notes": "Beglaubigte Kopie vom 3. September 1980"
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Certified Copy of an Entry of Marriage\n- Signatur: SZ-SDP/L1\n- Datum: Sixth September 1939\n- Sprache: Englisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze Tinte\n- Hand: Fremde Hand\n- Anmerkungen: Beglaubigte Kopie vom 3. September 1980"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.141879+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "[Printed by authority of the Registrar General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE\nPursuant to the Marriage Act 1949\nTC 574271\nM. Cert. S.R.\nRegistration District Bath\n1939. Marriage solemnized at The Register Office in the\nDistrict of Bath in the County Borough of Bath.\nColumns: 1 When married | 2 Name and surname | 3 Age | 4 Condition | 5 Rank or profession | 6 Residence at the time of marriage | 7 Father's name and surname | 8 Rank or profession of father\n138 Sixth September 1939 | Stefan Zweig | 54 years | The divorced husband of Frederike Maria Zweig formerly Burger | Author | Lansdown Lodge Lansdown Road Bath | Moritz Zweig (deceased) | Textile manufacturer\n| Elisabet Charlotte Altmann | 31 years | Spinster | Author's Secretary | Lansdown Lodge Lansdown Road Bath | Joseph Georg Altmann (deceased) | Hardware merchant\nMarried in the Register Office by licence before me,\nD Clegg Registrar\nE G Button Supt. Registrar\nThis marriage was solemnized between us, Stefan Zweig, Elisabet Charlotte Altmann in the presence of us, Arthur I. Ingram, Johanna Altmann\nCertified to be a true copy of an entry in a register in my custody,\n[Unterschrift] Superintendent Registrar\nCAUTION:—Any person who (i) falsifies any of the particulars on this certificate, or (2) uses a falsified certificate, knowing it to be false, is liable to prosecution.\n3rd September 1980",
+      "notes": "Das Dokument ist ein offizielles Formular. Die handschriftlichen Einträge sind gut lesbar. Ein Stempelabdruck ist im Bereich der Unterschrift des Superintendent Registrar vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Grauskala #13 C Y M B.I.G.\nA 1 2 3 4 5 6 M 8 9 10 11 12 13 14 15 B 17 18 19\nFarbkarte #13 B.I.G.\nBlue Cyan Green Yellow Red Magenta White 3/Color Black",
+      "notes": "Referenzskalen für die Digitalisierung (Graustufen- und Farbkarte)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist aufgrund der maschinellen Vorlage und der klaren Handschrift sehr gut lesbar. Die Struktur wurde linear abgebildet.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1523,
+    "total_words": 272,
+    "language_detected": "en",
+    "language_match": false
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Page 1: (1) Removed hallucinated extra 'by' in 'by licence before by me' -> 'by licence before me'. (2) Fixed capitalisation 'county Borough' -> 'County Borough' to match printed form text. The tabular layout linearisation is reasonable. Some handwritten details (entry number, ages) are hard to verify at scan resolution but appear plausible. Language mismatch flag is expected: document is English, TEI metadata says Deutsch.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T12:00:00Z"
+  }
+}

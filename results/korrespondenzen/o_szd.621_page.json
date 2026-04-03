@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.621",
+    "title": " Unidentified an Stefan Zweig, 1927-07-14, SZ-SAM/AK.52",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.621/IMG.1",
+      "https://gams.uni-graz.at/o:szd.621/IMG.2",
+      "https://gams.uni-graz.at/o:szd.621/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1927-07-14, SZ-SAM/AK.52\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.52\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:21.337917+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "14. 7. 27.\n\nSt. Wolfgang am Abersee, Salzkammergut. Hunde in meinem Namen und\nversteh dich selbst nicht — Robert",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text in violett. Der Text ist teilweise durch einen Knick im Papier beeinträchtigt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Falkenstein-Ried 14.7.27\nTeurer Meister! Ich fühle\nhier ein beschauliches Einsam-\nlerdasein [?] in schwüle heiße\nWetter - bei Regen nur mit\ngenossenen[?] Verreister sind hier zu\nselten - ich bin fast der einzige\nü. die richtige Adresse wäre\nBerlin-Therese. Meine einzige\nGesellschaft ist eine komische Kap-\ndie sich bei mir nach dem Kaiser\nKarl u. Franz Jos. erkundigte u\n[?] war, als sie durch\nmich vernahm, dass schon man-\nchen schon seit langer Zeit der\nKühle man nur denke. Ja, es gibt eben\nauch Niederungen neben Kapuziner-\nbergen, Umarme Frau, Tochter u.",
+      "notes": "Rückseite der Ansichtskarte. Handschrift in violett. Ein Teil des Textes ist durch einen aufgeklebten Papierstreifen (Archivierung/Restaurierung) verdeckt. Briefmarke und Poststempel 'ST. WOLFGANG' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und teilweise schwer zu entziffern. Der aufgeklebte Papierstreifen auf der Rückseite der Karte verdeckt Teile des Textes, was zu Unsicherheiten führt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 672,
+    "total_words": 111,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

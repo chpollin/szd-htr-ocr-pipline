@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1227",
+    "title": "Postkarte an Anna Meingast vom 2. April 1935, SZ-SAM/B7.57",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1227/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1227/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 2. April 1935, SZ-SAM/B7.57\n- Signatur: SZ-SAM/B7.57\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.514038+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender:\n\nPostkarte\n\nAnna Meingast\nbei Zweig\n\nSalzburg\nKapuzinerberg 5",
+      "notes": "Adressseite der Postkarte. Poststempel 'SALZBURG 1 2.IV.35' ist vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, bitte\nsenden Sie eines der ab-\ngeschriebenen Exemplare\nvon „Rahel rettet mit Gott”\nan\nFräulein Margarete Bach\nWien XVII\nOttakringerstrasse 40\nMit besten Grüßen Z\n\nBitte ein Exemplar des\nErasmus (einfaches Ex)\nan\nDr. Paul Amann\nWien\nXIII\nEiswanggasse 25\n\nStefan Zweig",
+      "notes": "Textseite der Postkarte. Die Unterschrift 'Stefan Zweig' ist rechts unten platziert. Der Zusatz am linken Rand ist in kleinerer Schrift eingefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Namen und Adressen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 358,
+    "total_words": 54,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

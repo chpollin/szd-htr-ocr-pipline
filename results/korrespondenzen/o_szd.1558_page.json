@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1558",
+    "title": "Brief an Richard Friedenthal vom 6. März 1941, SZ-AAP/B2.32",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1558/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1558/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1558/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 6. März 1941, SZ-AAP/B2.32\n- Signatur: SZ-AAP/B2.32\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:42.239106+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Taft\nOpposite the Famous New Haven Green\n\nNew Haven, Conn. 6. III 1941\n\nMy dear friend, I am so glad to have your long letter\n- I wrote you just a few days ago to your camp and\nhope it will be forwarded to you. We are staying here in\nNew Haven, a little town 1 hour 50 minutes from New York\nbecause here is the Yale University and I have a special\npermission to take as many books at home from the\nUniversity-library and to go to the shelfs. I am just doing\na little book on Amerigo Vespucci, which is the most com-\nplicated problem of the discovery time and to solve it -\nwas he a liar or a great discoverer? Was he on the American\nmainland before Columbus or not? There are books and\ndiscussions about that on 5000 pages but no a single rea-\ndable account on this greatest forgery in history which\nremitted finally the fact that America is today called America\nAs it is a little booklet it will be soon finished and\nthan - God knows, what then. Probably we shall return\nto Rio as there is no passage - possibly to England and\nI could not make my living there, cut off now from\nall my former European publishers. Time must decide",
+      "notes": "Brief auf Hotelbriefpapier. Handschrift in violetter Tinte. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "our plans like everything.\nDo you know, my dear, that the quota for immi-\ngrants are now open in the United States? If you\nget the {immigrant} exit permit and a passage you could immediately\nhave the visa, provided you could get an affidavit, which\nI would try to get you. Also Margarte Lasser tries to help\nyou and hopes to get you a position on a college. I know,\nthe greatest difficulty is now to get the place of a passage\nperhaps you enquire about this in time. As to Argentina I\nam somewhat doubtful as Rocca is no more the minister\nof Foreign Affairs - it was he who called twice on your\nbehalf. Should I return to Rio I will do all possible\nthere and I hope, I could manage a visa for you there as\nin August my book on Brazil will be published and\nI can therefore expect, that the Brazilian authorities will\nnot refuse a favour to me. By distance and by letters\nall this is not possible. If you have any special wish\nplease let cable through my sister in law. Letters are\nrather slow. My dear friend, please be sure that I will\ndo whatever I can and finish your novel as soon as\npossible. Berman is very interested in your novel, he\nhopes to transfer his publishing-house from Sweden to\nthe United States. We saw him last week.\nYours ever\nStefan Zweig",
+      "notes": "Zweite Seite des Briefes. Handschrift in violetter Tinte. Einige Korrekturen/Einfügungen über der Zeile."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text der zweiten Seite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Die wenigen Korrekturen wurden gemäß den Anweisungen als {eingefügt} markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2395,
+    "total_words": 463,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

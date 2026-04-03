@@ -1,0 +1,76 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1256",
+    "title": "Brief an Max Fleischer vom 31. Dezember 1927, SZ-LAS/B3.72",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1256/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1256/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1256/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 31. Dezember 1927, SZ-LAS/B3.72\n- Signatur: SZ-LAS/B3.72\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.034215+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\n31. Dez. 1927.\n\nLieber Max!\n\nDie kurze Notiz ist abgeschickt samt Deinem Bildnis.\nIch machte gleichzeitig die Herren auf Deine eigenen Gedichte auf-\nmerksam - vielleicht schickst Du drei oder vier Deiner eigenen an\ndie Redaktion des \"Universums\" in Leipzig ein. Ich hoffe doch,\ndass ein oder das andere behalten wird.\nSei herzlich gegrüsst\nvon Deinem eiligen und alten\n\nStefan Zweig",
+      "notes": "Der Text ist auf einem Briefbogen mit dem Logo von Stefan Zweig gedruckt. Die Unterschrift ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, zeigt den Durchdruck des Textes der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\n31. Dez. 1927.\n\nLieber Max!\n\nvon Deinem eiligen und alten\n\nStefan Zweig",
+      "notes": "Scan enthält Farb- und Graustufen-Referenzkarten, die den Text teilweise überlagern."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine Kombination aus Maschinenschrift und einer sehr charakteristischen, gut lesbaren Handschrift handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 505,
+    "total_words": 79,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 1.0,
+    "edited_pages": [],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
+  }
+}

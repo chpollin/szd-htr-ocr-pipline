@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1161",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1161/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1161/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.2\n- Signatur: SZ-SAM/B11.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.792174+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "20. 1. 30",
+      "notes": "Datum auf der Bildseite der Postkarte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast\nhier sieht Willi einen\nTeil des ausgegrabenen\nPompei.\nHoffentlich sind Sie\nbeide wohl. Wir haben\nes sehr schön, auch meist\ngutes, warmes Wetter\nu. sind sehr dankbar\nfür all das Gesehene[?]\nHerzlichst grüßt Sie\nFriderike Zweig\nViele herzliche Grüße Stefan Zweig\n\nFrau Anna Meingast\nSalzburg\nLinzergasse\nLaubingerhaus",
+      "notes": "Die Postkarte enthält einen Poststempel 'POMPEI - PROVINCIA' und zwei italienische Briefmarken. Der Text 'POMPEI. - Foro civile.' ist gedruckt. Das Wort 'Gesehene' ist schwer lesbar, [?]-Marker beibehalten. Im Kontext einer Reisepostkarte ist 'für all das Gesehene' (for all the things seen) plausibel."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, abgesehen von dem Wort 'Gendrene', das orthographisch unklar ist.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 344,
+    "total_words": 53,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.96,
+    "edited_pages": [
+      2
+    ],
+    "notes": "Page 2: Corrected 'Gendrene[?]' to 'Gesehene[?]' — contextually plausible for a travel postcard ('für all das Gesehene' = for all the things seen). [?] marker retained as letter forms are still somewhat ambiguous. Rest of transcription matches faksimile well.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:30:00Z"
+  }
+}

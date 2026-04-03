@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.809",
+    "title": "Brief an Stefan Zweig vom 29. April 1937, SZ-AAP/B1.29",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.809/IMG.1",
+      "https://gams.uni-graz.at/o:szd.809/IMG.2",
+      "https://gams.uni-graz.at/o:szd.809/IMG.3",
+      "https://gams.uni-graz.at/o:szd.809/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 29. April 1937, SZ-AAP/B1.29\n- Signatur: SZ-AAP/B1.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:33.772271+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\n•\n29.April 1937 /F\n\nSehr verehrter Herr Dr.Zweig!\n\nWir danken bestens für Ihren gestrigen Luftpostbrief,durch den natür-\nlich unser gleichzeitig unterwegs befindliches Schreiben überholt ist.\nWir sind froh,dass Sie die drei Verträge noch vor Antritt Ihrer Wiener\nReise durchsehen und eventuell unterzeichnen wollen,und damit nicht in\nWien Zeit zu verlieren brauchen.\nWas die Terminbeschränkung betrifft,so haben wir uns genau an Ihre\neigenen Wünsche gehalten.\nLeider schreiben Sie weder über den Roman von Robert Neumann noch über\nBerthold Wolpe und da Wolpe sich seit Wochen nicht rührt und auf keine\nErinnerung auch nur leise antwortet,wird nun wiederum nichts übrig\nbleiben,als ihm durch einen Anwalt schreiben zu lassen.Glauben Sie dann\nbitte nicht,dass die Schuld auf unserer Seite liegt,es lässt sich eben\nmit ihm nicht anders arbeiten.Jedenfalls steht fest,dass Wolpe auch\nnicht den geringsten Auftrag mehr von uns erhalten wird.\nSowie die Verträge unterzeichnet sind,schicken Sie uns bitte die Satz-\nvorlagen für den Essai-Band,der sofort zum Satz gehen wird,sodass er\neventuell noch bis Ende Juni ausgesetzt sein kann.Wer soll die Korrek-\nturen des Essai-Bandes lesen ?\nWenn Sie uns - wie Sie selbst vorschlagen - das MS. des Magellan-\nBuches im Mai übergeben können,so wird dies schon deshalb gut sein,weil\nwir bei der Zusammenstellung des Bildmaterials irgendeinen Anhalts-",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterstreichungen im Text (z.B. 'Robert Neumann', 'Berthold Wolpe', 'bitte die Satzvorlagen...', 'Magellan-Buches') sind mit rotem Stift ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\n\nRef.\n•\npunkt brauchen.Wir werden uns dann eine Art Register für die Bild-\nbeschaffung anlegen,denn gerade für das Magellan-Buch ist eine reich-\nlichere Illustrierung sehr zu wünschen - und auch interessant genug.\n\nHat der Roman,dessen Titel wir in den Vertrag vorläufig gar nicht\neinsetzen konnten,schon einen Titel ? Dann bitten wir Sie,ihn noch\neinzufügen.\n\nBitte avisieren Sie uns Ihre Wiener Ankunft und teilen Sie uns mit,\nob und wohin wir Ihnen einen Schilling-Betrag überweisen dürfen.\n\nWir danken Ihnen im voraus bestens und begrüssen Sie als\n\nIhre sehr ergebenen\n\nPS. So wie in allen bisherigen Verträgen ist auch in den hier beiliegen-\nden nichts über die monatliche Abrechnung vorgesehen.Aber der Deutlich-\nkeit halber bestätigen wir Ihnen,dass wir uns auch künftig an die monat-\nlichen Abrechnungen halten wollen.",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/schwarz). Rote Unterstreichungen im Text (z.B. 'Titel', 'Schilling-Betrag', 'monatliche Abrechnung', 'monatlichen Abrechnungen')."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript, die Lesbarkeit ist exzellent. Die roten Unterstreichungen sind deutlich als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2451,
+    "total_words": 361,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

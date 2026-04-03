@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.958",
+    "title": "Brief an Sigmund Freud vom 29. November 1931, SZ-LAS/B7.18",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.958/IMG.1",
+      "https://gams.uni-graz.at/o:szd.958/IMG.2",
+      "https://gams.uni-graz.at/o:szd.958/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 29. November 1931, SZ-LAS/B7.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:45.993959+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 29. XI 1931\n\nHochverehrter Herr Professor, es ist beglückend und beschämend\nzugleich, dass Sie, der verantwortungsvoll Beschäftigte, dem jede\nMinute wichtig ist, gütig meiner gedenken. Was ich als Gabe (nicht\nals Leistung) meines Lebens betrachte, war, immer wesentliche Werke\nzu fühlen und dann innerhalb der Grenzen meiner Fähigkeiten\nzu erkennen: die innere Begegnung mit Ihrem Werk gehört zu\ndiesen Glücksfällen. Sie wissen, dass ich mit meinem Beweis\nnicht restlos zufrieden bin, einzig in dem Sinne, dass es doch\nmitgeholfen hat, jede weitere Betrachtung Ihrer Leistung in\neine gewisse Sphäre des Respekts zu stellen, ein Anblicken zu",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Tinte violett."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "fordern statt des bloßen kritischen Anblickens – in diesem Sinne\nfreut es mich, dass meine Studie in den nächsten Wochen gleich-\nzeitig in Frankreich, England, Amerika und Italien erscheint nach\ndem Norwegen schon vorausgegangen; auch russisch wird sie neben\nübersetzt. Vielleicht kann ich noch einmal ansehen und manches\nsagen, was mir seitdem klar geworden ist – vielleicht aber ist der\nSinn meiner Arbeit, anzuregen und weitere Studien zu fordern: ich\nhabe gerade drei {freunde} Theaterstücke über Baker-Eddy mit meinem Essay\nauf dem Gewissen und zwei Leute beginnen jetzt eine gründliche\nMesmer-Biographie. Vielleicht regt meine Arbeit jemanden an,\ndas entscheidende Buch über Sie zu schreiben, es wäre wahrlich\nZeit. Immer in Liebe und Verehrung Ihr getreuer\nStefan Zweig",
+      "notes": "Handschriftlicher Brief, Fortsetzung der ersten Seite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Rueckseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist bekannt und weist keine größeren Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1445,
+    "total_words": 217,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.107",
+    "title": "Vertrag Jespersen og Pios Forlag",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.30",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.107/IMG.1",
+      "https://gams.uni-graz.at/o:szd.107/IMG.2",
+      "https://gams.uni-graz.at/o:szd.107/IMG.3"
+    ],
+    "date": "31 V 1935.",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Halfdan Jespersen",
+          "role": "contributor"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Zürich | Kopenhagen",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze und violette Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "Halfdan Jespersen"
+        ],
+        "dimensions": "29x22 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte, Unterschriften von Halfdan Jespersen"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag Jespersen og Pios Forlag\n- Signatur: SZ-AAP/L13.30\n- Datum: 31 V 1935.\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, Halfdan Jespersen\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Unterschriften von Halfdan Jespersen"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:43.460367+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "V E R T R A G.\n\nZwischen dem Verfasser Dr. Stefan Zweig (im folgenden kurz\nVerfasser genannt) einerseits unter der Firma Jespersen og Pios\nForlag, Kopenhagen (im folgenden kurz Verlag genannt) andererseits\nals Verleger, wurde heute folgender Vertrag geschlossen:\n\n§ 1.\nDer Verfasser übergibt dem Verlag das ausschliessliche Recht\nauf Uebersetzung, Vervielfältigung und Verbreitung des biographischen\nWerkes\n\n\"M A R I E  S T U A R T\"\n\nals Buchausgabe in die dänische Sprache.\n\n§ 2.\nDer Verlag zahlt bei Zeichnung des Vertrages dem Verfasser\nSchweizerfrancs 300.- (drei Hundert Schweizerfrancs) für eine Erst-\nauflage von 3000 (drei Tausend) Exemplaren und für jede weitere Auf-\nlage 5% (fünf Prozent) des zu jeder Zeit geltenden Ladenpreises.\nAusserhalb der abgabepflichtigen Auflage ist der Verlag dazu\nberechtigt eine Anzahl von 10% für Freistücke und zur Deckung maku-\nlierter Exemplare etc. drucken zu lassen.\n\n§ 3.\nDer Verfasser berechtigt den Verlag zu solchen Abkürzungen\nin der Uebersetzung, die der Bearbeiter für die Anpassung dänischer\nLeser erforderlich finden möchte.\n\n§ 4.\nDas dänische Herausgeberrecht dieses Buches muss binnen drei\nJahre ausgenützt werden.\n\n§ 5.\nDer Verfasser einwilligt darin dem Verlag die erste Wahl\nder Erwerbung des dänischen Uebersetzungsrechtes an seine künftigen\nliterarischen Werke zu geben.\n\nZürich, den 31 V 1935. Kopenhagen, den 29. Mai 1935.\nJESPERSEN OG PIOS FORLAG\nStefan Zweig [Unterschrift]",
+      "notes": "Das Dokument ist ein Typoskript-Durchschlag. Die Datumsangabe '31 V' und die Unterschrift von Stefan Zweig sind handschriftlich in violetter Tinte ergänzt. Die Unterschrift des Verlagsvertreters ist ebenfalls handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, keine Beschriftung."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite mit Farb- und Grauskala, keine Beschriftung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1439,
+    "total_words": 217,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

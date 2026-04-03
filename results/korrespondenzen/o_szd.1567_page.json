@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1567",
+    "title": "Brief an Richard Friedenthal vom 21. Januar 1926, SZ-AAP/B2.22",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1567/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1567/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1567/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 21. Januar 1926, SZ-AAP/B2.22\n- Signatur: SZ-AAP/B2.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:42.925223+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\nam 21. Januar 1926\n\nLieber Herr Doktor!\n\nIch trete morgen meine Reise an, die mich am\n29. nach Berlin führt: vielleicht rufen Sie mich jeden-\nfalls am 29. morgens zwischen 8-9 im Hotel Prinz Friedrih\nKarl (Töpfer) Dorotheenstrasse, an. Ihre Novelle habe\nich sofort gelesen, finde sie ausserordentlich: mir\nfehlt nur noch ein Zusammenspiel darin, über das ich\nmit Ihnen persönlich noch sprechen will.\nVerzeihen Sie, dass ich Ihnen heute sonst nichts\nschreibe, ich bin schon ganz Vortrag, Koffer und Eisen-\nbahn.\n\nHerzlichst Ihr\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Das Wort 'Friedrih' ist ein Tippfehler im Original (statt Friedrich). Das Wort 'Eisenbahn' wurde im Original als 'Fisen-bahn' getippt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung. Überlagert den Text des Briefes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Tippfehler im Original ('Friedrih', 'Fisen-bahn') wurden gemäß Transkriptionsregeln originalgetreu übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 565,
+    "total_words": 89,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

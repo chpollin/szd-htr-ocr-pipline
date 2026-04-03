@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1412",
+    "title": "Brief an Unbekannt vom 30. November 1912, SZ-LAS/B4.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1412/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1412/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1412/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt vom 30. November 1912, SZ-LAS/B4.6\n- Signatur: SZ-LAS/B4.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:32.328162+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8 30. Nov. 1912\nWIEN,\n\nLieber Herr Doktor, ich komme eben von Hacc-\nburg zurück (wo mein Stück ein wirklicher Erfolg war)\nund lese - ich kann's nicht anders sagen - mit wirk-\nlicher Ergriffenheit die Worte, die Sie meinem Stück ge-\nwidmet haben. So viel an Urteil, Meinung, Maß und\nLiebe ist auf mich in diesem Monat niedergerasselt,\ndass ich sonst gegen Gedrücktes fast fühllos geworden bin\n- Ihre Worte sind die ersten, die mir wirklich ans Herz\ngehen. Sie haben mit einem wunderbaren Instinkt einige\nKernpunkte meiner Existenz getroffen, deren einen vor\nallen, dass mein Wille zum Lebendigen und zeitgenössi-\nschen noch nicht mit meiner Kunstform ~~oder organisch~~\nübereinstimmt (ich leide darunter, spüre aber, wie sich's\nlangsam einen will) und dies andre noch: dass ich\nnicht an Hofmannsthal sondern an Beer-Hofmann\nanschließe. Kein Werk hat auf mich so mächtig wie der\n„Graf von Charolais“ gewirkt, keinem fühle ich\nmich ähnlich verpflichtet. Lieber Herr Specht, lieber Freund\nmun ich sagen, was ist Kritik wenn sie nicht Intuition\nist? Ich stehe Ihnen viel näher als unsere äußern",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Violette Tinte. Die Zeile 'oder organisch' ist durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Beziehungen es verraten: wie sehr, wie lange bewundere\nich die Güte, die bei Ihnen die Werke nicht ganz an sich\nheran kommen lässt, rohheitvoll und gewächlich, sondern ihnen\nimmer voll Verlangen schon ein Stück weg entgegengeht.\nUnd wie arg ist es eigentlich von mir, dass ich ~~wirklich~~\n{alltäglich}\nabgewartet habe, sie am eigenen Leibe warm zu fühlen, um\nIhnen das zu sagen, statt längst schon spontan, bei einer\nder vielen Gelegenheiten, die Sie geboten haben.\nAber nun, lieber Herr Doktor, müssen Sie mir bald\nGelegenheit geben, Ihnen die Hand zu drücken. Wann darf\nich kommen? Sagen Sie möglichst bald, denn am 5. Dez\nreise ich nach München, zum letztenmal das „Haus am\nMeer“ zu sehn und komme erst am 8ten wieder. Aber ger-\nne hätte ich Ihnen noch zuvor gedankt, bevor als ein Brief\nes vermag. Treulich Ihr\n\nStefan Zweig",
+      "notes": "Handschriftlicher Brieftext, Fortsetzung von Seite 1. Violette Tinte. Das Wort 'alltäglich' wurde über das durchgestrichene 'wirklich' geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Identisch mit dem Text auf Seite 2, jedoch mit aufgelegten Archivierungshilfen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die Korrekturen und Durchstreichungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1934,
+    "total_words": 319,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

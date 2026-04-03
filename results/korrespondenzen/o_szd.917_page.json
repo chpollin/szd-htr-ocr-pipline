@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.917",
+    "title": "Ansichtspostkarte an Frans Masereel vom 8. Januar 1931, SZ-LAS/B1.37",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.917/IMG.1",
+      "https://gams.uni-graz.at/o:szd.917/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 8. Januar 1931, SZ-LAS/B1.37\n- Signatur: SZ-LAS/B1.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:43.230744+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Ansichtspostkarte: Farbreproduktion eines Gemäldes von F. v. Olivier, 'Das Kapuzinerkloster bei Salzburg'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mes chers amis,\nnous serons à Paris\nen quelques jours et\ndès le quinze heureuse\nde vous voir. Nous\nsommes à l'hôtel\nBeaujolais. Nous\nsommes bien contents\nque vous êtes bien dans\nvotre nouveau apparte\nment. Bonne année\nbien chers amis et à\nbientôt Stefan et Friderike\n\nMonsieur et Mme.\nFrans Masereel\nParis\n15 rue Hégésippe\nMoreau",
+      "notes": "Rückseite der Postkarte mit handschriftlichem Text in violetter Tinte. Gedruckter Text oben: 'Museum der bildenden Künste zu Leipzig', 'F. v. Olivier, Das Kapuzinerkloster bei Salzburg'. Unten links: 'Verlag von E. A. Seemann in Leipzig. Nr. 118'. Poststempel: 'SALZBURG 2', '8. 1. 31 21'. Briefmarke: Österreich, 24 Groschen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist eindeutig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 329,
+    "total_words": 57,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

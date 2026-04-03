@@ -1,0 +1,105 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.76",
+    "title": "Notizbuch Paris 1936, SZ-AAP/L11",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.76/IMG.1",
+      "https://gams.uni-graz.at/o:szd.76/IMG.2",
+      "https://gams.uni-graz.at/o:szd.76/IMG.3",
+      "https://gams.uni-graz.at/o:szd.76/IMG.4",
+      "https://gams.uni-graz.at/o:szd.76/IMG.5",
+      "https://gams.uni-graz.at/o:szd.76/IMG.6",
+      "https://gams.uni-graz.at/o:szd.76/IMG.7",
+      "https://gams.uni-graz.at/o:szd.76/IMG.8",
+      "https://gams.uni-graz.at/o:szd.76/IMG.9",
+      "https://gams.uni-graz.at/o:szd.76/IMG.10",
+      "https://gams.uni-graz.at/o:szd.76/IMG.11",
+      "https://gams.uni-graz.at/o:szd.76/IMG.12",
+      "https://gams.uni-graz.at/o:szd.76/IMG.13",
+      "https://gams.uni-graz.at/o:szd.76/IMG.14",
+      "https://gams.uni-graz.at/o:szd.76/IMG.15",
+      "https://gams.uni-graz.at/o:szd.76/IMG.16",
+      "https://gams.uni-graz.at/o:szd.76/IMG.17",
+      "https://gams.uni-graz.at/o:szd.76/IMG.18",
+      "https://gams.uni-graz.at/o:szd.76/IMG.19",
+      "https://gams.uni-graz.at/o:szd.76/IMG.20",
+      "https://gams.uni-graz.at/o:szd.76/IMG.21",
+      "https://gams.uni-graz.at/o:szd.76/IMG.22",
+      "https://gams.uni-graz.at/o:szd.76/IMG.23",
+      "https://gams.uni-graz.at/o:szd.76/IMG.24",
+      "https://gams.uni-graz.at/o:szd.76/IMG.25",
+      "https://gams.uni-graz.at/o:szd.76/IMG.26",
+      "https://gams.uni-graz.at/o:szd.76/IMG.27",
+      "https://gams.uni-graz.at/o:szd.76/IMG.28",
+      "https://gams.uni-graz.at/o:szd.76/IMG.29",
+      "https://gams.uni-graz.at/o:szd.76/IMG.30",
+      "https://gams.uni-graz.at/o:szd.76/IMG.31",
+      "https://gams.uni-graz.at/o:szd.76/IMG.32",
+      "https://gams.uni-graz.at/o:szd.76/IMG.33",
+      "https://gams.uni-graz.at/o:szd.76/IMG.34",
+      "https://gams.uni-graz.at/o:szd.76/IMG.35",
+      "https://gams.uni-graz.at/o:szd.76/IMG.36",
+      "https://gams.uni-graz.at/o:szd.76/IMG.37",
+      "https://gams.uni-graz.at/o:szd.76/IMG.38",
+      "https://gams.uni-graz.at/o:szd.76/IMG.39",
+      "https://gams.uni-graz.at/o:szd.76/IMG.40",
+      "https://gams.uni-graz.at/o:szd.76/IMG.41",
+      "https://gams.uni-graz.at/o:szd.76/IMG.42",
+      "https://gams.uni-graz.at/o:szd.76/IMG.43",
+      "https://gams.uni-graz.at/o:szd.76/IMG.44",
+      "https://gams.uni-graz.at/o:szd.76/IMG.45",
+      "https://gams.uni-graz.at/o:szd.76/IMG.46",
+      "https://gams.uni-graz.at/o:szd.76/IMG.47",
+      "https://gams.uni-graz.at/o:szd.76/IMG.48",
+      "https://gams.uni-graz.at/o:szd.76/IMG.49",
+      "https://gams.uni-graz.at/o:szd.76/IMG.50",
+      "https://gams.uni-graz.at/o:szd.76/IMG.51",
+      "https://gams.uni-graz.at/o:szd.76/IMG.52",
+      "https://gams.uni-graz.at/o:szd.76/IMG.53",
+      "https://gams.uni-graz.at/o:szd.76/IMG.54",
+      "https://gams.uni-graz.at/o:szd.76/IMG.55",
+      "https://gams.uni-graz.at/o:szd.76/IMG.56",
+      "https://gams.uni-graz.at/o:szd.76/IMG.57",
+      "https://gams.uni-graz.at/o:szd.76/IMG.58",
+      "https://gams.uni-graz.at/o:szd.76/IMG.59",
+      "https://gams.uni-graz.at/o:szd.76/IMG.60"
+    ],
+    "document_type": "manuscript",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Notizbuch Paris 1936, SZ-AAP/L11\n- Signatur: SZ-AAP/L11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 60 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:46.705903+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [],
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ],
+    "total_chars": 0,
+    "total_words": 0,
+    "language_detected": "",
+    "language_match": true
+  }
+}

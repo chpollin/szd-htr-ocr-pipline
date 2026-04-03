@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.380",
+    "title": "Kurverwaltung Bad Homburg an Stefan Zweig, 1932-07-08, SZ-SAM/AK.101",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.380/IMG.1",
+      "https://gams.uni-graz.at/o:szd.380/IMG.2",
+      "https://gams.uni-graz.at/o:szd.380/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Kurverwaltung Bad Homburg an Stefan Zweig, 1932-07-08, SZ-SAM/AK.101\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.101\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.569599+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Postkarte: Luftaufnahme des Kurparks in Bad Homburg."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "8. Juli\nBad Homburg, Kurpark\n\nJn unserem Prospekt\nwerden Sie besonders die\nPreise über Pauschalkuren\ninteressiert haben.(Schon\nvon RM 205.-- an für 3\nWochen und alles einge-\nschlossen.) Wenn Sie da-\nrüber noch näheres wis-\nsen wollen,schreiben Sie\nuns bitte.\n\nBad Homburg erwartet Sie.\n\nMit vorzügl.Hochachtung!\nKURVERWALTUNG BAD HOMBURG\n[Unterschrift]",
+      "notes": "Rückseite der Postkarte. Gedruckter Text mit handschriftlicher Unterschrift. Briefmarke und Poststempel (Bad Homburg v.d. Höhe, 8.7.32) vorhanden. Die Anschrift lautet: 'S.H. Herrn Schriftsteller Stefan Zweig Salzburg / Oesterreich'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. In der Mitte die bereits transkribierte Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein gedrucktes Formular handelt. Die Unterschrift ist unleserlich, wurde aber als solche markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 352,
+    "total_words": 50,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

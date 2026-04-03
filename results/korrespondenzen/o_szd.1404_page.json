@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1404",
+    "title": "Brief an Stefan Zweig vom 10. Juli 1939, SZ-LAS/B2.6",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1404/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1404/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. Juli 1939, SZ-LAS/B2.6\n- Signatur: SZ-LAS/B2.6\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.629485+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Grandcour\nSaint-Avertin\nIndre-et-Loire\n\nSaint-Avertin, le 10 Juillet 1939\n\nMon cher Ami,\n\nJe viens de recevoir votre lettre du 6 Juillet. Je suis\nbien content d'avoir de vos nouvelles, de savoir qu'elles\nsont bonnes et d'apprendre que vous espérez bientôt venir à\nParis. Nous serons, ma femme et moi, enchantés de vous re-\nvoir; mais nous espérons que votre voyage n'aura pas lieu\navant le mois d'Octobre, car nous-mêmes serons absents de\nParis jusqu'à cette époque.\n\nJe suis évidemment un peu ennuyé de ce que vous m'appre-\nnez au sujet de \"Volpone\". A mon avis, et pour mettre, à\ntoute éventualité, les meilleures chances de votre côté,\nil est indispensable que vous écriviez à cet agent américain\nquelque chose ceci:\n\n\"J'ignorais complètement que mon agent Felix Bloch\nErben s'était permis sans m'en dire un mot et sans avoir\nle droit de les céder, d'engager une partie de mes droits de\nfilm. Je proteste contre ce qu'il a fait, et je tiens à\ndéclarer que je considère cet engagement comme nul et non\navenu, puisqu'il a été pris par quelqu'un qui n'avait pas\nle droit de le prendre. C'est à Felix Bloch Erben seul que\ndevront demander {éventuellement} réparation ceux qui s'estimeraient lésés.\"\n\nCette lettre, dont naturellement vous garderiez le double,\net dont vous m'enverriez aussi une copie, nous serait d'une\ntrès grande utilité, le jour où quelqu'un en Amérique essaye-\nrait de soulever des difficultés à propos du film, et elle\nserait de nature à faire hésiter ceux qui chercheraient à\nvous créer ces difficultés. Elle me serait également très uti-\nle à l'égard de la société qui va tourner le film en France,\nle jour où elle me demanderait des explications, pour montrer\nque vous avez été entièrement de bonne foi.\n\nLa société en question vient d'effectuer le règlement\nde l'avance dont je vous ai parlé. Vous recevrez votre part\nsous très peu de temps par les soins de l'agence Bloch de la\nSociété des Auteurs. f\n\nRecevez toutes nos amitiés.\n\nJules Romains\n\n[Randnotiz links, vertikal geschrieben]:\n+ La somme brute qui vous revient (à déduire la taxe) s'élève à 29.000 francs -\nnous aurons, d'ici quelque temps, à régler de frais d'avocat, mais je prendrai sur les\nversements ultérieurs. Et ils ne seront pas bien élevés.",
+      "notes": "Der Brief ist maschinenschriftlich verfasst, mit einer handschriftlichen Ergänzung im Text ('éventuellement') und einer umfangreichen handschriftlichen Randnotiz des Absenders (Jules Romains) am linken Rand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die handschriftlichen Ergänzungen sind eindeutig dem Absender Jules Romains zuzuordnen und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2235,
+    "total_words": 377,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

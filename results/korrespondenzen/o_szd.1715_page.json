@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1715",
+    "title": "Brief an Anna Meingast vom 28. Oktober 1936, SZ-SAM/B7.82",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1715/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1715/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 28. Oktober 1936, SZ-SAM/B7.82\n- Signatur: SZ-SAM/B7.82\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.525080+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 28.Oktober 1936.\n\nLiebe Frau Meingast!\nIch danke Ihnen sehr für Ih-\nren freundlichen Brief und möchte Sie bitten, mir\nnun noch folgende Bücher zu schicken:\nWassermann: Kolumbus\nWerfel: die letzten Gedichte\nWittlin: Salz der Erde\nJ. Roth: Beichte eines Mörders\nBrod: Annerl,\nferner von meinen eigenen Büchern aus der Insel jenen {früheren}\nBand meiner gesammelten Gedichte, vielleicht drei Exem-\nplare und vielleicht zwei Volpone.\nIch bin fleissig an der Arbeit und\nhoffe auch für Sie bald wieder etwas zu haben. Sagen\nSie mir nur bitte, wie es mit der Bibliographie auf\nlosen Blättern steht. Haben Sie schon angefangen, daran\nzu arbeiten?\nMit den besten Grüssen\n\nIhr\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Ergänzung ('früheren' über der Zeile eingefügt) und handschriftlicher Unterschrift von Stefan Zweig. Das Wort 'früheren' ist in violett-blauer Tinte geschrieben, ebenso die Unterschrift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung 'früheren' und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 691,
+    "total_words": 110,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

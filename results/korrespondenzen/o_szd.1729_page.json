@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1729",
+    "title": "Brief an Anna Meingast vom 27. April 1937, SZ-SAM/B7.96",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1729/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1729/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1729/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1729/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 27. April 1937, SZ-SAM/B7.96\n- Signatur: SZ-SAM/B7.96\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.284959+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 27. April 1937.\n\nLiebe Frau Meingast!\nWie Sie vielleicht gehört haben, werde ich\nauf zwei Tage nach Salzburg kommen, um an dem Zerstö-\nrungswerk mitzutun. Leicht wird es ja nicht sein, aber\netwas werden Sie ja schon von den konstanten Bedräng-\nnissen gehört haben, die mir den Entschluss aufgenötigt\nhaben. Ich möchte Sie nun bitten, mir bei folgendem be-\nhilflich zu sein.\nEs soll früher oder später bei Reichner eine\nSammlung meiner Essais erscheinen und bei der Durchsicht\nsehe ich, dass mir einiges fehlt (ausser den einzigen\nExemplaren), was sich in Salzburg wohl finden wird. Ich\nbrauche folgendes:\n1. Gesammelte Gedichte\n2. Fahrten\n3. Masereel\n4. Moralische Entgiftung Europas (der Sonder-\ndruck der römischen Akademie, von dem be-\nstimmt noch mehrere Exemplare da sein müssen)\n5. Goethes Gedichte bei Reklam mit meiner\nEinleitung\n6. Russische Reise",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "7. Die Rede auf Rilke\n8. Ste.Beuve mit meiner Einleitung\n9. Rimbaud mit meiner Einleitung (wenn dies\nnicht vorhanden sein sollte, einen der\nersten Bände 1907 oder 1908 des Inselal-\nmanachs, in dem der Aufsatz enthalten ist)\n10. Aus der Bibliothek das Buch \"Navigare\nnecesse est\".\nDiese Bücher tun Sie mit gütigst, soweit sie\nvorhanden sind, an einer Stelle zusammen, damit ich sie\ngleich nach Wien zum Verleger mitnehmen kann.\nInzwischen können Sie, wo mehrere Exemplare\nvon mir da sind (auch eingeleitete Bücher), von jedem\nsich hinunter ein Exemplar nehmen und auch sonst, wenn\nSie etwas aus der Bibliothek haben wollen, stelle ich\nes ihnen gern zur Verfügung.\nDarf ich Sie noch bitten, meine Frau daran\nzu erinnern, dass wenn ich komme, schon reichlich Ki-\nsten für Bücher im Hause sind. Herr Hinterberger wird\ndie ganzen Autografenkataloge verpacken lassen und auch\nsonst eine Reihe von Büchern mitnehmen und es ist na-\ntürlich wichtig, dass er die Bücher gleich in Kisten\nlegen kann. Gut wäre auch, wenn Herr Schlögel oder\nsonst eine Hilfsperson an jenem Tag (6., allenfalls 7.)\nbereit wäre. Hoffentlich hat meine Frau bis dahin schon",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2)\n\nviel weggegeben und abverkauft. Je weniger Dinge\ndann da sind, umso leichter ist die Uebersicht.\nIch freue mich schon sehr, Sie zu sehen\nund bleibe mit den besten Grüssen\n\nIhr\nStefan[?]\n\nAnbei drei Bücherbeschreibungen.\nViele Grüsse an Herrn Glierl\ndas Buch ist soviel wie fertig (in\nsechs Monaten inclusive der durch-\narbeitung des Materials: es war\neine harte Arbeit)",
+      "notes": "Typoskript mit handschriftlicher Unterschrift (Stefan Zweig) und handschriftlichem Nachsatz in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text vom Typoskript der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Unterschrift ist aufgrund der Handschrift als 'Stefan' identifiziert, wobei das 'Zweig' durch den Strich der Unterschrift überlagert/abstrahiert ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2380,
+    "total_words": 385,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

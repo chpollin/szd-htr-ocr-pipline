@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1419",
+    "title": "Brief an Friedrich Siegbert Mees vom 16. Mai 1927, SZ-SAH/B2.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1419/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1419/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1419/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1419/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1419/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Friedrich Siegbert Mees vom 16. Mai 1927, SZ-SAH/B2.3\n- Signatur: SZ-SAH/B2.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:32.778940+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn\n\nFriedrich Siegbert M e e s\nKapellmeister\n\nB a d e n w e i l e r\n\nDeutschland.                Villa Erhard",
+      "notes": "Adressseite eines Briefumschlags. Maschinenschrift. Poststempel: 'SALZBURG 1 16. V. 27 11'. Briefmarke: Österreich 10g."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG 5",
+      "notes": "Rückseite des Briefumschlags mit Logo und Absenderadresse."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG\n\n16. Mai 1927.\n\nSehr verehrter Herr Kapellmeister!\n\nVerzeihen Sie, dass ich Ihnen so spät schreibe -\nich wollte es längst schon tun, war nur von vielerlei Ab-\nhaltungen immer wieder abgedrängt, Ihnen das rechte Wort zu\nsagen. Ich bin so sehr für die Wärme, die aus Ihren Worten\nund Ihrem Wesen spricht, empfänglich und wünsche Ihnen von\nferne für Ihr Werk das Allerbeste - ich lebte meine Zeit lie-\nber, wären ein paar Musiker darin, die ich restlos verehre\nkönnte, aber mein Verhältnis zu den gegenwärtigen ist leider\nein recht unsicheres. Mir fehlt vor allem jener ethische\nElan, den wir herrlich noch bei Mahler sahen und den ich\nmenschlich so wunderbar in Busoni erkennen durfte. Mich\nhätte es oft sogar gereizt, etwas für Musik zu schreiben, und\nich habe einiges unter meinen Papieren. Alles blieb aber un-\nausgeführt, weil der elementare Musiker meines Alters fehlte:\neinmal wollte ich mit Oskar Fried etwas gemeinsam machen,\ndoch sein Dirigieren war im wichtiger, und so hat er sein\ngrosses, leidenschaftliches Talent vollkommen zerstört.\nHoffentlich habe ich die Freude, Ihnen zu begegnen:\nich komme öfters nach Leipzig und wenn Sie da von Halle einmal\nherüberkommen wollen, so will ich Sie dann gerne verständigen,\nsobald Sie im Amt und Würden sind.\nMit den besten Grüssen\n\nIhr herzlich ergebener\n\nStefan Zweig",
+      "notes": "Brieftext auf Briefpapier mit Logo. Maschinenschrift, Unterschrift handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer (durchscheinender Text des Briefes sichtbar)."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "SALZBURG\nKAPUZINERBERG\n\n16. Mai 1927.\n\nSehr verehrter Herr Kapellmeister!\n\n[Farbkarte/Grauskala überdeckt Text]\n\nber, waren ein paar Musiker darin, die ich restlos verehren\nkönnte, aber mein Verhältnis zu den gegenwärtigen ist leider\nein recht unsicheres. Mir fehlt vor allem jener ethische\nElan, den wir herrlich noch bei Mahler sahen und den ich\nmenschlich so wunderbar in Busoni erkennen durfte. Mich\nhätte es oft sogar gereizt, etwas für Musik zu schreiben, und\n\n[Farbkarte/Grauskala überdeckt Text]\n\nherüberkommen wollen, so will ich Sie dann gerne verständigen,\nsobald Sie im Amt und Würden sind.\nMit den besten Grüssen\n\nIhr herzlich ergebener\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 3, jedoch mit aufgelegten Kalibrierungstafeln (Farbkarte/Grauskala) über dem Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2141,
+    "total_words": 340,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

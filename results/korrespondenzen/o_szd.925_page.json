@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.925",
+    "title": "Brief an Frans Masereel vom 18. September 1931, SZ-LAS/B1.44",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.925/IMG.1",
+      "https://gams.uni-graz.at/o:szd.925/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 18. September 1931, SZ-LAS/B1.44\n- Signatur: SZ-LAS/B1.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.018871+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 18. September 1931\n\nLieber Frans!\n\nIn diesem Jahre ist natürlich an Russland nicht mehr zu\ndenken, aber für das Frühjahr ist schon allerhand vorbereitet.\nWahrscheinlich komme ich aber im November nach Paris; unser Freund\nSchalom Asch hat eine kleine Villa in Bellevue, die er uns während\nseiner Abwesenheit überlassen würde, so dass mir erspart bliebe\nim Hotel zu wohnen und ich anderseits nicht in Paris selbst zu sein\nbrauche. Für das Frühjahr wird dann alles in Ruhe vorbereitet,\nmit Amerika war bis zur Stunde noch nichts zu machen.\nAn Herrn Koch habe ich heute geschrieben, Du wirst dann di-",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf-Logo. Die letzte Zeile bricht mitten im Wort ab und setzt sich auf der Rückseite fort."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "rekt wegen des Auftrags von ihm hören.\nAllerherzlichste Grüsse Deines\n\nStefan Zweig",
+      "notes": "Fortsetzung des Typoskripts von Seite 1. Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt. Am unteren Rand befindet sich ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Trennung zwischen Typoskript und handschriftlicher Unterschrift ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 708,
+    "total_words": 115,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

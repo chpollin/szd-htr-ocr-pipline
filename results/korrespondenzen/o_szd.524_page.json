@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.524",
+    "title": "Unidentified an Stefan Zweig, , SZ-SAM/AK.232",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.524/IMG.1",
+      "SZ_SAM_AK.232-2.jpg",
+      "https://gams.uni-graz.at/o:szd.524/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Unidentified an Stefan Zweig, , SZ-SAM/AK.232\n- Signatur: , SZ-SAM/AK.232\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:15.094428+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "amberg. Dom, Figuren am Adamsportal",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung von Skulpturen am Bamberger Dom. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nHr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nDie herzlichsten\nOsterwünsche\nIhrer ergebenen\nWilly [?]",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Grußtext. Briefmarke und Poststempel vorhanden. Der Name des Absenders ist schwer lesbar, möglicherweise 'Willy' oder ähnlich."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift des Absenders ist kursiv und teilweise schwer zu entziffern, insbesondere die Unterschrift.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 139,
+    "total_words": 19,
+    "language_detected": "",
+    "language_match": true
+  }
+}

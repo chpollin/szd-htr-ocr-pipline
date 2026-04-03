@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2612",
+    "title": "Gorki",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA71.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2612/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2612/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2612/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2612/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2612/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2612/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2612/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Gorki\n- Signatur: SZ-AAP/W-AA71.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:47.605858+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gorki\nDas Werk der Artamonows\nAn Maxim Gorkij\n? Rede zu Ehren Maxim Gorkis (in Begegnungen, p. 101)\n\nGorki Maxim\nDas Werk der Artamonows\nund andere Aufsätze",
+      "notes": "Handschrift in violetter Tinte. Das Dokument besteht aus zwei Teilen (einem schmalen Streifen oben und einem größeren Blatt unten), die zusammengefügt sind."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des oberen Streifens, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Gorki Maxim\nDas Werk der Artamonows\nund andere Aufsätze",
+      "notes": "Handschrift in violetter Tinte. Dies ist der untere Teil des Dokuments."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des unteren Blattes, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Gorki\nDas Werk der Artamonows\nAn Maxim Gorkij\n? Rede zu Ehren Maxim Gorkis (in Begegnungen, p. 101)",
+      "notes": "Handschrift in violetter Tinte. Dies ist der obere Streifen des Dokuments."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des unteren Blattes, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Gorki\nDas Werk der Artamonows\nAn Maxim Gorkij\n? Rede zu Ehren Maxim Gorkis (in Begegnungen, p. 101)\n\nGorki Maxim\nDas Werk der Artamonows\nund andere Aufsätze",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr deutlich und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 466,
+    "total_words": 81,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.180",
+    "title": "Geburtsschein Lotte Zweig, SZ-AP2/L-S6.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.180/IMG.1",
+      "https://gams.uni-graz.at/o:szd.180/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Geburtsschein Lotte Zweig, SZ-AP2/L-S6.1\n- Signatur: SZ-AP2/L\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.935304+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Reg. Nr 500/08.\n\nGeburtsschein\nnur gültig für Schul- und Unterrichtszwecke einschließlich\ndes Konfirmations-Unterrichts.\n\nVor- und Zuname Elisabet Charlotte\nUtmann\nGeburtstag und Ort fünften Mai tausend-\nneunhundertacht zu Kattowitz.\nVor- und Zuname sowie Stand des Vaters Kaufmann Josef\nGeorg Utmann, mosaisch.\nVor- und Zuname der Mutter Therese geborene Hirsch,\nmosaisch.\n\nKattowitz, den 18. Februar 1914.\n\nDer Standesbeamte.\nZehe.",
+      "notes": "Formulardruck mit handschriftlichen Ergänzungen. Stempel des Standesamtes Kattowitz vorhanden. Unten mittig Verlagsangabe: 'Julius Herzig, Kattowitz. 24821'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "NOTE: This declaration should not be made until the declarer's husband\n\ntakes the Oath of Allegiance and so becomes a British subject\n\n(G)\n\nD U P L I C A T E  D E C L A R A T I O N\n\nBRITISH NATIONALITY AND STATUS OF ALIENS ACT, 1914\n\nDeclaration of Acquisition of British Nationality\n\n(1) Name in\nfull I, (1) ELISABET CHARLOTTE ZWEIG\n\n(2) Address in\nfull of (2) LYNCOMBE HILL, BATH, SOMERSET\n\nbeing the wife of (1) STEFAN ZWEIG\n\nto whom a certificate of naturalization (No. AZ 15747 )\n\nwas granted on or about 12th March, 1940 , hereby declare\n\nthat I desire to acquire British nationality.\n\n(Signature) Elisabet Charlotte Zweig\n\nMade and subscribed this 15th day of March, 1940,\nbefore me,\n\n(Signature) [Unleserliche Unterschrift]\n\nJustice of the Peace for the City of Bath\n(or other official title)\n\nA Commissioner for Oaths\n\nAddress\n\n[Stempel: HOME OFFICE - 8 APR 1940 - REGISTERED]",
+      "notes": "Maschinenschriftliches Formular mit handschriftlichen Ergänzungen (Name, Adresse, Ehemann, Datum, Unterschrift). Stempel des 'Home Office' unten links."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Texte sind sehr gut lesbar. Die Unterschrift des 'Justice of the Peace' auf Seite 2 ist unleserlich, wurde daher als [...] markiert.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1318,
+    "total_words": 213,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

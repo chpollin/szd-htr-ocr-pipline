@@ -1,0 +1,503 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.193",
+    "title": "Certified Copy of an Entry of Marriage",
+    "language": "en",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AP2/L-S7.9",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.193/IMG.1",
+      "https://gams.uni-graz.at/o:szd.193/IMG.2",
+      "https://gams.uni-graz.at/o:szd.193/IMG.3"
+    ],
+    "date": "Sixth September 1939",
+    "document_type": "typescript",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "origin_place": "Bath",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs 2002"
+      ],
+      "notes": "Beglaubigte Kopie vom 17. Mai 1940"
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Certified Copy of an Entry of Marriage\n- Signatur: SZ-AP2/L-S7.9\n- Datum: Sixth September 1939\n- Sprache: Englisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Anmerkungen: Beglaubigte Kopie vom 17. Mai 1940"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.980531+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "TA 536045\n[Printed by Authority of the Registrar-General.]\nCERTIFIED COPY of an ENTRY OF MARRIAGE.\nPursuant to the Marriage Acts, 1811 to 1934. M. Cert. S.R.\nThe Statutory Fee for this Certificate is 2s. 7d. If required subsequently to registration, a Search Fee is payable in addition.\nRegistration District Bath.\n1939 Marriage Solemnized at The Register Office in the County Borough of Bath.\nDistrict of Bath\nColumns: 1 When Married. 2 Name and Surname. 3 Age. 4 Condition. 5 Rank or Profession. 6 Residence at the time of Marriage. 7 Father's Name and Surname. 8 Rank or Profession of Father.\n138 Sixth September 1939 Stefan Zweig 57 years The divorced husband of Friederike Maria Zweig formerly Burger. Author Lansdown Lodge Lansdown Road Bath. Moritz Zweig (deceased) Textile Manufacturer\nElisabet Charlotte Altmann 31 years Spinster Author's Secretary Lansdown Lodge Lansdown Road Bath. Joseph George Altmann (deceased) Hardware Merchant.\nMarried in the Register Office according to the Rites and Ceremonies of the by licence before me, A. Clegg Registrar\nThis Marriage was solemnized between us, Stefan Zweig Elisabet Charlotte Altmann in the Presence of us, Arthur I. Ingram Johanna Altmann B. J. Butlin Supt. Registrar\nI, W. R. Loxston Deputy Superintendent Registrar for the District of Bath in the County Borough of Bath do hereby certify that this is a true copy of the Entry No. 138 in the Register Book of Marriages No. 96 and that such Register Book is now legally in my custody.\nWITNESS MY HAND this 17th day of May, 1940.\nW. R. Loxston Deputy Superintendent Registrar\nCAUTION.—Any person who (1) falsifies any of the particulars on this Certificate, or (2) uses it as true, knowing it to be falsified, is liable to Prosecution.",
+      "notes": "Das Dokument ist eine beglaubigte Heiratsurkunde. Die handschriftlichen Einträge sind gut lesbar. Die Briefmarke (Victoria & George 1840-1940) ist unten rechts aufgeklebt.",
+      "image": "IMG_1.jpg",
+      "image_width": 4886,
+      "image_height": 3388,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            9.4,
+            21.7,
+            8.5,
+            2.6
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Zertifikatsnummer",
+          "source": "docling"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            73.4,
+            22.6,
+            16.2,
+            1.5
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Druckvermerk",
+          "source": "surya"
+        },
+        {
+          "id": "r3",
+          "type": "heading",
+          "bbox": [
+            26.1,
+            24.3,
+            36.6,
+            6.0
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Dokumententitel",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            84.0,
+            25.0,
+            4.7,
+            3.7
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Metadaten",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            8.6,
+            27.3,
+            15.2,
+            3.5
+          ],
+          "reading_order": 5,
+          "lines": 2,
+          "label": "Gebührenhinweis",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            22.5,
+            31.0,
+            16.6,
+            2.6
+          ],
+          "reading_order": 6,
+          "lines": 1,
+          "label": "Registrierungsbezirk",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "marginalia",
+          "bbox": [
+            83.2,
+            30.6,
+            6.6,
+            6.6
+          ],
+          "reading_order": 7,
+          "lines": 5,
+          "label": "Marginalie (Hinweistext)",
+          "source": "merged"
+        },
+        {
+          "id": "r8",
+          "type": "paragraph",
+          "bbox": [
+            9.3,
+            33.6,
+            72.9,
+            5.3
+          ],
+          "reading_order": 8,
+          "lines": 3,
+          "label": "Ort und Datum der Eheschließung",
+          "source": "merged"
+        },
+        {
+          "id": "r9",
+          "type": "table",
+          "bbox": [
+            9.8,
+            38.9,
+            72.9,
+            2.8
+          ],
+          "reading_order": 9,
+          "lines": 2,
+          "label": "Tabellenüberschriften",
+          "source": "merged"
+        },
+        {
+          "id": "r10",
+          "type": "table",
+          "bbox": [
+            9.5,
+            41.1,
+            72.0,
+            13.4
+          ],
+          "reading_order": 10,
+          "lines": 12,
+          "label": "Eintragungsdetails (Stefan Zweig & Elisabet Altmann)",
+          "source": "merged"
+        },
+        {
+          "id": "r11",
+          "type": "paragraph",
+          "bbox": [
+            9.6,
+            55.1,
+            72.9,
+            2.4
+          ],
+          "reading_order": 11,
+          "lines": 1,
+          "label": "Eheschließungsformel",
+          "source": "merged"
+        },
+        {
+          "id": "r12",
+          "type": "paragraph",
+          "bbox": [
+            10.2,
+            58.3,
+            72.0,
+            6.9
+          ],
+          "reading_order": 12,
+          "lines": 6,
+          "label": "Unterschriften und Standesbeamte",
+          "source": "merged"
+        },
+        {
+          "id": "r13",
+          "type": "paragraph",
+          "bbox": [
+            9.3,
+            66.4,
+            77.9,
+            3.4
+          ],
+          "reading_order": 13,
+          "lines": 2,
+          "label": "Beglaubigungsvermerk",
+          "source": "merged"
+        },
+        {
+          "id": "r14",
+          "type": "paragraph",
+          "bbox": [
+            23.0,
+            70.0,
+            23.6,
+            2.4
+          ],
+          "reading_order": 14,
+          "lines": 1,
+          "label": "Datum der Beglaubigung",
+          "source": "surya"
+        },
+        {
+          "id": "r15",
+          "type": "heading",
+          "bbox": [
+            63.8,
+            69.8,
+            19.6,
+            4.2
+          ],
+          "reading_order": 15,
+          "lines": 3,
+          "label": "Unterschrift Standesbeamter",
+          "source": "merged"
+        },
+        {
+          "id": "r16",
+          "type": "paragraph",
+          "bbox": [
+            9.4,
+            72.8,
+            24.7,
+            3.7
+          ],
+          "reading_order": 16,
+          "lines": 3,
+          "label": "Rechtlicher Warnhinweis",
+          "source": "merged"
+        },
+        {
+          "id": "r17",
+          "type": "marginalia",
+          "bbox": [
+            91.5,
+            74.0,
+            2.5,
+            3.5
+          ],
+          "reading_order": 17,
+          "lines": 1,
+          "label": "Marginalie (Handzeichen)",
+          "source": "vlm_added"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt).",
+      "image": "IMG_2.jpg",
+      "image_width": 2979,
+      "image_height": 4000,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            18.1,
+            25.4,
+            14.0,
+            2.0
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Zertifikatsnummer",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            45.9,
+            26.9,
+            54.0,
+            5.0
+          ],
+          "reading_order": 2,
+          "lines": 5,
+          "label": "Dokumententitel",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            17.3,
+            30.0,
+            24.2,
+            3.0
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Gebührenhinweis",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            40.1,
+            32.8,
+            27.1,
+            2.3
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Standesamtsbezirk",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "heading",
+          "bbox": [
+            18.9,
+            35.0,
+            78.2,
+            4.0
+          ],
+          "reading_order": 5,
+          "lines": 6,
+          "label": "Ort der Eheschließung",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "table",
+          "bbox": [
+            18.5,
+            39.4,
+            81.5,
+            13.5
+          ],
+          "reading_order": 6,
+          "lines": 34,
+          "label": "Eintragungsdetails (Tabelle)",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "paragraph",
+          "bbox": [
+            19.2,
+            53.2,
+            74.0,
+            2.5
+          ],
+          "reading_order": 7,
+          "lines": 4,
+          "label": "Trauungsformel",
+          "source": "merged"
+        },
+        {
+          "id": "r8",
+          "type": "paragraph",
+          "bbox": [
+            20.1,
+            57.3,
+            39.9,
+            4.7
+          ],
+          "reading_order": 8,
+          "lines": 5,
+          "label": "Unterschriften der Eheleute",
+          "source": "merged"
+        },
+        {
+          "id": "r9",
+          "type": "paragraph",
+          "bbox": [
+            59.7,
+            57.3,
+            31.3,
+            4.5
+          ],
+          "reading_order": 9,
+          "lines": 4,
+          "label": "Unterschriften der Zeugen",
+          "source": "merged"
+        },
+        {
+          "id": "r10",
+          "type": "paragraph",
+          "bbox": [
+            18.8,
+            62.8,
+            81.1,
+            4.1
+          ],
+          "reading_order": 10,
+          "lines": 4,
+          "label": "Beglaubigungsvermerk",
+          "source": "merged"
+        },
+        {
+          "id": "r11",
+          "type": "paragraph",
+          "bbox": [
+            41.7,
+            65.7,
+            50.0,
+            2.7
+          ],
+          "reading_order": 11,
+          "lines": 2,
+          "label": "Ausstellungsdatum",
+          "source": "merged"
+        },
+        {
+          "id": "r12",
+          "type": "paragraph",
+          "bbox": [
+            18.8,
+            68.2,
+            40.5,
+            3.0
+          ],
+          "reading_order": 12,
+          "lines": 3,
+          "label": "Rechtlicher Warnhinweis",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist aufgrund der klaren Struktur und der guten Lesbarkeit der Handschrift sehr gut transkribierbar. Die wenigen Abkürzungen (z.B. 'Supt.') sind eindeutig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1744,
+    "total_words": 286,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

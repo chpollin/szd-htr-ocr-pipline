@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1520",
+    "title": "Brief an Stefan Zweig vom 2. August 1926, SZ-AAP/B2.64",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1520/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1520/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1520/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. August 1926, SZ-AAP/B2.64\n- Signatur: SZ-AAP/B2.64\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:38.838037+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Richard Friedenthal                                Charlottenburg, den 2.8.26\n\n                                                 Berlinerstrasse 147.\n\nLieber Herr Zweig !\nJa, Sie haben so recht mich zu mahnen und zu fordern. Es gibt\naber zuweilen ein solches Gewirr und Netz von Dingen die einen hin-\ndern, dass man beim besten Willen sich nicht ganz frei machen kann.\nFamilienaffären, Liebesgeschichte, geschäftliche Sorgen und bei alledem\ndie materielle Unmöglichkeit der ganzen Unbehaglichkeit mit einem\nSprung zu entfliehen - das bindet einen auch dann an, wenn man an und\nfür sich garnicht so abhängig von diesen Dingen ist. Nun habe ich\naber endlich Ruhe und da geht es auch mit der Arbeit vorwärts. Ich\nschreibe täglich etwa 8 -- 10 Seiten; diesmal allerdings nicht wie\nsonst ganz für mich, sondern auch mit der ausgesprochenen Absicht\neinen Roman zu machen den man mir abkauft. Denn mit Novellen vom\nSchlage der \"Vergewaltigung\" komme ich nicht in die Höhe. Auch Kie-\npendheuer, der im übrigen sehr nett schrieb und beteuerte er halte\nden \"Heuschober\" für eine der besten neueren Novellen überhaupt, fuhr\nden sattsam bekannten Geschmack des Publikums, das nun einmal für\ngrausig-düstere Themen nicht zu haben sei gegen mich auf. Nun, mit\ndem \"Cortes\" hoffe ich mir wenigstens soviel Bewegungsfreiheit zu\nerkaufen, dass ich die anderen Arbeiten dann in Ruhe erledigen kann.\nIch schicke Ihnen beiliegend das erste Kapitel, aus dem Sie schon\nStil und Anlage des Ganzen ungefähr ersehen können. Man muss, glaube\nich ein solches Thema in Fresko behandeln, mit Farben die schnell\naufgetragen werden, mit feinen Strichen in niederländischer Manier\nist ihm nicht beizukommen. Was mich hauptsächlich an dem Thema in-\nteressierte die Möglichkeit in dieser zusammengewürfelten Aben-\nteurergesellschaft Europa in nuce zu geben; ich will den Roman durch",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "alle Schichten führen. Freilich soll Cortes selbst dabei nicht zu\nkurz kommen, denn der historische Roman braucht den Helden. (Das Fehlen\neiner Persönlichkeit die genügend für sich einnimmt ist der kapitale\nFehler an Döblins Wallenstein). Ich sehe ihn allerdings nicht so sehr\nals Haudegen und Landsknechtshauptmann wie als Politiker. Er ist ein\nwirklicher Kopf - übrigens der einzige unter allen Conquistadoren. Pi-\nzarro ist ein gewöhnlicher Strolch.\nVielleicht können Sie mir noch einen guten Rat geben; bisher hat\nnoch fast jedes Ihrer Worte erstaunlich bei mir geheckt. Das Gold-\nbuch von Cendrars habe ich gelesen.\nSehr gern würde ich wieder einmal von Ihren eigenen Arbeiten\netwas hören. Dass der Volpone in Wien und Dresden angenommen ist,\nlas ich in der Zeitung; ich gratuliere herzlichst dazu. Berlin wird\nohnehin immer unbedeutender; man will ja auch in der \"Komödie\" Revue\nspielen; Pallenberg, unser grosser Koniker, als Einlagenummer!\nIch las übrigens inzwischen Tiecks Bearbeitung des Volpone; sie\nsteht im 12. Band seiner Schriften, zusammen mit einer Übersetzung der\nEpicoene von Ben Jonson. Ein reichlich ledernes Machwerk in konven-\ntionellen Lustspielton der Zeit; alles, was bei Jonson grosser Atem\nund Schwung ist, engbrüstig und eingepresst. Trotzdem ist selbst da\ndie schlagende Wucht der Fabel nicht ganz umzubringen. Ich denke Ihre\nUmdichtung müsste wirklich Erfolg haben.\nMit den herzlichsten Grüssen und den besten Wünschen für Ihre\nArbeit bin ich immer\n\nIhr aufrichtig ergebener",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Kein Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3353,
+    "total_words": 506,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

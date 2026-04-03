@@ -1,0 +1,70 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.510",
+    "title": "André Jullien du Breuil an Stefan Zweig, 1929-07-29, SZ-SAM/AK.22",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.510/IMG.1",
+      "https://gams.uni-graz.at/o:szd.510/IMG.2",
+      "https://gams.uni-graz.at/o:szd.510/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: André Jullien du Breuil an Stefan Zweig, 1929-07-29, SZ-SAM/AK.22\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.137872+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BAD ISCHL, Esplanade\nSalzkammergut.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Bad-Ischl - 29 juillet\nAvant de rentrer à Paris, je\ntiens à vous remercier encore\nune fois, cher monsieur, du\nsi bon accueil que vous\nm'avez fait. Ischl, comme\nvous me l'avez fait savoir, m'a\nbeaucoup diverti. J'ai\npassé une semaine à Vienne\net me suis baigné en 8 jours\n4 quatre lacs différents du\nSalzkammergut! n'est ce pas\nun record?\nJe me permettrai de vous envoyer\nen Octobre mon nouveau\nlivre et serais heureux de\nconnaître votre opinion et\nde recevoir vos conseil.\nVeuillez croire, cher monsieur, à\nmon souvenir très respectueux.\nAndré Jullien du Breuil",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Briefmarke und Poststempel (Bad Ischl 29.VII.29) vorhanden. Gedruckter Verlagsvermerk am linken Rand: '1919 F. E. Brandt in Gmunden Nr. 4572'. Stempel 'GEBRAUCHET DIE HEILKRÄFTIGEN SOLBÄDER' mittig."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Bad-Ischl - 29 juillet\nAvant de rentrer à Paris, je\ntiens à vous remercier encore\nune fois, cher monsieur, du\nsi bon accueil que vous\nm'avez fait. Ischl, comme\nvous me l'avez fait savoir, m'a\nbeaucoup diverti. J'ai\npassé une semaine à Vienne\net me suis baigné en 8 jours\n4 quatre lacs différents du\nSalzkammergut! n'est ce pas\nun record?\nJe me permettrai de vous envoyer\nen Octobre mon nouveau\nlivre et serais heureux de\nconnaître votre opinion et\nde recevoir vos conseil.\nVeuillez croire, cher monsieur, à\nmon souvenir très respectueux.\nAndré Jullien du Breuil",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der handschriftliche Text ist gut lesbar. Die französische Sprache wurde korrekt erfasst.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ],
+    "total_chars": 1157,
+    "total_words": 198,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

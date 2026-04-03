@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2825",
+    "title": "Aufsätze L",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA-L",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2825/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2825/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2825/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Register"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Aufsätze L\n- Signatur: SZ-AAP/W-AA-L\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:09.702324+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                    12\n\nAufsätze\n--------\n\nLammasch, Heinrich ✓\nLand ohne Patriotismus, Das ✓\nLandauer, Gustav ✓\nLemonnier, Camille ✓\nLiebesbriefe ( Dokumente des Herzens ) ✓\nLob der deutschen Verleger ✓\nLucka, Emil ✓\nLudwig, Emil ✓\nLust am Lesen ✓\nLux, Adam ✓\nLeppin, Paul ✓\nLegende, aller Anfang zu einer ✓\nLissauer Ernst : Die Tragödie eines Gedichts ✓\nLüttich ✓",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Häkchen, handschriftliche Zeilen am Ende). Die Zahl '12' oben rechts ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 413,
+    "total_words": 61,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

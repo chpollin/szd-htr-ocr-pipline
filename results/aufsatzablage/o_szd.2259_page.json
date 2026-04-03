@@ -1,0 +1,92 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2259",
+    "title": "\"Bei der schönen Aufführung...\"",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA191.2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2259/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2259/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2259/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Manuskripte"
+      ],
+      "extent": "korrigiert, 1\n                                          Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Farbband, Bleistift"
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: \"Bei der schönen Aufführung...\"\n- Signatur: SZ-AAP/W-AA191.2\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: korrigiert, 1\n                                          Blatt\n- Schreibinstrument: Violettes\n                                       Farbband, Bleistift"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:59.773390+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bei der schönen Aufführung, die ich dem Theater in Hannover\n~~verdanke~~, habe ich wieder verstärkt empfunden, wie wichtig\ndie Theater der deutschen Residenzen als Gegengewicht gegen die\nBerliner Konzentration geworden sind. Eine Zeitlang bestand ja\ndie Besorgnis, der Film werde die tüchtigsten Schauspieler von\nder Provinz abziehen, Berlin allein die Entscheidung übernehmen.\nImmer deutlicher aber stellt es sich heraus, wie sehr regulativ\ndie Verteilung der Entscheidungen auf verschiedene Theater wirkt\nund wie besser dadurch gerade der geistige Gehalt im Dramatischen\nbelichtet wird. In Berlin gehört nicht nur das Theater, sondern\nauch der einzelne Dichter dem Schauspieler(und allenfalls noch dem\nRegisseur) er nimmt {alles} an sich, löst es in sich auf, gibt ihm\nseine Farbe, seinen Willen, seine private Physiognomie, und wenn\nes dort schon Brauch geworden ist, auf den {P}lakaten den Namen\ndes Darstellers in vervielfachten Zentimetermassen gegenüber\njenem des Autors zu drucken, so drückt dies optische Symbol sehr\nglücklich und krass eine wirklich gegebene Tatsache aus. Das Wort\nschwindet hinter der Person, der Sinn unter der Form, bei diesen\ndurchaus auf Seite getriebenen Aufführungen,(allerdings höchsten\nFormats) und darum bedeutet es eine ausgezeichnete Korrektur, wenn\nin den kleineren Residenzen, wo das Publikum ebenso besser {Theater}\nhört als es besser Bücher liest, die Stücke ursprünglicher, lite-\nrarischer und somit unverfärbter erscheinen. Dass nicht minderer\nFleiss und innere Tüchtigkeit an das Werk gesetzt wird wie in der\nGrosstadt, kann ich wenigstens von Hannover aufs ehrlichste be-\nzeugen, und so bindet, wie mich {und} wahrscheinlich jeden Autor\ndankbares Gedenken an diese klare, helle und lebendige Stadt.",
+      "notes": "Das Dokument ist ein Typoskript mit handschriftlichen Korrekturen (Einfügungen und Streichungen). Die Lesbarkeit ist durchgehend gut."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Bei der schönen Aufführung, die ich dem Theater in Hannover\n~~verdanke~~, habe ich wieder verstärkt empfunden, wie wichtig\ndie Theater der deutschen Residenzen als Gegengewicht gegen die\nBerliner Konzentration geworden sind. Eine Zeitlang bestand ja\n\nRegisseur) er nimmt {alles} an sich, löst es in sich auf, gibt ihm\nseine Farbe, seinen Willen, seine private Physiognomie, und wenn\nes dort schon Brauch geworden ist, auf den {P}lakaten den Namen\ndes Darstellers in vervielfachten Zentimetermassen gegenüber\njenem des Autors zu drucken, so drückt dies optische Symbol sehr\nglücklich und krass eine wirklich gegebene Tatsache aus. Das Wort\nschwindet hinter der Person, der Sinn unter der Form, bei diesen\n\nzeugen, und so bindet, wie mich {und} wahrscheinlich jeden Autor\ndankbares Gedenken an diese klare, helle und lebendige Stadt.",
+      "notes": "Dieses Blatt enthält eine Farbkarte und eine Grauskala, die den Text teilweise verdecken. Der Text entspricht dem von Seite 1, ist jedoch durch die Messwerkzeuge unterbrochen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die handschriftlichen Ergänzungen sind eindeutig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2576,
+    "total_words": 378,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

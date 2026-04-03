@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1124",
+    "title": "Briefumschlag an Victor Fleischer vom 6. Februar 1909, SZ-LAS/B3.44",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1124/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1124/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1124/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Briefumschlag an Victor Fleischer vom 6. Februar 1909, SZ-LAS/B3.44\n- Signatur: SZ-LAS/B3.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:14.495068+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Dr Victor Fleischer\n\nKomotau (Böhmen)\nVilla Fleischer",
+      "notes": "Die Anschrift ist handschriftlich in violetter Tinte verfasst. Eine Briefmarke (10 Heller, Österreich) ist aufgeklebt und mit einem Poststempel versehen (Lesbar: 'KOMOTAU 6.II.09')."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefumschlags, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Herrn Dr Victor Fleischer\n\nKomotau (Böhmen)\nVilla Fleischer",
+      "notes": "Identisch mit Seite 1, jedoch mit Farb- und Grauskala im Bild."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich lesbar und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 118,
+    "total_words": 16,
+    "language_detected": "",
+    "language_match": true
+  }
+}

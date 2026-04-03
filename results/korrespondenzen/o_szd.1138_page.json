@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1138",
+    "title": "Anna Meingast an Lotte Altmann, SZ-SAM/B10.16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1138/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1138/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Anna Meingast an Lotte Altmann, SZ-SAM/B10.16\n- Signatur: SZ-SAM/B10.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.354314+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 15. Februar 1938\n\nLiebes Fräulein Altmann,\n\nich weiss zwar nicht, ob sie noch in London sind, aber in\nErmanglung einer anderen Anschrift von Herrn DR. Zweig,\nübersende ich wieder die im Laufe dieser Woche eingelau-\nfene Post nach London.\nSonst kamen nur unwesentliche Drucksachen und die\nMeldung der Länderbank über eine Ueberweisung von S 100.-\nan Ing. S. Strauss.\nIch möchte auch noch bestätigen, dass ich den von\nHerrn Dr. Zweig angewiesenen Betrag mit bestem Dank er-\nhalten habe.\nMit besten Grüssen, Ihre",
+      "notes": "Maschinenschriftlicher Brief auf Briefpapier mit dem Logo von Stefan Zweig."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 538,
+    "total_words": 87,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

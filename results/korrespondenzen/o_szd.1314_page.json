@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1314",
+    "title": "Brief an Ami Kaemmerer ohne Datum, SZ-SHB/B2.7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1314/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1314/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1314/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1314/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1314/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Ami Kaemmerer ohne Datum, SZ-SHB/B2.7\n- Signatur: SZ-SHB/B2.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:28.058901+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber verehrter Herr Doktor, mit dem Dank\nfür Ihren guten Brief auch einen Glückwunsch\nin Ihr Haus! Möge es Ihnen nicht leer dün-\nken, wenn die Töchter nun flügge werden\nund die Söhne zu Männern: ein inneres\nEinsamwerden ist die ewige Gefahr und da-\nvor wird sie durch Anteilnahme an\nWirklichkeit und ihrer höchsten Form, der Kunst\nfür immer geborgen. Mögen Ihre Kinder nur\nin die Zukunft hineinbauen, die uns selber\nso dunkel und pfadlos scheint: sie werden\nihren Weg schon finden.\nIhrer guten Anteilnahme gewiss sende ich\nIhnen die Correcturbogen zum „Jeremias“.\nIch habe kein Wort hineingeschrieben, weil\nich sie Ihnen vielleicht noch wegnehmen\nmuss, wenn ich plötzlich ein Exemplar",
+      "notes": "Erste Seite des Briefes. Handschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Vielen Dank für Lothar Körners\nGrüße! Ich wünschte ihm die Rolle\ndes Jeremias in Leipzig!",
+      "notes": "Zweite Seite des Briefes (eingeschobener Textblock)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "benötige. Das Buch ist freilich dann in\nvier Wochen schon da und mir damit eine\nLast vom Herzen. Sie kennen mein ganzes Ge-\nfühl mit diesem Werk.\nvon Reinhardt weiss ich noch nichts, in\nHamburg soll im August die Entscheidung\nüber es fallen. Ich verstehe, was jetzt das Stück\nfür Ansprüche stellt – unerfüllbare gerade-\nzu – aber doch, wie wichtig wäre vielleicht\nsein Wort in die Zeit. Und wie gerne käme\nich wieder nach Hamburg?\nGern sagte ich Ihnen mehr. Aber ich bin\nmüde von der tropischen Hitze der ver-\nschmachtenden Stadt, von meinem Dienst\nund vielleicht zu bitter, um heute das\nrechte Wort zu finden. So nur Grüße, die\ngerade vom Herzen kommen an Sie und\ndie Ihren! Ihr getreu ergebener\nStefan Zweig",
+      "notes": "Dritte Seite des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": " ",
+      "notes": "Rückseite des Briefbogens, durchscheinender Text der Vorderseite."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": " ",
+      "notes": "Rückseite des Briefbogens mit Skalierungshilfen, durchscheinender Text der Vorderseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, der Kontext der Sätze ist klar. Die violette Tinte ist auf dem hellen Papier gut kontrastiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1486,
+    "total_words": 251,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

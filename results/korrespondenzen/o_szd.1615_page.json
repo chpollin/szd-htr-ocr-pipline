@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1615",
+    "title": "Brief an den Herbert Reichner Verlag vom 13. Juli 1938, SZ-AAP/B1.260",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1615/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1615/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an den Herbert Reichner Verlag vom 13. Juli 1938, SZ-AAP/B1.260\n- Signatur: SZ-AAP/B1.260\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:47.987590+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr. JOSEF GEIRINGER\nRechtsanwalt\nWien, VIII. Friedrich Schmidtplatz 4.\nTel. A-26-5-23. Postspkt. 177.268.\n\n                                   13. Juli 1938.\n\n             An den\n             Herbert R e i c h n e r - V e r l a g,\n\nG/D Dr.Zweig-                      W i e n, 6.,\nReichner.                          Aegidigasse 6.\n\n     Im Vollmachtsnamen des Herrn Dr.Stefan Zweig ersuche ich,\num meinem Mandanten die gesetzlich vorgeschriebene Vermögensanmeldung\nrechtzeitig zu ermöglichen, nachstehende Umstände festzustellen, wobei\nich bemerke, dass meinem Mandanten als Autor das Recht zusteht, jeder-\nzeit Bucheinsicht zu verlangen, soweit dieselbe seiner Werke betrifft.\nIch bitte, 1) den Verkauf an Werken des Herrn Dr.Stefan Zweig im In-\nund Auslande in der Zeit vom 1.März bis 27.April 1938,\n     2) die genaue Zahl der Exemplare seiner Bücher, die sich\nseitdem im Auslande befinden und\n     3) die Bestände seiner Bücher im Verlage selbst, gleichfalls\nper 27.April 1938, bekanntzugeben.\n     Ich besitze Vollmacht, die allfällige Einsicht persönlich\nvorzunehmen und zwar sowohl für die Bestände in Wien, Leipzig und\nZürich.\n     Bei diesem Anlasse teile ich Ihnen im Auftrage meines\nMandanten ferner mit, dass ihm, obwohl er alle seine Verträge mit\nIhnen durch seine Kündigung als erloschen betrachtet, nach § 10 seines\nVertrages für sein Buch \"Maria Stuart\" das Recht zusteht, die Lizenz\nfür eine billige Ausgabe einem anderen Verlag zu übertragen und dass er\nvon diesem Rechte jetzt Gebrauch macht.\n     Ich bitte, hievon Kenntnis zu nehmen, und zeichne\n                                   hochachtungsvoll\neingeschrieben.",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf des Rechtsanwalts Dr. Josef Geiringer. Die linke Seite weist zwei Lochungen auf. Der Text ist klar lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein gut erhaltenes Typoskript. Es gibt keine unleserlichen Stellen oder Ambiguitäten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1632,
+    "total_words": 226,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

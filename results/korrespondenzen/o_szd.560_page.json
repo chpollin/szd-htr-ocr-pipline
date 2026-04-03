@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.560",
+    "title": " Unidentified an Stefan Zweig, 1930-06-04, SZ-SAM/AK.267",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.560/IMG.1",
+      "https://gams.uni-graz.at/o:szd.560/IMG.2",
+      "https://gams.uni-graz.at/o:szd.560/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1930-06-04, SZ-SAM/AK.267\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.267\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.014093+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "222. MOONLIGHT SCENE ON A FLORIDA RIVER.\n\nF.16. VIEW FROM GROUNDS OF THOMAS A. EDISON HOME, FORT MYERS, FLA. 4.VI.30 105322",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Fort Myers Florida\nvom 4. VI. 30\nLiebe Freunde! Hier\nsehen so viel Erfreuliches,\nInteressantes, dass\nes schwer fällt den\nFlorida ist die vollkommen\nKämpfung von suffi[?]\n~~v~~ vieler Zivilisation\nund völliger Wildheit.\nWir arbeiten augenblick-\nlich in den Everglades, den\neinigen Baumwollfeldern\n[...], wie es auf der Welt\nnoch gilt. So was von Er-\nlebnissen habe ich\nnie gesehen. Dazu viele\n[...], grauenhaftes\n[...], und viele kleine\nWürmer. Das genügt, nicht wahr?",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarken und Poststempel vorhanden. Die Handschrift ist teilweise schwer lesbar, insbesondere am linken Rand und in den letzten Zeilen."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Fort Myers Florida\nvom 4. VI. 30\nLiebe Freunde! Hier\nsehen so viel Erfreuliches,\nInteressantes, dass\nes schwer fällt den\nFlorida ist die vollkommen\nKämpfung von suffi[?]\n~~v~~ vieler Zivilisation\nund völliger Wildheit.\nWir arbeiten augenblick-\nlich in den Everglades, den\neinigen Baumwollfeldern\n[...], wie es auf der Welt\nnoch gilt. So was von Er-\nlebnissen habe ich\nnie gesehen. Dazu viele\n[...], grauenhaftes\n[...], und viele kleine\nWürmer. Das genügt, nicht wahr?\n\nHerren u. Frau\nDr. Stefan Zweig\nSalzburg\nLinzengasse 14\nEurope\nAustria",
+      "notes": "Identisch mit Seite 2, jedoch mit den Archiv-Farbskalen am oberen und unteren Rand. Die Adressseite ist rechts neben dem Textkörper sichtbar."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise durch die Überlagerung mit dem gedruckten Text der Postkarte schwer zu entziffern. Einige Wörter am linken Rand und im unteren Bereich sind aufgrund von Tintenverlauf oder unklarer Schriftführung nur fragmentarisch lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1129,
+    "total_words": 178,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

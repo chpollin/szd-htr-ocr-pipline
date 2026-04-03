@@ -1,0 +1,337 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.139",
+    "title": "Bestellzettel Bücherausgabe",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L16",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.139/IMG.1",
+      "https://gams.uni-graz.at/o:szd.139/IMG.2",
+      "https://gams.uni-graz.at/o:szd.139/IMG.3",
+      "https://gams.uni-graz.at/o:szd.139/IMG.4",
+      "https://gams.uni-graz.at/o:szd.139/IMG.5"
+    ],
+    "date": "[Mai 1935]",
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Diverses"
+      ],
+      "origin_place": "Zürich",
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift",
+        "writing_material": "Vorgedrucktes Bestellformular der Zentralbibliothek Zürich",
+        "hands": [
+          "Stefan Zweig"
+        ],
+        "dimensions": "11x7 cm"
+      },
+      "notes": "Eintragung „Stefan Zweig | Hotel Bellerive | TN 604 ah | Berlepsch Hans. Kämpfe“ eigenhändig in violetter Tinte und \n                „Stefan Zweig | Hotel Bellerive | St. Z. B. 488-491 | Merle d'Aubigné Geschichte“ eigenhändig in Bleistift"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Bestellzettel Bücherausgabe\n- Signatur: SZ-AAP/L16\n- Datum: [Mai 1935]\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Violette Tinte, Bleistift\n- Hand: Stefan Zweig\n- Anmerkungen: Eintragung „Stefan Zweig | Hotel Bellerive | TN 604 ah | Berlepsch Hans. Kämpfe“ eigenhändig in violetter Tinte und \n                „Stefan Zweig | Hotel Bellerive | St. Z. B. 488-491 | Merle d'Aubigné Geschichte“ eigenhändig in Bleistift"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.416479+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\n\nMerle d'Aubigné Geschichte\n\nDatum:",
+      "notes": "Bleistift-Eintragungen auf dem Bestellzettel.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            20.2,
+            21.6,
+            55.3,
+            2.4
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Formulartitel: Bestellzettel Bücherausgabe",
+          "source": "surya"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            19.1,
+            27.3,
+            53.0,
+            6.7
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Besteller: Stefan Zweig (handschriftlich)",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            17.7,
+            39.5,
+            61.6,
+            6.4
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Wohnung: Hotel Bellevue (handschriftlich)",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            19.7,
+            51.5,
+            62.3,
+            5.2
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Bestelltes Werk / Standort Label",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            29.0,
+            57.4,
+            50.2,
+            4.9
+          ],
+          "reading_order": 5,
+          "lines": 1,
+          "label": "Signatur: St. Z. B 488-491 (handschriftlich)",
+          "source": "surya"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            22.4,
+            65.0,
+            46.9,
+            5.7
+          ],
+          "reading_order": 6,
+          "lines": 2,
+          "label": "Ordnungswort Label",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "paragraph",
+          "bbox": [
+            17.4,
+            71.5,
+            63.7,
+            5.7
+          ],
+          "reading_order": 7,
+          "lines": 1,
+          "label": "Autor/Titel: Merle d'Aubigné (handschriftlich)",
+          "source": "merged"
+        },
+        {
+          "id": "r8",
+          "type": "paragraph",
+          "bbox": [
+            19.5,
+            80.0,
+            12.8,
+            2.2
+          ],
+          "reading_order": 8,
+          "lines": 1,
+          "label": "Datum Label",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer.",
+      "image": "IMG_2.jpg",
+      "image_width": 4912,
+      "image_height": 7360
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Bestellzettel Bücherausgabe\n\nBesteller:\nStefan Zweig\n\nWohnung:\nHotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nTN 604 ah\n\nOrdnungswort (Katalog-\nStichwort)\nBerlepsch Hans. Kämpfe\n\nDatum:",
+      "notes": "Eintragungen in violetter Tinte.",
+      "image": "IMG_3.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            23.8,
+            18.2,
+            55.1,
+            2.2
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Formulartitel: Bestellzettel Bücherausgabe",
+          "source": "surya"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            23.1,
+            26.2,
+            42.2,
+            8.0
+          ],
+          "reading_order": 2,
+          "lines": 3,
+          "label": "Feld Besteller mit handschriftlichem Namen Stefan Zweig in violetter Tinte",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            23.2,
+            37.3,
+            45.8,
+            7.7
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Feld Wohnung mit handschriftlichem Eintrag Hotel Bellerive",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            23.3,
+            48.3,
+            53.3,
+            10.9
+          ],
+          "reading_order": 4,
+          "lines": 3,
+          "label": "Feld Bestelltes Werk und Standort mit Signatur TN 604 ah",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            24.7,
+            61.9,
+            56.2,
+            11.6
+          ],
+          "reading_order": 5,
+          "lines": 3,
+          "label": "Feld Ordnungswort mit handschriftlichem Buchtitel Berlepsch Haus. Karusse",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "heading",
+          "bbox": [
+            23.1,
+            75.3,
+            12.3,
+            2.6
+          ],
+          "reading_order": 6,
+          "lines": 1,
+          "label": "Feld Datum (unausgefüllt)",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer.",
+      "image": "IMG_4.jpg",
+      "image_width": 4912,
+      "image_height": 7360
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsaufnahme mit Farb- und Grauskala, kein Text.",
+      "image": "IMG_5.jpg",
+      "image_width": 4912,
+      "image_height": 7360
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Texte sind aufgrund der gedruckten Vorlage und der gut lesbaren Handschrift Stefan Zweigs eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 399,
+    "total_words": 48,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      1
+    ],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-03T07:05:35.553143+00:00"
+  }
+}

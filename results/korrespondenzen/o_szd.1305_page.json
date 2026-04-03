@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1305",
+    "title": "Brief an Adolf Weisse vom Mai 1912, SZ-SEF/B14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1305/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1305/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1305/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1305/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1305/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Adolf Weisse vom Mai 1912, SZ-SEF/B14\n- Signatur: SZ-SEF/B14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.302057+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "3. 5. Baden bei Wien\n\nSehr verehrter Herr Doktor,\n\nSie hatten seinerzeit\nein sehr freundliches Interesse für meinen\nEinakter „Der verwandelte Comödiant“,\nden ich aber damals nicht einem Wie-\nner Theater geben wollte, weil es mir\npeinlich gewesen wäre mit einer solchen\nBluette in Wien zu debütieren. Nun\naber mein Entrée durch die Annahme\nim Burgtheater gesichert ist und der\nEinakter seine dramatische Probe in\nBreslau gut, sogar sehr gut wie ich höre,\nbestanden hat, würde ich ihn gerne am\n[?] [?] haben, womöglich gemeinsam\nmit Max Mell’s „Barbier von Berriac“",
+      "notes": "Der Text bricht am Ende der Seite ab. Die Zeile '3. 5. Baden bei Wien' steht unter dem gedruckten Briefkopf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, durchscheinender Text der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "der mit ihm vortrefflich zusammenpasst.\nSind Sie von Ihrer freundlichen Absicht\nnicht abgekommen, so wollen Sie sich\nbitte, mit Felix Bloch Erben in Verbindung\nsetzen, der alles Geschäftliche für mich\nbesorgt.\nIch höre mit Freude, dass Sie für Jo-\nsip Kosor „Weib“ sich interessieren.\nDemnächst erscheint ein Essay von mir\nüber K. in der Neuen Freien Presse, der\nauf das lebhafteste für ihn eintritt\nund diesem grossen Talent, das ich be-\nwundere, hoffentlich nützen wird.\nIch lebe jetzt sehr selten in Wien, seit\nvielen Wochen hier in Baden, so dass ich\nnicht die Freude hatte, Sie öfter zu dür-\nfen und sende Ihnen heute nur brieflich\nmeine herzlichsten Grüsse\nIhr sehr ergebener\nStefan Zweig",
+      "notes": "Fortsetzung des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, durchscheinender Text der Vorderseite."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan mit Farbskala, zeigt die Rückseite des zweiten Blattes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar. Die Abkürzungen und der Kontext sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1257,
+    "total_words": 205,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1271",
+    "title": "Kuvert an Stefan Zweig vom 20. September 1923, SZ-SAM/B6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1271/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1271/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1271/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Kuvert an Stefan Zweig vom 20. September 1923, SZ-SAM/B6\n- Signatur: SZ-SAM/B6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:25.379906+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "13 x 40 = 520\n1 x 50 = 50\n2 x 20 = 40\n1 x 400 = 400\n2 x 100 = 200\n9 x 200 = 1800\n8 x 500 = 4000\n1 x 3000 = 3000\n3 x 5000 = 15000\n3 x 75000 = 225000\n\nM. 250010\n\nHerrn\nStefan Zweig\n\nSalzburg\nKapuzinerberg 5",
+      "notes": "Die handschriftliche Aufstellung links ist vertikal mit 'Marken' beschriftet. Die Anschrift ist rechtsbündig ausgerichtet. Die Briefmarken auf der Rückseite (Scan 2 und 3) sind nicht transkribiert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Kuverts, vollständig mit Briefmarken beklebt. Keine handschriftlichen Texte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Kuverts mit Farbskala. Keine handschriftlichen Texte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die mathematische Aufstellung ist eindeutig. Die Briefmarken wurden gemäß Anweisung nicht transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 204,
+    "total_words": 58,
+    "language_detected": "",
+    "language_match": true
+  }
+}

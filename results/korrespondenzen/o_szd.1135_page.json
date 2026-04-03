@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1135",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1135/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1135/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.13\n- Signatur: SZ-SAM/B10.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.175920+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 3. Dezember 1937.\n\nLiebe Frau Meingast!\n\n        Für November ist wenig zu berich-\nten. Es wurden abgeschlossen Verträge gegen einmalige\nAbfindung mit Civilizaçao, Porto über\n\n        (Erasmus\n        (Castellio\n        (Baumeister\n        (Heilung durch den Geist\n\nfür die portugiesischen Buchrechte für Portugal und\nseine Kolonien ausschliesslich (noch nicht bezahlt),\nferner Verträge mit Guanabara, Rio de Janeiro über\n\n        (Magellan\n        (Begegnungen\n        (Begrabene Leuchter\n\nfür die portugiesischen Buchrechte in Amerika (Anzah-\nlung bereits bezahlt).\n\n        Ferner schicke ich Ihnen einige\nBeschreibungen, zu denen der tschechische Erasmus und\ndie italienischen Legenden heute abgehen, die anderen\nbereits an Frau Zweig abgegangen sind.\n\nMit besten Grüssen\nLotte Altmann\n\nVielen Dank, liebe Frau\nMeingast für Ihre Glückwünsche – möge auch Ihnen alles\nin diesem Jahre wohlergehen. Aber ein Jahr, ja über ein\nhalbes hinaus soll man in diesen Zeiten wohl ja deuten versuchen\n\n[Am rechten Rand vertikal geschrieben:]\nes wäre verwegenheit. Sünden Sie, bitte, auch die lieben Schierks!",
+      "notes": "Der Text am rechten Rand ist vertikal geschrieben. Die handschriftliche Ergänzung am Ende des Briefes ist in violett/blauer Tinte verfasst."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer bis auf ein kleines 'A' in der oberen linken Ecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der maschinengeschriebene Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen am Ende und am Rand sind aufgrund der kursiven Handschrift etwas schwieriger zu entziffern, aber inhaltlich weitgehend eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1110,
+    "total_words": 147,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

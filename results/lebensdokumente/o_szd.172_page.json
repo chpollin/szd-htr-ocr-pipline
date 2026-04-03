@@ -1,0 +1,99 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.172",
+    "title": "Ex Libris",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SEF/L5",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.172/IMG.1",
+      "https://gams.uni-graz.at/o:szd.172/IMG.2",
+      "https://gams.uni-graz.at/o:szd.172/IMG.3"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Ephraim Mose Lilien",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/112251008X"
+        }
+      ],
+      "subject": [
+        "Büromaterialien"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Inge und Erich Fitzbauer",
+        "Erwerb: Ankauf 2023"
+      ],
+      "physical_description": {
+        "dimensions": "12x9 cm"
+      },
+      "notes": "Graphik von Ephraim Mose Lilien mit dem Schriftzug „EX LIBRIS | STEFAN ZWEIG“"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Ex Libris\n- Signatur: SZ-SEF/L5\n- Sprache: Deutsch\n- Objekttyp: Druck\n- Umfang: 1 Blatt\n- Anmerkungen: Graphik von Ephraim Mose Lilien mit dem Schriftzug „EX LIBRIS | STEFAN ZWEIG“"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.290230+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "EX LIBRIS\n\nSTEFAN ZWEIG",
+      "notes": "Es handelt sich um ein Exlibris-Blatt. Der Text ist gedruckt. Unten links im Bild befindet sich ein kleines, unleserliches Monogramm (vermutlich E. M. Lilien)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist unbeschriftet."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "EX LIBRIS\n\nSTEFAN ZWEIG",
+      "notes": "Dies ist eine Aufnahme des Exlibris zusammen mit Farb- und Graukarten zur Kalibrierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, eindeutig gedruckt und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 46,
+    "total_words": 8,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T12:47:11Z"
+  }
+}

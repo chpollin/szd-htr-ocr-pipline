@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.478",
+    "title": "Sergej Tocker an Stefan Zweig, 1929-07-21, SZ-SAM/AK.191",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.478/IMG.1",
+      "https://gams.uni-graz.at/o:szd.478/IMG.2",
+      "https://gams.uni-graz.at/o:szd.478/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Sergej Tocker an Stefan Zweig, 1929-07-21, SZ-SAM/AK.191\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.191\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.196786+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BLICK VOM FENSTER\n- Maria Schutz - 22. VII. 29",
+      "notes": "Vorderseite einer Ansichtskarte mit Fotomotiv. Handschriftliche Notiz am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Hotel ,,Kurpension Maria Schutz\" am Semmering 780m\nmit eigenem einzigen Schwimm-Luft u. Sonnenbad. Aller\nComfort mäßige Preise, ganzjährig geöffnet.\nStation Gloggnitz oder Semmering, Autobusanschluss\nFernsprecher Maria Schutz 1 Dauerverbindung.\n\n21/VII 1929.\n\nLieber Herr Zweig!\nIch habe kein Glück, denn\nauch während des Ten-Regens[?]\nwar ich so krank und ich\nwollte mich nicht aufdrängen.\nBleiben Sie jetzt in Salzburg?\nDenken Sie an die UdSSR?\nWann man Sie aufsuchen?\nGrüße Sie herzlich als auch Ihre\nFrau Gemahlin Ihr ergebener S. Tocker\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Gedruckter Text oben links, handschriftlicher Text links und rechts. Poststempel 'MARIA SCHUTZ 22. VII. 29'. Briefmarke oben rechts. 'Ten-Regens' ist eine unsichere Lesung, möglicherweise 'Ferien-Regens' oder ähnlich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Ansichtskarte (Vorder- und Rückseite)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, abgesehen von einem Wort im handschriftlichen Teil der Postkarte ('Ten-Regens'), das aufgrund der Handschrift schwer zu deuten ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 636,
+    "total_words": 96,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

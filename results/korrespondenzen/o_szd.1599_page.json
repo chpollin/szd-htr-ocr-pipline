@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1599",
+    "title": "Brief an Richard Friedenthal vom 9. Oktober 1924, SZ-AAP/B2.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1599/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1599/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1599/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 9. Oktober 1924, SZ-AAP/B2.4\n- Signatur: SZ-AAP/B2.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:45.706420+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, am 9. Oktober 1924\n\n\n\nLieber Herr Friedental!\n\n\nAuch ich hatte Nachrichten von Axel Juncker und dabei den\nEindruck, dass er unbedingt entschlossen ist, Ihre Gedichte zu brin-\ngen. Es wäre natürlich schon ein Gewinn, jedenfalls aber spreche\nich noch in den nächsten Tagen mit Kippenberg von der Insel, der\nhier durchkommt, vielleicht dass seinerseits noch tätiges Interesse\nbesteht.\nDies nur in Eile heute und viele herzliche Grüsse Ihres\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift von Stefan Zweig in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Salzburg, am 9. Oktober 1924\n\n\n\nLieber Herr Friedental!\n\n\n\n\n\nDies nur in Eile heute und viele herzliche Grüsse Ihres\n\nStefan Zweig",
+      "notes": "Das Dokument wurde für die Archivierung mit einer Farb- und Grauskala überlagert. Der Text ist identisch mit Seite 1, jedoch durch die Skalen teilweise verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 591,
+    "total_words": 91,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1600",
+    "title": "Brief an Richard Friedenthal vom 18. November 1924, SZ-AAP/B2.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1600/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1600/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1600/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 18. November 1924, SZ-AAP/B2.5\n- Signatur: SZ-AAP/B2.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:46.057302+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, am 18. November 1924\n\n\n\nLieber Herr Doktor!\n\n\n\nSeien Sie mir nicht böse, dass ich Ihnen nicht antwortete.\nIch habe jetzt die ganze Zeit keine Briefe geschrieben, weil ich ein gros-\nses Buch fertig machte das im Frühjahr erscheinen soll und fahre jetzt für\ndrei Wochen fort, gänzlich[?] abgeschieden von aller Zeit. Ich schreibe\nIhnen dann einmal ausführlicher wenn ich zurück bin, auch wegen der Insel,\ndie mir lange über Ihr Werk geschrieben hat und ganz meine Ansicht teilt.\nWenn auch dort augenblicklich alles überfüllt ist, so wird man Ihnen dort\nimmer mit grösstem Interesse begegnen. Aber jetzt handelt es sich ja um\ndas neue Buch und wenn ich zurückkomme und es erscheint, so schreibe ich\ndann gern darüber. Momentan bin ich eigentlich unfähig irgend eine ver-\nnünftige Zeile zu schreiben, die letzten sechs Wochen waren ein wenig zu\nintensiv an Arbeit und jetzt möchte ich gern zwei, drei Wochen ebenso in-\ntensiv faulenzen. Ich bin sicher, dass Sie der Erste sind, das zu verste-\nhen.\n\nHerzlichst Ihr\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, zeigt den Durchdruck des Typoskripts der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 1, jedoch mit aufgelegten Archivierungshilfen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. 'gänzlich' wurde als 'gänzlich[?]' markiert, da das 'l' im Typoskript leicht verschwommen ist, aber der Kontext eindeutig ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1033,
+    "total_words": 170,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

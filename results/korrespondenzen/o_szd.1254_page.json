@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1254",
+    "title": "Brief an Max Fleischer vom 19. Dezember 1927, SZ-LAS/B3.70",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1254/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1254/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1254/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 19. Dezember 1927, SZ-LAS/B3.70\n- Signatur: SZ-LAS/B3.70\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:23.895732+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n19. Dez. 1927.\n\nLieber Max!\n\nIch wollte Dir gerade meinen Glückwunsch zum Reich-Preis\nschicken - ja, die sieben fetten Jahre brechen langsam an und sie\nwerden sicherlich auf Deine innere Heiterkeit belebend wirken, diese\nwiederum auf den produktiven Nerv und so hoffentlich jener Kreis-\nlauf zwischen Arbeit, Freude, Erfolg und wiederum Freude und neuer\nArbeit sich runden, demzu dank allein unser Leben sinnvoll wird.\nUeber Dein Buch will ich mich jetzt an eine Zeitung herantasten\nund dann dort anfragen; heute beginnen die ersten Anfragen. Schliess-\nlich kann man ja nach einiger Zeit feststellen, wo nichts geschrie-\nben worden ist, und dann einsetzen. Im \"Tagebuch\" hat wohl schon\nFontana berichtet. Nun, wir werden's ja bald feststellen.\nHeute nur viele Grüsse und alle guten Wünsche\nvon Deinem\n\nStefan\n\nP.S. An Frau Barbara Ring schicke ich sofort Deine Kritik.",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'Stefan' ist handschriftlich in Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, zeigt den durchscheinenden Text der Vorderseite, kein eigenständiger Text."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n19. Dez. 1927.\n\nLieber Max!\n\nIch wollte Dir gerade meinen Glückwunsch zum Reich-Preis\nschicken - ja, die sieben fetten Jahre brechen langsam an und sie\nwerden sicherlich auf Deine innere Heiterkeit belebend wirken, diese\nwiederum auf den produktiven Nerv und so hoffentlich jener Kreis-\n\n[Farbkarte überdeckt Text]\n\nHeute nur viele Grüsse und alle guten Wünsche\nvon Deinem\n\nStefan\n\nP.S. An Frau Barbara Ring schicke ich sofort Deine Kritik.",
+      "notes": "Scan mit Farb- und Graukarte, die den Text teilweise verdeckt. Die Transkription entspricht dem Inhalt von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig als 'Stefan' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1358,
+    "total_words": 210,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1772",
+    "title": "Brief an Stefan Zweig vom 3. Mai 1938, SZ-AAP/B1.206",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1772/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1772/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Mai 1938, SZ-AAP/B1.206\n- Signatur: SZ-AAP/B1.206\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.237189+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr H. WEISFLOG\nUND\nDr WERNER WEISFLOG\nRECHTSANWÄLTE\nStändiger Mitarbeiter:\nDr ARNOLD HAUSER\nRechtsanwalt\nZÜRICH 1\nTalacker No. 48\nTelephon: 36.708\nTelegr.-Adresse: Dr. Weisflog, Zürich\nPostcheck- und Giro-Konto: VIII 1596\n\nZÜRICH, den 3. Mai 1938.\n\nHerrn\nDr. Stefan Zweig,\n49, Hallam Street,\nLondon W. 1.\nEngland.\n\nNamens des Herrn Herbert Reichner, des Alleininhabers\ndes gleichnamigen Verlages, derzeit in Zürich, St. Peter-\nstrasse 18, bestätige ich Ihnen den Empfang Ihrer an\nmeinen Klienten gerichteten Zuschrift vom 27. April 1938\nund gestatte mir, Ihnen zu entgegnen:\nIhre verschiedenen Ausführungen treffen sowohl in\ntatsächlicher als auch rechtlicher Hinsicht nicht zu und\nmüssen umso mehr zurückgewiesen werden, als Sie Dinge\nhereinzuziehen suchen, die Sie in keiner Weise berühren.\nDeswegen beschränke ich mich auf die folgenden\nErklärungen:\n1. Herr Herbert Reichner ist nach wie vor der recht-\nmässige Alleininhaber der von ihm gegründeten Einzelfirma,\ngleichgültig, wo diese Firma ihre Niederlassung besitzt\nund wo ihr Inhaber sich aufhält. Im besonderen gilt dies\nfür die seit 1935 bestehende Zürcherfirma (St. Peter-\nstrasse 18). Die im Deutschen Reiche durchgeführten Be-\nschlagnahmungen berühren diese Verhältnisse überhaupt\nnicht.\n2. Herr Herbert Reichner ist demnach der rechtmässige\nPartner aller von Ihnen unterzeichneten Verlagsverträge,\nunabhängig vom Verlagssitz und Wohnort des Inhabers.",
+      "notes": "Typoskript auf Geschäftspapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "3. Herr Herbert Reichner macht die von ihm erworbe-\nnen Verlagsrechte nach wie vor in vollem Umfange geltend\nund ist gewillt und in der Lage, die damit verbundenen\nVerpflichtungen zu erfüllen.\n4. Mein Klient legt Wert darauf, Ihnen unnütze\nSchreibereien zu ersparen. Deshalb lade ich Sie ein,\nIhren Zürcher Rechtsanwalt zu bestimmen oder selbst\nhieher zu kommen, damit der vorliegende Fall einer\nrein sachlichen Erledigung zugeführt wird.\n\nHochachtungsvoll\nDres. H. & W. Weisflog\nRechtsanwälte\nA. H. Weisflog",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift 'A. H. Weisflog' ist handschriftlich in Tinte ausgeführt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und weist keine nennenswerten Leseschwierigkeiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1920,
+    "total_words": 276,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

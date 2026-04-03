@@ -1,0 +1,110 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.138",
+    "title": "Karte von Herrmann Hesse 1904",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L15",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.138/IMG.1",
+      "https://gams.uni-graz.at/o:szd.138/IMG.2",
+      "https://gams.uni-graz.at/o:szd.138/IMG.3"
+    ],
+    "date": "Pfingsten 1904",
+    "document_type": "postcard",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Hermann Hesse",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/11855042X"
+        },
+        {
+          "name": "Maria Hesse",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116770511"
+        }
+      ],
+      "subject": [
+        "Diverses"
+      ],
+      "origin_place": "Basel, Calw",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "dimensions": "13x11 cm"
+      },
+      "notes": "Aufdruck „Maria Bernoulli | Hermann Hesse | beehren sich, Ihnen ihre bevorstehende Vermählung anzuzeigen.“"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Karte von Herrmann Hesse 1904\n- Signatur: SZ-AAP/L15\n- Datum: Pfingsten 1904\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Aufdruck „Maria Bernoulli | Hermann Hesse | beehren sich, Ihnen ihre bevorstehende Vermählung anzuzeigen.“"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.395539+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Maria Bernoulli\nHermann Hesse\n\nbeehren sich, Ihnen ihre bevorstehende\nVermählung anzuzeigen.\n\nBasel\n\nCalw\n\nPfingsten 1904.",
+      "notes": "Gedruckter Text auf einer Karte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite der Karte, unbeschriftet."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsbild mit Farbskala und Graustufenkarte, keine Transkription erforderlich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 122,
+    "total_words": 15,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 1.0,
+    "edited_pages": [],
+    "notes": "Printed card text verified character-by-character against faksimile. All text matches exactly. Basel and Calw appear on the same line in the image (left/right aligned) but are linearised on separate lines in the transcription, which is acceptable for diplomatic plain-text output.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T12:00:00Z"
+  }
+}

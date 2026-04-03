@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1654",
+    "title": "Stone and Blyth Gesellschaft M. B. H. an Stefan Zweig, SZ-SAM/AK.228",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1654/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1654/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1654/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Stone and Blyth Gesellschaft M. B. H. an Stefan Zweig, SZ-SAM/AK.228\n- Signatur: SZ-SAM/AK.228\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:52.352055+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "10. Aug.\n1934\n\n2. - PARIS. - Le Trocadéro et le Pont d'Iéna,\nThe Trocadero and Iena Bridge",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Datumsangabe links oben. Gedruckter Text in der oberen Mitte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "H. H.\nF. Stefan Zweig\nKapuzinerg.\nSalzburg\nSalzburg\n\nVon unserer Pariser\nEinkaufsreise er-\nlauben wir uns Grü-\nße zu senden\n\nTAILORS\nSTONE & BLYTH\nGESELLSCHAFT M. B. H.\nWIEN, I. KÄRNTNERSTRASSE 41",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Stempel der Firma 'Stone & Blyth'. Briefmarke oben links. Poststempel über der Briefmarke und im Textbereich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "H. H.\nF. Stefan Zweig\nKapuzinerg.\nSalzburg\nSalzburg\n\nVon unserer Pariser\nEinkaufsreise er-\nlauben wir uns Grü-\nße zu senden\n\nTAILORS\nSTONE & BLYTH\nGESELLSCHAFT M. B. H.\nWIEN, I. KÄRNTNERSTRASSE 41",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die Abkürzung 'H. H.' steht vermutlich für 'Hochwohlgeboren' oder eine ähnliche Anrede, ist aber im Kontext der Korrespondenz eindeutig als solche identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 482,
+    "total_words": 82,
+    "language_detected": "",
+    "language_match": true
+  }
+}

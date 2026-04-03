@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1430",
+    "title": "Lotte Zweig an Stefanie Zweig, SZ-AAP/B10.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1430/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1430/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1430/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Zweig an Stefanie Zweig, SZ-AAP/B10.4\n- Signatur: SZ-AAP/B10.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:33.376230+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Rio, den 30. November 1940.\n\nLiebe Stefanie!\n\nWir waren sehr erschrocken,\nvon Alfreds plötzlicher Erkrankung zu hören und hoffen nur,\ndass bis dieser Brief bei Euch eintrifft, er schon wieder\nganz hergestellt ist. Es scheint ja eine schreckliche Quä-\nlerei gewesen zu sein. - Wir haben uns schon vollkommen\nvon den Strapazen der argentinischen Reise erholt, sehen\nhier wenig Menschen. Stefan kann ruhig arbeiten, es ist\nnoch nicht sehr heiss und er verträgt ausserdem die Hitze\nsehr gut, wie ich in New York gesehen habe, wir haben ein\nluftiges Zimmer mit einer Terrasse, die auf die Bucht\nhinausgeht, und aus all diesen Gründen wollen wir zunächst\nnoch nicht in die Berge, sondern hierbleiben, solange es\ngeht und dann - vielleicht - nach New York kommen. Wäre\nes nicht Evas wegen, so läge mir gar nichts an dieser Rei-\nse, und im Grund genommen macht sie mir weniger Sorge, selbst\nwenn sie nicht ganz ideal dort untergebracht ist, als ihre El-\ntern, die in täglicher Gefahr sind. Ich habe auch Eva zwei\nsehr energische Briefe geschrieben, weil sie anscheinend ge-\nnau so wenig nach Hause geschrieben hat wie an uns und die\nEltern fünf Wochen ohne Nachricht waren. Ich kann Dir nicht\nsagen, wie dankbar ich Dir bin, dass Du öfters dort angerufen\nhast und Sie bei Dir hattest, denn dadurch war ich wenigstens\nin der Lage, meinen Bruder Deine Eindrücke zu berichten, dass\nes ihr gut geht und sie sich recht wohl zu fühlen scheint.\nIch habe nach längerem Ueberlegen auch an Salmons geschrieben\nund sie gebeten, darauf zu achten, dass das Kind regelmässig\nschreibt. Denn wenn es von Eva eine Gedankenlosigkeit ist,\nnicht zu schreiben - obwohl sie alt genug ist, um selbst\ndaran zu denken - so ist es doch das Einzige, was man von\nSalmons verlangen kann, dass sie darauf achten. Ich weiss,\ndass das amerikanische Erziehungprinzip das \"Sichausleben des\nkindlichen Charakters\" ist, aber ich halte nicht sehr viel\ndavon. Immerhin, sie ist in Sicherheit, und ich wünschte,\nich könnte von meinen Geschwistern dasselbe sagen.\n\nRecht gute Besserung für Alfred\nund herzliche Grüsse Euch beiden\nEure Lotte\n\nLiebe Stefanie, ich habe Alfred beiliegend geschrieben, wegen Eva\n{mache Dir nicht zuviel derWerden, wir hatten ein Kabel aus}\nEngland, Du kannst Dir denken, dass die Kälter verzweifelt\nwar mitten im Bombenregen nichts von ihrem Kind zu hören\n- Eva meinte, oder zumindest die Salmons doch denken das,\ndass auch es war zu schwer ein Brief mit durch Europa ver-\nspätet oder verloren geht was man deshalb doppelt so viel arbeiten\nein Bombardement\n\n[Randnotiz links, vertikal]:\nMass ab normal, unsere Sorge galt natürlich nur die Eltern Evas denn\nAlfred ist gefährdet ab im letzten Krieg zu vorderste Front.\nErholt sich aber gut von dem argen Anfall und heute",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (violette Tinte). Die Randnotiz links ist vertikal geschrieben. Der Text am Ende des Briefes (nach 'Eure Lotte') ist ebenfalls handschriftlich hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind deutlich, wenngleich die Handschrift am Ende des Briefes etwas flüchtig ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2749,
+    "total_words": 458,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

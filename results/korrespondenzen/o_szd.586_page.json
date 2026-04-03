@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.586",
+    "title": "Hermann Ungar an Stefan Zweig, 1917-10-14, SZ-SAM/AK.290",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.586/IMG.1",
+      "https://gams.uni-graz.at/o:szd.586/IMG.2",
+      "https://gams.uni-graz.at/o:szd.586/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hermann Ungar an Stefan Zweig, 1917-10-14, SZ-SAM/AK.290\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.290\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:19.823373+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Partenkirchen 14. Okt. 17.",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Partenkirchen und Garmisch\ngegen Kramer\n\nHochverehrter Herr Doktor,\n\nich habe Ihre Karte erhalten und\nleider konstatiert, dass die\nReise nach Berchtesgaden un\nrunstündlich[?] ist. Trotzdem\nwürde ich hinfahren, wenn Sie\nnicht schrieben, dass Sie im November\nin Berlin sind. Darauf freue\nich mich sehr. Ich werde selbst\nverständlich mich bemühen, Ihnen\neine passende Widmung zu finden\nund bitte Sie bloß, mich rechtzeitig\nvon Ihrer Ankunft zu verständigen.\nIch bin mit ergebenster Grüßen\n\nHerrn\n\nDr Stefan Zweig\n\nSalzburg\n\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarken und Poststempel vorhanden. 'unrunstündlich' ist schwer lesbar, möglicherweise 'unmöglich' oder 'unstatthaft' gemeint, aber als 'unrunstündlich' transkribiert."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Partenkirchen und Garmisch\ngegen Kramer\n\nHochverehrter Herr Doktor,\n\nich habe Ihre Karte erhalten und\nleider konstatiert, dass die\nReise nach Berchtesgaden un\nrunstündlich[?] ist. Trotzdem\nwürde ich hinfahren, wenn Sie\nnicht schrieben, dass Sie im November\nin Berlin sind. Darauf freue\nich mich sehr. Ich werde selbst\nverständlich mich bemühen, Ihnen\neine passende Widmung zu finden\nund bitte Sie bloß, mich rechtzeitig\nvon Ihrer Ankunft zu verständigen.\nIch bin mit ergebenster Grüßen\n\nHerrn\n\nDr Stefan Zweig\n\nSalzburg\n\nKapuzinerberg 5",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch ist das Wort 'unrunstündlich' (Zeile 6) aufgrund der Handschrift schwer zu entziffern. Die Struktur der Postkarte ist klar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 1098,
+    "total_words": 162,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

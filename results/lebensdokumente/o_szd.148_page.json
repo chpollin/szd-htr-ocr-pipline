@@ -1,0 +1,163 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.148",
+    "title": "Schreibmaschin-Zubehör",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SAM/L14",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.148/IMG.1"
+    ],
+    "document_type": "manuscript",
+    "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "subject": [
+        "Büromaterialien"
+      ],
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047604132",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Anna Meingast",
+        "Erwerb: Schenkung Wilhelm Meingast 2000"
+      ],
+      "physical_description": {
+        "hands": [
+          "Fremde Hand"
+        ],
+        "dimensions": "20x15 cm"
+      },
+      "notes": "Schachtel mit Aufschrift „Schreibmaschin-Zubehör“ von fremder Hand in schwarzem Buntstift mit zahlreichen Utensilien, u.a.: unbenutztes violettes Farbband in der Originaldose der Firma „Günther Wagner“, drei \n                leere Farbbandspulen, Typen-Reiniger Knetmasse „Star Type Cleaner No. 1226“ der Marke „Eberhard Faber | New York“, drei Reinigungsbürsten, Pfeifenputzerbürste, Pinsel, Stift, Radiergummi, Korrekturschablone „Remington Schreibmaschinen | Salzburg“, zwei Schlüssel"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Schreibmaschin-Zubehör\n- Signatur: SZ-SAM/L14\n- Objekttyp: Schachtel mit Utensilien\n- Hand: Fremde Hand\n- Anmerkungen: Schachtel mit Aufschrift „Schreibmaschin-Zubehör“ von fremder Hand in schwarzem Buntstift mit zahlreichen Utensilien, u.a.: unbenutztes violettes Farbband in der Originaldose der Firma „Günther Wagner“, drei \n                leere Farbbandspulen, Typen-Reiniger Knetmasse „Star Type Cleaner No. 1226“ der Marke „Eberhard Faber | New York“, drei Reinigungsbürsten, Pfeifenputzerbürste, Pinsel, Stift, Radiergummi, Korrekturschablone „Remington Schreibmaschinen | Salzburg“, zwei Schlüssel"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.759086+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SCHREIBMASCHIN-\nZUBEHÖR\n\nviolett, gut\n\n[Auf dem Farbband-Deckel:]\nPelikan\n\n[Auf der Dose 'Star Type Cleaner':]\nStar\nTYPE CLEANER\nNO. 1226\nEXCELLENT FOR CLEANING TYPEWRITER TYPE\nTRADE MARK\nPAT. NO. 1629862\nEBERHARD FABER\nNEW YORK\n\n[Auf der Schablone:]\nRemington Schreibmaschinen\nGes. m. b. H.\nSalzburg\nAuerspergstrasse 58\nTelefon 1057/58 .... Telefon 1057/58\n\n[Auf dem Stift:]\nA.W. FABER Castell 7058",
+      "notes": "Die Transkription umfasst die Beschriftungen auf den verschiedenen Objekten. Die Anordnung folgt der visuellen Hierarchie der abgebildeten Gegenstände.",
+      "image": "IMG_1.jpg",
+      "image_width": 6815,
+      "image_height": 4264,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            58.9,
+            8.3,
+            29.2,
+            11.6
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Titel auf Schachteldeckel",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "marginalia",
+          "bbox": [
+            37.0,
+            16.7,
+            4.9,
+            2.9
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Handschriftliche Notiz auf Farbbandschachtel",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            5.8,
+            29.0,
+            2.0,
+            22.0
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Herstellerangabe auf Bleistift",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            34.0,
+            33.5,
+            11.5,
+            17.5
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Markenlogo Pelikan",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            33.1,
+            60.8,
+            13.0,
+            11.1
+          ],
+          "reading_order": 5,
+          "lines": 6,
+          "label": "Produktinformation Reinigungsmittel",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            10.8,
+            65.8,
+            17.3,
+            15.8
+          ],
+          "reading_order": 6,
+          "lines": 5,
+          "label": "Adress- und Firmenangaben auf Remington-Schablone",
+          "source": "merged"
+        }
+      ]
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist auf den Objekten klar lesbar und weitgehend gedruckt. Die handschriftliche Notiz 'violett, gut' ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 399,
+    "total_words": 57,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

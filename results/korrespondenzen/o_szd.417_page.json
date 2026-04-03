@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.417",
+    "title": "Ferdinand von Paungarten an Stefan Zweig, 1907-08-16, SZ-SAM/AK.135",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.417/IMG.1",
+      "https://gams.uni-graz.at/o:szd.417/IMG.2",
+      "https://gams.uni-graz.at/o:szd.417/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ferdinand von Paungarten an Stefan Zweig, 1907-08-16, SZ-SAM/AK.135\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.135\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.969454+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Haseldorf i. Holstein,\n16. VIII. 1907.\n\nHerrenhaus",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung eines Herrenhauses. Gedruckter Text und handschriftliche Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Stefan Zweig\nSchriftsteller u. Kritiker\nWien I. T.\nz. Adr. Redaction der\n„Neuen freien Presse“\nRathausstr. Rathausstr. 17\n\nLieber Herr Zweig! Kunde Ihnen von\nhier mein lieber Freund Emil\nSchoenaich-Carolath bei dem ich\nseit 9. Juli zu Gast bin, die\nherzlichsten Grüße. Ihr\nergebener\nFerd freih. von\nPaungarten.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke (5 Pfennig Deutsches Reich) und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsaufnahme der Rückseite der Postkarte mit Grauskala und Farbkarte zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Korrespondenz ist klar strukturiert und weist keine kritischen Unleserlichkeiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 360,
+    "total_words": 55,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

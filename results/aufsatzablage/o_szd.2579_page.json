@@ -1,0 +1,132 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2579",
+    "title": "Verehrter lieber Emil Hirsch!",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA85.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2579/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2579/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2579/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2579/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2579/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2579/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2579/IMG.7"
+    ],
+    "date": "14. III. 36",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "extent": "3 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze Tinte, roter Buntstift",
+        "hands": [
+          "Lotte Zweig"
+        ],
+        "inscriptions": [
+          "Zum 70.\n                                 Geburtstag"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Verehrter lieber Emil Hirsch!\n- Signatur: SZ-AAP/W-AA85.1\n- Datum: 14. III. 36\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 3 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Durchschlagpapier, schwarze Tinte, roter Buntstift\n- Hand: Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:41.329032+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "{\\color{red}zum 70. Geburtstag am 17. III. 36}\n\nVerehrter lieber Emil Hirsch!\n\nWenn ich mich unter den Vielen, die Ihnen Anhänglichkeit\nund Dankbarkeit schulden, heute zum Wort melde, so fühle ich mich\ndabei nicht unbescheiden oder vordrängerisch. Denn ich habe ein\nbesonderes Anrecht, ach, ein leider auch durch vorgerückte Jahre\nbegründetes, unter den Gratulanten vorzutreten; ich war doch, ehe\nich die Freude hatte, Ihr Freund zu werden, schon Ihr Kunde und\ndarf mich rühmen, einer Ihrer allerfrühesten gewesen zu sein. Weiss\nGott, wie damals Ihr erster Katalog aus München nach Wien kam und\nmich dort fand, der ich noch im Gymnasium steckte oder ihm gerade\nentronnen war. Jedesfalls, ich meldete mich um ein kleines Auto-\ngraph aus dem Katalog und ich bekam es. Das Kind jener ersten zar-\nten Verbindung, unsere Freundschaft, steht also schon in den statt-\nlichsten Mannesjahren und wir wollen es hoffentlich weiterhin he-\ngen und pflegen. Es war eine so schöne Selbstverständlichkeit, wenn\nman nach München kam, zu Emil Hirsch zu gehen, in die Karlstrasse\nzuerst und dann in die üppigere Karolinenstrasse, und selbst wenn\nman sich nicht ein Stück heimholte, so war man nie vergebens bei\nIhnen gewesen. Man hatte viel gelernt, man hatte Schönes und Sel-\ntenes gesehen, man hatte vielerlei erfahren und kam angeregt und\nheiter aus Ihrer Gegenwart. Ich weiss, dass es vielen so erging\nwie mir, dass sie Ihr Geschäft gar nicht als Geschäft empfanden\nsondern als eine Art kleine Academia, wie in den Humanistenzeiten\ndie Läden der Buchdrucker darstellten, wo man sich traf, sich bil-\ndete, sich in geistiger Gemeinschaft vereinte und in einem abge-",
+      "notes": "Typoskript auf dünnem Durchschlagpapier. Handschriftliche Notiz am oberen Rand in rotem Buntstift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2) Emil Hirsch.\n\ngeschlossenen künstlerischen Raum von aller Torheit der Zeit {errettet}\n~~abgesondert~~ fühlte. Herrlich schien es mir, so ein Emil Hirsch zu\nsein, unter schönen Büchern zu wohnen, mit edlen Dingen befasst zu\nsein; immer ist es ja unser Fluch, dass der eigene Beruf, wohl\nweil wir ihn in seinen Ansprüchen zu genau kennen, uns niemals\nganz gefällt. Und wenn ich mir oft dachte, es sei erspriesslicher,\nund beglückender, alte und zuverlässige kostbare Bücher zu ver-\nkaufen als neue selbst zu schreiben, deren Wert in schwarzen Stun-\nden einem höchst fraglich erscheint, so waren, glaube ich, zum guten\nTeil Sie an solchen Wunschträumen schuld. Denn Sie als Antiquarius\nwirkten niemals auf uns {wie ein} ~~kalter~~ Geschäftsmann, sondern halb als\nKünstler, halb als Gelehrter. Es war so schön, Ihnen zuzusehen,\nwenn Sie ein Buch liebevoll anfassten, es zeigten, in seiner Be-\ndeutung erklärten und doch dabei ohne jene lästige Besessenheit,\nwie sie meist den Sammler {ergreift} ~~entbrennt~~, der sich in seinen eigenen Be-\nsitz vernarrt. Sie nahmen die Dinge zärtlich in die Hände und ga-\nben sie weiter und hatten eine gute Freude, wenn eine rechte Sache\nan den rechten Menschen kam. Nein, es roch nicht nach Geld in Ih-\nrem Geschäft, die Kunden waren Ihre Freunde und Ihr Wort, Ihr Ur-\nteil, Ihre Meinung, wie weithin galt {die} in der Welt. In London, in\nNew York, in Paris und Amsterdam kannte man Sie wie zu Hause, je-\nder gab einem Grüsse an Sie mit, {ja} was haben Sie, einer und einzelner\nHändler, für das Ansehen der Münchner, des deutschen Antiquariats\nin der Welt getan! Wie haben Sie die Ehre Ihres Standes, und die\nEhrfurcht vor dem Buche in der ganzen Welt gewahrt! Das wird,",
+      "notes": "Typoskript auf dünnem Durchschlagpapier. Handschriftliche Korrekturen und Einfügungen in schwarzer Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "3) Emil Hirsch\n\nglauben Sie mir, verehrter Freund, nicht vergessen werden können\nund nicht vergessen sein. Sie haben zu viel Schönes gewirkt, zu\nviel Gutes getan, als dass sich die Spur davon ins Leere völlig\nverlieren könnte. Vielleicht ist sie doch wahr, die alte Legende,\ndass irgendwo vom letzten Richter ein ganz grosses Buch geführt\nwird ({eigenhändig natürlich d.a.s.} ~~Autograph ist es~~), wo {das} Gute, das ein Mensch getan, ver-\nmerkt {ist} auf {einem} besonderen Blatt. Nun und da bin ich gewiss, die-\n{Doppelfoliobogen} ~~ser Seite~~ wird so voll sein mit schönen und uns sogar unbekannten\nDingen, wie es heute unser Herz ist, da es sich mit den innigsten\nWünschen und Grüssen an Sie wendet.\n\nIn alter Kundschaft und Freund-\nschaft\n\nIhr\n\nX Heisst: f. eigenhändig natürlich, D.a.s.)\nDocument autograph signé",
+      "notes": "Typoskript auf dünnem Durchschlagpapier. Handschriftliche Korrekturen und Ergänzungen in schwarzer Tinte."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des dritten Blattes, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "3) Emil Hirsch\n\nglauben Sie mir, verehrter Freund, nicht vergessen werden können\nund nicht vergessen sein. Sie haben zu viel Schönes gewirkt, zu\n\n[Farbkarte und Grauskala]\n\nwünschen und Grüssen an Sie wendet.\n\nIn alter Kundschaft und Freund-\n\n[Grauskala]\n\nX Heisst: f. eigenhändig natürlich, D.a.s.)\nDocument autograph signé",
+      "notes": "Scan mit aufgelegten Archivierungshilfen (Farbkarte/Grauskala). Der Text ist teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz des Durchschlag-Charakters gut lesbar. Die handschriftlichen Korrekturen sind eindeutig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 4498,
+    "total_words": 727,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

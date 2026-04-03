@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1111",
+    "title": "Brief an Max Fleischer vom 1. November 1902, SZ-LAS/B3.31",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1111/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1111/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1111/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1111/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1111/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 1. November 1902, SZ-LAS/B3.31\n- Signatur: SZ-LAS/B3.31\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.646796+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Max Fleischer\n\nKomotau in Böhmen\nKohlstattgasse 4",
+      "notes": "Adressseite eines Briefumschlags. Briefmarke und Poststempel (Wien 9/2 02) vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Stefan Zweig\ni.V. für VICTOR FLEISCHER",
+      "notes": "Rückseite des Briefumschlags mit Absenderangabe und Poststempel."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "VICTOR FLEISCHER\n\nLieber Max,\n\nich bin, wie Du siehst bei Deinem Bruder\nzu Gaste, welcher eben mit viel Mühe abgenötigt wird,\nnicht in den Brief zu schauen. Er schreibt jetzt an einem\nwirklich riesigen Roman und mit so schöner Ausdauer,\ndass er wohl bald fertig sein muss. Ich freue mich von Tag\nzu Tag mehr an ihm und dieses „ihm“ bezieht sich sowohl\nauf den Bruder wie auf den Roman. Nicht destowe-\nniger hätte ich Dich furchtbar gern auf paar Tage hier\noder doch wenigstens einen sehr sehr langen Brief. Was\nist mit dem Mädel aus der Lobrasse? Das ist doch\nsicher eine Ente gewesen! Und was mit der Dissertation.\nIch wollte Dich heute eigentlich nur\nan Benzmann’s Anthologie erinnern. Schreib ihm doch\n(Wolkersdorf, Hintelstrasse 46) er möchte Deine ge-\ndanken, schicke ihm auch neue Gedichte ein. Du sollst\ndoch auch berühmt werden ausser via Verlaine.\nIch erwarte eine 8 Seiten langen Brief\nBis dahin eine Menge Grüsse!\nStefan",
+      "notes": "Brieftext auf Briefpapier mit gedrucktem Briefkopf 'VICTOR FLEISCHER'."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer bis auf schwache Durchschrift/Abdruck."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "VICTOR FLEISCHER\n\nLieber Max,\n\nich bin, wie Du siehst bei Deinem Bruder\nzu Gaste, welcher eben mit viel Mühe abgenötigt wird,\nnicht in den Brief zu schauen. Er schreibt jetzt an einem\nwirklich riesigen Roman und mit so schöner Ausdauer,\ndass er wohl bald fertig sein muss. Ich freue mich von Tag\nzu Tag mehr an ihm und dieses „ihm“ bezieht sich sowohl\nauf den Bruder wie auf den Roman. Nicht destowe-\nniger hätte ich Dich furchtbar gern auf paar Tage hier\noder doch wenigstens einen sehr sehr langen Brief. Was\nist mit dem Mädel aus der Lobrasse? Das ist doch\nsicher eine Ente gewesen! Und was mit der Dissertation.\nIch wollte Dich heute eigentlich nur\nan Benzmann’s Anthologie erinnern. Schreib ihm doch\n(Wolkersdorf, Hintelstrasse 46) er möchte Deine ge-\ndanken, schicke ihm auch neue Gedichte ein. Du sollst\ndoch auch berühmt werden ausser via Verlaine.\nIch erwarte eine 8 Seiten langen Brief\nBis dahin eine Menge Grüsse!\nStefan",
+      "notes": "Identisch mit Seite 3, jedoch mit Farbskala und Grauskala im Bild."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, der Kontext der Korrespondenz ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1955,
+    "total_words": 332,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

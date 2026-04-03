@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1591",
+    "title": "Brief an Richard Friedenthal vom 19. Mai 1925, SZ-AAP/B2.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1591/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1591/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1591/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 19. Mai 1925, SZ-AAP/B2.14\n- Signatur: SZ-AAP/B2.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:44.904782+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\nam 19. Mai 1925.\n\nLieber Herr Friedental!\n\nAllerherzlichsten Dank für Ihren guten klaren Brief. Sie\nhaben eine Art des Ausdrucks, des eindringlichen und beherrschten\nWortes, die einen immer wie eine frei hingereichte Hand anfasst.\nUnd ich nehme sie herzlich gern mit freundschaftlichster Gesinnung.\nSollte ich nach Leipzig kommen und dort irgendwie Zeit haben, so\nschreibe ich es Ihnen natürlich vorher: mein Vorgefühl ist so stark,\ndass wir uns ausgezeichnet verstehen werden.\n\nWas ich Ihnen damals sagte, kann ich nur heute wiederholen:\nhalten Sie Ihr Werk zusammen im Innern und im äussern Sinn. Geben\nSie nichts aus der Hand, wenn es zu verteilen genötigt sind,\nohne die Klausel, dass Sie bei einer Gesamtausgabe es wieder zurück-\nnehmen können und bauen Sie planhaft von vorneherein immer dem un-\nsichtbaren ganz entgegen, das darzustellen ja jedes Einzelnen Lebens-\naufgabe ist. Ich meine damit nicht etwa, Sie sollten nicht ausser-\nhalb zyklischer Gebundenheit schreiben, es gibt ja im letzten Sinn\nkein Ausserhalb und vielleicht findet es sich nach Jahren wieder\nin einen Zusammenhang hinein - aber verzetteln Sie nicht Bücher,\ndie geeint von äusserster Durchschlagskraft sein könnten, an ein\ngelegentliches Ja und dort. Es ist übrigens möglich, dass ich einen\nder Leiter von Rütten & Loening in Leipzig begegne - ich würde dann\nnochmals mit ihm sprechen - andererseits habe ich auch mit Axel Jun-\ncker gesprochen und er hat einen sehr guten Eindruck gemacht.\nSchliesslich ist ja ein Verlag noch keine absolute Sache sondern",
+      "notes": "Typoskript mit handschriftlichen Korrekturen (z.B. 'un-' vor 'sichtbaren' eingefügt, 'Ja und dort' korrigiert). Briefkopf gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "das, was wir mit unserer Gegenwart aus ihm machen.\n\nViele herzliche Grüsse Ihres aufrichtig ergebenen\n\nStefan Zweig\n\n{Vielen Dank noch über das, was Sie aber\nmeinem Brief sagten!}",
+      "notes": "Fortsetzung des Typoskripts, gefolgt von handschriftlicher Unterschrift und einem handschriftlichen Nachtrag in der Mitte des Blattes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke. Keine neuen Textinhalte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1736,
+    "total_words": 272,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

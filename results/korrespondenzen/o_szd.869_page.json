@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.869",
+    "title": "Brief an Stefan Zweig vom 29. August 1937, SZ-AAP/B1.83",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.869/IMG.1",
+      "https://gams.uni-graz.at/o:szd.869/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 29. August 1937, SZ-AAP/B1.83\n- Signatur: SZ-AAP/B1.83\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:39.007539+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr.Edward J,Bing, 37, Dorland House, 14-16, Regent Street\nLondon S.W.1.\n\nTelegrams:INTACONTIP LONDON.\n\n                                     den 29.August 1937\n\nHochw.\nHerrn Dr.Stefan Zweig,\nHotel Tivoli,\nLuzern.\n\nLieber und verehrter Dr.Zweig,\n\nVielen Dank für Ihren Brief, der mich eben noch hier\nerreichte, unmittelbar vor der Abreise. Bezüglich der deutschen\nBuchausgabe glaube ich trotz des Erscheinens in der zweiten\nHälfte November an keine Schwierigkeiten. Das Neue Wiener Tageblatt\nund das Prager Tageblatt kommen wohl sicher bis Ende November\nmit dem Abdruck zustande. Ein Problem ist bloss die Zürcher\nIllustrierte, da sie ein Wochenblatt ist. Andererseits glaube ich\ndort ange sichts langjähriger recht herzlicher Beziehungen ohne\nSchwierigkeit erreichen zu können, dass es den Leuten weiter nichts\nausmacht, wenn die letzten Fortsetzungen des Abdrucks in der\nZürcher Illustrierten mit dem Erscheinen des Buches zusammenfallen.\n\nJedenfalls nahm ich natürlich zur Kenntnis, dass die\ndeutsche Buchausgabe in der zweiten Hälfte November erscheint,\nund werde demgemäss vorgehen. Sollte es nötig sein, das eine oder\nandere Blatt aus seinen Verpflichtungen herauszulassen, werde\nich es tun und Sie selbstverständlich der Ordnung halber darüber\nauf dem Laufenden halten. Andererseits glaube ich eventuelle\nSchwierigkeiten beheben zu können, in welchem Falle ich Ihnen\nnatürlich darüber nicht erst besonders berichte.\n\nEin wunderschöner \"beau geste\" waere es, wenn man der\nZürcher Illustrierten ein bis zwei alte Landkarten, dann möglichst\nein Portrait Magellans und, falls möglich, eventuell auch ein Bild\nseines Schiffes auf einige Tage zur Reproduktion leihen könnte.\nWenn dies möglich ist, wäre ich für die Zusendung an mich zwecks\nWeiterleitung sehr dankbar. Würde dies seitens Rechners geschehen,\ndann ist wohl Fräulein Altmann so lieb und schreibt Reichner in\ndiesem Sinne samt meiner Zürcher Adresse. Dafür im voraus auf-\nrichtigen Dank.\n\nIch schliesse den vorletzten Brief Chambruns bei; seit-\nher ist soeben ein weiterer von ihm eingetroffen - ich sitze ihm,\nwie Sie sehen, auf dem Nacken - indem er u.a. schreibt:",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Tinte der Unterschrift/Korrekturen ist nicht vorhanden, es handelt sich um ein reines Typoskript. Die handschriftlichen Korrekturen im Text (z.B. 'ange sichts') sind im Typoskript bereits als solche erkennbar oder wurden bei der Erstellung korrigiert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text des Typoskripts von der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2127,
+    "total_words": 304,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

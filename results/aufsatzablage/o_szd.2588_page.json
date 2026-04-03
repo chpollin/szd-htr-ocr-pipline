@@ -1,0 +1,114 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2588",
+    "title": "Das Buch \"Tausendundeine Nacht\".",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA88.2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2588/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2588/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2588/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2588/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2588/IMG.5"
+    ],
+    "date": "20. VI. 1907.",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Wien",
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Wien"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarze Tinte",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "N Fr\n                                 Presse"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Das Buch \"Tausendundeine Nacht\".\n- Signatur: SZ-AAP/W-AA88.2\n- Datum: 20. VI. 1907.\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarze\n                                       Tinte\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:43.449138+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Die heutige Nummer enthält:\n„Natur- und Völkerkunde“; „Ueber\nSchlangengifte und ähnliche tierische\nGifte.“ von Dr. Karl Oppenheimer, Berlin.\nSeite 22 bis 24.\nFerner:\nDie 12. Fortsetzung des Romans „Die Liebe\nDaria Lantes“ von Richard Voß. Seite 20.\n\nFeuilleton.\nDas Buch „Tausendundeine Nacht“.\nVon Stefan Zweig.\nIn diesem unvergleichlich reichen Buche, das nun zum\nerstenmal vollständig in deutscher Uebertragung geboten\nwird *), ist auch irgendwo das Abenteuer von den vierzig\nverschlossenen Zimmern erzählt, die dem wandernden\nFremdling, je eins für eine Nacht, zu sehen verstattet\nsind. Die Prinzessinnen, die ihm Liebe boten, lassen ihn\nallein, und nun treibt ihn seine Neugier von Gemach zu\nGemach. Wie er das erste entriegelt, blüht ihm ein Garten\nentgegen, von Früchten und Wohllaut voll, das zweite\nträgt seinen Blick in eine weite Ebene entlang, das dritte\nbietet Reichtum seiner Hand, aufgetürmt in geschnittenen\nSteinen, in Topasen, Beryllen und Smaragden, in\nJuwelen, „wie sie die Zunge des Menschen nicht be-\n\n*) Leipzig, Insel-Verlag, 1907. Zwölf Bände. Uebertragen von\nFelix P. Greve mit einer Einleitung von Hugo\nHofmannsthal.",
+      "notes": "Zeitungsdruck, Frakturschrift. Handschriftliche Notiz am linken Rand: \"Stefan Zweig / 20. VI. 1907.\""
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "etwas anderes sei als ein „unbeschränkter Herrscher“?\nDas eine Grundprinzip der „echt russischen Leute“, das\nSelbstherrschertum, ist also feierlich in seine Rechte wieder\neingesetzt, mit dem zweiten, der Vor-, respektive Allein-\nherrschaft des Russentums, steht es nicht anders. „Die\n\naus der Luft ihres Lebens gerissen waren. In diesem\nBuche ist kein Platz für Grausen: das ungeheuerste Leben\nerfüllt es durch und durch. Die ungeheuerste Sinnlichkeit\nist hier Element. Sie ist in diesem Gedicht, was das\nLicht in den Bildern von Rembrandt, was die Farbe auf\nden Tafeln Tizians ist. Wäre sie irgendwo eingeschränkt\nund durchbräche an einzelnen Stellen diese Schranken, so\nkönnte sie beleidigen; da sie ohne Schranken dies Ganze,\ndiese Welt durchflutet, ist sie eine Offenbarung.“\n\nWo aber – und dies ist vielleicht ebenso wunderbar\nals das merkwürdige Abenteuer, das hier erzählt wird\n– wurzelt das Geheimnisvolle der einzigen Wirkung, daß\ndieses Buch, das vor hunderten von Jahren in einer fremden\nSprache von einem unbekannten Dichter oder von vielen\ngedichtet wurde, Kinder entzückt und die Erwachsenen zu-\ngleich? Daß es uns, an denen schon Hunderttausende\nvon Buchzeilen vorbeigeronnen sind, so unendlich viel\nbedeutet und doch wieder nicht mehr, als den Lastträgern\ndes Orients, den blinden Bettlern vor den Moscheen,\ndie sich daraus nur erzählen, weil ihnen die Kenntnis\nder Schrift fehlt, daß seine Magik in alle Tiefen greift\nund doch nicht auf den einsamsten Gipfeln überhöhter\nKultur versagt, und daß wir heute, wo doch an edlen,\nzarten, reichen und bedeutungsvollen Werken mehr ist,\nals einer je zu lesen vermöchte, so weich und wohlig hin-\ngeben darin versinken, wie in einem blumig aufge-\nspannten Teppich, und nur eines fürchten, daß die Prin-\nzessin Scheherezade in der tausendsten Nacht vor dem\nKönig ausfeiert werde und nicht mehr zurückkehren, um\nweiter die Fülle seltsamer Geschehnisse in den Stunden\nzwischen Schlaf und Schlaf zu erzählen. Solchen Zauber\nvermag nur ein Werk zu wirken, das in irgend einem\nSinne gänzlich neu und in seiner Form unerwartet ist,\ndas an andere Tasten in uns rührt und andere Klänge\nwach werden läßt, als die bislang erhörten. Und diese\n\nParlamentssprache an den bisherigen Usus halten werde.\nAuch sollen sich die Christlichsozialen – allerdings nicht\nin irgend einer offiziellen Form – verpflichtet haben,\nkeinerlei Schritte zu unternehmen, welche der Position der\ndrei deutschen Minister im Kabinett abträglich sein\nkönnten. Auf dieser Basis ist ein Eindernehmen des\n\nVerschiedenheit ist im tiefsten vielleicht nur die der beiden\nWeltanschauungen. Das Wort Schicksal hat hier einen\nandern Sinn. Hier wächst das Geschehnis nicht aus den\nMenschen empor, sondern sie zittern wie Puppen an\nden Drähten, keiner ist Herr seines Schicksals und nicht\neinmal der Träger, der Erdulder. Schatten sind sie nur,\nfarbige Bilder der Beschlüsse, die hoch oben am Sternen-\nrand in das Buch des Schicksals geschrieben sind, ihr\nWillen ist nur blasser Schein magischer Mächte. Keiner\nrührt mit der eigener Hand an sein Leben, sondern alle\ndiese Menschen ziehen nur ruhig da und plötzlich\nfaßt sie eine farbige Schwinge und trägt sie\nin die Welt, in ihr Schicksal. Der Wanderer wirft einen\nDattelkern fort und ein Ifrit, ein furchtbarer Geist taucht\nauf mit gezücktem Schwert und fordert Sühne für den\nSohn, den ihm der geschleuderte Kern erschlagen. Der\nHolzfäller schlägt mit der Axt gegen den Baum, da klafft\neine Höhlung auf, eine Treppe, ein Raum, und eine Frau\nist darin, die ihn erwartet. Der Fischer senkt sein Netz\nund fängt in einer Flasche den bösen Geist, einen Herrn\nder Welt. Jäh, unvermutet, unverschuldet, wie durch\nFaltüren stürzen sie in ihr Schicksal. Und die ungeheure\nVielfalt dieser Abenteuer hat dann nur noch ein Ge-\nheimnis: daß nichts unmöglich ist. Die Erfindung\nflattert nicht wie bei uns immer nahe der Wirklichkeit, um\nstets sie zurückzukehren, sondern diese freie Welt ist\ngrenzenlos, erlöst von allen Gesetzen durch eine un-\nendliche Gläubigkeit. Raum und Zeit, Ferne und Schwere,\ndie Formen der wirklichen Anschauung sind vergessen, und\ndaher auch die wunderbare Verworrenheit, die einen all\ndies als Wirklichkeit nur eines Traumes fühlen läßt.\nAlle Bedenten zerblättern einem in der Hand. Menschen\nheben die Arme auf und fliegen durch die Luft,\nund wir staunen ihnen nicht nach. Unter den\nSchlafenden schiebt sich ein Geist und trägt ihn über\nStädte und Meere, Stürme heben an und schweigen auf\n\nZumprieste gegen galizische Wahlen.\nWie die „Polnische Korrespondenz“ erfährt, sind 27 Pro-\nteste gegen galizische Wahlen eingelaufen, und zwar gegen die\nWahlen der Abgeordneten: Dr. v. Dulembo, Blonck, Fürst\nLubomirski, Dr. v. Starzynski, Dr. Kolischer, Zagorski,\nStaniszewski, Dr. Buzet, Zaranski, Pater Rzeszotko, Ja-\nmorski, Plas, Eitorsti, Ziedler, Dr. v. Kozlowski, Siohanu.",
+      "notes": "Zeitungsdruck, Frakturschrift. Mehrspaltig."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Die Haager Konferenz.\nDie Bildung der Kommissionen.\nHaag, 19. Juni. Es heißt, daß in der heute statt-\nfindenden Plenarsitzung der Konferenz nachstehende Dele-\ngierte zu Vorsitzenden der vier Kommissionen ernannt\nwerden:\n\nStraße pflegt und nicht erkennt, so groß war seine Liebe\nund sein Härmen um sie. Oder die Schwänte des Bar-\nbiers, die gepfefferten Zoten der Eunuchen, die heroischen\nSchicksale Scharrkhans, die Märchen vom Magnetberg, die\nSpäße der Sklaven, die Taten Harun-al-Raschids; zu\nviel ist eingegraben in diesen Berg der tausend Nächte,\num es mit einem Gang zu erschöpfen. Und dabei\nist dieser Freude des eifrigen Hinlaufens\nnoch eine andere beigemengt, die des Wiederfindens und\nRückerkennens, denn manches, was seit Kindertagen ver-\nwölkt und trüb in und schon fast hinter unserer Erinne-\nrung an Farben glänzte, weiß nun plötzlich seine Heimat\nwieder. Und überrascht entdecken wir andererseits, daß\nmanches, was uns neu und eigenartig bei anderen\nDichtern schien, hier schon früher gewesen war. Die\nMärchen des Hauss scheinen uns plötzlich blaß, die uns\ndoch einst entzückten, viele Geschichten des Dekamerone\nnicht mehr. Nicht alles ist ja entseelt, sondern vieles\nist durch die geheimen Poren des Lebens hinübergesickert\nin das fremde Blut: Pilger haben vielleicht aus der Ge-\nfangenschaft die Geschichten gebracht und sie erzählt, bis\nsie weitererzählt wurden und endlich zu einem kamen, der\nsie frei als fliegendes, zugeflogenes Gut nahm und um-\nschuf mit seinem Siegel. In Shakespeare finden wir die\nMotive wieder und auch schon jenes Grillparzer-Calde-\nronsche Gefühl des Menschen, der nicht mehr Traum vom\nLeben zu scheiden weiß, ist hier einzig schön angeschlagen,\nalles ist hier schon ausgefeiert, was später irgendwo\nferucht wurde. Aber kein Entnommenes kann den fürst-\nlichen Reichtum mindern: dieses Buch hat den letzten\nSinn des großen Kunstwerkes in sich, das, wie der Apfel\noder jede andere reife Frucht, nicht nur Form und Ge-\nnuß bietet, sondern auch die Kerne und Samen zu neuem\nWerden und Entstehen in sich verschließt und verschenkt\nzugleich.\n\nDer offizielle Bericht über die heutige Sitzung lautet:\nIn der heutigen Plenarsitzung der Friedenskonferenz\nverlas Präsident Nelidow folgende Depesche der\nKönigin der Niederlande:\n„Ich bin glücklich, im Haag die Vertreter der ver-\nschiedenen Staaten für die zweite Friedenskonferenz ver-\n\nFürstlich ist der Reichtum dieses Buches. Und nicht\nmit einem Griff faßt ihn die gierige Hand. Es war klug\nvom Verlage, das Erscheinen der zwölf Bände auf Zeit-\nräume von je zwei und zwei Monaten zu verteilen. Und\nes ist ein außerordentlicher Vorzug dieser Ausgabe, daß\nihr Hugo v. Hofmannsthal gewonnen wurde, der\nmit einer wunderbar hinströmenden Einleitung gleich auf\nden ersten Seiten den Sinn für das Verständnis ehr-\nfurchtig bereitet und die ganze Landschaft des Orients\nhinter dem Horizont aufbaut. Nur ein Name wie der\nseine, der unantastbar sicherer Bürge reinster künstlerischer\nAbsichten ist, konnte auch das Werk schützen, an jenen\nStellen mißverstanden zu werden, wo die europäische\nSchlichtheit von der orientalischen abzweigt und mancher viel-\nleicht einen Augenblick erschreckt stehen bleibt, zögernd, ob\ner hier noch weiter schreiten dürfe. Hat man aber begriffen,\ndaß die Sittlichkeit eines Volkes nie eine Norm ist,\nsondern immer nur eine Atmosphäre, und hat man sich\ngewöhnt an diese leicht schwüle, wie von warmen Schleiern\ndurchjitterte Luft einer eigenartigen Sinnlichkeit, so\nscheint eine keine Frucht mehr zu scharf in diesem ver-\nschlungenen Garten, kein Wort zu spitz in diesem viel-\nstrophigen Lied, kein Licht zu grell in dieser wollüstig\nverlodenden Dämmerung. Widerstandslos gibt man sich\nzu eigen an diese Welt der Träume, und nicht einem\nTun, einer Anstrengung oder Mühe gleicht das Lesen\nder vielen Seiten, sondern sie gleiten gewissermaßen\nunter einem hinweg, tragen wie ein blumengeschmücktes\nBoot, leicht schaukelnd, mit ihrem leisen Rhythmus den\ndunklen Strom der tausend Nächte entlang; und so\nwunderbar ist die Fahrt, daß man am Wege sich schon\nfreut, so holde Reise vielmals wiederholen zu dürfen\nund von neuem der zauberischen Barke ins Land der\nbunten Abenteuer sich zu vertrauen.\n\nDer neue Dreibund.\nPublizierung der Abkommentexte.\nMadrid, 19. Juni. Wie der „Heraldo“ mitteilt,\nwird der Text des spanisch-englischen und\ndes französisch-spanischen Abkommens in\nSpanien, Frankreich und England nach der Verlesung\ndesselben in den betreffenden Parlamenten gleich-\nzeitig veröffentlicht werden.\n\nLondon, 19. Juni. Im Unterhause hatte Parla-\nmentsuntersekretär Runciman in Erwiderung einer\nAnfrage, die mit dem spanischen Botschafter ausgetauschten\nNoten, welche die Bestimmungen des zwischen Eng-\nland und Spanien abgeschlossenen Abkommens ent-\nhalten, werden sobald als möglich veröffentlicht\nlicht werden.\n\nEine italienische Stimme.\n(Telegramm der „Neuen Freien Presse“.)\nRom, 19. Juni. „Giornale d'Italia“ beschäftigt sich\nmit dem französisch-spanischen Bündnisse. Die\nsichtbare Gemeinsamkeit der Interessen und Bestrebungen\nEnglands und Frankreichs finde in diesem großen völker-\nrechtlichen Ereignisse ihre Ergänzung. Die Frage, gegen\nwen dieser Dreibund des Westens gerichtet sei,\nkönne im friedlichen und im kriegerischen Sinn beantwortet\nwerden. Wenn das englisch-spanische Bündnis ein Vor-\nspiel des letzten Krieges war, so sei nicht minder wahr,\ndaß die europäischen Bündnisse in den letzten 25 Jahren\nmanche ernste Gefahr beschworen haben. Allem Anscheins\nnach verfolge der neue Dreibund denselben Zweck und\nwerde in den Ozeanen und im Mittelmeer den Frieden\nschirmen. Die Politik der „splendid isolation“ hätte\nzweifellos zum Krieg geführt. Die kluge, aus-\ngleichende Politik des Königs Eduard\nsichere England seine heutige Stellung, Frankreich einen\nausreichenden Ersatz für die Schwächung des Zweibundes,\nSpanien eine bessere Zukunft. Um dieses Ziel zu er-\nreichen, bedürfe es keines Krieges. Der neue Dreibund\nstärke das Gleichgewicht der Kräfte, auf welchem der Friede\nberuhe. In der Tat sei England mit Japan verbündet\nund mit Italien eng befreundet; Frankreich andererseits\nhabe ungeachtet seines Bündnisses mit Rußland seines",
+      "notes": "Zeitungsdruck, Frakturschrift. Mehrspaltig."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "geordneten.\nDie Affaire Potoenjat wird voraussichtlich nicht dazu\nbeitragen, die Beziehungen zwischen den ungarischen und\n\nauch diese Welt der Träume irgendwie Sehnsucht hat nach\ndem Sinn des Lebens.\nUnd dann: In diesem Buch glänzt noch blank wie\nein heller Morgen der innere Frühzustand der Welt. Sie\nist übersichtlich geteilt in ein paar Berufe, in ein paar\nStände, in eine handvoll Städte und Länder und bewegt\nvon den einfärbig elementaren Urgefühlen. Aus gleichem\nStoff ist aller dieser Menschen Seele geformt, ob\nsie nun böse und ungerecht, zornig oder milde,\nweise oder träg, tapfer oder ängstlich, verschlagen\noder demütig sind. Noch ist die soziale Schichtung\nnicht nach innen eingedrungen. Diese Menschen können\ndie Gewänder tauschen, und der Kalif ist ein Fischer und\nder Bettler ein Bezier, keine innere Art widerstrebt der\nErhöhung oder Enteignung, nicht wie bei Richard dem\nZweiten fällt alle Kraft mit der Krone zu Boden, nicht\nwie bei dem trunfenen Kesselflicker, der in Shakespeares\nKomödie als Fürst erwacht, quillt schon aus dem ersten\nWort der Widersinn der Stellung, sondern diese unge-\nformten Seelen gleiten in jedes Kleid hinein und passen\nin jedes Schicksal. Alle reden sie dieselbe Sprache, blumig\nund reich und verschwenderisch geziert mit den Arabesken\nder Bilder. Und allen fließt, wenn Not oder Jubel\nirgend ein übermächtiges Gefühl die Brust umschließt, die\nRede in Verse über. Der Taglöhner, der Henker, der\nDerwisch, der Lastträger, der Kalif und der Sirolch, alle\nsprechen sie dann Verse, und keiner ist in diesem Buche,\nder eigens Dichter genannt würde, weil in jedem einer\nlebt und den Augenblick erwartet. Gleich sind alle ihre\nGefühle, und ihre Empfindung hat immer den\nnämlichen Ausdruck. Es ist eine seltsame Monotonie des\nPrimitiven. „Er lachte, bis daß er auf den Rücken fiel“,\nheißt es immer oder „da wurde die Welt vor seinen\nAugen schwarz“ oder „nie erlebte er eine köstlichere Stunde\nals diese“. Noch sind die Gefühle nicht differenziert, noch\nnicht wie bei uns ihr kristallinisches Wachsen der eigent-\n\nin diesen besonders jafalt und verlegend gewesen sein soll.\nEs wurde auch in der in den Abendstunden stattge-\nfundenen Besprechung der kroatischen Abgeordneten der\nWunsch geäußert, diese Zwischenrufe Ugrons morgen in\n\nliche Inhalt eines Werkes. Ein Augenblick zeugt unend-\nliches Gefühl. Kann man mehr in eine Szene drängen,\nals in die folgende, die das Erwachen einer Liebe\nschildert und das Anheben unendlichen Unheils? „Sie\nsprang auf und die Frische des Bades lag auf ihr, und\nsie trat in die Tür und blickte auf Nur al-Din Ali\nund sah einen Jüngling, dem Monde gleich, in\nseiner Fülle und der Anblick entlockte ihr tausend Seufzer.\nDoch auch der Jüngling sah sie an und wurde als-\nbald zum Erben von tausend Gedanken der Sorge. Und\nbeide fielen in der Liebe gerüstete Falle hinein.“ So ein-\nsach ist hier das Rätselhafte gesagt, mit einer Be-\nwegung nur ist es aufgezeichnet, mit einer Bewegung\naber, als ob ein Schleier von einem Bild genommen sei\noder ein Licht jäh über ein Dunkel gehalten. Und was\nwir als Kunst an diesen Erzählungen bewundern, ist viel-\nleicht nichts als die Natürlichkeit und Frische ihrer un-\ngewollten Art, der rasche Foristrom ihrer Erfindung, der\nsie von Tatsache zu Tatsache weiterträgt, ohne sie in\nRuhe zu spiegeln, mit einem Wort: ihre innere Absichts-\nlosigkeit. Die Absicht dieser Dichter war nichts als die\nvon den unseren über der Kunst vergessene: zu ergötzen,\nzu erfreuen, über die Schlaflosigkeit leerer Nächte als\nanderen, nicht minder farbigen Traum ein ersonnenes\nSpiel zu breiten, die Zeit zu kürzen und den Raum auf\nder Reise und zugleich die seltsamen Schicksale toter\nKönige und entschwundener Fürsten dem Leben dankbar\nzu bewahren.\n\nAber was bedeutet auch den Menschen des Abend-\nlandes eine Erzählung? Eben aus diesem Buche können\nwir es vielleicht ermessen und dann mit Lächeln ver-\ngleichen, wie wohlfeil uns die Werke der Dichter sind.\nHier hebt der Ifrit sein Schwert, um den Unglücklichen\nzu erschlagen. „Halt!“ ruft der mit letzter Kraft noch,\ndamit es dir nicht ergehe, wie dem Beneideten und dem\nNeider.“ Und der Herr der Gewalt senkt das Schwert,\n\nIn den Kreisen der Unabhängigkeitspartei bildeten die\nEreignisse, die sich im Abgeordnetenhause heute abgespielt\nhaben, gleichfalls den Gegenstand eines lebhaften Meinungs-\naustausches. Es wurde darauf hingewiesen, daß das Ver-\n\num neugierig zu fragen: „Wie war das?“ Oder vier\nziehen unter dem Galgen, um gehenkt zu werden, und\nda kommt einer zum Könige und fragt ihn: „Würdest\ndu mir für eine Erzählung, die wunderbarer ist als alles,\nwas du bislang gehört hast, das Blut eines dieser\nSchenken?“ Und mit vier Erzählungen rettet er alle. Es\nist dies die kostbarste Münze, das edelste Gut: für\neine Erzählung verkauft der Zornige seinen Zorn, der\nLiebende sein Weib, der Kalif schenkt Würden und Paläste\ndafür und die bösen Geister ihre tückische Absicht. Und\ndieses ganze Buch, welche Spange hält denn diese viel-\nfarbenen und umwiederbringlichen Brokate zusammen, ist\nes nicht auch ein Erzählen um den höchsten Preis, um\ndas Leben? Der König Schahryar, verzweifelnd an der\nTugend der Frauen, hat gelobt, jede Jungfrau am Tage,\nnachdem er sie zum Weibe nahm, dem Henker zu\nüberweisen. Alle sind seinem Schwur zum Opfer gefallen\nund da ist nur Scheherezade mehr, des Beziers Tochter,\ndie sich die Gnade erbittet, in der verhängnisvollen Nacht\nihrer Schwester in den traurigen Stunden Geschichten und\nAbenteuer erzählen zu dürfen. Sie beginnt, und wie der\nMorgen graut, ist die Erzählung nicht zu Ende, aber so\nseltsam war sie, daß der Kalif, um das Ende zu hören,\nsie noch eine Nacht verspart. Aber die Erzählungen ver-\nästeln sich untereinander und sind wie eine verlockende\nKette ineinander geheftet durch die stete und stets freudig\nbegrüßte Ankündigung: „Doch diese Geschichte ist nicht so\nwunderbar, wie die...“\n\nWie die nächste. Und wirklich, eine ist wunderbarer,\nals die andere. Welche sollte man besonders erwähnen?\nDie von Ghanim bin Ayub, dem Verstörten der Liebe\nvielleicht, weil hier so wunderbar geschildert ist, wie ge-\nrade die edle Zurückhaltung des Mannes die zuerst be-\nsonnene Leidenschaft einer Frau ins Ungemessene steigert\nund weil wenig in der Weltliteratur rührender ist, als\njene Szene, wo sie den Geliebten unter den Kranken der",
+      "notes": "Zeitungsdruck, Frakturschrift. Mehrspaltig."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Leeres Blatt mit Archivierungshilfen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der leichten Vergilbung des Papiers. Die Struktur ist durch die Spalten klar vorgegeben.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 18454,
+    "total_words": 2838,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

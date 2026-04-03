@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.910",
+    "title": "Ansichtspostkarte an Frans Masereel vom 8. Oktober 1926, SZ-LAS/B1.30",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.910/IMG.1",
+      "https://gams.uni-graz.at/o:szd.910/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 8. Oktober 1926, SZ-LAS/B1.30\n- Signatur: SZ-LAS/B1.30\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:42.655279+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon cher Frans, j'ai bien recu ton beau\nJean Cristofe volume III et j'en suis heureux\n- tu auras donc bientot fini cette lourde\ntache. Et quoi de nouveau? A Berlin on\nprepare une exposition de toi et ton\n[?] paraitra prochainement.\nJ'espere tu as recu mon nouveau livre\nVerwirrung der Gefuhle - si non, dis moi\nun mot! Je l'ai envoye. 20.000 exemplai\nres sont deja vendus, on reimprime comme",
+      "notes": "Ansichtskarte Salzburg, handschriftlich in violetter Tinte. Der Text bricht am unteren Rand ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Cela serait des menson\nges. J'ai donc assez\nd'argent pour venir\na Paris et faire un\ngrand repas bruyan-\ntant avec toi. Et je\nviendrai mon vieux.\nJe t'embrasse! Amiti\nes a ta femme a\nCharlotte\nStefan",
+      "notes": "Adressseite der Postkarte. Handschriftlich in violetter Tinte. Briefmarken (5 Groschen, 20 Groschen) und Poststempel 'SALZBURG -8 X. 26' vorhanden. Empfänger: M. Frans Masereel, Paris (France), 34, rue Lamarck."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Ein Wort in Zeile 6 der ersten Seite ist schwer zu entziffern (vermutlich ein Buchtitel oder Eigenname).",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 589,
+    "total_words": 108,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

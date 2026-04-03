@@ -1,0 +1,76 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.170",
+    "title": "Promotionskarte",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SEF/L3",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.170/IMG.1",
+      "https://gams.uni-graz.at/o:szd.170/IMG.2",
+      "https://gams.uni-graz.at/o:szd.170/IMG.3"
+    ],
+    "date": "19. Juli 1904",
+    "document_type": "postcard",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Diverses"
+      ],
+      "origin_place": "Wien",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Inge und Erich Fitzbauer",
+        "Erwerb: Ankauf 2023"
+      ],
+      "physical_description": {
+        "dimensions": "13x9 cm"
+      },
+      "notes": "Aufdruck „Stefan Zweig | gestattet sich, Ihnen seine | Promotion zum Dr. phil. | ergebenst mitzutheilen. | Wien, 19. Juli 1904“; Druckerei M. Munk, Wien"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Promotionskarte\n- Signatur: SZ-SEF/L3\n- Datum: 19. Juli 1904\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Aufdruck „Stefan Zweig | gestattet sich, Ihnen seine | Promotion zum Dr. phil. | ergebenst mitzutheilen. | Wien, 19. Juli 1904“; Druckerei M. Munk, Wien"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.250072+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [],
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ],
+    "total_chars": 0,
+    "total_words": 0,
+    "language_detected": "",
+    "language_match": true
+  }
+}

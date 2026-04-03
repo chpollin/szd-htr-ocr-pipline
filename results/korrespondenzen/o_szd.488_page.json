@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.488",
+    "title": "Jean de Bosschère an Stefan Zweig, 1920-06-20, SZ-SAM/AK.20",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.488/IMG.1",
+      "https://gams.uni-graz.at/o:szd.488/IMG.2",
+      "https://gams.uni-graz.at/o:szd.488/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Jean de Bosschère an Stefan Zweig, 1920-06-20, SZ-SAM/AK.20\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.20\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.817246+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Huis ” de Gulde Spoor ” Antwerpen. – St. Christoffelzaal, schoorsteenzijde.\nLichtdruk G. Hermans, Antwerpen. 20. Juni 1920",
+      "notes": "Vorderseite der Postkarte mit Abbildung eines Interieurs. Der Text am unteren Rand ist gedruckt, das Datum handschriftlich hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Bruxelles,\n7 rue de la Bigorne\n\nCARTE POSTALE\nPOSTKAART\n\nCorrespondance — Briefwisseling\nMonsieur, par ce courrier je vous\nenvoie mon dernier livre. – Voulez-\nvous me dire si vous lisez la\nrevue ” l'Occident ”? Si vous n'avez\npas le no qui contient mon portrait\nde Cuerbal (Suarès), je vous l'en-\nverrai volontiers. Vous trouverez\ndans le prochain no de Poème et\nDrame un dessin qui représente\nla chambre de Suarès, vous le re-\nconnaîtrez. Salutations distingués,\nJean de Bosschère.\n\nÀ Monsieur Stefan Zweig,\n8 Kochgasse,\nWien,\nAutriche.",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in französischer Sprache. Der Absender ist Jean de Bosschère. Ein Poststempel ist schwach erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte befindet sich die bereits transkribierte Rückseite der Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift ist klar und eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 659,
+    "total_words": 106,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

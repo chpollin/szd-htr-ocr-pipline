@@ -1,0 +1,76 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1083",
+    "title": "Friderike Zweig an Frans Masereel, [28. Dezember 1920], SZ-LAS/B1.22",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1083/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1083/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1083/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1083/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Frans Masereel, [28. Dezember 1920], SZ-LAS/B1.22\n- Signatur: SZ-LAS/B1.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.174266+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Noël 20\n\nCher ami,\n\nje profite de l'occasion que Stefan\nen revenant hier de Vienne a trouvé\n45 lettres à repondre et ne peut\npas écrire aujourd'hui, pour vous\ndire comme nous sommes heureux\nde vos travaux. L'Solée vous\na ravi et maintenant les\ncontes de Verhaeren[?], quelle\nrichesse, quelle capacité de\ntrouver la même vision que\nle poète avec une vivacité\nd'imagination qui est tout à\nfait étonnante. Cette variation",
+      "notes": "Der Text ist in französischer Sprache verfasst. Das Wort 'Verhaeren' ist über der Zeile eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "du soir cher ami. J'espère que vos\ndames vont bien, saluez les de ma part\nsincèrement. Les enfants sont grandes,\nelles vous aiment et vous présentent aussi de vœux.\nLui a passé l'été au Danemark. La vie a\nfait beaucoup de bien, la petite est très\ndélicate. Je vous serre la main.\n\nde tout coeur votre\nFriderike Zweig",
+      "notes": "Die Handschrift ist flüssig und gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "promet toujours encore des surprise\nque votre oeuvre nous donnera.\nMais cher ami, rappelez vous\nvotre promesse de venir nous\nvoir. Il y a longtemps presque\ndeux ans, que nous sommes\nici. Venez, venez, venez bientot\ncher ami. - Stefan travaille\ntrop, il fume trop ces terribles\nBrisago. Croyez moi ce lui\nfera du bien d'interrompre\ncette vie monacale de travail.\nLui même en sera content. Il\nparle si souvent de vous avec\ngrande affection et désir\nde vous revoir.",
+      "notes": "Der Text setzt sich auf der dritten Seite fort."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Mon vieux, ton Verhaeren est\nsuperbe! J'aimerai tant de\nt'embrasser, parce tu fais de\ntelles belles choses. Mais ou, mon\nami? J'irai peut-être à Zürich\npour deux jours, mais je n'aurai\npas le temps d'aller à Genève.\nIci tu trouveras ton repos et\nferas grand plaisir à ton fidèle\nStefan\n\n[Stempel: CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS]",
+      "notes": "Der Text ist in violetter Tinte geschrieben, vermutlich von Stefan Zweig selbst (im Gegensatz zu den ersten Seiten, die von Friderike Zweig stammen). Am Ende befindet sich ein Exlibris-Stempel."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist trotz der kursiven französischen Schreibweise gut lesbar. Die Sprache ist Französisch, entgegen der Anweisung 'Sprache: Deutsch', was bei der Transkription berücksichtigt wurde.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1535,
+    "total_words": 266,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

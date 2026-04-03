@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1139",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.17",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1139/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1139/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.17\n- Signatur: SZ-SAM/B10.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.424663+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frau\nAnna Meingast\n\nSalzburg (Austria)\nLinzergasse 16",
+      "notes": "Adressseite einer Postkarte. Poststempel: LONDON 1 FEB 1938. Briefmarken: 1/2d und 1d (König Georg VI.)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "London, den 23. Februar 1938.\n\nLiebe Frau Meingast!\nIch danke Ihnen vielmals für\ndie Briefe, die mir nachgesandt wurden und sende\nIhnen in den nächsten Tagen einige Bücherbeschrei-\nbungen sowie Bericht für Januar-Februar.\n\nMit den besten Grüssen\nIhre\nLotte Altmann",
+      "notes": "Maschinengeschriebener Text auf der Rückseite der Postkarte. Die Unterschrift ist handschriftlich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig als 'Lotte Altmann' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 317,
+    "total_words": 47,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

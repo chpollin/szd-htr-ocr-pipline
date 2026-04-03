@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.651",
+    "title": "Léon Bazalgette an Stefan Zweig, 1905-06-13, SZ-SAM/AK.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.651/IMG.1",
+      "https://gams.uni-graz.at/o:szd.651/IMG.2",
+      "https://gams.uni-graz.at/o:szd.651/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Léon Bazalgette an Stefan Zweig, 1905-06-13, SZ-SAM/AK.8\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.497476+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LA NORMANDIE – La \"C. P. A \"\n\n79. Environs de Flers – La Vallée du Noireau",
+      "notes": "Vorderseite einer Ansichtskarte mit Landschaftsmotiv. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Avernes-sous-Exmes mardi\n\nMon cher Zweig,\nJe serai dimanche après-midi\net lundi à Paris. Donc je\nvous verrai et j'en suis bien heureux\nNous aurons ~~tout~~ juste le temps de\nnous serrer la main. Je vous donnerai\nrendez-vous par télégramme dimanche\nsoir ou lundi matin. Tout à vous\nL Bazalgette\n\nMonsieur Stefan Zweig\n5, rue Victor Massé\nParis IX",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Poststempel 'HAMBO[...]' und '1 JUIN 05'. Briefmarke 'REPUBLIQUE FRANCAISE 10c'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Avernes-sous-Exmes mardi\n\nMon cher Zweig,\nJe serai dimanche après-midi\net lundi à Paris. Donc je\nvous verrai et j'en suis bien heureux\nNous aurons ~~tout~~ juste le temps de\nnous serrer la main. Je vous donnerai\nrendez-vous par télégramme dimanche\nsoir ou lundi matin. Tout à vous\nL Bazalgette\n\nMonsieur Stefan Zweig\n5, rue Victor Massé\nParis IX",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Sprache ist Französisch, nicht Deutsch wie in der Aufgabenstellung vermerkt.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 764,
+    "total_words": 133,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

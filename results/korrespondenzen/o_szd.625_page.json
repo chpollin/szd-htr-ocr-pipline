@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.625",
+    "title": "Max Fleischer an Stefan Zweig, 1929-07-18, SZ-SAM/AK.56",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.625/IMG.1",
+      "https://gams.uni-graz.at/o:szd.625/IMG.2",
+      "https://gams.uni-graz.at/o:szd.625/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Max Fleischer an Stefan Zweig, 1929-07-18, SZ-SAM/AK.56\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.56\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:21.680720+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "18. Juli 1929\n\n962.",
+      "notes": "Vorderseite einer Ansichtskarte mit Waldmotiv. Handschriftliche Datumsangabe oben rechts, gedruckte Nummer unten rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mein lieber Stefan!\nAuf\neinem kleinen Urlaube in\nBayern ereilt mich plötzlich\ndie Nachricht von dem\ntragischen Ende Hofmannsthals.\nIch bin sehr gebeugt und\nmuss einem lieben Menschen\ndie Hand drücken: sei innig\ngegrüßt, mein lieber Freund,\nvon deinem alten getreuen\nMax Fleischer\n\nHerrn\nStefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (Ludwigsthal, 18.7.29) vorhanden. Der Text 'Max Fleischer' und 'BÖHM WALD | EIMATBILDER' ist gedruckt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Dazwischen liegt die bereits transkribierte Postkarte (Rückseite)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 343,
+    "total_words": 53,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

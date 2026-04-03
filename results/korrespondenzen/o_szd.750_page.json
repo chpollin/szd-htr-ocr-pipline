@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.750",
+    "title": "Brief an Stefan Zweig vom 16. Dezember 1937, SZ-AAP/B1.156",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.750/IMG.1",
+      "https://gams.uni-graz.at/o:szd.750/IMG.2",
+      "https://gams.uni-graz.at/o:szd.750/IMG.3",
+      "https://gams.uni-graz.at/o:szd.750/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 16. Dezember 1937, SZ-AAP/B1.156\n- Signatur: SZ-AAP/B1.156\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:28.585079+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\nZweig,Begegnungen gegen Tal & Co.\nIhr Schreiben vom 13.Dez.1937\n\n16.Dezember 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken für Ihr obiges Schreiben.\nWir haben natürlich nie behauptet,dass wir Ihre Aussage nur mit 50%\nWahrheit berechnen,sondern nur,dass Sie zu 50% im Recht sind.Recht\nhat aber mit Wahrheit nichts zu tun.Sonst wären nicht so viele Leute,\ndie die Wahrheit sprachen,sachfällig geworden.\n\nNichtsdestoweniger haben wir auf Ihren ausdrücklichen Wursch{Wunsch} den hier\nin Durchschrift beiliegenden Brief an Herrn Dr.Löw gerichtet und werden\nuns auch Ihren weiteren Wünschen fügen.Nur lehnen wir alle Folgen ab,\ndie aus einer eventuellen Unnachgiebigkeit Ihrerseits entspringen.\n\nWir hätten gewünscht,dass Sie selbst oder noch besser durch Ihren An-\nwalt dem Verlag Tal ein Angebot machen,das Ihrem Renommee gewiss nicht\nschadet und das endlich Ruhe in dieser Angelegenheit schafft.Wir sind\nüberzeugt,dass Frau Tal mit einem verhältnismässig geringen Betrag\nabzufinden ist.Wir selbst werden aber dieses Angebot nie machen,damit\nSie uns nicht nachher Vorwürfe bereiten,als ob wir eigenmächtig gehan-\ndelt hätten.\n\nSobald eine Antwort des Herrn Dr.Löw vorliegt,werden wir Sie darüber\ninformieren und begrüssen Sie für heute als\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich (Initialen). Das Wort 'Wunsch' wurde korrigiert (eingefügt)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herrn Dr.Hermann Löw\nRechtsanwalt\nHerrengasse 21\nWien,I.\n\nTal & Co. gegen \"Zweig,Begegnungen\"\n-----------------------------------\n\n16.Dezember 1937 /F\n\nSehr geehrter Herr Dr.Löw:\n\nHerr Dr.Stefan Zweig teilt uns mit,dass er Ihnen zur Bereinigung der\nobigen Angelegenheit ein Schiedsgericht vorgeschlagen hätte.Wir er-\nklären und damit einverstanden und bitten Sie,diesen Vorschlag auch\nFrau Tal vorzulegen.\n\nDieses Schiedsgericht kann aus Wiener Verlegern zusammengesetzt werden,\nso zwar dass Frau Tal und wir gleich viele Kollegen wählen.\n\nFalls Frau Tal damit nicht einverstanden ist,hat Herr Dr.Zweig nichts\ngegen einen Prozess einzuwenden,ebensowenig wir selbst.Herr Dr.Zweig\nhat sich mittlerweile die notwendigen Beweise beschafft.\n\nWir erbitten Ihren baldigen Bescheid und sind im voraus bestens\ndankend\n\nmit verbindlicher Begrüssung",
+      "notes": "Typoskript (Durchschlag/Kopie)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die wenigen Korrekturen sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2544,
+    "total_words": 342,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

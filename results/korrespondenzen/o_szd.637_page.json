@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.637",
+    "title": "Wilhelm Friedmann an Stefan Zweig, 1923-07-30, SZ-SAM/AK.67",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.637/IMG.1",
+      "https://gams.uni-graz.at/o:szd.637/IMG.2",
+      "https://gams.uni-graz.at/o:szd.637/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Wilhelm Friedmann an Stefan Zweig, 1923-07-30, SZ-SAM/AK.67\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.67\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.696904+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kitzbühel, Tirol. 30. VII 23. Friedmann",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Bild von Kitzbühel. Handschriftliche Ortsangabe, Datum und Name am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "lieber Freund herzlichen\nDank für Ihre Hilfsbereitschaft.\nSonntag oder Montag kommender\nWoche fahre ich über Salzburg\nzurück. Sie reben[?] jetzt von Ihren\nlieben Frau. Da Kabsringe[?] nur\nein paar Stunden an s. zu bleiben.\nWenn Sie nicht störe (aber bitte\nlieber Freund ganz offen) würde ich\nSie besuchen. Wie gern wissen Sie ja!\nMeine Adresse ab Freitag: Hofgastein\n\nHerrn Dr Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Briefmarke und Poststempel vorhanden. Am linken Rand gedruckte Verlagsangaben: 'Nr. 3722 Papierbund Monopol, Kunst- und Verlagsanstalt München, Bler der Tannstr. 6 und Hall i. Tirol. Afl. 80000 Nr. 388'. Diese wurden bei der Transkription aufgrund der vertikalen Ausrichtung und Überlagerung durch den handschriftlichen Text als Randnotiz behandelt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Kein Dokumenttext."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere bei Eigennamen oder spezifischen Ortsbezeichnungen (z.B. 'Kabsringe' oder 'reben'). Die gedruckten Verlagsangaben am linken Rand sind durch den handschriftlichen Text teilweise überlagert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 453,
+    "total_words": 71,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

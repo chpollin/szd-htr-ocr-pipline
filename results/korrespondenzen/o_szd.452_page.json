@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.452",
+    "title": "Dietmar Heinrich Sarnetzki an Stefan Zweig, 1931-12-13, SZ-SAM/AK.168",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.452/IMG.1",
+      "https://gams.uni-graz.at/o:szd.452/IMG.2",
+      "https://gams.uni-graz.at/o:szd.452/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Dietmar Heinrich Sarnetzki an Stefan Zweig, 1931-12-13, SZ-SAM/AK.168\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.168\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.288865+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "31.12.32\n\nKöln, Luftbild",
+      "notes": "Vorderseite einer Ansichtskarte mit Luftaufnahme des Kölner Doms. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Dr. Stefan Zweig\nund Frau Gemahlin\nSalzburg, Kapuzinerberg 5\nOesterreich\n\nSehr verehrter und lieber Herr Dr. Zweig, an der\nSchwelle des alten und neuen Jahres Jahre[?] \ngütes wünschen und hoffentlich besseres gestern\nkam mir Ihre und Frau verehrte Frau G.\nmeine mit [?] Grüßen und Wünschen,\nund danken für Ihre freundliche\nReise Grüße. Habe ich Ihnen eigentlich für den\neben Sonderdruck vom Mozarts Geburt-\nhaus gedankt? Ich bin meines Tags auch\nallzu sehr und danke Ihnen auch dafür\ndie Hand. In alter Ergebenheit\nIhr Sarnetzki und Frau",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarken und Poststempel vorhanden. Der Text ist teilweise schwer lesbar, insbesondere die Zeilen 5-7."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Mittelteil des Textes). Die Transkription der Postkartenrückseite erfolgte nach bestem Wissen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 567,
+    "total_words": 91,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

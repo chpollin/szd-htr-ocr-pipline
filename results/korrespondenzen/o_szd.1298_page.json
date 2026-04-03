@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1298",
+    "title": "Ansichtspostkarte an Friedrich von Oppeln-Bronikowski ohne Datum, SZ-SHB/B7",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1298/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1298/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1298/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Friedrich von Oppeln-Bronikowski ohne Datum, SZ-SHB/B7\n- Signatur: SZ-SHB/B7\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:26.749186+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Roisin (Caillou-qui-Bique). — Allée de la Crèmerie Laurent Quenon, restaurateur.\nA. Godry, Roisin.",
+      "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Viele herzliche Grüße\naus Verhaerens Haus\n\nStefan Zweig\n\nJe suis heureux mon cher\nMonsieur de parler de vous\navec M. Stephan Zweig qui,\nen ces jours, est mon hôte. Et\ntoute ma reconnaissance s'en\nva vers vous, quand Zweig\nm'assure de l'attention que\nvous prête a mon art. Je suis\ncharmé d'être apprécié par un\ncritique de votre valeur. Bien a vous\nEmile Verhaeren.\n\n[Vertikal am rechten Rand:]\nNach Bois a/Sehlern\nTirol\n\n[Adressfeld:]\nFrieda de Oppeln-Bronikowski\nBois a/Sehlern\nTirol\n~~Charlottenburg-Berlin~~\n~~Monsieur [?]~~",
+      "notes": "Rückseite der Postkarte. Der Text ist in violett geschrieben. Die Adresse wurde teilweise durchgestrichen und durch 'Bois a/Sehlern' ersetzt. Der Text von Verhaeren ist an den Ehemann (Friedrich) gerichtet, die Adresse an die Ehefrau (Frieda)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Viele herzliche Grüße\naus Verhaerens Haus\n\nStefan Zweig\n\nJe suis heureux mon cher\nMonsieur de parler de vous\navec M. Stephan Zweig qui,\nen ces jours, est mon hôte. Et\ntoute ma reconnaissance s'en\nva vers vous, quand Zweig\nm'assure de l'attention que\nvous prête a mon art. Je suis\ncharmé d'être apprécié par un\ncritique de votre valeur. Bien a vous\nEmile Verhaeren.\n\n[Vertikal am rechten Rand:]\nNach Bois a/Sehlern\nTirol\n\n[Adressfeld:]\nFrieda de Oppeln-Bronikowski\nBois a/Sehlern\nTirol\n~~Charlottenburg-Berlin~~\n~~Monsieur [?]~~",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbkarten-Referenz."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der handschriftlichen Kursivschrift von Verhaeren gut lesbar. Die durchgestrichenen Passagen sind eindeutig als solche identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1152,
+    "total_words": 177,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

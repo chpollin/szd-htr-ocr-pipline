@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1462",
+    "title": "Brief an Stefan Zweig vom 20. Juni 1940, SZ-AAP/B3.26",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1462/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1462/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1462/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 20. Juni 1940, SZ-AAP/B3.26\n- Signatur: SZ-AAP/B3.26\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:35.230326+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS · COMPOSERS · STAGE & FILM PRODUCERS · MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS · LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON · S · W · 1\n\nTELEPHONES\nWHITEHALL {0175\n0176\n\nJune 20th, 1940.\n\nDr. Stefan Zweig,\nLyncombe Hill,\nB a t h .\n\nDear Dr. Zweig,\n\nThe Theatre Guild has written to us recently, enclosing copy of their\nletter to you, of May 24th. We notice that this letter was sent to your former\naddress at Lansdown Lodge, and therefore we wonder whether it has been forwarded\nto you. Should this not be the case, please let us know, when we will be glad to\nsend you copy of the above-mentioned letter.\n\nTo-day, we have received another letter from the Theatre Guild, asking\nus to speed up the settlement of the film matter \"VOLPONE\", but much as we would\nlike to do so, we cannot take any further steps in the matter until we have heard\nfrom you again. In view of the facts stated by the Theatre Guild, you will perhaps\nreconsider the position, and confirm the suggestion made in a previous letter\nregarding your preparedness to share the monies you received for the French Film\nRights, with the Theatre Guild.\n\nWe regret not having heard from you after your letter of acknow-\nledgement of June 1st, and hope you will settle the question by taking the necessary\nsteps for remittance of half your share in the above-mentioned proceeds, to the\nTheatre Guild, through our medium. Awaiting your instructions,\n\nwe are,\n\nYours sincerely,\n\n[Unterschrift]",
+      "notes": "Typoskript auf Briefpapier mit Firmenkopf. Die Unterschrift ist handschriftlich, aber unleserlich. Die Seitenzahl '7' ist handschriftlich in roter Tinte oben rechts vermerkt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung. Überlagert den unteren Teil des Briefes (Text ab 'Rights, with the Theatre Guild...' bis zum Ende des Briefes ist durch die Skala verdeckt)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die Unterschrift auf Seite 1 ist nicht entzifferbar, wurde aber als solche markiert. Die Überlagerung durch die Farbskala auf Seite 3 beeinträchtigt die Lesbarkeit des Originals nicht, da der Text bereits auf Seite 1 vollständig erfasst wurde.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1532,
+    "total_words": 264,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

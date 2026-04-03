@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1687",
+    "title": "Brief an Anna Meingast vom 2. Juni 1938, SZ-SAM/B7.103",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1687/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1687/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 2. Juni 1938, SZ-SAM/B7.103\n- Signatur: SZ-SAM/B7.103\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.772468+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "2.Juni 1938.\n\nLiebe Frau Meingast!\n\nIch habe sofort an Herrn Dr. Geiringer ge-\nschrieben und hoffe, dass er die Sache gleich erledi-\ngen kann. Mit einer Ueberweisung an Sie ist es nicht\nganz leicht. Ich kann ja als Auslandsösterreicher\nschon seit mehr als einem Jahr nicht mehr über mein\neigenes Geld ohne Bewilligung verfügen.\n\nDarf ich Sie nun bitten, dass Sie mir mit-\nteilen, wie hoch der Stand der Postsparkasse ist, al-\nlenfalls auch der bei der Bayrischen Vereinsbank, wenn\nes an Sie kommen sollte, weil ich das für die Anmeldung\nbrauche. Ausserdem wäre ich Ihnen dankbar, wenn Sie ein-\nmal bei der Länderbank vorbeigingen und dort ersuchten,\nden Stand meines Kontos Dr. St.Z. mir hierher nach Hal-\nlamstreet zu schicken, da ich es gleichfalls zu Anmel-\ndungszwecken benötige.\n\nDie Bibliographie und das Hauptbuch behalten\nSie bitte ruhig bei sich. Vielleicht nimmt sie einmal\nmeine Frau an sich.\n\nGemütsmässig geht es mir nicht zum besten.\nIch habe furchtbar viel Aerger und vor allem mit dem\nVerlag Reichner, der sich erbärmlich benimmt. Dann die\nerhöhten Kosten und das einschmelzende Einkommen und\nüberhaupt die ganze absurde Situation, dass man seine\neigene Mutter, die allein ist, nicht so bald wird sehen\nkönnen. Nächstes Jahr muss ich zu einer sehr anstrengen-\nden Vortragsreise nach Amerika, wie ja überhaupt das Le-\nben statt in den älteren Jahren ruhiger, immer anstren-\ngender wird. Ich hoffe sehr, dass es Ihnen gut geht und\nSie vielleicht im Sommer oder sonst doch zu einer Arbeit\ngelangen. Es ist alles im Leben schlecht verteilt, der\neine hat zu viel und der andere zu wenig. Grüssen Sie\nmir bitte vielmals Herrn Schierl, wenn Sie ihn sehen\nund auch Johann.\n\nViele Grüsse\n\nvon Ihrem\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Die Unterschrift 'Stefan Zweig' ist handschriftlich hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1718,
+    "total_words": 284,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

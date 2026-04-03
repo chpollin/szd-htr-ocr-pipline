@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.684",
+    "title": "Fritz Diettrich an Stefan Zweig, SZ-SAM/AK.46",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.684/IMG.1",
+      "https://gams.uni-graz.at/o:szd.684/IMG.2",
+      "https://gams.uni-graz.at/o:szd.684/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Fritz Diettrich an Stefan Zweig, SZ-SAM/AK.46\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:24.558371+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung der Kathedrale Notre-Dame in Paris. Unten links der Schriftzug 'Yvon'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "An\nHerrn Dr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nDeutsch-Österreich\n\nLieber Dr. Stefan Zweig, viele herzl.\nGrüße aus Paris! Stöbern wir im Vol-\ngewirr in einzelnen Figuren (z.B. Cor-\nbas[?] [?]) wirkt, im ganzen aber sehr\nzerstreuend. Ich müßte an die frevelige\nDarstellung der Volgane[?] im Dolden denken.\nNächste Woche gehen wir auf 2\nMonate in die Bretagne. Wenn ich zurück\nbin und fahre, werde ich mir erlauben\nIhnen ein kleines Werklein zu senden!\nBis dahin viele Grüße u. Lebenswünsche von\nIhrem geb. Fritz Diettrich (Deltner[?])",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Der Text ist teilweise über den gedruckten Bereich der Adresse geschrieben. Briefmarke oben rechts, Poststempel 'PARIS 15-8 30'. Der Name des Absenders am Ende ist schwer lesbar, 'Deltner' oder ähnlich."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Gesamtansicht der Rückseite der Postkarte mit Archiv-Farbskalen und Grauskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Eigennamen und die Wörter 'Corbas' und 'Volgane' sowie die Klammer am Ende des Textes. Der Text überlagert teilweise die gedruckten Linien der Postkarte.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 537,
+    "total_words": 85,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

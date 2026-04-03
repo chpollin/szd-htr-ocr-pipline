@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.397",
+    "title": "Marcel Martinet an Stefan Zweig, 1922-10-25, SZ-SAM/AK.117",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.397/IMG.1",
+      "https://gams.uni-graz.at/o:szd.397/IMG.2",
+      "https://gams.uni-graz.at/o:szd.397/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Marcel Martinet an Stefan Zweig, 1922-10-25, SZ-SAM/AK.117\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.117\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.658619+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "PARIS - La Chambre des Députés L. D.\n\n25. Okt. 22.",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Gebäude der französischen Abgeordnetenkammer. Handschriftliche Datumsnotiz oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "25 octobre 1922. Cher Stefan, les nouvelles\nque j'ai reçues de toi, par tes cartes et par les\namis, m'ont fait bien plaisir. Mme Reber\nm'écrit qu'elle a terminé la traduction de la\nNuit et je me suis permis de te charger de mes\nintérêts. Dis-moi ce que vaut la traduction. Je\nne lui demande aucun droit annuel. Je désirerais\nseulement qu'un tant pour cent me soit réservé sur\nla vente et éventuellement la représentation et je te\nprie d'en fixer le taux conformément aux usages.\nBien amicalement Marcel Martinet\n43 Avenue Gambetta xx!\n\nMonsieur\nStefan Zweig\n3 Kapuzinerberg\nSalzburg\nAutriche\n\nL. D. Paris",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Briefmarke und Poststempel vorhanden. Am rechten Rand vertikal geschrieben: 'Amical bonjour à tous deux Fernand Desprès'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Gesamtansicht der Rückseite der Postkarte mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift ist klar strukturiert.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 654,
+    "total_words": 115,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

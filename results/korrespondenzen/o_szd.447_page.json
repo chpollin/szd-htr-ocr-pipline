@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.447",
+    "title": "Richard Tomaselli an Stefan Zweig, 1926-06-29, SZ-SAM/AK.163",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.447/IMG.1",
+      "https://gams.uni-graz.at/o:szd.447/IMG.2",
+      "https://gams.uni-graz.at/o:szd.447/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Richard Tomaselli an Stefan Zweig, 1926-06-29, SZ-SAM/AK.163\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.163\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.940339+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "von meinem Kampf und meinen Genossen 29/6.\n[...1...] Rorenhoanz[?]. Herzlichst [?] ich cen 1926\nIhre Frau Gemahlin der dankbaren\nDas „tränende Angesicht“ stammt nicht Richard Tomaselli\nvon mir! Das ist eine böswillige Verleumdung.\nJedenfalls: „Tomaselli in Paris“ ist ein\nKapitel, würdig des größten bemerkten[?].",
+      "notes": "Vorderseite der Postkarte mit Bildmotiv (Eiffelturm). Handschriftliche Notizen in violett/schwarzer Tinte über das Bild geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Paris, le 29. Juni 1926.\n\nDie Reeperbahn wird seit\nzwei Tagen in Paris fortgesetzt. Sie\nmüssten dabei sein! Sehr schönen\nDank für den Einschreibebrief.\nHerzlichst Dankbarsten\nDie „Erinnerung der\nJubiläe“ ist vollständig\nMorgens abends bauenden\nGegenbesuch nach Hause\n(Salzburger Romanautor\ndas Genie nicht von uns [?] anderen\n\nAutriche!\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nAutriche",
+      "notes": "Rückseite der Postkarte. Handschriftlich in violett/schwarzer Tinte. Poststempel 'PARIS 18 30 VI 1926'. Briefmarke 'REPUBLIQUE FRANCAISE 75c'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Paris, le 29. Juni 1926.\n\nDie Reeperbahn wird seit\nzwei Tagen in Paris fortgesetzt. Sie\nmüssten dabei sein! Sehr schönen\nDank für den Einschreibebrief.\nHerzlichst Dankbarsten\nDie „Erinnerung der\nJubiläe“ ist vollständig\nMorgens abends bauenden\nGegenbesuch nach Hause\n(Salzburger Romanautor\ndas Genie nicht von uns [?] anderen\n\nAutriche!\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nAutriche",
+      "notes": "Farbskala/Grauskala für Archivierung. Die Postkarte ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise über das Bildmotiv geschrieben, was die Lesbarkeit erschwert. Einige Wörter sind aufgrund der kursiven Schreibweise und der Überlagerung mit dem Bildhintergrund unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1087,
+    "total_words": 154,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

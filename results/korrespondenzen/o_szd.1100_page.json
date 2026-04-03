@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1100",
+    "title": "Postkarte an Max Fleischer vom 13. Juli 1902, SZ-LAS/B3.21",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1100/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1100/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1100/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 13. Juli 1902, SZ-LAS/B3.21\n- Signatur: SZ-LAS/B3.21\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.014673+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Postkarte\n\nAn Max Fleischer\n\nin Komotau in Böhmen\nVilla Fleischer",
+      "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 14.7.02 VII. Briefmarke: Deutsches Reich 5 Pfennig, Poststempel BERLIN 13.7.02."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Heil dem Zeitbesprochenen Fleischerknaben!\nSt. Z.\n\nIch habe die ganze Tragik Ihres\nBriefs empfunden. Aber, ganz be-\nstimmt stört es nicht.\nLiebsten Gruß Ihr St. Zweig",
+      "notes": "Textseite der Postkarte. Die Handschrift ist flüchtig."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Heil dem Zeitbesprochenen Fleischerknaben!\nSt. Z.\n\nIch habe die ganze Tragik Ihres\nBriefs empfunden. Aber, ganz be-\nstimmt stört es nicht.\nLiebsten Gruß Ihr St. Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der flüchtigen Handschrift gut lesbar. Die Identifikation von 'St. Z.' als Stefan Zweig ist durch den Kontext des Nachlasses gesichert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 397,
+    "total_words": 62,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.95,
+    "edited_pages": [
+      2
+    ],
+    "notes": "Page 1 (address side): Correctly transcribed — 'Postkarte', addressee 'Max Fleischer', 'Komotau in Böhmen', 'Villa Fleischer' all match image. Page 2 (text side): Two errors corrected in closing formula. (1) 'Ihr St.' was incorrectly placed at end of line 5 — 'Ihr' belongs on the final line as part of the closing formula. (2) 'Besten' corrected to 'Liebsten' based on letter shape (initial ascender loop consistent with Kurrent 'L', not 'B'). Corrected closing: 'Liebsten Gruß Ihr St. Zweig' (standard early-20th-c. closing formula). Page 3 correctly classified as color_chart.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
+  }
+}

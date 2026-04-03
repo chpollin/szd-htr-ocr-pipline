@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.459",
+    "title": "Gustav Schenk an Stefan Zweig, 1927-11-07, SZ-SAM/AK.174",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.459/IMG.1",
+      "https://gams.uni-graz.at/o:szd.459/IMG.2",
+      "https://gams.uni-graz.at/o:szd.459/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Gustav Schenk an Stefan Zweig, 1927-11-07, SZ-SAM/AK.174\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.174\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.868748+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "6 BLIDA — L'Eglise et la Montagne LL\n4.11.27.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Abs.: Gustav Schenk, Alger, poste restante\nAfrique du Nord\nCORRESPONDANCE\nHochverehrter Herr Doktor!\nAus der Algerie ~~er~~ beste und\nherzlichste Grüsse! Ich habe einen\nMonat in der Provence und auf dem\n>Stowaway< nach Oran, besuchte Sidi\nBel Abbès und kam nach Algier.\nWie oft denke ich an Sie, ver-\nehrter Herr Doktor, vielleicht glückt\nes mir noch einmal Sie zu sehen!\nIch versuche es, wenn ich von\nmeine Reise, die bis zum Frühjahr\ndauern kann, zurückkehre.\nMit verehrungswürdigster\nBegrüssung bleibe ich immer Ihr\ntief ergebenen\nGustav Schenk\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nAustria!",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarken und Poststempel vorhanden (Alger, 7.11.27)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala zur Archivierung, keine Transkription erforderlich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Durchstreichung im Text wurde gemäß Vorgabe erfasst.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 650,
+    "total_words": 104,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

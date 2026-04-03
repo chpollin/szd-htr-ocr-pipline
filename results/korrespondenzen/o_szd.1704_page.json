@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1704",
+    "title": "Ansichtspostkarte an Anna Meingast vom 12. Februar 1936, SZ-SAM/B7.71",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1704/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1704/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Anna Meingast vom 12. Februar 1936, SZ-SAM/B7.71\n- Signatur: SZ-SAM/B7.71\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.858141+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "R. C. Seine - 224.024 B\nC. F. I. P. — Paris.\nHOTEL LOUVOIS — Square Louvois — PARIS",
+      "notes": "Vorderseite einer Ansichtspostkarte. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "12.2.1936\n\nL. f. M. vielen Dank\nihr reise morgen ab\nerbitte post nach\nLondon 11, Portland\nPlace. Beste Grüße\n\nStefan\n\nAnna Meingast\nSalzburg (Autriche)\nLinzerstrasse 16",
+      "notes": "Rückseite der Postkarte. Handschrift in violetter Tinte. Poststempel 'PARIS R.P. 12 1936' und Briefmarke '90c RF' vorhanden."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Abkürzung 'L. f. M.' steht vermutlich für 'Liebe Frau Meingast'.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 251,
+    "total_words": 45,
+    "language_detected": "",
+    "language_match": true
+  }
+}

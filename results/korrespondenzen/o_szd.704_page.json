@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.704",
+    "title": "Brief an Stefan Zweig vom 27. Oktober 1937, SZ-AAP/B1.114",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.704/IMG.1",
+      "https://gams.uni-graz.at/o:szd.704/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 27. Oktober 1937, SZ-AAP/B1.114\n- Signatur: SZ-AAP/B1.114\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:25.484922+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\n                                     Briefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\n             ENGLAND\n\nRef.\n● \"Brennendes Geheimnis\"                   27.Oktober 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir erhielten heute von Herrn Justizrat Dr.Rosenberger,Berlin,das\nfolgende Schreiben:\n\n\" Sehr geehrter Herr Reichner !\n\nIm Besitze Ihres gefl.Schreibens vom 19.Oktober 37,\nbitte ich Sie,eine Urkunde als \" Quit Claim \" dahin auszu-\nstellen,dass Sie eine Zession der Filmrechte der in Ihrem\nVerlag erschienenen Novelle \" Brennendes Geheimnis \" an\ndie Columbia Pictures Limited,139,Wardour Street,London W.1\nabtreten,\"falls Sie selbst solche besitzen sollten\".Diese\nUrkunde muss beim amerikanischen Generalkonsulat in Wien\nlegalisiert sein.\n\nIch darf Sie im Interesse des Herrn Dr.Stefan Zweig\nbitten,das Erforderliche zu veranlassen.\n\n                               Mit verbindlicher Empfehlung\n                               Dr.Rosenberger\n                               Justizrat \"\n\nBitte teilen Sie uns umgehend mit,ob Sie damit einverstanden sind,dass\nwir eine derartige Urkunde ausstellen,und ob wir in Ihrem Auftrage\nHerrn Dr.Josef Geiringer damit befassen dürfen,die nötigen Schritte\nwegen der Legalisierung zu unternehmen.\n\nWir danken Ihnen für baldige Antwort im voraus bestens und begrüssen\nSie als\n\n                               Ihre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte), jedoch im Scan nur sehr schwach bzw. als Abdruck erkennbar. Der Text ist sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite ist sichtbar, wurde gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift am Ende der ersten Seite ist etwas blass, aber eindeutig als solche identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1454,
+    "total_words": 167,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

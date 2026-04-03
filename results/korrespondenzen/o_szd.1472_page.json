@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1472",
+    "title": "Brief an Stefan Zweig vom 27. März 1931, SZ-AAP/B5.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1472/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1472/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1472/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 27. März 1931, SZ-AAP/B5.2\n- Signatur: SZ-AAP/B5.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:35.784731+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "color_chart",
+      "text": "H. Aschehoug & Co.\n(W. Nygaard)\nTelegramadresse: „Aco“\nOslo, d. 27./3. 1931\n\nHerrn Stefan Zweig,\n\nS a l z b u r g.\nKapuzinerberg 5.\n\nWir gestatten uns Ihnen beigefügt als\nHonorar ein für alle Mal für Ihr Buch „Heilung\ndurch den Geist“ einen Scheck von\nRM. 400.00 zu übersenden, und sehen Ihrer\nBestätigung gern entgegen.\n\nHochachtungsvoll\npr. pr. H. Aschehoug & Co.\n\nMN./AF.\nCheck.",
+      "notes": "Typoskript auf Briefpapier mit Firmenkopf. Die Unterschrift ist handschriftlich, aber aufgrund der Überlagerung durch die Farbskala in Scan 3 nur teilweise sichtbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "H. Aschehoug & Co.\n(W. Nygaard)\nTelegramadresse: „Aco“\nOslo, d. 27./3. 1931\n\ndurch den Geist“ einen Scheck von\nRM. 400.00 zu übersenden, und sehen Ihrer\nBestätigung gern entgegen.\n\nHochachtungsvoll\npr. pr. H. Aschehoug & Co.",
+      "notes": "Scan mit aufgelegten Farb- und Grauskalen zur Archivierung. Der Text ist teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Verdeckung durch Archivierungshilfen in Scan 3 beeinträchtigt die Lesbarkeit des Gesamtdokuments nicht, da der Text in Scan 1 vollständig vorliegt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 605,
+    "total_words": 100,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

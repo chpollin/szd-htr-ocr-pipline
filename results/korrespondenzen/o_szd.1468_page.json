@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1468",
+    "title": "Brief an die Theatre Guild, New York, vom 10. Juni 1940, SZ-AAP/B3.32",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1468/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1468/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1468/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an die Theatre Guild, New York, vom 10. Juni 1940, SZ-AAP/B3.32\n- Signatur: SZ-AAP/B3.32\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:35.430068+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                    10th June 1940.\n\nThe Theatre Guild,\n245 West 52nd Street,\nNew York City.\n\nDear Sirs,\n\nI have to-day received your letter of May 24th.\nI will discuss the whole matter with my lawyer within the\nnext days and then let you know in detail my position.\n\nTo-day I only wish to state quite clearly that\nthe first thing which informed me that an option had been\ngiven was a letter of the International Copyright Bureau\nof May 21st, 1940 saying that certain difficulties had\narisen with regard to an option given by you to a certain\nMr. Hakim. Until May 21st I have not have the slightest\nknowledge of this deal which has been concluded without\nmy knowledge or consent. And up to this very day I do not\nknow any details about it; neither you nor Dr. Pauker nor\nthe International Copyright Bureau have informed me about\nthe proceedings, the conclusion of the agreement, about\nits conditions, and until to-day I have not touched a\nsingle penny for it nor do I know the amount which has\nbeen agreed upon, and paid over to other persons.\n\nYou will understand this matter and its im-\nplications require careful consideration which party is\nresponsible ~~in~~ in this matter. In any case not me\nwho did not even hear about this deal until May 21st 1940.\n\nYours sincerely,",
+      "notes": "Typoskript auf Briefpapier. Rote handschriftliche Ziffer '4' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die Durchstreichung '~~in~~' wurde korrekt als solche identifiziert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1323,
+    "total_words": 226,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

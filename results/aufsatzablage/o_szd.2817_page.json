@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2817",
+    "title": "Aufsätze D",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA-D",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2817/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2817/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2817/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Register"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Aufsätze D\n- Signatur: SZ-AAP/W-AA-D\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:08.885522+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufsätze\n---------\n\nDante\nDehmel ✓\nDenkmäler des Theaters ✓\nDeutschland, Ein Wort von ✓\nDichter der Aufrichtigkeit, E[?]in ✓\nDichter, Vom \" österreichischen \" ✓\nDostojewski\nDrama in Tausendundeine Nacht, Das ✓\nDrinkwater, Abschied von John ✓\nDeutsche Bücherei, Die ✓",
+      "notes": "Typoskript mit handschriftlichen Häkchen (✓) und einer handschriftlichen Korrektur/Ergänzung bei 'E[?]in'. Die Seitenzahl '2' ist oben rechts handschriftlich vermerkt."
+    },
+    {
+      "page": 2,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Farbskala für Archivierung am unteren Rand."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Farbskala und Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die handschriftlichen Häkchen sind eindeutig als solche identifizierbar. Das 'E' in 'E[?]in' ist durch einen Tintenklecks oder eine Korrektur leicht überlagert, daher die Markierung.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 266,
+    "total_words": 41,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

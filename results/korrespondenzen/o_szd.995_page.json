@@ -1,0 +1,88 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.995",
+    "title": "Brief an Sigmund Freud vom 18. März 1927, SZ-LAS/B7.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.995/IMG.1",
+      "https://gams.uni-graz.at/o:szd.995/IMG.2",
+      "https://gams.uni-graz.at/o:szd.995/IMG.3",
+      "https://gams.uni-graz.at/o:szd.995/IMG.4",
+      "https://gams.uni-graz.at/o:szd.995/IMG.5",
+      "https://gams.uni-graz.at/o:szd.995/IMG.6"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 18. März 1927, SZ-LAS/B7.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 6 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:49.088213+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hôtel-Château Saint-Georges\n\nR. C. C.\n2349.2350\nRoute de Fréjus — CANNES\n\n18. III 1927\n\nVerehrter Herr Professor, zwei Tage\nvor meiner Abreise wage ich noch\nein kleines Wort an Sie. Gewiss wird\ndas Beethovenfest auch Sie mit Be-\nsuchen bedrängen — dennoch erlaube\nich mir ein einführendes Wort für\nJules Romains an Sie zu richten,\n— nicht weil er einer der besten Dichter\nFrankreichs ist, sondern weil er als\nder erste der französischen Dichter jenen",
+      "notes": "Brief auf Hotelbriefpapier. Handschrift in Tinte. Die Seite ist identisch mit Scan 2."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Hôtel-Château Saint-Georges\n\nR. C. C.\n2349.2350\nRoute de Fréjus — CANNES\n\n18. III 1927\n\nVerehrter Herr Professor, zwei Tage\nvor meiner Abreise wage ich noch\nein kleines Wort an Sie. Gewiss wird\ndas Beethovenfest auch Sie mit Be-\nsuchen bedrängen — dennoch erlaube\nich mir ein einführendes Wort für\nJules Romains an Sie zu richten,\n— nicht weil er einer der besten Dichter\nFrankreichs ist, sondern weil er als\nder erste der französischen Dichter jenen",
+      "notes": "Brief auf Hotelbriefpapier. Handschrift in Tinte. Identisch mit Scan 1."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Aufsatz über Ihr Werk in der\nNouvelle Revue Francaise schrieb,\nder stärksten Einfluss hatte. Er ist\nbeim Beethoven Fest in Wien und\nder Gedanke, Sie sehen zu dürfen,\nwürde ihn sehr beglücken. Hoffentlich\nerlaubt Ihre Gesundheit ihm eine halbe\nStunde.\n\nMeine Verehrung ist immer,\nmeine Gedanken oft bei Ihnen!\n\nIhr getreu ergebener\n\nStefan Zweig",
+      "notes": "Rückseite des Briefes. Handschrift in Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar)."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar)."
+    },
+    {
+      "page": 6,
+      "type": "color_chart",
+      "text": "Hôtel-Château Saint-Georges\n\nR. C. C.\n2349.2350\nRoute de Fréjus — CANNES\n\n18. III 1927\n\nVerehrter Herr Professor, zwei Tage\nvor meiner Abreise wage ich noch\nein kleines Wort an Sie. Gewiss wird\ndas Beethovenfest auch Sie mit Be-\nsuchen bedrängen — dennoch erlaube\nich mir ein einführendes Wort für\nJules Romains an Sie zu richten,\n— nicht weil er einer der besten Dichter\nFrankreichs ist, sondern weil er als\nder erste der französischen Dichter jenen",
+      "notes": "Vorderseite des Briefes mit Farbskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1694,
+    "total_words": 279,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

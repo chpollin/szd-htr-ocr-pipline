@@ -1,0 +1,110 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.133",
+    "title": "Vertrag Livraria CIVILIZACAO",
+    "language": "fr",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.56",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.133/IMG.1",
+      "https://gams.uni-graz.at/o:szd.133/IMG.2",
+      "https://gams.uni-graz.at/o:szd.133/IMG.3"
+    ],
+    "date": "6 décembre 1938",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze und violette Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "32x20 cm"
+      },
+      "notes": "Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag Livraria CIVILIZACAO\n- Signatur: SZ-AAP/L13.56\n- Datum: 6 décembre 1938\n- Sprache: Französisch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.261326+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "M. Stefan ZWEIG, 49 Hallam Street, London W.1.\ncède à la Livraria CIVILIZACAO, Rua do Almada 107,\nPorto, les droits de publication en langue portugaise\nexclusivement en Portugal et ses colonies pour son\nlivre\n\"UNGEDULD DES HERZENS\"\npour lequel M. Stefan Zweig recevra la somme de\n10% (dix pour cent) sur le prix de vente du livre.\n\nLe livre doit paraître dans une période d'un an à\npartir de la signature du contrat.\n\nMr. Zweig recevra cinq exemplaires du livre aussitôt\nqu'il aura paru.\n\nLes droits d'auteurs seront payés le 1 juin et le\n1 janvier de chaque année.\n\nStefan Zweig [Unterschrift] [Unterschrift]\nLondres, le 6 décembre 1938 Porto, le 9 décembre 1938",
+      "notes": "Das Dokument ist ein maschinenschriftlicher Durchschlag. Die Unterschriften sind handschriftlich hinzugefügt. Die Datumsangaben sind ebenfalls handschriftlich ergänzt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, keine Beschriftung erkennbar (durchscheinender Text von Seite 1)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite mit Farb- und Grauskala, keine historischen Textinhalte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 663,
+    "total_words": 113,
+    "language_detected": "fr",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.998,
+    "edited_pages": [],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
+  }
+}

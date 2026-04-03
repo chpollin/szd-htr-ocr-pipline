@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.728",
+    "title": "Brief an Herbert Reichner vom 22. November 1937, SZ-AAP/B1.136",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.728/IMG.1",
+      "https://gams.uni-graz.at/o:szd.728/IMG.2",
+      "https://gams.uni-graz.at/o:szd.728/IMG.3",
+      "https://gams.uni-graz.at/o:szd.728/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 22. November 1937, SZ-AAP/B1.136\n- Signatur: SZ-AAP/B1.136\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:26.633678+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "22. November 1937.\n\nGeehrter Herr Reichner!\n\nDank für Ihren Brief vom 19.11. Aber ich\nfürchte, Sie haben den Sinn des meinen nicht verstan-\nden. Der Malik-Verlag hat hier nie produziert, sondern\nnur in sehr richtiger Weise die Niederlassung hier ge-\nmacht, um im Fall von Beschlagnahmen usw. sein Lager und\nsein Eigentum schützen zu können. An ein Produzieren\nhier oder in Holland in jenem in Aussicht genommenen\nFalle kann man ja vorläufig gar nicht recht denken,\nweil der Absatzraum so verschmälert würde, dass Produ-\nzieren überhaupt dubios würde. Dies ist eine Frage\nzweiter Ordnung. Ich habe zunächst an nichts gedacht\nals an eine Dachgesellschaft oder Auffangegesellschaft\nnomineller Natur, welche den ganzen Bestand des HRV\nübernimmt und dann im Falle von Schwierigkeiten viel\nenergischer auftreten kann als Herr Stromayer oder Herr\nAegidius es vermöchte. Die Spesen sind etwa diejenigen\neiner Feuerversicherung und ich hätte eine solche Sache\nfür äusserst ratsam gehalten, weil damit die Lage be-",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "stände und deren allfällige Umlagerung gesichert ist.\nWeitere Produktion und Aufenthalt ist na-\ntürlich ein anderes Kapitel. Aber ich bin zum Beispiel\nüberzeugt, dass man in der Schweiz als Produktionslei-\nter eines englischen Verlags und Leiter deren kontinen-\ntalen Niederlassung keine Schwierigkeiten hätte. Aber\nwie gesagt, das kommt ja noch nicht in Betracht. Ich\nhabe nur an eine Dachgesellschaft gedacht und darüber\nsollten Sie einmal ausführlich sprechen. In einem Un-\nglücksfall ist eine Assekuranz ein grosser Vorteil, und\ntritt er nicht ein, lebt man bis hundert Jahre weiter,\nso ist es wiederum kein malheur, die Prämie umsonst ge-\nzahlt zu haben.\nIch erhielt heute zwei Exemplare des \"Ma-\ngellan\" und die vier Pakete, sodass jetzt alles auf hun-\ndert Exemplare stimmt. Auch bei \"Begegnungen\" muss ich\nnoch gegenüber meiner Reklamation zwei Exemplare zuzäh-\nlen, sodass auch hier tatsächlich alles richtig einge-\ntroffen ist. Die Vorzugsausgabe ist wohl unterwegs, da-\ngegen haben Sie mir nicht gesandt einen Probeabzug der\nIllustrationen für die Vorzugsausgabe, von denen doch\nLord Carlow die eine oder die andere für seine Ausgabe",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2)\n\nvon dreissig Stück kaufen wollte.\nInzwischen geht trotz aller Mühsal die neue\nArbeit vorwärts.\n\nMit den besten Empfehlungen\n\nKleiner Vermerk: bei \"Begegnungen\", \"Magellan\", \"No-\nvellenbänden\" ist der Pappumschlag um ein Atom zu eng.\nEs ist immer ein Kampf, das einzelne Buch herauszuzer-\nren.",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2444,
+    "total_words": 374,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

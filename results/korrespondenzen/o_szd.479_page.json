@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.479",
+    "title": "Sergej Tocker an Stefan Zweig, 1930-05-06, SZ-SAM/AK.192",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.479/IMG.1",
+      "https://gams.uni-graz.at/o:szd.479/IMG.2",
+      "https://gams.uni-graz.at/o:szd.479/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Sergej Tocker an Stefan Zweig, 1930-05-06, SZ-SAM/AK.192\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.192\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.265343+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "7.5.30\n\nLWÓW. Kościół O. O. Bernardynów.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung einer Kirche in Lemberg (Lwów). Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lwów 6.V.30\nLieber Herr Doktor!\n\nBeste Grüsse. Seit\n2 Wochen schaue ich\nhier auf die Städte\nu. Orte die in meinem\nLeben eine solch verschwommene\nRolle gespielt haben.\nJetzt ist es noch trostloser\nals vor dem Kriege. Interessant\nder Vergleich mit elnüben[?]\ns.xv.mene an die Frau\n\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\n[Unterschrift:]\nDr. S. Tocker",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Poststempel 'LWÓW 7 V 30'. Briefmarke 'POCZTA POLSKA' oben rechts. Der Text am Ende ist teilweise durch den Stempel und die Anordnung schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke, dazwischen die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise flüchtig und durch Überlagerungen (Poststempel) sowie durchscheinende Elemente erschwert lesbar. Besonders die Zeilen am unteren Ende der Nachricht sind aufgrund der Platzierung und Schriftführung unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 393,
+    "total_words": 62,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

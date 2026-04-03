@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2810",
+    "title": "Aufsätze U",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA-U",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2810/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2810/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2810/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Register"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Aufsätze U\n- Signatur: SZ-AAP/W-AA-U\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:08.282207+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufsätze\n--------\nUnbekannt ✓\nUrlaubsbedürftigen, Die ✓",
+      "notes": "Typoskript mit handschriftlichen Häkchen (✓) in Tinte. Oben rechts eine handschriftliche Signatur/Zahl 'U' in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Man sieht den durchscheinenden Text der Vorderseite (spiegelverkehrt)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Aufsätze\n--------\nUnbekannt ✓\nUrlaubsbedürftigen, Die ✓",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Grauskala und Farbkarte zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und klar lesbar. Die handschriftlichen Häkchen und die Signatur 'U' sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 110,
+    "total_words": 14,
+    "language_detected": "",
+    "language_match": true
+  }
+}

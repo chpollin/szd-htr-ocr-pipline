@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1115",
+    "title": "Postkarte an Max und Victor Fleischer vom 1. Januar 1903, SZ-LAS/B3.35",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1115/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1115/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1115/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max und Victor Fleischer vom 1. Januar 1903, SZ-LAS/B3.35\n- Signatur: SZ-LAS/B3.35\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.903010+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "ОТКРЫТОЕ ПИСЬМО.\nPostkarte — Carte postale — Correspondenz\nCartolina postale — Levelezö-Lap — Dopisnice — Briefkaart\nUnion postale universelle — Weltpostverein — Unione postale universale\nPostcard\n\nVictor & Max Fleischer\nKomotau\nin Böhmen",
+      "notes": "Adressseite der Postkarte. Der Poststempel '1.1.03 KOMOTAU' ist links über den Text gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Fröhliches Neujahr!\nStefan Zweig\nGeorg Busse-Palma\nE. M. Lilien\nFritz Stöber[?]\nDavis Trietsch",
+      "notes": "Bildseite der Postkarte mit handschriftlichen Unterschriften. 'E. M. Lilien' ist der Name des Künstlers der Illustration, die Unterschrift darunter ist 'E. M. Lilien' selbst. 'Fritz Stöber' ist schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Fröhliches Neujahr!\nStefan Zweig\nGeorg Busse-Palma\nE. M. Lilien\nFritz Stöber[?]\nDavis Trietsch",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala zur Dokumentation."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der gedruckte Text ist eindeutig. Die handschriftlichen Unterschriften sind gut lesbar, mit Ausnahme von 'Fritz Stöber', das aufgrund der kursiven Schrift leicht unsicher ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 426,
+    "total_words": 59,
+    "language_detected": "",
+    "language_match": true
+  }
+}

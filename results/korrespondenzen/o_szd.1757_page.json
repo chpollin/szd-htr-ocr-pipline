@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1757",
+    "title": "Brief an Herbert Reichner vom 1. November 1937, SZ-AAP/B1.119",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1757/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1757/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 1. November 1937, SZ-AAP/B1.119\n- Signatur: SZ-AAP/B1.119\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:00.257656+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                   1.November 1937.\n\nGeehrter Herr Reichner!\n\nIch bekomme noch aus Salzburg die letzte\nAbrechnung, die ich bitte, zu den Akten zu legen und {die in meinem Brief stehen,}\nbei der mir auffällt, dass statt der 20 % nur 15 % ge-\nzahlt wurden. Ich kann im Augenblick nicht kontrollie-\nren, wie lange dies geht, aber es ist mir wichtig, das\nallenfalls festzustellen. Bitte verlangen Sie jedes-\nfalls von Frau Tal unter dem Anschein, verhandeln zu\nwollen, den Vertrag, auf den sie sich stützt. Ich ha-\nbe inzwischen noch einmal an Seelig geschrieben um jene\nerste Vereinbarung, ausserdem habe ich Dr. Geiringer\ngeschrieben, dass ich mich auch bereit erklären würde,\nein Schiedsgericht anzunehmen, weil ich es nicht für\nnützlich halte, wenn in Oesterreich Juden Prozesse ge-\ngeinander führen.\n\nDass ich Frau Tal schreibe, können Sie von\nmir nicht verlangen. Sie handelt bewusst gegen die\nIntentionen und gegen den Willen ihres Mannes, der in",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in violett. Die Einfügung '{die in meinem Brief stehen,}' bezieht sich auf die Zeile 'bei der mir auffällt, dass statt der 20 % nur 15 % ge-'. Das Wort 'von Tal' wurde über der Zeile eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "achtzehn Jahren nie im Traum eine Forderung an mich\ngestellt hat und sich eher die Hand hätte abschlagen\nlassen, als gegen mich einen Prozess zu führen. Ich\nhabe mit hundert Verlegern zu tun gehabt und bin noch\nnie von irgendeinem in fast vierzig Jahren bedroht\nworden. Und jeder weiss, dass das Recht auf meiner\nSeite steht.\n\nSchönbergs Mahler-Studie können Sie direkt\ndurch Herrn Dr. Reich bekommen und ich würde Ihnen\nraten, sich sofort mit ihm deswegen in Verbindung zu\nsetzen.\n\nMit den besten Empfehlungen\n\nBeilage\n(Abrechnung 1.Halbjahr 37 von Tal)",
+      "notes": "Typoskript. Fortsetzung des Briefes von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der ersten Seite sind klar als solche identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1519,
+    "total_words": 241,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

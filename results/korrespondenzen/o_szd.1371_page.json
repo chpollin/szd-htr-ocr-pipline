@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1371",
+    "title": "Postkarte an Hugo Sinaiberger vom 12. März 1927, SZ-SEF/B8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1371/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1371/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1371/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Hugo Sinaiberger vom 12. März 1927, SZ-SEF/B8\n- Signatur: SZ-SEF/B8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:29.523228+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Nom\net adresse\nde l'expéditeur\nStefan Zweig\nCannes Hotel St. Georges\n\nCARTE POSTALE\n\nCANNES - [?]\n\n[Stempel: CANNES - 12 MARS 27]\n\n[Adressseite]\n\nMonsieur Hugo Sinaiberger\n(Praha) Prague\nPalais Lucerne",
+      "notes": "Die Adressseite enthält einen Poststempel 'CANNES 12 MARS 27'. Die gedruckten Teile der Postkarte wurden transkribiert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Sinaiberger\nleider ist das Recht für diese Novelle\nschon vergeben aber hoffentlich kann\nich Ihnen meine gute Gesinnung\nbei einer anderen Gelegenheit be-\nweisen. Ihr ergebener\nStefan Zweig",
+      "notes": "Handschriftlicher Text in violett/dunkler Tinte. Sehr gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Nom\net adresse\nde l'expéditeur\nStefan Zweig\nCannes Hotel St. Georges\n\nCARTE POSTALE\n\nCANNES - [?]\n\n[Stempel: CANNES - 12 MARS 27]\n\n[Adressseite]\n\nMonsieur Hugo Sinaiberger\n(Praha) Prague\nPalais Lucerne",
+      "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) inklusive der Farbskala-Referenz."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, der Kontext der Postkarte ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 601,
+    "total_words": 90,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

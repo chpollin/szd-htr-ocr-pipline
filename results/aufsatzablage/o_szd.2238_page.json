@@ -1,0 +1,185 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2238",
+    "title": "Incipit: \"geniessen wir, die Neutralen, aus der\n                        Entfernung...\"",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA199.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2238/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2238/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2238/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift",
+        "hands": [
+          "Stefan Zweig",
+          "Lotte Zweig"
+        ],
+        "inscriptions": [
+          "Monotonie\n                                 Eintönigkeit"
+        ]
+      },
+      "notes": "Text unbekannt"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Incipit: \"geniessen wir, die Neutralen, aus der\n                        Entfernung...\"\n- Signatur: SZ-AAP/W-AA199.1\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift\n- Hand: Stefan Zweig, Lotte Zweig\n- Anmerkungen: Text unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:57.650053+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                    9\n\ngeniessen wir, die Neutralen, aus der Ent-\nfernung unseres unbeteiligten bürgerlichen\nLebens wie eine grosse Tragödie. Wir leben\nheute, so {redet} man uns {vor} unablässig, inmitten\ngrosser Entscheidungen. Aber tun wir das in\nWirklichkeit nicht immer? Ein Krieg, der\neinen grossen Teil der zivilisierten Welt\nin Mitleidenschaft zieht, hat nur die Kraft,\n{ständig sich ereignenden}\ndiesen Entscheidungen einen schärferen und\nsichtbareren Umriss zu geben. Für die {zum Beispiel}\nwelche in den gegenwärtigen Krieg ver-\nstrickt sind - oder wenigstens für einen\nTeil von ihnen - wird das Grauen, die Not\nund die Langeweile des Kriegs zum Teil durch\ndie unnatürliche Erregung von Hass, der\nplötzlich einen Gegenstand gefunden hat und\n{aus} das Gefühl, einen Krauzzug für eine gu-\nte Sache zu führen, aufgewogen. Damit ist\nihnen das Gefühl der Sinnlosigkeit des\n{einigermassen}\nKriegs genommen, trotzdem sich der letzte\nKrieg als sinnlos erwiesen hat.\n\nMonotonie\nEintönigkeit\n\n      auch",
+      "notes": "Das Dokument enthält maschinengeschriebenen Text mit handschriftlichen Korrekturen und Ergänzungen (in violett und Bleistift). Die Randnotizen 'Monotonie'/'Eintönigkeit' und 'auch' sind handschriftlich hinzugefügt.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            76.5,
+            14.5,
+            1.5,
+            1.5
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Seitenzahl",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            41.8,
+            18.8,
+            42.8,
+            41.6
+          ],
+          "reading_order": 2,
+          "lines": 21,
+          "label": "Haupttext (Typoskript mit handschriftlichen Korrekturen)",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "marginalia",
+          "bbox": [
+            18.8,
+            45.5,
+            16.7,
+            3.4
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Marginalie: Monotonie Eintönigkeit",
+          "source": "surya"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            28.2,
+            57.7,
+            5.9,
+            1.3
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Marginalie: auch",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, unbeschrieben (Durchschlag-Abdruck).",
+      "image": "IMG_2.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            12.7,
+            19.0,
+            42.3,
+            41.7
+          ],
+          "reading_order": 1,
+          "lines": 22,
+          "label": "Haupttext (gespiegeltes Typoskript)",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "                                                                    9\n\ngeniessen wir, die Neutralen, aus der Ent-\nfernung unseres unbeteiligten bürgerlichen\nLebens wie eine grosse Tragödie. Wir leben\nheute, so {redet} man uns {vor} unablässig, inmitten\ngrosser Entscheidungen. Aber tun wir das in\nWirklichkeit nicht immer? Ein Krieg, der\neinen grossen Teil der zivilisierten Welt\nin Mitleidenschaft zieht, hat nur die Kraft,\n{ständig sich ereignenden}\ndiesen Entscheidungen einen schärferen und\nsichtbareren Umriss zu geben. Für die {zum Beispiel}\nwelche in den gegenwärtigen Krieg ver-\nstrickt sind - oder wenigstens für einen\nTeil von ihnen - wird das Grauen, die Not\nund die Langeweile des Kriegs zum Teil durch\ndie unnatürliche Erregung von Hass, der\nplötzlich einen Gegenstand gefunden hat und\n{aus} das Gefühl, einen Krauzzug für eine gu-\nte Sache zu führen, aufgewogen. Damit ist\nihnen das Gefühl der Sinnlosigkeit des\n{einigermassen}\nKriegs genommen, trotzdem sich der letzte\nKrieg als sinnlos erwiesen hat.\n\n      auch",
+      "notes": "Identisch mit Seite 1, jedoch ohne die Randnotizen 'Monotonie'/'Eintönigkeit', da diese durch die Farbskala verdeckt sind."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Ergänzungen sind eindeutig den entsprechenden Stellen im Typoskript zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2078,
+    "total_words": 292,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.785",
+    "title": "Brief an Herbert Reichner vom 9. März 1938, SZ-AAP/B1.188",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.785/IMG.1",
+      "https://gams.uni-graz.at/o:szd.785/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 9. März 1938, SZ-AAP/B1.188\n- Signatur: SZ-AAP/B1.188\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:31.661962+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "9.III.1938.\n\nSehr geehrter Herr Reichner!\nHerr Dr. Zweig bestätigt\nden Erhalt Ihrer Briefe und lässt Sie bitten, die\nihn zustehenden Freiexemplare hierher zu senden und\ndie Speditionskosten gleich in Wien in Schillingen X\nzu bezahlen, damit hier keine Nachzahlungen in Pfun-\nden notwendig sind.\n\n                                     Hochachtungsvoll\n\nX für ihn\n\n                                     Sekretärin",
+      "notes": "Typoskript auf Briefpapier. Das 'X' wurde handschriftlich mit Tinte eingefügt, um die Einfügung 'für ihn' zu markieren."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 409,
+    "total_words": 49,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

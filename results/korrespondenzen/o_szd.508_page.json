@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.508",
+    "title": " Unidentified an Stefan Zweig, 1932-10-03, SZ-SAM/AK.218",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.508/IMG.1",
+      "https://gams.uni-graz.at/o:szd.508/IMG.2",
+      "https://gams.uni-graz.at/o:szd.508/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1932-10-03, SZ-SAM/AK.218\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.218\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.026223+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Isola Bella - Lago Maggiore 13. X. 32",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text 'Isola Bella - Lago Maggiore', handschriftliches Datum '13. X. 32' in blauer Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\nSalzburg\n\nTanti saluti\nSuo Manon\n\nSchönsten Dank\nfür Ihre l. Zeilen.\nWerde in Wien vor-\naussichtlich am 14. X.\nringen [?] Chemin.\nHerzlichst Ihr Manon",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht in blauer Tinte. Briefmarken und Poststempel vorhanden. 'l.' steht vermutlich für 'lieben'. Das Wort 'ringen' ist schwer lesbar, möglicherweise ein Eigenname oder eine Ortsbezeichnung."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke. Die Postkarte ist identisch mit der Rückseite aus Scan 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise flüchtig. Das Wort 'ringen' und der Name 'Manon' (der als Absender fungiert) sind aufgrund der kursiven Schreibweise schwer eindeutig zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 206,
+    "total_words": 36,
+    "language_detected": "",
+    "language_match": true
+  }
+}

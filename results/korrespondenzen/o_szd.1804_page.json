@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1804",
+    "title": "Brief an Meulenhoff en Co. vom 18. Mai 1938, SZ-AAP/B1.238",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1804/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1804/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Meulenhoff en Co. vom 18. Mai 1938, SZ-AAP/B1.238\n- Signatur: SZ-AAP/B1.238\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.500702+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "18.Mai 1938.\n\nMeulenhoff & Co. N.V.,\nRokin 44,\nAmsterdam.\n\nSehr geehrte Herren!\n\nIch habe leider, obwohl der Autor\ndes Herrn Reichner, ebensowenig seine Adresse von ihm\nerhalten können. Er meldet sich nur per hauptpostla-\ngernd. Und ebensowenig wie er es für nötig befunden\nhat, Sie zu verständigen, dass er Ihnen die Ausliefe-\nrung entzogen und ausschliesslich dem Schweizerischen\nVereinssortiment zugeteilt hat, hat er es mir mitge-\nteilt, dass er versucht, meine Bücher in den nur auf\ndem Papier bestehenden Verlag Herbert Reichner Zürich\nzu übertragen. Meine Forderungen gehen ausschliesslich\nan den Herbert Reichner Verlag Wien-Leipzig-Zürich mit\ndem Sitz in Wien und da mir dieser Verlag Abrechnung\nbisher verweigert hat, bitte ich Sie, Beträge, die mei-\nne Bücher betreffen, vorläufig zurückzuhalten, bis die\nSituation rechtlich geklärt ist.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+      "notes": "Typoskript auf Briefpapier. Die Unterschrift fehlt im Dokument."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 896,
+    "total_words": 133,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

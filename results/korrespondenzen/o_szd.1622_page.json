@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1622",
+    "title": "Brief an Unbekannt, o. D., SZ-AAP/B1.267",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1622/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1622/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt, o. D., SZ-AAP/B1.267\n- Signatur: o. D., SZ-AAP/B1.267\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:48.949197+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Entwurf\n-------\n\nHerrn Herbert Reichner,\nHauptpostlagernd,\nZürich.\n\nMein Klient Herr Dr. Stefan Zweig zeigt mir einen\nvon Ihnen, Herbert Reichner, unterzeichneten Abrechnungs-\nzettel über den Monatsabsatz eines gelegentlichen Einzel-\npostens seiner Bücher, die aus dem Verlag Herbert Reichner\nWien-Leipzig-Zürich stammen. Ich stelle fest, dass diese\nprivate, von Ihnen aufgestellte Notiz, nicht wie die frü-\nheren normalen Verlagsabrechnungen an meinen Klienten im\nNamen des Verlages Herbert Reichner Wien-Leipzig-Zürich\nerteilt ist, mit dem er einzig seine Verträge abgeschlos-\nsen hat und von dem er einzig Abrechnungen entgegenzunehmen\nund Bucheinsicht zu fordern berechtigt ist, sondern bloss\nin ihrem Namen als Privatperson ohne Angabe einer Nieder-\nlassungsadresse oder dass dies im ~~kam~~ Auftrag des Verlags\nHerbert Reichner Wien-Leipzig-Zürich erfolgt. Es liegt\nhier also neuerdings der schon gegenüber dem Schweizeri-\nschen Vereinssortiment zurückgewiesene Versuch vor, der\nseit Monaten unterbliebenen Gesamtabrechnung des Verlages\nHerbert Reichner Wien-Leipzig-Zürich buchmässig unkontrol-\nlierbare Einzelabrechnungen durch dritte Firmen oder Pri-\nvatpersonen zu substituieren. Ich erkläre im Auftrag\nmeines Klienten, dass er diesen Zettel selbstverständlich",
+      "notes": "Typoskript. Das Wort 'kam' ist durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "nicht als die fällige Abrechnung des Herbert Reichner Ver-\nlages Wien-Leipzig-Zürich anerkennt.\n\nIch stelle hiermit weiters zu Zwecken des Gerichts-\ngebrauches ausdrücklich fest, dass Herrn Dr. Stefan Zweig\nals Autor trotz wiederholter schriftlicher Aufforderung\ndie seit dem 1. April 1938 vergeblich geforderte Gesamt-\nabrechnung über sämtliche durch den Verlag verkaufte\nExemplare seiner Werke sowie die Mitteilung über die noch\nvorhandenen Lagerbestände in böswilliger Weise verweigert\nwird, was offenen Vertragsbruch seitens des Verlages be-\ndeutet.\n\nDa mein Klient durch diese beharrliche Verweigerung\nmit Recht beunruhigt ist, in seinen Ansprüchen benachtei-\nligt zu sein, und ausserdem am dem Sitze des Verlages in\nWien angebliche wesentliche den Verkauf im Ausland betref-\nfende Belege unauffindbar sein sollen, fordere ich Sie als\nden verantwortlichen Leiter des Verlages Herbert Reichner\nWien-Leipzig-Zürich auf, Herrn Dr. Stefan Zweig oder seinem\nRechtsvertreter die ihm nach dem Verlagsgesetz zustehende\nBucheinsicht in die Geschäftsbücher des Verlages Herbert\nReichner Wien-Leipzig-Zürich für das ganze letzte Jahr,\nalso 1.Juli 1937 bis 1. Juli 1938 zu gewähren, soweit\ndiese sich auf den Absatz und die Bestände seiner Bücher\nbeziehen.",
+      "notes": "Typoskript."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2519,
+    "total_words": 337,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

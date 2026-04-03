@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.93",
+    "title": "Vereinbarung Rózsavölgyi u. Comp., SZ-AAP/L13.16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.93/IMG.1",
+      "https://gams.uni-graz.at/o:szd.93/IMG.2",
+      "https://gams.uni-graz.at/o:szd.93/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Vereinbarung Rózsavölgyi u. Comp., SZ-AAP/L13.16\n- Signatur: SZ-AAP/L13.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:45.214146+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "HERREN\n\nRÓZSAVÖLGYI & COMP.\nBUCH- UND MUSIKVERLAG\nBUDAPEST, IV.\nSZERVIZA-TÉR 5.\n\nICH TRET E HI ERMIT DIE AUSSCHLIESSLICHEN UNGARISCHEN VERLAGSRECHTE\nAN MEINEN DREI KÜNFTIGEN WERKE DER FIRMA RÓZSAVÖLGYI & COMP.,\nBUDAPEST AB GEBEN DIESELBEN BEDINGUNGEN, ALS BEZÜGLICH MARIA STUART.\nEIN GLEICHZEITIGES ERSCHEINEN MIT DEN DEUTSCHEN URAUSGABEN WIRD MEI-\nNERSEITS/DURCH RECHTZEITIGE ÜBERSENDUNG DER MANUSKRIPTE ERMÖGLICHT.\n/soweit als möglich\nBUDAPEST, 23. APRIL 1935.\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Korrektur 'AB GEBEN', Einfügung '/soweit als möglich') und handschriftlicher Unterschrift. Die Zeile 'ICH TRET E...' weist Tippfehler auf (Leerzeichen in 'TRET E', 'HI ERMIT')."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz einiger Tippfehler im Typoskript sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 476,
+    "total_words": 63,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

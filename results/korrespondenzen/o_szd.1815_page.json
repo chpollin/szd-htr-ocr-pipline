@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1815",
+    "title": "Brief an Stefan Zweig vom 13. Juni 1938, SZ-AAP/B1.249",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1815/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1815/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Juni 1938, SZ-AAP/B1.249\n- Signatur: SZ-AAP/B1.249\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.301475+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bitte zurück\n\nEinschreiben.\n\nSchweiz. Vereinssortiment Olten\nTelegramm-Adr.: Sortiment Olten\nTelefon Nr. 2123 Postcheck Vb 107\n\nOlten, den 13. Juni 1938.\n\nHerrn Dr. Stefan Zweig,\n49, Hallam Street, L o n d o n W.1.\n\nSehr geehrter Herr Dr.,\n\nEs ist durchaus richtig, dass wir selbst keine Beweise haben,\nbis zu welchem Datum Herr Herbert Reichner mit Ihnen abgerechnet\nhat, wir haben uns bei dieser Mitteilung lediglich auf seine\nAngaben verlassen, so wie wir uns auf die Angaben betr. Honorar-\nansatz auf seine Unterlagen verlassen mussten.\n\nMit Ihrem neuen Schreiben werden wir in Differenzen einbezogen,\ndie uns gar nicht berühren. Es ist ganz selbstverständlich, dass\nwir einzig und allein dem Lieferanten gegenüber verpflichtet sind.\nNach unseren Konsultationen bei ersten Rechtsanwälten hat Herr\nHerbert Reichner persönlich (als Inhaber des Verlages) Anspruch auf\nZahlung. Wenn von anderer Seite von uns Zahlung gefordert wird,\nso wäre dem nur durch ein gerichtliches Urteil Folge zu leisten.\nDa Sie auch unsere Sendung von Fr.366.- vorerst nicht entgegen\nnehmen wollen, sehen wir uns veranlasst, folgende Erklärung abzugeben:\n\n1. Die Ueberweisung von Fr.366.- haben wir im Auftrag von Herrn\nHerbert Reichner vorgenommen und seinem Konto belastet. Was Sie\nmit diesem Gelde anfangen, ist für uns weiter belanglos, mit der\nAusführung des Auftrages von Herrn Reichner ist die Sache für\nuns erledigt.\n2. Um die zwischen Ihnen und Herrn Reichner bestehenden Differenzen\nausgleichen zu helfen, haben wir uns entgegenkommenderweise bereit\nerklärt, für die Ihnen aus der Sendung vom 12. März a.c. zukommenden\nHonorare gut zu stehen. Da nun diese Bereitwilligkeit von allerhand\nBedingungen abhängig gemacht wird und für uns Gefahr besteht, in\nden Streit der Meinungen hineingerissen zu werden, ziehen wir unsere\nErklärung ausdrücklich zurück. Wir stellen damit den Zustand, wie\ner vor dem Briefwechsel zwischen Ihnen und uns bestanden hat wieder\nher.\n3. Wir werden ab heute von keiner Seite Anweisungen betr. Guthaben und\nBücherbestand des Verlages Herbert Reichner entgegen nehmen, als\nvon Herrn Herbert Reichner persönlich, der nach unserem Handels-\ngesetzen für uns allein zuständig ist.\nWir bedauern sehr, verehrter Herr Dr., diese Erklärung abgeben zu\nmüssen, aber es ist für uns weiter unerträglich in Schwierigkeiten\nmitverwickelt zu werden, an denen wir weder ein Verschulden tragen,\nnoch irgendwie davon berührt sind.\nMit vorzüglicher Hochachtung\nSchweiz. Vereinssortiment\nOLTEN [Unterschrift]",
+      "notes": "Typoskript auf Geschäftspapier. Handschriftliche Notiz oben links: 'Bitte zurück' (violette Tinte). Handschriftliche Unterschrift unten rechts. Lochungen am linken Rand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Notiz oben links ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2498,
+    "total_words": 371,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

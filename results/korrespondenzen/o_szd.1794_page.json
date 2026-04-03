@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1794",
+    "title": "Brief an Stefan Zweig vom 12. Mai 1938, SZ-AAP/B1.228",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1794/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1794/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. Mai 1938, SZ-AAP/B1.228\n- Signatur: SZ-AAP/B1.228\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.817157+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BRÜDER WLTŽEK\nBRÜNN\nMasarykstraße 37\nBuchhandlung. – Zeitungsvertrieb.\nFernsprecher Nr. 14.218\nPostsparkassa Prag Nr. 22.982\nPostsparkassa Brünn Nr. 120.067\n\nC/A.\n\nHerrn\nStefan Zweig,\nLondon W 1, 48 Hallam Street\n---------------------------\n\nSehr geehrter Herr Zweig!\n\nWir bestätigen den Erhalt Ihres werten Schreibens vom 9.ds.M.\nbetreffend des Herbert Reichner-Verlages. Zu unserem Bedauern\nsind wir leider nicht in der Lage, Ihnen in dieser Angelegen=\nheit irgend wie behilflich sein zu können, da wir die Bücher\ndieses Verlages nie beim Verlag selbst, sondern durch die Firma\nR. Lechner & Sohn, Wien bezogen haben.\n\nWir sind dem Verlag direkt also auf diese Art nichts schuldig,\nwährend wir unsere Verpflichtungen der Firma Lechner gegenüber\njedes Monat regeln.\n\nWir bedauern ausserordentlich, dass wir Ihnen leider keinen\nbesseren Bescheid in dieser Angelegenheit geben können und\nempfehlen uns Ihnen\n\nmit verbindlichen Grüssen\nBrüder Wltžek\n\nP.S.\nGerade heute erhielten wir vom Schweiz. Vereins-Sortiment in\nOlten (Schweiz) die Verständigung, dass sämtliche Bücher des\nReichner-Verlages, insbesonders wurde auf Ihre Bücher hinge=\nwiesen, von genannter Firma nunmehr ausgeliefert werden.\nVielleicht ist es Ihnen möglich, bei dieser Firma etwas zu\nerreichen. Die Firma schreibt in dem Prospekt, sie hätte die\nAlleinauslieferung des Reichner-Verlages nicht nur für die\nSchweiz, sondern auch für das gesamte andere Ausland übernommen.",
+      "notes": "Maschinengeschriebener Geschäftsbrief auf Firmenpapier. Die Unterschrift 'Brüder Wltžek' ist handschriftlich mit Tinte ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1436,
+    "total_words": 202,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

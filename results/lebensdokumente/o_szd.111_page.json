@@ -1,0 +1,107 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.111",
+    "title": "Vertrag K.J.Gummerus Osakeyhtiö",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.34",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.111/IMG.1",
+      "https://gams.uni-graz.at/o:szd.111/IMG.2",
+      "https://gams.uni-graz.at/o:szd.111/IMG.3"
+    ],
+    "date": "1. Februar 37",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze und violette Tinte",
+        "writing_material": "Blaues Papier, gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "Lotte Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "25x20 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt“ von Lotte Zweigs Hand in schwarzer Tinte, Unterschriften von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag K.J.Gummerus Osakeyhtiö\n- Signatur: SZ-AAP/L13.34\n- Datum: 1. Februar 37\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, Lotte Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt“ von Lotte Zweigs Hand in schwarzer Tinte, Unterschriften von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:43.574051+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LANGHAM 3693. bezahlt\n\n49. HALLAM STREET,\nLONDON, W.1.\n\n1. Februar 1937.\n\nV e r t r a g\n\nDer Verlag K.J.Gummerus Osakeyhtiö, Lönnrotink.4,\nHelsinki, erwirbt durch eine einmalige Zahlung von\n3000.- (dreitausend) finnischen Mark\ndie finnischen Buchrechte an \"Maria Stuart\" von Stefan\nZweig, 49 Hallam Street, London W.1.\n\nDer Vertrag tritt in Kraft mit der Zahlung dieses\nBetrages an den Autor.\n\nBei Erscheinen ~~sind~~ {zwei} gebundenes Belegexemplar an\nden Autor zu senden.\n\nFalls das Werk innerhalb von zwei Jahren nicht er-\nschienen ist, fallen die Rechte an den Autor zurück.\n\nLondon, den 1. Februar 37\nStefan Zweig\n\nHelsinki, den . . . .\nK.J. Gummerus Osakeyhtiö\n[Unterschrift unleserlich]",
+      "notes": "Das Dokument enthält handschriftliche Korrekturen (Einfügung 'zwei' über dem durchgestrichenen 'sind') sowie Unterschriften. Die Notiz 'bezahlt' befindet sich oben links."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farb- und Grauskala, kein Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die handschriftlichen Ergänzungen sind eindeutig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 693,
+    "total_words": 108,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

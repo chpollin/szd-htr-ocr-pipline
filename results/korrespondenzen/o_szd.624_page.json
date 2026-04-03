@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.624",
+    "title": "Ernst Fischer an Stefan Zweig, 1930-05-06, SZ-SAM/AK.55",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.624/IMG.1",
+      "https://gams.uni-graz.at/o:szd.624/IMG.2",
+      "https://gams.uni-graz.at/o:szd.624/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ernst Fischer an Stefan Zweig, 1930-05-06, SZ-SAM/AK.55\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.55\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:21.638941+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "6. Mai 1930",
+      "notes": "Vorderseite einer Ansichtskarte mit der Wiener Staatsoper. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wien I. Oper mit Kärntnerstraße\n\nWien, 6. Mai 30.\nSehr geehrter Herr Dr.!\nHabe Sonntag bei fast vollem\nHause das Stück mit großem Interesse\ngesehen. Heute habe ich Dr. Scheyer\ngetroffen, der noch in Wien ist.\nNochmal Dank für die schönen\nKarten!\nBeste Grüße\nIhr ergebener\nErnst Fischer\n\nHerren\nDr. Stefan Zweig\n\nSalzburg,\nKapuzinerberg 5.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke (10 Groschen, Österreich) oben rechts. Roter Kringel im Text."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Wien I. Oper mit Kärntnerstraße\n\nWien, 6. Mai 30.\nSehr geehrter Herr Dr.!\nHabe Sonntag bei fast vollem\nHause das Stück mit großem Interesse\ngesehen. Heute habe ich Dr. Scheyer\ngetroffen, der noch in Wien ist.\nNochmal Dank für die schönen\nKarten!\nBeste Grüße\nIhr ergebener\nErnst Fischer\n\nHerren\nDr. Stefan Zweig\n\nSalzburg,\nKapuzinerberg 5.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Abkürzungen sind kontextuell eindeutig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 687,
+    "total_words": 113,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1102",
+    "title": "Postkarte an Max Fleischer vom 31. Juli 1902, SZ-LAS/B3.23",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1102/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1102/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1102/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 31. Juli 1902, SZ-LAS/B3.23\n- Signatur: SZ-LAS/B3.23\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.122820+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "J. Bullynck, éditeur, rue de l'Eglise, 50 Blankenberghe.\n\nBLANKENBERGHE. — Panorama.\n\nHerzliche Grüße!\nMeine Adresse in\nBlankenberge (Belgien)\nHotel Cursaal",
+      "notes": "Die Transkription umfasst den gedruckten Text der Postkarte sowie den handschriftlichen Text auf der Bildseite."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTALE\nCe côté est exclusivement réservé à l'adress\n\nHerrn\nMax Fleischer\nOstseereisender\n\nKomotau in Böhmen\nVilla Fleischer\n\nAutriche",
+      "notes": "Die Transkription umfasst die Adressseite der Postkarte. Der Stempel 'KOMOTAU' und die Briefmarke wurden gemäß Anweisung nicht transkribiert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "CARTE POSTALE\nCe côté est exclusivement réservé à l'adress\n\nHerrn\nMax Fleischer\nOstseereisender\n\nKomotau in Böhmen\nVilla Fleischer\n\nAutriche",
+      "notes": "Dies ist eine Wiederholung der Adressseite (Scan 2) mit Farbskala. Die Transkription ist identisch."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 436,
+    "total_words": 58,
+    "language_detected": "fr",
+    "language_match": false
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.95,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Page 1 (picture side): Fixed 'Mein Adresse' to 'Meine Adresse'. Printed text and handwritten greeting verified against image. Page 2 (address side): Printed French header, handwritten address to Max Fleischer in Komotau verified. Page 3: Correctly classified as color_chart.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:00:00Z"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1710",
+    "title": "Brief an Anna Meingast vom 23. April 1936, SZ-SAM/B7.77",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1710/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1710/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 23. April 1936, SZ-SAM/B7.77\n- Signatur: SZ-SAM/B7.77\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.247472+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 23.April 1936.\n\nLiebe Frau Meingast!\n\nIch bin sehr erfreut über Ihren\nBrief, der mir die Nachricht bringt, dass die Stiche\nglücklich gelandet und dank Ihrer Intervention in un-\nsere Hand gelangt sind.\nIch arbeite jetzt inzwischen an\neiner neuen Sache, wo ich Sie dann auch bitten wer-\nde, wenn es so weit ist, ein paar Durchschläge anzu-\nfertigen. Glauben Sie mir, dass immer wieder zu tun\nsein wird, auch wenn ich zunächst nur \"vorbeikomme\".\nDie Weltlage ist jetzt abscheulich unsicher und selbst\nbis hierher dringt die Nervosität, obwohl dieses Land\nam wenigsten berührt ist. Aber ich bin fest entschlos-\nsen, mich nicht davon anstecken zu lassen.\nAlle guten Grüsse und hoffentlich\nhaben Sie Ihren Sohn noch auf Ferien.\n\nSz.\n\nEs wäre mir doch angenehmer, wenn ich wenigstens für",
+      "notes": "Typoskript mit handschriftlicher Signatur 'Sz.' am Ende der ersten Seite. Die letzte Zeile bricht mitten im Satz ab und setzt sich auf der nächsten Seite fort."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "einige Zeit die Verträge hierhaben könnte, damit wir\nhier Aufnahmen machen. Von Zeit zu Zeit fehlen sie\ndoch sehr. Vielleicht können Sie sie mir in zwei, drei\nrekommandierten Briefen nachsenden, zuerst vielleicht\ndie wichtigsten, die noch in Gültigkeit sind und zwar\ndie ausländischen. Insel und die meisten andern deut-\nschen Verlage sind ja für immer erloschen, seit man\nmir auch die letzte Möglichkeit genommen hat, meine\nBücher dort zu verkaufen.",
+      "notes": "Typoskript, Fortsetzung des Satzes von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Signatur 'Sz.' ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1242,
+    "total_words": 200,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

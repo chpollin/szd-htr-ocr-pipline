@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.756",
+    "title": "Brief an Alfred Kauffmann vom 22. Dezember 1937, SZ-AAP/B1.161",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.756/IMG.1",
+      "https://gams.uni-graz.at/o:szd.756/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Alfred Kauffmann vom 22. Dezember 1937, SZ-AAP/B1.161\n- Signatur: SZ-AAP/B1.161\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:29.088788+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "22.Dezember 1937.\n\nHerrn Dr. Alfred Kaufmann,\n16 Coleman Street,\nE.C.2.\n\nSehr geehrter Herr Doktor!\n\nIch danke Ihnen vielmals für Ihre Nachricht.\nAber leider ist die Sache recht schwierig. Obwohl ich\nsehr freundschaftlich persönlich mit Professor Kippen-\nberg vom Inselverlag stehe, vermeiden wir, gerade weil\ner nicht Parteimitglied ist, sorgsam alle Korresponden-\nzen und ich glaube nicht, dass ich die Insel darum ange-\nhen kann, eine Kontoüberschrift zu ändern, die seit über\nzwanzig Jahren mit Salzburg in den Büchern steht. Ge-\nschrieben hat mir die Insel inzwischen noch einmal, um\nmir mitzuteilen, dass sie die Devisenbewilligung noch\nnicht bekommen habe und wo sie mir den Vorschlag macht,\nes auf Sperrkonto zu zahlen, was ich aber abgelehnt ha-\nbe, da dies eine Entwertung meiner Forderung um achtzig\nProzent bedeuten würde.\n\nIch weiss nun wirklich nicht, wie es nun\nzu machen ist. Vielleicht, dass Sie als Anwalt selbst",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "nun dem Inselverlag schreiben und einen Kontoauszug für\nHerrn Doktor Stefan Zweig,49 Hallam Street, London W.1.\nverlangen unter der Motivierung, dass Sie hier mit der\nDurchführung aller meiner geschäftlichen Transaktionen\nbetraut sind und gleichzeitig auch die Bestätigung er-\nbitten, dass bisher die Uebersendung aus devisentechni-\nschen Gründen noch nicht möglich war. Ich glaube schon,\ndass der Inselverlag auf einen solchen höflichen Brief\n(oder einen andern, den Sie allenfalls vorschlagen) ant-\nworten würde, da sie ja selber ein Interesse haben, nicht\nmein Schuldner zu sein. Ob es ratsam ist, gleich anzu-\nkündigen, dass Sie von hier aus um die Devisenbewilligung\neinkommen würden, überlasse ich Ihnen zur Beurteilung.\nAber ich glaube, dass ein solches Dokument, dass seit\ndem Jahre 36 der Inselverlag mir den Betrag schuldig ist,\nfür die Board of Trade genügen würde.\n\nDer frühere Brief, den ich beilege, bemühte\nsich natürlich noch um eine Lösung via Oesterreich und\nich übermittle ihn Ihnen nur zur privaten Einsicht.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Beschädigungen oder Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2006,
+    "total_words": 308,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

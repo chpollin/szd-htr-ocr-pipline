@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1393",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 7. Juli 1906, SZ-SEF/B5.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1393/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1393/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1393/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 7. Juli 1906, SZ-SEF/B5.2\n- Signatur: SZ-SEF/B5.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.046170+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "The Porch\nSt Marys High St\nOXFORD\nW. Matthison",
+      "notes": "Vorderseite der Ansichtspostkarte mit Bildunterschrift und Signatur des Künstlers."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Oxford\n4. Juli 1906\n\nViele Grüße von\nIhrem ergebenen\n\nStefan Zweig\n\nMiss Eugenie Hirschfeld\n\nVienna (austria)\nIX. Nussdorferstrasse 5",
+      "notes": "Rückseite der Postkarte. Der Text 'Stefan Zweig' ist unter der Grußformel platziert. Die Adresse ist in Tinte geschrieben. Poststempel 'OXFORD 4 JY 06'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Oxford\n4. Juli 1906\n\nViele Grüße von\nIhrem ergebenen\n\nStefan Zweig\n\nMiss Eugenie Hirschfeld\n\nVienna (austria)\nIX. Nussdorferstrasse 5",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Graustufen-Referenz im Bild."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 312,
+    "total_words": 47,
+    "language_detected": "",
+    "language_match": true
+  }
+}

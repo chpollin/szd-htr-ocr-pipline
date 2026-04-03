@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1441",
+    "title": "Brief an Berthold Viertel vom [September 1941], SZ-AAP/B9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1441/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1441/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1441/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Berthold Viertel vom [September 1941], SZ-AAP/B9\n- Signatur: SZ-AAP/B9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:34.366096+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     undatiert\nBrasilien\n(Rio?) 1941\n\nLieber Viertel, ich habe keine Nachricht von Ihnen. Hier\nist es herrlich, die zauberhafteste Stadt der Erde, billig, farbig, die\n{Menschen von res} groesste Courtoisie - waere die Sommerhitze nicht acht Monate, ich moechte\nnur hier leben. Alle Emigranten sind hier gluecklich und ich glaube,\nhier wird nie etwas geschehn,dass in dieser Richtung geht {das}\nbiblische Salz in seiner Schaerfe unter. Ich bleibe hier jedenfalls\nbis Anfang October, soll dann weiter nach Uruguay, Argentinien, Chile, Ve-\nnezuela, vorlesen - in spanisch. Vielleicht, wenn es gelingt oder in Europa\nwieder Ruhe ausbricht, komme ich schon frueher, es steckt in mir doch\nein gutes Stueck Muedigkeit. Herzlichst Ihr\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die handschriftliche Einfügung '{Menschen von res}' am linken Rand bezieht sich auf die Zeile 'groesste Courtoisie'. Das Wort 'das' wurde handschriftlich über der Zeile eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (Durchschlag/Abdruck des Typoskripts erkennbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "                                     undatiert\nBrasilien\n(Rio?) 1941\n\nLieber Viertel, ich habe keine Nachricht von Ihnen. Hier\nist es herrlich, die zauberhafteste Stadt der Erde, billig, farbig, die\n{Menschen von res} groesste Courtoisie - waere die Sommerhitze nicht acht Monate, ich moechte\nnur hier leben. Alle Emigranten sind hier gluecklich und ich glaube,\nhier wird nie etwas geschenmdass in dieser Richtung geht {das}\nbiblische Salz in seiner Schaerfe unter. Ich bleibe hier jedenfalls\nbis Anfang October, soll dann weiter nach Uruguay, Argentinien, Chile, Ve-\nnezuela, vorlesen - in spanisch. Vielleicht, wenn es gelingt oder in Europa\nwieder Ruhe ausbricht, komme ich schon frueher, es steckt in mir doch\nein gutes Stueck Muedigkeit. Herzlichst Ihr\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1543,
+    "total_words": 224,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Typewritten letter with handwritten annotations. Page 1: corrected 'geschenmdass' → 'geschehn,dass' (misread 'h' as 'm', missing comma). Handwritten marginal note '{Menschen von res}' is difficult but left as-is (not confident enough to correct). Top archival annotations (undatiert, Brasilien, (Rio?) 1941) correctly captured. Page 2 blank (reverse shows bleed-through). Page 3 confirmed color chart.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.963",
+    "title": "Brief an Sigmund Freud vom [Juni 1933], SZ-LAS/B7.22",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.963/IMG.1",
+      "https://gams.uni-graz.at/o:szd.963/IMG.2",
+      "https://gams.uni-graz.at/o:szd.963/IMG.3",
+      "https://gams.uni-graz.at/o:szd.963/IMG.4",
+      "https://gams.uni-graz.at/o:szd.963/IMG.5",
+      "https://gams.uni-graz.at/o:szd.963/IMG.6"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom [Juni 1933], SZ-LAS/B7.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 6 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.436234+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hoch verehrter Herr Professor, Sie kennen\n(nebst meiner Verehrung) meinen Respect vor\nIhrer Zeit nur dass ich nicht wagen würde, einen\nbloss Neugierigen bei Ihnen einzuführen. Aber\nwenn H. G. Wells, der grosse Engländer den innigen\nWunsch hegt, Sie bei seinem streng gelegengehaltenen[?]\nWiener Aufenthalt als Einzigen zu sehen, so glau-\nbe ich sagen zu dürfen, dass dieser Besuch für\nSie doch nur eine Freude bereiten würde. Vielleicht\nhaben Sie die Güte, ihm zu sagen, wann er Sie\nbesuchen darf. In bester Verehrung und Liebe\nIhr aufrichtig ergebener\nStefan Zweig",
+      "notes": "Handschriftlicher Brief von Stefan Zweig an Sigmund Freud. Violette Tinte auf weißem Papier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Hoch verehrter Herr Professor, Sie kennen\n(nebst meiner Verehrung) meinen Respect vor\nIhrer Zeit nur dass ich nicht wagen würde, einen\nbloss Neugierigen bei Ihnen einzuführen. Aber\nwenn H. G. Wells, der grosse Engländer den innigen\nWunsch hegt, Sie bei seinem streng gelegengehaltenen[?]\nWiener Aufenthalt als Einzigen zu sehen, so glau-\nbe ich sagen zu dürfen, dass dieser Besuch für\nSie doch nur eine Freude bereiten würde. Vielleicht\nhaben Sie die Güte, ihm zu sagen, wann er Sie\nbesuchen darf. In bester Verehrung und Liebe\nIhr aufrichtig ergebener\nStefan Zweig",
+      "notes": "Identisch mit Seite 1."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 6,
+      "type": "color_chart",
+      "text": "Hoch verehrter Herr Professor, Sie kennen\n(nebst meiner Verehrung) meinen Respect vor\nIhrer Zeit nur dass ich nicht wagen würde, einen\nbloss Neugierigen bei Ihnen einzuführen. Aber\nwenn H. G. Wells, der grosse Engländer den innigen\nWunsch hegt, Sie bei seinem streng gelegengehaltenen[?]\nWiener Aufenthalt als Einzigen zu sehen, so glau-\nbe ich sagen zu dürfen, dass dieser Besuch für\nSie doch nur eine Freude bereiten würde. Vielleicht\nhaben Sie die Güte, ihm zu sagen, wann er Sie\nbesuchen darf. In bester Verehrung und Liebe\nIhr aufrichtig ergebener\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, inklusive Archiv-Farbskala am linken Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Das Wort 'gelegengehaltenen' ist leicht unsicher, da es eine ungewöhnliche Wortbildung ist, aber die Buchstaben sind klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1695,
+    "total_words": 270,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

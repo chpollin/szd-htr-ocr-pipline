@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.773",
+    "title": "Brief an Alfred Kauffmann vom 28. Januar 1938, SZ-AAP/B1.177",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.773/IMG.1",
+      "https://gams.uni-graz.at/o:szd.773/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Alfred Kauffmann vom 28. Januar 1938, SZ-AAP/B1.177\n- Signatur: SZ-AAP/B1.177\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:30.585356+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49 Hallam Street\nLondon W.1.        z.Z. Estoril, 28.Januar 1938.\n\nHerrn Dr. Alfred Kaufmann,\n16 Coleman Street,\nLondon E.C.2.\n\nSehr geehrter Herr Doktor!\n\nEs ist nicht meine Schuld, sondern\ndie der ungeschickten Postverbindung, wenn die\nAntwort auf Ihren freundlichen Brief vom 25.\nerst heute abgeht. Ich danke Ihnen sehr für\nIhre Bemühungen und habe den mir übersandten\nBrief an Mr. Truelove unterzeichnet und auch\ndie Bank eingefügt, an welche der Betrag dort\nzu überweisen wäre. Ich brauche Ihnen nicht\nzu sagen, wie sehr ich mich freuen würde, wenn\ndadurch reibungslos diese Sache erledigt werden\nkönnte. Ich habe gleichzeitig auch den Insel-\nverlag in freundschaftlicher Form davon ver-\nständigt.\n\nMit den besten Empfehlungen aus\nschönster Sonne an Sie und Fräulein Melchior",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 780,
+    "total_words": 119,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

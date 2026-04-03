@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.461",
+    "title": "Berta Schleicher an Stefan Zweig, 1929-09-10, SZ-SAM/AK.176",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.461/IMG.1",
+      "https://gams.uni-graz.at/o:szd.461/IMG.2",
+      "https://gams.uni-graz.at/o:szd.461/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Berta Schleicher an Stefan Zweig, 1929-09-10, SZ-SAM/AK.176\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.176\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.992267+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "10. 9. 29\n\nMeersburg a B. - Altes Schloß",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Alten Schlosses in Meersburg. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nSehr verehrter Herr Doktor,\ntausend Dank für Ihre\nfreundliche Einladung. Mit\ngroßer Freude werden Ka=\ntayama u. ich am Sonntag\ngegen 1 Uhr zu Ihnen kommen.\nHerzlich grüßt Ihre ergebene\nBerta Schleicher",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (München 10.9.29) vorhanden. Am unteren Rand gedruckter Verlagsvermerk: 'Verlag Zech, Meersburg a. B.'"
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Die Ansichtskarte ist identisch mit der in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 290,
+    "total_words": 48,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

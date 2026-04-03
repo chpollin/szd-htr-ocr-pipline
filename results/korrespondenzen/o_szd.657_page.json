@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.657",
+    "title": "Camill Hoffmann an Stefan Zweig, 1923-06-07, SZ-SAM/AK.85",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.657/IMG.1",
+      "https://gams.uni-graz.at/o:szd.657/IMG.2",
+      "https://gams.uni-graz.at/o:szd.657/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Camill Hoffmann an Stefan Zweig, 1923-06-07, SZ-SAM/AK.85\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.85\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.690541+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "6. PAVILLON MUSÉE FLAUBERT à CROISSET\nLe Jardin",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text. Stempel 'MUSÉE FLAUBERT CROISSET près ROUEN'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Stefan,\nalle Dank Ratschläge waren\nglänzend, insbesondre\nPremier... In den nächsten\nTagen geht es zurück!\n7. 17. [?]                                  Camill\n\nMarcel Raître à Rouen\n\nM. Stefan Zweig\nSalzburg\nAutriche\nKapuzinerberg",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke 'REPUBLIQUE FRANCAISE 30c'. Poststempel 'ROUEN 25'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Lieber Stefan,\nalle Dank Ratschläge waren\nglänzend, insbesondre\nPremier... In den nächsten\nTagen geht es zurück!\n7. 17. [?]                                  Camill\n\nMarcel Raître à Rouen\n\nM. Stefan Zweig\nSalzburg\nAutriche\nKapuzinerberg",
+      "notes": "Rückseite der Ansichtskarte mit Archiv-Farbskalen. Identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Das Datum '7. 17.' ist etwas unklar, könnte sich auf den 7. Juli beziehen, daher als unsicher markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 517,
+    "total_words": 68,
+    "language_detected": "",
+    "language_match": true
+  }
+}

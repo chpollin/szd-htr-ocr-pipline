@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.833",
+    "title": "Brief an Stefan Zweig vom 3. Juni 1937, SZ-AAP/B1.50",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.833/IMG.1",
+      "https://gams.uni-graz.at/o:szd.833/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Juni 1937, SZ-AAP/B1.50\n- Signatur: SZ-AAP/B1.50\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:35.893982+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\n\nPostcheckkonto\nLeipzig 8442        Wien 46.469\nPrag 501.701        Zürich VIII 18122\n\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr. Stefan Zweig Esq.\n49, Hallam Street\nLondon W.1\n\nENGLAND\n\nWeisbach                                3. Juni 1937 /H\n--------\n\nSehr verehrter Herr Dr. Zweig:\n\nWir bitten Sie, nicht böse zu sein, wenn wir Sie einmal\nin fremder Angelegenheit befragen.\nWir bringen im Herbst die sehr interessanten Lebens-\nerinnerungen des seinerzeitigen Berliner Kunsthisto-\nrikers Prof. Dr. Werner Weisbach heraus, der jetzt in\nBasel lebt. Seine Memoiren beinhalten im wesentlichen\ndie Berliner Jahrzehnte von 1880 - 1920, seine vielen\nReisen und Begegnungen mit berühmten Zeitgenossen.\nHerr Prof. Dr. Werner Weisbach hat unter vielen möglichen\nund unmöglichen Titeln \"Und alles ist zerstoben\"\n(aus \"Faust\") vorgeschlagen und fragt uns um unsere\nMeinung.\nWir bitten Sie uns zu sagen, was Sie von diesem Titel\nhalten, und danken Ihnen im voraus bestens.\n\n                                Mit verbindlicher Begrüßung\nWIEN, VL, Strohmayergasse 6      HERBERT REICHNER VERLAG",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist eine Faksimile-Signatur oder ein Stempel. Unterstreichungen im Text sind mit rotem Stift ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Sie weist zwei horizontale, gelbliche Klebestreifen auf, vermutlich von einer früheren Archivierung oder Montage."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1225,
+    "total_words": 166,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1573",
+    "title": "Ansichtspostkarte an Richard Friedenthal, o. D., SZ-AAP/B2.38",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1573/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1573/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1573/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Richard Friedenthal, o. D., SZ-AAP/B2.38\n- Signatur: SZ-AAP/B2.38\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:43.525340+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber Herr Doktor, vielen Dank\nfür Ihren Brief! Ich schliesse eben\nmeinen Brief ab (wie oft habe ich es\nalso getan und immer öffnet es mich\nmit neuen Bedenken) nur habe\ndafür die Correspondenz castriert.\nSie ~~alle~~ sind bereits geschlachtet\nund eingeheftet dem Verl. Tag\nüberantwortet: es ist aber kein\nKorn Salz oder Schärfe dabei. Herzlichst\nIhr Stefan Zweig",
+      "notes": "Handschriftliche Nachricht auf der Vorderseite einer Ansichtspostkarte (Salzburg-Motiv)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "d. Richard Friedenthal\n\nBerlin NW\nSchleswiger Ufer 13",
+      "notes": "Adressseite der Postkarte. Gedruckte Verlagsangabe am linken Rand: 'VERLAG U. DRUCK VON J. HUTTEGGER SALZBURG. GESETZLICH GESCHÜTZT 1922 Nr 281'. Briefmarken und Poststempel 'SALZBURG 2 -5. 1. 24' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "d. Richard Friedenthal\n\nBerlin NW\nSchleswiger Ufer 13",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 469,
+    "total_words": 75,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

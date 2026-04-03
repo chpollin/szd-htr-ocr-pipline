@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.718",
+    "title": "Brief an Stefan Zweig vom 8. November 1937, SZ-AAP/B1.127",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.718/IMG.1",
+      "https://gams.uni-graz.at/o:szd.718/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 8. November 1937, SZ-AAP/B1.127\n- Signatur: SZ-AAP/B1.127\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:25.627657+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH Dr.Stefan Zweig,Esq.\n49,Hallam Street\nPostcheckkonto London,W.1\nLeipzig 8442 Wien 46.469\nPrag 501.701 Zürich VIII 18122 ENGLAND\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nZweig,Magellan (Vorzugsausgabe) 8.November 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir schicken Ihnen mit gleicher Post etwas über 100\nExemplare des Titelbogens und bitten Sie,sie sogleich\nnur auf der Rückseite des Titelblattes,u.zw. unter-\nhalb des in der Mitte befindlichen Druckvermerkes für\ndie Vorzugsausgabe mit Ihrem vollen Namenszug zu sig-\nnieren.\nBitte schicken Sie uns die signierten Bogen postwen-\ndend zurück,damit die Buchbinderei die Vorzugsausga-\nbe aufbindet.\nVielen schönen Dank und freundliche Grüße\n\nIhres sehr ergebenen\n\n[Handschriftlicher Vermerk: \"bitt!\"]",
+      "notes": "Typoskript auf Geschäftspapier. Handschriftliche Unterschrift (Reichner) und handschriftlicher Vermerk 'bitt!' in roter Tinte. Die Unterstreichung im Text ist ebenfalls in roter Tinte ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Es sind zwei Briefmarken (Österreich, 5 Groschen und 30 Groschen) sowie zwei Poststempel (Wien 101, 8.XI.37) zu sehen. Die Seite ist ansonsten leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Zusätze (Unterschrift, 'bitt!') sind klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 892,
+    "total_words": 116,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

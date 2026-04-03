@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1279",
+    "title": "Postkarte an Anna Meingast vom 18. Januar 1931, SZ-SAM/B7.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1279/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1279/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 18. Januar 1931, SZ-SAM/B7.8\n- Signatur: SZ-SAM/B7.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:26.015559+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "18/1. 31\nPARIS - Palais Royal - Hôtel vu des Jardins LIP\nRoyal Palace, View of the hotel from the gardens\n\nHôtel Beaujolais, 15, Rue du Beaujolais",
+      "notes": "Vorderseite der Postkarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Bitte 1 Exemplar auch an verwirrung[?]\nzu senden an\nDr. Paul Schiff\nParis\n14, rue César Franck\n\nLiebe Frau Meingast, adresse\nist also\nPalma di Mallorca\n(Spanien)\nHotel Mediterraneo\nBitte telefonieren Sie es\nauch Herrn Fels, telefonie[?] \nSt. Z\n\nFrau Anna Meingast\nSalzburg (Autriche)\nLinzergasse 16",
+      "notes": "Rückseite der Postkarte. Der Text ist in violetter Tinte geschrieben. Der Poststempel 'PARIS R.P. 17 * I 1931' ist vorhanden. Die Briefmarke zeigt Marcelin Berthelot."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, einige Wörter wie 'verwirrung' oder 'telefonie' sind aufgrund der flüchtigen Schreibweise leicht unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 444,
+    "total_words": 73,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

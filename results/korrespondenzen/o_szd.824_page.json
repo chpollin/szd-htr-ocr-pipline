@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.824",
+    "title": "Brief an Herbert Reichner vom 25. Mai 1937, SZ-AAP/B1.42",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.824/IMG.1",
+      "https://gams.uni-graz.at/o:szd.824/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 25. Mai 1937, SZ-AAP/B1.42\n- Signatur: SZ-AAP/B1.42\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:35.094203+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                  25. Mai 1937.\n\nSehr geehrter Herr Reichner!\n\n                                  Im Auftrage von Herrn\nDr. Zweig übersende ich Ihnen den beiliegenden Brief\nvon Herrn Huebsch mit der Bitte, alles Nötige zu ver-\nanlassen und der Viking Press das beglaubigte Doku-\nment baldigst zuzusenden und die Anfrage wegen des\nCopyright zu beantworten.\n                                  Mit vorzüglicher Hochachtung\n\n                                  Sekretärin",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne Beschädigungen oder Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 479,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

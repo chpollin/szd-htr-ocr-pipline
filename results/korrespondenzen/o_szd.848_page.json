@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.848",
+    "title": "Brief an Stefan Zweig vom 14. Juni 1937, SZ-AAP/B1.64",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.848/IMG.1",
+      "https://gams.uni-graz.at/o:szd.848/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 14. Juni 1937, SZ-AAP/B1.64\n- Signatur: SZ-AAP/B1.64\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:37.188196+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig Esq.\n49,Hallam Street\nLondon W.1\n\nENGLAND\n\nRef.\nMozart,Werkverzeichnis 14.Juni 1937 /H\n\nSehr verehrter Herr Dr.Zweig:\n\nSie erhielten mittlerweile unser Schreiben mit den Angaben der Kosten\nfür die Herstellung von Mozarts Werkverzeichnis im Lichtdruck.\nDa Sie vielleicht die Oxford University Press, New York, direkt infor-\nmieren wollen, geben wir Ihnen das hierbeiliegende Offert der Licht-\ndruckanstalt Max Jaffé in Wien weiter, mit der Bitte, es der Oxford\nUniversity Press vorzulegen, damit sie sich von unseren Angaben\nüberzeugt.\nWir möchten übrigens betonen, dass Jaffé die Kosten ausserordentlich re-\nduziert hat, da wir ihm vorstellten, dass nur dann der Auftrag ver-\nwirklicht werden könnte. Die Oxford University Press wird also ganz\ngewiss nirgends ein billigeres Offert erhalten können.\nSollten Sie es wünschen, so werden wir uns direkt mit dem New Yorker\nHaus ins Einvernehmen setzen.\nWir erbitten Ihre Nachrichten und sind im voraus bestens dankend\n\nmit verbindlicher Begrüssung",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (nicht lesbar, vermutlich ein Kürzel). Unterstreichungen im Text sind mit rotem Stift ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterstreichungen wurden als solche erkannt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1388,
+    "total_words": 197,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

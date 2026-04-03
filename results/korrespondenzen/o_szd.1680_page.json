@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1680",
+    "title": "Fritz Adolf Hünich an Stefan Zweig, SZ-SAM/AK.92",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1680/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1680/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1680/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Fritz Adolf Hünich an Stefan Zweig, SZ-SAM/AK.92\n- Signatur: SZ-SAM/AK.92\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.240407+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Postkarte mit einer Landschaftsaufnahme (Lago Maggiore, Brissago)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "7233 Lago Maggiore, Brissago\n10.IV.30\nLieber Freund,\nTage der Entspannung\nund herrlicher Landschaft\nbei schönstem Wetter.\nIch gedenke dabei Ihrer\nherzlichst und dank-\nbar, haben Sie doch nicht\nzuletzt an solchen Wen-\ndungen meines Lebens\nmitgewirkt!\nIn treuester Verbunden-\nheit\nIhr\n[Unterschrift, unleserlich]\nnebst Frau und Kind\nJ. Gaberell, Photograph. Anstalt, Thalwil-Zürich",
+      "notes": "Rückseite der Postkarte mit handschriftlichem Text. Briefmarke (Helvetia 20) und Poststempel vorhanden. Der Text ist in violett-blauer Tinte geschrieben. Die Unterschrift ist schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "7233 Lago Maggiore, Brissago\n10.IV.30\nLieber Freund,\nTage der Entspannung\nund herrlicher Landschaft\nbei schönstem Wetter.\nIch gedenke dabei Ihrer\nherzlichst und dank-\nbar, haben Sie doch nicht\nzuletzt an solchen Wen-\ndungen meines Lebens\nmitgewirkt!\nIn treuester Verbunden-\nheit\nIhr\n[Unterschrift, unleserlich]\nnebst Frau und Kind\nJ. Gaberell, Photograph. Anstalt, Thalwil-Zürich",
+      "notes": "Identisch mit Seite 2, inklusive Grauskala und Farbkarte zur Archivierung."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der Text ist gut lesbar, jedoch ist die Unterschrift des Absenders aufgrund der Handschrift nicht eindeutig zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 758,
+    "total_words": 104,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

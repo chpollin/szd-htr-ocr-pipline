@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1380",
+    "title": "Postkarte an Karl Klammer vom 2. Januar 1907, SZ-SEF/B6.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1380/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1380/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1380/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Karl Klammer vom 2. Januar 1907, SZ-SEF/B6.5\n- Signatur: SZ-SEF/B6.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:29.912368+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender:\nStefan Zweig\nI. Rathausstrasse 17\n\nKorrespondenz-Karte.\n\nAn Herrn Leutnant Karl Klammer\n\nin Lemberg\nWulkakaserne",
+      "notes": "Adressseite der Postkarte. Briefmarke und Poststempel (Lemberg 4.1.07) vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Freund, vor allem einen\nNeujahrsgruss! Der Rimbaud-Ar-\ntikel ist bereits beim Inselverlag\nerscheint ausserdem in der Zukunft\nich glaube er ist gelungen. Ihren\nMaeterlinck zeige ich im Litter\nEcho[?] an. Bitte notieren Sie\nmeine neue adresse, die von\n1. Februar an gilt\nVIII. Kochgasse 8 II.\nEs ist meine eigene Wohnung\n— endlich! — und ich freue\nmich innig, Sie dort einmal\nauf bald begrüssen zu dürfen\nVon Herzen Ihr\nStefan Zweig",
+      "notes": "Textseite der Postkarte. 'Litter Echo' ist vermutlich eine Abkürzung für 'Litterarisches Echo'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Absender:\nStefan Zweig\nI. Rathausstrasse 17\n\nKorrespondenz-Karte.\n\nAn Herrn Leutnant Karl Klammer\n\nin Lemberg\nWulkakaserne",
+      "notes": "Wiederholung der Adressseite (Scan mit Farbskala)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 681,
+    "total_words": 103,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

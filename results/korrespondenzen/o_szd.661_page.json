@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.661",
+    "title": "Léon Bazalgette an Stefan Zweig, 1911-12-26, SZ-SAM/AK.9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.661/IMG.1",
+      "https://gams.uni-graz.at/o:szd.661/IMG.2",
+      "https://gams.uni-graz.at/o:szd.661/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Léon Bazalgette an Stefan Zweig, 1911-12-26, SZ-SAM/AK.9\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.972215+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1184 PARIS. — La Seine vue des Tours de Notre-Dame. — LL.",
+      "notes": "Vorderseite der Postkarte mit Ansicht von Paris. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Paris XVII, 59 rue Rennequin\n26 Déc · 11\n\nCARTE POSTALE\nTous les Pays étrangers n'acceptent pas la Correspondance au recto.\n(Se renseigner à la Poste).\n\nCORRESPONDANCE\nUn affectueux bonjour à l'ami Stefan Zweig,\npour franchir le seuil de l'année avec la\npensée des camarades, au loin.\n\nUne lettre un peu\nplus tard !!\n\nADRESSE\n\nSon\nL Bazalgette",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text von Léon Bazalgette an Stefan Zweig. Die Tinte ist dunkelbraun/schwarz."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Archivaufnahme mit Farbskala und Grauskala. Enthält die gleiche Postkarte wie in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 400,
+    "total_words": 70,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

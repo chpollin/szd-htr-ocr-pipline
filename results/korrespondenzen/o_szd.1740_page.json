@@ -1,0 +1,102 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1740",
+    "title": "Brief an Elisabeth Monath vom 26. August 1940, SZ-SEF/B7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1740/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.7",
+      "https://gams.uni-graz.at/o:szd.1740/IMG.8"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Elisabeth Monath vom 26. August 1940, SZ-SEF/B7\n- Signatur: SZ-SEF/B7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 8 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:59.099766+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Rio, Hotel Paysandú\n\nLiebe Liesl, ich traf eben hier in Rio\nSiegfried\nund erfuhr von dem dicken Buben, den\ndir deinem lieben Gatten abgeliefert\nhat, hoffentlich mit so wenig Beschwer-\nde, dass du deinen eigenen Wunsch\nnach einem Töchterchen bald nachholen\nwirst. Ich habe mich furchtbar für\nEuch alle gefreut und gratuliere Euch\nvon Herzen.\nVon Frizi habe ich ein Telegramm\nan ihr Lisa bewilligt hatte, ausser\ndem von dem notgedrungenen Liniste\nFerro ein Telegramm dass er alles hat\n./.",
+      "notes": "Handschriftlicher Brief in violetter Tinte. Die Zeile 'Siegfried' ist über 'in Rio' eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, durchscheinender Text der Vorderseite sichtbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Die herzlichsten Glück-\nwünsche zum Sohn, den\nwir im Winter persönlich\nzu besuchen hoffen, und\nviele Grüsse Ihnen beiden\nIhre\nLotte Zweig",
+      "notes": "Handschriftlicher Text von Lotte Zweig in schwarzer Tinte."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "für ihren Winteraufenthalt mitzuteilen.\nHoffentlich gelingt es - im Notfall kann\nich vielleicht für hza versorgen. [?]\nRio ist so materisch wie je, die\nWolke stall auf Erden, das wahre\nRefugium - ein glücklich Leben für\nalle Leute! Leider ist der Winter für\nso den es bei Hochsommerhitzferien\ngebe - den Sommer, ja selbst den\nFrühling kommt ich hier kaum ertragen.\nIch bleibe noch 5 Wochen, dann geht\nes weiter Uruguay, Argentinien, Chile\nund hoffentlich Newyork und noch\nhoffentlicher England!\nHerzlichst Euch allen\nder Gratulant\nStefan Zweig",
+      "notes": "Handschriftlicher Text in violetter Tinte."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "für ihren Winteraufenthalt mitzuteilen.\nHoffentlich gelingt es - im Notfall kann\nich vielleicht für hza versorgen. [?]\nRio ist so materisch wie je, die\nWolke stall auf Erden, das wahre\nRefugium - ein glücklich Leben für\nalle Leute! Leider ist der Winter für\nso den es bei Hochsommerhitzferien\ngebe - den Sommer, ja selbst den\nFrühling kommt ich hier kaum ertragen.\nIch bleibe noch 5 Wochen, dann geht\nes weiter Uruguay, Argentinien, Chile\nund hoffentlich Newyork und noch\nhoffentlicher England!\nHerzlichst Euch allen\nder Gratulant\nStefan Zweig",
+      "notes": "Gleicher Text wie Seite 4, mit Archiv-Farbskala."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Zweig, Hotel Paysandú\nU.S.A\nLiesl & Paul Monath\n15 Harbor Road\nHewlett (Long Island)\nHewlett Harbour\nVIA AEREA\nPANAIR\nNDOR - LUFTHAN",
+      "notes": "Adressseite eines Briefumschlags mit Briefmarken und Stempeln."
+    },
+    {
+      "page": 7,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefumschlags mit Poststempel 'CORREIO AEREO 26 AGO 1940 DISTRITO FEDERAL'."
+    },
+    {
+      "page": 8,
+      "type": "color_chart",
+      "text": "Zweig, Hotel Paysandú\nU.S.A\nLiesl & Paul Monath\n15 Harbor Road\nHewlett (Long Island)\nHewlett Harbour\nVIA AEREA\nPANAIR\nNDOR - LUFTHAN",
+      "notes": "Adressseite des Briefumschlags mit Archiv-Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift Stefan Zweigs. Einige Wörter sind aufgrund der Tinte oder Schreibweise leicht interpretativ, aber im Kontext verständlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1973,
+    "total_words": 320,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

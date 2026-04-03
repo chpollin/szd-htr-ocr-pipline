@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1717",
+    "title": "Brief an Anna Meingast vom 16. November 1936, SZ-SAM/B7.84",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1717/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1717/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 16. November 1936, SZ-SAM/B7.84\n- Signatur: SZ-SAM/B7.84\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.583601+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49 Hallam Street\nLondon W.1.\n\n16.November 1936\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr für den Band.\nEs ist ja schade, dass dieser 15.Band auf mir uner-\nklärliche Weise verschwunden ist, aber auch der, den\nSie mir sandten, ist mir sehr willkommen. Das kleine\nBuch von Pigafetta \"Die erste Umseglung der Welt\"\nmuss auch noch irgendwo stecken, aber es ist nicht so\nwichtig, da ich ja die englische und französische\nUebersetzung davon zur Hand habe.\nWahrscheinlich bleibe ich in Salz-\nburg ein paar Stunden, jedesfalls fahre ich durch und\nverständige Sie rechtzeitig, dass wir uns notfalls an\nder Bahn sehen. Aber ich glaube doch, dass ich für ein\npaar Stunden, etwa zwischen zehn und sechs, hinaufkomme\nund freue mich schon furchtbar, Sie und Johann wieder\nzu sehen.\n\nVon Büchern bitte mir gelegentlich\nunrekommandiert Huizinga \"Herbst des Mittelalters\" zu\nschicken.\n\nMit vielen Grüssen Ihr\n\nStefanZweig\n\n[Am rechten Rand vertikal geschrieben:]\nMeine Frau sagte mir, es sei möglich alle 14 Bände des Reiseberichts zu\nfinden. Nun möchte ich wohl Sie wären gewesen - bitte senden Sie mir\nnur noch Band I davon",
+      "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlicher Randnotiz in violett. Die Randnotiz ist teilweise schwer lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Haupttext ist ein klares Typoskript. Die handschriftliche Randnotiz am rechten Rand ist aufgrund der Kursivität und der Platzierung etwas schwieriger zu lesen, aber inhaltlich weitgehend erschließbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1109,
+    "total_words": 180,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

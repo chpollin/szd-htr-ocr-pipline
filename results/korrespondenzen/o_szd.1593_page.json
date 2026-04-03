@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1593",
+    "title": "Brief an Richard Friedenthal vom 5. August 1925, SZ-AAP/B2.16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1593/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1593/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1593/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 5. August 1925, SZ-AAP/B2.16\n- Signatur: SZ-AAP/B2.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:45.097839+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 5. August 1925.\n\nLieber Herr Doktor!\n\nIch habe mit grossem Vergnügen heute Ihren \"Heuschober\"\nerhalten und gleich nochmals gelesen und mich sehr daran gefreut.\nEr ist ungeheuer straff erzählt, vielleicht kurz vor dem Schluss\num eine Seite zu lang, aber sonst makellos. Vergessen Sie nicht, Frau\nProfessor Kippenberg ein Exemplar zu schicken.\nNun zu meiner Bitte, Ihnen meine novellistischen Arbeiten\n{in} {zu} vorzulegen. Ich bin selbst so sehr im Weiterarbeiten, dass ich\nnoch nicht dazukam, das Bisherige auch nur durchzulesen, geschweige\ndenn zu korrigieren, aber dennoch sende ich Ihnen als Zeichen\nmeines äussersten Vertrauens, eine Novelle gerade so, wie ich sie\naus dem Manuskript diktiert habe, mit ihren ganzen Schreibfehlern,\nWiederholungen und Fehlerhaftigkeiten zu. Bitte lesen Sie sie, ehe\nich sie jetzt durcharbeite. Meinem eigenen Urteil gemäss, scheint\nsie mir gelungen, ich möchte nur noch wissen, ob nicht im letzten\nTeil ein wenig zu sehr gehastet ist. Ich will nämlich da noch eine\nganze Szene, ehe sie auf den Bahnhof geht, einschalten, in der sie\nihre Koffer packt, um mit ihm zu reisen, damit die Enttäuschung\numso schlagkräftiger wird. Ursprünglich war eine andere Szene einge-\nfügt, nach jenem Spielsaale, wo sie noch einmal zurückgeht, aber\nschon vergebens. Sie sehen also jedenfalls, dass ich der Schlussszene\nnicht ganz so vertraue wie den ersten drei Vierteln, mit denen ich",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Einfügungen in violetter Tinte. Briefkopf gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "bis auf Einzelheiten (und die natürlich noch genaue Feile) eigent-\nlich vollkommen einverstanden bin. Vielleicht ist aber auch der\nSchluss ganz in Ordnung, jedenfalls bitte ich Sie da um Ihre unver-\nhohlene Meinung.\nSie sind selbst zu sehr vom Bau, um nicht zu spüren, wieviel\nabsolutes Vertrauen darin liegt, jemanden in ein unfertiges, noch\nnicht korrigiertes Manuskript hineinsehen zu lassen. Ich tue es aber\nmit Absicht, weil ich dadurch noch freier im Umschalten sein kann.\nAuch eine andere Novelle ist fast fertig, die ich Ihnen bald schicke\nund eine oder zwei unterwegs.\nFür das ganze Buch glaube ich einen ausgezeichneten Titel\ngefunden zu haben. Es soll \"Verwirrung der Gefühle\" heissen. Der Ti-\ntel der Ihnen vorliegenden Novelle ist: \"Vierundzwanzig Stunden aus\ndem Leben einer Frau\".\nNicht wahr, Sie schicken mir die Novelle bald zurück.\nHeute nur noch die herzlichsten Grüsse Ihres\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "bis auf Einzelheiten (und die natürlich noch genaue Feile) eigent-\nlich vollkommen einverstanden bin. Vielleicht ist aber auch der\nSchluss ganz in Ordnung, jedenfalls bitte ich Sie da um Ihre unver-\nhohlene Meinung.\nSie sind selbst zu sehr vom Bau, um nicht zu spüren, wieviel\nabsolutes Vertrauen darin liegt, jemanden in ein unfertiges, noch\nnicht korrigiertes Manuskript hineinsehen zu lassen. Ich tue es aber\n\nNicht wahr, Sie schicken mir die Novelle bald zurück.\nHeute nur noch die herzlichsten Grüsse Ihres\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit überlagerter Farb- und Grauskala für Archivierungszwecke. Die Skalen verdecken Teile des Textes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Einfügungen auf Seite 1 sind klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2865,
+    "total_words": 446,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

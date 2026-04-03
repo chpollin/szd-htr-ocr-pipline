@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.522",
+    "title": "Paul Camill Tyndall an Stefan Zweig, 1914-04-11, SZ-SAM/AK.230",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.522/IMG.1",
+      "https://gams.uni-graz.at/o:szd.522/IMG.2",
+      "https://gams.uni-graz.at/o:szd.522/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Paul Camill Tyndall an Stefan Zweig, 1914-04-11, SZ-SAM/AK.230\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.230\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.901896+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "DESSAU. Lustgartentor. 11. IV. 14.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dessau,\n11. IV. 14.\nLieber Freund!\nHerzliche Ostergrüße.\nVom Verwandten Komöd.\nwerde auch Regie haben.\nIhre Karte aus Paris hat\nmich sehr erfreut, hoffentlich\nkomme ich im Juni nach\nWien. – Momentan ist Paula Taussig\nauch meine liebe Schwester\nin Nanterre b/Paris,\n„Villa Elena“. Wenn Sie\ngute deutsche Cirkel für\nsie wüßten, wär mirs sehr\nlieb! Stets Ihr Tyndall\n\nHerrn\nDr. Stefan Zweig\nWien VIII.\nKochgasse 8.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text. Briefmarke und Poststempel (DESSAU 11.4.14 2-3 N) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Dessau,\n11. IV. 14.\nLieber Freund!\nHerzliche Ostergrüße.\nVom Verwandten Komöd.\nwerde auch Regie haben.\nIhre Karte aus Paris hat\nmich sehr erfreut, hoffentlich\nkomme ich im Juni nach\nWien. – Momentan ist Paula Taussig\nauch meine liebe Schwester\nin Nanterre b/Paris,\n„Villa Elena“. Wenn Sie\ngute deutsche Cirkel für\nsie wüßten, wär mirs sehr\nlieb! Stets Ihr Tyndall\n\nHerrn\nDr. Stefan Zweig\nWien VIII.\nKochgasse 8.",
+      "notes": "Scan enthält die Ansichtskarte (wie Seite 2) zusammen mit einer Farb- und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Abkürzungen (b/Paris für bei Paris, IV für April) sind eindeutig im Kontext.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 856,
+    "total_words": 139,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

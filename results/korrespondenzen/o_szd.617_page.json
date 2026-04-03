@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.617",
+    "title": "Luc Durtain an Stefan Zweig, 1924-07, SZ-SAM/AK.49",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.617/IMG.1",
+      "https://gams.uni-graz.at/o:szd.617/IMG.2",
+      "https://gams.uni-graz.at/o:szd.617/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Luc Durtain an Stefan Zweig, 1924-07, SZ-SAM/AK.49\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:21.030889+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "July 24.\nCAIRO - A. Native Quarter",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Bild und handschriftlicher Datumsangabe unten links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Carte Postale\nUnion Postale Universelle.\n\nAmical souvenir\nde Luc Durtain\n\nHerrn Stephan Zweig\n5 Kapuzinerberg\nSalzburg\nAutriche\n\nTHE CAIRO POSTCARD TRUST - CAIRO",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adresse. Briefmarke oben rechts mit Poststempel."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Carte Postale\nUnion Postale Universelle.\n\nAmical souvenir\nde Luc Durtain\n\nHerrn Stephan Zweig\n5 Kapuzinerberg\nSalzburg\nAutriche\n\nTHE CAIRO POSTCARD TRUST - CAIRO",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 356,
+    "total_words": 53,
+    "language_detected": "",
+    "language_match": true
+  }
+}

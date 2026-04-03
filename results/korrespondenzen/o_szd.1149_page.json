@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1149",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1149/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1149/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.9\n- Signatur: SZ-SAM/B10.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.076194+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Vielen Dank\nherzliche Grüße\nGehen Sie bald auf Urlaub.\n[?] Lotte, jedenfalls.\nStefan Zweig\nGrüßen Sie\nvielmals die\nFamilie\n[?] [?] [?]\n\nLondon, den 3.Juli 1937.\n\nLiebe Frau Meingast!\n\nIch schicke Ihnen anbei\nmehrere Beschreibungen, die Belegexemplare\nmit Ausnahme des rumänischen, das ich bereits\nfür Frau Zweig angefordert habe, gehen gleich-\nzeitig ~~an sie~~ {Frau Zweig} ab.\n\nSonst ist nichts zu berich-\nten mit Ausnahme eines Vertrags mit Livraria\nCivilizacao, Porto über die portugiesischen\nRechte für Portugal ausschliesslich für\nMaria Stuart,\nMarie Antoinette\nFouché\nKaleidoskop (nicht alle Erzählungen)\nPhantastische Nacht,\n\nwofür je eine einmalige Zahlung vereinbart wor-\nden ist.\n\nMit den besten Grüssen\nIhre\nLAltmann",
+      "notes": "Die handschriftlichen Notizen am oberen Rand sind in violett geschrieben und teilweise schwer lesbar. Die Korrektur im Text 'an sie' zu 'Frau Zweig' ist ebenfalls handschriftlich eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "A",
+      "notes": "Rückseite des Briefes, enthält lediglich ein handschriftliches 'A' in der oberen linken Ecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der maschinengeschriebene Text ist sehr gut lesbar. Die handschriftlichen Anmerkungen am oberen Rand sind aufgrund der kursiven Schrift und der violetten Tinte teilweise unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 729,
+    "total_words": 106,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

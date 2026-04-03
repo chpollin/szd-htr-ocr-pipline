@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.887",
+    "title": "Postkarte an Frans Masereel vom 26. November 1918, SZ-LAS/B1.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.887/IMG.1",
+      "https://gams.uni-graz.at/o:szd.887/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 26. November 1918, SZ-LAS/B1.1\n- Signatur: SZ-LAS/B1.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:40.736463+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Cher ami, la maison parait de-\nlaissé sans toi. Je veux toujours\npartir et toujours il y a des obstac-\nles: Innsbruck dans les mains des\nItaliens qui peut-être me feront pro-\nmener un peu en Sicilie. De Vienne\naucune reponse, presque pas des\ncorrespondances: je peux parler\nmaintenant avec Rascher. Mon ami,\nquelle folie maintenant en Autriche,\npersonne ne peut-plus débrouiller\nce chaos. Mais j'ai repris le travail. Il\nne marche pas très bien, mais il marche.\nTout le monde est foufici! Lagho veut\nlaisser sa femme mourante pour aller\nseul en Allemagne, les revolutionnaires\ndeviennent ministres et les ministres\ndes revolutionnaires, tout est embrouillé\net moi, qui je ne veux devenir rien",
+      "notes": "Handschriftliche Postkarte, violette Tinte. Die Sprache ist Französisch, nicht Deutsch wie in der Aufgabenstellung vermerkt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "la Rosika Schwimmer que tu connais\nest devenue ambassadrice Hongroise\nqu'un homme paisible qui\ntravaille pour toi, moi je\nn'y arriverai jamais. A\nquant l'exponhon[?]? Je\nsuis bien curieux! Travaille\nbien, mon cher Frans, et\npense bien de nous deux\ncomme nous le faisons\npresque chaque jour. Amitiés\na ta femme!\nStefan",
+      "notes": "Adressseite der Postkarte. Gedruckte Postkarten-Vordrucke (Postkarte. Carte postale. Cartolina postale.). Briefmarke und Poststempel (Zürich, 26.XI.18) vorhanden. Handschriftliche Ergänzungen in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Ein Wort ('exponhon') ist unklar, vermutlich ein Schreibfehler des Autors für 'exposition'.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1009,
+    "total_words": 166,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

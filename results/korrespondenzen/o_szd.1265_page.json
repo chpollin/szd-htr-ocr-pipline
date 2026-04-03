@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1265",
+    "title": "Brief an Stefan Zweig vom 18. Dezember 1937, SZ-SAM/B4.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1265/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1265/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1265/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 18. Dezember 1937, SZ-SAM/B4.2\n- Signatur: SZ-SAM/B4.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.834988+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     18. Dezember 1937\nS A L Z B U R G\nKAPUZINERBERG 5\n\nSehr verehrter Herr Doktor!\n\nAuf dem Umweg über Allen & Unwin kam beifolgende\nInformationsanfrage nach Salzburg und ich übersende sie Ihnen\nfür den Fall, dass Sie davon Gebrauch machen wollen.\nHeute kam dazu noch beiliegende Karte, für die ich mich erin-\nnere, Ihnen seinerzeit ein leeres Blatt mitgesandt zu haben.\nSonst sind nur Weihnachtskataloge und einige Auto-\ngrafenkataloge, die ich Frau Dr. Zweig übergeben habe.\nIch erlaube mir, Ihnen auch die herzlichsten Feier-\ntagswünsche zu entbieten und bleibe mit den besten Empfehlungen,\nIhre sehr ergebene",
+      "notes": "Der Brief ist in Maschinenschrift verfasst. Das Logo links oben ist ein gedrucktes Briefkopf-Symbol."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Briefes mit Farbskala und Graustufen-Referenz, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist in klarer Maschinenschrift verfasst und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 645,
+    "total_words": 98,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

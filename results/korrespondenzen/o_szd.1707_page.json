@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1707",
+    "title": "Brief an Anna Meingast vom 31. März 1936, SZ-SAM/B7.74",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1707/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1707/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 31. März 1936, SZ-SAM/B7.74\n- Signatur: SZ-SAM/B7.74\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.025373+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LANGHAM 3693.\n\n49, HALLAM STREET,\nLONDON, W.1.\n\n31.März 1936.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen für die prompten Nachsendun-\ngen. Mit der Zeit wird es doch weniger an Briefen, weil\nja vieles hierher kommt und andererseits die Post aus\nDeutschland fast vollkommen aufhört. Dafür ist inzwischen\ndas Buch in den ersten Fahnen ausgedruckt und ich kann\nneue Arbeit beginnen, die auch Ihnen allerhand zur Ab-\nschrift geben wird.\nIch muss nun ein Missverständnis aufklären.\nMeine Frau hat Ihnen Auftrag gegeben, für Johann etwas\nzu bezahlen. Ich bitte das in Hinkunft nicht zu tun,\nohne von mir eine direkte Verständigung zu haben. Von\ndem Betrag aus dem Buche haben einzig Sie Ihren Gehalt\nund die im Sekretariat auflaufenden Spesen zu entneh-\nmen und es ist mir wichtig, dass immer ein grösserer\nUeberschuss für alle Fälle bei Ihnen liegt. Was per\nPostsparkasse geht, ist eine andere Sache.\nHerrn Roszavölgyi schicke ich natürlich nichts,\nda er sich mit den Geldanweisungen auch immer so reichlich",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Zeilenumbrüche entsprechen dem Original."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Zeit lässt. Ausserdem bitte ich einmal in dem Vertrag nach-\nzusehen, ob er nicht noch weitere Rechnung zu legen hat.\nWittkowski brauchen Sie nicht zu beantworten.\nEr belästigt mich schon hier genug.\nDie oesterreichischen Nachrichten sind leider\nsehr traurig. Der Zusammenbruch des Phoenix wird für brei-\nte Klassen wieder neue Belastungen bringen. Und man hätte\ndoch erwarten können, dass nach den Erfahrungen mit der\nKreditanstalt die Regierung früher und vorsorglicher die\nInteressen der kleinen Leute schützt. Ich persönlich und\ntausend andere haben schon vor einem Jahre genau gewusst,\ndass es dort etwas übel riecht und da hätten schliesslich\nauch die berufenen Kreise es wissen müssen. Dieses arme\nLand kommt wirklich nie zur Ruhe!\nDen Brief von Herrn Brochmann schicke ich Ih-\nnen anbei zurück. Bitte schicken Sie ihm an Material, was\nleicht entbehrlich ist.\n\nMit herzlichen Grüssen\n\nIhr\nS.Z.",
+      "notes": "Typoskript. Die Unterschrift 'S.Z.' ist handschriftlich in violetter Tinte hinzugefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Signatur am Ende ist eindeutig als 'S.Z.' zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1896,
+    "total_words": 300,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

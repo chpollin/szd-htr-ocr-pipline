@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.159",
+    "title": "Postvollmacht für Anna Meingast",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SAM/L9",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.159/IMG.1",
+      "https://gams.uni-graz.at/o:szd.159/IMG.2",
+      "https://gams.uni-graz.at/o:szd.159/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047604132",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Anna Meingast",
+        "Erwerb: Schenkung Wilhelm Meingast 2000"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze Tinte",
+        "hands": [
+          "Stefan Zweig"
+        ],
+        "dimensions": "25x20 cm"
+      },
+      "notes": "Unterschrift und Korrekturen eigenhändig in schwarzer Tinte"
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Postvollmacht für Anna Meingast\n- Signatur: SZ-SAM/L9\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze Tinte\n- Hand: Stefan Zweig\n- Anmerkungen: Unterschrift und Korrekturen eigenhändig in schwarzer Tinte"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.092958+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frau A n n a  M e i n g a s t\n---------------------------\nLinzer Gasse 16, Salzburg.\n\nFrau Anna Meingast, Meine frühere Sekretärin ist von mir er-\nmächtigt, für mich einlangende Sendungen zu über-\nnehmen und Zahlungen entgegenzunehmen oder zu lei-\nsten, und habe ich dieselbe auch der Post gegen-\nüber legitimiert.\n\nStefan Zweig\n\nErneuert für Salzburg, 1. Januar 1936.",
+      "notes": "Das Dokument besteht aus einem maschinengeschriebenen Text, der handschriftlich durch die Anrede 'Frau Anna Meingast,' am Zeilenanfang ergänzt wurde. Die Unterschrift 'Stefan Zweig' ist ebenfalls handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, keine Beschriftung erkennbar (Durchdruck der Vorderseite)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farb- und Graustufen-Referenzkarte, kein historischer Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 368,
+    "total_words": 61,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1641",
+    "title": "Brief an Frans Masereel vom [Juni 1939], SZ-LAS/B1.57",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1641/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1641/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [Juni 1939], SZ-LAS/B1.57\n- Signatur: SZ-LAS/B1.57\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:50.601356+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49, Hallamstreet W 1\n\nGRAND PUMP ROOM HOTEL,\nBATH.\nMon vieux, merci de ta lettre. Je reviens\nde Bath. J'ai pris la fuite. Je ne peux\nplus vivre ici. L'Angleterre est le seul\npays qui est ouvert encore aux refugés\net il y a un torrent; j'ai 3-4 visites\npar jour et je ne peux rien faire -\nje n'ai pas encore rien trouvé pour\nta protegée. Ils sont trop a la fois.\nCe soir je dois voir Ludwig Renn et\nKokoschka, ce moment vient de telephoner\nune vieille connaissance (que j'ai aucune\nenvie de renouveller) Schapiro. Mon\ncher, vous, peintres, musiciens, vous n'etes\npas tellement ébranlé par ce choc conti-\nnuel - moi; je ne trouve pas la possi-\nbilité de me concentrer, si on me verse\nchaque jour une nouvelle coupe de misère\nJ'ai bien recu ton Blaise et",
+      "notes": "Handschriftlicher Brief von Stefan Zweig auf Briefpapier des Grand Pump Room Hotel, Bath. Die Tinte ist violett. Die Lesbarkeit ist gut."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "dû et je t'ai ecrit immediatement\n- est ce que ma lettre s'est perdu? Je\nn'oublie jamais mes amis, mon vieux,\nma helas, ces autres me font la vie\nimpossible. Il y a un mois que je n'ai\npas vu Freud ici, que je n'ai pas ecrit\na Rolland et tout a cause de cette\neternelle invasion.\nJ'ai bien envie de fuir, mais je ne\npeux quitter l'Angleterre pour quelques\nmois, parce j'espere d'obtenir enfin\nun passeport en regle; et je dois faire\nacte de presence jusqu'a cette date\nMerci d'avoir illustré mon\ncher maitre Erasme. Quel délicieux\nlivre! Mais il aurait de vanter assez\naujourdhui - jamais le monde\nn'etait pas si fou comme aujourdhui.\nToujours ton frère et ami\nStefan",
+      "notes": "Fortsetzung des Briefes auf der Rückseite. Unten links befindet sich ein Ex Libris Stempel 'Christian Andree Ex Libris et Autographis'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der kursiven französischen Schreibweise. Einige Akzente fehlen oder sind undeutlich, was dem Stil des Schreibers entspricht.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1418,
+    "total_words": 263,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

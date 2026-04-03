@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.855",
+    "title": "Brief an Stefan Zweig vom 3. Juli 1937, SZ-AAP/B1.70",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.855/IMG.1",
+      "https://gams.uni-graz.at/o:szd.855/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Juli 1937, SZ-AAP/B1.70\n- Signatur: SZ-AAP/B1.70\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:37.841656+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostschekkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt-Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\n•\nUrlaubsadresse\n--------------\n3.Juli 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nSie erreichen mich bis 18.Juli am besten unter der folgenden Adresse:\n\nDr.Werner Stauffacher\nSt.Peterstrasse 18\nZürich\n\nIch werde Herrn Dr.Stauffacher täglich über meinen jeweiligen Aufent-\nhaltsort informieren,sodass die Post mit höchstens eintägiger Verspä-\ntung an mich gelangt.\nFalls Sie selbst jetzt auf Urlaub gehen sollten,so wünsche ich Ihnen\neine recht gute Erholung und dasselbe auch Herrn Fuchs.\n\nMit freundlichen Grüssen bin ich\n\nIhr sehr ergebener",
+      "notes": "Maschinengeschriebener Brief auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich in blauer Tinte ausgeführt. Der Text ist sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript, die Lesbarkeit ist exzellent. Die handschriftliche Unterschrift ist gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 981,
+    "total_words": 131,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

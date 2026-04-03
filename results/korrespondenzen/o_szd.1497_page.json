@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1497",
+    "title": "Brief an Stefan Zweig vom 18. Juli 1939, SZ-AAP/B3.9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1497/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1497/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1497/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 18. Juli 1939, SZ-AAP/B3.9\n- Signatur: SZ-AAP/B3.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:37.810173+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n18.Juli 1939.\n\nTELEPHONES\nWHITEHALL {0175\n0176\n\nHerrn Dr.Stefan Zweig,\ndzt. B a t h .\n\nSehr geehrter Herr Doktor,\n\nWuerden Sie die Freundlichkeit haben, uns kurz mitzuteilen, welche\nIhrer dramatischen Werke noch vollkommen frei und verfuegbar sind fuer den\nenglisch-sprechenden Film?\nWir stehen in reger Verbindung mit einigen der besten Filmge-\nsellschaften und wuerden gern sich bietende gute Placierungschancen ausnuetzen\nDa die Placierung von Kostuemstoffen schwieriger ist,wollen wir uns im Augen-\nblick auf \"moderne\"Sujets konzentrieren und haben unser Augenmerk besonders\nauf \"AMOK\" gerichtet. Wir wollen jedoch keinen Schritt unternehmen,ohne Ihre\nprinzapielle Bewilligung eingeholt zu haben,und waeren Ihnen daher sehr dank-\nbar fuer die oberwaehnte Auskunft.\n\nMit den besten Empfehlungen\n[Unterschrift]",
+      "notes": "Typoskript auf Briefpapier mit Firmenkopf. Die Unterschrift ist handschriftlich, aber unleserlich. Die Zahl '80' oben rechts ist handschriftlich mit rotem Stift hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n18.Juli 1939.\n\nTELEPHONES\nWHITEHALL {0175\n0176\n\nHerrn Dr.Stefan Zweig,\ndzt. B a t h .\n\nSehr geehrter Herr Doktor,\n\nWuerden Sie die Freundlichkeit haben, uns kurz mitzuteilen, welche\nIhrer dramatischen Werke noch vollkommen frei und verfuegbar sind fuer den\nenglisch-sprechenden Film?\nWir stehen in reger Verbindung mit einigen der besten Filmge-\nsellschaften und wuerden gern sich bietende gute Placierungschancen ausnuetzen\nDa die Placierung von Kostuemstoffen schwieriger ist,wollen wir uns im Augen-\nblick auf \"moderne\"Sujets konzentrieren und haben unser Augenmerk besonders\nauf \"AMOK\" gerichtet. Wir wollen jedoch keinen Schritt unternehmen,ohne Ihre\nprinzapielle Bewilligung eingeholt zu haben,und waeren Ihnen daher sehr dank-\nbar fuer die oberwaehnte Auskunft.\n\nMit den besten Empfehlungen\n[Unterschrift]",
+      "notes": "Identisch mit Seite 1, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die Unterschrift ist die einzige handschriftliche Komponente und nicht entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2032,
+    "total_words": 272,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

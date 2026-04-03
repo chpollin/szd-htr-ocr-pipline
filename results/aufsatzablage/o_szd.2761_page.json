@@ -1,0 +1,106 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2761",
+    "title": "Vom Handschriftensammeln",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA11.5",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2761/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2761/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2761/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2761/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2761/IMG.5"
+    ],
+    "date": "1927",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Berlin",
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Berlin"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "notes": "Fortsetzung des Artikels ab S. 28 fehlt"
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Vom Handschriftensammeln\n- Signatur: SZ-AAP/W-AA11.5\n- Datum: 1927\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 2 Blatt\n- Anmerkungen: Fortsetzung des Artikels ab S. 28 fehlt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:02.971573+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "8\n\nDIE DAME\n\nHeft 25\n\nRaum — ebenso schmeicheln die\nreinen und abwechslungsreichen\nFormen von kostbarem Porzellan,\nblassen venezianischen Gläsern\ndem Auge, chinesische, japanische,\nindische Gegenstände zaubern ver-\nschollene Oriente in unser mecha-\nnisches Abendland. An kostbaren\nBüchern freut sich zum Auge über-\ndies noch die Hand, sanftes Leder\nzu übergleiten, Gewicht und\nformendes Maß in den Händen zu\nfühlen. Alles das ist deutlich, sinn-\nlich, häuslich und zugänglich, selbst\nder Bescheidenste hat dafür Sinn\nund ahmt unbewußt in engster\nStube die großen Bildersammler,\nBücherfreunde mit seinen unzu-\nlänglichen Mitteln nach. Aber eine\nHandschriftensammlung — wie\nsollte diese der äußere Sinn er-\nfassen, da sie ja zunächst nichts\ndarstellt als in irgendeinem Kar-\nton einen wirren, gehäuften Wust\nstaubiger, halbzerfallener, be-\nschmutzter Papierblätter, ein\nraschelndes Durcheinander von\nBriefen, Akten und Dokumenten,\nnicht unähnlich dem Abfall einer\nKanzlei oder den verschnürten\nBündeln einer Registratur. Man\nkann sie nicht an die Wände span-\nnen, die Autographen, man kann\nnicht sein Zimmer schmücken mit\nihnen, man kann nicht prahlen da-\nmit und realen Reichtum zeigen;\nman muß still und geduldig warten,\nbis irgend einmal in der Zeit ein\nZweiter oder ein Dritter zufällig\nkommt, der ihr geheimes Leben\n\nFrau Fumiko Asaka Takebayashi, eine in Japan sehr bekannte Schriftstellerin, mit ihrem Kind.\nAufnahme: Angelo, Budapest.\n\nV O M  H A N D S C H R I F T E N -\nS A M M E L N\n\nVon Stefan Zweig\n\nSammler tun selten spröde, ihre Liebhaberei zu\nerläutern, und wie sehr wird erst jener geneigt\nsein, der einem so abseitigen Gegenstand wie den\nUrschriften seine Leidenschaft gibt. Die Neigung\nzu Bildern bedarf keiner Erklärung: Bilder sind\nsinnliche Gegenstände, offen und zugänglich\nauch dem unbelehrten Gefühl, sie strahlen Farbe\nan die Wände, bringen Gestalt in den leblosen\n\nKiki.\nGemälde des japanischen Malers T. Bando.",
+      "notes": "Zeitungsausschnitt, mehrspaltig. Enthält ein Foto von Frau Fumiko Asaka Takebayashi und ein kleineres Foto eines Gemäldes (Kiki). Der Text ist in Fraktur gesetzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Heft 25\n\nDIE DAME\n\n7\n\nund ihre Natur ist ebenso. Wir\nkennen solche unter den Japane-\nrinnen, Chinesinnen, Samoanerinnen,\nAmerika züchtet sie, und Europa\nträumt von ihnen. Sie sind so sehr\nirdisch, daß sie himmlisch werden.\nSie wollen nichts sein und sind daher\nso viel. Sie verlangen nie Dank,\nund daher hat man nichts als Dank\nfür sie. Sie sind die Freude, sie\nsind die Ruhe, sie sind der Hafen;\nsie sind der Sommer mit der kleinen\nsüßen Erinnerung an den Frühling.\nSie sind dem Manne Mutter und\nKind zugleich. Sie fesseln ihn an\ndie Erde — ein tiefer Atemzug —\nund sie sind geräuschlos, wesenlos,\ndenn in ihrem Unterbewußtsein ist\nso viel Erfahrung, so viel Weisheit\nalso. „Laßt ihn fliegen — sie\nsind die Basis.\"\n\nHinab zu diesen Müttern!\n\nUnd daheim dieses Mannes Ehe-\ngemahl, ein zu Stein gewordenes\nAchselzucken ob dieser Welt. Diese\nGalerie seiner Frauengestalten, es\n\nBildnis einer jungen Frau. Gemälde von Goya. Phot. Vizzavona.\n\nFrau Sureda.\nGemälde von Goya.\nist wie ein gemalter Le-\nbensroman, ein Bekennt-\nnis. Der mit Leiden-\nschaft und Leidenschaf-\nten vollgepumpte Mann\nhat sich, der Rührung\nnah, dazu bestimmt ge-\nfühlt, die Zarte, Hilf-\nlose, Zerbrechliche, da\nsie ihm so erscheint,\nunter seinen Schutz zu\nstellen. Bis er gewahr\nwird . . . und eine ge-\nreifte Sehnsucht in ihm\nauswächst. Er — der\nVolldampf der Männlich-\nkeit. Sie — der Leer-\nlauf der Weiblichkeit.\n\nDie Frau mit den Blumen.\nGemälde von Goya.",
+      "notes": "Zeitungsausschnitt, mehrspaltig. Enthält drei Abbildungen von Gemälden (Goya). Text in Fraktur."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Heft 25\n\nDIE DAME\n\n9\n\nVon den Automobil-Schönheits-Konkurrenzen: Frau Ostrowski mit ihrem Sizaire-Wagen bei der Auto-Schönheits-Konkurrenz\nim Bois de Boulogne.\n\nKommerzienrat Junk\nmit seinem NAG-Protos bei dem\nAuto-Wettbewerb in Saarow-Pieskow\nbei Berlin.\nAufnahme: A. Binder.\n\nahnt, ihren geistigen Gehalt mit zu\ngenießen weiß. Denn ein sehr\nSeltenes in unserer Zeit, nämlich\nEhrfurcht schafft es erst den Ein-\ngang in ihre Welt. Erst wenn\nman Ehrfurcht hat vor dem\nSchöpferischen überhaupt und\ngeistige Kenntnis der historischen\nGestalten, deren letzte sichtbare\nLebensspur diese Blätter bedeuten,\nerst dann vermag man den ver-\nborgenen und fast transzendentalen\nSinn zu erfassen, der unsichtbar\nund dauernd wie Radium aus sol-\nchen Zeichen strahlt und sich bloß\n\ndem Ergriffenen magisch weitergibt.\nEhrfurcht vor dem Schöpferischen\ntut also not zum ersten und Neugier\nnach dem Schöpferischen zum zweiten\n— denn nichts in der Welt, wenn nicht\ndas Mysterium der irdischen Zeugung\nselbst, ist so unerreichbar und un-\ndurchdringlich als die Entstehung des\nKunstwerkes. Mit zähen Studien\ndrängt die Psychologie, die Natur-\nwissenschaft, die Kunstwissenschaft\n(Fortsetzung auf Seite 28.)\n\nFrau Margrit Jay (Tochter des Herrn Heinrich v. Opel) mit ihrer in Saarow mit dem ersten Preis\nausgezeichneten 12/50-PS-Opel-Innensteuer-Limousine.\nAufnahme: A. Binder.",
+      "notes": "Zeitungsausschnitt, mehrspaltig. Enthält drei Fotos von Automobilen. Text in Fraktur."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "10\n\nHeft 25\n\nK L E I N E  W O H N U N G\ni m\nB e r l i n e r\nT i e r g a r t e n - V i e r t e l\n\nDie deutsche Sprache hat das Wort „gemütlich“,\ndessen wahre Bedeutung bei der Uebersetzung in\nfremde Sprachen fast immer verlorengeht. Ein cosy\ncorner ist nicht völlig dasselbe wie eine „gemütliche“\nEcke in einem deutschen Zimmer. Große Räume sind\nselten gemütlich, kleine sind es viel öfter. In einem\nkleinen Zimmer braucht man nicht weit zu gehen, um\nsich ein Buch zu holen oder irgend etwas anderes, was\ndie Stunde angenehm machen kann. Man hat alles zum\nGreifen nahe. Nur in diesen kleinen Wohnungen ist\nman eigentlich ganz bei sich selbst zu Hause. Denn in\ngroßen Zimmern haben die Dinge (und Menschen) zu-\n\nAus einer kleinen Wohnung im Berliner Tiergarten-Viertel:\nSpeisezimmer auf Blau-Weiß abgestimmt. Dekorative alte Oelbilder sind panneaurtig behandelt und statt Stuck durch Malerei miteinander verbunden.\nAls Gardine: weiße Chintz-Vorhänge mit blauen Blumen, weiß-blauer China-Teppich. Alte englische Möbel. Architekt: Paul Huldschinsky.\nAufnahme: Jules Kanzler.",
+      "notes": "Zeitungsausschnitt. Enthält eine Abbildung eines Speisezimmers. Text in Fraktur."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Gleiche Seite wie Seite 4, jedoch mit aufgelegten Archiv-Hilfsmitteln (Grauskala #13 und Farbkarte #13)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar gedruckt und gut lesbar. Die Frakturschrift stellt keine Probleme dar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 5787,
+    "total_words": 921,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

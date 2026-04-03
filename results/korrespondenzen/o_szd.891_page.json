@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.891",
+    "title": "Brief an Frans Masereel vom [November 1919], SZ-LAS/B1.13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.891/IMG.1",
+      "https://gams.uni-graz.at/o:szd.891/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [November 1919], SZ-LAS/B1.13\n- Signatur: SZ-LAS/B1.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:41.149948+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon cher, mon bon Frans, je reviens de l'Allemagne ou j'ai donné\na Berlin et a Hambourg un discours sur R. R. avec un succès prati-\ngieux. La salle etait comblé, on m'offrait le double, si je voulais\nrepeter ma conférence, mais je n'avais pas le temps. Maintenant je\nreçois chaque jour des offres de Francfort, de Cologne, de tous les villes.\nEt au même temps, j'enviens[?] a un succès enorme a Vienne, le theatre\nrempli toujours jusqu'a la derniere place, on imprime le 13-20 mille.\nJ'ai une certaine joie a voir qu'on comprend enfin nos efforts si len-\nteux. Mais la litterature elle même - tu sais bien, que je suis loin\nde l'aimer. J'aime a creer et a agir, pas plus. Et je suis content de voir\nque la force de vivre me revient. Je suis très calme et j'envisage le futur\navec plus d'esperance, car, mon cher ami, nous ne pouvons pas tomber\nplus bas, que nous sommes.\nEt maintenant, mon cher Frans, aux affaires. J'ai racheté le\n„Zwang“ de l'editeur Autrichien et je l'ai donné a la Insel. Nean-\nmoins que nos comptes entre nous etaient reglés je demande pour\ntoi encore quelque chose, parce tu a du perdre au change. Et dis\nmoi encore, si le Sablier[?] serait prêt de faire pour lui seul ou avec\nla Insel une edition Francaise avec tes dessins? Naturellement la\npart serait de nouveau payé. Si vous consentez j'espère de pou-\nvoir vous transmettre les propositions de la Insel. La „Insel“ etait\ntrès malheureux d'entendre que ton livre d'Heures paraisse ailleurs.\nNe peux-tu pas lui reserver ton nouveau livre „le soleil“ pour l'Alle-\nmagne? Tu n'as qu'a ecrire a Dr. Kippenberg, Insel-verlag.\nQuant a „Tululi“ j'aimerais de la donner a Rütten & Loening, le",
+      "notes": "Handschriftlicher Brief in violetter Tinte. Die Lesbarkeit ist gut, einige französische Begriffe sind leicht kursiv oder flüchtig geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "premier editeur de R. qui a le Jean Cristophe et l'oeuvre capitale.\nJe donnerai 15% de chaque exemplaire a R. et moi, 5% a toi\nde chaque edition (et cela sera très avantageux pour toi, beaucoup\nplus qu'une somme fixe.) Est-ce que tu peux conclure avec lui a\nces conditions? Kurt Wolff n'a jamais reagi sur R. R. que après le\nsuccès, pendant que Rütten & L. risquait quelque chose il y dix\nans. Et je crois que c'est avantageux de reunir tout ton oeuvre\nchez un seule editeur.\nVoila tout les affaires. Je te repète: la „Insel“ sera heureux de\nrecevoir d'abord tes offres. Et c'est la maison d'edition la plus\nnoble de l'Allemagne, celle, ou tu trouveras toujours un appui se-\nrieux. Moi même j'eviterai la bas des belles choses. N'as tu pas\noublié de faire un bois de Verhaeren? Je suis sûr la Insel l'achete-\nrail avec grand plaisir pour la mettre en vente! Et nous, les amis\naimeraient tant d'avoir avec le Tolstoi aussi un Verhaeren et un\nRolland en bois. Cela donnerait lentement une admirable serie\ndes portraits. Et ta peinture? Est-ce que cela avance? Oh, mon\ncher Frans, comme j'aimerais a venir a Geneve pour te voir dans\nton atelier! Mais cela est impossible pour le moment.\nMais, mon cher, mon très cher Frans, nous t'attendons! Viens le\nprintemps, tu verras une ville magnifique, une belle maison,\ndes amis, qui seront heureux de te revoir. Reste chez nous, tu auras\nun chambre pour travailler, tu te reposeras. Et quelle joie pour\nnous, pour les enfants! Le voyage te coutera pas cher et au prin-\ntemps la vie sera plus facile ici. Mon cher Frans, nous parlons si\nsouvent de toi. Tous nos amitiés a ta famille et aux amis. Ton Stefan",
+      "notes": "Handschriftlicher Brief in violetter Tinte. Am rechten Rand befindet sich eine vertikale Anmerkung: 'Si tu vas a Paris, va de ma part chez, Raspail 5 et dis autres aussi!'"
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der flüchtigen Handschrift und einiger orthographischer Eigenheiten im Französischen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 3306,
+    "total_words": 592,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

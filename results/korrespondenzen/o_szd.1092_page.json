@@ -1,0 +1,77 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1092",
+    "title": "Postkarte an Max Fleischer vom 12. Dezember 1901, SZ-LAS/B3.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1092/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1092/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1092/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 12. Dezember 1901, SZ-LAS/B3.14\n- Signatur: SZ-LAS/B3.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.579751+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Stefan Zweig\n\nDas Mädchen\n\nHeut kann ich keine Ruhe finden . . .\nDas muß die Sommernacht wohl sein.\nDurchs off'ne Fenster strömt der Linden\nVerträumter Blütenduft herein.\n\nOh Du mein Herz, wenn er jetzt käme\n-- Die Mutter ging schon längst zur Ruh --\nUnd Dich in seine Arme nähme . . .\nDu schwaches Herz, . . . was thätest Du? . . .\n\nEinem lieben Max Fleischer\nals Neujahrsgruß!\n31. Dec. 1901 Stefan Zweig",
+      "notes": "Die handschriftliche Widmung und Signatur befinden sich unter dem gedruckten Gedichttext. Das Datum '31. Dec. 1901' ist handschriftlich hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Freunde und Gefährten\nMeisterdichtungen auf einzelnen Blättern\nHerausgeber: 442 Verleger:\nJohn Henry Mackay Schuster & Loeffler\nBerlin SW 46",
+      "notes": "Rückseite der Postkarte mit Verlagsangaben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Das Mädchen\n\nHeut kann ich keine Ruhe finden . . .\nDas muß die Sommernacht wohl sein.\nDurchs off'ne Fenster strömt der Linden\nVerträumter Blütenduft herein.\n\nOh Du mein Herz, wenn er jetzt käme\n-- Die Mutter ging schon längst zur Ruh --\nUnd Dich in seine Arme nähme . . .\nDu schwaches Herz, . . . was thätest Du? . . .\n\nEinem lieben Max Fleischer\nals Neujahrsgruß!",
+      "notes": "Scan mit Farbskala und Graustufenkarte, zeigt den Textbereich der Vorderseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der gedruckte Teil als auch die handschriftliche Widmung von Stefan Zweig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 909,
+    "total_words": 166,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.97,
+    "edited_pages": [],
+    "notes": "Page 1: Printed poem and handwritten dedication correctly transcribed. Page 2: Publisher banner linearization is imperfect (layout reads left-center-right but transcription merges columns) — acceptable for diplomatic transcription. Series number '442' appears in a circled emblem. Page 3 correctly classified as color_chart. duplicate_pages flag is a false positive caused by color-chart re-photography of page 1.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:00:00Z"
+  }
+}

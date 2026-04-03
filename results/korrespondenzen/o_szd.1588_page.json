@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1588",
+    "title": "Postkarte an Richard Friedenthal vom 11. März 1925, SZ-AAP/B2.11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1588/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1588/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1588/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Friedenthal vom 11. März 1925, SZ-AAP/B2.11\n- Signatur: SZ-AAP/B2.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:44.465010+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nHerru Dr. Richard Friedenthal\nin Charlottenburg\nBerliner Strasse 147",
+      "notes": "Adressseite einer Postkarte. Gedruckter Absender, handschriftliche Adresse in violetter Tinte. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Doktor, [?] \nDanke! Was Sie sagen ist mir\nsehr nahe und wichtig: ich\nbenötigen übrigens diese auto\nbiografische Form nur in dieser\neinen Novelle. Eine andere\nsolche ist Ihnen in den näch-\nsten Tagen, ich bin nur auf\nder Durchreise hier, warte\nbis die Festspielerei abge-\nflaut ist. In mir sind jetzt\nplötzlich ganze Plantagen von\nPlänen aufgebrochen, eine re-\nben der anderen. Ich schreibe\nIhnen bald. Herzlichst St. Z.",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Die Lesung 'Lieber Herr Doktor, [?]' ist aufgrund der Handschrift leicht unsicher."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Das Dokument liegt teilweise unter der Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Einzelne Wörter wie 'Doktor' oder 'Festspielerei' sind durch den Kontext eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 539,
+    "total_words": 86,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

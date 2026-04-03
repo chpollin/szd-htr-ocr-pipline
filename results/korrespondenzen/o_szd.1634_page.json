@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1634",
+    "title": "Brief an Stefan Zweig vom 10. August 1937, SZ-AAP/B8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1634/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1634/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1634/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. August 1937, SZ-AAP/B8\n- Signatur: SZ-AAP/B8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:49.629947+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "OFFICE OF THE VICE-PRESIDENT\n\nOXFORD\nUNIVERSITY\nPRESS\nNew York\n\n114 FIFTH AVENUE\nAugust 10, 1937\n\n\n\nDear Dr. Zweig:\n\nI should have written to you before, first of all to thank\nyou for the very pleasant afternoon I spent with you in London and\nalso to tell you what progress has been made with Reichner over the\nMozart note book.\n\nI am enclosing to you a copy of my final telegram of nearly\na month ago to which I have had as yet no answer. I wish, if pos-\nsible, you could prevail upon Reichner to give me the necessary\ninformation. It is important that no copies should be exported\nfrom Austria or England with the knowledge of the publisher and I\nmust know the Austrian published price, as they must be kept in\nline. I also suggested that if not more than 500 copies are to\nbe printed they should be numbered and possibly signed by you.\nCertainly in America this is of additional interest to collectors.\n\nI had hoped that we should have this book for Christmas, but\nbegin to doubt that we shall see it before the New Year unless\nReichner has made more progress than he has informed me of.\n\nWhen are you coming to America? I am looking forward very\nmuch to seeing you and hope you will stay in New York and not be\ntempted away to California.\n\nYours sincerely\n\nPaul [Unterschrift]\n\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg\nAustria",
+      "notes": "Typoskript auf blauem Briefpapier mit Briefkopf der Oxford University Press. Die Unterschrift ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, die über das Dokument gelegt wurden."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist lesbar, aber nicht vollständig transkribierbar (daher als [Unterschrift] markiert).",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1329,
+    "total_words": 243,
+    "language_detected": "en",
+    "language_match": false
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Typed letter on Oxford University Press letterhead, very legible. Transcription accurate. Handwritten signature rendered as 'Paul [Unterschrift]' — acceptable diplomatic convention. Language mismatch (EN letter catalogued as DE) is a metadata issue, not a transcription error.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
+  }
+}

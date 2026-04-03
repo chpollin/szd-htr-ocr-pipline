@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.930",
+    "title": "Postkarte an Frans Masereel vom 23. Oktober 1933, SZ-LAS/B1.49",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.930/IMG.1",
+      "https://gams.uni-graz.at/o:szd.930/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 23. Oktober 1933, SZ-LAS/B1.49\n- Signatur: SZ-LAS/B1.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.486726+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11, Portland Place\nLondon W\n\nPOST CARD\n\nMonsieur Frans Masereel\n\nParis\n7, rue Antoine Chantin",
+      "notes": "Adressseite einer Postkarte. Gedruckter Text 'POST CARD' und Briefmarken (Halfpenny und One Penny) vorhanden. Handschriftliche Adresse in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Cher vieux, on m'annonce de\nSalzburg l'envoi de six gravures\nde toi: merci d'avance. Je suis\nheureux ici a Londres, tout me\nplait, la ville, la brume, l'in-\ndifference des hommes et avant\ntout des galeries! Je travaille\nle matin a la bibliotheque\npuis chez moi et je me prome-\nne le soir, je vois presque per-\nsonne, je vis enfin un peu ma\nvie et non celle des autres.\nPour la premiere fois je retrouve\nma concentration. Je resterai\nsi long que possible et puis je\nte verrai a Paris. Ma femme\nt'envoie les meilleurs amities.\n\n{Ton vieux Stefan}\n{qui a vu Paula}",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Am linken Rand vertikal geschrieben: 'Ton vieux Stefan' und 'qui a vu Paula' (letzteres ist eine Ergänzung am Rand). Der Text ist auf Französisch verfasst."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift von Stefan Zweig ist klar identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 654,
+    "total_words": 119,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

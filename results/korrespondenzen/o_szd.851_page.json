@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.851",
+    "title": "Brief an Stefan Zweig vom 24. Juni 1937, SZ-AAP/B1.67",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.851/IMG.1",
+      "https://gams.uni-graz.at/o:szd.851/IMG.2",
+      "https://gams.uni-graz.at/o:szd.851/IMG.3",
+      "https://gams.uni-graz.at/o:szd.851/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 24. Juni 1937, SZ-AAP/B1.67\n- Signatur: SZ-AAP/B1.67\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:37.522083+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\n● Ihre beiden Schreiben vom 15. und 21.Juni 1937 24.Juni 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken für Ihre beiden obigen Schreiben:\n\nMagellan-Format: Wir schicken Ihnen 10 ganze Bogen und bitten Sie,diese\nBogen nicht zu zerschneiden,damit Ihre Verleger das unbeschnittene\nFormat genau ersehen.Wir haben auf der ersten Seite eines jeden Bogens\ndie beschnittene Grösse eingezeichnet.So ist jeder Irrtum ausgeschlossen.\n\nJim Fujino,Yokohama: Wir haben heute an diesen Studenten geschrieben\nund legen die Kopie bei.Erst neulich haben wir einen sehr grossen Auftrag\nvon Zweig-Büchern der Fa.Mitsukoshi in Tokyo erhalten,sodass es also\ngar nicht stimmt,dass Ihre Bücher in Japan überhaupt nicht vorhanden\nseien.Wir haben aber Herrn Fujimo angeboten,ihn mit dem üblichen Studen-\ntenrabatt direkt zu beliefern,falls er nicht eine dort ansässige Buch-\nhandlung benutzen will.\n\"Science Front 1936\": Wir haben heute sofort an Cassell & Co. geschrieben,\nweil uns ein derartiges Jahrbuch sehr interessiert,vorausgesetzt dass es\nwirklich alljährlich herauskommt.Können Sie noch die Adresse von Mr.Heard\nerfahren ? Wir möchten ihm direkt schreiben.\n\"Begegnungen\": Sie werden auch die weiteren Korrekturen immer direkt aus\nBrünn erhalten,was zweifellos Zeitgewinn bedeutet.Wenn einmal 2 - 3\nTage nichts kommt,so will dies nicht heissen,dass der Satz stockt,son-",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die letzte Zeile bricht mitten im Wort ab."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n● dern dass Rohrer einen grösseren Abschnitt auf einmal ausgiesst.\n\nWir danken Ihnen für Ihr stetiges Interesse und begrüssen Sie als\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Fortsetzung des Textes von Seite 1. Die Unterschrift ist handschriftlich (blaue Tinte, unleserlich)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die einzige Herausforderung ist die handschriftliche Unterschrift auf Seite 3, die nicht entzifferbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2339,
+    "total_words": 322,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

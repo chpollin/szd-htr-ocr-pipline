@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1208",
+    "title": "Brief an Anna Meingast vom [Juli 1934], SZ-SAM/B7.38",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1208/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1208/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom [Juli 1934], SZ-SAM/B7.38\n- Signatur: SZ-SAM/B7.38\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.862780+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Liebe Frau Meingast, ich danke Ihnen sehr\nfür u. Byzanz[?]. Bitte glauben Sie mir, dass\nes mir nicht minder schwer war, dies zu\nsagen, als Ihnen, es entgegenzunehmen. Aber\nich sehe doch Salzburg nur weggleiten in\ndem allgemeinen Sturz meiner Existenz, die\nvon Grunde auf neugebaut werden müsste\nund ist bin so überzeugt, dass Sie in diesen\nJahren etwas finden — vielleicht nicht\netwas, das ganz unserer so guten Zusammen-\narbeit entspricht, aber doch etwas was Sie\nbenhaftigt[?]. Nur seien Sie auch ganz sicher,\ndass ich nie jemanden im Stich lassen —\nich werde mich nur verpflichtet, gerade zu\nIhnen aufrichtig zu sein. Viele Grüße Ihr\nStefan Zweig",
+      "notes": "Die Handschrift ist flüssig, aber stellenweise eng. 'Byzanz' könnte sich auf ein Werk oder Projekt beziehen. 'benhaftigt' ist eine unsichere Lesung, möglicherweise ist 'behaftigt' oder ein ähnliches Wort gemeint."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer bzw. zeigt nur den Durchdruck der Tinte von der Vorderseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist weitgehend gut lesbar, abgesehen von zwei Wörtern, die aufgrund der Handschrift und des Kontextes leicht unsicher sind.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 649,
+    "total_words": 108,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

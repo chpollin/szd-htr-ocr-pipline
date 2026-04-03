@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2670",
+    "title": "Einheitsfront gegen den Krieg",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA44.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2670/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2670/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2670/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2670/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2670/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2670/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2670/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Einheitsfront gegen den Krieg\n- Signatur: SZ-AAP/W-AA44.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette                                     \n  Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:53.678783+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Einheitsfront\ngegen den Krieg",
+      "notes": "Handschrift in violetter Tinte. Es handelt sich um ein Blatt, das auf ein Trägerpapier aufgeklebt ist. Der obere Teil des Trägerpapiers zeigt den gleichen Text in einer anderen Handschrift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Einheitsfront\ngegen den Krieg",
+      "notes": "Handschrift in violetter Tinte. Identisch mit dem Haupttext auf Seite 1."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, zeigt das Durchscheinen der Tinte von der Vorderseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Einheitsfront gegen den Krieg",
+      "notes": "Handschrift in violetter Tinte auf einem schmalen Papierstreifen."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Papierstreifens, zeigt das Durchscheinen der Tinte."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Einheitsfront\ngegen den Krieg",
+      "notes": "Gesamtansicht des Dokuments mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 116,
+    "total_words": 16,
+    "language_detected": "",
+    "language_match": true
+  }
+}

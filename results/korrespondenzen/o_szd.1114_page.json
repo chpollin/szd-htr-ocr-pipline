@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1114",
+    "title": "Postkarte an Max und Victor Fleischer vom 28. Dezember 1902, SZ-LAS/B3.34",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1114/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1114/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1114/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max und Victor Fleischer vom 28. Dezember 1902, SZ-LAS/B3.34\n- Signatur: SZ-LAS/B3.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.831950+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "An\nMax & Victor Fleischer\nin Kornhaus in Böhmen\nWohnung:\n(Straße und Hausnummer.)",
+      "notes": "Adressseite der Postkarte. Stempel: CHARLOTTENBURG 28.12.02. Briefmarke: 5 Pfennig Deutsches Reich."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Prost, Maxel!\nGrüße der [?]\n[...10...] \n\nProbiestube.\nKantstr. 28.\nDer Anfang in Berlin ist gemacht; aber\ngalt es für Wok. Stefan",
+      "notes": "Bildseite der Postkarte. Der Text ist teilweise schwer lesbar, insbesondere die Zeile unter 'Grüße der'. 'Wok' könnte auch 'Wok.' oder eine Abkürzung sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "An\nMax & Victor Fleischer\nin Kornhaus in Böhmen\nWohnung:\n(Straße und Hausnummer.)",
+      "notes": "Dies ist eine Wiederholung der Adressseite im Kontext der Farb- und Grauskala."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf der Bildseite ist teilweise verblasst oder durch den Untergrund (Bildmotiv) schwer zu entziffern. Die Adressseite ist sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 291,
+    "total_words": 47,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

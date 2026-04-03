@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.549",
+    "title": "Armand Brody an Stefan Zweig, 1907-02-09, SZ-SAM/AK.257",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.549/IMG.1",
+      "https://gams.uni-graz.at/o:szd.549/IMG.2",
+      "https://gams.uni-graz.at/o:szd.549/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1907-02-09, SZ-SAM/AK.257\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.257\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:17.159380+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "warm, herrlicher Himmel,\nweisses Sonnenlicht, Hotel\nausgezeichnet, Publikum\nex-qui-sit!! Ich reite\ntäglich aus es ist eine\nWollust in der Wüste, ob\nwohl die Pferde scheuss-\nlich sind. -- diese übrigens\ntreffliche Photographie mag\ndir eine der tausend un-\nvergleichlichen Stimmungen\nnäherbringen, die hier überall\nin der Luft liegen. Servus, beneide\nmich! Weiss Gott!...\nDein Armand.",
+      "notes": "Handschriftliche Nachricht auf der Bildseite einer Postkarte. Motiv: Biskra, Au bord de l'Oued."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Stefan,\nGottseidank! Endlich weiss ich, wozu ich\nnach Afrika gekommen bin! Ja, das, mein\nFreund, soll geschaut, soll erlebt werden!\nIch ärgere mich nachträglich für Dich, dass\nDu nicht nach Biskra bist. Welch ein un-\nverzeihliches Versäumnis! Was weisst Du von\nAfrika auf Algier und Blida und Oran\nempor\"!!? Das ist Afrika!! Ein Traum aus\n\"Tausend u. einer Nacht\" - Besseres wüsst ich\ndarüber nicht zu sagen. Einstweilen; hoff-\nentlich fällt mir Besseres noch ein - für\ndas Feuilleton...) Weisst Du, einfach fabel-\nhaft interessant, neu und schön. Eine Im-\npression wie Capri: Paradies auf Erden! Na, ich\nwill die Definitionen lassen; du wüsstest ja\ndoch nicht! Lieber Tatsächliches: es ist sehr",
+      "notes": "Handschriftliche Nachricht auf der Adressseite einer Postkarte. Adressat: Dr. Stefan Zweig, Wien. Stempel: Biskra, 9.2.07. Briefmarke: 10c Republik Frankreich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Enthält die gleiche Postkarte wie in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Unterbrechung am Ende der zweiten Seite ist durch den Rand der Postkarte bedingt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1084,
+    "total_words": 168,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

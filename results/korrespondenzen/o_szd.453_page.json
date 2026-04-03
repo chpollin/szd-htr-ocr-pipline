@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.453",
+    "title": "Gerta Schaffner an Stefan Zweig, 1937-03-01, SZ-SAM/AK.169",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.453/IMG.1",
+      "https://gams.uni-graz.at/o:szd.453/IMG.2",
+      "https://gams.uni-graz.at/o:szd.453/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Gerta Schaffner an Stefan Zweig, 1937-03-01, SZ-SAM/AK.169\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.169\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.368757+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "187\nIDOLOS - TEMPLO DE QUETZALCOATL - TEOTIHUACAN\nMEXICO.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Tempels von Quetzalcoatl. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg\nKapuzinerberg\nAustria\n\n: I'm [?]\non a trip with my husband\nhave enjoyed the magic\nscenery and climate, the\nfascinating people and\nseeing the art treasures\nof ancient and modern\ncivilizations. You must\ninclude this in your American\nitinerary. When are you coming?\nGreetings! Gerta Schaffner[?]",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in englischer Sprache. Ein Teil des Textes ist durch einen vertikalen schwarzen Strich überdeckt. Poststempel 'MEXICO 937' erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke, darunter die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der handschriftliche Text auf der Rückseite der Postkarte ist teilweise schwer lesbar, insbesondere durch die Überdeckung mit dem schwarzen Strich und die kursive Schrift. Die Identifikation der Unterschrift 'Gerta Schaffner' ist aufgrund der Schriftführung unsicher.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 358,
+    "total_words": 56,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

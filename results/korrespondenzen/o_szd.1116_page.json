@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1116",
+    "title": "Postkarte an Max Fleischer vom 30. Januar 1903, SZ-LAS/B3.36",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1116/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1116/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1116/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 30. Januar 1903, SZ-LAS/B3.36\n- Signatur: SZ-LAS/B3.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.979931+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte.\n\nHerrn\nMax Fleischer\nin Komotau (Böhmen)\n[...10...] 4,",
+      "notes": "Adressseite der Postkarte. Der Poststempel ist teilweise lesbar (31.1.03 KOMOTAU). Die Adresse ist handschriftlich ergänzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "23\nJAHR\nbis\n100 Jahr\n\nTRAUM u. SCHÖPFUNG\n\nWir gratulieren!\nVictor [?]\nMartin Buber\nKober\n[...10...] [?]\nStefan Zweig\nCamill Hoffmann\nL. V. Win[...3...]\n\nDas ist der Bleistift in matt\ngrün [...10...] die Karte\n\nDas wird mirste![?] \nDas ist auch mirste.[?]",
+      "notes": "Bildseite der Postkarte mit Zeichnung und Unterschriften. Die Unterschriften sind teilweise schwer lesbar. Die Anmerkungen am Rand sind in Bleistift geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "23\nJAHR\nbis\n100 Jahr\n\nTRAUM u. SCHÖPFUNG\n\nWir gratulieren!\nVictor [?]\nMartin Buber\nKober\n[...10...] [?]\nStefan Zweig\nCamill Hoffmann\nL. V. Win[...3...]\n\nDas ist der Bleistift in matt\ngrün [...10...] die Karte\n\nDas wird mirste![?] \nDas ist auch mirste.[?]",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbkarte im Bild."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschriften der Unterschriften und die Bleistiftnotizen am Rand sind aufgrund der grafischen Gestaltung und der Überlagerung mit der Zeichnung schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 583,
+    "total_words": 91,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

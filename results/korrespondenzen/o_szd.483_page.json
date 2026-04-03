@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.483",
+    "title": "Tina Trebitsch an Stefan Zweig, 1929-03-03, SZ-SAM/AK.196",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.483/IMG.1",
+      "https://gams.uni-graz.at/o:szd.483/IMG.2",
+      "https://gams.uni-graz.at/o:szd.483/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Tina Trebitsch an Stefan Zweig, 1929-03-03, SZ-SAM/AK.196\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.196\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.530378+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "3.3.29\n\n460 MENTON. Vue sur Garavan,-RM",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlichem Datum oben mittig."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Monsieur\nStefan Zweig\nKapuzinerberg 5\nSalzburg\nAutriche\n\n3.3.29\nVerehrter Freund! Mein Mann\nbehauptet dass Sie ihn ganz vergessen\nhaben, er hat dies Jahr grauenhaftes\nso viel Pech! Ich hoffte er würde sich\nnach der Grippe bei erholen den zweiten\nTag unseres hierseins, fiel er über eine\nTreppe, thy[?] Muskelriss über den\nRippen davon. Dies lässt ihn ohne\nSchmerzen nicht liegen - daher nicht schlafen.\nSie können sich denken das von uns, Ihr\nSohn René Rest ist. Ende nächster\nWoche sind wir wieder in Wien - nun sei\nAllerherzlichste Grüße Ihnen beiden von\nIhre Tina Trebitsch",
+      "notes": "Rückseite der Ansichtskarte. Handschrift in violetter Tinte. Briefmarke und Poststempel (Menton, 9-3 29) oben links. 'thy' ist schwer lesbar, möglicherweise ein Schreibfehler oder eine Abkürzung."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, darunter die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, abgesehen von einem Wort ('thy') in der siebten Zeile des Nachrichtentextes, das vermutlich ein Schreibfehler der Verfasserin ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 615,
+    "total_words": 101,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

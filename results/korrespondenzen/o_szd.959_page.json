@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.959",
+    "title": "Brief an Sigmund Freud vom 2. Juni 1932, SZ-LAS/B7.19",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.959/IMG.1",
+      "https://gams.uni-graz.at/o:szd.959/IMG.2",
+      "https://gams.uni-graz.at/o:szd.959/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 2. Juni 1932, SZ-LAS/B7.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.089177+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 2. Juni 1932\n\nHoch verehrter Herr Professor, ich danke Ihnen vielmals für Ihren gü-\ntigen Brief. Die italienische Uebersetzung hat an dieser Stelle unbewusst\nvergröbert aber ich will sofort dort, wie auch bei den künftigen deutschen\nAuflagen eine Klarstellung durch Verbesserung schaffen. Niemand weiss besser\nals ich wie sehr meine Arbeit im letzten nicht ganz adäquat ist: schon\nder äussere Umfang zwang zu Zusammenziehungen und zur Unterdrückung\nvieler Aspekte, die eigentlich alle vorbereitet waren; das wirkliche Werk\nüber Ihr Werk ist noch zu schreiben und ich fühle mich nur als beschei-\ndener Pacemaker. Im Sinne einer solchen Stimulation der Aufmerksamkeit\nund eines leider noch immer in gebührendem Masse nicht vorhan-\ndenen Respects hat die kleine Studie immerhin schon gewirkt, in Frank-\nreich vor allem, wo 30 Auflagen innerhalb der kurzen Frist vorliegen,",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Violette Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "in den verschiedenen englischen, spanischen, italienischen, schwedischen, nor-\nwegischen Uebersetzungen, denen ich jetzt die polnische, holländische ~~auch~~ {anschliesst}. So hat meine kleine Kraft den Radius des Interesses ~~immer~~ doch\nerweitert und wo ich mit meiner Darstellung nicht zulänglich war, ~~dass~~ ~~ist~~ \n~~doch~~ nicht sie jetzt doch wandelt den eigentlichen Text und die Lehre in\ndes Meisters ipsis verbis.\nDie Schrift Ihres Briefes zeigt mir (der ich sonst der Grafologie nicht weit\ntraue) eine so herrliche Festigkeit, dass ich hoffe, sie deutet auf völliges\nWohlbefinden des Körpers; um die Freiheit und Frische des Geistes bin ich\nbei Ihnen nicht besorgt. Mögen wir bald davon schöpferische Probe erfah-\nren! In getreuester Verehrung immer Ihr ergebener\n\nStefan Zweig",
+      "notes": "Fortsetzung des Briefes auf der Rückseite. Violette Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "in den verschiedenen englischen, spanischen, italienischen, schwedischen, nor-\nwegischen Uebersetzungen, denen ich jetzt die polnische, holländische ~~auch~~ {anschliesst}. So hat meine kleine Kraft den Radius des Interesses ~~immer~~ doch\nerweitert und wo ich mit meiner Darstellung nicht zulänglich war, ~~dass~~ ~~ist~~ \n~~doch~~ nicht sie jetzt doch wandelt den eigentlichen Text und die Lehre in\ndes Meisters ipsis verbis.\nDie Schrift Ihres Briefes zeigt mir (der ich sonst der Grafologie nicht weit\ntraue) eine so herrliche Festigkeit, dass ich hoffe, sie deutet auf völliges\nWohlbefinden des Körpers; um die Freiheit und Frische des Geistes bin ich\nbei Ihnen nicht besorgt. Mögen wir bald davon schöpferische Probe erfah-\nren! In getreuester Verehrung immer Ihr ergebener\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala am unteren Rand für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Korrekturen (durchgestrichene Wörter und Einfügungen) sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2482,
+    "total_words": 366,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

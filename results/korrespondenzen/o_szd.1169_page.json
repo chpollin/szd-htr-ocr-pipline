@@ -1,0 +1,73 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1169",
+    "title": "Suse von Winternitz an Anna Meingast, SZ-SAM/B12",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1169/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1169/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1169/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Suse von Winternitz an Anna Meingast, SZ-SAM/B12\n- Signatur: SZ-SAM/B12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.387490+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Liebe Frau Meingast!\n\nHerr Doktor beauftragt mich Ihnen den Erhalt der\nBriefe zu bestätigen. Mama dankt auch noch für Ihr\nIhre liebe Karte und freut sich dass Sie und\nWilly sich gut erholt haben. Mama lääst sagen, dass\ndie Anweisungen nicht von ihr sonder von Herrn\nDoktor sind, mit Ausnahme der letzten, dankt Ihnen\ngleichfalls für Ihre Mühe und Nachsendung der\nPost.",
+      "notes": "Der Text ist maschinengeschrieben. In Zeile 3 ist 'Ihr' durchgestrichen (bzw. überschrieben) durch 'Ihre'. In Zeile 4 ist 'lääst' ein Tippfehler im Original."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "4.8.28 Autriche\n\n[Absender:]\nM. Zweig\nOstende\nHotel Miramar\n\nIch selbst, danke auch herz-\nlichst für Ihre lieben\nGrüsse.\nIhre ergebene\nSusie Winternitz.\n\n[Empfänger:]\nFrau\nAnna Meingast\nSalzburg\nLinzergasse (Laubinger)",
+      "notes": "Handschriftliche Postkarte. Der Absenderbereich ist links vertikal geschrieben. Der Empfängerbereich ist rechts unten. 'Autriche' ist handschriftlich oben rechts ergänzt. Poststempel 'OOSTENDE 9.8.28'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "4.8.28 Autriche\n\n[Absender:]\nM. Zweig\nOstende\nHotel Miramar\n\nIch selbst, danke auch herz-\nlichst für Ihre lieben\nGrüsse.\nIhre ergebene\nSusie Winternitz.\n\n[Empfänger:]\nFrau\nAnna Meingast\nSalzburg\nLinzergasse (Laubinger)",
+      "notes": "Identisch mit Seite 2, inklusive Farb- und Grauskala-Referenzkarten."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, sowohl die Maschinenschrift als auch die Handschrift sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 804,
+    "total_words": 120,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T15:02:45.811244+00:00"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.386",
+    "title": "Lichtenstein an Stefan Zweig, 1904-11-03, SZ-SAM/AK.107",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.386/IMG.1",
+      "https://gams.uni-graz.at/o:szd.386/IMG.2",
+      "https://gams.uni-graz.at/o:szd.386/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lichtenstein an Stefan Zweig, 1904-11-03, SZ-SAM/AK.107\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.107\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.951680+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Café „BAUER“\nJnh. Oscar Bauer\nBerlin. W. 64. Unter den Linden (Ecke Friedrichstr.)\nHerzlichste Grüße! Morgen schreibe\nich Dir ausführlich Lichtenstein\nJacques Héqui[?]\nHerzlichste Wien Palma: 3. 11. 04.",
+      "notes": "Vorderseite einer illustrierten Postkarte. Der Text ist handschriftlich in Tinte verfasst. Die Lesung des Namens 'Héqui' ist aufgrund der Handschrift unsicher."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Postkarte — Carte postale\nWeltpostverein — Union postale universelle\nCorrespondenzkarte — Levelezö- Lap —\nDopisnice — Dopisnica — Post card —\nKarta korespondencyjna — Cartolina postale\nBriefkaart — Carta postala — Brefkort\nTarjeta postal — Korespondenční listek\nДописна карта — Открытое письмо\n\nMonsieur\nStefan Zweig\nPari's\n5 rue Victor Massé",
+      "notes": "Adressseite der Postkarte. Gedruckter Standardtext für Postkarten. Handschriftliche Adressierung. Briefmarke (Deutsches Reich, 10 Pfennig) und Poststempel (Berlin S.W. 3.11.04) sowie Ankunftsstempel (Paris Etranger 4.11.04) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Monsieur\nStefan Zweig\nPari's\n5 rue Victor Massé",
+      "notes": "Dies ist eine Aufnahme der Adressseite der Postkarte zusammen mit Archiv-Farbskalen. Die Transkription beschränkt sich auf den handschriftlichen Text der Adresse."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich der Name des Absenders auf der Vorderseite weist eine leichte Unsicherheit auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 591,
+    "total_words": 87,
+    "language_detected": "",
+    "language_match": true
+  }
+}

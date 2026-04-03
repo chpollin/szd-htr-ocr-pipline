@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.752",
+    "title": "Brief an Stefan Zweig vom 20. Dezember 1937, SZ-AAP/B1.158",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.752/IMG.1",
+      "https://gams.uni-graz.at/o:szd.752/IMG.2",
+      "https://gams.uni-graz.at/o:szd.752/IMG.3",
+      "https://gams.uni-graz.at/o:szd.752/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 20. Dezember 1937, SZ-AAP/B1.158\n- Signatur: SZ-AAP/B1.158\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:28.729480+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT Sy.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\n20. Dezember 1937.\n\nHerrn Stefan Zweig,\n49, Hallam Street\nW 1.\n\nSehr geehrter Herr Zweig,\nBesten Dank für Ihr Schreiben vom 17.ds.Mts.\nIch werde gern einen Antrag auf Transferierung Ihrer\nForderung gegen den Insel-Verein ausarbeiten und dem Board of Trade\neinreichen.\n\nZuvor möchte ich jedoch auf folgendes hinweisen :\nDer Kontoauszug des Insel-Verlags, der vom 25.2.1936 datiert, trägt\ndie Überschrift \"Kontoauszug für Herrn Dr. Stefan Zweig, Salzburg /\nÖsterreich\" . Dagegen ist das Begleitschreiben des Insel-Verlags vom\n27.2.1936 an Sie unter der Adresse \"11 Portland Place, London W 1\"\ngerichtet. Ich halte es für zumindest unzweckmässig, diesen Konto-\nauszug einzureichen, möchte vielmehr vorschlagen, dass Sie den Insel-\nVerlag bitten, Ihnen einen berichtigten Kontoauszug, der ebenfalls\nIhre damalige Londoner Anschrift trägt, zu übersenden; denn gerade\nden Kontoauszug wird man zweifellos vorlegen müssen.\n\nDa das Schreiben des Insel-Verlags im vorletzten Absatz\nerwähnt, dass sie beabsichtigen, eine Devisengenehmigung nachzusuchen,\nwürde es mich interessieren, etwas genauer zu wissen, wie diese Ange-\nlegenheit ausgelaufen ist; insbesondere, ob der Antrag auf Über-\nweisung nach Österreich oder nach England gestellt war, und mit\nwelcher Begründung die Genehmigung abgelehnt wurde. Falls sich\nalso aus einem späteren Schreiben des Insel-Verlags hierüber Näheres\nergibt, wäre ich Ihnen dankbar, wenn Sie mir dies gelegentlich auch\n-2-",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "- 2 -\n\nnoch übersenden würden.\n\nMit vielen Grüssen auch von Fräulein Melchior\n\nIhr sehr ergebener\n[Unterschrift]",
+      "notes": "Typoskript, Fortsetzung des Briefes. Die Unterschrift ist handschriftlich."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist als solche markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1763,
+    "total_words": 248,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

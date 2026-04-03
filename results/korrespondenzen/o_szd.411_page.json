@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.411",
+    "title": "Milan Begovic an Stefan Zweig, 1913-07-27, SZ-SAM/AK.13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.411/IMG.1",
+      "https://gams.uni-graz.at/o:szd.411/IMG.2",
+      "https://gams.uni-graz.at/o:szd.411/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Milan Begovic an Stefan Zweig, 1913-07-27, SZ-SAM/AK.13\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.561845+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Banjaluka - Gornji-Sěher 27.7.13.",
+      "notes": "Vorderseite einer Ansichtskarte mit Ortsbezeichnung und Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Banjaluka, Postlagernd, 1913. 22/7.\nLieber Dr Zweig! Leider konnte ich\nsie nicht vor meiner Abreise besuchen.\nIch bleibe hier 4 Wochen und arbeite\nfleissig an der Uebersetzung Ihres\nStückes „Haus am Meer“. Bis August\nwird sie fertig sein. Was tun Sie? Wo\nverbringen Sie Ihren Sommer? Lassen\nSie, bitte, etwas von sich hören. Mitte\nAugust fahre ich vielleicht nach Venedig,\nund Mitte September bin ich wieder in Wien.\nHier ist einfach prachtvoll. Die Stadt\nbesitzt die vollkommene orientalische Ro=\nmantik. Ich wünsche Ihnen alles Gute\nund begrüsse Sie herzlichst!\nIhr Begovic",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text und Adressfeld. Poststempel 'BANJALUKA' erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Banjaluka, Postlagernd, 1913. 22/7.\nLieber Dr Zweig! Leider konnte ich\nsie nicht vor meiner Abreise besuchen.\nIch bleibe hier 4 Wochen und arbeite\nfleissig an der Uebersetzung Ihres\nStückes „Haus am Meer“. Bis August\nwird sie fertig sein. Was tun Sie? Wo\nverbringen Sie Ihren Sommer? Lassen\nSie, bitte, etwas von sich hören. Mitte\nAugust fahre ich vielleicht nach Venedig,\nund Mitte September bin ich wieder in Wien.\nHier ist einfach prachtvoll. Die Stadt\nbesitzt die vollkommene orientalische Ro=\nmantik. Ich wünsche Ihnen alles Gute\nund begrüsse Sie herzlichst!\nIhr Begovic",
+      "notes": "Scan mit Farbskala und Grauskala. Identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1183,
+    "total_words": 186,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

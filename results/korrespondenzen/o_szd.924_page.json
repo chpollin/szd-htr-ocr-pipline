@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.924",
+    "title": "Postkarte an Frans Masereel vom 22. August 1931, SZ-LAS/B1.43",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.924/IMG.1",
+      "https://gams.uni-graz.at/o:szd.924/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 22. August 1931, SZ-LAS/B1.43\n- Signatur: SZ-LAS/B1.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:43.915835+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender: STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nPostkarte\n\nHerrn\nFrans Masereel\nMaison du Calvaire\n15 Rue Hégesipe Moreau\n~~Paris~~\nEquihen par Outreau\nPas de Calais",
+      "notes": "Adressseite einer Postkarte. Gedruckte Formularvorgaben, handschriftliche Adressierung in violetter Tinte. Die durchgestrichene Zeile 'Paris' ist deutlich lesbar. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg, am 22. 8. 1931\n\nLieber Frans!\n\nIch erhalte heute ein Telegramm,\ndass die Herren prinzipiell mit meinem\nPreisvorschlag von tausend Francs für den\nHolzschnitt einverstanden sind und möch-\nte nur wissen, wieviel Du davon machen wol-\ntest. Ich glaube, dass ungefähr vier das\nrichtige ist. Es handelt sich um die No-\nvelle \"Buchmendel\" in der \"Kleinen Chronik\"\ndie ich Dir gleichzeitig schicke. Wegen\nder russischen Sache gehen die Verhandlun-\ngen noch fort, werden aber bald zum Ziele\nführen.\n\nHerzlichst Dein Stefan",
+      "notes": "Nachrichtenseite der Postkarte. Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Die Zeilenumbrüche im Typoskript sind teilweise ungleichmäßig, wurden aber originalgetreu übernommen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der Adressseite und die Unterschrift sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 689,
+    "total_words": 106,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

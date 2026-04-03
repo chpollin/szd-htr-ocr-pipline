@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.961",
+    "title": "Brief an Sigmund Freud vom 21. Oktober 1932, SZ-LAS/B7.20",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.961/IMG.1",
+      "https://gams.uni-graz.at/o:szd.961/IMG.2",
+      "https://gams.uni-graz.at/o:szd.961/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 21. Oktober 1932, SZ-LAS/B7.20\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.305330+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SALZBURG 21. Oct 1932\nKAPUZINERBERG 5\n\nHochverehrter Herr Professor, lassen Sie mich\nIhnen für Ihre besondere Güte danken — ich weiss, was\nes bedeutet, wenn ein Mann Ihres Ranges und Ihrer Ar-\nbeitsfülle einem Buche seine Zeit widmet; alles was ich schrei-\nbe ist von Ihnen beeinträchtigt und vielleicht spüren Sie, dass\nder Mut zur Wahrhaftigkeit, der möglicherweide das Wesentliche\nmeiner Bücher ist, von Ihnen stammt; Sie haben einer ganzen\nGeneration ein Vorbild gegeben.\nIn dem Falle des Dauphin hatte ich noch mehr Ma-\nterial, als ich verwertete. Aber es war mir zu grausam, das\nwort zu berichten, das er vor Beglaubigten Zeugen sagte\n„Quand guillotinera-t-on enfin ces sacrés putaines?“ Auch\ndies hatte er offenbar gehört und, weil er es als lustig em-\npfand (nur vielleicht aus einem geheimen Hass) nachgesprochen.\n Viel Material über all diese Dinge hat ein fran-\nzösischer Arzt gesammelt, Dr. Cabanès in seinen „Indiscre-\ntions de l'histoire“, „Les morts mysterieuse“ ect. Dieser Mann\nhat mit bewundernswertem Fleiss alle Sexualia der Geschichte\ngesammelt und medizinisch überprüft — leider aber ohne\neine Ahnung von Psychoanalyse zu haben, so dass alle diese\nSchätze heute ungenützt daliegen. Vielleicht könnten Sie\neinige Ihrer Schüler einmal auf diese Reihe aufmerksam",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Tinte violett. Gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "machen, damit sie dieses köstliche Material verwerten\n(ich danke ihm für die Marie Antoinette zu ersten ent-\nscheidenden Hinweise, denen ich dann nachging und die\ner psychologisch nicht zu verwerten wusste.) Er hat den In-\nstinkt, den Fleiss, er spürt das Interessante, er versteht nur\nleider nicht — weil ihm eben die Kenntnis Ihrer Methode\nabgeht — die Phänomene zu deuten: er zählt sie nur auf.\nAber in den 20 kleinen Bänden ist für den Forscher ein\nganzes Bergwerk des Wissens.\nLassen Sie mich, verehrter, teurer Meister,\nnun noch den Wunsch aussprechen, Ihre herrliche und\nunvergleichliche physische Frische, Ihre schöpferische Neugier\nmöge uns lange noch erhalten bleiben; eine so vom Geist\nverlassene Zeit wie die unsere benötigt die intellectuelle\nAutorität. Nur wie wenige sind, die uns führen und\nbelehren!\nIn treuer Verehrung\nIhr stets ergebener\nStefan Zweig",
+      "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1. Tinte violett. Gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala/Grauskala am unteren Rand zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Ein paar französische Begriffe und Eigennamen wurden kontextuell geprüft.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2150,
+    "total_words": 335,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.381",
+    "title": "Kurverwaltung Bad Homburg an Stefan Zweig, 1932-07-15, SZ-SAM/AK.102",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.381/IMG.1",
+      "https://gams.uni-graz.at/o:szd.381/IMG.2",
+      "https://gams.uni-graz.at/o:szd.381/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Kurverwaltung Bad Homburg an Stefan Zweig, 1932-07-15, SZ-SAM/AK.102\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.102\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.656260+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "15.7\n32\n\nBad Homburg v. d. Höhe, Weiher im Kurpark",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Datumsangabe oben mittig, gedruckter Text unten links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "12. Juli\n\nWie schön es in Bad Hom-\nburg ist-wie gut und bil-\nlig es sich hier leben\nlässt-wie vorzüglich es\nzur Erholung der Gesund-\nheit(namentlich bei Magen\nund Darmerkrankungen)ge-\neignet ist-das alles wer-\nden Sie in dem Prospekt\ngesehen und gelesen haben\nden wir Ihnen kürzlich\nübersandten.\n\nBad Homburg erwartet Sie.\n\nMit vorzügl.Hochachtung!\nKURVERWALTUNG BAD HOMBURG\n[Handschriftliche Signatur/Kürzel, unleserlich]",
+      "notes": "Rückseite der Ansichtskarte. Gedruckter Text mit handschriftlicher Ergänzung (Datum oben links, Signatur unten). Adressfeld rechts mit gedrucktem Text 'S.H, Herrn / Schriftsteller Stefan / Zweig / S A L Z B U R G / Oesterr'. Briefmarke und Poststempel 'BAD HOMBURG v.d. Höhe 15.7.32' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung, Ansichtskarte in der Mitte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Signatur unter 'KURVERWALTUNG BAD HOMBURG' ist unleserlich, daher als solche markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 472,
+    "total_words": 70,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1312",
+    "title": "Postkarte an Ami Kaemmerer vom 9. Dezember 1917, SZ-SHB/B2.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1312/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1312/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Ami Kaemmerer vom 9. Dezember 1917, SZ-SHB/B2.5\n- Signatur: SZ-SHB/B2.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.804210+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Adresse des Absenders. - Text.\nAdresse de l'expéditeur - Texte.\nIndirizzo del mittente. - Testo.\n\nStefan Zweig Zürich\nHotel Elwert\n(bis 29. Dezember)\n\nCarte postale\n\nFr. Ami Kaemmerer\n\nHamburg\nInnocentiastrasse 35",
+      "notes": "Die Vorderseite der Postkarte enthält gedruckte französische/italienische Beschriftungen. Der handschriftliche Text ist in violetter Tinte verfasst. Poststempel: ZÜRICH 1, 9. XII. 1917. Briefmarken: 2x 5 Rappen Helvetia."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Doktor, könnte ich Ihnen\nvon diesen Wochen doch schreiben!\nWas habe ich gesehen, was erlebt,\nwie deutlich wird einem hier\ndas Gefüge! Von Wien aus hören\nSie mehr von mir! Ich habe\noft an Sie gedacht! Herzlichst\nIhr\n\nStefan Zweig\n\nGute Weihnachten (wie vermöchte\nich „fröhliche“ zu sagen! das ist\nvorbei!)",
+      "notes": "Handschriftlicher Text in violetter Tinte. Die Schrift ist gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist klar und typisch für Stefan Zweig. Alle Wörter sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 529,
+    "total_words": 84,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1868",
+    "title": "Brief an Manfred Altmann vom 14. Januar 1947, SZ-AAP/B1AN.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1868/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1868/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Manfred Altmann vom 14. Januar 1947, SZ-AAP/B1AN.2\n- Signatur: SZ-AAP/B1AN.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.001795+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SCHWEIZERISCHES VEREINSSORTIMENT OLTEN\nMAISON SUISSE DU LIVRE · CASA SVIZZERA DEL LIBRO · THE SWISS WHOLESALE BOOK CO.\n\nTelegramm-Adresse\nSortiment Olten\nTelephon : 5 21 22\nPostcheck: Vb 107\n\n                                     Herrn\n                                     Manfred Altmann\n                                     L o n d o n, N.W. 3\n                                     352, Finchley Road\n\nIhre Zeichen                      Ihre Nachricht vom 7.1.47      Unsere Zeichen H/Gh.      Datum 14.Januar 1947.\nBetrifft :\n\n      Ihr Schreiben vom 7.ds.Mts. erreicht uns leider mit Verspätung um recht-\nzeitig mit Herrn Dr. David in Zürich die Verbindung aufnehmen zu können. Wir teilen\nIhnen mit, dass uns der Verlag Herbert Reichner in Wien im Jahre 1938 ein grösseres\nKommissionslager überlassen hat. Unter diesem Lager befanden sich auch die Werke\nvon Stefan Zweig, teilweise in 500 bis 1000 Exemplaren. Das gesamte Kommissionsgut\nist aber schon im Jahre 1940 vollständig ausverkauft und mit dem Herbert Reichner\nVerlag abgerechnet worden. Da einerseits ein durch die Naziregierung für die Firma\nReichner in Wien bestimmter Kommissionär das Geld überwiesen haben wollte, und\nanderseits Herr Reichner, damals in Zürich, die Zahlung für sich beanspruchte, hat\nunser Rechtsanwalt den Saldo der Schlussabrechnung beim Gericht in Zürich einbe-\nzahlt. Es sollte dadurch derjenige in den Besitz des Geldes gelangen, der sich als\nrechtmässiger Eigentümer ausweisen konnte. Die ganze Angelegenheit war daher noch\ndeshalb kompliziert, weil auch die Schweizerische Verrechnungsstelle ein gewisses\nInteresse daran hatte, dass der Betrag in den österreichisch-schweizerischen\nClearing einbezahlt werde. Soweit wir aber orientiert sind, wurde dann die ganze\nSumme Herrn Herb.Reichner zur Verfügung gestellt.\n      Zu bemerken ist noch, dass der Anwalt von Herrn Reichner, Herr Dr. Wett-\nstein in Zürich zur Sicherstellung seiner Honorarforderung einen kleineren Rest-\nbestand des Lagers mit Arrest belegen und liquidieren liess.\n      Für uns ist jedenfalls die Angelegenheit im Jahre 1940 in jeder Hinsicht\nerledigt gewesen.\n\n                                     Hochachtungsvoll\n                                     SCHWEIZERISCHES VEREINSSORTIMENT\n\nIX. 42. Nr. 21 — 5000.",
+      "notes": "Typoskript auf offiziellem Geschäftspapier. Die Unterschrift ist handschriftlich, aber aufgrund der Qualität des Scans schwer zu entziffern (scheint ein Namenskürzel zu sein). Der Text ist sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten im Textkörper.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2267,
+    "total_words": 294,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

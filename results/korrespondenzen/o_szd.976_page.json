@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.976",
+    "title": "Brief an Sigmund Freud vom 15. Juli 1938, SZ-LAS/B7.34",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.976/IMG.1",
+      "https://gams.uni-graz.at/o:szd.976/IMG.2",
+      "https://gams.uni-graz.at/o:szd.976/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 15. Juli 1938, SZ-LAS/B7.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:47.539025+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LANGHAM 3693.\n\n49. HALLAM STREET,\nLONDON, W.1.\n\n15.Juli 1938.\n\nLieber verehrter Herr Professor!\n\nHeftig ist schon mein Verlangen, Sie wieder\neinmal sehen zu dürfen und nun ist gerade jemand an-\nderer nächste Woche hier, der so gerne mit mir zu Ih-\nnen gehen möchte, einer Ihrer grössten Bewunderer,\nund mit allen seinen kleinen Narrheiten vielleicht\ndas einzige Genie der modernen Malerie, Salvador Dali,\ndessen Namen und Werk Sie ja gewiss kennen. Er ist\nleider nur wenige Tage hier, Montag und Dienstag, und\nich werde mir erlauben, Sie Montag vormittag anzurufen,\nob wir einen dieser beiden Tage Sie besuchen dürfen.\n\nWegen der amerikanischen Sache spreche ich\nnoch mit Ihrem Herrn Sohn. Selbstverständlich bin\nich freudigst bereit, falls Sie niemand besseren haben.\n\nIn Treue und Verehrung\n\nIhr\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "LANGHAM 3693.\n\n49. HALLAM STREET,\nLONDON, W.1.\n\n15.Juli 1938.\n\nLieber verehrter Herr Professor!\n\nHeftig ist schon mein Verlangen, Sie wieder\neinmal sehen zu dürfen und nun ist gerade jemand an-\nderer nächste Woche hier, der so gerne mit mir zu Ih-\nnen gehen möchte, einer Ihrer grössten Bewunderer,\nund mit allen seinen kleinen Narrheiten vielleicht\ndas einzige Genie der modernen Malerie, Salvador Dali,\ndessen Namen und Werk Sie ja gewiss kennen. Er ist\nleider nur wenige Tage hier, Montag und Dienstag, und\nich werde mir erlauben, Sie Montag vormittag anzurufen,\nob wir einen dieser beiden Tage Sie besuchen dürfen.\n\nIhr\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala für Archivierungszwecke. Die Farbskala verdeckt einen Teil des Textes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls klar lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1446,
+    "total_words": 229,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

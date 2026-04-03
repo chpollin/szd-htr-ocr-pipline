@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1596",
+    "title": "Brief an Richard Friedenthal vom 10. Oktober 1925, SZ-AAP/B2.19",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1596/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1596/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1596/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 10. Oktober 1925, SZ-AAP/B2.19\n- Signatur: SZ-AAP/B2.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:45.354522+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 10. Oktober 1925.\n\nLieber Freund!\n\nIch antworte Ihnen sofort. Ihr Plan scheint mir schön,\naber nur, wenn er gelingt, das heisst, wenn nicht die Spitzen\nwie Hauptmann, George, Rilke, Beer-Hofmann ausbleiben, denn ~~XXXXX~~\nsonst macht die ganze Sache leicht einen unerquicklichen Eindruck.\nIch würde Ihnen also freundschaftlich raten - ehe Sie die Auffor-\nderung herausgeben lassen, an die sechs oder acht wahrhaft Promi-\nnenten zu schreiben. Haben Sie einmal diese als Vortänzer, so ~~kön-\nnen Sie~~ keine Bange{n} haben für die andern. Tun die, wie ich leider\nbefürchte, ~~nicht~~ {nur} mit, dann lieber gar nicht als Leute zweiten Ran-\nges. Nichts wäre bedauerlicher als bemühten Sie eine Menge Men-\nschen, ohne der Wesentlichen gewiss zu sein.\nAuf Ihre Novelle freue ich mich sehr. Ich habe gleich-\nzeitig zwei in Arbeit, von denen mir die eine viel Qual, die ande-\nre viel Freude macht. Nun, Sie werden sie ja bald sehen.\nHerzlichst Ihr ebener\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die Unterschrift ist ebenfalls handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text des Typoskripts der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung, über das Dokument gelegt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen und Ergänzungen von Stefan Zweig sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 990,
+    "total_words": 159,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

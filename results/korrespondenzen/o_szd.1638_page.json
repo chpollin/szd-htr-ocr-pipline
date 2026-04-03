@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1638",
+    "title": "Brief an Frans Masereel vom 7. Januar 1936, SZ-LAS/B1.54",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1638/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1638/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 7. Januar 1936, SZ-LAS/B1.54\n- Signatur: SZ-LAS/B1.54\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:50.226087+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Westminster                                Nizza, den 7.Januar 1936.\n\nLieber Freund!\n                Ich bin jetzt für vier Wochen hier und\nsende Dir, da ich die Adresse von \"Vendrei\" nicht\nweiss, den Aufsatz über Rolland mit der Bitte, ihn {sofort}\nder Redaktion zu übergeben und zweitens dort dringend\nzu mahnen, dass er anständig übersetzt wird. Anfang\nFebruar gehe ich nach London zurück, bleibe aber eini-\nge Tage zuvor in Paris und freue mich schon furchtbar,\nDich erstens dort, zweitens in London zu sehen.\n\n                                          Herzlichst Dein\n\n                                          Stefan Zweig\n\nIch hoffe Du steuerst ein paar neue Rolland\nZeichnungen bei.",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Einfügung 'sofort' in Zeile 5, handschriftlicher Nachsatz am Ende). Die Unterschrift ist ebenfalls handschriftlich. Unten mittig ein schwacher Prägestempel/Stempelabdruck."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Durchscheinender Text des Typoskripts der Vorderseite erkennbar. Am unteren Rand ein Ex-Libris-Stempel: 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 696,
+    "total_words": 92,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

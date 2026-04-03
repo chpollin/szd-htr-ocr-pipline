@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.572",
+    "title": " Unidentified an Stefan Zweig, 1912-09-23, SZ-SAM/AK.278",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.572/IMG.1",
+      "https://gams.uni-graz.at/o:szd.572/IMG.2",
+      "https://gams.uni-graz.at/o:szd.572/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1912-09-23, SZ-SAM/AK.278\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.278\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:19.060675+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bologna Parma begriffen u. finden\nFreitag in [?] [?] [?] [?] [?] [?] [?] [?]\ndes [?] [?] [?] [?] [?] [?] [?] [?] [?] [?]\n[?] [?] [?] [?] [?] [?] [?] [?] [?] [?]",
+      "notes": "Vorderseite der Postkarte mit Ansicht der Kathedrale von Ferrara. Der handschriftliche Text ist über das Bild geschrieben und teilweise schwer lesbar, da er mit der Struktur des Gebäudes verschmilzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dr. Stefan\nZweig\nVIII. Kochgasse 9.\nWien\nAustria.\n\nIdem Wunder dass\nder arme Tasso hier\nmeschugge geworden\nist - ich habe selten eine\nmelancholischere\nStadt gesehen. Trepen\nu. ich sind auf einer\nkleinen Tour Ravenna",
+      "notes": "Rückseite der Postkarte. Adressfeld und Nachrichtenteil. Briefmarke und Poststempel (Ferrara 23.12.18) vorhanden. Der Text ist gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite der Postkarte mit Farbskala und Grauskala für Archivierungszwecke. Keine neuen Textinhalte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Vorderseite (Seite 1) ist aufgrund der Überlagerung von Handschrift und Bildmotiv sehr schwer zu entziffern. Die Rückseite (Seite 2) ist hingegen sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 375,
+    "total_words": 71,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

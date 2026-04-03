@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.389",
+    "title": "Léon Bazalgette an Stefan Zweig, 1924-09-16, SZ-SAM/AK.11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.389/IMG.1",
+      "https://gams.uni-graz.at/o:szd.389/IMG.2",
+      "https://gams.uni-graz.at/o:szd.389/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Léon Bazalgette an Stefan Zweig, 1924-09-16, SZ-SAM/AK.11\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.159630+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "2. - COUTANCES. - Vue générale",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung der Kathedrale von Coutances. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "16 Sept 24\nVieux frère, j'étais hier sur la\ntour de droite de cette etonnante\ncathédrale, à envoyer des messages\nsans fil aux amis. Transmets-le\ntout chaud à notre cher Scheyer,\net gardes-en pour toi-même ce\nque tu ne donneras pas, de ma part,\nà Mme Zweig - Ton Bazalgette",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Adressfeld enthält: 'M. Stefan Zweig, Kapuzinerberg 5, Salzburg' sowie 'Autriche'. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Die Ansichtskarte ist in der Mitte des Bildes erneut abgebildet (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 302,
+    "total_words": 56,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

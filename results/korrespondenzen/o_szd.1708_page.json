@@ -1,0 +1,76 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1708",
+    "title": "Brief an Anna Meingast vom 9. April 1936, SZ-SAM/B7.75",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1708/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1708/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1708/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1708/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 9. April 1936, SZ-SAM/B7.75\n- Signatur: SZ-SAM/B7.75\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.086954+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 9. April 1936.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen für Ihren freundlichen Brief\nund muss Sie heute mit einem etwas schwierigen Auf-\ntrag behelligen. Ich bekam aus Lugano hierher vierzehn\nalte Kupferstiche von Piranesi geschickt, die unglück-\nlicherweise von dem Absender mit fünfhundert Schweizer\nFranken versichert waren. Das erregte hier so grosse\nSchwierigkeiten beim Zoll, weil ja zwischen England\nund Italien starke Spannungen bestehen und man lange\nwegen der Sanktionen wissen wollte, ob das nicht aus\nItalien stammt, dass ich kurzerhand beschloss, dieses\nPaket nach Salzburg umzuadressieren. Dort wird es ver-\nmutlich in fünf bis sechs Tagen eintreffen und wahr-\nscheinlich eine der Aufforderungen kommen, beim Zoll zu\nerscheinen. Ich möchte Sie bitten, dann hinzugehen und\n- verzeihen Sie - sich einfach dumm zu stellen und zu\nsagen, Sie wüssten nichts Näheres über den Inhalt, hät-\nten nur prinzipiellen Auftrag, alles was käme, zu über-\nnehmen und wenn Gebühren zu bezahlen sind, sie zu be-\nzahlen. Sie vermuteten, es sei ein Geschenk, mehr wüss-",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ten Sie nicht und es sei hierher gegangen, weil ich\nvon London abgereist sei. Es ist möglich oder sogar\nwahrscheinlich, dass man dann zehn bis zwölf, viel-\nleicht sogar vierzehn Prozent des Wertbetrages ver-\nlangt, also etwa hundert oder hundertzwanzig Schil-\nlinge. Dies bitte ich Sie notfalls zu bezahlen. Wenn\nman Sie um Rechnung fragt, so sagen Sie, es sei eben\nkeine Rechnung da, sondern nur ein Ostergeschenk für\nmich. Es können sich dann keine weiteren Schwierigkei-\nten ergeben, sondern nur allenfalls Bezahlung gefordert\nwerden, weil es alte Stiche sind und im äussersten\nFall hat dann das Kunstdenkmalamt Salzburg zu bestimmen,\nob die Wertangabe richtig ist und die wird es sicher-\nlich nicht höher einschätzen (es ist sogar eher weni-\nger wert). Ich brauche Ihnen nicht zu sagen, dass es\neine vollkommen klare Angelegenheit ist und ich wirk-\nlich nur es hier nicht übernommen habe, weil ich vie-\nle Schreibereien gehabt hätte und in der nächsten Wo-\nche nach Beendigung der Korrekturen auf ein paar Tage\nwegfahren will. Für jeden Fall lege ich Ihnen noch\neine Legitimation bei, die zurückdatiert ist auf An-\nfang des Jahres. Ausserdem haben Sie ja meine Postle-\ngitimation.",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2)\n\nWenn Sie noch gelegentlich (ich glaube, es\nist im Vorraum) die Briefe von Hermann Broch und Je-\nseph Roth finden, allenfalls auch von André Gide, so\nbitte ich Sie, sie mir rekommandiert hierher zu sen-\nden, damit ich die ganzen wichtigeren Briefschaften\nbeisammen habe.\n\nDer Frühling ist hier schon ausgebrochen und\nich will jetzt, wenn die Korrekturen glücklich erle-\ndigt sind, noch Ostern ein paar Tage ans Meer fahren.\nWährend Ostern ist die Stadt so schön leer, dass man\nsich in bester Einsamkeit befindet. Sie haben hoffent-\nlich Ihren Sohn zu den Osterferien da und freuen sich\nmit ihm. Jedesfalls wünsche ich Ihnen die angenehmsten\nFeiertage und bleibe mit herzlichen Grüssen\n\nIhr\n\nStefan Zweig\n\nBitte nicht ungehalten zu sein, wenn ich schreibe\n\"meine frühere Sekretärin\". Es ist nur dem Amt ge-\ngenüber, das doch lange nicht glauben wollte, dass\nich meinen Wohnsitz verlegt habe.",
+      "notes": "Typoskript auf Briefpapier, Unterschrift handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Herrn Schirl danke ich noch vielmals für\nseinen Brief, ich schreibe ihm noch dieser Tage.",
+      "notes": "Typoskript auf Briefpapier."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript, sehr gut lesbar. Die Unterschrift auf Seite 3 ist handschriftlich, aber eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 3237,
+    "total_words": 519,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

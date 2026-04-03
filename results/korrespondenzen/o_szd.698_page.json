@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.698",
+    "title": "Brief an Herbert Reichner vom 23. Oktober 1937, SZ-AAP/B1.109",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.698/IMG.1",
+      "https://gams.uni-graz.at/o:szd.698/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 23. Oktober 1937, SZ-AAP/B1.109\n- Signatur: SZ-AAP/B1.109\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:25.139052+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     23.Oktober 1937.\n\nGeehrter Herr Reichner!\n\n     Ich bin schon sehr neugierig, die\ngebundenen Exemplare zu sehen. Ob es technisch richtig\nwar, die beiden Bücher in einem Zeitraum von vierzehn Ta-\ngen herauszubringen, werden Sie wohl besser verstehn. Da\nes nun so geschehen ist, wollen wir es jetzt munter lau-\nfen lassen. Auch Mansfield sieht sehr hübsch aus. Ich\nhätte Ihnen nur geraten, auf der Seite gegenüber dem Ti-\ntel, wie es Fischer bei Hesse und vielen andern tut, ein-\nzudrucken \"Gesammelte Werke\", denn wenn einmal der dritte\nBand da ist, so können Sie ja alle drei unter diesem Titel\nverkaufen.\n\n     Nun etwas Wichtiges für das Frühjahr.\nMax Brod schreibt mir, dass er Ihnen seinen neuen Roman ge-\nschickt hat. Ich habe ihm dies schon im Sommer nahegelegt,\nweil ich es für einen grossen Gewinn hielte, einen Autor\nseines Namens und seines grossen Könnens im Reichner-Ver-\nlag zu wissen, und er wäre auch lieber dort wie in Holland.\nSie wissen ja, dass die Bücher von Brod immer einen sehr",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "guten Absatz hatten, besonders in Böhmen. Ausserdem\nkann er Ihnen in seiner führenden Stellung beim Prager\nTagblatt sehr nützlich sein. Ich habe den Roman selbst\nnicht gelesen, möchte Ihnen aber dringend dazu raten,\ndenn es ist ja hohe Zeit, dass Sie an erzählerischer Pro-\nsa etwas Erstklassiges (nichts Uebersetztes) bringen. We-\ngen Erika Mitterer, die ja sogar in Deutschland zulässig\nist, haben Sie mir noch nicht geschrieben.\n\n     Alles andere geht in Ordnung. Mit besten Grüssen",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1523,
+    "total_words": 242,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

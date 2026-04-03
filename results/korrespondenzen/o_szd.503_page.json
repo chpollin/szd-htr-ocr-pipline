@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.503",
+    "title": " Unidentified an Stefan Zweig, 1929-09-24, SZ-SAM/AK.213",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.503/IMG.1",
+      "https://gams.uni-graz.at/o:szd.503/IMG.2",
+      "https://gams.uni-graz.at/o:szd.503/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1929-09-24, SZ-SAM/AK.213\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.213\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.679320+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Schloss Heilsberg\n23. 8. [?] ",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung eines Gewölbes. Handschriftliche Notiz am linken Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Stefan Zweig\nSalzburg (Österreich)\nKapuzinerberg 5.\n\nKönigsberg i. Pr. 23./8. 29\nLieber Freund,\nherzlichen Dank für das neue\nBuch, es ist wunderbar geheimnisvoll,\nein aber nun das [?] in das!\nMorgen geht es heim, da ich nirgends zu [?] ",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (Georgenswalde 24.8.29) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Darunter die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die letzten Wörter des Textes auf der Rückseite der Postkarte.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 265,
+    "total_words": 44,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

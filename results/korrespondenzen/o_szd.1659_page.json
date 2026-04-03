@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1659",
+    "title": "Unbekannt an Stefan Zweig, SZ-SAM/AK.289",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1659/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1659/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1659/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Stefan Zweig, SZ-SAM/AK.289\n- Signatur: SZ-SAM/AK.289\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:53.080166+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LOVRANA. — Verafels.\nVilla Iris.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliche Notiz 'Villa Iris' sowie Datum '2.X.18'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Tomašić & Co.\nR. E. P. A.\nAbbazia.\n\nLieber Zweig!\ndas mir übersandte Referat\nin der Z. N. N. habe ich aufmerksam\ngelesen, und sage die besten\nDank für Ihre freundliche\nAbstellung und Zusendung.\nHoffentlich sehe ich dich bald nach Ihrem\nRückkehr (in etwa 8 Tagen) dann mündlich\nmehr. Einstweilen mit Dank und\nherzlichen Grüßen von uns Beiden\ndein\nPaulwiesner[?]\n\n[Adressseite]\nHerrn\nHerrn Dr Stefan Zweig\nSchriftsteller\nWien VIII\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Briefmarke oben rechts (5 Heller, Franz Joseph I.). Poststempel teilweise lesbar. Der Name des Absenders ist schwer lesbar, 'Paulwiesner' ist eine Vermutung."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Postkartenrückseite."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber teilweise schwer zu entziffern, insbesondere der Name des Absenders. Die Abkürzung 'Z. N. N.' ist unklar (möglicherweise eine Zeitungsabkürzung).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 472,
+    "total_words": 76,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

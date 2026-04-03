@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.556",
+    "title": "Sergej Tocker an Stefan Zweig, 1929-09-28, SZ-SAM/AK.263",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.556/IMG.1",
+      "https://gams.uni-graz.at/o:szd.556/IMG.2",
+      "https://gams.uni-graz.at/o:szd.556/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Sergej Tocker an Stefan Zweig, 1929-09-28, SZ-SAM/AK.263\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.263\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:17.692163+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "POZNAŃ. P.W.K. 1929.\nWESOŁE MIASTECZKO.\n28. IX. 1929.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten links und rechts. Handschriftliche Datumsangabe unten links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Poznań 28/IX 1929.\n\nLeste Grusse\nan Sie und Ihre\nFrau.\n\nW....\nS. Tocker\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nÖsterreich.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich in violetter Tinte. Briefmarke und Poststempel vorhanden. Vertikaler Aufdruck: „RUBENS“ WŁ. CZARNECKI, POZNAŃ, PLAC WOLNOŚCI."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Poznań 28/IX 1929.\n\nLeste Grusse\nan Sie und Ihre\nFrau.\n\nW....\nS. Tocker\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\nÖsterreich.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die Abkürzung 'W....' im Textkörper ist unklar, scheint aber eine Abkürzung für einen Gruß oder einen Ortsnamen zu sein, daher originalgetreu transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 317,
+    "total_words": 50,
+    "language_detected": "",
+    "language_match": true
+  }
+}

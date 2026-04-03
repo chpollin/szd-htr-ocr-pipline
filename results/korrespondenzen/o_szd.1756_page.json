@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1756",
+    "title": "Brief an Herbert Reichner vom 30. Oktober 1937, SZ-AAP/B1.117",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1756/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1756/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 30. Oktober 1937, SZ-AAP/B1.117\n- Signatur: SZ-AAP/B1.117\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:00.184164+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "30.Oktober 1937.\n\nGeehrter Herr Reichner!\n\nHier noch der Brief von Seelig.\nBitte machen Sie nicht die mindeste Konzession. Jeder\nweiss, dass ich vom Jahre 1907 -1933 ausschliesslich\nden Inselverlag zum Verleger hatte und dass ich, wenn\nich einzelne kleine Anthologien aus meinen Büchern an\nTal oder Meulehhoff mit seiner Erlaubnis gab oder Ih-\nnen und andern Sonderdrucke erlaubte, nie damit mein\nRecht und das des Inselverlags damit erlosch. Dass\nauch Tal nie im Traum daran dachte, ist erwiesen da-\ndurch, dass er achtzehn Jahre bis zu seinem Tode nicht\nein einzigesmal gegen den Nachdruck und Abdruck der\nProsastücke in deutsch und allen möglichen andern\nSprachen protestierte. Schöne Träume, dass für die\nvier bis zehn Schillinge, die mir der Verlag Tal im\nJahr als Tantieme überschickt, er noch ein Alleinrecht\nauf die Stücke in dieser Anthologie erworben hätte.\nBitte geben Sie keinen Schritt nach, ein Prozess soll\nsie nur Geld kosten.",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Nochmals: Wann kommen die Bil-\nderproben an Cassell und Huebsch?\n\nMit den besten Empfehlungen",
+      "notes": "Typoskript, Fortsetzung des Briefes auf der Rückseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1035,
+    "total_words": 164,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

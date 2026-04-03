@@ -1,0 +1,100 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2667",
+    "title": "Zwei Wiener.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA43.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2667/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2667/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2667/IMG.3"
+    ],
+    "date": "24. VII. 1912",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Leipzig",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Leipzig"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "Leipziger\n                                 N. Nachrichten"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Zwei Wiener.\n- Signatur: SZ-AAP/W-AA43.1\n- Datum: 24. VII. 1912\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:53.384779+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Leipziger N. Nachrichten\n24. VII. 1912\n\nZwei Wiener.\nOtto Souka: Die Herren der Macht. Roman. Albert Langen,\nMünchen 1912.\nAlbert Ehrenstein: Der Selbstmord des Katers. Novellen.\nGeorg Müller, München 1912.\n\nMit dem Begriff des Wienerischen in der Literatur verbindet\nman oft allgemeinen draußen im Reich die Vorstellung einer artisti-\nschen und formalen Vollendung, andererseits aber den süßsauren\nFeminismus, einer weichen Nachgiebigkeit, die im letzten Grunde auf\neine eingeborene Sentimentalität zurückgeführt wird. Derlei Begriffe,\nso falsch sie auch nach ihrer schärfsten Form zu sein pflegen, entstehen\nzumeist aber doch aus einer ursprünglich richtigen Beobachtung, und\ntatsächlich ist das Schöpferische im Werke jener Wiener Gruppe, die\nman oft fälschlich die „Jung-Wiener“ nennt — also Hofmannsthal,\nSchnitzler und Altenberg — eine sehr starke Reizbarkeit und Empfind-\nlichkeit des Seelischen, die vorschnell sich in Melancholie verschattet,\nnoch ehe sie die ganze Leuchtkraft der Erlebnisse zum Ausdruck brin-\ngen konnte. Vergessen wird aber immer, daß diese Talente noch nicht\nmehr jung sind und daß die neue Generation in einen selbstverhänd-\nlichen unbewußt beabsichtigten Gegensatz gerade zu anderen Lebens-\nauffassungen gelangt sind. So wie Gift im Organismus selbsttätig\nein Gegengift erzeugt, so scheinen in der Literatur alle Strömungen\nlogische Gegenströmungen, und in Wien ist gerade in der letzten Zeit\neine Richtung bemerkbar, deren stärkste Bemühung es bedeutet, eben\njene Weichheit und Sentimentalität, von der abzuüben, hart zu werden,\nnicht mehr den Gefühlen, sondern ihren Gegenwerten, dem Geiste und\nder Ironie, schöpferische Kraft zu verleihen.\n\nAuch junge Dichter mögen hier als Beispiel dienen, denen dieser\nZug gemeinsam ist und doch ein zweifels, nämlich, daß lite-\nrarische Erziehung nicht den Göttern der Wiener Literatur, sondern\nihrem Antichrist Karl Kraus verdanken. Von ihm haben sie zunächst\njenen kühnen trockenen Skeptizismus, die ich die aggressive nennen möchte,\nim Gegensatz zur mehr kontemplativen, einen literarischen Gruppe,\neine Weltanschauung, die die Dinge nicht einfach als bestehend in\nleichter Zustimmung oder leiser Abwehr bestätigt, sondern die Um-\nwelt gewaltsam und oft gehässig durchleuchtet, deshalb ihr, die viel-\nwisse Neigung zur Steigerung des Lebens, sei es durch Zersetzung\nund Verwandlung ins Ironisch-Persönliche wie hier oder im Sinne\ndurch radikal pathetischen Idealismus, der von Walt Whitman und\nVerhaeren ausgeht, scheint heute jene neue Wiener Art, die viel-\nleicht noch ein letzter Rückstand des Naturalismus ist, energisch ab-\nlösen zu wollen und für eine Form dieser Bemühung sind diese beiden\nBücher, besonders charakteristisch.\n\nHier freilich gabelt sich der Weg Soukas und Ehrensteins. Souka\nsublimiert das Gefühl in Gedanken, er schaltet die gewohnten Motive\ndes Romans, vor allen die sentimentale Erotik aus und verwandelt\nden Kampf der Weltanschauungen in eine Art, er legt mit einer\nprachtvollen Ruhe alle Geschehnisse aus der Realität und Materie in\neine des Geistes oder besser gesagt, er schält allen Vorgängen das\nSkelett Fleisch, ihrer oberflächlichen Farbe ab und legt mit einer\nunheimlichen zerebralen Sezierkunst die Muskeln des Willens bloß,\ndie sie bewegen. Sein „Detektivroman der Zukunft“ — ich darf seine\nfrüheren Romane wohl als bekannt voraussetzen — ist eine ganz\nneue Form der Dichtung, im letzten Falle eine Erneuerung des Mär-\n\nchens in unserer aktuellen Welt. Zwei Zauberer, deren magische\nWaffe nicht das goldene mythische sind, der verwandelnde Stab, das\nbeschwörende Wort, sondern das moderne, logisch organisierende\nGeist und der berechnende Wille, kämpfen miteinander oder gegen-\neinander und dieses Ringen über Weltteile hinweg setzt alle Mög-\nlichkeiten moderner Technik und nagenartiger Organisation in Be-\nwegung. Ein wunderbarer Mechanismus, den erzählerischen Mög-\nlichkeiten ist darin enthalten, eine Fantasie, die mehr eine errechnende\nist, als eine erfindende, eine Genialität, die nicht durch Intuition,\nsondern durch Konzentration überbewältigt. Für sinnliche Leidenschaft,\nMusik, die gefühlsmäßigen Ekstasen des Lebens ist Souka taub. Seine\nRomane spielen in einer unirdischen, nicht tönenden Luft, die Wärme,\ndie er erfindet, ist eine ihrer hohen Higegrade gleichzeitig eine\nschmerzhafte, gleichsam eine aus technischem Glanz durch Kälteglanz\nerzeugte, im Gegensatz zur natürlichen, organischen, durchdringenden\ndes Lebens. Aber selten sind in Deutschland psychologische Aufgaben\nso vollendet, so zwingend durchdacht durchgeführt. Souka, und\nso schwer es fällt, seine Romane eigentlich zu lieben, so sehr man\ngeneigt, sie immer wieder zu bewundern. „Die Söhne der Macht“\nscheinen weit entfernt, ihrem anderen durch Konzentration noch zu\nüberlegen und gehören zweifellos zum wenigen Guten, das uns die\nletzten Jahre an deutschen Romanen gebracht haben.\n\nAlbert Ehrenstein hat dagegen sein Gefühl noch nicht wie Souka\nüberwunden, der es ja fertig gebracht hat, sondern lebt im be-\nständigen Kampf mit seinen eigenen Sentimentalitäten, die er an-\nscheinend verachtet und gewaltsam zu unterdrücken bestrebt ist. Man\nhat bei ihm das Gefühl eines Dichters, der zu frühe, noch in der\nKindheit sein Gefühl an der Literatur verschwendet, hat und eine\nbeiden, dem Gefühl und dem Leben, mit der ganzen Energie des Be-\nwußtseins grollt. Ein unterirdischer Kampf sagt durch all diese No-\nvellen, immer wieder bricht Ironie und eine starke geistige Scharf-\nsichtigkeit die quellenden Ausbrüche des Gefühls nieder, immer\nwieder springen sie an den Erlebnissen neu auf. Selbst der Fantasie,\nals der Verführerin ins Gefühl, ins Sentiment scheint Ehrenstein\nFeind zu sein, denn seine erschreckten Erlebnisse — in Ehrenstein\nsteht vielleicht der stärkste phantastische Dichter unserer Zeit — löst\ner teils durch Ironie, teils durch Professor Freudsche Analysen in\nihre nicht mehr sehr bewußten, Motive auf. Diese verzweifelte\nSelbstvernichtung, diese unverdiente Mißachtung eines Dichters seiner\neigenen sehr wertvollen Empfindungen erbittert denständig und\nhemmt die frohe Gestaltung, wie man so gerne diesen Novellen\nentgegenbringt. Denn Ehrensteins Befähigung ist nicht mehr Talent,\nsondern wahrhaft genialisch, er hat eine Sinnlichkeit der plastischen\nDarstellung, eine Glut der Farbe und einen Reichtum der Erfindung,\num den ihn viele der besten deutschen Dichter beneiden könnten.\nEr hat alle Fähigkeiten zum größten Kunstwerk bis auf die wich-\ntigste, nämlich den Willen zum reinen Kunstwerk. Aus irgendeiner\ndunklen Quellen des Geistes gegen das Geschaffene, irgendeiner\nSucht, sich selbst zu entlarven, einer merkwürdigen Neigung, das\nMysterium des Schaffens zu depravieren, verleugnet er den künst-\nlerischen Trieb. Es ist eigentlich keine Erzählung in diesem Novellen-\nbuch, selbst jene erste meisterhafte, „Der Selbstmord des Katers“,\nnicht, die man rein als Novelle empfinden könnte, da der tiefste\ninnere Kampf schon ausgegoren, die innere Spannung harmonisiert\nwäre. Aber es ist auch ein Dichter, der einen nicht von den tiefsten\nWurzeln des künstlerischen Erlebnisses stärker mit einer harten innen\nartistischen Entzückungen durchschüttern würde, keine, die nicht ein\nmit leichtem Grauen gemischtes Gefühl höchster Bewunderung in uns\nauslöste. Albert Ehrenstein hat, für mein Empfinden die stärkste Be-\ngabung zum phantastischen Roman, die wir in Deutschland seit Jahr-\nzehnten besessen haben — denn Scherarts Sternenduseleien kreisen\nnun seit zwanzig Jahren hilflos um sich selbst, indes hier eine un-\nendliche Fähigkeit der Gestaltung vorhanden, die nicht durch die genia-\nlen Selbstbehauptung ständig paart. Das erste Buch Ehrensteins\n„Tubutsch“ ist schon sehr zu Unrecht unbeachtet geblieben. Würde\ndieses Novellenbuch selbst bei den Produktiven wenn nicht schon beim\nPublikum ein gleiches Schicksal erfahren, so müßte man harte Worte\nwie Schande und Schwach wählen, um das Mißverhältnis auszu-\ndrücken, das zwischen den Erfolgen gleichgültiger langweiliger deut-\nscher Novellistik und einem so feurigen, bis in den innersten Kern\nglühenden Talent besteht, das nur sich selbst bewußter und ohne Feind-\nlichkeit lieben müßte, um aus dem Chaos den Stern zu gebären.\nStefan Zweig, Wien.",
+      "notes": "Zeitungsausschnitt, gedruckt. Handschriftliche Annotationen am oberen Rand: \"Leipziger N. Nachrichten\" und \"24. VII. 1912\"."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Zeitungsdruck handelt. Die handschriftlichen Annotationen am Anfang sind ebenfalls klar lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 8207,
+    "total_words": 1181,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

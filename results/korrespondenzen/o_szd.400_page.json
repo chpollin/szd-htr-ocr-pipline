@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.400",
+    "title": "Milan Begovic an Stefan Zweig, 1913-06-01, SZ-SAM/AK.12",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.400/IMG.1",
+      "https://gams.uni-graz.at/o:szd.400/IMG.2",
+      "https://gams.uni-graz.at/o:szd.400/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Milan Begovic an Stefan Zweig, 1913-06-01, SZ-SAM/AK.12\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.843265+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lovrana u. der Quarnero mit der Insel Cherso\n1. VI. 913\nAdresse: Abbazia\npostlagernd",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notizen links oben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber und verehrter Freund,\nIch beglückwünsche Sie zu Ihrem schönen\nVortrag über Bosnien, den ich mit großer\nVergnügen gelesen habe! Vor meiner Ab-\nreise konnte ich Sie nicht besuchen, weil\nich plötzlich fort fahren musste. Mitte\nJuni bin ich wieder auf einige Zeit\nin Wien - dann werden wir uns hoff-\nentlich öfter sehen. Ein Exemplar von\n\"Quci\" [?] am Meer brauche ich erst Ende\nJuni. Wie geht es Ihnen? Wie lange\nbleiben Sie noch in Wien? Ich fühle mich\nin meiner Heimat sehr wohl. Nach 6 Jahren\nsehe ich wieder meinen Himmel und mein\nMeer. Herzlichst grüßt Sie Ihr Begovic",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Briefmarke (5 Heller) und Poststempel 'LOVRANA' vorhanden. Vertikaler Text am linken Rand: 'Verlag Josef Bassan, Lovrana'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber und verehrter Freund,\nIch beglückwünsche Sie zu Ihrem schönen\nVortrag über Bosnien, den ich mit großer\nVergnügen gelesen habe! Vor meiner Ab-\nreise konnte ich Sie nicht besuchen, weil\nich plötzlich fort fahren musste. Mitte\nJuni bin ich wieder auf einige Zeit\nin Wien - dann werden wir uns hoff-\nentlich öfter sehen. Ein Exemplar von\n\"Quci\" [?] am Meer brauche ich erst Ende\nJuni. Wie geht es Ihnen? Wie lange\nbleiben Sie noch in Wien? Ich fühle mich\nin meiner Heimat sehr wohl. Nach 6 Jahren\nsehe ich wieder meinen Himmel und mein\nMeer. Herzlichst grüßt Sie Ihr Begovic\n\nHerru [sic] Dr. Stefan Zweig\nWien VIII\nKochgasse 8.",
+      "notes": "Scan enthält Farbskala und die Ansichtskarte. Die Transkription entspricht der Rückseite der Karte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Das Wort 'Quci' ist schwer zu entziffern, könnte auch 'Goci' oder ähnlich lauten, daher mit [?] markiert. 'Herru' ist ein Schreibfehler im Original für 'Herrn'.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1291,
+    "total_words": 225,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

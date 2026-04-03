@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1787",
+    "title": "Brief an Stefan Zweig vom 10. Mai 1938, SZ-AAP/B1.221",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1787/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1787/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 10. Mai 1938, SZ-AAP/B1.221\n- Signatur: SZ-AAP/B1.221\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.245037+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BOEK &\nKUNST M. DUKHOFFZ N.V.\nHANDEL VOORHEEN A. VAN HOOGSTRATEN & ZOON\nTELEFOON 117727\nDen Haag, 10 Mei 1938 POSTGIROREK. 3420\nD L A A T S 27\nDem Herren Stefan Zweig, 'S-GRAVENHAGE\n49. Hallam Street.\nL o n d o n W.1.\n\nSehr geehrter Herr Zweig,\n\nIm Anschlusz Ihrer Schreiben vom 9. Mai machen wir Sie höflichst\ndarauf aufmerksam, dasz wir Ihre Bucher nicht gleich vom Herbert\nReichner Verlag kaufen, sondern durch Vermittlung der Einfuhr-\nhauser Meulenhoff & Co, van Ditmar's Boeken Import, Igersheimer,\nAmsterdam.\n\nStets gern zu Ihren Diensten, empfehlen wir uns Ihnen\nhochachtungsvoll,\np. pro. M.V. Boek & Kunsthandel",
+      "notes": "Typoskript auf Geschäftspapier mit gedrucktem Briefkopf. Die Unterschrift ist handschriftlich, aber aufgrund der Qualität schwer zu entziffern (scheint ein Kürzel zu sein). Der Text ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Man sieht den durchscheinenden Text der Vorderseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die einzige Unsicherheit besteht in der handschriftlichen Unterschrift, die jedoch als solche erkennbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 619,
+    "total_words": 103,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

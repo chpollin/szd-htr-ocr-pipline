@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1172",
+    "title": "Lavinia Mazzucchetti an Anna Meingast, SZ-SAM/B15",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1172/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1172/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1172/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lavinia Mazzucchetti an Anna Meingast, SZ-SAM/B15\n- Signatur: SZ-SAM/B15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.612581+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Milano, Via Pelagio Palagi 9\n======\nI5.I.1938\n\nSehr geehrtes Fräulein,\nWenn ich gut verstanden habe, ist in\nSalzburg noch eine sorgende Seele, die als Sekretärin für\nStefan Zweig arbeitet. Ich möchte Frau Doktor, die jetzt zur\nErholung reist, nicht bemühen, und sende daher diesen\nBrief im Durchschlag an Frl. Altmann nach London und an Sie\nnach Salzburg.\nIch habe erst jetzt festgestellt, dass bei der zweiten\n(und letzten) Sendung vom Manuskript Maria Stuart (die ich jetzt\nfür Italien übersetze) ein Fehler vorgegangen ist. Ich fand\nnämlich 4 Exemplare vom sechsten Kapitel (Grosser politischer\nHeiratsmarkt) und keines von den Kapiteln VII/VIII/IX. Ausser\ndieser 4 Ex. VI enthielt das Packet nur das X Kapitel (Furchtbare\nVerstrickung), so dass ich alles in allem nur 7 Kap. zum\nUebersetzen vorläufig habe. Es wäre mir sehr dringend das\nFehlende zu erhalten und auch die Fortsetzung. Sollten (wie mir\nZweig andeutete) Lücken in der Reihenfolge sein, so schadets nicht,\ndenn ich kann jedes Kapitel für sich vorbereiten. Selbstverständlich\nsende ich die überflüssigen Exemplare sofort zurück, wenn ich\nnur weiss, an wen.\nIch möchte bei dieser Gelegenheit hinzufügen, dass es\nmir (nicht weniger als dem französischen oder dem englischen\nUebersetzer) unentbehrlich ist, die Zitate in der Ursprache zu\nbekommen, was leider für die ersten Kap. nicht beiliegt. Ob alt=\noder neu-Englisch ist mir egal, nur keine deutsche Uebersetzung.\nSind also inzwischen diese Stellen ~~für~~ abgeschrieben worden für\nParis oder London, so bitte ich sehr um Abschrift.\nDa ich schon mit der Arbeit begonnen habe, ist es\nmir wirklich wichtig, Material sofort zu bekommen.\nMit bestem Dank im voraus, bin ich\n\nLAVINIA MAZZUCCHETTI",
+      "notes": "Der Text ist maschinengeschrieben. Die Unterschrift ist handschriftlich. Das Datum 'I5.I.1938' enthält eine 'I' statt einer '1' am Anfang."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Briefes mit Farbkarte/Grauskala, kein Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die einzige handschriftliche Ergänzung ist die Unterschrift der Absenderin.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1707,
+    "total_words": 265,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

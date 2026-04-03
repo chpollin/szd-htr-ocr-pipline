@@ -1,0 +1,119 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2405",
+    "title": "Ramuz, Pour",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA159.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2405/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2405/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2405/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2405/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2405/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2405/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2405/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "(Zum 60.\n                                 Geburtstag)"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Ramuz, Pour\n- Signatur: SZ-AAP/W-AA159.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:16.109804+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Ramuz, Pour\n(Zum 60. Geburtstag)\n\n\nRamuz",
+      "notes": "Handschriftliches Dokument, violette Tinte. Es handelt sich um ein Blatt, das vermutlich gefaltet oder in Teilen fotografiert wurde. Die Transkription umfasst den gesamten sichtbaren Text auf dem Blatt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Ramuz",
+      "notes": "Ausschnitt des Dokuments, zeigt nur den unteren Teil mit dem Namen 'Ramuz'."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Ramuz, Pour\n(Zum 60. Geburtstag)",
+      "notes": "Ausschnitt des Dokuments, zeigt nur den oberen Teil mit dem Titel."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Ramuz, Pour\n(Zum 60. Geburtstag)\n\n\nRamuz",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz, deutlich geschrieben und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 117,
+    "total_words": 18,
+    "language_detected": "",
+    "language_match": true
+  }
+}

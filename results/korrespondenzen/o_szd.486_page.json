@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.486",
+    "title": "Unidentified an Stefan Zweig, 1921-02-20, SZ-SAM/AK.199",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.486/IMG.1",
+      "https://gams.uni-graz.at/o:szd.486/IMG.2",
+      "https://gams.uni-graz.at/o:szd.486/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Unidentified an Stefan Zweig, 1921-02-20, SZ-SAM/AK.199\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.199\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.709805+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LISBÔA. Claustro dos Jeronymos.",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Motiv des Kreuzgangs des Hieronymus-Klosters in Lissabon. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "p. l. Lisbonne\n20/2-1921\n\nCher Monsieur Zweig.\nBien reçu votre bon lettre\n- merci! - me voici en\nvoyage (et quel voyage: neuf\njours en route pour 2 jours\nde séjour à L.). Soleil -\npresque printemps, - des\nfleurs - des mi-sauvages.\nEt partout le souvenir de\ntemps, de l'empire qui vient\n\nM. & Dr. Stefan Zweig\n5 Kapuzinerberg\nSalzburg\nAustria d. Oesterreich.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Der Text am linken Rand ist vertikal geschrieben. Poststempel und Briefmarke vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsbild mit Farbskala und Grauskala, zeigt die Ansichtskarte (Vorder- und Rückseite) in der Mitte. Keine neuen Textinformationen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift und der teilweise vertikalen Ausrichtung am linken Rand.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 388,
+    "total_words": 68,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

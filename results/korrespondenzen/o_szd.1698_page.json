@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1698",
+    "title": "Brief an Anna Meingast vom 19. Oktober 1935, SZ-SAM/B7.65",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1698/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1698/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 19. Oktober 1935, SZ-SAM/B7.65\n- Signatur: SZ-SAM/B7.65\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.440290+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place\nLondon W.1.                                19.Oktober 1935.\n\nLiebe Frau Meingast!\n\n          Vielleicht können Sie mir in einem deutschen\nExemplar zusammenstellen diejenigen Novellen, welche\nin \"Kaleidoscope\" enthalten sind (Kleine Chronik, Angst,\nBekanntschaft mit einem Handwerk, Brennendes Geheimnis)\nund das Ganze mit einem Verzeichnis und Erklärung, dass\nes dieses Buch Kapeidoscope ist, an den Verlag Guanabara\nschicken. Ferner bitte zu notieren, dass er mir für \"Ver-\nwirrung der Gefühle\" die dreissig Dollar bereits ausbe-\nzahlt hat.\n\n          Meine Gattin ist hier wohlbehalten und ohne See-\nkrankheit angekommen und wir sehen uns jetzt um die Woh-\nnung um. Die Arbeit leidet natürlich unter diesen Dingen\nsehr, aber wenigstens ein Kapitel kann ich Ihnen bald\nschicken. Glauben Sie mir, dass ich selbst sehr unter\nden Unsicherheiten der nächsten Zukunft leide und wie\nschwer es jetzt ist, die richtigen Entschlüsse zu fassen.\nAber ich hoffe, dass alles allmählich glücklich in Ord-",
+      "notes": "Typoskript auf Briefpapier. Der Text bricht am Ende der Seite ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "nung kommt. Wenn man wie ich mit einem weitsichtigen\nPessimismus die Geschehnisse immer zu früh voraussieht,\nist man dann weniger betroffen davon, wenn sie wirklich\neintreten. Wichtig wäre mir nur, dass ich jetzt diese\nArbeit fest anfassen und dann eine neue beginnen kann.\n\n                                        Mit vielen Grüssen Ihr\n\n                                        Stefan Zweig\n\nVielleicht habe ich mich nicht ganz richtig ausgedrückt.\nEs handelt sich darum, ein komplettes Manuskript von\n\"Kaleidoscope\" in deutscher Sprache zusammenzustellen, in-\ndem Sie entweder die Bücher ~~Amok~~ und Erstes Erlebnis ganz\nschicken oder die betreffenden Novellen heraustrennen,\nferner Angst, Kleine Chronik, Die Augen des ewigen Bru-\nders und die ungedruckten Novellen beilegen. Es wäre da\njedesfalls gut, wenn Sie jetzt Zeit haben, wenn Sie von\ndiesen beiden ungedruckten Novellen in deutscher Sprache\nnoch Kopien herstellen würden, die wir ja doch öfters\nbrauchen.\n\n                                        Herzliche Grüße\n                                        S.Z.",
+      "notes": "Typoskript mit handschriftlicher Unterschrift (Stefan Zweig) und handschriftlichem Gruß am Ende. Das Wort 'Amok' ist durchgestrichen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen (Unterschrift und Grußformel) sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2078,
+    "total_words": 279,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1257",
+    "title": "Friderike Zweig an Victor Fleischer, o. D., SZ-LAS/B3.73",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1257/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1257/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1257/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Victor Fleischer, o. D., SZ-LAS/B3.73\n- Signatur: SZ-LAS/B3.73\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.128269+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "liebe Empfehlungen Ihrer lieben Fr. Mama.\nIn Wolkestagen hätten wir mehr von Ihnen.",
+      "notes": "Text befindet sich am linken Rand der Bildseite der Postkarte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Victor, es ist\nso unbeschreiblich schön\nhier, dass ich wie im\nTraum umhergehe. Sie\nmüssen, bitte, bitte bald\nkommen. Ihre Novellen\nhabe ich zur Einweihung\nder hiesigen Lesefreuden\nerwählt und sie nach-\nder genossen, ohne sie weg-\nzulegen. Von Vielem war ich\nergriffen, manches ist recht\nmeisterhaft. Vater? e. B.\nIhr hoffentlich vertreibt ein\nguter Kind die Wolken und ein\n[am linken Rand vertikal geschrieben:]\nblauer lächelnder Himmel kaum doch über ein zukünftiges\n[am rechten Rand vertikal geschrieben:]\nder der Vater hat nicht bedarf und sei bewahrt\nherzlichst F.M.",
+      "notes": "Der Text ist in einer komplexen Anordnung geschrieben, teilweise vertikal an den Rändern. Die Zeilenumbrüche folgen dem visuellen Fluss der Handschrift."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herrn\nDr Victor Fleischer\n\nWien X/X\nBillrothstrasse\n20",
+      "notes": "Adressseite der Postkarte. Briefmarke und Poststempel vorhanden."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüssig und teilweise überlagert oder in den Randbereichen schwer zu entziffern. Die Anordnung des Textes auf der Postkarte ist nicht linear, was die Zuordnung der Zeilen erschwert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 714,
+    "total_words": 111,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2303",
+    "title": "Joseph Roth",
+    "language": "en",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA168.4",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2303/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2303/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2303/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2303/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2303/IMG.5"
+    ],
+    "date": "1939",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, Bleistift, schwarze Tinte",
+        "hands": [
+          "Stefan Zweig"
+        ],
+        "inscriptions": [
+          "für Sunday\n                                 Times"
+        ]
+      },
+      "notes": "Später veröffentlicht in Sunday Times, 28. Mai 1939"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Joseph Roth\n- Signatur: SZ-AAP/W-AA168.4\n- Datum: 1939\n- Sprache: Englisch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarzes\n                                       Durchschlagpapier, Bleistift, schwarze Tinte\n- Hand: Stefan Zweig\n- Anmerkungen: Später veröffentlicht in Sunday Times, 28. Mai 1939"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:04.191724+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Joseph R O T H\n------ für Sunday Times 1939\n\nIn one single week the German emigration has lost\ntwo of its most prominent figures: Ernst Toller in New York and\ntoday Joseph Roth who succumbed to a sudden heart-attack in Paris.\n~~~~artistic Although he was perhaps less known in England\nthan Ernst Toller, Roth's disappearance means perhaps a greater\nloss from an artistic point of view. Born 1894 on the Austrian-\nRussian frontier and at first only estimated as a most profound\nand brilliant journalist, he won a well-merited world-fame by\nhis novel JOB which was translated into nearly all languages.\nIt was the story of an average man of today who suffers all the\ntestings of Job, and it was told with the simplicity of the Bible\nand a wonderful warmth of the heart, one of the books which one\nnever forgets. Some smaller novels followed. The downfall of\nthe Austrian Empire inspired him with two full-size novels \"The\nRadetzkymarsch\" and \"Die Kapuzinergruft\", both of which will remain\nas unsurpassed pictures of old Austria in the tragic time of its\nmoral and material dissolution. No artist from Austria has ever\nseen his country with a sharper eye and a more passionate heart;\none could call them an epitaph of the Austrian empire.\nJoseph Roth was one of the really great writers of\nour days; his German prose has always been a model of perfect\nstyle. He worked every page of his books with the fervour of a",
+      "notes": "Die erste Seite enthält eine handschriftliche Notiz von Stefan Zweig am Kopf des Dokuments. Das Wort 'artistic' ist durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Blatt 1, kein Text erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "true poet; like a goldsmith he polished and repolished every\nsentence till the rhythm was perfect and the colour brilliant.\nHis artistic conscience was as inexorable as his heart was\npassionate and tender. The younger generation in German looses\nwith him a great example and his friends a wonderful friend.",
+      "notes": "Fortsetzung des Textes auf Blatt 2."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Blatt 2, kein Text erkennbar."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "true poet; like a goldsmith he polished and repolished every\nsentence till the rhythm was perfect and the colour brilliant.\nHis artistic conscience was as inexorable as his heart was\npassionate and tender. The younger generation in German looses\nwith him a great example and his friends a wonderful friend.",
+      "notes": "Wiederholung des Textes von Blatt 2 (Scan mit Farbskala)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Notiz am Anfang ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 2024,
+    "total_words": 349,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

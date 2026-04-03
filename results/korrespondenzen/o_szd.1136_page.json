@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1136",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1136/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1136/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.14\n- Signatur: SZ-SAM/B10.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.249617+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 10.Januar 1938.\n\nLiebe Frau Meingast!\nIch lege Ihnen einige Buchbe-\nschreibungen bei und gebe Ihnen den Bericht für\nDezember. Es wurden verschiedene Verträge abge-\nschlossen. Mit Tozicka, Prag, für die tschechi-\nchen Rechte des \"Magellan\" eine einmalige Zahlung\nfür zweitausend Exemplare (bezahlt) mit Option auf\neine neue Auflage bei neuer Vereinbarung. Mit\nEugen Relgis, Bukarest, für die rumänischen Rechte\ndes \"Magellan\" gegen eine einmalige Abfindung. Mit\nder Viking Press, New York für \"Magellan\" gegen die\nüblichen Bedingungen, nur ohne die Ueberlassung der\nRechte für England. Ein Vertrag mit Sperling &\nKupfer, Mailand für \"La Paura\", Novellenband, 10%.\nVertrag mit Mondadori, Mailand über \"Magellan\". 10%.\nWeiter ist nichts zu berichten,\ndie erschienenen Bücher gingen, soweit Duplikate\neinliefen, direkt an Frau Dr. Zweig.\n\nMit den besten Grüssen\nLotte Altmann",
+      "notes": "Links am Rand befindet sich eine handschriftliche Notiz '12' in einem Kreis, die vermutlich nachträglich hinzugefügt wurde. Die Unterschrift ist in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "A",
+      "notes": "Rückseite des Briefes, leer bis auf ein kleines 'A' in der oberen linken Ecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift und die Randnotiz sind ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 884,
+    "total_words": 130,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1792",
+    "title": "Brief an Stefan Zweig vom 12. Mai 1938, SZ-AAP/B1.226",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1792/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1792/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. Mai 1938, SZ-AAP/B1.226\n- Signatur: SZ-AAP/B1.226\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.667203+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BUCHHANDLUNG\nJUL. KITTLS NACHF.\n\nM.-OSTRAU, 12. V. 1938\nSTR. D. 28. OKT. 35\n\nK/L. Herrn\nStefan Z w e i g ,\n49.Hallam Street,\nL o n d o n , W 1\n\nSehr geehrter Herr,\nin sofortiger Erledigung Ihres Schreibens vom\n9.Ds. teilen wir Ihnen mit, dass sich von Ihren Büchern zur Zeit Nach-\nstehendes auf Lager befindet:\n2 Begegnungen mit Menschen, Büchern Städten,\n6 Baumeister d. Welt,\n6 Marie Antionette\n2 Erasmus von Rotterdam,\n2 Castellio gegen Calvin,\n1 Magellan,\n1 Maria Stuart,\n5 Kaleidoskop, Die Kette, (4 x )\nDen Stand per 1.März bedauern wir Ihnen leider heute nicht mehr angeben\nzu können.\nWir empfehlen uns mit vorzüglicher\nHochachtung\nVERSANDBUCHHANDLUNG\nJULIUS KITTLS NACHF.\nKELLER & CO\nMÄHR. OSTRAU,\nStr. d. 28. Oktober 35.",
+      "notes": "Typoskript auf Geschäftspapier. Der Firmenstempel unten rechts ist teilweise über den Text gedruckt. Die Datumsangabe '1938' ist handschriftlich ergänzt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen (Datum '1938' und Firmenstempel) sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 729,
+    "total_words": 126,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

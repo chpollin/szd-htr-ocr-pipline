@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.934",
+    "title": "Postkarte an Frans Masereel vom 24. März 1919, SZ-LAS/B1.7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.934/IMG.1",
+      "https://gams.uni-graz.at/o:szd.934/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 24. März 1919, SZ-LAS/B1.7\n- Signatur: SZ-LAS/B1.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.806218+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Adresse des Absenders. - Text.\nAdresse de l'expéditeur. - Texte.\nIndirizzo del mittente. - Testo.\n\nPostkarte. Carte postale.\nCartolina postale.\n\nMonsieur Frans Masereel\n\nGenève\n8, rue de l'Aubepine",
+      "notes": "Adressseite einer Postkarte. Briefmarke oben rechts mit Poststempel 'BUCHS BAHNHOF 24 III 19 X-'. Zwei Löcher am linken Rand (Archivierung)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mon cher Frans, avant\nde partir encore une\nbonne poignée de main.\nJ'emporte ton bois et un\nsouvenir précieux de ta\nbonne amitié. Ton\n\nStefan Z",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in Tinte. Zwei Löcher am linken Rand (Archivierung)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 339,
+    "total_words": 54,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

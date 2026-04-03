@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.410",
+    "title": "Max Oppenheimer an Stefan Zweig, 1907-05-06, SZ-SAM/AK.129",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.410/IMG.1",
+      "https://gams.uni-graz.at/o:szd.410/IMG.2",
+      "https://gams.uni-graz.at/o:szd.410/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Max Oppenheimer an Stefan Zweig, 1907-05-06, SZ-SAM/AK.129\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.129\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.484199+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gruss aus der Hauptrestauration im Baumgarten! 6.5.07.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text mit handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber H. Stefan Zweig!\nich grüße Sie vielmals u[nd]\nherzlich und werde Ihnen\ndemnächt ausführlich schreiben.\nich bitte Sie ein zurückgelassenes\nRequisiten um mich zuschicken\nAdresse: N.Ö. Baumgartenstrasse\nN° 242. Inserire, Brede[?]\nlassen Sie fest[?] grüßen.\n[...1...]erbleiben mit Gefahren[?]\nIhr ergebenster\nMax Oppenheimer\n\nStefan Zweig\nWien I.\nKochgasse N° 8.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich. Briefmarke und Poststempel 'PRAG 6.5.07' vorhanden. Die Handschrift ist teilweise schwer lesbar, insbesondere die Zeilen 7-9."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. In der Mitte befindet sich die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (insbesondere im Bereich der Adresse und der Grußformel). Die Transkription der Postkartenrückseite erfolgte nach bestem Wissen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 419,
+    "total_words": 57,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

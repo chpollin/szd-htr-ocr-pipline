@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1156",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.15",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1156/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1156/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.15\n- Signatur: SZ-SAM/B11.15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.517875+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Montag\n\nliebe Frau Meingast,\nvielen Dank für die Zusendung\nder Abschrift und Ihre Grüße.\nIch hatte Eile mit der Abschrift\nder wenigen Seiten u. schrieb\nsie vorläufig selbst, das werde\nich wohl noch eine Abschrift\nbrauchen und sende oder bringe\nsie dann. Bitte schicken Sie\nmir aber gleich die Copie die Sie\nvorsorglich zurückbehalten wollten.\nIch brauche sie dringend, da ich\nsonst mein No 2 nicht aus der\nHand geben will. Hoffentlich geht es\nIhnen und Willi gut. Hier ist das\nWetter schon sehr angenehm. Mein\nMann schrieb fleissig aus Portugal\nwo es ihm sehr gefiel und er",
+      "notes": "Die Tinte ist teilweise verlaufen (violett). Der Text bricht am Ende der Seite ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ungern abreiste; doch gehen\ndie Schiffe nur alle 3\nWochen.\nNochmals inzwischen Dank\nund gute Grüße von\nIhrer\nFriderike Zweig\nSollten Sie den Restbetrag\nbei Lise einkassieren wollen,\nbitte tun Sie es. Ich\nwerde ihn verrechnen.",
+      "notes": "Die Seite enthält zudem die gedruckten Felder der Postkarte (CARTE POSTALE, Autriche, etc.) sowie die Adresse der Empfängerin (Frau Anna Meingast, Salzburg, Linzergasse 16) und den Absender (Mme Fr. St. Zweig, Paris XVI, Rue Malakoff 16). Poststempel: PARIS 16 RUE SINGER, 8-11 1938."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der verlaufenen Tinte und der kursiven Handschrift gut lesbar. Die Struktur der Postkarte ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 798,
+    "total_words": 134,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

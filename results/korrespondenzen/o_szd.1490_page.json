@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1490",
+    "title": "Brief an Stefan Zweig vom 15. November 1938, SZ-AAP/B3.2",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1490/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1490/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1490/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 15. November 1938, SZ-AAP/B3.2\n- Signatur: SZ-AAP/B3.2\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:37.502610+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "C O P Y\n\nNovember 15th, 1938.\n\nDr. Stefan Zweig,\n49, Hallam Street,\nW.1.\n\nDear Dr. Zweig,\n\nWe beg to thank you for your letter of November 14th,\nand beg to confirm that we are pleased to accept the new rate of\ncommissions suggested by you, namely : 10%) ten per cent) on all\nbusiness which may be introduced by yourself, and 15% (fifteen per cent)\nif and whenever business is introduced and contracts are completed by\nour firm, always of course provided that you can successfully annul\nyour old agreement with Messrs. Felix Bloch Erben.\n\nWith kindest regards,\n\nYours sincerely,\n\nFOR & ON BEHALF OF\n(signed): INTERNATIONAL COPYRIGHT BUREAU LIMITED.\n\nGEORGE HEILBRON\n.................................................................. DIRECTOR",
+      "notes": "Typoskript auf Briefpapier. Oben rechts handschriftlich die Zahl '14' in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "C O P Y\n\nNovember 15th, 1938.\n\nDr. Stefan Zweig,\n49, Hallam Street,\nW.1.\n\nFOR & ON BEHALF OF\n(signed): INTERNATIONAL COPYRIGHT BUREAU LIMITED.\n\nGEORGE HEILBRON\n.................................................................. DIRECTOR",
+      "notes": "Das Dokument ist mit einer Farb- und Grauskala für Archivierungszwecke überlagert. Der Text ist teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Überlagerung durch die Archivierungsskalen auf Seite 3 beeinträchtigt die Lesbarkeit dort, aber der Text ist durch den Abgleich mit Seite 1 eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 975,
+    "total_words": 143,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

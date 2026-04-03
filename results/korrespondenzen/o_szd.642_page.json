@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.642",
+    "title": "Franz Karl Ginzkey an Stefan Zweig, 1914-08-24, SZ-SAM/AK.71",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.642/IMG.1",
+      "https://gams.uni-graz.at/o:szd.642/IMG.2",
+      "https://gams.uni-graz.at/o:szd.642/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Franz Karl Ginzkey an Stefan Zweig, 1914-08-24, SZ-SAM/AK.71\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.71\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.051182+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Pernegg a. Mur mit Hochlantsch. 24. 8. 14.",
+      "notes": "Vorderseite der Ansichtskarte. Gedruckter Text 'Pernegg a. Mur mit Hochlantsch.', handschriftliches Datum '24. 8. 14.' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Einen schönen Gruß aus\nmeinem alten Fernsitz.\nIch rufe mich hier tüchtig\nmit meinem Landungs- [?]\ngeschäft zusammen, am 5. Sept.\nbin ich wieder in Wien.\nAlles Gute!\nIhr getreuer\nF. K. Ginzkey\nEr sitz' ins [?]\n\nHerrn\nDr. Stefan Zweig\nin Wien VIII.\nKochgasse 8.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben rechts (5 Heller, Kaiser Franz Joseph I.), Poststempel teilweise lesbar. Flecken auf dem Papier."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Einen schönen Gruß aus\nmeinem alten Fernsitz.\nIch rufe mich hier tüchtig\nmit meinem Landungs- [?]\ngeschäft zusammen, am 5. Sept.\nbin ich wieder in Wien.\nAlles Gute!\nIhr getreuer\nF. K. Ginzkey\nEr sitz' ins [?]\n\nHerrn\nDr. Stefan Zweig\nin Wien VIII.\nKochgasse 8.",
+      "notes": "Identisch mit Seite 2, jedoch mit Grauskala und Farbkarte zur Archivierung."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Zeilen 'Landungs- [?]' und 'Er sitz' ins [?]'. Der Rest ist gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 560,
+    "total_words": 100,
+    "language_detected": "",
+    "language_match": true
+  }
+}

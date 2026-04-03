@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1175",
+    "title": "Erwin Rieger an Anna Meingast, SZ-SAM/B18.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1175/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1175/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Erwin Rieger an Anna Meingast, SZ-SAM/B18.1\n- Signatur: SZ-SAM/B18.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.787632+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frau\nA. Meingast\nMauthen i. Gailtal\nPension Panner",
+      "notes": "Adressseite der Postkarte. Die Tinte ist violett. Der Poststempel ist 'SALZBURG 2' vom 19. VIII. 32."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg, 19. August 1932.\n\nLiebe Frau Meingast\nherzlichen Dank für Ihre freundliche Kar=\nte. Ich freue mich sehr daß Sie sich gut\nerholen. Kommen Sie so spät als möglich:\nEs ist hier unerträglich heiß und überfüllt.\nDie Arbeit geht tadellos weiter: für nächste\nWoche erwarten wir die letzten Fahnen.\nSie werden nur noch den „Umbruch“ erleben!\nAlles Schöne von Ihrem ergebenen\nErwin Rieger",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Die Schrift ist gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist klar und gut lesbar. Die Transkription folgt den Regeln der diplomatischen Wiedergabe.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 439,
+    "total_words": 71,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

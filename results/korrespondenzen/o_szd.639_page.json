@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.639",
+    "title": "Elsa Germani an Stefan Zweig, 1937-03-26, SZ-SAM/AK.69",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.639/IMG.1",
+      "https://gams.uni-graz.at/o:szd.639/IMG.2",
+      "https://gams.uni-graz.at/o:szd.639/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Elsa Germani an Stefan Zweig, 1937-03-26, SZ-SAM/AK.69\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.69\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.851016+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "26. März 1937\n\n73 TRIESTE - Riviera di Barcola e Panorama",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Datum oben und gedrucktem Text unten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Hochw. Herrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nTriest, den 26. März\nHochverehrter Herr Doktor -\nwir erinnern uns immer Ihrer\nmit der schönsten und tiefsten\nDankbarkeit und senden Ihnen\nunsere ergebensten Grüße\nund Wünsche\nIhre\nElsa u. Luise de Arim[?]",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Adresse und Nachricht. Briefmarken und Poststempel vorhanden. Die Unterschrift ist schwer lesbar, 'Arim[?]' könnte auch 'Arimondi' oder ähnlich lauten."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der Text ist weitgehend gut lesbar, jedoch ist die Unterschrift am Ende der Nachricht aufgrund der Handschrift schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 316,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.444",
+    "title": "Erwin Rieger an Stefan Zweig, 1929-09-05, SZ-SAM/AK.160",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.444/IMG.1",
+      "https://gams.uni-graz.at/o:szd.444/IMG.2",
+      "https://gams.uni-graz.at/o:szd.444/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Erwin Rieger an Stefan Zweig, 1929-09-05, SZ-SAM/AK.160\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.160\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.685785+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Marseille 5. IX. 29. Rieger",
+      "notes": "Vorderseite der Postkarte mit einer Fotografie einer Gasse in Marseille. Handschriftliche Notiz am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Monsieur\nStefan Zweig\nKapuzinerberg 5\nSalzburg\nOesterreich\n\nMarseille. Der Winter\nhat auch hier arg ge=\nhaust und es ist noch\nkalt. Aber der „Vieux\nport“ lebt noch.\nGelentlichst Eries\n5. IX. 29.",
+      "notes": "Rückseite der Postkarte. Handschriftliche Adresse und Nachricht. Briefmarke oben links. Ein Papierstreifen klebt über der Mitte der Karte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Darunter die Rückseite der Postkarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist klar, auch wenn die Tinte teilweise etwas verblasst ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 221,
+    "total_words": 37,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

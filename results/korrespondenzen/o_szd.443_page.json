@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.443",
+    "title": " Bischoff an Stefan Zweig, 1911-09-23, SZ-SAM/AK.16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.443/IMG.1",
+      "https://gams.uni-graz.at/o:szd.443/IMG.2",
+      "https://gams.uni-graz.at/o:szd.443/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Bischoff an Stefan Zweig, 1911-09-23, SZ-SAM/AK.16\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.580440+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "23. IX. 16.\nLIÈGE – L'Université.\nBischoff",
+      "notes": "Vorderseite einer Ansichtskarte. Das Datum '23. IX. 16' ist handschriftlich hinzugefügt, ebenso der Name 'Bischoff' rechts oben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTALE\n\nCORRESPONDANCE\nSehr geehrter Herr Doktor!\nDas endgültige Bescheid in\nAntwerpen u. Brüssel, der\nmir eben zukommt, verschiebt\nIhren Vortrag. Ursache ist die\nüberfülle vorteilhafter An-\ngebote dieses Jahres. Ich hoffe\nim nächsten mehr Glück\nzu haben bei der Wiederein-\nberufung meines Vortrages.\nKommen Sie in nächster Zeit\nnach Belgien, so erfreuen Sie\nmich mit Ihrem werten Be-\nsuche. Bestens empfiehlt\nsich Ihnen Ihr\nBischoff\n\nADRESSE\nHerrn Dr Stefan Zweig\nWien VIII\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/schwarzer Tinte. Poststempel 'LIÈGE 23 IX 1911'. Die Datumsangabe auf der Vorderseite (16) scheint im Widerspruch zum Poststempel (1911) zu stehen."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, darunter die bereits transkribierte Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die Diskrepanz zwischen dem handschriftlichen Datum auf der Vorderseite (16) und dem Poststempel (1911) wurde originalgetreu übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 535,
+    "total_words": 82,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

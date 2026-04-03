@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2802",
+    "title": "Laurenz Hallers Praterfahrt.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA6.3",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2802/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2802/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2802/IMG.3"
+    ],
+    "date": "15. VII. 1913.",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Wien",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Wien"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarze Tinte",
+        "inscriptions": [
+          "N. Fr\n                                 Presse"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Laurenz Hallers Praterfahrt.\n- Signatur: SZ-AAP/W-AA6.3\n- Datum: 15. VII. 1913.\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze\n                                       Tinte"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:07.347783+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Literaturblatt.\nLaurenz Hallers Praterfahrt.\n(Novelle von Raoul Auernheimer, Berlin S., Fischer, 1913.)\n\nMit dieser kleinen Novelle wird es Raoul Auernheimer vielleicht zum erstenmal gelingen, dem ihm ebenso freigebig als regelmäßig zugestandenen Prädikat der Liebenswürdigkeit zu entrinnen. Als Auszeichnung und Charakteristik ursprünglich zugedacht, werden derlei rühmende Adjektiva allmählich zur lästigen Etikette und papiernen Rubrik, ein Gefängnis, in das man ein Talent eilig einsperrt, um ihm übermäßige Betätigungsfreiheit zu nehmen. Unverkennbar aber ist gerade bei Auernheimer seit Jahren der Wille, sich nicht in der Plauderecke gefangengelassen und nur spaziergängerisch zu bummeln, sondern auch, inneren Wachstums gewiß, reger und weiter in die epische Welt auszuschreiten. Aus seiner ursprünglichen Skizziertechnik hat sich, artistisch und menschlich gleich gesteigert, eine ganz eminente Zeichenkunst entwickelt, die der angeborenen Gabe natürlicher Anmut des Erzählens eine sehr sorgsame und immer vertiefte Beobachtung verbindet. Der Erzähler Auernheimer hat einen angenehm-rhythmischen, federnden Schritt. Er hetzt nicht bravourös in die Geschehnisse hinein, stürmt nicht mit keuchendem Atem weiter, nur weiter, um dann ermattet auf eine psychologische Bank am Wege hinzusinken, und dort Atemlosigkeit durch Umständlichkeit zu verdecken, er schweift nicht unlässig vom vorgezeichneten Weg, um lyrische Blumensträuße zu pflücken, sondern schreitet besonnen und gemessen mit wirklicher epischer Sicherheit vom Anfang bis zum Ende. Unendlich wohltuend ist es, unter all den Ueberheckten einen zu sehen, der mit ruhigem Atem spricht, der nicht transpiriert im Schaffen, sondern mit Sauberkeit und Eleganz, aber zugleich auch mit Kunst und Energie sein Stück Welt im Bilde umfaßt. Darum, glaube ich, gehen auch seine Leser so getreu mit seinen Werken. Man wird bei ihm nicht gerissen und gerüttelt, aber auch nie in Schläfrigkeit gewiegt, ständig spürt man eine sichere Hand, die vorwärts führt — eine elegante, zarte, sorgfältig manikürte Erzählerhand, aber doch eine mit festen Gelenken und beharrlichem Griff. Dieses richtige Gefühl des Maßes, nicht das exotische Thema, die Dreilangsvariation, die er durch Jahre oft schon zu unserem Ueberdruß auf dem Klavier der menschlichen Leidenschaften geübt, ist es im letzten, was ihn den Franzosen so ähnlich macht, und von diesen glücklicherweise nicht mehr den Lavedan, Gyp, Prévost, den Amüsuren, denen er anfangs pflichtig schien, sondern Mérimée und Maupassant, den Meistern der straffen anekdotisch knappen Erzählung.\n\nIst diese Anmut des Vortrages bei Auernheimer eine durchaus natürliche, so ist seine Kunst der Darstellung doch eine sorgsam herangebildete und durch ernste Bemühung gesteigerte. Die scheinbare Nonchalance, die gefällige Lässigkeit, die beinahe ein Impromptu vortäuscht, ist innen gestützt durch sorgfältige Berechnung und Besonnenheit. Jede echte Novelle ist ebenso wie ein technischer Bau, ein Haus, eine Brücke, eine Maschine, im letzten doch Materialisierung einer Schwergewichts-berechnung, einer geometrischen Gesetzmäßigkeit, wo Druck gegen Spannung, Gewicht gegen Gegengewicht gestellt, ein Schicksal mit der stärksten Tragfähigkeit belastet werden muß, um jenes ästhetische Wohlbehagen zu erzeugen, das ohne immer knübrig zu werden, und dieses richtige Maß der Bedeutung des Geschehens und seiner Erörterung abzugrenzen, erfordert nicht nur reproduktives, sondern auch konstruktives Talent. Darf man von einem Schema der Novelle reden — die Aesthetiker haben wiederholt versucht, ihre Vielheit in eine Anzahl bestimmter Typen zu verwandeln — so wäre in dieser neuen Novelle Auernheimers, seiner besten, jenes sehr schwierige zu erkennen, das kleist in seinem „Kohlhaas“ wie in Erz gemeißelt hat, der Lawinensturz der Geschehnisse, wo aus einem rollenden Steinchen in fortreißender und durch die eigene Geschwindigkeit gesteigerter Bewegung ein Bergsturz wird, der alles zermalmt, was ihm in den Weg tritt. Aus kleiner Zahl wird durch die Multiplikation der Umstände ein ungeheures Geschick. Hier ist es freilich nur eine kleine, dämmernde Existenz, die zerschmettert wird, eine jener Figuren, die man seltsamerweise sich sonst nie müht, als tragisch zu empfinden, weil ihr Unglück nicht wie ein Gewitter einmal in ihr Leben bricht, sondern von allem Anbeginn darin sitzt, wie der Wurm im Stamm, weil die Tragik, statt sich zu ballen, trübe zerfließt in eine lebenslängliche, fast schmutzige Jämmerlichkeit. Nicht die Glücklosen reizen sonst den Künstler, sondern die Unglücklichen. Hier aber ist einer jener kleinen Beamten zum Helden gewählt, die wir sonst nur in ihren Aemtern kennen, mit den blanken Knöpfen der Dienstjacke, die merkwürdig ihr ganzes Lebensgefühl zu einer flüchtigen Würde steigert, nicht aber im Düster ihrer Häuslichkeit, wo alles gespart, berechnet, jeder Kreuzer gedreht ist und aus jedem Schrank, jedem Topf die Sorge guckt. Ein Haushalt ist hier gezeigt, einer von den Tausenden der Großstadt, eines jener täglichen Wunder der finanziellen Vorstadtequilibristik, wo jede zerbrochene Fensterscheibe, jeder verlorene Regenschirm ein Stück zertrümmerter Zufriedenheit bedeutet, der Ausflug einen sagenhaften Hofratsiante, und sie, eine Madame Bovary der zwölften Rangklasse, hat nun ein frivoles Gelüst, ein Geburtstagsgelüstchen. Einen ganz kleinen Wunsch hat sie, der zwanzig, dreißig Kronen kostet — so einen blauen Zettel, wie ihn Tausende in Wien täglich in der Hand zerknüllen — und hier doch den armen Laurenz Haller sein bißchen Glück. Dieser eine Tropfen Del braucht nur zu fallen und die Räder des Schicksals rollen, die seine kleine Existenz zermalmen. Dies aber, wie aus solcher\n\nNichtigkeit die Katastrophe wird, so plastisch und überzeugend dargestellt zu haben, ist eben das Kunstgeheimnis der Novelle, das sich der Nacherzählung nicht andert. Reizend nun und so wahr-wienerisch, so unendlich charakteristisch für unsere wienerische Welt ist, daß das Gelüst der Frau Revidentin Haller eine Praterfahrt natürlich eine in einem Fiaker, denn selbst im fünften Stock einer Zinskaserne weiß man in Wien, was „nobel“ ist. Ewig an Nüchternheit, Zweckmäßigkeit gelebt, ersehnt sie sich gerade das Nußloseste, den flüchtigen Aufstieg, den Leuten sitzen zu können und schon durch das Nebeneinander, diese Lust, den Duft von fremden Speisen zu schnuppern, auf dem Rennplatz, dem grünen Treibhaus der Hochstapelei, neben dem Adel zu stehen und im Schatten des Lebens sich am Feuerwerk des Luxus zu freuen. Dieser neidvolle Nobelwahn, gierig und anspruchslos zugleich, hat nun die arme Revidentin gepackt, und seit Wochen bereitet sie diesen Nachmittag vor, diesen Traum, von dem sie dann in den langen, dämmerigen Wochen zehren will: aber dieser Duft, der ausströmt von den Kastanienbäumen, die süße Betäubung des Luxus macht sie trunken und sie verliert die Sinne. Wie ein Gift dringt diese Erinnerung in das häusliche Glück des Laurenz Haller; von den Kollegen mit Neid verfolgt, von seiner Frau beirogen, flüchtet er in den Tod hinein.\n\nNie war für mein Empfinden Auernheimer als Künstler wertvoller als mit dieser kleinen Novelle. Bisher hatte er meist die kleinen Sorgen der großen Leute geschildert, diesmal eine wahrhafte Sorge der kleinen Leute, und das Tragische hat seine starken erzählerischen Muskeln besser hervortreten lassen, die der elegante Rock bisher versteckte. Er ist abgebogen von der Ringstraße und hat, weil er nicht Paris in Wien finden wollte, sondern seine wirkliche bodenständige Welt, in einer engen Vorstadtgasse mehr an Menschlichkeit entdeckt als in allen Salons. Er hat erkannt, daß es auf die Dauer unmöglich ist, Menschen wichtig zu nehmen, die sich selber nicht wichtig sind, die nur für Gesellschaften, Moden, für ihre eigenen Spiegelbilder leben. „Paar nach der Mode“ war diese Erkenntnis schon Unterklang, eine amüsante Regierung und satirische Verzeichnung all dessen offenkundig, das ihn einst selber verlockte. Deutlich war dort die Absage zu lesen an die ewige Eleganz. Hier in dieser kleinen Novelle ist aber, was dort ein Lächeln war, zum Wort geworden und zur künstlerischen Tat.\n\nSt. Z.\n\nRußische Klassikerausgaben.\nVon Eugen Zabel.\n\nAls Paul Heyse vor etwa einem halben Jahrhundert auf die wundervollen Skizzen „Aus dem Tagebuch eines Jägers“ von Turgenjew aufmerksam machte, begann der slavische Osten für die europäische Literatur mitzusprechen. Bis dahin erschien Rußland für die Poesie als unfruchtbares Land, das ausschließlich vom Westen lebte, seitdem",
+      "notes": "Zeitungsausschnitt, Frakturschrift. Handschriftliche Annotation oben links: \"N. N. Presse 15. VII. 1913.\""
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "benzuges nach Moskau. Zleubs hieß es et o\n\ner Dichter Shukowsky, der Erzieher Alexanders, ganze Strömer klassischer Literatur von der „Odyssee“ zu den Werken Goethes und Schillers in seine Sprache hinübergeleitet hatte. Erst jetzt merkte man, daß im Innern des fernen Landes, unter der Hülle von Schnee und Eis, ein literarisches Schaffen erblüht sei, dem eine schnelle Gabe, Menschen und Natur anzuschauen, zur Grundlage diente. Dann kam Friedrich Bodenstedt und gab seine Uebertragungen von Puschkin, Lermontow, den russischen Lyrikern als üppige Sträuße, an deren Farbe und Duft wir uns erfreuten. In den 80er Jahren wurden die Namen Dostojewski und Tolstoi bei uns zuerst genannt, deren Werke keinen Zweifel ließen, daß aus unseren Schülern jenseits der Weichsel mittlerweile Meister geworden waren, die Eigenes zu bringen und zu gestalten wußten.\n\nAllerdings handelte es sich zunächst um eine kleine Gemeinde von Literaturfreunden, die an diesem eigenkräftigen Lustzug von Poesie Freude empfand. Dostojewskis Meisterwerk „Aus einem toten Hause“, mit dem sein Leben in den sibirischen Gefängnissen schilderte, kam beim Verleger nach dem Absatz von Hundertfünfzig Exemplaren als ertraglos eingestampft werden, und „Raskolnikow“, später einer der erfolgreichsten Romane der Weltzeit, lag jahrelang unberührt in den Speichern. Auch Erzählungen „Krieg und Frieden“ und „Anna Karenina“ kamen in schlechten und traurig verstümmelten Uebersetzungen auf den Büchermarkt und der Dichter wurde häufig mit seinem ihm gar nicht verwandten Namensvetter verwechselt, der durch seine geschmacklosen Dramen Berühmtheit erlangt hatte. Dabei fehlte es an den drolligsten Mißverständnissen, da viele von den Werken nicht unmittelbar aus dem Russischen, sondern auf dem Umwege über Frankreich bei uns eingeführt wurden.\n\nSo trug unter anderm Louis Viardot kein Bedenken, der Uebersetzung von Turgenjews „Erster Liebe“ einen wunderlichen Schluß in Form eines Gespräches anzuhängen, bei dem sich zwei Herren über persönliche und nationales Verschulden allerlei schöne Sachen erzählten, und schließlich zu der Ueberzeugung kommen, daß eine solche Novelle nur in Rußland möglich sei. Dies törichte „Hängsel“, das aus „moralischen Gründen“ der meist kurzen Erzählung willkürlich zugefügt war, ging dann durch die deutsche Uebertragung über und verschiedene Kritiker meinten, daß durch diese Schlußbetrachtung, die das Original gar nicht kennt, der tiefere Sinn des Werkes erst klar werde. Dem Roman „Anna Karenina“ gab Tolstoi als Motto eine Stelle aus der Epistel St. Pauli an die Römer vorgesetzt: „Die Rache ist mein! Ich will vergelten!“ Der deutsche Uebersetzer verstand aber den Sinn noch die Worte des russischen Textes: „Vozmescenie se ne wosdam!“ Ohne zu wissen, daß dies ein jetzt ungebräuchliches altslavisches Wort für „Vergeltung“ ließ er in unglaublicher Geistesverwirrung den biblischen Satz folgendermaßen drucken: „Mein ist die Rache, ich vergelte As!“ Erst durch die von Raphael Löwenfeld veranstaltete musterte Ausgabe des Einbiedlers von",
+      "notes": "Zeitungsausschnitt, Frakturschrift. Fortsetzung des Artikels von der ersten Seite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 1, jedoch mit aufgelegter Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der leichten Vergilbung des Papiers. Die Struktur ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 11562,
+    "total_words": 1665,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

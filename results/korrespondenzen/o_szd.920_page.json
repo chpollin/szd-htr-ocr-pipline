@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.920",
+    "title": "Brief an Frans Masereel vom [6. März 1919], SZ-LAS/B1.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.920/IMG.1",
+      "https://gams.uni-graz.at/o:szd.920/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [6. März 1919], SZ-LAS/B1.4\n- Signatur: SZ-LAS/B1.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:43.569762+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon cher Frans, je te remercie de tout mon cœur pour les admirab-\nles cinq bois qui m'ont fait énormément de plaisir. Ils sont d'une clarté\nd'ensemble, d'une perfection de technique incomparable et je vois avec plaisir,\ncombien ton art s'élève toujours plus haut et plus haut. Je serais si heureux de\npouvoir te serrer la main encore: je resterai ici sûrement jusqu'au 22. Mars,\npeut-être encore plus longtemps et tu pourrais travailler ici tranquillement une\nsemaine. Viens donc! Les enfants parlent chaque jour de toi et madame serait\nenchanté;\nEncore une question, la monétaire. Il sera pas facile d'envoyer de Vienne les\n2 m. cour. a cause des différents difficultés. Je pourrais te les donner ou en-\nvoyer on, si cela ne te convient pas, les deposer chez notre ami Seelig. La change est\nmalheureusement très mauvaise en ce moment, mais peut-être je reussirai de la faire\nfaire une autre edition dans une factor langue encore. Ecris moi un mot si cela te con-\nvient si je les deposer chez Seelig ou si tu préfère une autre manière\nEt puis! Peut-tu me dire déjà le prix de Liluli? je voudrais souscrire {5} 10 exem-\nplaires et les payer immédiatement pour les me faire envoyer a Salzbourg, car mal-\nheureusement je ne serai plus ici, quand ce livre apparaîtra.\nA tantot donc, cher ami! Nous esperons que tu prendras tes decisions très vite\net nous t'attendons. Meilleurs compliments a madame et a Paulette de vous\ndeux. Ton fidèle\n\nStefan Zweig\n\nJendi",
+      "notes": "Handschriftlicher Brief in französischer Sprache. Die Tinte ist violett. Das Wort 'Jendi' am Ende steht vermutlich für 'Jeudi' (Donnerstag), das Datum fehlt im Textkörper, wird aber in der Aufgabenstellung als 6. März 1919 identifiziert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Oben mittig ein Ex Libris Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'. Zwei Lochungen am rechten Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Orthographie des Autors weist einige kleine Fehler auf (z.B. 'la monétaire' statt 'la monnaie', 'factor langue' statt 'façon langue'), die gemäß der Transkriptionsregel originalgetreu übernommen wurden.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1454,
+    "total_words": 251,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2404",
+    "title": "Anfang Radiovortrag Paris",
+    "language": "fr",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA158.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2404/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2404/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2404/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2404/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2404/IMG.5"
+    ],
+    "date": "Apr. 1940",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "origin_place": "Paris",
+      "extent": "2 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Paris"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift",
+        "hands": [
+          "Stefan Zweig; Lotte Zweig"
+        ]
+      },
+      "notes": "Überarbeitete Fassung des Anfangs zum Vortrag Pour ceux qui\n                        ne peuvent pas parler (Radio Paris, 24. April 1940). Auf Deutsch als Das\n                        grosse Schweigen nachgedruckt in: Das Neue Tage-Buch, Paris, 4. Mai\n                        1940"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Anfang Radiovortrag Paris\n- Signatur: SZ-AAP/W-AA158.1\n- Datum: Apr. 1940\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 2 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift\n- Hand: Stefan Zweig; Lotte Zweig\n- Anmerkungen: Überarbeitete Fassung des Anfangs zum Vortrag Pour ceux qui\n                        ne peuvent pas parler (Radio Paris, 24. April 1940). Auf Deutsch als Das\n                        grosse Schweigen nachgedruckt in: Das Neue Tage-Buch, Paris, 4. Mai\n                        1940"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:15.990754+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Anfang Radiovortrag Paris Apr. 1940\n\nAyant\n~~décidé~~ le précieux privilège de m'adresser aux\nn'en abuserai pas pour\nauditeurs de la Radio française, je ~~ne veux pas en abuser et~~\nvous parler de littérature ou de ~~raconter~~ souvenirs personnels\n\nJe crois qu'aujourd'hui, le premier devoir de tous\nla liberté de parler au nom,\nceux qui ont ~~la parole~~ est ~~pour des millions et~~\ndes millions d'individus ~~de ceux qui ne le peuvent plus parce ce droit~~\nce droit imperceptible leur a été ravi\n~~leur a été ravi~~. Jamais, dans l'histoire, pareil arbitraire n'a été\n~~si largement d'une facon si methodique et systematique~~\nexercé ~~dans les dimensions ni dans les méthodes si systé~~\ns'efforcera donc\nmatiquement calculées~~. Ma voix ~~fera donc effort~~ d'être celle\nqui\ndes quarante ou des cinquante millions de ~~ces~~ victimes dans\nl'Europe Centrale ~~qui~~ ont vu leurs voix étouffées, réduites\nau silence. Quarante millions, cinquante millions et peut-être\ndavantage ~~plus~~ - hélas ! ~~Les pratiques~~ d'agression, ~~et de~~ suppression\ndes tous les droits sont ~~pratiques~~ avec une ampleur\n~~et est pris~~ de nos jours ~~des proportions~~ si terrifiantes\nqu'il est extrêmement difficile, je le sais, ~~pour~~ nous,\nhommes de vingtième siècle, siècle de civilisation, de nous\nfaire à l'idée qu'une zône de silence si ~~immense~~, si ~~concrète~~\nvaste impénétrable\nse soit établie au milieu de notre Europe, ~~comme~~ le Pôle\nOn dirait que\nNord ~~était~~ soudain descendu sur elle, couvrant toute la\nest\nPologne, l'Autriche, la Tcheco-Slovaquie, le Danemark, d'une\ndéprimante\nsolitude glaciale et ~~sombre~~. Vision terrifiante : quarante\nou cinquante millions d'êtres humains subissent cet état ~~de~~\nd'humiliation, quarante ou cinquante millions qui vivent\nplutôt\nou ~~mieux~~ végètent sans la moindre possibilité ~~d'exprimer~~\nd'exprimer leurs pensées, leurs voeux, leurs souffrances,\nleurs espérances.",
+      "notes": "Typoskript mit zahlreichen handschriftlichen Korrekturen und Ergänzungen in violetter Tinte. Die Lesbarkeit ist durch die vielen Streichungen und Einfügungen stellenweise erschwert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "- 2 -\n\nVous savez tous comment a commencé cette tragédie.\nCe fut à l'avènement du national-socialisme en Allemagne,\ndont le mot d'ordre, dès le premier jour, fut : Etouffer !\nEtouffer toutes les voix, sauf une. Ecraser toute manifesta-\ntion de la parole libre sous quelque forme que ce soit,\nartistique, littéraire, journalistique - même dans la simple\nconversation. Terrasser, extirper, annihiler toute liberté\nd'expression.\n- et\nQuelques jours plus tard, ~~le~~ mot d'ordre monstrueux\nétait suivi. On brûlait les livres, on chassait les savants\nde leurs laboratoires, les prêtres de leur chaire, les acteurs\nde la scène, on supprimait les journaux et la liberté de réu-\nnion; des hommes qui avaient, par leurs idées et leurs oeuvres,\nenrichi la culture européenne, étaient traqués comme des bêtes\nfauves. C'était la ruée ~~subite~~ d'une haine d'autant plus\nodieuse que, nulle part, elle n'était spontanée mais, partout,\nsavamment et froidement préparée, jusque dans les plus infimes\ndétails. Le monde entier eut un sursaut d'horreur. ~~C'était~~\nCe fut\nun homme tombé d'une grande hauteur sous l'effet ~~d'un~~\nd'un choc violent, se relevant regardait\n~~ayant dégringolé du haut en bas d'un escalier, se relève,~~\n~~regarde~~ autour de lui et se demande : \"Où suis-je ?\" Etions-\nnous vraiment au vingtième siècle, siècle d'humanité ?\nMais bientôt, dans ce même monde, des voix apaisantes se\nfaisaient entendre : \"Soyons prudents ! C'est une affaire\nintérieure qui n'intéresse que les Allemands. Que l'Alle-\nvondra chez elle. Que les Allemands\nmagne fasse ce qu'elle ~~veut avec les siens~~. ~~qu'ils~~ se\ndébrouillent entre eux ! Ce qui se passe dans leurs frontières\nne nous regarde pas !\"",
+      "notes": "Typoskript mit handschriftlichen Korrekturen in violetter Tinte. Die Korrekturen sind gut lesbar."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "- 2 -\n\nVous savez tous comment a commencé cette tragédie.\nCe fut à l'avènement du national-socialisme en Allemagne,\ndont le mot d'ordre, dès le premier jour, fut : Etouffer !\nEtouffer toutes les voix, sauf une. Ecraser toute manifesta-\ntion de la parole libre sous quelque forme que ce soit,\nartistique, littéraire, journalistique - même dans la simple\nconversation. Terrasser, extirper, annihiler toute liberté\nd'expression.\n- et\nQuelques jours plus tard, ~~le~~ mot d'ordre monstrueux\nétait suivi. On brûlait les livres, on chassait les savants\nde leurs laboratoires, les prêtres de leur chaire, les acteurs\nde la scène, on supprimait les journaux et la liberté de réu-\nnion; des hommes qui avaient, par leurs idées et leurs oeuvres,\nenrichi la culture européenne, étaient traqués comme des bêtes\nfauves. C'était la ruée ~~subite~~ d'une haine d'autant plus\nodieuse que, nulle part, elle n'était spontanée mais, partout,\nsavamment et froidement préparée, jusque dans les plus infimes\ndétails. Le monde entier eut un sursaut d'horreur. ~~C'était~~\nCe fut\nun homme tombé d'une grande hauteur sous l'effet ~~d'un~~\nd'un choc violent, se relevant regardait\n~~ayant dégringolé du haut en bas d'un escalier, se relève,~~\n~~regarde~~ autour de lui et se demande : \"Où suis-je ?\" Etions-\nnous vraiment au vingtième siècle, siècle d'humanité ?\nMais bientôt, dans ce même monde, des voix apaisantes se\nfaisaient entendre : \"Soyons prudents ! C'est une affaire\nintérieure qui n'intéresse que les Allemands. Que l'Alle-\nvondra chez elle. Que les Allemands\nmagne fasse ce qu'elle ~~veut avec les siens~~. ~~qu'ils~~ se\ndébrouillent entre eux ! Ce qui se passe dans leurs frontières\nne nous regarde pas !\"",
+      "notes": "Identisch mit Seite 3, jedoch mit Archiv-Farbskala und Grauskala über den Text gelegt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der zahlreichen handschriftlichen Korrekturen und Streichungen gut lesbar. Die Korrekturen sind eindeutig dem Typoskript zuzuordnen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 5311,
+    "total_words": 825,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

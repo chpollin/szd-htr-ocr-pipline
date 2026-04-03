@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1369",
+    "title": "Visitenkarte an Karl Klammer aus dem Jahr 1903, SZ-SEF/B6.9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1369/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1369/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1369/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Visitenkarte an Karl Klammer aus dem Jahr 1903, SZ-SEF/B6.9\n- Signatur: SZ-SEF/B6.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:29.411920+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "STEFAN ZWEIG\n\nWIEN                                I. RATHAUSSTRASSE 17.",
+      "notes": "Vorderseite der Visitenkarte. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Klammer, ich hätte mich sehr gefreut, Sie\nbegrüssen zu können und hoffe, dass es noch möglich\nist. Ich bin heute (Samstag) Nachmittag von 3 - 5 bei mir\nVIII. Buchfeldgasse 2 I, dann im Café Reit, Michaeler-\nplatz. Vielleicht sehe ich Sie da oder erhalte eine Zeile,\nwo ich Sie in den nächsten Tagen sehen kann. Herz-\nlichen Gruss SZ",
+      "notes": "Rückseite der Visitenkarte. Handschriftlicher Text in violett/dunkler Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Herr Klammer, ich hätte mich sehr gefreut, Sie\nbegrüssen zu können und hoffe, dass es noch möglich\nist. Ich bin heute (Samstag) Nachmittag von 3 - 5 bei mir\nVIII. Buchfeldgasse 2 I, dann im Café Reit, Michaeler-\nplatz. Vielleicht sehe ich Sie da oder erhalte eine Zeile,\nwo ich Sie in den nächsten Tagen sehen kann. Herz-\nlichen Gruss SZ",
+      "notes": "Identisch mit Seite 2, hier mit Farb- und Grauskala abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist für Stefan Zweig charakteristisch und klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 759,
+    "total_words": 130,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

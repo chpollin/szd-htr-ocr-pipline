@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.573",
+    "title": " Unidentified an Stefan Zweig, 1932-07-28, SZ-SAM/AK.279",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.573/IMG.1",
+      "https://gams.uni-graz.at/o:szd.573/IMG.2",
+      "https://gams.uni-graz.at/o:szd.573/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1932-07-28, SZ-SAM/AK.279\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.279\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:19.100958+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Genf-See\n28. 7. 32",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Notiz oben rechts. Farbbild einer Küstenlandschaft."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Genf, 28. Juli 1932\nVerehrter Herr, von Jürg\ndrohe ich auf Ihre Anfrage hin\nkorrigiert, [?] [?] [?], so sei\nFrühjahr von März bis Anfang\nApril vorgemerkt. Diesen [?] [?]\nbestätigen, daß diese Wochen in der da-\nselbigen [?] [?] [?] [?] [?] [?]\n[?] [?] [?] besonders angenehm\nsind. Wenn also nicht mehr vom\nFebruar die Rede ist, würden wir\nbitten, an Anfang März oder Ende\nApril zu denken. Der, wie ges-\nagt, [?] [?] wäre im Blick auf\nGenf besonders geeignet.\nMit schönsten Grüßen\nIhr ergeben\n[Unterschrift unleserlich]",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich verfasst. Briefmarke (20 Helvetia) und Poststempel (VILLÉGIAT EN SUISSE, 28 VII 1932) vorhanden. Empfänger: H. Stefan Zweig, Kapuzinerberg, Salzburg, in Österreich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig und weist zahlreiche schwer lesbare Wörter auf, insbesondere im Mittelteil des Textes. Die Identifikation der Unterschrift war nicht möglich.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 535,
+    "total_words": 94,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

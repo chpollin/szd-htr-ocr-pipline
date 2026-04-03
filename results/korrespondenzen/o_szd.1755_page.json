@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1755",
+    "title": "Brief an Stefan Zweig vom 29. Oktober 1937, SZ-AAP/B1.116",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1755/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1755/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 29. Oktober 1937, SZ-AAP/B1.116\n- Signatur: SZ-AAP/B1.116\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:00.113067+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN · LEIPZIG · ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostcheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef. Ihr Schreiben vom 19.Oktober 1937 29.Oktober 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nVielen schönen Dank für Ihre freundlichen Zeilen.\n\nBegegnungen: Die Leinenbände schauen tadellos aus.Allerdings hat der\nBuchbinder bei dem starken Rücken eine besonders heikle Arbeit zu\nleisten und hat uns ohnedies schon vorgejammert,wie schwer der Band\nzu beschneiden ist.Aber die Bände sehen wirklich sehr gut und statt-\nlich aus.Die für Sie bestimmten Exemplare werden Sie in der nächsten\nWoche in Händen haben.Wir haben zwar eine Anzahl von Exemplaren schon\ngeliefert bekommen.Aber bei der Prüfung hat sich ein Bindefehler\nherausgestellt,den wir unbedingt in Ordnung bringen mussten,und in-\nfolgedessen verzögert sich die Herausgabe um ein paar Tage.Die Anzeigen\nsind schon für diesen Sonntag aufgegeben worden.\n\nWiesengrund-Adorna: Bitte veranlassen Sie Herrn Dr.Wiesengrund,dass\ner uns Arnold Schönbergs Mahler-Studie unverbindlich zugehen lässt.\nWir lassen sie dann sofort von Stefan oder noch besser von Dr.Reich\nlesen und glauben,sie dann noch bis Neujahr herausbringen zu können.\nIst Schönberg derzeit erreichbar ? Vielen Dank für Ihre Mühe.\n\nWir haben in Ihrem Auftrage Exemplare der \"Begegnungen\" (kartoniert\noder in Korrektur-Bogen) bereits an die folgenden Adressen gesandt:\n\nAlfredo Cahn,Buenos Aires\nDirektor Luigi Rusca,c/o Mondadori,Milano\nProf.Dr.Lavinia Mazzucchetti,Milano\n\nWir sind mit besten Grüssen\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich (Tinte, blau/schwarz). Unterstreichungen im Text sind ebenfalls handschriftlich (rot/violett)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftlichen Ergänzungen/Unterstreichungen sind ebenfalls eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1816,
+    "total_words": 250,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

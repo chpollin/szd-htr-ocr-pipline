@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1730",
+    "title": "Postkarte an Anna Meingast vom 2. September 1937, SZ-SAM/B7.97",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1730/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1730/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 2. September 1937, SZ-SAM/B7.97\n- Signatur: SZ-SAM/B7.97\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.466803+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KLOSTERS — SILVRETTA\nPOSTKARTE CARTE POSTALE CARTOLINA POSTALE\n\nFrau Anna Meingast\n\nSalzburg\nLinzergasse 16\n\nÖsterreich",
+      "notes": "Adressseite einer Postkarte. Handschriftliche Anschrift in violetter Tinte. Briefmarke (20 Rappen Helvetia) mit Poststempel 'KLOSTERS 2 IX 37 - 2' und 'ZÜRICH'. Links handschriftlich 'Österreich'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast,\nich fand hier Ihren Brief\naus London, bei die nächsten\nacht Tage\nLugano Villa Castagnola\nSchweiz dann London\n\nherzl[ich] [?] \nSZ",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Die Unterschrift ist als 'SZ' (Stefan Zweig) lesbar. Das Wort nach 'herzl' ist schwer lesbar, vermutlich eine Abkürzung für 'herzlichst'."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig, insbesondere die Grußformel am Ende der Nachrichtenseite ist schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 268,
+    "total_words": 39,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1099",
+    "title": "Brief an Max Fleischer vom 2. Juli 1902, SZ-LAS/B3.20",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1099/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1099/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1099/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1099/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1099/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1099/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1099/IMG.7"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 2. Juli 1902, SZ-LAS/B3.20\n- Signatur: SZ-LAS/B3.20\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.946755+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wohlgeboren\n\nHerrn Max Fleischer\nnatürlich in\n\nKomotau\nBöhmen/Österreich",
+      "notes": "Adressseite eines Briefumschlags. Zwei Briefmarken 'Deutsches Reich' 5 Pfennig. Poststempel 'KOMOTAU 2.7.02'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "2.7.02\nKOMOTAU\nVII\n\n21219/15",
+      "notes": "Rückseite des Briefumschlags mit Poststempel und Archivnummer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Lieber Max,\nhier ist sehr wenig das Neues! Ich habe\nwar wieder ziemlich malade, weil ich zu viel\n[?] gelernnt bin, arbeite schon wenig und wei-\nger. Verlaine ist - fürras! - in Druck, auf die\nbeiden ersten Zeilen seines Gedichtes warte ich aber\nnoch wagenbaus[?]. Jola, nila, dann schon hast die\nBonn zu 'faze Evers-Verlaine. Baudelaire\nkommt auf bald, Seemann überschüttet mich\n- wohl eine nur für den schlaffen Werk zu ha-\ngitzen - mit Racan probap, nobelten Calibert\nà la, Arenijeff-Klinger.\nDie fehlt mir hier mächtig. Höher ist\nin Neu-Zittau, d.J. momentan liegt er neben\nan am Papa, aber sonst lebt er in Grammaffen,\nEmbacher sehe ich nur im Zoologischen, sitzen\nbeim Mittagessen. Hingegen habe ich mich dem\nDessoir ergeben, für den ich tüchtig arbeiten\nmuß. Gedichte zu schreiben habe ich nur seit\npaar fatalen deluel-lectiva für einige Zeit\nendgiltig abgewöhnt.",
+      "notes": "Handschriftlicher Brieftext auf liniertem Papier. Die Handschrift ist teilweise schwer lesbar, insbesondere Eigennamen und Fremdwörter."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite des Briefbogens."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Ich bitte dich um genaue Angabe deiner\ngesammelten Erfolge bei den kleinen Mädel in\nKomotau. Zu deiner großen Entsetzen teile ich\nmit, dass ich ganz pflichtgemäß einen solchen in\nden letzten Tagen hatte und wohl noch öfters haben\nwerde. Allerdings gar zu klein ist das Mädel\nnicht.\nNächstens bekommst du ein Bild von mir.\nMeister Lilien hat eine ganz glänzende Aufnahme\nvon mir gemacht, ich sehe aber absolut genialisch\nund infernalisch aus. Als Gegengabe bitte ich\num Schnappschuß - nur kleine Mädel-Gedichte\nin Menge. Ich empfehle dir übrigens Mackays\nRoman 'der Scharfrichter' zum gefälligen Verzehr.\nSonst habe ich rasende Eile, grüße das\nallerschönste jung und alt Komotau von\ndeinem\nStefan",
+      "notes": "Fortsetzung des Brieftextes auf der zweiten Seite des Briefbogens."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "21219/15",
+      "notes": "Rückseite des Briefbogens mit Archivnummer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "21219/15",
+      "notes": "Briefbogen mit aufgelegten Farbkarten und Grauskala zur Digitalisierung. Archivnummer am unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist in diesem Dokument sehr flüchtig und weist viele schwer lesbare Wörter auf, insbesondere bei Eigennamen und spezifischen Begriffen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 1680,
+    "total_words": 267,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

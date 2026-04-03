@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1526",
+    "title": "Brief an Stefan Zweig vom 4. November 1941, SZ-AAP/B2.70",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1526/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1526/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1526/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 4. November 1941, SZ-AAP/B2.70\n- Signatur: SZ-AAP/B2.70\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:39.387898+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Richard FRIEDENTHAL, Ph D.                                23, Ladbroke Gardens, W.11.\n                                                         4th November 1941.\n\nMy dear Stefan Zweig,\n\nI thank you very much for your kind letter, helpful\nand warmhearted and full of wise and sound advice, as always your letters\nare, and have been. What a waste of brain-power it is, that a man of your\ncapacity to help, and to enlighten, not only single friends, but the world\nat large, is compelled to sit in such a comparatively remote corner of the\nworld, restricted in his influence, instead of exercising the full power\nof his ripest years. How much you could do, and how much you are doing, in-\nspite of all the obstacles, as I know. I always marvel at the tireless en-\nergy with which you tackle all the new phases of your life. You are quite\nright: one day we will be weighted, according to what we have done during\nthese years, and you at least will not be found too light, that I am sure\nof.\nThis is not intended to be a birthday's sermon, as certainly some you will\nreceive at that date. But I must say some personal words, and I know that\nI am not the only one to feel like that. Always if one meets people, and\nyour name is mentioned, there is a certain warm response, a certain kind\nremembrance, not at all connected with the name of other writers or authors\nof our time. You have been able to build up a fame of a very peculiar kind,\nand I know no other instance of that sort. There is always something more\nthan only the remembrance of your books, although they are the fundament\nof your reputation; there is always the feeling of the man behind the\nbooks. And while generally it is far better n o t to know the author, and\nto become very much disappointed, in your case it is the reverse. And with\ndue respect to your great work, I might even say, that you as a personality\nare greater than most the books you have written. It is because of this\nspecial, and very rare gift of yours, that I am waiting with impatience for\nyour memoirs. And so do many people all over the world, still many people,\nalthough the realm of true authorship has shrunk terribly during these\nlast few years.\nI always remember how my father used to read to us children Verhaeren's\npoems in your translations. He used to read aloud, a very good custom that\nunfortunately now almost entirely has faded out; Ariosto, Homer, and modern\npoets too, and Verhaeren for some time was his - and our - favorite among\nthese modern poets. That was the first time I heard your name, and I still\nkeep those old Verhaeren books in their neat brown bindings. How remote\nthese times seem now, with their worship of the machine-age, and their joy\nto live in a kind of new renaissance! We feel now, hearing those machines\nover our heads, more like Samuel Butler and the Erewhonians about them.\nThen I must think back to the days where we met in Leipzig, at the Handel\nfestival, together with Romain Holland, and in Salzburg, and in Bath; and\nevery meeting with you was a kind of present and gave me something. Be sure\nthat I at least will not forget that. You certainly have had some disapp-\nointments, as everybody is bound to have in this not so very perfect world,\nbut I think they must be outweighed by experiences of the better kind.\nIt was very kind of Mrs. Altmann to invite me to Bath for some weeks, and\nI will greatly enjoy the comfort of The Rosemount, after all these weeks of\ndreadful discomfort with heating, sweeping, cooking and washing-up. But we\nwill terribly miss you. And we all hope for the day where we can sit again\nthere in the garden or in your library with you.\nAlways with my very best wishes to you and Mrs. Zweig",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und weist keine nennenswerten Leseschwierigkeiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3697,
+    "total_words": 677,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

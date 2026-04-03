@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1177",
+    "title": "Erwin Rieger an Anna Meingast, SZ-SAM/B18.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1177/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1177/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1177/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Erwin Rieger an Anna Meingast, SZ-SAM/B18.3\n- Signatur: SZ-SAM/B18.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.896751+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wien, I. Plamkengasse 1.\n12. August 1934.\n\nLiebe Frau Meingast,\n\nauf Veranlassung Herrn Dr. Zweigs übersende ich Ihnen beiliegend\ndie ersten Blätter der Maria Stuart. Verzeihen Sie, bitte, die\nunmögliche äußere Form: Als die Arbeit fertig war, habe ich eine\nFlasche Tinte ausgegossen, aber ich will die Absendung der Blätter\nnicht hinauszögern.\n\nHoffentlich geht es Ihnen gut. Mit den herzlichsten Grüßen\nbin ich wie stets Ihr ergebener\n\nErwin Rieger",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'Erwin Rieger' ist handschriftlich in violetter Tinte ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Briefes mit aufgelegter Farb- und Grauskala zur Dokumentation."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen maschinengeschriebenen Brief handelt. Die Unterschrift ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 450,
+    "total_words": 69,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

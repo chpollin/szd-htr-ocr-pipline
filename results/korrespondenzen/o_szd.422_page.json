@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.422",
+    "title": "Walter Behrend an Stefan Zweig, 1929-09-02, SZ-SAM/AK.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.422/IMG.1",
+      "https://gams.uni-graz.at/o:szd.422/IMG.2",
+      "https://gams.uni-graz.at/o:szd.422/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Walter Behrend an Stefan Zweig, 1929-09-02, SZ-SAM/AK.14\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.263669+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kitzbühel Schwarzsee mit dem Wilden Kaiser Tirol.\n2.9.29",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten links, handschriftliches Datum unten rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nWir, Behrend und ich,\ngedenken Ihnen in\neinräumiger[?] Ergebenheit.\nUm\nA.O. R[?]ust\nHerzliche Grüße\nIhr\nW. Behrend",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke und Poststempel vorhanden (nicht transkribiert). Der Text ist teilweise schwer lesbar, insbesondere die Zeilen 6-7."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsaufnahme der Postkarte mit Farbskala und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist teilweise flüchtig und schwer zu entziffern, insbesondere die Abkürzungen und die Zeile 'A.O. R[?]ust'.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 213,
+    "total_words": 31,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

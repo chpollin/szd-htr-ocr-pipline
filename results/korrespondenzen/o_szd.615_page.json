@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.615",
+    "title": "Minya Diez-Dührkoop an Stefan Zweig, 1914-07-30, SZ-SAM/AK.47",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.615/IMG.1",
+      "https://gams.uni-graz.at/o:szd.615/IMG.2",
+      "https://gams.uni-graz.at/o:szd.615/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Minya Diez-Dührkoop an Stefan Zweig, 1914-07-30, SZ-SAM/AK.47\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:20.878613+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "30. VII 14\n\nRiffelalp et le Mont-Cervin",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliches Datum oben, gedruckter Text unten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sehr geehrter Herr Dr. Zweig,\nhoch aus den Alpen, vom Matter-\nhorn kommen heute meine Grüße\nzu Ihnen. Wessen Gedanken\nschweifen heute nicht zum\nÖsterreichischen Land aber\nauch ohne diesen traurigen\nBeweggrund – vielleicht ist er\nfür die Augen etwas schön – ich\nnehme es an, hätte ich Ihnen\nm. Grüße enthalten. Wo ich\nSchönheit empfinde & genieße muß\nich Ihrer gedenken das hat nun mal\n~~der~~ {die} ~~Schönheit~~ {Natur} nun angetan.\nErgebene Grüße Else M. Diez-Dührkoop\n\nOesterreich\nHerrn\nDr. Stefan Zweig\nWien VIII\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke oben rechts mit Poststempel 'RIFFELALP 30 VII 14'. Der Text ist teilweise überlagert durch die Adressierung."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Die Ansichtskarte ist in der Mitte platziert, entspricht inhaltlich Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der Überlagerung von Nachricht und Adresse auf der Rückseite der Postkarte.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 567,
+    "total_words": 93,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

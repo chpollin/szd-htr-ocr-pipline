@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1734",
+    "title": "Postkarte an Hugo Wolf vom 14. Februar 1919, SZ-SAM/B9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1734/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1734/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1734/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Hugo Wolf vom 14. Februar 1919, SZ-SAM/B9\n- Signatur: SZ-SAM/B9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.725266+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr Hugo Wolf\nbei Stefan Zweig\n\nWien (Österreich)\nVIII. Kochgasse 8",
+      "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarke oben rechts, Poststempel 'SCHLIEREN 14.2.19-6' teilweise über der Marke."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Freund, ich habe einen so ganz con-\nfaden Kopf, dass ich diesmal den Zins zu\nzahlen vergas, mein Bruder hat das inzwi-\nschen schon besorgt. Ich komme vermutlich\nEnde März, Anfang April zurück, werde\naber ruhig doch dort dann noch gelegentlich\naufhalten, denn ich werde bei meinen Eltern\nwohnen und vermutlich auch gar nicht lan-\nge in dieser etwas kostspieligen Stadt verblei-\nben. Ich sehne mich nach Ruhe und Ordnung,\nhier hatte man immer das Hôtelgefühl und vor\nallem das leidig Provisorische. Immerhin hab\nich einiges gearbeitet, wenn auch ohne rechten Elan.\nIch freue mich auf Dich bald zu sehen und blei-\nbe mit vielen Grüßen Dein\n\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Die Nachrichtenseite der Postkarte ist in der Mitte abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 723,
+    "total_words": 121,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

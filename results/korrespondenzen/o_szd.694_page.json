@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.694",
+    "title": "Brief an Stefan Zweig vom 11. Oktober 1937, SZ-AAP/B1.105",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.694/IMG.1",
+      "https://gams.uni-graz.at/o:szd.694/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 11. Oktober 1937, SZ-AAP/B1.105\n- Signatur: SZ-AAP/B1.105\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:24.790841+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\n\nRef. \nIhr Schreiben vom 7.Oktober 1937\n\n11.Oktober 1937 /F\n\nSehr verehrter Herr Doktor:\n\nWir danken bestens für Ihr obiges Schreiben.\nMagellan-Umschlag: Ihr Wunsch wird berücksichtigt,indem wir unter-\nhalb des Bildnisses noch eine Zeile \"Die Geschichte der ersten Erd-\numseglung\" oder so ähnlich anbringen.\nMagellan-Bilder: Die Bilder sind bereits in Arbeit.Sie werden Ende\ndes Monats ausgedruckte Bogen in Händen haben.\n\"Leuchter\"-Lederbände: Wir haben Ihnen 5 Exemplare geschickt und wer-\nden uns freuen,von Ihnen zu hören,wie sie Ihnen gefallen.\nMozart-Werkverzeichnis: Die Oxford University Press hat uns depeschiert,\ndass wir noch das Eintreffen eines gleichzeitigen Briefes abwarten\nmüssten.Hoffentlich kommt er bald an,damit Jaffé ungehindert fortar-\nbeiten kann.\nFür heute ergibt sich nichts Neues.Wir begrüssen Sie als\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (violette Tinte, unleserlich, vermutlich ein Kürzel). Der Text ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die einzige handschriftliche Komponente ist die Unterschrift, die als Kürzel erkennbar, aber nicht eindeutig lesbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 994,
+    "total_words": 133,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.484",
+    "title": "Bernhard Trinius an Stefan Zweig, 1929-05-23, SZ-SAM/AK.197",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.484/IMG.1",
+      "https://gams.uni-graz.at/o:szd.484/IMG.2",
+      "https://gams.uni-graz.at/o:szd.484/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Bernhard Trinius an Stefan Zweig, 1929-05-23, SZ-SAM/AK.197\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.197\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.566919+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung des Gardasees bei Torbole. Kein handschriftlicher Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Torbole, Lago di Garda 23/V.29\nLieber verehrter Herr Doktor!\nIch erlaube mir, Ihnen vom\nunvergleichlichen Gardasee die\nherzlichsten Grüße zu senden.\nDie Färbung des Sees ist von\nAzurblau, violett und Smaragd\nzauberhaft gemischt, kein Maler\nkönnte es treffen. Die Kante ist nur\nknappe 15 Torbole klimatisch\nauch sehr günstig, die Wärme wirkt\ntäglich wohltuend durch die, [?]\n[?] und dieser rhythmische\nWechsel tut mir sehr wohl.\nEs ist nicht leicht, ein Klima\nzu finden. – Dalmatien, Wien usw\nhabe ich lassen müssen, weil es\nzu anstrengend gewesen wäre.\nHerzlich Ihrer gedenkend\nBernhard Trinius\n\nHerrn\nDr. Stefan Zweig\n5 Kapuzinerberg\nSalzburg\nAustria",
+      "notes": "Handschriftliche Postkarte. Der Text am rechten Rand verläuft vertikal. Briefmarken und Poststempel vorhanden. Die Zeile 'knappe 15 Torbole' ist schwer lesbar, möglicherweise 'knappe 15' als Zeitangabe oder Ortsbezeichnung. Die Zeile 'täglich wohltuend durch die, [?]' enthält ein unleserliches Wort."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan der Postkarte mit Farbskala und Grauskala zur Archivierung. Kein zusätzlicher Text."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber an einigen Stellen (insbesondere bei den vertikalen Randnotizen und einigen Wörtern im Mittelteil) schwer zu entziffern. Die Lesung '15' bei 'knappe 15 Torbole' ist unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 651,
+    "total_words": 101,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1218",
+    "title": "Brief an Anna Meingast vom 22. November 1934, SZ-SAM/B7.48",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1218/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1218/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 22. November 1934, SZ-SAM/B7.48\n- Signatur: SZ-SAM/B7.48\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.705789+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place                                London, den 22. November 1934.\n\n\nLiebe Frau Meingast!\n\n          Vielen Dank. Wichtig ist jetzt, dass zunächst VI-X, wo-\nmöglich endgültig fertiggestellt wird, solange meine Frau da ist,\ndie die französischen und englischen Texte durchsehen kann und\nallfällige Irrtümer berichtigen. Die anderen Kapite{l}haben ja eher\nZeit und Sie werden ja immer erfahren, wo ich mich aufhalte. In\nden nächsten Tagen kommen noch XIX und XX und dann ist ja hoffent-\nlich nicht mehr sehr viel zu tun. Ich glaube doch, dass es leicht\ngelingen wird, bis 1. Januar fix und fertig zu sein.\n\n          Mit den besten Grüssen Ihr\n\n                                        Stefan Zweig",
+      "notes": "Das Wort 'Kapitel' wurde durch ein eingefügtes 'l' korrigiert. Die Unterschrift ist handschriftlich in violetter Tinte ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 708,
+    "total_words": 101,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

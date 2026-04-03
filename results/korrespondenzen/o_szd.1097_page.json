@@ -1,0 +1,78 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1097",
+    "title": "Postkarte an Max Fleischer vom 20. Juni 1902, SZ-LAS/B3.19",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1097/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1097/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1097/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 20. Juni 1902, SZ-LAS/B3.19\n- Signatur: SZ-LAS/B3.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.872010+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer\nKohlstasse[?]",
+      "notes": "Adressseite der Postkarte. Der Stempel ist teilweise unleserlich, zeigt aber 'KOMOTAU' und das Datum '21.6.02'. Die Briefmarke ist ein 5-Pfennig-Wert des Deutschen Reiches, gestempelt 'BERLIN 20.6.02'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Max, zunächst nur die\ndringende Bitte um die zwei An-\nfangszeilen zum „Colloque sentimental“\nBeides dafür gebe ich Montag zur Uni-\nversität. Herzliche Grüße Dein\nStefan",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Postkarte\nAn meinen lieben Max Fleischer\nin Komotau in Böhmen\nVilla Fleischer\nKohlstasse[?]",
+      "notes": "Dies ist eine Wiederholung der Adressseite (Scan 1) im Kontext der Farb- und Grauskala-Referenzkarten."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich das letzte Wort der Adresse ('Kohlstasse' oder 'Kohlstraße') ist aufgrund der Handschrift leicht unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 357,
+    "total_words": 53,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.99,
+    "edited_pages": [
+      2
+    ],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
+  }
+}

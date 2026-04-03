@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1746",
+    "title": "Brief an Stefan Zweig vom 4. Oktober 1937, SZ-AAP/B1.100",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1746/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1746/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 4. Oktober 1937, SZ-AAP/B1.100\n- Signatur: SZ-AAP/B1.100\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:59.515154+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49, Hallam Street\nLondon, W.1\nENGLAND\n\nRef.\nHarvey Allen\n4.Oktober 1937 /F\n--------------------\nIhr Schreiben vom 1.Oktober 1937\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für die Mitteilung, die Ihnen Herr Salzer gemacht\nhat. Wir möchten uns mit Allen direkt ins Einvernehmen setzen, da der\nWeg über Wegner oder Curtis Brown in diesem Falle ganz gewiss nicht\nzu dem angestrebten Ziele führt. Die beiden Agenten müssen doch jetzt\ndaran interessiert sein, das nächste Buch ebenfalls an Engelhorn zu\nvergeben, weil sie sonst nicht einmal das Geld für den \"Anthony Adverse\"\nherausbekommen. Denn nur unter dem Drucke, ein neues Buch zu bekommen,\nwird Engelhorn bezahlen wollen, bzw. die Zahlungsbewilligung erhalten.\n\nHaben wir hingegen die Möglichkeit, uns mit Harvey Allen direkt zu\nverständigen, so kommen wir sicher rascher ans Ziel. Vielleicht kann\nalso Herr Salzer in diesem Sinne vermitteln.\n\nWir hoffen, recht bald Ihre liebenswürdige Antwort zu erhalten, und\nsind im voraus bestens dankend und Sie begrüssend\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, unleserlich, vermutlich ein Kürzel oder Name des Verlagsvertreters). Die roten Unterstreichungen im Text sind handschriftlich hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftliche Unterschrift ist nicht entzifferbar, was jedoch für die diplomatische Transkription des Inhalts zweitrangig ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1444,
+    "total_words": 211,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

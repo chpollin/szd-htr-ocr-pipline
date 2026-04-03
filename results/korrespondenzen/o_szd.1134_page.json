@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1134",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.12",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1134/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1134/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.12\n- Signatur: SZ-SAM/B10.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.107940+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 26.Oktober 1937.\n\nLiebe Frau Meingast!\n\nHerr Dr. Zweig lässt Sie bitten,\nsofort festzustellen, ob Sie noch einen Vertrag mit\nE.P.Tal oder Carl Seelig über \"Fahrten\" in Salzburg\nhaben. Da Sie nach einer früher einmal gesandten\nListe auch bei dem letzten Mal nicht alle Verträge\neingesandt haben wie z.B. Kiepenheuer, Reuter usw.,\nso wäre es möglich, dass Sie auch den Vertrag mit\nTal oder Seelig (den zweiten ergänzenden Vertrag mit\nTal haben wir hier) noch in Salzburg haben. Wenn\nSie ihn finden, so senden Sie ihn bitte umgehend per\nLuftpost hierher, da Frau Tal Einspruch gegen den\nAbdruck von \"Fahrten\" in dem neuen Band \"Begegnungen\"\nerhoben hat und Herr Dr. Zweig ihr womöglich dokumen-\ntarisch beweisen will, dass sie hierzu nicht berech-\ntigt ist.\n\nMit den besten Grüssen\nLAltmann",
+      "notes": "Der Brief ist maschinengeschrieben, die Unterschrift 'LAltmann' ist handschriftlich in blauer Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "A",
+      "notes": "Rückseite des Briefes, leer bis auf ein handschriftliches 'A' in der oberen linken Ecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die Unterschrift ist eindeutig als 'LAltmann' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 800,
+    "total_words": 131,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

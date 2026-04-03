@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.798",
+    "title": "Brief an Stefan Zweig vom 12. Januar 1937, SZ-AAP/B1.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.798/IMG.1",
+      "https://gams.uni-graz.at/o:szd.798/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. Januar 1937, SZ-AAP/B1.2\n- Signatur: SZ-AAP/B1.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:32.761078+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "INSEL-VERLAG\nRUF: SAMMELNR. 71841 · LEIPZIG C 1 · KURZE STRASSE NR. 7\n\nDEN 12. Jan. 19 37.\n\nHerrn Dr. Stefan Z w e i g,\n\nL o n d o n W. 1.\n-------------------\n49, Hallam Street.\n\nSehr geehrter Herr Doktor!\n\nWir haben mit der Devisenstelle der Reichsschrifttumskammer wegen\nUeberweisung des Ihnen noch zustehenden Honorars verhandelt. Eine di-\nrekte Ueberweisung des Betrages ist mit Rücksicht auf die Devisenlage\nund die zurzeit mit Oesterreich schwebenden Verhandlungen nicht mög-\nlich. Es wurde uns jedoch in Aussicht gestellt, die Ueberweisung auf\nein Sperrmark-Konto bei einer deutschen Devisenbank zu befürworten.\nTeilen Sie uns doch bitte mit, ob Sie damit einverstanden wären.\n\nMit vorzüglicher Hochachtung\nDer Insel-Verlag.\nppa. [Unterschrift]",
+      "notes": "Typoskript auf Geschäftspapier des Insel-Verlags. Die Unterschrift ist handschriftlich (Tinte). Der Name des Unterzeichners ist schwer lesbar, vermutlich 'Köhn' oder ähnlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die einzige Unsicherheit betrifft die handschriftliche Unterschrift des Prokuristen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 751,
+    "total_words": 115,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

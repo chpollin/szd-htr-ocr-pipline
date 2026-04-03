@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1870",
+    "title": "Brief an Manfred Altmann vom 14. Februar 1947, SZ-AAP/B1AN.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1870/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1870/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Manfred Altmann vom 14. Februar 1947, SZ-AAP/B1AN.4\n- Signatur: SZ-AAP/B1AN.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.148755+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Copy Brief Dr.David Zürich 14.2.47.(Antwort auf Anfrage betr. Verein-\nsortiment Olten Zürich.\n\nSehr geehrter Herr Doktor Altmann,\nich hatte Gelegenheit,auf dem Gericht die Akten betr.die\nDeposition der Provision des Vereinssortimentes betr.die Werke von\nHerrn Stefan Zweig zu prüfen.\nAm 25.Oktober deponierte das Vereinssortiment Fr.17.004.23 auf dem\nBezirksgerichtskasse in Zürich.Die Deposition erfolgte deswegen,weil\nsowohl der unter kommissarischer Verwaltung stehende Verlag H.Reichner\nin Wien,wie der damals in der Schweiz lebende Herr H.Reichner per-\nsönlich,die Auszahlung des Geldes vom Vereinsortiment verlangte.Gleich-\nzeitig schrieb das Vereinssortiment an das Gericht,dass es noch einen\nBetrag von Fr.800.-für Kosten zurückhalte und dass der Bücherbestand\nnoch Fr.7340.-betrage.\nDer nachfolgende Streit um die 17.004.23 endigte aus formellen Grün-\nden damit,dass das Geld an H.Reichner persönlich in Zürich kam.\nAusgehändigt wurde ihm der Betrag aber nicht.Denn in der Zwischenzeit\nhatte eine Grossbuchbinderei J.StroblAG.in Wien,die in Zürich eine\nFiliale unterhielt,die Beschlagnahme dieses Betrages für ein Guthaben\nvon Fr.18.274.-erwirkt.Die Grossbuchbinderei J.Strobl AG.erhielt\ndann die Summe von Fr.17.004.23 à conto ihres Guthabens von 18.274.-\nFr.Damit steht fest,dass aus dem Ertrag der Bücher faktisch Schulden\ndes H.Reichner bezahlt worden sind.\nNicht feststellen konnte ich,was mit dem Betrag von Fr.800.- geschehen\nist,den das Vereinssortiment zurückhielt,und wohin der Gegenwert des\nBücherbestandes von Fr.7340.-floss.Soll ich hierüber beim Vereins-\nsortiment vielleicht Erkundigungen einziehen?\nsig.Dr.H.David\n\nBrief des Schweizerischen Vereinsortiment Olten an Dr.David Zürich\nSeptember 1947.\n\nBetrißßßßßlag Herbert Reichner Wien\n\nAuf Ihre Anfrage vom 9.ds.Monats teilen wir Ihnen mit,dass wir bis\nzum Januar 1938 ein Kommissionslager vom Verlag Herbert Reichner in\nWien unterhalten haben,in dem sich unter anderm auch die Bücher von\nStefan Zweig befanden.Dieses Kommissionslager setzte sich also nicht\nausschliesslich aus Werken von Stefan Zweig zusammen.Nach Bezahlun g\neines Betrages von rund Fr.17.000.-an das Bezirksgericht,Zürich blieb\nnoch ein Saldo von Fr.7.340.-offen.Ueber diesen Betrag wurde wie folgt\nverfügt:\nFr.3.237.35 Arrest des Betreibungsamtes Olten(vermutlich zur\nDeckung von Anwaltspesen)\nFr.222.35 Remittemden defekter Exemplare.\nNach Vornahmahme dieser Bezahlungen weist das Konto Herbert Reichner,\ndessen Adresse in U.S.A.uns nicht bekannt ist ein Saldo von\nFr.3.881.10.auf über das bis heute noch nicht verfügt ist.\nsgnSchweizerisches Vereinssortiment.\n\nBrief des Dr.David Zürich an Dr.Altmann 18.Sep.47.\nSehr geehrter Herr Doktor,\nVom Schweizerischen Vereinssortiment Olten\nerhalte ich das in Abschrift beigefügte Schreiben.Falls das Vereinsor-\ntiment den Saldo von Fr.3.881.40 nicht gutwillig ausbezahlt,kann das\nVereinssortiment nicht gezwungen werden,die Zahlung an Sie zu leisten.\nAuch ein Arrest ist nicht möglich,das Sie nicht in der Schweiz wohnen.\nUm allenfalls eine Zahlung des Schweiz.Vereinsortime nts zu erhalten müs\nste ich genauen Aufschluss über die Höhe und den Grund Ihrer Forderung\nerhalten.\nsign.Dr.David",
+      "notes": "Typoskript. Das Dokument enthält eine Zusammenfassung von Korrespondenz. Die Zeile 'Betrißßßßßlag' enthält Tippfehler/Zeichenfehler."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen Tippfehler im Original (z.B. 'Betrißßßßßlag') wurden originalgetreu übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3178,
+    "total_words": 409,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

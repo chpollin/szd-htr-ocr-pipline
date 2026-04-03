@@ -1,0 +1,77 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.192",
+    "title": "Bescheid über die Judenvermögensabgabe",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AP2/L-S7.8",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.192/IMG.1",
+      "https://gams.uni-graz.at/o:szd.192/IMG.2"
+    ],
+    "date": "20.02.1939",
+    "document_type": "form",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "origin_place": "Berlin",
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs 2002"
+      ]
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Bescheid über die Judenvermögensabgabe\n- Signatur: SZ-AP2/L-S7.8\n- Datum: 20.02.1939\n- Sprache: Deutsch\n- Objekttyp: Bescheid\n- Umfang: 2 Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.953858+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Finanzamt Moabit-West\nAbt. für beschränkt Steuerpflichtige\nBerlin NW 7, Luisenstr. 33/34\nSteuernummer 934/5033\n\nBerlin- N.W. 7, 20.2.39 1938\n\nDas Finanzamt (Finanzkasse) hat folgende Konten:\na) Postscheckkonto Berlin Nr. 15045\nb) Reichsbankgirokonto\nEinzahlungen auf dieses Konto nehmen alle Reichsbankanstalten\nkostenfrei an\n\nPublikumsverkehr bei der Finanzkasse wöchentlich von 9 bis 13 Uhr;\nam letzten Werktage im Monat ist die Finanzkasse ganz und an den\nSonnabenden von 12.30 Uhr ab geschlossen.\n\nHausanschluß: 42 00 13\nZimmer Nr. 335\nFördert den unbaren Zahlungsverkehr, er\nerspart längeres Warten in der Finanzkasse!\nBei persönlichen Einzahlungen empfiehlt\nes sich, diesen Bescheid vorzulegen.\nDie Namen und Unterschriftsproben der zur Quittungs-\nerteilung berechtigten Beamten sind im Kassenraum\nangeschlagen.\n\nBescheid über die Judenvermögensabgabe\n\nAuf Grund der Durchführungsverordnung über die Sühneleistung der Juden vom 21. November 1938\n(Reichsgesetzbl. I S. 1638) wird die von Ihnen zu entrichtende Abgabe festgesetzt auf\n48.600 RM\n\nDie Abgabe beträgt 20 vom Hundert des von Ihnen auf Grund der Verordnung über die An-\nmeldung des Vermögens von Juden vom 26. April 1938 (Reichsgesetzbl. I S. 414) angemeldeten\nVermögens (unter Berücksichtigung angezeigter Veränderungen).\n\nDie Abgabe ist zu entrichten in vier Teilbeträgen von je\n12.150 RM\n\nDer erste Teilbetrag ist bis zum 15. Dezember 1938,\ndie weiteren Teilbeträge sind bis zum 15. Februar,\n15. Mai und\n15. August 1939\nunter Bezeichnung als Judenvermögensabgabe und unter Angabe der oben ver-\nmerkten St.-Nr. zu leisten.\nEine Stundung ist grundsätzlich nicht zulässig.\n\nWird eine Zahlung nicht rechtzeitig entrichtet, so ist mit Ablauf des Fälligkeitstags ein Säumnis-\nzuschlag in Höhe von zwei vom Hundert des rückständigen Betrags verwirkt. Nach Ablauf der\nZahlungsfrist werden rückständige Beträge ohne vorhergehende Mahnung eingezogen und erforder-\nlichenfalls beigetrieben. Die Zwangsvollstreckungskosten fallen dem Zahlungspflichtigen zur Last.\n\nHerren Dr. Stefan Zweig\nFrau\nin",
+      "notes": "Stempelabdruck (Reichsadler mit Hakenkreuz) unten rechts vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Finanzamt Moabit-West\nAbt. für beschränkt Steuerpflichtige\nBerlin NW 7, Luisenstr. 33/34\n\nFrei durch Ablösung Reich\n\nHerren Dr. Stefan Zweig\n934/5033 London W 1 / England\n49 Hallam Street",
+      "notes": "Stempelabdruck (Reichsadler mit Hakenkreuz) in der Mitte vorhanden."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinenschriftlich und sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2239,
+    "total_words": 312,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

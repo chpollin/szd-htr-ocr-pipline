@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.844",
+    "title": "Brief an Stefan Zweig vom 11. Juni 1937, SZ-AAP/B1.60",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.844/IMG.1",
+      "https://gams.uni-graz.at/o:szd.844/IMG.2",
+      "https://gams.uni-graz.at/o:szd.844/IMG.3",
+      "https://gams.uni-graz.at/o:szd.844/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 11. Juni 1937, SZ-AAP/B1.60\n- Signatur: SZ-AAP/B1.60\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:36.874983+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\nMagellan\nBegegnungen\nRoman\n\n11.Juni 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nDie Papierbeschaffung in Mitteleuropa spitzt sich immer mehr zu.Wir\nhaben geradezu phantastische Schwierigkeiten,um überhaupt Papier zu\nbekommen.Sie werden es gar nicht glauben,dass in Deutschland über-\nhaupt nichts mehr aufzutreiben ist,ausser was noch die Verleger lagernd\nhaben,und dass die österreichischen und tschechischen Papierfabriken\nLieferzeiten von 6 Monaten verlangen.Die deutschen Fabriken lehnen\nes überhaupt ab,ausländische Aufträge zu übernehmen.\nWir haben infolgedessen für unsere kommenden Bücher englische Papiere\nbestellt und teilweise erhalten und müssen,um heute noch im Bereich\ndes Unmöglichen scheinende Schwierigkeiten zu ersparen,auch für Ihre\nBücher schon jetzt das Papier bestellen.\nWir werden Ihre kommenden Bücher in dem einheitlichen Format der\n\"Baumeister\",\"Kette\",\"Kaleidoskop\" usw. herstellen,jedoch schon jetzt\nIhrem Wunsche entsprechend auf ein stärkeres Papier übergehen,nämlich\ndas englische [?]parto-Papier,das ja in seiner Qualität ganz vorzüglich\nist.\nDie \"Begegnungen\" werden dann wenigstens so stark wie die \"Baumeister\"\nausfallen,der \"Magellan\",dessen Umfang Herr Fuchs auf etwa 350 Seiten\nschätzt,wird dann nahezu die Stärke der \"Maria Stuart\" haben.\nWir bitten Sie,falls Sie gegen diese starken Bände etwas einzuwenden",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Zeilenenden sind teilweise durch Unterstreichungen markiert. Das Wort 'Sparto-Papier' ist am Anfang leicht unklar, daher [?]."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\n\nRef.\n\nhaben sollten,dies noch telegraphisch zu tun.Denn unser englischer\nPapierlieferant bleibt uns mit den Preisen nicht mehr im Wort,wenn\nwir nicht sofort bestellen.\nWir hoffen aber,dass wir ganz in Ihren Intentionen handeln,wenn wir\nnun die stärkeren Papiere verwenden,und sind für Ihr Einverständnis\ndankend und Sie begrüssend\n\nIhre sehr ergebenen\n[Unterschrift]",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich, aber unleserlich."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen unsicheren Stellen betreffen lediglich die handschriftliche Unterschrift und ein Wort, das durch den Druck leicht überlagert ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1948,
+    "total_words": 249,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

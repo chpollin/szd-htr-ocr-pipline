@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.392",
+    "title": "Božo Lovrić an Stefan Zweig, 1934-05-14, SZ-SAM/AK.112",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.392/IMG.1",
+      "https://gams.uni-graz.at/o:szd.392/IMG.2",
+      "https://gams.uni-graz.at/o:szd.392/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Božo Lovrić an Stefan Zweig, 1934-05-14, SZ-SAM/AK.112\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.112\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.338757+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Prag 14. V. 34\n\nKAMENNÁ KAŠNA Z R. 1497. VLEVO U SPOŘITELNY KOSTEL SV. JANA NEP. Z R. 1750 OD KAŇKY.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text am unteren Rand, handschriftliches Datum oben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "P. T. H. D. Stefan Zweig,\nSchriftsteller\nSalzburg\n(Österreich)\n\nSehr geehrter lieber Meister; ich\nwerde Ihnen sehr dankbar sein,\nwenn Sie die Güthe hätten mein\nDrama \"Kapitän Niko\" durchzulesen.\nDarf ich hoffen auf Ihre werthe\nAntwort?\nMit Hochachtung und\n14/V herzl. Grüßen\n934 Ihr ganz ergebener\nBožo Lovrić\nVršovice, Palackého 2 Prag XIII\nTschechoslowakei",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "P. T. H. D. Stefan Zweig,\nSchriftsteller\nSalzburg\n(Österreich)\n\nSehr geehrter lieber Meister; ich\nwerde Ihnen sehr dankbar sein,\nwenn Sie die Güthe hätten mein\nDrama \"Kapitän Niko\" durchzulesen.\nDarf ich hoffen auf Ihre werthe\nAntwort?\nMit Hochachtung und\n14/V herzl. Grüßen\n934 Ihr ganz ergebener\nBožo Lovrić\nVršovice, Palackého 2 Prag XIII\nTschechoslowakei",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 816,
+    "total_words": 129,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

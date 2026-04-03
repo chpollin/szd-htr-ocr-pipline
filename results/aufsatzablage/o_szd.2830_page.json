@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2830",
+    "title": "Aufsätze R",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA-R",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2830/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2830/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2830/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Register"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Aufsätze R\n- Signatur: SZ-AAP/W-AA-R\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:10.196171+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufsätze\n--------\n\nRathenau, Walter\nReisen oder Gereist-Werd[?]en ✓\nRevolte gegen die Langsamkeit ✓\nRilke ✓\nRimbaud ✓\nRolland ✓\nRomane, Zwei historische ✓\nRosegger ✓\nRoth, Joseph ✓\nRousseau ✓\nRückkehr zum Märchen ✓\nRamuz, Pour (Zum 60.Geburtstag) ✓\nRadio Adress : to the American Schoolchildren ✓",
+      "notes": "Typoskript mit handschriftlichen Haken (✓) und einer handschriftlichen Ergänzung in der letzten Zeile. Oben rechts ein handschriftliches Monogramm/Kürzel in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Aufsätze\n--------\n\nRathenau, Walter\nReisen oder Gereist-Werd[?]en ✓\nRevolte gegen die Langsamkeit ✓\nRilke ✓\nRimbaud ✓\nRolland ✓\nRomane, Zwei historische ✓\nRosegger ✓\nRoth, Joseph ✓\nRousseau ✓\nRückkehr zum Märchen ✓\nRamuz, Pour (Zum 60.Geburtstag) ✓\nRadio Adress : to the American Schoolchildren ✓",
+      "notes": "Identisch mit Seite 1, jedoch mit angefügter Farb- und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die einzige Unsicherheit besteht bei dem Wort 'Werd[?]en', da das 'e' durch den Haken leicht überdeckt ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 592,
+    "total_words": 94,
+    "language_detected": "",
+    "language_match": true
+  }
+}

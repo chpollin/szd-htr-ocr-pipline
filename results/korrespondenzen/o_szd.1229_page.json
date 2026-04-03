@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1229",
+    "title": "Postkarte an Anna Meingast vom 23. Januar 1931, SZ-SAM/B7.9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1229/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1229/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 23. Januar 1931, SZ-SAM/B7.9\n- Signatur: SZ-SAM/B7.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.661363+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "helfen war. Richtig ist ein glücklicherweise gar nichts als bald eine\nangenehme Stelle im Süden zu finden, wo ich ruhig arbeiten kann.\nviele Grüsse an alle.\nStefan Zweig\n12 - DEYÁ (Mallorca). Vista general del Pueblo",
+      "notes": "Die handschriftliche Nachricht auf der Bildseite der Postkarte ist teilweise über den gedruckten Text geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "23.1.31\nLiebe Frau Meingast, wir sind hier\nnicht geblieben, die Hotels waren überfüllt und wir\nbekam kein Zimmer für die Arbeit. So\nlasse ich alle Post im Stich und\nhabe Auftrag gegeben, alles wieder\nnach Salzburg zurückzusenden; ich\ntelegrafiere Ihnen die nächste Ad-\nresse und bitte Sie dorthin zu\nschreiben, was in der Post von\nSamstag zu Donnerstag, die ich\nmitgehen liess, ungefähr ent\n\nFrau Anna Meingast\nSalzburg / Austria\nLinzerstrasse 16",
+      "notes": "Die handschriftliche Nachricht auf der Adressseite ist in violetter Tinte verfasst. Ein Poststempel 'BARCELONA 23 ENE 31' ist vorhanden. Die Briefmarke ist eine spanische 15-Centimos-Marke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, trotz der teilweise überlagerten Schrift auf der Bildseite.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 662,
+    "total_words": 108,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

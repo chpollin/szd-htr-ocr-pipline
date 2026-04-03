@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.660",
+    "title": "Hugo Hultenberg an Stefan Zweig, 1932-07-06, SZ-SAM/AK.89",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.660/IMG.1",
+      "https://gams.uni-graz.at/o:szd.660/IMG.2",
+      "https://gams.uni-graz.at/o:szd.660/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hugo Hultenberg an Stefan Zweig, 1932-07-06, SZ-SAM/AK.89\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.89\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.887151+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Renar, 6. VII. 32",
+      "notes": "Vorderseite einer Postkarte mit einer Fotografie von Rentieren. Handschriftliche Notiz oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Fjällgården, Åre (Schweden),\nRenar, Jämtland. den 6 juli 1932.\nSehr verehrter Herr Doktor!\nIch danke Ihnen bestens für Ihren\nliebenswürdigen Brief u. die Mitteilung\nüber M.A. — Ich lese in New York\nTimes Book Review eine Besprechung\nIhrer Novelle \"Letters from an Un-\nknown Woman\". Ich weiss nicht\nden deutschen Titel. Darf ich Sie\nbitten, wenn diese Novelle separat\nerschienen ist, durch eine Buch-\nhandlung u. auf meine Kosten mir\ndieselbe zusenden zu lassen?\nVerzeihen Sie mir diese\ndirekte Hinwendung, aber durch\nAnfrage an eine Buchhandlung\nwird die Sache gern verzögert.\nIhr sehr ergebener\nHugo Hultenberg\n\nHerren Dr Stefan Zweig\nKapuzinerberg 5\n\nSalzburg\nÖsterreich",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in blauer Tinte. Briefmarke oben rechts (Sverige 15 öre). Vertikaler Text am linken Rand: 'Foto: Nils Thomasson, Åre, Kopiering förbjuden.' Unten rechts: 'B. No 163'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Fjällgården, Åre (Schweden),\nRenar, Jämtland. den 6 juli 1932.\nSehr verehrter Herr Doktor!\nIch danke Ihnen bestens für Ihren\nliebenswürdigen Brief u. die Mitteilung\nüber M.A. — Ich lese in New York\nTimes Book Review eine Besprechung\nIhrer Novelle \"Letters from an Un-\nknown Woman\". Ich weiss nicht\nden deutschen Titel. Darf ich Sie\nbitten, wenn diese Novelle separat\nerschienen ist, durch eine Buch-\nhandlung u. auf meine Kosten mir\ndieselbe zusenden zu lassen?\nVerzeihen Sie mir diese\ndirekte Hinwendung, aber durch\nAnfrage an eine Buchhandlung\nwird die Sache gern verzögert.\nIhr sehr ergebener\nHugo Hultenberg\n\nHerren Dr Stefan Zweig\nKapuzinerberg 5\n\nSalzburg\nÖsterreich",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 1361,
+    "total_words": 212,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

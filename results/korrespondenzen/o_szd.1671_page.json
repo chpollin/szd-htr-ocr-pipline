@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1671",
+    "title": "Suzanne Clauser an Stefan Zweig, SZ-SAM/AK.38",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1671/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1671/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1671/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Suzanne Clauser an Stefan Zweig, SZ-SAM/AK.38\n- Signatur: SZ-SAM/AK.38\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:54.425211+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SCHLOSS THALHEIM N.-Oe. Schlosssparkpartie bei Neulengbach . 4. Sept.\n1933",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text und handschriftlicher Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Hochverehrter Herr Doktor\nIch stehe Ihnen selbst\nverstän[d]lich mit großer\nFreude für die eventuelle\nÜbersetzung der Verfi- \njang und bin bis 10\nSept hier zu erreichen.\nMit herzlichen Grüßen\nIhre aufrichtige\nSuzanne Clauser\n\nHerrn Dr. Stefan Zweig\nKapuzinerberg 7\nSalzburg",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text und Adressierung. Briefmarke oben rechts (Österreich, Traunsee). Verlagsangabe am linken Rand: 'Verlag Karl Kohl, Thalheim N.-Oe.'"
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Hochverehrter Herr Doktor\nIch stehe Ihnen selbst\nverstän[d]lich mit großer\nFreude für die eventuelle\nÜbersetzung der Verfi- \njang und bin bis 10\nSept hier zu erreichen.\nMit herzlichen Grüßen\nIhre aufrichtige\nSuzanne Clauser\n\nHerrn Dr. Stefan Zweig\nKapuzinerberg 7\nSalzburg",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Das Wort 'verständlich' ist durch den Zeilenumbruch leicht fragmentiert, die Ergänzung im Wort ist sicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 618,
+    "total_words": 90,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

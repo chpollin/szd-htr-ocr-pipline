@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1183",
+    "title": "Brief an Anna Meingast vom 17. Februar 1931, SZ-SAM/B7.13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1183/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1183/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 17. Februar 1931, SZ-SAM/B7.13\n- Signatur: SZ-SAM/B7.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.291477+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "17 Febr 19 31\n\nLiebe Frau Meingast,\nich danke Ihnen herzlich für Ihre verschiedenen Nachrichten. von\ndenen mich und meine Frau natürlich die von der gefundenen Nadel\nam meisten gefreut hat. Mögen Sie sich nun gut von all den Aufregun-\ngen und auch Willi erholen. Von den eingelaufenen Exemplaren, haben Si\nja wohl schon eines an Herrn Fuchs gegeben. Eines haben Sie sich\nbitte selbst genommen, eines bitte ich an Frau Dr. Neuwelt und ein\nnes an Frl Margot Alberts, Hamburg- Altona Reichenstrasse 16 zu\nsenden. Sonst bitte ich im nächsten Brief die Adresse der Viking\nPress zu senden, die uns hier fehlt.- Sollten von Magas Autografen kom-\nmen, bitte sie in Salzb. zu lassen und mir nur die Rechnung hierher zu\nschicken. Die Schecks lassen Sie bitte in der Länderbank auf mein\nConto übertragen. Noch eine andere Auskunft: Bitte sehen Sie\nnach ob der Zwang der einmal teilweise in einer Zeitung franzö-\nsisch erschien für Buchausgabe noch frei ist.\n\nWir fühlen uns hier recht wohl und hoffen, dass zuhause auch\nalles gesund und bald von den Handwerkern befreit ist.\n\nHerzlichen Gruss\n\nStefan Zweig\n\nLiebe Frau Meingast\nfreu mich sehr dass wieder alles gut. Grüssen Sie Willi und\nFrl Marie, der ich bald schreibe jetzt einige Post. Auch Johann. Fr. Zweig",
+      "notes": "Der Text ist maschinengeschrieben, mit handschriftlicher Unterschrift und handschriftlichem Nachtrag am Ende. Das Datum '19 31' ist handschriftlich ergänzt. Der Nachtrag am Ende ist in violetter Tinte geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer (bzw. zeigt nur den Durchdruck des Textes der Vorderseite)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da er weitgehend maschinengeschrieben ist. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1251,
+    "total_words": 211,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

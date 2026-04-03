@@ -1,0 +1,111 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.125",
+    "title": "Vertrag Eugen Relgis",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.48",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.125/IMG.1",
+      "https://gams.uni-graz.at/o:szd.125/IMG.2",
+      "https://gams.uni-graz.at/o:szd.125/IMG.3"
+    ],
+    "date": "25 Juli 39",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Eugen Relgis",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/1057079499"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durschlagpapier, schwarze und violette Tinte, Bleistift",
+        "hands": [
+          "Stefan Zweig",
+          "Lotte Zweig",
+          "Eugen Relgis"
+        ],
+        "dimensions": "23x17 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „unbezahlt März 40“ von Lotte Zweigs Hand in Bleistift, Unterschrift von Eugen Relgis"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag Eugen Relgis\n- Signatur: SZ-AAP/L13.48\n- Datum: 25 Juli 39\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durschlagpapier, schwarze und violette Tinte, Bleistift\n- Hand: Stefan Zweig, Lotte Zweig, Eugen Relgis\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „unbezahlt März 40“ von Lotte Zweigs Hand in Bleistift, Unterschrift von Eugen Relgis"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:43.997851+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     unbezahlt\n                                     März 40\n\nV e r t r a g\n---------------\n\nZwischen Herrn Dr. Stefan Zweig, 49 Hallam Street,\nLondon W.1. und Herrn Eugen Relgis, Strada A. No.24,\nParcul \"Mica\", Bukarest ist nachstehende Vereinbarung\ngertoffen worden:\n\nHerr Dr. Zweig überlässt Herrn Relgis die rumänischen\nBuchrechte für sein Buch\n\n                    Castellio gegen Calvin\n\ngegen eine einmalige Abfindung von\n\n                    £ 35 (fünfunddreissig Pfund Sterling)\n\nDieses Honorar ist bei Vertragsabschluss fällig, und\nder Vertrag tritt erst nach Zahlung dieses Betrages\nin Kraft.\n\nFalls dieses Buch nicht innerhalb von zwei Jahren\nnach Vertragsabschluss erschienen ist oder nach Aus-\nverkauf einer Auflage nicht innerhalb eines halben\nJahres eine neue Auflage in Angriff genommen ist,\nfallen die Rechte an den Verfasser zurück.\n\nBei Erscheinen der rumänischen Ausgabe sind Herrn\nDr. Zweig zwei Belegexemplare zu übersenden.\n\nLondon, den 25 Juli 39.              Bukarest, den 2. August 1939\n\n... Stefan Zweig . . . . . . . . . . . . . Eugen Relgis . . .",
+      "notes": "Das Dokument ist ein Typoskriptdurchschlag. Die handschriftlichen Ergänzungen (Datum, Unterschriften, Notiz oben rechts) wurden gemäß den Vorgaben transkribiert. Die Notiz 'unbezahlt März 40' ist in Bleistift notiert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite mit Farb- und Graukarte zur Kalibrierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz des Durchschlag-Charakters sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1108,
+    "total_words": 159,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

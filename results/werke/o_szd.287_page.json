@@ -1,0 +1,128 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.287",
+    "title": "Der Bildner",
+    "language": "de",
+    "collection": "werke",
+    "shelfmark": "SZ-AP2/W-D29",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.287/IMG.1",
+      "https://gams.uni-graz.at/o:szd.287/IMG.2",
+      "https://gams.uni-graz.at/o:szd.287/IMG.3",
+      "https://gams.uni-graz.at/o:szd.287/IMG.4",
+      "https://gams.uni-graz.at/o:szd.287/IMG.5",
+      "https://gams.uni-graz.at/o:szd.287/IMG.6",
+      "https://gams.uni-graz.at/o:szd.287/IMG.7"
+    ],
+    "document_type": "proof_sheet",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Gedichte"
+      ],
+      "extent": "6 Blatt,\n                                                  korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs\n                                            2002"
+      ],
+      "physical_description": {
+        "hands": [
+          "Lotte Zweig"
+        ]
+      },
+      "notes": "2 Blatt in dreifacher Ausführung, 1 Exemplar\n                                korrigiert"
+    },
+    "additional": {
+      "group": "korrekturfahne",
+      "context": "## Dieses Dokument\n\n- Titel: Der Bildner\n- Signatur: SZ-AP2/W-D29\n- Sprache: Deutsch\n- Objekttyp: Korrekturfahne\n- Umfang: 6 Blatt,\n                                                  korrigiert\n- Hand: Lotte Zweig\n- Anmerkungen: 2 Blatt in dreifacher Ausführung, 1 Exemplar\n                                korrigiert"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:53.667686+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrekturfahne",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "DER BILDNER\nMeudon, Maison Rodin 1913\n\nDER große Meister ist müde und alt. —\nEin weißes wehendes Dickicht umwallt\nSein Bauernbart den zerfurchten Basalt\nDes abgelebten grauen Gesichts.\nUnd wenn er schwer durch die Säle geht,\nDurch die er sein steinernes Werk gesät,\nSo schlurft er so schläfrig und urallein,\nAls schritt er in seinen Tod hinein.\n\nAber weiß,\nEin funkelnder Kreis,\nUmstehn ihn die Statuen und strahlen von Licht!\nDie Augen weitfort von sich aufgetan,\nTräumen sie schweigend ein Ewiges an.\nSie rühren sich nicht, sie regen sich nicht,\nSie spüren sich nicht, sie bewegen sich nicht,\nStumm\nRuhen sie aus in unendlichem Ruhm.\nEin Lächeln verloren im marmornen Mund,\nStehen sie da, die großen Trophäen\nVerschollener Siege, gemeisterter Zeit,\nGefrorne Kristalle Unendlichkeit.\n\nDer Meister umschlurft sie mit langsamem Gang,\nAls schritt er sein ganzes Leben entlang\nMit seligem Schauern, mit zärtlichem Graun\nMuß er sie wieder und wieder anschaun,\nUnd kann's doch nicht fassen, das Unfaßbare,\nDaß sie, die ihm vor schollenen Jahren\nGespielen und Spiel seiner Jugend waren,\nNoch immer dieselben, die strahlenden sind,\nUnd ihre Formen, die kühlen, die klaren,\nNoch rein die Welle des Lebens durchrinnt,\nIndes er selber, der sie gestaltet,\nIn sich zerfaltet, in sich veraltet,\nAn jeder Stunde zu sterben beginnt.\n\nUnd wie er sie so, die strahlenden, sieht,\nFühlt er sich selber uralt und müd.\nEr ahnt, in den klaren, körnigen Quadern\nMüsse tiefinnen\nDas eigene Blut seiner todmatten Adern\nNoch feurig quellen und rotfunkelnd rinnen.\nUnd mit denselben uralten Händen,\nDie das Leben in ihre Leiber getan,\nRührt er jetzt zagend die Statuen an,\nNoch einmal in ihnen, den stummen, den kühlen,\nDas weggelebte Leben zu fühlen:\nWie ein Dürstender beugt er sich über den Stein\nIn den Brunnen verschollener Jahre hinein.\n\nAber fremd\nStehen die Statuen im Totenhemd.\nSie ehren ihn nicht, sie wehren ihm nicht,\nSie atmen nur Schweigen, sie leben nur Licht.\nSie haben vergessen, woher sie kamen,\nDen Fels und das Land und die Zeit und den Namen.\nWortlos gereiht\nStehn sie in ihren weißen Gewändern\nUnberührt von Vergehn und Verändern\nJenseits der Zeit.\nUnd kein Wort von ihrem marmornen Munde\nSpricht mehr zurück zu den Menschen der Stunde.\n\n143 Zweig: Begegnungen.",
+      "notes": "Druckfahne, Textseite 143. Stempel 'RUDOLF M. ROHRER 7. VII. 1937' unten rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Die Uhren, die ihnen zu Häupten gehangen,\nSind weitergegangen,\nStädte erstanden und andre verdarben,\nGesichter fielen aus Formen und Farben,\nGeschlechter erwuchsen, Geschlechter verblühten,\nMenschen wurden zu Masken und Mythen,\nAlles ward in der mitleidlosen\nMühle der Jahre zerstäubt und zerstoßen —\nNur sie in ihren erstarrten Posen\nDürfen im rastlos Wandernden ruhn,\nWeil sie ihr Wesen ewig zu Ende tun.\n\nDer geht — und sein Gehen ist ewiges Gehn —\nDer ruht — und sein Ruhen ist ewige Ruh —\nUnd wie auch die Stunden stürmen und schwingen,\nKeine Stunde nimmt, keine gibt etwas zu,\nDenn jede der stummen Gestalten hält\nIn sich kristallt einen Augenblick Welt,\nDer nie wiederkehrt und niemals zerfällt.\nNiemals werden die weißen, die glatten\nGestalten in ihrem Wesen ermatten,\nEwig werden, die sich umschlingen,\nIm Liebeskampf um Erfüllung ringen,\nEwig wird die Welle der Lichter\nDie Qual der vier Gebeugten umzittern,\nEwig wird mit dem Schreckblick der Dichter\nAus innerer Nacht in die Welt gewittern,\nUnd das Lächeln, das jener Lippe umschwebt,\nIst irdisch verklungen und bleibt doch und lebt,\nIndes sie selber, die wachen Gesichter,\nSich längst zerstäubten aus Formen und Falten\nUnd mit den Stunden verwehten wie Wind. —\nSie aber, die Schatten des Lebens, die kalten\nSteine, sie stehen, sie dauern: sie sind.\n\nDer Meister steht staunend im steinernen Wald,\nVon Schweigen umschart, von Stille umschallt,\nUnd mit einmal begreift er die Urgewalt,\nDie wie große Musik aus den Steinen bricht:\nSendung\nWar ihm gegeben,\nVollendung\nSchafft Leben über dem eigenen Leben,\nGestalteter Stein ist stärker als Zeit!\nUnd selig erkennt er das große Licht\nOb seinen Gestalten: Unsterblichkeit.\n\nDa lächelt der Meister zum erstenmal,\nSeit er stumm vor den Steinen steht.\nVon Licht und Schweigen orgelt der Saal,\nUnd sein Herz braust mit in dem großen Choral.\nWie im Gebet\nHebt er die Hände,\nDie all dies getan,\nUnd sieht sie, die eigenen, ehrfürchtig an,\nEr sieht sie an, die kranken, die kalten,\nMit ihren Schrunden und Schwielen und Falten,\nDie Werkmannshände, in denen vor Jahren\nAll diese aufgereckten Gestalten\nWie zitternde, unflügge Vögel waren,\nUnd die nun, heilig und unnahbar,\nHinglänzen durch die stürzende Stunde\nWie eine niederverlorene Engelschar,\nDie Gott anschweigt mit marmornem Munde.\n\nGroß rauscht es im Saale, still sinken die Hände,\nStumm stehen die Statuen, weiß leuchtet der Stein.\nWie in eine Legende\nGeht der Meister fromm in sein Werk hinein.\n144 Zweig: Begegnungen.",
+      "notes": "Druckfahne, Textseite 144."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "DER BILDNER\nMeudon, Maison Rodin 1913\n\nDER große Meister ist müde und alt. —\nEin weißes wehendes Dickicht umwallt\nSein Bauernbart den zerfurchten Basalt\nDes abgelebten grauen Gesichts.\nUnd wenn er schwer durch die Säle geht,\nDurch die er sein steinernes Werk gesät,\nSo schlurft er so schläfrig und urallein,\nAls schritt er in seinen Tod hinein.\n\nAber weiß,\nEin funkelnder Kreis,\nUmstehn ihn die Statuen und strahlen von Licht!\nDie Augen weitfort von sich aufgetan,\nTräumen sie schweigend ein Ewiges an.\nSie rühren sich nicht, sie regen sich nicht,\nSie spüren sich nicht, sie bewegen sich nicht,\nStumm\nRuhen sie aus in unendlichem Ruhm.\nEin Lächeln verloren im marmornen Mund,\nStehen sie da, die großen Trophäen\nVerschollener Siege, gemeisterter Zeit,\nGefrorne Kristalle Unendlichkeit.\n\nDer Meister umschlurft sie mit langsamem Gang,\nAls schritt er sein ganzes Leben entlang\nMit seligem Schauern, mit zärtlichem Graun\nMuß er sie wieder und wieder anschaun,\nUnd kann's doch nicht fassen, das Unfaßbare,\nDaß sie, die ihm vor schollenen Jahren\nGespielen und Spiel seiner Jugend waren,\nNoch immer dieselben, die strahlenden sind,\nUnd ihre Formen, die kühlen, die klaren,\nNoch rein die Welle des Lebens durchrinnt,\nIndes er selber, der sie gestaltet,\nIn sich zerfaltet, in sich veraltet,\nAn jeder Stunde zu sterben beginnt.\n\nUnd wie er sie so, die strahlenden, sieht,\nFühlt er sich selber uralt und müd.\nEr ahnt, in den klaren, körnigen Quadern\nMüsse tiefinnen\nDas eigene Blut seiner todmatten Adern\nNoch feurig quellen und rotfunkelnd rinnen.\nUnd mit denselben uralten Händen,\nDie das Leben in ihre Leiber getan,\nRührt er jetzt zagend die Statuen an,\nNoch einmal in ihnen, den stummen, den kühlen,\nDas weggelebte Leben zu fühlen:\nWie ein Dürstender beugt er sich über den Stein\nIn den Brunnen verschollener Jahre hinein.\n\nAber fremd\nStehen die Statuen im Totenhemd.\nSie ehren ihn nicht, sie wehren ihm nicht,\nSie atmen nur Schweigen, sie leben nur Licht.\nSie haben vergessen, woher sie kamen,\nDen Fels und das Land und die Zeit und den Namen.\nWortlos gereiht\nStehn sie in ihren weißen Gewändern\nUnberührt von Vergehn und Verändern\nJenseits der Zeit.\nUnd kein Wort von ihrem marmornen Munde\nSpricht mehr zurück zu den Menschen der Stunde.\n\n143 Zweig: Begegnungen.",
+      "notes": "Druckfahne, Textseite 143. Stempel 'RUDOLF M. ROHRER 7. VII. 1937' und handschriftlich 'Korrektur' unten rechts."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Die Uhren, die ihnen zu Häupten gehangen,\nSind weitergegangen,\nStädte erstanden und andre verdarben,\nGesichter fielen aus Formen und Farben,\nGeschlechter erwuchsen, Geschlechter verblühten,\nMenschen wurden zu Masken und Mythen,\nAlles ward in der mitleidlosen\nMühle der Jahre zerstäubt und zerstoßen —\nNur sie in ihren erstarrten Posen\nDürfen im rastlos Wandernden ruhn,\nWeil sie ihr Wesen ewig zu Ende tun.\n\nDer geht — und sein Gehen ist ewiges Gehn —\nDer ruht — und sein Ruhen ist ewige Ruh —\nUnd wie auch die Stunden stürmen und schwingen,\nKeine Stunde nimmt, keine gibt etwas zu,\nDenn jede der stummen Gestalten hält\nIn sich kristallt einen Augenblick Welt,\nDer nie wiederkehrt und niemals zerfällt.\nNiemals werden die weißen, die glatten\nGestalten in ihrem Wesen ermatten,\nEwig werden, die sich umschlingen,\nIm Liebeskampf um Erfüllung ringen,\nEwig wird die Welle der Lichter\nDie Qual der vier Gebeugten umzittern,\nEwig wird mit dem Schreckblick der Dichter\nAus innerer Nacht in die Welt gewittern,\nUnd das Lächeln, das jener Lippe umschwebt,\nIst irdisch verklungen und bleibt doch und lebt,\nIndes sie selber, die wachen Gesichter,\nSich längst zerstäubten aus Formen und Falten\nUnd mit den Stunden verwehten wie Wind. —\nSie aber, die Schatten des Lebens, die kalten\nSteine, sie stehen, sie dauern: sie sind.\n\nDer Meister steht staunend im steinernen Wald,\nVon Schweigen umschart, von Stille umschallt,\nUnd mit einmal begreift er die Urgewalt,\nDie wie große Musik aus den Steinen bricht:\nSendung\nWar ihm gegeben,\nVollendung\nSchafft Leben über dem eigenen Leben,\nGestalteter Stein ist stärker als Zeit!\nUnd selig erkennt er das große Licht\nOb seinen Gestalten: Unsterblichkeit.\n\nDa lächelt der Meister zum erstenmal,\nSeit er stumm vor den Steinen steht.\nVon Licht und Schweigen orgelt der Saal,\nUnd sein Herz braust mit in dem großen Choral.\nWie im Gebet\nHebt er die Hände,\nDie all dies getan,\nUnd sieht sie, die eigenen, ehrfürchtig an,\nEr sieht sie an, die kranken, die kalten,\nMit ihren Schrunden und Schwielen und Falten,\nDie Werkmannshände, in denen vor Jahren\nAll diese aufgereckten Gestalten\nWie zitternde, unflügge Vögel waren,\nUnd die nun, heilig und unnahbar,\nHinglänzen durch die stürzende Stunde\nWie eine niederverlorene Engelschar,\nDie Gott anschweigt mit marmornem Munde.\n\nGroß rauscht es im Saale, still sinken die Hände,\nStumm stehen die Statuen, weiß leuchtet der Stein.\nWie in eine Legende\nGeht der Meister fromm in sein Werk hinein.\n144 Zweig: Begegnungen.",
+      "notes": "Druckfahne, Textseite 144."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "korrigiert\n\nDER BILDNER\nMeudon, Maison {Auguste} Rodin 1913\n\nDER große Meister ist müde und alt. —\nEin weißes wehendes Dickicht umwallt\nSein Bauernbart den zerfurchten Basalt\nDes abgelebten grauen Gesichts.\nUnd wenn er schwer durch die Säle geht,\nDurch die er sein steinernes Werk gesät,\nSo schlurft er so schläfrig und urallein,\nAls schritt er in seinen Tod hinein.\n\nAber weiß,\nEin funkelnder Kreis,\nUmstehn ihn die Statuen und strahlen von Licht!\nDie Augen weitfort von sich aufgetan,\nTräumen sie schweigend ein Ewiges an.\nSie rühren sich nicht, sie regen sich nicht,\nSie spüren sich nicht, sie bewegen sich nicht,\nStumm\nRuhen sie aus in unendlichem Ruhm.\nEin Lächeln verloren im marmornen Mund,\nStehen sie da, die großen Trophäen\nVerschollener Siege, gemeisterter Zeit,\nGefrorne Kristalle Unendlichkeit.\n\nDer Meister umschlurft sie mit langsamem Gang,\nAls schritt er sein ganzes Leben entlang\nMit seligem Schauern, mit zärtlichem Graun\nMuß er sie wieder und wieder anschaun,\nUnd kann's doch nicht fassen, das Unfaßbare,\nDaß sie, die ihm vor schollenen Jahren\nGespielen und Spiel seiner Jugend waren,\nNoch immer dieselben, die strahlenden sind,\nUnd ihre Formen, die kühlen, die klaren,\nNoch rein die Welle des Lebens durchrinnt,\nIndes er selber, der sie gestaltet,\nIn sich zerfaltet, in sich veraltet,\nAn jeder Stunde zu sterben beginnt.\n\nUnd wie er sie so, die strahlenden, sieht,\nFühlt er sich selber uralt und müd.\nEr ahnt, in den klaren, körnigen Quadern\nMüsse tiefinnen\nDas eigene Blut seiner todmatten Adern\nNoch feurig quellen und rotfunkelnd rinnen.\nUnd mit denselben uralten Händen,\nDie das Leben in ihre Leiber getan,\nRührt er jetzt zagend die Statuen an,\nNoch einmal in ihnen, den stummen, den kühlen,\nDas weggelebte Leben zu fühlen:\nWie ein Dürstender beugt er sich über den Stein\nIn den Brunnen verschollener Jahre hinein.\n\nAber fremd\nStehen die Statuen im Totenhemd.\nSie ehren ihn nicht, sie wehren ihm nicht,\nSie atmen nur Schweigen, sie leben nur Licht.\nSie haben vergessen, woher sie kamen,\nDen Fels und das Land und die Zeit und den Namen.\nWortlos gereiht\nStehn sie in ihren weißen Gewändern\nUnberührt von Vergehn und Verändern\nJenseits der Zeit.\nUnd kein Wort von ihrem marmornen Munde\nSpricht mehr zurück zu den Menschen der Stunde.\n\n143 Zweig: Begegnungen.",
+      "notes": "Druckfahne, Textseite 143. Handschriftliche Korrekturen 'korrigiert' oben links und '{Auguste}' oben rechts. Stempel 'RUDOLF M. ROHRER 7. VII. 1937' und 'Korrektur' unten rechts."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Die Uhren, die ihnen zu Häupten gehangen,\nSind weitergegangen,\nStädte erstanden und andre verdarben,\nGesichter fielen aus Formen und Farben,\nGeschlechter erwuchsen, Geschlechter verblühten,\nMenschen wurden zu Masken und Mythen,\nAlles ward in der mitleidlosen\nMühle der Jahre zerstäubt und zerstoßen —\nNur sie in ihren erstarrten Posen\nDürfen im rastlos Wandernden ruhn,\nWeil sie ihr Wesen ewig zu Ende tun.\n\nDer geht — und sein Gehen ist ewiges Gehn —\nDer ruht — und sein Ruhen ist ewige Ruh —\nUnd wie auch die Stunden stürmen und schwingen,\nKeine Stunde nimmt, keine gibt etwas zu,\nDenn jede der stummen Gestalten hält\nIn sich kristallt einen Augenblick Welt,\nDer nie wiederkehrt und niemals zerfällt.\nNiemals werden die weißen, die glatten\nGestalten in ihrem Wesen ermatten,\nEwig werden, die sich umschlingen,\nIm Liebeskampf um Erfüllung ringen,\nEwig wird die Welle der Lichter\nDie Qual der vier Gebeugten umzittern,\nEwig wird mit dem Schreckblick der Dichter\nAus innerer Nacht in die Welt gewittern,\nUnd das Lächeln, das jener Lippe umschwebt,\nIst irdisch verklungen und bleibt doch und lebt,\nIndes sie selber, die wachen Gesichter,\nSich längst zerstäubten aus Formen und Falten\nUnd mit den Stunden verwehten wie Wind. —\nSie aber, die Schatten des Lebens, die kalten\nSteine, sie stehen, sie dauern: sie sind.\n\nDer Meister steht staunend im steinernen Wald,\nVon Schweigen umschart, von Stille umschallt,\nUnd mit einmal begreift er die Urgewalt,\nDie wie große Musik aus den Steinen bricht:\nSendung\nWar ihm gegeben,\nVollendung\nSchafft Leben über dem eigenen Leben,\nGestalteter Stein ist stärker als Zeit!\nUnd selig erkennt er das große Licht\nOb seinen Gestalten: Unsterblichkeit.\n\nDa lächelt der Meister zum erstenmal,\nSeit er stumm vor den Steinen steht.\nVon Licht und Schweigen orgelt der Saal,\nUnd sein Herz braust mit in dem großen Choral.\nWie im Gebet\nHebt er die Hände,\nDie all dies getan,\nUnd sieht sie, die eigenen, ehrfürchtig an,\nEr sieht sie an, die kranken, die kalten,\nMit ihren Schrunden und Schwielen und Falten,\nDie Werkmannshände, in denen vor Jahren\nAll diese aufgereckten Gestalten\nWie zitternde, unflügge Vögel waren,\nUnd die nun, heilig und unnahbar,\nHinglänzen durch die stürzende Stunde\nWie eine niederverlorene Engelschar,\nDie Gott anschweigt mit marmornem Munde.\n\nGroß rauscht es im Saale, still sinken die Hände,\nStumm stehen die Statuen, weiß leuchtet der Stein.\nWie in eine Legende\nGeht der Meister fromm in sein Werk hinein.\n144 Zweig: Begegnungen.",
+      "notes": "Druckfahne, Textseite 144."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "korrigiert\n\nDER BILDNER\nMeudon, Maison {Auguste} Rodin 1913\n\nDER große Meister ist müde und alt. —\nEin weißes wehendes Dickicht umwallt\nSein Bauernbart den zerfurchten Basalt\nDes abgelebten grauen Gesichts.\nUnd wenn er schwer durch die Säle geht,\nDurch die er sein steinernes Werk gesät,\nSo schlurft er so schläfrig und urallein,\nAls schritt er in seinen Tod hinein.\n\nAber weiß,\nEin funkelnder Kreis,\nUmstehn ihn die Statuen und strahlen von Licht!\nDie Augen weitfort von sich aufgetan,\nTräumen sie schweigend ein Ewiges an.\nSie rühren sich nicht, sie regen sich nicht,\nSie spüren sich nicht, sie bewegen sich nicht,\nStumm\nRuhen sie aus in unendlichem Ruhm.\nEin Lächeln verloren im marmornen Mund,\nStehen sie da, die großen Trophäen\nVerschollener Siege, gemeisterter Zeit,\nGefrorne Kristalle Unendlichkeit.\n\nDer Meister umschlurft sie mit langsamem Gang,\nAls schritt er sein ganzes Leben entlang\nMit seligem Schauern, mit zärtlichem Graun\nMuß er sie wieder und wieder anschaun,\nUnd kann's doch nicht fassen, das Unfaßbare,\nDaß sie, die ihm vor schollenen Jahren\nGespielen und Spiel seiner Jugend waren,\nNoch immer dieselben, die strahlenden sind,\nUnd ihre Formen, die kühlen, die klaren,\nNoch rein die Welle des Lebens durchrinnt,\nIndes er selber, der sie gestaltet,\nIn sich zerfaltet, in sich veraltet,\nAn jeder Stunde zu sterben beginnt.\n\nUnd wie er sie so, die strahlenden, sieht,\nFühlt er sich selber uralt und müd.\nEr ahnt, in den klaren, körnigen Quadern\nMüsse tiefinnen\nDas eigene Blut seiner todmatten Adern\nNoch feurig quellen und rotfunkelnd rinnen.\nUnd mit denselben uralten Händen,\nDie das Leben in ihre Leiber getan,\nRührt er jetzt zagend die Statuen an,\nNoch einmal in ihnen, den stummen, den kühlen,\nDas weggelebte Leben zu fühlen:\nWie ein Dürstender beugt er sich über den Stein\nIn den Brunnen verschollener Jahre hinein.\n\nAber fremd\nStehen die Statuen im Totenhemd.\nSie ehren ihn nicht, sie wehren ihm nicht,\nSie atmen nur Schweigen, sie leben nur Licht.\nSie haben vergessen, woher sie kamen,\nDen Fels und das Land und die Zeit und den Namen.\nWortlos gereiht\nStehn sie in ihren weißen Gewändern\nUnberührt von Vergehn und Verändern\nJenseits der Zeit.\nUnd kein Wort von ihrem marmornen Munde\nSpricht mehr zurück zu den Menschen der Stunde.\n\n143 Zweig: Begegnungen.",
+      "notes": "Druckfahne, Textseite 143. Mit Farbskala. Handschriftliche Korrekturen 'korrigiert' oben links und '{Auguste}' oben rechts. Stempel 'RUDOLF M. ROHRER 7. VII. 1937' und 'Korrektur' unten rechts."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klar gedrucktes Typoskript/Druckfahne. Die handschriftlichen Korrekturen sind deutlich lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 16503,
+    "total_words": 2662,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

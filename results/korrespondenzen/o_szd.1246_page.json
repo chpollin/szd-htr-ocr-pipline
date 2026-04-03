@@ -1,0 +1,95 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1246",
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.62",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1246/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1246/IMG.7"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.62\n- Signatur: SZ-LAS/B3.62\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:23.220481+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "F.\n\nLieber Victor,\nhier die Karte. Ich hoffe\ndich dort zu sprechen.\nStefan will Mittwoch\nwegfahren, er ist lieb\nund will mich mitnehmen.\nIch hätte dir allerlei zu\nerzählen. Herzlichst\nEmpfehlungen deiner Frau Mama. Friderike",
+      "notes": "Das 'F.' am Anfang ist vermutlich ein Kürzel für Friderike. Die Handschrift ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Herrn Dr Victor Fleischer\nXIX Billrothstraße\n20",
+      "notes": "Adressseite eines Briefumschlags. Briefmarke 'Kaiserliche Königliche Österreichische Post' mit Stempel 'Wien 15. X. 15'."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "F.\n2121917",
+      "notes": "Rückseite des Briefumschlags. Die Zahl '2121917' könnte ein Archivvermerk oder ein Datum (21. 2. 1917) sein."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Herrn Dr Victor Fleischer\nXIX Billrothstraße\n20",
+      "notes": "Wiederholung der Adressseite mit Farbskala und Grauskala des Archivs."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Struktur des Briefes und des Umschlags ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 328,
+    "total_words": 51,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

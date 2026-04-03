@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1274",
+    "title": "Brief an Anna Meingast, o. D., SZ-SAM/B7.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1274/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1274/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast, o. D., SZ-SAM/B7.3\n- Signatur: SZ-SAM/B7.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:25.678099+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Liebe Frau Meingast, ich freue mich\nsehr, dass es Ihnen schon besser geht\n— ich wäre selbst gekommen, hätte\nich mich nicht gefürchtet Sie zu stören —\nwir bitte Sie nur, Sie auf das sorgfältigste\nzu schonen u. gar nicht zu beeilen. Sie\nmüssen zuerst ganz zu Kräften kommen\nes hat gar keine Eile; Correcturen kann ich\nIhnen ja allenfalls in den nächsten Tagen\nschicken. Ich begleite auch noch Ihren Gehalt\nu. bitte Sie also auf das Dringlichste sich\nvor allem sehr zu schonen und ja nicht vorzeitig\nanzufangen. Vielen Dank für Ihre wärme das\nherzlichste Gruss Ihr\n\nStefan Zweig",
+      "notes": "Die Handschrift ist flüssig, aber stellenweise eng geschrieben. Das Wort 'wärme' am Ende könnte auch 'Worte' oder eine ähnliche Form sein, ist aber aufgrund der Schreibweise als 'wärme' (evtl. für 'Wärme' oder 'Worte') transkribiert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, unbeschrieben."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift von Stefan Zweig. Die Interpretation der Wörter ist durch den Kontext der Korrespondenz gesichert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 575,
+    "total_words": 100,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

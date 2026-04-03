@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1417",
+    "title": "Brief an Friedrich Siegbert Mees vom 9. Mai 1924, SZ-SAH/B2.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1417/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1417/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1417/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Friedrich Siegbert Mees vom 9. Mai 1924, SZ-SAH/B2.1\n- Signatur: SZ-SAH/B2.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:32.570602+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, am 9.Mai 1924.\n\nSehr verehrter Herr Mees!\n\nHalten Sie es bitte, einer längeren Abwesenheit zugute,\ndass ich Ihnen erst heute Antwort gebe und Ihnen vor allem meine\nFreude sage, dass Sie einige meiner Gedichte vertont haben. Selbst-\nverständlich haben Sie alle Erlaubnis dazu und ich würde mich freuen,\nkönnte ich sie bald von Ihnen oder durch jemand anderen hören.\nMit den besten Grüssen Ihr aufrichtig ergebener\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dr. Stefan Zweig.\nSalzburg.\nKapuzinerberg 5.\n\nSehr verehrter Herr Mees!\n\nH. Höfflingshoff.\nMannheim a. Rhein.\nSophienstr. 15.",
+      "notes": "Handschriftliche Adressierung und Absenderangabe auf der Rückseite des Briefbogens."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Transkription folgt dem Layout des Originals.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 561,
+    "total_words": 86,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1551",
+    "title": "Brief an Richard Friedenthal vom 29. Mai 1926, SZ-AAP/B2.25",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1551/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1551/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1551/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 29. Mai 1926, SZ-AAP/B2.25\n- Signatur: SZ-AAP/B2.25\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:41.614275+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 29. Mai 1926.\n\nLieber Herr Doktor!\n\nLange habe ich nicht Ihre Schrift gesehen, Ihre Nachricht\ngehört und mahne Sie nur heute, nicht ganz an mich zu vergessen. Ich\nhabe jetzt endlich die dritte Novelle von meinem Band so ziemlich fer-\ntig, nachdem ich drei andere (auch die \"Leporella\" die Sie kennen)\nverworfen habeJe älter man wird umso schwerer wird das Schreiben .\nAusserdem plane ich noch einige andere Dinge, über die ich gern mit\nIhnen mich unterhielte. Vielleicht können Sie doch es möglich machen\nwieder einmal hier vorbei zu kommen. Ausser im August, bin ich im all-\ngemeinen immer hier.\n\nAlso schweigen Sie nicht zu lange und seien Sie herzlichst\ngegrüsst von Ihrem\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Das Wort 'habeJe' ist im Original zusammengeschrieben."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 29. Mai 1926.\n\nLieber Herr Doktor!\n\nIhnen mich unterhielte. Vielleicht können Sie doch es möglich machen\nwieder einmal hier vorbei zu kommen. Ausser im August, bin ich im all-\ngemeinen immer hier.\n\nAlso schweigen Sie nicht zu lange und seien Sie herzlichst\ngegrüsst von Ihrem\n\nStefan Zweig",
+      "notes": "Scan mit aufgelegten Archiv-Farbskalen und Grauskalen. Der Text ist identisch mit dem Ausschnitt der ersten Seite, jedoch durch die Skalen teilweise verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die leichte Unregelmäßigkeit 'habeJe' wurde originalgetreu übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1036,
+    "total_words": 170,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

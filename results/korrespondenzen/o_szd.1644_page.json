@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1644",
+    "title": "Brief an Frans Masereel vom 10. Oktober 1939, SZ-LAS/B1.60",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1644/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1644/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 10. Oktober 1939, SZ-LAS/B1.60\n- Signatur: SZ-LAS/B1.60\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:51.037950+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lyncombe Hill\nBath.                               le 10 octobre 1939.\n\nMon cher Frans,\n\n          Moi aussi j'avais le vif\nbesoin de t'écrire. On aurait tant à par-\nler. - J'observe cette époque pleine de\nsurprises avec moins de désespoir que tu\nle suppose peut-être. Je crois que les der-\nnières conséquences ne ressembleront pas\nbeaucoup aux idées et aux espoirs de Hit-\nler. Espérons qu'il est entré dans la\nphase des erreurs funestes et que les\nautres pays qui sont plus chers à nous,\nen profiteront. - Le changement a produit\ndans le mois dernier quelques changements\nassez importants dans ma vie. D'abord j'ai\népousé dans une psychose de guerre Mlle\nA. que tu connais (et qui écrit docile-\nment cette lettre). Puis j'ai quitté Londres\npour toujours, j'ai pris une petite maison\nici à Bath, une ville délicieuse, et la\nville et la maison ressemblent un peu à\nSalzburg, la maison plus petite mais avec\nun plus grand jardin et la chambre prin-\nciplae ornée d'un beau tableau de Masereel.\nJ'ai laissé exprès un mur tout à fait blanc\npour te donner l'occasion de l'orner avec\nun beau fresque quand tu viendras nous\nrendre visite. - Je travaille peu mais\nj'espère de le faire autant plus quand je\nserai dans ma maison. En tout cas n'oublie",
+      "notes": "Typoskript auf Briefpapier. Roter Strich am linken Rand (wahrscheinlich Archivmarkierung). Die letzte Zeile bricht mitten im Satz ab und wird auf der nächsten Seite fortgesetzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "pas de noter ma nouvelle adresse qui sera\npermanente autant qu'on peut risquer ce\nmot dans un monde comme le nôtre.\n\nAffectueusement\n\ntou\nStefan Zweig\n\nNouvelle adresse: Lyncombe Hill\npermanent        Bath (Anglais[?])",
+      "notes": "Fortsetzung des Briefes. Handschriftliche Ergänzungen in violetter Tinte: 'tou', 'Stefan Zweig', 'permanent' und 'Anglais[?]'. Am unteren Rand ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in violetter Tinte sind klar erkennbar. 'Anglais[?]' ist aufgrund der Handschrift leicht unsicher, aber im Kontext der Adressangabe sehr wahrscheinlich.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1457,
+    "total_words": 245,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

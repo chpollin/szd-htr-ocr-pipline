@@ -1,0 +1,158 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2214",
+    "title": "Werkstatt der Dichter, Aus der",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA215.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2214/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2214/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2214/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2214/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2214/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2214/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2214/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Werkstatt der Dichter, Aus der\n- Signatur: SZ-AAP/W-AA215.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:54.967538+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Werkstatt der Dichter, Aus der",
+      "notes": "Der Text ist auf dem Blatt oben links handschriftlich in violetter Tinte notiert. Die Lesung ist eindeutig.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            15.7,
+            28.6,
+            42.0,
+            3.9
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Titelzeile: Werkstatt der Dichter, Aus der",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, leer bis auf eine Büroklammer-Spur.",
+      "image": "IMG_2.jpg",
+      "image_width": 3684,
+      "image_height": 4912
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, leer bis auf eine Büroklammer-Spur.",
+      "image": "IMG_3.jpg",
+      "image_width": 3684,
+      "image_height": 4912
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, leer bis auf eine Büroklammer-Spur."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Werkstatt der Dichter, Aus der",
+      "notes": "Vorderseite des Blattes, identisch mit Seite 1."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, leer bis auf eine Büroklammer-Spur."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Werkstatt der Dichter, Aus der",
+      "notes": "Vorderseite des Blattes mit Farbskala und Grauskala im Bild."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich lesbar und wiederholt sich auf den Scans, die dasselbe Blatt zeigen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 90,
+    "total_words": 15,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 1.0,
+    "edited_pages": [],
+    "notes": "Short handwritten title 'Werkstatt der Dichter, Aus der' in violet ink. Transcription matches faksimile exactly across all content pages (1, 5). Blank pages correctly identified.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:00:00Z"
+  }
+}

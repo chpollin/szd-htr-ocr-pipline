@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.797",
+    "title": "Brief an Herbert Reichner vom 14. April 1938, SZ-AAP/B1.199",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.797/IMG.1",
+      "https://gams.uni-graz.at/o:szd.797/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 14. April 1938, SZ-AAP/B1.199\n- Signatur: SZ-AAP/B1.199\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:32.660122+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "14. April 1938.\n\nHerrn Herbert Reichner,\nHauptpostlagernd,\nZürich.\n\nSehr geehrter Herr Reichner!\n\nEben Ihr Brief. Bitte halten Sie mich immer\nüber Ihren Aufenthaltsort auf dem Laufenden. Von dem Ver-\nlag habe ich keinerlei Abrechnung für den letzten Monat,\nkeine Aufstellung, keine Mitteilung oder Auszahlung erhal-\nten; er hat jede Verbindung völlig abgebrochen. Ueberdies\nerfahre ich, dass sämtliche vom Ausland inzwischen einge-\ngangenen Bestellungen nicht mehr zur Ausführung gelangten.\nIch habe darüber allein von zwei englischen Buchhändlern\nNachricht, die sogar telegraphisch am 12. März bestellt\nhaben, ebenso von Schweden, wo ein Buch notwendig gebraucht\nwurde. Ich muss nun trachten, mir jedesfalls eine Aufstel-\nlung sowohl der beschlagnahmten als der im Ausland befind-\nlichen Exemplare zu beschaffen, um den erlittenen Schaden\neinigermassen übersehen zu können. Alle Pläne, die Dr.\nBermann und Sie hegen, sind ja vorläufig noch Zukunfts-\nmusik, solange Ihre Adresse \"hauptpostlagernd\" sein muss.\nWir haben leider alle jetzt ziemlich gleichlaufende Sor-",
+      "notes": "Typoskript auf Briefpapier. Die letzte Zeile bricht mitten im Wort ab, Fortsetzung auf Seite 2."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "staatsrechtlicher Natur\ngen, {die neuen Verlagsplänen und Gründungen vorangehen.}\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+      "notes": "Typoskript, Fortsetzung von Seite 1. Handschriftliche Ergänzung in violetter Tinte am Zeilenanfang: \"staatsrechtlicher Natur\". Der restliche Text ist maschinengeschrieben."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung auf Seite 2 ist klar lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1194,
+    "total_words": 167,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

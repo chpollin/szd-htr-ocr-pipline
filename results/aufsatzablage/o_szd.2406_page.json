@@ -1,0 +1,135 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2406",
+    "title": "Pour Ramuz!",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA159.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2406/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2406/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2406/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2406/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2406/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2406/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2406/IMG.7"
+    ],
+    "date": "1938",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Lausanne",
+      "extent": "3 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Lausanne"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Lotte Zweig"
+        ],
+        "inscriptions": [
+          "(zu R.'s\n                                 60. Geburtstag)"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Pour Ramuz!\n- Signatur: SZ-AAP/W-AA159.1\n- Datum: 1938\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 3 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:16.303910+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Erschienen in „Hommage à Ramuz“, V. Porchet, bie[?] Lausanne\n(zu R.'s 60. Geburtstag) 1938\n\nSTEFAN ZWEIG\n\nPour Ramuz!\n\nWenn ein Künstler hohen Ranges sein Schaffen bewusst in\neine enge Sphäre, in einen kleinen und von dem eigenen Wil-\nlen begrenzten Kreis einschränkt, so kann dies für sein Werk\nein hoher Gewinn werden oder eine grosse Gefahr.\nDen Gewinn bedeutet an sich die Concentration, die spar-\nsame Zusammenfassung aller schöpferischen Kräfte auf eine\neinzige Lebenssphäre. Der Künstler weicht damit der Gefahr\nder Zersplitterung, der Zerstreuung, des diffusen, des ver-\nschwommenen Schauens oder Gestaltens aus, weil er sein Auge\nimmer nur auf die eine Distanz eingestellt hat, weil er eben-\nmässig und richtig dank dieser regulierten Optik seine Gegen-\nstände sieht — weil an immer wiederholter Erfahrung sich\nseine Kenntnisse in dieser Sphäre sichern, seine Beobachtun-\ngen sich schärfen und ergänzen. Er ist Cäsar und Herr in sei-\nnem eigenen Gebiet und da er sich nur in einer und derselben\nAtmosphäre geistigen Lebens bewegt und nie zu verwegener\nErkundung sein gesichertes Reich verlässt, ist er den barome-\ntrischen Spannungen und krisenhaften Wetterstürzen der\nSeele nicht so sehr ausgesetzt wie der nomadisch schweifende\nKünstler, der ewig anderes Suchende und Versuchende. Indes\n63",
+      "notes": "Drucktext mit handschriftlicher Annotation am oberen Rand (Lotte Zweig). Die Tinte der Annotation ist violett."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "jener die ganze Welt in Gegenwart und Vergangenheit sich zu\nseinem Jagdfelde macht, bestellt der eingegrenzte Künstler das\nseine mit der Geduld, der Zähigkeit, der Sachkenntnis und\nbeharrlichen Kraft eines Bauern, an Intensität gewinnend was\ner an Extensität verliert.\nAber jede Specialisierung auf welchem Gebiete immer,\nschliesst Gefahr in sich und wer sich entschlossen hat, die Welt\nnur im Microcosmos zu erleben und zu betrachten, dem kann\nals Künstler leicht das Gefühl der Proportion verloren gehen,\nindem er an das Blickfeld seines Rahmens gewöhnt, das\nKleine darin für ein weltbedeutend Grosses hält und das Banale\nmit dem Besonderen, das Alltägliche mit dem Interessanten ver-\nwechselt, indem er, wie jeder Specialist jeder Wissenschaft,\nvergisst, dass seine persönliche Fachwelt nicht mit der abso-\nluten Sachwelt zusammenfällt. Wo sein geübter, sein microsco-\npisch differenzierender Blick noch Vielfalt und Abschattung\ngewahrt, sehen die anderen nur ein langweiliges Grau und\nwährend er ein neues Buch nach dem anderen zu schaffen\nmeint, bleibt es für die andern immer dasselbe; wo er zu\nvariieren mein, empfinden jene nichts als Monotonie. Wer\nbewusst sich als Künstler einen kleinen Lebenskreis wählt und\nihn bewusst nicht überschreitet, muss von vorneweg erwarten,\nvon der grossen Welt, die er doch durch Ablehnung und Gleich-\ngültigkeit depreciert, entweder gleichgültig oder bestenfalls als\nCuriosum gewertet zu werden; wer ihr nicht Liebe gibt kann\nwenig Liebe von ihr erhoffen.\nDies wäre das Logische. Aber die grosse Kunst ist immer\nstärker als die Gesetze der Vernunft und klüger als die Logik;\nsie behauptet sich in jeder ihrer Formen, auch der abseitigsten,\ndurch ein Geheimnis, das eben nicht lernbar und übertragbar\nist. Gewiss hat sich von allen wesentlichen Schriftstellern unse-\n64",
+      "notes": "Drucktext, Fortsetzung von Seite 1."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "rer Tage C.-F. Ramuz vielleicht am energischesten, am bewuss-\ntesten zu solch freiwilliger und sogar engster Eingrenzung des\nLebenshorizonts entschlossen. Sein Werk reicht — vom rein\nRäumlichen aus gesehen, nicht in seinen geistigen Proportio-\nnen! — über einen kleinen Schweizer Canton nicht hinaus und\nselbst innerhalb dieses Cantons hat er noch die Berge sorgsam\num sein schmales Tal gestellt. Auch in der socialen Schichtung\nsiebt er noch einmal seine Wahl; der Bürger, der Fabrikant,\nder Kaufherr, sie treten kaum in sein Blickfeld. Nur der Bauer,\nder Mensch der Erde, der primitive und elementare Mensch\nbildet seine Menschheit. Selbst die Landschaft, die er sich\ngewählt, ist keine besonders romantische, besonders patheti-\nsche: Ramuz scheint es die besondere Lust innerhalb der schöp-\nferischen Lust zu bedeuten, immer nur in sprödem, in wider-\nstrebendem Material zu schaffen. Gerade aus dem Allerge-\nwöhnlichsten das Ausserordentliche herauszuholen, den hell-\nsten Funken aus dem härtesten Gestein, ist seine besondere\nNeigung und er hat den Mut, in seiner Vorliebe für das Diffi-\ncile bis an den äussersten Rand zu gehen. Bewusst liebt er es\nsich's schwer zu machen. Er weicht dem Melodramatischen,\ndem Sentimentalen wie einer Kreuzotter geradezu panisch\nerschreckt aus, er vermeidet alle sinnlichen Reizungen und\nSpannungen als zu billig; seine Sujets sind eigentlich kaum\nmehr als sublimierte « faits divers » wie sie im Cantonblättli\nkurz und knapp verzeichnet werden, also Alltagsgeschehnisse,\ndie einmalig zu machen, dann seine Leidenschaft ist. Das Resul-\ntat eines solchen zähen und beharrlichen Ausschöpfens einer\nLandschaft, einer engen Sphäre sollte nun eigentlich Ausschöp-\nfung, Erschöpfung sein und Leser sich sagen: genug von\ndiesem Cantönchen, genug von diesen Dörfchen! Alles folklo-\nristisch sehr interessant, sehr eindringlich dargestellt. Aber\n65",
+      "notes": "Drucktext, Fortsetzung von Seite 2."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "jetzt genug von den Bauern im Vaud, ich weiss schon alles,\nich weiss.\nWie aber hat nun C.-F. Ramuz die Gefahr der Monotonie,\nder Selbstwiederholung, der rein stofflichen Ermüdung über-\nwunden? Sein Geheimnis ist weder ein neues noch ein beson-\nderes — es ist das ewige und einzige des Künstlers: innere\nIntensität. Auf einer hohen oder vielmehr auf der höchsten\nStufe der Kunst gibt es keine Gegenstände, keine Objecte,\nkeine Inhalte, keine Sujets mehr sondern nur die reine Meister-\nschaft, die es fast gleichgiltig sein lässt, ob ein in der irdischen\nWelt banaler oder subtiler Gegenstand dargestellt wird, weil\neben Meisterschaft die irdische Geltung der\n« Sujets » in eine höhere Sphäre, in die der Vollendung hebt\n(die einmalig für alles gilt). Der zerrissene Bauernstiefel, von\nVan Gogh gemalt, ein Baum Hobbemas, das Veilchen Dürers,\nein Apfel Cezannes, diese erzbanalen Gegenstände, sind durch\neine höhere Dynamik, gleichsam durch einen stärkeren Blut-\ndruck eben so intensiv geworden, dass wir gar nicht mehr das\nBanale des Gegenstands sehen sondern das Miracel seiner\nIntensifierung. So ist es auch unwesentlich, dass die Bauern\nRamuz’ harte schwere Menschen sind und dass ich ad perso-\nnam ersticken würde, in der Sperrkette dieser Berge dauernd\nzu leben. Nicht wer sie sind, darauf kommt es an, sondern was\ner aus ihnen macht, welche Kräfte er in ihnen weckt oder\neinbaut; erst gehen sie alle am Anfang seiner Bücher mit einem\nschweren Schritt und man nimmt sich schon vor, sie nicht\nlang zu begleiten, aber allmählich geht von ihnen eine starke\nAnziehung aus, man spürt sie getrieben von einem übermäch-\ntigen Schicksal oder einem Schicksal entgegen. Wie eine Kruste\nfällt das Banale, das Normale von ihnen ab, ihr Innerliches\nwird feuerflüssig transparent. Dass aber die Intensifierung\n66",
+      "notes": "Drucktext, Fortsetzung von Seite 3."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Théodore Strawinsky 1938\nTHÉODORE STRAWINSKY\nLE CIRQUE",
+      "notes": "Illustration (Karikatur/Zeichnung) mit handschriftlicher Signatur und Datierung unter dem Bild. Darunter gedruckte Bildunterschrift."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "dieser spröden Naturen nicht etwa Technik ist, ein gewolltes\nEmporsteigern auf eine höhere psychische Seelenstufe, sondern\ndass Ramuz, intensiv schauend, eben alles intensifiziert, was\nsein Auge berührt, — dass dieses Durch-und-Durch-sehen, dies\nSteigern, dies Dynamisieren bei ihm urtümliche Function der\nSeele ist, seine schöpferische Urgewalt, dies beweist sich\ndadurch, dass auch auf das (scheinbar) Unbeseelte, dass auch\nauf die Natur sein Blick so vitalisierend wirkt — ein Roman\nwie La grande peur dans la montagne ist Roman einer Berg-\nseele eher wie der eines Menschen, der moderne Mythos einer\nvon allen andern als unbeachtlich erfundenen und in keinem\nReisehandbuch der Schweiz wohl verzeichneten Landschaft.\nRamuz hat Feuer im Blick, jenes Feuer, in dem das Harte\nschmilzt und sich lockert, das Stockende gährt und schwillt,\ndas Scheintote sich belebt und das Schattendunkle in magi-\nschem Schein plötzlich aufglüht — wahrer Blick eines Dichters,\neines Schöpfers, jener demiurgische Blick, der immer wieder\nneu die Welt erschafft.\nDazu noch die Kunst dann, sparsam zu sein mit seinem\nGenie und es nicht zu verschwenden, das Einfache sublim zu\nmachen und das Sublime wiederum einfach zu gestalten. Statt\nFlächenwirkung Tiefenwirkung zu suchen, statt Breite Dichtig-\nkeit; nicht mit überflüssigen Schilderungen wie die Nordlän-\nder zu ermüden, sondern schweizerisch sparsam aber solid die\nSprache zu nützen und doch gerade dank dieser Gespanntheit\nund Kargheit in der Prosa dann wieder den Ton aufschwingen\nzu lassen in die Sphäre des Gedichts — diese besondere\nMischung von Verhaltenheit und Hingabe, von Kunstbewusst-\nheit und urtümlicher Kraft will mir sein schönste Werkgeheim-\nnis erscheinen und jenes auch, das ihm so treu die Bewunde-\nrung seiner Kameraden mit der Liebe seiner Leser sichert.\n68",
+      "notes": "Drucktext, Fortsetzung von Seite 4."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt. Die handschriftlichen Annotationen sind ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 8655,
+    "total_words": 1319,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

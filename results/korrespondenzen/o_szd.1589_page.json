@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1589",
+    "title": "Postkarte an Richard Friedenthal vom 27. März 1925, SZ-AAP/B2.12",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1589/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1589/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1589/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Friedenthal vom 27. März 1925, SZ-AAP/B2.12\n- Signatur: SZ-AAP/B2.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:44.607142+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender:\nSTEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nPostkarte\n\nHerrn\nRichard Friedenthal\n\nB e r l i n W.23.\n\nSchleswiger Ufer 13.",
+      "notes": "Adressseite einer Postkarte. Gedruckter Text mit handschriftlichen Ergänzungen (Name und Adresse). Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg, am 27. 3. 25.\n\nLieber Herr Friedenthal!\n\nIch habe ganz unverbindlich Ihre No-\nvellen jetzt an Rütten & Loening gegeben; ich\nfinde auch die beiden neuen ganz ausgezeichnet.\nSobald ich etwas höte, schreibe ich Ihnen natür-\nlich sofort ausführlich. Verzeihen Sie die Eile:\nich bin jetzt immer unterwegs.\nHerzlich Ihr\n\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Maschinenschriftlicher Text, Unterschrift handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Salzburg, am 27. 3. 25.\n\nLieber Herr Friedenthal!\n\nIch habe ganz unverbindlich Ihre No-\nvellen jetzt an Rütten & Loening gegeben; ich\nfinde auch die beiden neuen ganz ausgezeichnet.\nSobald ich etwas höte, schreibe ich Ihnen natür-\nlich sofort ausführlich. Verzeihen Sie die Eile:\nich bin jetzt immer unterwegs.\nHerzlich Ihr\n\nStefan Zweig",
+      "notes": "Wiederholung der Nachrichtenseite mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist klar als Stefan Zweig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 801,
+    "total_words": 126,
+    "language_detected": "",
+    "language_match": true
+  }
+}

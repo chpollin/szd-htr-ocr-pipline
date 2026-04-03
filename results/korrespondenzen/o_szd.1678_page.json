@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1678",
+    "title": "Otto Heuschele an Stefan Zweig, SZ-SAM/AK.82",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1678/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1678/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1678/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Otto Heuschele an Stefan Zweig, SZ-SAM/AK.82\n- Signatur: SZ-SAM/AK.82\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.108894+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kloster Maulbronn. Vordere Ansicht 7. Juli 25",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text mit handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Maulbronn, den 14. Juli 25.\nLieber Freund!\nGlücklich über München heimge-\nkehrt, das mich sehr entzückt hat\n(Sie können es denken warum)\nsende ich Ihnen nun ein\nHölderlin-Lehrstück einen\nganz herzlichen Gruß. Nun\njetzt es Ihnen denn? Der\nWeltbau sei stört[?] erhein[?] ein\nhoffentlich bald und ich\nmerke, daß Sie Ihnen\nFreude machen.\nIhr treuer Otto Heuschele\n\n[Am linken Rand vertikal geschrieben:]\nBrief fast halb!",
+      "notes": "Rückseite der Ansichtskarte. Handschrift in violetter Tinte. Briefmarke oben rechts (5 Reichspfennig, Deutsches Reich). Adressfeld: 'P.U. Herrn Dr. Stefan Zweig Salzburg Kapuzinerberg 5 Deutsch-Österreich'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Maulbronn, den 14. Juli 25.\nLieber Freund!\nGlücklich über München heimge-\nkehrt, das mich sehr entzückt hat\n(Sie können es denken warum)\nsende ich Ihnen nun ein\nHölderlin-Lehrstück einen\nganz herzlichen Gruß. Nun\njetzt es Ihnen denn? Der\nWeltbau sei stört[?] erhein[?] ein\nhoffentlich bald und ich\nmerke, daß Sie Ihnen\nFreude machen.\nIhr treuer Otto Heuschele\n\n[Am linken Rand vertikal geschrieben:]\nBrief fast halb!",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Zeilen 'Der Weltbau sei stört[?] erhein[?] ein'. Die Interpretation der Wörter ist hier unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 877,
+    "total_words": 137,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2632",
+    "title": "Frankreich",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA56.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2632/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2632/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2632/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2632/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2632/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2632/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2632/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Frankreich\n- Signatur: SZ-AAP/W-AA56.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:49.965390+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frankreich\nMontmartrefest\nFrühlingsfahrt durch die Provence\nDie Stadt der Päpste\nZwei provenzalische Städte\n~~Bei den Franzosen in Canada~~ siehe Amerika!\nPère Lachaise\n\n\nFrankreich\nDie Stadt der Päpste, Avignon\nZwei provenzalische Städte, Arles\nFrühlingsfahrt durch die Provence\nMontmartrefest\nAbendaquarelle aus Algier\nBei den Franzosen in Canada -> Amerika\nwo es fehlte!",
+      "notes": "Handschriftliches Dokument, recto. Enthält zwei Listen, eine in violetter Tinte (oben), eine in schwarzer Tinte (unten). Die untere Liste scheint eine Reinschrift oder Erweiterung der oberen zu sein."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Erstdrucke\n\n\nFrankreich\nDie Stadt der Päpste, Avignon\nZwei provenzalische Städte, Arles\nFrühlingsfahrt durch die Provence\nMontmartrefest\nAbendaquarelle aus Algier\nBei den Franzosen in Canada -> Amerika\nwo es fehlte!",
+      "notes": "Handschriftliches Dokument, recto. Enthält den Vermerk 'Erstdrucke' oben sowie die Liste in schwarzer Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Frankreich\nMontmartrefest\nFrühlingsfahrt durch die Provence\nDie Stadt der Päpste\nZwei provenzalische Städte\n~~Bei den Franzosen in Canada~~ siehe Amerika!\nPère Lachaise",
+      "notes": "Handschriftliches Dokument, recto. Liste in violetter Tinte."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Frankreich\nMontmartrefest\nFrühlingsfahrt durch die Provence\nDie Stadt der Päpste\nZwei provenzalische Städte\n~~Bei den Franzosen in Canada~~ siehe Amerika!\nPère Lachaise\n\n\nFrankreich\nDie Stadt der Päpste, Avignon\nZwei provenzalische Städte, Arles\nFrühlingsfahrt durch die Provence\nMontmartrefest\nAbendaquarelle aus Algier\nBei den Franzosen in Canada -> Amerika\nwo es fehlte!",
+      "notes": "Handschriftliches Dokument, recto. Enthält beide Listen. Farbskala und Grauskala für Archivierung am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Korrekturen und Durchstreichungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1129,
+    "total_words": 151,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.730",
+    "title": "Brief an Herbert Reichner vom 25. November 1937, SZ-AAP/B1.138",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.730/IMG.1",
+      "https://gams.uni-graz.at/o:szd.730/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 25. November 1937, SZ-AAP/B1.138\n- Signatur: SZ-AAP/B1.138\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:26.779917+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "25.November 1937.\n\nGeehrter Herr Reichner!\n\nErschrecken Sie nicht zu sehr über\ndiesen Brief, aber ich habe alle meine Pläne um-\ngestossen, weil ich im Januar auf eine weitere\nReise muss und komme, um meine Mutter zu sehen,\nstatt zu Weihnachten jetzt schon auf zwei, drei\nTage nach Wien. Ich dürfte Sonntag, Montag,\nvielleicht auch noch Dienstag dort bleiben und\nda können wir alle Angelegenheiten besprechen.\nIch werde, da ich viele Rückstände in Wien zu\nbegleichen habe, Sie in anbetracht des guten\nGanges des \"Magellan\" um einiges Geld bitten\nmüssen und wäre Ihnen dankbar, wenn Sie mir\nfür Montag jedesfalls dreitausend Schillinge\nin bar vorbereiten könnten.\n\nVon Amerika habe ich Brief, dass\nHuebsch noch immer vergeblich auf die Bilder",
+      "notes": "Typoskript auf Papier. Der Text bricht am Ende der Seite mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "zur Ansicht wartet, damit er weiss, welche er\nkauft. Hoffentlich haben Sie das schon erle-\ndigt, und ich freue mich für Sie, dass die Be-\nschaffungskosten durch die Uebernahme von an-\ndern Verlegern reichlich gedeckt sind.\n\nMit den besten Empfehlungen\n\nDringend. Ich komme nach Wien nur meine Mut-\nter besuchen und es soll es ausser Gregor und\nFuchs niemand wissen. Ich bitte Sie strikte,\nes niemandem zu sagen, sonst kommen wir zu kei-\nnem ruhigen Gespräch vor lauter Leuten, die Bü-\ncher gedruckt haben wollen.",
+      "notes": "Typoskript auf Papier. Fortsetzung des Textes von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1252,
+    "total_words": 203,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

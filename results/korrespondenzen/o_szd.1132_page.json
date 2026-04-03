@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1132",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.10",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1132/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1132/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.10\n- Signatur: SZ-SAM/B10.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.000996+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 2.Oktober 1937.\n\nLiebe Frau Meingast!\nIch schulde Ihnen Bericht für Juli,\nAugust und September.\nFür Juli ist nur zu berichten, dass\nmit Wydawnictwo J. Przeworskiego, Sienkiewicza 2, Warschau\nzwei Verträge abgeschlossen wurden für \"Magellan\" und\n\"Sternstunden\" (enthaltend die in \"Kaleidoskop\" gedruck-\n{neue} ten und \"Das Genie einer Nacht\" und \"Flucht in die Un-\nsterblichkeit\"). Für beide Bücher ist als Honorar für\ndie polnischen Buchrechte zunächst ein Vorschuss von\nje 600.- Zl. für die erste Auflage von zweitausend\nExemplaren zu zahlen, für alle weiteren Auflagen zehn\nProzent vom Ladenpreis.\nFür August ist nichts zu berichten.\nIm September wurde mit der Viking\nPress ein Vertrag über die amerikanische Ausgabe (dies-\nmal ohne die englische) des \"Begrabenen Leuchters\" ab-\ngeschlossen, der dieselben Bestimmungen enthält wie\nder Vertrag über \"Castellio\", ausgenommen die Klausel\nüber die englische Ausgabe.\nDie Buchbeschreibungen der in die-",
+      "notes": "Das Wort 'neue' wurde über der Zeile eingefügt. Die Zeilenumbrüche entsprechen dem Original."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ser Zeit erschienenen Bücher lege ich bei. Die Bücher\nselbst habe ich, soweit sie in Duplikaten vorhanden\nwaren, an Frau Zweig direkt geschickt.\n\nMit den besten Grüssen\nLotte Altmann\n\nWegen Binoza habe ich bisher noch nichts unternommen.\nAus der Korrespondenz kann ich nichts Genaues ersehen,\nbei dem letzten Brief handelt es sich um \"Erasmus\" und\n\"Fouché\", wo einesteils vermerkt ist \"Gemahnt\", ande-\nrerseits \"Eingetr.\", wobei ich nicht weiss, ob das\nheissen soll \"eingetragen\" oder \"eingetroffen\". Jedes-\nfalls sind diese beiden Bücher noch nicht erschienen.\nSonst kann ich aus der Korrespondenz nur entnehmen,\ndass die Bezahlung, angeblich aus Devisengründen,\nlange Zeit in Anspruch genommen hat. Würden Sie so\nfreundlich sein, mir mitzuteilen, ob Sie sich noch an\netwas anderes erinnern, was gegen einen Vertragsab-\nschluss spricht?\n\nViele herzliche Grüsse\nStefanZweig",
+      "notes": "Die Unterschrift 'StefanZweig' ist handschriftlich in violetter Tinte ausgeführt. 'Lotte Altmann' ist ebenfalls handschriftlich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen und Unterschriften sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1834,
+    "total_words": 269,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

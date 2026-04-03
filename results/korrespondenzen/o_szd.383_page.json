@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.383",
+    "title": "Otto Lang an Stefan Zweig, 1932-02-03, SZ-SAM/AK.104",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.383/IMG.1",
+      "https://gams.uni-graz.at/o:szd.383/IMG.2",
+      "https://gams.uni-graz.at/o:szd.383/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Otto Lang an Stefan Zweig, 1932-02-03, SZ-SAM/AK.104\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.104\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.767209+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Ferwall Thal — St. Anton a. Arlberg.\n3. II. 32 —",
+      "notes": "Vorderseite einer Ansichtskarte mit Bergmotiv. Handschriftliche Datumsangabe unten links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dr. Stefan Zweig\nSalzburg\nKapuzinerberg\n\nSt. Anton a. Arlberg.\n3. II. 1932.\n\nFür die wenige Sonne\nin Zell a. See, finde ich\nhier reichliche Entschädigung! Ich würde es Ihnen\nwünschen hier zu sein.\nIn St. Anton gibt es auch\neine Menge, da viel und\nbesonders internationales\nPublikum hier ist.\n\n[am linken Rand, vertikal geschrieben:]\nda grüßt Sie herzlich\nIhr Otto Lang.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel vorhanden (St. Anton am Arlberg, 3. II. 32). Gedruckter Text der Karte: 'WINTER-SPORTPLATZ HÖHEN-LUFTKURORT 1304 m', 'Aufnahme u. Verlag: Nr. 1575 Risch-Lau, Bregenz und Zürs', 'Aufgenommen mit: Zeiss-Objektiv'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite der Ansichtskarte mit Grauskala und Farbkarte für Archivierungszwecke. Kein eigenständiger Textinhalt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Passagen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 417,
+    "total_words": 72,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

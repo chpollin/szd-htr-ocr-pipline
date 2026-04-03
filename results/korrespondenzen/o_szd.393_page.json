@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.393",
+    "title": "Emil Lucka an Stefan Zweig, 1907-05-11, SZ-SAM/AK.113",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.393/IMG.1",
+      "https://gams.uni-graz.at/o:szd.393/IMG.2",
+      "https://gams.uni-graz.at/o:szd.393/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Emil Lucka an Stefan Zweig, 1907-05-11, SZ-SAM/AK.113\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.113\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.410577+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BARCELONA\nVallcarca\n11.V.07",
+      "notes": "Vorderseite einer Ansichtskarte mit Ortsangabe und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Zweig! Ich bin\nheute bei dem interessanten Stück\nLorcal gewesen und habe mir\nbedauert, die Katalanischen Kostüme\nnicht würdigen zu können. Aus\nIhrem Brief sehe ich nun, wie es\nscheint, bedeutende Posten\nkommen [?] abend.\nHerzliche Grüße und Dank\nfür die ewig freundschaftliche\nPostkarte, für die Lebenshilfe. Die\nbei mir nun wohl E. Lucka",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben rechts, Poststempel vorhanden. Der Text am Ende ist aufgrund der Platzierung am unteren Rand leicht abgeschnitten."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Herr Zweig! Ich bin\nheute bei dem interessanten Stück\nLorcal gewesen und habe mir\nbedauert, die Katalanischen Kostüme\nnicht würdigen zu können. Aus\nIhrem Brief sehe ich nun, wie es\nscheint, bedeutende Posten\nkommen [?] abend.\nHerzliche Grüße und Dank\nfür die ewig freundschaftliche\nPostkarte, für die Lebenshilfe. Die\nbei mir nun wohl E. Lucka",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Grauskala und Farbkarte am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der Text ist weitgehend lesbar, jedoch sind einige Wörter am unteren Rand der Karte aufgrund der Platzierung und des Druckbildes schwer zu entziffern (insbesondere 'kommen [?] abend' und der letzte Satzteil).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 727,
+    "total_words": 115,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

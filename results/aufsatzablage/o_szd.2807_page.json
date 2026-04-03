@@ -1,0 +1,94 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2807",
+    "title": "Aufgaben der höheren Schule",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA8.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2807/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2807/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2807/IMG.3"
+    ],
+    "date": "22. Mai 29",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Leipzig",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Leipzig"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Bleistift"
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Aufgaben der höheren Schule\n- Signatur: SZ-AAP/W-AA8.1\n- Datum: 22. Mai 29\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Bleistift"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:07.894954+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wilhelm von Scholz.\n\nWichtigste Aufgabe der höheren Schule — eben von einem\nwirklich höheren Standpunkt, von einer Weltschau den jungen\nMenschen unsere Zeit und alle früheren anschauen zu lassen. Ihn\nständig zu erinnern, daß wir mit neuen, weiteren Maßen rech-\nnen müssen, ihm neben dem deutschen auch ein europäisches\nNationalgefühl selbstverständlich machen. Ihn nicht nur die\nHistorie der Kriege und Entzweiungen lehren, sondern auch die\ngegenwärtige und künftige unaufhaltsame Vereinheitlichung der\nweißen Welt durch die Leistungen der Technik und den Willen\nder Zeit. Ihn immer wieder erinnern, daß Vergangenheiten, so\nwertvoll sie auch gewesen sein mögen, doch vergangen sind und\nunsere Zeit keine geringere ist, sondern eine der großartigsten\nEtappen in der geistigen Eroberung der Erde. Ihm die Er-\nfindungen der Technik, die Fortschritte der Medizin, Physik,\nBiologie, alles was der europäische Geist in den letzten Jahr-\nzehnten neben einer selbstmörderischen Politik unbekümmert ge-\nschaffen hat, deutlich vor Augen zu führen, damit er nicht re-\nsigniert aus der Schule in die Welt trete, sondern erfüllt vom\nschöpferischen Glauben an die Zeit, vom Stolz auf unser Jahr-\nhundert. Alles also aufs Welthafte stellen, ihm die ungeheuren\nZusammenhänge aufzeigen, in denen jedes Reich, jedes Volk,\njeder Stand eingebettet liegt, ihn retten vor jeder Art mensch-\nlicher und politischer Engstirnigkeit, vor gewaltsamen Absonde-\nrungen und unfruchtbaren Gehässigkeiten. Ihm die Seele weit\nmachen, dem jungen Menschen, weit und aufgetan allem Neuen,\nallem Zukünftigen, das er ja selber zu schaffen bestimmt ist.\nStefan Zweig.",
+      "notes": "Gedruckter Zeitungsausschnitt. Rechts am Rand handschriftliche Notiz in Bleistift: 'Deutsches Philologenblatt. Leipzig 22. Mai 29'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Wilhelm von Scholz.\n\nWichtigste Aufgabe der höheren Schule — eben von einem\nwirklich höheren Standpunkt, von einer Weltschau den jungen\nMenschen unsere Zeit und alle früheren anschauen zu lassen. Ihn\nständig zu erinnern, daß wir mit neuen, weiteren Maßen rech-\nnen müssen, ihm neben dem deutschen auch ein europäisches\nNationalgefühl selbstverständlich machen. Ihn nicht nur die\nHistorie der Kriege und Entzweiungen lehren, sondern auch die\ngegenwärtige und künftige unaufhaltsame Vereinheitlichung der\nweißen Welt durch die Leistungen der Technik und den Willen\nder Zeit. Ihn immer wieder erinnern, daß Vergangenheiten, so\nwertvoll sie auch gewesen sein mögen, doch vergangen sind und\nunsere Zeit keine geringere ist, sondern eine der großartigsten\nEtappen in der geistigen Eroberung der Erde. Ihm die Er-\nfindungen der Technik, die Fortschritte der Medizin, Physik,\nBiologie, alles was der europäische Geist in den letzten Jahr-\nzehnten neben einer selbstmörderischen Politik unbekümmert ge-\nschaffen hat, deutlich vor Augen zu führen, damit er nicht re-\nsigniert aus der Schule in die Welt trete, sondern erfüllt vom\nschöpferischen Glauben an die Zeit, vom Stolz auf unser Jahr-\nhundert. Alles also aufs Welthafte stellen, ihm die ungeheuren\nZusammenhänge aufzeigen, in denen jedes Reich, jedes Volk,\njeder Stand eingebettet liegt, ihn retten vor jeder Art mensch-\nlicher und politischer Engstirnigkeit, vor gewaltsamen Absonde-\nrungen und unfruchtbaren Gehässigkeiten. Ihm die Seele weit\nmachen, dem jungen Menschen, weit und aufgetan allem Neuen,\nallem Zukünftigen, das er ja selber zu schaffen bestimmt ist.\nStefan Zweig.",
+      "notes": "Gleicher Zeitungsausschnitt wie auf Seite 1, hier mit Archiv-Farbskala und Maßstab abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen klaren Druck handelt. Die handschriftliche Annotation am Rand ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3254,
+    "total_words": 478,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2753",
+    "title": "Grangerisierte Bücher",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA26.5",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2753/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2753/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2753/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2753/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2753/IMG.5"
+    ],
+    "date": "1923",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Anna Meingast",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/1080163751"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "2 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Durchschlagpapier, violette Tinte",
+        "hands": [
+          "Anna Meingast"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Grangerisierte Bücher\n- Signatur: SZ-AAP/W-AA26.5\n- Datum: 1923\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt,\n                                          korrigiert\n- Schreibinstrument: Violettes\n                                       Durchschlagpapier, violette Tinte\n- Hand: Anna Meingast"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:01.992141+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "          G r a n g e r i s i e r t e   B ü c h e r\n\n\nNicht viele Bibliophilen und noch weniger Autografensam-\nler kennen, glaube ich die seltsame Mischart des \"grangerisierten \"\nBuches, die in England früher sehr verbreitet war und nach dem\nReverend G. Granger ihren Namen hat. Dieser Reverend, der offenbar\nreichlich Zeit hatte und über Geld verfügte, kam etwa im Jahre\n1769 auf die sonderbare Idee historische Bücher in einem einzigen\nExemplar mit authentischen Dokumenten und Illustrationen zu ver-\nsehen und er machte dies auf folgende Weise, indem er ein Buch\n- es war eine Geschichte von England - in ihren einzelnen Bogen\naufeinander nahm und auf jede Seite wo ein Name erwähnt war, einen\nKupferstich des betreffenden Mannes oder ein Autograf von ihm ein-\nfügte. Als das Werk ihm genug angewachsen schien, liess er {die Granger}\nin mehreren Bänden zusammenbinden und so entstand das erste dieser eigen\nartigen und einzigen Exemplare, die ~~xxx~~ {dann} im Land des Spleens von\neiner ganzen Reihe anderer Sammler nachgeahmt wurden. Der eine\nillustrierte sich selbst auf diese Weise ein Werk über London,\nein anderer das Leben ~~eines alten~~ {Washingtons} oder Dickens: man\nkönnte sich {wru/} schwer das System auf deutsche Verhältnisse übertragen\nund eine Sammlung wie die Anton Kippenbergs würde zum Beispiel\nausgezeichnet dienen, um \"Wahrheit und Dichtung\" von Goethe in\neinem wundervollen einzigen Exemplar illustriert zu machen.\nGlücklicherweise hat er und andere in Deutschland nicht den barbari-\nschen Gedanken seine Bilder und Autografen dermassen zu verstümmeln,\ndenn solche Bücher kommen doch eigentlich nur auf herostratische\nArt zusammen, indem entweder Kupferstich {aus Bildern} ~~und Blätter~~, ~~oder~~ Blät-\nter {aus} Büchern losgelöst und auf diese {so gewalttätige} Weise entwertet werden\noder dass Autografen ein bestimmtes Format zusammengeschnitten\nund ohne innern Bezug gewaltsam unter einen Deckel gebracht werden.\nWenn wir\n~~xxxvii~~ die Frage aufwerfen, ob durch diese Methode Grangers und\nseiner Nachfolger mehr Autografen gerettet oder mehr Autografen\nzerstört wurden und so scheint es dass so schön derAnblick solcher\nWerke im britischen Museum ist, wo ein einzelner Mensch sein ganzes",
+      "notes": "Typoskriptdurchschlag mit handschriftlichen Korrekturen in violetter Tinte. Die letzte Zeile bricht mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "                                  II.\n\nLeben und sein ganzes Vermögen an ein Buch getan hat, so gefährlich\nauch der Sport {doch auch} ist im Hinblick auf die Zerstörung und Verstümmelung\nanderer Werke die diesem monomanischen Werk dienen mussten.\n          Heute scheint nun allgemein {die} sonderbare Mode abge-\nflaut zu sein: immerhin hat sich ~~xxx~~ {eine} Spur davon noch in einer\nseltsamen Eigenart der englischen und französischen Büchersammler\nerhalten. Die Bibliophilen jenseits des Wasser und jenseits des\nRheins lieben es sehr die erste Ausgabe eines Buches nicht nur mit\neinem Originalporträt des Autors, sondern auch mit einem Bruchstück\naus dem Originalmanuskript zu schmücken, besonders ein Gedichtband\n~~scheint~~ {stück} dort den Bibliophilen erst ganz vollendet, wenn ein eizelnes\nGedicht aus diesem Band in der Handschrift der Originalausgabe {beim} \ngebunden ist. Daraus erklärt sich auch, dass im Allgemeinen in Eng-\nland und Frankreich Manuskripte von Gedichten und besonders unter\nschriebene umso viel mehr gesucht sind als Briefe und man kann eine\ngewisse Berechtigung dieser Abart des Sammelns kaum versagen,\ndenn selbstverständlich wirkt ein Gedichtband unendlich persönlicher\nwenn man ihn im Originalumschlag der Originalausgabe besitzt und\nauf irgend einem Blatt neben dem gedruckten ~~xxx~~ Gedicht die\nlebendig geschriebene Urform mitgebunden hat. In Deutschland ist\ndiese Sitte seltsamerweise nie nachgeahmt worden und man mag sich\ndarüber freuen, denn so ~~xx~~ wird den Autografen ihr eigenes unab-\nhängiges Leben bewahrt. Sie dienen nicht dem Bibliophilen- ~~xx~~, der\nBücherliebhaberei sondern sind nur denen ganz gegeben die sie um ihrer\nselbst, {ihres} eigentümlichen Wesens, um ihrer wundervollen Sonderbarkeit\nwillen lieben.",
+      "notes": "Typoskriptdurchschlag mit handschriftlichen Korrekturen in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "                                  II.\n\nLeben und sein ganzes Vermögen an ein Buch getan hat, so gefährlich\nauch der Sport {doch auch} ist im Hinblick auf die Zerstörung und Verstümmelung\nanderer Werke die diesem monomanischen Werk dienen mussten.\n          Heute scheint nun allgemein {die} sonderbare Mode abge-\nflaut zu sein: immerhin hat sich ~~xxx~~ {eine} Spur davon noch in einer\nseltsamen Eigenart der englischen und französischen Büchersammler\nerhalten. Die Bibliophilen jenseits des Wasser und jenseits des\nRheins lieben es sehr die erste Ausgabe eines Buches nicht nur mit\neinem Originalporträt des Autors, sondern auch mit einem Bruchstück\naus dem Originalmanuskript zu schmücken, besonders ein Gedichtband\n~~scheint~~ {stück} dort den Bibliophilen erst ganz vollendet, wenn ein eizelnes\nGedicht aus diesem Band in der Handschrift der Originalausgabe {beim} \ngebunden ist. Daraus erklärt sich auch, dass im Allgemeinen in Eng-\nland und Frankreich Manuskripte von Gedichten und besonders unter\nschriebene umso viel mehr gesucht sind als Briefe und man kann eine\ngewisse Berechtigung dieser Abart des Sammelns kaum versagen,\ndenn selbstverständlich wirkt ein Gedichtband unendlich persönlicher\nwenn man ihn im Originalumschlag der Originalausgabe besitzt und\nauf irgend einem Blatt neben dem gedruckten ~~xxx~~ Gedicht die\nlebendig geschriebene Urform mitgebunden hat. In Deutschland ist\ndiese Sitte seltsamerweise nie nachgeahmt worden und man mag sich\ndarüber freuen, denn so ~~xx~~ wird den Autografen ihr eigenes unab-\nhängiges Leben bewahrt. Sie dienen nicht dem Bibliophilen- ~~xx~~, der\nBücherliebhaberei sondern sind nur denen ganz gegeben die sie um ihrer\nselbst, {ihres} eigentümlichen Wesens, um ihrer wundervollen Sonderbarkeit\nwillen lieben.",
+      "notes": "Identisch mit Seite 3, jedoch mit aufgelegter Grauskala und Farbskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen sind eindeutig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 5746,
+    "total_words": 837,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

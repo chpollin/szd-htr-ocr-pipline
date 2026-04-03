@@ -1,0 +1,123 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2341",
+    "title": "Wells, H. G.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA212.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2341/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Lotte Zweig"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Wells, H. G.\n- Signatur: SZ-AAP/W-AA212.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:08.113099+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wells, H. G.\nZum 70. Geburtstag\n\nH. G. Wells\nZum 70. Geburtstag",
+      "notes": "Handschrift, violette Tinte. Das Dokument besteht aus zwei beschrifteten Abschnitten auf einem Blatt Papier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des oberen Abschnitts, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "H. G. Wells\nZum 70. Geburtstag",
+      "notes": "Handschrift, violette Tinte. Unterer Abschnitt des Blattes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des unteren Abschnitts, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Wells, H. G.\nZum 70. Geburtstag",
+      "notes": "Handschrift, violette Tinte. Oberer Abschnitt des Blattes."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des unteren Abschnitts, leer."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Wells, H. G.\nZum 70. Geburtstag\n\nH. G. Wells\nZum 70. Geburtstag",
+      "notes": "Gesamtansicht des Blattes mit Archiv-Farbskalen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz, deutlich geschrieben und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 187,
+    "total_words": 36,
+    "language_detected": "",
+    "language_match": true
+  }
+}

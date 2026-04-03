@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1163",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1163/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1163/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.4\n- Signatur: SZ-SAM/B11.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.933019+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "25. X. 34\nFr. Zweig\n\nWien, Panorama mit Hochhaus\n207",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notizen oben rechts und links, gedruckter Text unten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "liebe Frau Meingast, wegen\nVersagen der Füllfeder mit\ndiesen Bleistiftgrüßen herzliche\nGrüße und Dank für Ihr Mitteilungen.\nBin neugierig\nab ich wieder Arbeit vorfinde\nund hoffentl. keine versäumt\nhabe. Ich werde Samstag\nzuhause sein und hoffe\nSie beide wohl zu finden.\nVon Luse einen Gruß u.\nalles Gute von Ihrer\nFriderike Zw.\n\nFrau\nanna Meingast\nSalzburg\nKapuzinerberg\nVilla Zweig",
+      "notes": "Rückseite der Ansichtskarte. Der Text ist in violettem Bleistift geschrieben. Die Adresse ist rechtsbündig angeordnet. Die Briefmarke (Österreich, 12 Groschen) ist oben rechts aufgeklebt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der Verwendung eines Bleistifts. Die Abkürzungen (Fr., hoffentl., u., Zw.) sind im Kontext eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 434,
+    "total_words": 69,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

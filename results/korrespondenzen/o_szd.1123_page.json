@@ -1,0 +1,102 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1123",
+    "title": "Brief an Victor Fleischer vom [Februar 1907], SZ-LAS/B3.42",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1123/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1123/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1123/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1123/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1123/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1123/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1123/IMG.7",
+      "https://gams.uni-graz.at/o:szd.1123/IMG.8"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Victor Fleischer vom [Februar 1907], SZ-LAS/B3.42\n- Signatur: SZ-LAS/B3.42\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 8 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:14.426121+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber Victorino, ich will in aller\nEile so machen, als ob ich Deinen\nBrief erwiderte, denn Du weisst\nja, wie es mit meiner Correspon-\ndenz aussieht. Also vor allem: ich\ngehe nicht nach Dänemark, son-\ndern bleibe den Sommer, abgesehen\nvon 12 Tagen, die ich mit meinem\nPapa in Gastein verbringen muss,\nzu Wien in der Stadt, steuere da-\nfür im Herbst nach Italien. Willi\nHandl habe ich begleitet, die Thränen\nFrigi's zu lindern gesucht und bin\njetzt in Wien umherleben allein,\naber höchst zufrieden. Ich schaffe\nnoch immer an der kleinen No-\nvelle, die ich total umgeändert\nhabe und {mit} den Entwürfen auch",
+      "notes": "Die Transkription umfasst die erste Seite des Briefes. Das Wort 'mit' ist über der Zeile eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "[Rückseite von Seite 1, durchscheinender Text]",
+      "notes": "Kein eigenständiger Text, nur Durchschlag der Tinte von Seite 1."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "nicht eine Seite mehr gemeinsam\nhat. Glückwunsch zur Ritternovelle,\ndie der löblichen Verlagsanstalt\nhoffentlich zusagt. Schade, dass Du\nden Svabinsky nicht geschrieben hast,\nsonst könntest Du Willi eine kleine\nVisite in Berlin machen.\nDein Garten mag wirklich\nsehr schön sein und die Lockung\nist gross, aber ich habe zum Reisen\nkein Geld nicht, muss sparen auch\nmit meiner Zeit, um dann im Herbst\nin Italien umso vergnüglicher zu\nbummeln. Hie und da geht ein\nPferd in den Prater und führt\nmich auf seinem Rücken irgend-\nwohin, hat mich aber bisher wohl\nimmer lebendig retourniert.\nAdelts Kind ist wohl gelungen.",
+      "notes": "Zweite Seite des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "gen und heisst Leonhardt, zarter\nUnterschied vom Vater aber noch\nStefan Camill. Wenn Du nach Prag\nkommst grüss mir vor allem Max\nBrod, dessen Buch ich prächtig fin-\nde. Ternite ist ein Correcturzu-\nstand, die Première im März.\nAdieu! Grüss mir Max, den\nSchweiger und Steiger, den sinnenden\nund Rinnenden, (noch immer?) den\nReimenden und Schleimenden, den\nKlagenden und Fragenden. Servus\nStefan",
+      "notes": "Dritte Seite des Briefes."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "[Ausschnitt aus Seite 4]",
+      "notes": "Wiederholung des unteren Teils von Seite 4."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Dr. Victor Fleischer\n\nKomotau (Böhmen)\nVilla Fleischer",
+      "notes": "Adressseite des Briefumschlags. Briefmarke oben rechts vorhanden."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Stefan Zweig\nVIII. Kochgasse 8",
+      "notes": "Rückseite des Briefumschlags mit Absenderangabe."
+    },
+    {
+      "page": 8,
+      "type": "content",
+      "text": "[Wiederholung von Seite 7]",
+      "notes": "Wiederholung der Rückseite des Briefumschlags."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Tinte ist deutlich. Die Struktur des Briefes ist klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1790,
+    "total_words": 291,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

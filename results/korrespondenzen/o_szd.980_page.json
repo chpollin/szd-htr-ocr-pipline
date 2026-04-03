@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.980",
+    "title": "Brief an Sigmund Freud vom 24. August 1938, SZ-LAS/B7.38",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.980/IMG.1",
+      "https://gams.uni-graz.at/o:szd.980/IMG.2",
+      "https://gams.uni-graz.at/o:szd.980/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 24. August 1938, SZ-LAS/B7.38\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:47.878325+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "24. Aug 1938\n\n49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nTeurer verehrter Professor, nehmen\nSie mein Schweigen nicht Untreue\noder Favolenz[?] – ein lieber Freund\nvon mir ist schwer operiert worden,\nich muss jetzt oft zu ihm hinaus\nmeine Mutter ist, fünfundvier-\nzigjährig, in Wien gestorben: in\nwelcher Zeit wir leben, fühlt man\ndaran, dass man kaum Trauer\nempfindet sondern eher eine\nTrostung, dass sie nicht in dieser\nholle Wien{wert} leben müsste, ohne\nuns ratversten[?] zu können.\nIch melde mich morgen\nund dass Sie hoffentlich bald",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett. Das Wort 'Favolenz' ist schwer lesbar, möglicherweise 'Fahrlässigkeit' oder 'Faulheit' gemeint, aber als 'Favolenz' transkribiert. 'ratversten' ist unsicher."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "sehen. Jenes junge Etwas[?] James\nwird mir, glaube ich, jetzt bald\nentbehren, ich sprach ihn in der\nletzten Woche.\nIn herzlicher geben[?]\nStefanZweig",
+      "notes": "Handschriftliche Fortsetzung des Briefes. Die Unterschrift ist 'StefanZweig' in einer Zeile."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Die Rückseite des Briefes ist hier mit der Farbskala abgebildet."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'Favolenz', 'ratversten', 'Etwas'). Der Textfluss ist jedoch weitgehend verständlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 690,
+    "total_words": 110,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

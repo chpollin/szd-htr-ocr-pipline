@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.630",
+    "title": "Victor Fleischer an Stefan Zweig, 1929-08-07, SZ-SAM/AK.60",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.630/IMG.1",
+      "https://gams.uni-graz.at/o:szd.630/IMG.2",
+      "https://gams.uni-graz.at/o:szd.630/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Victor Fleischer an Stefan Zweig, 1929-08-07, SZ-SAM/AK.60\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.60\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.120385+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "GARDA 8.8.29 Fleischer",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Notiz am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn und Frau\nDr Stefan Zweig\nKapuzinerberg 5\nSalisburgo\nSalzburg Austria\n\n7. VIII. 29\nMeine lieben Salzburger Nocken,\ndie italienischen Poste sind auch mich\nzu veralten. Wir grüßen Euch\nallerherzlichst\n\nVictor\nAlberto",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich. Briefmarken (50 Centesimi, 2x 5 Centesimi) und Poststempel vorhanden. Die Zeile 'zu veralten' ist schwer lesbar, möglicherweise 'zu verwalten' oder 'zu veralten' (im Sinne von 'veraltet')."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig. Insbesondere das Wort 'veralten' in der zweiten Zeile des Textkörpers ist aufgrund der kursiven Schreibweise schwer eindeutig zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 241,
+    "total_words": 35,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

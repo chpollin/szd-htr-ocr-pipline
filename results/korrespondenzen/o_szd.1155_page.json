@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1155",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1155/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1155/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.14\n- Signatur: SZ-SAM/B11.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.442642+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "liebe Frau Meingast,\nvor einigen Tagen sandte ich Ihnen\ndie Fortsetzung und werde bald\nwieder senden. Bitte schicken\nSie mir die Abschrift Paris 16 ième\nRue Chalgrin 16. Hoffentlich geht\nes Ihnen gut. Von meinem Mann\nhabe ich gute Nachrichten vom\nSchiff nach Lissabon. Bitte senden\nSie mir auch etwas leeres Papier\nmit, jedesmal etwa 10 Bogen oder",
+      "notes": "Die Handschrift ist gut lesbar. Die Tinte ist violett."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "wenn es mit dem\nGewicht ausgeht. Sollten\nSie zu wenig haben soll\nhie es Ihnen aus der\nrechten Lade des oberen\nSchreibtisch zukommen\nlassen. Ich bin hier recht\nzufrieden, es ist schön\nwarm u. die Stadt trotz\nalles Regierungsunruhe[?]\nin vollsten Frieden. Dank\n\n[Adressseite:]\nZweig\n16 Rue Chalgrin\n\nAutriche\nFrau Anna\nMeingast\nSalzburg\nLinzergasse\n(Haubnerhaus)",
+      "notes": "Die Adressseite enthält einen Poststempel (24 JANV 38) und Briefmarken. Das Wort 'Regierungsunruhe' ist aufgrund der Schriftführung etwas unsicher."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die wenigen unsicheren Stellen sind durch Kontext (Postkarten-Format) gut erschließbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 707,
+    "total_words": 113,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1368",
+    "title": "Brief an Karl Klammer aus dem Jahr 1902, SZ-SEF/B6.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1368/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1368/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1368/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Karl Klammer aus dem Jahr 1902, SZ-SEF/B6.8\n- Signatur: SZ-SEF/B6.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:29.307202+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "color_chart",
+      "text": "STEFAN ZWEIG\nWIEN\nI. RATHHAUSSTRASSE 17\n\nBerlin SW 46\nBernburgerstrasse 20\n\nSehr geehrter Herr Klammer,\nich weiß nicht mehr ob Sie sich Ihres\nJournalcollegen erinnern werden, der Ihnen\nheute schreibt, ich hoffe aber die Angelegenheit\nselbst wird zu meinen Gunsten sprechen. Ich plane\nein Einverständnis mit meinem Verleger ~~der~~\nSchuster & Löffler eine Verlaine-Anthologie\nzu 1 Mark, die die besten Übertragungen der\nbesten Übersetzer auswählt. Nun verweist mich\nHerr Richard Dehmel auf Sie und ich möchte\nSie 1) um Ihre Autorisation zum Nachdruck\n2) um frdl. Angabe, wann und wo die Texte\nerschienen, eventuell um eine Abschrift ersuchen.\nIch hoffe da keine Fehlbitte getan zu haben\nund verbleibe mit ergebenen Grüßen\n\nStefan Zweig",
+      "notes": "Die Transkription bezieht sich auf den Text in IMG_1.jpg. IMG_2.jpg ist die leere Rückseite. IMG_3.jpg ist eine Wiederholung von IMG_1 mit Farbskala."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist in diesem Dokument klar und deutlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 734,
+    "total_words": 113,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.569",
+    "title": "Steigerwald an Stefan Zweig, 1930-06-07, SZ-SAM/AK.275",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.569/IMG.1",
+      "https://gams.uni-graz.at/o:szd.569/IMG.2",
+      "https://gams.uni-graz.at/o:szd.569/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Steigerwald an Stefan Zweig, 1930-06-07, SZ-SAM/AK.275\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.275\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.741340+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Oberammergau vom Bärenbad\n7.6.30 Heigerwald",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text 'Oberammergau vom Bärenbad', handschriftliche Ergänzung '7.6.30 Heigerwald' in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nEigentum und Verlag Heinrich Uhlshmid, Oberammergau\n\n[...]\nherzl. ich in Ihr recht\nso werte mein grüß. zu\nimmer sehr fest zu wünsche.\nEs ergebe\nPeter Heigerwald",
+      "notes": "Rückseite der Ansichtskarte. Adressfeld gedruckt, handschriftliche Adresse und Nachricht in violetter Tinte. Briefmarken 'PASSIONSSPIELE Mai-September 1930 OBERAMMERGAU' (5 Reichspfennig, 2x). Poststempel teilweise lesbar. Der Text im unteren Bereich ist kursiv und teilweise schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die Rückseite der Postkarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere die Grußformel und der Satzbau im unteren Bereich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 252,
+    "total_words": 38,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

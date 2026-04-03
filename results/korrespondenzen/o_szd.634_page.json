@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.634",
+    "title": "Annie Francé-Harrar an Stefan Zweig, 1924-04-20, SZ-SAM/AK.64",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.634/IMG.1",
+      "https://gams.uni-graz.at/o:szd.634/IMG.2",
+      "https://gams.uni-graz.at/o:szd.634/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Annie Francé-Harrar an Stefan Zweig, 1924-04-20, SZ-SAM/AK.64\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.64\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.474559+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kirchberg a. d. Jagst v. Osten gesehen\n20.IV.24.\nFrancé",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text mit handschriftlicher Datierung und Signatur."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Kirchberg, den 20. IV. 24\nSehr verehrter Herr Doktor!\nSchönsten Dank für den\nreizenden Beitrag, den ich\nmit Interesse las. Wir\nsind 1. P. [?] müde in Kirchberg\nund freuen uns auf baldige\nneue Freude und Erholung\nverspüren. Augenblicklich\nbefinden wir uns noch in\nder Arbeit, um noch ein\npaar Arbeiten zu schaffen.\nBesten Dank und beste Grüsse\nIhr Francé",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Poststempel 'KIRCHBERG A.D. JAGST 21 APR 24'. Briefmarke 5 Pfennig."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Keine Transkription erforderlich."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere im Mittelteil der Postkarte. '1. P.' ist eine unsichere Lesung.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 408,
+    "total_words": 69,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

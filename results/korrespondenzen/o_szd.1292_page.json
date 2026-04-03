@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1292",
+    "title": "Ansichtspostkarte an Maria Kaemmerer vom 2. August 1927, SZ-SHB/B4.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1292/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1292/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1292/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Maria Kaemmerer vom 2. August 1927, SZ-SHB/B4.3\n- Signatur: SZ-SHB/B4.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:26.261522+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "NOCH STEHT MANCH\nALTES HAUS VER\nEHRT ALS SEINES\nWIRKENS STAETTE\n\nKEIN NEUES WARD\nERBAUT DAS NICHT\nSEIN LIED DURCH\nKLUNGEN HAETTE",
+      "notes": "Vorderseite der Ansichtspostkarte mit Beethoven-Motiv und Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "G~~e~~ehrte gnädige Frau\nder Alte Salzburger\n~~Sommer~~ möge werden\n~~späten~~ Dank für das\nwundervolle und er-\n~~f~~ühlig bewahrte Bildnis\nund Ihre guten Worte ent-\nschuldigen. herzlichst\nIhr ergebener\nStefan Zweig",
+      "notes": "Rückseite der Postkarte. Handschrift von Stefan Zweig in violetter Tinte. Die durchgestrichenen Wörter sind im Original deutlich erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Frau\nMaria Kaemmerer\nHamburg\nInnocentiastrasse 35",
+      "notes": "Adressseite der Postkarte. Der Name der Straße ist 'Innocentiastrasse' (in Hamburg üblich). Poststempel: SALZBURG 2, -2 VIII 27."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der Durchstreichungen und der kursiven Handschrift gut lesbar. Die Ortsangabe 'Innocentiastrasse' wurde aufgrund der bekannten Hamburger Adresse ergänzt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 392,
+    "total_words": 58,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

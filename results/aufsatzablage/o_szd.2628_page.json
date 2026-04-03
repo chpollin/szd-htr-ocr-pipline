@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2628",
+    "title": "Franck, Hans",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA55.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2628/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2628/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, violettes Durchschlagpapier",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Franck, Hans\n- Signatur: SZ-AAP/W-AA55.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript und\n                                          Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, violettes Durchschlagpapier\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:49.515414+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Franck, Hans\nEin Godiva-Drama\nHans Franck (zu seinem 50. Geburtstag)\nHerzog Heinrichs Heimkehr\n\n\nHans Franck\nHerzog Heinrichs Heimkehr\n\nEin Godiva Drame\nZum fünfzigsten Geburtstag",
+      "notes": "Kombination aus handschriftlichen Notizen in violetter Tinte und maschinengeschriebenen Zeilen am unteren Rand. Die Handschrift scheint eine Auflistung von Werktiteln zu sein."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Hans Franck\nHerzog Heinrichs Heimkehr\n\nEin Godiva Drame\nZum fünfzigsten Geburtstag",
+      "notes": "Ausschnitt des Dokuments, zeigt den unteren Teil mit dem Typoskript."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Ein Godiva Drame\nZum fünfzigsten Geburtstag",
+      "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text des Typoskripts (spiegelverkehrt)."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Franck, Hans\nEin Godiva-Drama\nHans Franck (zu seinem 50. Geburtstag)\nHerzog Heinrichs Heimkehr",
+      "notes": "Ausschnitt des Dokuments, zeigt den oberen handschriftlichen Teil."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Ein Godiva Drame\nZum fünfzigsten Geburtstag",
+      "notes": "Rückseite des Dokuments, zeigt den durchscheinenden Text des Typoskripts (spiegelverkehrt)."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Franck, Hans\nEin Godiva-Drama\nHans Franck (zu seinem 50. Geburtstag)\nHerzog Heinrichs Heimkehr\n\n\nHans Franck\nHerzog Heinrichs Heimkehr\n\nEin Godiva Drame\nZum fünfzigsten Geburtstag",
+      "notes": "Gesamtansicht des Dokuments mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr klar lesbar, sowohl die Handschrift als auch das Typoskript weisen keine nennenswerten Beschädigungen oder Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 620,
+    "total_words": 84,
+    "language_detected": "",
+    "language_match": true
+  }
+}

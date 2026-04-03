@@ -1,0 +1,95 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1827",
+    "title": "Brief an Paul Heidelbach vom 23. November 1908, SZ-SAH/B1.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1827/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1827/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1827/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1827/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1827/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1827/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1827/IMG.7"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Paul Heidelbach vom 23. November 1908, SZ-SAH/B1.2\n- Signatur: SZ-SAH/B1.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.631792+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Brief von Stefan Zweig\nHerrn Redacteur Paul Heidelbach\n(„Hessenland“-Redaction)\n\nCassel\nZ. R.",
+      "notes": "Adressseite eines Briefumschlags. Handschriftlich. Poststempel 'DRESDEN NEUSTADT 24 11 08 8-9N' und Briefmarke 'DEUTSCHES REICH' vorhanden. Archiv-Signatur 'm 416' am linken Rand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefumschlags. Poststempel 'CASSEL 25 11 08 10-11V' vorhanden. Zwei Archiv-Löcher am rechten Rand."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Dresden 23. November 1908\n\nSehr geehrter Herr, ich konnte\nIhre freundliche Karte nicht per-\nsönlich beantworten, da ich hier\nam Königlichen Schauspielhaus die\nProben leite, doch haben Sie das\nvon einem Freunde gesandte Buch\nhoffentlich erhalten. Bei der Erst-\naufführung werde ich nicht hier\nsondern in Cassel sein und wür-\nde mich freuen, wenn ich dort so\nviel Genugtuung an Aufführung\nund Aufnahme fände, wie hier bei\nden -üngern und sich gelassenen\nProben. Ergebenst\nStefan Zweig",
+      "notes": "Brieftext, handschriftlich in violetter Tinte. Zwei Archiv-Löcher am linken Rand."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite, Rückseite des Briefbogens. Zwei Archiv-Löcher am rechten Rand."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite, Rückseite des Briefbogens. Zwei Archiv-Löcher am linken Rand."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite, Rückseite des Briefbogens. Zwei Archiv-Löcher am rechten Rand."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Leere Seite, Rückseite des Briefbogens. Farbskala und Grauskala für Archivierung oben und unten im Bild. Zwei Archiv-Löcher am rechten Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Passagen sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 575,
+    "total_words": 88,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2690",
+    "title": "Gustave Flaubert. Madame Bovary.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA51.3",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2690/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2690/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2690/IMG.3"
+    ],
+    "date": "27. IX. 1902",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Hamburg",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Hamburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "N. Hamb.\n                                 Ztg"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Gustave Flaubert. Madame Bovary.\n- Signatur: SZ-AAP/W-AA51.3\n- Datum: 27. IX. 1902\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:55.726733+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gustave Flaubert. Madame Bovary. Ein\nSittenbild aus der Provinz. Deutsch von Dr. Josef\nEttlinger. 2. Auflage. E. Pierson 1902.\nDie zweite Auflage dieses Meisterwerkes, die der ersten\num zehn Jahre verspätet nachfolgt, ist wohl eine günstige\nGelegenheit, auf dieses Buch hinzuweisen, das man heute\nziemlich wenig liest, bei der Lektüre vielleicht sogar recht\nduzendmäßig im Konflikt empfinden wird, weil es eben\nausgeschrieben worden ist, wie wenige Romane unserer Zeit.\nWie sehr es aber noch wahrhaftig und kulturspiegelnd ist,\nzeigt ein anderes Buch, das soeben in Paris erschienen ist\nund den seltsamen Namen „Le Bovarysme“ führt.\nDarin wird das Schicksal dieser eigentlich ganz unbedeuten-\nden Frau, die sich durch Lektüre emporgehoben fühlt in\nerträumte Sphären und über einer Welt zu sein glaubt,\nder sie doch angehört — dieser traurige Irrtum wird zum\nTypus, zum Gesetz erhoben und als aktuelle pathologische\nErscheinung ganzer Nationen ausgedeutet. Und sicherlich ist\nder Grundgedanke eines Individualitätswahnes — abgesehen\nvon der fast schon lächerlich wirkenden „unverstandenen\nFrau“ — der heute stärker als je die einzelnen beherrscht,\nohne begründet zu sein, ein dankbarer Vorwurf eines\nsozialethischen Buches. Einen solchen Konflikt aber, ehe\ner Allgemeinerscheinung geworden ist, in einer Person zu\nkondensieren, deutet schon die Meisterschaft eines Autors an,\ninsbesondere wenn eine solche Idee intuitiv zur These wurde,\nwie bei Flaubert, der einmal sagte: „Ich weiß, meine\nMadame Bovary lebt jetzt zu gleicher Zeit in zwanzig ver-\nschiedenen Orten Frankreichs.“ Und nur solche epische Werke,\ndie in dem Schicksal des Helden einen Typus und mit ihm\neine Kultur versinnbildlichen, bleiben für uns. Und man\nkann nicht oft genug auf sie zurückweisen.\n\nEs ist heute ziemlich bekannt, wie peinlich Flaubert\nseine Prosa feilte, um dem Stil den letzten wirkungsvollen\nGlanz zu geben und den Worten einen geheimen Rhythmus\neinzuhauchen, gleich Versen; die Anekdoten über diese\n„maladie de la perfection“ könnten Bände füllen, geben\naber zugleich mit dem Beweis höchster künstlerischer Gewissen-\nhaftigkeit eine Vorstellung von den Schwierigkeiten, die hier\neiner Ueberarbeitung entgegenarbeiten. Dr. Josef Ett-\nlinger, der ausgezeichnete Leiter des „Litterarischen\nEchos“, hat mit dieser revidierten Ausgabe ein Meisterwerk\ngegeben; wer Flaubert kennt, wird wissen, was mein Lob\nbedeutet, wenn ich sage, daß sie in Präzision des Ausdrucks\nund Feinheit der Nuancen hinter dem erlesensten Meister\nfranzösischer Prosa nirgends zurückbleibt.\n\nst. z—g.",
+      "notes": "Der Text ist ein Zeitungsausschnitt. Oben links befindet sich eine handschriftliche Annotation in violetter Tinte: \"27. IX. 02\". Der Text ist in Fraktur gesetzt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Der Zeitungsausschnitt ist hier erneut abgebildet, jedoch teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Annotation oben links wurde als solche identifiziert und in den Notes vermerkt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2554,
+    "total_words": 372,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

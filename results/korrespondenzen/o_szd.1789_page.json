@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1789",
+    "title": "Brief an Stefan Zweig vom 11. Mai 1938, SZ-AAP/B1.223",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1789/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1789/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 11. Mai 1938, SZ-AAP/B1.223\n- Signatur: SZ-AAP/B1.223\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.350702+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wohlgeboren\nHerrn Stefan Zweig\nLondon\n\nBUDAPEST, 1938 Mai 11\n\nDankend erhielten wir Ihre Rundschrift vom 9-ten Mai wessen\nInhalt wenn wir uns so ausdrücken dürfen, ein wenig\nunverständlich finden. Wir haben nämlich mit gleicher\nPost, von der Firma Schweizerisches Vereinssortiment\nOlten, ein Rundschreiben erhalten, in welchem uns die\nFirma mitteilt, dass sie die Zweig Bücher resp. die\nim Reichner Verlag erschienenen Bücher für die ganze\nWelt ausliefert.\n\nWir bitten also höflichst, sich an die Firma Schweizerisches\nVereinssortiment zu wenden, die Ihnen wahrscheinlich\nNäheres mitteilen kann.\n\nWas die Abrechnungen mit Herrn Reichner anbelangt, so haben wir\ndie Bücher vom Verlag fest gekauft, u. sind dieselben\nfolglich unser Eigentum. Was die Zahlungen anbelangt,\nso erhielten wir die Bücher von Volkmar aus Leipzig\nwohin wir auch unsere Schulden bezahlen müssen. Wir\nhätten nur an Hand eines gerichtlichen Verbotes das\nRecht, an Reichner, resp. an Volkmar die Zahlung zu\nverweigern.\n.1.",
+      "notes": "Typoskript auf Geschäftspapier der Firma Somló Béla. Die Ziffer '1' am Ende ist vermutlich eine Seitenzahl."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wir ersuchen um freundliche zur Kenntnissnahme von alldem,\nu. zeichnen mit\n\nvorzüglicher Hochachtung\nBÉLA SOMLÓ\n[Stempel: AUSLIEFERUNG AUSLÄNDISCHER VERLEGER\nBudapest, V., Dorottya u. 9]\n[Unterschrift: S. Somló?]",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in blauer Tinte. Der Stempel ist teilweise überlagert durch die Unterschrift."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift ist eine individuelle Handschrift, aber im Kontext der Firma Somló Béla gut zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1204,
+    "total_words": 174,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

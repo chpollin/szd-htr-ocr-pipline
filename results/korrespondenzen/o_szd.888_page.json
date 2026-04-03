@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.888",
+    "title": "Postkarte an Frans Masereel vom 20. Mai 1919, SZ-LAS/B1.10",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.888/IMG.1",
+      "https://gams.uni-graz.at/o:szd.888/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 20. Mai 1919, SZ-LAS/B1.10\n- Signatur: SZ-LAS/B1.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:40.831359+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG 5.\n\n\n\n\nFrans Masereel\n\nGent (Schweiz)\n8, rue de l'Aubepine\n\nSuisse romande",
+      "notes": "Adressseite einer Postkarte. Gedruckter Absender oben links. Handschriftliche Empfängeradresse. Poststempel 'SALZBURG 20. V. 19' und Zensurstempel 'Zensuriert Zensurstelle 48 FELDKIRCH'. Briefmarke 'KAISERLICHE KÖNIGLICHE ÖSTERREICHISCHE POST 10 HELLER'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mon cher Frans, je viens de recevoir\nles exemplaires que je recevrai\na Heller personnellement : il t'enverra\nle montant immédiatement. Des mes\ntrois ex. de ~~la~~ ~~collection~~ livre d'heure\nj'ai donne un ici a Hermann Bahr\nnotre plus grand critique : il en est\nenthousiasmé. Je crois Heller comman-\ndera des exemplaires et fera une ex-\nposition dès que la possibilité sera\ndonnée.\nJe suis très ému de la mort de\nMadame R., car je sais, combien\nil était attachée a ~~sa~~ famille.\nEt comme il sera seule la bas!\nJe t'ecrirai bientôt! Fidèlement\nton\nStefan Zweig",
+      "notes": "Handschriftlicher Text in violetter Tinte. Die Zeile 'Des mes trois ex. de la collection livre d'heure' enthält Durchstreichungen. 'Madame R.' bezieht sich vermutlich auf eine verstorbene Person. Die Handschrift ist gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die Durchstreichungen wurden gemäß den Regeln erfasst.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 659,
+    "total_words": 111,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

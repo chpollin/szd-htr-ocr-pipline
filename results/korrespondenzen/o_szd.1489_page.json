@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1489",
+    "title": "Brief an Suzanne Czech vom 16. Mai 1940, SZ-AAP/B3.16",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1489/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1489/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1489/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Suzanne Czech vom 16. Mai 1940, SZ-AAP/B3.16\n- Signatur: SZ-AAP/B3.16\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:37.353212+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                16th May 1940.\n\nInternational Copyright Bureau,\nDewar House, Haymarket,\nLondon S.W.1.\n\nDear Mrs. Czech,\n\n                I thank you for your letter of\nMay 15th and your proposition with regard to\nthe placing of the play \"Legende eines Lebens\"\nin the United States. I gratefully accept your\nwillingness to reduce your commission in this\nparticular deal to 7 1/2 percent, and I also agree\nwith the draft of your proposed letter to Dr.\nHorch which you will please send off as soon\nas possible. I repeat his address: Dr. Franz\nHorch, 143 West 73rd Street, New York City .\n\n                I also acknowledge receipt of\nyour cheque for £ 13.3.10 as refund on your\ncommission for the amount mistakenly sent you\nby M. Alfred Bloch.\n\n                                Sincerely yours,\n\n\nStefan Zweig",
+      "notes": "Typoskript auf Briefpapier. Oben rechts handschriftliche Seitenzahl '38' in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung, über das Dokument gelegt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 854,
+    "total_words": 126,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

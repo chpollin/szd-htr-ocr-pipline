@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1775",
+    "title": "Brief an die Rechtsanwaltskanzlei H. Weisflog vom 4. Mai 1938, SZ-AAP/B1.209",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1775/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1775/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an die Rechtsanwaltskanzlei H. Weisflog vom 4. Mai 1938, SZ-AAP/B1.209\n- Signatur: SZ-AAP/B1.209\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.425113+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4.Mai 1938.\n\nRechtsanwaltskanzlei H.Weisflog,\nTalacker 48,\nZürich 1.\n\nSehr geehrte Herren!\n\nSie schreiben mir:\"Namens des Herrn Herbert\nReichner, des Alleininhabers des gleichnamigen Verlages,\nderzeit in Zürich, St.Peterstrasse 18....\"\nDazu muss ich bemerken, dass mir dieser Satz\nstilistisch nicht ganz klar ist, nämlich ob sich das \"der-\nzeit in Zürich, St.Peterstr.18\" auf die Person des Herrn\nReichner oder auf den Verlag Herbert Reichner bezieht.\nBeide Ortsangaben sind übrigens gleich unrichtig, denn\nHerr Reichner hält sich nicht persönlich in St.Peterstr.\n18 auf und ist dort nicht wohnhaft, sondern verbirgt\nsich (aus mir unbekannten Gründen) hartnäckig unter der\nDeckadresse \"hauptpostlagernd\". Ein Verlag wiederum kann\nsich nicht \"derzeit\" an irgendeinem Orte aufhalten, son-\ndern muss nach den internationalen Verlagsgesetz einen\nständigen Wohnsitz mit steuerrechtlicher Einsicht in sei-\nne Buchführung und staatliche und behördliche Konzession\nhaben. Der Sitz des Verlages Herbert Reichner ist Wien,\nAegidigasse 6,während ihm in der Schweiz trotz wieder-",
+      "notes": "Typoskript auf Briefpapier. Die Unterstreichungen im Text sind im Original vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "holter Ansuchung eine Uebersiedlung des Verlags oder auch\nnur die Ausübung regulärer verlegerischer Tätigkeit ver-\nweigert worden ist. Ein blosser Telefonanruf bei dem Schwei-\nzer Verlegerverein, an den ich mich übrigens wegen dieser\nbewussten Verwechslung selber wenden werde, wird Ihnen be-\nstätigen, dass die Uebersiedlung des Verlages Herbert Reich-\nner nach der Schweiz abgewiesen worden ist und eine Verle-\ngung des Verlags an seine bloss formelle Niederlassungs-\nadresse nicht stattgefunden hat.\n\nMeine sämtlichen Verträge habe ich einzig mit\ndem in Wien konzessionierten Verlag Herbert Reichner ab-\ngeschlossen und sie sind sämtlich und ausschliesslich vom\nVerlag {loco} in Wien gegengezeichnet. Ich sehe deshalb nicht ein,\nweshalb ich einen Schweizer Rechtsanwalt namhaft machen\nsollte, nachdem meine rechtmässige Kündigung der in Wien\nabgeschlossenen Verträge in Wien erfolgt ist. und die\nAngelegenheit damit fürs mich vollkommen\nerledigt ist.",
+      "notes": "Typoskript, fortgesetzt von Seite 1. Die handschriftlichen Ergänzungen in violetter Tinte sind: \"loco\" über dem Wort \"Verlag\" in Zeile 11 sowie der Satz \"und die Angelegenheit damit fürs mich vollkommen erledigt ist.\" am Ende des Textes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf Seite 2 sind deutlich erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2020,
+    "total_words": 281,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

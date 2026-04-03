@@ -1,0 +1,91 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2458",
+    "title": "Gedichte. Von Maurice Maeterlinck.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA132.2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2458/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2458/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2458/IMG.3"
+    ],
+    "date": "15.\n                                 7. 1908",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Wien",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Wien"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ]
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Gedichte. Von Maurice Maeterlinck.\n- Signatur: SZ-AAP/W-AA132.2\n- Datum: 15.\n                                 7. 1908\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:23.038188+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gedichte. Von Maurice Maeterlinck. Verdeutscht\nvon K. L. Ammer und Friedrich von Oppeln-Broni-\nkowski. Jena 1906, Eugen Diederichs. 70 S.\nM. 2,— (3,—).\nAlbert Model erzählt in einem seiner Bücher\neine hübsche Anekdote von den literarischen Anfängen\nMaurice Maeterlincks. Es war in einem Jesuiten-\ngymnasium in Gent, demselben Gymnasium, dem\nauch Verhaeren und Rodenbach entwuchsen, wo die\nPatres ihren Schülern die Aufgabe stellten, über\nbestimmte Themen Gedichte zu verfassen. Merk-\nwürdigerweise war es nun nicht Maeterlinck, der\nden ersten Preis bekam, sondern ein anderer Schüler,\nCharles van Lerberghe. Ich für meinen Teil kann\nden ~~guten Patres~~ nicht so unrecht geben, und noch\n\nheute schätze ich die Gedichte des Charles van Ler-\nberghe höher ein als die Maeterlincks, wie sehr\nauch Maeterlinck als Persönlichkeit über die Grenze\nseiner anfänglichen Begabung hinausgewachsen ist.\nDie hier vereinigten Gedichte sind vor zwölf Jahren\nzuerst erschienen, ganz im geheimen, und wären auch\nwohl weiter in ihrem Dunkel stehen geblieben, hätte\nnicht der Ruhm der späteren Werke so hell auf sie\nzurückgestrahlt. Wenn man sie heute liest, so fällt\neinem eigentlich weniger ihre Schönheit auf —\ndenn Schönheiten überraschen nicht mehr bei einem\nWerke Maeterlincks — sondern ihre Armut, ihre\nBlässe und Krankhaftigkeit. Es ist nicht das Licht\ndes Lebens darin, nicht Sonne und erhellte Luft,\nsondern eine kühle, lautlose Atmosphäre, wie hinter\nGlas oder unten im Spiegel eines stillen, grünlichen\nWassers. Die Bilder haben kein Blut in sich, etwas\nFischhaftes, kalt Gleitendes, Unruhiges und Vorbei-\nflimmerndes ist ihnen eigen, und nur manchmal eine\nleise Melodie, wie von Rauschen in der Ferne. Die\npaar Chansons allein, die nicht von der Artistik her\nkamen, sondern vom Volkslied, haben noch heute Be-\ndeutung für sein Werk. Der Lyrismus hat im Werke\nMaeterlincks keine Eigenbedeutung, sondern ist erst\nsublimiert in die dramatische Form zu voller Aus-\ndrucksgewalt gelangt.\nVon der Übertragung wäre nur zu sagen, daß sie\nsich auf das glücklichste bemüht hat, die kristallene Art\nder Gedichte zu bewahren, und sie haben alle auch im\nDeutschen den leisen, seinen Klang des Originals. Hier\nwie immer bei den Übertragungen Maeterlincks merkt\nman, wie stark germanisch doch seine Veranlagung ist,\ndenn manchem Gedichte gerät die deutsche Sprache\nsogar zum Gewinn. Was allerdings den beiden Über-\nsetzern zu ganz besonderer Ehre angerechnet sein soll.\nWien Stefan Zweig",
+      "notes": "Zeitungsrezension, gedruckt in Fraktur. Der Text ist vollständig und gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "berghe höher ein als die Maeterlincks, wie sehr\nauch Maeterlinck als Persönlichkeit über die Grenze\nseiner anfänglichen Begabung hinausgewachsen ist.\nDie hier vereinigten Gedichte sind vor zwölf Jahren\nzuerst erschienen, ganz im geheimen, und wären auch\nwohl weiter in ihrem Dunkel stehen geblieben, hätte\nnicht der Ruhm der späteren Werke so hell auf sie\nzurückgestrahlt. Wenn man sie heute liest, so fällt\neinem eigentlich weniger ihre Schönheit auf —\ndenn Schönheiten überraschen nicht mehr bei einem\nWerke Maeterlincks — sondern ihre Armut, ihre\nBlässe und Krankhaftigkeit. Es ist nicht das Licht\ndes Lebens darin, nicht Sonne und erhellte Luft,\nsondern eine kühle, lautlose Atmosphäre, wie hinter\nGlas oder unten im Spiegel eines stillen, grünlichen\nWassers. Die Bilder haben kein Blut in sich, etwas\nFischhaftes, kalt Gleitendes, Unruhiges und Vorbei-\nflimmerndes ist ihnen eigen, und nur manchmal eine\nleise Melodie, wie von Rauschen in der Ferne. Die\npaar Chansons allein, die nicht von der Artistik her\nkamen, sondern vom Volkslied, haben noch heute Be-\ndeutung für sein Werk. Der Lyrismus hat im Werke\nMaeterlincks keine Eigenbedeutung, sondern ist erst\nsublimiert in die dramatische Form zu voller Aus-\ndrucksgewalt gelangt.",
+      "notes": "Ausschnitt des Textes unter einer Farbskala/Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Druck handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3700,
+    "total_words": 564,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

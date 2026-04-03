@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.685",
+    "title": "Camill Hoffmann an Stefan Zweig, SZ-SAM/AK.87",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.685/IMG.1",
+      "https://gams.uni-graz.at/o:szd.685/IMG.2",
+      "https://gams.uni-graz.at/o:szd.685/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Camill Hoffmann an Stefan Zweig, SZ-SAM/AK.87\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.87\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:24.594395+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LE ROUSSILLON\n529. - BANYULS-SUR-MER. - HALAGE DE BATEAU DE PÊCHE",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Fischern, die ein Boot an Land ziehen. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber! Ich habe mich bis an den\nletzten Ort von der spanischen Grenze ver-\nklagen u. versuche, nicht an Berlin zu\ndenken. Auf der Herreise habe ich Dei-\nnen „Volpone“ gelesen. Ein grosser, saf-\ntiger Spass! Als Stilkomödie voll-\nkommen. Ich bin ungebildet genug, um\nnicht zu erkennen, wo Ben Jonson\naufhört u. St. Z. anfängt. Vom Erfolg\nauf den Bühnen bin ich überzeugt.\nHerzlichst Dein\nCamill.\n\nStefan Zweig\nSalzburg\nKapuzinerberg\n\nÖsterreich",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht von Camill Hoffmann an Stefan Zweig. Poststempel 'BANYULS-SUR-MER 15 9' und eine französische Briefmarke (75c) sind vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Dies ist eine Aufnahme der Postkarte zusammen mit Archiv-Hilfsmitteln (Grauskala und Farbkarte). Die Postkarte selbst ist identisch mit der in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Abkürzungen 'u.' für 'und' sowie 'St. Z.' für 'Stefan Zweig' sind im Kontext eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 509,
+    "total_words": 83,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.399",
+    "title": "Lavinia Mazzucchetti an Stefan Zweig, 1931-12-06, SZ-SAM/AK.119",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.399/IMG.1",
+      "https://gams.uni-graz.at/o:szd.399/IMG.2",
+      "https://gams.uni-graz.at/o:szd.399/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lavinia Mazzucchetti an Stefan Zweig, 1931-12-06, SZ-SAM/AK.119\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.119\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.775309+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gressoney - La Trinité - Tramonto a Orsia (m. 1802)",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Gressoney 6-12-31\n\nfrane\nSaluti\nDevoti\nLavinia Mazzucchetti\n\nHerrn\nD. Stefan Zweig\nSalzburg\nAustria\nKapuzinerweg 2",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text. Enthält einen violetten Stempel 'Grand Hôtel Thedy GRESSONEY-LA TRINITÉ (Valle d'Aosta)' sowie zwei Briefmarken (Poste Italiane 30 Cent)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte befindet sich die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die handschriftlichen Einträge auf der Postkarte sind gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 165,
+    "total_words": 25,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1372",
+    "title": "Briefkarte an Richard Specht ohne Datum, SZ-SEF/B9.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1372/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1372/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1372/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Richard Specht ohne Datum, SZ-SEF/B9.1\n- Signatur: SZ-SEF/B9.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:29.647866+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG 5\n\nLieber Freund, ich fahre morgen für paar Tage nach Mün-\nchen, wo ich auch die Gedächtnisrede für R. M. Rilke halte.\nkomme dann noch einmal nach Salzburg und will dann\nirgendwohin zur Arbeit, immer noch von Dankbarkeit für\ndeine so große und aufopfernde Mühe begleitet. den Privat-\ndruck wird wahrscheinlich die Insel vornehmen, was uns auch\nlieber wäre, ich lasse jedenfalls inzwischen Ehrenamtlichen-\nabschriften machen. vielleicht begegne ich in München verle-\ngerischen Menschen in deiner Sache — mir liegt das sehr am",
+      "notes": "Die Transkription umfasst die Vorderseite der Postkarte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herzen und ich habe es mir zu einer Pflicht gemacht, dir von den\nephemeren Anfragen zum Buch hinzudrängen. du musst mir einmal\neine Liste zusammenstellen, was du (außer Biografien) hin wolltest,\nalle Verleger wollen Ideen, also Serien oder Zusammenstellun-\ngen. sie produzieren selbst nichts, man muss sie drängen und\nbefreien zugleich, indem man ihnen anregt. vielleicht fällt dir\neinmal etwas ein, das noch fehlt (auf musikalischem oder litera-\nrischem Gebiete) — dann sage es mir sofort. ich bestehe\ndarauf, dass du deine ungeheuren darstellerischen Fähigkeiten\nnicht verzettelst — ich weiß, der Wille zum Werk ist bei dir\nda nur wo der Wille da auch ein Weg. ich denke oft, dank-\nbar und herzlich an dich, mit vielen Grüßen dein Stefan.\n\n[am linken Rand vertikal geschrieben:] an Richard Specht\n[unten links:] 194-7315/88",
+      "notes": "Die Transkription umfasst die Rückseite der Postkarte. Der Text am linken Rand wurde vertikal hinzugefügt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Herzen und ich habe es mir zu einer Pflicht gemacht, dir von den\nephemeren Anfragen zum Buch hinzudrängen. du musst mir einmal\neine Liste zusammenstellen, was du (außer Biografien) hin wolltest,\nalle Verleger wollen Ideen, also Serien oder Zusammenstellun-\ngen. sie produzieren selbst nichts, man muss sie drängen und\nbefreien zugleich, indem man ihnen anregt. vielleicht fällt dir\neinmal etwas ein, das noch fehlt (auf musikalischem oder litera-\nrischem Gebiete) — dann sage es mir sofort. ich bestehe\ndarauf, dass du deine ungeheuren darstellerischen Fähigkeiten\nnicht verzettelst — ich weiß, der Wille zum Werk ist bei dir\nda nur wo der Wille da auch ein Weg. ich denke oft, dank-\nbar und herzlich an dich, mit vielen Grüßen dein Stefan.\n\n[am linken Rand vertikal geschrieben:] an Richard Specht\n[unten links:] 194-7315/88",
+      "notes": "Dies ist eine Wiederholung der Rückseite (Scan 2) mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, der Kontext der Sätze ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2197,
+    "total_words": 347,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

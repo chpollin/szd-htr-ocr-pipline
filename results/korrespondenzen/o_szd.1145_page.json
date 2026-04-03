@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1145",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1145/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1145/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.5\n- Signatur: SZ-SAM/B10.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.829174+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 10. März 1937.\n\nLiebe Frau Meingast!\n\nIch bestätige mit bestem\nDank den Erhalt Ihres Briefes und des Pakets\nmit Vertragsabschriften und Blättern für das\nHauptbuch.\n\nAuf das Couvert des letz-\nten Briefes schrieb ich aussen, dass Sie,\nfalls noch ein verfügbares Exemplar von der\nBiographie von Specht in S. ist, es bitte an\nHerrn G.M.Jadhav, 55 Girgam Road, Bombay\nsenden wollen. Ich weiss nicht, ob Sie diese\nNotiz gesehen haben.\n\nDie Verträge, wegen de-\nrer ich Sie anfragte, habe ich nicht hier er-\nhalten. Sicher ist jedoch, dass der Betrag\nvon 300.- Gulden für die holländ. Maria Stuart\nnur eine Anzahlung war und Prozente gezahlt",
+      "notes": "Der Text bricht am Ende der Seite mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "werden. Wegen der näheren Bedingungen frage\nich wohl am besten beim Verlage selbst an.\nVon Binoza, Zagreb habe ich auch nichts mehr\ngehört. Mondadori hat für 1936 bezahlt, Sper-\nling & Kupfer die Aussenstände von 1935 und\neinen Teil des Honorars von 1936.\n\nSonst ist nichts zu be-\nrichten. Falls sich noch etwas ergibt,\nschreibe ich am Monatsende.\n\nMit besten Grüssen\n\nIhre\nLotte Altmann\n\nBitte geben Sie mir die Adresse jener Zeit-\nschrift \"Unity\" an, damit ich von hier aus\nschreiben kann.\n\nLiebe Frau Meingast, viele herzliche\nGrüsse!",
+      "notes": "Der letzte Satz ist handschriftlich in violetter Tinte hinzugefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Ergänzung am Ende ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1182,
+    "total_words": 195,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1354",
+    "title": "Kuvert an Franz Theodor Csokor aus dem Jahr 1908, SZ-SEF/B13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1354/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1354/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1354/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Kuvert an Franz Theodor Csokor aus dem Jahr 1908, SZ-SEF/B13\n- Signatur: SZ-SEF/B13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:28.341674+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Franz Theodor Czokor\nSchriftsteller\n\nMödling bei Wien\nJasomirgottstraße 6\n\n1911-1912",
+      "notes": "Vorderseite des Kuverts. Die Jahreszahl '1911-1912' am unteren Rand scheint eine spätere Archivnotiz zu sein. Briefmarken: 4x 5 Heller Franz Joseph I."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Stefan Zweig\nPalais Metternich\n\nBaden bei Wien",
+      "notes": "Rückseite des Kuverts. Poststempel: MÖDLING 12.VI.08.VIII."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Herrn Franz Theodor Czokor\nSchriftsteller\n\nMödling bei Wien\nJasomirgottstraße 6\n\n1911-1912",
+      "notes": "Identisch mit Seite 1, inklusive Farbskala und Graustufen-Referenz."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist sehr gut lesbar. Die Archivnotiz '1911-1912' steht im Widerspruch zum Poststempel '1908', wurde aber dennoch transkribiert, da sie auf dem Dokument vorhanden ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 226,
+    "total_words": 29,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.396",
+    "title": " Unidentified an Stefan Zweig, 1906, SZ-SAM/AK.116",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.396/IMG.1",
+      "https://gams.uni-graz.at/o:szd.396/IMG.2",
+      "https://gams.uni-graz.at/o:szd.396/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1906, SZ-SAM/AK.116\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.116\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.586004+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hauptstrasse.\n\nHauptplatz.\n\nHauptplatz.\nWiener Str.\n\nK. u. k. Oesterr. Militär-Realschule\n\nSchule und Kirche.\n\nTRUMAU",
+      "notes": "Vorderseite einer Ansichtskarte mit verschiedenen Ortsansichten von Trumau. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Correspondenzkarte\n\nI would be pleased, if you\nhad ocasion to adress ones\na letter to Trumau N° 142 near\nBaden. We are here for all the\nsummer. Many thanks for\nyour pretty postal cards.\nDo you go to Marienbad this\nyear? Dorel sends many regards\nand tells you, here in Trumau\nthere are but girls with fair hair\nand blue eyes. Cannot you\ncome to see them?\n~~amuse yourself much but~~ \nnot to much! Good bye!\nEmmy\n\nDr. Stefan Zweig\n\nLondon W\n84 Kensington Garden Square",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht in englischer Sprache. Briefmarken und Poststempel vorhanden. Der durchgestrichene Text ist lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung, dazwischen die bereits transkribierte Postkarte (Rückseite)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die englische Handschrift ist klar, trotz einiger orthographischer Eigenheiten der Schreiberin (z.B. 'ocasion', 'adress', 'to much').",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 583,
+    "total_words": 100,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

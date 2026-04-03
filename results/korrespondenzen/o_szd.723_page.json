@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.723",
+    "title": "Brief an den Herbert Reichner Verlag vom 12. November 1937, SZ-AAP/B1.131",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.723/IMG.1",
+      "https://gams.uni-graz.at/o:szd.723/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an den Herbert Reichner Verlag vom 12. November 1937, SZ-AAP/B1.131\n- Signatur: SZ-AAP/B1.131\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:26.159816+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "A B S C H R I F T\n-----------------\nRechtsanwalt Dr.Hermann Löw\nWien,I.,Herrengasse 21\n\nTitl.\nHerbert R e i c h n e r Verlag\nW i e n, VI.,\nStrohmayergasse 6.                               einschreiben.\n\nBetrifft: Stefan Zweig, Begegnungen              Wien, 12.November 1937\n\nMeine Mandantin, die Firma E.P.Tal & Co.,hat mir Ihr Schreiben vom 28.v.M.\nzur Erledigung übergeben. Ich teile Ihnen hierauf mit, dass ich Ihren\nStandpunkt nicht teilen kann.\n\nWenn Sie im Besitze einer Kopie des zwischen meiner Mandantin und Dr.Zweig\nabgeschlossenen Vertrages sind, müssen Sie wohl wissen, dass das Recht\nzur Herausgabe des im Verlag der Firma E.P. Tal & Co. erschienenen Bandes\n\"Fahrten\" bezw. der darin enthaltenen Gedichte und Essays in einer unbe-\ngrenzten Auflagezahl ausschliesslich ihr zusteht.Daran ändert auch nichts,\ndass Herr T a l seinerzeit gegen den Nachdruck von einzelnen Gedichten\nkeinen Einspruch erhob. Ich versage es mir, auf Ihre Ausführungen betreffend\ndas Recht des Insel-Verlages zu erwidern, da dies hier nicht am Platze ist.\nDa meiner Mandantin das Recht zur Herausgabe der genannten Essays von Herrn\nDr.Zweig seinerzeit eingeräumt wurde, hatte auch er nicht das Recht, Ihnen\nden Nachdruck zu gestatten.\n\nMeine Mandantin muss daher sowohl Ihnen als auch Herrn Dr.Zweig gegenüber\ndiesen berechtigten Standpunkt wahren.Da Sie an die kollegialen Motive\nmeiner Mandantin appellieren, muss ich Ihnen zu bedenken geben, dass es von\nIhnen keineswegs kollegial war, in das meiner Mandantin an den drei Essays\nzustehende Recht einzugreifen. Wenn sie nicht gleich mit allen gesetzlichen\nMitteln ihren Standpunkt durchsetzt, so geschieht dies nur aus kollegialen\nGründen.\n\nIch ersuche Sie daher, die Auflage sofort zurückzuziehen und die drei be-\nwussten Essays daraus zu entfernen.\n\nIn Erwartung Ihrer umgehenden Stellungnahme zeichne ich\n\n                                         hochachtungsvoll\n                                         Dr.Löw",
+      "notes": "Typoskript. Briefabschrift auf Geschäftspapier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1954,
+    "total_words": 276,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

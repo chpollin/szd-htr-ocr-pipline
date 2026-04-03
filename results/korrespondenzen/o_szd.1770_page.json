@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1770",
+    "title": "Brief an Herbert Reichner vom 28. April 1938, SZ-AAP/B1.204",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1770/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1770/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 28. April 1938, SZ-AAP/B1.204\n- Signatur: SZ-AAP/B1.204\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.128491+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "28.April 1938.\n\nHerrn Herbert Reichner,\nHauptpostlagernd,\nZürich\n\nSehr geehrter Herr Reichner!\n\nDa erwiesenemassen der Verlag Herbert Reich-\nner keinerlei Auskunft gibt über die Exemplare, die ohne sein\nWissen durch Sie zu Ihren Privatgunsten im Auslande verkauft\nwerden, muss ich als Miteigentümer zumindestens eines Gross-\nteils der Exemplare, die noch mit einer Perzentquote belastet\nsind, von Ihnen als dem Privatverkäufer sofortige und genaue\nAufstellung fordern, 1. welche Vorräte am 1. März, welche Vor-\nräte am 1. April sich im Ausland befanden, 2. wie vieler Sie\nsich davon bemächtigt haben, 3. wie viele Exemplare zwischen\ndiesen Daten neu hinausgeschafft wurden und wie viele meiner\nBücher noch verkauft. Es wird ferner im Einzelnen der Beweis\n(und nicht nur die blosse Behauptung) genau zu erbringen sein,\nwelche dieser Vorräte bezahlte Kommissionsexemplare waren und\nwelche davon noch nicht abgerechnet sind.\n\nWenn dies auch ein reines Privatgeschäft ist,\ndas Sie mit meinen Büchern betreiben und nichts mit dem regu-\nlären und buchhaltungsmässig kontrollierbaren Vertrieb des Ver-\nlages zu tun hat, so muss ich, da es sich sowohl um mein geisti-\nges Eigentum handelt als auch durch meine Perzentanteile um mein\nmaterielles, genaueste Aufstellung auch über Ihren Privathandel\nfordern. Ich ersuche um diese genaue Aufstellung bis Dienstag,\nden 3. Mai, sowie um diejenige Ihrer Zahlungsverpflichtungen aus\nden (meiner Meinung nach unberechtigterweise) an sich gerissenen\nExemplaren des Verlages. Ich würde mir sonst sofort Auskunft an\nanderer Stelle holen.\n\nIch bedaure, dass Sie mich zu solchen Massnahmen\nzwingen, erstens durch völlig unklare und vage Mitteilungen, wie\nviele Exemplare Sie ins Ausland gerettet haben. Sie meldeten\n\"rund viertausend\" nur als Leistung eines einzigen Tages, für\nwelche Sie zahlungspflichtig sind, während meiner Meinung nach\ndie Zahl der honorarpflichtigen Auslandsexemplare eine bedeutend\nhöhere ist. Das kann nur durch genaue Aufstellung und Vergleich\nmit den früheren Monatsabrechnungen festgestellt werden und die",
+      "notes": "Typoskript. Brief an Herbert Reichner. Die Seite endet mitten im Satz."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "vage und hinhuschende Art, indem Sie einerseits schreiben,\ndass riesige Vorräte plötzlich vorhanden seien und anderer-\nseits, dass Sie die alle (wann, an welchem Datum?) mir schon\nhonoriert hätten, flösst mir das grösste Misstrauen ein. Aus-\nserdem haben Sie versucht, wo ich ein klares Entgegenkommen bot,\ndie Tatsache meiner Kündigung anzufechten. Wir wollen also die\nSache bis zum Ende durchkämpfen und dies ist nur der erste\nSchritt. Bitte sich da auf meine Energie und Entschlossenheit\nzu verlassen.\n\nMit den besten Empfehlungen\n\nIhr sehr ergebener",
+      "notes": "Typoskript. Fortsetzung des Briefes. Die Unterschrift fehlt im Dokument."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2614,
+    "total_words": 382,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

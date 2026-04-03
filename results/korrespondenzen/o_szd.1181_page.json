@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1181",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B7.11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1181/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1181/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B7.11\n- Signatur: SZ-SAM/B7.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.146762+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Nom\net adresse\nde l'expéditeur\nZweig\nHotel du Cap, Antibes\n\nCARTE POSTALE\n\nADRESSE\nHerrn Dr Stefan Zweig\nfür Frau Meingast\nSalzburg\nKapuzinerberg 5",
+      "notes": "Die Adressseite der Postkarte. Der Name 'Zweig' und 'Hotel du Cap, Antibes' sind handschriftlich ergänzt. Der Empfänger ist 'Herrn Dr Stefan Zweig für Frau Meingast'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "3/II 31\n\nLiebe Frau Meingast,\nbitte teilen Sie „Narodno\nDelo“ mit, dass gegen\n100 Schilling auf 2 Jahre\ndas Uebertragungsrecht gegeben\nwerden kann.\nVielen Dank für alle Nachrichten\nund Besorgungen: es ist\nalles in bester Ordnung. Ich hoffe\nnun, dass Sie mit Willi keine Sorge\nmehr haben und die Unglücksnadel\nbereits entfernt ist. Wir haben hier\nherrliches Wetter und fühlen uns in\nCap d'Antibes wohl. Meine Frau\nlässt mit vielen herzlichen Grüßen\nbitten, Sie möchten\n\n[am linken Rand vertikal geschrieben:]\nfür Fotografien von Manuel bedanken.",
+      "notes": "Der Text ist in violetter Tinte geschrieben. Der vertikale Text am linken Rand ist eine Ergänzung zum Haupttext."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der kursiven Schreibweise. Die Ergänzung am Rand ist eindeutig dem Haupttext zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 691,
+    "total_words": 108,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

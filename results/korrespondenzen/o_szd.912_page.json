@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.912",
+    "title": "Brief an Frans Masereel vom 8. November 1926, SZ-LAS/B1.32",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.912/IMG.1",
+      "https://gams.uni-graz.at/o:szd.912/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 8. November 1926, SZ-LAS/B1.32\n- Signatur: SZ-LAS/B1.32\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:42.794019+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 8. November 1926.\n\nLieber Frans!\n\nIch sehe heute mit Freude einen Aufsatz von Holitscher über\nDich in der \"Literarischen Welt\" und freue mich über jedes Zeichen\nder Liebe, das Dir gilt. Du hast jetzt in Deutschland eine ganze\nWelt für Dich und solltest einmal herüber kommen, um Deine Wirksam-\nkeit zu spüren. Mache es doch möglich!\nHeute komme ich mit zweierlei: erstens schicke ich Dir meine\nBearbeitung des \"Volpone\", wobei ich Dir im Vertrauen mitteile, dass\nin dieser bösen Farce von Ben Jonson keine zehn Worte übrig geblie-\nben sind, sondern alles von mir ist. Das Stück hatte vorgestern ei-\nnen grossen Erfolg im Burgtheater und wird jetzt viel gespielt wer-\nden. Ich habe ein sicheres Vorgefühl, dass es Dir gefallen wird,\nweil es vehement unter einer scheinbaren Sorglosigkeit ist. Bei der\nAufführung haben sich die Leute mehr an das Heitere gehalten, was\nnatürlich dem Erfolge sehr gut war, mir ist daran wichtig die Satire,\ndie unbarmherzig gegen die Zeit geht. Lies es und habe möglichst Dei-\nne Freude daran. Meine Novellen hast Du hoffentlich erhalten.\nUnd nun mein lieber Freund, - erschrick nicht!- eine\ngeschäftliche Angelegenheit. Du wolltest seinerzeit einen Holzschnitt\nvon meinem holden Antlitz machen und dieser Wunsch ist jetzt von drei\nSeiten rege geworden, erstens möchte mein Verlag einen haben, zwei-\ntens soll jetzt in Russland eine Gesamtausgabe meiner Werke erschei-\nnen (die Novellen sind in vielen Tausenden verbreitet, manche bei",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Ergänzungen (hier keine, nur Text). Briefkopf gedruckt. Stempel am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "drei Verlegern zugleich erschienen) und da möchte ich statt einer\nFotografie einen Holzschnitt von Dir. Nun ist es zu umständlich da\neigens nach Paris zu kommen, aber erstens hast Du mein Gesicht, wie\nich Dich kenne, gut in Erinnerung, dann wurden vor zwei Tagen in\nWien zwei ausgezeichnete Fotografien von mir gemacht, die ich Dir\nschicke. Könntest Du sie, mein Lieber, baldigst anfertigen? Ich kann\nDir {dank} der Vereinbarung mit dem Verlag dafür 200 Mark (zweihundert)\nzusprechen, im Notfall sogar mehr.\nIch weiss, Du bist ein geplagter Mann und ich wende mich\neigentlich schweren Herzens an Dich, aber ich kenne andererseits\nDeine gute Freundschaft und weiss, {so} wie ich Deinem Werk, auch Du\ndem meinen gern verbunden bist und wir uns einer des andern nicht\nschämen.\n\nHerzlichst Dein alter getreuer\n\nStefan\n\nGrüsse Deine Frau und Charlotten",
+      "notes": "Typoskript mit handschriftlichen Einfügungen (violette Tinte). Unterschrift und Grußformel handschriftlich. Exlibris-Stempel am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift zuzuordnen und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2339,
+    "total_words": 374,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

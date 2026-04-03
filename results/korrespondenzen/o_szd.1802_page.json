@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1802",
+    "title": "Brief an Stefan Zweig vom 16. Mai 1938, SZ-AAP/B1.236",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1802/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1802/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1802/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1802/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 16. Mai 1938, SZ-AAP/B1.236\n- Signatur: SZ-AAP/B1.236\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.390660+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "DR W. STAUFFACHER\nRECHTSANWALT\nTELEPHON 33.503\nPOSTCHECK VIII. 9754\nTelegramme: Stauffacherjur Zürich\n\nZÜRICH, den 16. Mai 1938.\nST. PETERSTRASSE 18\n\nHerrn Dr. St. Z w e i g,\n\nHallam Street 49,\n\nL O N D O N W 1.\n==========================\n\nSehr geehrter Herr Doktor,\n\nSoeben erhalte ich Ihr Schreiben vom 14. ds. nebst Bei-\nlage; mit Rücksicht auf unsere persönlichen angenehmen Bezie-\nhungen gebe ich Ihnen die gewünschte Auskunft gerne, bitte Sie\naber, sie vertraulich zu behandeln, da ich es in meiner Eigen-\nschaft als Angestellter des Herrn Reichner tue. Die Transak-\ntionen, welche Herr Reichner über den zürcher Verlag in letzter\nZeit zu führen scheint, sind mir nicht bekannt, da Herr Reich-\nner mich davon nicht informiert hat. Indessen ist Herr Reich-\nner nicht verpflichtet, mich zu informieren, denn ich bin eben,\nwas Sie anscheinend übersehen, nur Prokurist, und Inhaber auch\nder zürcher Firma ist Herr Reichner, d.h. er ist der vollkom-\nmen Handlungsfähige und ich bin nur beschränkt handlungsbe-\nvollmächtigt, und zwar intern nur nach den Weisungen des\nFirmainhabers, wie dies der Stellung einer Prokuristen ent-\nspricht, der eben unter dem Firmainhaber steht. Etwas anderes\nwäre, wenn ich mit Herrn Reichner zusammen Teilhaber einer Kol-\nlektivgesellschaft wäre, was aber nicht der Fall ist, vielmehr\nist die zürcher Firma eine Einzelfirma und deren alleiniger\nInhaber ist Herr Reichner. Es handelt sich nicht etwa um eine\nZweigniederlassung der wiener Firma, sondern es ist einfach",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Die letzte Zeile bricht mitten im Satz ab, Fortsetzung auf Seite 3."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herrn Dr. S. Zweig, London. 16. Mai 1938. Bl. 2.\n\nHerr Reichner persönlich im hiesigen Handelsregister einge-\ntragen, als Inhaber eines Verlages und mit meiner Person als\nProkurist. Die hieraus sich ergebenden rechtlichen Konsequenzen\nsind verschiedener Art und es kommt auf den Eihzelfall an.\n\nVor zwei Tagen traf ich Herrn Reichner zufällig an\nund er sagte mir, ich werde heute von ihm einen eingehenden\nschriftlichen Bericht erhalten. Nach Eingang des letzteren\nwerde ich Ihnen gerne weiteres mitteilen. Bis dahin darf ich\nSie bitten, mit Rücksicht auf meine noch andauernde Stellung\nals Prokurist des Herrn Reichner Rücksicht zu nehmen.\n\nMit vorzüglicher Hochachtung\n\n[Unterschrift]",
+      "notes": "Typoskript auf Briefpapier, Fortsetzung des Textes von Seite 1. Die Unterschrift ist handschriftlich, aber unleserlich/abstrakt."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die einzige Unsicherheit besteht in der handschriftlichen Unterschrift auf Seite 3, die jedoch als solche identifiziert wurde.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2184,
+    "total_words": 336,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

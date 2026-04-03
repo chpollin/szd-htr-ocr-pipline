@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.964",
+    "title": "Brief an Sigmund Freud vom 13. September 1935, SZ-LAS/B7.23",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.964/IMG.1",
+      "https://gams.uni-graz.at/o:szd.964/IMG.2",
+      "https://gams.uni-graz.at/o:szd.964/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 13. September 1935, SZ-LAS/B7.23\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.539645+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wien, Hotel Regina, 13. September 1935\n(Tel. A 23-5-85)\n\nHochverehrter Herr Professor!\n\nIch versuchte heute, Ihnen nach Grinzing zu telefonie-\nren, Dr. Kriss war so gütig mir Ihre Telefonnummer zu ge-\nben. Es ist mir besonders wichtig, ein Missverständnis auf-\nzuklären. Als ich im Frühjahr hier war für eineinhalb Mona-\nte, sagte mir jemand gleich am zweiten Tage als ich mich\nankündigte, Sie empfingen jetzt keine Besuche. Daraufhin\nwagte ich natürlich nicht, mich Ihnen zu melden und respek-\ntierte Ihre Zurückgezogenheit. Nun sagte mir Dr. Kriss zu\nmeiner grossen Freude, dass Sie sich wieder ausgezeichnet\nbefinden, fleissiger sind als wir alle und ich möchte Ihnen\nnur sagen, wie glücklich es mich machte, dies vernommen zu\nhaben. Vielleicht habe ich auch so noch Gelegenheit, Sie in\nden wenigen Tagen, die ich noch hier bin, besuchen zu dür-\nfen!\n\nIn alter Verehrung, Ihr getreu ergebener\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Wien, Hotel Regina, 13. September 1935\n(Tel. A 23-5-85)\n\nHochverehrter Herr Professor!\n\nIch versuchte heute, Ihnen nach Grinzing zu telefonie-\nren, Dr. Kriss war so gütig mir Ihre Telefonnummer zu ge-\nben. Es ist mir besonders wichtig, ein Missverständnis auf-\nzuklären. Als ich im Frühjahr hier war für eineinhalb Mona-\nte, sagte mir jemand gleich am zweiten Tage als ich mich\nankündigte, Sie empfingen jetzt keine Besuche. Daraufhin\nwagte ich natürlich nicht, mich Ihnen zu melden und respek-\ntierte Ihre Zurückgezogenheit. Nun sagte mir Dr. Kriss zu\nmeiner grossen Freude, dass Sie sich wieder ausgezeichnet\nbefinden, fleissiger sind als wir alle und ich möchte Ihnen\nnur sagen, wie glücklich es mich machte, dies vernommen zu\nhaben. Vielleicht habe ich auch so noch Gelegenheit, Sie in\nden wenigen Tagen, die ich noch hier bin, besuchen zu dür-\nfen!\n\nIn alter Verehrung, Ihr getreu ergebener\n\nStefan Zweig",
+      "notes": "Farbskala/Grauskala für Archivierung über dem Text platziert. Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1818,
+    "total_words": 290,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

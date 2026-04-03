@@ -1,0 +1,93 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.171",
+    "title": "Ansichtspostkarte mit Gruppenbild aus dem Wiener Wurstelprater",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SEF/L4",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.171/IMG.1",
+      "https://gams.uni-graz.at/o:szd.171/IMG.2",
+      "https://gams.uni-graz.at/o:szd.171/IMG.3"
+    ],
+    "date": "wahrscheinl Frühj 1906",
+    "document_type": "postcard",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "subject": [
+        "Diverses"
+      ],
+      "origin_place": "Wien",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Inge und Erich Fitzbauer",
+        "Erwerb: Ankauf 2023"
+      ],
+      "physical_description": {
+        "writing_instrument": "Bleistift",
+        "writing_material": "Ansichtspostkarte mit Foto",
+        "hands": [
+          "Erich Fitzbauer"
+        ],
+        "dimensions": "14x9 cm"
+      },
+      "notes": "Auf dem Foto zu sehen (v. l. n. r.): Alfred Zweig, Ing. Robert Goldmann, ein unbekannter Herr, eine unbekannte Dame, Dr. Robert Müller, Stefan Zweig; rückseitig beschriftet"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte mit Gruppenbild aus dem Wiener Wurstelprater\n- Signatur: SZ-SEF/L4\n- Datum: wahrscheinl Frühj 1906\n- Sprache: Deutsch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Schreibinstrument: Bleistift\n- Hand: Erich Fitzbauer\n- Anmerkungen: Auf dem Foto zu sehen (v. l. n. r.): Alfred Zweig, Ing. Robert Goldmann, ein unbekannter Herr, eine unbekannte Dame, Dr. Robert Müller, Stefan Zweig; rückseitig beschriftet"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.270325+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Postkarte, zeigt eine Personengruppe. Kein Text vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Alfred Zweig\n(Angaben)\nwahrscheinl Frühj\n1906\nWurstelprater\n\nm. u. SZweig\nr. o. Dr. Rob. Müller (Brüder v. Hans Müller\n= E. Lothar)\nl. u. Ing. Robert Goldmann\nl. o. Alfred Zweig\no. t. M. [?]",
+      "notes": "Die Transkription folgt der handschriftlichen Notiz auf der Rückseite. Die Abkürzungen (m. u., r. o., etc.) beziehen sich auf die Positionen der Personen auf dem Foto (m. u. = mitte unten, r. o. = rechts oben, etc.). Die Zeile '= E. Lothar' ist unter 'Hans Müller' eingefügt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan mit Farb- und Grauskala, zeigt erneut die Vorderseite der Postkarte. Kein zusätzlicher Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Abkürzungen sind im Kontext der Personenidentifikation eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 190,
+    "total_words": 35,
+    "language_detected": "",
+    "language_match": true
+  }
+}

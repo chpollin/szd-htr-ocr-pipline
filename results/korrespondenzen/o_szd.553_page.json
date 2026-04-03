@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.553",
+    "title": "Henri Le Fauconnier an Stefan Zweig, 1932-02-01, SZ-SAM/AK.260",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.553/IMG.1",
+      "https://gams.uni-graz.at/o:szd.553/IMG.2",
+      "https://gams.uni-graz.at/o:szd.553/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Henri Le Fauconnier an Stefan Zweig, 1932-02-01, SZ-SAM/AK.260\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.260\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:17.454751+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "MADRID. PALACIO DE ORIENTE",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Palacio de Oriente in Madrid. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Monsieur et Madame\nSt. Zweig\nKapuzinerberg\nSalzburg\nAutriche\n\nMeilleur souvenir\nLe Fauconnier\n\nEspagne",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Grußformel. Briefmarke oben links, Poststempel '15 FEB 32' unten links."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, darüber die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 128,
+    "total_words": 17,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

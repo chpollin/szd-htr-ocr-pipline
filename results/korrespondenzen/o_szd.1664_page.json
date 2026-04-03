@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1664",
+    "title": "Yella Hertzka an Friderike Zweig, SZ-SAM/AK.297",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1664/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1664/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1664/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Yella Hertzka an Friderike Zweig, SZ-SAM/AK.297\n- Signatur: SZ-SAM/AK.297\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:53.667726+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hans Hübner Wien XIX Schlosshotel Cobenzl",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Schlosshotel Cobenzl. Der Text ist gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "1929. 16 III\nLiebe Frau Zweig!\nLeute die Sie kennen und\ndie Sie kennen nicht begrüß\nsen Sie von Kobenzl\n~ Sehr geehrte Frau Zweig\nViele und rechte herzliche\nGrüsse auch wie den Dank\nfür Ihre Zuschrift H. S. Tocker\nIhr Sergius Juanow\nW. Paderewska\nYella Hertzka",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (17.III.29) vorhanden. Der Text 'Photo-erie... 1928' am Rand ist gedruckt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "1929. 16 III\nLiebe Frau Zweig!\nLeute die Sie kennen und\ndie Sie kennen nicht begrüß\nsen Sie von Kobenzl\n~ Sehr geehrte Frau Zweig\nViele und rechte herzliche\nGrüsse auch wie den Dank\nfür Ihre Zuschrift H. S. Tocker\nIhr Sergius Juanow\nW. Paderewska\nYella Hertzka",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Zeilenumbrüche wurden gemäß Vorlage übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 561,
+    "total_words": 100,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

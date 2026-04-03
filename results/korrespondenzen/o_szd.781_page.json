@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.781",
+    "title": "Brief an Herbert Reichner vom 5. März 1938, SZ-AAP/B1.184",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.781/IMG.1",
+      "https://gams.uni-graz.at/o:szd.781/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 5. März 1938, SZ-AAP/B1.184\n- Signatur: SZ-AAP/B1.184\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:31.323509+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "5.März 1938.\n\nSehr geehrter Herr Reichner!\n\nIm Auftrage von Herrn Dr.\nZweig bestätige ich den Eingang der Abrechnung, die\ner für richtig befunden hat. Dagegen vermisst er seit\nMonaten jeden Vermerk und jede Mitteilung über die ihm\nzustehenden Freiexemplare, deren Anzahl doch sich in-\nzwischen erhöht haben muss. Er lässt nun abermals um\neine Aufstellung derselben ersuchen und wird Ihnen dann\nsofort mitteilungen, wohin dieselben zu senden sind.\n\nMit vorzüglicher Hochachtung\n\nSekretärin",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite sichtbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne Beschädigungen oder Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 488,
+    "total_words": 72,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

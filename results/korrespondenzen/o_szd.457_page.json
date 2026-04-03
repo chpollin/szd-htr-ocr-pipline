@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.457",
+    "title": "Will Scheller an Stefan Zweig, 1933-06-05, SZ-SAM/AK.172",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.457/IMG.1",
+      "https://gams.uni-graz.at/o:szd.457/IMG.2",
+      "https://gams.uni-graz.at/o:szd.457/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Will Scheller an Stefan Zweig, 1933-06-05, SZ-SAM/AK.172\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.172\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.670381+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bad Heilbrunn 5/5. 33\nFodquelle",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notiz am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Dr. Stefan Zweig\nSalzburg (Österreich)\nKapuzinerberg 5\n\nLieber Herr Doktor, bei dem Versuch, mich\nhier an frische Luft und dort für drei Jahre\nArbeit und für die Erlebnisse der letzten Zeit\nzuerholen, möchte ich die Frage nicht\nunterlassen, ob bei dieser vorern[?] Orientie-\nrung nicht ein Treffen und gründ-\nliche Aussprache möglich ist. Ich bin je-\ndenfalls in der ersten Juli-Woche noch\nin München - vielleicht läßt sich drin\netwas verabreden? Ich würde mich jedenfalls\nungeheuer freuen, auch so bald an eine\nGelegenheit wohl nicht wieder geboten\nwerden. Mein Domizil ist Haus\nViktoria. Mit herzlichen Grüßen\nIhr Will Scheller\n5. 5. 33.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text. Briefmarke und Poststempel vorhanden. 'vorern' ist unsicher gelesen."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan mit Farbskala und Grauskala. Zeigt die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, abgesehen von einem Wort ('vorern'), das aufgrund der Handschrift leicht zweideutig ist.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 676,
+    "total_words": 108,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

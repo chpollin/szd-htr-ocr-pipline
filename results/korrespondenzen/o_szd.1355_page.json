@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1355",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 29. Dezember 1908, SZ-SEF/B5.13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1355/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1355/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1355/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 29. Dezember 1908, SZ-SEF/B5.13\n- Signatur: SZ-SEF/B5.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:28.460376+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Delhi, 25. VIII 1908\n\n144 GATEWAY OF THE JAIN A TEMPLE IN THE DELHI CITY.",
+      "notes": "Vorderseite der Postkarte mit Bildunterschrift und handschriftlichem Datum oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Verehrter Fräulein\n\nich freue mich schon\nsehr in Calcutta [?] [?]\nVictor von Ihnen und\ndes Gutes oder lieber\ndas Beste zu hören. Ihr\nvon Indien sehr be-\nglückter\nStefan Zweig\n\nFraulein Eugenie Hirschfeld\n\nVienna (Austria)\nIX. ~~Währingerstrasse 5~~ [?]\nNussdorfer",
+      "notes": "Rückseite der Postkarte. Der Text ist in violett-schwarzer Tinte geschrieben. Die durchgestrichene Adresse wurde durch 'Nussdorfer' ersetzt. Die Lesung von 'Calcutta' und 'Nussdorfer' ist aufgrund der Handschrift leicht unsicher."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Verehrter Fräulein\n\nich freue mich schon\nsehr in Calcutta [?] [?]\nVictor von Ihnen und\ndes Gutes oder lieber\ndas Beste zu hören. Ihr\nvon Indien sehr be-\nglückter\nStefan Zweig\n\nFraulein Eugenie Hirschfeld\n\nVienna (Austria)\nIX. ~~Währingerstrasse 5~~ [?]\nNussdorfer",
+      "notes": "Identisch mit Seite 2, zeigt die Postkarte mit Farbskala."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig, insbesondere bei den Orts- und Straßennamen. Die durchgestrichene Passage ist deutlich als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 599,
+    "total_words": 97,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

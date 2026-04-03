@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.563",
+    "title": "Armand Brody an Stefan Zweig, 1908-07-01, SZ-SAM/AK.27",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.563/IMG.1",
+      "https://gams.uni-graz.at/o:szd.563/IMG.2",
+      "https://gams.uni-graz.at/o:szd.563/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1908-07-01, SZ-SAM/AK.27\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.252768+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Postkarte mit einer Landschaftsaufnahme (Gurgler Ferner mit Kirche). Kein Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wie dünkt Dir der Schau-\nplatz meines Romans? Ver-\nmutlich antwortest Du: „Wenn\nder Roman so schön wird\nwie sein Schauplatz...“\nnun, man wird ja sehen!\nBald beginnt die Frucht zu\nplatzen. Verzeih das ominöse\nWort! Servus! Dein A.\n\nGurgl g. d. Oetztaeler-Ferner\n1. Juli 08.",
+      "notes": "Adressseite der Postkarte mit handschriftlicher Nachricht. Empfänger: Dr. Stefan Zweig, Wien VIII, Kochgasse 8. Briefmarke (5 Heller, Kais. Königl. Oesterr. Post) oben rechts. Poststempel 'Obergurgl' teilweise erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Wie dünkt Dir der Schau-\nplatz meines Romans? Ver-\nmutlich antwortest Du: „Wenn\nder Roman so schön wird\nwie sein Schauplatz...“\nnun, man wird ja sehen!\nBald beginnt die Frucht zu\nplatzen. Verzeih das ominöse\nWort! Servus! Dein A.\n\nGurgl g. d. Oetztaeler-Ferner\n1. Juli 08.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 544,
+    "total_words": 92,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

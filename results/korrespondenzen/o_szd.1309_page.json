@@ -1,0 +1,76 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1309",
+    "title": "Briefkarte an Ami Kaemmerer vom 28. Juni 1917, SZ-SHB/B2.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1309/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1309/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1309/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1309/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Ami Kaemmerer vom 28. Juni 1917, SZ-SHB/B2.2\n- Signatur: SZ-SHB/B2.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.544060+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "28. Juni 1917\n\nVIII. KOCHGASSE 8.\n\nLieber verehrter Herr Doktor, eine rasche persönliche\nZeile nur über meinen „Jeremias.“ Ich glaube, dass meine\nFreunde, die mir seit Jahren vertrauen, nicht enttäuscht\nsein werden. Bisher kennen es sieben Menschen – alle haben\nmir freie Zustimmung zu einem ganz neuen Werke gegeben.\nDresden hat dieses unaufführbare, in seinen Dimensionen\ngigantische Stück sofort angenommen, bei Reinhardt sind\nalle Instanzen rückhaltlos dafür, nur der Meister ist in\nder Schweiz und unauffindbar, Geheimrath Zeiss in\nFrankfurt will es später bringen. Auch von Hamburg habe",
+      "notes": "Die Transkription folgt dem Zeilenumbruch des Originals. Die Tinte ist violett."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ist Nachricht günstigster Art. Freilich, auch dort sind die\nSchwierigkeiten ein hartes Gegengewicht für die innere\nZustimmung – in der Mitte August soll ich, wenn Grube\nzurückkommt, die entscheidende Nachricht haben. Wie lieb\nwäre es mir, die fiele günstig aus, denn ich habe schon\nSehnsucht nach Hamburg, nach Deutschland, nach Freiheit!!\nDas Buch wird jetzt – oh wie langsam! – gedruckt, ich\nsende Ihnen, wenn es fertig ist, ein Correcturexemplar,\ndenn gerade meine Freunde sind mir dies mal wichtig,\nist das Werk doch das einer Gesinnung, einer Welt-\nanschauung.\nNoy eines! Bitte lesen Sie von Henri Barbusse: Le\nfeu! Das herrlichste Werk dieses Krieges! Und sagen Sie\nmir wieder einmal ein Wort! Herzlichst Ihnen nah den Ihre St. Z\n\n[Randnotiz links, vertikal]: meinen Brief auf B.B. erhielten Sie doch",
+      "notes": "Die Randnotiz am linken Rand wurde nachträglich hinzugefügt. 'Noy' ist vermutlich ein Schreibfehler für 'Noch'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Jeremias\n\nDr. Ami Kaemmerer\n\n[durchgestrichen: In Borstel Sch. 257]\n\nHamburg\nInnocentiastrasse 35",
+      "notes": "Adressseite des Briefumschlags. Die durchgestrichene Zeile ist deutlich lesbar."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8.",
+      "notes": "Rückseite des Briefumschlags mit Briefkopf-Logo."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der kursiven und flüssigen Schreibweise von Stefan Zweig. Die wenigen unsicheren Stellen (wie 'Noy' statt 'Noch') sind kontextuell eindeutig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 1513,
+    "total_words": 232,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2473",
+    "title": "Land ohne Patriotismus, Das",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA117.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2473/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, blauer Buntstift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Land\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Land ohne Patriotismus, Das\n- Signatur: SZ-AAP/W-AA117.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, blauer Buntstift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Land\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:25.007675+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Land ohne Patriotismus, Das",
+      "notes": "Handschrift in violetter Tinte. Es handelt sich um die Vorderseite des Blattes."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar, gemäß Anweisung nicht transkribiert."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Land",
+      "notes": "Handschrift in blauem Buntstift. Es handelt sich um eine weitere Seite/Fragment."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Land ohne Patriotismus, Das",
+      "notes": "Handschrift in violetter Tinte. Identisch mit Seite 1."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Land ohne Patriotismus, Das",
+      "notes": "Handschrift in violetter Tinte. Dokument mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die verschiedenen Scans zeigen lediglich Wiederholungen desselben Textes auf unterschiedlichen Seiten oder mit Archivierungshilfen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 85,
+    "total_words": 13,
+    "language_detected": "",
+    "language_match": true
+  }
+}

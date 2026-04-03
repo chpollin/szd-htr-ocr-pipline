@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1556",
+    "title": "Briefkarte an Richard Friedenthal vom 30. April 1940, SZ-AAP/B2.30",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1556/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1556/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1556/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Richard Friedenthal vom 30. April 1940, SZ-AAP/B2.30\n- Signatur: SZ-AAP/B2.30\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:41.960867+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Telephone:\n4983\n\n“ROSEMOUNT,”\nLYNCOMBE HILL,\nBATH.\n\n30. 4. 1940.\n\nLieber Freund!\n\nIch bin eben zu-\nrück. Paris war wirklich wun-\nderschön. Ich komme nächste\nWoche nach London und wir müssen\nnatürlich beisammen sein und über\nalles sprechen. Ich will jetzt\nscharf an die Arbeit gehen. Für\nMai ist Victor Fleischer hier, aber\ndanach hoffen wir sehr, Sie wieder\neinmal bei uns zu haben. Sie feh-\nlen mir sehr.\n\nHerzlichst Ihr\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Freund!\n\nIch bin eben zu-\nrück. Paris war wirklich wun-\nderschön. Ich komme nächste\nWoche nach London und wir müssen\nnatürlich beisammen sein und über\nalles sprechen. Ich will jetzt\nscharf an die Arbeit gehen. Für\nMai ist Victor Fleischer hier, aber\ndanach hoffen wir sehr, Sie wieder\neinmal bei uns zu haben. Sie feh-\nlen mir sehr.\n\nHerzlichst Ihr\n\nStefan Zweig",
+      "notes": "Wiederholung des Textes mit Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist klar als 'Stefan Zweig' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 804,
+    "total_words": 135,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

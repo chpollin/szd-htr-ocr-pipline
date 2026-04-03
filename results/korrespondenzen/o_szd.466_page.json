@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.466",
+    "title": "Willy Schütz an Stefan Zweig, 1931-08-25, SZ-SAM/AK.180",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.466/IMG.1",
+      "https://gams.uni-graz.at/o:szd.466/IMG.2",
+      "https://gams.uni-graz.at/o:szd.466/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Willy Schütz an Stefan Zweig, 1931-08-25, SZ-SAM/AK.180\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.180\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.413214+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bamberg\nPortal der alten Residenz\n\n23. 8. 31\n\nW. Schütz",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text mit handschriftlichen Ergänzungen (Datum und Name)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nBamberg, Luitpoldstr. 2B\n23.VIII.\nVerehrter Herr Doktor,\neinige Tage hat sich als günstiges erwiesen,\nals ich von Heidelberg aus den Aufbruch\nhatte. Aber jetzt, da ich wieder zu einiger\nRuhezeit finde, ist es möglich, dass\nSie nicht, nicht mehr Ihnen helfen an\nsich. Sind Sie verblüfft gewesen, dass der\nZeitgeist auch bis in Ihre Ruhe dringt?\nDas ist mein kurzer Kommentar dazu.\ninteressant, dass es nicht einmal\ndas Rückwirken wert ist. Ich sitze in vielen\njetzt in der Aufarbeitung. Ich bereite in\nmanchem noch ein dringend Werk vor -\naber die Morgen. Ein paar Zeilen schon\naus München - danken Sie mir diese\nMinuten, verzeihen Sie mir, ich bin\nIhrem Briefe treu, ergebenst Willy Schütz",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (Bamberg 25.8.31) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Darunter die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Passagen auf (insbesondere im Mittelteil des Textes). Einige Wörter wurden kontextuell erschlossen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 794,
+    "total_words": 132,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

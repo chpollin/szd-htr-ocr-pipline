@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.856",
+    "title": "Brief an Herbert Reichner vom 5. Juli 1937, SZ-AAP/B1.71",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.856/IMG.1",
+      "https://gams.uni-graz.at/o:szd.856/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 5. Juli 1937, SZ-AAP/B1.71\n- Signatur: SZ-AAP/B1.71\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:37.928671+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "5.Juli 1937.\n\nGeehrter Herr Reichner!\n\nIch bestätige den Erhalt Ihrer\nBriefe und werde wunschgemäss das Manuskript\nHerrn Fuchs, der eben angekommen ist, mitge-\nben. Jedoch besteht mein Partner darauf, dass\ndas Manuskript trotzdem von dem Moment an, wo\nwir es aus den Händen geben bis zu dem Augen-\nblick, wo wir es wieder hier zurückerhalten\nhaben, ordnungsgemäss {in jenem Betrag[?]} versichert wird. Bitte\nwollen Sie alles hierfür Nötige veranlassen.\n\nHerrn Huebsch habe ich Ihre Vor-\nschläge mitgeteilt, er wird Ihnen direkt ant-\nworten.\n\nMit den besten Empfehlungen\n\nschliesslich kann ja Herrn Fuchs\netwas passieren, es kann unterwegs\nverbrennen, gestohlen werden etc",
+      "notes": "Typoskript mit handschriftlicher Ergänzung in der Zeile 7 ('in jenem Betrag') und handschriftlichem Nachtrag am Ende des Dokuments. Die Tinte der handschriftlichen Teile ist violett."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar, gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung 'in jenem Betrag' ist aufgrund der Platzierung und der Handschrift leicht unsicher, aber im Kontext des Satzes logisch.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 671,
+    "total_words": 101,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

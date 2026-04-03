@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.566",
+    "title": " Unidentified an Stefan Zweig, 1926-10-03, SZ-SAM/AK.272",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.566/IMG.1",
+      "https://gams.uni-graz.at/o:szd.566/IMG.2",
+      "https://gams.uni-graz.at/o:szd.566/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1926-10-03, SZ-SAM/AK.272\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.272\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.490911+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herzliche Grüße – Ich hoffe, Sie lassen es Rom bei uns auch\nso ergehen – Ihr [Unterschrift unleserlich]",
+      "notes": "Vorderseite der Postkarte mit Bildmotiv. Handschriftliche Notiz am linken Rand und am oberen Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Dr. Stephan\nZweig\n5 Kapuzinerberg 5\nSalzburg\nAustria\n\nRoma 3.10.26\nSehr geehrter Herr Zweig, von Rom\naus ist die Zeit etwas [?] kurz!\nOktobers wieder zum [?] [?] \nsende ich Ihnen herzlichste Grüße!\nIch bin sehr glücklich hier zu sein\n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] \n[?] [?] [?] [?] [?] [?] [?] [?] ",
+      "notes": "Rückseite der Postkarte. Adressseite mit Briefmarke und Poststempel. Der Textkörper ist aufgrund der kursiven Handschrift und Überlagerungen schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Enthält keine Dokumenteninhalte."
+    }
+  ],
+  "confidence": "low",
+  "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist sehr flüchtig und teilweise durch den Poststempel überlagert, was eine präzise Transkription des Textkörpers erschwert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 573,
+    "total_words": 115,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

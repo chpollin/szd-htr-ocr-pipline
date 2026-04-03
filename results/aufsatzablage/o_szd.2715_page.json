@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2715",
+    "title": "Deutschland, Ein Wort von",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA38.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2715/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2715/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2715/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2715/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2715/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2715/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2715/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Deutschland, Ein Wort von\n- Signatur: SZ-AAP/W-AA38.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:58.237466+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Deutschland, Ein Wort von\n\n\n\nEin Wort von Deutschland",
+      "notes": "Handschrift in violetter Tinte. Das Dokument enthält zwei Zeilen, die den Titel bzw. den Inhalt wiederholen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerer Papierstreifen, Teil der Archivierung."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Ein Wort von Deutschland",
+      "notes": "Handschrift in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Deutschland, Ein Wort von",
+      "notes": "Handschrift in violetter Tinte auf einem Papierstreifen."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Deutschland, Ein Wort von\n\n\n\nEin Wort von Deutschland",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz und deutlich lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 155,
+    "total_words": 24,
+    "language_detected": "",
+    "language_match": true
+  }
+}

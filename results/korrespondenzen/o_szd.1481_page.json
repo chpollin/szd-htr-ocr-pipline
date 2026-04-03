@@ -1,0 +1,73 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1481",
+    "title": "Deckblatt \"Copyr. Bureau Korresp. 1939\", o. D., SZ-AAP/B3.0",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1481/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1481/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1481/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Deckblatt \"Copyr. Bureau Korresp. 1939\", o. D., SZ-AAP/B3.0\n- Signatur: SZ-AAP/B3.0\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:36.533017+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Copyr. Bureau\n\nKorresp. 1939",
+      "notes": "Handschriftliche Notiz in roter Tinte auf einem Blatt Papier. Oben rechts die Zahl '62' in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbkarte und Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 28,
+    "total_words": 4,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T12:47:11Z"
+  }
+}

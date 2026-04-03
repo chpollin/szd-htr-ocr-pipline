@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.883",
+    "title": "Brief an Herbert Reichner vom 1. Oktober 1937, SZ-AAP/B1.96",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.883/IMG.1",
+      "https://gams.uni-graz.at/o:szd.883/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 1. Oktober 1937, SZ-AAP/B1.96\n- Signatur: SZ-AAP/B1.96\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:40.395051+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1. Oktober 1937.\n\nGeehrter Herr Reichner!\n\nIch habe eben die Swiss Bank Corporation antele-\nphoniert, die mir zwar sagte, dass es urgent sei, sich\naber nicht bereit erklärte, es abzuholen. Es bleibt also\nnichts übrig, dass ich es selbst mit meiner Sekretärin\nhinbringe, was mich zwei Stunden kostet und belaste hier-\nmit die Firma Herbert Reichner mit 6 (sechs) englischen\nShilling (acht österreichische Schillinge). {für Taxi hin u. zurück.}\nNun noch eine wichtige Angelegenheit. Mich ruft\nsoeben der Korrespondent des Neuen Wiener Journals Salzer\nan und sagt mir, dass Harvey Allan, der Verfasser von \"An--\nthony Adverse\" (zwei Millionen Auflage) bei ihm sich be-\nklagt hat, dass er aus Deutschland bei Engelhorn kein Geld\nherausbekommen könne. Er hat eben einen neuen Roman fer-\ntig und ich brauche Ihnen nicht zu sagen, was das bedeutet.\nVielleicht wenden Sie sich sofort hierher an Curtis Brown\noder an die Vertreterin von Curtis Brown in Wien, Lee We-\ngener und erklären Sie den Vorteil eines österreichischen\nVerlages. Sollte die Sache zustande kommen, so rechnet",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte (Einfügung in Zeile 7)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzer darauf, dass Sie ihm als Provision dann die\nUebersetzung übertragen.\n\nDies nur eilig.\n\nDie Versicherung darf ich unter\n£ 1000 nicht abgeben, der Wert\nist mindestens doch ein halb Mal\nso viel.",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte (Zeilen 5-8)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in violetter Tinte sind deutlich vom maschinengeschriebenen Text unterscheidbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1268,
+    "total_words": 203,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

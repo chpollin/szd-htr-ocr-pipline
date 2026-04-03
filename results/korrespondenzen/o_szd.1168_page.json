@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1168",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1168/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1168/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1168/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1168/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.9\n- Signatur: SZ-SAM/B11.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.352370+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Westminster\nPromenade des Anglais\nNice\n\nLiebe Frau Meingast,\nbitte heben Sie beiliegende\nKopien auf u. legen Sie sie\ngelegentlich in die Bibliothek\nzum Aufheben. Eine Karte\nmit Adresse liegt bei\nwegen Absendung der Marie-\nAntoinette. Bitte machen\nSie die Reichnerregistraturs\nfertig und senden Sie\nmir als reccom. Druck\n\n[Randnotiz links, von unten nach oben geschrieben]:\nSchreiben Sie bitte an Reichner, er möchte bei Ihnen\nanfragen, falls er Anfragen erhält,\nso dass sie in London\nhaben werde.",
+      "notes": "Die Randnotiz ist in einer anderen Ausrichtung geschrieben und teilweise durch den Briefkopf überlagert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "bis wir eingezogen sind\nsende dann ein Exemplar\nnach London. Solange ich\ndort bin will ich es dort\nin Ordnung halten und Sie\nhaben ja das große Buch,\nin das Sie hoffentlich alles\nlückenlos eingetragen haben.\nMein Mann vermisst nämlich\nin Ihrem kleinen Büchel das er\nmithat die Anmerkung ob\nz. B. Vertrag vorhanden ist. Er\nhatte das z. B. bei dem Tonfilm\n(Henny Porten) von 24 St. Frau ge-\nbraucht. In unseren completten\nVerzeichnissen ist das ja vor-\nhanden u. ich werde jetzt\ndarauf sehen, dass bei neuen\n\n[Randnotiz rechts, von unten nach oben geschrieben]:\nReichner soll bei\nIhnen anfragen.",
+      "notes": "Die Randnotiz am rechten Rand ist vertikal geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Verträgen der Ort der Aufbewahrung\nentweder mit L. oder L. ge-\nkennzeichnet ist. Bitte fragen\nSie bei meinem Mann an ob\nsich u. wo neue Verträge\nvorhanden sind, damit Sie\ndas gleich in Ordnung bringen\nund er sieht dass Sie alles\nauch aus der Ferne im Auge\nbehalten. Wenn Sie auf etwas\nkeine Antwort erhalten, so mah-\nnen Sie gleich wieder, rot\nunterstrichen wie es mein Mann\nbei Reichner lobend hervorhebt.\nAnders können wir in diesem\nmühsam aufgebauten Registratur\nnicht Ordnung halten und\ndie Schuld wird bestimmt auf\nSie u. mich geschoben.",
+      "notes": "Der Text ist gut lesbar."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Nun zu Privatem. Wir fanden\nhier bei der Ankunft nach langem\nRegen einen herrlichen Tag,\nder uns erlaubte ohne Mantel\nim Freien zu essen, aber der Regen\nist jetzt arg wiedergekehrt. Mein\nMann hat gleich zu arbeiten\nbegonnen, ist aber noch unfrisch.\nWir hatten die Freude Maestro\nToscanini hier zu treffen u. dirigieren\nzu hören. Der Ort ist etwas\nöde gegen Vorjahr. Hoffentlich\nhaben Sie bald Willi bei sich,\ner dann rechte Erholung.\nHat der Briefträger Neujahrsgeld\nerhalten? Ich bin bis c\n14ten hier, dann {ab 17.} London Langham\nHotel, Portl. Place, wenn ich keine\nandere Adresse erreiche. Fr. M. Zweig\nHerzlichen Gruss Ihre",
+      "notes": "Die Zeile 'ab 17.' wurde über der Zeile eingefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die wenigen unsicheren Stellen sind durch Kontext oder Schriftbild weitgehend geklärt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2264,
+    "total_words": 374,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

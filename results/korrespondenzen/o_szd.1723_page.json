@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1723",
+    "title": "Brief an Anna Meingast vom 15. Februar 1937, SZ-SAM/B7.90",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1723/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1723/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 15. Februar 1937, SZ-SAM/B7.90\n- Signatur: SZ-SAM/B7.90\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.977758+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LANGHAM 3693.\n\n49. HALLAM STREET,\nLONDON, W.1.\n\n15. Februar 1937.\n\nLiebe Frau Meingast!\n\nWenn es so steht, so ist\nes selbstverständlich, dass wir es so machen,\nwie Sie es wollen und keine Abmeldung erfolgt\nbis zu dem Sommer 1938. Ich möchte selbstver-\nständlich um keinen Preis, liebe Frau Mein-\ngast, dass Sie die mindeste Schädigung in Ih-\nren so wohlverdienten Ansprüchen haben. Sie\nwissen ja selbst, wie schwer es mir geworden\nist, diese Lösung vorzunehmen und dass sie\nnur durch meine Uebersiedlung von Salzburg\nunvermeidlich würde. Ich glaube, es ist nicht\nnötig, dass ich selbst noch an die Kranken-\nkasse schreibe oder schreiben lasse. Ihr per-",
+      "notes": "Typoskript auf Briefpapier mit gedrucktem Briefkopf. Die letzte Zeile bricht mitten im Wort ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "sönlicher Besuch und allenfalls dieser Brief\nwird ja genügen.\n\nIn drei Tagen bin ich wie-\nder in London zurück. Mit besten Grüssen\n\nIhr\n\nStefan Zweig",
+      "notes": "Fortsetzung des Typoskripts von Seite 1. Die Unterschrift ist handschriftlich in violetter Tinte ausgeführt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift ist deutlich als Stefan Zweig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 801,
+    "total_words": 131,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

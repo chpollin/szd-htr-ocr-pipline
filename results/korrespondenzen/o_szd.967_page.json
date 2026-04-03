@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.967",
+    "title": "Brief an Sigmund Freud vom 4. Mai 1936, SZ-LAS/B7.26",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.967/IMG.1",
+      "https://gams.uni-graz.at/o:szd.967/IMG.2",
+      "https://gams.uni-graz.at/o:szd.967/IMG.3",
+      "https://gams.uni-graz.at/o:szd.967/IMG.4",
+      "https://gams.uni-graz.at/o:szd.967/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 4. Mai 1936, SZ-LAS/B7.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.777357+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49, HALLAM STREET.\nLONDON. W.1.\n\n4.Mai 1936.\n\n\nHochverehrter Herr Professor!\n\nIch weiss, Sie mögen es nicht, dass\nman Ihren Festtag feiert, aber der Egoismus der\nmenschlichen Natur, den Sie so wohl kennen, for-\ndert sein Recht. Denn welcher Irrtum, es wäre Ihr\nFesttag allein. Es ist doch unserer vor allem,\nein Danktag der Geistigen dieser Erde. Wir, die\nwir im Prinzip die \"Führer\" nicht für erfreulich\nhalten, wären doch die Undankbarsten, wenn wir\nnicht jener mit Liebe und Dankbarkeit gedächten,\ndie uns zu seelischen und geistigen Erkenntnis-\nsen geführt haben. Seien Sie also, verehrter Pro-\nfessor, nicht strenge an diesem Tag und gönnen\nSie uns die Freude, uns Ihrer aus ganzem Herzen\nund mit ganzer Liebe zu freuen.\nThomas Mann wird Ihnen in zwei Tagen\neinen Bogen mit Unterschriften überbringen. Wir,\ndie wir diese kleine Sammlung einleiteten, hatten",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Oben links: \"LANGHAM 3693.\" (vertikal gedruckt)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "eine herzliche Genugtuung daran, zu sehen, wie\ndankbar alle diese Menschen die Gelegenheit er-\ngriffen, Ihnen mit einer Unterschrift wenigstens\nihre Verehrung zeigen zu können. Ja, sie dankten\nuns sogar, dass wir ihnen Gelegenheit dazu boten.\nEine ganze Anzahl Namen werden noch im Nachtrag\nkommen, denn wir leben ja in grauenhafter Diaspo-\nra und ein Grossteil der wesentlichen Menschen\nauf ständiger Wanderschaft und nur verspätet zu\nerreichen. Einen kleinen Geburtstagsgruss, den\nich selber geschrieben habe und der in Amerika,\nFrankreich und sonst in einer Reihe von Zeitun-\ngen erscheint, mögen Sie mit Nachsicht aufnehmen.\nEr wendet sich an breitere Leserkreise und wollte\nnur eigentlich gerade denen begreiflich machen,\nwer Sie uns sind und einer gerechteren Zukunft\nsein werden, die es selbst noch nicht zu erkennen\nvermögen.\nVerehrter und lieber Herr Professor,\nwas soll ich Ihnen wünschen zu diesem Tage? Ge-\nsundheit vor allem und das Bewusstsein, inmitten\neiner schwankenden und stürzenden Welt etwas Dauern-",
+      "notes": "Typoskript, Fortsetzung des Briefes."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2)\n\ndes und Unvergängliches geschaffen zu haben und\nfür Millionen Menschen ein Helfer gewesen zu sein.\nIch wüsste niemanden, der das heute mit gleicher\nBerechtigung von sich sagen könnte und niemanden,\ndem wir alle so tief verschuldet sind.\nIn Erinnerung an viele bewährte Güte\nund in inniger Verehrung\n\nIhr\n\nStefan Zweig",
+      "notes": "Typoskript, Fortsetzung des Briefes. Unterschrift handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "2)\n\ndes und Unvergängliches geschaffen zu haben und\nfür Millionen Menschen ein Helfer gewesen zu sein.\nIch wüsste niemanden, der das heute mit gleicher\nBerechtigung von sich sagen könnte und niemanden,\ndem wir alle so tief verschuldet sind.\nIn Erinnerung an viele bewährte Güte\nund in inniger Verehrung\n\nIhr\n\nStefan Zweig",
+      "notes": "Typoskript, identisch mit Seite 3, jedoch mit einer Farbskala/Grauskala am unteren Rand zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist deutlich als Stefan Zweig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2523,
+    "total_words": 394,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

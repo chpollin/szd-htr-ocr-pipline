@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2316",
+    "title": "Spanien",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA174.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2316/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2316/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Spanien\n- Signatur: SZ-AAP/W-AA174.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:05.452777+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Spanien\n✓ Der König Titurels Schloss.\n✓ Frühling in Sevilla\n? Vom spanischen Theater\n✓ Spanische Bettler",
+      "notes": "Die Transkription bezieht sich auf den oberen Teil des Blattes (siehe IMG_1, IMG_5, IMG_7). Die Häkchen und Fragezeichen sind Teil des handschriftlichen Eintrags."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt/Rückseite."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Spanien\nFrühling in Sevilla\nVom spanischen Theater\nIn König Titurels Schloss\nSpanische Bettler",
+      "notes": "Die Transkription bezieht sich auf den unteren Teil des Blattes (siehe IMG_1, IMG_3, IMG_7)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt/Rückseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Spanien\n✓ Der König Titurels Schloss.\n✓ Frühling in Sevilla\n? Vom spanischen Theater\n✓ Spanische Bettler",
+      "notes": "Ausschnittsaufnahme des oberen Teils."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt/Rückseite."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Spanien\n✓ Der König Titurels Schloss.\n✓ Frühling in Sevilla\n? Vom spanischen Theater\n✓ Spanische Bettler\n\nSpanien\nFrühling in Sevilla\nVom spanischen Theater\nIn König Titurels Schloss\nSpanische Bettler",
+      "notes": "Gesamtaufnahme des Blattes mit Farb- und Graukarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich. Die Wiederholungen auf dem Blatt (oben und unten) wurden entsprechend der visuellen Anordnung transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 502,
+    "total_words": 77,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1673",
+    "title": "Hilde Coste an Stefan Zweig, SZ-SAM/AK.40",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1673/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1673/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1673/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hilde Coste an Stefan Zweig, SZ-SAM/AK.40\n- Signatur: SZ-SAM/AK.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:54.695315+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "14.8.14. Hilde Coste Lübeck",
+      "notes": "Vorderseite der Postkarte mit Abbildung der Salzspeicher in Lübeck. Handschriftliche Notiz oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "POSTKARTE\nÖsterreich\nHerrn Stefan Zweig\nWien VIII\nKochgasse 8\n\nSehr geehrter Herr Doktor.\nTrotz der Kriegszeiten möchte ich\nIhnen, da ich in dem auch\nvon Ihnen so bewunderten Lübeck\nbin einen Gruß senden. Es hat\nmich damals so gefreut, als\nich von den Schönheiten dieser\nStadt mit Ihnen sprechen\nkonnte. – Ob Sie wohl\nauch Teil haben am großen heiligen\nKrieg? Bei uns gehen ja\nalle mit. Und je mehr man hört\nvon unsern Feinden, so dauert man\nimmer mehr, wenn man wie z.B. ich\nso unnütz [?] mit\nKünsten kann. Gruß Hilde Coste",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (Lübeck 14.8.14) vorhanden. Der Text 'Alte Salzspeicher an der Trave' und 'Kunstverlag Nöhring, Lübeck' ist gedruckt und teilweise vom handschriftlichen Text überlagert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Identisch mit Seite 2, jedoch mit Archivierungshilfen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der Überlagerung des handschriftlichen Textes mit dem gedruckten Text auf der Postkarte. Ein Wort ('unnütz') ist aufgrund der Tintenführung leicht unsicher.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 551,
+    "total_words": 98,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

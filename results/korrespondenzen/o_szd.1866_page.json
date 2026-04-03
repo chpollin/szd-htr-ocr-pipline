@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1866",
+    "title": "Brief an Herbert Reichner vom 30. März 1938, SZ-AAP/B1.196",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1866/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1866/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 30. März 1938, SZ-AAP/B1.196\n- Signatur: SZ-AAP/B1.196\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.895488+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "30.März 1938.\n\nHerrn Herbert Reichner,\nHauptpostlagernd,\nZürich.\n\nSehr geehrter Herr Reichner!\n\nIch habe gern gehört, dass Sie endlich einen\nAnwalt mit der Reglung der Verlagsangelegenheiten betraut\nhaben, weil vermutlich dadurch die Angestellten in eine\nweniger peinliche und verantwortliche Lage kommen. Auch\nGregor als Autor hat sich dringlich an mich gewandt, ich\nsollte Sie zu diesem notwendigen Schritt veranlassen. Ich\npersönlich habe bisher keinen Schritt unternommen und\nnicht einen einzigen Brief an den Verlag nach Wien gerich-\ntet.\n\nWas einen englischen Verlag betrifft, so ist\nmir nicht ganz klar, welches Interesse er haben sollte,\nsofern Sie ihm nicht ein grösseres Kapital und umfangrei-\nche Vorräte gangbarer Bücher einbringen. Auch halte ich den\nVertrieb von hier aus für völlig unmöglich. Ein anderes wä-\nre es gewesen, wenn man rechtzeitig, wie ich Sie immer\ndrängte, eine englische Deckgesellschaft für den Betrieb\nam Kontinent gegründet und dort produziert hätte. Ich",
+      "notes": "Typoskript auf Briefpapier. Die Seite endet mitten im Satz."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "glaube nicht, dass die englischen Verleger, soweit ich\nsie in ihrer vorsichtigen und strengen Kalkulation ken-\nne, auch nur auf diesbezügliche Verhandlungen eingehen\nwürden.\n\nIch erwarte Ihre Nachricht, ob die Wiener\nAbwicklung gelungen ist, direkt von Ihnen, da eine\nKorrespondenz mit Wien mir untunlich erscheint. Hof-\nfentlich kommt alles bald zu einer gewissen Ordnung.\n\nMit besten Grüssen\nIhr sehr ergebener",
+      "notes": "Typoskript, Fortsetzung des Briefes. Die Unterschrift fehlt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1401,
+    "total_words": 206,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1258",
+    "title": "Friderike Zweig an Victor Fleischer, o. D., SZ-LAS/B3.74",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1258/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1258/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1258/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Victor Fleischer, o. D., SZ-LAS/B3.74\n- Signatur: SZ-LAS/B3.74\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.227859+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber Herr Doktor, Stefan rieth\nmir Ihnen „Der Ring der Mütter“ einzusenden.\nViele Gedichte fanden durchaus\nSeinen Beifall, so sende ich Ihnen auch\ndas kleinere, jüngst entstandene. Bitte\ngrüßen Sie Dr. Grautoff von mir (er möge\nauch seiner Frau von mir alles Schöne sagen).\nSie waren in Paris sehr liebenswürdig zu mir\nund dann, wie mein Buch erschien. Bitte fragen",
+      "notes": "Die Transkription beginnt auf der ersten Seite des Briefes."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sie auch wie es ihrem lieben Baby geht. Ich hatte\nes damals, fern von meinen Kindern besonders\nrasch ins Herz geschlossen. Stefan ist sehr\nfleißig und gut zu mir; so bin ich sehr froh,\nFriderike von Winternitz\nSintemalen es auch schöne Siege gibt. Heute\nbekam ich eine nette Karte von Dr. Weiler. Es\ngeht ihm gut. Meiner lieben Frau F. schrieb ich.\nVielleicht sagen Sie auch Dr. Braun ihre Adresse, dem\nkönnte sie jetzt etwas sein. Grüßen Sie ihn. Zu Ihrer lieben\nMutter gehe ich bald wieder und grüße Sie\n[am linken Rand vertikal geschrieben:] Ihren Freund und Ihre",
+      "notes": "Die Seite enthält den fortlaufenden Text sowie die Unterschrift 'Friderike von Winternitz'. Am linken Rand befindet sich ein vertikaler Zusatz."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Sie auch wie es ihrem lieben Baby geht. Ich hatte\nes damals, fern von meinen Kindern besonders\nrasch ins Herz geschlossen. Stefan ist sehr\nfleißig und gut zu mir; so bin ich sehr froh,\nFriderike von Winternitz\nSintemalen es auch schöne Siege gibt. Heute\nbekam ich eine nette Karte von Dr. Weiler. Es\ngeht ihm gut. Meiner lieben Frau F. schrieb ich.\nVielleicht sagen Sie auch Dr. Braun ihre Adresse, dem\nkönnte sie jetzt etwas sein. Grüßen Sie ihn. Zu Ihrer lieben\nMutter gehe ich bald wieder und grüße Sie\n[am linken Rand vertikal geschrieben:] Ihren Freund und Ihre",
+      "notes": "Dies ist eine Wiederholung des Textes von Seite 2, da das Dokument auf dem Scan mit Farbkarten abgebildet ist."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Wiederholung auf dem dritten Scan ist identisch mit dem zweiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1499,
+    "total_words": 258,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

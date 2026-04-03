@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1702",
+    "title": "Brief an Anna Meingast vom 7. Januar 1936, SZ-SAM/B7.69",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1702/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1702/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 7. Januar 1936, SZ-SAM/B7.69\n- Signatur: SZ-SAM/B7.69\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.720564+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Westminster                                Nizza, den 7.Januar 1936.\n\nLiebe Frau Meingast!\n\n                    Vielen Dank! An die Kultusgemeinde\nbitte ich zweihundertfünfzig (250) Schilling per\nPostsparkasse zu überweisen. Ich schreibe den Her-\nren gleichzeitig direkt. Auch an den Bund für in-\nternationale Freundschaftsbeziehungen können Sie die\nfünf Schilling überweisen.\n                    Wir haben hier vorläufig schlechtes\nWetter, aber ich fühle mich schon durch die Ruhe\nhier ausserordentlich wohl.\n\n                                        Mit vielen Grüssen\n\n                                        Ihr\n\n                                        Stefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 674,
+    "total_words": 67,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

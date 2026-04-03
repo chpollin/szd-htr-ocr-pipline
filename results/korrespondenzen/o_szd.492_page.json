@@ -1,0 +1,70 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.492",
+    "title": "Ephraim Mose Lilien an Stefan Zweig, 1933-04-29, SZ-SAM/AK.203",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.492/IMG.1",
+      "https://gams.uni-graz.at/o:szd.492/IMG.2",
+      "https://gams.uni-graz.at/o:szd.492/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ephraim Mose Lilien an Stefan Zweig, 1933-04-29, SZ-SAM/AK.203\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.203\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.088566+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "29. IV. 33 Budapest",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Aufnahme von Budapest. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "BUDAPEST\nKilátás a Gellérthegyről a Gellért szálló és\nfürdővel\nAussicht vom Gellértberg mit Hotel und\nSanatorium St Gellért\nVue du mont St Gellért avec Hôtel et Sana-\ntorium St. Gellért\nView from Gellérthill with Hotel and Sana-\ntorium St. Gellért\n\nMit freundl Gruß aus Hotel\nHungaria senden wir\nin Liebe an Sie & Ihre\nGnädige [?] herzlichen\n[...]\nDer Anblick grüsst aus\ndieser in jeder Hinsicht\nbezaubernden Stadt! Hoffe\nsie Wien weit voraus.\n[...]\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (Budapest 29. IV. 33) vorhanden. Die Unterschrift ist unleserlich/verschmiert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. In der Mitte die bereits transkribierte Postkarte (Rückseite)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Unterschrift und ein Wort in der Mitte des Textkörpers. Die Transkription der ungarischen und fremdsprachigen Drucktexte ist sicher.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ],
+    "total_chars": 517,
+    "total_words": 85,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

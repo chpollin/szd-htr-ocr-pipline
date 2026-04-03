@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.509",
+    "title": " Unidentified an Stefan Zweig, 1908-07-31, SZ-SAM/AK.219",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.509/IMG.1",
+      "https://gams.uni-graz.at/o:szd.509/IMG.2",
+      "https://gams.uni-graz.at/o:szd.509/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1908-07-31, SZ-SAM/AK.219\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.219\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.060743+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Stubaital - Fulpmes gegen die Gletscher\n31/VII 08.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Titel und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Stefan Zweig\nSchriftsteller\n\n[...5...] VIII\n[...5...] 8\n\nSehr verehrter Herr Doktor,\nleider bin ich noch hier\nin den Ferien liegen geblieben,\n~~um~~ Ihren [?] [?] \nzu lassen und Ihren\nBrief zu danken.\nmit bestem Gruß\n[...5...] ergebenst\nFrestery[?] J. Neur[?]\n31 VII 08",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Adresse und Nachricht. Die Handschrift ist schwer lesbar, insbesondere die Ortsangabe und die Unterschrift."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, darunter die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere die Ortsangabe in der Adresse und die Unterschrift des Absenders.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 325,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

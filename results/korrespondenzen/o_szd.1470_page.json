@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1470",
+    "title": "Ansichtspostkarte an Stefan Zweig vom 29. Januar 1938, SZ-AAP/B4",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1470/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1470/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1470/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Stefan Zweig vom 29. Januar 1938, SZ-AAP/B4\n- Signatur: SZ-AAP/B4\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:35.588367+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Salzburg, Die Festspielstadt im Scheinwerferlicht",
+      "notes": "Vorderseite einer Ansichtspostkarte mit nächtlicher Aufnahme von Salzburg. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg. 25 janv. 38\nCher ami, je suis tout ému de\nconnaître enfin votre ville !!\nnous revenons de Suède, par\nBerlin, Dresde, Prague et\nVienne, où nous nous sommes\nattardés avec ravissement, malgré\ntout ! L'impression rapportée\nd'un séjour de deux semaines à\nBerlin est... sinistre. Pire que\ntout ce que j'imaginais; et j'en\nreviens bouleversé, inquiet.\nVous reverra-t-on à Nice?\nJe pense que nous y serons à\nla fin de février au plus tard.\nJe vous envoie le salut de votre\npatrie, celui de ma femme, et\nle mien aussi, très affectueux.\nRoger Martin du Gard",
+      "notes": "Handschriftliche Nachricht auf der Rückseite der Postkarte. Tinte in Schwarz/Dunkelblau. Am linken Rand vertikal gedruckt: 'Edit Soto Nr 23604' sowie '1937' und Verlagsangaben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Salzburg. 25 janv. 38\nCher ami, je suis tout ému de\nconnaître enfin votre ville !!\nnous revenons de Suède, par\nBerlin, Dresde, Prague et\nVienne, où nous nous sommes\nattardés avec ravissement, malgré\ntout ! L'impression rapportée\nd'un séjour de deux semaines à\nBerlin est... sinistre. Pire que\ntout ce que j'imaginais; et j'en\nreviens bouleversé, inquiet.\nVous reverra-t-on à Nice?\nJe pense que nous y serons à\nla fin de février au plus tard.\nJe vous envoie le salut de votre\npatrie, celui de ma femme, et\nle mien aussi, très affectueux.\nRoger Martin du Gard",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Roger Martin du Gard ist klar und eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1163,
+    "total_words": 201,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

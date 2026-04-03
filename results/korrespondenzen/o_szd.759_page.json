@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.759",
+    "title": "Brief an den Herbert Reichner Verlag vom 30. Dezember 1937, SZ-AAP/B1.164",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.759/IMG.1",
+      "https://gams.uni-graz.at/o:szd.759/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an den Herbert Reichner Verlag vom 30. Dezember 1937, SZ-AAP/B1.164\n- Signatur: SZ-AAP/B1.164\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:29.365316+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "30.Dezember 1937.\n\nHerbert Reichner Verlag,\nWien.\n\nSehr geehrte Herren!\n\nIch erhalte eben den beifolgenden\nBrief von Frau Tal und lege Ihnen meine Antwort bei,\ndie ich durch Herrn Dr. Geiringer ihr übermitteln\nlasse. Ich brauche nicht zu betonen, wie juristisch\nunhaltbar nebst der falschen Rechtslage der Stand-\npunkt ist, dass ein Buch einerseits völlig wertlos sei,\nanderseits einen so ungeheuren Wert darstelle.\nWie Sie sehen, habe ich die Tür zu\nweiteren Verhandlungen offen gelassen, werde aber kei-\nnesfalls auch nur annähernd auf die Phantasiezahlen\nvon Frau Tal eingehen bei einem Buch, dessen Absatz\nvor Erscheinen der \"Begegnungen\" schon so gesunken war,\ndass er schliesslich mir nur etwa zehn Schillinge pro\nJahr einbrachte.\n\nMit den besten Empfehlungen",
+      "notes": "Typoskript auf Papier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 765,
+    "total_words": 116,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1696",
+    "title": "Brief an Anna Meingast vom 8. Oktober 1935, SZ-SAM/B7.63",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1696/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1696/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 8. Oktober 1935, SZ-SAM/B7.63\n- Signatur: SZ-SAM/B7.63\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.305430+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place\nLondon W.1.                                8. Oktober 1935.\n\nLiebe Frau Meingast!\nIch schicke Ihnen hier den Zettel für\n\"Maria Stuart\". Das Buch folgt morgen nach für die Biblio-\nthek. In der Bibliographie habe ich noch einen Irrtum ent-\ndeckt, indem Sie unter meinen Arbeiten \"Stadt als Rahmen\"\neinfügten. Selbstverständlich dürfen nur darin selbständige\nWerke sein und nicht Werke, an denen ich mitgearbeitet ha-\nbe, denn sonst kämen wir ja ins Endlose. Meine Frau möge\nbitte noch nachsehen, ob nicht vom \"Kompass\" vorigen Monat\neine Buchung von fünftausend Schillingen eingetroffen ist,\ndie vom Verlag Reichner erlegt wurde. Wenn nicht, so ist\nsie einzumahnen, aber sie wird wohl schon gekommen sein.\nDer Aufsatz \"Beethovens Handschrift\" von\n~~L~~{L}e~~o~~{o}~~n~~{n}~~e~~{e}~~r~~{r}~~ Unger ist unter die Autographenbücher einzustempeln\nund einzuordnen. Das Manuskript von Frau Maria Gehrke liegt,\nglaube ich, noch in meinem oberen Zimmer, wenn nicht, kann\nich ihr nicht helfen.\nIch habe meiner Frau Auftrag gegeben, dass\nsie Ihnen für Ihr Buch einen grösseren Betrag überweist, der\naber nicht für Einzelrechnungen im Hause verbraucht werden\nsoll, sondern ich möchte, dass Sie ständig in diesen unruhigen",
+      "notes": "Typoskript mit handschriftlichen Korrekturen in violetter Tinte (Korrektur des Namens 'Leonhard Unger')."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Zeiten einen grösseren Betrag zur Verfügung in Ihrem Buch\nhaben. Man kann nie wissen, wozu.\nEndlich sind die Vorarbeiten in der\nBibliothek erledigt und das eigentliche Manuskript ange-\nfangen. Das erste Kapitel (nicht die Einleitung, die zum\nSchluss kommt) wird Ihnen nächste Woche schon zugehen.\nIm Uebrigen bitte ich bei Bescheiden\nnicht zu sagen, dass ich ins Ausland verreist sei, son-\ndern dass ich {stets} in London wohne und nur ganz selten nach\nOesterreich komme.\n\nMit den besten Grüssen\n\nIhr\n\nStefan Zweig\n\n16ter Brief heute",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in violetter Tinte ('stets') und handschriftlicher Unterschrift sowie handschriftlicher Notiz am unteren Rand ('16ter Brief heute')."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen und Ergänzungen sind eindeutig Stefan Zweig zuzuordnen und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1759,
+    "total_words": 264,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

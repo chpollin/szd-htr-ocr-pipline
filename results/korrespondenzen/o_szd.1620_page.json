@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1620",
+    "title": "Brief an Cassell and Company, Ltd. vom 19. August 1938, SZ-AAP/B1.265",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1620/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1620/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Cassell and Company, Ltd. vom 19. August 1938, SZ-AAP/B1.265\n- Signatur: Ltd. vom 19. August 1938, SZ-AAP/B1.265\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:48.717164+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wien, 19. August 1938.\n\nFa. Cassell & Company Ltd., La belle Sauvage, London EC 4\n\nIch vermisse Ihre Antwort auf mein Schrei-\nben vom 20. Juli 1938.\nDa ich von anderen Interessenten zur Ent-\nscheidung gedrängt werde, bitte ich Sie um umgehende\nStellungnahme.\n\nMit deutschem Gruß !\n\nI have had no answer to my\nletter of 20 July. Since other\ninterested people are pressing me for a\ndecision, please let me know yours.\n\nOtto Tressl",
+      "notes": "Die Rückseite der Postkarte (Nachrichtenseite). Der Text besteht aus einem gedruckten deutschen Teil und einer handschriftlichen englischen Übersetzung. Ein Stempel '22 AUG 1938' ist sichtbar. Die Unterschrift 'Otto Tressl' ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Absender: Otto J. Tressl\nWien III.,\nRennweg 50\n\nPostkarte\n\nTitl.\nCassell & Company Ltd.,\n\nLondon E.C. 4\n\nLa Belle Sauvage\n\nMr. Desmond Flower",
+      "notes": "Adressseite der Postkarte. Gedrucktes Formular mit handschriftlichen Ergänzungen (Absender, Empfängername 'Mr. Desmond Flower'). Drei Briefmarken 'Deutsches Reich' (5 Pfennig) sind aufgeklebt und gestempelt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der Adressseite und der englische Text auf der Nachrichtenseite sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 569,
+    "total_words": 98,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

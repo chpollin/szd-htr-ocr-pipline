@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2290",
+    "title": "Salzburg. Die Stadt als Rahmen",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA183.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2290/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2290/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2290/IMG.3"
+    ],
+    "date": "Mai 1930",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Berlin",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Berlin"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarze Tinte",
+        "hands": [
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Salzburg. Die Stadt als Rahmen\n- Signatur: SZ-AAP/W-AA183.1\n- Datum: Mai 1930\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze\n                                       Tinte\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:02.840784+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "schnittsvorstellungen hinzutreten. — Sehr witzig hat einmal ein geistreicher\nMann solche Festspiele bezeichnet als »Repertoirvorstellungen, verschlech-\ntert einige gute Kräfte«. — Nein, auf den Stil kommt es an!\nDie Bayreuther Festspiele waren nicht nur eine Kunsttat, sie sind und bleiben\nauch eine Kulturtat von unvergänglicher Bedeutung. Das Jahr 1876 ist ein\nMarkstein in der Geschichte des deutschen Geisteslebens, es war eine »Er-\nfüllung uralten Sehnens und Suchens arischer Völker« (Schröder). Die Kunst\nwurde dort arisches Mysterium.\nDeutschland hat alle Ursache, diese Stätte zu pflegen, nicht durch Nörgeleien\nherunterzudrücken, sondern durch ihre Erhaltung dafür zu sorgen, daß »das\naus Weltkrieg und Revolution erwachsene, neue Geschlecht in das Wesen\ndes ihm noch unbekannten Bayreuther Kunst- und Kulturwerkes eingeführt\nwerde« (Prüfer). Denn nur dort kann man den wahren Sinn der Wagner-\nschen Kunst kennenlernen. Die Bayreuther Festspiele bedeuten keine\n»Steigerung« des Theaters, sondern eine »ganz neue, von der Wirklichkeit\nunserer Theater so weit wie möglich abliegende Institution außerordentlicher\nArt«. (Wagner.) Dort nur ist die hohe Weihe zu verspüren, die das Kunst-\nwerk in seiner höchsten Potenz auslöst, dort nur die sittliche Erhebung zu\nfühlen, die ein Bollwerk gegen die Mechanisierung und Bolschewisierung der\nKunst ist.\nDas Bayreuther Festspielhaus ist und bleibt ein ragendes Ehrenmal des\ndeutschen Volkes, ein Heiligtum deutscher Kunst.\n\nSALZBURG\nDIE STADT ALS RAHMEN\nVON\nSTEFAN ZWEIG-SALZBURG\n\nSteigt man von den Höhen des Gaisberges zu Tal oder kommt man vom\nbayrischen Flachland — von allen Seiten sieht man zuerst das steinerne\nSchiff, die Hohen-Salzburg, über dem grünen Gewoge der Landschaft. Fest-\ngeankert seit den Tagen der Römer, eine zweitausendjährige Trireme aus\nhellen Quadern, fährt dieses Schiff durch die Zeit und steht doch ewig an\ngleicher Stelle, bald den Bug, den scharfen, mit Mastturm und Wimpel dem\nBlicke blendend zugewandt, bald die Breitseite mit hundert Luken und\nFenstern. Und um das leuchtende Schiff rauscht wie weißer Schaum inmitten\neiner grünen Flut die kleine uralte Stadt. Wäre nicht dies wuchtige Wahr-\nzeichen der Hohen-Salzburg über ihr, man wüßte nicht zu sagen, wo sie\nbeginnt und endet, denn sie löst sich lose auf in die Landschaft, geht unmerk-\nlich in sie ein.",
+      "notes": "Handschriftliche Annotation rechts oben: 'Die Musik / Mai 1930'. Der Text ist gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "584\nDIE MUSIK\nXXII/8 (Mai 1930)\n\nDiese Kunst des harmonischen Übergangs ist das Wunderbare und gleich-\nzeitig das eminent Musikalische an Salzburg. Denn die schärfsten Gegensätze\nstehen Stirn wider Stirn in dieser Stadt: sie in Stein und Stimmung tönend\nzu lösen, war ihr vorbehalten. Bergland und Flachland stoßen hier hart\ngegeneinander; von Süden wirft sich das mächtigste Massiv Europas, die\nAlpen, in drohendem Sturz heran, und gerade über dem Tal hält wie mit\neinem ungeheuren Ruck die gebäumte Felswelle plötzlich inne.\nDies Geheimnis ausgleichenden Übergangs, diese Lösung von Dissonanz\nin Harmonie, ist aber ein Geheimnis der Musik. Man muß nicht erst auf\nMozarts Heimathaus hindeuten, um zu bekräftigen, wie eminent musikalisch\ndie Stadt wirkt. Und unnötig auch zu fragen, wer diese architektonische\nMelodie schuf, ob es die Erzbischöfe waren, die reichen und prunkfreudigen,\noder die italienischen Baumeister oder die Gunst der Zeit: wie manche\nMenschen überschwebt eben auch manche Städte der Genius der Musik\nund gibt ihrer steinernen Hülle eine Schwingung, die jede Seele zum\nTönen bringt. Plätze sind ihr gebaut für Umgänge und Prozessionen, Lust-\nschlösser für Heiterkeit und Spiel, Kirchen mit wölbigen Räumen für Orgel\nund Gesang — von allem Anfang an war ihr von prunkfreudigen, kunst-\nwilligen Herren das Festhafte, das Spielfrohe wissend eingetan, das dann\nvon diesem einen ihrer Menschen, von Mozart, aus Stein und Linie in Geist\nund Musik erhoben ward. In ihm hat sich die Form dieser Stadt gleichsam\nbildhaft gestaltet bis ins Ewige hinein — mitten im Irdischen aber steht noch\nder unversehrte Rahmen, das verlassene Instrument, immer wieder bereit\nzu erklingen. Und wenn festliches Spiel in ihr nun wieder beginnt, so wird\nnichts Fremdes gewaltsam der Stadt eingezwungen, sondern nur der in Stein\neingegrabene Gedanke ihrer einstigen Herren wieder wahrhaft erfüllt und die\neingefrorene Musik, die innere Melodik ihrer Gegenwart bewußt und auf-\nrauschend wieder zum Tönen gebracht.\n\nDIE SALZBURGER FESTSPIELE\nVON\nROLAND TENSCHERT-SALZBURG\n\nKunst und Fest gehören zusammen. Das täglich spielende Repertoiretheater, gegen\nwelches wegen seiner nicht zu vermeidenden Beimischung von Täglich-Alltäglichem\nberechtigte grundsätzliche Bedenken bestehen, kann seine Existenz erst durch die frohen\nFeste rechtfertigen, für die seine sauren Wochen das Material liefern. Sind die in\nseiner Tagesarbeit gewonnenen Höchstleistungen der Einzelnen wie der Bühne als\nGanzes festreif zu nennen, so sind sie aber dadurch immer noch nicht festlich. Zum\nFestlichen gehört das Ausnahmehafte: die vorzügliche Kunstleistung, die Darstel-\nlende und Genießende außerhalb des gewohnten Lebensganges, zur eigens nur für\ndas Kunsterlebnis vorbestimmten und ausgenützten Zeit, am besonders hierfür ge-\neigneten Ort vereint, ist erst festlich zu nennen. — In den Salzburger Festspielen",
+      "notes": "Gedruckter Text. Die Seite ist ein Fortsetzungsblatt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "584\nDIE MUSIK\nXXII/8 (Mai 1930)\n\nDiese Kunst des harmonischen Übergangs ist das Wunderbare und gleich-\nzeitig das eminent Musikalische an Salzburg. Denn die schärfsten Gegensätze\nstehen Stirn wider Stirn in dieser Stadt: sie in Stein und Stimmung tönend\nzu lösen, war ihr vorbehalten. Bergland und Flachland stoßen hier hart\ngegeneinander; von Süden wirft sich das mächtigste Massiv Europas, die\nAlpen, in drohendem Sturz heran, und gerade über dem Tal hält wie mit\neinem ungeheuren Ruck die gebäumte Felswelle plötzlich inne.\nDies Geheimnis ausgleichenden Übergangs, diese Lösung von Dissonanz\nin Harmonie, ist aber ein Geheimnis der Musik. Man muß nicht erst auf\n\n[...]\n\nder unversehrte Rahmen, das verlassene Instrument, immer wieder bereit\nzu erklingen. Und wenn festliches Spiel in ihr nun wieder beginnt, so wird\nnichts Fremdes gewaltsam der Stadt eingezwungen, sondern nur der in Stein\neingegrabene Gedanke ihrer einstigen Herren wieder wahrhaft erfüllt und die\neingefrorene Musik, die innere Melodik ihrer Gegenwart bewußt und auf-\nrauschend wieder zum Tönen gebracht.\n\n[...]\n\nserner Tagesarbeit gewonnenen Höchstleistungen der Einzelnen wie der Bühne als\nGanzes festreif zu nennen, so sind sie aber dadurch immer noch nicht festlich. Zum\nFestlichen gehört das Ausnahmehafte: die vorzügliche Kunstleistung, die Darstel-\nlende und Genießende außerhalb des gewohnten Lebensganges, zur eigens nur für\ndas Kunsterlebnis vorbestimmten und ausgenützten Zeit, am besonders hierfür ge-\neigneten Ort vereint, ist erst festlich zu nennen. — In den Salzburger Festspielen",
+      "notes": "Dieses Bild zeigt das gleiche Dokument wie Seite 2, jedoch teilweise verdeckt durch eine Farbkarte/Grauskala. Die Transkription ist daher redundant und lückenhaft."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die Redundanz auf Seite 3 wurde durch Auslassungen markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 6788,
+    "total_words": 999,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

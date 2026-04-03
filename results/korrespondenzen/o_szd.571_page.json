@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.571",
+    "title": " Unidentified an Stefan Zweig, 1927-07-12, SZ-SAM/AK.277",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.571/IMG.1",
+      "https://gams.uni-graz.at/o:szd.571/IMG.2",
+      "https://gams.uni-graz.at/o:szd.571/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1927-07-12, SZ-SAM/AK.277\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.277\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.953433+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Juli 1927\n\nNun der malerische Anblick\nangenehm mit 900 R.\nIch wandere und mich\nmit herzlichsten Grüßen an\n[...]\n\nSiegfried\nStoitzner",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text in violetter Tinte. Der Text ist teilweise schwer lesbar, da er über das gedruckte Bild geschrieben wurde."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "lieber Herr Doktor!\nIch bin mit auf\nein paar Tage\nmit der hiesigen [?] am Tag\ngeschickt, die Vorred[?]mit\n[...]\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Enthält zwei Briefmarken (Österreich) und einen Poststempel. Der Text am linken Rand ist vertikal geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Postkarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist aufgrund der violetten Tinte auf dem farbigen Untergrund der Postkarte teilweise schwer zu entziffern. Einige Wörter sind aufgrund der Überlagerung mit dem Bild oder der kursiven Schreibweise unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 292,
+    "total_words": 48,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.87",
+    "title": "Verlagsvertrag Les Editions Bernard Grasset",
+    "language": "fr",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.10",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.87/IMG.1",
+      "https://gams.uni-graz.at/o:szd.87/IMG.2",
+      "https://gams.uni-graz.at/o:szd.87/IMG.3"
+    ],
+    "date": "le TROIS décembre MIL NEUF CENT TRENTE QUATRE",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Paris",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Durchschlagpapier, violette und schwarze Tinte, roter Buntstift",
+        "writing_material": "Vorgedrucktes Vertragsformular, gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "25x18 cm"
+      },
+      "notes": "Maschinenschriftliche Eintragungen in Formular, recto mit\n                aufgeklebter Stempelmarke und mehrfach gestempelt, verso mit eigenhändiger Aufschrift\n                „lu et approuve“ und Unterschrift von Stefan Zweig und unbekannt"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Les Editions Bernard Grasset\n- Signatur: SZ-AAP/L13.10\n- Datum: le TROIS décembre MIL NEUF CENT TRENTE QUATRE\n- Sprache: Französisch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Violettes Durchschlagpapier, violette und schwarze Tinte, roter Buntstift\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Maschinenschriftliche Eintragungen in Formular, recto mit\n                aufgeklebter Stempelmarke und mehrfach gestempelt, verso mit eigenhändiger Aufschrift\n                „lu et approuve“ und Unterschrift von Stefan Zweig und unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:47.075433+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "ENTRE LES SOUSSIGNÉS :\n1° Monsieur Stefan ZWEIG\ndemeurant à LONDRES 11 Portland place\n\n2° Les Editions BERNARD GRASSET, rue des Saints-Pères, n° 61.\n\nIL A ÉTÉ CONVENU CE QUI SUIT :\nMonsieur Stefan ZWEIG cède aux Éditions\nBERNARD GRASSET, pour tout le temps que durera sa propriété littéraire et celle\nde ses héritiers, le droit exclusif d'imprimer, de publier et de vendre 2 ouvrages\nde sa composition portant comme titre :\n\nERASME\nMARIE STUART\nCes ouvrages étant remis dans leur traduction françai\nLa publication aura lieu aux conditions suivantes :\nI. — Il sera d'abord établi une édition dans le format in 8\nronne dont le prix sera déterminé par l'éditeur, sur la base du prix actuel de\nquinze francs vingt francs\nII. — Le premier tirage sera respectivement de: CINQ MILLE\nex pour ERASME et DIX MILLE pour MARIE STUART\nIII. — Il sera tiré en sus du premier tirage TROIS CENTS exemplaires qui\nseront consacrés au service de presse et CINQUANTE exemplaires qui seront\nremis à l'auteur pour ses hommages personnels. Si l'auteur désirait des exemplaires\nen sus de ceux qui lui sont remis gratuitement, ces exemplaires lui seraient facturés\nau prix de librairie.\nIV. — Comme prix de la cession qui leur est faite, les Editions BERNARD\nGRASSET paieront à M. Stefan ZWEIG des droits d'auteur de :\nDIX pour CENT sur les CINQ premiers mille\nDOUZE POUR CENT du SIXIEME mille au QUINZIEME MILLE\nQUINZE pour CENT au delà\n\nCes droits seront payés à l'auteur moitié à la mise en vente, moi-\ntié sur relevé annuel ou à l'épuise ent des tirages\n\nV. — Il ne sera dû aucun droit d'auteur sur les exemplaires consacrés à\nla presse, remis gratuitement à l'auteur, ni sur les passes de librairie.\nVI. — Les frais de correction sont à la charge de l'éditeur. Cependant, si\nles corrections d'auteur entraînaient une majoration de frais dépassant le quart du\nprix de la composition, cette majoration serait à la charge de l'auteur. Deux jeux\nd'épreuves seront fournis à l'auteur, si ce dernier désirait une troisième série\nd'épreuves il devrait en supporter les frais.",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen und Stempelmarke. Die Seite enthält eine aufgeklebte Stempelmarke (4 Francs) und diverse Archivstempel."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "VII. — Les sommes que pourrait produire la cession des droits de traduc-\ntion, de reproduction et d'adaptation théâtrale, cinématographique sous toutes ses\nformes, ou autres adaptations de l'ouvrage faisant l'objet du présent traité, seront\npartagées par moitié entre l'auteur et l'éditeur. L'éditeur reçoit par les présentes\nmandat général de traiter, au mieux de l'intérêt commun des parties.\nVIII. — L'éditeur se réserve le droit d'établir des éditions de luxe ou à bon\nmarché de l'ouvrage faisant l'objet du présent traité. Au cas où il n'établirait pas\nlui-même ces éditions, il pourrait donner des autorisations à un autre éditeur et les\nsommes à provenir seraient partagées par moitié entre l'auteur et les Éditions\nBERNARD GRASSET.\nIX. — En ce qui concerne la publication antérieure en revue ou en pério-\ndique, l'auteur s'engage à ne traiter qu'après accord avec l'éditeur et les sommes\nà provenir seraient partagées par moitié entre l'auteur et l'éditeur.\nX. — L'éditeur se réserve au moment de la remise par l'auteur du texte\ncomplet du manuscrit, de demander à celui-ci les corrections qui lui paraîtraient\nconvenables (par exemple celles relatives à des passages mettant en cause des\ntiers) sans qu'il puisse s'y refuser ni en discuter les raisons.\nSi l'auteur ne croyait pas devoir exécuter les corrections demandées, il\nlui serait loisible de considérer le présent contrat comme résilié, sans indemnité\nde part et d'autre et de son côté l'éditeur jouirait du même droit de résiliation,\nsans indemnité également de part et d'autre.\nXI. — Dans le cas où l'éditeur, sommé de le faire, refuserait dans l'année\nqui suivra l'épuisement d'un tirage de l'ouvrage faisant l'objet du présent traité de\nprocéder à l'impression d'un tirage nouveau, l'auteur reprendrait la libre dispo-\nsition de cet ouvrage.\nXII. — En cas d'incendie, l'éditeur ne pourra être tenu comme responsable\nque s'il était prouvé par Monsieur Stefan ZWEIG\nque le sinistre est la conséquence de la faute de l'éditeur. Dans le cas contraire,\nil ne sera dû aucun droit d'auteur sur les exemplaires détériorés ou détruits et le\nmontant de ces exemplaires viendra en déduction du montant total des exemplaires\ndont l'éditeur est responsable.\nIl en est de même en cas de force majeure, l'éditeur ne pouvant assumer\naucune responsabilité de ce fait.\nXIII. — Les Éditions BERNARD GRASSET pourraient proposer à l'auteur,\ntrois ans après la publication de l'ouvrage faisant l'objet du présent traité, de re-\nprendre les exemplaires restant en magasin, pour une somme forfaitaire.\nDans le cas où l'auteur ne désirerait pas reprendre ces exemplaires, la\nSociété aura le droit de les détruire ou de les solder et le bénéfice de cette opération\nreviendra aux Éditions BERNARD GRASSET.\nXIV. — Les droits de reproduction concernant les\npublications antérieures en revues ou en périodiques, de\nmeurent la propriété de Monsieur Stefan Zweig. Toutefoi\nau cas ou l'initiative de la reproduction appartiendrait\naux Editions Grasset, après accord de l'auteur, il leur\nserait réservé une commission de DIX pour CENT sur le\nmontant des sommes versées par la Revue, le périodique\nou le journal.\n\nFait en double à PARIS, le TROIS décembre MIL\nNEUF CENT TRENTE QUATRE\n\nlu et approuve\n[Unterschrift] Stefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Unterschriften). Die Seite enthält am Ende die eigenhändige Unterschrift von Stefan Zweig."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke. Überlagert den unteren Teil des Dokuments (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz einiger Durchschlag-Effekte und Archivstempel. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 5309,
+    "total_words": 875,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

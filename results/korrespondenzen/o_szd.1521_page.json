@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1521",
+    "title": "Brief an Stefan Zweig vom 16. September 1926, SZ-AAP/B2.65",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1521/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1521/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1521/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 16. September 1926, SZ-AAP/B2.65\n- Signatur: SZ-AAP/B2.65\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:38.952356+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Richard Friedenthal                                Charlottenburg, den 16.9.26\n                                                  Berlinerstr. 147.\n\nLieber Herr Zweig,\n\nhaben Sie den allerherzlichsten Dank für Ihren Brief und das Buch.\nMit Ihren Bemerkungen zu dem Cortes-Roman haben Sie überaus recht. Ich\nhabe mich auch schon geplagt den rechten Stil zu finden; es ist sehr schwer,\nweil unser Sprachgefühl all diese alten und sehr schön vollen Worte abge-\nstossen hat. Sie klingen unweigerlich nach Chronik, und das kann ich auf\nkeinen Fall brauchen. Wahrscheinlich bin ich aber mit dem Widerstand da\nzu weit gegangen. \"Rat von Indien\" ist wirklich viel schöner als Kolonialamt.\nSoll man aber die spanischen Bezeichnungen nehmen? Hidalgo hat für meinen\nGefühl einen ironisch-pathetischen Geschmack. Ich müsste dann auch Senor\nsagen, und das kann man nicht deklinieren.\nIm Übrigen komme ich gut voran und habe auch Freude an der Arbeit.\nAuch an den Essais über Ben Jonson und Lope habe ich weitergeschrieben. Frei-\nlich stört mich da meine Gewissenhaftigkeit. Ich nehme jeden so ernst vor\nals wollte ich zugleich das rassgebende wissenschaftliche Buch über ihn -\ndas bei beiden fehlt - nun: mindestens im Hintergrund ahnen lassen. Von Ben\nJonson gibt es übrigens Gespräche; ein einzigartiges Dokument aus der Zeit.\nVon seiner Frau sagt er: \"ashrew, yet honest.\" \"5 yeers he had not bedded\nwt her\". Von hier aus kann man sich auch denken, was mit dem Vertuschen\nvon Shakespears Verhältnis zu seiner Frau auf sich hat. Dann zitiert er ein\nEpigramm des Petronius: foeda et brevis est veneris voluptas, und fügt hin-\nzu \"it was better to lie still an kisse then pante.\"; als herumzukeuchen im\nBett. Das gibt doch eine Vorstellung von dem Mann.\nAn Ihrem Buch lese ich noch. Ich habe es zwar gleich nach der An-\nkunft durchflogen, möchte Ihnen aber erst etwas darüber sagen, wenn ich es",
+      "notes": "Typoskript auf Briefpapier. Die Zeilenumbrüche entsprechen dem Original. Die Korrekturen/Einfügungen im Text sind im Typoskript bereits integriert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "wirklich durchaus studiert habe. Die letzte Novelle, die ich noch nicht\nkannte, scheint mir übrigens die stärkste. Sie bringt das was die Novelle\nja soll: einen Sonderfall, eine Sonderform des menschlichen Erlebens,\naber zugleich hebt sie ein ganzes Stück Erde und Existenz mit heraus. Sehr\nschön, wie Sie da [unleserlich: 4 Zeichen] die Landschaft verteilen, Berlin und die Klein-\nstadt heranziehen. Dadurch kommt auch in die ganze \"Kette\" mehr Weite,\nund es wird nicht angehen, wie manche Gemüter sicherlich schon insgeheim\ntun, Sie auf \"Reiseerlebnis\" und \"Österreich\" festzulegen.\n\nHerzlichste Grüsse und die besten Wünsche für Ihre Arbeiten\n\nIhr",
+      "notes": "Typoskript, Fortsetzung des Briefes. Das Wort 'HMMM' im Original ist unleserlich (durchgestrichen oder übertippt)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "wirklich durchaus studiert habe. Die letzte Novelle, die ich noch nicht\nkannte, scheint mir übrigens die stärkste. Sie bringt das was die Novelle\nja soll: einen Sonderfall, eine Sonderform des menschlichen Erlebens,\naber zugleich hebt sie ein ganzes Stück Erde und Existenz mit heraus. Sehr\nschön, wie Sie da [unleserlich: 4 Zeichen] die Landschaft verteilen, Berlin und die Klein-\nstadt heranziehen. Dadurch kommt auch in die ganze \"Kette\" mehr Weite,\nund es wird nicht angehen, wie manche Gemüter sicherlich schon insgeheim\ntun, Sie auf \"Reiseerlebnis\" und \"Österreich\" festzulegen.\n\nHerzlichste Grüsse und die besten Wünsche für Ihre Arbeiten\n\nIhr",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala/Grauskala für Archivierungszwecke am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die einzige Unsicherheit besteht in einem durchgestrichenen/unleserlichen Wort in Zeile 5 auf Seite 2/3.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3180,
+    "total_words": 491,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

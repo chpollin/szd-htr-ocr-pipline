@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.169",
+    "title": "Schulnachricht, SZ-SEF/L2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.169/IMG.1",
+      "https://gams.uni-graz.at/o:szd.169/IMG.2",
+      "https://gams.uni-graz.at/o:szd.169/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Schulnachricht, SZ-SEF/L2\n- Signatur: SZ-SEF/L2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.537605+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "N. 36\n\nSchulnachricht\nSchuljahr 1890/91.\nüber Zweig Stefan, geboren am 28./11. 81 zu Wien in N.Ö.\nSchüler der 4. b Classe an der allgemeinen Volksschule in Wien, I. B., Werdertorgasse Nr. 6.\n\n[Tabelle mit Noten und Anmerkungen]\n\nAuf Grund dessen wird dieser Schüler zum Aufsteigen in die nächst höhere Classe für reif erklärt.\nZweck der Ausfolgung dieser Schulnachricht:\n\nBezeichnung der Rangstufen für:\nsittliches Betragen: Fleiss: den Fortgang in den Lehrgegenständen:\n1 = vollkommen entsprechend. 1 = ausdauernd. 1 = sehr gut.\n2 = entsprechend. 2 = befriedigend. 2 = gut.\n3 = minder entsprechend. 3 = ungleichmässig. 3 = genügend.\n4 = nicht entsprechend. 4 = gering. 4 = kaum genügend.\n 5 = ungenügend.\n\nLeiter der Volksschule. Classenlehrer.\nObiger Schüler wurde am zur Uebersiedlung nach abgemeldet.\n\nAnfang des Schulbesuches am\nLeiter der Volksschule.\nZufolge des § 68 der Verordnung des k. k. Ministeriums für Cultus und Unterricht vom 20. August 1870, Z. 7648 sind die Eltern (oder deren Stellvertreter)\nverpflichtet, die Schulnachrichten mit ihrer Unterschrift zu bestätigen.\nFormular für allg. Knaben-Volksschulen",
+      "notes": "Formulardruck mit handschriftlichen Eintragungen (Noten, Name, Datum). Stempel der Volksschule links unten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Gesetzliche Bestimmungen:\n\n1. Die Eltern (oder deren Stellvertreter) sind nach §. 68 der Schul- und Unterrichtsordnung vom 20. August 1870 verpflichtet, die Mittheilung der\nSchulnachrichten durch den Lehrer mit ihrer Unterschrift zu bestätigen.\nWird diese Bestätigung verweigert, so hat der Lehrer die Unterstützung der Ortsschulbehörde in Anspruch zu nehmen.\n2. Die Eltern oder deren Stellvertreter dürfen ihre Kinder oder Pflegebefohlenen nicht ohne den Unterricht lassen, welcher für die öffentlichen\nVolksschulen vorgeschrieben ist; sie sind für den regelmässigen Schulbesuch der schulpflichtigen Kinder verantwortlich und können zur Erfüllung\ndieser Pflicht durch Zwangsmittel angehalten werden.\n3. Die Schulpflicht beginnt mit dem vollendeten sechsten und dauert bis zum vollendeten vierzehnten Lebensjahre.\n4. Die Aufnahme findet, die Fälle der Uebersiedlung der Eltern ausgenommen, nur beim Beginn des Schuljahres statt.\n5. Den Eltern oder deren Stellvertretern obliegt es, die schulpflichtigen Kinder an einem der letzten drei Tage vor Beginn des Schuljahres in die\nSchule zu bringen und in die Liste der schulbesuchenden Kinder (die Schulmatrik) eintragen zu lassen.\nEltern oder deren Stellvertreter, welche dieser Pflicht nicht nachkommen, sind von dem Leiter der Schule der Ortsschulbehörde behufs der\ngesetzlichen Amtshandlung namhaft zu machen.\n6. Kein Kind darf ohne statthafte Entschuldigungsgründe einzelne Stunden oder Tage der gesetzlichen Schulzeit versäumen.\nSchulversäumnisse, welche binnen acht Tagen nicht genügend entschuldigt werden, sind, wenn deren Grund unstatthaft ist, als\nunentschuldigt anzusehen.\n7. Als statthafte Entschuldigungsgründe sind insbesondere anzusehen:\na) Krankheit des Kindes;\nb) Krankheit der Eltern oder Angehörigen, wenn diese der Pflege des Kindes erwiesenermassen nothwendig bedürfen;\nc) schlechte Witterung, wenn dadurch den Kindern Gefahr an der Gesundheit droht;\nd) Ungangbarkeit der Wege.\n8. Die Löschung aus der Liste der schulpflichtigen Kinder erfolgt erst dann, wenn der Besitz der nothwendigsten Kenntnisse durch ein\nZeugnis einer öffentlichen Volksschule nachgewiesen erscheint.\n9. Uebersiedelt ein Kind, so haben die Eltern oder deren Stellvertreter sich rechtzeitig um die Ausfüllung und Bestätigung der Ueber-\nsiedlungclausel an den Leiter der Schule zu wenden.",
+      "notes": "Rückseite des Dokuments, gedruckter Text."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala/Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein standardisierter Formulardruck, der sehr gut lesbar ist. Die handschriftlichen Ergänzungen sind ebenfalls klar lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3449,
+    "total_words": 486,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

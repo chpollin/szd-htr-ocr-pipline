@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.838",
+    "title": "Brief an Stefan Zweig vom 8. Juni 1937, SZ-AAP/B1.55",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.838/IMG.1",
+      "https://gams.uni-graz.at/o:szd.838/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 8. Juni 1937, SZ-AAP/B1.55\n- Signatur: SZ-AAP/B1.55\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:36.318134+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                          Briefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\n          ENGLAND\n\nRef.\n•        Ihr Schreiben vom 5.Juni 1937          8.Juni 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr obiges Schreiben.\nBagrow: Herr Bagrow hat leider auf unser nach London gerichtetes\nSchreiben gar nicht geantwortet.Die Liste des Bildmaterials erwarten\nwir gern.\nSonderausgabe: Wir haben Ihnen vor ein paar Tagen ausführlich geschrie-\nben,wie wir uns die Sonderausgabe vorstellen.Wir wollen ein und den-\nselben Satz verwenden,ein vielleicht um ein gerin-\nges grösseres Format und vor allem eine reichere Ausstattung mit hand-\nkolorierten Tafeln usw.Diese vorzugsausgabe kann dann um etwa vier Wo-\nchen vor der gewöhnlichen Ausgabe erscheinen.\nBegegnungen: Das MS. ist bereits im Satz.Wir haben die Druckerei veran-\nlasst,dass sie Ihnen fortlaufend die Korrekturen direkt aus Brünn zu-\nschickt.\nUrlaubsplan: Ich werde Sie selbstverständlich genau orientieren,wann\nund wo Sie mich während der Urlaubstage erreichen können.\n\nVertrag Magellan: Wir wären Ihnen dankbar,wenn Sie uns das von Ihnen\nunterzeichnete Exemplar möglichst bald einsenden würden,und begrüssen\nSie für heute als\n\n          eben eingetroffen[?] \n          H[?]\n\n                          Ihre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Handschriftliche Notiz am Ende des Textes (links unter dem Textkörper) und handschriftliche Unterschrift (rechts unter dem Textkörper). Die handschriftliche Notiz 'eben eingetroffen' ist in violett-blauer Tinte geschrieben, ebenso die Unterschrift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der gedruckte und maschinengeschriebene Text ist exzellent lesbar. Die handschriftlichen Zusätze sind gut lesbar, wenngleich die Notiz links unten etwas kursiv und flüchtig ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1383,
+    "total_words": 178,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

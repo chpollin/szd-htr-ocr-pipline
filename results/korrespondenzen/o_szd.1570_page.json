@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1570",
+    "title": "Brief an Richard Friedenthal vom 11. Mai 1928, SZ-AAP/B2.29",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1570/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1570/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1570/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 11. Mai 1928, SZ-AAP/B2.29\n- Signatur: SZ-AAP/B2.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:43.302016+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n11.Mai 1928.\n\nLieber Freund!\n\nIch nahm natürlich sofort den 1.Akt vor und finde ihn ganz\ntrefflich bis auf einige kleine Längen in den Ausführungen des\nNotars. Auch wäre vielleicht noch mit einer winzigen Retouche\ndie Frechheit der Untergebenen, solange Francesco noch nicht da\nist, gegenüber ihrem grenzenlosen Terror, sobald er eintrifft,\nherauszustreichen. Ferner finde ich, offen gesagt, nicht wichtig\ngenug den Einsatz der 7. Szene. Plautilla darf natürlich nicht\nhereinkommen und schreien \"Der Herr!\", sondern einfach: \"Er ist\nda!\" und das muss erst allmählich aus der Ungläubigkeit, aus dem\nSchrecken sich furchtbar entfalten, wen sie meint. Diese zwei\nSeiten müssten Sie meinem Empfinden nach noch einmal umschreiben\nund zu einer gewaltigen Vehemenz führen, nicht um der bloss mo-\nmentanen dramatischen Wirkung willen, sondern weil ja dieser\nTerror das Hauptmotiv des ganzen Stückes ist. Ich würde z.B.\nLucretia sich hinwerfen lassen vor das Kruzifix. Sie dürfen alle\nnicht so rasch besonnen sein, sondern wie bei einem Blitzschlag\nsich zuerst eine Panik mit sinnlosem Gestammel ergeben und\nselbstverständlich Beatrice die erste sein, die sich zusammen-\nrafft. Aber, wie gesagt, es handelt sich ja nur um zwei Seiten.\nUnd nun noch Dank für Ihre lieben Worte. Ich freue mich\nauf die Fortsetzung und grüsse Sie vielmals\nals Ihr getreuer\n\nStefan Zweig\n\nTumult und Not und Versagen\nUnplanbylkeit[?], Entsetzen, Jammerschreien ect",
+      "notes": "Typoskript mit handschriftlicher Unterschrift und handschriftlichem Nachtrag am unteren Rand. Die Tinte der Unterschrift und des Nachtrags ist violett."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n11.Mai 1928.\n\nLieber Freund!\n\nIch nahm natürlich sofort den 1.Akt vor und finde ihn ganz\ntrefflich bis auf einige kleine Längen in den Ausführungen des\nNotars. Auch wäre vielleicht noch mit einer winzigen Retouche\ndie Frechheit der Untergebenen, solange Francesco noch nicht da\nist, gegenüber ihrem grenzenlosen Terror, sobald er eintrifft,\nherauszustreichen. Ferner finde ich, offen gesagt, nicht wichtig\ngenug den Einsatz der 7. Szene. Plautilla darf natürlich nicht\nhereinkommen und schreien \"Der Herr!\", sondern einfach: \"Er ist\nda!\" und das muss erst allmählich aus der Ungläubigkeit, aus dem\nSchrecken sich furchtbar entfalten, wen sie meint. Diese zwei\nSeiten müssten Sie meinem Empfinden nach noch einmal umschreiben\nund zu einer gewaltigen Vehemenz führen, nicht um der bloss mo-\nmentanen dramatischen Wirkung willen, sondern weil ja dieser\nTerror das Hauptmotiv des ganzen Stückes ist. Ich würde z.B.\nLucretia sich hinwerfen lassen vor das Kruzifix. Sie dürfen alle\nnicht so rasch besonnen sein, sondern wie bei einem Blitzschlag\nsich zuerst eine Panik mit sinnlosem Gestammel ergeben und\nselbstverständlich Beatrice die erste sein, die sich zusammen-\nrafft. Aber, wie gesagt, es handelt sich ja nur um zwei Seiten.\nUnd nun noch Dank für Ihre lieben Worte. Ich freue mich\nauf die Fortsetzung und grüsse Sie vielmals\nals Ihr getreuer\n\nStefan Zweig\n\nTumult und Not und Versagen\nUnplanbylkeit[?], Entsetzen, Jammerschreien ect",
+      "notes": "Gleiches Dokument wie Seite 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'Unplanbylkeit' im handschriftlichen Nachtrag ist orthographisch unklar, wurde aber buchstabengetreu transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2916,
+    "total_words": 440,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

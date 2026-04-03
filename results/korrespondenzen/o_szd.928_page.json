@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.928",
+    "title": "Brief an Frans Masereel vom 15. April 1933, SZ-LAS/B1.47",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.928/IMG.1",
+      "https://gams.uni-graz.at/o:szd.928/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 15. April 1933, SZ-LAS/B1.47\n- Signatur: SZ-LAS/B1.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.257589+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     S A L Z B U R G\n                                     K A P U Z I N E R B E R G 5\n\n                                     am 15. April 1933\n\nLieber Freund!\n\nIch müsste Dir sechs Briefblätter schreiben, denn seit dem\nTage, wo wir sahen, hat sich die Welt reichlich verändert. Nach Schweden\nbin ich natürlich nicht gegangen und das war sehr klug, denn man hätte\ndas natürlich als Flucht deklariert oder als Anmassung, dass wir es über-\nhaupt noch wagen, ein Wort in deutscher Sprache zu sprechen. Vielleicht\nhast Du das gestrige Dekret der deutschen Studentenschaft gelesen, die\nauffordert, aus allen Privatbibliotheken alle \"undeutschen\" Bücher ver-\nbrennen zu lassen ( auch die Studie über Dich gehört dazu) und dass in\nHinkunft wir unsere Bücher zuerst hebräisch erscheinen lassen und allen-\nfalls davon Uebersetzungen erlaubt werden. Du lachst wahrscheinlich wenn\nDu dies liest, aber die Hasspsychose in Deutschland ist so, dass dies\nbuchstäblich wahr ist und in der deutschen Studentenschaft als Befehl\nverkündet wird. Was sonst geschieht, spottet jeder Beschreibung, jede\nArt von Recht, Freizügigkeit ist in Deutschland aufgehoben, und es wird\nnur ganze Zeit dauern, und wir haben in Oesterreich das gleiche\nSchicksal. Was man dann tun wird, ist unklar, ich habe die stärkste Abnei-\ngung Emigrant zu werden und würde das nur im äussersten Notfall tun, denn\nich weiss, dass alles Emigrantentum gefährlich ist, man macht dadurch\ndie Zurückgebliebenen zu Geiseln und erschwert ihnen das Leben. Jetzt wä-\nren die Verhältnisse für uns noch viel fürchterlicher als im Kriege,\ndort war wenigstens die Entschuldigung einer Psychose aus wirklicher\nGefahr, während hier eine rein provokatorische Haltung vorliegt, die\nauch über kurz oder lang zu den schwersten internationalen Konflikten\nführen muss. Alle diese national-antisemitischen Exzesse sind ja vor-",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "läufig nur da, um das Volk zu beschäftigen und auf billige Weise zu be-\ngeistern. Nach nach wird aber die Regierung aussenpolitische Erfolge\nunbedingt brauchen und dann sehe ich wirklich verhängnisvolle Entwicklun-\ngen voraus. Seit zwanzig Jahren, seit 1914 ist alles was geschehen ist,\nder Krieg, der Frieden von Versailles, gegen die Vernunft geschlossen und\nfür uns, die mit einem unerklärlichen Optimismus immer wieder an Auf-\nstieg, Einigung geglaubt haben, der Beweis erbracht, dass wir falsch ge-\ndacht haben und dass vielleicht die Hälfte, oder vielleicht die ganze\nMühe vergeblich gewesen sind. Am ärgerlichsten bei allem aber ist, dass\nman unter dieser täglichen Gehässigkeit, den Bedrohungen und Spannungen\nnicht recht arbeiten kann. Aber vielleicht gewöhnt man sich auch daran.\nMan muss nur lernen, innerlich zu resignieren, härter, strenger, abge-\nschiedener und vielleicht auch gleichgültiger zu leben.\nSei vielmals gegrüsst von Deinem getreuen\n\n                                     Stefan Zweig",
+      "notes": "Typoskript, Unterschrift handschriftlich. Am unteren Rand Exlibris-Stempel 'CHRISTIAN ANDRES EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist handschriftlich, aber eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2894,
+    "total_words": 428,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

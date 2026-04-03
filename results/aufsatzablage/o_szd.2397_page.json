@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2397",
+    "title": "Petzold, Alfons",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA156.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2397/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte, Bleistift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Parsifal in New York\".\n                        Blatt nachträglich zugeschnitten"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Petzold, Alfons\n- Signatur: SZ-AAP/W-AA156.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Parsifal in New York\".\n                        Blatt nachträglich zugeschnitten"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:15.073268+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Petzold, Alfons\n~~Verdichtung~~\nAlphons Petzold\nGedenken an A. P.\nGedichte",
+      "notes": "Handschriftliche Notizen auf beigem Papier. 'Verdichtung' ist durchgestrichen. 'Gedichte' ist in Bleistift geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Parsifal in New York\n~~rehe auf~~\nAmerika",
+      "notes": "Handschrift in violetter Tinte. 'rehe auf' ist durchgestrichen."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Petzold, Alfons\n~~Verdichtung~~\nAlphons Petzold\nGedenken an A. P.\nGedichte",
+      "notes": "Identisch mit Seite 1."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Petzold, Alfons\n~~Verdichtung~~\nAlphons Petzold\nGedenken an A. P.\nGedichte",
+      "notes": "Dokument mit Farb- und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Durchstreichungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 263,
+    "total_words": 37,
+    "language_detected": "",
+    "language_match": true
+  }
+}

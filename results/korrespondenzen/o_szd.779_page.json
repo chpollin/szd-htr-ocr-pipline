@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.779",
+    "title": "Brief an Herbert Reichner vom 2. März 1938, SZ-AAP/B1.182",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.779/IMG.1",
+      "https://gams.uni-graz.at/o:szd.779/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 2. März 1938, SZ-AAP/B1.182\n- Signatur: SZ-AAP/B1.182\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:31.061887+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "2.März 1938.\n\nSehr geehrter Herr Reichner!\n\nIch erhalte soeben Ihren Brief vom 28.II.\nWenn es sich nur um einen Abdruck in einem Schul-\nbuch handelt, sind fünfhundert Dollar natürlich zu\nviel und man könnte meiner Ansicht nach nur zwei-\nhundert Dollar verlangen. Bitte wollen Sie also\nin diesem Sinne mit jenem Verlag verhandeln.\nIch bin sehr erstaunt, auf meine letzten\nBriefe und Fragen keinerlei Bescheid von Ihnen zu\nhaben und bitte Sie um baldige Antwort. Ebenso ver-\nmisse ich die {längst fällige/} Benachrichtigung, dass die Schilling-\nbeträge an Dr. Geiringer überwiesen worden sind und\nhabe auch von Olten im Februar keine Ueberweisung\nerhalten. In meinem Brief an Sie vom 19.Februar aus\nParis gab ich die Anweisung, dass von nun an automa-\ntisch jeden Ersten die Schillingbeträge an Dr. Geirin-\nger und die Frankenbeträge {von Olten/} direkt an mich zu überwei-\nsen sind und ich muss darauf bestehen, dass Sie dies\nstets pünktlich besorgen.\n\nMit den besten Empfehlungen",
+      "notes": "Typoskript auf Briefpapier. Handschriftliche Einfügungen: 'längst fällige/' und 'von Olten/'. Die Lochungen am linken Rand sind typisch für Archivablage."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftlichen Einfügungen sind gut lesbar und wurden entsprechend der Vorgaben markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 979,
+    "total_words": 157,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

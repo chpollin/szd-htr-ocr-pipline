@@ -1,0 +1,72 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1637",
+    "title": "Brief an Frans Masereel vom [9. Dezember 1935], SZ-LAS/B1.53",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1637/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1637/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [9. Dezember 1935], SZ-LAS/B1.53\n- Signatur: SZ-LAS/B1.53\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:50.070570+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon vieux, je n'ai pas l'adresse\nde Jean Richard. Je te prie, remets\nlui cette lettre. Il ne m'a pas écrit\nun mot et je dois faire maintenant\nma conférence en Suisse. Tu sais que\nce n'est pas ma faute, mais je veux\nfaire absolument quelque chose et si\nParis et les amis n'ont pas voulu, je\nle dois faire ailleurs.\nJe serai a Vienne (Herbert Reichner\nVerlag Wien VI) le 17. et a Paris en janvier\nTon\nStefan",
+      "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist violett. Der Text ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Unten mittig befindet sich ein runder Stempelabdruck: 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'. Ansonsten leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr deutlich geschrieben und gut lesbar. Die französische Sprache wurde korrekt transkribiert.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 405,
+    "total_words": 79,
+    "language_detected": "fr",
+    "language_match": false
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 0,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [],
+    "notes": "Handwritten letter in French by Stefan Zweig, clear script. Transcription accurate — all words match the faksimile. Language mismatch (FR letter catalogued as DE) is a metadata issue, not a transcription error. Page 2 blank with stamp confirmed.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
+  }
+}

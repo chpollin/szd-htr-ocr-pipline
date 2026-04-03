@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1215",
+    "title": "Brief an Anna Meingast vom 5. November 1934, SZ-SAM/B7.45",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1215/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1215/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 5. November 1934, SZ-SAM/B7.45\n- Signatur: SZ-SAM/B7.45\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.475487+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place                                London, den 5.November 1934.\n\nLiebe Frau Meingast!\n\n        Vielen Dank. Die Kapitel sechs bis zehn schicken Sie bitte zu-\nnächst nur an mich, denn VI gefällt mir noch immer nicht und vielleicht\nist in den andern auch noch etwas an Kleinigkeiten zu kürzen möglich.\nIch möchte also, dass Sie es vorerst noch nicht an jemanden anders\nweitergeben.\n        An Frau Paula Bernstein ist natürlich der Erasmus von Salz-\n{recommandiert}\nburg aus zu schicken und auch eines an Grigol Robakidse, wenn es noch\nnicht gesandt worden ist.\n\n                                Die besten Grüsse Ihres\n\n                                Stefan Zweig\n\nCapitel XIV ging heute ab, Capitel XV kommt\nmorgen",
+      "notes": "Das Wort 'recommandiert' wurde über der Zeile eingefügt. Der handschriftliche Zusatz am Ende des Briefes ist in der gleichen violetten Tinte wie die Unterschrift verfasst."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 728,
+    "total_words": 102,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

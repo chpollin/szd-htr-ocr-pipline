@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.926",
+    "title": "Brief an Frans Masereel vom [15. Januar 1932], SZ-LAS/B1.45",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.926/IMG.1",
+      "https://gams.uni-graz.at/o:szd.926/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [15. Januar 1932], SZ-LAS/B1.45\n- Signatur: SZ-LAS/B1.45\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.119111+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\n\nParis, le\n\nCher Frans, c'est donc convenu,\ntu viendras jeudi un peu plus\ntôt, disons 7 heures ou 6 1/2\npour mettre au point tout ce\nque j'ai ajouté au livre,\nautre chose, Lefèvre\na fait une heure avec moi\net aimerait d'avoir au lieu\nd'une photo une petite esquisse\nde ma miserable personne. Est\nce que tu en pourrais en faire\nune très vite, sans te donner trop",
+      "notes": "Briefpapier des Hotel Louvois. Handschrift in violetter Tinte. Der Text bricht am Ende der Seite ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "de peine? Je crois cela pourrait\ntout de même être utile à toi,\ncar les Nouvelles sont très lus\nen France et j'aimerais d'y voir\nfigurer ton nom. On en parlera!\nEt sans faute, jeudi, mon vieux!\n\n[Unterschrift/Monogramm]\n\nCHRISTIAN ANDREE\nEX LIBRIS\nET AUTOGRAPHIS",
+      "notes": "Fortsetzung des Briefes. Am unteren Rand befindet sich ein Ex-Libris-Stempel von Christian Andree."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift ist flüssig und eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 665,
+    "total_words": 119,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

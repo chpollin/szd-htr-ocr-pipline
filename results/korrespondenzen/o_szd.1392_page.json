@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1392",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 21. Dezember 1908, SZ-SEF/B5.12",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1392/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1392/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1392/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 21. Dezember 1908, SZ-SEF/B5.12\n- Signatur: SZ-SEF/B5.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:30.951032+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Parsees Tower\nSilence.\nBombay.\n\nSehr verehrtes Fräulein, ich\nstarre Sie selber aus\nTraum - und Wunderland.\nStefan Zweig",
+      "notes": "Vorderseite der Postkarte mit Bildmotiv."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Carte Postale\n\n[Poststempel: BOMBAY 21 DE.08 30 PM]\n\nFraulein Eugenie Hirschfeld\n\nVienna (Austria)\nIX. Nußdorferstraße 5\n\nIch wünsche ich [?] sehe als\nGlück für Hause wer nur alles\nandere. Wir selbst wer so ich\nwirklich besseres zu wünschen\nals Indien — es ist unzag-\nbar herrlich und großartig",
+      "notes": "Rückseite der Postkarte. Der Text am linken Rand ist schwer lesbar, da er teilweise in die Falz oder den Randbereich übergeht. Die Interpretation 'Ich wünsche ich sehe als Glück...' ist aufgrund der Handschrift unsicher."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Carte Postale\n\n[Poststempel: BOMBAY 21 DE.08 30 PM]\n\nFraulein Eugenie Hirschfeld\n\nVienna (Austria)\nIX. Nußdorferstraße 5\n\nIch wünsche ich [?] sehe als\nGlück für Hause wer nur alles\nandere. Wir selbst wer so ich\nwirklich besseres zu wünschen\nals Indien — es ist unzag-\nbar herrlich und großartig",
+      "notes": "Identisch mit Seite 2, zeigt die Postkarte im Kontext der Farbskala."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist sehr flüchtig und teilweise schwer zu entziffern, insbesondere der Satzanfang am linken Rand.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 707,
+    "total_words": 114,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1602",
+    "title": "Postkarte an Richard Friedenthal vom 16. Dezember 1924, SZ-AAP/B2.7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1602/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1602/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1602/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Friedenthal vom 16. Dezember 1924, SZ-AAP/B2.7\n- Signatur: SZ-AAP/B2.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:46.257988+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "STEFAN ZWEIG\nAbfender:\nSALZBURG, Kapuzinerberg 5\n\npostkarte\n\nHerrn\nDr. Richard Friedenthal\nAn\n\nin B e r l i n\nSchleswiger Ufer 13\nbei Sack",
+      "notes": "Adressseite einer Postkarte. Gedruckter Vordruck mit handschriftlichen Ergänzungen (Adressat). Poststempel 'SALZBURG 16. XII. 24' und Briefmarken vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg, am 16. Dezember 1924\nLieber Herr Friedenthal!\n\nEben kam das Buch, ich schreibe\ngern für das B.T. dafür noch in den näch-\nsten Tagen. Hoffentlich gelingt es mir,\nIhnen damit eine Freude zu machen.\nIhr noch immer eiliger, aber darum nicht\nminder herzlich gesinnter\n\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsbild mit Farbskala und Grauskala für Archivierungszwecke. Enthält die bereits transkribierte Adressseite der Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine Kombination aus gedrucktem Vordruck, Typoskript und einer sehr deutlichen handschriftlichen Unterschrift handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 424,
+    "total_words": 71,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

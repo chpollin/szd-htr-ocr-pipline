@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.777",
+    "title": "Brief an Stefan Zweig vom 28. Februar 1938, SZ-AAP/B1.180",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.777/IMG.1",
+      "https://gams.uni-graz.at/o:szd.777/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 28. Februar 1938, SZ-AAP/B1.180\n- Signatur: SZ-AAP/B1.180\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:30.926733+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostcheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\n\nRef.\nFarrar & Rinehart\n-----------------\nIhr Schreiben vom 25.Febr.1938\n\n28.Februar 1938 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr obiges Schreiben.\nBei der uns zurückgegebenen Depesche handelt es sich um den Verlag\nFarrar & Rinehart Inc.,232,Madison Avenue,New York,dessen Spezialität\ndeutsche Lehr- und Lesebücher sind.Darum handelt es sich auch in dem\nvorliegenden Fall.Er will \"Brennendes Geheimnis\" in einem seiner Lese-\nbücher abdrucken.\nOb nun die von Ihnen verlangten $ 500.00 nicht doch zu prohibitiv sind,\nbitten wir Sie,zu erwägen.Sollen wir ihm diesen Betrag zur Bedingung\nmachen oder sind Sie damit einverstanden,dass wir ihn um Gegenvorschlä-\nge bitten ?\nDie weitere Arbeit werden wir Ihnen natürlich mit Vergnügen abnehmen\nund sind für Ihre Antwort dankbar und Sie begrüssend\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift fehlt, stattdessen ist ein handschriftlicher Kringel/Paraphe unter der Grußformel zu sehen. Die roten Unterstreichungen und Markierungen am linken Rand sind vermutlich zeitgenössische Anmerkungen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine unsicheren Stellen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1269,
+    "total_words": 178,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

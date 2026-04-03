@@ -1,0 +1,96 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.155",
+    "title": "Ex Libris",
+    "language": "es",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SAM/L5",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.155/IMG.1",
+      "https://gams.uni-graz.at/o:szd.155/IMG.2",
+      "https://gams.uni-graz.at/o:szd.155/IMG.3"
+    ],
+    "document_type": "manuscript",
+    "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "subject": [
+        "Büromaterialien"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047604132",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Anna Meingast",
+        "Erwerb: Schenkung Wilhelm Meingast 2000"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarze Tinte",
+        "hands": [
+          "Fremde Hand"
+        ],
+        "dimensions": "9x6 cm"
+      },
+      "notes": "Graphik eines unbekannten Künstlers mit Aufschrift „Esteban Zweig“ von fremder Hand in schwarzer Tinte"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Ex Libris\n- Signatur: SZ-SAM/L5\n- Sprache: Spanisch\n- Objekttyp: Druck\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze Tinte\n- Hand: Fremde Hand\n- Anmerkungen: Graphik eines unbekannten Künstlers mit Aufschrift „Esteban Zweig“ von fremder Hand in schwarzer Tinte"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.978297+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "EX ~ LIBRIS ~\n\nEsteban Zweig",
+      "notes": "Der Text 'EX LIBRIS' ist gedruckt, 'Esteban Zweig' ist handschriftlich unterhalb der Grafik eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist unbeschriftet."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Die Rückseite ist unbeschriftet (Aufnahme mit Farbskala)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Die handschriftliche Signatur 'Esteban Zweig' ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 28,
+    "total_words": 6,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T12:47:11Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.176",
+    "title": "Siegelstempel mit den Initialen „SZ“, SZ-AP2/L-S13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.176/IMG.1",
+      "https://gams.uni-graz.at/o:szd.176/IMG.2",
+      "https://gams.uni-graz.at/o:szd.176/IMG.3",
+      "https://gams.uni-graz.at/o:szd.176/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Siegelstempel mit den Initialen „SZ“, SZ-AP2/L-S13\n- Signatur: SZ-AP2/L\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.057734+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Ansicht der Siegelplatte des Siegelstempels mit den Initialen 'SZ'. Objekt aus Holz und Metall."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Ansicht der Siegelplatte von oben, leicht unscharf. Objekt aus Holz und Metall."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Seitenansicht des Siegelstempels. Objekt aus Holz und Metall."
+    },
+    {
+      "page": 4,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Seitenansicht des Siegelstempels mit Farbskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Es handelt sich um Fotografien eines Objekts (Siegelstempel), nicht um ein Textdokument. Daher ist keine Transkription möglich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 0,
+    "total_words": 0,
+    "language_detected": "",
+    "language_match": true
+  }
+}

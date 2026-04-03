@@ -1,0 +1,107 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.132",
+    "title": "Vertrag AMÉRICO FRAGA LAMARES LIVRARIA CIVILIZAÇÃO",
+    "language": "fr",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.55",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.132/IMG.1",
+      "https://gams.uni-graz.at/o:szd.132/IMG.2",
+      "https://gams.uni-graz.at/o:szd.132/IMG.3"
+    ],
+    "date": "6 février 1938",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Estoril",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, schwarze, blaue und violette Tinte, blauer Buntstift",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "Lotte Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "28x22 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt 6. II. 38 in Estoril = £ 20“ von Lotte Zweigs Hand in blauer Tinte und blauem Buntstift, Unterschrift von fremder Hand, korrigiert"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag AMÉRICO FRAGA LAMARES LIVRARIA CIVILIZAÇÃO\n- Signatur: SZ-AAP/L13.55\n- Datum: 6 février 1938\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze, blaue und violette Tinte, blauer Buntstift\n- Hand: Stefan Zweig, Lotte Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Notiz „bezahlt 6. II. 38 in Estoril = £ 20“ von Lotte Zweigs Hand in blauer Tinte und blauem Buntstift, Unterschrift von fremder Hand, korrigiert"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.210314+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "AMÉRICO FRAGA LAMARES\nLIVRARIA CIVILIZAÇÃO\nTELEFONE, 1286\nRUA DO ALMADA, 107\nPÔRTO\n\nPôrto,\n\nM.Stefan Zweig,cède à la Livraria Civilização, Rua do Almada 107 Porto\nles droits de publication en langue portugaise, exclusivement en Portu-\ngal et ses colonies pour les volumes suivants:\nBEGEGNUNGEN MIT MENSCHEN BÜCHERN[?]STADEN\nJEREMIAS\nContre un payement d'une somme forfaitaire de dois mil e cem escudos\npour ces deux livres, dont la Livraria Civilização peut faire quatre\nvolumes .\nLes livres doivent paraitre dans un période d'un an à partir de la\nsignature du contrat.\nM.Stefan Zweig recevra deux exemplaires de chaque volume aussitôt qu'il\naura paru.\nLe contrat ne sera valable qu'après le payement entier pour chaque volume\n\n[Unterschrift Américo Fraga Lamares]                                  Stefan Zweig\n\n                                                                    Estoril, 6 février 1938\n\nbezahlt 6.II.38 = £ 20\nin Estoril",
+      "notes": "Das Dokument enthält maschinengeschriebenen Text mit handschriftlichen Ergänzungen (Unterschriften, Datum, Notiz). Die Notiz am unteren linken Rand ist in blauer Tinte/Buntstift verfasst."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, keine Transkription erforderlich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments mit Farb- und Graustufenkarte, keine Transkription erforderlich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist weitgehend klar lesbar. Die handschriftlichen Ergänzungen sind gut zuzuordnen. Die unsichere Stelle 'BÜCHERN[?]STADEN' resultiert aus der leicht verschmierten Schreibmaschinenschrift an dieser Stelle.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 938,
+    "total_words": 129,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

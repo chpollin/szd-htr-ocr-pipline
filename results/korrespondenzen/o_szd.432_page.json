@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.432",
+    "title": "Hans Müller Einigen an Stefan Zweig, 1913-12-29, SZ-SAM/AK.149",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.432/IMG.1",
+      "https://gams.uni-graz.at/o:szd.432/IMG.2",
+      "https://gams.uni-graz.at/o:szd.432/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1913-12-29, SZ-SAM/AK.149\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.149\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.914384+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung der Walhalla bei Donaustauf."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Walhalla bei Donaufstauf\nRegensburg, 28.12.\n\nViele herzliche Grüße,\nlieber Stefan, und gute\nWünsche für 1914. Ich hoffe,\nnach meiner Heimkunft (Anfang\nJänner) recht bald mit dir\nzusammen zu sein. Dein Meer=\ntes Ratschlag war wunder=\nbär. Herzlich Hans.\n\nS.H.\nHerrn Dr. Stefan Zweig\nWien VIII.\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in violetter Tinte. Ein Poststempel 'REGENSBURG 29 DEZ 13' ist vorhanden, ebenso eine Briefmarke."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Walhalla bei Donaufstauf\nRegensburg, 28.12.\n\nViele herzliche Grüße,\nlieber Stefan, und gute\nWünsche für 1914. Ich hoffe,\nnach meiner Heimkunft (Anfang\nJänner) recht bald mit dir\nzusammen zu sein. Dein Meer=\ntes Ratschlag war wunder=\nbär. Herzlich Hans.\n\nS.H.\nHerrn Dr. Stefan Zweig\nWien VIII.\nKochgasse 8",
+      "notes": "Identisch mit Seite 2, jedoch mit Grauskala und Farbkarte für Archivierungszwecke abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die Tinte gut erhalten. Die Abkürzung 'S.H.' steht vermutlich für 'Sehr Hochwohlgeboren' oder eine ähnliche Grußformel, wurde aber als 'S.H.' transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 608,
+    "total_words": 94,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

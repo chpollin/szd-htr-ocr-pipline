@@ -1,0 +1,48 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1672",
+    "title": "Jüdischer Jugendverein an Stefan Zweig, SZ-SAM/AK.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1672/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1672/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1672/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Jüdischer Jugendverein an Stefan Zweig, SZ-SAM/AK.4\n- Signatur: SZ-SAM/AK.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:54.468223+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [],
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ],
+    "total_chars": 0,
+    "total_words": 0,
+    "language_detected": "",
+    "language_match": true
+  }
+}

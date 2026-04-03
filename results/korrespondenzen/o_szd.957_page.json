@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.957",
+    "title": "Brief an Sigmund Freud vom 16. Juni 1931, SZ-LAS/B7.17",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.957/IMG.1",
+      "https://gams.uni-graz.at/o:szd.957/IMG.2",
+      "https://gams.uni-graz.at/o:szd.957/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 16. Juni 1931, SZ-LAS/B7.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:45.955422+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 16. Juni 1931\n\nVerehrter Herr Professor, Sie als „Kenner der Höhen\nund Tiefen” werden beiliegenden Privatdruck, den ich nur\neinem engsten Kreise übermittle, hoffentlich nicht als ganz\nüberflüssig empfinden: jene neun Briefe des einundzwanzig-\njährigen Mozart, von denen ich hier einen in extenso pub-\nliciere, werfen ein psychologisch sehr merkwürdiges Licht auf seine\nErolik, die stärker als die irgend eines andern bedeutenden Menschen,\n~~einen~~ Infantilismus ~~sein~~ und ~~eine~~ leidenschaftliche Koprolalie\nzeigt. Es wäre eigentlich eine interessante Studie für einen Ihrer\nSchüler, denn durchgängig alle Briefe kreisen um das gleiche Thema.",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Violette Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ich nehme die Gelegenheit wahr, um Ihnen meine\nVerehrung und die herzlichsten Wünsche für Ihre Gesundheit zu sa-\ngen und bleibe Ihr stet getreuer\n\nStefan Zweig",
+      "notes": "Handschriftliche Fortsetzung des Briefes auf der Rückseite des ersten Blattes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Ich nehme die Gelegenheit wahr, um Ihnen meine\nVerehrung und die herzlichsten Wünsche für Ihre Gesundheit zu sa-\ngen und bleibe Ihr stet getreuer\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Durchstreichungen wurden gemäß den Regeln erfasst.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 995,
+    "total_words": 146,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.585",
+    "title": "Armand Brody an Stefan Zweig, 1912-10-06, SZ-SAM/AK.29",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.585/IMG.1",
+      "https://gams.uni-graz.at/o:szd.585/IMG.2",
+      "https://gams.uni-graz.at/o:szd.585/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1912-10-06, SZ-SAM/AK.29\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:19.741709+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "viele Grüße aus\nLudgate Hill, London\nDein vielgehorsamer\nArmand\n\n58386\n6.OKT.12",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text. Oben links Stempel/Nummerierung '58386' und Datum '6.OKT.12'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "POST CARD\n\n\n\n\n\nHerrn Dr. Stefan Zweig,\n\nWien VIII.\nKochgasse 8.",
+      "notes": "Rückseite der Ansichtskarte mit gedruckten Feldern und handschriftlicher Adresse. Briefmarke oben rechts (König Edward VII., 1 Penny). Poststempel 'LONDON.S.W' und 'OCT 6 12'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "POST CARD\n\n\n\n\n\nHerrn Dr. Stefan Zweig,\n\nWien VIII.\nKochgasse 8.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 205,
+    "total_words": 31,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.435",
+    "title": "Hans Reinhart an Stefan Zweig, 1920-08-31, SZ-SAM/AK.152",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.435/IMG.1",
+      "https://gams.uni-graz.at/o:szd.435/IMG.2",
+      "https://gams.uni-graz.at/o:szd.435/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hans Reinhart an Stefan Zweig, 1920-08-31, SZ-SAM/AK.152\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.152\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.085084+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Altﬁntermünz, bei Alpenhotel und Pension Hochﬁntermünz am Fintermünzpass",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Altﬁntermünz, 31. Aug. 20\nLieber Freund! Von Vulpera\naus am heutigen Morgen\nbei schönstem Wetter ins\nVaterland hinuntergefahren,\nsende ich Ihnen – nach\neinem ganz ausgezeichneten\nMittagsmahle hier – herzliche\nGrüsse, die ich auch an Frau v.\nWinternitz zu bestellen bitte.\nIn acht Tagen werde ich wohl\nwieder in Winterthur sein.\nMögen Sie das H.R.-Festheft\nfreundlich aufnehmen!\nIhr Hans Reinhart\n\nHerrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben rechts, Poststempel teilweise lesbar."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Übersichtsaufnahme der Postkarte mit Archiv-Farbskalen und Grauskalen. Kein neuer Textinhalt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar und eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 514,
+    "total_words": 74,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

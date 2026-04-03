@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1648",
+    "title": "Brief an Frans Masereel vom 1. August 1941, SZ-LAS/B1.64",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1648/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1648/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 1. August 1941, SZ-LAS/B1.64\n- Signatur: SZ-LAS/B1.64\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:51.522140+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "c/o Editora Guanabara Rio de Janeiro\n132 rua Ouvidor\n\n1. August 1941\n\nMon cher Frans, je reçois ici a New York la lettre du\n14. VI - justement deux jours avant que je veux\nretourner a Rio. J'avais une longue correspondance\navec l'ambassadeur de ~~[...10...]~~ {Colombie} a Buenos Aires qui est un ami personnel de moi et\nqui a reçu par le President de la Colombie l'auto-\nlement le refuse que ton visa pour la Colombie est\naccordé et le consul de Marseille le te donnera a toi\net a ta femme, Monsieur Engel était le premier de suggérer\ncette possibilite et il l'a telegrafi. Mon vieux, je sais\nque la Colombie est loin et assez petit, mais il fallait\nte procurer un visa en hate et tu pourras avoir des travail\nvisas pour le Brésil ou l'Argentine avec cela. Mais je\nserai dans un mois au Brésil et je veux presque pro-\nmettre que tu auras la aussi un visa - tache d'avoir\njusqu'a present un transit visa Portugal - Brésil, si tu\nsera la' j'ai assez de puissance pour te procurer un visa\ndurable. Et quel merveilleux pays! Quels possibilités! J'es-\npere de pouvoir rester la bas - on ne sait jamais\njusqu'a la derniere heure, si rien n'arrive. Je suis\ntres déprimé, tres fatigué. J'ai ecrit une autobiografie\navec les souvenirs de toi aussi, mais quand pourra-t-on\nvivre, travailler de nouveau. Mon vieux, sois sure que\nje ferai pour toi tout le possible. Ma femme et Frederique\nque nous avons vu hier t'envoient leurs meilleurs amitiés a\ntous deux, Ton\nBis tous les amitiés a Vezelay! Stefan",
+      "notes": "Handschriftlicher Brief in französischer Sprache. Ein Stempel 'CHRISTIAN M. NEBEHAY EX LIBRIS ET AUTOGRAPHIS' ist unten mittig platziert. Die Tinte ist violett."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift und einiger französischer Rechtschreibbesonderheiten (z.B. 'telegrafi' statt 'télégraphié'). Die durchgestrichene Stelle wurde als solche markiert.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1491,
+    "total_words": 270,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

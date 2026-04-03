@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1374",
+    "title": "Brief an Richard Specht aus dem Jahr 1927, SZ-SEF/B9.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1374/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1374/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1374/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Specht aus dem Jahr 1927, SZ-SEF/B9.3\n- Signatur: SZ-SEF/B9.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:29.802761+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mein lieber Freund, ich schreibe Dir sehr bedrückt, weil ich doch\nhoffte, Deine hefe[?] Anteilnahme an mir gleich mit einer Tat entgelten\nzu können: nun ein andermal muss es besser gelingen. Ich dan-\nke Dir sehr, dass Du mir die Erlaubnis zu einem Privatdruck\ngibst – ehe ich verhandle, will ich den Inselverlag fragen, ob er\nnicht vielleicht (was noch edler wäre) ihn in die Reihe seiner\nFreundesgaben aufnehmen will. Denn ich fühle mich in Deiner\nArbeit wirklich erkannt, liebend erkannt im Sinne der Bibel,\n„wie der Mann das Weib erkennt“ – manchmal auch sehr bedrückt\ndurch Deine Güte. Du musst wissen, ich habe mich nie als elementaren\nDichter gefühlt, nie die Sendung empfunden. Ich bin’s; ich bin viel-\nleicht mehr geworden als ich war dank einer eingeborenen Berufung\ndie dann menschlich durch den Umgang mit den Besten viel\ngelernt hat. Und ich war deshalb jedem dankbar, der mir Zutrauen\nbot auf das noch zu Leistende. Du hast mir sehr geholfen weil dieser\nArbeit – ich hatte ja jahrelang das Gefühl, es sei noch nichts ge-\ntan, das „Eigentliche“ noch nicht begonnen. In Deiner Darstellung\nempfand ich zum erstenmal etwas von Leistung in meinem Leben,\netwas, worauf man zwar nicht ruhen, aber doch fussen darf. Du\nbist der Erste, der mich die Mühe nahm, mein ganzes Geschriebenes\naufzuhören[?] in gelebte und schöpferische Substanz: ich war wirk-\nlich erschüttert vor Dankbarkeit.\nDas Einzige, was ich an mir selbst liebe, ist meine Treue in\nder Freundschaft. Meine wirklichen Freunde habe ich nie verloren\n– auch für Augenblicke nicht. Und ich glaube, wer einmal in\ndiesem innersten Kreise meines Herzens steht, darf sich geborgen fühlen",
+      "notes": "Die Handschrift ist flüssig, aber stellenweise eng. 'hefe' könnte ein Schreibfehler für 'heute' oder 'heisse' sein, ist aber so geschrieben. 'aufzuhören' ist unsicher gelesen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "und ich hoffe, Du wirst es erfahren. Ich fühle mich momentan\nbedrückt – vielleicht weil die die rechte, die schöpferische Arbeit\nfehlt. Aber ich sah gerade auf Deinem Werk, was Du leisten kannst,\nwenn Du angerufen bist. Dieser Ruf muss Dir gegeben werden und\ndas soll nun meine wesentliche und wirkliche Sorge sein.\nIch grüße Dich farbiger als ich es wollte. Aber ich\nmuss noch heute die Neuausgabe der Debordes-Valmore fertig\nmachen (die wird jetzt viel schöner durch neuen Text) und die Rede\nauf Rilke vorbereiten. Ich bin so müde wie Du nur willst dann\nfür 14 Tag weg. Es wäre für Dich auch das Rechte?\nIn innigstem Dank Dein wirklich getreuer\n\nStefan Zweig",
+      "notes": "Der Text auf der zweiten Seite setzt den Brief fort. Am rechten Rand befindet sich ein vertikaler Vermerk 'an Richard Specht' sowie eine Archivnummer '144- 7315/88'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "und ich hoffe, Du wirst es erfahren. Ich fühle mich momentan\nbedrückt – vielleicht weil die die rechte, die schöpferische Arbeit\nfehlt. Aber ich sah gerade auf Deinem Werk, was Du leisten kannst,\nwenn Du angerufen bist. Dieser Ruf muss Dir gegeben werden und\ndas soll nun meine wesentliche und wirkliche Sorge sein.",
+      "notes": "Dies ist ein Scan des oberen Teils der zweiten Seite, der durch eine Farbtafel teilweise verdeckt ist. Die Transkription ist identisch mit dem entsprechenden Abschnitt auf Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, auch wenn sie sehr kursiv ist. Die wenigen unsicheren Stellen sind im Kontext der Korrespondenz gut interpretierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2623,
+    "total_words": 439,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

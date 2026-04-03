@@ -1,0 +1,70 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.415",
+    "title": "Cedar Paul an Stefan Zweig, 1930-06-07, SZ-SAM/AK.133",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.415/IMG.1",
+      "https://gams.uni-graz.at/o:szd.415/IMG.2",
+      "https://gams.uni-graz.at/o:szd.415/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Cedar Paul an Stefan Zweig, 1930-06-07, SZ-SAM/AK.133\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.133\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.864501+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aigues mortes  Jüni 30",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Notiz oben links. Das Datum 'Jüni 30' scheint eine spätere Ergänzung oder Korrektur zu sein, da der Text auf der Rückseite '7.vi.30' datiert ist."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Stefan Zweig\nKapuzinerberg\nSalzburg\nAutriche\n\n7.vi.30\nWe are glad you\ninsisted we should not\nmiss Aigues Mortes, though it\nis a feverstricken den & we go\ncovered with mosquito bites. We\nrelived your sentinel scene\nJeremiah among the ramparts\nof the walls. We think Eden is\nreally getting better. No fever for\nnearly two months, & he's\nthriving on the open air life, though\nwe have had a fatiguing start owing\nto the car playing tricks & the necessity\nof halting in towns. Best love. C.P.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in englischer Sprache. Briefmarke und Poststempel vorhanden. Der Text ist gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Die Ansichtskarte ist identisch mit der in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die englische Handschrift ist gut zu entziffern.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ],
+    "total_chars": 509,
+    "total_words": 90,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

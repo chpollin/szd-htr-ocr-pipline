@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.91",
+    "title": "Contratto Sperling u. Kupfer, SZ-AAP/L13.14",
+    "language": "it",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.91/IMG.1",
+      "https://gams.uni-graz.at/o:szd.91/IMG.2",
+      "https://gams.uni-graz.at/o:szd.91/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Contratto Sperling u. Kupfer, SZ-AAP/L13.14\n- Signatur: SZ-AAP/L13.14\n- Sprache: Italienisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:43.477104+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "sk\nM\n\nsperling e kupfer\neditori e librai\nsocietà anonima italiana\ncap. soc. int. vers. L. 300.000\n\nmilano-roma\nu.p.e.c. milano 10405\n\nindirizzo postale\nsperling & kupfer\nvia carducci, 16 - milano\n\nmagazzino libri\nconsegne e ritiri\nvia panzacchi, 2\n\ntelefono\n89 - 993\n\nindirizzo telegrafico\nsperlingkupfer\nmilano\n\nconti correnti postali\nmilano 3-534\nleipzig 26113\n\ncitare sempre nella risposta\nreparto RG/bi\n\nmilano, 8 dicembre 1937\nvia carducci, 16\n\nANGST: in public\ndomain in\nItaly\n\nC O N T R A T T O\n\nfra il sig. dott. Stefano Zweig di Salisburgo e la Casa Editri-\nce Sperling & Kupfer, in persona del suo Consigliere Delegato\nsig. Federico Giannoni, si stabilisce quanto segue/\n\n1°) L'editore pubblicherà un libro dal titole La Paura conten-\nte diverse novelle come stabilito d'accordo con l'autore.\n2°) La tiretura sarà di copie 2000 oppure 3000 come stabilirà\nl'editore e sarà munita del timbro della Società degli Autori ogni\ncopia.\n3°) L'editore affida la traduzione alla signorina anita Rho\nche già tradusse Le Leggende.\nLa traduzione é anzi già allestita e la pubblicazione avverrà\npresumibilmente entro un paio di mesi.\nL'autore proprietario delle Opera cede all'editore Italiano i\ndiritti per la edizione Italiana - la presente e le sucessive -\nin tutto il territorio del regno e dell'impero dell'Opera di\ncui sopra\n6°) Per la concessione dei diritti d'autore, l'editore si obbli-\nga al pagamento di un onorario del 10% sui prezzi di vendita di\nogni esemplare effettivamente venduto. La liquidazione degli ono-\nrari avverrà come d'uso fra i contraenti ogni fine anno. Le copie\ndate per recensione od omaggio sono esenti da onorario.\nAll'Autore spettano 5 esemplari gratuiti.\nIn fede\nL'Autore\nL'Editore\n\nStefan Zweig\nS. A. SPERLING & KUPFER\nIL DIRETTORE GENERALE",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Notizen am linken Rand: 'Inhalt Angst Episode a inferno [?] ...', 'Unveröffentlicht [?] samml[ung]', 'Unverm[eintlich] Bekanntsd [?]'). Die Unterschrift von Stefan Zweig ist handschriftlich in violetter Tinte. Die Unterschrift des Direktors ist ebenfalls handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Notizen am linken Rand sind teilweise schwer zu entziffern, da sie sehr kursiv und teilweise abgekürzt sind.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1772,
+    "total_words": 285,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

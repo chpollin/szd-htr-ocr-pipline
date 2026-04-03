@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.755",
+    "title": "Brief an Emil Fuchs vom 22. Dezember 1937, SZ-AAP/B1.160",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.755/IMG.1",
+      "https://gams.uni-graz.at/o:szd.755/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Emil Fuchs vom 22. Dezember 1937, SZ-AAP/B1.160\n- Signatur: SZ-AAP/B1.160\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:29.053874+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "22. Dezember 1937.\nLieber Herr Fuchs!\nAuf dem Umwege über meine Frau vernehme\nich ein Gerücht, dass der \"Magellan\" vergriffen sei, und\nwenn tatsächlich ein frischer Druck nötig ist, möchte ich\nSie bitten, ein paar Flöhe zwischen die Fingernägel zu\nnehmen und zu zerdrücken. Es muss heissen auf Seite 21,\nZeile 9 von unten \"antarktischen Pol\" statt \"arktischen\",\nS. 48 Z.19/20 muss die Klammer \"des heutigen Kalkutta\"\nwegfallen, S. 312 Z. 4 von unten muss es \"Sebastian\"\nstatt \"Juan\" heissen, ferner schreibt mir Frau Mazzu-\nchetti \"Die Argonauten waren keine argive, kehrten nicht\nnach argos zurück, sondern nach Thessalien und hiessen\nnur so, weil ihr Schiff Argos hiess.\" Ich kann im Moment\ndiese Stelle nicht finden und will die Absendung dieses\nBriefes nicht verzögern. Bitte, wenn Sie sie finden,\ndas dementsprechend zu ändern und einfach zu sagen \"Die\nArgonauten kehrten in die Heimat zurück\".\nDieser Tage wurde mir ein recht hüb-\nsches Gedichtmanuskript eines jungen Mannes vorgelegt,\ndas wohl mindestens gleiche Qualität hat wie Riemen-\nschmidt und so weiter. Der Vater würde dafür, wenn es",
+      "notes": "Typoskript auf weißem Papier. Der Text bricht am Ende der Seite mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "schön herausgegeben wird, einen Zuschuss von tausend\nschweizer Franken leisten. Vielleicht sprechen Sie ein-\nmal mit Herrn Reichner darüber.\nDass das Werkverzeichnis gestern wohl-\nbehalten eingetroffen ist, habe ich gemeldet. Als ich\nes wieder ansah, musste ich leider feststellen, dass es\ndoch viel eindrucksvoller ist mit seinem brauenen, ver-\ngilbten Papier als das, was ich an Reproduktionen bei\nIhnen auf dem allzu weissen und allzu glatten in Wien\nsah. Ich bin schon sehr neugierig, wie es sich prä-\nsentiert (leider scheint es für Weihnachten zu spät ge-\nkommen zu sein). Um wie viel besser wäre es gewesen,\nwir hätten es Ihnen damals im Sommer mitgegeben.\nUnd nun ruhen Sie sich gründlich aus,\nwie es heisst: \"Zu neuen Taten lockt ein neuer Tag.\"\n\nHerzlichst Ihr\n\nBitte Frau Fanny Bayer, Wien X, Rasestrasse 109, in\nmeinem Auftrage fünfzig Schillinge zu überweisen (für\nden armen Theodor Krmaer, dem es furchtbar schlecht geht).",
+      "notes": "Typoskript auf weißem Papier. Fortsetzung des Briefes von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2034,
+    "total_words": 324,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

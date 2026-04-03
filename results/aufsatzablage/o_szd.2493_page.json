@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2493",
+    "title": "Jüdische Arbeiten",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA103.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2493/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift",
+        "hands": [
+          "Lotte Zweig",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Jüdische Arbeiten\n- Signatur: SZ-AAP/W-AA103.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Lotte Zweig, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:27.337743+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Jüdische Arbeiten\nDas Haus des tausend Schicksale\nEine unveröffentlichte Ansprache\nBrief an Joseph Leftwich\nFür das Inter-aid Committee for Children from Germany\nFür die Maccabi-Association, London\nDie Frage „Whiter Jewry“...\nAufruf für die österr. Juden, 1938\nIn der schweren Zeitspanne...\nKeep out of Politics!\nFür die Freie Tribüne, Paris\nzum jüdischen Literatur[?]",
+      "notes": "Handschrift in violetter Tinte. Die letzten Zeilen sind in einer helleren, dünneren Tinte oder Bleistift geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Jüdische Arbeiten\n✓ Das Haus des tausend Schicksale (für den Shelter in London)\n✓ Eine unveröffentlichte Ansprache\n✓ Brief an Joseph Leftwich\n✓ Für das Inter-aid Committee for Children from Germany\n✓ Für die Maccabi-Association, London\n                                          Begegnungen p. 230",
+      "notes": "Handschrift in violetter Tinte auf einem schmalen Papierstreifen. Enthält Haken (✓) vor den Zeilen und eine Anmerkung am rechten Rand."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Papierstreifens, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Jüdische Arbeiten\nDas Haus des tausend Schicksale\nEine unveröffentlichte Ansprache\nBrief an Joseph Leftwich\nFür das Inter-aid Committee for Children from Germany\nFür die Maccabi-Association, London\nDie Frage „Whiter Jewry“...\nAufruf für die österr. Juden, 1938\nIn der schweren Zeitspanne...\nKeep out of Politics!\nFür die Freie Tribüne, Paris\nzum jüdischen Literatur[?]",
+      "notes": "Identisch mit Seite 1, vermutlich ein anderer Scan desselben Blattes."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Jüdische Arbeiten\nDas Haus des tausend Schicksale\nEine unveröffentlichte Ansprache\nBrief an Joseph Leftwich\nFür das Inter-aid Committee for Children from Germany\nFür die Maccabi-Association, London\nDie Frage „Whiter Jewry“...\nAufruf für die österr. Juden, 1938\nIn der schweren Zeitspanne...\nKeep out of Politics!\nFür die Freie Tribüne, Paris\nzum jüdischen Literatur[?]",
+      "notes": "Identisch mit Seite 1 und 5, inklusive Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich das letzte Wort 'Literatur[?]' ist aufgrund der verblassten Tinte leicht unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1400,
+    "total_words": 195,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

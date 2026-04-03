@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1093",
+    "title": "Postkarte an Max Fleischer vom 17. Februar 1902, SZ-LAS/B3.15",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1093/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1093/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1093/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 17. Februar 1902, SZ-LAS/B3.15\n- Signatur: SZ-LAS/B3.15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:12.615785+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte\n\nHerrn Max Fleischer\nStud. phil.\nLeipzig (Sachsen)\nMünzgasse 16\n\n[Quer geschrieben:] Absend[?] falls an Stefan Zweig Wien I. Rathausstrasse 17",
+      "notes": "Adressseite der Postkarte. Gedruckter Titel 'Correspondenz-Karte'. Oben quer eine Absendernotiz in Zweigs Hand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Max! So lang wollt ich dir schon\nschreiben, wußte aber nie recht, ob du\nin Leipzig bist, u sende dir hier daher nur eine\nCorrespondenzkarte ohne Ansicht. Das einzige,\nwas ich von dir vernahm — war nicht von\ndir, nämlich die prächtige Besprechung deines\nBuches im Literarischen Centralblatt von\nHans Benzmann. Das müßte dich später\nan deine Sachen erinnern!\nIm Berliner Tageblatt schreibt jetzt constant\nein Victor Fleischer. Ist das am Ende dein\nBruder?! das wäre ja fabelhaft.\nIch übersiedle in 14 Tagen von Wien\nund käme gern nach Berlin. Im übrigen\ngeht es mir nur mäßig. Mein Novellenband\nist noch immer nicht fertig mein Studium\nläßt zu wünschen übrig. Aber sonst ist alles\nin Ordnung.\nHerzliche Grüße\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violett-schwarzer Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "an deine Seiten erinnern!\nIm Berliner Tageblatt schreibt jetzt constant\nein Victor fleischer. Ist das am Ende dein\nBruder?! das wäre ja fabelhaft.\nIch übersiedle in 14 Tagen von Wien\nund käme gegen Berlin. Im übrigen\ngeht es nur mäßig. Mein Novellenband\nist noch immer nicht fertig mein Studium\nläßt zu wünschen übrig. Aber sonst ist alles\nin Ordnung.",
+      "notes": "Ausschnitt der Nachrichtenseite, teilweise verdeckt durch Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger flüchtiger Schreibweisen. Die Identifikation der Namen (Max Fleischer, Hans Benzmann, Victor Fleischer) ist durch den Kontext gesichert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1239,
+    "total_words": 201,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 13,
+    "estimated_accuracy": 0.94,
+    "edited_pages": [
+      1,
+      2
+    ],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
+  }
+}

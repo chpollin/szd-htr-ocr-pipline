@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.622",
+    "title": "Otto Falckenberg an Stefan Zweig, 1908-03-22, SZ-SAM/AK.53",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.622/IMG.1",
+      "https://gams.uni-graz.at/o:szd.622/IMG.2",
+      "https://gams.uni-graz.at/o:szd.622/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Otto Falckenberg an Stefan Zweig, 1908-03-22, SZ-SAM/AK.53\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.53\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:21.426572+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bruck bei München",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Bruck bei München. Der Text 'Bruck bei München' ist gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Tausend dank, lieber Herr\nZweig, für Ihre freund=\nliche Güte mein[?] [?] .\nJa, es war besser, als ich er=\nwarten durfte, und das\nkommt ja beim Theater\nwohl selten vor, - noch\nselten als [?] im\nLeben. Kommen Sie über\nMünchen schon, so lassen\nSie es mich wissen! Recepter\nBruck 53 / Mit herzlichsten Grüßen\nIhr Falckenberg.\n\nHerrn\nStefan Zweig\n\nWien III\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke (5 Pfennig Bayern) und Poststempel 'BRUCK' vorhanden. Die Lesung 'mein[?] [?]' ist unsicher, ebenso wie das Wort nach 'selten als'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Tausend dank, lieber Herr\nZweig, für Ihre freund=\nliche Güte mein[?] [?] .\nJa, es war besser, als ich er=\nwarten durfte, und das\nkommt ja beim Theater\nwohl selten vor, - noch\nselten als [?] im\nLeben. Kommen Sie über\nMünchen schon, so lassen\nSie es mich wissen! Recepter\nBruck 53 / Mit herzlichsten Grüßen\nIhr Falckenberg.\n\nHerrn\nStefan Zweig\n\nWien III\nKochgasse 8",
+      "notes": "Scan mit Farbskalen und Grauskalen zur Archivierung. Identischer Inhalt wie Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere in Zeile 3 und 8) sind aufgrund der kursiven Schreibweise schwer zu entziffern.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 743,
+    "total_words": 133,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

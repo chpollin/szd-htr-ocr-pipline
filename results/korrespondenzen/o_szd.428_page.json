@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.428",
+    "title": "Hans Müller Einigen an Stefan Zweig, 1910-04-15, SZ-SAM/AK.145",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.428/IMG.1",
+      "https://gams.uni-graz.at/o:szd.428/IMG.2",
+      "https://gams.uni-graz.at/o:szd.428/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1910-04-15, SZ-SAM/AK.145\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.145\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.680210+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lago di Como - Bellagio - Panorama.",
+      "notes": "Vorderseite einer Ansichtskarte mit Panorama von Bellagio."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Bellagio, 15/4 10.\nGrand Hotel B.\nherzlichen Gruß aus\neinem der schönsten\nOrte! Ich arbeite jetzt\nviel am „Beatus“; der\nbald fertig wird. Zum\nApril habe ich in Wien\nzu tun, bleibst du dahin?\nherzlich euer\n~~dein~~ Hans\n\nHr. Stefan Zweig\n\nVienna VIII.\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht und Adresse. Poststempel 'BELLAGIO COMO 16. APR 10'. Briefmarke 10 Centesimi."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierungszwecke, dazwischen die bereits transkribierte Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist typisch für die Zeit. Die Korrektur 'dein' zu 'euer' (oder umgekehrt) ist durchgestrichen, dies wurde gemäß den Regeln erfasst.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 297,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1455",
+    "title": "Brief an Stefan Zweig vom 22. Mai 1940, SZ-AAP/B3.19",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1455/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1455/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1455/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 22. Mai 1940, SZ-AAP/B3.19\n- Signatur: SZ-AAP/B3.19\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:34.727446+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                    30\n\n                                          22nd May 1940.\n\nInternational Copyright Bureau,\nDewar House, Haymarket,\nLondon S.W.1.\n\nDear Sir,\n          On receiving your letter of May 21st,\nI have revised our contract of December 9th, 1938\nand would like to draw your attention to § 3 in\nwhich it is agreed:\n\n          \"The Company shall retain or receive out of all\nmonies received by them in respect of the said\nworks or otherwise payable in respect thereof\na commission of ten per cent in respect of\nbusiness done for stage performances and of\nfive per cent in respect of business done for\nfilm rights unless other rates of commission\nare agreed upon in writing between the parties\nhereto........ All previous arrangements are\nhereby cancelled.\"\n\nOn looking over your last statements of account\nI find, however, that you usually charge fifteen\nper cent commission and on some works even 33 1/3rd\nper cent (Komödiant) and once, on \"Volpone\" (state-\nment of November 1939) 25 per cent. I cannot under-\nstand this and would like to receive clear information",
+      "notes": "Typoskript auf Briefpapier. Die Zahl '30' oben rechts ist handschriftlich mit rotem Stift notiert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "in this matter. .\n\n          Thanking you for an early reply,\n\n          Yours sincerely,",
+      "notes": "Typoskript, Fortsetzung des Briefes. Der Text ist durchscheinend von der Rückseite (bzw. hier durch das Papier hindurch) leicht sichtbar, wurde aber gemäß Anweisung nicht transkribiert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "in this matter. .\n\n          Thanking you for an early reply,\n\n          Yours sincerely,",
+      "notes": "Identisch mit Seite 2, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche '30' auf Seite 1 ist ebenfalls eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1304,
+    "total_words": 194,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2234",
+    "title": "Turm zu Babel, Der",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA198.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2234/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.11",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.12",
+      "https://gams.uni-graz.at/o:szd.2234/IMG.13"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, blauer Buntstift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "(deutsch\n                                 und französisch)"
+        ]
+      },
+      "notes": "Zwei Registerblätter. Ursprüngliche Aufschrift des ersten:\n                        \"Die jüngste Generation der heutigen Lyriker\"; ursprüngliche\n                        Aufschrift des zweiten: \"Die Wanderung\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Turm zu Babel, Der\n- Signatur: SZ-AAP/W-AA198.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, blauer Buntstift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Zwei Registerblätter. Ursprüngliche Aufschrift des ersten:\n                        \"Die jüngste Generation der heutigen Lyriker\"; ursprüngliche\n                        Aufschrift des zweiten: \"Die Wanderung\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:57.254397+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Turm zu Babel, Der\n(deutsch & französisch)\n\ndie jüngste Generation\nder deutschen\nLyriker",
+      "notes": "Handschrift, violette Tinte. Es handelt sich um eine Zusammenstellung von zwei Zetteln, die hier gemeinsam abgebildet sind."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Turm zu Babel, Der\n(deutsch & französisch)",
+      "notes": "Handschrift, violette Tinte. Ausschnitt/Zettel 1."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "die jüngste Generation\nder deutschen\nLyriker",
+      "notes": "Handschrift, violette Tinte. Ausschnitt/Zettel 2."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Zettel 2, durchscheinender Text von der Vorderseite sichtbar."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Turm zu Babel, Der\n(deutsch & französisch)",
+      "notes": "Handschrift, violette Tinte. Zettel 1."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Zettel 2, durchscheinender Text von der Vorderseite sichtbar."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Turm zu Babel, Der\n\n2 Ex\n\nDie Wanderung\n\nerschienen in: Der Tag 12. IX. 1926\nPrager Tagblatt, 25. XII. 1929",
+      "notes": "Handschrift, violette Tinte. Zettel 3."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Zettel 3, durchscheinender Text von der Vorderseite sichtbar."
+    },
+    {
+      "page": 9,
+      "type": "content",
+      "text": "Die Wanderung\n\nerschienen in: Der Tag 12. IX. 1926\nPrager Tagblatt, 25. XII. 1929",
+      "notes": "Handschrift, violette Tinte. Ausschnitt/Zettel 3."
+    },
+    {
+      "page": 10,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Zettel 3, durchscheinender Text von der Vorderseite sichtbar."
+    },
+    {
+      "page": 11,
+      "type": "content",
+      "text": "Turm zu Babel, Der\n\n2 Ex",
+      "notes": "Handschrift, violette Tinte. Ausschnitt/Zettel 3."
+    },
+    {
+      "page": 12,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Zettel 3, durchscheinender Text von der Vorderseite sichtbar."
+    },
+    {
+      "page": 13,
+      "type": "color_chart",
+      "text": "Turm zu Babel, Der\n\n2 Ex\n\nDie Wanderung\n\nerschienen in: Der Tag 12. IX. 1926\nPrager Tagblatt, 25. XII. 1929",
+      "notes": "Handschrift, violette Tinte. Zettel 3 mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 535,
+    "total_words": 93,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

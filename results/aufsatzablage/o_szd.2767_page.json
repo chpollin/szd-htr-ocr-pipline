@@ -1,0 +1,91 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2767",
+    "title": "Hermann Bahr, Austriaca.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA12.3",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2767/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2767/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2767/IMG.3"
+    ],
+    "date": "1911",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Dachau",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Dachau"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ]
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Hermann Bahr, Austriaca.\n- Signatur: SZ-AAP/W-AA12.3\n- Datum: 1911\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:03.760402+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hermann Bahr, Austriaca. Fischer, Berlin, geb. 4.00.\nIn Österreich hat sich in den letzten zehn Jahren seit dem Erstarken so vieler\nTalente und aus dem erneuten Selbstbewußtsein infolge günstiger politischer\nKonstellationen eine zwiefache Form des nationalen Patriotismus herausgebildet:\ndie „Östereicherei“, womit jene Kritiklose nationalistische Selbstbegeisterung ver-\nstanden möge, die alles Bestehende lobt und nach berühmten Mustern\ndas heimische Land als die beste der irdischen Welten ausgibt, und daneben ein\nunosfizielles, höchst unbeliebtes Österreichertum, das in der Fülle der neuen Er-\nscheinungen erst ein Versprechen, die Möglichkeit eines wirklichen Österreichs\nsieht. Für das erste mag als Repräsentant Rudolf Hans Bartsch gelten, dieser\nüberschwänglich Blindbegeisterte, für das zweite Hermann Bahr, bei dem die\nLiebe noch herzlich mit Haß vermengt ist, der erruptiv und temperamentvoll zu-\nerst alles Untüchtige und Verjährte beseitigen möchte, ehe die Liebe sich im Auf-\nbauen versuchen soll. Flüchtig gelesen, würde dieses Buch „Austriaca“, das seine\npolitischen Ansichten in einzelnen prachtvollen und temperamentvollen Essays\nzusammenfaßt, wie ein Pamphlet gegen Österreich anmuten, aber sieht man\nnäher zu, so spürt man, daß diese Erbitterung nur brennende Liebe ist, ein\nStampfen gegen die lastende Eiskruste einer verzopften und böswilligen Bureau-\nkratie, unter der sich ein neuer Frühling ungestüm entfalten will. Man bewundert\nin diesen Essays vor allem die wunderbare Kunst, allgemeine Zustände durch ein\ngeschicktes Beispiel plastisch zu verkörpern, worin sich allein schon verraten würde,\ndaß der Autor dieses Buches kein professioneller Politiker ist, sondern der Dra-\nmatiker, den Deutschland immer mehr lieben lernt und der es wie kein zweiter\nverstanden hat, das letzte halbe Jahrhundert in Österreich durch einzelne Ge-\nstalten auf der Bühne sinnfällig zu machen. Und andererseits spürt man wieder\nmit stetem Entzücken den vortrefflichen Essaysten, der mit einer Klarheit ohne-\ngleichen das Verworrenste in seine reinen Linien zurückdrängt, spürt diesen ganz\nTemperamentvollen, der an dem neuen Österreich, von dem er Kunde gibt, inner-\nlich mehr mitgearbeitet und geschaffen hat, als er selber eingesteht. Gefährlich in\nseinen Paradoren, nicht immer bezwingend in seinem Urteil, ist es doch eines der\nhinreißendsten Bücher, die je von uns geschrieben wurden und läßt einem all das viele,\ndas man in Tageszeitungen täglich als Politik vorgesetzt bekommt, leer, kalt und\nals flüchtiges Geschreibsel ohne Wucht und Autorität erscheinen. Stefan Zweig",
+      "notes": "Zeitungsdruck (Fraktur). Der Text ist auf dem Faksimile in zwei Teilen abgebildet, die hier zusammengefügt transkribiert wurden."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "politischen Ansichten in einzelnen prachtvollen und temperamentvollen Essays\nzusammenfaßt, wie ein Pamphlet gegen Österreich anmuten, aber sieht man\nnäher zu, so spürt man, daß diese Erbitterung nur brennende Liebe ist, ein\nStampfen gegen die lastende Eiskruste einer verzopften und böswilligen Bureau-\nkratie, unter der sich ein neuer Frühling ungestüm entfalten will. Man bewundert\nin diesen Essays vor allem die wunderbare Kunst, allgemeine Zustände durch ein\ngeschicktes Beispiel plastisch zu verkörpern, worin sich allein schon verraten würde,\ndaß der Autor dieses Buches kein professioneller Politiker ist, sondern der Dra-\nmatiker, den Deutschland immer mehr lieben lernt und der es wie kein zweiter\nverstanden hat, das letzte halbe Jahrhundert in Österreich durch einzelne Ge-\nstalten auf der Bühne sinnfällig zu machen. Und andererseits spürt man wieder\nmit stetem Entzücken den vortrefflichen Essaysten, der mit einer Klarheit ohne-\ngleichen das Verworrenste in seine reinen Linien zurückdrängt, spürt diesen ganz\nTemperamentvollen, der an dem neuen Österreich, von dem er Kunde gibt, inner-\nlich mehr mitgearbeitet und geschaffen hat, als er selber eingesteht. Gefährlich in\nseinen Paradoren, nicht immer bezwingend in seinem Urteil, ist es doch eines der\nhinreißendsten Bücher, die je von uns geschrieben wurden und läßt einem all das viele,",
+      "notes": "Ausschnitt des Textes mit Grauskala und Farbkarte für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Wiederholung auf Seite 3 ist ein Teilausschnitt des Textes von Seite 1.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3938,
+    "total_words": 563,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

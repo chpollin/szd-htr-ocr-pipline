@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.588",
+    "title": "Wilhelm Hornuth an Stefan Zweig, 1928-06-16, SZ-SAM/AK.292",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.588/IMG.1",
+      "https://gams.uni-graz.at/o:szd.588/IMG.2",
+      "https://gams.uni-graz.at/o:szd.588/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Wilhelm Hornuth an Stefan Zweig, 1928-06-16, SZ-SAM/AK.292\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.292\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:19.903437+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "16/6.29\t\t\tStadt- u. Dombeleuchtung.",
+      "notes": "Vorderseite einer Ansichtskarte mit nächtlicher Ansicht von Köln. Handschriftliche Datierung und Bildunterschrift am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "OFFIZIELLE POSTKARTE DER PRESSA\n\nDen 16. Juni 1928.\nSehr verehrter und lieber Herr Doktor,\nSalzburg war auch im Regen noch\nschön; daß ich den Tag in so dankbarer\nErinnerung bewahre, war Ihr liebens-\nwürdigkeit [?] Schuld. Ihre freundliche Beratung\nwar mir höchst wertvoll - ich sah viel Schö-\nnes: Ischl, Traunkirchen, Gmunden, Hall-\nstatt. Wie reizend doch Ihr Land! Aber\nvon der Pressa aus wird man sich auf der\nSchönheit Kölns und unsres Domes wieder\nder neu besinnt. Lockt Sie die Ausstellung\nkeinesfalls aus Salzburg nicht? Sie sehen\nich entwickle schon Lokalstolz. Herzlichst, in\nTreue ergebenst, Ihr Hornuth.",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (Köln, 17.6.28) vorhanden. Adressat: Dr. Stefan Zweig, Salzburg, Kapuzinerberg 5. Der Text am linken Rand ist vertikal geschrieben: 'Vormitt. [?] 12 I. Verlag Rudolf Schick & Co., Köln-Leipzig Nr. 25'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen das bereits transkribierte Dokument (Rückseite der Postkarte)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Ein Wort in der Anrede/Danksagung ('liebenswürdigkeit') ist grammatikalisch etwas holprig, wurde aber originalgetreu transkribiert. Die vertikale Randnotiz ist aufgrund der Ausrichtung und Überlagerung durch den Verlagsaufdruck teilweise schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 650,
+    "total_words": 102,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

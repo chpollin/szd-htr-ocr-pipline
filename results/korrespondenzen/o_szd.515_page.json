@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.515",
+    "title": " Unidentified an Stefan Zweig, 1908-09-24, SZ-SAM/AK.224",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.515/IMG.1",
+      "https://gams.uni-graz.at/o:szd.515/IMG.2",
+      "https://gams.uni-graz.at/o:szd.515/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1908-09-24, SZ-SAM/AK.224\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.224\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.496400+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wie gefällt Ihnen das?\n24.9.08.\nBRESLAU, PARTIE VOR DER SANDBRÜCKE.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text der Ortsbezeichnung, handschriftliche Notiz oben links und Datum oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Breslau 5, Gartenstr. 16.\nLieber Freund, fast jede Stunde\nich sehe des Abends Aufstellungen in\nWien zu entschuldigen, die Kopf-\nweh ist schuld. Ich ist 2 mal vergeblich\nim Hotel mich nach Nachrichten -\nkundigt, jetzt sind auch plötzlich Hrn.\nPaul Hegner tröstete dass Sie ~~nach~~ Herrn\nFriesen gedampft seien, dann habe\nIch Sie noch einmal ange-\nklingelt und vergebet auf Sie\ngewartet. Schade. Hoffentlich sehe\nich Sie nächstes Mal.\nViele Grüße Ihr\nRobert Lör[?] legh[?]\n\nAn:\nDr. Stefan Zweig\nWien VIII\nKochgasse 8.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Zwei Briefmarken (Deutsches Reich, 3 Pfennig) mit Poststempel 'BRESLAU 24.9.08'. Die Unterschrift ist schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Breslau 5, Gartenstr. 16.\nLieber Freund, fast jede Stunde\nich sehe des Abends Aufstellungen in\nWien zu entschuldigen, die Kopf-\nweh ist schuld. Ich ist 2 mal vergeblich\nim Hotel mich nach Nachrichten -\nkundigt, jetzt sind auch plötzlich Hrn.\nPaul Hegner tröstete dass Sie ~~nach~~ Herrn\nFriesen gedampft seien, dann habe\nIch Sie noch einmal ange-\nklingelt und vergebet auf Sie\ngewartet. Schade. Hoffentlich sehe\nich Sie nächstes Mal.\nViele Grüße Ihr\nRobert Lör[?] legh[?]\n\nAn:\nDr. Stefan Zweig\nWien VIII\nKochgasse 8.",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere die Unterschrift des Absenders und einige Wörter im Textkörper (z.B. 'Aufstellungen', 'gedampft'). Die Transkription der Unterschrift ist daher unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1099,
+    "total_words": 178,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.935",
+    "title": "Ansichtspostkarte an Frans Masereel vom 5. Mai 1919, SZ-LAS/B1.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.935/IMG.1",
+      "https://gams.uni-graz.at/o:szd.935/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 5. Mai 1919, SZ-LAS/B1.8\n- Signatur: SZ-LAS/B1.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.896816+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Notre maison: il embrasse toute\nla ville et les montagnes.",
+      "notes": "Vorderseite einer Ansichtspostkarte mit einer Abbildung von Salzburg. Handschriftliche Notiz in französischer Sprache am oberen Bildrand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "SALZBURG (Kapuzinerberg 5)\nMon cher Frans, a Vienne on etait\nenthousiasmé de Tes bois: ils se-\nront imprimés bientot, mais le\nlivre ne paraitra avant 6 mois\net nous pouvons esperer, qu'il\nsera deja la paix a cette epoque.\nNous sommes a peu pres installés\net serous heureux de te voir chez\nnous quand tu voudras, la distance\nest minime et bien fait, quand nous\nreviendrons en Suisse. Je t'ecrirai\nbientot longuement. Fidelement\nStefan\n\nFrans Masereel\nGenève (Schweiz)\n8, rue de l'Aubepine",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in französischer Sprache. Briefmarke (10 Heller, Österreichische Post) mit Poststempel 'SALZBURG 5.V.19'. Gedruckter Verlagsvermerk 'Kunstverlag Hans Hausner, Wien, V.' am linken Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift von Stefan Zweig ist klar erkennbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 545,
+    "total_words": 92,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

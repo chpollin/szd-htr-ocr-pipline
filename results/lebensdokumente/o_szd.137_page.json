@@ -1,0 +1,150 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.137",
+    "title": "At Home Card",
+    "language": "en",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L14",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.137/IMG.1",
+      "https://gams.uni-graz.at/o:szd.137/IMG.2",
+      "https://gams.uni-graz.at/o:szd.137/IMG.3"
+    ],
+    "document_type": "postcard",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Diverses"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "dimensions": "11x9 cm"
+      },
+      "notes": "Aufdruck „Stefan Zweig | At Home | R. S. V. P, | 49, Hallam Street, | London, W.1“"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: At Home Card\n- Signatur: SZ-AAP/L14\n- Sprache: Englisch\n- Objekttyp: Karte\n- Umfang: 1 Blatt\n- Anmerkungen: Aufdruck „Stefan Zweig | At Home | R. S. V. P, | 49, Hallam Street, | London, W.1“"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.376543+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Stefan Zweig\nAt Home\n\nR. S. V. P,\n49, Hallam Street,\nLondon, W. 1",
+      "notes": "Es handelt sich um eine gedruckte Einladungskarte.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            35.4,
+            39.8,
+            30.6,
+            9.2
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Name und Anlass (Stefan Zweig At Home)",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            36.7,
+            59.8,
+            24.3,
+            2.3
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Antwortvermerk (R.S.V.P.)",
+          "source": "surya"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            52.1,
+            62.6,
+            28.2,
+            5.0
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Adressblock",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer.",
+      "image": "IMG_2.jpg",
+      "image_width": 4912,
+      "image_height": 7360
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Die Rückseite ist leer (Aufnahme mit Farbskala)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 65,
+    "total_words": 14,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T11:27:39.618525+00:00"
+  }
+}

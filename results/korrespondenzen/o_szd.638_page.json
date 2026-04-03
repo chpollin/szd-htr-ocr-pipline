@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.638",
+    "title": "Karl Geigy-Hagenbach an Stefan Zweig, 1927-10-08, SZ-SAM/AK.68",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.638/IMG.1",
+      "https://gams.uni-graz.at/o:szd.638/IMG.2",
+      "https://gams.uni-graz.at/o:szd.638/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Karl Geigy-Hagenbach an Stefan Zweig, 1927-10-08, SZ-SAM/AK.68\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.68\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.774462+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Marbach a. N. Schillers Geburtshaus",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Geburtshaus von Friedrich Schiller in Marbach am Neckar. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Stuttgart, 8 Oct. 27\nVerehrter, lieber Herr S!\nWie Sie sehen sind sie immer\nnoch auf der Fahrt. Ihr liebens-\nwürdiges Schreiben ist mir von\nBasel nach München nachgesandt\nworden. Vielen herzlichen Dank\nfür Ihre prächtigen Ergänzungen\ngratuliere ich Ihnen aufs Beste.\nIch hab den Haydn-Brief\nerhalten. Glück ist mir diese\nLumperei M. 30.-- entgegenge-\nDa sollte man selbst an der\nAndere sein. In München\nhebe ich herrlich Tage verbracht\nzu kommen sachst vor Marbach\nzurück. Sehr interessant. Morgen\nAbend in Basel. Auf Ihren\nBesuch freue ich mich\nsehr. Wie kann ich passen\nmit herzlichen Grüßen K.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel 'Stuttgart 8.10.27' vorhanden. Die Adresse lautet: 'Herrn H. Stefan Zweig / 5 Kapuzinerberg / Salzburg / Oesterreich'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte die bereits transkribierte Postkarte (Rückseite)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere im Mittelteil der Postkarte ('entgegenge-', 'sachst vor Marbach'). Einige Wörter sind aufgrund der kursiven Schreibweise und der Tinte nur mit mittlerer Sicherheit zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 631,
+    "total_words": 102,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

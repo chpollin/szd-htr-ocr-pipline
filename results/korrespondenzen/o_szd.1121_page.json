@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1121",
+    "title": "Postkarte an Max Fleischer vom 29. Januar 1904, SZ-LAS/B3.40",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1121/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1121/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1121/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 29. Januar 1904, SZ-LAS/B3.40\n- Signatur: SZ-LAS/B3.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:14.322156+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte.\n\nAn\nHerru Max Fleischer\n\nin Halle a. d. Saale\nMartinsberg 6 I Hstk",
+      "notes": "Adressseite der Postkarte. Der Stempel ist datiert auf den 29.1.04. Die Briefmarke ist eine 5 Heller Marke."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mein lieber Max, man sollte Dir ja böse sein,\naber es geht doch nicht recht, wenn Du einem\nso liebe und herzliche Karten schreibst, die\ngeradezu Labnise[?] sind inmitten des philoso-\nphischen Foliantenquarkes. Ich höre dass Du ar-\nbeitest: das würde mich herzlich freuen. Und\nnoch mehr, wenn wir uns bald begegneten und\nrespectvoll vor einander die Doktorhüte zögen\n— ach du schönes Traum, du Wunderland, zu\ndem man nur durch Berge von Haut und\nHindern erst durchbeören[?] muss. In alter\nSamuigkeit[?] Dein Stefan",
+      "notes": "Textseite der Postkarte. Handschrift in violetter Tinte. 'Labnise' könnte 'Labnisse' oder eine spezifische Anspielung sein. 'durchbeören' ist schwer lesbar, möglicherweise 'durchbohren' oder 'durchbeissen'. 'Samuigkeit' ist unsicher, könnte 'Traulichkeit' oder 'Herzlichkeit' gemeint sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Mein lieber Max, man sollte Dir ja böse sein,\naber es geht doch nicht recht, wenn Du einem\nso liebe und herzliche Karten schreibst, die\ngeradezu Labnise[?] sind inmitten des philoso-\nphischen Foliantenquarkes. Ich höre dass Du ar-\nbeitest: das würde mich herzlich freuen. Und\nnoch mehr, wenn wir uns bald begegneten und\nrespectvoll vor einander die Doktorhüte zögen\n— ach du schönes Traum, du Wunderland, zu\ndem man nur durch Berge von Haut und\nHindern erst durchbeören[?] muss. In alter\nSamuigkeit[?] Dein Stefan",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala abgebildet."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere 'Labnise', 'durchbeören', 'Samuigkeit') sind aufgrund der individuellen Schreibweise von Stefan Zweig schwer eindeutig zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1113,
+    "total_words": 182,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

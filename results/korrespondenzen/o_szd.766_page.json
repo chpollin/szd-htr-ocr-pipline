@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.766",
+    "title": "Brief an den Herbert Reichner Verlag vom 8. Januar 1938, SZ-AAP/B1.170",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.766/IMG.1",
+      "https://gams.uni-graz.at/o:szd.766/IMG.2",
+      "https://gams.uni-graz.at/o:szd.766/IMG.3",
+      "https://gams.uni-graz.at/o:szd.766/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an den Herbert Reichner Verlag vom 8. Januar 1938, SZ-AAP/B1.170\n- Signatur: SZ-AAP/B1.170\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:30.012451+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "8.Januar 1938.\n\nHerbert Reichner Verlag,\nAegidigasse 6,\nWien VI!\n\nSehr geehrte Herren!\nIch bestätige zunächst die Abrech-\nnung, die ja durchaus erfreulich ist. Besonders die\nhohen Absatzzahlen von \"Begegnungen\" machen mir Freude.\nMan sieht daraus, wie entscheidend der Abstoss für ein\nBuch ist und nur deshalb sind ja noch immer die Novellen\nverhältnismässig zurückgeblieben, weil sie damals in Aus-\nstattung und Agitation nicht richtig angefasst wurden. So\netwas holt sich erst langsam ein. Ich habe schon ersucht,\nden Betrag in schweizer Franken durch Olten mir zugehen\nzu lassen und den Schillingbetrag an Herrn Dr. Josef Gei-\nringer zu überweisen. Wahrscheinlich ist es ja bei dem\nEintreffen dieses meines Briefes schon geschehen.\nIn Sachen Tal liegt nur vor, dass\nmir Karl Seelig noch einmal geschrieben hat (die Karte\nerliegt bei Dr. Geiringer). Frau Tal hat sich auch an\nihn gewandt, der doch seinerzeit mit mir den Kontrakt\nund das Honorar bezahlt hat und nach dem Tode Tals der",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "einzig gültige Zeuge wäre, der mir widersprechen könnte\n(was Tal nie getan hat). Seelig hat ihr aber sofort ge-\nschrieben, dass sie seiner Meinung nach einen Prozess\nbestimmt verlieren würde, wenn sie ihn anstrengt und er\nselbstverständlich auf meiner Seite steht. Ich habe\nDr. Geiringer Instruktionen gegeben. Sie gehen dahin,\ndass ich jedwede Form der Entschädigung ablehne, weil\ndies ein Eingeständnis eines Unrechts meinerseits wäre,\nmich aber bereit erkläre, eine gewisse, allerdings klei-\nne Summe dafür zu bezahlen, wenn nun die Rechte, respek-\ntive auch die Exemplare jetzt an mich zurückfallen. Ich\nglaube nicht, dass sie einen Prozess machen wird, wenn\naber doch, so bin ich persönlich ohne Sorge über den\nAusgang, wenn man ja auch bei einem Prozess immerhin\neinen gewissen Prozentsatz Zufall einschalten muss.\nIch bin überzeugt, dass sie nichts in Händen hat, kei-\nnen wirklichen Kontrakt ausser jenem einen Brief, der\num Ausdehnung des Rechts der Herausgabe von tausend\nauf eine unbeschränkte Zahl ersucht (ohne selbstver-\nständlich weitere Rechte wie Nachdruck und Ueberset-\nzung zu erwerben). Und da sie sich zwei so entschei-\ndenden Zeugen wie Seelig und mir gegenübersieht, wird\nsie nicht wagen, vor Gericht zu gehen.\nMir wäre es natürlich lieber ge-\nwesen, die Sache geordnet zu wissen, weil ich am 14.",
+      "notes": "Typoskript, Fortsetzung des Briefes."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "2)\n\nJanuar morgens voraussichtlich abreise und postalisch\nso gut wie unerreichbar für drei Wochen sein werde (ich\ngehe wahrscheinlich nach Portugal). Ich werde natür-\nlich trachten, irgendwelche möglichen Adressen Ihnen\nbekannt zu geben und auch Herrn Fuchs bitten, dann zwei\noder drei Personen jeweils telephonisch zu verständigen.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+      "notes": "Typoskript, Fortsetzung des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite der dritten Seite, zeigt den durchscheinenden Text der Vorderseite (bleed-through). Keine eigene Beschriftung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2685,
+    "total_words": 418,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

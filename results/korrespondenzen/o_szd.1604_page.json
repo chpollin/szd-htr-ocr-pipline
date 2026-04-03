@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1604",
+    "title": "Postkarte an Richard Friedenthal vom 5. März 1925, SZ-AAP/B2.9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1604/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1604/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1604/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Richard Friedenthal vom 5. März 1925, SZ-AAP/B2.9\n- Signatur: SZ-AAP/B2.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:46.530601+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender:\nSTEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nAn\nHerrn\nDr. R. Friedenthal\n\nB e r l i n NW.\nSchleswiger Ufer 13 /2.",
+      "notes": "Adressseite einer Postkarte. Gedruckter Absender, handschriftliche Ergänzung der Adresse. Poststempel 'SALZBURG -5. III. 25. 3a'. Zwei Briefmarken (200 Kronen und 500 Kronen) aufgeklebt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg, am 5. März 1925\n\nSehr verehrter Herr Doktor!\n\nHerr Dr. Stefan Zweig ist augenblicklich\nleider für einige Wochen verreist und wird nach\nseiner Rückkehr Ihre freundlichen Zeilen sofort\nselbst beantworten\n\nHochachtungsvoll\ndie Sekretärin",
+      "notes": "Nachrichtenseite der Postkarte. Maschinenschrift."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Salzburg, am 5. März 1925\n\nSehr verehrter Herr Doktor!\n\nHerr Dr. Stefan Zweig ist augenblicklich\nleider für einige Wochen verreist und wird nach\nseiner Rückkehr Ihre freundlichen Zeilen sofort\nselbst beantworten\n\nHochachtungsvoll\ndie Sekretärin",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, da es sich um ein maschinengeschriebenes Dokument handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 606,
+    "total_words": 90,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

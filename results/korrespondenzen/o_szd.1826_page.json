@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1826",
+    "title": "Victor Fleischer an Paul Heidelbach, SZ-SAH/B1.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1826/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1826/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1826/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Victor Fleischer an Paul Heidelbach, SZ-SAH/B1.1\n- Signatur: SZ-SAH/B1.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.551633+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn\nRedakteur Paul Heidelbach\nKassel\nWolfsschlucht 13",
+      "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarke (5 Heller, Österreich) und Poststempel (24.11.08) vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "M 416\nSehr geehrter Herr, mein Freund Stefan\nZweig ist verreist und es habe\nich ihm Ihre frdl. Karte sofort nach-\ngeschickt. Da die Zeit bis\nzur Aufführung sehr kurz\nist, erlaube ich mir, Ihnen\nindessen selbst mitzutheilen,\ndass „Thersites“ bereits im\nFrühjahr im Insel-Verlag\nLeipzig erschienen ist.\n\nHochachtungsvoll\nergeben\nVictor Fleischer\n22/XI.08\n\n[Am linken Rand, vertikal geschrieben:]\nIch sende Ihnen noch ein Exemplar des Bandes und werde\nes Ihnen mit gleicher Post.",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Der Text am linken Rand ist vertikal geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Das Dokument selbst ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die vertikale Randnotiz wurde korrekt zugeordnet.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 531,
+    "total_words": 80,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

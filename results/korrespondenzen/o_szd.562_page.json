@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.562",
+    "title": " Unidentified an Stefan Zweig, 1913-08-25, SZ-SAM/AK.269",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.562/IMG.1",
+      "https://gams.uni-graz.at/o:szd.562/IMG.2",
+      "https://gams.uni-graz.at/o:szd.562/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1913-08-25, SZ-SAM/AK.269\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.269\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.157053+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Viele Grüsse - durch Schnee & Klüfte hieher verweht. Treue\nFRAGSBURG GEGEN MERAN (734 M.) 25.8.13.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text unten und handschriftlichem Text oben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Dr. ! Nach dem\ndauerhaften Schreiben=\nhören Ihr feuilleton\nmit B.t. [?] & oft\nSchriften der Literatur.\nNachricht von Ginzkey's\nVerheirung mag\nJelena = Szlony [?] hat\nuns mehrfach\nvermögt, ich fül, dass\nSalters zum Tyllut [?]\nWar fremdenblatt ?\nIch nenn' es: Stefan\nZweigen. Mit den\nbesten Wünschen für gute\nArbeit Ihr sehr Lallmann [?]",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text und Adressfeld. Briefmarke und Poststempel vorhanden. Die Handschrift ist teilweise schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, darunter die bereits transkribierte Postkartenrückseite."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig und weist einige schwer lesbare Eigennamen und Begriffe auf (z.B. 'Szlony', 'Tyllut', 'Lallmann').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 445,
+    "total_words": 74,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1612",
+    "title": "Brief an Meulenhoff en Co. vom 6. Juli 1938, SZ-AAP/B1.257",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1612/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1612/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Meulenhoff en Co. vom 6. Juli 1938, SZ-AAP/B1.257\n- Signatur: SZ-AAP/B1.257\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:47.685095+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                               6.Juli 1938.\n\nMeulenhoff & Co. N.V.\nBeulingstraat 2-4,\nAmsterdam - C.\n\nSehr geehrte Herren!\n\n          Die bei Ihnen lagernden Bücher sind nicht\nvolles Eigentum des Verlages Herbert Reichner, sondern\nich als Autor habe rechtlich zehn Prozent davon zu for-\ndern. Und da mein ständiger Wohnsitz seit vier Jahren\nLondon ist, sehe ich nicht die geringste Schwierigkeit,\ndass Sie diesen Abzugposten mir direkt überweisen, da\nich devisentechnisch nicht Inländer bin. Dagegen wäre\nich einverstanden, dass dieser mir zugehörige Betrag\nbei Ihnen zu Buch stehen bleibt und mir nicht sofort\nausbezahlt wird, damit Sie im Falle irgendeiner Schwie-\nrigkeit (die sich meiner Meinung nach nicht ergeben\nkann) vollkommen gedeckt sind.\n\n          Ich danke Ihnen sehr für Ihre Liebenswür-\ndigkeit und bleibe\n\n                                                               mit den besten Empfehlungen\n\n                                                               Ihr sehr ergebener",
+      "notes": "Typoskript auf Briefpapier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1028,
+    "total_words": 124,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

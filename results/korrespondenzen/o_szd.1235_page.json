@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1235",
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.51",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1235/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1235/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1235/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1235/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1235/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.51\n- Signatur: SZ-LAS/B3.51\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:22.227894+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Dr. Viktor Fleischer\nKomotau\nBöhmen",
+      "notes": "Adressseite eines Briefumschlags. Poststempel: BADEN 27.XII.13-3. Briefmarke: 10 Heller (Kaiser Franz Joseph I.)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Baden b. Wien Mozartstr. 25\nFr. M. v. Winternitz",
+      "notes": "Rückseite des Briefumschlags mit Absenderangabe."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Oft rührt uns Leid wie ein Geschwister an\nUnd zaghaft reichen sich ihm leise Hände\nAls dass das Herz die stummen Türen fände\nDurch die das Innerste es rühren kann.\n\nEs träumt, es hätte einen Weg gefunden\nWo aller Schmerz nur eine stolze Bürde\nUnd Weh zu Güte und Verzeihen würde\nDas tief erlöst in dunkelvollen Stunden\n\nUnd ist der Aufstieg dornervoll und steil\nZum Danke blühet auf verschlossnem Munde\nDes neuen Lächelns selig Auferstehen\n\nWie lieb ich die, die eine hohe Wunde\nIm Herzen, mutvoll durch die Tage gehen\nAus ihrer Kraft erspriesst neues Heil.\n\nDr. Viktor Fleischer Rundruf und Danke\nfür sein schönes Buch. Weihnachten 1913\nFriderike Mar. v. Winternitz",
+      "notes": "Haupttext des Briefes. Die Zeile 'Dr. Viktor Fleischer...' am Ende ist als Widmung/Dankesformel unter dem Gedicht platziert."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, zeigt das Durchscheinen der Tinte von der Vorderseite."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "Oft rührt uns Leid wie ein Geschwister an\nUnd zaghaft reichen sich ihm leise Hände\nAls dass das Herz die stummen Türen fände\nDurch die das Innerste es rühren kann.\n\nEs träumt, es hätte einen Weg gefunden\nWo aller Schmerz nur eine stolze Bürde\nUnd Weh zu Güte und Verzeihen würde\nDas tief erlöst in dunkelvollen Stunden\n\nUnd ist der Aufstieg dornervoll und steil\nZum Danke blühet auf verschlossnem Munde\nDes neuen Lächelns selig Auferstehen",
+      "notes": "Ausschnitt des Brieftextes, der zur Kalibrierung mit einer Farb- und Grauskala fotografiert wurde."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Struktur des Briefes und der Umschläge ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1194,
+    "total_words": 202,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

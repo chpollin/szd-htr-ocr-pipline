@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.733",
+    "title": "Brief an Stefan Zweig vom 1. Dezember 1937, SZ-AAP/B1.140",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.733/IMG.1",
+      "https://gams.uni-graz.at/o:szd.733/IMG.2",
+      "https://gams.uni-graz.at/o:szd.733/IMG.3",
+      "https://gams.uni-graz.at/o:szd.733/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. Dezember 1937, SZ-AAP/B1.140\n- Signatur: SZ-AAP/B1.140\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:27.028068+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag: 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n• Abrechnung per 30.November 1937 1.Dezember 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nDie Ihnen eingehändigte ursprüngliche Abrechnung enthält den Abzugs-\nposten von\n\nsFr.1147.74\n----------\nfür remittierte Castellio-Exemplare.Wir wollen Ihrem Wunsche gern ent-\nsprechen,diesen Belastungsposten nicht sogleich geltend zu machen,und\nsind übereingekommen,dass die sFr.1147.74 durch den allmählichen Ab-\nverkauf von Castellio-Exemplaren abzudecken sind,sodass Sie solange\nkein Honorar für den \"Castellio\" gutgeschrieben erhalten,als nicht\ndieser Betrag gänzlich durch Abverkauf des \"Castellio\" abgedeckt ist.\n\nSie haben bei dieser Gelegenheit sich damit einverstanden erklärt,\ndass wir Ihnen nur fest verkaufte Exemplare aller Ihrer bei uns er-\nschienenen bzw. noch erscheinenden Werke honorieren,hingegen die bisher\nim voraus bezahlten Kommissions-Exemplare nunmehr in Evidenz halten\nund Ihnen das Honorar für die Kommissions-Exemplare erst nach erfolg-\ntem Verkauf gutbringen.\nEbenso haben Sie von sich aus uns vorgeschlagen,einen Teil der\n\"Castellio\"-Auflage zu verramschen,wobei wir natürlich unsere gemeinsa-\nmen Interessen im Auge behalten,die insofern parallel laufen,als wir\ndamit nicht den Eindruck erwecken wollen,als ob Ihre Bücher verramscht",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag: 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n• würden.Wir werden das so einrichten,dass wir nur in ganz bestimmten\nGebieten solche Exemplare offerieren werden,die die Gefahr ausschlies-\nsen,dass solche Exemplare in andere Verkaufsgebiete gelangen.Wir wer-\nden also z.B. weder Oesterreich noch die Schweiz für den Verramsch in\nAussicht nehmen.\nDie Honorargutschriften für die verramschten Exemplare erfolgen auf\nGrund der herabgesetzten Ladenpreise.\n\nWir danken Ihnen für Ihr Einverständnis und begrüssen Sie als\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Fortsetzung des Briefes. Handschriftliche Unterschrift (Reichner) unter dem Text."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2507,
+    "total_words": 325,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

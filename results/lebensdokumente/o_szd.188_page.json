@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.188",
+    "title": "Power of Attorney [The Viking Press]",
+    "language": "en",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AP2/L-S7.4",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.188/IMG.1",
+      "https://gams.uni-graz.at/o:szd.188/IMG.2",
+      "https://gams.uni-graz.at/o:szd.188/IMG.3",
+      "https://gams.uni-graz.at/o:szd.188/IMG.4"
+    ],
+    "date": "1935, January 29",
+    "document_type": "form",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Rechtsdokumente"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs 2002"
+      ],
+      "notes": "Vollmacht für „The Viking Press, New York, NY“"
+    },
+    "additional": {
+      "group": "formular",
+      "context": "## Dieses Dokument\n\n- Titel: Power of Attorney [The Viking Press]\n- Signatur: SZ-AP2/L-S7.4\n- Datum: 1935, January 29\n- Sprache: Englisch\n- Objekttyp: Vollmacht\n- Umfang: 1 Blatt\n- Anmerkungen: Vollmacht für „The Viking Press, New York, NY“"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.854168+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_formular",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "113—Power of Attorney. R CF ED.CO JULIUS BLUMBERG, INC., LAW BLANK PUBLISHERS\n71 BROADWAY AND 1 RECTOR ST., NEW YORK\n\nKnow all Men by these Presents,\nTHAT I, Stefan Zweig of 11 Portland Place, London, England\n\nhave made, constituted and appointed, and by these presents do make, constitute and appoint\nTHE VIKING PRESS INC.\n\nmy true and lawful attorney for me and in my name, place and stead\nto transact all and any nature of business in which I may be engaged or\ninterested now or hereafter, to make, file and pay on Federal State or\nMunicipal Taxes, open bank accounts, make deposits therein and make with-\ndrawals therefrom, all or any of the foregoing acts to be transacted in its\nname or in my name as it may elect.\n\nunto my said attorney full power and authority to do and perform all and every act and\nthing whatsoever requisite and necessary to be done in and about the premises, as fully, to all\nintents and purposes, as I might or could do if personally present, with full power of\nsubstitution and revocation, hereby ratifying and confirming all that my said attorney or\nits substitute shall lawfully do or cause to be done by virtue hereof.",
+      "notes": "Die handschriftlichen Ergänzungen sind in die maschinengeschriebenen Zeilen integriert. Ein Stempelabdruck ist im rechten Bereich des Textes schwach erkennbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "In Witness Whereof, I have hereunto set my hand and seal the\ntwenty-ninth day of January in the year one thousand\nnine hundred and thirty five\nSealed and delivered in the presence of\nStefan Zweig\nWitness\nB. W. Huebsch\n\nState of New York\nCounty of New York\nss.:\n\nBe it Known, That on the twenty-ninth day\nof January one thousand nine hundred and thirty five\nbefore me came CHARLES MARGOLIN\na Notary Public in and for the State of New York\nduly commissioned and sworn, dwelling in White Plains, N.Y.\npersonally came and appeared STEFAN ZWEIG\n\nto me personally known, and known to me to be the same person de-\nscribed in and who executed the within Power of Attorney, and he\nacknowledged the within Power of Attorney to be his act and deed.\nIn Testimony Whereof, I have hereunto subscribed my\nname and affixed my seal of office, the day and year last above written.",
+      "notes": "Handschriftliche Unterschriften von Stefan Zweig, B. W. Huebsch und Charles Margolin. Stempel des Notars am unteren Rand."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "TO\nPower of Attorney\nDated, 193...",
+      "notes": "Rückseite des Dokuments (Formularvordruck)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist durch die Kombination von Maschinenschrift und klaren handschriftlichen Ergänzungen sehr gut lesbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ],
+    "total_chars": 2048,
+    "total_words": 368,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

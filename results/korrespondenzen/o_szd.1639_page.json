@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1639",
+    "title": "Brief an Frans Masereel vom [Januar 1936], SZ-LAS/B1.55",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1639/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1639/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [Januar 1936], SZ-LAS/B1.55\n- Signatur: SZ-LAS/B1.55\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:50.357119+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon cher Frans, ce n'est pas une bête excuse de\nma part, mais je suis vraiment fatigué. Je ne me\nsens pas bien, tout ce que j'ai essayé d'ecrire les\nderniers temps est mauvais faute a des malf de tête.\nJ'ai fait un grand effort. J'ai cesé de fumer (et tu\nsais que je fumais les plus lourds cigars une apres l'autre)\net j'espere de me retaper.\nMais un discours en hâte et mal fait, cela serait\noffenser Rollant. J'ai ecrit un texte pour un discours\nque Bloh lira pour moi (ou un autre.) ~~[...10...]~~ -\nJe suis le dernier d'être ingrat vers un ami tel Rollant.\nMais j'ai besoin encore du repos complet. Amitiés\nde ton\n\nStefan",
+      "notes": "Handschriftlicher Brief in französischer Sprache. Unten mittig ein Prägestempel 'EX LIBRIS'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer, mit einem Ex-Libris-Stempel 'CHRISTIAN ANDREE ET AUTOGRAPHIS' am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die durchgestrichene Stelle ist unleserlich, wurde aber als solche markiert.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 625,
+    "total_words": 118,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

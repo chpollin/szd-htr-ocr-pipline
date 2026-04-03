@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1780",
+    "title": "Brief an Stefan Zweig vom 5. Mai 1938, SZ-AAP/B1.214",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1780/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1780/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 5. Mai 1938, SZ-AAP/B1.214\n- Signatur: SZ-AAP/B1.214\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.819724+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "ALLERT DE LANGE\nDEUTSCHE VERLAGSABTEILUNG\n\nFernsprecher 40292-41292\nPostgiro No. 4110\nGiro Amsterdam L 606\nBank-Konto: Amsterdamsche Bank\nDamrak - Amsterdam\n\nAMSTERDAM-C, den 5. Mai 1938\nDAMRAK 62\n\nHerrn Stefan Zweig\n49, Hallam Street\nL O N D O N W.1.\n\nLieber Herr Stefan Zweig,\n\nAnbei eine Liste der Auslieferungen des\nReichner-Verlags.\nEine Auslieferung für die C.S.R. ist nicht dabei.\nIch nehme an, dass die Wiener Vertretung nach der C.S.R. gelie-\nfert hat.\nIch gebe Ihnen anbei die Adressen und füge noch die 2 Grossisten\nin der C.S.R. bei, die wahrscheinlich grössere Vorräte haben\nwerden.\nÜber alles andere schreibe ich Ihnen\nin den nächsten Tagen. Ich möchte nur, dass Sie den Brief\nschnell bekommen.\n\nMit herzlichen Grüssen\n[Unterschrift]\n\nBeilage.",
+      "notes": "Typoskript mit handschriftlicher Unterschrift. Die Unterschrift ist unleserlich. Das Dokument weist Lochungen am linken Rand auf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Briefkopfes von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar und gut lesbar. Die Unterschrift ist eine unleserliche Paraphe.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 757,
+    "total_words": 118,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1543",
+    "title": "Brief an Stefan Zweig vom 13. Dezember 1924, SZ-AAP/B2.46",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1543/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1543/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1543/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Dezember 1924, SZ-AAP/B2.46\n- Signatur: SZ-AAP/B2.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:40.979180+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "An Stefan Zweig\nBerlin, den 13. XII. 24\nSchöneberger Ufer 13 II bei Sack\n\nLieber Herr Zweig!\nder zweite Brief am gleichen Tage (der erste war übereilt). Ich war eben auf der Redaktion des\nBerliner Tageblattes, wo mich Herr Fugel freundlich, aber mit\nall dem Stolz nicht ganz übermütigen Misstrauen empfing\ndas man jungen Lyrikern entgegenbringt. Er interessierte sich\nfür meine Familie, die ihm aus Breslau so bekannt ist: ihr\nGroßvater war der Kommerzienrat Friedenthal & der Minister war\nihr Großonkel? Ganz recht, mein Vater ist Professor an der hiesigen\nUniversität und ich schreibe nun Gedichte. Es kommt mir un-\nsprünglich respektabel gepflegt ~~etwa~~ auf den Grund. Er\nsah an meinem Pult entlang und schien mir den Grund nicht\nmehr zu glauben. Ich konnte ihm nicht recht auseinandersetzen,\ndass ich mit diesem Geblüt jetzt die Gütertreppe unser Hof-\n{...} hinaufgehe? der vordere Teil ist durchsichtbar) Ja, nun\ndie Gedichte, Sonette, mein Gott. Ich rief in der Not Ihren\nNamen an, der albald eine magische Wirkung hat. Das\nEndresultat war, dass Herr Fugel vorschlug, Sie möchten\ndoch für das Tageblatt das Buch rezensieren. Diesen Auftrag,\nder ich mit einem freundlichen Gruß zu überbringen habe,\nliefern ich nun ab, dass ich nicht vergesse: kurz soll",
+      "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist violett. Die Lesbarkeit ist aufgrund der kursiven Handschrift und einiger Korrekturen/Einfügungen stellenweise erschwert. Die Zeile 'der vordere Teil ist durchsichtbar)' scheint eine Anmerkung zum Papier oder zum Text zu sein."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "der Artikel sein, kurz, kurz; alle Beiträge im Tageblatt müssen\nkurz gehalten sein.\nIch weiß nun nicht ob es Ihrer Art entspricht Dinge\nBeiträge für das B. T. zu schreiben. Möglich auch, dass\nHerr Fugel - den ich im Übrigen mit diesem Ausdruck nicht\nblamieren will; er machte mir sogar einen fast affektierten\nVergnügt {schien} mir ein replikter, hiesiger Redakteur {Zugang} mit einem\nunsicheren Posten versah - dass Herr Fugel auch einige\nZeilen mehr schreiben lässt, wenn Sie von Ihnen kommen.\nZunächst weiß ich aber noch gewiss, ob das Projekt Ihnen\nzusagt. Scheuen Sie es ruhig ab, wenn Sie keine Zeit haben\noder Lust dazu verspüren. Richtig wäre mit mir, dass einladen\nTageblatt jemand das Buch richtig liest. Hochachtungsvollen\nherzlichsten Gruß\n\nIhr\nRichard Friedenthal",
+      "notes": "Handschriftlicher Brief, Fortsetzung auf Seite 2. Violette Tinte. Einige Korrekturen über der Zeile."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "der Artikel sein, kurz, kurz; alle Beiträge im Tageblatt müssen\nkurz gehalten sein.\nIch weiß nun nicht ob es Ihrer Art entspricht Dinge\nBeiträge für das B. T. zu schreiben. Möglich auch, dass\nHerr Fugel - den ich im Übrigen mit diesem Ausdruck nicht\nblamieren will; er machte mir sogar einen fast affektierten\nVergnügt {schien} mir ein replikter, hiesiger Redakteur {Zugang} mit einem\nunsicheren Posten versah - dass Herr Fugel auch einige\nZeilen mehr schreiben lässt, wenn Sie von Ihnen kommen.\nZunächst weiß ich aber noch gewiss, ob das Projekt Ihnen\nzusagt. Scheuen Sie es ruhig ab, wenn Sie keine Zeit haben\noder Lust dazu verspüren. Richtig wäre mit mir, dass einladen\nTageblatt jemand das Buch richtig liest. Hochachtungsvollen\nherzlichsten Gruß\n\nIhr\nRichard Friedenthal",
+      "notes": "Dies ist eine Wiederholung von Seite 2, jedoch mit einer aufgelegten Farbskala/Grauskala für Archivierungszwecke. Die Transkription ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig und weist zahlreiche Korrekturen, Durchstreichungen und Einfügungen über der Zeile auf. Einige Wörter sind aufgrund der Tintenführung und der kursiven Schreibweise schwer zu entziffern (z.B. 'replikter', 'Zugang').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2812,
+    "total_words": 451,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

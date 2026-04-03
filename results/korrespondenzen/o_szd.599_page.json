@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.599",
+    "title": "Stefan Zweig an Stefan Zweig, 1936-08-11, SZ-SAM/AK.301",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.599/IMG.1",
+      "https://gams.uni-graz.at/o:szd.599/IMG.2",
+      "https://gams.uni-graz.at/o:szd.599/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Stefan Zweig an Stefan Zweig, 1936-08-11, SZ-SAM/AK.301\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.301\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:20.145902+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4. Lisboa-Rossio",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Rossio-Platz in Lissabon. Gedruckter Text unten rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wielt hier in\nLissabon dein Telegramm\ndie Stadt ist wunderschön\ndas Meer wie ein Milch\ntopf. In fretta\n\nFriderike Zweig\n\nSalzburg (Austria)\nEurope\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschrift in violetter Tinte. Briefmarke und Poststempel vorhanden (nicht transkribiert). Der Text ist in der Handschrift von Stefan Zweig verfasst."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Wielt hier in\nLissabon dein Telegramm\ndie Stadt ist wunderschön\ndas Meer wie ein Milch\ntopf. In fretta\n\nFriderike Zweig\n\nSalzburg (Austria)\nEurope\nKapuzinerberg 5",
+      "notes": "Ansichtskarte mit Farbskala und Grauskala für Archivierungszwecke. Identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist deutlich lesbar. Die Handschrift ist charakteristisch für Stefan Zweig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 340,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

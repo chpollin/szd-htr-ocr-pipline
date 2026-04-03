@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1562",
+    "title": "Brief an Richard Friedenthal vom [Oktober 1941], SZ-AAP/B2.36",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1562/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1562/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1562/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom [Oktober 1941], SZ-AAP/B2.36\n- Signatur: SZ-AAP/B2.36\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:42.553310+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dear Fridental, I am so thankful for your letters which show me - but there was no\nproof necenary - how good and true our old friendship is. Let us continue in the\nsame way, we want more than ever now in this ~~shaken~~ shaken word some stability and\nsecurity and I {and} ~~no more~~ other than in the few friends which have remained. We\nlive here very isolated and I read a good deal, Balzac, Shakespearo, Goethe (especially\nWilhelm Meister which is an example that one should not leave too great an interval\nin the composition of a work, it is written quasi by two masters in quite a different\nstyle and composition) with my own work I am somewhat hampered by the subcon-\nsious feeling that I have no more my real public. When I for instance in the autobio\ngraphy I wished to dwell on Hofmannthal, Beer-Hofmann I had to remember that in the\nlanguage in which this book should appear nobody knows of them. So I am scribbling on a\nMontaigne - you should reread him. He gives a good lesson by his tenacity to remain\nfree in midst of the turmoil. But you will understand - there is something which\ndiminishes my 'elan' in writing. I miss the expectation of a public, of a publisher\nwhich once stimulated me; when every bookseller asked me, and when comes\nyour new book? there was in this an accumulated energy of thousand questions\nand I had to answer. Now I write without this tension, the translator translates,\nand the publisher publishes in the same mood. For you it is otherwise - you can\nin finishing your novel flow your way free. I hope, I expect your book! Dont\nhesitate! Your old friend\nStefan Zweig",
+      "notes": "Handschriftlicher Brief auf Papier. Die Tinte ist violett. Das Wort 'shaken' wurde durchgestrichen, dann wiederholt. 'and' wurde über der Zeile eingefügt. 'no more' wurde durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Dear Fridental, I am so thankful for your letters which show me - but there was no\nproof necenary - how good and true our old friendship is. Let us continue in the\nsame way, we want more than ever now in this ~~shaken~~ shaken word some stability and\nsecurity and I {and} ~~no more~~ other than in the few friends which have remained. We\nlive here very isolated and I read a good deal, Balzac, Shakespearo, Goethe (especially\nWilhelm Meister which is an example that one should not leave too great an interval\nin the composition of a work, it is written quasi by two masters in quite a different\nstyle and composition) with my own work I am somewhat hampered by the subcon-\nsious feeling that I have no more my real public. When I for instance in the autobio\ngraphy I wished to dwell on Hofmannthal, Beer-Hofmann I had to remember that in the\nlanguage in which this book should appear nobody knows of them. So I am scribbling on a\nMontaigne - you should reread him. He gives a good lesson by his tenacity to remain\nfree in midst of the turmoil. But you will understand - there is something which\ndiminishes my 'elan' in writing. I miss the expectation of a public, of a publisher\nwhich once stimulated me; when every bookseller asked me, and when comes\nyour new book? there was in this an accumulated energy of thousand questions\nand I had to answer. Now I write without this tension, the translator translates,\nand the publisher publishes in the same mood. For you it is otherwise - you can\nin finishing your novel flow your way free. I hope, I expect your book! Dont\nhesitate! Your old friend\nStefan Zweig",
+      "notes": "Gleicher Brief wie auf Seite 1, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Die Korrekturen (Durchstreichungen und Einfügungen) sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 3214,
+    "total_words": 592,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

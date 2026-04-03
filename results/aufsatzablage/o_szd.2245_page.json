@@ -1,0 +1,167 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2245",
+    "title": "Verhaeren, Emile",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA203.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2245/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.7",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.8",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.9",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.10",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.11",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.12",
+      "https://gams.uni-graz.at/o:szd.2245/IMG.13"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte, Bleistift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Zwei Registerblätter. Ursprüngliche Aufschrift des ersten:\n                        \"(Verhaeren); ursprüngliche Aufschrift des zweiten: \"Emile\n                        Verhaeren\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Verhaeren, Emile\n- Signatur: SZ-AAP/W-AA203.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 2 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Zwei Registerblätter. Ursprüngliche Aufschrift des ersten:\n                        \"(Verhaeren); ursprüngliche Aufschrift des zweiten: \"Emile\n                        Verhaeren\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:58.355351+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]\n\n(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
+      "notes": "Das Blatt enthält zwei verschiedene Handschriften. Der obere Teil ist in violetter Tinte, der untere Teil in Bleistift geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]",
+      "notes": "Ausschnitt des oberen Teils von Seite 1."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
+      "notes": "Ausschnitt des unteren Teils von Seite 1."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
+      "notes": "Rückseite des ersten Blattes, sehr blasse Bleistiftspur."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Verhaeren, Emile\nBriefwechsel zwischen B. und R. J.\nP.'s Abendstunden [Rezensio[?]]",
+      "notes": "Wiederholung des oberen Teils."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "(Verhaeren)\n\nEin Briefwechsel\nIm Dichtergarten\nErinnerungen an V.",
+      "notes": "Wiederholung des unteren Teils."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
+      "notes": "Zweites Blatt. Die Zeile 'Dichter' wurde nachträglich rechts eingefügt."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite."
+    },
+    {
+      "page": 9,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite."
+    },
+    {
+      "page": 10,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite."
+    },
+    {
+      "page": 11,
+      "type": "content",
+      "text": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
+      "notes": "Wiederholung des zweiten Blattes."
+    },
+    {
+      "page": 12,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite."
+    },
+    {
+      "page": 13,
+      "type": "color_chart",
+      "text": "Emile Verhaeren\n\nDie neue Zeit\nDie demokrat. Menge und ihre\nDer Dichter des Universums Dichter\nVerhaerens Abendstunden\nDas Drama Verhaerens\nVerhaeren",
+      "notes": "Wiederholung mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Unsicherheiten bestehen lediglich bei der Abkürzung 'Rezensio[?]' aufgrund der Tintenführung.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 958,
+    "total_words": 128,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

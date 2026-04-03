@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.818",
+    "title": "Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.37",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.818/IMG.1",
+      "https://gams.uni-graz.at/o:szd.818/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. Mai 1937, SZ-AAP/B1.37\n- Signatur: SZ-AAP/B1.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:34.542890+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                          Briefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\n                          ENGLAND\n\nRef.  Magellan                                     May 19th,1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nDa Sie uns Schuld gegeben hatten,dass das Bildmaterial für das\nMagellan-Buch noch nicht vorbereitet sei,lassen wir Ihnen das hier\nbeiliegende Originalschreiben des Herrn Leo Bagrow zugehen,das wir\nheute bekommen haben.Es klärt sich nun auf,weshalb Herr Bagrow unser\nausführliches Exposé vom 27.Januar nicht beantworten konnte,weil er\neben einige Monate verreist war.\nAus dem heutigen Briefe des Herrn Bagrow ersehen Sie,dass er unverän-\ndert gern bereit ist,das Material im British Museum in London zusam-\nmenzustellen,was insofern ein grosser Vorteil für Sie ist,weil Sie dann\nmit ihm an Ort und Stelle zusammenarbeiten und Ihre Wünsche direkt bei\nihm geltend machen können.\nHerr Bagrow ist in der Literatur der frühen Geographie und der Ent-\ndeckungsreisen mehr zuhause als irgendein anderer Fachmann und verbindet\nmit dem wissenschaftlichen auch das künstlerische Moment.\n\nWir bitten gleichzeitig Herrn Bagrow,sich eiligst mit Ihnen ins Einver-\nnehmen zu setzen.Da er in der nächsten Woche nach London reist,werden\nSie ihn jedenfalls in ein paar Tagen erreichen können.Bitte warten\nSie also seinen Brief ab und geben Sie uns dann bitte irgendeinen Be-\nscheid.\n\nWir danken Ihnen im voraus bestens und begrüssen Sie als\n                                     Ihre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/schwarz), jedoch nicht lesbar (Namenskürzel). Unterstreichungen im Text sind mit rotem Stift ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist zwar nicht entzifferbar, aber als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1577,
+    "total_words": 210,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

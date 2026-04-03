@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1668",
+    "title": "Berta Burgio-Ahrens an Stefan Zweig, SZ-SAM/AK.35",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1668/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1668/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1668/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Berta Burgio-Ahrens an Stefan Zweig, SZ-SAM/AK.35\n- Signatur: SZ-SAM/AK.35\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:54.089681+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "PALERMO - Il Monte Pellegrino visto dal Mare",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Palermo und dem Monte Pellegrino. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Palermo 26-11-28\nSehr froh, Ihren Freund\nFelix Braun, kennen ge-\nlernt zu haben, hoffe\nich sehr, Sie u. Frau Stefan\nSie bald bei uns begrü-\nssen zu können. Berta Burgio-\nAhrens.\nSchönen Gruß! Felix\nneunzehnjährige Lehrerin.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Die Adresse ist durchgestrichen. Briefmarken und Poststempel vorhanden (Palermo 27.XI.28). Der Text am linken Rand ist vertikal geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Palermo 26-11-28\nSehr froh, Ihren Freund\nFelix Braun, kennen ge-\nlernt zu haben, hoffe\nich sehr, Sie u. Frau Stefan\nSie bald bei uns begrü-\nssen zu können. Berta Burgio-\nAhrens.\nSchönen Gruß! Felix\nneunzehnjährige Lehrerin.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der durchgestrichenen Adresszeilen und der vertikalen Schrift am Rand.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 490,
+    "total_words": 80,
+    "language_detected": "",
+    "language_match": true
+  }
+}

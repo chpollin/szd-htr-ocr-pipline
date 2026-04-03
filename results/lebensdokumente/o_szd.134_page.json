@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.134",
+    "title": "Vertrag Aktiebolaget Skoglunds Bokförlag",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.57",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.134/IMG.1",
+      "https://gams.uni-graz.at/o:szd.134/IMG.2",
+      "https://gams.uni-graz.at/o:szd.134/IMG.3"
+    ],
+    "date": "8. June 1938",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, schwarze und violette Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "36x22 cm"
+      },
+      "notes": "Datum, Unterschrift, Korrekturen und Anmerkungen eigenhändig in violetter Tinte, Unterschrift von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag Aktiebolaget Skoglunds Bokförlag\n- Signatur: SZ-AAP/L13.57\n- Datum: 8. June 1938\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Farbband, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Datum, Unterschrift, Korrekturen und Anmerkungen eigenhändig in violetter Tinte, Unterschrift von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.281908+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                V e r t r a g\n\n                                        London 49, Hallam Street\n\nZwischen Herrn Doktor Stefan Zweig, Kapuzinerberg 5, Salzburg,\n(im Vertrag genannt \"Autor\") und der Firma Aktiebolaget Skoglunds Bok-\nförlag, Sergelgatan 4, Stockholm, (im Vertrag genannt \"schwedischer Ver-\nleger\") wurde heute folgender Vertrag abgeschlossen:\n\n                                § 1.\n\nDer Autor überträgt dem schwedischen Verleger die Rechte einer\nschwedischen Buchausgabe des Werkes\n\n\"C a s t e l l i o  g e g e n  C a l v i n\"\noder\nEin Gewissen gegen die Gewalt\n\n                                § 2.\n\n{von 5% Honorar} Für die Überlassung der Buchrechte verpflichtet sich der schwedi-\n{des Ladenpreises} sche Verleger zur Zahlung ~~einer einmaligen Abfindung von schwed.Kr~~ \n{für das erste} ) zahlbar bei Zeichnung des Vertrages, für eine\n{Tausend und} Auflage von 3.000 Exemplaren und 10% Honorar vom Ladenpreis aller über\n{von 10% von allen} 3.000 hinaus verkauften Exemplare. Die Abrechnung erfolgt halbjährlich\n{weiteren verkauften Exemplaren} und zwar am 30. Juni und 31. Dezember eines jeden Jahres.\n\n                                § 3.\n\nAlle andern als die oben festgelegten Buchrechte bleiben ausdrück-\nlich dem Autor vorbehalten.\n\n                                § 4.\n\nDer schwedische Verleger verpflichtet sich, das Werk bis spätestens\n30. Dezember 1937 erscheinen zu lassen, andernfalls würde dieser Vertrag\nungültig, die geleistet Vorauszahlung aber würde von dem Autor dem schwe-\ndischen Verleger nicht zurückvergütet.\n\n                                § 5.\n\nDer schwedische Verleger verpflichtet sich zur unentgeltlichen\nÜberlassung von sechs Pflichtexemplaren an den Autor; von jeder weiteren\nAuflage von je einem Pflichtexemplar an den Autor.\n\n                                § 6.\n\n250 Besprechungs- und Freiexemplare sind honorarfrei.\n\n                                § 7.\n\nWenn der schwedische Verleger sechs Monate nach Ausverkauf einer\nAuflage keine neue Auflage in Angriff nimmt, fallen die in diesem Ver-\ntrag festgelegten Rechte an den Autor zurück.\n\n                                § 8.\n\nAlle Zahlungen unter diesem Vertrag sind zu richten an dem Autor.\nDer ausschliessliche Gerichtsstand für etwaige Streitigkeiten aus diesem\nVertrag ist Wien.\n\n                                § 9.\n\nVorstehender Vertrag wurde in zwei gleichlautenden Exemplaren\nausgefertigt, von beiden vertragschliessenden Teilen gelesen, anerkannt\nund unterschrieben und geht mit seinen Rechten und Pflichten an die\nRechtnachfolger der Unterzeichneten über.\n\nLondon 8. June 1936  Stockholm 3 Juni 1936\n                     AKTIEBOLAGET SKOGLUNDS BOKFÖRLAG\n\nStefan Zweig         [Unterschrift]",
+      "notes": "Die handschriftlichen Ergänzungen am linken Rand wurden in den Textfluss integriert, da sie sich auf § 2 beziehen. Die Anmerkung oben links 'Änderungen einvernehmlich gemacht' wurde ausgelassen, da sie außerhalb des Vertragstextes steht. Die Unterschrift des Verlegers ist unleserlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Dokuments mit Farb- und Grauskala, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Einfügungen in violetter Tinte sind klar zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2715,
+    "total_words": 345,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

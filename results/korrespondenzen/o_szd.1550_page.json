@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1550",
+    "title": "Brief an Richard Friedenthal vom 28. April 1926, SZ-AAP/B2.24",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1550/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1550/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1550/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 28. April 1926, SZ-AAP/B2.24\n- Signatur: SZ-AAP/B2.24\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:41.472326+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 28. April 1926\n\nLieber Freund!\n\nIch bin von meiner Reise endlich zurück, habe vielerlei\ngesehen, mich eigentlich für die Arbeit wieder erholt: nun erst kann\nich daran denken Ihren guten Brief zu beantworten. Ich spüre\netwas wie eine gemeinsame Tendenz des Dramatischen in der Luft.\nGestern las ich von Alexander Lernet eine neue Komödie im Manu-\nskript, die absolut das ist was wir beide anstreben, die Komödie\nohne Sentimentalität im spanischen oder frühenglischen Geiste.\nUnd was Sie mir von Ihrer Arbeit erzählen, stimmt ja ganz in die-\nsen Kreis. Ich hoffe auch auf Ihren Don Juan, dass er gar nicht\nlustspielhaft sein wird, sondern eine Komödie in dem Sinn wie Sie\ndies deuten. Ihren Plan einer Essayreihe finde ich ausserordent-\nlich - fast gehört Lukian noch hinein mit seinen Dialogen und wohl\nauch Aretino, auf dessen \"Cortegiana\" ich jetzt ein Auge geworfen\nhabe. Das wäre auch noch zu bearbeiten. Ein Italiener gehört un-\nbedingt hinein und da ich mit Gozzi und Goldoni nicht viel anzu-\nfangen weiss, so wäre es viel eher der Aretin, und dann sind meine\nLieblinge wie Sie wissen, die Engländer des achtzehnten Jahrhunderts\ndie noch lange nicht entdeckt sind.\nFür Ihren \"Cortez\" will ich nachsuchen, ob ich noch etwas\nMaterial habe. Lesen Sie aber jedenfalls das ausgezeichnete Buch\nvon Blaise Cendrars \"L'Or\", um zu sehen wie solche Abenteurerromane\nsich auch noch im vergangenen Jahrhundert abgespielt haben. Ein",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Die letzte Zeile bricht mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "famoses Buch!. Von \"Volpone\" kann ich noch immer nichts bestimm-\ntes sagen. Reinhardt, wie zu erwarten war, hat mich viele Wochen\nhingehalten, um dann mit allerhand Ausflüchten zu kommen, Hamburg\nund Wien wollen es jedenfalls haben und in Berlin steht seine\nChance bei der Volksbühne. Aber wie gesagt, die rechte Freude\ndaran wird einem immer abgetrieben durch die Hinausschiebung -\nich habe nie ein Stück von mir auf der Bühne gesehen ehe es schon\naltbacken war und mir möchte es eigentlich nur Freude machen, es\neinmal direkt aus dem Backofen auf die Bühne schieben zu können\nund den noch warmen Teig dort gleich weiter geknetet zu sehen.\nSie wissen, lieber Freund, wie herzlich ich Ihrer immer\ngedenke und bitte Sie sehr darum, mir nicht nur Ihre dichterischen\nsondern auch Ihre Reisepläne wissen zu lassen. Ich will wahrschein-\nlich im August den Festspielen bis nach Belgien entfliehen, viel-\nleicht könnten wir uns da treffen; ich habe immer jedes Beisammen-\nsein mit Ihnen als (hoffentlich beiderseitig) ergiebig und durchaus\nfreundschaftlich erheiternd empfunden.\nIhr aufrichtigst ergebener\nStefan Zweig",
+      "notes": "Typoskript. Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Die Seite enthält den Text von Seite 2, jedoch überlagert durch eine Farbskala und eine Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls klar lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2564,
+    "total_words": 410,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

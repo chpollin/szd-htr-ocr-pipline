@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.407",
+    "title": "Hans Müller Einigen an Stefan Zweig, 1912-12-28, SZ-SAM/AK.126",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.407/IMG.1",
+      "https://gams.uni-graz.at/o:szd.407/IMG.2",
+      "https://gams.uni-graz.at/o:szd.407/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hans Müller Einigen an Stefan Zweig, 1912-12-28, SZ-SAM/AK.126\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.126\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.304146+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "ganz hübsche Vorstellung werden. Aber\ndiese [?] antlofen [?] Verfasserin! Heute morgen\nbin ich bei Thoma und Barnowski am,\nsage und schreibe, 7 Uhr weckfreitag[?] kommen.\nSei gegrüßt von Deinem\nHansM.",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text über dem Bildmotiv. Das Bild zeigt den Marienplatz in München."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "München, 28.12.12.\n\nLieber Stefan herzlichen Dank\nfür Deine liebe Karte und\nunsre Grüße aus München.\nWir sprechen viel über das Herren\nSchicksal Deines Stückes; und\nes wird von den Theaterleuten\nselbst zugegeben, daß man sich\nverfängt hat. Nur, wer hält es\nnoch besser. Übrigens heißen die\nProben aufs schärfste, es wird eine\n\nHr. Stefan Zweig\nWien VIII.\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text und Adressierung. Briefmarke Bayern 5 Pfennig, Poststempel München 28.12.12."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung, dazwischen die bereits transkribierte Postkartenrückseite."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere bei Eigennamen und einzelnen Wörtern wie 'antlofen' oder 'weckfreitag'. Der Kontext der Postkarte ist jedoch gut verständlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 566,
+    "total_words": 90,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

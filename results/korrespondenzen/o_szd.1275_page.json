@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1275",
+    "title": "Postkarte an Anna Meingast vom 28. November 1924, SZ-SAM/B7.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1275/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1275/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 28. November 1924, SZ-SAM/B7.4\n- Signatur: SZ-SAM/B7.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:25.726185+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "* Expédié par\nM\nRue Beaujolais N° 15\n* L'inscription du nom et de l'adresse de l'expéditeur\nest facultative.\n\nRÉPUBLIQUE FRANÇAISE\nCARTE POSTALE\nCe côté est exclusivement réservé à l'adresse\n\nMadame Anna Meingast\n\nSalzburg (Autriche)\nLinzerstrasse 16\nHaus Laubinger",
+      "notes": "Adressseite einer Postkarte. Enthält gedruckte Formulartexte und handschriftliche Adressangaben. Poststempel: 28 XI 1924."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, bin sind\nProgrammgemäß hier ein-\ngetroffen. Ich wollte Sie nur\nbitten, Dr. Braun zu fra-\ngen, ob er nichts für Sie\nabzuschreiben hat: es könnte\nIhm vielleicht willkommen sein.\nHoffentlich ist Willi schon\nganz erholt. Mit den herz-\nlichsten Grüßen Ihr\n\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Das Wort 'bin' am Zeilenende der ersten Zeile scheint ein Schreibfehler für 'bin' oder 'wir' zu sein, im Original steht 'bin sind'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der kursiven Schreibweise von Stefan Zweig. Die gedruckten Teile der Postkarte sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 550,
+    "total_words": 85,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

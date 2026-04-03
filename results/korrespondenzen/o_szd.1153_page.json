@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1153",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.12",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1153/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1153/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.12\n- Signatur: SZ-SAM/B11.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.333804+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Montag,\nLiebe Frau Meingast,\nbei Dr Junger hat sich herausgestellt,\ndass Sie doch ein oder beide Ori=\nginale an Bl. gesandt haben. Es\nist ein Original u. eine Copie von\nIhnen an mich zurückgekommen.\nEs muss daher wohl noch ein Ori=\nginal bei Ihnen sein oder in Verlust\ngeraten. Vielleicht finden Sie es noch.\nDa die Amtsstempel auf der 2. Seite ange",
+      "notes": "Der Text bricht am Ende der Seite ab. 'Dr Junger' könnte auch 'Dr Jung' gelesen werden, das 'er' ist jedoch erkennbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Absender:\nF M Zweig\nNonntalerstr. 49\n\n[vertikal am linken Rand:]\nhat das erste Packet erhalte=\n[...]\n\n[Textkörper:]\nbracht sind bemerkte\nerst Dr. S. dass es das\nOriginal war, so mag\nIhnen auch der Irrtum\nunterlaufen sein 1 Copie\nu. 1 Original gesandt\nzu haben. Bitte rufen\nSie mich an. Ich möchte\netwas wegen der Post\nbesprechen. Mein Mann\n\n[Adressfeld:]\nFrau Anna\nMeingast\nSalzburg\nLinzergasse\nHauer u. Laubingerhaus",
+      "notes": "Der vertikale Text am linken Rand ist teilweise durch den Rand des Scans oder die Faltung beschnitten. 'Dr. S.' bezieht sich vermutlich auf Stefan Zweig. Die Postkarte enthält einen Poststempel 'SALZBURG 2' und eine 12 Groschen Briefmarke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Abkürzungen und der vertikalen Platzierung am Rand der Postkarte.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 766,
+    "total_words": 129,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

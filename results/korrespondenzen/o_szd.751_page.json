@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.751",
+    "title": "Brief an Alfred Kauffmann vom 17. Dezember 1937, SZ-AAP/B1.157",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.751/IMG.1",
+      "https://gams.uni-graz.at/o:szd.751/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Alfred Kauffmann vom 17. Dezember 1937, SZ-AAP/B1.157\n- Signatur: SZ-AAP/B1.157\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:28.694223+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                   17.Dezember 1937.\nHerrn Dr. Alfred Kaufmann,\n16 Coleman Street,\nLondon E.C.\n\nSehr geehrter Herr Doktor!\n\n                           Ich danke Ihnen noch für\nunsere heutige aufschlussreiche Unterredung. Ich\nhabe bei meiner Rückkunft Nachschau gehalten. Die\nSache mit dem Inselverlag steht sogar noch günsti-\nger, denn der Brief des Inselverlags ist vom 27.2.36\nund bereits nach London adressiert. Ich lege Ihnen\ndiesen Brief mit einem zweiten der Insel von 37 bei\nund dazu die Daten meines certificate of registration.\nEs führt die Nummer 544270, ist ausgestellt am 14.5.34,\nund mein Permit des Home Office Nr. Z 33 für unbe-\nschränkten Aufenthalt ist datiert vom 29.6.34. Es\nist also wohl keine Frage, dass eine Forderung, die\nvom 27.2.36 besteht, in die berechtigte Kategorie\nfällt, da das österreichische Clearing in Hinblick\nauf meinen ständigen und einzigen Aufenthalt in Lon-\ndon die Verrechnung nicht übernimmt. Ich wäre Ihnen",
+      "notes": "Typoskript auf Briefpapier. Der Text bricht am Ende der Seite ab und wird auf der nächsten Seite fortgesetzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "dankbar, wenn Sie die Angelegenheit für mich durch-\nführen würden und bleibe mit bestem Dank im voraus\nund schönen Grüssen an Frl. Dr. Melchior.\n\n                           Ihr sehr ergebener",
+      "notes": "Typoskript, Fortsetzung des Briefes von Seite 1. Die Unterschrift fehlt im Dokument."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1158,
+    "total_words": 168,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

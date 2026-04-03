@@ -1,0 +1,68 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.658",
+    "title": "Camill Hoffmann an Stefan Zweig, 1925-10-12, SZ-SAM/AK.86",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.658/IMG.1",
+      "https://gams.uni-graz.at/o:szd.658/IMG.2",
+      "https://gams.uni-graz.at/o:szd.658/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Camill Hoffmann an Stefan Zweig, 1925-10-12, SZ-SAM/AK.86\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.86\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.721069+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Ticino. Vegetazione",
+      "notes": "Vorderseite einer Postkarte mit einer Fotografie von Pflanzen im Tessin."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Stefan, Du hörst von mir\nnichts, weil ich seit einer Woche\nhier bin und in Berlin alles liegen\ngelassen habe. Ich hoffe, dass hier\nEnde der Woche genossen wird. In-\ndessen herzlichste Grüsse! Dein\nCamill.\n\nLocarno, 12. X. 1925\n\nH. Stefan Zweig\nSalzburg\nKapuzinerberg\n\n[Adressseite der Postkarte mit Briefmarke und Poststempel]"
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Lieber Stefan, Du hörst von mir\nnichts, weil ich seit einer Woche\nhier bin und in Berlin alles liegen\ngelassen habe. Ich hoffe, dass hier\nEnde der Woche genossen wird. In-\ndessen herzlichste Grüsse! Dein\nCamill.\n\nLocarno, 12. X. 1925\n\nH. Stefan Zweig\nSalzburg\nKapuzinerberg\n\n[Adressseite der Postkarte mit Briefmarke und Poststempel]",
+      "notes": "Diese Seite enthält die gleiche Postkarte wie Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzung 'H.' vor Stefan Zweig steht vermutlich für 'Herr'.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 685,
+    "total_words": 106,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.965",
+    "title": "Brief an Sigmund Freud vom [Oktober/November 1935], SZ-LAS/B7.24",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.965/IMG.1",
+      "https://gams.uni-graz.at/o:szd.965/IMG.2",
+      "https://gams.uni-graz.at/o:szd.965/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom [Oktober/November 1935], SZ-LAS/B7.24\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.645127+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11, Portland Place\nLondon\n\nHochverehrter Herr Professor, zum Erscheinen Ihrer\nAutobiografie in England versprach in der „Sunday\nTimes“ eine Anzeige; hier ist sie, leider mit aller-\nhand Zwischentiteln, Kürzungen (besonders am\nEnde) und einer höchst mässigen Übersetzung. Aber\nSie verstehen, dass mir nur daran gelegen war,\nin diesem gelesensten Blatt mit dem gebührenden\nRespect Ihr Werk gewürdigt zu wissen. Es war eine\ntaktische Massnahme nur nicht wahr, Sie betrachten\nsie nicht auf künstlerischen Wert. Ich bin mir\nimmer jeder Gelegenheit froh, meiner Verehrung für\nSie Ausdruck geben zu dürfen. Mit den herzlichsten\nWünschen Ihr verehrungsvoll ergebener\n\nStefan Zweig",
+      "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist violett. Der Text ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "11, Portland Place\nLondon\n\nHochverehrter Herr Professor, zum Erscheinen Ihrer\nAutobiografie in England versprach in der „Sunday\nTimes“ eine Anzeige; hier ist sie, leider mit aller-\nhand Zwischentiteln, Kürzungen (besonders am\nEnde) und einer höchst mässigen Übersetzung. Aber\nSie verstehen, dass mir nur daran gelegen war,\nin diesem gelesensten Blatt mit dem gebührenden\nRespect Ihr Werk gewürdigt zu wissen. Es war eine\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, jedoch mit einer Farbskala/Grauskala für Archivierungszwecke über dem unteren Teil des Textes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist keine nennenswerten Leseschwierigkeiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1106,
+    "total_words": 162,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

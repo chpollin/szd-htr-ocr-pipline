@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1103",
+    "title": "Postkarte an Max Fleischer vom 16. August 1902, SZ-LAS/B3.24",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1103/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1103/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1103/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 16. August 1902, SZ-LAS/B3.24\n- Signatur: SZ-LAS/B3.24\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.196410+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "RÉPUBLIQUE FRANÇAISE\nCARTE POSTALE\nCe côté est exclusivement réservé à l'adresse\n\nM. Monsieur Max Fleischer\nKomotau (Böhmen)\nAutriche",
+      "notes": "Adressseite der Postkarte. Der Name 'Max Fleischer' ist handschriftlich über das gedruckte 'M.' geschrieben. Poststempel Paris 16.08.02."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "St. Z. Paris\nBureau de poste 96\n(Boulevard des Capucines)\nposte restante\n\nLieber Max, ich bin als glück-\nlicher Franzosen-Knab, nur\ndu hast in meinem Vaterland\n~~n~~ umringt von Schönheit und Ver-\nführung. Ich hoffe aus Komotau\nbald freundschaftlichen Nachricht\nzu einmal deine Reisepläne\nmit zu teilen [?] aufrichtig\nzu hören. Herzlich\nStefan",
+      "notes": "Textseite der Postkarte. Der Text ist in violetter Tinte geschrieben. 'St. Z.' steht für Stefan Zweig."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "St. Z. Paris\nBureau de poste 96\n(Boulevard des Capucines)\nposte restante\n\nLieber Max, ich bin als glück-\nlicher Franzosen-Knab, nur\ndu hast in meinem Vaterland\n~~n~~ umringt von Schönheit und Ver-\nführung. Ich hoffe aus Komotau\nbald freundschaftlichen Nachricht\nzu einmal deine Reisepläne\nmit zu teilen [?] aufrichtig\nzu hören. Herzlich\nStefan",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbkarten-Referenz."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der violetten Tinte und der teilweise engen Zeilenführung. Die Ortsangaben und Namen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 819,
+    "total_words": 124,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

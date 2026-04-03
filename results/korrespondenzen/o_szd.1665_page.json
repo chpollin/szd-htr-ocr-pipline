@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1665",
+    "title": "Unbekannt an Friderike Zweig, SZ-SAM/AK.298",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1665/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1665/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1665/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Friderike Zweig, SZ-SAM/AK.298\n- Signatur: SZ-SAM/AK.298\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:53.800747+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "224 MONTE-CARLO. - Vue prise de la Route de Menton. - View taken from the Road of Menton. - LL.\n7.3.27.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliches Datum unten links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Frau\nFriederike Zweig\nKapuzinerberg\nSalzburg\n[Österreich]\n\nLiebe gnädige Frau,\nich kann nicht hier\nsein ohne an die\nvierundzwanzig Stunden\nim Leben einer Frau\nzu denken. Frei von\nZurück kenne ich bereits\ner ist noch immer in\nSeiets[?] schwerst. Mit den\nherzlichsten Grüßen\nIhre H[...]",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Die Tinte ist teilweise verblasst, besonders im unteren Bereich. Die Unterschrift ist nur fragmentarisch lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Die Ansichtskarte ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise sehr flüchtig und durch die verblasste Tinte schwer zu entziffern. Besonders das Wort 'Seiets' und die Unterschrift sind unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 387,
+    "total_words": 65,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

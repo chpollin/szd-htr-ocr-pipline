@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.84",
+    "title": "Vereinbarung Editorial Atenea, SZ-AAP/L13.7",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.84/IMG.1",
+      "https://gams.uni-graz.at/o:szd.84/IMG.2",
+      "https://gams.uni-graz.at/o:szd.84/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Vereinbarung Editorial Atenea, SZ-AAP/L13.7\n- Signatur: SZ-AAP/L13.7\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:37.386523+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "EDITORIAL ATENEA\nSANTA AGATA, 18 (Gracia)\nBARCELONA\n\n28/10/1934\n\nMonsieur Stefan Zweig\n11, Portland Place\nLondres, W.1\n\nCher Monsieur:\nJ'ai dûment reçu votre lettre 24 ct.\net, d'accord avec les termes de vos conditions, j'ai l'honneur de vous faire remise par mandat de poste, a votre adresse a Londres, comme règlement des droits de version et publication en catalan de vos ouvrages \"Marie-Antoinette\" et\n\"Fouché\", la somme de £ 12-10-0, equivalence de\nFrancs 960 (neufcent soixante), de laquelle je vous prie de m'accuser reception.\nCi-joint vous trouverez un certificat d'autorisation\nque, a supposer qu'il soit de votre conformité, je vous prie\nde me rendre dûment signé. Au cas contraire, veuillez rediger vous même le texte de votre concession.\nJe puis vous informer que notre maison est constituée definitivement et qu'elle travaillera sous le nom de\nEDITORIAL ATENEA, a Barcelone.\nEn attente de vos nouvelles, je reste, cher Monsieur, votre devoué serviteur.\nEditorial Atenea\np.p. [Unterschrift]",
+      "notes": "Typoskript mit handschriftlichen Notizen am rechten Rand: '12 Pfund für katalanische übersetzung Marie Antoinette und Fouché erhalten'. Die Unterschrift ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Notiz am Rand ist ebenfalls klar lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1003,
+    "total_words": 154,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

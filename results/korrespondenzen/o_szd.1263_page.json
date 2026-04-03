@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1263",
+    "title": "Brief an Stefan Zweig vom 7. September 1930, SZ-SAM/B3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1263/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1263/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1263/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 7. September 1930, SZ-SAM/B3\n- Signatur: SZ-SAM/B3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.622469+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Die Ehrungen, siehe Führer?.\n\nH. EXCELLENCE BENITO MUSSOLINI\nHonorary President\n\nFRANCIS CARDINAL BOURNE\nChaplain-General\n\nRT. HON. AUGUSTINE BIRRELL\nEnglish Representative\n\nINTERNATIONAL MARK TWAIN SOCIETY\n“A Society whose province is to knit the whole world in bonds of cultured peace.”—A. E. COPPARD.\n\nHon. Charles Evans Hughes : United States\nShane Leslie : Ireland\nGilbert Murray : Scotland\nDame Nellie Melba : Australia\nStephen Leacock : Canada\nGeneral Johannes Smuts : South Africa\n\nGeorge Arliss : Chairman Dramatic Committee\nRamsay MacDonald : Chairman World Affairs\nE. A. Robinson : Chairman Poetical Committee\nEden Phillpotts : Chairman Fiction Committee\nThe Earl Jellicoe : Chairman Naval and Military Affairs\nFritz Kreisler : Chairman Music Committee\nLorado Taft : Chairman Art Committee\nSir Hubert Wilkins : Chairman Exploration Committee\nMichael Pupin : Chairman Science & Invention Committee\n\n[Bild: Mark Twain]\n\nEst. 1923\n\nCYRIL CLEMENS\nPresident\nWebster Groves, Missouri, U.S.A.\n\nAndré Maurois : France\nEmil Ludwig : Germany\nJohan de Meester : Holland\nKnut Hamsun : Norway\nSelma Lagerlof : Sweden\nPresident Masaryk : Czecho-Slovakia\nConcha Espina ; Spain\nCount Guglielmo Marconi : Italy\nEmilio Aguinaldo : The Philippines\nMgr Ignaz Seipel : Austria\nIsolt de Harsányi : Hungary\nJohannes Jöygensen : Denmark\nHenry de Voght : Belgium\n\nSept 7. 1930\n\nDear Sir:—\n\nIn recognition of your outstanding\ncontribution to literature, it gives us great\npleasure to offer you Honorary Membership\nin this Society.\n\nYours sincerely\nCyril Clemens\n\nD.\n\nDank",
+      "notes": "Die handschriftliche Notiz oben links 'Die Ehrungen, siehe Führer?.' stammt vermutlich von Stefan Zweig. Das Wort 'Society' im Textkörper ist als 'Scity' verschrieben. Unten rechts steht handschriftlich 'Dank'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "erledigt.",
+      "notes": "Rückseite des Briefbogens. Handschriftlicher Vermerk 'erledigt.' unten links."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbkarte und Grauskala zur Dokumentation. Kein transkribierbarer Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1565,
+    "total_words": 235,
+    "language_detected": "en",
+    "language_match": false
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.99,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Page 1: Corrected \"Seipal\" to \"Seipel\" (Austrian chancellor Ignaz Seipel, clear printed text misread). Remaining printed text and handwritten annotations verified correct.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T20:00:00Z"
+  }
+}

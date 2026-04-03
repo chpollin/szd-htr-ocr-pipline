@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1214",
+    "title": "Brief an Anna Meingast vom 22. Oktober 1934, SZ-SAM/B7.44",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1214/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1214/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 22. Oktober 1934, SZ-SAM/B7.44\n- Signatur: SZ-SAM/B7.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.375300+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "TEL.: LANGHAM 2030.\n\n11. PORTLAND PLACE,\nLONDON, W.1\n\n22.Oktober 1934.\n\nLiebe Frau Meingast!\n\nIch bitte Sie, ein Exemplar der ersten fünf Kapitel noch an\nAlbert Bonnier, Förlag, Stockholm in meinem Auftrag zu übermitteln.\nOder warten Sie damit noch zwei Tage, bis ich Ihnen das korrigierte\nManuskript schicke, denn es sind noch zwei, drei kleine Irrtümer und\nstilistische Kleinigkeiten darin abzuändern.\n\nDen Katalog Sotheby bitte ich Sie, mir hierher nachzusenden.\nKapitel sechs habe ich heute erhalten und werde es Ihnen nach eini-\ngen kleinen Korrekturen zurücksenden. Auch das 12. Kapitel geht Ih-\nnen sehr bald zu.\n\nIch hoffe, das ist alles und nur noch viele Grüsse Ihres\n\nStefan Zweig\n\nHerrn Roszavölgy nach Budapest schreiben Sie, dass die Fertigstel-\nlung des Buches sich verzögert hat und er zuverlässig es vorher im\nManuskript bekommen wird, ehe es einer deutschen Firma übermittelt\nwird.",
+      "notes": "Der Brief ist maschinenschriftlich verfasst, die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 899,
+    "total_words": 139,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

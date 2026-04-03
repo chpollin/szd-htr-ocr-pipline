@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.849",
+    "title": "Brief an Herbert Reichner vom 14. Juni 1937, SZ-AAP/B1.65",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.849/IMG.1",
+      "https://gams.uni-graz.at/o:szd.849/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 14. Juni 1937, SZ-AAP/B1.65\n- Signatur: SZ-AAP/B1.65\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:37.286888+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "14.Juni 1937.\n\nGeehrter Herr Reichner!\n\nIch war zwei Tage auf weekend und finde auf\neinmal Ihre fünf Briefe mit vielen andern vor. Also\nganz knapp.\nDer Oxford University Press in Amerika schrei-\nben Sie bitte direkt an Herrn Paul Willert, 114 Fifth Av.\nSie können ihm selbstverständlich deutsch schreiben. Der\nEinband wird noch gewisse Kosten verursachen, da er unbe-\ndingt genau nach dem Original hergestellt werden muss.\nGregor hatte ich keine Ahnung, dass Sie Bell\neine Option gegeben haben. Selbstverständlich spreche\nich mit Huebsch.\nLeuchter ist ja erledigt. Es kommt nicht\ndarauf an, ob die paar Bilder ein bischen besser ste-\nhen oder schlechter.\nBuch von Guillemard über Magellan ist das\nbeste. Bitte kaufen Sie es jedesfalls, damit man auch\nbei der Korrektur es zur Revision der Namen und Daten\nimmer an der Hand hat.\nMagellan-Sonderausgabe und Illustrationen",
+      "notes": "Typoskript auf Briefpapier. Die letzte Zeile ist unterstrichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "habe ich auch an Skoglund geschrieben, ob er sich al-\nlenfalls Huebsch, Cassell und Ihnen anschliessen will\nauf ein gemeinsames Format und Bezug von Illustratio-\nnen, damit es sich für alle Beteiligten billiger stellt.\nIch erwarte die Antwort. Mit stärkerem Papier bin ich\nbegeistert einverstanden, besonders wenn es englisches\nist, das ja ausserdem den Vorteil hat, bedeutend leich-\nter zu sein. Von dem Buch von Lagoa besitze ich die\nbeiden ersten erschienen Fortsetzungen und bin mit dem\nAutor in Verbindung. Es ist eben ein Grund, dass ich mit\nder endgültigen Feststellung des Magellan wartete, weil\nich doch seine Resultate kennen will\nDies also zunächst das Wichtigste, ich habe\neben bei Bagrow die Liste reklamiert und hoffe sie noch\nmorgen zu bekommen.\nMit den besten Empfehlungen\n\nEben bekomme ich einen Brief von einer bekannten deut-\nschen Dame aus Portugal, die mir alle Photographien\nund Bilder, die wir von dort brauchen, sicher verschaf-\nfen würde. Es ist Fräulein Dr. Elisabeth Feist, Chalet\nLima, p.a.Nunes, Carcavelos-Lisboa, Portugal. Es ist ein\ngrosser Vorteil, jemanden dort zu wissen, wenn wir eine\nbestimmte Illustration brauchen sollten.",
+      "notes": "Typoskript auf Briefpapier. Fortsetzung des Briefes von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2030,
+    "total_words": 318,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

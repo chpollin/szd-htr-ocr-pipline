@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2804",
+    "title": "Aufbau der neuen Generation, Der geistige",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA7.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2804/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2804/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Aufbau der neuen Generation, Der geistige\n- Signatur: SZ-AAP/W-AA7.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:07.594579+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufbau der neuen Generation, Der geistige\n(Aus dem Vortrag „Die moralische Entgiftung Europas”)\n\nDie\nMoralische Entgiftung\nEuropas",
+      "notes": "Handschrift in violetter Tinte. Es handelt sich um zwei separate Textstreifen, die auf einem Blatt montiert sind."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Aufbau der neuen Generation, Der geistige\n(Aus dem Vortrag „Die moralische Entgiftung Europas”)",
+      "notes": "Handschrift in violetter Tinte. Ausschnitt des oberen Textstreifens."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Die\nMoralische Entgiftung\nEuropas",
+      "notes": "Handschrift in violetter Tinte. Ausschnitt des unteren Textstreifens."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Die\nMoralische Entgiftung\nEuropas",
+      "notes": "Rückseite des unteren Textstreifens, durchscheinender Text."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Aufbau der neuen Generation, Der geistige\n(Aus dem Vortrag „Die moralische Entgiftung Europas”)",
+      "notes": "Ausschnitt des oberen Textstreifens."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Die\nMoralische Entgiftung\nEuropas",
+      "notes": "Rückseite des unteren Textstreifens, durchscheinender Text."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Aufbau der neuen Generation, Der geistige\n(Aus dem Vortrag „Die moralische Entgiftung Europas”)\n\nDie\nMoralische Entgiftung\nEuropas",
+      "notes": "Gesamtansicht mit Grauskala und Farbkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr deutlich und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 549,
+    "total_words": 72,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

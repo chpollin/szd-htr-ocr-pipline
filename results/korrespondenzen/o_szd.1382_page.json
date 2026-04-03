@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1382",
+    "title": "Brief an Unbekannt vom 1. Dezember 1931, SZ-SAH/B6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1382/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1382/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1382/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Unbekannt vom 1. Dezember 1931, SZ-SAH/B6\n- Signatur: SZ-SAH/B6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:30.020967+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 1. Dez 1931\n\nLiebe verehrte Freunde, die Ihr vom monte generoso stammet,\ndem Berg der Spenden, wie herrlich habt Ihr durch hesperidische\nÄpfel unser Zimmer durchduftet und durch gute Worte die Seele\nerwärmt! Ich danke Ihnen beiden auf das ehrlichste und wünsche\nnur noch dazu, dass die gute Nachbarschaft uns noch viele Jahre\nuns immer inniger verbinden möge. Tausend Dank Eures auf\nvöllig ergebenen\n\nStefan Zweig",
+      "notes": "Der Text ist in violetter Tinte geschrieben. Die Datumsangabe '1. Dez 1931' ist handschriftlich ergänzt. Die Zeile 'völlig ergebenen' wirkt wie ein Teil der Grußformel, die in den Namen übergeht."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer bis auf einen Tintenfleck."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Kapuzinerberg 5\nSALZBURG, am 1. Dez 1931\n\nLiebe verehrte Freunde, die Ihr vom monte generoso stammet,\ndem Berg der Spenden, wie herrlich habt Ihr durch hesperidische\nÄpfel unser Zimmer durchduftet und durch gute Worte die Seele\nerwarmt! Ich danke Ihnen beiden auf das ehrlichste und wünsche\nnur noch dazu, dass die gute Nachbarschaft uns noch viele Jahre\nuns immer inniger verbinden möge. Tausend Dank Eures auf\nvöllig ergebenen\n\nStefan Zweig",
+      "notes": "Dies ist eine Wiederholung des ersten Scans mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der individuellen Handschrift von Stefan Zweig. Die Transkription ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 884,
+    "total_words": 140,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Handwritten letter by Stefan Zweig in violet ink. One correction: 'erwarmt' -> 'erwärmt' (missing umlaut, inconsistent with other umlauts in text like 'wünsche', 'möge'). Closing formula 'Tausend Dank Eures auf völlig ergebenen' is unusual (standard would be 'aufrichtig ergebenen') but kept as-is — not confident enough to change v->r in Zweig's handwriting. Double 'uns' in lines 8-9 confirmed present in original. Page 2 blank, page 3 color chart — both skipped.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T12:00:00Z"
+  }
+}

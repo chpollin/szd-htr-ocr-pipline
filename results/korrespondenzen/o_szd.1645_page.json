@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1645",
+    "title": "Brief an Frans Masereel vom [April 1940], SZ-LAS/B1.61",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1645/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1645/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [April 1940], SZ-LAS/B1.61\n- Signatur: SZ-LAS/B1.61\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:51.151465+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. { RICHELIEU 64-41\n(10 Lignes groupées)\n\nParis, le\n\nF. MOLLARD, PROP RE\n\nMercredi 18 heures au Radio\net voila deux billets pour\nvendredi. Ton vieux\n\nStefanZweig",
+      "notes": "Briefpapier des Hotel Louvois. Handschriftlicher Text in violetter Tinte. Der Text ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer, mit einem Ex-Libris-Stempel von 'CHRISTIAN ANDREE ET AUTOGRAPHIS' am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr deutlich geschrieben und gut lesbar. Die Struktur des Briefpapiers wurde beibehalten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 237,
+    "total_words": 37,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

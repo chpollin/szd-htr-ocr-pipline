@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.507",
+    "title": " Unidentified an Stefan Zweig, 1907-08-03, SZ-SAM/AK.217",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.507/IMG.1",
+      "https://gams.uni-graz.at/o:szd.507/IMG.2",
+      "https://gams.uni-graz.at/o:szd.507/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1907-08-03, SZ-SAM/AK.217\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.217\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.946663+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bad-Deutsch Altenburg N. Ö.\nVerlag M. Nowatzi's Nachflg. (F. Sommer, Deutsch Altenburg.)\n\nPartie aus dem Kurpark mit Kurhaus.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Doktor.\nAltenburg ist Schiff- u. Luftstation. Jeden Dien-\nstag, Freitag, sowie Dienstag\nDonnerstag u. Samstag vormittag\nfährt ein Dampfschiff um 9 Uhr vormittag\nWien (Weißgärber ab ist 10 5 Vormit.\nin Altenburg. Derselbe Schiff fährt um\n4 35 von hier retour u. ist 8 30 in Wien.\nDann fährt täglich um 7 4 früh u. um 5 1/2\nNachmittag ein Schiff weg. Um Ruhemö-\nglich (Bahnfahrt) kann ich nicht, ist auch\nviel umständlicher u. weniger hübsch als\ndie Fahrt per Schiff. A. ist auch historisch recht\ninteressant, auch ist hier eine Ausstellung\nder römischen Ausgrabungen. Auch\ngibt es hier Fodbäder zur Benützung\ngegen Gicht etc. F. f. ist in Tirol und\nschreibt mir viele Worte, also nicht hier.\nIndem sind zwar einige hier, doch kenne\nich sie nicht. Auch Schriftsteller gibt es\nhier und sogar berühmte u. fast noch\nLeute wie Menge blonder Schulmädel.\n3/VIII 07\n\nHerrn Dr. Stefan Zweig\nWien VIII\nKochgasse Nr 8 II\n\nLieben Gruß\nM.J.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich in violett. Briefmarke und Poststempel vorhanden (nicht transkribiert)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Herr Doktor.\nAltenburg ist Schiff- u. Luftstation. Jeden Dien-\nstag, Freitag, sowie Dienstag\nDonnerstag u. Samstag vormittag\nfährt ein Dampfschiff um 9 Uhr vormittag\nWien (Weißgärber ab ist 10 5 Vormit.\nin Altenburg. Derselbe Schiff fährt um\n4 35 von hier retour u. ist 8 30 in Wien.\nDann fährt täglich um 7 4 früh u. um 5 1/2\nNachmittag ein Schiff weg. Um Ruhemö-\nglich (Bahnfahrt) kann ich nicht, ist auch\nviel umständlicher u. weniger hübsch als\ndie Fahrt per Schiff. A. ist auch historisch recht\ninteressant, auch ist hier eine Ausstellung\nder römischen Ausgrabungen. Auch\ngibt es hier Fodbäder zur Benützung\ngegen Gicht etc. F. f. ist in Tirol und\nschreibt mir viele Worte, also nicht hier.\nIndem sind zwar einige hier, doch kenne\nich sie nicht. Auch Schriftsteller gibt es\nhier und sogar berühmte u. fast noch\nLeute wie Menge blonder Schulmädel.\n3/VIII 07\n\nHerrn Dr. Stefan Zweig\nWien VIII\nKochgasse Nr 8 II\n\nLieben Gruß\nM.J.",
+      "notes": "Gesamtansicht der Rückseite mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die Abkürzungen sind im Kontext verständlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2001,
+    "total_words": 340,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.831",
+    "title": "Brief an Stefan Zweig vom 3. Juni 1937, SZ-AAP/B1.49",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.831/IMG.1",
+      "https://gams.uni-graz.at/o:szd.831/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Juni 1937, SZ-AAP/B1.49\n- Signatur: SZ-AAP/B1.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:35.755157+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\nPostcheckkonto\nLeipzig 8442 Wien 46.469\nPrag 501.701 Zürich VIII 18122\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nVerträge 3.Juni 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nUnter den vier uns eingesandten Verträgen ist derjenige\ndes Magellan-Buches wohl versehentlich ohne Unterschrift\ngeblieben und wir bitten Sie,dies gütigst nachzuho-\nlen und uns das von Ihnen unterzeichnete Exemplar -\ndas übrigens schon Ihre eigenhändigen Verbesserungen\nenthält - raschest zu schicken.\n\nDie vier von uns unterzeichneten Exemplare gehen Ihnen\nmit gleicher Post zu.\n\nIm voraus bestens dankend begrüssen wir Sie als\nIhre sehr ergebenen\n\nWIEN, VI., Strohmayergasse 6 HERBERT REICHNER VERLAG",
+      "notes": "Typoskript auf Geschäftspapier mit Briefkopf. Die Unterschrift ist handschriftlich (Tinte), jedoch im Scan nur als schwacher Abdruck/Stempel-ähnliche Signatur erkennbar. Der Text 'Magellan-Buches' ist im Original unterstrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Es sind zwei horizontale, gelbliche Klebestreifen-Rückstände sichtbar, vermutlich von einer früheren Archivierung oder Montage."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 875,
+    "total_words": 119,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

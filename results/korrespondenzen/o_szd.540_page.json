@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.540",
+    "title": "Gabriel Wolf an Stefan Zweig, 1930-03-30, SZ-SAM/AK.249",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.540/IMG.1",
+      "https://gams.uni-graz.at/o:szd.540/IMG.2",
+      "https://gams.uni-graz.at/o:szd.540/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Gabriel Wolf an Stefan Zweig, 1930-03-30, SZ-SAM/AK.249\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.249\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:16.448818+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "30. 3. 1930",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Datum. Das Bild zeigt die Promenade de la Croisette in Cannes."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nAutriche\n\nHerzliche Grüsse und aufrich-\ntige Gratulationen - zwar verspätet - zu\nIhren schönen Erfolgen in Prag und\nBreslau, entbietet\nin Hochschätzung\nGabriel Wolf\nCannes 30.3.1930.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in blauer Tinte. Enthält Poststempel (NICE, 31.3.1930) und eine französische Briefmarke."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke. Die Ansichtskarte ist in der Mitte platziert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 243,
+    "total_words": 36,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

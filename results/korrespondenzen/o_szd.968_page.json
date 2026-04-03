@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.968",
+    "title": "Postkarte an Sigmund Freud vom 25. Mai 1936, SZ-LAS/B7.27",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.968/IMG.1",
+      "https://gams.uni-graz.at/o:szd.968/IMG.2",
+      "https://gams.uni-graz.at/o:szd.968/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Sigmund Freud vom 25. Mai 1936, SZ-LAS/B7.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:46.873964+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "POST CARD.\nTHE ADDRESS TO BE WRITTEN ON THIS SIDE\n\nProf. D. Sigmund Freud\nXIX., STRASSERGASSE 47,\nWien IX (Austria)\nBerggasse 20",
+      "notes": "Adressseite einer Postkarte. Handschriftliche Anschrift in violetter Tinte. Poststempel 'WIEN 66' und '25.V.36'. Briefmarke '1 1/2' Penny (Großbritannien)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nVerehrter Herr Professor, diese Karte soll nur\nbescheidener Dank sein für Ihren gütigen Brief\nund eine Entschuldigung, dass mein neues Buch\nIhnen direct vom Verleger zugeht - Wien nach\nWien ist einfacher als Wien - London - Wien und\nmeine Widmung für Sie ist ja innerlich einge-\nschrieben. Ihr getreuer\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Gedruckter Briefkopf, handschriftlicher Text in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 491,
+    "total_words": 82,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

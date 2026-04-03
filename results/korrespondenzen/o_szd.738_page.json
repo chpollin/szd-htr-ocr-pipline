@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.738",
+    "title": "Brief an Herbert Reichner vom 3. Dezember 1937, SZ-AAP/B1.145",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.738/IMG.1",
+      "https://gams.uni-graz.at/o:szd.738/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 3. Dezember 1937, SZ-AAP/B1.145\n- Signatur: SZ-AAP/B1.145\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:27.515932+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "3. Dezember 1937.\n\nGeehrter Herr Reichner!\n\nTreu Ihrem bewährten System, mir immer erst\nim Augenblick, wo ich schon abgereist bin, unangeneh-\nme oder ärgerliche Dinge zu sagen, statt eine klare\nAussprache zu erzielen, sandten Sie mir Ihren Brief\nvom 1. Dezember an die Bahn. Dazu kurz:\nMit der teilweisen Verramschung der Castellio-\nauflage bin ich einverstanden. Dagegen habe ich niemals\nohne genaue Feststellung mich damit einverstanden er-\nklart, dass von nun ab die Kommissionsexemplare nicht be-\nzahlt werden, sondern bloss in Evidenz gehalten. Ich se-\nhe genau Ihre Tendenz. Sie wollen die mir im Vertrag zu-\nstehenden Zahlungen aus \"verkauften\" Exemplaren einfach\numändern in Zahlungen aus \"bezahlten\" Exemplaren. Kurz-\num, ich soll statt des Verlegers das Risiko für die Ein-\ngänge glatt auf meinen Buckel nehmen. Das ist mir noch\nniemals von einem Verlag zugemutetet worden, und um mit\nReichner zu reden: \"Ich denke nicht daran\". Wenn Kom-\nmissionsexemplare auf lange Frist ausgegeben werden, so\nsind diese selbstverständlich von Ihrem Elftel der",
+      "notes": "Typoskript auf Briefpapier. Die letzte Zeile bricht mitten im Satz ab, Fortsetzung auf Seite 2."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Exemplare zu leisten und nicht von meinen {zu honorierenden} Exemplaren.\nUeberhaupt habe ich mich mit diesem ganzen Unsinn\nnicht zu befassen, den mir noch nie ein Verlag zuge-\nmutet hat, und ich bitte und warne Sie, nicht immer\nneue Erfindungen zu machen, um meine Rechte zu schmä-\nlern. Das Einfachste wird für mich sein, bei dem\nnachsten Buche den allgemein üblichen Vorgang zwischen\neinem Autor von Rang und dem Verleger einzuschlagen,\ndass ich mir eine bestimmte Anzahl {Exemplare zunächst einmal} vorausbezahlen las-\nse und die Frage des Absatzes und des Inkasso damit\nvöllig Ihre Angelegenheit bleibt.\nWegen der restlichen Autorenexemplare für\n\"Magellan\" und \"Begegnungen\" bitte ich mir mitzutei-\nlen, wie viele {von allen meinen Büchern zurzeit} mir zur Verfügung stehen. Ich werde\nIhnen dann umgehend meine Dispositionen mitteilen.\n\nMit den besten Empfehlungen\n\nBeilage: Korresp. mit Dr. L.",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in violett (Stefan Zweig). Die Ergänzungen sind über der Zeile eingefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf Seite 2 sind klar als solche erkennbar und wurden entsprechend den Regeln transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1953,
+    "total_words": 299,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

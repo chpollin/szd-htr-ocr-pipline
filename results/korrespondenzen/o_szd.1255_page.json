@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1255",
+    "title": "Brief an Max Fleischer vom 27. Dezember 1927, SZ-LAS/B3.71",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1255/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1255/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1255/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 27. Dezember 1927, SZ-LAS/B3.71\n- Signatur: SZ-LAS/B3.71\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:23.938600+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n27. Dez. 1927.\n\nLieber Max!\n\nIch habe Reclams Universum, das mich bat, in einer\nSehnzeilen-Kritiken zu schreiben, Dein Buch vorgeschla-\ngen und glücklicherweise war es noch nicht vergeben. Bitte, sende\nmir nun allenfalls ein Bildnis, weil diese zwar sehr kurzen,\naber sehr wirksamen Kritiken meistens das Bildnis des Ver-\nfassers bringen. So kommt, grauhaarig, Dein Antlitz in die\nOeffentlichkeit und hoffentlich vielen Menschen näher.\n\nHerzlichst Dein\n\nStefan Zweig",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte. Das Wort 'Zehnzeilen' wurde im Original als 'Sehnzeilen' getippt (Tippfehler)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n27. Dez. 1927.\n\nLieber Max!\n\nHerzlichst Dein\n\nStefan Zweig",
+      "notes": "Scan mit Farb- und Graustufen-Referenzkarten. Der Textkörper fehlt hier, da er durch die Farbkarte verdeckt ist."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Maschinenschrift handelt. Die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 574,
+    "total_words": 83,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

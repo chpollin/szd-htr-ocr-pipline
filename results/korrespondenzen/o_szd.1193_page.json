@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1193",
+    "title": "Ansichtspostkarte an Anna Meingast vom 21. Oktober 1933, SZ-SAM/B7.23",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1193/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1193/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Anna Meingast vom 21. Oktober 1933, SZ-SAM/B7.23\n- Signatur: SZ-SAM/B7.23\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.932953+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Brown's Hotel. Dover Street & Albemarle Street. London. W.1.",
+      "notes": "Dies ist die Bildseite der Postkarte mit einer gedruckten Bildunterschrift."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "POST CARD.\n\nLiebe Frau Meingast\nich telegrafierte bereits\ndass wir auf zunächst\n14 Tage privat in\n11, Portland Place\nLondon W 1\nwohnen, viele Grüße\nStefan Zweig\n\nFrau Meingast\nbei Zweig\nSalzburg (Austria)\nKapuzinerberg",
+      "notes": "Handschriftliche Nachricht von Stefan Zweig in violetter Tinte. Der Poststempel 'LONDON 21 OCT 1933' ist schwach erkennbar. Die Briefmarke ist eine 'THREE HALFPENCE' Marke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 278,
+    "total_words": 43,
+    "language_detected": "",
+    "language_match": true
+  }
+}

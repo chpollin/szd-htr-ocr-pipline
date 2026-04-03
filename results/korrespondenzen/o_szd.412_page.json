@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.412",
+    "title": "Akira Osawa an Stefan Zweig, 1920-11-09, SZ-SAM/AK.130",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.412/IMG.1",
+      "https://gams.uni-graz.at/o:szd.412/IMG.2",
+      "https://gams.uni-graz.at/o:szd.412/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Akira Osawa an Stefan Zweig, 1920-11-09, SZ-SAM/AK.130\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.130\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.657239+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "9. Nov. 20. ISOLA DI CAPRI - Panorama col monte Solaro",
+      "notes": "Vorderseite einer Postkarte mit gedrucktem Text und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "9 Nov. 1920 Capri\nLieber Herr:\nIch bin zu Neapel gekommen\nund habe heute die Insel Kapri\nbesehen. Die Wetter ist als im\nSommer, alles ist so schön und\nheiter. Die blauen Grotte ist ganz\nwunderbar. Das Spiel des Wassers\nund Licht ist macht den Ausdruck\nals ob man ist in Feenlande\ngetreten. Die Insel ist mir sehr\nteuer übrigens, weil Maxim Gorki\nhat einst dort gelebt hat. Ich\nmöchte, wenn ich könnte, den\nWinter dort passen. Ich wünsche\nIhnen dass Sie die gute Gesundheit\ngeniessen. Ihr ergebener\nAkira Osawa\n\nSignor Stephan Zweig\n5 Kapuzinerberg\nSalzburg\nAustria",
+      "notes": "Rückseite der Postkarte mit handschriftlichem Text und Adressfeld. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, trotz einiger grammatikalischer Eigenheiten des Schreibers (z.B. 'Die Wetter', 'Die blauen Grotte').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 618,
+    "total_words": 108,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

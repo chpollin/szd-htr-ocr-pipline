@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1714",
+    "title": "Brief an Anna Meingast vom 17. Oktober 1936, SZ-SAM/B7.81",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1714/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1714/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 17. Oktober 1936, SZ-SAM/B7.81\n- Signatur: SZ-SAM/B7.81\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.464166+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 17.Oktober 1936.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr herzlich für\nIhre beiden Briefe und freue mich, dass es Ihnen recht\ngut geht. Ich bin inzwischen von Amerika zurück, habe\nviel Arbeit vorgefunden und auch einigen Aerger, aber\ngenug Vorrat, um beides zu bewältigen. Eine Unzahl un-\nerlaubter Ausgaben wurden mitgebracht und werden gerade\nregistriert, sodass sich die Nummernanzahl sprunghaft\nerhöht, wie ja überhaupt alle angelegten Dinge allmählich\nzu eng werden. Gerade aber sehe ich wieder, dass genaue\nOrdnung von grösster Bedeutung ist und komme nun mit\neiner Bitte an Sie.\n\nIm Jahre 32 wurde der Film \"Brennen-\ndes Geheimnis\" an die Tonalfilm-Gesellschaft verkauft und\njetzt sind neue Verhandlungen darüber, die mir grosse\nSchwierigkeiten bereiten. Der Vertrag hat sich glückli-\ncherweise vorgefunden, dagegen wäre es wichtig, wenn Sie\naus den Stenogrammen feststellen könnten, erstens, welche\nBriefe mit der Tonalfilm-Gesellschaft gewechselt wurden,\nzweitens, welche Briefe von und an Berliner Rechtsanwälte",
+      "notes": "Typoskript auf Papier. Der Text bricht am Ende der Seite mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "in diesem Jahre und im nächsten in dieser Sache vorhan-\nden sind. Die Herrschaften haben damals nicht bezahlt\nund ich habe einen oder sogar zwei Rechtsanwälte in\nBerlin dafür einsetzen müssen. Nun weiss ich die Namen\ndieser Rechtsanwälte nicht mehr und weiss nur, dass sie\njetzt nicht mehr in Berlin sind. Vielleicht können Sie\ndies also aus der Korrespondenz des Jahres 32 bis etwa\nEnde Februar 33 feststellen und mir die wichtigsten Da-\nten daraus senden. Alles, was Sie sofort finden, sofort,\nund was Sie dann erst heraussuchen müssen, sobald Sie\ndessen habhaft werden.\n\nIch freue mich, dass das Exemplar\nder Novellen an Sie gelangt ist. Jetzt heisst es eben\nwieder neue Bücher schreiben.\n\nHerzliche Grüsse\n\nIhres\n\nStefanZweig",
+      "notes": "Typoskript auf Papier. Die Unterschrift 'StefanZweig' ist handschriftlich in violetter Tinte hinzugefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Unterschrift auf der zweiten Seite ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1765,
+    "total_words": 269,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

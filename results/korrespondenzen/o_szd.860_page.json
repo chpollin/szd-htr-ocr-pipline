@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.860",
+    "title": "Brief an Stefan Zweig vom 31. Juli 1937, SZ-AAP/B1.75",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.860/IMG.1",
+      "https://gams.uni-graz.at/o:szd.860/IMG.2",
+      "https://gams.uni-graz.at/o:szd.860/IMG.3",
+      "https://gams.uni-graz.at/o:szd.860/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 31. Juli 1937, SZ-AAP/B1.75\n- Signatur: SZ-AAP/B1.75\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:38.322669+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostcheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nHerrn Dr. Stefan Zweig\nVilla Souvenir\nWaldquellzeile\nMarienbad\n\nC.S.R.\n\nRef.\n\nMagellan\n31.Juli 1937 /F\n\nSehr verehrter Herr Doktor :\n\nWir legen hier ein Klebemuster des Magellan-Satzspiegels bei,damit\nSie daraus ersehen,wie splendid der Satz aussehen soll.Durch die viel\ngrössere Schrift und den grösseren Zeilendurchschuss wird das Buch\nquasi gestreckt.Ausserdem möchten wir der grösseren Uebersichtlich-\nkeit wegen und auch der Streckung wegen Kolumnen-Ueberschriften an-\nwenden,wie Sie aus dem Klebemuster ersehen.\nDas Manuskript liegt bereits bei Rohrer in Brünn.Rohrer wartet bloss\ndarauf,dass er nach der Vorlage weitersetzen kann.\nDamit nicht unnötig Zeit verloren geht,haben wir heute Rohrer mitgeteilt,\ndass Sie ihm im Falle Ihres Einverständnisses mit unserer Satzvorlage\nfolgende Depesche schicken werden - natürlich gleich nach Erhalt die-\nses Schreibens:\n\n\" Rohrer Brünn - Satzvorlage Magellan einverstanden \"\n\nWenn Rohrer diese Depesche empfängt,wird er sofort an den Magellan\nweitersetzen und Sie können schon in den nächsten Tagen die Fahnen er-\nhalten.\nDas eigens für die \" Begegnungen \" und den \" Magellan \" in England\nangefertigte Esparto-Papier ist bereits unterwegs nach Brünn.Es ist\nsehr schön ausgefallen und entspricht ganz Ihren Wünschen nach einem",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Ein roter Stempel 'Durch Eilboten. Exprès.' ist auf der ersten Seite angebracht. Die Zeilenumbrüche folgen dem Original."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostcheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n\nstark auftragenden Papier.\nWir bitten Sie also um den telegraphischen Bescheid an Rohrer und\nsind im voraus bestens dankend und Sie begrüssend\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier. Die Unterschrift ist handschriftlich (Tinte, unleserlich/abstraktes Kürzel)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die Lesbarkeit ist sehr gut, abgesehen von der handschriftlichen Unterschrift auf Seite 3, die jedoch als solche erkennbar ist.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2200,
+    "total_words": 306,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

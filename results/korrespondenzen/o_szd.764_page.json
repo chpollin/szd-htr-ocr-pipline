@@ -1,0 +1,76 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.764",
+    "title": "Brief an Stefan Zweig vom 8. Januar 1938, SZ-AAP/B1.169",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.764/IMG.1",
+      "https://gams.uni-graz.at/o:szd.764/IMG.2",
+      "https://gams.uni-graz.at/o:szd.764/IMG.3",
+      "https://gams.uni-graz.at/o:szd.764/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 8. Januar 1938, SZ-AAP/B1.169\n- Signatur: SZ-AAP/B1.169\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:29.839541+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\n\nLONDON, E.C.2.\n\n8. Januar 1938.\n\nK o s t e n r e c h n u n g :\n===========================\n\nHerrn Stefan Zweig,\n\nLondon W 1.\n\nNov.1937/   Bemühungen in\nJan.1938.   Testamentsangelegenheit\n            einschl. kleine Auslagen . . . . . . . . . . . . 25 Gues.\n\n            Auslagen für die englischen Anwälte\n            Lawrance, Messer & Co. . . . . . . . . . . . . 10  \"\n\n                                                         ----------\n                                                         35 Gues.\n                                                         ==========",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Die handschriftlichen Ergänzungen sind hier nicht vorhanden, es handelt sich um die erste Seite des Dokuments."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Dr. ALFRED KAUFFMANN,\nRECHTSANWALT.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR\n\nCORRESPONDENTS:\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\nTELEPHONE: METROPOLITAN 5772.\n\n16, COLEMAN STREET,\n\nLONDON, E.C.2.\n\n8. Januar 1938.\n\nK o s t e n r e c h n u n g :\n===========================\n\nHerrn Stefan Zweig,\n\nLondon W 1.\n\nJan.1938    Ausfertigung einer\n            Generalvollmacht . . . . . . . . . . . . . . . £ 1. 1. 0\n\n            Auslagen für Stempel . . . . . . . . . . . . . \" -.10. 0\n\n                                                         ----------\n                                                         £ 1.11. 0\n                                                         ==========\n                                                         36 15 -\n                                                         38. 6 0\n\nReceived with thanks\n[Unterschrift/Paraphe]\n12.1.38",
+      "notes": "Typoskript auf Briefpapier. Enthält eine Briefmarke (britisch, 2 Pence) mit handschriftlicher Quittung 'Received with thanks' und Datum '12.1.38'. Die Zahlen '36 15 -' und '38. 6 0' sind handschriftlich in blauer Tinte hinzugefügt."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des dritten Blattes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftlichen Ergänzungen auf Seite 3 sind gut lesbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1660,
+    "total_words": 211,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

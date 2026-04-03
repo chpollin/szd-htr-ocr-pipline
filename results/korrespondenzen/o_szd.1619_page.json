@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1619",
+    "title": "Brief an Meulenhoff, Johannes Marius vom 29. Juli 1938, SZ-AAP/B1.264",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1619/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1619/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Meulenhoff, Johannes Marius vom 29. Juli 1938, SZ-AAP/B1.264\n- Signatur: Johannes Marius vom 29. Juli 1938, SZ-AAP/B1.264\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:48.494144+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "29.Juli 1938.\n\nMeulenhoff & Co.\nRokin 44,\nAmsterdam.\n\nSehr geehrter Herr!\n\nIch danke Ihnen vielmals für Ihre freund-\nliche Auskunft vom 22. Juli, die für mich vollkommen zurei-\nchend war. Die Sache mit Reichner ist übrigens gerichtlich\nschon soviel wie entschieden und ich freue mich, Ihre be-\nsondere Güte dann nicht mehr bemühen zu müssen.\n\nMit den besten Empfehlungen\n\nIhr sehr ergebener",
+      "notes": "Typoskript auf Briefpapier. Zwei Lochungen am linken Rand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne Korrekturen oder Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 390,
+    "total_words": 62,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.387",
+    "title": "Alix Winternitz an Stefan Zweig, 1925-08-27, SZ-SAM/AK.108",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.387/IMG.1",
+      "https://gams.uni-graz.at/o:szd.387/IMG.2",
+      "https://gams.uni-graz.at/o:szd.387/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Alix Winternitz an Stefan Zweig, 1925-08-27, SZ-SAM/AK.108\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.108\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.019782+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Oetz, 27. 8. 25",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Gasthofs Stern in Oetz. Handschriftliche Datumsangabe oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nlieber Stefi,\nvon Deiner einsamen,\naber doch vergnügten „Liese“\nnicht minder vergnügte herz-\nliche Grüße! Hoffentlich geht\nes Dir sehr sehr gut, und\nDu erfreust uns bald in Wien\nmit Deiner lieben Anwesenheit\nim Herbst. Einstweilen noch alles\nliebe + auf Wiedersehn. Deine Liese",
+      "notes": "Rückseite der Ansichtskarte. Adressseite mit Briefmarke und Poststempel (Oetz, 27. VIII. 25). Der Text ist handschriftlich in violett-schwarzer Tinte verfasst. Am linken Rand vertikal gedruckt: 'Gasthof Stern in Oetz'. Unten gedruckt: 'L 1135 K. Redlich, Innsbruck Landhausstraße 8'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Gleiche Seite wie Seite 2, jedoch mit Archiv-Grauskala und Farbkarte am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die gedruckten Elemente auf der Postkarte sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 331,
+    "total_words": 53,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

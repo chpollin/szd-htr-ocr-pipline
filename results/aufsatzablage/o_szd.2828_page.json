@@ -1,0 +1,97 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2828",
+    "title": "Aufsätze O",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA-O",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2828/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2828/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2828/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Register"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Aufsätze O\n- Signatur: SZ-AAP/W-AA-O\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, schwarze\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:09.974300+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufsätze\n--------\n\nOpfer, Die vergeblichen ✓\nOpportunismus der Weltfeind ✓\nOrbis literarum ✓",
+      "notes": "Typoskript mit handschriftlichen Haken (✓) und einer handschriftlichen Ziffer '10' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Man sieht den durchscheinenden Text der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Aufsätze\n--------\n\nOpfer, Die vergeblichen ✓\nOpportunismus der Weltfeind ✓\nOrbis literarum ✓",
+      "notes": "Identisch mit Seite 1, jedoch mit angefügten Farb- und Grauskalen für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und klar lesbar. Die handschriftlichen Haken und die Ziffer '10' sind deutlich erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 184,
+    "total_words": 26,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1171",
+    "title": "Alfred Einstein an Anna Meingast, SZ-SAM/B14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1171/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1171/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1171/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Alfred Einstein an Anna Meingast, SZ-SAM/B14\n- Signatur: SZ-SAM/B14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.535273+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "POSTKARTE CARTE POSTALE CARTOLINA POSTALE\n\nPORRENTRUY\n\nFrau Anna Meingast\nc/o Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Adressseite einer Postkarte. Briefmarke und Poststempel (Porrentruy, 29. III. 35) vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "z. Z. Spiez 27. III. 35\nc/o Prof. Ansell\n\nSehr geehrte Frau Meingast,\nvermutlich hat Herr Dr. Zweig Ihnen meinen\ndrohenden Besuch schon angekündigt, u. ich\nwünschte nur, dasser Ihnen nicht allein droh-\nend erscheinen möchte!\nWenn ich Ihnen keine andere Mitteilung\nmache, so komme ich am 2. IV. um 17.28\nin Salzburg an; mit einem recht schweren\nKoffer. Wenn Hr. Thallhuber mich\nabholen sollte: ich bin kenntlich an einem\nsteifen Hut, schwarzem Wintermantel, dicken\nKoffer u. Schirm u. Stock.\nBitte, empfehlen Sie mich dem gnäd.\nFräulein u. nehmen Sie die Grüße\nIhres Alfred Einstein",
+      "notes": "Textseite des Briefes/der Postkarte. Handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "z. Z. Spiez 27. III. 35\nc/o Prof. Ansell\n\nSehr geehrte Frau Meingast,\nvermutlich hat Herr Dr. Zweig Ihnen meinen\ndrohenden Besuch schon angekündigt, u. ich\nwünschte nur, dasser Ihnen nicht allein droh-\nend erscheinen möchte!\nWenn ich Ihnen keine andere Mitteilung\nma[c]he, so komme ich am 2. IV. um 17.28\nin Salzburg an; mit einem recht schweren\nKoffer. Wenn Hr. Thallhuber mich\nabholen sollte: ich bin kenntlich an einem\nsteifen Hut, schwarzem Wintermantel, dicken\nKoffer u. Schirm u. Stock.\nBitte, empfehlen Sie mich dem gnäd.\nFräulein u. nehmen Sie die Grüße\nIhres Alfred Einstein",
+      "notes": "Identisch mit Seite 2, hier mit Farbkarten und Skalen abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar. Die Ergänzung [c] bei 'mache' ist aufgrund des Kontextes und der sichtbaren Buchstaben sicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1283,
+    "total_words": 206,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.98,
+    "edited_pages": [
+      2
+    ],
+    "notes": "Page 1 (address side) correct. Page 2: removed non-standard [c] marker in 'ma[c]he' — letter is clearly legible, corrected to 'mache'. Page 3 skipped (color_chart). duplicate_pages flag is a known false-positive (color chart copy of page 2).",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T21:30:00Z"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1492",
+    "title": "Brief an Stefan Zweig vom 20. Januar 1939, SZ-AAP/B3.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1492/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1492/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1492/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 20. Januar 1939, SZ-AAP/B3.4\n- Signatur: SZ-AAP/B3.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:37.641643+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS COMPOSERS STAGE & FILM PRODUCERS MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON S.W.1\n\nTELEPHONES\nWHITEHALL 0175\n0176\n\n20.Januar 1939.\n\nHerrn Dr.Stefan Zweig,\nc/o The Viking Press Inc.,\n18 East 48th Street,\nNew York City.\n\nLieber Herr Doktor,\n\nEs freut mich zu hoeren,dass Sie drueben gut angelangt\nsind. Hoffentlich geht es Ihnen recht gut und haben Sie viel Erfolg\nauf Ihrer Vortragsreise.\n\nDie \"Editions Mondiales\" bitten uns um ein Exemplar\nder franzoesischen Uebersetzung von \"BRENNENDES GEHEIMNIS\", welche wir\nnatuerlich nicht haben. Ist das Werk ueberhaupt ins Franzoesische\nuebersetzt und falls ja, unter welchem Titel und bei welchem Verlag?\nWir bitten Sie, uns diese Auskunft moeglichst per Kabel zu geben. Wir\nhaetten Ihnen von hier aus gedrahtet, wissen aber nicht, wohin wir tele-\ngraphieren muessten und auch nicht, wann ein Telegramm ueber die \"Viking\nPress\" Sie erreichen wuerde.\n\nMit den besten Gruessen\n\nIhr ergebener\n[Unterschrift]\n\nerl. 8.II.",
+      "notes": "Typoskript auf Briefpapier mit Firmenkopf. Handschriftliche Unterschrift (unleserlich, vermutlich 'Georg[?] Heilborn[?]') und handschriftliche Notiz links unten 'erl. 8.II.'. Rote handschriftliche '77' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Faksimile mit aufgelegter Farb- und Grauskala zur Archivierung. Der Text ist identisch mit Seite 1, jedoch teilweise durch die Skalen verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist schwer zu entziffern, wurde aber als solche markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1080,
+    "total_words": 158,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

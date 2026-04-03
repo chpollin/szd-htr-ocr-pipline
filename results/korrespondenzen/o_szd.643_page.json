@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.643",
+    "title": " Unidentified an Stefan Zweig, 1930-08-07, SZ-SAM/AK.72",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.643/IMG.1",
+      "https://gams.uni-graz.at/o:szd.643/IMG.2",
+      "https://gams.uni-graz.at/o:szd.643/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1930-08-07, SZ-SAM/AK.72\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.72\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.131931+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Ischl 7.8.30",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Bad Ischl. Unten links handschriftlicher Vermerk 'Ischl 7.8.30'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Bad Ischl. 7/8.\n\nLieber Stefan!\nErlaube mir die höfliche\nAnfrage wie es der l.\nTante [?] Deiner Mutter\ngeht. Ich habe sehr wenig\nvon dieser Nun dies nun auch\nich, dass diese mir schreibt,\ndass sie schon um 1 Tag länger\nnach Wien will. Warum kommt\ndie [?] nicht her. Du hast übrigens\nihr doch versprochen zu kommen.\nmit herz. [?] Grüßen\nGusti\n\nMama berichtet.\n\n[Adressseite:]\n\n[Stempel: DIE HEILKRÄFTIGEN SOLBÄDER BAD ISCHL]\n\n[Empfänger:]\n\n[?] \nHerrn Dr Stefan Zweig\n\nSalzburg\nKapuzinerberg",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Am linken Rand vertikal 'Mama berichtet.'. Rechts Adressfeld mit Stempel und Briefmarke. Die Handschrift ist teilweise schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierungszwecke. In der Mitte die bereits transkribierte Postkarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf, insbesondere in der Anrede und bei den Namen/Ortsbezeichnungen. Die Tinte ist teilweise verblasst oder ineinander verlaufen.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 501,
+    "total_words": 82,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

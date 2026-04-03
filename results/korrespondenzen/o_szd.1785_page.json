@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1785",
+    "title": "Brief an Max Rascher vom 10. Mai 1938, SZ-AAP/B1.219",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1785/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1785/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Rascher vom 10. Mai 1938, SZ-AAP/B1.219\n- Signatur: SZ-AAP/B1.219\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.101805+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                  10.Mai 1938.\n\nRascher & Cie.,\nLimmatquai 50,\nZürich.\n\nLieber Herr Rascher!\n\n                                  Ich danke Ihnen herzlich für Ih-\nre freundlichen Mitteilungen. Ich habe es mit Reich-\nner sehr schwer. Er hält sich irgendwo in Zürich auf,\ngibt mir aber {durchaus} keine andere Adresse als \"hauptpostla-\ngernd\". Ausserdem verweigert er mir jede Abrechnung\nüber die im Ausland befindlichen Exemplare, deren Er-\nträgnisse {inzwischen} er ad personam einzieht. Ich werde leider\ngegen ihn energisch einschreiten müssen.\n\n                                  Aber gerade darum muss ich jetzt\nmeinerseits alles vermeiden, was meine klare Rechts-\nlage beeinträchtigen könnte und ich will deshalb über\nBücher von mir nicht disponieren oder auch nur verhan-\ndeln, was Sie gewiss verstehen werden. Sie wissen ja\nselbst, wie sehr mir sonst an einer neuen billigen\nAusgabe der \"Sternstunden\" gelegen wäre.\n                                  Dies also nur vorläufig mit vie-\nlem herzlichen Dank\n                                  von Ihrem ergebenen",
+      "notes": "Typoskript mit handschriftlichen Einfügungen in violett/blauer Tinte. Die Einfügungen 'durchaus' und 'inzwischen' sind über den Zeilen platziert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Einfügungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1075,
+    "total_words": 138,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

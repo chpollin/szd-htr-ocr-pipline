@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.589",
+    "title": "Louis Piérard an Stefan Zweig, 1908-09-08, SZ-SAM/AK.293",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.589/IMG.1",
+      "https://gams.uni-graz.at/o:szd.589/IMG.2",
+      "https://gams.uni-graz.at/o:szd.589/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Louis Piérard an Stefan Zweig, 1908-09-08, SZ-SAM/AK.293\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.293\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:19.941378+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "5 FRAMERIES. 8.IX 08.\nL'Eglise. Un coin de la place.\nEdit. A. Duwez-Delcourt, Mons.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliche Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Frameries, le\n8 7bre\nMonsieur, Mon ami Kam-\nmun Emile Verhaeren\nm'ayant donné votre\nadresse, je me suis fait\nun plaisir de vous\nenvoyer mon livre de\ndébut prié daté déjà\nde l'an dernier - j'espère\nqu'il vous sera parvenu.\nAgréez, je vous prie, l'assurance\nde ma considération Louis Piérard.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in französischer Sprache. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, sowie die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die Datumsangabe '8 7bre' steht für '8 septembre' (8. September).",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 373,
+    "total_words": 64,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

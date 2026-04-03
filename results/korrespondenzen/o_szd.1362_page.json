@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1362",
+    "title": "Ansichtspostkarte an Karl Klammer vom 9. Mai 1906, SZ-SEF/B6.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1362/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1362/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1362/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Karl Klammer vom 9. Mai 1906, SZ-SEF/B6.2\n- Signatur: SZ-SEF/B6.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:28.889258+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber Herr Klammer, ich sende Ihnen von ~~meiner~~ neuen\nResidenz viele herzliche Grüße. Lassen Sie sich den Frühling\ngut bekommen auf das [?] Ihre herzlichst\nStefan Zweig",
+      "notes": "Die Vorderseite der Postkarte zeigt das Marble Arch in London. Der Text ist in violetter Tinte geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mr. Karl Klammer\nK.k. Lieutenant\n\nLemberg (Austria)\n\nWulkakaserne",
+      "notes": "Adressseite der Postkarte. Poststempel: PADDINGTON.W MAY 9 06. Briefmarke: ONE PENNY."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Herr Klammer, ich sende Ihnen von ~~meiner~~ neuen\nResidenz viele herzliche Grüße. Lassen Sie sich den Frühling\ngut bekommen auf das [?] Ihre herzlichst\nStefan Zweig",
+      "notes": "Dies ist eine Wiederholung der Vorderseite (mit Farbkarten-Referenz)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich ein Wort im Satz 'auf das [?] Ihre' ist aufgrund der Handschrift und des Tintenflusses schwer eindeutig zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 409,
+    "total_words": 62,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

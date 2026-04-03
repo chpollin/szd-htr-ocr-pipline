@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.450",
+    "title": "Kurt Erich Rotter an Stefan Zweig, 1931-05-29, SZ-SAM/AK.166",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.450/IMG.1",
+      "https://gams.uni-graz.at/o:szd.450/IMG.2",
+      "https://gams.uni-graz.at/o:szd.450/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Kurt Erich Rotter an Stefan Zweig, 1931-05-29, SZ-SAM/AK.166\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.166\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.155379+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hallein – Zellulosefabrik\n29. V. 31",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Datumsangabe in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\n~~Herrn~~ ad. Stefan Zweig\nSalzburg\nKapuzinerberg: 5.\n\n29. V. Einige Zeit ganz in Ihrer Nähe\nwollte ich Sie doch nicht [?] stören\nund sende mit [?] meine\nergebenen Grüße &\nHandküsse. Ihr aufrichtig\ndankbarer\nKurt Rotter",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel vorhanden. Der Text ist teilweise schwer lesbar, insbesondere die Wörter 'nicht' und 'mit'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Die Ansichtskarte ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (insbesondere 'nicht' und 'mit' im Textkörper). Die Struktur ist jedoch klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 260,
+    "total_words": 43,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

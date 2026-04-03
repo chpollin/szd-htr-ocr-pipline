@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.543",
+    "title": "Otto Zarek an Stefan Zweig, 1921-06-20, SZ-SAM/AK.251",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.543/IMG.1",
+      "https://gams.uni-graz.at/o:szd.543/IMG.2",
+      "https://gams.uni-graz.at/o:szd.543/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Otto Zarek an Stefan Zweig, 1921-06-20, SZ-SAM/AK.251\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.251\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:16.655523+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "MÜNCHEN\nNationaltheater\n20.6.21. Z.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Nationaltheaters in München. Handschriftliche Datierung oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Herr Zweig!\nSoeben erhalt' ich von\n[...10...] [...10...] \n[...10...] [...10...] \nKonto!\nIch schreibe das\nWissen Sie, dass für Sie\nzufällig einen [?] [?]\neinen guten Ort in\nSalzburgische [?] \n[...10...] meiner\nKinder habe. Könn-\n[...10...] \nIhr herzlichst M. Otto Zarek\n\nHerrn\nH. Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adressierung. Der Text ist teilweise durch den Poststempel und die Briefmarke überlagert sowie durch die Tinte der Vorderseite leicht durchscheinend. Die Handschrift ist schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke. In der Mitte befindet sich die bereits transkribierte Rückseite der Postkarte."
+    }
+  ],
+  "confidence": "low",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig und teilweise durch den Poststempel sowie die Briefmarke verdeckt. Viele Wörter sind aufgrund der schwungvollen Schrift und der Überlagerungen nur schwer oder gar nicht zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 350,
+    "total_words": 51,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

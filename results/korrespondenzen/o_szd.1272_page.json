@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1272",
+    "title": "Brief an Anna Meingast von [1919], SZ-SAM/B7.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1272/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1272/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast von [1919], SZ-SAM/B7.1\n- Signatur: SZ-SAM/B7.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:25.475132+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Sehr geehrte Frau Meingast, ich empfieng Ihr\nfrdl. Offert, das mir durchaus sympathisch ist, doch\nwäre es mir von Wichtigkeit, dass die gewünschte Se-\ncretärin auch gewisse, wenn auch geringe, Kenntnis\ndes Französischen besitzt, um in der Orthographie solcher\nNamen sicher zu sein.x Jedefalls möchte ich Sie bitten,\nmich, wenn es Ihnen möglich ist, Sonntag zwischen 10-11\nUhr aufzusuchen, ich habe im Ganzen ausser Ihrem Offerte\nnur noch zwei in Betracht gezogen und möchte dann\ndie Entscheidung nach persönlicher Besprechung treffen. Mit\nden besten Empfehlungen\nIhr sehr ergebener\n\nDr. Stefan Zweig\nKapuzinerberg 5\n(Villa Ziegler)\nAufgang Linzerstrasse 14\n\nx Es handelt sich bei mir\nvielfach um Correspondenzen\nin denen solche Namen vor-\nkommen.",
+      "notes": "Der Text ist sehr gut lesbar. Das 'x' markiert einen Einschub, der am unteren linken Rand des Briefes nachgetragen wurde."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite des Briefes ist leer (bzw. zeigt nur den Durchdruck der Tinte von der Vorderseite)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist klar und gut lesbar. Die Transkription folgt dem Original exakt, inklusive der Positionierung des Nachtrags am unteren Rand.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 746,
+    "total_words": 113,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1191",
+    "title": "Brief an Anna Meingast vom 5. Dezember 1932, SZ-SAM/B7.21",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1191/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1191/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 5. Dezember 1932, SZ-SAM/B7.21\n- Signatur: SZ-SAM/B7.21\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.825808+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Diktat\n5./XII 32\n\nLiebe Frau Meingast,\nich danke Ihnen sehr für die\nPost, die ich richtig erhalten habe.\nUnser Aufenthalt, so angenehm\ner ist, geht langsam zuende\nund ich denke, dass wir ent=\nweder Freitag oder Samstag\nVormittag eintreffen werden. Ich\nmöchte Sie deshalb bitten nur\nnoch das Dringendste der Mitt=\nwoch Post hierherzusenden\naber womöglich so, dass der Brief\nnoch vor 11 Uhr bei der\nPost aufgegeben wird, weil er\ndann noch mit dem Mittags=\nzug abgeht.\nVon unwichtigen Dingen können\nSie vielleicht schon etwas er=",
+      "notes": "Die Transkription folgt dem Zeilenumbruch des Originals. Das Wort 'Mittagszug' ist am Zeilenende getrennt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ledigen: an an Frau Ella\nZweig 30 Sch. direkt oder mittels\nPostcheck senden und an Herrn\nWelzin 20 Sch. An Herrn\nKenter u. an die „Staatswehr“\nje eine M. Ant. schicken.\nVielleicht teilen Sie es gleich\nso ein, dass Sie möglichst über=\nsichtlich anordnen, welche Briefe\nschon vollkommen erledigt\nsind und keine weitere Antwort\nbedürfen und welche ich selber noch\nzu beantworten habe. Im Ganzen\nist diesmal nichts Besonderes\ndabei gewesen. Ich vermisse nur\neinen Brief von Algis Hella.\nIch hoffe, dass es Ihnen und\nIhrem Sohn gut geht und\ngrüsse Sie schönstens\nStefan Zweig",
+      "notes": "Das Wort 'an' am Zeilenanfang ist doppelt geschrieben (wahrscheinlich ein Schreibfehler des Autors). 'M. Ant.' steht vermutlich für 'Monatsantwort' oder 'Mitgliedsantwort', hier diplomatisch als 'M. Ant.' transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar. Die Abkürzungen 'Sch.' (Schilling) und 'M. Ant.' sind im Kontext der Korrespondenz schlüssig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1096,
+    "total_words": 182,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

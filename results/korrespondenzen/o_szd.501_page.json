@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.501",
+    "title": " Unidentified an Stefan Zweig, 1931-10-09, SZ-SAM/AK.211",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.501/IMG.1",
+      "https://gams.uni-graz.at/o:szd.501/IMG.2",
+      "https://gams.uni-graz.at/o:szd.501/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1931-10-09, SZ-SAM/AK.211\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.211\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.524975+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Abbazia (Opatija)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ABBAZIA - Veduta generale\n\nlieber Stefan, zum ersten Mal seit\nlanger Zeit hier wieder ein bischen\nWärme und Sonne: da gedenken\nwir herzlichst Deiner. grüße an\nRieger und Fuchs, die allerbeste\nLieber Stefan! Von unsrer ersten\nStation ein herzlichst Gedanken, die\nletzte Station hoffen wir bei Euch zu\nmachen. Herzlichst grüßt Dich [?] Dr. Rieger\nDeine Grete.\n\nHr Stefan Zweig\nKapuzinerberg 5\nSalzburg\nAustria",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in Tinte. Zwei Briefmarken (Poste Italiane) sind aufgeklebt. Der Text ist teilweise überlagert oder korrigiert (z.B. 'Lieber Stefan!' wurde mitten in den Text eingefügt). Die Zeilen 'Lieber Stefan! Von unsrer ersten...' scheinen eine Überarbeitung oder Ergänzung zu sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke, dazwischen die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der handschriftliche Text ist teilweise schwer lesbar, da sich Zeilen überschneiden oder nachträglich eingefügt wurden. Die Lesung 'Dr. Rieger' ist aufgrund der Handschrift unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 407,
+    "total_words": 64,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

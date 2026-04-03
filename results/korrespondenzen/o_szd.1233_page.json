@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1233",
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.49",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1233/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1233/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1233/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.49\n- Signatur: SZ-LAS/B3.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:22.026745+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber Herr Doktor 19./V\nIhre Karte hat mir die grosse\nFreude bereitet, dass ich\nIhnen sagen kann, dass die\nUrsache, die Ihnen das Vergnü-\ngen des Aufenthaltes beinträch-\ntigt, kaum vorhanden ist.\nIhre liebe Frau Mutter, die ich\nzwei mal bisher besuchte ist\nsehr vergnügt, sehr sehr gut\naus und wiederholt immer\nwieder, sie hätte es sich\nnicht so leicht vorgestellt.\nSeien Sie recht vergnügt, das ist\ndas sicherste Mittel es ihr\nauch weit erhin leicht zu\nmachen. Mir gehen Sie auch ab,\nfür mich selbst und für\nStefan Wenn ich Sie auch\nselten sehe: es ist ein gutes\nGefühl Sie nahe zu wissen;",
+      "notes": "Die Transkription umfasst die Nachrichtenseite der Postkarte. Das Datum '19./V' steht oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "aber ein sehr gutes auch\nSie froh und zufrieden\nzu wissen. Vielen Dank\nfür Ihre Aufforderung\nIch werde meinen guten\nMeister die Wahl\nüberlassen und es dann\nmit Ihrer noch strengeren\nKritik annehmen\nversuchen. Jedenfalls\nalles Gute für die neue\nArbeit, für Sie selbst\ndas Beste. Ihr Ihrer Frau\nMutter geh ich bald wieder.",
+      "notes": "Dies ist die linke Seite der Postkarte (Textfortsetzung). Der Adressbereich rechts wurde nicht transkribiert. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Herr Doktor 19./V\nIhre Karte hat mir die grosse\nFreude bereitet, dass ich\nIhnen sagen kann, dass die\nUrsache, die Ihnen das Vergnü-\ngen des Aufenthaltes beinträch-\ntigt, kaum vorhanden ist.\nIhre liebe Frau Mutter, die ich\nzwei mal bisher besuchte ist\nsehr vergnügt, sehr sehr gut\naus und wiederholt immer\nwieder, sie hätte es sich\nnicht so leicht vorgestellt.\nSeien Sie recht vergnügt, das ist\ndas sicherste Mittel es ihr\nauch weit erhin leicht zu\nmachen. Mir gehen Sie auch ab,\nfür mich selbst und für\nStefan Wenn ich Sie auch\nselten sehe: es ist ein gutes\nGefühl Sie nahe zu wissen;",
+      "notes": "Dies ist eine Wiederholung der ersten Seite (Scan 1) im Kontext der Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der engen Zeilenabstände und der für die Zeit typischen Kurrent-Elemente.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1502,
+    "total_words": 262,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

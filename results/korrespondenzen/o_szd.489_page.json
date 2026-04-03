@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.489",
+    "title": "Vogt an Stefan Zweig, 1928-12-06, SZ-SAM/AK.200",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.489/IMG.1",
+      "https://gams.uni-graz.at/o:szd.489/IMG.2",
+      "https://gams.uni-graz.at/o:szd.489/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Vogt an Stefan Zweig, 1928-12-06, SZ-SAM/AK.200\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.200\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.902373+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Korosko mit Blick auf den Nil (Nubien). Korosko with a view of the Nile (Nubia). Korosko avec vue sur le Nil (Nubie).",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Landschaftsdarstellung von Korosko am Nil. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ablegen\n\nAutriche (Österreich)\nHerre Stefan Zweig\nSalzburg\nKapuzinerberg\n\nLieber und verehrter Herr Dr.\nhaben Sie vielen Dank für Ihre\nfrdl. Zeilen. Bin auf 5 Wochen\nin Ägypten - Weihnachten bis Neujahr\nin Kairo, dann an d. Nilreise - darf\nich Sie dann in Salzburg einmal\nbesuchen? Wer Sie z. üb. ein\nladen? Sehr ergebene Grüße Ihr\nMax Vogt\nAssuan, 6.12.28",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Nachricht. Die Tinte ist blau/violett. Briefmarke und Poststempel oben links vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "ablegen\n\nAutriche (Österreich)\nHerre Stefan Zweig\nSalzburg\nKapuzinerberg\n\nLieber und verehrter Herr Dr.\nhaben Sie vielen Dank für Ihre\nfrdl. Zeilen. Bin auf 5 Wochen\nin Ägypten - Weihnachten bis Neujahr\nin Kairo, dann an d. Nilreise - darf\nich Sie dann in Salzburg einmal\nbesuchen? Wer Sie z. üb. ein\nladen? Sehr ergebene Grüße Ihr\nMax Vogt\nAssuan, 6.12.28",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzungen 'frdl.' (freundlichen) und 'z. üb.' (zu über) sind im Kontext der Korrespondenz eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 829,
+    "total_words": 142,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

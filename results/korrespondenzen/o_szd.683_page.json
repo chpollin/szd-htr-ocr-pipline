@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.683",
+    "title": "Suzanne Clauser an Stefan Zweig, SZ-SAM/AK.39",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.683/IMG.1",
+      "https://gams.uni-graz.at/o:szd.683/IMG.2",
+      "https://gams.uni-graz.at/o:szd.683/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Suzanne Clauser an Stefan Zweig, SZ-SAM/AK.39\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.39\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:24.468291+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Igls in Tirol 560",
+      "notes": "Vorderseite der Postkarte mit einer Winterlandschaft. Der Text ist in die Fotografie eingedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herru Dr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\n\nVielen herzlichen Dank für\nIhre lieben Zeilen. Ich komme\nSonntag n.m. in Salzburg an\nund fahre Montag weiter.\nWenn Sie erlauben, werde\nich anrufen um zu erfahren\nwann ich Sie b.g. sehen kann.\nMit herzlichsten Grüßen bin\nich Ihre aufrichtige\nSuzanne Clauser",
+      "notes": "Rückseite der Postkarte, handschriftlich in blauer Tinte. Briefmarke und Poststempel vorhanden. 'n.m.' steht vermutlich für 'nachmittags', 'b.g.' vermutlich für 'bald gerne' oder ähnlich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Die Postkarte ist identisch zu Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Abkürzungen 'n.m.' und 'b.g.' sind kontextuell plausibel, aber nicht explizit ausgeschrieben.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 322,
+    "total_words": 53,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

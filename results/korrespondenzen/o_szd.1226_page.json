@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1226",
+    "title": "Brief an Anna Meingast vom 23. März 1935, SZ-SAM/B7.56",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1226/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1226/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 23. März 1935, SZ-SAM/B7.56\n- Signatur: SZ-SAM/B7.56\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.413858+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Regina\nWien                                          Wien, den 23. März 1935.\n\nLiebe Frau Meingast,\n\n    nur eine kleine Instruktion: Herr Dr. Alfred Einstein kommt am\n2. April nach Salzburg und wird paar Tage bei uns wohnen und die Auto-\ngraphen-Kataloge durcharbeiten. Bitte, seien Sie ihm behilflich, es\nhandelt sich im wesentlichen darum, alles auf Mozart durchzusehen.\nAusserdem möchte ich Sie ersuchen, dass Sie unserem guten Johann sagen,\ner möge ihm mein Zimmer einrichten. Ich weiss, dass er verlässlich für\nihn sorgen wird. Herr Dr. Einstein bekommt natürlich immer Frühstück,\ndie übrigen Mahlzeiten wird er wahrscheinlich ausser Haus nehmen. Ich\ndanke Ihnen noch für alle Besorgungen und Briefschaften. Ich möchte nur\nbitten, falls irgend welche Bankausweise in den letzten Tagen gekommen\nsein sollten, mir dieselben nachzusenden.\n\n    Mit besten Grüssen\n\n                                              Ihr\n\n                                              Stefan Zweig",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein sehr gut lesbarer Maschinendruck, die Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 982,
+    "total_words": 127,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

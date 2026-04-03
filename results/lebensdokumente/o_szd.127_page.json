@@ -1,0 +1,254 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.127",
+    "title": "Verlagsvertrag Editura Socec & Co. S.A.",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.50",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.127/IMG.1",
+      "https://gams.uni-graz.at/o:szd.127/IMG.2",
+      "https://gams.uni-graz.at/o:szd.127/IMG.3",
+      "https://gams.uni-graz.at/o:szd.127/IMG.4",
+      "https://gams.uni-graz.at/o:szd.127/IMG.5",
+      "https://gams.uni-graz.at/o:szd.127/IMG.6",
+      "https://gams.uni-graz.at/o:szd.127/IMG.7"
+    ],
+    "date": "20 Aprilie 1939",
+    "document_type": "mixed_materials",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "London",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durschlagpapier, schwarze Tinte, Bleistift",
+        "writing_material": "Doppelbogen",
+        "hands": [
+          "Stefan Zweig",
+          "Lotte Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "21x17 cm bis 29x23 cm"
+      },
+      "notes": "Deutscher handschriftlicher Vertragsentwurf von unbekannter Hand, rumänischer Vertrag mit Notiz „bezahlt!“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand"
+    },
+    "additional": {
+      "group": "konvolut",
+      "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Editura Socec & Co. S.A.\n- Signatur: SZ-AAP/L13.50\n- Datum: 20 Aprilie 1939\n- Sprache: Deutsch\n- Objekttyp: Konvolut\n- Schreibinstrument: Schwarzes Durschlagpapier, schwarze Tinte, Bleistift\n- Hand: Stefan Zweig, Lotte Zweig, fremde Hand\n- Anmerkungen: Deutscher handschriftlicher Vertragsentwurf von unbekannter Hand, rumänischer Vertrag mit Notiz „bezahlt!“ von Lotte Zweigs Hand in Bleistift, Unterschrift von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.078887+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_konvolut",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Zwischen Herrn Dr Stefan Zweig, 49 Hallam Street,\nLondon W.1 und Fa Socec & Co, Calea Victoriei no 13 Buka-\nrest, ist nachstehende Vereinbarung getroffen worden:\nHerr Dr Stefan Zweig überlässt die rumänischen\nBuchrechte an seinem Roman\nUngeduld des Herzens\nan die Fa Socec & Co gegen eine einmalige Zahlung\nvon\n£ 30 (dreizig Pfund sterling).\nFalls das Buch nicht innerhalb {von} einem Jahre\nnach vertragsabschluss erscheint, fallen die Rechte\nan der Verfasser zurück.\nHerr Dr zweig erhält bei Erscheinen des Buches\n6 Belegexemplare.\nDas Honorar ist bei Abschluss des Vertrages zu\nerlegen, und der Vertrag selbst tritt erst mit der\nUeberweisung dieses Betrages an Herrn Dr zweig\nin Kraft.\nLondon, den 20 {April} 1939 Bukarest, den 30 {April} 1939\n(gs) Dr zweig (ps) Socec & Co",
+      "notes": "Handschriftlicher Vertragsentwurf in schwarzer Tinte. Korrekturen und Ergänzungen in Tinte und Bleistift.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            11.9,
+            23.7,
+            81.6,
+            12.2
+          ],
+          "reading_order": 1,
+          "lines": 4,
+          "label": "Vertragsparteien und Einleitung",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            12.7,
+            35.7,
+            55.9,
+            5.1
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Gegenstand des Vertrags (Romanrechte)",
+          "source": "surya"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            14.1,
+            41.3,
+            75.7,
+            10.8
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Honorarvereinbarung",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            14.4,
+            51.7,
+            74.2,
+            7.3
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Erscheinungsfrist und Rückfallklausel",
+          "source": "surya"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            15.7,
+            59.3,
+            73.4,
+            4.8
+          ],
+          "reading_order": 5,
+          "lines": 2,
+          "label": "Belegexemplare",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            13.1,
+            62.8,
+            80.4,
+            14.3
+          ],
+          "reading_order": 6,
+          "lines": 1,
+          "label": "Zahlungsmodalitäten und Inkrafttreten",
+          "source": "surya"
+        },
+        {
+          "id": "r7",
+          "type": "heading",
+          "bbox": [
+            12.2,
+            77.6,
+            22.6,
+            3.5
+          ],
+          "reading_order": 7,
+          "lines": 1,
+          "label": "Abschlussvermerk London (Stefan Zweig)",
+          "source": "surya"
+        },
+        {
+          "id": "r8",
+          "type": "heading",
+          "bbox": [
+            56.4,
+            76.6,
+            23.6,
+            3.1
+          ],
+          "reading_order": 8,
+          "lines": 1,
+          "label": "Abschlussvermerk Bukarest (Socec & Co)",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer.",
+      "image": "IMG_2.jpg",
+      "image_width": 4912,
+      "image_height": 7360
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Intre Domnul Dr. Stefan Zweig, 49 Haltam Street London W.1\nşi Editura Socec & Co. S.A. Bucureşti, Romania, Calea Victoriei 13,\na intervenit următoarea convenţie :\n\nDomnul Dr. Stefan Zweig cedează dreptul de traducere in limba\nromână a romanului\n\nUNGEDULD DES HERZENS\n\nEditurei Socec & Co. S.A. pentru suma de :\n\n£ 30.-.- (Treizeci)\n\nodată pentru totdeauna.-\n\nIn cazul cănd traducerea nu va apare in decurs de un an dela\ndata incheierei prezentului contract, drepturile devin autorului.-\n\nDomnul Dr. Stefan Zweig va primi la apariţia cărţii 6 exemplare.\n\nAcest contract devine valabil in momentul cănd Domnul Dr.\nStefan Zweig va fi in posesia sumei de £. 30.-.- pe care editura o va\nremite la adresa autorului.-\n\nAutorul se obligă de a nu mai ceda unei alte edituri acest\nroman.-\n\nLondon, 20 Aprilie 1939 Bucureşti, 30 Aprilie 1939\nSOCEC & Co. S.A.\n\nbezahlt!",
+      "notes": "Typoskript (Vertrag in rumänischer Sprache). Handschriftliche Notiz 'bezahlt!' in Bleistift am unteren Rand."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text von Seite 3 sichtbar)."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt Papier."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf Seite 1 und die rumänische Fassung auf Seite 3 sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1632,
+    "total_words": 269,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

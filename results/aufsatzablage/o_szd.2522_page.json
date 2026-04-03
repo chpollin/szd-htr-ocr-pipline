@@ -1,0 +1,89 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2522",
+    "title": "Verse aus einem Stammbuch dem Freunde zu seinem sechzigsten Geburtstag\n                        am 24. Mai 1934 gewidmet",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA111.2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2522/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2522/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2522/IMG.3"
+    ],
+    "document_type": "proof_sheet",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ]
+    },
+    "additional": {
+      "group": "korrekturfahne",
+      "context": "## Dieses Dokument\n\n- Titel: Verse aus einem Stammbuch dem Freunde zu seinem sechzigsten Geburtstag\n                        am 24. Mai 1934 gewidmet\n- Signatur: SZ-AAP/W-AA111.2\n- Sprache: Deutsch\n- Objekttyp: Druckfahne\n- Umfang: 1 Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:31.390294+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrekturfahne",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Verse aus einem Stammbuch\ndem Freunde zu seinem sechzigsten Geburtstag\nam 24. Mai 1934 gewidmet\n\nDie Jahre flieh'n, die Zeit weht fort.\nNur Eines bleibt: Das Werk. Das Wort.\nEin Leben, ganz ins Werk getan,\nHebt immer neu zu wirken an,\nDenn was Du schufst, es steht nicht still,\nWeil es sich stets erneuern will,\nEs reißt Dich mit, es zwingt Dich ein,\nIn seinen Willen, Welt zu sein. ---\nWohl dem darum, der schuf, der schafft,\nSendbote jener Gotteskraft,\nDie seit Äonen unserm Geist\nDie Lust zu neuen Bahnen weist,\nAuf daß er rastlos fruchtbar sei,\nDer Erde treu, im Ewigen frei!\nDen engt nicht Zeit, den drückt kein Jahr,\nDem dies Geheimnis offenbar:\nDaß nur, wer weiß, sich voll zu geben,\nSein eignes lebt und ewiges Leben.\nAnton Kippenberg\ndem unermüdlich Wirkenden in Freundschaft\nStefan Zweig",
+      "notes": "Gedruckter Text auf Papier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Verse aus einem Stammbuch\ndem Freunde zu seinem sechzigsten Geburtstag\nam 24. Mai 1934 gewidmet\n\nDie Jahre flieh'n, die Zeit weht fort.\nNur Eines bleibt: Das Werk. Das Wort.\nEin Leben, ganz ins Werk getan,\nHebt immer neu zu wirken an,\nDenn was Du schufst, es steht nicht still,\nWeil es sich stets erneuern will,\nEs reißt Dich mit, es zwingt Dich ein,\nIn seinen Willen, Welt zu sein. ---\nWohl dem darum, der schuf, der schafft,\nSendbote jener Gotteskraft,\nDie seit Äonen unserm Geist\nDie Lust zu neuen Bahnen weist,\nAuf daß er rastlos fruchtbar sei,\nDer Erde treu, im Ewigen frei!\nDen engt nicht Zeit, den drückt kein Jahr,\nDem dies Geheimnis offenbar:\nDaß nur, wer weiß, sich voll zu geben,\nSein eignes lebt und ewiges Leben.\nAnton Kippenberg\ndem unermüdlich Wirkenden in Freundschaft\nStefan Zweig",
+      "notes": "Gedruckter Text auf Papier, identisch mit Seite 1, inklusive Farbskala/Grauskala für Archivierung am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klarer, gut lesbarer Druck ohne handschriftliche Korrekturen oder Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1594,
+    "total_words": 276,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

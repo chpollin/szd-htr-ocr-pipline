@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.150",
+    "title": "Stempel-Set",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SAM/L17",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.150/IMG.1",
+      "https://gams.uni-graz.at/o:szd.150/IMG.2",
+      "https://gams.uni-graz.at/o:szd.150/IMG.3",
+      "https://gams.uni-graz.at/o:szd.150/IMG.4"
+    ],
+    "document_type": "manuscript",
+    "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "subject": [
+        "Büromaterialien"
+      ],
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047604132",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Anna Meingast",
+        "Erwerb: Schenkung Wilhelm Meingast 2000"
+      ],
+      "notes": "Stempel „Sekretariat Dr. STEFAN ZWEIG“ und Unterschriftenstempel der „Kautschukstempelerzeugung u. Gravieranstalt Hans Amtmann Salzburg Griesgasse 5“ sowie blaues Stempelkissen der Marke „Pelikan“"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Stempel-Set\n- Signatur: SZ-SAM/L17\n- Objekttyp: 2 Kautschukstempel mit Holzgriff, Stempelkissen\n- Anmerkungen: Stempel „Sekretariat Dr. STEFAN ZWEIG“ und Unterschriftenstempel der „Kautschukstempelerzeugung u. Gravieranstalt Hans Amtmann Salzburg Griesgasse 5“ sowie blaues Stempelkissen der Marke „Pelikan“"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.848173+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Gegr. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
+      "notes": "Transkription der Aufschriften auf dem Stempelkissen und den beiden Stempeln."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Nr. 3\nPelikan\n\n[Unterschrift Zweig, spiegelverkehrt]\n\nSekretariat\nDr. STEFAN ZWEIG [spiegelverkehrt]",
+      "notes": "Transkription der Stempelabdrucke (spiegelverkehrt auf den Stempelflächen)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Pelikan\n\n[Unterschrift Zweig, spiegelverkehrt]\n\nSekretariat\nDr. STEFAN ZWEIG [spiegelverkehrt]",
+      "notes": "Transkription der Stempelabdrucke bei geöffnetem Stempelkissen."
+    },
+    {
+      "page": 4,
+      "type": "color_chart",
+      "text": "Nr. 3\nPelikan\n\nKautschukstempelerzeugung u. Gravieranstalt\nH. AMTMANN\nSALZBURG, Griesg. 5 Geor. 1897\n\nHANS AMTMANN\nGRAVEUR & KAUTSCHUKSTEMPELERZEUGUNG\nSALZBURG GRIESGASSE 5",
+      "notes": "Wiederholung der Aufschriften auf den Objekten (mit Farb- und Skalenreferenz)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gedruckt und sehr gut lesbar. Die spiegelverkehrten Stempelabdrucke sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 538,
+    "total_words": 62,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.97,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Page 1: Corrected 'Geor.' to 'Gegr.' (Gegruendet = founded). Stamp text is very small in image but abbreviation 'Gegr. 1897' is standard German for 'Gegruendet 1897'. Pages 2-3 show mirrored stamp faces, transcriptions plausible. Page 4 skipped (color_chart).",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T19:30:00Z"
+  }
+}

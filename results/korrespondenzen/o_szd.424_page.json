@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.424",
+    "title": "Felix Pollak an Stefan Zweig, 1903-09-12, SZ-SAM/AK.141",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.424/IMG.1",
+      "https://gams.uni-graz.at/o:szd.424/IMG.2",
+      "https://gams.uni-graz.at/o:szd.424/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Felix Pollak an Stefan Zweig, 1903-09-12, SZ-SAM/AK.141\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.141\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.394813+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "12.9.03\n\nEGER — Schmeykalstr.\n7. J. Keren[?] um 20. Sept.\nZimmer R.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text 'EGER' und 'Schmeykalstr.' sowie handschriftlichen Ergänzungen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Felix Pollak\nKadett im K.K.\nLandwehr Inf Rgt.\nEger No 6, Eger.\n\nPostkarte — Carte postale\nWeltpostverein — Union postale universelle\nCorrespondenzkarte — Dopisnice — Levelezö-Lap —\nKorespondenční lístek — Dopisnice — Karta Korespondencyjna\nBriefkaart — Cartolina Postale — Brefkort — Tarjeta Postal — Postcard\nДописна карта\nОТКРЫТОЕ ПИСЬМО\n\nLiebster Stefan Zweig\nIch nehme Sie da\nmit in Wien an und\nsende Ihnen auch fuer\nwo ich meine Waffen\nübung im 14 Tagen\nansprechend im\nZimmer vorst sitze,\nviele Grüße. Wenn Sie\nich eine sehr kurze\nSicht habe. Ich würde\nmich riesig freuen, von\nIhnen einen inhalts=\nreiche Zeilen zu er\nhalten. Ihr Felix P.\n\nHerren\n\nDr. Stephen Zweig\nWien I.\nRathausstrasse 17.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben rechts, Poststempel teilweise lesbar. 'Reinicke & Rubin, Magdeburg 1904' am linken Rand vertikal gedruckt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbskala für Archivierung, dazwischen das Dokument (Rückseite der Ansichtskarte)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere im Mittelteil des Textes auf der Rückseite der Postkarte. Einige Wörter sind aufgrund der kursiven Schreibweise und der Tintenführung unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 764,
+    "total_words": 125,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

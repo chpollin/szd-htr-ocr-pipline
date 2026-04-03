@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1236",
+    "title": "Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.52",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1236/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1236/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1236/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike von Winternitz an Victor Fleischer, SZ-LAS/B3.52\n- Signatur: SZ-LAS/B3.52\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:22.277298+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Dr Viktor Fleischer\nWien XIX\nBillrothstraße 20\n\n21219/16",
+      "notes": "Adressseite einer Postkarte. Poststempel: Wien 1908."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Viele herzliche Grüße\nund bitte versuchen Sie recht treu zu\nsein. So wie Schmidtborn von dem Sie es wissen,\nlassen sich viele andere Menschen über Ihre Bücher\n\nMein lieber Herr Doktor,\nbei Hüftschütz Lampengasse (Eingang\nAlserstr.) fanden sich schwarze\nLampen mit grünem Schirm 45 kr.\nblauem geblumten 55 und bunt\ngeblumten zu 38 kr. Sehr hübsche\nKipplampen mit doppelgelenke\nschwarz u. auch für Schreibtisch ver-\nwendbar 2 28 kr. Bei Gros & Weiß\nSchottenring die billigste schwarze Lampe\n40 Kronen. Am billigsten fand ich die\nLampen aber in der Reungasse, [?] vis\nvis der Verkehrsbank (Wipplingerstr.) mit\n13 Kronen Bronzefarben, geschwärzt 16 Kronen\n- eine sehr hübsche Lampe zu 25 Kronen. Dieses gr.\nGeschäft macht auch einen soliden Eindruck. Am besten\nfahren Sie dorthin von draußen mit einem 40er Wagen.\n\nIch bitte es [?] für uns zu [?] in Erinnerung\nherzlich Ihre Friderike",
+      "notes": "Der Text am linken Rand ist vertikal geschrieben. Die Zeilenumbrüche im Haupttext folgen dem Layout des Originals."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Viele herzliche Grüße\nund bitte versuchen Sie recht treu zu\nsein. So wie Schmidtborn von dem Sie es wissen,\nlassen sich viele andere Menschen über Ihre Bücher\n\nMein lieber Herr Doktor,\nbei Hüftschütz Lampengasse (Eingang\nAlserstr.) fanden sich schwarze\nLampen mit grünem Schirm 45 kr.\nblauem geblumten 55 und bunt\ngeblumten zu 38 kr. Sehr hübsche\nKipplampen mit doppelgelenke\nschwarz u. auch für Schreibtisch ver-\nwendbar 2 28 kr. Bei Gros & Weiß\nSchottenring die billigste schwarze Lampe\n40 Kronen. Am billigsten fand ich die\nLampen aber in der Reungasse, [?] vis\nvis der Verkehrsbank (Wipplingerstr.) mit\n13 Kronen Bronzefarben, geschwärzt 16 Kronen\n- eine sehr hübsche Lampe zu 25 Kronen. Dieses gr.\nGeschäft macht auch einen soliden Eindruck. Am besten\nfahren Sie dorthin von draußen mit einem 40er Wagen.\n\nIch bitte es [?] für uns zu [?] in Erinnerung\nherzlich Ihre Friderike",
+      "notes": "Identisch mit Scan 2, jedoch mit Farbskala abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger kleinerer Unklarheiten bei Abkürzungen oder Eigennamen (z.B. 'Reungasse' oder 'Hüftschütz').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1822,
+    "total_words": 295,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

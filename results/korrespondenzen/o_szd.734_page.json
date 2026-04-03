@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.734",
+    "title": "Brief an Stefan Zweig vom 1. Dezember 1937, SZ-AAP/B1.141",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.734/IMG.1",
+      "https://gams.uni-graz.at/o:szd.734/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. Dezember 1937, SZ-AAP/B1.141\n- Signatur: SZ-AAP/B1.141\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:27.125641+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                         Briefadresse: Wien · VI · Strohmayergasse 6\n\nHerrn Dr.Stefan Zweig\nHotel Regina\nDollfussplatz 16\nWien, IX.\n\nRef.\n• Luxusausgaben                                1.Dezember 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nSie haben den Wunsch geäussert, eine Gutschrift für das Signieren der\n30 Luxusexemplare des \"Begrabenen Leuchters\" zu erhalten.Wir haben\nSie gebeten, von dieser Gutschrift abzusehen, da wir, wie Sie wissen,\nentgegen unserer ursprünglichen Vereinbarung, Ihnen auch die kartonier-\nten Magellan-Exemplare mit demselben Honorar gutschreiben wie die\ngebundenen Exemplare.Diese Honorardifferenz macht ein Vielfaches der\nvon Ihnen gewünschten Gutschrift aus.\nWas die restlichen Autoren-Exemplare für \"Magellan\" und \"Begegnungen\"\nbetrifft, so bitten wir Sie, zu verfügen, ob wir sie Ihnen zur Gänze\nnach London schicken oder einstweilen hier für Sie zurückbehalten\nsollen.\nFür Ihren Auftrag dankbar sind wir\n\n                                       mit verbindlicher Begrüssung",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, vermutlich Herbert Reichner). Der Text ist klar lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist zwar stilisiert, aber im Kontext des Geschäftsbriefs eindeutig als Grußformel-Abschluss erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1049,
+    "total_words": 128,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

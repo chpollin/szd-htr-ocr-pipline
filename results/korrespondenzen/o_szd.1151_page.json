@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1151",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.10",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1151/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1151/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1151/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1151/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.10\n- Signatur: SZ-SAM/B11.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.182809+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel d'Europe\nAvignon\n\n15/ 36\n\nliebe Frau Meingast,\n\nkomme von Nizza und habe\nmir hier die berühmte\nBurg der Päpste angesehen u.\nbin Sonntag in London\nW. 1 Langham Hôtel.\nIch danke Ihnen noch für\ndie letzten Nachrichten u.\nbitte mir meine Briefe an\nobige Adresse zu senden.",
+      "notes": "Briefkopf des Hotels ist gedruckt. Das Datum '15/ 36' ist handschriftlich ergänzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ferner bitte ich Sie mir das letzte\nBuch von Kesten zu senden.\nEs kam im Herbst. (Schundung)\nFür die Mittagstischspende\nbitte ich 6 Schilling mit\ndem Vermerke in Abwesenheit\nFrau Dr Zw.'s senden zu wollen.\n\nHoße[?] Sie sind wohl.\nArbeit wird es jetzt kaum so\nbald geben, weil (bis meine\nam Castellio) weil mein\nMann die Kapitel schon an\nReichner sendet. Die geschäftl.\nSachen werden jetzt täglich\naus der Correspondenz gezogen\nd. h. aufnotiert und werden\ndann 2 mal im Monat\nbekanntgegeben werden. Ich",
+      "notes": "Das Wort 'Hoße' ist vermutlich als 'Hoffe' gemeint, aber als 'Hoße' geschrieben. 'Castellio' bezieht sich vermutlich auf das Werk 'Castellio gegen Calvin'."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "urgiere, dass Sie sie bald erhalten,\ndamit sie sie dann noch\nin d unsere Registratur\neintragen, ehe sie sie mir\nschicken, sobald ich in der\nneuen Wohnung bin. Senden\nSie aber dennoch auch unent[?]\nwegt die gelben Zettel weiter an\nmeinen Mann u. urgieren Sie\nZahlungen, wenn welche fällig\nu. teilen Sie es ihm mit.\nMit der Bibliographie haben Sie\nwohl schon angefangen. In\nder Bibliothek mit der jetzt\nvorhandenen Anordnung kann\nman ja wohl erst im\nMärz zu arbeiten beginnen.",
+      "notes": "Die Handschrift ist flüssig, aber stellenweise eng geschrieben."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Darüber schreibe ich Ihnen dann\nnoch. Der Aufenthalt in Nizza\nwar ohne Störung. Mein Mann\nist allerdings noch immer sehr\nermüdbar und da es immerhin\nvom Nicotin sein kann, hat er\ndas Rauchen von heut ab eingestellt.\nIch lege Ihnen wieder sehr ans\nHerz das Französische sehr zu forcieren.\nVielleicht sind doch auch 1-2 Stunden\nin der Woche möglich mit Dictées.\nVielleicht fänden Sie etwas im Austausch\nmit Stenographie. Gerne steuere ich Ihnen\nauch dazu bei. Sie könnte Ihnen auch\nvill. ein Buch über franz. Handels-\ncorrespondenz borgen; doch bin ich\nnicht sicher, ob sie es nicht nur in\nEnglisch hat. Im Sommer würde es meinem\nMann sehr zu statten kommen und ihm\nIhren Helfer hierin beweisen, wenn Sie\nschon so weit wären. Ich rate Ihnen da\nsehr gut, liebe Frau Meingast -\nViele gute Grüsse von Ihrer Sie schätzenden\nFriderike Zweig",
+      "notes": "Die Unterschrift 'Friderike Zweig' ist am rechten Rand vertikal von unten nach oben geschrieben."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Abkürzungen und der vertikalen Unterschrift auf der letzten Seite.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2082,
+    "total_words": 355,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

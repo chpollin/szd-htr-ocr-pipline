@@ -1,0 +1,114 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2601",
+    "title": "Franz Karl Ginzkey (Ein Gruß zum fünfzigsten Geburtstag)",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA68.4",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2601/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2601/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2601/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2601/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2601/IMG.5"
+    ],
+    "date": "August 1921",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Wien",
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Wien"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Bleistift",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "Österr.\n                                 Rundschau"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Franz Karl Ginzkey (Ein Gruß zum fünfzigsten Geburtstag)\n- Signatur: SZ-AAP/W-AA68.4\n- Datum: August 1921\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 2 Blatt\n- Schreibinstrument: Bleistift\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:45.786862+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Österr. Rundschau\nAugust 1921\nStefan Zweig: Franz Karl Ginzkey 845\n\nVerbindung mit allen wertvollen und werktätigen Kräften der engeren und\nweiteren Heimat, vor allem in engstem Zusammenhang mit dem uralten, noch\nimmer glanzvollen österreichischen Kunstzentrum Wien, die Schwierigkeiten\nder Gegenwart überdauern und eine schönere Zukunft Österreichs und der\nMenschheit aufbauen helfen.\n\nFranz Karl Ginzkey\n(Ein Gruß zum fünfzigsten Geburtstag)\nVon Stefan Zweig (Salzburg)\n\nVor dreißig Jahren rückt von der Festung Hohensalzburg täglich an der\nSpitze seiner Kompanie ein junger blonder Leutnant aus, führt seine\nLeute auf den Exerzierplatz und lehrt sie die wenig heitere Kunst des Stech-\nschritts, des Schießprügels und die Geheimnisse von rechts und links. Die\nbrave Mannschaft hat ihn gern: sie spüren in dem stillen schlanken Leutnant\neinen heimlichen Schwärmer. Und wirklich, in seinen freien Stunden sitzt\ner mit einem Buche in den Gärten, schreibt nachts, wenn in der Tiefe die\nmondlichtflimmernde Stadt italienisch weich und lyrisch wie ein Lied lau\nhinglänzt, in ein kleines Büchlein sorgsam verborgene Verse. Und heute,\nnach mehr als einem Vierteljahrhundert ist der blonde Leutnant von einst,\nnoch immer blond, noch immer schlank, wieder heimgekehrt nach Salzburg.\nUnd noch immer schreibt er mit seinem zierlichen Bleistift Verse in solch ein\nkleines Büchlein, nur sind heute die Verse nicht mehr verborgen. Viele von\nihnen sind weit ins Land hineingeflogen, bester deutscher lyrischer Besitz\ngeworden. Und gewiß besinnt an seinem fünfzigsten Geburtstag (6. Sep-\ntember 1921) sich vielfache Dankbarkeit und Freundschaft dieses stillen,\ngütigen und klaren deutschen Dichters.\nEr ist noch ein ganz Lebendiger, ein Aufsteigender in seiner Dichtung\nund doch dunkelt schon farbig und melancholisch eine Vergangenheit, ein\nfür immer Verlorenes aus seinem Werk: das alte Österreich. Von der\nGemengtheit, der bunten Gemischtheit, der schönen Abgeschliffenheit der deut-\nschen Rasse in der Monarchie hat er sein gutes Teil: aus Böhmen stammte sein\nVater, er selbst ist an der Adria, in Pola, geboren und aufgewachsen, im Alpen-\nland hat er gedient, in Wien sich geformt. Und alle diese Elemente klingen gut\nzusammen in der gedämpften Harmonie seiner dichterischen Natur. Ferdinand\nvon Saar, auch in der Armee aufgewachsen, auch von allen Kronländern mit",
+      "notes": "Handschriftliche Annotation oben: 'Österr. Rundschau August 1921'. Der Text ist ein Zeitungsdruck."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "846 Stefan Zweig\n\nirgend einem weichen Mitklang in seiner Dichtung gesegnet, steht ihm in\nSchicksal und Art vielleicht am nächsten. Sonderbar; indes das preußische\nMilitär alle seine Dichter, selbst Kleist und um wievielmehr Wildenbruch\nund den Major Lauff, pathetisch, kriegerisch, nationalistisch machte, blüht\naus der österreichischen Armee eine Art stiller abseitiger poetischer Naturen,\ndie wie Saar mit linden Aquarellfarben das Leben zeichnen, wie Robert Michel\nmit zärtlicher Liebe den Insekten und den Geheimnissen der Natur nach-\nspüren und von jeder Heimat, die im gepreßten Konglomerat der Armee\nvereint ist, nur gerade den Windhauch Melodie wegtrinken. Wie unmilitä-\nrisch, wie unkriegerisch ist doch eigentlich (abgesehen von ein paar Zeit-\ngedichten aus den Unglücksjahren, die er selbst in besserer Erkenntnis rasch\naus seinem Werk weggetan hat) Ginzkeys dichterische Welt: sie ist gleichsam\naus Stille gebaut, nur von Naturelementen genährt, von einem sehr echten,\naber gar nicht feindseligen Einsamkeitsgefühl. Immer war um diese Art öster-\nreichischer Menschen, um Grillparzer, um Stifter, um Saar, ja selbst um die\nGeringeren dieser gleichsam gläserne Raum von Stille, durch den die Außen-\nwelt und insbesondere die Natur farbig hereinleuchtete, der aber doch allen\nLärm, alles Menschlich-Leidenschaftliche halb in Ängstlichkeit, halb in wissen-\ndem Erkennen abwies. Unbewußt haben sie alle eine Musik, eine ganz tief\nverborgene Musik in sich als ihr Wesentlichstes erkannt, die rein nur zum\nTönen gebracht werden kann, wenn sie sich nicht mit politischem Schwatz,\nmit pathetischer Rede, mit literarischem Geschrei vermengt. Etwas pflanzen-\nhaft still Aufwachsendes, etwas Nicht-Eruptives, Unplötzliches ist allen diesen\nÖsterreichern zu eigen: unmerklich ist ihre Blüte, unscheinbar ihr Kelch und\nnur an dem feinen zarten Duft fühlt man dann plötzlich ihre stillgetane Reife\n\nSo auch unser Freund Franz Karl Ginzkey. Wann ist er eigentlich\nso vielen ein verehrter Dichter, so vieler ein vertrauter Name geworden?\nIrgendwann, irgendwie in den stillhingegangenen Jahren. Sein erstes Büch-\nlein „Ergebnisse“, in einem Dilettantenverlag erschienen, haben die Kritiker\nkaum vermerkt. Auch seine schöne zweite Sammlung „Das heimliche Läuten“\nerreicht nicht das, was man Aufsehen nennt, ebenso wenig „Jacobus und die\nFrauen“ und alle seine späteren Werke nicht. Kein einziges macht Lärm,\nkeines Sensation; nur irgend einen tiefen Wellengang des Gemüts regen sie\nan, der immer weiter lautlos wirkt, in Österreich zuerst und dann in Deutsch-\nland. Aus unendlich viel leiser Liebe ist so sein ganzer Ruhm zusammen-\ngesetzt und nicht aus papiernem Lob. Und ich glaube, dieser Ruhm und\ndiese Liebe werden sich behaupten, denn immer schöner und gebändigter\nentwickelt Ginzkey in aller Stille seine Gaben: seine letzte, die erlesene Novelle\n„Die einzige Sünde“ bedeutet sein menschlich reifstes, sein dichterisch durch-\ngestaltetstes Werk, das nicht nur in Österreichs Literatur, sondern auch in",
+      "notes": "Zeitungsdruck, gut lesbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Franz Karl Ginzkey 847\n\nder deutschen als Edeltypus einer beherrscht erzählten, seelisch restlos durch-\ndrungenen Novelle gelten darf.\n\nEin Germanist wird das besser zu seinem Festtag vereinzeln können,\nwie hier von armen, ungelenken, oft dilettantischen Anfängen ein lyrisches\nWerk sich emporgehoben hat, um nun heute dem Reinsten und Klarsten der\nneuen deutschen Dichtung in Ehren beigesellt zu sein. Im Anfang besaß\nGinzkey nicht viel mehr als Eines — das aber in sich kein Geringes ist —\nnämlich das Gefühl dafür, was eigentlich ein Gedicht ist. Noch waren seine\nWorte altmodisch und ausgeborgt, die Reime klapprig und kalt, die stro-\nphische Bindung strohtrocken (das verschollene Buch „Ergebnisse“ war das\nGegenteil seines Titels, war ein erster Anfang), immer jedoch schon das Gedicht\nein Gedicht, so unzulänglich es sein mochte. Mit einer merkwürdigen Intu-\nition bereits der Leutnant, der Anfänger, im künstlerischen Nerv das Gefühl\nfür das Runde, motivisch Kreishafte des Gedichtes und diese Fähigkeit steigert\nsich durch alle Formen mit steigender Vollendung: in seiner persönlichen Art\nsind seine lyrischen Gebilde heute etwas Vollkommenes, durchaus Eigenartiges\nund in die Zeit hinein Dauerndes. Und ebenso baut sich — später ange-\nsetzt und in historischen Romanen noch nicht voll bewältigt — seine\nProsa zu einer unbewußt formalen Gesetzmäßigkeit aus. Ganz unmerklich\nsind diese innern Ausgleiche, diese Abschleifungen und Vertiefungen bei\nGinzkey vor sich gegangen: seine heimliche Arbeit in der Stille an sich\nselbst ist im gewissen Sinn sein schönstes, sein größtes Werk, vorbildlich\nfür eine jüngere ungeduldige Generation, die in Ginzkey vielleicht zu wenig\nAufregend-Problematisches findet, um sich an ihm zu erregen und die gerade\nvon dieser seiner schweigenden Zucht das lernen könnte, was in der Kunst\neinzig erlernbar ist: die schaffende Geduld.\n\nVon seiner stillen Heimstatt in Parsch sieht Ginzkey jetzt gerade hinüber\nauf die Hohensalzburg, aus seinen Mannesjahren in seine Jugend, aus seiner\nReife in den Anfang zurück. Es war ein weiter Weg und wir, die ihn in\nmanchen Jahren begleiten durften, wissen, daß er nicht immer ein ebener\ngewesen: immer war es aber ein gerader, nie ein krummer. Und von Jahr\nzu Jahr haben wir mit dem Dichter den Menschen mehr lieben gelernt, der sich\ndie Stille seines Wesens glücklich bewahrt hat und damit die lauterste Kraft,\nder er — wir sind dessen gewiß — in schöpferischer Verwandlung noch\ndas Reifste seiner stillfördernden, stillmehrenden Natur entringen wird.",
+      "notes": "Zeitungsdruck, gut lesbar."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "848 Franz Karl Ginzkey: An einen religiösen Dichter\n\nAn einen religiösen Dichter\nVon Franz Karl Ginzkey (Salzburg)\n\n„Es nährt sich Licht von Dunkelheit.“\n\nNun bist, o Freund, auch du gelandet,\nWohin dein Traum voraus entfloh:\nDu singst, von Rosenlicht umbrandet,\nVor Gottes Thron, verklärungsfroh.\n\nUnd doch, so hold auch deine Stunde,\nMir wird daraus beklommen kund:\nDu singst von Gott mit eig’nem Munde,\nUnd nicht mehr durch der Dinge Mund.\n\nDu sagst nicht mehr: o Dämmerpforte,\nO Weib und Blume, Stern und Meer!\nDu sagst nur Gott mit jähem Worte.\nDas Wort ist groß, du läßt es leer.\n\nDu kündest nicht, wie Gottes Namen\nIn tausend Formen rings erglüht\nUnd wie der besten Andacht Samen\nNur aus zutiefst Verschwiegnem blüht.\n\nGewiß, du magst, nach wirrem Streben,\nNun ganz im Licht beruhigt sein,\nDoch ist dem Künstler nicht gegeben\nZu wandeln nur mit Gott allein.\n\nEr soll den dunklen Geist beschwören\nNicht minder als den hellen nur.\nIn Schmerzen soll er angehören\nDem Zwiespalt aller Kreatur.\n\nGeht er nur über Silbermatten\nAmbrosisch zu sich selbst befreit,\nSo wirft sein Wort auch keinen Schatten:\nEs nährt sich Licht von Dunkelheit.",
+      "notes": "Zeitungsdruck, gut lesbar."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Ausschnitt aus der Seite 848 (unterer Teil des Gedichts) mit aufgelegter Grauskala und Farbkarte zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klar gedruckter Zeitungsausschnitt. Die Lesbarkeit ist durchgehend sehr gut.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 9022,
+    "total_words": 1357,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

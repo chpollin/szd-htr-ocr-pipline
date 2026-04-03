@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.923",
+    "title": "Brief an Frans Masereel vom 11. August 1931, SZ-LAS/B1.42",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.923/IMG.1",
+      "https://gams.uni-graz.at/o:szd.923/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 11. August 1931, SZ-LAS/B1.42\n- Signatur: SZ-LAS/B1.42\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:43.816860+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     Kapuzinerberg 5\n                                     SALZBURG, am 11. August 1931-\n\nLieber Frans!\n\nDen \"Buchmendel\" lasse ich Dir in den nächsten Tagen\nschicken und frage gleich in Amerika an. Ueber Russland werde ich\nbald Nachricht haben, vielleicht fährt ~~sogar~~ Moissi als Dritter mit,\ndas würde die Angelegenheit wesentlich verbilligen.\n\nAlles Herzliche von Deinem\n\nStefan",
+      "notes": "Typoskript auf Briefpapier mit gedrucktem Briefkopf (Stefan Zweig Logo). Die Unterschrift 'Stefan' ist handschriftlich in violetter Tinte ausgeführt. Das Wort 'sogar' ist durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Es handelt sich um die Rückseite des Briefbogens, auf der der Text durchscheint. Am unteren Rand befindet sich ein Ex Libris Stempel: 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 415,
+    "total_words": 50,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

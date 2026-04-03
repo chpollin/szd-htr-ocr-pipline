@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1828",
+    "title": "Postkarte an Friedrich Siegbert Mees, o. D., SZ-SAH/B2.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1828/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1828/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1828/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Friedrich Siegbert Mees, o. D., SZ-SAH/B2.5\n- Signatur: SZ-SAH/B2.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.667353+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Friedrich Siegbert Mees\nKapellmeister\n\nKöln am Rhein\nRoonstrasse 69 part\nu",
+      "notes": "Adressseite einer Postkarte. Handschriftlich. Briefmarke oben rechts (Österreich 8 Groschen), Poststempel 'Salzburg 31 VIII 25'. Vertikaler Druck am linken Rand: 'VERLAG D. DRUCK VON HUTTERER, SALZBURG, GESETZLICH GESCHÜTZT 1925 Nr. 281'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Verehrter Herr Kapellmeister, ich\nwar verreist, komme eben erst zu-\nrück. Nur in den nächsten Tagen lasse\nich nun Ihre für das vorliegen[?] und\nschreibe Ihnen dann sofort. Und im\nDezember hoffe ich Ihnen in Köln\nselbst die Hand zu schütteln. Heute\nnur dies vorläufige Wort Ihres\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Das Wort 'vorliegen' ist schwer lesbar, könnte auch 'vorliegen' oder 'vorlegen' sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Verehrter Herr Kapellmeister, ich\nwar verreist, komme eben erst zu-\nrück. Nur in den nächsten Tagen lasse\nich nun Ihre für das vorliegen[?] und\nschreibe Ihnen dann sofort. Und im\nDezember hoffe ich Ihnen in Köln\nselbst die Hand zu schütteln. Heute\nnur dies vorläufige Wort Ihres\nStefan Zweig",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Einzig das Wort 'vorliegen' in Zeile 4 der Nachrichtenseite ist aufgrund der Handschrift leicht unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 662,
+    "total_words": 110,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

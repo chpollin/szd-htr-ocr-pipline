@@ -1,0 +1,129 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2510",
+    "title": "Kampf um den Suezkanal, Der",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA107.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2510/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2510/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2510/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2510/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2510/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2510/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2510/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Lotte Zweig"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Kampf um den Suezkanal, Der\n- Signatur: SZ-AAP/W-AA107.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:29.545046+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kampf um den Suezkanal, Der\n\nDer Kampf um den Suezkanal.",
+      "notes": "Handschrift in violetter Tinte. Es handelt sich um ein Blatt mit zwei Zeilen Text, wobei die erste Zeile oben links steht und die zweite Zeile mittig platziert ist."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Ein Papierstreifen ist oben angebracht."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Der Kampf um den Suezkanal.",
+      "notes": "Handschrift in violetter Tinte. Vorderseite des Dokuments."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Der Kampf um den Suezkanal.",
+      "notes": "Rückseite des Dokuments, durchscheinende Schrift (bleed-through) von der Vorderseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Kampf um den Suezkanal, Der",
+      "notes": "Handschrift in violetter Tinte auf einem Papierstreifen."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Der Kampf um den Suezkanal.",
+      "notes": "Rückseite des Dokuments, durchscheinende Schrift (bleed-through) von der Vorderseite."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Kampf um den Suezkanal, Der\n\nDer Kampf um den Suezkanal.",
+      "notes": "Vorderseite des Dokuments mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz, gut lesbar und wiederholt sich auf den verschiedenen Scans.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 220,
+    "total_words": 40,
+    "language_detected": "",
+    "language_match": true
+  }
+}

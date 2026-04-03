@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2272",
+    "title": "Triumph der Kathedrale",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA197.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2272/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2272/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2272/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2272/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2272/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2272/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2272/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Triumph der Kathedrale\n- Signatur: SZ-AAP/W-AA197.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:01.040761+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Triumph der Kathedrale\n(Anmerkungen zu Paul Claudels „Verkündigung“)\n\n\nTriumph der Kathedrale\ns. Paul Claudel",
+      "notes": "Das Dokument besteht aus einem Blatt mit einem aufgeklebten Streifen Papier am oberen Rand, auf dem der Titel und die Anmerkung stehen. Der Text wiederholt sich darunter auf dem Hauptblatt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Triumph der Kathedrale\n(Anmerkungen zu Paul Claudels „Verkündigung“)",
+      "notes": "Rückseite des aufgeklebten Streifens, durchscheinend."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Triumph der Kathedrale\ns. Paul Claudel",
+      "notes": "Hauptblatt, Vorderseite."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Triumph der Kathedrale\ns. Paul Claudel",
+      "notes": "Hauptblatt, Rückseite, durchscheinend."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Triumph der Kathedrale\n(Anmerkungen zu Paul Claudels „Verkündigung“)",
+      "notes": "Aufgeklebter Streifen, Vorderseite."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Triumph der Kathedrale\ns. Paul Claudel",
+      "notes": "Hauptblatt, Rückseite, durchscheinend."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Triumph der Kathedrale\n(Anmerkungen zu Paul Claudels „Verkündigung“)\n\n\nTriumph der Kathedrale\ns. Paul Claudel",
+      "notes": "Gesamtansicht mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich lesbar und wiederholt sich auf den verschiedenen Scans.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 468,
+    "total_words": 62,
+    "language_detected": "",
+    "language_match": true
+  }
+}

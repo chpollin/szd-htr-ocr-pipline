@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.697",
+    "title": "Brief an Herbert Reichner vom 19. Oktober 1937, SZ-AAP/B1.108",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.697/IMG.1",
+      "https://gams.uni-graz.at/o:szd.697/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 19. Oktober 1937, SZ-AAP/B1.108\n- Signatur: SZ-AAP/B1.108\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:25.040313+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "19.Oktober 1937.\n\nGeehrter Herr Reichner!\n\nEs sind hier wohlbehalten 27 Exemplare der\n\"Begegnungen\" eingetroffen und ich hoffe dann auch bald\ndie gebundenen zu erhalten (Bitte zunächst zwanzig Exempla-\nre). Die gehefteten sehen ausgezeichnet aus, freilich wäre\nzu erproben, ob der Rückeneinband bei wirklich starkem Le-\nsen standhält, was ja immerhin bei einem so umfangreichen\nBuche eine Gefahr darstellt.\nMit Magellan geht alles , wie ich hoffe, mun-\nter vorwärts und ich bitte nur nicht zu vergessen, Cassell\nrechtzeitig die Illustrationen zu schicken.\nDr. Wiesengrund, der ja bei dem Bergbuch mit-\ngearbeitet hat, machte mich auf etwas aufmerksam, was für\nden Verlag meiner Meinung nach eine sehr schöne Sache wä-\nre, nämlich dass von Arnold Schönberg eine sehr bedeutende\nungedruckte Studie über Mahler etwa im Umfang von Walters\n\"Moralischen Kräften..\" existiert. Willi Reich kennt sie\nund vielleicht könnte es gelingen, sie für Ihre Serie zu",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "bekommen. Sie hätten dann eine wunderbare Konzentration\nder ganzen modernen Musik, wenn Sie auch seinen Namen un-\nter den Autoren hätten. Lassen Sie diese Sache nicht aus-\nser Acht und schreiben Sie ihm entweder direkt oder viel-\nleicht besser, lassen Sie sich durch Willi Reich erst in-\nformieren.\n\nMit den besten Empfehlungen\n\nBitte schicken Sie mir auch ein Verzeichnis, an wen Sie\nausser den in den beiden Listen aufgeführten Personen noch\nKorrekturbogen oder Exemplare der \"Begegnungen\" und \"Ma-\ngellan\" gesandt haben, damit ich nicht versehentlich dop-\npelt schicke.",
+      "notes": "Typoskript auf Briefpapier, Fortsetzung der Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1520,
+    "total_words": 232,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

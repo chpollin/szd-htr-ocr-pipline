@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2352",
+    "title": "Reisen oder Gereist-Werden",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA161.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2352/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2352/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift, roter Buntstift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Frühere Aufschrift: \"Reiseaufsätze\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Reisen oder Gereist-Werden\n- Signatur: SZ-AAP/W-AA161.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift, roter Buntstift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Frühere Aufschrift: \"Reiseaufsätze\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:09.535691+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Reisen oder Gereist-Werden\n\nDie Landschaft u. ihre\nSchatten\n\nReisen oder\nGereist-Werden\n\nals Einleitung denkbar",
+      "notes": "Handschrift. Der Text besteht aus einer Überschrift, einer Zwischenzeile, dem Haupttitel und einer Anmerkung am unteren Rand. Roter Strich unter der ersten Zeile."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Zeigt den durchscheinenden Text der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Reiseaufsätze\n\nDie Landschaft u. ihre\nSchatten\n\nReisen oder\nGereist-Werden\n\nals Einleitung denkbar",
+      "notes": "Handschrift. Dies scheint eine Variante oder ein früherer Entwurf der Vorderseite zu sein. 'Reiseaufsätze' ist in rotem Stift geschrieben."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Zeigt den durchscheinenden Text der Vorderseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Reisen oder Gereist-Werden",
+      "notes": "Handschrift auf einem schmalen Papierstreifen."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Zeigt den durchscheinenden Text der Vorderseite."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Reisen oder Gereist-Werden\n\nDie Landschaft u. ihre\nSchatten\n\nReisen oder\nGereist-Werden\n\nals Einleitung denkbar",
+      "notes": "Identisch mit Seite 1, inklusive Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr klar und gut lesbar. Es handelt sich um wiederholte Notizen zum selben Thema.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 346,
+    "total_words": 43,
+    "language_detected": "",
+    "language_match": true
+  }
+}

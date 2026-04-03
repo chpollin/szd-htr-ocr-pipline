@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.823",
+    "title": "Brief an Stefan Zweig vom 24. Mai 1937, SZ-AAP/B1.41",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.823/IMG.1",
+      "https://gams.uni-graz.at/o:szd.823/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 24. Mai 1937, SZ-AAP/B1.41\n- Signatur: SZ-AAP/B1.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:34.997254+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\nPostcheckkonto\nLeipzig 8442 Wien 46.469\nPrag 501.701 Zürich VIII 18122\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr. Stefan Zweig, Esq.\n49, Hallam Street\nLondon, W.1\n\nENGLAND\n\n24.Mai 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nHerr Dr.Bagrow muss bereits nach London zurückgekehrt\nsein.Wir haben ihm Ihre Telephon-Nummer angegeben und\nhoffen,dass er sich sofort mit Ihnen in Verbindung\nsetzt.Suchen Sie bitte das Material aus,das Ihnen am\nHerzen liegt und das Sie brauchen.Das übrige besorgen\nwir schon mit Herrn Bagrow.- Im übrigen stimmt die Ih-\nnen von Stevens angegebene Adresse Bagrows nicht.Er wohn-\nte zuletzt in Berlin W 62,Kleiststr.8.\nHerr Dr.Polak ersuchte uns heute,Ihnen noch zwei weitere\nMilitärbücher von Rudolf von Eichthal und Baron Toresani\nzu schicken.Was wir davon besorgen können,wird sofort\nIhnen zugehen.\nKartonierte Exemplare: Wir werden von Ihren neuen Bü-\nchern kartonierte Exemplare herstellen lassen.Hier wer-\nden sie kaum gekauft werden,gewiss aber in Frankreich\nund Italien.\nFür heute begrüssen wir Sie als\n\nIhre sehr ergebenen\nHERBERT REICHNER VERLAG\n\nWIEN, VI., Strohmayergasse 6",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte). Der Text ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Es sind zwei Briefmarken (Österreich, 30 Groschen) aufgeklebt, die mit einem Poststempel 'WIEN 59' versehen sind. Zudem sind Klebestreifenreste sichtbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine nennenswerten Probleme bei der Transkription.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1251,
+    "total_words": 177,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

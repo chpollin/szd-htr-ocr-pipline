@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.788",
+    "title": "Brief an Herbert Reichner vom 14. März 1938, SZ-AAP/B1.190",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.788/IMG.1",
+      "https://gams.uni-graz.at/o:szd.788/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 14. März 1938, SZ-AAP/B1.190\n- Signatur: SZ-AAP/B1.190\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:31.891290+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "14.März 1938.\n\nSehr geehrter Herr Reichner!\n\nIch sende Ihnen die beiden Karten zurück\n(die schon etwas zerdrückt ankamen). Leider ist ja die\nganze Sache inzwischen unaktuell geworden, denn ich\nglaube, Sie werden jetzt wohl nicht an die Luxusausgabe\ndenken und eher die technischen Massnahmen durchführen,\ndie ich Ihnen vor so langer Zeit und so oft vorgeschla-\ngen habe. Ich will Sie nicht weiter jetzt mit Angelegen-\nheiten und Fragen beschweren, da ich vermute, dass Sie\nohnehin überbeschäftigt sind. Wenn Sie Zeit haben, so\nverständigen Sie mich von Ihren nächsten Buchplänen und\nsonstigen Dispositionen und ich will mein Bestes tun,\nSie zu beraten.\n\nIhr sehr ergebener",
+      "notes": "Typoskript auf Briefpapier. Die Unterschrift fehlt im Dokument."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 672,
+    "total_words": 105,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

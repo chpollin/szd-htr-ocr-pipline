@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.765",
+    "title": "Brief an Stefan Zweig vom 19. März 1937, SZ-AAP/B1.17",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.765/IMG.1",
+      "https://gams.uni-graz.at/o:szd.765/IMG.2",
+      "https://gams.uni-graz.at/o:szd.765/IMG.3",
+      "https://gams.uni-graz.at/o:szd.765/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 19. März 1937, SZ-AAP/B1.17\n- Signatur: SZ-AAP/B1.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:29.935682+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49 Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\n\n19.März 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nBesten Dank für Ihre beiden Briefe.Es freut uns,dass Ihnen Gregors\nBuch gefällt.Derselben Meinung sind alle Empfänger dieses schönen\nBuches und wir hoffen,dass es auch dementsprechend gut gehen wird.\nMittlerweile haben sich auch die Schwierigkeiten,die sich Gregors\nBuch an angs in Deutschland entgegenstellten,behoben - wenigstens\nvorläufig.\nDa Sie an der Absatzfähigkeit des Trachtenbuches zweifelten,wollen\nwir Ihnen bloss mitteilen,dass wir in Oesterreich allein schon\n3000 Exemplare abgesetzt haben,und dass die New Yorker Buchhandlung\nWestermann allein 1000 Exemplare bestellte,bevor sie noch ein kom-\nplettes Exemplar zu sehen bekam.Wir hoffen,dass wir bis zum Sommer\nnoch 20.000 Exemplare loswerden.\nIhre Wünsche betreffend die Rückentitel zu den beiden Bänden des\n\"Erzählerischen Werkes\" werden wir berücksichtigen.Ich selbst fahre\nheute abends nach Leipzig und lasse mir dort an Ort und Stelle von\nTiemann die beiden Rückentitel zeichnen,um sie gleich wieder mitzu-\nnehmen.Das erspart ihm und mir Unannehmlichkeiten.\nIn der nächsten Woche werden wir Sie mit unserem neuesten Buch über-\nraschen.\nDie Belege für die Anzeigen in der \"Neuen Freien Presse\",dem \"Neuen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Zeile 'Buch an angs in Deutschland' enthält einen Tippfehler ('angs' statt 'fangs')."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite der ersten Seite, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n\nWiener Tagblatt\",der \"Stunde\" und der \"Neuen Zürcher Zeitung\" werden\nwir Ihnen auch in Wochenfrist zuschicken,sodass wir hoffen,nun allen\nIhren Wünschen entsprochen zu haben.\nFür heute begrüssen wir Sie als\n\nIhre sehr ergebenen\n\n[Unterschrift in violetter Tinte]",
+      "notes": "Typoskript auf Geschäftspapier, Fortsetzung des Briefes. Die Unterschrift ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite der dritten Seite, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die wenigen Unklarheiten beziehen sich auf die Unterschrift, die als solche markiert wurde.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2314,
+    "total_words": 316,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1692",
+    "title": "Postkarte an Anna Meingast vom 19. April 1935, SZ-SAM/B7.59",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1692/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1692/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 19. April 1935, SZ-SAM/B7.59\n- Signatur: SZ-SAM/B7.59\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.068324+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender:\n\nPostkarte\n\nFrau\n\nAnna Meingast\n\np. Adr. Dr. Zweig,\n\nKapuzinerberg 5.\n\nSalzburg.",
+      "notes": "Adressseite einer Postkarte. Gedruckte Formularvorgaben, Adressdaten in Schreibmaschine. Briefmarke und Poststempel 'WIEN' vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Hotel Regina,\nWien, 19. April 1935.\n\nLiebe Frau Meingast,\n\nSie schrieben mir, dass Felix Bloch vor eini-\nger Zeit ankündigte, dass er 900 Mark oder so etwas\nmir überweisen wollte, sobald die Bewilligung einge-\ntroffen ist. Meines Wissens ist das bisher noch nich\nerfolgt, aber ich frage doch noch einmal an, damit\nich energisch in Berlin reklamieren kann.\nMit besten Grüssen\n\nIhr\n\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Typoskript, Unterschrift in violetter Tinte handschriftlich."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Ein kleiner Tippfehler im Original ('nich' statt 'nicht') wurde gemäß Transkriptionsregeln beibehalten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 483,
+    "total_words": 76,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

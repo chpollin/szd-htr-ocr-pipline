@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1476",
+    "title": "Telegramm an Stefan Zweig vom 1. Oktober 1937, SZ-AAP/B3.30",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1476/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1476/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1476/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Telegramm an Stefan Zweig vom 1. Oktober 1937, SZ-AAP/B3.30\n- Signatur: SZ-AAP/B3.30\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:36.169956+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "F\n\nPOST OFFICE\nOVERSEAS TELEGRAM\n\nFilm\n\n1047 PARIS 24 508-14-1-1021.=\n\nSTEFAN ZWEIG 49 HALLAM STREET LDN\n\n= A.I CONCLU CINEMA VOLPONE LETTRE SUIT AMITIES =\n\nROMAINS +(49)+",
+      "notes": "Telegrammformular, bedruckt mit handschriftlichen Ergänzungen und eingeklebten maschinengeschriebenen Textstreifen. Poststempel oben rechts: 'WEST DISTRICT OFFICE 1 OCT 37'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein standardisiertes Telegramm, der Inhalt ist klar lesbar und durch die eingeklebten Streifen eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 171,
+    "total_words": 27,
+    "language_detected": "",
+    "language_match": true
+  }
+}

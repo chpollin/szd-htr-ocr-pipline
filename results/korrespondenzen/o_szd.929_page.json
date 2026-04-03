@@ -1,0 +1,63 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.929",
+    "title": "Ansichtspostkarte an Frans Masereel vom 2. Mai 1933, SZ-LAS/B1.48",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.929/IMG.1",
+      "https://gams.uni-graz.at/o:szd.929/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 2. Mai 1933, SZ-LAS/B1.48\n- Signatur: SZ-LAS/B1.48\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.339272+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lago di Como",
+      "notes": "Vorderseite der Ansichtspostkarte. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Chers amis, nous pensons à\nvous avec la plus grande\nenvie de vous voir. Vous\nserons de retour en quelques\njours. J'espère que vous allez\nbien. De tout coeur Fréderique\n\nMon cher vieux, je ne pouvais plus\net nous sommes alles pour quelques\njours en Italie. Personne ne peut dire\nce que nous ferons en quelques mois\nla situation chez nous est tout a fait in-\ncertaini. Mais ce que je regrette le plus\net que je n'ai pas pu travailler ces\nderniers mois, on est très excite'. Ton vrai\n\nFrancia\n\nMonsieur et Madame\nFrans Masereel\n\nParis 18\n15 Rue Hégésippe Moreau",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Briefmarke oben rechts mit Poststempel. Der Text ist in zwei Abschnitten geschrieben: links der Textkörper, rechts die Adresse. Der Text von Fréderique (Zweig) ist in Französisch verfasst."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die französische Sprache ist klar erkennbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ],
+    "total_chars": 570,
+    "total_words": 105,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

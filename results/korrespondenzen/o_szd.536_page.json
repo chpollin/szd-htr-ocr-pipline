@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.536",
+    "title": "Oskar Wiener an Stefan Zweig, 1905-11-12, SZ-SAM/AK.244",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.536/IMG.1",
+      "https://gams.uni-graz.at/o:szd.536/IMG.2",
+      "https://gams.uni-graz.at/o:szd.536/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Oskar Wiener an Stefan Zweig, 1905-11-12, SZ-SAM/AK.244\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.244\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:16.136044+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Grüß und Dank! 12/XI 05\nHerzlichst Ihr Oskar Wiener",
+      "notes": "Vorderseite der Postkarte mit Bildmotiv (Prag, Karlsbrücke). Handschriftliche Notiz am rechten Rand, vertikal geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Oskar Wiener\nKarolinenthal\nJägerstr. 75.- 9.\n\nP.T. Herrn Schriftsteller\nDr. Stefan Zweig\nWien I.\nRathhausstraße 17.",
+      "notes": "Rückseite der Postkarte (Adressseite). Gedruckte Postkarten-Vordrucke vorhanden. Briefmarke (5 Heller) und Poststempel (Wien 1, 14.11.05) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die bereits transkribierte Rückseite der Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die Handschrift ist gut entzifferbar, die Abkürzungen (P.T., XI) sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 166,
+    "total_words": 25,
+    "language_detected": "",
+    "language_match": true
+  }
+}

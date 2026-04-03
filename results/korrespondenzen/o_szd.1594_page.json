@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1594",
+    "title": "Brief an Richard Friedenthal vom 24. August 1925, SZ-AAP/B2.17",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1594/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1594/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1594/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 24. August 1925, SZ-AAP/B2.17\n- Signatur: SZ-AAP/B2.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:45.209380+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 24. August 1925.\n\nLieber Herr Doktor!\n\nNochmals meinen innigsten Dank für Ihr Gutachten. Glücklicher\nweise ist es mir gelungen, wirklich noch zu Ende eine kleine Schrau-\nbe einzubauen, die die Spannung noch einmal hinauftreibt. Ich lasse\nnämlich die Frau durch allerhand kleine Machinationen zum Eisenbahnzug\nzu spät kommen, so dass sie verzweifelt zurückbleibt und auch im Leser\nunwillkürlich das Gefühl erwecken wird, sie sehe ihn nie mehr wieder.\nSie geht dann noch einmal, um sich ihre Eindrücke zu beleben in den Spiel-\nsaal- da bekommt nun das Erschrecken, ihn, den vermeintlich Abgereisten\nzu sehen, einen viel überraschenderen Akzent.\nIch sende Ihnen noch eine zweite Novelle und bin neugierig,\nwie sie Ihnen mundet. Einen kleinen Zug darin verdanke ich sogar unserem\nGespräch in Leipzig: ich bin neugierig ob Sie ihn erkennen.\nIch freue mich schon sehr auf Ihre Arbeiten und schreibe\nIhnen dann ausführlich. Heute nur herzlichste Grüsse Ihres getreuen\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Die Unterschrift ist auf dem Faksimile als 'Stefan Zweig' lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung. Überlagert das Dokument."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die Unterschrift ist ebenfalls deutlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1003,
+    "total_words": 155,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

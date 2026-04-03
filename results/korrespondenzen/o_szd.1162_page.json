@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1162",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1162/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1162/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.3\n- Signatur: SZ-SAM/B11.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.864524+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "POST CARD\n\nAustria\n\nFrau Anna Meingast\n\nSalzburg\n\nKapuzinerberg 5\n(Zweig",
+      "notes": "Adressseite einer Postkarte. Poststempel: LONDON, 1933. Briefmarken: 1 Penny (rot), 1/2 Penny (grün)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "20. Nov.\n\nLiebe Frau Meingast,\nmein Mann bittet Sie sogleich\nan alle mit Ausnahme Viking,\nder es selber schrieb zu einen\nSchreibfehler oder Irrtum richtig zu\nstellen nämlich vorletzte und drittletzte\nZeile solle es heißen sondern uns\n(nicht um) Schaustück zu sein sind\n(gehört eingeschaltet) für den ewigen\nWidersacher...... Also uns statt\nuns drittvorletzte Zeile und vorletzte\nZeile vor für - und. also: sondern\nuns Schaust. zu sein gegen euren agente.\nWillen und für den ewig....\nSchönen Gruß an Ede\nvon Ihrer\nFriderike Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Korrekturen und Einfügungen im Textkörper.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 600,
+    "total_words": 94,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

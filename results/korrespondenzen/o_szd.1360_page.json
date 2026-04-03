@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1360",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 4. Juli 1913, SZ-SEF/B5.18",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1360/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1360/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1360/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 4. Juli 1913, SZ-SEF/B5.18\n- Signatur: SZ-SEF/B5.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:28.637288+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "MARIENBAD.\nCafé Maxthal.",
+      "notes": "Vorderseite der Ansichtspostkarte mit gedrucktem Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "MARIENBAD, den 4. 7. 1913.\n\nAn der Durchreise gute\nGrüsse. Bald gibt es einiges\nzu lesen. Ihr aufrichtig\nergeben [Unterschrift/Name unleserlich, evtl. Stefan Zweig?]\n\nFräulein Eugenie Reitter\nBrünn\nAnastasius Grüngasse",
+      "notes": "Rückseite der Postkarte. Der Name des Absenders ist schwer lesbar, die Unterschrift ist eine flüchtige Paraphe. Poststempel: MARIENBAD 13-6 1908 (Datum im Stempel weicht vom handschriftlichen Datum ab). Die Adresse lautet 'Fräulein Eugenie Reitter'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "MARIENBAD.\nCafé Maxthal.",
+      "notes": "Übersichtsaufnahme mit Farbskala und Graustufenkarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig. Der Name des Absenders ist nicht eindeutig zu entziffern. Das Datum im Poststempel (1908) widerspricht dem handschriftlichen Datum (1913), was bei historischen Postkarten vorkommen kann (evtl. Wiederverwendung oder Stempelfehler).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 266,
+    "total_words": 36,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

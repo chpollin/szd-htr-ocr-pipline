@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.922",
+    "title": "Brief an Frans Masereel vom 1. August 1931, SZ-LAS/B1.41",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.922/IMG.1",
+      "https://gams.uni-graz.at/o:szd.922/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 1. August 1931, SZ-LAS/B1.41\n- Signatur: SZ-LAS/B1.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:43.775826+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Thumersbach, den 1. August 1931.\n\nLieber Freund!\nVon Amerika ist noch keine entscheidende Nachricht da.\nMit einer Zeitung, mit der mein Verleger verhandelte ist nichts ge-\nworden, hoffentlich klappt es mit einer andern. Deutsche Zeitungen\nbekämen wir gewiss dazu, aber die zahlen nicht entsprechend um alle\nKosten zu decken und zu ermöglichen, dass noch ein anständiger Rein-\ngewinn übrig bleibt, der übrigens durch das Buch selbst garantiert\nwäre. Wir könnten doch von dem Buch mit Sicherheit rechnen 40 Tau-\nsend Exemplare in Deutschland, ebensoviele in Frankreich, ebensovie-\nle in England und Amerika und die übrigen kleinen Länder 30 Tausend,\nalso 150 Tausend Exemplare, was ein stattliches Geld einbringt.\nMeiner Meinung nach wäre es auch ohne bestimmte Zeitungsabmachung\nzu riskieren, weil die einzelnen Kapitel auch durch eine Agentur\nsehr vorteilhaft plaziert werden könnten. Bitte, gib den Gedanken\nnicht auf und halte Dich innerlich bereit. Es ist übrigens sehr\nwahrscheinlich, dass noch ein Dritter auf seine eigenen Kosten\nmitkommt, Alexander Moissi - damit würde sich die Kosten für Automo-\nbile etc. abermals um ein Drittel reduzieren. Welches Vergnügen,\njetzt für zwei Monate Europa zu entfliehen! Ich kenne drüben vie-\nle Leute und könnte natürlich alles erzielen, dass Du Gorki und\ndie paar andern grossen Leute dort poträtierst oder zeichnest.\nEs wäre falsch einzig auf den materiellen Gewinn zu kalkulieren\n(obwohl er zweifellos dasein wird), denn diese zwei Monate würden\nzweifellos eine Epoche in Deinem Leben bilden und ein dokumenta-\nrisches Buch schaffen, überlege, überlege, überlege!\nNoch eine Kleinigkeit: ich weiss nicht, ob Du Dich an",
+      "notes": "Typoskript mit handschriftlichen Korrekturen in violett (z.B. 'dasein' statt 'da sein', 'poträtierst' statt 'porträtierst')."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "meine kleine Novelle \"Buchmendel\" erinnerst (in der \"Kleinen Chronik\")\ndie soll jetzt in einer bibliophilen Ausgabe in Amerika heraus-\nkommen und man möchte gern drei oder vier Holzschnitte von Dir da-\nzu. Bitte schreibe mir, was {so der} Dein {Jeton[?]} Preis wäre, damit ich es hinüber-\nberichten kann.\n\nHerzlichst Dein\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen und Unterschrift in violett. Unten ein Exlibris-Stempel 'CHRISTIAN ANDRES EX LIBRIS ET AUTOGRAPHIS'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift. Das Wort 'Jeton' ist eine Vermutung für die handschriftliche Einfügung über 'Preis'.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1999,
+    "total_words": 305,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

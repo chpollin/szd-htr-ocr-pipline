@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1391",
+    "title": "Postkarte an Eugenie Hirschfeld vom 7. August 1908, SZ-SEF/B5.11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1391/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1391/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1391/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Eugenie Hirschfeld vom 7. August 1908, SZ-SEF/B5.11\n- Signatur: SZ-SEF/B5.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:30.839679+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "CARTE POSTALE\nPOSTKAART\n(Côté réservé à l'adresse. — Zijde voor het adres alleen.)\n\nFraulein Eugenie Hirschfeld\n\nNeuhaus (Autriche)\nbei Weissenbach n.Ö.\nvra Vienne!",
+      "notes": "Adressseite der Postkarte. Links am Rand handschriftlicher Absender: 'St.t. bei Emile Verhaeren, Roisin (Caillou qui bique) Belgien'. Poststempel: 'QUIEVRAIN 7 AOUT 08'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sehr verehrter Fräulein, ich hoffe\nSie spielen in Neuhaus nicht mehr\ndie Patientin, sondern denken an\ndie Sanatoriumslage schon wie an\netwas ganz Fremdes zurück. Ich\nbin hier in der Ländlichkeit ge-\nlandet, lebe einfach prachtvoll\nunter lieben Freunden, einigen\nweisen Hunden, Katzen und Kühen,\nübersetze ein wenig, trinke Milch\nund spiele den Bauern. Es ist dies\nsehr angenehm, wenigstens für\neinige Zeit, und überdies birgt\ndieses Landhaus an Büchern und\nBildern so viel wie ein kleines\nMuseum und überdies eine Mensch\nsoviel wie eine ganze Welt. Viel!\nleicht bestätigen Sie mir umge-\nhend Ihr Wohlergehen, denn ich\nfürchte, sonst erhielte ich die\nNachricht nicht mehr hier. In\nherzlicher Ergebenheit bei SZ.",
+      "notes": "Textseite der Postkarte. Der letzte Satz am linken Rand ist vertikal geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "CARTE POSTALE\nPOSTKAART\n(Côté réservé à l'adresse. — Zijde voor het adres alleen.)\n\nFraulein Eugenie Hirschfeld\n\nNeuhaus (Autriche)\nbei Weissenbach n.Ö.\nvra Vienne!",
+      "notes": "Scan zeigt die Postkarte zusammen mit Farbkarten/Grauskala. Inhalt identisch mit Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Struktur der Postkarte ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1038,
+    "total_words": 158,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

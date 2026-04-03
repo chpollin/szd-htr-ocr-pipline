@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.382",
+    "title": "Artur Kutscher an Stefan Zweig, 1912-11-05, SZ-SAM/AK.103",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.382/IMG.1",
+      "https://gams.uni-graz.at/o:szd.382/IMG.2",
+      "https://gams.uni-graz.at/o:szd.382/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Artur Kutscher an Stefan Zweig, 1912-11-05, SZ-SAM/AK.103\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.103\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.693321+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kgl. Universität München. Altbau Ludwigstrasse.\n5/11 12",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text oben links, handschriftliches Datum darunter."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dr Stefan Zweig\nWien VII\nKorgasse 8\n\nMünchen 5. XI. 12. Sehr werter Herr Dr!\nDie Idee ist herrlich und würde deshalb\nauch mit allen Mitteln durchgesetzt,\naber die Aufführung ist nun am Dienstag\n19, spätestens Mittwoch 20. Könnten\nSie das nicht doch mit Hamburg u. Berlin\nding[?] bringen und hier am Montag 18. bez.[?]\nallerdings fehle dann wohl leider eine\nMöglichkeit weg, im Seminar zu lesen dann\nFreitag 15. könnten Sie wohl noch nicht da\nsein? Herzlichst Ihr Artur Kutscher.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel (München 6.11.12) vorhanden. 'ding' und 'bez.' sind unsicher gelesen."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Dr Stefan Zweig\nWien VII\nKorgasse 8\n\nMünchen 5. XI. 12. Sehr werter Herr Dr!\nDie Idee ist herrlich und würde deshalb\nauch mit allen Mitteln durchgesetzt,\naber die Aufführung ist nun am Dienstag\n19, spätestens Mittwoch 20. Könnten\nSie das nicht doch mit Hamburg u. Berlin\nding[?] bringen und hier am Montag 18. bez.[?]\nallerdings fehle dann wohl leider eine\nMöglichkeit weg, im Seminar zu lesen dann\nFreitag 15. könnten Sie wohl noch nicht da\nsein? Herzlichst Ihr Artur Kutscher.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist typisch für die Zeit. Einige Abkürzungen sind kontextuell erschlossen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1011,
+    "total_words": 169,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

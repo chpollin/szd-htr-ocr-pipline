@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.936",
+    "title": "Postkarte an Frans Masereel vom 12. Mai 1919, SZ-LAS/B1.9",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.936/IMG.1",
+      "https://gams.uni-graz.at/o:szd.936/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 12. Mai 1919, SZ-LAS/B1.9\n- Signatur: SZ-LAS/B1.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.985874+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Stefan Zweig, Salzburg\nKapuzinerberg 5\n\nMonsieur Frans Masereel\n\nSchweiz\n\nGenève\n8, rue de l'Aubepine",
+      "notes": "Adressseite einer Postkarte. Handschrift in violetter Tinte. Poststempel 'SALZBURG 12.V.19-9' und '3a'. Briefmarke 'KAISERLICH KOENIGLICHE OESTERREICHISCHE POST 10 HEL'. Stempel 'Zensurstelle ZUERICH' schwach erkennbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mon cher ami, une deman-\nde! Peux-tu me procurer\nle N° de Demain, qui\ncontient mon „Aux frères\nFrancais”? Il sera le N°\ndu Decembre 1917 ou du\nJanvier 1918; ~~car~~ car je\nn'ai pas un exemplaire\nici et j'en ai besoin pour\nmon livre. Si tu ne peux que\nprêter un ex. je le rendrai\nsûrement. Fidèlement ton\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist typisch für Stefan Zweig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 417,
+    "total_words": 75,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

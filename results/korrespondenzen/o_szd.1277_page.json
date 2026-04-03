@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1277",
+    "title": "Postkarte an Anna Meingast vom 2. August 1928, SZ-SAM/B7.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1277/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1277/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 2. August 1928, SZ-SAM/B7.6\n- Signatur: SZ-SAM/B7.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:25.820303+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "M. Hotel Miramar\nostende\n\nFrau Anna Meingast\nSalzburg (Autriche)\nLinzerstrasse Haus Laubinger",
+      "notes": "Adressseite der Postkarte. Der Text ist handschriftlich in violetter Tinte verfasst. Ein Poststempel 'OOSTENDE 2. VIII 928' ist vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, ich hoffe\nman hat Ihnen meine adresse\nrichtig übermittelt (Ostende\nHotel Miramar). Wir bleiben\nhier wohl noch 14 Tage und\ngehen dann hoffentlich für\npaar Tage nach Holland. Ich\nnehme an, dass Sie sich gut\nmit Ihrem Sohn erholt haben\nund das Wetter Ihnen zuträglich\nwar, viele Grüsse von uns\nallen. Ihr\n\nStefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Die Schrift ist gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar und die Konventionen der Zeit (z.B. 'Autriche' für Österreich) sind klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 429,
+    "total_words": 69,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

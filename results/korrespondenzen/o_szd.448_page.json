@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.448",
+    "title": "Friedrich Rosenthal an Stefan Zweig, 1913-07-27, SZ-SAM/AK.164",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.448/IMG.1",
+      "https://gams.uni-graz.at/o:szd.448/IMG.2",
+      "https://gams.uni-graz.at/o:szd.448/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friedrich Rosenthal an Stefan Zweig, 1913-07-27, SZ-SAM/AK.164\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.164\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.026425+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Pension Hertenstein\n27. 10. 1913",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Hotels. Der Text ist gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr Dr.!\nSie finden hier eine artige Gesellschaft\ndie Sie herzlichst begrüßt\nFriedrich Rosenthal\n\nLieber Zweig, ich genieße\ndas malerische, ich bin seit\nein paar Tage hier fein\neingerichtet, denken\nSie an das Jahrbuch!\nHerzlich Ihr [?] [?]\nSchönste Grüße auch\nFriedrich Frank",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Poststempel 'LUZERN 27. VII 1913'. Adressat: 'dr. Stefan Zweig, Wien, VIII. Kochgasse 8, Austria'. Die Unterschrift 'Friedrich Frank' ist schwer lesbar, könnte auch 'Friedrich Frank' oder ähnlich lauten."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise flüchtig und schwer zu entziffern, insbesondere die Unterschrift und einige Wörter im Textkörper. Die Datumsangabe auf der Vorderseite (1913) widerspricht dem Poststempel (1913, aber Juli statt Oktober), was die Transkription der handschriftlichen Teile erschwert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 321,
+    "total_words": 50,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

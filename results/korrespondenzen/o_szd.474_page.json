@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.474",
+    "title": "Hans Sochaczewer an Stefan Zweig, 1928-05-26, SZ-SAM/AK.188",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.474/IMG.1",
+      "https://gams.uni-graz.at/o:szd.474/IMG.2",
+      "https://gams.uni-graz.at/o:szd.474/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hans Sochaczewer an Stefan Zweig, 1928-05-26, SZ-SAM/AK.188\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.188\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.930722+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "26/5\n1928\n\n229 København. Christianshavn's Vold",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten links, handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber verehrter Herr Doktor Zweig\n\nVorgestern endlich erhielt ich Ihr\nBuch. Da ich gleichzeit~~ig~~ noch\nmeinen neuen Roman fertig\nwurde habe ich Zeit, Ihre\n~~Aufsätze~~ zugleich zu lesen; ist ~~jene~~\nnicht im ~~maus~~.\n\nNochmals: vielen Dank\n\nIhr sehr ergeb.\nHans Sochaczewer\n\nKopenh., 26.5.28.\nIm Juli bin ich gewiss 2 Tage in\nS.; falls ich darf käme ich zu an.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Poststempel 'KØBENHAVN 4-5 1928' und Briefmarke vorhanden. Der Text ist teilweise schwer lesbar, insbesondere die durchgestrichenen Passagen und das Ende des letzten Satzes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Keine Transkription erforderlich."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüchtig und weist einige Korrekturen und Durchstreichungen auf. Besonders die Wörter 'zugleich', 'jene', 'maus' sowie das Ende des letzten Satzes ('zu an.') sind schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 412,
+    "total_words": 65,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

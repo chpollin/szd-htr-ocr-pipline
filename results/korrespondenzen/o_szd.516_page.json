@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.516",
+    "title": " Unidentified an Stefan Zweig, 1903-09-01, SZ-SAM/AK.225",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.516/IMG.1",
+      "https://gams.uni-graz.at/o:szd.516/IMG.2",
+      "https://gams.uni-graz.at/o:szd.516/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1903-09-01, SZ-SAM/AK.225\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.225\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.579418+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1er/9bre/03\n\n150. PARIS. – Fontaine Médicis\n\nSalutation „Cafines“\nFAE",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung der Fontaine Médicis in Paris. Handschriftliche Notizen am oberen und unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTALE\nCe côté est exclusivement réservé à l'adresse\n\nMonsieur Stefan Zweig\n1 Rathhausstrasse 17\n(autriche) Wien",
+      "notes": "Adressseite der Postkarte. Gedruckter Text mit handschriftlicher Adressierung. Briefmarken (2x 2c, 1x 1c) und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "CARTE POSTALE\nCe côté est exclusivement réservé à l'adresse\n\nMonsieur Stefan Zweig\n1 Rathhausstrasse 17\n(autriche) Wien",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 307,
+    "total_words": 43,
+    "language_detected": "",
+    "language_match": true
+  }
+}

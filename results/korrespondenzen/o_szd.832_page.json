@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.832",
+    "title": "Brief an Stefan Zweig vom 20. Januar 1937, SZ-AAP/B1.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.832/IMG.1",
+      "https://gams.uni-graz.at/o:szd.832/IMG.2",
+      "https://gams.uni-graz.at/o:szd.832/IMG.3",
+      "https://gams.uni-graz.at/o:szd.832/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 20. Januar 1937, SZ-AAP/B1.5\n- Signatur: SZ-AAP/B1.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:35.799362+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nHerrn Dr.Stefan Zweig\nGrand Hotel\nNapoli\n\nITALIA\n\nRef.\n●\t\tIhre Postkarte vom 14.Januar 1937\t\t20.Januar 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihre obige Postkarte.\nWydawnictwo J.Przeworskiego,Warschau: Wir haben das Leseexemplar des\n\"Kaleidoskop\" wunschgemäss dorthin gesandt.\nWieser: Das Buch Franz R.v.Wiesers\"Magalhaes-Strasse und Austral-\nContinent auf den Globen des Johannes Schöner\"(Innsbruck 1881) ist\nseit Jahren vergriffen und trotz mehreren Anfragen bis zum heutigen\nTage nicht aufzutreiben gewesen.Zufällig hat uns das Antiquariat\nReichmann ein Exemplar verschaffen können,das wir Ihnen mit gleicher\nPost schicken.\nMagalhaes-Buch: Wir haben uns wegen der Illustrationen an einen der\nersten Fachleute für alte Geographie und Entdeckungsreisen gewandt,\neinen in Berlin lebenden russischen Professor,der sich nun bereit er-\nklärt hat,das gesamte Bildmaterial,also Karten,Porträtstiche,Land-\nschaftsbilder usw. gegen eine Pauschalgebühr und Erstattung der tat-\nsächlichen Unkosten zu beschaffen.Er ist augenblicklich nach London\nverreist und kommt in etwa 14 Tagen zurück.Herr Dr.Bagrow wünscht aber\nnoch die folgenden Angaben:\n(1) Inhaltsverzeichnis des Buches oder noch besser eine ge-\nnaue Inhaltsangabe\n(2) Format des Buches\n(3) Reproduktionstechnik (Klischeedruck,Lichtdruck,farbige\nBilder)\n(4) Anzahl der Abbildungen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n●\n\nWir bitten Sie,uns irgendwelche Richtlinien zu geben,wie wir Herrn\nDr.Bagrow antworten sollen und wann Ihrer Meinung nach ihm die ge-\nwünschte Inhaltsangabe gegeben werden kann.\n\nIm voraus bestens dankend begrüssen wir Sie als\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, unleserlich/kurrentartig)."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Hafen von Lissabon (ohne Bild)\nHafen San Lucar\nMillerand\nMalacca\nKarten haben wir schon, Welkarten. Müsste\neine Reihe von Specialkarten\nErst selbst zu einer Anfrage kommen",
+      "notes": "Handschriftliche Notizen auf der Rückseite des dritten Blattes (Bleistift). Die Schrift ist kursiv und teilweise schwer lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der maschinengeschriebene Text ist exzellent lesbar. Die handschriftlichen Notizen auf der letzten Seite sind aufgrund der Bleistiftführung und Kursivität etwas schwieriger, aber im Kontext interpretierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2540,
+    "total_words": 336,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

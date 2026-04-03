@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.565",
+    "title": " Unidentified an Stefan Zweig, 1931-08-01, SZ-SAM/AK.271",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.565/IMG.1",
+      "https://gams.uni-graz.at/o:szd.565/IMG.2",
+      "https://gams.uni-graz.at/o:szd.565/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1931-08-01, SZ-SAM/AK.271\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.271\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:18.395958+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gaisberg mit Autostrasse aus 3500m\n\nFliegeraufnahme",
+      "notes": "Vorderseite einer Ansichtskarte mit Luftaufnahme des Gaisbergs. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\n[...]\nThumersbach\nZell am See\n\nMein lieber, ich hatte gar nicht hielt[?]\nwas ich abends nach Zell a/See zu\nkommen, werde erst nach Bozen\nkleine[?] Ferien [?][?] bei\n[...3...] werden u. Ihnen zu kommen\nIch denke nächsten Mittwoch\n[...3...] werde ich den Hotel\n[...3...] Zimmer telegr. u. Ihnen über-\nfalls. - das hilft mir so freudig\nist sehr lieb. alle Wünsche für die\nschöne Nacht! [Unterschrift unleserlich]",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke und Poststempel (Salzburg 2, 1.VIII.31) vorhanden. Die Handschrift ist teilweise schwer lesbar und weist Korrekturen/Überlagerungen auf."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Die Postkarte ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf der Rückseite der Postkarte ist sehr flüchtig und teilweise durch Überlagerungen oder unklare Wortbildungen schwer zu entziffern. Besonders die Zeilen 3-7 des Nachrichtentextes enthalten mehrere unsichere Lesungen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 479,
+    "total_words": 76,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1636",
+    "title": "Brief an Frans Masereel vom 26. Juli 1935, SZ-LAS/B1.52",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1636/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1636/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 26. Juli 1935, SZ-LAS/B1.52\n- Signatur: SZ-LAS/B1.52\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:49.984060+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kapuzinerberg 5\nSalzburg.\n\nz.Z.Pontresina, 26.Juli 1935.\n\nLieber Franz!\n\nHier ein zweiter Brief an Jean Richard, obwohl Du mich\nhartnäckig anschweigst. Bitte nimm Dich gleichfalls der Sache\nan, es wäre eine Schande für uns, die Freunde, wenn dieser Tag\nnicht würdig begangen würde.\n\nTausend Grüße Deines\n\nStefan\n\nIl s'agit de ma idée, de faire une semaine\nRolland a Paris en Janvier pour celebrer\ndignement son 70 anniversaire!",
+      "notes": "Typoskript mit handschriftlicher Ergänzung (Unterschrift 'Stefan' und französischer Textblock am Ende) in violetter Tinte. Ein Stempel 'CHRISTIAN ANDRES EX LIBRIS ET AUTOGRAPHIS' am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer bis auf den Stempel 'CHRISTIAN ANDRES EX LIBRIS ET AUTOGRAPHIS' am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in violetter Tinte sind klar erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 427,
+    "total_words": 66,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1232",
+    "title": "Brief an Victor Fleischer vom 25. Dezember 1912, SZ-LAS/B3.48",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1232/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1232/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1232/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Victor Fleischer vom 25. Dezember 1912, SZ-LAS/B3.48\n- Signatur: SZ-LAS/B3.48\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.914158+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Böhmen.\n\nVictor Fleischer\n\nKourtau[?]\nVilla Fleischer",
+      "notes": "Adressseite einer Postkarte. Poststempel: WIEN 68, 25.XII.12. Briefmarke: 5 Heller, Kaiser Franz Joseph I."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Victor, gratu\nliere! Dein Werk\nist am Dienstag fertig.\nDeine bairischen Be\nrhinepfungen[?] verachte\nich, hoffentlich ist dein\nWitz u. Lustspiel fetter\nals in der Correspon\ndenz. Grüße\nZ.",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Victor, gratu\nliere! Dein Werk\nist am Dienstag fertig.\nDeine bairischen Be\nrhinepfungen[?] verachte\nich, hoffentlich ist dein\nWitz u. Lustspiel fetter\nals in der Correspon\ndenz. Grüße\nZ.",
+      "notes": "Identisch mit Seite 2, hier mit Farb- und Graukarte abgebildet."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber einige Wörter (insbesondere 'Kourtau' als Ortsname und 'Berhinepfungen' als Wortneuschöpfung oder Dialektbegriff) sind schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 439,
+    "total_words": 66,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

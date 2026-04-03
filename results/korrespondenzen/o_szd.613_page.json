@@ -1,0 +1,70 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.613",
+    "title": "Fernand Desprès an Stefan Zweig, 1924-04-26, SZ-SAM/AK.44",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.613/IMG.1",
+      "https://gams.uni-graz.at/o:szd.613/IMG.2",
+      "https://gams.uni-graz.at/o:szd.613/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Fernand Desprès an Stefan Zweig, 1924-04-26, SZ-SAM/AK.44\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:20.717892+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "546 BLOIS. - Vue générale, prise du Château. - ND",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung von Blois. Poststempel 'PARIS 26 IV 24' und Briefmarke 'FRANCE 10 OLYMPIADE 1924'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Monsieur Stefan Zweig\nKapuzinerberg 5\nSalzburg\n(Autriche)\n\n17 rue Belgrand\nParis, le 26 avril 1924\nCher Ami, Ch.H[?]. de\nMarseille me dit sa nostalgie, ce printemps, de Paris, de ses\nlilas et de ses seringas parfumés. Je viens d'aller faire un\nrapide voyage en Orléanais et en Touraine. Belles contrées\nà l'époque du renouveau! De ma fenêtre, par un clair soleil,\nj'apercevais les lanternes du château de Chambord. Me voici\nreplongé en plein journalisme...\nEn parcourant un joli ouvrage, j'apprends que J.A. Rim-\nbaud a visité Vienne et l'Autriche en 1876 et 1877.\nCet enfant génial avait alors 22 et 23 ans. N'a-t-il pas\nlaissé trace de son passage en Autriche: registres\nd'hôtel et de musées, correspondance, etc.? Parmi les\nhommes qui ont aujourd'hui 70 à 80 ans n'y a-t-il\npas quelques anciens amis de l'incurable voyageur?\nLes recherches ont peut-être déjà été faites. Qu'en sais-\ntu? As-tu reçu ma précédente lettre?\nMes amicales salutations à Madame Zweig.\nBien cordialement à toi\nFernand Desprès",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in französischer Sprache. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Abkürzung 'Ch.H[?].' ist aufgrund der Handschrift leicht unsicher, der Rest des Textes ist eindeutig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ],
+    "total_chars": 1052,
+    "total_words": 174,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

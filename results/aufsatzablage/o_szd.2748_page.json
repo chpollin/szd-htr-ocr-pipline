@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2748",
+    "title": "Buch",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA26.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2748/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2748/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Buch\n- Signatur: SZ-AAP/W-AA26.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:01.520223+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Buch\nDas Buch als Eingang zur Welt? ?\nDas Buch als Weltbild.\nDas Buch unser treuester Freund\nBegegnung mit einem Analphabeten\nDank an die Bücher\nGraugeriesierte Bücher\n\nDas Buch als Weltbild.\n\" \" unser getreuester Freund\n\" \" als Eingang zur Welt",
+      "notes": "Handschrift. Die ersten Zeilen sind in einer flüssigen, leicht kursiven Handschrift verfasst, der untere Teil in einer deutlich formelleren, kalligraphischen Schrift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Das Buch als Weltbild.\n\" \" unser getreuester Freund\n\" \" als Eingang zur Welt",
+      "notes": "Ausschnitt der Vorderseite, kalligraphischer Teil."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Buch\nDas Buch als Eingang zur Welt? ?\nDas Buch als Weltbild.\nDas Buch unser treuester Freund\nBegegnung mit einem Analphabeten\nDank an die Bücher\nGraugeriesierte Bücher",
+      "notes": "Ausschnitt der Vorderseite, oberer Teil."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Buch\nDas Buch als Eingang zur Welt? ?\nDas Buch als Weltbild.\nDas Buch unser treuester Freund\nBegegnung mit einem Analphabeten\nDank an die Bücher\nGraugeriesierte Bücher\n\nDas Buch als Weltbild.\n\" \" unser getreuester Freund\n\" \" als Eingang zur Welt",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Handschrift handelt. Die Begriffe sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 733,
+    "total_words": 126,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

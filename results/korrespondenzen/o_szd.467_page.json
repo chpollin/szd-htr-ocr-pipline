@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.467",
+    "title": "Heinrich Schwarz an Stefan Zweig, 1929-07-04, SZ-SAM/AK.181",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.467/IMG.1",
+      "https://gams.uni-graz.at/o:szd.467/IMG.2",
+      "https://gams.uni-graz.at/o:szd.467/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Heinrich Schwarz an Stefan Zweig, 1929-07-04, SZ-SAM/AK.181\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.181\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.491198+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4.7.29\n\nSCOTT MONUMENT, EDINBURGH.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Scott Monuments in Edinburgh. Handschriftliche Datumsnotiz oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "4.7.1929.\n\nAus der Stadt Hills,\naus der ich eine Sam-\nlung der schönsten\nOriginale - fast 200\nStück - mitbringe,\nherrliche Empfehlungen\nIhres dankbar\nergebenen\nHainrich Schwarz\n\nHerrn u. Frau\nDr Stefan Zweig\nKapuzinerberg 5\nSalzburg\nAustria",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Poststempel 'EDINBURGH JUL 4 1929'. Briefmarke 'EXHIBITION NEWCASTLE-ON-TYNE MAY TO OCTOBER 29'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Archiv-Scan mit Farbskala und Grauskala. Enthält die gleiche Postkarte wie in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist klar, lediglich der Vorname des Absenders 'Hainrich' (statt Heinrich) wurde originalgetreu transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 274,
+    "total_words": 41,
+    "language_detected": "",
+    "language_match": true
+  }
+}

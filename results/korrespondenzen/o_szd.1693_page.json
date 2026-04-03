@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1693",
+    "title": "Brief an Anna Meingast vom 24. April 1935, SZ-SAM/B7.60",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1693/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1693/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 24. April 1935, SZ-SAM/B7.60\n- Signatur: SZ-SAM/B7.60\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.147850+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hotel Regina\nWien\n\nWien, den 24.April 1935.\n\nLiebe Frau Meingast,\n\nein ganzer Stoss Dinge:\n1. bitte ich Sie von den Pantheon Büchern \"Heilung durch den\nGeist\"um eine genaue Beschreibung, damit ich sie in mein Handexemplar ein-\ntragen kann.\n2. eizutragen, dass von Guanabara 100 Dollar gekommen sind\nfür Maria Stuart.\n3. dass von Skoglund 2.500 schwedische Kronen ebenfalls für\nMaria Stuart eingetroffen sind.\n4. dem Verlag mitzuteilen, dass ich gewisse Vorrechte\neinem andern Verlag eingeräumt habe und ihm erst später schreiben kann.\n5. Wenn ein italienisches Manuskript eines Tages von einem\nHerrn Franz Herceg kommt, es nicht zurückzuschicken, sondern mir zu senden.\n6. Herrn Relgis zu schreiben, dass die Bedingungen für Maria\nStuart 300 österr. Schilling sind.\n7. Johann auch das Lafayette-Buch von Latzko mitzugehen.\n8. Nun etwas ausführlicher.Ich möchte gern, dass, wie wir\nein Hauptbuch angefertigt haben, für die wichtigeren Dinge, die immer\nnoch zur Uebersetzung verlangt werden, einzelne Blätter angefertigt wer-\nden, etwa immer 4 Seiten für jedes Buch, die dann hier beim Verlag Reich-\nner verbleiben, so dass dieser auch immer die Uebersicht hat, wie es mit\njedem einzelnen Verlagsrechte steht. Ich werde den grossen Komplex viel-\nleicht eines Tages brauchen, wenn ich einem Agenten den Generalvertrieb\nmeiner Bücher übertrage, und da ist es gut, wenn noch ein zweites Exemplar",
+      "notes": "Typoskript auf Briefpapier des Hotel Regina. Die handschriftlichen Korrekturen/Ergänzungen (z.B. die Klammern um die Ziffern 2-7) sind auf dem Scan nicht als solche erkennbar, sondern wirken wie Teil des Typoskripts oder sehr präzise Bleistiftmarkierungen. Der Text bricht am Ende der Seite mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ausser dem Salzburger vorhanden ist. Vielleicht bestellen Sie solche Bogen\ngenau wie wir sie bei dem Hauptbuch haben, nur dass es eben für jedes Buch\neinzelne Bogen sind und nicht gebunden wie im Hauptbuch, und sie tragen dann\nalles ein, so dass dann immer zwei Exemplare, eines in Salzburg und eines in\nWien, zur Stelle sind; damit sind Sie gleichzeitig auch die Sorge los, dass\nfür Sie nicht genug Arbeit sei. Ausserdem wäre es ganz gut, wenn Sie einmal\nan Hand der Verträge und der Notizen feststellen würden, bei welchen auslän-\ndischen Verlegern ich Perzent-Abrechnungen habe, die gelegentlich einmal kon-\ntrolliert werden müssten. Ich bin überzeugt, dass von Spanien oder sonst\nlängst Abrechnungen fällig sind, die mir nie unterbreitet wurden. Regelmässig\nund ohne Anfrage bekomme ich sie eigentlich nur von Frankreich, Italien, Eng-\nland und Amerika. Die Salzburger Sache wird sich ja doch über kurz oder\nlang regeln, d.h. ich werde ja doch einmal einen definitiven Wohnsitz an\neiner anderen Stelle nehmen und da werden wir hoffentlich weiter zusammen\narbeiten.\n\nMachen Sie sich also keineswegs Sorgen und seien Sie herzlichst ge-\ngrüsst\n\nvon Ihrem\n\nStefan Zweig",
+      "notes": "Typoskript, Fortsetzung des Briefes. Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Unterschrift ist eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2559,
+    "total_words": 399,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

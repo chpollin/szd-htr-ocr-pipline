@@ -1,0 +1,110 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2638",
+    "title": "Frauen, An die",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA57.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2638/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2638/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2638/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2638/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2638/IMG.5"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Frauen, An die\n- Signatur: SZ-AAP/W-AA57.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:50.530028+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "An die Frauen\n\nerschienen in: Stimmen z. internationalen Frauenkonferenz, 14. IV 1918\n\nDie Vergeblichen Opfer\n\nFrauen, An die",
+      "notes": "Handschrift in violetter Tinte. Das Dokument besteht aus einem Blatt, das einmal gefaltet wurde. Die Zeilen 'An die Frauen', 'erschienen in...', 'Die Vergeblichen Opfer' stehen auf der oberen Hälfte, 'Frauen, An die' steht auf der unteren Hälfte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "An die Frauen\n\nerschienen in: Stimmen z. internationalen Frauenkonferenz, 14. IV 1918\n\nDie Vergeblichen Opfer",
+      "notes": "Gleiche Seite wie Seite 1, jedoch ohne den unteren Teil 'Frauen, An die' (der auf dem Foto 1 durch das Umklappen des Papiers sichtbar war). Es handelt sich um die Vorderseite des Blattes."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Frauen, An die",
+      "notes": "Rückseite des Blattes, unterer Teil. Die Schrift scheint durch das Papier von der Vorderseite durch, aber der Text 'Frauen, An die' ist hier explizit auf der Rückseite notiert."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, weitgehend leer bis auf den durchscheinenden Text der Vorderseite."
+    },
+    {
+      "page": 5,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments mit Archiv-Farbskalen/Grauskalen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die Struktur der Seiten wurde durch die Faltung des Papiers auf den ersten Bildern leicht verdeckt, ist aber durch den Vergleich der Aufnahmen eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 248,
+    "total_words": 36,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.889",
+    "title": "Postkarte an Frans Masereel vom 23. August 1919, SZ-LAS/B1.11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.889/IMG.1",
+      "https://gams.uni-graz.at/o:szd.889/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 23. August 1919, SZ-LAS/B1.11\n- Signatur: SZ-LAS/B1.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:40.914074+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon tres cher Frans, pardonne, si je\nne t'ecris pas, j'ai trop a faire. Et\npuis, la situation chez nous est plus\nterrible que jamais pendant la\nguerre. Plus de bains, [?] cuisine sans\ncharbon et lumiere, la couronne\ndes ceintures et les prix des vivres\nplus hautes d'un jour a l'autre\n- a Salzbourg tout est mieux, la\nville si belle, si admirable, qu'on\noublie tout. Mais on esperait tou-\njours que la misere finirera[?]\n- au contraire et n'est qu'au comme-\ncement.\nJ'ecrirai a Heller encore une fois.\nJe ne comprends pas sa facon d'agir.\nNous pensons si souvent a toi, et\ntoujours avec beaucoup d'affection,\nmais quant est-ce que nous nous",
+      "notes": "Handschriftliche Nachricht auf der Rückseite einer Postkarte. Violette Tinte. Die Lesbarkeit ist gut, einige Wörter sind aufgrund der Handschrift leicht unsicher."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "reverrons. Un voyage en Suisse\n- un martyre et tres couteux\n[...]\nFrans Masereel\n\nGenève (Suisse)\n24, avenue des Acacias\n\nqu'ils ne conservent leur\namitie si precieuse, meme\nsi j'ecris que rarement. Le\ntemps viendra - ne deses-\nperons pas. Ton fidele\nStefan\ncher ami, j'espere\nque vous ne travaillez\npas trop et que vous jouissez\nun peu de cet[?] d'ete bleu",
+      "notes": "Adressseite der Postkarte. Enthält eine Briefmarke (Österreichische Post, 10 Heller) und zwei Poststempel (SALZBURG, 23. VIII. 1919). Der Text ist teilweise über die Adressfelder geschrieben. Die Zeilen sind teilweise durch die Stempel überlagert."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist flüssig, aber teilweise schwer zu entziffern, da der Text auf der Adressseite über die gedruckten Linien und Poststempel hinweggeschrieben wurde. Einige Wörter sind aufgrund der Tinte und der Überlagerungen unsicher.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 997,
+    "total_words": 176,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

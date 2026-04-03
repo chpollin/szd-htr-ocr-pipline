@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1699",
+    "title": "Postkarte an Anna Meingast vom 4. Dezember 1935, SZ-SAM/B7.66",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1699/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1699/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 4. Dezember 1935, SZ-SAM/B7.66\n- Signatur: SZ-SAM/B7.66\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.473123+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frau Anna Meingast\n\nSalzburg (Austria)\nLinzergasse 16",
+      "notes": "Adressseite einer Postkarte. Handschriftliche Anschrift in violetter Tinte. Poststempel: LONDON W, 4 DEC 935. Briefmarken: 1/2 Penny (grün) und 1 Penny (rot)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, noch habe\nich Ihnen, glaube ich, für Ihre\nGlückwünsche wohl gedankt,\nauch Johann möge mir verzeihen.\nAber meine Secretaria ist seit\nTagen krank, auf meinem Tisch\nhaufen sich die Briefe zu Haufen.\nAuch die Arbeit geht langsamer,\nes war zwar Capitel I und V\nund VI fertig, aber durch diese\n~~ton~~[?] lange Ungehörigkeit nicht ab-\ngeschrieben. So sende ich heute\nnur das corrigierte Capitel\n[in] Neuschrift ab, soweit es\nnötig ist. Bestens Ihr St.Z.",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Die Schrift ist gut lesbar, weist jedoch einige Korrekturen und Durchstreichungen auf."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist weitgehend klar lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und gut entzifferbar. Ein Wort im Textkörper wurde als unsicher markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 521,
+    "total_words": 84,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

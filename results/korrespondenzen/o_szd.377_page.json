@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.377",
+    "title": "Margot Alberts an Stefan Zweig, 1930-09-19, SZ-SAM/AK.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.377/IMG.1",
+      "https://gams.uni-graz.at/o:szd.377/IMG.2",
+      "https://gams.uni-graz.at/o:szd.377/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Margot Alberts an Stefan Zweig, 1930-09-19, SZ-SAM/AK.1\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.395225+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "19.9.30\n110-17. Nella Villa Carlotta",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unten links, handschriftliches Datum oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Cadenabbia/Lago di Como.\nd. 19.9.30\nSehr geehrter Herr Doktor,\nvor meiner schönsten\nu. abwechslungsreichsten\nReise, an der Sie so sehr\nschuld sind, erlaube ich\nmir, Ihnen frohe Grüße\nzu senden. Hier in C.\ndas mir überaus gut ge-\nfällt, bin ich jetzt seit\neiner Woche und werde\nnoch 8-10 weitere Tage hier\nbleiben, ehe ich nach\nMeran fahre. Diese Land-\nschaft ist begeisternd. Man\nmüßte einmal lange Zeit\nhier sein, um wirklich\nzu arbeiten u. die Atmosphäre\nzu erfassen. Ihnen\nnochmals herzlich dan-\nkend, verbleibe ich\nIhnen ergebenst Ihre\n\nAustria\n\nHerrn\nDr. Stefan Zweig,\n5, Kapuzinerberg\nSalzburg",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adressierung. Briefmarke und Poststempel vorhanden (nicht transkribiert). Der Text am linken Rand ist vertikal geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Vorderseite der Ansichtskarte (identisch mit Seite 1)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz der teilweise engen Linienführung und der vertikalen Ausrichtung am linken Rand.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 635,
+    "total_words": 102,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

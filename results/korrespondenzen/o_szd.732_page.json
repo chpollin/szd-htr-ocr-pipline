@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.732",
+    "title": "Brief an Stefan Zweig vom 6. März 1937, SZ-AAP/B1.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.732/IMG.1",
+      "https://gams.uni-graz.at/o:szd.732/IMG.2",
+      "https://gams.uni-graz.at/o:szd.732/IMG.3",
+      "https://gams.uni-graz.at/o:szd.732/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 6. März 1937, SZ-AAP/B1.14\n- Signatur: SZ-AAP/B1.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:26.981764+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr. Stefan Zweig, Esq.\n49, Hallam Street\nLondon, W. 1\nENGLAND\n\nRef.\nIhr Schreiben vom 26. Febr. 1937 6. März 1937 /F\n\nSehr verehrter Herr Dr. Zweig:\n\nBesten Dank für die Rücksendung der Beilagen.\nWir sandten Ihnen heute einige Probetafeln aus unserer Neuerscheinung:\n\n\" Trachten der Alpenländer \"\n--------------------------\nzu der den Begleittext Herr Baron Hans von Hammerstein schrieb. Für\ndieses Buch ist ein ganz enormes Interesse vorhanden und wir hoffen,\ndass es auch ein guter Verkaufserfolg wird.\nNoch viel besser wird Ihnen aber Gregors Buch gefallen, mit dem wir uns\nalle erdenkliche Mühe gegeben haben. Von dem bedeutenden Text ganz\nabgesehen, ist es wirklich ein kabinettstück guter Buchausstattung.\nAber Sie werden ja sehen !\nWir haben dieser Tage Tiemann telephonisch aufgerufen und ihn gefragt,\nob er nicht doch irgendwie die Einbände für eine \" Gesamtausgabe \"\nmachen kann, ohne Schrift, die wir dann hier setzen lassen würden. Er\nhat dies zugesagt und wir erwarten also täglich die Zeichnungen für\ndiese \" Gesamtausgabe \". Sollten Sie unbedingt wünschen, Tiemanns\nZeichnungen zu sehen, so schreiben Sie bitte rasch. Lieber wäre es uns\nallerdings, wenn Sie auf Tiemanns bewährte Kunst vertrauten und wir\ndafür umso rascher mit den neuen Einbänden herauskämen.",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die violetten Unterstreichungen und Markierungen sind handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nWir erwarten gern Ihre baldige Nachricht und sind dafür im voraus\nbestens dankend und Sie begrüssend\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, es handelt sich um ein Typoskript mit handschriftlichen Ergänzungen/Unterschriften.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2156,
+    "total_words": 318,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

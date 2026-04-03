@@ -1,0 +1,114 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2635",
+    "title": "Die Stadt der Päpste.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA56.3",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2635/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2635/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2635/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2635/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2635/IMG.5"
+    ],
+    "date": "1903",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Berlin",
+      "extent": "3 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Berlin"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift",
+        "hands": [
+          "Unbekannt"
+        ],
+        "inscriptions": [
+          "Vom Fels\n                                 zum Meer"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Die Stadt der Päpste.\n- Signatur: SZ-AAP/W-AA56.3\n- Datum: 1903\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 3 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:50.277466+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1475\n\nDie Stadt der Päpste.\nVon Stefan Zweig. Mit 8 Abbildungen.\n\nSelten fühlt man es so stark, so zwingend, so unmittelbar wie beim Anblick von Avignon: hier haben Gewaltige geherrscht. Andere Städte haben stolze Bauten, sind oft selbst nur Plan und Zeichen ihres einstigen Gebieters, nirgends aber doch sind die Insignien herrischen Besitzes so kraftvoll ausgedrückt wie in der Stadt der Päpste. Die ganze liebliche provenzalische Stadt liegt lässig und friedlich an der tiefblauen Rhone, eine wunderbare Landschaft, durch die Güte der Natur ganz milde und schönheitsbezwingend. Doch über diese weißen Dächer, die in der prallen Sonne flimmern und glühen, über diese weiße See voll Gischt und Schaum ragt stolz und gebietend ein ungeheurer Fels, starrende, wilde, hohe Mauern, der Palast, oder besser gesagt die Burg der Päpste. Und wie ein steinernes Gitter umschließen hohe Festungswälle enge die Stadt, heute noch unverletzt trotz Stürmen und Kämpfen. Und jener breite Steinbogen über die Rhone, den 1177 der heilige Benezet erbaute, und den die Päpste fast zur Festung gestalteten, ist zerbrochen und starrt leer von der Mitte des Stromes zum andern Ufer. Man fühlt, daß eine Zeit des erbittertsten Kampfes diese unzerstörbaren Mauern geschaffen, die Zeit der drei Päpste, die sich nicht nur mit Bannfluch, sondern auch mit Waffen und Burgen bekriegen, jene Epoche der großen Kraftnaturen, deren Brutalität dann in der Renaissance, harmonisiert mit dem Künstlerischen, die grandiosesten Gestalten der Geschichte gegeben hat.\nDiese historische Bedeutung hat Avignon in den Zeiten gewonnen, da die Päpste, aus Italien vertrieben, in Frankreich ihre Heimstätte suchten. In diesen hundert Jahren ist jene ungeheure Feste entstanden, geboten durch die prekäre und von immer neuen Feinden bedrängte Lage der heimatlosen Päpste sowie durch den Mangel an natürlichen Verteidigungsmitteln der flachgelegenen Stadt. Immer stärker wurde der Ring, immer höher und fester die Wälle, eine unerstürmbare Zufluchtsstätte, der sicherste Hort der Tiara. Und als dann die Päpste nach Rom zurückkehrten, nisteten sich die Gegen- päpste ein in dieser Adlerburg, und erst das fünfzehnte Jahrhundert gestaltete Avignon zu einem friedlichen Episkopat der römischen Kirche, der es bis zu den blutigen Tagen des französischen Revolutionsjahres verblieb. Aber trotz jener Jahrhunderte der Stille ist Avignon der Charakter seiner kriegerischen Vorzeit unentwegt gewahrt.\nWie in allen größeren Städten müht sich auch hier die Wirklichkeit sehr, die Empfindungen beim Anblick der großen historischen Denkmäler zu desillusionieren. Die Festung der Päpste ist heute eine französische Kaserne: aus den Luken sieht man lachende Gesichter mit den roten Käppis, auf den Höfen kommandieren unwillige Offiziere Horden von Rekruten. Aber doch sind hier die Dimensionen zu großartig, um den Eindruck des Grabmal von Papst Johann XXII.\n\nDie Papstburg in Avignon.",
+      "notes": "Handschriftliche Annotation oben links: 'Vom fels zum meer 1903'. Typoskript/Zeitungsdruck mit Abbildungen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "1476\n\nDie Kaskade von Vaucluse.\n\nGrandiosen zu verlieren, jene meterdicken Festungswälle, die hohen Türme, von deren flachem Dach im Revolutionsjahr die Gefangenen in die ungesheure Tiefe geschmettert wurden. Und die Kirche Notre-Dame inmitten der Festung, von deren Turm eine vergoldete Gestalt der heiligen Jungfrau überleuchtend und auf Stunden hin sichtbar ins Land flammt, wirkt sehr in ihrer schlichten Art. In ihren Mauern ruht das Grab Johanns XXII., ein schmales, schlank aufsteigendes Denkmal aus weißem Stein ohne Inschrift und Bildnis. Von der Kirche führt dann der Weg durch einen immergrünen Garten hin zu einer breiten Terrasse, von der man mit einem Blick die blühende Landschaft umfaßt. Und da versteht man ganz die Liebe der Päpste zu dieser Residenz, zu dieser ehernen Burg, von der sie ruhig alle Lieblichkeiten eines südländischen Frühlings genießen konnten. Blau und breit strömt unten die Rhone vorbei, in vielen Windungen von der Ferne das helle Land durchschneidend und gerade vor der Burg — die\n\nDie Quelle von Vaucluse.\n\nkleine Insel Barthelasse umfassend. Unten glänzt die weiße Flut der Dächer, die Zinken der Kirchentürme winken schwisterlich herüber, ein Panorama, wundervoll vor allem durch die klaren, reinen Farben und den Azur des Himmels. Vom andern Ufer des Flusses sieht das Fort St. André, dieser massige Bau aus dem vierzehnten Jahrhundert, herüber, die Neustadt ebenso beherrschend wie die Burg der Päpste Alt-Avignon. Von der Ferne glänzt der Turm, von dem Feuerzeichen eine Verbindung zwischen der alten Stadt und der Papstburg bewirkten und vor Ueberfällen schützten. Nichts Schöneres kann man sich denken als diesen Rundblick an einem Frühlingstag, wenn noch die Farben der Aecker sich nicht ganz mit dem reinen Grün der immergrünen Gärten vermählen und die Landschaft sich mit scharfen Linien gegen den kühlklaren Himmel abgrenzt.\nViel noch bietet die Stadt: vielfältige Ausblicke, die immer mit neuem Erstaunen die Schönheit der Gegend begreifen lassen, alte Kirchen, wie St. Pierre,\n\nDas alte Münzamt in Avignon.",
+      "notes": "Zeitungsdruck mit Abbildungen."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "1477\n\nSt. Didier, Val de Benediction, die den künstlerischen Stil ihrer Entstehungszeit (alle etwa Beginn des 13. und 14. Jahrhunderts, eben zu jener Zeit des Papstinterregnums) getreulich bewahrt haben, und schließlich auch ein hübsches Bild einer provenzalischen modernen Stadt, die sich mehr und mehr zwischen die alten Denkmäler drängt. Aber noch eine zarte Erinnerung birgt Avignon, wenn auch nicht ganz innerhalb seiner Mauern, die berühmte Quelle von Vaucluse,\n\nBrücke St. Benezet in Avignon.\n\nunsterblich durch die Erinnerung an die beiden großen Liebenden, an Laura und Petrarca. Zeigt man doch in Avignon in der Kirche sogar die Stelle, da der Dichter seine Geliebte zum erstenmal sah: wie interessant sind dann erst die wirklich historischen Stätten ihrer Liebe, wo Petrarca, der große Gelehrte, eine große Anzahl seiner wunderbaren Sonette schuf. Die Quelle selbst ist weniger bemerkenswert, doch immerhin ist ihre Romantik nicht ganz unwürdig jener des Petrarca, die sie unvergesslich gemacht: in einem grünen Gebirgstal, eingepreßt zwischen Felsen, schießt plötzlich wie eine weiße Lohe das Wasser auf, um dann in rauschendem Sturz zum Tal herabzugleiten, klar und durchsichtig, ein wirklich erquickender Quell. Ueber weiße Wege führt der Weg dann zurück nach Avignon, von Schönheit wieder zu Schönheit, von der Stelle einer großen Liebe in das provenzalische Land, die Heimat zärtlichster Minnelieder und ritterlicher Dichterfahrt, in wahrhaftiges Frühlingsland.\n\nFort St. André in Avignon.\n\nDie Festungswälle von Avignon.",
+      "notes": "Zeitungsdruck mit Abbildungen."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "1478\n\nDer Salonphilosoph.\nStizze von Emil Roland.\n\nEin Salon, in dem Ausschnitte vom „tout Berlin“ verkehren, wo ungewöhnlich viel geflirtet wird, wohin jedoch jeder ohne Bedenken seine Frau mitnehmen kann. Hohe Zimmer voll von Kunst und Blumen — überall behagliche Ecken für Tete-a-tetes.\nEs ist eine Stunde nach dem Diner. Gedämpftes Stimmengewirr und gedämpftes Licht. Viel schöne Kleider mit malerischen Effekten. Die Menschen scheinen wie in einen Nebel getaucht und fühlen sich besonders behaglich, da sie alle wissen, daß man in dem kleidsamen, sorgsam ausgeklügelten Licht, das zur weißen Decke emporgeleitet ist und keine Schatten wirft, besonders günstig aussieht.\nIn einer Ecke, wo sich unter hohen Bücherregalen eine Reihe blasser, dustloser Azalien hinzieht, sitzt ein Paar in bequemen Lehnstühlen — er ein älterer, verwöhnter Junggeselle mit romantischen Augen, einem halb blasierten, halb melancholischen Lächeln, glatt rasiert, eigentlich häßlich — aber von jener Art Häßlichkeit, die Frauen oft schön finden — neben ihm eine elegante, jüngere Frau, die sich sehr für ihn interessiert und gespannt auf jedes seiner Worte lauscht, die er mit einer gewissen Nachlässigkeit, mehr zu sich selbst sprechend, hinwirft.\nSie verehrt in ihm eine Reihe von Eigenschaften, die ihr Mann nicht besitzt. Ihr Mann ist eine Automobilautorität, aber auf intellektuellen Gebieten versagter, während sie eine unglückliche Liebe für Esprit hat.. ihr Mann ist „Ritter der Industrie“, während sie nur die „Ritter vom Geist“ gelten läßt. In ihrem Kopf herrscht anmutige Verworrenheit, eine Untugend, die die meisten Männer als Tugend anrechnen in einer Zeit, die so viel rechthaberische, unbequeme Sicherheit in den meisten Frauennaturen groß zieht . . .\nEr weiß, daß er Orakel für sie ist, und es macht ihm Spaß, sie zu belehren . . .\nSie hat die Personalien der Anwesenden durchgesprochen — er liebt das nicht und kommt auf das Allgemeine . . .\nEr: „Was wir betreiben, ist ja auch nur eine Karikatur von dem, was man in höherem Sinn Geselligkeit nennt. Wir verstehen es ja gar nicht mehr, Feste zu feiern!\n„Ein Diner, das sich in einer halben Etage noch so korrekt abrollt, bei dem zwanzig noch so gut angezogene, noch so gut beleumundete Menschen sich drei Stunden lang ohne Unterschied stereotyp anlächeln — das ist noch lange kein Fest! Ich habe den Renaissancebegriff davon. Ich liebe Feste, wenn die Gastgeber in Rustikapalästen wohnen, wie sie in ernsthafter Schönheit an den Florentiner Straßen stehen — mit brennenden Fackeln in den Eisenringen, bei deren Flackerschein Diener in den Farben des Hauses einem leise aus der Sänfte helfen (statt daß müde, immer ärgerliche Berliner Portier mürrisch aus seinem Verlies herausfraucht, um einen auf Einbruchsmöglichkeit hin zu inspizieren!). An der breiten Freitreppe müssen rechts und links Lorbeerbüsche und Orangenbäume stehen, marmorne Göttinnen und schwere bronzene Kandelaber aus der Werkstatt eines Gian Bologna — (nicht daß man erst bei so und so viel Unterwohnern vorbei muß, deren Namen oft recht unromantisch von den Türschildern blinken, da schönheisendende Leute bei uns selten die teuersten Etagen innehaben) . . . Und statt des Majordomus der Strozzi oder Albizzi reißt uns der Lohndiener, dies melancholische Produkt unserer geselligen Herabgekommenheit, die Tür auf!\n„Eine Abmachung, eine Abfütterung findet statt — von ‚Fest‘ nicht die Spur.\n„Und haben Sie jemals etwas so Lächerliches gesehen, als wenn ein Berliner Diner sich auflöst? Wie sie sich treppab winden, die unförmlich vermummten Gestalten? Die größten Schönheiten, debelliert durch handfeste Galoschen und das Bemühen, die Schleppenvolants vor dem Staub der Treppenläufer zu retten? Voran das Hausmädchen mit schwelender Petroleumleuchte, dummdreist, deutscher Typus, aber anglikanisiert durch weiße Haube, den Hausschlüssel mühsam in das Türschloß bohrend, trinkgeldbereit, verschlafen, unpersönlich...?\n„Sehen Sie, ich hätte seinerzeit sehr gern bei den Medici verkehrt, selbst wenn ich dadurch in noch so fatale Fritteonen mit den Pazzi geraten wäre — meinethalben hätte ich auch gern gelegentlich ein Diner bei Papst Alexander Borgia angenommen unter den Auspizien des „rosinfarbenen Stiers“ — selbst auf die Gefahr hin, der Borgia Gift im goldenen Becher kredenzt zu bekommen! Ich habe nun einmal so viel Sinn für Glanz und feingeistigen Luxus — und Berlin W. befriedigt mich in der Hinsicht ganz und gar nicht. Diese Dinge, die etwas sein sollen und doch nichts Rechtes sind, stimmen mich nur traurig.“\nSie (bestürzt): „Die Borgia?! Aber möchten Sie denn lieber zwischen Meuchelmördern und Giftmischern dinieren? Rechnen Sie die angenehme Sicherheit, die man heutzutage seinen Bekannten gegenüber hat, gar nichts?“\nEr (lächelnd): „Vom polizeilichen Standpunkt betrachte ich die Sache nicht . . . Das Moment des ‚Unbestraftseins‘ hat in meinen Augen wenig suggestiven Reiz. Und ich hätte bei Tisch den wildesten Condottiere der Romagna, einen von Dante in die unterste Höllenbulge verdammten Ueberverbrecher, lieber zum Gegenüber als irgendeinen friedlichen Unterstaatssekretär oder einen sanftmütigen preußischen Minister . . .“\nSie: „Sie sind hart gegen Ihre Zeitgenossen . . .“\nEr: „Nein — ich verfechte die Gegenwart immer",
+      "notes": "Zeitungsdruck. Der Text bricht am Ende der Spalte ab."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den unteren Teil des Textes von Seite 4."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen sauberen Zeitungsdruck handelt. Die wenigen Abkürzungen oder Satzzeichen-Besonderheiten wurden originalgetreu übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 11783,
+    "total_words": 1766,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

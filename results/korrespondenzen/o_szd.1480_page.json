@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1480",
+    "title": "Briefentwurf/Fragment an Stefan Zweig, o. D., SZ-AAP/B2.73",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1480/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1480/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1480/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Briefentwurf/Fragment an Stefan Zweig, o. D., SZ-AAP/B2.73\n- Signatur: SZ-AAP/B2.73\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:36.428301+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Für Jahrbuch des ganz unabhängig von Verlagsinteressen\nnach Weise des Jahres 1924 {eingefügt} ist das ist das ist das ist das [?]\nübrige Inhalt auch noch Null ließ. Der Insel-Almanach ist für mich\nnoch aus früherer Zeit für {eingefügt} eine literarische Spielerei, oder\nreine Spielerei, die wie Art Vorschrift durch das, was in diesem Jahr\nnotig ist. Darauf würde freilich 1924 eine {eingefügt} etwas fleißig abgeben.\nDas ist ja z.B. mit Gedichten die meine Rilke's anfangen & ich finde\nsie stark, ja abscheulich begnadet wie ein dünne feine Kaparten-\nPinne, die jetzt eine erbauliche Gift hat aber doch ganz unnatürlich\nin die Höhe schreibt. Und Däubler, er schreibt auch Sonette aber\nich muss immer an mich selbst denken auch aber doch [?] an\noder ich muss an mich Klar. Fichte am öftersten Abend & ich [?] doch\ngibt diese [?] Generation an und für sich doch\nfeiner und tiefer Geist. Es ist aber nur Text in dem die adeligen\nRömer alle Forten durcheinanderlaufen sind, wie fremd und\ngemein ist aufgegangen, völlig ohne Güte und Gliederung. Aber\nbei beiden, Rilke wie Däubler, immer wieder jene reine wunderbare\nBande! Man müsste schreiben Gott aufschreien, dass er seine\nGaben so verschwendet und vergeudet. Aus dreien von ihnen aus dieser,\ndas rein Abend geworden.",
+      "notes": "Handschriftlicher Briefentwurf, Tinte. Die Lesbarkeit ist aufgrund von Korrekturen und Durchstreichungen teilweise erschwert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "fällen gelöst werden müssen. In manchen Briefen konnte ich [?] \nnicht mehr geben, so renne es den Ausdruck „Mutze“ für eine [?] \nDiese für den 3. Tonell [?] Braupandel; da kommt einfach der Unterschied\nder Naturen zum Ausdruck. Es hat auch seiner Palette nur - darf ich\neinmal gefragt sein? - den farblosen [?] und der kann\nman allenfalls für ein Gewand anwenden. Aber was muss ich sagen,\ndass der Grip mit dem er meine [?] behandelt, aus einer [?] für\ndicht gemacht hat und aber wo mir z.B. sagt, dass er den Sinn des\nAugenblicks ausgeprägt finde, weit jenseits alles was deutschen [?] \nstehen kann“, so denke ich man kann damit zufrieden sein.\nAllerdings glaube ich nicht, dass er ein glücklicher Diener für meine, alles\nsein „reine“, wie Sie mir das gleich gestern anboten, mit weit Geg-\nlinfert, die ich [?] gesagt, in literarischen Kreisen wie [?] \nrecht hätte. Glauben Sie nun bitte nicht, dass ich Sie aus irgendeiner\nWeise auf diese [?] für [?] machen möchte. Ich kann es doch so\ngut wie irgend jemand verstehen, was es bedeutet ganz [?] und\nausgeführt durch alle Kleinarbeit für sich zu arbeiten. Um zu wieder-\nholen was ich schon in einem früheren Brief sagte: Alles, was Sie für\nmich hin wollen, wird mir vollkommen und recht sein; ich möchte\naber durchaus das Gefühl vermeiden als wollte ich gleichfalls auf irgend\nwas.\nAuf diese Brief ist etwas [?] empfangend geworden. Ich wünsche immer\nbest und als bald, bescheiden Sie mich mit [?] Sie mit mir noch\nzu bescheiden können ob Ihnen etwas gut dies sind.\nMit herzlichsten Grüßen.\nIhr dankbar ergebener\nRichard Friedenthal",
+      "notes": "Handschriftlicher Briefentwurf, Tinte. Die Lesbarkeit ist aufgrund von Korrekturen und Durchstreichungen teilweise erschwert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung über den Text gelegt."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr flüchtig, weist zahlreiche Korrekturen, Einfügungen und Durchstreichungen auf. Einige Wörter sind aufgrund der Tintenführung oder der Überlagerung schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2849,
+    "total_words": 482,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

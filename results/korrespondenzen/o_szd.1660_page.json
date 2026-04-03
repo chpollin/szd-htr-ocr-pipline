@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1660",
+    "title": "Unbekannt an Stefan Zweig, SZ-SAM/AK.291",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1660/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1660/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1660/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Stefan Zweig, SZ-SAM/AK.291\n- Signatur: SZ-SAM/AK.291\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:53.135166+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "26/V. 12\n\nLübeck. Haus der Schiffergesellschaft",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Datierung oben links, gedruckter Text unten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nStefan Zweig\nWien VIII\nKochgasse 8\n\nZ.Z. Lübeck 26 Mai 12 (Berlin Wilmersdorf\nJenaerstr. 3)\nLieber Herr Zweig, Ihr Brief ist mir\nnachgeschickt worden. In einigen Tagen\nbin ich wieder in Berlin und werde Ihnen\nausführlich antworten. Selbstverständlich\nstehe ich ganz zu Ihrer Verfügung: schreiben\nSie mir nur ruhig welche Auftragen über\nDostojewski Sie noch auf dem Herzen haben.\nNebenbei bemerkt bereitet Professor Masaryk\n(Prag - für Diederichs Jena) ein zweibändiges\nWerk über das russische Problem vor, in dessen\nMittelpunkt Dostojewski steht. Ich\nhabe mich kürzlich mit ihm darüber\n{besprochen} und freue mich, dass Sie mich noch nicht ganz vergessen\nhaben. Ich werde Ihnen, sobald ich\n{wieder} zurück bin, zu machen, er ist ja\nals übersetzer oft in Wien -",
+      "notes": "Rückseite der Ansichtskarte. Adressfeld gedruckt, Nachricht handschriftlich. Der Text am linken Rand ist vertikal geschrieben. Die Einfügungen {besprochen}, {wieder} sind über der Zeile ergänzt. Der Text am linken Rand scheint eine Fortsetzung oder Ergänzung des Haupttextes zu sein."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der vertikalen Randnotiz und der handschriftlichen Kursivschrift.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 813,
+    "total_words": 127,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

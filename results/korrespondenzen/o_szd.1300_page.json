@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1300",
+    "title": "Ansichtspostkarte an Alfred Zweig vom 9. August 1936, SZ-SEF/B10",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1300/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1300/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1300/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Alfred Zweig vom 9. August 1936, SZ-SEF/B10\n- Signatur: SZ-SEF/B10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:26.961907+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "ROYAL MAIL TURBINE STEAMER \"ALCANTARA\" (TWIN SCREW 22.209 TONS GROSS)\nSOUTH AMERICAN SERVICE",
+      "notes": "Vorderseite der Postkarte mit Bildunterschrift."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Alfred, wie du siehst\nbin ich also\nauf dem unterwegs\ndas Schiff ist ausgezeichnet\nwas man erhofft und auf\neiner solchen Fahrt. Alles\nGute für dich der Stefa\nne. Herzlichst\nStefan\n\nAlfred Zweig\nWien I (Austria)\nEsslinggasse 16",
+      "notes": "Rückseite der Postkarte. Der Text ist handschriftlich in violett. Die Adresse ist ebenfalls handschriftlich. Es gibt einen Poststempel 'CHERBOURG MANCHE' und einen weiteren 'POSTED ON THE HIGH SEAS -8 AUG 1936'. Briefmarke: 1 1/2 Penny (King George V)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Alfred, wie du siehst\nbin ich also\nauf dem unterwegs\ndas Schiff ist ausgezeichnet\nwas man erhofft und auf\neiner solchen Fahrt. Alles\nGute für dich der Stefa\nne. Herzlichst\nStefan\n\nAlfred Zweig\nWien I (Austria)\nEsslinggasse 16",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Maßstab abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Zeilenumbrüche wurden gemäß der Vorlage übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 556,
+    "total_words": 91,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

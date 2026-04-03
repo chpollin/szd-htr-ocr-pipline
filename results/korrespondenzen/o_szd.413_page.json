@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.413",
+    "title": "Akira Osawa an Stefan Zweig, 1921-02-25, SZ-SAM/AK.131",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.413/IMG.1",
+      "https://gams.uni-graz.at/o:szd.413/IMG.2",
+      "https://gams.uni-graz.at/o:szd.413/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Akira Osawa an Stefan Zweig, 1921-02-25, SZ-SAM/AK.131\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.131\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.695667+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4833 Zürich von der Universität aus",
+      "notes": "Vorderseite einer Ansichtskarte mit Stadtansicht von Zürich. Gedruckter Text oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "den 25. Februar 1921\nZürich\nLieber Herr Stefan Zweig\nIch muss Sie bitten um\nverziehen weil ich nicht\nmein Verheissen erfüllen\nkann. Ich muss nach\nItalien wiederkehren\nweil ich fast alles, was\nmein Professor mir gegeben\nverbraucht habe. Ich habe\nauch ganz vergessen dass\nein Freund mich wartet\nin Rom, der ist von Japan neu\nangekommen. Erlauben\nSie mir noch einmal zu wünschen\nIhnen zu kommen.\nOsawa.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke oben rechts (25 Rappen, Helvetia). Vertikaler Aufdruck am linken Rand: 'EDITION PHOTOGLOB ZÜRICH'. Die Zeilenumbrüche im Textkörper sind teilweise durch die vertikale Trennlinie der Postkarte beeinflusst."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "den 25. Februar 1921\nZürich\nLieber Herr Stefan Zweig\nIch muss Sie bitten um\nverziehen weil ich nicht\nmein Verheissen erfüllen\nkann. Ich muss nach\nItalien wiederkehren\nweil ich fast alles, was\nmein Professor mir gegeben\nverbraucht habe. Ich habe\nauch ganz vergessen dass\nein Freund mich wartet\nin Rom, der ist von Japan neu\nangekommen. Erlauben\nSie mir noch einmal zu wünschen\nIhnen zu kommen.\nOsawa.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen (Grauskala #13 und Farbkarte #13) am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der handschriftlichen Natur und der teilweise durch die Postkartenstruktur bedingten Zeilenumbrüche.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 833,
+    "total_words": 140,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

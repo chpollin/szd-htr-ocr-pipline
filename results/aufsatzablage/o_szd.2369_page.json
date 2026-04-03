@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2369",
+    "title": "Romane, Zwei historische",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA166.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2369/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2369/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Zwei historische\n                        Romane\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Romane, Zwei historische\n- Signatur: SZ-AAP/W-AA166.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Zwei historische\n                        Romane\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:11.933990+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Romane, Zwei historische\n(Richard Friedenthal, Klaus Mann)\n\nZwei historische Romane\nRichard Friedenthal: Der Eroberer\nKlaus Mann: Alexander",
+      "notes": "Handschriftliches Dokument auf Papier. Zwei verschiedene Handschriften/Tintenfarben erkennbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Ausschnitt eines Papierstreifens, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Zwei historische Romane\nRichard Friedenthal: Der Eroberer\nKlaus Mann: Alexander",
+      "notes": "Ausschnitt des Dokuments, zeigt den unteren Teil mit dem Titel und den Autoren."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite des Papierstücks."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Romane, Zwei historische\n(Richard Friedenthal, Klaus Mann)",
+      "notes": "Ausschnitt des Dokuments, zeigt den oberen Teil mit der Notiz."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite des Papierstücks."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Romane, Zwei historische\n(Richard Friedenthal, Klaus Mann)\n\nZwei historische Romane\nRichard Friedenthal: Der Eroberer\nKlaus Mann: Alexander",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Keine Unklarheiten bei der Transkription.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 415,
+    "total_words": 51,
+    "language_detected": "",
+    "language_match": true
+  }
+}

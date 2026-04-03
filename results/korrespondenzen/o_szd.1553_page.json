@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1553",
+    "title": "Brief an Richard Friedenthal vom [August 1926], SZ-AAP/B2.27",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1553/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1553/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1553/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom [August 1926], SZ-AAP/B2.27\n- Signatur: SZ-AAP/B2.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:41.734161+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "ca. 11.8.26\n\nLieber Freund, in einer Stunde fahre ich, also nur flüchtigst\nein paar Worte. Ich habe lange noch mit den Conquistadoren\nbenächtigt, sie sind bis Cecil Rhodes herab alles Zweitgeborene,\nBastarde, immer Halbritterblut — Ritter also dem Geblüt nach, aber\naus der Carriere gestossen nur mit der Brutalität der gleichzeitg\nGetretenen in das Abenteuer hinaus. Diese Mischung müssen Sie\ndarstellen!\nIm Einzelnen finde ich Alles sehr plastisch, einzig stören mich die neu-\ntischen Worte „einer seiner Ahnen“, „Onkel statt Oheim“, „Herrn\nstatt Hidalgos“, „Meditationen“, „Kolonialamt“ — es frisst „indische\nAmt“ viel fernerher. Nur so fort: „directer Bericht“ — alles das\nschmeckt jetzt nach frisch, nach heute. Hier müssten Sie, ohne alles\nAltertümeln das ihr verabschiede, doch zeitlosere, substanziellere,\nspanischere Worte wählen, eventuell aus alten Lexicas. Für „Sub-\nalternoffiziere“ gibt es gewiss einen saftigeren simulireren Ausdruck.\nDies nur im Hast! Sie verstehen mich gewiss. Im\nGanzer finde ich die Meinung von Heroischem und Bilgeiren\nvortrefflich — ich würde sie aber noch besonders vom Bastardi-\nschen ableiten und erklären etwa dass einer im Zorne solche\nReden führt: man sieht, er seiner Mütter fer ist er.\n\nIhr treu abreisender\n\nStefan Zweig",
+      "notes": "Handschriftlicher Brief von Stefan Zweig an Richard Friedenthal. Die Tinte ist violett. Das Papier weist zwei Lochungen am linken Rand auf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Man sieht den Durchdruck der Tinte von der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung, über das Dokument gelegt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift Zweigs. Einige Wörter wie 'simulireren' oder 'Bilgeiren' sind orthographisch eigenwillig oder schwer zu entziffern, wurden aber kontextuell transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1267,
+    "total_words": 189,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

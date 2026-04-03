@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1204",
+    "title": "Brief an Anna Meingast vom 18. April 1934, SZ-SAM/B7.34",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1204/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1204/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 18. April 1934, SZ-SAM/B7.34\n- Signatur: SZ-SAM/B7.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.616071+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place\n\nLondon, den 18.4.34.\n\nLiebe Frau Meingast!\n\nBitte schreiben Sie Herrn Lindenfeld nach\nWarschau, dass der Erasmus nur in einer bibliophilen Aus-\ngabe in einer beschränkten Auflage in Deutschland erscheint\nund ihm dann gleich ein Exemplar für die polnische Ausgabe\nzugeht. Herrn Willi Haas schreibe ich direkt.\n\nMit besten Grüssen Ihr\n\nS.Z.\n\nIch lasse Johann herzlich\nfür seinen Brief danken.\nHerr Dr hätte mich sehr\nüber die Nachrichten über Kaspi\ngefreut.\nGrüsse an alle!",
+      "notes": "Der Text besteht aus einem maschinengeschriebenen Teil und einem handschriftlichen Nachtrag in violetter Tinte. Die Unterschrift 'S.Z.' ist ebenfalls handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, sowohl der maschinengeschriebene Teil als auch die handschriftlichen Ergänzungen von Stefan Zweig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 490,
+    "total_words": 76,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

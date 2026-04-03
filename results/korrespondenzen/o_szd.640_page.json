@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.640",
+    "title": "Léon Bazalgette an Stefan Zweig, 1903-12-31, SZ-SAM/AK.7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.640/IMG.1",
+      "https://gams.uni-graz.at/o:szd.640/IMG.2",
+      "https://gams.uni-graz.at/o:szd.640/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Léon Bazalgette an Stefan Zweig, 1903-12-31, SZ-SAM/AK.7\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.940091+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "31 déc 1903 - Cher Monsieur Zweig, merci\nde votre lettre et de toute le chose aimable qu'elle\ncontient. Recevez mes vœux bien sincère. Je serai content\nde vous voir à Paris l'an prochain.\n\nIl y aura un banquet en\nhonneur de Verhaeren le 23 Janvier\nà Paris. Vous pourriez écrire une petite\nlettre qui serait lue ou citée à la fin\ndu banquet, pour prouver qu'à Vienne on\nle connaît et on l'aime. Votre cordialement [?]",
+      "notes": "Handschriftliche Postkarte, französischsprachig. Die Unterschrift ist schwer lesbar, vermutlich 'Bazalgette'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTAL\nCe côté est exclusivement réservé à\n\nMonsieur Stefan Zweig\n\nI, Rathausstrasse (18)\nVienne\n(Autriche)",
+      "notes": "Adressseite der Postkarte. Gedruckte Formularvorgaben kombiniert mit handschriftlicher Adresse. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "CARTE POSTAL\nCe côté est exclusivement réservé à\n\nMonsieur Stefan Zweig\n\nI, Rathausstrasse (18)\nVienne\n(Autriche)",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, lediglich die Unterschrift auf der ersten Seite ist aufgrund der flüchtigen Handschrift schwer zu entziffern.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 642,
+    "total_words": 109,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

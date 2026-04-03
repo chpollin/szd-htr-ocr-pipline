@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.449",
+    "title": "Cecil Roth an Stefan Zweig, 1934-08-03, SZ-SAM/AK.165",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.449/IMG.1",
+      "https://gams.uni-graz.at/o:szd.449/IMG.2",
+      "https://gams.uni-graz.at/o:szd.449/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Cecil Roth an Stefan Zweig, 1934-08-03, SZ-SAM/AK.165\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.165\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.072240+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Postkarte mit einer Abbildung der Loggia dei Lanzi in Florenz. Oben rechts handschriftlich '4. 8. 34'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mr Stefan Zweig.\nKapuzinerberg 5\nSalzburg Austria\n\n3. VIII. 34.\n\nMany thanks for your\nnote about my \"Nephew of the\nalmighty\". I am sure that Brothers\nhimself would have appreciated\nwhat you say. We are here for\na few weeks for holiday & study\n& antique searching; but I hope\nthat you will come & see us after\nour return. My wife sends her kindest\nregards. Cecil Roth.",
+      "notes": "Rückseite der Postkarte. Handschriftliche Nachricht in englischer Sprache. Die Adresse ist teilweise durchgestrichen und korrigiert (ursprünglich 'H. Portland Place, London W.', dann 'Kapuzinerberg 5, Salzburg Austria' darüber geschrieben). Briefmarke und Poststempel 'FIRENZE' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Gesamtansicht der Postkarte mit Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der Korrekturen in der Adresszeile.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 367,
+    "total_words": 68,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

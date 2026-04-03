@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1212",
+    "title": "Postkarte an Anna Meingast vom 15. August 1934, SZ-SAM/B7.42",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1212/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1212/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 15. August 1934, SZ-SAM/B7.42\n- Signatur: SZ-SAM/B7.42\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.182780+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "POSTKARTE  CARTE POSTALE  CARTOLINA POSTALE\n\nDAVOS — PARSENNBAHN\n\nFrau Anna Meingast\n\nSalzburg Österreich\nKapuzinerberg",
+      "notes": "Adressseite der Postkarte. Poststempel: KLOSTERS 15.VIII.34-9."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, ich möchte\nSie bitten, falls ich nicht abreise\nSonntag gegen 4 Uhr nachmittags\nbei mir oben zu sein. Vielleicht\nkomme ich schon Samstag spät\nnachmittags, aber es ist nicht\nwahrscheinlich. Bitte sagen Sie\nniemandem, wann ich komme,\nich habe furchtbar viel zu tun,\nda ich ja Montag nach Wien\nweiter muss. Herzlichen Gruß\nS. Z.",
+      "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Identifikation der Ortsangabe 'Kapuzinerberg' ist aufgrund der bekannten Wohnadresse von Stefan Zweig in Salzburg sicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 464,
+    "total_words": 72,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

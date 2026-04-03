@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.782",
+    "title": "Brief an Stefan Zweig vom 7. März 1938, SZ-AAP/B1.185",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.782/IMG.1",
+      "https://gams.uni-graz.at/o:szd.782/IMG.2",
+      "https://gams.uni-graz.at/o:szd.782/IMG.3",
+      "https://gams.uni-graz.at/o:szd.782/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 7. März 1938, SZ-AAP/B1.185\n- Signatur: SZ-AAP/B1.185\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:31.422076+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef. Freiexemplare\n7.März 1938 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir erhielten das Schreiben Ihres Sekretariats und schicken Ihnen\ndie beiliegende Aufstellung über die Anzahl der Ihnen noch zustehen-\nden Freistücke.\nWir wünschen, Ihnen die ~~sämtlichen~~ Ihnen zustehenden Exemplare zu\nschicken und bitten Sie um umgehenden Bescheid,ob Sie damit ein-\nverstanden sind,dass wir Ihnen die 370 Bände durch unseren Spediteur\ndirekt nach London zustellen.Sie täten uns einen grossen Gefallen,\nwenn Sie uns dieser Verpflichtung,die Exemplare hier reserviert zu\nhalten,entledigen würden.\nZu unserer Aufstellung ist zu bemerken,dass die Freiexemplare der\nsämtlichen früher erschienenen Bücher und Auflagen abgerechnet worden\nsind,so am 31.Dezember 1935,30.Mai 1936 (für \"Fouché\",\"Heilung\" und\n\"Castellio\"),31.Oktober 1936 (für \"Kette\" und \"Kaleidoskop\").Die\nFreistücke für \"Händel\" und \"Leuchter\" haben Sie restlos erhalt en.\n\nWir bitten Sie um freundliche Kenntnisnahme der beiliegenden Auf-\nstellung und sind im voraus bestens dankend\nmit verbindlicher Begrüssung",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist eine Faksimile-Signatur (gedruckt oder gestempelt). Die Unterstreichungen im Text sind handschriftlich mit rotem Stift ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef. \n7.März 1938 /F\n\nFreiexemplare-Aufstellung per 28.Februar 1938\n--------------------------------------------\n\nWerk           Auflage  Auflagenhöhe  Freistücke  Sie erhielten  Guthaben\nBegegnungen      1.        5700\n\"                2.        3800\n               Summe 9500    30/1100 = 259      111          148\n\nMagellan         1.        7600\n\"                2.        4000\n               Summe 11600   30/1100 = 316      132          184\n\nMaria Stuart     5.        2800    15/1100 = 38        0           38",
+      "notes": "Typoskript auf Geschäftspapier (Beilage zum Brief). Die Unterschrift ist eine Faksimile-Signatur."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2448,
+    "total_words": 302,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

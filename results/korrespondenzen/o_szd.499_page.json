@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.499",
+    "title": "Hedwig Braun an Stefan Zweig, 1930-01-19, SZ-SAM/AK.21",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.499/IMG.1",
+      "https://gams.uni-graz.at/o:szd.499/IMG.2",
+      "https://gams.uni-graz.at/o:szd.499/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Hedwig Braun an Stefan Zweig, 1930-01-19, SZ-SAM/AK.21\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.21\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.415833+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hedwig Braun\n19. I. 30\n\nKöbenhavn. Det kgl. Teater",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Königlichen Theater in Kopenhagen. Handschriftliche Notiz oben links und rechts, gedruckter Text unten links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nSalzburg\nAustria\n\n[Absender:]\nHedwig Braun Wien\n(z.Zt. Kopenhagen)\nIX Porzellangasse 22 a\n\nLieber Herr Doktor Stefan Zweig,\nich habe heute abend hier im König-\nTheater eine ausgezeichnete Aufführung des\nVolpone gesehen. Der König und die Königin,\ndie in ihrer Loge allein saßen, haben sich, ebenso\nwie das übrige Publikum (es war ausverkauft)\nausgezeichnet unterhalten. - Ich bin im Auftrag\nmeiner Mutter auf eine Reise Norwegen Schweden\nDänemark für einige Tage hier in Kopenhagen,\nund wollte Ihnen nur „berichten“ wie „Volpone“\ndem Kopenhagener gefallen hat, ist das [?] bekannt",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (Hälsingborg 15.1.30) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Ein Wort am Ende des Textes auf Seite 2 ist leicht unklar ('ist das [?] bekannt').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 653,
+    "total_words": 101,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

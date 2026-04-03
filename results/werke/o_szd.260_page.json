@@ -1,0 +1,88 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.260",
+    "title": "Autobiographischer Aufsatz",
+    "language": "de",
+    "collection": "werke",
+    "shelfmark": "SZ-AP2/W-H33a",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.260/IMG.1",
+      "https://gams.uni-graz.at/o:szd.260/IMG.2"
+    ],
+    "date": "[1936]",
+    "document_type": "typescript",
+    "repository": "Reed Library – Stefan Zweig Collection",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Autobiographisches"
+      ],
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Reed Library – Stefan Zweig Collection",
+        "repository_gnd": "http://d-nb.info/gnd/2156743-8",
+        "country": "USA",
+        "settlement": "Fredonia"
+      },
+      "provenance": [
+        "Erben Stefan Zweigs, London",
+        "Erwerb: Schenkung der Erben Stefan Zweigs\n                                            2002"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, violette Stempelfarbe",
+        "dimensions": "25x21 cm"
+      },
+      "notes": "Unterschrift-Stempel auf letztem Blatt"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Autobiographischer Aufsatz\n- Signatur: SZ-AP2/W-H33a\n- Datum: [1936]\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, violette\n                                                  Stempelfarbe\n- Anmerkungen: Unterschrift-Stempel auf letztem Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:51.959574+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Ich bin am 28.November 1881 in Wien geboren,\nstudierte dann Philosophie. Aber mein wirkliches Studium\nbegann mit weiten Reisen durch ganz Europa, Amerika, Indien,\nmeine innere Belehrung durch die Freundschaft mit den wesent-\nlichen Führern meiner Generation, Verhaeren, Romain Rolland,\nFreud und Rilke. Grundzug meines Wesens ist immer eine star-\nke psychologische Neugier gewesen; ich versuchte sie zuerst\nin novellistischen Darstellungen von Einzelschicksalen frucht-\nbar zu machen (Amok, Verwirrung der Gefühle und literarische\nEinzelstudien wie Dostojewski, Tolstoi, Balzac). Erst mit dem\nKriege, der für mich eine tiefe seelische Erschütterung und\nstärkste moralische Lehre war, begann mich die Geschichte an-\nzuziehen; ich wandte ihr ein neues Studium entgegen, um bes-\nser unsere Gegenwart zu begreifen und besonders die kritischen\nUnsturzepochen der Vergangenheit gaben mir Analogien zur Ge-\ngenwart (Fouché, Marie Antoinette, Erasmus). - Nach dem Kriege\nlebte ich viele Jahre in Salzburg, und erst vor einigen Jahren\nhabe ich mich nach London zurückgezogen, wo ich einen grossen\nTeil des Jahres lebe, um ruhig zu arbeiten. Die übrige Zeit\nunternehme ich grössere und kleinere Reisen, die mir immer\nwieder neue Anregung und Belehrung geben. - Seit dem Kriege\nhabe ich die Verpflichtung gefühlt, möglichst ausschliesslich\nin einem Sinne zu schaffen, der unserer Zeit förderlich sein\nkann: durch Erhellung der Vergangenheit, durch Anruf an die",
+      "notes": "Typoskript auf dünnem Papier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Gegenwart, denn ich glaube, dass nur jene Leistung als\ngültige betrachtet werden kann, welche die Vereinheitlichung\nder Menschheit fördert und das gegenseitige Verständnis von\nVölkern und Nationen steigert. Ich habe rein instinktiv von\nallem Anbeginn an immer auf das Allmenschliche geblickt und\nübernational gedacht; ich empfinde es darum (ohne jeden\nStolz) als besondere Beglückung, dass die Wirkung meiner\nBücher auch eine übernationale geworden ist, und so wie\nich selbst die ganze Welt als meine Heimat fühle, auch\nmeine Bücher in allen Sprachen der Erde Heimat und Freund-\nschaft gefunden haben.\n\nStefan Zweig",
+      "notes": "Typoskript auf dünnem Papier. Die Unterschrift ist ein violetter Stempel."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die Unterschrift auf der zweiten Seite ist als Stempel erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2064,
+    "total_words": 304,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

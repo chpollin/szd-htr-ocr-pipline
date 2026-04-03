@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1584",
+    "title": "Briefkarte an Erich Ami Kaemmerer vom 8. Januar 1940, SZ-SHB/B3.3",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1584/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1584/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Briefkarte an Erich Ami Kaemmerer vom 8. Januar 1940, SZ-SHB/B3.3\n- Signatur: SZ-SHB/B3.3\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:43.978199+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "M. E. Kaemmerer\n\nKobe (Japan)\nP. O. Box 35",
+      "notes": "Adressseite einer Postkarte. Handschrift in violetter Tinte. Poststempel: BATH 6 45PM 8 JAN 1940. Briefmarke: 1/2d Revenue/Postage."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dear E. A. Kaemmerer, & many thanks\nfor your kind wishes. I have\nleft London and live now permanently\nin Bath (Lyncombe Hill) - quite isolated\nby the war from my friends and doing quickly\nmy work in this turmoil. I hope one day\nto see you again - in Japan or here. Last\nyear I was fairly near to you, in San Francisco\non a lecture tour and I felt all the pleasure\nof voyage and adventure. Yours Stefan Zweig",
+      "notes": "Nachrichtenseite der Postkarte. Gedruckter Briefkopf: LYNCOMBE HILL, BATH. TELEPHONE: BATH 4983. Handschrift in violetter Tinte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist klar, die Tinte ist gut erhalten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 449,
+    "total_words": 90,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

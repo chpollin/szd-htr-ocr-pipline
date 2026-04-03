@@ -1,0 +1,94 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2416",
+    "title": "Tomás Masaryk",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA137.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2416/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2416/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2416/IMG.3"
+    ],
+    "date": "1937",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Farbband"
+      },
+      "notes": "Veröffentlicht unter dem Titel \"An der Bahre Th. G.\n                        Masaryks\", Die Wahrheit, Prag, 15. September 1937"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Tomás Masaryk\n- Signatur: SZ-AAP/W-AA137.1\n- Datum: 1937\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violettes\n                                       Farbband\n- Anmerkungen: Veröffentlicht unter dem Titel \"An der Bahre Th. G.\n                        Masaryks\", Die Wahrheit, Prag, 15. September 1937"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:17.566177+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "In dem Parlamente des alten Oesterreich waren eminente\nPolitiker, glänzende Redner, berühmte Parteiführer - ein Einziger\nhatte im geheimen mehr Macht als sie alle, nämlich moralische\nAutorität. In allen Gewissensfragen, in den berühmten Prozessen\nhat damals Masaryk die Wahrheit über den Vorteil gestellt, ein\nFanatiker der absoluten Gerechtigkeit und jederzeit bereit, ihr\nMartyrer zu werden: so begleitete ihn, schon als er äusserlich\nnur ein unscheinbarer Professor war, unsere leidenschaftliche Hoch-\nachtung. Sein Volk vermochte sich nicht besser zu ehren, als dass\nes ihn, den reinsten Ausdruck eines unbeugsam sittlichen Prinzips,\nan die höchste Stelle und vor das Forum der Weltgeschichte berief:\nso konnten wir endlich, endlich einmal die republikanische Uridee,\ndass die oberste Macht innerhalb der Volksgemeinschaft vom wahr-\nhaft Würdigsten und nicht, ie gewöhnlich, bloss von einem Partei-\nmann verwaltet werde, in Europa erfüllt sehen und zwar vorbild-\nlich erfüllt. Masaryks Erscheinung in unserer politischen, allzu\npolitischen Welt ist eine geistige Wohltat für alle, die an die\nendgiltige Ueberlegenheit des Gedankens über die Geschicklichkeit,\nder Redlichkeit über die Winkelzüge glauben: möge seine hohe\nGestalt noch lange aufrecht vor der unermesslichen Aufgabe der\nBefriedung und Einigung Europas stehen !\n\nStefan Zweig",
+      "notes": "Typoskript auf Papier. Der Text ist gut lesbar, weist jedoch leichte Unregelmäßigkeiten im Druckbild auf (typisch für Schreibmaschinen-Durchschläge)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "In dem Parlamente des alten Oesterreich waren eminente\nPolitiker, glänzende Redner, berühmte Parteiführer - ein Einziger\nhatte im geheimen mehr Macht als sie alle, nämlich moralische\nAutorität. In allen Gewissensfragen, in den berühmten Prozessen\nhat damals Masaryk die Wahrheit über den Vorteil gestellt, ein\nFanatiker der absoluten Gerechtigkeit und jederzeit bereit, ihr\nMartyrer zu werden: so begleitete ihn, schon als er äusserlich\nnur ein unscheinbarer Professor war, unsere leidenschaftliche Hoch-\nachtung. Sein Volk vermochte sich nicht besser zu ehren, als dass\nes ihn, den reinsten Ausdruck eines unbeugsam sittlichen Prinzips,\nan die höchste Stelle und vor das Forum der Weltgeschichte berief:\nso konnten wir endlich, endlich einmal die republikanische Uridee,\ndass die oberste Macht innerhalb der Volksgemeinschaft vom wahr-\nhaft Würdigsten und nicht, ie gewöhnlich, bloss von einem Partei-\nmann verwaltet werde, in Europa erfüllt sehen und zwar vorbild-\nlich erfüllt. Masaryks Erscheinung in unserer politischen, allzu\npolitischen Welt ist eine geistige Wohltat für alle, die an die\nendgiltige Ueberlegenheit des Gedankens über die Geschicklichkeit,\nder Redlichkeit über die Winkelzüge glauben: möge seine hohe\nGestalt noch lange aufrecht vor der unermesslichen Aufgabe der\nBefriedung und Einigung Europas stehen !\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, jedoch mit Archiv-Farb- und Grauskala am oberen bzw. unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr klar und gut lesbar. Es gibt keine nennenswerten Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2682,
+    "total_words": 382,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

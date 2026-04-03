@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2777",
+    "title": "Bekenntnis zum Defaitismus",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA15.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2777/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2777/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2777/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2777/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2777/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2777/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2777/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift:\n                        \"Autographensammeln\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Bekenntnis zum Defaitismus\n- Signatur: SZ-AAP/W-AA15.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift:\n                        \"Autographensammeln\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:04.896140+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bekenntnis zum Defaitismus\n\n\n\n\n\nAutographensammeln\n\n\nTitel\n(siehe A Rimbaud) Vom Autographensammeln\n„Habent sua fata libelli“",
+      "notes": "Handschrift in violetter Tinte auf Papier. Es handelt sich um ein Deckblatt oder eine Notiz zu einer Sammlung."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Autographensammeln\n\n\nTitel\n(siehe A Rimbaud) Vom Autographensammeln\n„Habent sua fata libelli“",
+      "notes": "Handschrift in violetter Tinte. Ausschnitt/Detailaufnahme des unteren Teils des Dokuments."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Bekenntnis zum Defaitismus",
+      "notes": "Handschrift in violetter Tinte. Ausschnitt/Detailaufnahme des oberen Teils des Dokuments."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Bekenntnis zum Defaitismus\n\n\n\n\n\nAutographensammeln\n\n\nTitel\n(siehe A Rimbaud) Vom Autographensammeln\n„Habent sua fata libelli“",
+      "notes": "Gesamtaufnahme des Dokuments mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar und kurz. Die Transkription ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 369,
+    "total_words": 42,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.633",
+    "title": "Oskar Maurus Fontana an Stefan Zweig, 1926-08-15, SZ-SAM/AK.63",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.633/IMG.1",
+      "https://gams.uni-graz.at/o:szd.633/IMG.2",
+      "https://gams.uni-graz.at/o:szd.633/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Oskar Maurus Fontana an Stefan Zweig, 1926-08-15, SZ-SAM/AK.63\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.63\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.404614+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "522 PARIS - Vue sur la Seine\nLe Quai du Louvre LIP\n15. VIII - 26",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text oben links, handschriftliches Datum links unten."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "LES EDITIONS ARTISTIQUES\nParis et ses Merveilles\n\nLieber Stefan Zweig,\nich danke Ihnen für die\nStadt, von Ihren Merk-\nwürdigkeiten Sie schon\nim [?] Beethoven\narbeiteten, in guter Freund-\nschaft. Schade, dass Sie nicht\nmit da sind.\nHerzlichst Ihr\nOskar Maurus Fontana\nVorher war ich in Belgien. Und\nda Sie mit mir - Weg -\n\nMr.\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarken und Poststempel vorhanden (Paris, 17. VIII. 26)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. In der Mitte die bereits transkribierte Postkarte (Rückseite)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere bei den Zeilenumbrüchen und dem Wort vor 'Beethoven'. Der Textfluss ist durch die vertikale Ausrichtung und die Überlagerung mit dem gedruckten Text der Postkarte erschwert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 431,
+    "total_words": 78,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

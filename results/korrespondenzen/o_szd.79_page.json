@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.79",
+    "title": "Verlagsvertrag Casa Editrice A. Mondadori, SZ-AAP/L13.2",
+    "language": "it",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.79/IMG.1",
+      "https://gams.uni-graz.at/o:szd.79/IMG.2",
+      "https://gams.uni-graz.at/o:szd.79/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Casa Editrice A. Mondadori, SZ-AAP/L13.2\n- Signatur: SZ-AAP/L13.2\n- Sprache: Italienisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:32.903517+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "C.C.I. MILANO N° 75065\n\nCasa Editrice A. Mondadori\nSOCIETÀ ANONIMA - CAPITALE INTERAMENTE VERSATO L. 18.000.000\n\nDIREZIONE GENERALE\nav/pf\nMilano, 26 Luglio 1932 X°\nVIA MADDALENA, N° 1.\nTELEFONO: 85-392\n\nVertrag\nMarie Antoinette\n\nTra il Signor STEPHAN ZWEIG e la Casa Editrice A.\nMONDADORI si conviene quanto segue:\n\n1°) - Il Signor Stephan Zweig cede alla Casa Editrice\nA. Mondadori il diritto di traduzione e pubblica-\nzione in lingua italiana del suo volume \"MARIA ANTO-\nNIETTA\", da includersi nella Collezione \"Le Scie\".\nDichiara esso cedente che l'opera è di sua esclusiva\nproprietà, non caduta in pubblico dominio e non ad\naltri ceduta.\n\n2°) - In compenso di tale cessione la Casa Editrice\nA. Mondadori corrisponderà all'autore una percentuale\ndel 10% (dieci per cento) sul prezzo di copertina\ndelle copie effettivamente vendute.\n\n3°) - I rendiconti saranno dati all'autore ogni seme-\nstre, possibilmente entro il mese di marzo e di set-\ntembre di ogni anno.\n\n4°) - La Casa Editrice A. Mondadori si impegna a\npubblicare l'edizione italiana del volume entro il\n31 Dicembre 1932.\n\n5°) - All'autore spetteranno tre copie gratuite del\nvolume.\n\nLetto, approvato e sottoscritto.\n\nSocietà Anonima A. MONDADORI\nIL CONSIGLIERE DELEGATO",
+      "notes": "Typoskript auf offiziellem Briefpapier der Casa Editrice A. Mondadori. Handschriftliche Notiz am linken Rand: 'Vertrag Marie Antoinette'. Unterschrift des Verlagsvertreters in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Notiz am Rand ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1231,
+    "total_words": 194,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

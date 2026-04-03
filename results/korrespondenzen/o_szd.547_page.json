@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.547",
+    "title": "Arnold Zweig an Stefan Zweig, 1932-03-28, SZ-SAM/AK.255",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.547/IMG.1",
+      "https://gams.uni-graz.at/o:szd.547/IMG.2",
+      "https://gams.uni-graz.at/o:szd.547/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Arnold Zweig an Stefan Zweig, 1932-03-28, SZ-SAM/AK.255\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.255\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:17.004935+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "28.3.32.\n\nCairo – The Citadel.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Text 'Cairo – The Citadel.' und handschriftlichem Datum '28.3.32.' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Austria\n\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nKairo, 28.3.32\nLiebes A.Z., da in der\nZeitung steht, Sie seien\nin Amerika, lieber vermu-\nte ich Sie daheim. Ich wer-\nde es wohl selbst sein,\nund zwar abwesend.\nHerzlichen Gruß\nBesten Gruß Beatrice Zweig.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlicher Adresse und Nachricht. Briefmarke und Poststempel vorhanden. 'A.Z.' steht für Arnold Zweig."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite der Ansichtskarte mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzung 'A.Z.' ist im Kontext der Korrespondenz eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 285,
+    "total_words": 47,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1112",
+    "title": "Postkarte an Max Fleischer vom 28. November 1902, SZ-LAS/B3.32",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1112/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1112/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1112/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 28. November 1902, SZ-LAS/B3.32\n- Signatur: SZ-LAS/B3.32\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.720926+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Correspondenz-Karte\n\nHerrn Max Fleischer\nJurist etc. etc.\nin Komotau in Böhmen\nKohlstadtgasse",
+      "notes": "Adressseite der Postkarte. Poststempel: KOMOTAU 29.11.02. Briefmarke: 5 Heller Kais. Kön. Österr. Post."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Max, ich weiß sehr wohl, daß\nich Dir Brief und auch viele Dank für\nDeine Artik schuldig bin. Aber ich habe\njetzt furchtbar viel zu thun und gehe auch\nmit dem Leben, wüßte die schönsten von\neigner Arbeit zu erzählen. Ich arbeite näm-\nlich auch an einer Dissertation. Leider\nleider sehe ich recht oft, es scheint sich\nhier schon zurechtzufinden zu haben\nherzlich und alles Dein Stefan",
+      "notes": "Textseite der Postkarte. Handschrift in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Max, ich weiß sehr wohl, daß\nich Dir Brief und auch viele Dank für\nDeine Artik schuldig bin. Aber ich habe\njetzt furchtbar viel zu thun und gehe auch\nmit dem Leben, wüßte die schönsten von\neigner Arbeit zu erzählen. Ich arbeite näm-\nlich auch an einer Dissertation. Leider\nleider sehe ich recht oft, es scheint sich\nhier schon zurechtzufinden zu haben\nherzlich und alles Dein Stefan",
+      "notes": "Identisch mit Seite 2, jedoch mit Farb- und Grauskala im Bild."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die Transkription folgt den Regeln der diplomatischen Wiedergabe.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 871,
+    "total_words": 148,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

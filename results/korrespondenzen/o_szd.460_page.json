@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.460",
+    "title": "René Schickele an Stefan Zweig, 1920-11-18, SZ-SAM/AK.175",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.460/IMG.1",
+      "https://gams.uni-graz.at/o:szd.460/IMG.2",
+      "https://gams.uni-graz.at/o:szd.460/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: René Schickele an Stefan Zweig, 1920-11-18, SZ-SAM/AK.175\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.175\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:10.905504+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "1172 PARIS – La Place Vendôme\net la Colonne. – XX\n\n18/11. 20.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text oben links, handschriftliches Datum oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Autriche\nCarte Postale\n\nMon cher Zweig\non pense beau-\ncoup à vous.\nCordialement\nRené Schickele\nEt on a parlé de vous\nTrès amicalement\nOui mon vieux [?]\nLéon Bazalgette\n\nM.\nStefan Zweig\n\nSalzburg\n5 Kapuzinerberg",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Korrespondenz. Briefmarke oben rechts mit Poststempel 'PARIS 18 11 20'. Der Name des Absenders ist 'Léon Bazalgette' (die Signatur ist etwas schwer lesbar, 'Léon' ist durchgestrichen/überschrieben, 'Bazalgette' ist deutlich)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsbild mit Farbskala und Grauskala. Enthält die Ansichtskarte aus Scan 2 in der Mitte. Keine neuen Informationen."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift von Léon Bazalgette ist teilweise flüchtig und schwer zu entziffern, insbesondere die Zeile vor der Unterschrift.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 271,
+    "total_words": 48,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

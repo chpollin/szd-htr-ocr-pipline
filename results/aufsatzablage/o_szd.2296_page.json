@@ -1,0 +1,239 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2296",
+    "title": "Hugo Steiner-Prag",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA185.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2296/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2296/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2296/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2296/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2296/IMG.5"
+    ],
+    "date": "1930",
+    "document_type": "proof_sheet",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Druckfahnen"
+      ],
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "notes": "Veröffentlicht in Hugo Steiner-Prag zum fünfzigsten\n                        Geburtstag, hrsg. von Julius Rodenberg, Leipzig: Haag-Drugulin, 1930"
+    },
+    "additional": {
+      "group": "korrekturfahne",
+      "context": "## Dieses Dokument\n\n- Titel: Hugo Steiner-Prag\n- Signatur: SZ-AAP/W-AA185.1\n- Datum: 1930\n- Sprache: Deutsch\n- Objekttyp: Druckfahne\n- Umfang: 2 Blatt\n- Anmerkungen: Veröffentlicht in Hugo Steiner-Prag zum fünfzigsten\n                        Geburtstag, hrsg. von Julius Rodenberg, Leipzig: Haag-Drugulin, 1930"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:03.490214+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrekturfahne",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Es ist mir eine gute Erinnerung, daß mein erstes Buch (die Ge-\ndichte: ,,Silberne Saiten“, 1901, heute längst verschollen) gleich-\nzeitig auch eines der ersten Bücher gewesen ist, denen Hugo Steiner-\nPrag zeichnerisches Gewand und Gestalt gab. Ich hatte von ihm,\ndem damals Zwanzigjährigen, einige Zeichnungen in einem gleich-\nfalls verschollenen Prager Dichterblatt ,,Frühling“ gesehen und\nsie machten mir einen so starken Eindruck, daß ich gerade ihn\nbat, die Ausstattung meines Erstlings zu übernehmen. So darf ich\nmich zu den Ersten rechnen, die schon im Beginn spürten, mit wel-\ncher verstehenden, liebevoll begreifenden und darum anpassungs-\nfähigen Art Hugo Steiner-Prag den geistigen Gehalt von Büchern\nin bildnerische und typographische Gestalt umzuwandeln vermag.\nSein sicherer Sinn für die klar eindringlichen Formen, für die har-\nmonische Anordnung der Lettern im Raume und die Einheit\nwelche in einem Buche zwischen all seinen innern und äußern Be-\nstandteilen walten muß, hat sich ja seitdem an unzähligen andern\nBüchern bewährt. Und mehr noch: sie ist auch lebendig geworden\nin einer ersten und zweiten Generation von Schülern. Es ist nicht\ngenug, ein Geheimnis der Kunst zu kennen, man muß es auch aus-\nzudrücken und zu lehren wissen, damit es Bestand in der Welt\nhabe. Dies hat Hugo Steiner-Prag mit unermüdlichem Fleiß und\ngleich schöpferischer Leidenschaft getan. Die Bücher, die er ge-\nschmückt und gestaltet, können ihm selbst nicht danken, so wird es\nunsere freudige Pflicht, ihm einigen Dank für das so reich Gestal- L n\n4",
+      "notes": "Die Seite enthält den gedruckten Text. Das 'L n' am Ende der vorletzten Zeile scheint eine handschriftliche Notiz oder ein Korrekturzeichen zu sein.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "marginalia",
+          "bbox": [
+            19.0,
+            18.0,
+            6.0,
+            7.0
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Handschriftliche Korrekturmarkierung oben links",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            20.4,
+            28.1,
+            54.1,
+            47.3
+          ],
+          "reading_order": 2,
+          "lines": 24,
+          "label": "Haupttext über Hugo Steiner-Prag",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "marginalia",
+          "bbox": [
+            68.5,
+            72.5,
+            5.5,
+            3.0
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Handschriftliches Kürzel Ln am Textende",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            44.9,
+            76.8,
+            1.3,
+            0.8
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Seitenzahl",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite von Blatt 1.",
+      "image": "IMG_2.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            72.0,
+            19.0,
+            3.5,
+            4.5
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Blattnummer '1.'",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            28.0,
+            26.3,
+            47.0,
+            48.5
+          ],
+          "reading_order": 2,
+          "lines": 31,
+          "label": "Gedruckter Basistext der Korrekturfahne",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "marginalia",
+          "bbox": [
+            17.0,
+            50.0,
+            11.0,
+            17.0
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Handschriftliche Korrekturen am linken Rand",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            75.0,
+            32.0,
+            9.0,
+            40.0
+          ],
+          "reading_order": 4,
+          "lines": 5,
+          "label": "Handschriftliche Korrekturen am rechten Rand",
+          "source": "vlm_added"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "tete zu sagen und sein heutiger Festtag dafür ein rechter und freu-\ndiger Anlaß.\n\nStefan Zweig\n\n5",
+      "notes": "Fortsetzung des Textes auf Blatt 2. Das Wort 's.gen' ist vermutlich ein Druckfehler oder eine unvollständige Zeile, die 'sagen' oder 'segnen' lauten könnte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite von Blatt 2."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "tete zu s.gen und sein heutiger Festtag dafür ein rechter und freu-\ndiger Anlaß.\n\nStefan Zweig\n\n5",
+      "notes": "Identisch mit Seite 3, jedoch mit Farb- und Graukarte für die Digitalisierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen gedruckten Text handelt. Die handschriftlichen Ergänzungen sind minimal und klar zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1739,
+    "total_words": 274,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 2,
+    "estimated_accuracy": 0.996,
+    "edited_pages": [
+      1,
+      3
+    ],
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T13:13:01.990976+00:00"
+  }
+}

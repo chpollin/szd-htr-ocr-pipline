@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.403",
+    "title": "Richard M. Meyer an Stefan Zweig, 1912-06-11, SZ-SAM/AK.122",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.403/IMG.1",
+      "https://gams.uni-graz.at/o:szd.403/IMG.2",
+      "https://gams.uni-graz.at/o:szd.403/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Richard M. Meyer an Stefan Zweig, 1912-06-11, SZ-SAM/AK.122\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.122\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:07.026036+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11. 6. 12.",
+      "notes": "Vorderseite der Postkarte mit Abbildung des Berliner Schlosses. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "B 11. 6. 12\nSehr geehrter Herr\nDr Stefan aus\n[?] bitte Arnold\nSonnabend um 5\nUhr zum Kaffee,\nhoffentlich bald.\nDer freundlichen\nSendung stets mit\nbesten Grüßen Ihr\nRichard M. Meyer\n\nAn\nHerrn\nDr Stefan Zweig\nVIII Kochgasse\nWien",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in Tinte. Briefmarke 'Deutsches Reich' oben rechts, Poststempel vorhanden. Die Adresse ist teilweise in die handschriftliche Nachricht integriert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte die bereits transkribierte Postkarte (Rückseite)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise schwer lesbar, insbesondere das Wort nach 'Dr Stefan' und die Zeile 'bitte Arnold'. Die Adresszeilen sind durch die Anordnung auf der Postkarte etwas fragmentiert.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 236,
+    "total_words": 43,
+    "language_detected": "",
+    "language_match": true
+  }
+}

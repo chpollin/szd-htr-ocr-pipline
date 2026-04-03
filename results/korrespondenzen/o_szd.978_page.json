@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.978",
+    "title": "Brief an Sigmund Freud vom 19. Juli 1938, SZ-LAS/B7.36",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.978/IMG.1",
+      "https://gams.uni-graz.at/o:szd.978/IMG.2",
+      "https://gams.uni-graz.at/o:szd.978/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 19. Juli 1938, SZ-LAS/B7.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:47.680171+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "19. Juli 38\n\n49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLieber verehrter Professor, hoffentlich\nhaben wir Sie nicht zu lange gestört,\naber Salvador Dali ist nun einmal\n- vergebens! - von Paris nach Wien\ngefahren, um Sie zu sehen\nJener junge Mann Edward James,\nder ihn begleitete, hätte eine psycho-\nanalytische Behandlung sehr nötig.\nEr ist für unsere Begriffe unanständig\nreich und möchte sehr gern eine\nsolche Behandlung (Tilly Losch, seine\nfrühere Frau könnte ihn anscheinend\nnicht curieren) - Sie haben ihm nur\nein wenig Angst gemacht, indem\nSie ihm sagten, es könne die Litera-",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "rische Arbeit hemmen. Aber ich glaube\ner wird eines Tages also selbst zu Ihnen\nkommen!\nAlles Gute nun in Verehrung\ngeben Ihr\n\nStefan Zweig",
+      "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Der Text auf der rechten Seite ist identisch mit dem Text auf Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 725,
+    "total_words": 120,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

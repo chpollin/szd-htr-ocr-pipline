@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1725",
+    "title": "Brief an Anna Meingast vom 26. Februar 1937, SZ-SAM/B7.92",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1725/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1725/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 26. Februar 1937, SZ-SAM/B7.92\n- Signatur: SZ-SAM/B7.92\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:58.067112+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 26.Februar 1937.\n\nLiebe Frau Meingast!\n\nSie können sich denken, wie schmerz-\nlich mir die Nachricht war. Ich kann mir natürlich kein\nganz gerechtes Bild von der Ferne machen, aber ich kenne\nleider den Ton, welchen die jungen Damen anzunehmen be-\nlieben, wenn ihnen etwas nicht passt. Auch ich bin vor\ndiesem Ton und diesem Benehmen ausgerückt wie jetzt Jo-\nhann. Ich kenne natürlich auch seine Empfindlichkeit,\naber ich fürchte, irgend eine (vielleicht unproportio-\nnierter) Anlass muss ihm doch gegeben worden sein. Ein\nZeugnis schicke ich gern für ihn. Ich hätte es gleich\nbeigelegt, aber so viel ich mich erinnere, ist jedes\n{offiziell} Zeugnis ungiltig ohne eine Stempelmarke und ich habe\nkeine hier. Vielleicht sind Sie so freundlich, mir\neine Stempelmarke zu schicken, dann verfasse ich es\nsofort.\n\nDie Bücher, um die ich Sie bat,\nsind glücklich eingelangt, dagegen wollte ich bei\ndieser Gelegenheit Sie erinnern, mir niemals einen",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Ergänzungen in violetter Tinte (Wort 'offiziell' über der Zeile eingefügt)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Scheck nachzuschicken, denn es ist dies gegen das\noesterreichische Devisengesetz. Es genügt, wenn Sie\nmir Nachricht geben und ich sage Ihnen dann schon,\nwas damit zu geschehen hat.\n\nWenn Sie in meiner Bibliothek\nnoch das Buch von Vossler über Leopardi finden soll-\nten, und vielleicht die (bei der Insel erschienene)\ndeutsche Uebertragung der Gedichte (sie müssten un-\nter Leopardi stehen), so wäre ich Ihnen sehr dank-\nbar.\n\nIch bin überzeugt, Johann wird\nIhnen sehr fehlen, so wie er mir die ganze Zeit ge-\nfehlt hat. Aber es geht schon alles durcheinander\nund man braucht viel Kraft, sich selbst zusammen-\nzuhalten. Bitte grüssen Sie mir auch vielmals die\nlieben Schierls und empfangen Sie alles Herzliche\n\nvon Ihrem\n\nStefan Zweig\n\nDr. Geiringer wird aus Wien alles in Ihrem Sinn ver-\nanlassen. Ich habe ihm schon geschrieben.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Ergänzungen in violetter Tinte (Unterstreichung bei 'Vossler', Unterschrift 'Stefan Zweig')."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1778,
+    "total_words": 284,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

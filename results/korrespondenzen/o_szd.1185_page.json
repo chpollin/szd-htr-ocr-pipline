@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1185",
+    "title": "Postkarte an Anna Meingast vom 14. März 1931, SZ-SAM/B7.15",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1185/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1185/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 14. März 1931, SZ-SAM/B7.15\n- Signatur: SZ-SAM/B7.15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.409726+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "CARTE POSTALE\n\nADRESSE\nFrau Anna Meingast\n\nSalzburg (autriche)\nLinzergasse 16",
+      "notes": "Adressseite einer Postkarte. Briefmarken und Poststempel (ANTIBES, ALPES MARITIMES) sind vorhanden, wurden aber gemäß Anweisung nicht transkribiert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, ich reise,\nwenn alles klappt, hier am\nDonnerstag den 19ten ab u. und\nam Freitag {wahrscheinlich früher} spätestens 5 Uhr\nin Salzburg. Vielleicht ist es Ihnen\nmöglich mir den Samstag vor-\nmittags zu reservieren, damit wir\ndann gleich den Berg der Briefe\nabbauen u. Montag die regu-\nläre Arbeit beginnt. Bitte sagen\nSie niemandem ausser den Leuten\nim Hause, wann ich komme. Die\nersten Tage hätte ich gerne Ruhe.\nHoffentlich geht es Willi und\nIhnen gut. Herzl. Grüße\n\nStefan Zweig",
+      "notes": "Der Text ist in violetter Tinte geschrieben. Die Einfügung '{wahrscheinlich früher}' ist über der Zeile 'spätestens 5 Uhr' platziert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, die wenigen Korrekturen und Einfügungen sind eindeutig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 575,
+    "total_words": 93,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

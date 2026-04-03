@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1197",
+    "title": "Brief an Anna Meingast vom 27. November 1933, SZ-SAM/B7.27",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1197/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1197/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 27. November 1933, SZ-SAM/B7.27\n- Signatur: SZ-SAM/B7.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.190538+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place                                London, den 27.November 1933.\n\n\n\nLiebe Frau Meingast.\n\nIch danke Ihnen sehr fuer Ihren guten Brief. Es\nhat sich alles in der letzten Zeit viel unangenehmer und aergerlicher\ngestaltet als Sie sichs denken moegen, aber ich komme innerlich schon\nzurecht und nehme die Dinge nicht mehr so schwer als vordem. Darf ich\nSie noch heute um eine Kleinigkeit bitten, naemlich ein Exemplar des\n\"Kampf mit dem Daemon\" an Herrn Camille R.Honig, London N 7, 6 Park-\nhurst Road, freundlichst senden zu wollen. Wir haben bisher noch kei-\nne weiteren Dispositionen getroffen und bitten Sie, und in solange\nzu schreiben, als wir nicht abtelegraphieren.\n\nHerzlichst Ihr\n\nStefan Zweig",
+      "notes": "Die Unterschrift ist handschriftlich in violetter Tinte ausgeführt, der Rest des Dokuments ist maschinenschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite des Dokuments ist leer (bzw. zeigt lediglich den Durchdruck des Textes der Vorderseite)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 712,
+    "total_words": 109,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

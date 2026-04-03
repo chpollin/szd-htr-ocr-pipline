@@ -798,6 +798,75 @@ Aenderungen:
 
 ---
 
+## 2026-04-03 — Session 24: Layout-Pipeline Refactoring + Stratifizierter Test
+
+### Was wurde gemacht
+
+**1. Robustness-Refactoring (Phase 1, 8 Fixes)**
+- Per-Page Error Handling (try-except statt Batch-Crash)
+- PIL-Fallback bei fehlenden JPEG-Dimensionen
+- VLM-Fallback-Logging (statt stiller Degradation)
+- Halluzinations-Filter (Full-Page-Bbox >95% ablehnen)
+- Schwellenwerte nach `config.py` verschoben
+- Region-ID-Normalisierung (`r1, r2, ...` statt `d1, s1, r1`)
+- Shared `find_ocr_file()` in `transcribe.py` (ersetzt fragile Glob-Logik in 2 Dateien)
+- Schema `layout-regions-v0.1.json`: `source` + `group` Felder ergaenzt
+
+**2. Post-Processing-Filter (Phase 2a)**
+- 3 deterministische Filter in `_postprocess_regions()`: Scan-Hintergrund, Ueberlappung, Spurious
+- 12 Regionen in Welle 2 korrekt entfernt (v.a. Seitenzahlen bei Korrekturfahnen)
+
+**3. Prompt-Verfeinerung (Phase 2b)**
+- 3 neue Regeln in `layout_ensemble.md`: Keine Ueberlappung, minimale Regionsgroesse, Scan-Hintergrund != Marginalie
+- Wirksam: o_szd.1081 False-Positive-Region durch Prompt allein verhindert
+
+**4. Merge+Verify kombiniert (Phase 4)**
+- 1 VLM-Call statt 2 pro Seite (Regions + Quality im selben Output)
+- Einsparung: ~7s/Seite = ~36h bei 18.700 Seiten
+- `prompts/layout_verify.md` nicht mehr aktiv, bleibt als Referenz
+
+**5. Stratifizierter Test (Welle 1 + 2)**
+- Welle 1: 8 einfache Objekte ueber alle 9 Gruppen (21 Content-Seiten)
+- Welle 2: 7 mittelschwere Objekte + 2 Re-Analysen
+- Visuelle Inspektion Welle 1: 12 Seiten manuell geprueft
+- Welle 2 bereit zur visuellen Verifikation
+
+### Identifizierte Probleme (aus visueller Inspektion)
+
+| Problem | Loesung | Status |
+|---|---|---|
+| Scan-Hintergrund-False-Positives | Post-Processing-Filter 1 + Prompt-Regel | Geloest |
+| Ueberlappende Regionen | Post-Processing-Filter 2 + Prompt-Regel | Geloest |
+| Spurious Zwischen-Regionen | Post-Processing-Filter 3 + Prompt-Regel | Geloest |
+| Sachfotos statt Dokumente (o_szd.148) | `page.type=photograph` geplant | Offen |
+| VLM-Nichtdeterminismus (o_szd.206) | Bekannte VLM-Eigenschaft | Akzeptiert |
+
+### Entscheidungen
+
+- **Merge+Verify zusammenlegen**: Laengerer Prompt hat Qualitaet nicht verschlechtert (getestet auf o_szd.148)
+- **Post-Processing-Filter**: Deterministisch + guenstig, fangen systematische VLM-Schwaechen ab
+- **Prompt-Verfeinerung wirkt upstream**: Reduziert Probleme bevor Filter noetig sind
+
+### Statistiken
+
+| Metrik | Wert |
+|---|---|
+| Layout-Ergebnisse gesamt | 25 Objekte |
+| Gruppen abgedeckt | 9/9 (A-I) |
+| Quality good | 18 (72%) |
+| Quality acceptable | 3 (12%) |
+| Quality needs_correction | 3 (12%) |
+| Filter-Aktionen Welle 2 | 12 Regionen entfernt |
+| Geaenderte Dateien | layout_analysis.py, config.py, transcribe.py, export_pagexml.py, layout_ensemble.md, layout-regions-v0.1.json |
+
+### Naechste Schritte
+
+- [ ] Welle 2 visuell verifizieren (9 URLs bereit)
+- [ ] Phase 2c: Sachfoto-Erkennung (page.type=photograph)
+- [ ] Layout-Batch ueber ~1300 transkribierte Objekte (nach visueller Verifikation)
+
+---
+
 ## 2026-04-02 — Session 20b: Korrespondenzen-Massenbatch (Lane 3)
 
 ### Was wurde gemacht
@@ -1087,12 +1156,29 @@ DTABf-Schema um 30+ Elemente erweitert (msDesc-Hierarchie, fw, table, list, Head
 | Briefe als Single-div | Umschlag-Adressen und Briefkoepfe sind keine Kapitelgrenzen |
 | Node.js CLI statt Browser-Pipeline | Batch-Verarbeitung braucht Dateisystem-Zugriff |
 
+### Validierung und Tests
+
+- XML-Well-Formedness (Python `xml.etree.ElementTree`): **2.033/2.033** Dateien fehlerfrei geparst
+- Zeichengenauer Plaintext-Vergleich (Page-JSON vs. TEI body): **2.030/2.030 identisch** (0 fehlende, 0 hinzugefuegte Zeichen)
+- Stichproben-Metadaten-Pruefung (20 zufaellige Objekte): Titel, PID, Sprache, Seitenzahl, GND, Signatur — alle korrekt
+- 50 Unit- und Integrationstests (`tests/pipeline.test.mjs`): **50/50** bestanden
+- **Nicht gemacht:** RelaxNG-Validierung gegen offizielles TEI-Schema (kein `xmllint`/`lxml` auf dem System)
+
+### Commits
+
+| Repo | Hash | Inhalt |
+|---|---|---|
+| teiCrafter | `77fd4be` | Pipeline-Modus: 6 Module, CLI, 50 Tests, Schema, Knowledge, README, CLAUDE.md |
+| szd-htr | `d99a31c` | Journal + Plan (Session 24) |
+| szd-htr | `631931a` | 2.030 Page-JSON-Dateien (218.813 Zeilen) |
+
 ### Naechste Schritte
 
 - Layout-Analyse skalieren (18 → ~2000 Objekte, benoetigt API-Calls)
 - `export_mets.py` in szd-htr bauen (Phase 5b)
 - teiCrafter METS-Parser (Phase P.1)
 - LLM-Fallback fuer komplexe div-Grenzen (P.4.2/P.4.3)
+- RelaxNG-Validierung gegen offizielles TEI-Schema nachholen
 
 ---
 

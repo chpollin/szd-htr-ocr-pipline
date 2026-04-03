@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.425",
+    "title": "Felix Pollak an Stefan Zweig, 1905-07-05, SZ-SAM/AK.142",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.425/IMG.1",
+      "https://gams.uni-graz.at/o:szd.425/IMG.2",
+      "https://gams.uni-graz.at/o:szd.425/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Felix Pollak an Stefan Zweig, 1905-07-05, SZ-SAM/AK.142\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.142\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.430139+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Gruss aus Thüringen.\nFriedrichroda. Gesammtansicht. 5. VII. 05.\n\nIhr ergebener\nFelix Pollak.",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Ergänzungen in schwarzer Tinte auf gedrucktem Untergrund."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Post-Karte\nLevelezö-Lap — Post card — Briefkaart\nBrefkort — Carte postale\nCartolina postale — Tarjeta postal\nDopisnice — Karta Korespondencyjna\nCorrespondenzkarte — Dopisnica\nWeltpostverein\nUnion postale universelle — Unione postale universale\nОТКРЫТОЕ ПИСЬМО.\n\nHerrn\nDr. Stephan Zweig\nWien I.\nRathausstr. 18.",
+      "notes": "Rückseite der Ansichtskarte. Gedrucktes Formular mit handschriftlicher Adressierung. Briefmarke (5 Pfennig, Deutsches Reich) und Poststempel 'FRIEDRICHRODA -5.7.05 12-1 N' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Post-Karte\nLevelezö-Lap — Post card — Briefkaart\nBrefkort — Carte postale\nCartolina postale — Tarjeta postal\nDopisnice — Karta Korespondencyjna\nCorrespondenzkarte — Dopisnica\nWeltpostverein\nUnion postale universelle — Unione postale universale\nОТКРЫТОЕ ПИСЬМО.\n\nHerrn\nDr. Stephan Zweig\nWien I.\nRathausstr. 18.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich und die gedruckten Anteile sind standardisiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 710,
+    "total_words": 94,
+    "language_detected": "",
+    "language_match": true
+  }
+}

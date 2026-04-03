@@ -1,0 +1,350 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.72",
+    "title": "Tagebuch 1918",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L6",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.72/IMG.1",
+      "https://gams.uni-graz.at/o:szd.72/IMG.2",
+      "https://gams.uni-graz.at/o:szd.72/IMG.3",
+      "https://gams.uni-graz.at/o:szd.72/IMG.4",
+      "https://gams.uni-graz.at/o:szd.72/IMG.5",
+      "https://gams.uni-graz.at/o:szd.72/IMG.6",
+      "https://gams.uni-graz.at/o:szd.72/IMG.7",
+      "https://gams.uni-graz.at/o:szd.72/IMG.8",
+      "https://gams.uni-graz.at/o:szd.72/IMG.9",
+      "https://gams.uni-graz.at/o:szd.72/IMG.10",
+      "https://gams.uni-graz.at/o:szd.72/IMG.11",
+      "https://gams.uni-graz.at/o:szd.72/IMG.12",
+      "https://gams.uni-graz.at/o:szd.72/IMG.13",
+      "https://gams.uni-graz.at/o:szd.72/IMG.14",
+      "https://gams.uni-graz.at/o:szd.72/IMG.15",
+      "https://gams.uni-graz.at/o:szd.72/IMG.16",
+      "https://gams.uni-graz.at/o:szd.72/IMG.17",
+      "https://gams.uni-graz.at/o:szd.72/IMG.18",
+      "https://gams.uni-graz.at/o:szd.72/IMG.19",
+      "https://gams.uni-graz.at/o:szd.72/IMG.20",
+      "https://gams.uni-graz.at/o:szd.72/IMG.21",
+      "https://gams.uni-graz.at/o:szd.72/IMG.22",
+      "https://gams.uni-graz.at/o:szd.72/IMG.23",
+      "https://gams.uni-graz.at/o:szd.72/IMG.24",
+      "https://gams.uni-graz.at/o:szd.72/IMG.25",
+      "https://gams.uni-graz.at/o:szd.72/IMG.26",
+      "https://gams.uni-graz.at/o:szd.72/IMG.27",
+      "https://gams.uni-graz.at/o:szd.72/IMG.28",
+      "https://gams.uni-graz.at/o:szd.72/IMG.29",
+      "https://gams.uni-graz.at/o:szd.72/IMG.30",
+      "https://gams.uni-graz.at/o:szd.72/IMG.31",
+      "https://gams.uni-graz.at/o:szd.72/IMG.32",
+      "https://gams.uni-graz.at/o:szd.72/IMG.33",
+      "https://gams.uni-graz.at/o:szd.72/IMG.34",
+      "https://gams.uni-graz.at/o:szd.72/IMG.35",
+      "https://gams.uni-graz.at/o:szd.72/IMG.36",
+      "https://gams.uni-graz.at/o:szd.72/IMG.37",
+      "https://gams.uni-graz.at/o:szd.72/IMG.38",
+      "https://gams.uni-graz.at/o:szd.72/IMG.39"
+    ],
+    "date": "[1918]",
+    "document_type": "notebook",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Tagebücher"
+      ],
+      "extent": "19 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "writing_material": "Liniertes Papier mit rotem Buchschnitt, ursprünglich aus einem\n                          Notizbuch",
+        "hands": [
+          "Stefan Zweig"
+        ],
+        "dimensions": "21x14 cm"
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Tagebuch 1918\n- Signatur: SZ-AAP/L6\n- Datum: [1918]\n- Sprache: Deutsch\n- Objekttyp: Notizbuch\n- Umfang: 19 Blatt\n- Schreibinstrument: Violette Tinte\n- Hand: Stefan Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:46.528379+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Montreux 20. September, Freitag.\nDas Tagebuch nach mehr als einem halben Jahre\nwieder aufgenommen. Die Zeit war tot, nun wird sie\nweiterdings grauenhaft lebendig. Ich war müde des\nSinnlosen, nun findet sich allmählich wieder ein Sinn\nder Zeit, oder besser: der immer in dieser Krise verborgene\nSinn beginnt sich zu zeigen. In den letzten Wochen schon,\nseit der denkwürdigen Kriegswende in der zweiten Mar-\nneschlacht war viel wichtig für mich nebst eigener Arbeit,\njene Polemik vorerst, die mein Aufsatz in der Neuen Züri-\ncher Zeitung erregte, dann die Besprechung mit Giesner,\nder nur seine allerhöchste Unzufriedenheit einschüchternd\nmitteilen wollte und dabei auf eigene Entschlossenheit stieß\n(denn von dem Cadaver Österreichs lasse ich mich nicht\nmehr einschüchtern und noch weniger von seinen Diplomaten,\ndie des stille und beschämliche Lauf in den Abgrund eines\nfalschen Heroismus gestossen haben.) Dann eine kurze Stelle\nHoffnung: das Friedensangebot, bald zerschellt an der stei-\nnern fest aufgetürmten Mauer des andern Imperialismus.\nEin wenig Freiheit der Sinne gab dazu die Fahrt in die Ber-\nge: ich habe gelernt, gegen den unnützen Flagellantismus\nanzukämpfen, der sich selbst den Tag zerschlägt mit den Ge-\ndankenstrichen. Man muss die Kunst lernen, dumpf zu leben",
+      "notes": "Handschrift, violette Tinte. Gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "sich selbst nur nicht der Zeit, die ja Lebensvernichtung ist,\nHemmung und nicht Befreiung. Hier in Montreux in einem\nkleinen Zimmer hoch über dem See milder Ausblick und\nstillerer Blick nach innen. Das Wetter noch umfällt aber\nmit Aussicht auf Klärung.\nAbends kommt Chapiro uns besuchen, dieser drollige und\nliebe Kerl. Man hat endlich mit ihm eine echte Heiterkeit, wie\ner von seiner riesenhaften Familie daheim in Kiow erzählt; wenn\ndie auf Reisen gingen, brauchten sie einen ganzen Waggon, sie\nkonnten nie zusammen eine Tramway benützen. So war immer\neine Schar, die Köchin musste zum Einkaufen auf den Markt\nimmer einen Wagen mitfahren. Auch von der Zeit erzählt er\nwo er vom Kirschenpflücken lebte, 10 Centimes das Kilo und\nihm abends alle Gelenke krachten. Aber vom Heitern kommen\nwir zum Ernsten: auch er ist einer, den Rolland „gerettet“\nhat. Auf einen Brief hin, bat er ihn zu sich, hatte immer Zeit\nfür ihn, half ihm in jeder Weise: R. ist jetzt mitten im Kriege\nund auf der Höhe seines Ruhmes noch nicht frei von Geld-\nsorgen, weil er seine ganze Familie ernährt und eine Reihe von\nFreunden unterstützt. Von seinen Taten eine verschwiegene: er\nist in Bern direct zum frz. Cons. gegangen und hat alle Aus-\nkünfte über J. erwirkt, um ihn gegebenfalls „a fond“ verteidi-\ngen zu können. Denn für seine ihm teure Freunde gehört zur",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "rührendsten, das man sich denken kann und je mehr man\nvon ihm erfährt, desto grösser wird das Gefühl von der Ein-\nzigheit seiner Gestalt, die ein unendliches Wissen um die Dinge\nmit einer unzerstörbaren Liebe zu den Menschen vereint. Seine\nUnermüdlichkeit hat etwas heroisches wie überhaupt die ungeheure\nEinsamkeit seines Wesens. Wir sind immer ganz ergriffen, wenn\nwir von ihm sprechen.\nSamstag 21. Sept. Das Wetter hat sich geklärt, ein Morgen von\nZauberischer Schönheit. Ich sitze auf der Terrasse in der Sonne,\nzum erstenmal seit langer Zeit wieder in Person lebend, ge-\nlesenen und geschriebenen. Das Bewusstsein, nachmittags zu\nR. zu gehen, ein Licht über den Tag! Ein kleines Gesicht wächst\nklar aus der Landschaft heraus, das erste seit einer Unendlich-\nkeit! — Nachmittags zu R. Im Tramwaywagen treffen wir seine\n~~kleine~~ Mutter, sie ist ein wenig hinfälliger geworden, aber dies-\nmal im Gegensatz zum vergangenen Jahr ganz offen zu uns und\nvon besonderer Herzlichkeit. Ich suche sein Gesicht in ihr: es ist\nkaum zu finden in den versunkenen Zügen. Wunderbar der\nZusammenhalt der vier Menschen, die doch alle eigentlich selten\nim Alter stehn, eine linde Zärtlichkeit von einem zum andern\n(die vielleicht manche kleine Conflicte verbirgt) Im Hotel\ngrüsst uns R.: er sieht voller aus, herrlich seine klaren durch-\ndringenden Augen, die Güte aber irgendwie diesmal durch eine",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "irgendwie tief sitzende Kränkung oder Trauer gedrückt. Er\nist sehr verzweifelt über den Augenblick: wie das freie Den-\nken immer mehr zusammen schmilzt, der Heroismus einzig\nsich in den gewohnten, ererbten, Idealen auslebt. Er sieht\ndie Eroberung Frankreichs durch Amerika, den Geist dieses neuen\nKrieges nicht vereint, die Sieger in der Entente vereint und\nverschönt, Generationen in einer Selbstglorie, den Stolz als\nTriumphator der Welt. Ein tiefes Misstrauen hat sich seines\nWesens bemächtigt, das die ganze Zeit umfaßt: er spricht\nauch von den deutschen Revolutionären, die für die die\ngefährlichsten seien. Ich kann, (wie immer) das erstenmal\nnicht gut mit ihm reden, er ist selbst irgendwie versäumt\nzu sprechen und ich bin es mit ihm. Wir gehen dann lange\nspazieren zu drei, ich erzähle ihm einiges und spreche dann\nviel mit seiner Schwester. Ich liebe es so sehr ihn zuzusehen,\nden ernsten Betart seines Ganges, die Ruhe seiner Bewegun-\ngen und spüre dann immer, wie sehr ich ihn liebe und umso\nmehr als ich fühle, dass er voll Trauer ist. Er muss seine Elter-\nnur seine Schwester wieder nach Paris zurücklassen (sie braucht\nihre Stellung dort und die Eltern folgen ihr hinüber) und es\nscheint, dass das Leben im Hotel auch langsam anfängt,\nihm schwer zu werden. Wie wir alle leidet er an der Zeit\nund - vielleicht auch daran, dass (als Franzosen) sie die",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "schefuisse ins Unrecht setzen. Für Jahre zumindest. Aber „le\ntemps viendra!“ Abends dann noch kleine Arbeit.\n22. Sept. Sonntag Regentag und voll mit geschäftlichen\nliterarischen Schreibereien. Feuilleton über Falsi, ein Dutzend\nBriefe, heraalamt durch die plötzliche Annahme der „Legende“.\nEin Anderes freute sich. Ich bin ganz stumpf diesen Din-\ngen gegenüber: ich spüre sie gar nicht (ich notierte nicht\neinmal gestern das Brief darüber mit der komischen Be-\nschränkung der affairs zu Andrian-Meyerbeer). Diese vie-\nlen Briefe und Erledigungen zerstören das Beste in mir, sie\nverschwemmen das Gehirn und ich erfinde keine Methode\nsich abzuhüten. Man müsste vielleicht ganz frühmorgens aufste-\nhen und vor dem Frühstück schon alles wegdichtet haben, alles\naus dem Tag geräumt, was ihn hemmt, ebenso die Zeitungen.\nAber ich bringe die notwendige Kraft nicht auf: gleichgültig ge-\ngen alles was meine Sachen betrifft, habe ich eine merkwür-\ndig brennende Vorliebe für das Äussere, das Problem sich\nabzuschliessen und aufzurufen will mir nicht gelingen: es\nscheint doch die Unruhe auch tätiges Element in mir zu sein,\nfreilich stösst sie nach aussen in die Menschen neben mir\nund trifft sie fast, härter als mich. Ich kann es ruhig sagen:\nverlorener Tag! so voll er voll Arbeit (scheinbares) war.\n23. Sept. Montag Noch Nachwehen von Schreibereien aus",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Geschäftlichkeiten, dann spazieren und viel Zeitungen ge-\nlesen (ich frage mich selbst, wozu?) Nachmittags kommt R.\nwir sprechen lange allein. Er ist sehr niedergebrochen darüber,\ndass ganz gegen die Voraussetzung im vierten Jahr die freien\nselbstständigen Menschen seltener sind als im ersten. Er\nhat anderweit viel Freunde verloren und sagt von der\nMagie des geschriebenen Wortes: seine besten Freunde in\nGenf die ihn seit Jahren kannten, hätten mit Genuss und\nfast mit Glauben jene Anschwärzungen der Madame D\ngegen ihn gelesen. Die Macht des Gedruckten hat über den\nprimitiven Menschen unerhörte Gewalt und in dieser Be-\nziehung sind eben die meisten Menschen primitiv. In Eng-\nland, Frankreich ist Alles von ihm abgefallen: Wells hat\neinen offenen Brief gegen ihn gerichtet, in Paris bereitet\nLoyson ein neues Buch gegen ihn vor. Die Hetze drüben ist\nwirklich aber bitterlich. Er erwartet vom Docen Guilbeaux\ndie Entfernung der ganzen Meute und es scheint dass J. einige\nUnvorsichtigkeiten tatsächlich begangen hat. So handelt sich\ndarum die Bewegung für das Land zu compromittieren und\ndie ungeheuer verlinkte Fälschung von 23 verbündeten Natio-\nnen wird das noch besiegeln. Dabei ist er wie ich von der\nSchweiz tief degoutiert, möchte eigentlich trotz allem nach\nFrankreich zurück und überlegt ernstlich, es zu tun. Seine",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Correspondance ist zu Hälfte inhibiert, seine Stellung isoliert\n~ wir sprechen lächelnd von einem neuen Land, das wir uns\nerst finden müssten. Dabei arbeitet er viel: an einem neuen\nRoman, der fertig ist, einer satirischen Comoedie. Seltsam\ndiese Mischung, die er selbst betont, von Skepticismus der\ngleichzeitig mit einem Enthusiasmus läuft (stärker wie\nbei France.) Echt französisch die Mischung - und sagt\ner „je stärker sie wird, desto weniger werden sie mich\nals den Ihren erkennen.“ Selbst tief voll Misstrauen (ich\nhabe ihn nie so niedergeschlagen gesehen) flösst er andern,\nbesonders der Jugend immer Mut ein: wirklich, die An-\ndern werden nie wissen, was für eine Zeit der inneren An-\nspannung dies für uns gewesen ist, während sie in ihren\nkleinen Sorgen stecken. Er sieht Krieg, Unruhe, Kampf\nnoch auf 5 - 6 Jahre hinaus und fürchtet dann nicht\nmehr die physische Kraft zu haben: dazu die Tragödie\nseiner Eltern, die sich nur gerade noch am Leben erhalten\nund denen er nicht folgen kann. Ich spüre eigentlich\nseinen wirklichen Zustand: den Fremden gibt er sich,\nals Helfenwollender, viel sicherer als er eigentlich ist. Er\nfühlt sich durch die fortwährenden Polemiken genötigt,\nimmer wieder wach zu sein und sein Ideal wäre ein\nChalet, wo er ruhig und gesichert leben könnte, ohne",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 8,
+      "type": "content",
+      "text": "etwas von den Dingen zu wissen. In welcher furchtbaren\nEinsamkeit diese seine Jahre vergehen, wie unbeglückt ha-\ngisch dem Kampf (ohne irgend einen ebenbürtigen Part-\nner in einer andern Nation) war, lässt sich kaum sagen.\nWir müssen es versuchen. Wenn ich ihn so sehe, wie er\nmild und doch ernst einem in die Augen blickt, fühle\nich die fromme Verpflichtung: dies Buch ganz zu der Größe\nzu bringen, die er verdient\nDienstag 24. Sept Vormittags eine Depesche, ich sollte etwas\nfür das Forum schreiben. Ich setze mich hin und schreibe mit der\nganzen Ernstlichkeit, die ich jetzt wieder habe, in einem Zuge einen\nAufsatz gegen den Opportunismus. Ich bin jetzt dermassen innerlich\ngefüllt: die Diskussionen, die sinnlos scheinen, schleifen einen\nStandpunkt doch dermassen heraus, dass man in jedem Augenblick\nsich concentriert und gerüstet fühlt. Nachmittags Zeitungen gele-\nsen - der Zusammenbruch der türkischen und bulgarischen\nFront bezeigt mit seiner furchtbaren Gleichzeitigkeit die Kraft\nder Entente. Ich fürchte es kommen ähnliche Nachspiele in Öster-\nreich und Deutschland: immerhin besser das Ende mit Schrecken\nals der Schrecken ohne Ende. Gearbeitet wenig, dagegen einiges ge-\nlesen, ich muss erst tiefer in den Rytmus kommen, der ein wenig\ndurch die Artikelschreiberei gestört worden ist. -\nMittwoch 25. Eine seltsame Figur unser Witt. Ein Quartabaufe,",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 9,
+      "type": "content",
+      "text": "der gerade jetzt seinen Anfall zu haben scheint: er schreibt\nz.B. die ganze Correspondance ein und gibt sie nicht heraus\nträgt zum Beispiel heute einen Westbrief von mir den ganzen\nTag herum und schläft mit ihm in der Tasche seinen Rausch aus.\nVormittags kleine Arbeit und Briefe, nachmittags schöner Spazier-\ngang mit Mont-Henri und dann zu Rolland. Wir gehen\nzuerst im Garten. Er sieht weit in die Dinge hinein: die Zeit\nvor uns als eine einzige der Krisen, er glaubt nicht an ein\nEnde mit dem Kriege. Ich stelle die Frage, ob wir etwas noch\ndafür wären, ob wir das Recht haben werden eine neue Genera-\ntion zu vertreten: in uns zwei Elemente im Kampf, Wille zur\nWirkung und Neigung zur Ruhe. Rolland meint, wir würden\nnicht mehr zu Worte kommen, wir würden es nicht mehr er-\nleben. Ganz von unten würde alles durchgeschüttelt werden, die\nneue Schichte nach oben kommen. Immer fühlter, der Historiker\nuns schon als das vergangene: das Gefühl des Neuen, urwüchsig\nin ihm, lebt im Zukünftigen. Deshalb seine Bewunderung für\nLenin (trotz dessen Brutalitäten) er nennt seine Geraaten\nun boulet de canon, mörderisch aber zielstrebig. Er weiss,\ndass wir für diese Menschen nicht existieren: die gar keine\nMenschlichkeit mehr haben, nur Furcht sind, nicht mehr Psycho-\nlogie und Gefühl. Aber der Weltblick Lenins, der die Kampf\nauf Generationen sieht, berührt ihn und die Jugend des Be-",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 10,
+      "type": "content",
+      "text": "les das natürlich würde durch das Leiden, oder unsere\nMüde würden am Renz. Der kleine Rentier, der Arbeiter nie\nwaren schon an das Bestehende durch Renz geheftet, sie ver-\nwandelten die Zeit nicht mehr, weil sie noch wollten (noch\nsläther des in Deutschland.) Aber Verwandlungen sind not-\nwendig, deshalb müsste diese Krise kommen, die von oben\nbis unten die Welt durchschüttelte. Er hat kein Parteigefühl,\nist im Gegenteil ein immer Pflicht gezeigt, die Vergewalti-\ngung der Freiheit in Frankreich als die grössere Katastrophe\nanzusehn - ohne freilich unsere Pflicht verunwerten zu\nwollen, gegen das Regime zu sein. Auch ein tiefes\nMisstrauen gegen die Ideen. Alle Unruhe, alles Unglück\nkommt von ihnen. Die Rufe der einfachen Menschen kommt\ndavon, dass er keine hat. Ideen sind irgendwie Feinde des\nLebens und doch seine höchste Form. Das gefährlichste aber\ndas Geld. Wir sprechen viel von den Möglichkeiten: er richtet in\nallen Formen nur Kampf Unruhe. Hier man spürt, dass irgend\netwas in ihm sich schon nach Ruhe sehnt. Wir sprechen viel und\ngut: er ist so wunderbar in seinem Vertrauen; sein Skepticismus\nvor der Zeit macht vor dem Menschen ihn nur fall. Nur ohne\nHeimkehr dann durch den klaren Abend. -\nDonnerstag 26. Vormittags allerlei kleine Arbeit. Nachmittag\nAusflug nach Vevey. Eine entzückende unerwartet Stadt mit",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 11,
+      "type": "content",
+      "text": "altfranzösischen Häusern, lieblich, altväterisch, wohltuend\ngegen den Luxus von Montreux. Die Hotels, schön conserver\ndie Vornehmheit von einst (wo man das Wort Eleganz noch\nnicht kannte) Das ganze eine warme milde Atmosphäre\nfriedlich und poetisch. Beide haben wir den innigen Wunsch\nhier zu wohnen, vielleicht dass ihn der Frühling erfüllt. An\nTour de Peilz vorbei, dem uralten Schloss mit Vaudeville\nwieder zurück.\nFreitag 27 Vormittags verträumt, vergangen und kleine\nVorarbeiten für den Rolland Bau. Mittags die Nachricht vom\nscheinbaren Abfall Bulgariens. Paul weint. Besser ein\nEnde mit Schrecken. Ich glaube die Lawine ist jetzt ins Rollen\ngekommen, man hört das Donnern bis nach Deutschland\nherein. Freilich: wie erbärmlich diese Reden. Kein einziges\nwarmes kluges lebendiges Wort. Eine Ode. Immer zu spät\nnur zwei Tage hinter den Ereignissen. Aber ich verfolge es\nschon impassibel.\nNachmittags R. mit seiner Schwester bei uns. Wir sprechen viel\nbis in den tiefen Abend hinein. Wir zärtlich überlegen und\nliebevoll er aus des von J. erzählt: ohne discretion zu for-\ndern. Aber aus der Art der Rede weiss ich, dass er sie er-\nwartet. Diese Alltagsfeiten es kosten ihn viel: mit heissem\nWort beklagt er sich darüber. Ich kann ihn ein wenig in",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 12,
+      "type": "content",
+      "text": "formieren. Die Sache ist ernster als ich dachte.\nWir sprechen dann viel über den Plan vom Werke. Er erzählt\nvon seiner Jugend, wie die ersten Berührung mit Paris\nund dann die gesellschaftliche als er im Hause seines Schwie-\ngervaters Michel Breal die ganze Sorbonne kennen lernt\nauf ihn wie ein Choc gewirkt haben. Die Aufopferung seines\nVaters gab den früh ein Verantwortungsgefühl (das sich\nbis auf diesen Tag so tiefst bezeugt.) Wir sprechen über\ndas Schicksalhafte in seinem Leben: er wenn auf Rom fu,\nwohin er durch den Zufall gelangte, den die besten andern\nnicht für würdig befunden würden, gegen seinen Willen fast\nzum Jean Cl. in Paris ein Aufsatz zu einem decadenten\nRoman vom grossen Künstler der Katastrophe. Das der\nTriumph. Am Janiculus die Idee wie ein Blitz. Auch in\nden Hero eine lange Linie geplant. Aber die Traurigkeit\nbricht durch: nur bei Beethoven gelingt ihm noch in einen\nTriumph umzuschaffen. Mazzini die Distanz (Ernst halten\nverwischt die Papiere). Da lässt er es: Jean Cristoph entsteht,\nganz zufällige Folgen. Für sich selbst geschrieben. So wie er\nganze Hörm von Holizen hat. Jahrzehntelang seine Schriften\nein Dialog mit sich selbst. Mit Menschen wenig: die wirken\ndie Kraft erst aus dem Pathos des Erfolges. Ich sage, es\nwar sinnvoll und notwendig, dass er in diesem Augen-",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 13,
+      "type": "content",
+      "text": "blicke kam. Er lächelt melancholisch und sagt: pour le bon-\nheur trop tard. Man spürt, wie sich er gelitten unter der\nvergeblichen Anstrengung, vielleicht auch von der Ehe viel\ndamit zerstört. Im ganzen scheint er sehr dem Plan der Bü-\ncher bei, viel zu beichten natürlich am einen Wunsch zu\näussern und doch wunderbar sicher. Er erzählt dann von\nseinem Enthusiasmus für Renan, (den er herrlich schildert)\nund klagt wie viel Enthusiasmus nutzlos verbraucht sei in\ndieser vertrollten Zeit mangels an Menschen. Alle seine Con-\nfessionen haben eine zauberische Macht: er spricht von\nsich wie von einem ganz Fremden, ganz ohne Überhebung\ngleichsam historisch: es ist so ganz weit darum von Stolz\noder Eitelkeit, nun ganz sachlich und darum ohne kleine Eitel.\nFür sich nimmt er immer als sittliches Problem: er fühlt\nsich schon drüben über dem Berg der Unsicherheiten. Er hat\nConflicte, ist aber sicher in den Entscheidungen. Wie mir\nimmer ehrfürchtig wird, wenn ich ihn so sehe, leicht vorge-\nbeugt die Augen, die ja Fremden so fast klar\nsind, weich und ihr helles Blau von weichen Lichte und die\nStimme immer ganz leise, dass alles was er sagt, irgendwie\nverwandelt wirkt. Wie bei Verhaeren spüre ich immer, dass\nein Beisammensein mit ihm „Epoche“ ist wie Goethe sagte.\nSo wird nun immer nasser so hinend wohlig, einseitig",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 14,
+      "type": "content",
+      "text": "übertragener Gefühl von der gestillten Liebesempfin\ndurch einer Frau, etwas langsam in sich gehendes Fron\nEindruck, das lange nachschwingt. Er harmoniert Men-\nschen durch seine Gegenwart wie auch heraufschreit durch\nseine Existenz: wir müsste sein Wesen irgendwie entlohnen\ndie einen ein. Es ist immer ein reiner Tag in der Seele waffen.\nSamstag 28. Erregter Tag! Bulgarien, besiegt, capituliert\noder will capitulieren. Die Folgen noch ganz unabseh-\nbar, aber ganz im Sinne der Beschleunigung. So wertet\nes auch die Börse, die selbst den deutschen Valuten einen\nAusprung gab. Ich jage nach den Zeitungen, es ist wieder einer\njener heissen Augenblicke wie ganz zu Anfang des Krieges,\nda man nach jeder Nachricht jappte. In Wien muss die\nAufregung eine unerhörte sein, sie wird auch auf die De-\nmoralisierung in Deutschland aufpeitschend wirken, das\n„on les aura“ ist wahrheit geworden: es spiegelt sich hier\nim Blick der Internierten. Vormittags in Vevey, der\nlieblichen Stadt ein wenig umhergeschlendert, nach-\nmittag Briefe. Es ist so gut einmal nicht zu arbeiten\nSonntag 29 Heller Tag. Schöne Fernverwegs gelesen.\nNachmittags bei R. Er ist sehr aufgeregt über die Affaire\nJ. Die Sozialisten, Graber vor allem sind ihm in den\nRücken gefallen, haben seine privaten Mitteilungen",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 15,
+      "type": "content",
+      "text": "missbraucht und ihn der gerichtlichen und politischen\nVerfolgung preisgegeben, obwohl in die Sache gar nichts\nangeht, die nichts als eine imprudence J. war. Der\nBrief war von der Secrétaire Ehlers entwendet\nworden, der ja überhaut eine recht traurige Rolle\nspielt: ich sehe erst in welche Gefahren diese couche\nBande einen bringt und habe mir geschworen, Bern\nso viel als möglich zu vermeiden. Ich mache R. nur\nden Vorwurf, ihn nicht informiert zu haben. Er ist wun-\nderbar in seiner Festigkeit, obwohl dieser neue Angriff\nihn schwer trifft und schädigt: die ganze Situation die-\nser Menschen ist furchtbar. Er fällt mich herrlich auf-\nrecht, weil er so ganz frei handelt, ganz für sich allein\nmit jener edlen Sicherheit, die in sich selbst ihren Compass\nhat. Auch mich trifft das Ungeschick J. mit, aber ich\nwerde nicht zögern, zu ihm zu halten, so peinlich es\nim jetzigen Augenblicke auch sein mag: der arme\nTeufel hat mir bitter leid, in seiner Jungenhaftigkeit ist\neine tiefe Tragik. Mit R. sprechen wir viel von Reisen\nund andern Dingen: seine Mutter und Schwester, die da-\nbei sind finden tieferes Gespräch. Aber zum Abschied\nfühle ich noch einmal seine grosse und ernste Herz-\nlichkeit - und seine tiefe unendliche Einsamkeit",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 16,
+      "type": "content",
+      "text": "Montag 30 Die Ereignisse rollen rasend weiter. Die\nCapitulation Bulgariens angenommen, Hertling gestürzt,\ndie deutschen Blätter voll Bestürzung: das Gewitter droht\nendlich auszubrechen. In Wien ein Kurssturz ohne gleichen\nanders per phantastischer wenn die Valuten steigen: es ahnt\ndass die Capitulation Österreichs nicht zu ferne ist. Tag ohne\nGlänzen: jeder ein Jahrzehnt deutscher Entwicklung mitreissend,\nalle preussischen Ideen wegschwemmend, aber doch unaugbar\ngrandios. Ich kann für mich nicht arbeiten, ganz herrn und\nganz Zeitgefühl.\nDienstag 1. October Morgens die schöne Fahrt nach\nCoppet - Mies. Herbstlicher Wein, gehaltenes Blau. Mittags\nLausanne - Ouchy, dann\nmit den Jouves, sie sind wirklich entzückend zu uns. Er\nein schwacher sensitiver Mensch, der langsam schwach lebt,\nwenig isst, wenig geht, sich überhaupt nicht abnützt aus\nEitelkeit, innen aber von der stärksten Seelenkraft\ngefasst ist. Dichterlich liebt er sich nicht, überhaupt kein\nSelbstvertrauen, aber welche moralische Kraft. Da leben sie\nzu dritt mit 300 Franken im Monat ein kleines Haus\nohne Dienstboten, die Frau sorgt für Küche, Wohnung\ndas Kind, als Schreibmaschinenistin und Übersetzerin\ndabei zartfrei - Kameraden im hohen Sinne. Wie\nviele viele Milieus der Aufopferung keine schildert!",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 17,
+      "type": "content",
+      "text": "Auch er ganz gebrochen von der Affaire, wir kommen\nkaum dazu vom Wesentlichsten zu sprechen\nMittwoch 2. October. Vormittags mit J. allein. Wir gehen\nzu Arcos. Auch da in einer Dachstube zu 30 Francs alles\ngestlich beisammen, die Frau (entzückend!) die für ihn\nüber die Grenze geflohen ist, Chapiro, der Strobentel, Rieger,\n- natürlich erbitterte Diskussionen, denen wir bald wieder\nentfliehen. Er erzählt mir viel von seiner Jugend: es ist\nvoll Dunkelheit, Tragödie im Elternhaus, dann gefährliche\nJahre mit allen Lastern, Alkohol und die Weinen,\nbis seine Schwiegermutter und seine Frau ihn retten. Weiter-\nbas die ganze sittliche Klarheit: nicht die verschränkten, ver-\nbogenen Verhältnisse von der andern Seite. Auch wie ich des\nAlles bewundernd fühle! wie diese fester erfragene Armut rein\nDonnerstag 3. Oct. Vormittags Charles Hofer da. Eine fabel-\nhafte Geschichte, dieser Schweizer, der in die Fremdenlegion\nfreiatappt, das Verfluchte an Verworfenheit mitmacht,\nund des seine Frau subsistenzlos in Paris lässt. Man weiss\nte es einmal erzählen. Dann mit Beaumond, abend\nmit den hefflichen Arcos: fell war leider. Er ist ein so\nvergnüglicher Mensch, den man wirklich gern haben muss.\nAbends mit Debrit war J. Eine winterliche Scene. Er ganz\nverletzt, seine Frau verweint. Aber noch immer dieses Böse",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 18,
+      "type": "content",
+      "text": "in ihm, die vehemente rasende Ehrsucht, die zu seiner\nintellectuellen Schwäche so contrastiert. Die Radamontaden\nhin und weg, weil Angst dahinter steht. Und Misstrauung\ngegen Menschen wie R. Ich glaube nicht mehr an Men-\nschen ohne Ehrfurcht als produktive Factoren, da muss\nAlles kommen, er ist ein verlorener Mensch: wie ein\nFronde, der sich zu stark bläht, wird er eines Tages platzen.\nIch wusste es voraus, und es war ein harter Gang zu ihm.\nAber ihn jetzt zu lassen, wäre verächtlich gewesen. Nur doch\nkann ihn niemand vor sich selbst retten.\nFreitag 4. October. Die Reise von Genf nach Zürich ist wirk-\nlich eine Marter. Erst wenn man sie antritt. Um\n1/2 6 Uhr aufstehen, nachts ohne Frühstück auf den dunklen\nBahnhof tappen, langsame, ungefähr überfüllte Züge und\ndiese Proletarisierung der Zeitung: immer dritter Classe als\nob es keine andere gäbe, so versuchen hier ein paar an-\nständige Briefe zu kaufen, weil man nicht weiss, ob man\nsie nicht nach dem fortwirft. In Bern im Cafe gesessen und\nlange herumgeirrt: nichts macht mehr müde als diese\nziellosen wandern ohne Ruhepunkt. Commer gehofft,\ner warnt mich, es aber angenehm nett zu war. Denn\nwieder weitergejagt bis tief in die Nacht hinein.\nBei der Ankunft hör ich dass wir nicht mehr im Belvoir",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 19,
+      "type": "content",
+      "text": "wohnen, sondern schon zu B. übersiedelt sind; ich bin\naber so müde, dass ich kaum Zeit habe, nur im Zimmer umzu-\nsehen und gleich ins Bett falle.\nSamstag 5. Octob Den ganzen Vormittag mit dem Briefschreiben\nverbracht. das wird allmählich eine Marter für mich, diese gan-\nzen geschäftlichen und persönlichen Correspondenzen mit der Hand\nzu erledigen, ich verbrauche dafür meine beste Kraft und falle\ndann immer also mit einer gewissen Unfreudigkeit in den Tag\nDa gibt es freilich keinen Ausweg in dieser unmöglichen Zeit.\nAber ich sehe wirklich, dass gerade das Kostbarste, des Dichterische\nin mir ganz zugrundegeht durch diese Tätigkeit, die bezeichnend ist\nOhne Ertrag. Hofmannsthal hat mich oft geopfert. Hätte ich irgendeinen\nganz starken jungen Dichter zu beraten, ich redete ihm zu, dass\nersten Tage an nie einen Brief zu beantworten, ganz aussen zu\nbleiben. Nachmittags in der Stadt war ich die Ankunft vom\nneuen Friedensangebot und Waffenstillstandsvorschlag, der\nalso bedenklich einer Capitulation ähnlich sieht. Immerhin\nder Friede ist jetzt gewiss für das Frühjahr. Vielleicht überstür-\nzen sich die Ereignisse noch rascher als ich vermutete! Man\nalimet freier. Morgen die Rede des Reichskanzlers und die Antwort\nWilsons wohl in einigen Tagen. Dann wird man ganz klar\nsehen und mit der Uhr in der Hand zu zählen beginnen\nkönnen, was der Totenkampf eintritt.",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 20,
+      "type": "content",
+      "text": "Sonntag 6. October Vormittags Briefschreiberei und Folgen.\nIch verzweifle mich eigentlich je ganz durch diesen Berg von\nArbeiten durchzuringen, der mich erdrückt. Der Mangel an\nkleiner äusserer Regierbarkeit in der Protection ist für\nmich furchtbar. Abends die Rede des deutschen Kanzler,\ngut aber spät, sehr spät. Ich glaube Wilsons Bedin-\ngungen werden jetzt auch die Räumung Lothringens\numfassen. Ob das Deutschland annimmt? Die Zeit\ngeht zu rasend rasch nach vorwärts, kaum dass\nunsere Gedanken nachkommen können.\nMontag 7. Oct. Unruhiger Tag durch die Erwartung,\ndazu noch diese Affaire Bech-Alfer. Dass ich doch\nmeinen Instinct, meinem ursprünglichen, ewig treu\nwerde: jetzt habe ich wieder 14 Tage hervorital, Auf-\nregung, Peinlichkeit, Telegrafiererei, Ungewissheit - ich\nnur ekelt dafür bis zum äussersten! Und doch patsche\nich in diese Dinge immer hinein, ohne mich vorher zu über-\nsehen. Der ganze Arbeitstag dadurch zerstört, ich möchte\nfast sagen. Das Gefühl des nahen Friedens verstümmelt\nDie Annahme des Waffenstillstandes unter leidlichen\nBedingungen scheint mir gesichert, nur überschätzt man,\nglaube ich, die Härte für die geschwächten Mittelmächte..\nWie Österr. zu leidlicher Geltung jemals wieder kommen sollte,",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 21,
+      "type": "content",
+      "text": "ist mir unverständlich - ich kann auch kein Resonanz\nirgend eines Gefühles aufbringen: ich glaube in den Kriegs-\nländern, besonders aber bei uns, werden die ersten zwei\nJahre nach dem Krieg noch ärger sein als die Kriegsjahre\nselbst. Dass irgend etwas mit rechtem Elan, mit ganzer\nFreude unterkommen werden könnte, scheint mir un-\naudenkbar: oder urteile ich nur aus meinem eigenen\ngelähmten Gefühle, das keine Schwung und Ehrungskraft mehr\nhat oder wenigstens nicht jetzt. Die besten Jahre sind\nmitten durch getroffen; ich beneide die Jüngeren und die\nÄlteren, diejenigen die sich noch gewöhnen können an\ndie neue Zeit und diejenigen, die es nicht mehr müssen.\nDienstag 8. Oct. Spannungen ohne Ende. Hetzjagd auf\nJosef B. die mich etwas beruhigt: schliesslich wird\nsich es schon irgendwie regeln lassen, man sollte sich\num anderes sorgen. Die moralische Qual unsäglich: die\nEntenteblätter schlagen einen strengen Ton mit Deutsch-\nland an und mit einem Delinquenten und drüben\nschämen sie zu fühlen, dass ihnen das Wasser bis an\nden Kragen geht. Ein blödsinniger Artikel Rathenaus\nder von einem Nationalheer redet, steht allein für\nsich: sonst Alles in einem nassen Geplätscher. Die Si-\ntuation des liberalen Cabinettes ist eine höchst gefähr-",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 22,
+      "type": "content",
+      "text": "liche: nehmen sie schwere Bedingungen an, so wer-\nden sie auf alle Ewigkeit von den Conservativen\ndafür belastet werden, nehmen sie sie nicht an, dann\nist es eben der Untergang. Mit Liberalismus kommt\nman eben in einem so vorgeschrittenen Stadium nicht\nmehr weiter: jetzt muss es Radicalismus sein. Für Deutsch-\nland kommen jetzt erst die bitteren Erkenntnisse.\nMittwoch 9. October Vormittags Aufsatz über das (ganz\nschlechte) Buch von Latzko. Mich ekeln diese Kriegs-\nschreibereien schon. Nachmittags mit Berau, dann bei\nKesser, mit dem ich sehr gut und klug von Politik\nda reden kann. Wir sind ganz einer Meinung. Dann\nkommt Kurah, krampfierend: er sagt, das deutsche\nReich werde jetzt alles bewilligen, auch die Hohen-\nzollern wegschicken. Er glaubt von ihnen her, wie\nich ihn jeiterer, er erfährt von einem Telegramm, das\ner vor einer Stunde vom Prinzen August Wilhelm\nsch erhielt: die Demütigung geht ihm nicht nah, auch\njedes finanzielle Zusammenbruch nicht, er lebt ego-\ncentrisch nur in sich. Mitten im Gespräch zitiert er\nsein letztes Stück, erzählt fern offenbar seitenlang, die\nnur recht flach und seicht klingen. In seiner herreissen-\nden Genialität ist viel Dilletantismus oder unge-",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 23,
+      "type": "content",
+      "text": "hehrt vielleicht das Verhältnis. Wildenbruch steckt ihm\nin den Knochen - dabei ist er herzlich und aufgetan,\nein Bündel Leben und Begeisterung. In seinen Zügen\nsteckt ein Knabe voll heller Glut, der sich aber allmäh-\nlich vergröbert: auch schon ein schwerer Erbelbier\nwill in ihm heraus. Selten habe ich diese Selbstbegei-\nsterung so stark empfinden, bei Fraeien vielleicht\nnur, die sich ununterbrochen selbst geniessen in je-\ndem Wort, in jeder Geste. Ich mag diese Trunken-\nheit seiner selbst sehr an ihm: auf die Dauer muss\nsie wohl unerträglich werden. Nur dabei diese\nEhrbarkeit: Tagebücher, zwei Cyclen fertig, dazwischen\nAufsätze, Arbeiten Tätigkeit. Selten habe ich Ehrgeiz\nso rein, so ungemischt gesehen: nicht wieder, der\nErfolg will, sondern den kleistisch-dämonischen,\nder alles Sterne will, Shakespeare sein und nicht\nweniger. Er denkt so gar nicht an Literatur: erfüllt\nsich byronisch als Genius, als poeta Borussiae und\nGermaniae. Er discuriert sich gar nicht, stellt sich wie\nin Trage und Vergleur: er hört auch nur sich, sich\nund sonst keinen. Aber in dieser Selbstgefälligkeit\nist nichts Kleines, alles Grosse, Leidenschaft, Kraft und\nman muss sie wirklich lieben. In unser Gespräch",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 24,
+      "type": "content",
+      "text": "Wilsons Antwort: eine kalte Hoffnung, eine versteckte\nDemütigung, eine Aufforderung zur Waffenstreckung\nin milder Form. Es ist zu erwarten, dass ~ da der Ton\nhöflich ist ~ Deutschland sie annimmt, es hat ja viel\nBescheidenheit gelernt in den letzten 14 Tagen war das\nUnmöglichste ist von heute das Selbstverständliche.\nDonnerstag 10. October. Noch immer irritiert\ndurch das Fehlen einer Entscheidung in der Sache\nB. Politisch scheint sich alles zu klaren, Deutschland\ngleiten die härtesten Brocken heute glatt durch die\nGurgel, er wird auch sie fressen, freilich wird ihm\ndie Sache länger im Magen rumoren als die Leute\nmeinen. Ich arbeite ein wenig. Nachmittags mit\nJames Joyce, dem irischen Dichter, hager, spriesig\nscharf, klug, aber sehr „quaint“. Er hat 14 Jahre in\nTrient gelebt und liebt die Stadt weil sie keine\nSteuern von ihm gefordert hat: sein dichterisches\nWerk hat erst bedeutend später begonnen, d.h.\ner hat 10 Jahre an seinem Roman gearbeitet. Jetzt\nerscheint eine irische Odyssee in einer Zeitschrift ohne\ndass er selbst damit fertig wäre - seltsame Zu-\nstände wie die auch, dass kein Drucker in England\nsein Werk übernehmen wollte. Er nennt sonderlings:",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 25,
+      "type": "content",
+      "text": "haft und wie alle solchen Schnarren einzig mit sich\nselbst beschäftigt: in 14 Jahren Triest ist er nicht einmal\nnach Fiume, Agram oder Wien gefahren, auch hier\nlebt er ganz in der Höhle. Kesser war bei Frau Herz.\nKa: Wiener Tratsch ohne tiefere Bedeutung.\nFreitag 11 Die Unruhe in Sachen B. wirklich ärgerlich\nund gesteigert durch die Steigerung der Valuten. Ausserdem\nMüdigkeit, ich verhehle nicht die Angst bei jeder Schwäche,\nman ist mit Grippe jetzt von allen Seiten umstellt, in\nZürich liegt die halbe Stadt krank und täglich ein Dutzend\nTodesfälle. Nachmittags Anruf der Neuen Züricher Zeitung\nnun einen Aufsatz über Lammasch: er soll Ministerprä-\nsident werden, was herrlich wäre. Ich versuche etwas zu\nschreiben: es wird miserabel. Abend zweite Schrift: noch\nimmer ganz schlecht. Ich habe keine bildnerische oder\ndichterische Kraft jetzt in mir: ich bin steril und irritiert\nvielleicht eine Folge, dass ich alle Narkotika, Tabak und\nKaffee so plötzlich abstellte - ein Heroismus über den ich\nmich selbst wundere. Ich fühle mich jetzt wohl, aber faul\nund schlaff, ohne Arbeitswille und Fähigkeit\nSamstag 12. Frühmorgens endlich das Telegramm von A.\nEs machte mir ein leichtes Herz. Ich ging zu B. ging\nzum Director und war froh, die Stadt wieder zu lassen. Nach-",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 26,
+      "type": "content",
+      "text": "mittag Spaziergang, anrufen, hingegeben, lesend,\nfaul und glücklich. Ich darf nur nichts Materielles\nauf mich getrennt haben, dann versage ich sofort.\nSonntag 13. Heute die Nachricht, dass Deutschland\nalle Vorbedingungen annimmt. Eine Erleichterung: das\nEnde ist jetzt naht weichlich. In Deutschland ist der Kai-\nser aufs Eis gestellt samt dem Kronprinzen, die Capi-\ntulation eingeleitet: das härteste Stich erwartet uns\nin Österreich, wo eine Aufteilung und gänzliche Zer-\nstörung naht weichlich scheint. Immerhin ein guter\nTag, ich verbringe ihn herrlich faul, lesend nirbesbeas, an\ndie Arbeit komme ich nicht recht heran.\nMontag 14. Die Grippeepidemie entsetzlich. Dreissig\nLeute sterben in Zürich jeden Tag, tausende sind\nkrank. Natürlich hat man das törichte Gefühl wie\nim Krieg, es könne einen nicht betreffen, aber wie\nunbehaglich doch im Grunde, wie peinlich an jeder\nEcke das Gespenst lauernd zu fühlen, Falsi in Wien er-\nbraucht, überall das Gleiche. Ich arbeite an einem\nFeuilleton für die Presse, oh wie müde bin ich\nschon dieser literarischen Holzhackerei, ich möchte\ngerne eine Zeitung für mich und nur für mich arbei-\nben - seit Jahren unerfüllbar, unerreichbar.",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 27,
+      "type": "content",
+      "text": "Dienstag 15. Ein wenig Arbeit, das Feuilleton fertig, gute\nBriefe, Jeremias in Nürnberg gespielt (meine Gleich-\ngültigkeit zu diesen Dingen ist wirklich organisch)\nNachmittags kommt Berau mit der Botschaft, dass\nWilson jene kalte Antwort gegeben habe, die unum-\nwunden die Abdankung der Hohenzollern verlangt\ndie gänzliche Räumung ohne Bedingungen und\nseparate Verhandlungen mit Österreich ankündigt\nIch spüre bis in Mark das Schauerlich-Historische,\njetzt kommt etwas über Deutschland, wogegen Brest-\nLitowsk ein Kinderspiel war. Jetzt sind wieder Se-\ncunden von der grässlichen Spannung von 1914,\nnur dass in den Nerven nichts mehr zieht; man\nist lahm, ausgehofft, ausgeängstet. Man kann\nnicht mehr. Morgen sie nachdenken, die Brest-\nLitowsk beschlossen haben, ich mag mein Gehirn nicht\ndamit quälen. An ein Ende zu denken wagt man\ngar nicht mehr, denn der Frieden ist ja nur\nein neuer Unruheanfang.\nMittwoch 16. Allerhand Kleinkram, Kritiken\nüber Jeremias gelesen, mit Rübiner gesprochen\nBeide sehen wir das Tragische in der entsetzlichen\nVerarmung Deutschlands, die ohne Beispiel in der",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 28,
+      "type": "content",
+      "text": "Weltgeschichte sein wird, wie überhaupt mich\nin diesen Grad eines Zusammenbruchs je wieder\nBieten kann. Alle Phantasie ist da nutzlos, man\nmuss in Utopien denken. Nachmittags Arbeit,\nCorrecturen zu meinem neuen Stück und\ndamit eine wirkliche Freude inmitten des Chaos.\nDonnerstag 17. Jetzt jeden Tag in der Stadt und\nkeine rechte Arbeit. Man ist ganz nervös von diesen\newigen Angelegenheiten der Welt, die heissesten stir-\nzen furchtbar vehement übereinander. Es sind innere\nInteressentenstürmen: das Schicksal Europas formt sich um.\nAber was ist uns Europa als eine Illusion, ein Fleck Lauthar-\nte, der sich in ein schmerzhaftes Innengefühl verwandelt\nhat: könnte man sich jenen letzten Ausschwung geben\nnur dermassen unzeitlich denken, dass man diesen Krieg\nals etwas historisches empfindet wie Türkenkriege und ein\npassibel aussieht, woran man selbst unschuldig ist und mora-\nlisch verantwortlich los.\nFreitag 18 Nichts von Belang, nichts gearbeitet. Und gewar-\ntet auf die Entscheidungen. Der Kaiser soll jeden Augenblick\ngehen: aber die Hohenzollern sind ein starrnackiges Volk, das\nzäh an seinen Posten sich klammert. Mein Hass gegen das\nGesindel ist grenzenlos: frei in Erfolg und feige in Unglück.",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 29,
+      "type": "content",
+      "text": "Samstag 19. Mit Kesser viel gesprochen. Die Welt ganz\neinig bis auf den Polodamer Klingel. Die Verwirrung\nin Berlin scheint grenzenlos: die Nachrichten lächerlich eben\nso wie die Zeitungsartikel confus. Es fefet jede Orientierung.\nAuf der Börse ein wüstes Valutengeschiebe, in der Stadt die\nGrippe in entsetzlichstem Masse. Eine Weltseuche gegen\ndie die Pest in Florenz oder ähnliche Chronikgeschichten\nein Kinderspiel sind. Sie frisst Europa täglich 20000\nbis 40000 Menschen weg: aber was ist Europa? Eine Fiktion,\ndie man sich abgewöhnen soll wie alle Zusammenfassungen.\nSonntag 20. Auf die deutsche Antwortnote gewartet. Statt\nihrer kommt die Wilsons an Österreich, Eine Zerschmette-\nring, die glatte Auflösung statuiert. Mit den Habsburgern wä-\nre es dann ebenso Freude wie mit den Hohenzollern. Die\nganzen Dinge, die wie Gotteslästerung noch vor 14 Tagen ge-\nklungen hätten, werden heute als einfache Selbstverständlichei-\nten ausgesprochen.\nMontag 21. Gute Nachrichten. Legende vom Lessing Theater\nangenommen, Druck der Bücher fast fertig. Ob das nicht eigent-\nlich wichtiger wäre als die widerliche Politik, die area ganz\nauffrisst und verzehrt, ohne einem etwas zu geben.\nMontag 22. Endlich alle Briefe abgeschoben. Tiori erzählte\nNeues aus Berlin von dem Chaos dort. aber keine Explosion. Es",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 30,
+      "type": "content",
+      "text": "wird weitergeschachert, während schon die Revolution auf\ndem Dachsparren sitzt. Man brennt von einer Zeitung auf\ndie andere und in keiner irgend etwas, das Erleichterung\nzu bringen vermöchte\nMittwoch 23 Spannungen ohne Ende, keine Arbeit. Nur\nlesen, darunter Hiesche, ein Auf-Zeitungen-Hetzen und\nUnruhe, Aber ein herrlicher Herbsttag, klar, rein, die Bäu-\nme wie auf einem Zauberwald. Die Grippe nimmt einen frei-\nlich die rechte Freude daran: täglich rückt sie einem näher\nan den Leib, man ist schon eine Curiosität als Aktueller.\nDonnerstag 24 Die Schicksalsnote Wilsons, die deutlich Ab-\nschlag des deutschen Kaisers fordert. Die Börse antwortete\ndarauf mit einem wilden Sprung nach oben; geschmälert\nwird all das durch die Nachrichten von der Auflösung\nÖsterreichs. Wir wissen nicht mehr, was wir sein werde,\nob Deutsche, Tschechoslowaken, alles ist im Dunkel und Un-\ngewissen, freilich besorgt es einen nicht mehr. Aber dieses\nFieber, diese Ungewissheit! Diese Unruhe!\nFreitag 25 Bech erledigt, dann bei Falsio, wo ich von ihm\nhöre, der noch immer in Wien sich aufhält. Sonst nichts\nnur Erschwerung und Ungeduld.\nSamstag 26 Von Rolland ein wunderbarer Brief. Über\nMatereel geschrieben, sonst nichts. Nur Erwartung auf die",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 31,
+      "type": "content",
+      "text": "Abdankung, die noch immer zögert und zögert.\nSonntag 27. Noch immer Spannungen. Man kann gar nicht\natmen vor Erregung. In Österreich überstürzen sich die Dinge\nmit namenloser Geschwindigkeit. Die Lawine rollt rasch: man\nmöchte ihr zuschauen, wie sie stürzt, aber sie hält nicht inne.\nEs ist furchtbar, diese Eile, dieses rasende Tempo.\nMontag 28 Lammasch soll Ministerpräsident werden. Jegli\nAber immerhin besser als zu spät. Deutsche Antwort - Hau\nnur ausweichend. Oh, dieses Chaos! Innen und aussen!\nDonnerstag 29 Mein Aufsatz erschienen. Matereel abgeholt, Er\nist ein wunderbarer einfacher Mensch voll Tiefe, treu und\nklug: man kann nicht anders als ihn lieben. Er erzählt so-\nviel und alles so schlicht menschlich: man hat den Wunsch\nso zu sein wie er.\nMittwoch 30. Mit Canicres zu Tisch. Heiter im Chaos. Das\nsich kommt und erzählt viel Revolution in Ungarn, der\nrote Hahn gahrt auf Österreichs Dach. Unmöglich die Dinge\naufzudenken, es ist zuviel auf einmal\nDonnerstag 31 Mit Franch. Typus der Börse: ganz am Haus.\nGestaltet und gefaltet. Wie er sich ärgert, wenn jemand\nanderer etwas geschrieben, wie er der laut und sich selbst\nmit Hass kauft. Ich habe immer Mitleid mit ihm.\nLudwig erzählt viel, mit reichlich viel Diplomatenzeugs. Aber",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 32,
+      "type": "content",
+      "text": "blutig bis in die Fingerspitzen, höflich mehr noch als fähig.\nWaffenstillstandsangebot Österreichs: verzweifelte Schreie\neiner Sterbenden, den man nicht sterben lassen will. Und\nWilson zögert mit der Antwort\nFreitag 1. Nov. Immer schneller die Lawine. Pista ermor\ndet. Endlich, sagt man. Nur doch zu spät. Helle Revolution\nüberall in Ungarn, in Österreich Victor Adler Minister des\nÄussern. Nachmittags bei Lasto: er ist an Bell. Die Tra-\ngödie seiner Frau entsetzlich, die für Schmerzen verlang\num da bei seiner Arbeit nicht zu stören und ein Zufun\ndegeh. Er darf sie nicht sehen wegen der Grippe: Compli-\ncationen, der Zufall, die er als persönliche Gefährlichkeit des\nSchicksal empfindet. Er ist so ganz Fanatiker der Güte dass\nman kann ihn nicht vergessen, wie er an Bell liegt, lei-\ndend und zerrissen in der Seele. Abend wieder neue Nach-\nrichten: die Engländer in Lastay. Man kann es auch nicht\nfassen es wird allmählich zuviel.\nSamstag 2. Nov Die Spannungen überdauerten einen\nallmählich. Österreich in voller Revolte und schon ganz\nmit Bolchewismus. Man zerreisst sich das Gehirn, um alles\nauszudenken. Nur Tagen fast man aus der Zeitung der\nRest brennende Phantasie. Ich verraume den Zug, so\nsehr bin ich in die Zeitungen verloren. Dazu das Debacle",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 33,
+      "type": "content",
+      "text": "am Isonzo, die Rückflut der Armee, das letzte Kriegsschiff\ntorpediert, ~ man schreit nach den Engländern und Ame-\nrikanern so wie die Finnländer nach den Deutschen\nschrien. Die Abdankung der deutschen Kaisers steht knapp\nbevor, die des österreichischen scheint bereits erfolgt zu sein\nein Chaos lebt bei uns an, wie es die Welt noch nicht ge-\nsehen. Nur Wilson schweigt mit verbissenen Lippen, innerer\nGreuel die Seele zerspringt vor Erwartung seiner Worte.\nSonntag 3. Zu allem noch die Affaire von B-chs. Brüder.\nNoch einmal durch die Hölle der Bilder des tods. Mir ist es dies-\nmal nicht so persönlich peinlich und dann die Zeiten so viel\ndurcheinander, dass man gar nicht an eine Durchführung den-\nken kann. Das ganze Reich knarrt in allen Fugen, man brennt\nauf Nachrichten und das Ganze gibt kein Bild. Leider haben\ndie Schreier, die Deutschnationalen wieder gesiegt, noch immer\nist der mit dem grossen Maul der Einflussreichste. Die Conse-\nquenzen unabsehbar, wenn Deutschösterreich zum D. Reiche\nkäme und sich von den andern Staaten isolierte: totale Ver-\narmung vor allem, Wien mit seinen 2 1/2 Millionen sinnlos\ngross und Central am Ende des Reiches hängend wie ein Wasser-\nopf und dann die Verarmung, die unaufhaltsame, der rettungs-\nlose Untergang. Ich spreche lange mit Ludwig Bauer darüber,\ner rät fast als vernünftigsten Ausweg den, Jude zu werden.",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 34,
+      "type": "content",
+      "text": "Montag 4 Elend geschlafen. Oder gar nicht, seit vierzehn Ta-\ngen keinen Strich getan, nur Zeitungen gefressen, sind gehetzt\nnur gesagt, Nachricht vom Waffenstillstand. Mitleidslos: ein\nzweiter Brest-Litowsk. Bei allem meinem Pessimismus, ein\nderart schmähliches Ende hätte ich nie vorausgesehen. Aber die\nDummheit der Deutschen jagt alle Teufel aus ihren Löchern, noch\nimmer vermögen sie von ihrem geliebten Monarchen nicht ab-\nschied zu nehmen. Und das kostet Tausenden das Leben, an\ngefährdeten unschuldigen Menschen. Nachmittags noch mit Rie-\nger, der jetzt zurückwill, mitten in diesen entsetzlichen tragi-\nschen Tumult. Keine Briefe, keine Telegramme: man ist\nganz abgeschnitten. Und dabei fehlt noch das Beste, das Not-\nwendigste den Menschen, die Vernunft. Sie sehen nicht ein,\ndass dort in Österreich jetzt bald ein Chaos losbrechen wird,\ngegen das alles Bisherige ein Kinderspiel war. Und wieder\nwerden die Schreier, die lauten Menschen sich der Sache be-\nmächtigen und sie verderben. Ein Trost in diesen Tagen Ma-\ntereel, der Klare, Reine, Gütige. Ich weiss, dass ich nur ganz\nwenige Menschen habe, die ich so sehr liebe wie ihn. Ganz Güte\nund Kraft: er ist doch die wunderbarste Mischung.\nDienstag 5 Die Verbindung wird immer lockerer. In Vorarlberg\nist Revolte, sie wollen zur Schweiz, die sie nicht mit viel Liebe\nerwartet. In Innsbruck plündern Soldaten die Züge, in Grenzrhein",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 35,
+      "type": "content",
+      "text": "auf das wirkliche Tumult erst vorzubereiten. Man sagt nach\nwirklichen authentischen Nachrichten und findet keine. Das\nChaos scheint erst im Werden begriffen: und von Deutschland\nschreiben auch die Verleger und Bücher, alles geht seinen\nruhigen gemessenen Gang. Es ist nur wie wenn ein Sterben.\nder vom nächsten Jahre spricht, denn an Pardon ist nicht\nmehr zu denken: der Friede für Deutschland wird von Tag zu\nTag zerschmetternder sein. Die Alliirten beeilen sich auch gar\nnicht die Waffenstillstandsverhandlungen zu beschleunigen,\nim Gegenteil, sie warten die innere Zermürbung ruhig und\ngemächlich ab: es ist die stärkste Nervenspannung die ertart\nwerden kann und man geht daran zugrunde\nMittwoch 6 Gearbeitet am Rollandbuche, von R. u. Foerding\nangerieben. Es ist noch immer sehr wirr in der Welt, das selbst\nsich mancher allmählich zu klären. Aus Österreich bessere\nNachrichten, J.f. persönlich keine, aber aus den Zeitungen. Die\nOrdnung scheint, um den Preis ungeheurer Anstrengungen aufrecht\nerhalten zu werden. Entsetzlich die Schilderung der zurückflutenden\nSoldaten, die in Vorarlberg werden mit Gewalt zurückgestossen\nMan lebt den ganzen Tag in diesen Bildern. Entsetzlich die Unru-\ner, die dabei nur ihre kleine Angst um sich selber haben\nDonnerstag 7 Der gute Rieger doch nicht abgereist, Er hat hier\nin einer Apotheke eine Stellung angenommen, was ich wun-",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 36,
+      "type": "content",
+      "text": "derbar auswärtig finde. Der Vertrag mit Deutschland für den\nWaffenstillstand knapp vor der Unterzeichnung, in zwei Tagen wird\nalles zuende sein, umso mehr nach jener Revolte in Kiel. Bei Ragar,\nmit dem ich mich nur im letzten verstehe, in den Dingen hinter\ndem theologischen Tanzer. Josef B. getroffen, der mich sehr beruhigt,\nwir sind von der Sache gar nicht berührt.\nFreitag 8. November. Historischer Tag. Ein Trommelfeuer von Nach-\nrichten. Bayern Republik, Schweiz in Generalstreik, Ultimatum\nan den deutschen Kaiser, Waffenstillstandsverhandlungen -\nder Atem kann es kaum auffangen. Und doch innen keine\nrechte Kraft mehr dafür. Man ist zu müde. Das Klugscheiss, man\nspürt es, ohne die rechte Fähigkeit zu haben, es zu fassen. Die Leu-\nte schlottern hier mir so vor Angst, es ist fast unerträglich, mit\nihnen zu sprechen. Aus Österreich kein Wort.\nSamstag 9. Streik wegen des Militäraufgebots. Und knapp\nkeine Zeitungen gerade jetzt wo man danach fiebert. Endlose\nAufregung überall, man zittert jeder Secunde entgegen. Die Bür-\nger hier aschgrau vor Angst, bebend vor jedem Wort. Gerücht\nvon Mund zu Mund, dabei ist das Ganze doch ein Possenspiel gegen\ndas broderige Treiben einer Heer. Abend mit Kurah: er ist doch\njetzt wie alle von dem furchtbaren Schicksal des deutschen\nVolkes tief ergriffen. Es sagte sich früher leicht: Zentralstaat wird\ngeschlagen werden. Nun sieht man, dieser Krieg war zu lang und",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 37,
+      "type": "content",
+      "text": "eine Niederlage fasst so viel wie Untergang.\nSonntag 10 wieder keine Zeitungen. Und es ist Revolution in\nDeutschland, Bayern Republik, der Kaiser versagt, mit ihm alle\nKönige und Grossherzöge. Die Waffenstillstandsbedingun-\ngen ein zweites Brest-Litowsk, aber die Situation Deutschland\nder Russland verzweifelt ähnlich. Dazu Ankündigung des Eisen-\nbahnerstreiks infolge der Provocation durch die Regierung: die\nStadt starrt von Waffen, mit Maschinengewehren, in Convoy\nund Staffelfilmen sausen die Soldaten hin und her. Und wir\nfragen uns: wo ist unsere Freude? Der Krieg ist zuende, die\nRepublik Deutschland geschaffen, die Könige versagt, ein\nWeltgericht beginnt für die Kriegsheter. Und statt dieser Freude\neine dumpfe Spannung, ein Grauen vor allem, das kommt.\nMontag 11 Frühmorgens mit M. der arbeiten will an der B.\nKein Zug, keine Zeitung, es wird ernst. Aber die ganze Welt geht\ndiese Welle. Aus Holland, Schweden gleiche Weltkrieg. Der\nKrieg hat furchtbare Rache genommen an denen, die ihn woll-\nten: Kaiser, Könige, Diplomaten, Militärs, Capitalisten -\ndiese ganze Welt geht in Trümmer. Immer werden Macht\nnicht zerstört: sie zerstören sich selbst. Wir stehen an einer Wende\nwie der der französischen Revolution. Nur dass Alles zu un-\nenerlichen Massen sich gesteigert hat. Wir müssen ein neues De-\nben lernen, anders wird es nicht gehn.",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 38,
+      "type": "content",
+      "text": "Dienstag 12. Man erfährt alles erst allmählich. In der\nStadt ist geschossen worden. Der Streik wächst über das gan-\nze Land. Freilich für die Gegenströmung stark. Es sind zu-\nviel kleine Besitzende, die sind der stärkste Wall gegen den\nUmsturz. Der kleine Rentier ist noch härter, noch zäher als der\nGrosse: der klammert sich an. Und die Arbeiter wieder für selbs,\nkleine Bürger, sonntäglich selbst am Vormittag. Sie wollen eigent-\nlich nur Recht, denn sonst haben sie fast gar nichts mehr zu\nfordern. Der Tag wird lang ohne Nachrichten. Und gar echt.\nMittwoch 13. Hie und da eine Kleinigkeit, die man erfährt, der\nWaffenstillstand abgeschlossen, Victor Adler gestorben, der Kai-\nser Karl demissioniert ~ früher wäre man kopfgestanden. Jetzt\nist man nur müde. Es war schon so viel vorher und es kommt\nnoch so viel nach. Man kann einfach nicht mehr. Und wenig-\nstens ich verbrauche die Hälfte meiner geistigen Kraft in den grau-\nhaften Visionen dieser kommenden Umstürze, wo der Hass der\nClassen, der Stände, riesengross diese Welt erfüllen wird.",
+      "notes": "Handschrift, violette Tinte."
+    },
+    {
+      "page": 39,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist durchgehend in der für Stefan Zweig typischen, gut lesbaren Handschrift verfasst. Die violette Tinte ist auf allen Seiten kontrastreich und klar. Die wenigen unsicheren Stellen betreffen meist Eigennamen oder Abkürzungen, die im Kontext der historischen Ereignisse (1918) gut zu identifizieren sind.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 48727,
+    "total_words": 7665,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

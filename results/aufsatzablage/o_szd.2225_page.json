@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2225",
+    "title": "Wittmann, Hugo",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA220.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2225/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2225/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2225/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2225/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2225/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2225/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2225/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Wittmann, Hugo\n- Signatur: SZ-AAP/W-AA220.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:56.368798+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wittmann, Hugo\n(Würdigung)\n\nWittmann Hugo",
+      "notes": "Das Dokument besteht aus einem Blatt mit zwei Textzeilen oben links und einer Zeile mittig. Die Scans zeigen Vorder- und Rückseite sowie Detailaufnahmen und Farbtafeln."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Wittmann, Hugo\n(Würdigung)",
+      "notes": "Detailaufnahme des oberen Teils."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Wittmann Hugo",
+      "notes": "Detailaufnahme des unteren Teils."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Wittmann Hugo",
+      "notes": "Rückseite des Blattes, durchscheinende Schrift."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Wittmann, Hugo\n(Würdigung)",
+      "notes": "Wiederholung der Detailaufnahme des oberen Teils."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Wittmann Hugo",
+      "notes": "Wiederholung der Detailaufnahme der Rückseite."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Wittmann, Hugo\n(Würdigung)\n\nWittmann Hugo",
+      "notes": "Gesamtansicht mit Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich lesbar und wiederholt sich über die verschiedenen Scans hinweg.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 173,
+    "total_words": 22,
+    "language_detected": "",
+    "language_match": true
+  }
+}

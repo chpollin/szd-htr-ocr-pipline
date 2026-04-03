@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.872",
+    "title": "Brief an Stefan Zweig vom 17. September 1937, SZ-AAP/B1.86",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.872/IMG.1",
+      "https://gams.uni-graz.at/o:szd.872/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 17. September 1937, SZ-AAP/B1.86\n- Signatur: SZ-AAP/B1.86\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:39.336109+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nStefan Zweig Esq.\n49, Hallam Street\nLondon W.1\n\nENGLAND\n\nRef.\n\n17. September 1937 /H\n\nSehr verehrter Herr Dr.Zweig:\n\nWir schicken Ihnen einige Beilagen.\nLibrairie Wega, Lugano: Herr Ernst Fuchs teilt uns mit, dass er Sie\ndavon überzeugen durfte, dass alle Ihre Bücher vorrätig waren.Bitte\ngeben Sie uns das Original-Schreiben wieder zurück.\n\"Pester Lloyd\": Herr Hofrat Dr.Julian Weiss bittet uns, Ihnen sein\nFeuilleton über den \"Begrabenen Leuchter\" zu übermitteln und lässt\nSie bestens grüssen.Vielleicht sind Sie so gut und schreiben ihm\nein paar Zeilen.Seine Privatadresse ist die folgende:\n\nHofrat Dr.Julian Weiss\nSzéll Kalman tér 15\nBudapest I.\n\nFür heute begrüssen wir Sie, als\n\nIhre sehr ergebenen",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte, blau/schwarz). Der Text ist sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar, gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 792,
+    "total_words": 116,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

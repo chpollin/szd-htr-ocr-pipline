@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1652",
+    "title": "Brief an Stefan Zweig vom 7. Oktober 1937, SZ-LAS/B2.4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1652/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1652/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 7. Oktober 1937, SZ-LAS/B2.4\n- Signatur: SZ-LAS/B2.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:52.061887+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "134, FAUBOURG ST HONORÉ\n\nParis, le 7 Octobre 1937\n\nMon cher Ami,\nJ'ai fait aussitôt le nécessaire pour que vous puissiez\ndisposer de votre argent. Je vous l'envoie ci-joint par\nun chèque de Fr 10.340. La différence avec les 11.000 provient\nd'une retenue perçue par la Société des Auteurs. On aurait\npu à la rigueur faire l'affaire sans passer par elle; mais\nç'aurait été une maladresse, étant donné que les clauses\nles plus importantes de notre contrat sont à échéance plus\nou moins lointaine, et que nous pouvons avoir besoin de\nl'appui de la Société, qui, en ce cas, ne nous le marchandera\npas. Et comme la retenue perçue est en somme très petite\n(6 %), j'ai estimé que l'avantage était bien supérieur au\ndébours. Vous serez très aimable d'envoyer directement le\nreçu ci-joint, après l'avoir signé, à l'agence Bianchini, 9 &\n11 rue Ballu.\n\nLa pièce marche toujours très bien. Je vais m'efforcer\npour que le film soit le meilleur possible. Les choses ne\nse présentent pas mal. Les interprètes seront de premier\nordre.\n\nA bientôt, et très amicalement à vous, de nous deux,\n\nJules Romains",
+      "notes": "Typoskript auf Briefpapier mit gedrucktem Briefkopf. Die Unterschrift 'Jules Romains' ist handschriftlich. Oben rechts handschriftliche Archiv-Nummer '57' in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1087,
+    "total_words": 187,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

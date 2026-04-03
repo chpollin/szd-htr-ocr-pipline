@@ -1,0 +1,132 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2248",
+    "title": "Waffen, Nehmt allen die _ weg.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA204.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2248/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2248/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2248/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2248/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2248/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2248/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2248/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, Bleistift",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Waffen, Nehmt allen die _ weg.\n- Signatur: SZ-AAP/W-AA204.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:58.643523+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Waffen, Nehmt allen die _ weg.\n\nNehmt allen die \nWaffen\nweg",
+      "notes": "Die Zeile ist in violetter Tinte geschrieben und unterstrichen. Darunter befindet sich eine Bleistiftnotiz: 'Nehmt allen die / Waffen / weg'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt/Rückseite."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Nehmt allen die\nWaffen\nweg",
+      "notes": "Bleistiftnotiz auf dem Blatt."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt/Rückseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Waffen, Nehmt allen die _ weg.",
+      "notes": "Ausschnitt des Textes in violetter Tinte."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt/Rückseite."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Waffen, Nehmt allen die _ weg.\n\nNehmt allen die\nWaffen\nweg",
+      "notes": "Gesamtansicht mit Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar, sowohl die Tinte als auch die Bleistiftnotiz.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 173,
+    "total_words": 33,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      1
+    ],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T12:55:14.626506+00:00"
+  }
+}

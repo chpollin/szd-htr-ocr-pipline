@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.468",
+    "title": "Heinrich Schwarz an Stefan Zweig, 1931-04-24, SZ-SAM/AK.182",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.468/IMG.1",
+      "https://gams.uni-graz.at/o:szd.468/IMG.2",
+      "https://gams.uni-graz.at/o:szd.468/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Heinrich Schwarz an Stefan Zweig, 1931-04-24, SZ-SAM/AK.182\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.182\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.526071+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Capri - Panorama dal Monte Solaro\n24.4.31\nH. Schwarz.",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Ergänzungen oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nAustria\n\nCapri 24.4.1931.\nHerliche Tage in Neapel,\ndenen noch einige\nrömische folgen sollen.\nHo<s>f</s>fe Sie und die\nIhren wohlauf heimge-\nkehrt. Herzlichst wie\nimmer Ihr\nHeinrich Schwarz",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich. Briefmarken und Poststempel vorhanden. Das Wort 'hoffe' weist eine Korrektur auf (durchgestrichenes 's' oder ähnliches, hier als 'Ho<s>f</s>fe' transkribiert)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farb- und Grauskala für Archivierung. In der Mitte befindet sich die bereits transkribierte Rückseite der Ansichtskarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Korrektur im Wort 'hoffe' wurde als durchgestrichen markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 289,
+    "total_words": 43,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

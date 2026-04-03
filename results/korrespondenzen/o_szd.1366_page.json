@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1366",
+    "title": "Brief an Karl Klammer vom 25. Juni 1919, SZ-SEF/B6.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1366/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1366/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1366/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Karl Klammer vom 25. Juni 1919, SZ-SEF/B6.6\n- Signatur: SZ-SEF/B6.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:29.152888+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8\nWIEN,\n25. Juni 1919.\n\nSehr verehrter Herr Major!\n\nVerzeihen Sie, dass ich Ihnen erst so spät\nantworte, und noch mehr, dass dies in maschineller Form\ngeschieht, aber ich bin gerade von Wien dauernd nach\nSalzburg übersiedelt und stecke noch viel in Schwierig-\nkeiten und Unzulänglichkeiten eines solchen Lebensumsturzes.\nIch hätte mich sonst riesig gefreut, sie persönlich nach\nso manchen Jahren wieder zu sehen, in denen ich Ihnen un-\nzwischen militärisch bis zum Feldwebel nachgerückt war, aber\nvorläufig freue ich mich jeden einzelnen Tag, dass ich\nnicht in Wien bin und hier im verschlossenen und verbotenen\nLande leben soll.\nIch hätte Ihnen gerne einen Rat für Ueberse-\ntzungen erteilt - es wäre für einen solchen Meister wie Sie\nviel zu tun - aber die Stunde ist furchtbar ungünstig, denn\nes besteht in Deutschland eine leicht verständliche Abnei-\ngung gegen alles Französische. Ich habe mit dem Inselverlag\nseit Jahren eine prachtvolle Verlaine-Ausgabe in Vorberei-\ntung, bei der ich auf Ihre Reihilfe sehr rechnen möchte,\naber auch er zögert unter dem Eindruck der Friedensbedin-\ngungen, die längst vorbereitete Arbeit weiterzuführen und\nschiebt sie unentwegt weiter. Drum glaube ich, wird bei",
+      "notes": "Der Text bricht am Ende der Seite ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "allem Fortbestehen eines grossen Hasses wenigstens in\nkulturellen Dingen bald eine Entspannung folgen müssen\nund dann will ich mir erlauben, mich sofort bei Ihnen\nzu melden.\nWenn Sie nach Salzburg kommen, hoffe ich, werden\nSie nicht an mir vorbeigehen. Für heute nun die herzlich-\nsten Grüsse\n\nIhres aufrichtig ergebenen:\nStefan Zweig\n\n[am rechten Rand vertikal:] an Karl Klammer = K.L. Ammer\n[unten links:] 263 125/ 3",
+      "notes": "Die Unterschrift ist handschriftlich in violetter Tinte. Der Randvermerk 'an Karl Klammer = K.L. Ammer' ist handschriftlich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Dies ist ein Scan des Dokuments mit einer Farbkarte/Grauskala. Der Textinhalt ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Maschinenschrift handelt. Die handschriftlichen Ergänzungen (Unterschrift, Randnotiz) sind ebenfalls eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1635,
+    "total_words": 256,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

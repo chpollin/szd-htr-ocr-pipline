@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.135",
+    "title": "Vertrag Aktiebolaget Skoglunds Bokförlag",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.58",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.135/IMG.1",
+      "https://gams.uni-graz.at/o:szd.135/IMG.2",
+      "https://gams.uni-graz.at/o:szd.135/IMG.3"
+    ],
+    "date": "11. Oct. 1937",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "London",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze und violette Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "36x22 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag Aktiebolaget Skoglunds Bokförlag\n- Signatur: SZ-AAP/L13.58\n- Datum: 11. Oct. 1937\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte, Unterschrift von fremder Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:44.300570+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "V e r t r a g\n\nZwischen Herrn Doktor Stefan Zweig, 49 Hallam Street, London W.1. /im\nVertrag genannt \"Autor\"/ und Der Firma Aktiebolaget Skoglunds Bokförlag,\nSergelgatan 4, Stockholm, /im Vertrag genannt \"schwedischer Verleger\"/\nwurde heute folgender Vertrag abgeschlossen:\n\n§ 1.\n\nDer Autor überträgt dem schwedischen Verleger die Rechte einer schwe-\ndischer Buchausgabe des Werkes\n\n\"STERNSTUNDEN\"\n\n§ 2.\n\nFür die Überlassung der Buchrechte verpflichtet sich der schwedische\nVerleger zur Zahlung von 10 % bis 3.000 Exemplaren und 12 % Honorar vom\nLadenpreis aller über 3.000 hinaus verkauften Exemplare. Die Abrechnung\nerfolgt halbjährlich und zwar am 30. Juni und 31. Dezember eines jeden\nJahres.\n\n§ 3.\n\nAlle andern als die oben festgelegten Buchrechte bleiben ausdrücklich\ndem Autor vorbehalten.\n\n§ 4.\n\nDer schwedische Verleger verpflichtet sich, das Werk bis spätestens\n__________ erscheinen zu lassen, andernfalls würde dieser Vertrag un-\ngültig, die geleistet Vorauszahlung aber würde von dem Autor dem schwedi-\nschen Verleger nicht zurückvergütet.\n\n§ 5.\n\nDer schwedische Verleger verpflichtet sich zur unentgeltlichen Über-\nlassung von sechs Pflichtexemplaren an den Autor; von jeder weiteren Auf-\nlage von je einem Pflichtexemplar an den Autor.\n\n§ 6.\n\n250 Besprechungs- und Freiexemplare sind honorarfrei.\n\n§ 7.\n\nWenn der schwedischer Verleger sechs Monate nach Ausverkauf einer Auf-\nlage keine neue Auflage in Angriff nimmt, fallen die in diesem Vertrag fest-\ngelegten Rechte an den Autor zurück.\n\n§ 8.\n\nAlle Zahlungen unter diesem Vertrag sind zu richten an dem Autor. Der\nausschliessliche Gerichtsstand für etwaige Streitigkeiten aus diesem Vertrag\nist Wien.\n\n§ 9.\n\nVorstehender Vertrag wurde in Zwei gleichlautenden Exemplaren ausge-\nfertigt, von beiden vertragschliessenden Teilen gelesen, annerkannt und\nunterschrieben und geht mit seinen Rechten und Pflichten an die Rechtnach-\nfolger der Unterzeichneten über.\n\nLondon 11. Oct. 1937\n\nStefan Zweig\n\nStockholm, 4 Oct. 1937\n\nAKTIEBOLAGET SKOGLUNDS BOKFÖRLAG\n\n[Unterschrift]",
+      "notes": "Das Dokument ist ein Typoskript-Durchschlag. Die handschriftlichen Ergänzungen (Datum und Unterschrift Stefan Zweig) sind in violetter Tinte ausgeführt. Die Unterschrift des schwedischen Verlegers ist in schwarzer Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbkarte/Grauskala zur Dokumentation, kein Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz des Durchschlag-Charakters. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2033,
+    "total_words": 292,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

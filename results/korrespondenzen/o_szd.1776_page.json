@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1776",
+    "title": "Brief an Max Rascher vom 4. Mai 1938, SZ-AAP/B1.210",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1776/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1776/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1776/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1776/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Rascher vom 4. Mai 1938, SZ-AAP/B1.210\n- Signatur: SZ-AAP/B1.210\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.495958+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4.Mai 1938.\n\nHerrn Max Rascher,\nLimmatkai,\nZürich.\n\nLieber Herr Rascher!\n\nDarf ich Sie um eine kleine Gefälligkeit\nbitten? Ich möchte beiliegenden Brief an Ihre Schwei-\nzer Verlegervereinigung schicken und weiss nur nicht\ngenau, ob dieser Titel stimmt oder ob es vielleicht\nheisst \"Verein Schweizer Verleger\". Sie wissen nun\nschon, wen ich meine und ich bitte Sie, den Brief, den\nich Ihnen offen übermittle und der keinerlei Geheimnis\nenthält, an Ihre Vereinigung ehebaldigst zu übermitteln.\n\nMit herzlichen Grüssen\n\nIhr ergebener",
+      "notes": "Typoskript auf Briefpapier."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "4.Mai 1938.\n\nAn die Vereinigung Schweizer Verleger.\n\nSehr geehrte Herren!\n\nErlauben Sie, dass ich mich mit einer Bitte\num Auskunft an Sie wende.\n\nHerr Herbert Reichner, der Leiter des Ver-\nlages Herbert Reichner in Wien, hat am 15. oder 16. März\nohne vorherige Verständigung seiner Angestellten den Ver-\nlag verlassen, der am nächsten Tage kommissarisch be-\nschlagnahmt wurde. Seitdem wird kein Buch mehr von mir\nvon dort ausgeliefert, Abrechnungen nicht mehr gegeben,\nBestellungen, auch von auswärtigen Buchhändlern, und al-\nle Briefe bleiben unbeantwortet.\n\nDies allein würde mich schon zur Lösung mei-\nnes Vertrages mit der Firma Herbert Reichner berechtigen.\nAusserdem enthalten meine sämtlichen Verträge den Zusatz,\ndass falls durch staatliche Eingriffe der Weitervertrieb\nmeiner Bücher gehindert werden sollte, ich zur Kündigung\nmeiner Verträge berechtigt bin. Diese Kündigung habe ich\ndem Verlage Herbert Reichner in Wien ordnungsgemäss zu-",
+      "notes": "Typoskript, Beilage zum Brief an Max Rascher."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "gestellt und das Einlangen meiner Kündigung ist mir von\ndort bestätigt worden.\n\nNun bestreitet Herr Reichner, der sich zur\nZeit in der Schweiz unter einer mir nicht bekannten Ad-\nresse aufhält, diese Kündigung mit der Motivierung, dass\ner von der Schweiz aus seinen Verlag ungehindert weiter-\nführe. Meines Wissens ist nun Herrn Reichner die Ausübung\neiner aktiven verlegerischen Tätigkeit in der Schweiz\nweder persönlich noch für seine nur formelle Vertretungs-\nniederlassung trotz mehrfachen Ansuchens jemals bewilligt\nworden. Es ist mir aber wichtig, vom Schweizer Verleger-\nverein authentisch zu erfahren, ob diese meine Auffassung\nrichtig ist. Ich bitte mir also mitzuteilen, ob wie Herr\nReichner behauptet, durch die blosse zeitweilige Anwesen-\nheit seiner Person in der Schweiz ein Schweizer Verlag\nHerbert Reichner zur Ausübung der in Verlagsgesetz vor-\ngesehenen Verpflichtungen berechtigt ist und ob Sie die\nrein formelle Niederlassungsvertretung als einen in der\nSchweiz existierenden und behördlich konzessionierten\nSchweizer Verlag anerkennen.\n\nFür eine baldige Auskunft Ihnen aufrichtig\ndankbar,\n\nIhr sehr ergebener",
+      "notes": "Typoskript, Fortsetzung der Beilage."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2606,
+    "total_words": 376,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

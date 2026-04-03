@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1635",
+    "title": "Postkarte an Frans Masereel vom 1. August 1934, SZ-LAS/B1.51",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1635/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1635/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 1. August 1934, SZ-LAS/B1.51\n- Signatur: SZ-LAS/B1.51\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:49.819036+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Frans Masereel\n\nEquihen près de Boulogne\nFrance",
+      "notes": "Adressseite einer Postkarte. Handschriftlich in violetter Tinte. Briefmarken (1 Penny rot, 1/2 Penny grün) und Poststempel 'LONDON W 15 AUG 1934' vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Leider, ich muss rasch zu-\nrück nach Österreich. Ich\n fahre am Samstag um\n14 30 hier fort über Bou-\nlogne, wenn du an der\nBahn sein kannst, ohne\ndass es dir Mühe macht,\nkann ich dir wenigstens\ndie Hand schütteln. Von\nherz\n\nStefan",
+      "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Die Schrift ist gut lesbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist eindeutig Stefan Zweigs.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 276,
+    "total_words": 50,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

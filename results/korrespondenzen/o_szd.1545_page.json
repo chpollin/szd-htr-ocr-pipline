@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1545",
+    "title": "Brief an Stefan Zweig vom 14. Dezember 1924, SZ-AAP/B2.47",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1545/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1545/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1545/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 14. Dezember 1924, SZ-AAP/B2.47\n- Signatur: SZ-AAP/B2.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:41.117108+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "An Stefan Zweig\nSalzburg\n\nBerlin, den 14. XII. 24.\nTiergarten Ufer 13 II bei Lask\n\nLieber Herr Zweig!\nDie gebundenen Exemplare des Buches sind soeben\naus der Binderei abgegeben worden; das erste geht\njetzt an Sie ab. Dies nur, damit Sie nicht meinen\nSie seien vergessen worden. Ich wüßte mir niemand\ndem ich es eher in den Händen wünschte als Sie, - mit\neiner Ausnahme, die Sie gelten lassen würden.\nAn Herrn Braün werde ich selbstverständlich auch\neines dirigieren. Es werden ja ohnehin eine ganze Anzahl\nRezensionsexemplare verschickt, da fragt man doch\nwenn man weiß, daß eines zu jemand kommt der\nein persönliches Verhältnis dazu hat.\nIch erlebe hier fast täglich eine so eigentümlich\ntiefe und vor allem herzliche Wirkung des Gedichts,",
+      "notes": "Handschriftlicher Brief auf Briefpapier. Die Tinte ist dunkel, gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "daß ich etwas verwirrt und befangen bin. Ich halte\nmich eigentlich für menschlich noch unreif genug\noder genug, um bereits eine solche Wirkung, die doch\nauch immer eine Verantwortung bedeutet, auf Andere\nauszüben. Nicht, daß ich mich vor der Verantwortung fürch-\ntete, aber es scheint mir zu früh, wenn man mir sagt\nzu viel oder doch zuviel von dem vorweggenommen, das\nich erst in mir gestalten will ehe ich damit an Andere\nherantrete. Vielleicht ist es doch aber auch so, daß man\nsich unbewußt vorwegnimmt und so im Wort bereits\nein Stadium erreicht von dem man sich innerlich\nnoch entfernt glaubt. Denn hätte die Publikation also auch\nfür einen persönlich einen tieferen Sinn?\nDie Rückschläge werden nicht ausbleiben und ich sehne\nmich sogar nach einem knappen Ratschlag. Sehen Sie,\nso übermütig haben Sie mich gemacht! Aber nicht Sie allein -\nich müßte heute meine Verantwortung entfalten, die Ihnen vielleicht\neinmal ganz offen zeigen, wenn es mir nicht anders\nwill. Meinen herzlichsten Gruß wird Sie mir jedenfalls geben.\nIhr\nRichard Friedenthal",
+      "notes": "Zweite Seite des Briefes. Handschriftlich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text der zweiten Seite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Keine größeren Unklarheiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1790,
+    "total_words": 292,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

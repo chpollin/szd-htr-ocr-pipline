@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1657",
+    "title": "Unbekannt an Stefan Zweig, SZ-SAM/AK.287",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1657/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1657/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1657/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Unbekannt an Stefan Zweig, SZ-SAM/AK.287\n- Signatur: SZ-SAM/AK.287\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:52.720114+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "309.\nKREMS A.D.",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Fotografie von Krems an der Donau. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herren\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5.\n\nDie herzlichsten Grüße in freundlichem\nGedenken von Jesen\n\nGrüße, bitte, auch Ihrer lieben Frau\nvielmals von mir.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke (10 Groschen, Österreich) mit Poststempel 'KREMS A.D. 1.IX.30'. Am unteren Rand gedruckter Hinweis: 'FOTO J. FARSKY KREMS A.D. 1930'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite der Ansichtskarte mit Farbskala und Grauskala für Archivierungszwecke. Kein eigenständiger Textinhalt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Identifikation des Absendernamens 'Jesen' ist aufgrund der kursiven Schrift leicht unsicher, aber im Kontext plausibel.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 179,
+    "total_words": 27,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

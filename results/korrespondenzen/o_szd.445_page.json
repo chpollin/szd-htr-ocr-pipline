@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.445",
+    "title": "Arthur Roessler an Stefan Zweig, 1919-07-17, SZ-SAM/AK.161",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.445/IMG.1",
+      "https://gams.uni-graz.at/o:szd.445/IMG.2",
+      "https://gams.uni-graz.at/o:szd.445/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Arthur Roessler an Stefan Zweig, 1919-07-17, SZ-SAM/AK.161\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.161\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.738399+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BÜCKEBURG 17.7.19. SCHLOSSTOR",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Schlosstors in Bückeburg. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nBückeburg, Georgstrasse 9. 17.7.19.\nLieber Freund -\nmit Wochen fern von\nDaheim kann ich Ihnen den Witiko\nleider nicht zur Verfügung stellen, -\nwenn Sie nicht damit bis zum\nHerbst warten können. Das Buch muss\naber doch auch sonst wo zu beschaffen\nsein. Mir geht's gut u. wünsche ich Ihnen\ndasselbe. Herzlichst Ihr\nRoessler",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden. Der Absender ist Arthur Roessler."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, dazwischen die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, die wenigen Abkürzungen (u. für und) sind eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 399,
+    "total_words": 64,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

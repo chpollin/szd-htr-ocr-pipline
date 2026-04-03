@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.520",
+    "title": "H. Effenberg an Stefan Zweig, 1910-10-06, SZ-SAM/AK.229",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.520/IMG.1",
+      "https://gams.uni-graz.at/o:szd.520/IMG.2",
+      "https://gams.uni-graz.at/o:szd.520/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: H. Effenberg an Stefan Zweig, 1910-10-06, SZ-SAM/AK.229\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.229\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.781444+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "LEIPNIK.\nSchloss. 6. 10. 10.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Schlosses in Leipnik. Handschriftliches Datum oben mittig."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "POSTKARTE\n\nHerrn\nDr. Stefan Zweig\nWien - VIII\nKochgasse 8\n\nHerzliche Grüße von morgen\nin Wien u. darf Sie doch\nbald sehen! Ihr ergebener\nH. Effenberg.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke (5 Heller, Österreich) oben links mit Poststempel."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Darunter liegt die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 178,
+    "total_words": 31,
+    "language_detected": "",
+    "language_match": true
+  }
+}

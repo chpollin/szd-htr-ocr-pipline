@@ -1,0 +1,103 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2829",
+    "title": "Aufsätze P",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA-P",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2829/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2829/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2829/IMG.3"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        },
+        {
+          "name": "Richard Friedenthal",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118535579"
+        }
+      ],
+      "subject": [
+        "Register"
+      ],
+      "origin_place": "Salzburg",
+      "extent": "1 Blatt,\n                                          korrigiert",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Farbband, violette Tinte, Bleistift, rote Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Richard Friedenthal",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Aufsätze P\n- Signatur: SZ-AAP/W-AA-P\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes\n                                       Farbband, violette Tinte, Bleistift, rote Tinte\n- Hand: Erwin Rieger, Richard Friedenthal, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:10.105585+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufsätze\n--------\nPetzold, Alfons ✓\nProust, Marcel (gedruckt in Zeit und Welt)✓",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in roter Tinte und Bleistift-Häkchen. Oben rechts ein handschriftliches Symbol (Signatur/Kürzel)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Aufsätze\n--------\nPetzold, Alfons ✓\nProust, Marcel (gedruckt in Zeit und Welt)✓",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz und sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 158,
+    "total_words": 24,
+    "language_detected": "",
+    "language_match": true
+  }
+}

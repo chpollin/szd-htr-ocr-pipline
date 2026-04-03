@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1515",
+    "title": "Brief an Stefan Zweig vom 21. Oktober 1925, SZ-AAP/B2.59",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1515/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1515/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1515/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 21. Oktober 1925, SZ-AAP/B2.59\n- Signatur: SZ-AAP/B2.59\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:38.562998+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Charlottenburg, den 21. 10. 25\n\nLieber Herr Zweig,\nvielen Dank für Ihren Brief, der nun leider schon in eine\ngegebene Situation hineintraf. Der Verlag drängte nämlich sehr\n(wohl aus Furcht vor etwaiger Konkurrenz) und ich liess die\nSchreiben hinausgehen, auf die Gefahr hin - die Sie richtig vor-\naussehen - einer Reihe von Ablehnungen zu begegnen. Ich hatte nun\nallerdings von vornherein nicht damit gerechnet, von Rilke oder\nStefan George einen Beitrag zu bekommen. Diese Namen stehen nur\nder Vollständigkeit halber auf der Liste. Es wäre mir immerhin un-\nhöflich erschienen, sie nicht wenigstens aufzufordern. Im Übrigen\nist ja gerade von Menschen dieses Schlages eine wirklich brauch-\nbare Selbstdarstellung nicht zu erwarten. Worauf es mir ankam bei\ndem Werk das war nicht eine lückenlose Aneinanderreihung der be-\ndeutenden Namen, sondern der Versuch diejenigen, von denen man sich\neine charakteristische Äusserung ~~erwarten~~ {erwarten} kann, zum Sprechen zu\nbringen. Viele würden wohl sonst nichts über sich sagen und gerade\nbei dieser Art der Produktion bedarf es doch oft eines Anstosses von\naussen. Ich habe auch schon eine ganze Reihe von zum Teil sehr be-\nfriedigten Zustimmungen auf die Schnur geheftet. Unbedingt nötig\nwäre mir allerdings Thomas Mann, auch ohne Hauptmann oder Schnitz-\nler ist das Buch allzu unvollständig.\n\nIm Übrigen macht man dabei ganz eigentümliche Bekanntschaften.\nSo empfahl mir Wilhelm Schäfer als einen der 5 grössten deutschen\nLyriker E. V. Bodmann. Auch den greisen Benno Rittenauer, meinte er,\nsollte man nicht kränkend übergehen. Ich war ganz erschrocken, dass\nvon dieser Stelle solche Wünsche kamen. Dass den Damen W[...]",
+      "notes": "Typoskript. Die letzte Zeile bricht mitten im Wort ab, da die Seite endet. Die Korrektur 'erwarten' ist über der Zeile eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "der sonst von dem Plan sehr angetan war, sich mit Sternheim und\nDöblin nicht ganz befreunden kann war mir schon weniger verwunder-\nlich.\n\nIch schulde Ihnen immer noch die angekündigte Novelle, die nun\nhoffentlich bald vom Abschreiben zurückkommt. Sehr gespannt bin\nich auf die weiteren Stücke aus Ihrem Bande. Auch sonst weiss ich\nviele Leute, die sich nach guter, knapper Prosa sehnen. Die Zähne\nhaben nach der Zeit des schrammigen und pappigen Expressionisten-\nberies einen gesunden Appetit auf etwas Schwarzbrotartiges.\n\nEin sehrschönes Buch, das ich in diesen Tagen bekam: die Hymnen\nan die Kirche von Gertrud le Fort. Sie kennen es wohl schon?\n\nMit den besten Wünschen für Ihre Arbeit\ngrüsst Sie herzlich",
+      "notes": "Typoskript. Fortsetzung des Briefes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierungszwecke über den Text gelegt. Der Text darunter ist identisch mit dem Text auf Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die letzte Zeile auf Seite 1 ist aufgrund des Seitenumbruchs unvollständig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2377,
+    "total_words": 369,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

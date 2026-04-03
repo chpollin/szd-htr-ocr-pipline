@@ -1,0 +1,79 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1106",
+    "title": "Postkarte an Max Fleischer vom 20. September 1902, SZ-LAS/B3.27",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1106/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1106/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1106/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Max Fleischer vom 20. September 1902, SZ-LAS/B3.27\n- Signatur: SZ-LAS/B3.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:13.374976+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "An\n\n~~An~~ Herrn Max Fleischer\n\n~~in~~ Komotau in\nBöhmen, Villa Reim",
+      "notes": "Adressseite der Postkarte. Die durchgestrichenen Wörter sind im Original erkennbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Max, ich habe es wirklich sehr peinlich emp-\ngefunden, dass du mit mir, der ich nach 6 Monaten\nnicht mehr wieder in Heimat nach Haus zurückfindet,\nverhielt wie ein altes Weib und mir keine Zeile von\ndir kommen lässt. Und ich hörte so gerne etwas\nvon dir. Camillo verlebter Brief kam erst nach 8\nTage, den Verlaine sah ich wohl schon lange. Paul\nRemer hat ihm vorgestern ein „Tag“ ein 8 Seiten\nlanges Feuilleton gewidmet, in dem auch ich\nherausgestrichen bin. Ich habe hier schon eine Wohnung\nund lebe mich nach alter Berliner Sitte gerne zu\nmit, wenn du hier unterhaltslos bist. Von Herzen\ntrotz allem dein treuer\nHelen",
+      "notes": "Textseite der Postkarte. Die Handschrift ist flüssig, aber stellenweise eng geschrieben. 'Helen' ist die Signatur, vermutlich ein Schreibfehler für 'Stefan' oder ein Spitzname."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber Max, ich habe es wirklich sehr peinlich emp-\ngefunden, dass du mit mir, der ich nach 6 Monaten\nnicht mehr wieder in Heimat nach Haus zurückfindet,\nverhielt wie ein altes Weib und mir keine Zeile von\ndir kommen lässt. Und ich hörte so gerne etwas\nvon dir. Camillo verlebter Brief kam erst nach 8\nTage, den Verlaine sah ich wohl schon lange. Paul\nRemer hat ihm vorgestern ein „Tag“ ein 8 Seiten\nlanges Feuilleton gewidmet, in dem auch ich\nherausgestrichen bin. Ich habe hier schon eine Wohnung\nund lebe mich nach alter Berliner Sitte gerne zu\nmit, wenn du hier unterhaltslos bist. Von Herzen\ntrotz allem dein treuer\nHelen",
+      "notes": "Identisch mit Seite 2, fotografiert mit Farbreferenzkarte (Farbkarte #13 / Grauskala #13)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Transkription der Postkarten-Adressseite und des Textkörpers ist konsistent.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1320,
+    "total_words": 231,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 1,
+    "estimated_accuracy": 0.85,
+    "edited_pages": [
+      1
+    ],
+    "notes": "Page 1: Fixed 'Komotan' -> 'Komotau' (real place name, Chomutov in Bohemia). Page 3 reclassified as color_chart. Page 2 handwriting is dense 1902 Kurrent — many readings are uncertain but left unchanged due to low confidence in alternatives. The transcription has several suspicious readings ('Camillo verlebter Brief', 'unterhaltslos', 'Helen' as signature) that may contain Kurrent misreadings but cannot be confidently corrected from the scan resolution.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T19:30:00Z"
+  }
+}

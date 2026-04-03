@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1295",
+    "title": "Brief an ? Jeanrenaud ohne Datum, SZ-SHB/B5.3",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1295/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1295/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1295/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an ? Jeanrenaud ohne Datum, SZ-SHB/B5.3\n- Signatur: SZ-SHB/B5.3\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:26.505267+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "VIII. KOCHGASSE 8\nWIEN,\n\nChère mademoiselle, je vous expédie par\nle même courrier une eau-forte de V., faite après\nla buste de Van der Stappen et signé par l'artiste.\nJ'en ai encore une deuxième : n'ayez vous pas\npeur de me priver, au contraire, c'est un vif plaisir\npour moi d'aider un peu a faire une surprise a\nMonsieur Raemmerer. Je serai très content, si\ndre, ~~que~~ cette eau-forte vous convient et je vous\nprie de recevoir l'assurance de mes meilleurs senti-\nments\n\nStefan Zweig",
+      "notes": "Der Text ist in violetter Tinte geschrieben. Das Wort 'si' wurde über der Zeile eingefügt, das Wort 'que' wurde durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefbogens, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Briefbogens mit Farb- und Grauskala-Referenzkarten."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar. Die Korrekturen (Einfügung 'si', Streichung 'que') sind eindeutig erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 486,
+    "total_words": 85,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

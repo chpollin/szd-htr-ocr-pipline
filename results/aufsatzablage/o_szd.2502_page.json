@@ -1,0 +1,116 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2502",
+    "title": "Für die Maccabi-Association, London",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA103.5",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2502/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2502/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2502/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2502/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2502/IMG.5"
+    ],
+    "date": "Okt. 1937",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "origin_place": "London",
+      "extent": "2 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "London"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, blauer Buntstift",
+        "hands": [
+          "Lotte Zweig"
+        ]
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Für die Maccabi-Association, London\n- Signatur: SZ-AAP/W-AA103.5\n- Datum: Okt. 1937\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarzes\n                                       Durchschlagpapier, blauer Buntstift\n- Hand: Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:28.419866+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "für die Maccabi-Association, London\nOkt. 1937\n\nDie körperliche Ertüchtigung der jüdischen Jugend\nscheint mir deshalb besonders wichtig, weil sie mithel-\nfen kann, das Inferioritätsgefühl, das oft schon von\nKindheit an auf den Juden lastet, zu vermindern. Kör-\nperliche Kraft, Geschicklichkeit, Sicherheit ist ein\nwichtiges Moment für das seelische Gleichgewicht, und\ngerade weil die Juden infolge der ihnen historisch auf-\ngezwungenen Schichtung nur zum geringen Teil Landarbei-\nter und Landbewohner sind, ist eine gewisse sportliche\nBetätigung für sie besonders notwendig. Je mehr sich\ndie Städte vergrössern, je mehr sich die Aktivität ih-\nrer Bewohner innerhalb von Zimmern und Büros, also in\ngeschlossenen Räumen abspielt, umso wichtiger wird eine\ngesteigerte Pflege und Anspannung des Körpers in den\nFerienstunden. Die Erfahrungen haben gezeigt, dass die\njüdische Jugend keine geringeren Fähigkeiten besitzt und\ndass gerade in den letzten Jahrzehnten der körperliche\nHabitus der ganzen Rasse sich sichtbarlich gekräftigt\nhat.\nFreilich muss darauf geachtet werden, dass die Wage\nnicht zu tief nach der andern Seite hinunterschnellt. Die\nGefahr der übermässigen Sportbetätigung liegt darin, dass",
+      "notes": "Typoskript mit handschriftlicher Notiz am Kopf (in blauem Buntstift). Die Notiz ist von Lotte Zweig."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des ersten Blattes, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "sie einerseits leicht zur Vernachlässigung geistiger In-\nteressen führt und dass sie anderseits kriegerische und\nmilitaristische Instinkte befördert. Keinesfalls darf\ndie körperliche Kultur der jüdischen Jugend die geisti-\nge Kultur, die unsere Ehre und unser Stolz durch die\nJahrtausende gewesen, gefährden, und es wird eine der\nwesentlichen Aufgaben sein, in dieser Beziehung das\nrichtige Gleichgewicht zu halten.",
+      "notes": "Typoskript, Fortsetzung des Textes von Seite 1."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des zweiten Blattes, leer."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Notiz am Kopf ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1613,
+    "total_words": 226,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

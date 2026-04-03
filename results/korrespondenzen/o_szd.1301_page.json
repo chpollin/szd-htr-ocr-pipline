@@ -1,0 +1,83 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1301",
+    "title": "Brief an Friderike Zweig vom Oktober 1922, SZ-SEF/B11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1301/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1301/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1301/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1301/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1301/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Friderike Zweig vom Oktober 1922, SZ-SEF/B11\n- Signatur: SZ-SEF/B11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:27.007264+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbst 22\nCara moglie, in mir fern ist\neine Packetpostanstalt - die Auske\nlaufen in die Welt. Auch die Terase\nwürde eingepackt, so huistert und knattert\nes in mir fer: ich aber werde gleich\ngehen, um mich der herrlichen Sonne\nnoch zu erfreuen, die heute sich hieher\nverirrt hat. Briefe: von Deinem Mütter-\nchen diese Karte, von meinen Eltern\nein langer Brief Papas, dem Du bei\nGelegenheit schreiben solltest, ferner will\ndie Filmvertriebsstelle, die mir die\nNovelle verkaufte auch ein Exemplar\nvon Hégelchen, weil danach sich schon\njemand erkundigt hätte. Ich höre Dein\ngeldfingriges Herz von Frankfurt bis\nheher bei dieser Nachricht klopfen. Das",
+      "notes": "Die Transkription folgt dem handschriftlichen Text in violetter Tinte. 'Herbst 22' ist in roter Tinte geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Geld an mich haben sie gesandt - ausser\ndem sind die Goethe Bände von Leipzig\nwie in Zürich schreibt, bereits abge-\ngangen. Im Hause ist Alles in Ordnung\nich werde sehr gefüttert, mehr langweile\nich mich ein wenig auch nicht aus sei-\nner Harmonie: ich habe so ein Bedürf-\nnis nach leeren Menschen, wie ich es\nnicht sagen kann und bin immer von\nRandizern umgeben. Ich kann mich seit\nVorlen mich erinnern einmal in Gesell-\nschaft gelabt zu haben, obwohl ich immer\nfür sich dazu bereit bin, aber die Li-\nteratur vertreibt wohl die Menschen und\nSüzeit tut ich übriges. Du hast an Victor\nwenigstens einen guten Partner jetzt, lass\nes Euch doch so gut als möglich gehen.\nVater Bahr blieb noch einen Tag",
+      "notes": "Die Handschrift ist flüssig, einige Wörter sind aufgrund der Tintensättigung leicht verschwommen."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "hier, hat sich aber nicht gemeldet. Ich\nwollte nicht zudringlich sein. Auch freu\nich mich der Stille.\nVon Dir erwarte ich morgen\nerste Nachricht. Nur diese Zeilen für\nheute - grade nun die Metzgerin und\nden Metzger mir gibt bei Goethes deine\nKarte für mich ab. Herzlich\nSteffi\n\nEben deine Karte aus\nHeidelberg. Dank, Brief\ndeines Bruders habe ich\ngeöffnet wegen Verspätung\nNachricht zu haben.",
+      "notes": "Der untere Teil (ab 'Eben deine Karte...') ist in roter Tinte geschrieben."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "546 Fitzb.",
+      "notes": "Dies scheint die Rückseite des Briefbogens zu sein, mit sehr schwacher Durchschrift oder Abklatsch des Textes von Seite 2/3."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "Herbst 22\nCara moglie, in mir fern ist\neine Packetpostanstalt - die Auske\nverirrt hat. Briefe: von Deinem Mütter-\nchen diese Karte, von meinen Eltern\njemand erkundigt hätte. Ich höre Dein\ngeldfingriges Herz von Frankfurt bis\nheher bei dieser Nachricht klopfen. Das",
+      "notes": "Dieser Scan zeigt Ausschnitte des Briefes, die mit einer Farbskala überlagert sind."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar, trotz einiger orthographischer Eigenheiten und der Verwendung von zwei verschiedenen Tintenfarben.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 2008,
+    "total_words": 337,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

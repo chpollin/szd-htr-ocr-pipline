@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.533",
+    "title": "Wilhelm Walther an Stefan Zweig, 1913-04-23, SZ-SAM/AK.240",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.533/IMG.1",
+      "https://gams.uni-graz.at/o:szd.533/IMG.2",
+      "https://gams.uni-graz.at/o:szd.533/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Wilhelm Walther an Stefan Zweig, 1913-04-23, SZ-SAM/AK.240\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.240\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:15.899273+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "D. 1548\n23. April 1913\nHalle a. S., Moritzburg (Wasserseite).",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text und handschriftliches Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Halle a. d. Saale\nden 23. April 1913\n1 Kurallee\n\nSehr geehrter Herr Dr\nEs wird mir lieber sein, wenn\nSie nicht über mich schreiben.\nIch habe mir das genau\nüberlegt und finde, dass\nKritiken in gewissem Sinne\nverpflichten.\nIch erlaube mir, Sie\nergebenst zu grüßen.\nWilhelm Walther\n\nHerrn Dr Stefan Zweig\n\nWien VIII\nKochgasse",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text. Briefmarke und Poststempel vorhanden (Halle a. d. Saale, 23. 4. 13)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Halle a. d. Saale\nden 23. April 1913\n1 Kurallee\n\nSehr geehrter Herr Dr\nEs wird mir lieber sein, wenn\nSie nicht über mich schreiben.\nIch habe mir das genau\nüberlegt und finde, dass\nKritiken in gewissem Sinne\nverpflichten.\nIch erlaube mir, Sie\nergebenst zu grüßen.\nWilhelm Walther\n\nHerrn Dr Stefan Zweig\n\nWien VIII\nKochgasse",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist klar, keine unklaren Stellen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 705,
+    "total_words": 120,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

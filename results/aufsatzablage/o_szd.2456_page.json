@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2456",
+    "title": "Maeterlinck",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA132.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2456/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2456/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2456/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2456/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2456/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2456/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2456/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Maeterlinck\n- Signatur: SZ-AAP/W-AA132.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:22.751041+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Maeterlinck\nLe temple ensevelie (Reperion)[?].\nGedichte (Reperion)[?].\nM. Eine Studie von Johannes Schlaf. (Reperion)[?].\n\n\nMaurice Maeterlinck\nLe temple ensevelie\nMaeterlinck (s. Schlaf)\nGedichte (übersetzt v. K. L. Ammer[?] u. Fr. v. Oppeln -\nBronikowski s. d.)",
+      "notes": "Handschriftliches Dokument. Der obere Teil ist in violetter Tinte geschrieben, der untere Teil in schwarzer Tinte. Die Lesung 'Reperion' ist unsicher, könnte auch 'Repercussion' oder eine Abkürzung sein."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Maurice Maeterlinck\nLe temple ensevelie\nMaeterlinck (s. Schlaf)\nGedichte (übersetzt v. K. L. Ammer[?] u. Fr. v. Oppeln -\nBronikowski s. d.)",
+      "notes": "Ausschnitt des unteren Teils des Dokuments in schwarzer Tinte."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Maeterlinck\nLe temple ensevelie (Reperion)[?].\nGedichte (Reperion)[?].\nM. Eine Studie von Johannes Schlaf. (Reperion)[?].",
+      "notes": "Ausschnitt des oberen Teils des Dokuments in violetter Tinte."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Maeterlinck\nLe temple ensevelie (Reperion)[?].\nGedichte (Reperion)[?].\nM. Eine Studie von Johannes Schlaf. (Reperion)[?].\n\n\nMaurice Maeterlinck\nLe temple ensevelie\nMaeterlinck (s. Schlaf)\nGedichte (übersetzt v. K. L. Ammer[?] u. Fr. v. Oppeln -\nBronikowski s. d.)",
+      "notes": "Gesamtaufnahme des Dokuments mit Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Lesung der Begriffe in Klammern (Reperion) ist aufgrund der Handschrift und der möglichen Abkürzung unsicher. Auch der Name 'Ammer' ist aufgrund der Kurrentschrift schwer zweifelsfrei zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 786,
+    "total_words": 108,
+    "language_detected": "",
+    "language_match": true
+  }
+}

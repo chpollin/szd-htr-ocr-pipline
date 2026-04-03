@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.628",
+    "title": "Victor Fleischer an Stefan Zweig, 1926-08-01, SZ-SAM/AK.59",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.628/IMG.1",
+      "https://gams.uni-graz.at/o:szd.628/IMG.2",
+      "https://gams.uni-graz.at/o:szd.628/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Victor Fleischer an Stefan Zweig, 1926-08-01, SZ-SAM/AK.59\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.59\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:21.978584+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "der schon voriges Jahr hier war, wieder eintreffen. Wenn Du kommen\nwillst, schick mir ein Telegramm. Meine Frau läuft noch im Tirol\nherum und kommt erst um den 10. hierher.\nHerzlichste Grüße auch an Frl[?].\nDein Victor\n\nAdresse: Albergo Marina.\n1. VIII. 26.",
+      "notes": "Vorderseite einer Ansichtskarte (Levanto, Veduta del Golfo). Handschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "M.l.St. Eben habe ich Deinen Brief hierher nachgeschickt\nbekommen und würde Dir am liebsten telegraphieren,\ndaß Du auch herkommen sollst. Überfüllt ist es freilich\nauch hier wie in allen Seebädern, ich selbst habe schwer\nQuartier gefunden, aber es würde schon eins für Dich\nwas aus Rundschaffen, wenn Du mir telegraphierst.\nEs ist wunderschön hier, und ich bin sehr froh, daß\nich mich entschlossen habe, Frankreich zu verlassen.\nIn Forte, wo wir voriges Jahr gewesen sind, ist's aller-\ndings noch schöner, weil dort der Strand fast endlos\nlang und sehr breit ist, während Levanto in einer\nBucht liegt. Heute nachmittag soll aus Otto [?]\n\nHerrn Stefan Zweig\nKapuzinerberg 5\nSalisburgo (Salzburg)\nItalien",
+      "notes": "Rückseite der Ansichtskarte. Handschrift in violetter Tinte. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "M.l.St. Eben habe ich Deinen Brief hierher nachgeschickt\nbekommen und würde Dir am liebsten telegraphieren,\ndaß Du auch herkommen sollst. Überfüllt ist es freilich\nauch hier wie in allen Seebädern, ich selbst habe schwer\nQuartier gefunden, aber es würde schon eins für Dich\nwas aus Rundschaffen, wenn Du mir telegraphierst.\nEs ist wunderschön hier, und ich bin sehr froh, daß\nich mich entschlossen habe, Frankreich zu verlassen.\nIn Forte, wo wir voriges Jahr gewesen sind, ist's aller-\ndings noch schöner, weil dort der Strand fast endlos\nlang und sehr breit ist, während Levanto in einer\nBucht liegt. Heute nachmittag soll aus Otto [?]\n\nHerrn Stefan Zweig\nKapuzinerberg 5\nSalisburgo (Salzburg)\nItalien",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist charakteristisch. Einige Abkürzungen wie 'M.l.St.' (Mein lieber Stefan) sind kontextuell eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1661,
+    "total_words": 265,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

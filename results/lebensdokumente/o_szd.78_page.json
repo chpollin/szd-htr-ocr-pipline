@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.78",
+    "title": "Verlagsvertrag Grasset",
+    "language": "fr",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.78/IMG.1",
+      "https://gams.uni-graz.at/o:szd.78/IMG.2",
+      "https://gams.uni-graz.at/o:szd.78/IMG.3"
+    ],
+    "date": "le Premier Février, mil neuf cent trente\n                      deux",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Paris",
+      "extent": "1\n                            Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Farbband, violette und schwarze Tinte",
+        "writing_material": "Vorgedrucktes Vertragsformular, gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "25x18 cm"
+      },
+      "notes": "Maschinschriftliche Eintragungen in Formular, recto mit\n                aufgeklebter Stempelmarke und mehrfach gestempelt, verso mit eigenhändiger Aufschrift\n                „lu et approuvé“ und Unterschrift von Stefan Zweig und unbekannt"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Verlagsvertrag Grasset\n- Signatur: SZ-AAP/L13.1\n- Datum: le Premier Février, mil neuf cent trente\n                      deux\n- Sprache: Französisch\n- Objekttyp: Typoskript\n- Umfang: 1\n                            Blatt\n- Schreibinstrument: Violettes Farbband, violette und schwarze Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Maschinschriftliche Eintragungen in Formular, recto mit\n                aufgeklebter Stempelmarke und mehrfach gestempelt, verso mit eigenhändiger Aufschrift\n                „lu et approuvé“ und Unterschrift von Stefan Zweig und unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:46.795969+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "ENTRE LES SOUSSIGNÉS :\n1° Monsieur Stefan ZWEIG , ~~xxxxxxxxxxx~~\ndemeurant à SALZBURG , Kapuzinerberg 5 , AUTRICHE\n\n2° Les Editions BERNARD GRASSET, rue des Saints Pères n° 61.\n\nIL A ÉTÉ CONVENU CE QUI SUIT :\n\nMonsieur Stefan ZWEIG cède aux Éditions\nBERNARD GRASSET, pour tout le temps que durera sa propriété littéraire et celle\nde ses héritiers, le droit exclusif d'imprimer, de publier et de vendre {un} ouvrage\nde sa composition portant comme titre :\nMARIE ANTOINETTE\n\nLa publication aura lieu aux conditions suivantes :\nI. — Il sera d'abord établi une édition dans le format in-16 double cou-\nronne dont le prix sera déterminé par l'éditeur, sur la base du prix actuel de\nquinze francs.\nII. — Le premier tirage sera de : DIX MILLE EXEMPLAIRES\n\nIII. — Il sera tiré en sus du premier tirage TROIS CENTS exemplaires qui\nseront consacrés au service de presse et CINQUANTE exemplaires qui seront\nremis à l'auteur pour ses hommages personnels. Si l'auteur désirait des exemplaires\nen sus de ceux qui lui sont remis gratuitement, ces exemplaires lui seraient facturés\nau prix de librairie.\n\nIV. — Comme prix de la cession qui leur est faite, les Éditions BERNARD\nGRASSET paieront à M. Stefan ZWEIG des droits d'auteur de :\nDIX POUR CENT du prit fort de vente jusqu'au\nQUINZIEME MILLE ; QUINZE POUR CENT au delà.\nCes droits comprenant tous les honoraires du tra-\nducteur .\n\nCes droits seront payés à l'auteur moitié à la mise en vente moitié à l'épuisement\nde chaque tirage ou sur relevé annuel.\n\nV. — Il ne sera dû aucun droit d'auteur sur les exemplaires consacrés à\nla presse, remis gratuitement à l'auteur, ni sur les passes de librairie.\n\nVI. — Les frais de correction sont à la charge de l'éditeur. Cependant, si\nles corrections d'auteur entraînaient une majoration de frais dépassant le quart du\nprix de la composition, cette majoration serait à la charge de l'auteur. Deux jeux\nd'épreuves seront fournis à l'auteur, si ce dernier désirait une troisième série\nd'épreuves il devrait en supporter les frais.\n\nVII. — ~~Les sommes que pourrait produire la cession des droits de traduc-\ntion, de reproduction et d'adaptation théâtrale, cinématographique sous toutes ses\nformes, ou autres adaptations de l'ouvrage faisant l'objet du présent traité, seront~~",
+      "notes": "Typoskript mit handschriftlichen Korrekturen und Stempelmarke. Die letzte Zeile ist durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "~~partagées par moitié entre l'auteur et l'éditeur. L'éditeur reçoit par les présentes~~\n~~mandat général de traiter, au mieux de l'intérêt commun des parties.~~\nVIII. — L'éditeur se réserve le droit d'établir des éditions de luxe ou à bon\nmarché de l'ouvrage faisant l'objet du présent traité. Au cas où il n'établirait pas\nlui-même ces éditions, il pourrait donner des autorisations à un autre éditeur et les\nsommes à provenir seraient partagées par moitié entre l'auteur et les éditions\nBERNARD GRASSET.\n\nIX. — Dans le cas où l'éditeur, sommé de le faire, refuserait dans l'année\nqui suivra l'épuisement d'un tirage de l'ouvrage faisant l'objet du présent traité de\nprocéder à l'impression d'un tirage nouveau, l'auteur reprendrait la libre dispo-\nsition de cet ouvrage.\n\nX. — En cas d'incendie, l'éditeur ne pourra être tenu comme responsable\nque s'il était prouvé par M onsieur Stefan ZWEIG\nque le sinistre est la conséquence de la faute de l'éditeur. Dans le cas contraire,\nil ne sera dû aucun droit d'auteur sur les exemplaires détériorés ou détruits et le\nmontant de ces exemplaires viendra en déduction du montant total des exemplaires\ndont l'éditeur est responsable.\nIl en est de même en cas de force majeure, l'éditeur ne pouvant assume\naucune responsabilité de ce fait.\n\nXI. — Les éditions BERNARD GRASSET pourraient proposer à l'auteur,\ntrois ans après la publication de l'ouvrage faisant l'objet du présent traité, de re-\nprendre les exemplaires restant en magasin, pour une somme forfaitaire.\nDans le cas où l'auteur ne désirerait pas reprendre ces exemplaires, la\nSociété aura le droit de les détruire ou de les solder et le bénéfice de cette opération\nreviendra aux éditions BERNARD GRASSET.\n\n~~XXXXXXXXXXXXXXXX~~\nFait double à Paris le\nXII. — En ce qui concerne la publication anté-\nrieure en revues ou périodiques, l'auteur s'engage\nà ne traiter qu'avec accord avec l'éditeur et les\nsommes à provenir seront partagées par moitié entre\neux.\n\nFait double à PARIS, le Premier\nFévrier, mil neuf cent trente deux.\n\nLu et approuvé\n[Unterschrift Bernard Grasset] \n\nLu et approuvé\nStefan Zweig",
+      "notes": "Typoskript. Die ersten zwei Zeilen sind durchgestrichen. Handschriftliche Unterschriften am Ende."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung, überlagert den Text von Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Struktur ist klar. Die durchgestrichenen Passagen wurden gemäß Anweisung transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 4360,
+    "total_words": 717,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

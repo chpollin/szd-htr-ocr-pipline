@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1152",
+    "title": "Friderike Zweig an Anna Meingast, SZ-SAM/B11.11",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1152/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1152/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Friderike Zweig an Anna Meingast, SZ-SAM/B11.11\n- Signatur: SZ-SAM/B11.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.253073+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Austria\n\nFrau Anna Meingast\nSalzburg\nLinzergasse (Leubingerhaus)",
+      "notes": "Adressseite einer Postkarte. Der Name ist 'Meingast' (im Text der Rückseite deutlicher lesbar als 'Mecupast' auf der Vorderseite)."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast,\nherzl. Dank für Ihren l. Brief.\nBenutze den Sonntag etc.\nBriefe melden zu bewältigen,\nWochentags immer noch sehr\nbeschäftigt u. die Zeit war mir\nzu lange, da alles hier sehr lange\ndauert, sodass mein Kürsein ganz\ngut war. Nur ist das Haus\nnicht so weit, dass man darin\nwohnen kann. Mein Mann kam\nvorgestern, immer noch als Nicht=\nraucher und hat gleich hier\ndie schwere Arbeit fortgesetzt.\nDer eine nachgesandte Brief des\nFranz Moser (eines ewigen Bitt=\nstellers beantworten Sie bitte mit\n5 Schillinge u. dass ich abwesend\nbin u. bedauere nichts unter Arbeit\nverschaffen können. Adr. Achensee O.Ö.\nBergstrasse 20. Alles Gute Frz.",
+      "notes": "Die Handschrift ist flüchtig. Am rechten Rand vertikal geschrieben: 'Fr Zweig' und 'v. Willi'. Der Name 'Meingast' ist hier klarer als auf der Vorderseite. 'Kürsein' könnte auch 'Kursein' (Kur-Sein) bedeuten."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift von Friderike Zweig. Die Korrektur des Namens 'Meingast' ergibt sich aus dem Kontext der Rückseite.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 714,
+    "total_words": 114,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

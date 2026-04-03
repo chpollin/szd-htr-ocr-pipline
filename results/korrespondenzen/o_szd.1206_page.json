@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1206",
+    "title": "Brief an Anna Meingast vom 14. Juni 1934, SZ-SAM/B7.36",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1206/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1206/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 14. Juni 1934, SZ-SAM/B7.36\n- Signatur: SZ-SAM/B7.36\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.757158+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place                               London, den 14.Juni 1934.\n\n\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr herzlich für alle Ihre\nNachsendungen. Glücklicherweise ist ja in den Brie-\nfen nichts Wesentliches zu erledigen. Könnten Sie mir\neinen der Umschläge zu Marie Antoinette von der ita-\nlienischen Ausgabe schicken oder einen jener Ausgaben,\nin denen er nachgemacht ist, damit ich ihn hier den\nenglischen Verlegern für eine geplante billige Ausga-\nbe vorlegen kann.\n\nAlles Herzliche Ihnen und Ihrem Sohn\n\nStefan Zweig",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift ist handschriftlich in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer bis auf einen kleinen violetten Tintenfleck."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, da es sich um ein maschinengeschriebenes Dokument handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 532,
+    "total_words": 77,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

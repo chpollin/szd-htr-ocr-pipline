@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1439",
+    "title": "Brief an Stefan Zweig vom 26. Februar 1935, SZ-AAP/B6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1439/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1439/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1439/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 26. Februar 1935, SZ-AAP/B6\n- Signatur: SZ-AAP/B6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:34.224232+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Garmisch, 26. 2. 35.\n\nLieber Herr Zweig!\n\nIhr schöner Brief hat mich sehr traurig gemacht: wenn\nSie mich nun auch im Stich lassen, muss ich eben von jetzt ab\ndas Leben eines arbeitslos dahinsiechenden Privatiers führen.\nDenn glauben Sie mir, den Dichter, der mir ein brauchbares Opern-\nbuch schreiben kann, gibt es nicht, auch wenn Sie ihm grossmütig\nu. uneigennützig \"helfen\" wollen. Seien Sie herzlich bedankt für\nIhren hochherzigen Vorschlag! Ich habe sowohl Minister Goebbels\nwie Goering wiederholt erklärt, dass ich seit 50 Jahren nach ei-\nnem Librettisten suche, viele Dutzende von Operntexten wurden\nmir zugeschickt, mit allen deutschen Dichtern (Gerhard Hauptmann,\nBahr, Wolzogen ect.) habe ich verhandelt. Ein Glücksfall war\nder Salomefund, die Elektra leitete meine Beziehungen zu dem ein-\nzigen Hofmannsthal ein, nach seinem Tode glaubte ich endgiltig\nverzichten zu müssen, ein Zufall (kann man es so nennen?) führte\nmich zu Ihnen. Ich gebe Sie auch nicht auf, auch nicht, weil wir\njetzt gerade eine antisemitische Regierung haben.\n\nIch bin sicher, dieselbe würde auch einer neuen\nZweigschen Oper keine Schwierigkeiten bereiten u. wenn ich of-\nfen mit dem mir sehr freundlich gesinnten Dr. Goebbels darüber\nrde, auch keinen Affront erblicken!.\n\nAber warum jetzt unnötig Fragen entscheiden, die\nin 2 bis 3 Jahren sich von selbst erledigt haben? Ich blaibe da-\nher bei meiner Bitte: arbeiten Sie mir ein Paar schöne Bücher\n(die andern Dichter finde ich nie) u, die Sache bleibt unter uns\nso lange geheim, bis wir Beide den Zeitpunkt für gegeben erach-\nten, damit hervorzutreten! Das ist nicht unwürdig, sondern nur\nklug!\n\nIch wollte so wie so Dr. Goebbels den Vorschlag\nmachen, ein Preisausschreiben auf Operntexte zu erlassen! Wir\nwerden ja sehen, was dabei herauskommt. Und wenn der ~~[?]~~ Mini-\nster dann alle eingesandten Texte selbst hat lesen müssen - Gott\nGnade ihm!",
+      "notes": "Der Text ist maschinengeschrieben. Das Wort 'Mini-' ist durchgestrichen, vermutlich ein Tippfehler im Original."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Also ich warte! Aber hoffentlich nicht zu lang!\n\nMit herzlichen Grüssen\nIhr stets treu ergebener\n\nRichard Strauss",
+      "notes": "Fortsetzung des Briefes auf der zweiten Seite."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Also ich warte! Aber hoffentlich nicht zu lang!\n\nMit herzlichen Grüssen\nIhr stets treu ergebener\n\nRichard Strauss",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbreferenzkarte im Bild."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die Transkription ist aufgrund der klaren Schriftart und des guten Erhaltungszustands sehr sicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2109,
+    "total_words": 331,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

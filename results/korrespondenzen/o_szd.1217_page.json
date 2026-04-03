@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1217",
+    "title": "Brief an Anna Meingast vom 8. November 1934, SZ-SAM/B7.47",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1217/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1217/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 8. November 1934, SZ-SAM/B7.47\n- Signatur: SZ-SAM/B7.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.613919+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place\n\nLondon, den 8. November 1934.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen für die fünf Kapitel, die heute eingetroffen\nsind und die ich noch in den nächsten Tagen zu erledigen hoffe.\nIn Kapitel VI wird noch einiges kräftig {morgen} umgestellt, sonst dürfte\ndas Meiste bleiben. Sie erhalten meinerseits heute wiederum ein\nKapitel und es geht hoffentlich in der nächsten Zeit rasch weiter.\nIch hoffe doch hier noch etwa bis Kapitel XX zu kommen und der\nRest ist dann leicht.\n\nBitte den beiliegenden Vertrag einer Dramatisierung von\nMarie Antoinette zu den Akten zu legen. Und empfangen Sie beste\nGrüsse und sagen Sie auch alles Herzliche an Herrn Schierl und\nHerrn Johann.\n\nStefan Zweig",
+      "notes": "Das Wort 'morgen' wurde handschriftlich über 'sonst' eingefügt. Die Unterschrift ist in violetter Tinte ausgeführt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, unbeschrieben."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Einfügung 'morgen' und die Unterschrift sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 698,
+    "total_words": 114,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

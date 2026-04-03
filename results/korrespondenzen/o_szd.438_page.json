@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.438",
+    "title": "Eugenie Reitter an Stefan Zweig, 1932-04-23, SZ-SAM/AK.155",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.438/IMG.1",
+      "https://gams.uni-graz.at/o:szd.438/IMG.2",
+      "https://gams.uni-graz.at/o:szd.438/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Eugenie Reitter an Stefan Zweig, 1932-04-23, SZ-SAM/AK.155\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.155\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.254266+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Krems a. d. Donau\nKanzelhof",
+      "notes": "Vorderseite einer Ansichtskarte mit Fotografie eines Innenhofs. Handschriftliche Beschriftung unter dem Bild."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "23. 4. 32.\n\n[...]\n\nAn\nStefan Zweig\nSalzburg\nKapuzinerberg 5.",
+      "notes": "Rückseite der Ansichtskarte. Der Textkörper ist durch einen aufgeklebten Papierstreifen teilweise verdeckt. Briefmarke oben rechts mit Stempel. Gedruckter Verlagsvermerk am linken Rand: '8022 Kunstverlag Johann Saska, Krems a.D., 1932'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. In der Mitte die bereits transkribierte Rückseite der Postkarte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Der Text auf der Rückseite der Postkarte ist durch einen aufgeklebten Papierstreifen zu großen Teilen unleserlich gemacht, daher ist eine vollständige Transkription des Nachrichtentextes nicht möglich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 87,
+    "total_words": 15,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.521",
+    "title": "Armand Brody an Stefan Zweig, 1907-02-06, SZ-SAM/AK.23",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.521/IMG.1",
+      "https://gams.uni-graz.at/o:szd.521/IMG.2",
+      "https://gams.uni-graz.at/o:szd.521/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1907-02-06, SZ-SAM/AK.23\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.23\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:14.864704+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "59. BLIDA — Bois Sacré\nle 6. fevr. 07.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text mit handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "CARTE POSTALE\n\nDr. Stefan Zweig\n\nWien VIII\nKochgasse 8\n\nAutriche\n\nRecht sollte haben, Robert: ich\nwar in Blida! Es ist ja auch soweit\nganz nett, aber du bist doch nur\nein naiver Enthusiast, mein Stefan.\nDu hast eben Italien nicht gesehen -\nCapri, Amalfi, Sorrent - was weisst\ndenn Du! Aber deshalb nichts\nfür ungut - es ist hier recht hübsch.\nübrigens ist es wohl noch zu zeitlich\nfür Blida, Servus, sei umarmt!\nDein A.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Nachricht und Adresse. Briefmarke und Poststempel vorhanden (nicht transkribiert)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Keine Dokumentinhalte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist klar, auch wenn einige Buchstaben leicht flüchtig geschrieben sind.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 457,
+    "total_words": 84,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

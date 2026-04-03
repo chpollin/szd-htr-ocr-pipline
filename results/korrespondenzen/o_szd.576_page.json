@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.576",
+    "title": "Rottauscher an Stefan Zweig, 1921-08-02, SZ-SAM/AK.281",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.576/IMG.1",
+      "https://gams.uni-graz.at/o:szd.576/IMG.2",
+      "https://gams.uni-graz.at/o:szd.576/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Rottauscher an Stefan Zweig, 1921-08-02, SZ-SAM/AK.281\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.281\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:19.344970+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mauterndorf i. Lungau. Schloss. 2. VIII. 21.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text 'Mauterndorf i. Lungau. Schloss.', handschriftliches Datum '2. VIII. 21.' oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "H. H.\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\nLieber Freund! - Wohne Mautern-\ndorf, Gasthof Post. Ich\nbleibe bis Ende nächster\nWoche. Herzlichst und\nalles Gute immer\nIhr Rottauscher\nMauterndorf",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke oben links mit Poststempel 'MAUTERNDORF'. Verlagsangabe am unteren Rand: 'Johann Wassnigg's Kunstverlag, Mauterndorf. Nr. 1176. W. H., Brünn. 1909.'"
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Darunter die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Handschrift ist klar, die Abkürzungen (H. H. für Hochwohlgeboren/Herrn) sind im Kontext der Korrespondenz von Stefan Zweig eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 240,
+    "total_words": 37,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1618",
+    "title": "Brief an Stefan Zweig vom 22. Juli 1938, SZ-AAP/B1.263",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1618/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1618/IMG.2",
+      "SZ_AAP_B1.263_003.jpg",
+      "SZ_AAP_B1.263_004.jpg"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 22. Juli 1938, SZ-AAP/B1.263\n- Signatur: SZ-AAP/B1.263\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:48.391636+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "FERNSPRECHER\n35609-37609-43187-40066\n\nAUSLIEFERUNG\nDEUTSCHER VERLEGER\n\nJRM/JW.\n\nMEULENHOFF & Co.\nDEUTSCHE GROSS-BUCHHANDLUNG\nUND\nBARSORTIMENT\nDEUTSCHE BÜCHER UND ZEITSCHRIFTEN\nLIEFERUNG NUR\nAN DEN NIEDERLÄNDISCHEN BUCHHANDEL\n\nN.Z. VOORBURGWAL 296\nROKIN 44\n\nAMSTERDAM, 22 Juli 1938.\nROKIN 44\n\nHerrn Stefan Zweig\n49.Hallam Street,\nL O N D O N. W.1.\n\nSehr geehrter Herr Zweig,\nAnlässlich Ihrer Anfrage vom 14.Juni '38\nkann ich Ihnen mitteilen,dasz wir nach dem 1.März '38 noch zwei\nkleinere Zusendungen Ihrer Bücher aus Wien empfangen haben.\nWas Ihre zweite Frage ( ob die Sendung\njener Bücher aus Wien \" vor \" dem 1.März erfolgt ist ) so bitte\nich Sie freundlichst mir angeben zu wollen welche Bücher mit\n\" jener \" gemeint sind, sodasz ich Ihnen auch genau antworten kann.\nIn der Hoffnung Ihnen hiermit gedient zu\nhaben,\nzeichne ich\nmit vorzüglicher hochachtung,\n\n5.000-9-35",
+      "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist handschriftlich, aber im Scan nur als dunkler Strich/Kritzel erkennbar. Der Text ist klar lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite sichtbar."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist zwar nicht lesbar, aber als solche identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 872,
+    "total_words": 133,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

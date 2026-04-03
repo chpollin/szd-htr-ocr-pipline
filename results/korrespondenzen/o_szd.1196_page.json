@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1196",
+    "title": "Brief an Anna Meingast vom 13. November 1933, SZ-SAM/B7.26",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1196/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1196/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 13. November 1933, SZ-SAM/B7.26\n- Signatur: SZ-SAM/B7.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.155003+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11, Portland Place,\nLondon, W.\n\nLondon, den 13. November 1933.\n\nLiebe Frau Meingast !\n\nIch danke Ihnen sehr fuer Ihre freundlichen\nNachrichten. Inzwischen habe ich hier ziemlich\nschwere Dinge zu erledigen - denn wegen jenes\nMissbrauchs meines Briefes wird sich wahrscheinlich\ndoch das Verhaeltnis mit der Insel loesen. Ich\nlasse mich hier aber nicht aus dem Gleichgewicht\nbringen, sondern tue geduldig meine Arbeit.\nIch schicke Ihnen zunaechst einen Aufsatz,\ndessen Original ich an die Neue Freie Presse ge-\ngeben habe. Nun sind ja immer einige auslaendische\nZeitungen da, die Aufsaetze von mir wollten.\nSchreiben Sie ihn also bitte mehrmals ab. Senden\nSie einen an Benjamin Hübsch mit einem Brief,\ndass ich ihn zur allfaelligen Ueberwertung ueberlasse.\nEinen zweiten an Alfredo Cahn, der ja fuer die\n\"Nation\" Aufsaetze wollte. Dann glaube ich war noch\neine norwegische Dame, Sie wissen es ja am besten\naus unseren Akten selbst.",
+      "notes": "Maschinengeschriebener Brieftext."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "An den jungen Italiener schicken Sie vielleicht\nein Exemplar des Specht und entschuldigen mich, dass\nich verreist bin.\n\nDie Nachrichten aus Oesterreich machen es\neinem nicht sehr verlockend zurueckzukehren, jeden-\nfalls bleibt unsere Adresse hier noch unveraendert.\n\nAlles herzliche\n\nvon Ihrem ergebenen\n\nStefan Zweig\n\nEin Exemplar schicken Sie, bitte, mir",
+      "notes": "Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt. Der letzte Satz 'Ein Exemplar schicken Sie, bitte, mir' ist ebenfalls handschriftlich in violetter Tinte unter der Unterschrift hinzugefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen (Unterschrift und Nachsatz) sind eindeutig Stefan Zweig zuzuordnen und gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1284,
+    "total_words": 196,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1812",
+    "title": "Brief an das Schweizerische Vereinssortiment Olten vom 2. Juni 1938, SZ-AAP/B1.246",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1812/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1812/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an das Schweizerische Vereinssortiment Olten vom 2. Juni 1938, SZ-AAP/B1.246\n- Signatur: SZ-AAP/B1.246\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.113272+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "2.Juni 1938.\n\nSchweizerisches Vereinssortiment,\nOlten.\n\nSehr geehrte Herren!\n\nIch bestätige dankend Ihre neu-\nerliche Zusicherung vom 1.Juni, die Zahlungsgarantie\nfür meinen Honoraranspruch an den am 12.März Ihnen\nzugegangenen, von mir verfassten Büchern (sowie der\nExemplare des Mozart Werkverzeichnisses, an denen\nmir gleichfalls Honorar zusteht) zu übernehmen.\nUeber die anderen schwebenden\nAngelegenheiten werden Sie von zuständiger Seite\nverständigt werden. Denn ich sehe mich leider ge-\nnötigt, da Herr Reichner trotz dreimaliger Auffor-\nderung die mir als Autor rechtlich zustehende Aus-\nkunft über abgesetzte Bücher sowie über die noch vor-\nhandenen Lagerbestände ausdrücklich verweigert hat,\nden Rechtsweg zu beschweiten und werde überdies auch\nin der nächsten Zeit persönlich in der Schweiz die\n{Durchführung selbst zu überwachen}\nnotwendigen Massnahmen treffen.\n\nIhr sehr ergebener",
+      "notes": "Typoskript mit handschriftlicher Einfügung in der vorletzten Zeile. Die Einfügung ist in Tinte geschrieben und korrigiert den Satzbau."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Einfügung ist deutlich als solche erkennbar und wurde entsprechend der Anweisungen transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 892,
+    "total_words": 120,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.731",
+    "title": "Brief an Stefan Zweig vom 1. Dezember 1937, SZ-AAP/B1.139",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.731/IMG.1",
+      "https://gams.uni-graz.at/o:szd.731/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. Dezember 1937, SZ-AAP/B1.139\n- Signatur: SZ-AAP/B1.139\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:26.885850+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\n\nPostscheckkonto\nLeipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr.Stefan Zweig,Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\n\nIhr Schreiben vom 29.Nov.1937\n1.Dezember 1937/F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir erhielten die obige Reklamation von Frl.Altmann\ndes Inhalts,dass Herr Dr.Heinz Stroh seine Rezensions-\nExemplare von \"Magellan\" und \"Begegnungen\" nicht er-\nhalten hat.\n\nTatsächlich sind beide Exemplare an die von Ihnen an-\ngegebene Adresse ~~abgegangen~~.Herrn Dr.Stroh's Behaup-\ntung kann also nicht zutreffen.\n\nWir begrüssen Sie als\n\nIhre sehr ergebenen\n\nWIEN, VI., Strohmayergasse 6\nHERBERT REICHNER VERLAG",
+      "notes": "Typoskript auf Geschäftspapier. Das Wort 'abgegangen' ist durchgestrichen. Die Unterschrift fehlt, stattdessen ist ein handschriftliches Kürzel/Paraphe über 'Ihre sehr ergebenen' zu sehen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Man sieht zwei horizontale Klebestreifen (vermutlich von einer früheren Archivierung oder Montage), ansonsten leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die durchgestrichene Stelle ist eindeutig als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 810,
+    "total_words": 105,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

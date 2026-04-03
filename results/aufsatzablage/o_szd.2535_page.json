@@ -1,0 +1,91 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2535",
+    "title": "Ricarda Huchs \"Neue Gedichte.\"",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA90.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2535/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2535/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2535/IMG.3"
+    ],
+    "date": "1.\n                                 3. 1908",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Wien",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Wien"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ]
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Ricarda Huchs \"Neue Gedichte.\"\n- Signatur: SZ-AAP/W-AA90.1\n- Datum: 1.\n                                 3. 1908\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:33.359074+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "werden diese Hoffnungen erfüllen, wenn sie beim Suchen\nnach poetischer Schönheit des Genius ihrer Nation und\nihrer großen Vergangenheit eingedenk sind und wenn sie\nbeim Schaffen selbst das wähler, worauf sie die besten\nVorbilder weisen: als Ort die Heimat, als Stoff die\nnationale Ueberlieferung.\nB.\n\nRicarda Huchs „Neue Gedichte.“\nVon Stephan Zweig.\n\nDieses schmale Buch *) legt man sich gern zu den\nschönsten Schätzen deutscher Lyrik. Ein Verband der\nRicarda Huch wartet dort schon seit zwölf Jahren, wartet\nstill und geduldig, wie alle die Bücher dieser großen\nDichterin, auf neue Freunde, ohne sie aber mit leisester\nGebärde anzulocken. Viele werden zu ihm erst finden durch\ndie schönere reifere Schwester, durch dieses leidenschaftlich\nschöne, Buch, das nur von Liebe spricht, nur\nLiebe atmet und lebt, das selbst irgendwie Sinnbild der\nLiebe ist, wie etwa die rote Rose oder der Nachtigallen-\nschlag. Nur einigen wenigen Versen der Droste-Hülshoff\nvergleichbar, fremd und doch im tiefsten heimisch,\nhat sich dieses Buch plötzlich in die erste Reihe\nder deutschen Lyrik geschoben und ist doch um so viel an-\nders, als alles, was Frauen in den letzten Jahr-\nzehnten gedichtet wurde. An ein paar Gedichte der Des-\nbordes-Valmore gemahnt es eher und mehr noch an jene\nleidenschaftlichen Sonette der Elisabeth Barrett-Browning,\ndie aber von der vorsichtigen Engländerin unter dem Deck-\nmantel „Sonnets from the Portugiese“ geborgen wurden.\nHier aber ist nichts geborgen und verhüllt, eine in ihrer\nWildheit und Klarheit doppelt schöne Leidenschaft bietet\nsich nackt und jubelnd, nackt aber nicht im Sinne eines\nEntkleideiseins, sondern eines Freistehens unter dem\noffenen Himmel, unter all den lauten und wilden Dingen\ndes Lebens, Element zwischen Elementen, Katarakt wie der\nWassersturz, Jubel wie der Sturm, Entladung wie das\nAufzucken des Blizes. Alles Persönliche ist zerstäubt: nur\nimmanentes Geschehnis bewahrt, nur diese wilde Lohe\nvon Hingebung, Ekstase, Liebe und Verklärung, diese in\neine Garbe verschlungenen Flammen.\n\nDas ganze Buch lodert und macht doch nicht\nschwül. Alle Glut ist umgezwungen in Licht, alle\njähe Leidenschaftlichkeit in eine wunderbare Stetig-\nkeit des Gefühls. „Ich bin die immerdar in\nFlammen steht“, sagt eine Zeile. Und doch, kein\nfrauenhafteres Buch läßt sich denken, kein frauenhafteres\nin Keuschheit und in Hingabe. Die Dauerhaftigkeit des\nan der eigenen Ekstase immer wieder neu sich entflam-\nmenden Gefühls, die unendliche Vielfalt wiederum in\ndem einen Gedanken haben hier eine fast religiöse Erotik\n\n*) Erschienen im Insel-Verlag zu Leipzig, 1908.",
+      "notes": "Zeitungsdruck, Frakturschrift. Der Text ist in zwei Spalten gesetzt. Die Transkription folgt dem Spaltenlayout von links nach rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "geschaffen. Und tatsächlich, vom Kult, von den Riten borgt\nsie die glühendsten Bilder der Verzückung.\n\nUnd borgt sie wieder von den unbezwinglichsten Er-\neignissen der Natur, von den schwellenden Strömen, den\nzehrenden Flammen, den zerschmetternden Stürmen, dem\ntödlichen Blick der Sonne; alles, was elementar und über\nalle Menschenkraft emporwachsend ist, faßt sie um in ein\nSymbol der Leidenschaft, hinkniend in mystischer Glut vor\ndem „mit Tränenschnüren hundertfach umschlungnen Bild“.\n\nDiese ungeheure Gewalt der Verzückung, die wie\nAngelus Silesius sich im Wort immer machtlos fühlt,\nwäre aber immer nur elementar und nicht künstlerisch\nempfunden, wenn nicht hier ein der Leidenschaft an Kraft\nnicht unterlegener Wille dieses Ueberquellen in eherne\nknappste Form gepreßt hätte. Der unablässige Kampf des\ninneren Ueberkochens mit der äußeren Gebundenheit —\nder ja eigentlich letzter Sinn aller künstlerischen Gestaltung\nist — hat unter diesen Gedichten ein paar Wunderwerke\nder Knappheit und Plastik gezeitigt. Was anderen in\nMelodie zerquellen, in Rhythmen zersplittert wäre, ist hier\nmit unerhörter Kraft immer in einen Schrein von acht\noder zehn Zeilen gepreßt. Durch diese gerade bei einer\nDichterin so seltene Oekonomie gewinnt jedes Wort un-\ngeheure Intensität, einzelne Zeilen die Wucht eines ge-\nschleuderten Speeres. Nichts verslüchtigt sich und zerrinnt\nin Musik oder Farbe: unvergeßlich sind die Marmor-\nlinien manchen Gedichtes, diese Marmorlinien, die mit\nkühlem Stein die glühendsten Augenblicke einer Leiden-\nschaft umschließen und den Ueberschwang des in Form\ngebändigten Gefühles bis in unsere Brust führen, wie\netwa manche der erregten Gruppen Rodins „L’étreinte“\nvielleicht und „Le baiser“, deren unzähmbare Leiden-\nschaftlichkeit unablässig sich wieder aufwühlt aus dem\nschneekalten Marmor. Und unvergeßlich ist auch der Ge-\nsamteindruck dieser ekstatischen Hinneigung, dieses glühen-\nden Zerschmelzens im Feuer wildenfachter Empfindung,\ndieses letzte Sehnsucht hier in eine Strophe geschlossen,\nknapp und schön dieser Liebe ihr Weg gedeutet.\n\nDer Liebe Meer versiegte nicht, es schwoll,\nSich selber speisend, hoch um uns're Wege.\nErst nezt es uns're Füße Schaumes voll,\nDann hub es sich an des Herzens Schläge.\nEinst kommt der Tag, in seines Schwellens Drang\nReißt er vom Gipfel uns, dem kühn errung'nen,\nUnd überflutet höchsten Glückes Gang\nUnd rauscht Gesänge über uns Verschlung'nen.\n\nVon solchen Gedichten — bei denen flüchtiger Blick\nleicht Sparsamkeit des Ausdrucks mit Armut verwechseln\nkönnte — hat das schmale Buch eine schöne Reihe, nicht\ngenug vielleicht, daß die Lyrikerin Ricarda Huch uns\nnun ganz an ihre Prosawerke vergessen ließe, aber doch\n\ngenug, daß wir uns wieder neuebesinnen, ein\nvoller Besitz ihr Name unserer zeitgenössischen Literatur\nsein muß, wie viel wir ihr schon danken und noch zu er-\nhoffen haben.",
+      "notes": "Zeitungsdruck, Frakturschrift. Fortsetzung des Textes von Seite 1. Die Transkription folgt dem Spaltenlayout."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierungszwecke über den Zeitungsausschnitt gelegt. Der Text ist identisch mit den Inhalten von Seite 1 und 2, jedoch durch die Skalen teilweise verdeckt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, trotz der Frakturschrift und der teilweise verdeckten Stellen auf dem dritten Bild (welches die gleichen Inhalte wie Bild 1 und 2 zeigt).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 5445,
+    "total_words": 809,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

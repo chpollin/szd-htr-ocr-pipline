@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.539",
+    "title": "Alfred von Winterstein an Stefan Zweig, 1917-08-23, SZ-SAM/AK.247",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.539/IMG.1",
+      "https://gams.uni-graz.at/o:szd.539/IMG.2",
+      "https://gams.uni-graz.at/o:szd.539/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Alfred von Winterstein an Stefan Zweig, 1917-08-23, SZ-SAM/AK.247\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.247\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:16.356921+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Norge. Molde 23/8. 1917.",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlicher Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Dr. Stefan Zweig\nVIII. Kochgasse 8.\nWien\nOesterreich\n\nMolde, 23. 8.\nHerzliche Grüße von einer genuss-\nreichen Nordlandreise!\nIhr sehr ergeben\nAlwin[?]kustein[?]",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Poststempel 'HJELSET 24 VIII' ist teilweise lesbar. Die Unterschrift ist schwer lesbar, möglicherweise 'Alwin Kustein' oder ähnlich."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Identisch mit Seite 2, jedoch mit Farbskala und Grauskala für Archivierungszwecke am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Unterschrift des Absenders ist schwer zu entziffern und wurde daher mit [?] markiert. Der Rest des Textes ist gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 190,
+    "total_words": 27,
+    "language_detected": "",
+    "language_match": true
+  }
+}

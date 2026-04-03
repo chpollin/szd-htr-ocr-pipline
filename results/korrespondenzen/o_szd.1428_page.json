@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1428",
+    "title": "Brieffragment an Alfred Zweig, o. D., SZ-AAP/B10.2",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1428/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1428/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1428/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brieffragment an Alfred Zweig, o. D., SZ-AAP/B10.2\n- Signatur: SZ-AAP/B10.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:33.167133+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Geld lasse bitte liegen. Ich brauche es jetzt nicht, habe die 5 M. noch\nnicht angerührt, lieber mit tel. K. in der Creditanstalt gewechselt. Und\nin Deutschland verbrauche ich meine Mark. Erst bei der Rückkunft\nwerde ich sie Einkaufen benötigen.\nPelz bitte bemüht Euch nicht besonders. Frzi will sich also selbst\ndarum museln. Wenn Du an Teppichen (nicht echte/etwas Zufällig\nsiehst [3-4 Wörter 4-5 etwa/so kaufe es glatt, ohne auch zu fragen.\nIn et. K. bekommt man wohl jetzt Alles leicht (später ebenso). Aber\nich bitte Dich, occupiere Dich aus Stefanie nicht damit: Frzi mag\ndas dann selbst.\nAllgemeines. Ich sehe sehr schwarz für Deutschland. In Österreich\nwerden wir die Übertriebenheit büßen, mit der man alle Luxusim-\nporte gestattet hat. In zwei Monaten werden wieder Rayonierung\nund Austellerei beginnen. Vorräte sind heute das Wichtigste.\nAlles Herzliche von uns beiden\nIch wiederhole Dir noch einmal: es gibt in der Welt\nfür den Herbst nichts Herrlicheres als die warmen, immer\nAbrennen für Stefanie! sonnigen italienischen\nSeen\nStefan",
+      "notes": "Der Text ist in violetter Tinte geschrieben. Die Anordnung der Zeilen am Ende der Seite ist durch den Briefinhalt leicht verschoben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Stefanie: ich habe eine Bitte an Dich. Packe Alfred fest an, dass er\nin Herbst endlich einmal 14 Tage bis 3 Wochen irgendwo auf Erholung geht.\nIch habe ihm Sugano vorgeschlagen am Comersee, wo es noch im November\nwarm ist, im September und October sonnig und fein, paradiesische Landschaft,\nalle denkbaren Bequemlichkeiten: nicht wie diese kleinen böhmischen Bäder. Er ist\nDu schuldig, ein schönes Stück Welt zu zeigen, er ist dir eine Hochzeitsreise schuldig\nund auf alles, seinem Körper aus seinen Herren Sonne und Erholung. Er soll auch\nÖsterreich heraus, wo man täglich durch die Zeitung deprimiert wird und soll ein-\nmal wirklich sein Leben an einem schönen Ort mit dir genießen, nicht immer\nnur arbeiten und schlafen. Setze Deine ganze Autorität ein, dass er diesmal",
+      "notes": "Die Seite ist gut lesbar. Der Text bricht am Ende der Seite ab und setzt auf der nächsten Seite fort."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "nicht nachgibt und er also jetzt einen festen Termin (am besten 10. September\nda ist es dort nicht mehr zu heiß) ins Auge fasst. Ich glaube, wir werden mit den\nEltern, mit dem Staat, mit uns selbst in den nächsten Jahren viel Sorgen\nhaben - also muss man jetzt jeden möglichen Augenblick ausnützen.\nFrzi und ich fahren für acht oder 10 Tage an die Nordsee, am Hinweg und\nRückweg habe ich in [eingefügt: Berlin] hin. Am 8. Sept. sind wir spätestens da, also für die\nEltern braucht ihr keine Sorge zu haben, könnt ja auch paar Tage früher\nfahren, wenn es dir ausgeht, denn ich bin dann immer schon über Land\nzurück. Also, Stefanie, zeig was Du kannst! Sei energisch und es wird dir und\nihm wohl sein, wenn Du es gewesen bist. Herzlichst Stefan",
+      "notes": "Die Seite enthält eine Farbskala und eine Grauskala (B.I.G. Farbkarte #13). Der Text ist unterhalb der Skalen fortgesetzt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger Korrekturen und Einfügungen. Die violette Tinte ist auf allen Scans deutlich erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2564,
+    "total_words": 427,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

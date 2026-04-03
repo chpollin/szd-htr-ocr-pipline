@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1781",
+    "title": "Brief an Rechtsanwälte Dr. H. und W. Weisflog vom 5. Mai 1938, SZ-AAP/B1.215",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1781/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1781/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Rechtsanwälte Dr. H. und W. Weisflog vom 5. Mai 1938, SZ-AAP/B1.215\n- Signatur: SZ-AAP/B1.215\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.855386+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                   5.Mai 1938.\n\nRechtsanwälte Dr. H. und W.Weisflog,\nTalacker 48,\nZürich.\n\nSehr geehrte Herren!\n\n                    Ich gebe Ihnen hiermit Kenntnis\neines Briefes, den ich heute an Ihren Klienten, Herrn\nHerbert Reichner gerichtet habe, und bleibe mit den\nbesten Empfehlungen\n\n                    Ihr sehr ergebener",
+      "notes": "Typoskript auf Briefpapier. Das Dokument weist Lochungen am linken Rand auf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 346,
+    "total_words": 40,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.557",
+    "title": "Karel Čapek an Stefan Zweig, 1916-02-27, SZ-SAM/AK.264",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.557/IMG.1",
+      "https://gams.uni-graz.at/o:szd.557/IMG.2",
+      "https://gams.uni-graz.at/o:szd.557/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Karel Čapek an Stefan Zweig, 1916-02-27, SZ-SAM/AK.264\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.264\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:17.731699+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Praha. Staroměstská mostecká věž a pomník Karla IV.\n27. II. 16",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Titel und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Monsieur Stefan Zweig\n8 Kochgasse\nWien\n\nLieber Doktor,\nAgreé[?] mes sentiments les plus\nrespectueux\n[Unterschrift/Name 1] Hofmansthal[?]\n[Unterschrift/Name 2] [Unterschrift/Name 3] [Unterschrift/Name 4]\n[Unterschrift/Name 5] R. Čapek\n[Unterschrift/Name 6]",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adressierung und Grußbotschaft. Die Unterschriften sind teilweise schwer lesbar und überlagern sich teilweise. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Monsieur Stefan Zweig\n8 Kochgasse\nWien\n\nLieber Doktor,\nAgreé[?] mes sentiments les plus\nrespectueux\n[Unterschrift/Name 1] Hofmansthal[?]\n[Unterschrift/Name 2] [Unterschrift/Name 3] [Unterschrift/Name 4]\n[Unterschrift/Name 5] R. Čapek\n[Unterschrift/Name 6]",
+      "notes": "Identisch mit Seite 2, inklusive Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Unterschriften unter dem Text sind aufgrund der Handschrift und der Überlagerung durch den Poststempel nur schwer zu entziffern. Die französische Grußformel ist teilweise lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 572,
+    "total_words": 69,
+    "language_detected": "",
+    "language_match": true
+  }
+}

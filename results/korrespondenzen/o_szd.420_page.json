@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.420",
+    "title": "Unidentified an Stefan Zweig, , SZ-SAM/AK.138",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.420/IMG.1",
+      "https://gams.uni-graz.at/o:szd.420/IMG.2",
+      "https://gams.uni-graz.at/o:szd.420/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Unidentified an Stefan Zweig, , SZ-SAM/AK.138\n- Signatur: , SZ-SAM/AK.138\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.164633+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kaltenleutgeben. Heute Ankunft daselbst. Herzlich\nStefan, Johanna Zweig",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text in Tinte. Gedruckter Text: 'Kaltenleutgeben.' und 'Mehner & Maas, Leipzig. 9410.'"
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Korrespondenz-Karte.\n\nHerrn Zweig\n\nWien ~~IX~~ VII\nKoygasse 8",
+      "notes": "Rückseite der Ansichtskarte. Adressfeld mit handschriftlicher Anschrift. Briefmarke (5 Heller, Kaiser Franz Joseph I.) mit Poststempel vorhanden. 'IX' ist durchgestrichen, 'VII' darüber eingefügt."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Korrespondenz-Karte.\n\nHerrn Zweig\n\nWien ~~IX~~ VII\nKoygasse 8",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Korrektur der Adresse (Durchstreichung und Einfügung) wurde gemäß den Regeln erfasst.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 193,
+    "total_words": 24,
+    "language_detected": "",
+    "language_match": true
+  }
+}

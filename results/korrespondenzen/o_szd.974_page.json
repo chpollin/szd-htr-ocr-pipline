@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.974",
+    "title": "Ansichtspostkarte an Sigmund Freud vom [16. Juni 1938], SZ-LAS/B7.32",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.974/IMG.1",
+      "https://gams.uni-graz.at/o:szd.974/IMG.2",
+      "https://gams.uni-graz.at/o:szd.974/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Sigmund Freud vom [16. Juni 1938], SZ-LAS/B7.32\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:47.346714+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Fittleworth Mill.",
+      "notes": "Vorderseite einer Ansichtspostkarte mit einer Abbildung der Fittleworth Mill."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber verehrter\nProfessor, ~~ir~~ {bin} für ein sehr langes\nWeekend auf das Land\ngeflüchtet und melde mich\ngleich nach meiner Rückkehr.\nIhr getreuer\nStefan Zweig\n\nProf. Sigmund Freud\nLondon NW 3\n23 Elsworthy Road\nor 39",
+      "notes": "Rückseite der Postkarte. Handschriftliche Nachricht von Stefan Zweig an Sigmund Freud. Briefmarke und Poststempel vorhanden. Das Wort 'ir' ist durchgestrichen und durch 'bin' ersetzt."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber verehrter\nProfessor, ~~ir~~ {bin} für ein sehr langes\nWeekend auf das Land\ngeflüchtet und melde mich\ngleich nach meiner Rückkehr.\nIhr getreuer\nStefan Zweig\n\nProf. Sigmund Freud\nLondon NW 3\n23 Elsworthy Road\nor 39",
+      "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am oberen Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Korrektur 'bin' über dem durchgestrichenen 'ir' ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 455,
+    "total_words": 74,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

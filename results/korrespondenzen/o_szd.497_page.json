@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.497",
+    "title": " Unidentified an Stefan Zweig, 1928-06-02, SZ-SAM/AK.208",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.497/IMG.1",
+      "https://gams.uni-graz.at/o:szd.497/IMG.2",
+      "https://gams.uni-graz.at/o:szd.497/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1928-06-02, SZ-SAM/AK.208\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.208\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.307213+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Paris Juni 28",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung von Notre-Dame. Handschriftliche Datumsangabe oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Imprimé\n\n\nHerrn Dr et Madame\nStefan Zweig\nKapuzinerberg 5\nSalzburg\nAutriche\n\nJeanne B. Peyrubin-Garry",
+      "notes": "Rückseite der Ansichtskarte. Gedruckte Elemente: 'Série 4 75 PARIS.. EN FLANT', 'Notre-Dame de Paris - Vue générale', 'Edition d'Art YVON, Paris', 'Fabrication française'. Handschriftliche Adressierung und Absenderin. Briefmarke und Poststempel (Paris, 30 VI 28) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farb- und Grauskala für Archivierung, Ansichtskarte wie auf Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die handschriftliche Adresse und der Absendername sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 114,
+    "total_words": 17,
+    "language_detected": "",
+    "language_match": true
+  }
+}

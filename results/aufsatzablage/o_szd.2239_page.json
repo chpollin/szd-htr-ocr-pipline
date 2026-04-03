@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2239",
+    "title": "Urlaubsbedürftigen, Die",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA200.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2239/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2239/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2239/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2239/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2239/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2239/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2239/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift (Innenseite): \"Die Vision des\n                        geistlichen Morgens (nach Baudouin)\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Urlaubsbedürftigen, Die\n- Signatur: SZ-AAP/W-AA200.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift (Innenseite): \"Die Vision des\n                        geistlichen Morgens (nach Baudouin)\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:57.739907+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Urlaubsbedürftigen, Die\n\nDie Vision des\ngeistlichen Morgens\n(nach Baudouin)",
+      "notes": "Das Dokument besteht aus einem Blatt mit zwei verschiedenen Texten auf Vorder- und Rückseite. Die erste Zeile ist in violetter Tinte geschrieben, der untere Teil in schwarzer Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Urlaubsbedürftigen, Die",
+      "notes": "Rückseite des Blattes, zeigt den Text in violetter Tinte."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Die Vision des\ngeistlichen Morgens\n(nach Baudouin)",
+      "notes": "Vorderseite des Blattes, zeigt den Text in schwarzer Tinte."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Die Vision des\ngeistlichen Morgens\n(nach Baudouin)",
+      "notes": "Spiegelbildliche Durchzeichnung des Textes auf der Rückseite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Urlaubsbedürftigen, Die",
+      "notes": "Wiederholung der Vorderseite."
+    },
+    {
+      "page": 6,
+      "type": "content",
+      "text": "Die Vision des\ngeistlichen Morgens\n(nach Baudouin)",
+      "notes": "Wiederholung der Rückseite."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Urlaubsbedürftigen, Die\n\nDie Vision des\ngeistlichen Morgens\n(nach Baudouin)",
+      "notes": "Gesamtansicht mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich lesbar und wiederholt sich über die verschiedenen Scans hinweg.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 346,
+    "total_words": 43,
+    "language_detected": "",
+    "language_match": true
+  }
+}

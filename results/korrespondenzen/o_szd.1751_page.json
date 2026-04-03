@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1751",
+    "title": "Brief an Stefan Zweig vom 8. Oktober 1937, SZ-AAP/B1.104",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1751/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1751/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 8. Oktober 1937, SZ-AAP/B1.104\n- Signatur: SZ-AAP/B1.104\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:59.834074+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag\nWIEN · LEIPZIG · ZÜRICH\nPostcheckkonto\nLeipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBankverbindungen\nÖsterr. Creditanstalt-Wiener Bankverein, Wien\nSwiss Bank Corporation, London E. C. 2\nSchweizerischer Bankverein, Zürich\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\nENGLAND\n\nIhre Postkarte vom 5.Oktober 1937\nProspekte\n\n8.okt.1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nSchönen Dank für Ihre freundliche Karte.Wir schicken\nIhnen eine Anzahl unserer Verlagsverzeichnisse,Zweig\nProspekte,\"Leuchter\"-Prospekte usw.Wir hoffen,dass Sie\nnicht nur freudig überrascht sind,sondern uns diesmal\nIhre Anerkennung aussprechen werden.Wir haben uns wirk-\nlich redliche Mühe gegeben und keine Kosten gescheut.\nInsgesamt sind je 50.000 Ihrer Prospekte hergestellt\nworden,der grösste Teil ist bereits versandt.\n\nDie \"Leuchter\"-Auflage geht zur Neige.Die Lederexemplare\nhaben direkt Aufsehen gemacht und wurden telegraphisch\nnachbestellt.Aber es ist nichts mehr da.\n\nWir begrüssen Sie als\n\nIhre sehr ergebenen\n\nWIEN, VI., Strohmayergasse 6\nHERBERT REICHNER/VERLAG",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte). Ein roter Unterstreichungsstrich unter '50.000 Ihrer Prospekte hergestellt'. Die handschriftliche Unterschrift ist eine Paraphe."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Adressseite mit zwei Briefmarken (Österreich, 5 Groschen und 50 Groschen) und zwei Poststempeln (Wien 107, 9.X.37). Die Briefmarken sind teilweise überklebt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist als solche erkennbar, aber nicht im Detail lesbar (Paraphe).",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1082,
+    "total_words": 135,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

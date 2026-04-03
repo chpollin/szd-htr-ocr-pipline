@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1688",
+    "title": "Brief an Anna Meingast vom 6. Juli 1938, SZ-SAM/B7.104",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1688/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1688/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 6. Juli 1938, SZ-SAM/B7.104\n- Signatur: SZ-SAM/B7.104\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.836469+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "6.Juli 1938.\n\nLiebe Frau Meingast!\n\nIch danke Ihnen sehr für Ihren guten Brief.\nMir ist es leid, dass Sie Sorgen haben wegen der Voll-\nendung der Studien Ihres Sohnes. Es ist ja nur diese eine\nStufe noch für ihn zu überwinden, dann wird er ja seinen\nWeg machen. In der Angelegenheit der Krankengasse bitte\nbesorgen Sie das nur mit Stampiglie und wenn von der\nPostsparkasse noch ein Erlagschein da ist, so möchte ich\ngern Herrn Emil Fuchs, Menzelgasse 19, Wien 16 dreihundert\nMark überweisen, die ich ihm für Auslagen schulde und noch\nnicht bezahlen konnte. Ich möchte nur nicht, dass Sie den\nScheck herschicken, weil ich nicht weiss, ob dies zulässig\nist und doch nicht gegen eine Regel verstossen möchte.\n\nDass es mir hier an Sorgen und Schwierigkeiten\nnicht fehlt, können Sie sich denken. Aber noch mehr drücken\neinen die vielen Freunde und Bekannten, die alle glauben,\nman könnte ihnen helfen und die Wege ebnen. Für mich selbst\nkomme ich schon durch, freilich heisst es nächstes Jahr auf\nzwei Monate nach Amerika gehen und dort fünfundzwanzig Vor-\nlesungen von einem bis zum andern Ende halten, was eine\nschreckliche Strapaze sein wird. Aber das bequeme Leben von\neinst ist eben für einen vorbei, und man muss auf die an-\ndern sehen, die überhaupt keine Arbeit finden. - Ich hoffe,\nes geht Ihnen gut. Grüssen Sie auch die alten Hausgenossen\nvon mir.\n\nMit den besten Wünschen\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist deutlich.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1392,
+    "total_words": 236,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

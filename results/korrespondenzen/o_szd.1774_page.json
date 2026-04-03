@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1774",
+    "title": "Brief an Werner Stauffacher vom 3. Mai 1938, SZ-AAP/B1.208",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1774/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1774/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Werner Stauffacher vom 3. Mai 1938, SZ-AAP/B1.208\n- Signatur: SZ-AAP/B1.208\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.387178+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "3.Mai 1938.\n\nHerrn Dr. Werner Stauffacher,\nSt.Peterstrasse 18,\nZürich.\n\nSehr geehrter Herr Doktor!\n\nErlauben Sie mir, dass ich Ihnen privat\nschreibe. Ich weiss nicht, ob Sie die Prokura der Schwei-\nzer Niederlassung des Herbert Reichner Verlages noch inne\nhaben, möchte Sie aber jedesfalls davon verständigen,\ndass ich wahrscheinlich in nächster Zeit in rechtliche\nAuseinandersetzungen mit Herrn Reichner geraten werde.\nMein Vertrag enthält ausdrücklich die Bestimmung, dass\nich im Falle eines staatlichen Eingriffes, der die Wei-\nterverbreitung der Bücher verhindert, das Recht der Kün-\ndigung habe. Da der Verlag Reichner an der Weiterverbrei-\ntung, wie Sie selbst am besten wissen, nun gehindert ist,\nBriefe nicht mehr beantwortet, keine Abrechnungen leistet,\nkeine Bestellungen mehr ausführt, ist dieser Fall einge-\ntreten, und ebenso wissen Sie ja auch, dass in der Schweiz\ndem Verlag eine aktive Tätigkeit versagt ist.\nNun versucht Herr Reichner, sich der im Ausland",
+      "notes": "Typoskript auf Papier. Brief an Dr. Werner Stauffacher."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "befindlichen Exemplare zu seinen privaten Gunsten zu be-\nmächtigen und behauptet, wo er sei, sei der Verlag, ein\nAnspruch, den ich natürlich anfechte und der zur gericht-\nlichen Feststellung führen wird. Ich könnte mir denken,\ndass Sie selbst in Kenntnis der Sachlage sich seinem\nStandpunkt nicht anschliessen und als Prokurist der blos-\nsen Niederlassung die Existenz eines aktiven Herbert Reich-\nner Verlages in Zürich nicht vertreten wollen und lieber\nauf die Prokura verzichten. In diesem Falle würde ich Sie\nbitten, auch dem Schweizer Vereinssortiment in Olten Mit-\nteilung zu machen, dass Sie die Prokura nicht mehr ausüben.\n{Man} muss ja immer damit rechnen, dass Herr Reichner ohne\nvorherige Ankündigung eines Tages die Schweiz verlässt\nund Sie würden dann als sein Vertreter für seine Massnah-\n{nachher} men und Verfügungen Rechenschaft geben müssen.\n\nVerzeihen Sie diese gewiss gutgemeinten pri-\nvaten Mitteilungen und empfangen Sie die besten Empfehlungen\n\nIhres sehr ergebenen",
+      "notes": "Typoskript auf Papier. Handschriftliche Ergänzungen in violetter Tinte: 'Man' am Zeilenanfang und 'nachher' über der Zeile."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind deutlich als solche erkennbar und wurden entsprechend den Regeln transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1960,
+    "total_words": 291,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

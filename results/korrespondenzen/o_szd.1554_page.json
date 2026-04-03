@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1554",
+    "title": "Brief an Richard Friedenthal vom [Januar 1927], SZ-AAP/B2.28",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1554/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1554/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1554/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom [Januar 1927], SZ-AAP/B2.28\n- Signatur: SZ-AAP/B2.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:41.901516+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dezember 26[?]\n\nKAPUZINERBERG 5\nSALZBURG\n\nLieber Freudenthal, eben telefoniert mir\naus München Frau Professor Rippenberg\n— sie kommen vom Begräbnis Rilkes,\ndadurch ist Alles verzögert und sie\nlassen dringend bitten, noch ein bis zwei\nWochen zu warten nur die Korrele\nnach Leipzig (ausdrücklich an Frau Professor\nKatharina Rippenberg) zu senden, sie wird\ndann sofort Bescheid (und vermutlicherwei-\nse günstigen) geben. Hoffentlich ist es\nIhnen noch möglich Herzlichst Ihr\n\nStefan Zweig\n\nDen Inhaber habe ich schon gelesen: für\ndie Bühne hat er keine Schlagkraft, weil er nicht genug [?] me",
+      "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Am linken Rand vertikal geschriebener Text: 'Herzlich, sondern kurz und hart. W[?] heute noch'."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala für Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, abgesehen von zwei Stellen am Ende des Briefes, die durch den Falz oder die Platzierung am unteren Rand leicht unscharf sind.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 588,
+    "total_words": 89,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

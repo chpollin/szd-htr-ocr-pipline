@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1569",
+    "title": "Brief an Richard Friedenthal vom 3. Juli 1926, SZ-AAP/B2.26",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1569/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1569/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1569/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Richard Friedenthal vom 3. Juli 1926, SZ-AAP/B2.26\n- Signatur: SZ-AAP/B2.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:43.135524+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 3. Juli 1926.\n\nLieber Herr Friedenthal!\n\n                                     {der Verleger}\nMich besuchte dieser Tage Gustav Kiepenheuer, der eine Lieb-\nhaber-Bibliothek herausgeben will und da erinnerte ich mich daran,\ndass der \"Falke\" Ihre \"Vergewaltigung\" nicht gebracht hat. Sollte\ne[?] etwa davon abstehen, so würde ich sie gern Kiepenheuer vorschla-\ngen, der sich sehr dafür interessiert.\n\nLassen Sie sich selbst aber nicht inzwischen von den äusse-\nren Dingen des Lebens vergewaltigen, es wäre furchtbar schade, wenn\nSie gerade jetzt Ihre künstlerischen Arbeiten unterbrechen würden,\nwo Sie doch schon so stark im Zuge waren und es mir von höchster Wich-\ntigkeit schiene, dass Sie bald mit einem geschlossenen grösseren\nBuche herausträten. Die Zeit wird immer ungeduldiger und nichts\nist so wichtig als sie zu nützen. Sammeln Sie also Ihre ganze Kraft\nund wenn Sie zwischendurch Zeit behalten, so schreiben Sie wieder\neinmal an Ihren\n\n                                     herzlich ergebenen\n\n                                     Stefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Korrekturen/Ergänzungen in violetter Tinte. Die Einfügung '{der Verleger}' ist handschriftlich über der Zeile platziert. Die Unterschrift ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "KAPUZINERBERG 5\nSALZBURG\n\nam 3. Juli 1926.\n\nLieber Herr Friedenthal!\n\nLassen Sie sich selbst aber nicht inzwischen von den äusse-\nren Dingen des Lebens vergewaltigen, es wäre furchtbar schade, wenn\nSie gerade jetzt Ihre künstlerischen Arbeiten unterbrechen würden,\nwo Sie doch schon so stark im Zuge waren und es mir von höchster Wich-\ntigkeit schiene, dass Sie bald mit einem geschlossenen grösseren\nBuche herausträten. Die Zeit wird immer ungeduldiger und nichts\nist so wichtig als sie zu nützen. Sammeln Sie also Ihre ganze Kraft\nund wenn Sie zwischendurch Zeit behalten, so schreiben Sie wieder\neinmal an Ihren",
+      "notes": "Scan mit Archiv-Farbskala und Grauskala. Der Text entspricht dem unteren Teil des Briefes von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1692,
+    "total_words": 244,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

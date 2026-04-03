@@ -1,0 +1,140 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.224",
+    "title": "Panama Entwurf",
+    "language": "de",
+    "collection": "werke",
+    "shelfmark": "SZ-AAP/W36",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.224/IMG.1",
+      "https://gams.uni-graz.at/o:szd.224/IMG.2",
+      "https://gams.uni-graz.at/o:szd.224/IMG.3",
+      "https://gams.uni-graz.at/o:szd.224/IMG.4",
+      "https://gams.uni-graz.at/o:szd.224/IMG.5",
+      "https://gams.uni-graz.at/o:szd.224/IMG.6",
+      "https://gams.uni-graz.at/o:szd.224/IMG.7",
+      "https://gams.uni-graz.at/o:szd.224/IMG.8",
+      "https://gams.uni-graz.at/o:szd.224/IMG.9"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Bühnenwerke/Filme"
+      ],
+      "extent": "3 Blatt, korrigiert; 1\n                                                  Deckblatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London\n                                            2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violettes Durchschlagpapier, violette Tinte, Bleistift, blauer Buntstift",
+        "hands": [
+          "Fremde Hand"
+        ],
+        "dimensions": "33x20 cm"
+      }
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Panama Entwurf\n- Signatur: SZ-AAP/W36\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 3 Blatt, korrigiert; 1\n                                                  Deckblatt\n- Schreibinstrument: Violettes Durchschlagpapier, violette Tinte,\n                                                  Bleistift, blauer Buntstift\n- Hand: Fremde Hand"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:50.790821+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Panama Entwurf",
+      "notes": "Handschriftlicher Titel in blauem Buntstift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Es ist beabsichtigt in einem grossen Filmwerke, gleichzeitig mit\neiner spannenden Handlung-statt der bereits ermüdend gewordenen K\nKriegsfilme-dem Publikum einmal den wahren Gegenwartsfilm, den\nFinanzkrieg in einem allverständlichen dramatischen Beispiel zu\nzeigen und zwar in der Geschichte des sprichwörtlich gewordenen\n\"Panama\", der grössten verunglückten Finanzoperation der Welt.\nJeder Einzelne ist heute in seinem Privatschicksal von\nder Börse abhängig und daher die Neugierde eines grossen Publikums\nebenso gross, einmal diese Finanzkämpfe dramatisch dargestellt zu\nsehen, statt der militärischen. Ausserdem zeigt er den Amerikanern\neines der ruhmreichsten Kapitel ihrer eigenen Geschichte, zeigt dem\nmodernen Menschen den endgültigen Sieg der modernen Technik über d\ndie Natur. Trotz der tragischen Episoden löst er darum am Ende das\nGefühl gemeinsamen Stolzes aus und bringt darum eine höhere Entla-\nstung als das gewöhnliche Happyend.\nGedacht, aber nicht unbedingt notwendig ist zuerst ein ganz\nkurzes historisches Vorspiel. Zuerst erscheint die Landkarte der\nMeerenge von Panama, die den stillen und den atlantischen Ocean ~~zer~~ \nscheidet. Fernando Cortez landet mit seinen kleinen Schiffen, betritt\ndas Festland. Gebet, Gründung einer Kirche. Dann Blick von einem Hü-\ngelnach rechts und links, gleichzeitig auf beide Meere. Der erste\nEuropäer begreift schon die Notwendigkeit die beiden Meere zu verei\nnen. Aber er muss resignieren, es ist noch zu früh.\nNach diesem, ganz kurzen Vorspiel beginnt das Drama. Ein junger\nIngenieur(Franzose oder Amerikaner)bringt Lesseps, der eben den Suez-\nkanal beendet hat, den Plan des Panamakanals. Lesseps beruft die Finanz\nleute. Gründung der Gesellschaft, die ungenügend die Kanalarbeit vorbe-\nreitete und nur Geld an der Börse verdienen will. Nun geht die Hand-\nlung in Doppelbildern- man sieht wie von Agenten die Actien an die kl\nkleinen Sparer weitergegeben werden, die ihr letztes Geld aus dem\nStrumpf holen(zahlreiche, oft humoristische Einzelbilder), wie an der\nBörse\nvon Paris (Massenbilder) die Curse steigen und gleichzeitig\ndie Arbeit am Kanal mit den alten, unzulänglichen Technik beginnt,\nDas Fieber rafft -dramatische Einzelscenen - die Arbeiter und",
+      "notes": "Typoskript mit handschriftlichen Korrekturen (z.B. 'r' über 'zer' eingefügt)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "2\ndie in armseligen Hütten wohnen/\nIngenieure zu Tausenden hinweg und je mehr die Arbeit verfällt -\nrasche Zwischenbilder -umso mehr steigen, durch geschickte Agiotage\nhinaufgehetzt, an der Pariser Börse die Actien. Schliesslich in höch-\nster Not beschliessen die Arbeiter und Ingenieure drüben, den einen\njungen Ingenieur (den Helden) nach Paris zu schicken, damit er\nHilfe hole, bessere Maschinen, Pflege für die Kranken. Der Ingenieur\nmeldet die Zustände in Paris den Directoren der Gesellschaft und\ndroht schliesslich mit Veröffentlichung. Die Direktoren und Finanz-\nschwindler suchen ihn abzuhalten und zu gewinnen, damit er schweigt.\nEiner lädt ihn in sein Haus, dort lernt er die Tochter kennen: Liebes\nepisode. Er wird schwach, lässt sich gewinnen, innerer Kampf zwisch-\nschen Versuchung und Pflicht. Ein Telegrafischer Hilferuf seiner\nKameraden stürzt ihn in noch verzweifelterer inneren Zwiespal.\nlässt ihn die vorbereite Verlobung abbrechen und er enthüllt in ei-\nner dramatischen Versammlung vor allen Actionären die verzweifelte\nSituation des Unternehmens. Furchtbarer Krach an der Börse. Nun\nmuss in vielen, raschfliessenden Einzelbildern an den einzelnen\nTypen des Sparers, des Spoilers erst gezeigt werden, wie ein solcher\ngigantischer Börsenkrach sich im ganzen Lande auswirkt. Selbstmor-\nde, Pfändungen etc.etc. -die Dinge von heute und gestern. Der Inge-\nnieur schifft sich ein, selber ein verlorener Mann. Das Mädchen hat\nsich von ihrer Familie losgesagt und will ihm folgen. Die Bauten\nan Kanal werden abgebrochen, die letzten Arbeiter verlaufen sich, Die\nMaschinen verrosten und werden vom Unkraut überwuchert- nur der Kirch-\nhof von Panama zeigt 2000 weisse Kreuze. Das grosse Werk ist misslun-\ngen durch Nachlässigkeit, Agiotage und die Schwäche der Technik.\nDreissig Jahre später. Das amerikanische Abgeordnetenhaus\nbeschliesst (Bild!) den Bau neuaufzunehmen. Was einer Spekulanten-\ngesellschaft misslungen ist, schafft jetzt eine Nation. Die moder-\nne Technik(Bilder! Bilder!) fasst die Sache grosszügig an mit Ma-\nschinenbaggern und Schleussen- man muss jetzt das ganze Werden in\nden Bildern sehen. Endlich die Eröffnung, zu der als alter gebeug-\nter Mann auch jener Ingenieur kommt, die Gräber besucht und die Auf-",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "-3-\nund die Auferstehung seiner Idee erlebt, den herrlichen Kanal mit\nden modernen Schiffen und Häfen, das neue Amerika und den Triumph der\nmenschlichen Leistungskraft.\nIn diesem Vorschlag ist die eigentliche spannende Filmfa-\nbel nur erst angedeutet, weil diese Details jeder Zeit nach Wunsch\neingesetzt werden können. Hier ist nur die grosse dramatische\nGrundlinie des grössten Börsenmanövers und gleichzeitig einer der grössten Lei-\nstungen der Menschheitsgeschichte verzeichnet, die einen ganz\nneuen und literarischen Typus eines Weltfilms möglich macht, in den\ndann die einzelnen, dem Publikum unentbehrlichen Scenen leicht ein-\ngefügt werden können. Wesentlich ist als Grundlinie aber der Kampf\ndes Einzelnen um Gerechtigkeit und Pflicht, der Kampf der ganzen\nMenschheit um diese eine Idee der Verbindung der Oceans, die von\nAmerika und der modernen Technik siegreich gelöst wurde.\nFerner\ndie erstmalige grosszügige und plastische Darstellung ei-\nner finanziellen Transaction mit allen ihren Siegen, Niederlagen\nund ihrem Eindruck auf das Einzelschicksal - ein gleichzeitig\naktuelles und typisches Geschehnis, wahrscheinlich dasjenige, das\ndie Menschen von heute am meisten im Bilde dargestellt sehen wol-\nlen und zu verstehen im Stande sind, weil jeder von uns allen ohne\nseinen Willen darin eingemengt ist.",
+      "notes": "Typoskript mit handschriftlichen Korrekturen."
+    },
+    {
+      "page": 8,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Seite."
+    },
+    {
+      "page": 9,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite mit Farb- und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Transkription ist aufgrund der klaren Maschinenschrift und der wenigen, gut lesbaren handschriftlichen Korrekturen sehr sicher.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 5785,
+    "total_words": 834,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

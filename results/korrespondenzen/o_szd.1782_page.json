@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1782",
+    "title": "Brief an Herbert Reichner vom 5. Mai 1938, SZ-AAP/B1.216",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1782/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1782/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 5. Mai 1938, SZ-AAP/B1.216\n- Signatur: SZ-AAP/B1.216\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:01.926993+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "5. Mai 1938\n\nHerrn Herbert Reichner,\nHauptpostlagernd,\nZürich.\n\nSehr geehrter Herr Reichner!\n\nSie haben sich der (nach Ihren eigenen Aus-\nsagen) grossen im Ausland erliegenden Büchervorräte des\nHerbert Reichner Verlages zu Ihren privaten Gunsten be-\nmächtigt. Da dies zum grössten Teil meine Bücher sind,\ndie vertragsgemäss mit Honoraranspruch an mich belastet\nsind, waren Sie selbstverständlich verpflichtet, mir\ngenaue Abrechnung über jedes übernommene oder festge-\nhaltene Exemplar zu erstatten und den Ertrag abzuführen.\nTrotz wiederholter Mahnung haben Sie die von mir berech-\ntigt geforderte zahlenmässige Aufstellung sämtlicher am\n13. März im Ausland befindlicher Bücher mir unter immer\nanderen Vorwänden nicht geliefert und mir die Beträge\nnicht ausbezahlt. Dass Sie mit diesem Hinausziehen eine\nbestimmte Absicht verbinden, ist mir erwiesen dadurch,\ndass Sie mir, dem Sie zur Rechnungslegung und Auszahlung monatlich\nverpflichtet sind, seit Ihrer Ankunft in Zürich Ihre Woh-\nnung geflissentlich geheimhalten und nur eine Deckadresse",
+      "notes": "Typoskript. Die handschriftlichen Korrekturen (Klammern um 'nach Ihren eigenen Aussagen', Unterstreichung von 'grossen') sind im Transkript berücksichtigt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "\"hauptpostlagernd Zürich\" angegeben haben.\n\nDa ich nicht hinzunehmen gesonnen bin, dass\nSie bei Nacht und Nebel womöglich verschwinden, ohne Re-\nchenschaft gegeben zu haben und Ihren Verpflichtungen\nnachgekommen zu sein, werde ich, wenn nicht erstens mor-\ngen Freitag ein Telegramm eintrifft, das mir Ihre genaue\nWohnungsadresse in Zürich angibt, zweitens nicht Samstag\nein Brief eingeht, der Exemplar für Exemplar und Lagerort\nfür Lagerort sämtliche Bestände aufführt, deren Sie sich\nseit dem 13. März bemächtigt haben und drittens eine mir\nausreichend erscheinende Garantie für die{sen} Aussenstände an Honorar\nnamhaft machen, sofort meine Massnahmen ergreifen. Und\nzwar werde ich 1. durch einen Anwalt bei der Fremdenpo-\nlizei Ihren faktischen Wohnort in Zürich feststellen las-\nsen, 2. dafür Sorge tragen, dass ich am selben Tage von\nIhrer Abreise und Ihrem Reiseziel verständigt werde und Sie\nnicht unbeachtet und heimlich sich Ihren Verantwortungen\nentziehen, 3. Massnahmen anderer Art ergreifen.\n\nIch rate Ihnen, die Frist schleunigst zu nüt-\nzen. Ich würde in Frankreich noch schärfere Massnahmen er-\ngreifen und auch ehe Sie in Amerika einlangen, würde ein\nKabel Sie überholen. Ich rate Ihnen, das Versteckenspielen\naufzugeben. Meine Geduld ist zu Ende.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+      "notes": "Typoskript. Handschriftliche Einfügung '{sen}' bei 'Aussenstände' und handschriftliche Ergänzung 'an Honorar' am Ende der Zeile."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen im Typoskript sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2351,
+    "total_words": 338,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

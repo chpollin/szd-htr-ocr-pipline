@@ -1,0 +1,99 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.158",
+    "title": "Briefumschlag",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-SAM/L8",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.158/IMG.1",
+      "https://gams.uni-graz.at/o:szd.158/IMG.2",
+      "https://gams.uni-graz.at/o:szd.158/IMG.3"
+    ],
+    "document_type": "letter",
+    "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Ephraim Moses Lilien",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Büromaterialien"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Adolf Haslinger Literaturstiftung im Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047604132",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Anna Meingast",
+        "Erwerb: Schenkung Wilhelm Meingast 2000"
+      ],
+      "physical_description": {
+        "dimensions": "18x12 cm"
+      },
+      "notes": "Auf der Rückseite aufgedruckt ein von Ephraim Moses Lilien entworfenes blaues Signet mit den Initialen „SZ“ und „Salzburg | Kapuzinerberg 5“"
+    },
+    "additional": {
+      "group": "kurztext",
+      "context": "## Dieses Dokument\n\n- Titel: Briefumschlag\n- Signatur: SZ-SAM/L8\n- Objekttyp: Briefumschlag\n- Umfang: 1 Blatt\n- Anmerkungen: Auf der Rückseite aufgedruckt ein von Ephraim Moses Lilien entworfenes blaues Signet mit den Initialen „SZ“ und „Salzburg | Kapuzinerberg 5“"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:45.072122+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_kurztext",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite des Briefumschlags, unbeschriftet."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG 5",
+      "notes": "Rückseite des Briefumschlags mit aufgedrucktem Signet (SZ) und Adresse."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "SALZBURG\nKAPUZINERBERG 5",
+      "notes": "Rückseite des Briefumschlags (identisch mit Seite 2, hier mit Farbkarten-Referenz)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gedruckt und eindeutig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 48,
+    "total_words": 6,
+    "language_detected": "",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-02T12:47:11Z"
+  }
+}

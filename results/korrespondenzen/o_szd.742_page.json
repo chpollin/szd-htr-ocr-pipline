@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.742",
+    "title": "Brief an Stefan Zweig vom 6. Dezember 1937, SZ-AAP/B1.149",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.742/IMG.1",
+      "https://gams.uni-graz.at/o:szd.742/IMG.2",
+      "https://gams.uni-graz.at/o:szd.742/IMG.3",
+      "https://gams.uni-graz.at/o:szd.742/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 6. Dezember 1937, SZ-AAP/B1.149\n- Signatur: SZ-AAP/B1.149\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:27.863547+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nDr. Stefan Zweig, Esq. Telegrammadresse: Reichnerverlag Wien\n49, Hallam Street Telephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nLondon, W.1 Postscheckkonten: Leipzig 8442\nENGLAND Wien 46.469\nPrag: 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef.\nTal gegen \"Zweig, Begegnungen\"\n---------------------------- 6.Dezember 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir erhielten neuerlich das hier in Abschrift beiliegende Schreiben\nvom 3.Dezember des Rechtsanwaltes Dr.Hermann Löw.\nWir möchten die Sache nicht mehr weiter hinziehen,weil damit nur\nriskiert wird,dass Herr Dr.Löw schliesslich in seinem beruflichen\nInteresse den Prozess anstrengt.\nBitte teilen Sie uns möglichst rasch mit,welchen Betrag Sie dem Tal-\nVerlag anbieten.Entweder machen Sie Ihr Angebot Herrn Dr.Löw selbst\noder beauftragen Sie uns bitte,es an ihn weiterzuleiten.\n\nEine rasche und endgültige Regelung liegt zweifellos schon in Ihrem\neigenen Interesse,um diese unleidliche Angelegenheit zu beendigen\nund eventuell grössere Kosten zu ersparen.\nWir danken Ihnen im voraus bestens und begrüssen Sie als\n\nIhre sehr ergebenen\n\nBeiliegend: Abschrift des Schreibens\nvon Dr.Hermann Löw vom 3.12.1937",
+      "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich, aber im Scan nicht vollständig lesbar (nur ein Kringel). Rote Unterstreichungen im Text."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Rechtsanwalt Dr.Hermann Löw\nWien,I,Herrengasse 21\n\nTit.\nHerbert R e i c h n e r V e r l a g\nW i e n ,VI.\nStrohmayergasse 6\n\nBetrifft: Tal-Reichner-Verlag-Stefan Zweig 3.Dezember 1937\n\nIhr geschätztes Schreiben vom 2.d.M.ist keine sachliche Erledi-\ngung auf mein Schreiben vom 1.d.M.\nIch gestatte mir,Sie darauf aufmerksam zu machen,dass die An-\nsprüche meiner Mandantin sich in erster Linie gegen Sie richten,\nda ja Sie das Urheberrecht meiner Mandantin direkt verletzt haben.\nWenn ich gleichzeitig auch Herrn Dr.Zweig geschrieben habe,so ge-\nschah dies hauptsächlich darum,um die Bereinigung der Angelegen-\nheit zu beschleunigen.Dass Herr Dr.Zweig Ihnen angeblich die Ver-\nöffentlichung der drei bewussten Essays gestattet hat,so tangiert\ndas den Standpunkt meiner Mandantin und ihre rechtliche Situation\nnicht im mindesten.\nIch muss daher darauf bestehen,dass Sie mir einen sachlichen Vor-\nschlag machen,da ich sonst gegen Sie weiter vorgehen müsste.\n\nHochachtungsvoll\nDr.Löw",
+      "notes": "Typoskript (Abschrift eines Schreibens). Rote Unterstreichung im Text."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift auf Seite 1 ist zwar unleserlich, aber als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2336,
+    "total_words": 326,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

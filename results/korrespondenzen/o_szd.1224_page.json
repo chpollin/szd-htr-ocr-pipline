@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1224",
+    "title": "Postkarte an Anna Meingast vom 25. Februar 1935, SZ-SAM/B7.54",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1224/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1224/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 25. Februar 1935, SZ-SAM/B7.54\n- Signatur: SZ-SAM/B7.54\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:21.214987+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Absender: STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\nWien, Hotel Regina\n\nPostkarte\n\nFrau\nAnna Meingast\nbei H. St. Zweig\nSalzburg\nKapuzinerberg",
+      "notes": "Adressseite der Postkarte. Der Stempel ist teilweise lesbar als 'SALZBURG 1' mit Datum '25.II.35'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "25/II 35\n\nLiebe Frau Meingast,\nbitte ein Exemplar von Erasmus\n(falls wir es nicht von Salzburg aus\njetzt sandten, ich erinnere mich nicht,\naber Sie werden es wissen) an\nProf. Arthur Burkhard\n3 Hillside Place\nCambridge Massachusetts\nmit einem Zettel: im Auftrag des Autors\nDie Bücher vom Postamt\nbitte immer zu beheben, wenn mein\nFrau nicht da ist trotz Zollgebühren,\nes kann wichtiges sein\nSonst vielen Dank! Tut\ndas leid zu tun. Eine idiotische Zeitung\nhat gesagt dass ich im Hotel Regina\nwohne, seitdem ist der Teufel los.\n\nHerzlich Stefan Z[weig?]",
+      "notes": "Nachrichtenseite der Postkarte. Der Text am rechten Rand ist vertikal geschrieben. Die Unterschrift ist durch den Rand leicht beschnitten."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der kursiven Handschrift gut lesbar. Die Ergänzung bei der Unterschrift ist aufgrund des Kontextes und der Handschrift sicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 688,
+    "total_words": 110,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

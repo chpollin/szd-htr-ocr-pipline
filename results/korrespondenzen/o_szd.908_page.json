@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.908",
+    "title": "Ansichtspostkarte an Frans Masereel vom 4. November 1925, SZ-LAS/B1.29",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.908/IMG.1",
+      "https://gams.uni-graz.at/o:szd.908/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 4. November 1925, SZ-LAS/B1.29\n- Signatur: SZ-LAS/B1.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:42.457449+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "MARSEILLE — Vue Générale du Vieux Port\n\nma chambre",
+      "notes": "Vorderseite einer Ansichtspostkarte. Der handschriftliche Zusatz 'ma chambre' befindet sich oben rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mon vieux, te voilà étonné! Mais\nje suis bien content\nd'avoir choisi Marseille\nadmirable, plein de vie\nvraiment. Je suis seul ici avec\nun peu de travail et très heu-\nreux. Echappe donc à ta galère\net viens chercher ton vieux\nStefan\nHotel Beauveau Marseille\n\nGARTE POSTALE\nMARSEILLE\nPORTE DE\nSA MER, SON SOLEIL\nSON CIEL BLEU\n\nParis (France)\n32, rue Lamarck",
+      "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Ein Poststempel 'MARSEILLE-GARE 17 4 XI 1925' ist über den gedruckten Text gestempelt. Briefmarke oben rechts vorhanden."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist typisch für Stefan Zweig.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 405,
+    "total_words": 71,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

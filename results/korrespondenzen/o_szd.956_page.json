@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.956",
+    "title": "Telegramm an Sigmund Freud vom 5. Mai [1931], SZ-LAS/B7.16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.956/IMG.1",
+      "https://gams.uni-graz.at/o:szd.956/IMG.2",
+      "https://gams.uni-graz.at/o:szd.956/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Telegramm an Sigmund Freud vom 5. Mai [1931], SZ-LAS/B7.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:45.856818+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dienstliche Angaben: \n\nGattung: Telegramm Eing. Nr. 2 0 7\nlt = professor freud\nberggasze 19- wien\n\naufgenommen von \nauf Lfg. Nr. \nam 193... um Uhr M. salzburg 14 189. 43/42 5/5 5 =\n\n= empfangen sie in unverbruechiger verehrung\ndie innigsten wuensche zur fuenfundsiebzigsten\nwiderkehr des tages dem unsere welt eine welt von\ngedanken und das beispiel eines grossen und wahrhaft\nvorbildlichen lebens dankt in bewunderung getreu ihr\nstefan zweig +\n\nD. S. Nr. 769. (B. M. J. 12791/30.) — Druck der Österreichischen Staatsdruckerei in Wien. (St.) 3236 30",
+      "notes": "Telegrammformular mit eingeklebten Streifen aus einem Fernschreiber/Typendrucker. Handschriftliche Vermerke in violettem Stift (u.a. '10', '6 MAI', '207'). Roter Stempel der Telegraphenverwaltung. Die handschriftlichen Einträge in den Feldern 'aufgenommen von' etc. sind teilweise unleserlich oder durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Enthält eine kleine handschriftliche Ziffer '6' in blauer Tinte."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Dienstliche Angaben: \n\nGattung: Telegramm Eing. Nr. 2 0 7\nlt = professor freud\nberggasze 19- wien\n\naufgenommen von \nauf Lfg. Nr. \nam 193... um Uhr M. salzburg 14 189. 43/42 5/5 5 =\n\n= empfangen sie in unverbruechiger verehrung\ndie innigsten wuensche zur fuenfundsiebzigsten\nwiderkehr des tages dem unsere welt eine welt von\ngedanken und das beispiel eines grossen und wahrhaft\nvorbildlichen lebens dankt in bewunderung getreu ihr\nstefan zweig +\n\nD. S. Nr. 769. (B. M. J. 12791/30.) — Druck der Österreichischen Staatsdruckerei in Wien. (St.) 3236 30",
+      "notes": "Identisch mit Seite 1, jedoch inklusive einer Farbskala/Grauskala am unteren Rand zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist durch den Typendruck sehr klar lesbar. Die handschriftlichen Ergänzungen auf dem Formular sind teilweise überlagert oder unklar, beeinträchtigen aber nicht den Haupttext des Telegramms.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1098,
+    "total_words": 178,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

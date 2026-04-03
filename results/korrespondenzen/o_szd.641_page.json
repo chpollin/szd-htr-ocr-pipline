@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.641",
+    "title": "Elsa Germani an Stefan Zweig, 1937-07-20, SZ-SAM/AK.70",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.641/IMG.1",
+      "https://gams.uni-graz.at/o:szd.641/IMG.2",
+      "https://gams.uni-graz.at/o:szd.641/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Elsa Germani an Stefan Zweig, 1937-07-20, SZ-SAM/AK.70\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.70\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.969613+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "702/30 - Dolomiti - Val Pusteria - MONGUELFO m. 1090\n20. Juli 1937. Elsa Germani",
+      "notes": "Vorderseite einer Ansichtskarte mit Landschaftsmotiv. Gedruckter Text unten links, handschriftlicher Text unten rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Hochw. Herrn\nDr Stefan Zweig\nSalzburg\nKapuzinerberg 5\n/ Austria /\n\nMonguelfo, 20. Juli 1937\nDie ergebenste Grüße m.\nIhrer immer dankbaren\nElsa Germani",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarken mit Poststempel 'MONGUELFO' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte zur Archivierung. Die Postkarte ist identisch mit der in Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift ist klar. Die Abkürzung 'm.' in der Nachricht könnte für 'mit' stehen, ist aber im Kontext der Grußformel etwas ungewöhnlich, jedoch eindeutig als 'm.' geschrieben.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 230,
+    "total_words": 39,
+    "language_detected": "",
+    "language_match": true
+  }
+}

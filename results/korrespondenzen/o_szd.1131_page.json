@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1131",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1131/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1131/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.1\n- Signatur: SZ-SAM/B10.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:14.930848+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Ostende, den 6.Juli 1936.\n\nLiebe Frau Meingast!\n\nIch habe Ihnen diesmal\nnicht viel für Juni zu berichten, dagegen\nwerde ich mir gestatten, mich in einiger Zeit\nmit einigen Anfragen wegen Vertragsabschlüssen\nund Abrechnungsmethoden mit verschiedenen Ver-\nlegern an Sie zu wenden.\n\nMit den besten Grüssen\n\nIhre\nLAltmann",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'LAltmann' ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, da es sich um ein maschinengeschriebenes Dokument handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 317,
+    "total_words": 47,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

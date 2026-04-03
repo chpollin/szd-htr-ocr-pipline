@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1148",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1148/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1148/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.8\n- Signatur: SZ-SAM/B10.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:16.002670+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 28.Mai 1937.\n\nLiebe Frau Meingast!\n\nDie Bücherkiste war schon über\neine Woche avisiert, aber ich wollte noch die Ab-\nlieferung abwarten, um Ihnen den Empfang zu bestä-\ntigen. Sie kam nun gestern, einen Tag nach Ihrem\nPaket mit Vorträgen usw. Das Paket war von der hie-\nsigen Post wegen Beschädigung der Verpackung neu\nverpackt worden, es kam aber alles gut an.\n\nHerr Dr. Zweig lässt Sie noch\nbitten, ein Exemplar von \"Erasmus\" an Herrn Paul\nZech, Calle Cochabamba 424, Dpt. E, Buenos Aires,\nArgentinien zu senden.\n\nMit den besten Grüssen\nLotteAltmann",
+      "notes": "Der Text ist maschinengeschrieben, die Unterschrift 'LotteAltmann' ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "A",
+      "notes": "Rückseite des Briefes, enthält lediglich ein handschriftliches 'A' in der oberen linken Ecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um einen maschinengeschriebenen Brief handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 563,
+    "total_words": 94,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

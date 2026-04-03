@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1784",
+    "title": "Brief an das Schweizerische Vereinssortiment Olten vom 9. Mai 1938, SZ-AAP/B1.218",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1784/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1784/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1784/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1784/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an das Schweizerische Vereinssortiment Olten vom 9. Mai 1938, SZ-AAP/B1.218\n- Signatur: SZ-AAP/B1.218\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.068742+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     Gebr. Wlczek   Brünn\n        {gewandt an}\n        {Meulenhoff}\n        {Dijkhoff}\n        {Schweiz. Vereinssortiment}\n        {Bela Somlo Budget}\n        {Kittls Nachf - Mähr. Ostrau}\n\nBetrifft Herbert Reichner                                9.Mai 1938.\n\n\nSehr geehrte Herren!\n\nDa der Verlag Herbert Reichner,\nWien seit seiner Beschlagsnahme kein Lebenszeichen mehr\ngibt und ich auch von Herrn Herbert Reichner, der ~~xxxx~~ {mir keine}\nausser \"hauptpostlagernd\" machen will,\n~~xxxx~~ {xxxx} ausreichende Adresse ~~xxxxx~~, keinerlei Aufstellung oder\nAbrechnung erhalten kann, würde ich Sie bitten, mir\nfreundlichst mitzuteilen, ob und wie viele Exemplare\nder von mir verfassten Bücher sowie des Mozart Werk-\nverzeichnisses, an dem ich gleichfalls Honoraranteil\nhabe, bei Ihnen am 1. März und am 1. Mai sich befanden\nund ob inzwischen irgend jemand Beträge bei Ihnen abge-\nhoben hat.\n                                     von\nDa ich xxxx beiden Seiten nicht\ngewiss bin, die mir zustehenden Honorare zu erhalten\nund die Bücher durch den Honoraranspruch mein Mit-\neigentum sind, möchte ich Sie dringend bitten, vor-\nläufig keine wie immer gearteten Auszahlungen, die\nmeine Bücher betreffen, an Herrn Reichner persönlich\nnoch an den Verlag vorzunehmen. Sollte dieser Wunsch",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen und Korrekturen. Die handschriftlichen Notizen am oberen Rand scheinen eine Liste der Adressaten zu sein."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "nicht genügen und eine besondere gerichtliche Sperre\ndazu nötig sein, so bitte ich mich zu verständigen,\ndamit ich sofort alles in die Wege leiten kann.\n\nMit aufrichtiger Entschuldigung, dass ich\nSie in dieser persönlichen Angelegenheit bemühen muss,\n\n\nIhr sehr ergebener\n\n\n(Stefan Zweig)",
+      "notes": "Typoskript. Fortsetzung des Briefes von Seite 1."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Das Schweizerische Vereinssortiment                      Olten (die Schweiz).\n\nN.V. Meulenhoff & Co, Rokin 44, Amsterdam (C).             (Niederlande)\n\nDijkhoffz, N.V., Plaats 27 , 's Gravenhage                  (Niederlande)\n\nLibr. Internationale \"Eda\", 10, Rue Blanche, Paris IX      (Frankreich)\n\nBela Somlo, Dorottya  U.9, Budapest V                      (Ungarn)\n\nFa. Literaria, 18 Strada Iancu Flondor, Cernauti           (Rumänien)\n\nKlara Modern, London                                       (Grossbritannien)\n\n\nFa. Julius Kittls Nachf., Johannystr. 5, Mährisch-Ostrau   (C.S.R.)\n\nFa. Gebr. Wlczek, Masarykstr. 37, Brünn                    (C.S.R.)",
+      "notes": "Typoskript. Liste der Adressaten."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite von Seite 3, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt). Leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf Seite 1 sind klar als solche erkennbar und wurden entsprechend transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2250,
+    "total_words": 275,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

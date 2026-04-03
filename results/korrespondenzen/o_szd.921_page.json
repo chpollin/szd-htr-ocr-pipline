@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.921",
+    "title": "Brief an Frans Masereel vom 18. Juni 1931, SZ-LAS/B1.40",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.921/IMG.1",
+      "https://gams.uni-graz.at/o:szd.921/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 18. Juni 1931, SZ-LAS/B1.40\n- Signatur: SZ-LAS/B1.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:43.674156+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "S A L Z B U R G\nK A P U Z I N E R B E R G 5\nam 18. Juni 1931\n\nLieber Frans!\n\nMit Winterthur wirds nichts, ich habe schon abgeschrieben,\nobwohl ich fest entschlossen war, aber ich setzte voraus Rolland\ndort zu treffen und Du weisst ja, durch welches traurige Ereignis\neine Begegnung mit ihm in den nächsten Wochen ausgeschlossen ist.\nSchade, ich hätte mich so sehr für Dich gefreut und vor allem\nwollte ich doch die russische Sache mit Dir durchbesprechen.\nSchreibe mir nur, ob Du ernstlich willst, in nächster Zeit\nkommt mein amerikanischer Verleger und ich könnte mit ihm für Zeit-\nschriften und dann in Büchern mit Deinen Zeichnungen fünfzig zu\nfünfzig abschliessen und Dir den nötigen Vorschuss englisch, deutsch\nund wahrscheinlich auch spanisch verschaffen. Es wäre ein herrli-\nches Buch. Sage mir nur, ob Du ernst meinst, ich glaube wir\nkönnten in sechs oder acht Wochen an die chinesische Grenze\nnach Turkestan und in die Krim, es wäre fabelhaft.\n\nWas Deine Bilder betrifft, so ersuche ich Euer Hochwohlge-\nboren, mir einige Fotografien der allerneuesten samt Grösse und\nPreisangabe freibleibend freundlichst {anbieten} ~~zu wollen~~, damit\nich dero freundlichem Offert nähertreten kann. Du siehst wie streng\ngeschäftlich ich vorgehe.\n\nZur russischen Sache noch eines: ich würde gewiss das {von den Verlegern}\nGeld aufbringen für Vorschüsse, auch Freikarten auf den Bahnen in\nRussland mir ruhig geben lassen, dagegen wäre es Bedingung für mich,\ndass wir nicht einen Rubel Subvention von der Regierung oder einem\nihrer Aemter nehmen. Man muss ganz frei bleiben. Also bitte,\nüberlege es Dir gut und gründlich. Das Bild würde mit den Texten\naber fabelhaft viel Geld bringen. Herzlichst Dein\nStefan Zweig",
+      "notes": "Brief auf Briefpapier mit Briefkopf. Handschriftlich in violetter Tinte. Korrekturen und Einfügungen über der Zeile sind enthalten. Die Zeile 'Das Bild würde mit den Texten aber fabelhaft viel Geld bringen.' ist am unteren Rand quer bzw. schräg geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Enthält einen Ex-Libris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS' sowie Klebereste von einem alten Archivierungsstreifen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Einfügungen und die am Rand notierte Zeile konnten eindeutig zugeordnet werden.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1706,
+    "total_words": 281,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

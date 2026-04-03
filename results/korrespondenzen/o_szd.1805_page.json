@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1805",
+    "title": "Brief an Klara Modern vom 18. Mai 1938, SZ-AAP/B1.239",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1805/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1805/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Klara Modern vom 18. Mai 1938, SZ-AAP/B1.239\n- Signatur: SZ-AAP/B1.239\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:03.585418+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Tit. Buchhandlung Klara Modern,\n\nLondon W.C.1\n1, Granville Square\n\nTit. Buchhandlung K.Modern,                                London\n\nAuf Ihre Anfrage vom 13.ds.Mts. teilen\nwir Ihnen mit, dass wir uns lediglich bereit erklärten\ndie Bücher des Verlages H.Reichner auch nach dem Aus-\nland zu liefern, solange der Hauptsitz Wien gesperrt\nist. Diese Lieferungen erfolgen mit 35%, alle anderen\nBedingungen wollen Sie direkt mit Herrn H.Reichner,\nZürich, Hauptpostlagernd, vereinbaren. Auch Zahlungen\nkönnen wir für ihn leider nicht entgegennehmen.\n\nHochachtungsvoll:\nSchweiz. Vereinssortiment\n\nOlten, den 18.5.38.\nH/G.",
+      "notes": "Typoskript auf Briefpapier. Die Unterschrift ist handschriftlich (Kürzel). Die Zeile 'Tit. Buchhandlung K.Modern, London' ist durchgestrichen."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Enthält den Firmenaufdruck 'Schweiz. Vereinssortiment Olten', Telefonnummer, Archivnummer 'No. 53 5000 III. 38' sowie einen Poststempel 'HELVETIA 19.V.38-9'."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die durchgestrichene Zeile wurde gemäß den Regeln transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 613,
+    "total_words": 79,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

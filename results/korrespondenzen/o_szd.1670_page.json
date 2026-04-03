@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1670",
+    "title": "Alfredo Cahn an Stefan Zweig, SZ-SAM/AK.37",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1670/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1670/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1670/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Alfredo Cahn an Stefan Zweig, SZ-SAM/AK.37\n- Signatur: SZ-SAM/AK.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:54.309701+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BUENOS AIRES. — Plaza del Congreso.",
+      "notes": "Vorderseite einer Ansichtskarte mit einer Abbildung des Plaza del Congreso in Buenos Aires. Gedruckter Text am unteren Rand."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn Stefan Zweig\nKapuzinerberg 5\nSalzburg\n(AUSTRIA)\n\nSehr geehrte Herr Doktor,\nleider habe ich von Ihnen nichts mehr\ngehört seit ich Ihnen die R. Rolland-Übersetzung\nund die [?] günstigen Kritiken sandte. Nächstens\ndas hoffe ich Sie hier begrüßen zu dürfen.\nFür heute will ich Ihnen nur das\nAllerbeste für dieses nächste Jahr wünschen.\nWie immer Ihr sehr ergebener getreuer\nAlfredo Cahn\n29/12/35",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel vorhanden (Buenos Aires, 28.12.35; Wien, 3.1.36). Die Zeile 'Nächstens das hoffe ich...' ist etwas unklar formuliert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Herrn Stefan Zweig\nKapuzinerberg 5\nSalzburg\n(AUSTRIA)\n\nSehr geehrte Herr Doktor,\nleider habe ich von Ihnen nichts mehr\ngehört seit ich Ihnen die R. Rolland-Übersetzung\nund die [?] günstigen Kritiken sandte. Nächstens\ndas hoffe ich Sie hier begrüßen zu dürfen.\nFür heute will ich Ihnen nur das\nAllerbeste für dieses nächste Jahr wünschen.\nWie immer Ihr sehr ergebener getreuer\nAlfredo Cahn\n29/12/35",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Grauskala und Farbkarte am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Ein Wort vor 'günstigen' ist schwer zu entziffern, daher mit [?] markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 829,
+    "total_words": 130,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

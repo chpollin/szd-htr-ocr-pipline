@@ -1,0 +1,81 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.85",
+    "title": "Vertrag Wremja, SZ-AAP/L13.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.85/IMG.1",
+      "https://gams.uni-graz.at/o:szd.85/IMG.2",
+      "https://gams.uni-graz.at/o:szd.85/IMG.3",
+      "https://gams.uni-graz.at/o:szd.85/IMG.4",
+      "https://gams.uni-graz.at/o:szd.85/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Vertrag Wremja, SZ-AAP/L13.8\n- Signatur: SZ-AAP/L13.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:38.241103+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "V E R T R A G.\n\nLeningrad, den 16-ten September 1928. Wir, Endesunterzeich-\nneten Dr. Stefan Zweig einerseits und der Leningrader Kooperativ-\nverlag \"Wremja\" andererseits, haben folgenden Vertrag geschlos-\nsen.\n1) Dr. Stefan Zweig übergiebt dem Kooperativ-verlag \"Wremja\"\ndas alleinige Recht der Herausgabe aller seiner Werke in U.S.S.R\n2) Dr. Stefan Zweig verpflichtet sich alle neuen Werke dem\nVerlag \"Wremja\" drei monate vor dem Erscheinen im Auslande in\nManuskripten zukommen zu lassen.\n3) Der verlag \"Wremja\" verpflichtet sich für ihm zuge-\nkommene manuskripte neuer Werke dem Dr. Stefan Zweig fünfzig\n(50) Rbl. pro Bogen, aus 40.000 typographischen zeichen bestehend,\nzu zahlen.\n4) Das im Punkt 3 erwähnte Honorar wird in drei Terminen\nausgezahlt: einem Monat, drei Monaten und sechs Monaten nach\ndem Erscheinen des Buches zu je einem Drittel des zukommenden\nHonorars.\n5. Dieser Vertrag besteht zu Recht bis zu\ndem Zeitpunkt, da zwischen der Sowjetunion und\nDeutschland / respective Oesterreich / ein Urheberrechtsvertrag\ngeschlossen wird. In diesem Falle müsste ein neuer Vertrag\ngeschlossen werden, aber Herr Dr. Stefan Zweig verpflichtet\nsich bei gleichen Bedingungen dem Verlag \"Wremja\" den\nVorzug zu geben.\nLeningrad 16. September 1928. [Unterschrift 1] [Unterschrift 2] Stefan Zweig",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Punkt 5 und Unterschriften). Stempel des Verlags \"Wremja\" unten links. Die Unterschriften sind schwer lesbar, daher als [Unterschrift] markiert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der gedruckte Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen in Punkt 5 sind gut lesbar, die Unterschriften sind jedoch aufgrund der Handschrift und des Stempels schwer zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1294,
+    "total_words": 193,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

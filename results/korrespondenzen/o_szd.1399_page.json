@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1399",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 22. April 1908, SZ-SEF/B5.8",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1399/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1399/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1399/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 22. April 1908, SZ-SEF/B5.8\n- Signatur: SZ-SEF/B5.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.383176+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Liebes Fräulein Hirschfeld, ich eile mich Ihnen von meinem ersten\nAufenthaltsort ein Lebenszeichen zu senden und füge die besten\n{Grüße für Ihren Bruder}\nbei. Ich bin hier bei\nVerhaeren und befinde mich infolgedessen so glücklich wie nur\neben möglich. Nach London komme ich erst nächste Woche. Ihr ergebenst\nStefan Zweig",
+      "notes": "Der Text ist auf der Vorderseite der Postkarte um das Bild herum geschrieben. Die Zeile 'Grüße für Ihren Bruder' wurde nachträglich über den Text eingefügt. Die Unterschrift 'Stefan Zweig' ist vertikal am rechten Rand notiert."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mademoiselle\nEugenie Hirschfeld\nVienne (Autriche)\nIX. Nussdorferstrasse 5",
+      "notes": "Adressseite der Postkarte. Briefmarke vorhanden, Poststempel 'Liège 22-IV 08'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Mademoiselle\nEugenie Hirschfeld\nVienne (Autriche)\nIX. Nussdorferstrasse 5",
+      "notes": "Wiederholung der Adressseite mit Farbskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist trotz der ungewöhnlichen Anordnung auf der Bildseite gut lesbar. Die Handschrift ist eindeutig Stefan Zweigs.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 466,
+    "total_words": 66,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

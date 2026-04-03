@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2806",
+    "title": "Aufgaben der höheren Schule",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA8.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2806/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2806/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2806/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2806/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2806/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2806/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2806/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Aufgaben der höheren Schule\n- Signatur: SZ-AAP/W-AA8.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:07.809687+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Aufgaben der höheren Schule\n\nAufgaben der höheren\nSchule",
+      "notes": "Handschrift in violetter Tinte. Das Dokument scheint ein gefaltetes Blatt zu sein, auf dem der Titel zweimal notiert ist (einmal oben links, einmal mittig)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des oberen Teils des gefalteten Blattes. Durchscheinender Text von der Vorderseite erkennbar, daher keine Transkription."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Aufgaben der höheren\nSchule",
+      "notes": "Vorderseite des unteren Teils des gefalteten Blattes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des unteren Teils des gefalteten Blattes. Durchscheinender Text von der Vorderseite erkennbar, daher keine Transkription."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Aufgaben der höheren Schule",
+      "notes": "Ausschnitt/Detailansicht der oberen Beschriftung."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, leer (bzw. nur durchscheinender Text)."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Aufgaben der höheren Schule\n\nAufgaben der höheren\nSchule",
+      "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich lesbar und wiederholt sich. Keine Ambiguitäten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 166,
+    "total_words": 24,
+    "language_detected": "",
+    "language_match": true
+  }
+}

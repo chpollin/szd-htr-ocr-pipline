@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1616",
+    "title": "Brief an Meulenhoff en Co. vom 14. Juli 1938, SZ-AAP/B1.261",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1616/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1616/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Meulenhoff en Co. vom 14. Juli 1938, SZ-AAP/B1.261\n- Signatur: SZ-AAP/B1.261\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:48.194613+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                          14.Juli 1938.\n\nMeulenhoff & Co. N.V.\nBeulingstraat 2-4,\nAmsterdam.\n\nSehr geehrte Herren!\n                                          Ich schrieb Ihnen schon, dass ich\nIhnen keinerlei Schwierigkeiten machen möchte und will\nSie in meine Auseinandersetzungen mit Herrn Reichner\nnicht hineinziehen. Ich werde also keine gerichtliche\nBeschlagnahme veranlassen (ich habe in vierzig Jahren\nniemals einen Konflikt mit einem Verleger gehabt aus-\nser mit Herrn Reichner). Dagegen wäre ich Ihnen sehr\nverpflichtet, wenn Sie mir - was ja durchaus im Rahmen\nIhrer Möglichkeit liegt - mitteilen würden, ob die Sen-\ndung jener Bücher aus Wien vor dem 1. März 1938 erfolgt\nist oder ob noch nach dem 1. März 1938 Ihnen Bücher aus\nWien zugegangen sind.\n                                          Ich bin überzeugt, dass Sie diese\nknappe Auskunft mir als dem Autor erteilen können und\ndanke Ihnen im voraus.\n                                          Mit den besten Empfehlungen\n                                          Ihr sehr ergebener",
+      "notes": "Typoskript auf Briefpapier. Die Lochungen am linken Rand sind vorhanden. Der Text ist sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar, gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript ohne nennenswerte Leseschwierigkeiten.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1058,
+    "total_words": 134,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

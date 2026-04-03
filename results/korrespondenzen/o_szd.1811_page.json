@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1811",
+    "title": "Brief an Stefan Zweig vom 1. Juni 1938, SZ-AAP/B1.245",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1811/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1811/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. Juni 1938, SZ-AAP/B1.245\n- Signatur: SZ-AAP/B1.245\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:04.041749+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Herrn Dr. Stefan Zweig\n49, Hallam Street\nLondon W.1.\n\nSchweiz.Vereinssortiment Olten\nTelegramm-Adr.: Sortiment Olten\nTelefon Nr. 2123 Postcheck Vb 107\n\nOlten, den 1. Juni 1938.\n\nSehr geehrter Herr Doktor,\n\nBetr. Herb. Reichner.\n\nZu unserer eigenen Beruhigung haben wir die ganze Angelegenheit\neinem bekannten Rechtsanwalt vorgelegt, der uns erklärt, dass\nnach schweizerischem Recht - und dieses allein kommt ja für uns\nin Frage - folgende Rechtslage bestehe:\n\n1. Eine Zahlungsverpflichtung bestehe für uns ausschliesslich\ndem Inhaber des Herbert Reichner Verlags Wien gegenüber und\ndas ist Herr Herbert Reichner, z.Z. in Zürich.\n2. Die Sendung vom 12. März a.c. (ca.4000 Bände) erfolgte auf\nVeranlassung von Herrn Herbert Reichner, wir sind auch hier\nnur Herrn Reichner persönlich gegenüber verantwortlich.\n3. Der rechtliche Sitz des Herbert Reichner Verlags Zürich ist\nSt. Peterstrasse 18, u.W. schon seit einigen Jahren handels-\ngerichtlich eingetragen. Das Konto mit Herrn Reichner führen\nwir auch seit längerer Zeit mit dieser Domizilbezeichnung.\n4. Eine andere Verpflichtung als die gegen Herrn Herbert Reichner\nkönne nur durch ein gerichtliches Urteil auferlegt werden. Es\nist uns also augenblicklich gar nicht möglich, über das Gut-\nhaben oder die Bücherbestände anders als nach den Weisungen\nvon Herrn Reichner zu verfügen.\nUnsere Bereitschaft, Ihre Honoraransprüche aus der Sendung vom\n12. März a.c. sicher zu stellen, halten wir natürlich aufrecht,\nda diese im ausdrücklichen Einverständnis mit Herrn Reichner\nerfolgte.\n\nDiese Rechtslage erlaubt uns nicht, Anweisungen von dritter\nSeite entgegen zu nehmen und wir bitten Sie, sich in dieser\nAngelegenheit direkt mit Herrn Reichner auseinander zu setzen.\n\nMit vorzüglicher Hochachtung\nSchweizerisches Vereinssortiment\n\nH/-\n\nII. 37. No. 21 a. - 3000.",
+      "notes": "Typoskript auf Geschäftspapier. Sehr gut lesbar. Die Unterschrift ist handschriftlich."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und weist keine nennenswerten Leseschwierigkeiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1808,
+    "total_words": 261,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

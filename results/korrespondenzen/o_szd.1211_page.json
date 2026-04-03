@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1211",
+    "title": "Postkarte an Anna Meingast vom 11. August 1934, SZ-SAM/B7.41",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1211/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1211/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Postkarte an Anna Meingast vom 11. August 1934, SZ-SAM/B7.41\n- Signatur: SZ-SAM/B7.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:20.132111+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "POSTKARTE CARTE POSTALE CARTOLINA POSTALE\n11.8.1934\n\nFrau Anna Meingast\nbei Zweig\n\nSalzburg (Österreich)\nKapuzinerberg 5",
+      "notes": "Adressseite der Postkarte. Briefmarken und Poststempel vorhanden."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Liebe Frau Meingast, vielen Dank. Es\ngenügen aber zunächst vier bis fünf\nExemplare, weil ich ja doch darin\nCorrecturen machen und es ist besser,\ndass die neuen Copien dann von den\ncorrigierten abgeschrieben werden. Ich\nsandte Ihnen heute wieder zwei {abzuschreiben[?]} Capitel\nund schrieb auch auf der Rückseite wegen\nder slowenischen Übersetzung. Für das\nLexicon sollen nur die Herren die\nDaten selbst suchen. Bestens\n\nSt. Z.",
+      "notes": "Textseite der Postkarte. Das Wort 'abzuschreiben' wurde über 'Capitel' eingefügt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, die Ergänzung über 'Capitel' ist eindeutig als 'abzuschreiben' zu identifizieren.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 546,
+    "total_words": 81,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

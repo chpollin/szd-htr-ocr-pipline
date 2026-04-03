@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.670",
+    "title": "Karl Klammer an Stefan Zweig, 1913-03-15, SZ-SAM/AK.98",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.670/IMG.1",
+      "https://gams.uni-graz.at/o:szd.670/IMG.2",
+      "https://gams.uni-graz.at/o:szd.670/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Karl Klammer an Stefan Zweig, 1913-03-15, SZ-SAM/AK.98\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.98\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:24.288473+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Brody 15/III 1913\nAustryaeka granica do Rossyi –\nOesterreichische Grenze nach Russland",
+      "notes": "Vorderseite einer Ansichtskarte mit Motiv der österreichisch-russischen Grenze bei Brody. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nHr Stefan Zweig\nWien VIII\nKochgasse 8/I\n\nLieber Zweig! Herzlichen\nGlückwunsch zu diesem {so einem}\nPräsent! Aber auch mir\nkönnen Sie gratulieren,\nund zwar zu meiner Ver-\nlobung! Und wenn Sie sich\nvon Ihrem ~~Stamen~~ {noch nicht} erholt haben,\n~~haben~~ machen Sie Ihre Erholungsreise\nnach Judicu! Ihr Klammer.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/blauer Tinte. Briefmarke und Poststempel 'BRODY' vorhanden. Text enthält Korrekturen und Einfügungen."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Darunter die Rückseite der Ansichtskarte (identisch mit Seite 2)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Korrekturen und Einfügungen sind eindeutig als solche erkennbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 402,
+    "total_words": 61,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

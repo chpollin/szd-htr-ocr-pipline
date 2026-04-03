@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1793",
+    "title": "Brief an Max Rascher vom 12. Mai 1938, SZ-AAP/B1.227",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1793/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1793/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1793/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1793/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Rascher vom 12. Mai 1938, SZ-AAP/B1.227\n- Signatur: SZ-AAP/B1.227\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:02.748780+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "12. Mai 1938.\n\nRascher & Co.,\nLimmatquai 50,\nZürich.\n\nLieber Herr Rascher!\n\nEs scheint doch, dass Sie im\nIrrtum sich befanden und der Herbert Reichner Verlag\nsich tatsächlich {als Ihr Kollege} in Zürich etabliert hat, denn ich\nerhalte zu meinem grossen Erstaunen beiliegenden\nProspekts des Vereinssortiments, worin der Verlag schon\nals \"Herbert Reichner Verlag, Zürich\" signiert.\n\nMit den besten Grüssen",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen in Tinte. Die Ergänzung '{als Ihr Kollege}' ist über der Zeile eingefügt, das Wort 'schon' ist handschriftlich am Ende der Zeile ergänzt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "12. Mai 1938.\n\nRascher & Co.,\nLimmatquai 50,\nZürich.\n\nLieber Herr Rascher!\n\nEs scheint doch, dass Sie im\nIrrtum sich befanden und der Herbert Reichner Verlag\nsich tatsächlich {als Ihr Kollege} in Zürich etabliert hat, denn ich\nerhalte zu meinem grossen Erstaunen beiliegenden\nProspekts des Vereinssortiments, worin der Verlag schon\nals \"Herbert Reichner Verlag, Zürich\" signiert.\n\nMit den besten Grüssen",
+      "notes": "Identisch mit Seite 1, jedoch mit einer Büroklammer am oberen linken Rand."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript. Die handschriftlichen Ergänzungen sind gut lesbar und wurden entsprechend den Regeln markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 806,
+    "total_words": 120,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

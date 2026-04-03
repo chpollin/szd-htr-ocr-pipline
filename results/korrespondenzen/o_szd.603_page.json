@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.603",
+    "title": "Berta Burgio-Ahrens an Stefan Zweig, 1928-07-28, SZ-SAM/AK.34",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.603/IMG.1",
+      "https://gams.uni-graz.at/o:szd.603/IMG.2",
+      "https://gams.uni-graz.at/o:szd.603/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Berta Burgio-Ahrens an Stefan Zweig, 1928-07-28, SZ-SAM/AK.34\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:20.436268+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "und ich diese [?] nach einem nicht ganz verbesserten Durchschlag\nhabe machen [?] (Ed. Randazzo) 1068 - PALERMO - Hôtel Villa Igiea - Le terrazze lassen. Beste Grüße\nB. Burgio\nal aus.",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notizen am unteren Rand und rechts unten. Gedruckter Text: '(Ed. Randazzo) 1068 - PALERMO - Hôtel Villa Igiea - Le terrazze'."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Doktor Stefan Zweig\nKapuzinerberg 5\nSalzburg\nAustria\n\nS. Lorenzo Palermo\n28-7-1928\nVerehrter Doktor,\nWie ich Ihnen in meinem Brief\nvom 24. andeutete, sende ich\nIhnen heute \"Il tramonto d'un\ncuore\". Wenn Sie später zwi=\nschen dieser Kopie und dem in\nBuche erschienenen Novelle\nein paar kleine Unterschiede\nfinden werden, so kommt dies\ndaher, dass mein ganz fertiges u.\nnoch zuletzt verbessertes Manu=\nskript schon beim Verleger war.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett. Briefmarken und Poststempel vorhanden (nicht transkribiert)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala fuer Archivierung. Ansichtskarte wie in Scan 2 abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, abgesehen von zwei kleinen Stellen auf der Vorderseite (Scan 1), die durch die Überlagerung mit dem gedruckten Text und die Platzierung am Rand leicht unsicher sind.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 613,
+    "total_words": 99,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

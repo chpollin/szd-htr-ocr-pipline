@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.437",
+    "title": "Eugenie Reitter an Stefan Zweig, 1931-12-23, SZ-SAM/AK.154",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.437/IMG.1",
+      "https://gams.uni-graz.at/o:szd.437/IMG.2",
+      "https://gams.uni-graz.at/o:szd.437/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Eugenie Reitter an Stefan Zweig, 1931-12-23, SZ-SAM/AK.154\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.154\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.183442+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Fröhliche\nWeihnachten! Brünn\n1932",
+      "notes": "Vorderseite einer Postkarte mit einem Foto von Brünn im Winter. Der Text 'Fröhliche Weihnachten!' ist gedruckt, 'Brünn' und '1932' sind handschriftlich hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Brno v zimě.\nBrünn im Winter\n\nVor meiner T[e]...\nnach Wien, wo n[...]\nFeiertage verbr[...]\nsende ich Ihnen,\nFreund meine\nherzlichen Grüß[e]\nalles Liebe für\nSie. Eug. Reit[ter]\n23./12. 31.\nWien III. Rennweg\nEPO 332\n\nDr.\nStefan Zweig\nSalzburg\nKapuzinerberg 5.",
+      "notes": "Rückseite der Postkarte. Handschriftliche Nachricht in violetter Tinte. Ein Teil des Textes ist durch einen aufgeklebten Papierstreifen verdeckt. Briefmarke und Poststempel 'BRATISLAVA' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Brno v zimě.\nBrünn im Winter\n\nVor meiner T[e]...\nnach Wien, wo n[...]\nFeiertage verbr[...]\nsende ich Ihnen,\nFreund meine\nherzlichen Grüß[e]\nalles Liebe für\nSie. Eug. Reit[ter]\n23./12. 31.\nWien III. Rennweg\nEPO 332\n\nDr.\nStefan Zweig\nSalzburg\nKapuzinerberg 5.",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Lesbarkeit ist durch einen über den Text geklebten Papierstreifen (wahrscheinlich eine spätere Archivierungskorrektur oder ein Schutzstreifen) stark eingeschränkt. Mehrere Wörter am Zeilenanfang und -ende sind dadurch nur fragmentarisch oder gar nicht lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 547,
+    "total_words": 86,
+    "language_detected": "",
+    "language_match": true
+  }
+}

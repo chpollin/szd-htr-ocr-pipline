@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.933",
+    "title": "Brief an Frans Masereel vom [März 1919], SZ-LAS/B1.6",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.933/IMG.1",
+      "https://gams.uni-graz.at/o:szd.933/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [März 1919], SZ-LAS/B1.6\n- Signatur: SZ-LAS/B1.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:44.760680+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Mon cher Frans, je te remercie de tout mon coeur pour les admi-\nrables bois et les dessins. Je les emporte avec moi et j'espère le livre pa-\nraitra bientôt: tu sauras les détails immédiatement de Vienne. Je pars Samedi\nou lundi: quel plaisir, si je pourrais encore prendre avec moi ton livre d'heures.\nSi non, envoie le a Salzbourg Kapuzinerberg 5, on tu seras toujours le bienve-\nnu. Dès l'été nous serons, j'espère, en ordre et une chambre sera toujours\nprête pour toi et nos coeurs aussi.\nJe t'envoie le certificat de Seelig. Tu peux t'arranger avec lui directement\nil est si gentil et honnête. Aucune complication sera possible par sa inter-\nvention directe dans cette affaire.\nLe libraire Hugo Heller & Cie, Vienne I. Bauernmarkt 3 souscrit 5 exem-\nplaires de Liluli. Je suis sûr il achètera aussi quelques uns de ton livre d'heures\nsi tu lui enverras le prospectus. Aussi Seelig veut souscrire a ces deux\nlivres.\nMon cher Frans, je ne peux plus te revoir maintenant, ni t'écrire comme\nje le voudrais. Laisse te donc serrer tes deux mains et ne nous oublie pas.\nEntre les milles tristes souvenirs de cette epoque funeste celui de notre amitié\nrestera celui de notre esprit, je l'espère, toujours clair et pur. Restons ce\nque nous sommes et devenons encore plus forts et plus sincères.\nAmitiés de madame! Et deus bientôt! Ton fraternel\nStefan Zweig\n\nMes compliments a Madame Masereel et Paulette",
+      "notes": "Handschriftlicher Brief in französischer Sprache. Violette Tinte. Stempel 'EX LIBRIS CHRISTIAN ANDREE ET AUTOGRAPHIS' am oberen Rand."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Enthält mittig den Stempel 'EX LIBRIS CHRISTIAN ANDREE ET AUTOGRAPHIS'. Ansonsten leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist flüssig und klar. Einzig das Wort 'deus' in der Grußformel ist orthographisch ungewöhnlich (wahrscheinlich 'à bientôt' gemeint, aber 'deus' geschrieben).",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1399,
+    "total_words": 242,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

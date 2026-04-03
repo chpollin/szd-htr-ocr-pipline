@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.441",
+    "title": "Reinhold Reuschel an Stefan Zweig, 1929-06-22, SZ-SAM/AK.158",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.441/IMG.1",
+      "https://gams.uni-graz.at/o:szd.441/IMG.2",
+      "https://gams.uni-graz.at/o:szd.441/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Reinhold Reuschel an Stefan Zweig, 1929-06-22, SZ-SAM/AK.158\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.158\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:09.424531+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Linienschiff „Elsass“\n22.6.29.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung eines Linienschiffs. Handschriftliche Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg\n\nPhot. Verlagsanstalt Ernst Crull, Kiel No. 99\n\nReinhold Reuschel\nKiel\nOlshausenstr. 20 den 22.VI.29.\n\nSehr geehrter Herr Dr. Zweig,\ndarf ich Sie ergebenst an\nmeine Dichtungen (22.V.25 gef.)\nerinnern. Ich würde mich sehr\nüber eine Äußerung freuen können.\nMit ergebensten Grüßen Ihr R. Reusch",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Briefmarke und Poststempel (Kiel, 23.6.29) vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Archiv-Scan mit Grauskala und Farbkarte. Zeigt dieselbe Seite wie Scan 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift des Absenders ist trotz der kursiven Schreibweise weitgehend eindeutig zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 367,
+    "total_words": 53,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

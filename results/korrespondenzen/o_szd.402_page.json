@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.402",
+    "title": "Fritz Meyer an Stefan Zweig, 1924-08-07, SZ-SAM/AK.121",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.402/IMG.1",
+      "https://gams.uni-graz.at/o:szd.402/IMG.2",
+      "https://gams.uni-graz.at/o:szd.402/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Fritz Meyer an Stefan Zweig, 1924-08-07, SZ-SAM/AK.121\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.121\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:06.951617+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Pontresina 7. VIII. 1924.",
+      "notes": "Vorderseite einer Ansichtskarte mit Gebirgsmotiv. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Sehr geehrter Herr Doktor, ich werde dafür\nsorgen, daß die Handschrift jehe[?] in\nkürzester Frist zurückbekommen.\nWahrscheinlich fahre ich am Ende des Urlaubs\n- in 14 Tagen - zu Fr. Zürcher[?] habe ich\nin Wien am reklamieren lassen.\nBitte also diesbezüglich um etwas\njedweder[?] haben. Besten Gruß und\n                                     Ihr ergebener Fritz Meyer\nliebe Stefan, den habe ich einen Jüngling anzweifel-\nhafter Konfession gesehen, der den \"Amok\" in der Hand trug.\n7. VIII. 24.                                Viele herzliche Grüße Dir u. Frau.\nSie sind ein netter Freund!\nAber die Frau grüße ich\nherzlichst. Ihr F.S.          Lotte Meyer\n\nHerrn Dr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nÖsterreich",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in Tinte. Die Adressseite ist um 180 Grad gedreht zum Textkörper. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Sehr geehrter Herr Doktor, ich werde dafür\nsorgen, daß die Handschrift jehe[?] in\nkürzester Frist zurückbekommen.\nWahrscheinlich fahre ich am Ende des Urlaubs\n- in 14 Tagen - zu Fr. Zürcher[?] habe ich\nin Wien am reklamieren lassen.\nBitte also diesbezüglich um etwas\njedweder[?] haben. Besten Gruß und\n                                     Ihr ergebener Fritz Meyer\nliebe Stefan, den habe ich einen Jüngling anzweifel-\nhafter Konfession gesehen, der den \"Amok\" in der Hand trug.\n7. VIII. 24.                                Viele herzliche Grüße Dir u. Frau.\nSie sind ein netter Freund!\nAber die Frau grüße ich\nherzlichst. Ihr F.S.          Lotte Meyer\n\nHerrn Dr. Stefan Zweig\nKapuzinerberg 5\nSalzburg\nÖsterreich",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'jehe', 'jedweder'). Die Anordnung des Textes auf der Postkarte ist durch die Drehung der Adresszeilen komplex.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 1445,
+    "total_words": 208,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

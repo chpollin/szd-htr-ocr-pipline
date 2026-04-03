@@ -1,0 +1,104 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2785",
+    "title": "Algier",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA1.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2785/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2785/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2785/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2785/IMG.4"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Jean Jacques Rousseau |\n                        (Doppelaufsatz)\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Algier\n- Signatur: SZ-AAP/W-AA1.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Jean Jacques Rousseau |\n                        (Doppelaufsatz)\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:05.732589+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Algier\nAbendaquarelle aus Algier\nJean Jacques Rousseau\n(Doppelaufsatz)",
+      "notes": "Handschriftliche Notiz auf einem Zettel. Die Tinte ist violett."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Jean Jacques Rousseau\n(Doppelaufsatz)",
+      "notes": "Rückseite des Zettels, der links umgeknickt ist. Der umgeknickte Teil zeigt den Text von Seite 1 (Algier / Abendaquarelle aus Algier) spiegelverkehrt/durchscheinend."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Jean Jacques Rousseau\n(Doppelaufsatz)",
+      "notes": "Rückseite des Dokuments. Der Text ist durchscheinend von der Vorderseite zu sehen."
+    },
+    {
+      "page": 4,
+      "type": "color_chart",
+      "text": "Algier\nAbendaquarelle aus Algier\nJean Jacques Rousseau\n(Doppelaufsatz)",
+      "notes": "Das Dokument mit Farb- und Grauskala zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich lesbar und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 214,
+    "total_words": 24,
+    "language_detected": "",
+    "language_match": true
+  }
+}

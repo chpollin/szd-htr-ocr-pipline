@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1438",
+    "title": "Brief an Stefan Zweig vom 22. Mai 1935, SZ-AAP/B5.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1438/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1438/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1438/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 22. Mai 1935, SZ-AAP/B5.3\n- Signatur: SZ-AAP/B5.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:34.122240+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                     \n\n\n\n\n\nTelegramadresse: „Aco“                                Oslo, d. 22. Mai 1935.\n\n\n\nHerrn Stefan Zweig,\n                      Hotel Bellerive au Lac,\n                      Z ü r i c h .\n                      ----------\n\nSehr geehrter Herr,\nWir sind im Besitze Ihres Schreibens vom 13. Mai betr.\neine norwegische Ausgabe von \"Maria Stuart\". Von den zwei\nVorschlagen ziehen wir diejenige vor, wonach wir eine einmalige\nZahlung für alle Rechte von Fr. 600.00, Schweizerfranken\nzahlen dürfen. Wir haben beigeschlossen das Vergnügen Ihnen\ndiesen Betrag im Scheck zu senden.\nIhrer werten Quittung entgegenstehend zeichnen wir\n\n                                     hochachtungsvoll\n                                     pr. pr. H. ASCHEHOUG & CO. (W. NYGAARD) A/S\n\n\n1 Scheck.\nMN/JJ.\n\n                                     bejahst[?]",
+      "notes": "Typoskript auf Briefpapier mit Firmenlogo. Handschriftliche Ergänzung unten rechts: 'bejahst' (oder ähnlich, schwer lesbar). Die Unterschrift ist eine Faksimile-Signatur oder Stempel."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer (Durchschlag/Abdruck des Textes der Vorderseite sichtbar)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Notiz 'bejahst' am Ende ist unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 862,
+    "total_words": 95,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

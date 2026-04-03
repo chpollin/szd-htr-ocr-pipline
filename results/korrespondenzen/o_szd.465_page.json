@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.465",
+    "title": "Jethro Bithell an Stefan Zweig, 1909-08-09, SZ-SAM/AK.18",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.465/IMG.1",
+      "https://gams.uni-graz.at/o:szd.465/IMG.2",
+      "https://gams.uni-graz.at/o:szd.465/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Jethro Bithell an Stefan Zweig, 1909-08-09, SZ-SAM/AK.18\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.18\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:11.335557+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dorfpartie auf Föhr\n9.8.09.",
+      "notes": "Vorderseite einer Ansichtskarte mit gedrucktem Titel und handschriftlichem Datum."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Grosze Stiasze, 58, Wyk auf Föhr,\nAug 9/09.\n\nDear Sir,\nI beg to thank you very sincerely for\nyour kind permission to print my\ntranslation of your poems, and for the\ninterest you show in the work. I will\nsend you the proofs which concern you,\nand, of course, the book itself. I am\nvery much interested to hear of the\nFrench translations. Yours very sincerely\nJ. Bithell\n\nPostkarte\n\nStefan Zweig, Esq.\nVIII. Kochgasse 8\nIn Wien.",
+      "notes": "Rückseite der Ansichtskarte mit handschriftlichem Text in englischer Sprache. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 453,
+    "total_words": 81,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

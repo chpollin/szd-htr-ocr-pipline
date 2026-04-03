@@ -1,0 +1,95 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1260",
+    "title": "Brief an Victor Fleischer, o. D., SZ-LAS/B3.76",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1260/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.5",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.6",
+      "https://gams.uni-graz.at/o:szd.1260/IMG.7"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Victor Fleischer, o. D., SZ-LAS/B3.76\n- Signatur: SZ-LAS/B3.76\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 7 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.372601+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr. Victor Fleischer\n\nVIII\nKochgasse 6 II Stock",
+      "notes": "Adressseite eines Briefumschlags."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefumschlags, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Lieber Victor, ich konnte Dir\nleider nicht mehr Adieu sagen.\nMeine Adresse telegraphiere ich\nDir. Was morgen einläuft, heute\nposte restante Bozen\nBriefe von Intendanzen, Hoch\nect öffne ruhig und depeschiere\nmir den Inhalt, wenn es sehr\nwichtig ist, sonst sende sie nur\nin gewohnter Weise nach. Die\nSpesen werde ich nicht vergessen!\nDie Mühe auch nicht.\nDen Nietzsche sende der\nNeuen freien Presse, falls er nicht",
+      "notes": "Erste Seite des Briefes."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite der ersten Briefseite, durchscheinender Text."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "erst nach dem 1. October kommt.\nAuf jeden Fall schreibe hinein (mit\nTinte) „Nach Benützung zurück\nan Dr. Stefan Zweig Wien VIII\nKochgasse 8. Das Exemplar gebe ich\nnicht her. Vielleicht fügst Du (ohne\nDeine Namensnennung) bei, dass\nDu das Ex. in meinem Auftrag\nsendest nur ich es – da es nur\nin numerierten Ex. ausgegeben wur-\nde und mir persönlich bestimmt\nwar – zurückerbitte nach Be-\nnützung.\nNur Dir, armer Kerl, gute\nBesserung. Das ist das letzte der\nneben magern Jahre! Herzlich\nStefan",
+      "notes": "Zweite Seite des Briefes."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite der zweiten Briefseite, durchscheinender Text."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Scan mit Farb- und Grauskala über der zweiten Briefseite."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, der Kontext der Korrespondenz ist klar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 949,
+    "total_words": 159,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

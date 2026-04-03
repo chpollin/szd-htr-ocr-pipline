@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1396",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 3. August 1906, SZ-SEF/B5.5",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1396/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1396/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1396/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 3. August 1906, SZ-SEF/B5.5\n- Signatur: SZ-SEF/B5.5\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.286299+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BISHOP LOYDS HOUSE. CHESTER.\n3828. \n\n[Handschriftlich:]\n\n[...5...] [?]\n\n[...10...]",
+      "notes": "Die handschriftliche Notiz unter 'BISHOP LOYDS HOUSE' ist stark verblasst und schwer lesbar. Die Signatur '3828' ist gedruckt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "POST CARD—GREAT BRITAIN & IRELAND\nWriting space for Inland use only.\n\nfraülein Eugenie Hirschfeld\nI/1 Mariatheresienstr 30\nb. H. Dr Wolheim\nVienna (Austria)\n\n~~I~~ IX. Nußdorferstrasse 5",
+      "notes": "Die Adresse enthält Korrekturen (durchgestrichenes 'I' und hinzugefügtes 'IX. Nußdorferstrasse 5'). Die Tinte ist violett."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "POST CARD—GREAT BRITAIN & IRELAND\nWriting space for Inland use only.\n\nfraülein Eugenie Hirschfeld\nI/1 Mariatheresienstr 30\nb. H. Dr Wolheim\nVienna (Austria)\n\n~~I~~ IX. Nußdorferstrasse 5",
+      "notes": "Identisch mit Seite 2, inklusive Farbkarten-Referenz."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die handschriftlichen Notizen auf der Vorderseite der Postkarte sind aufgrund der Verblassung der Tinte nur schwer zu entziffern. Die Adressseite ist gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 454,
+    "total_words": 63,
+    "language_detected": "",
+    "language_match": true
+  }
+}

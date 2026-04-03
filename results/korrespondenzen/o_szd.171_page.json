@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.171",
+    "title": "Ansichtspostkarte mit Gruppenbild aus dem Wiener Wurstelprater, SZ-SEF/L4",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.171/IMG.1",
+      "https://gams.uni-graz.at/o:szd.171/IMG.2",
+      "https://gams.uni-graz.at/o:szd.171/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte mit Gruppenbild aus dem Wiener Wurstelprater, SZ-SEF/L4\n- Signatur: SZ-SEF/L4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.755241+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "blank",
+      "text": "",
+      "notes": "Vorderseite der Postkarte: Schwarz-Weiß-Fotografie einer Personengruppe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Alfred Zweig\n(Angaben)\nwahrscheinl[ich] Frühj[ahr] 1906\nWurstelprater\n\nm.u. SZweig\nr.o. Dr. Rob. Müller (Brüder v. Hans Müller\n= E. Lothar)\nl.u. My. Robert Goldmann\nl.o. Alfred Zweig\no.t.m. ?",
+      "notes": "Rückseite der Postkarte: Handschriftliche Notizen zur Identifizierung der abgebildeten Personen. Die Abkürzungen (m.u., r.o., l.u., l.o.) stehen für 'mitte unten', 'rechts oben', 'links unten', 'links oben'. 'o.t.m.' ist unklar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Archivaufnahme mit Farbskala und Grauskala. In der Mitte das Foto (Vorderseite)."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise flüchtig. Die Abkürzungen 'm.u.', 'r.o.' etc. sind kontextuell gut interpretierbar, aber die letzte Zeile 'o.t.m. ?' bleibt unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 191,
+    "total_words": 29,
+    "language_detected": "",
+    "language_match": true
+  }
+}

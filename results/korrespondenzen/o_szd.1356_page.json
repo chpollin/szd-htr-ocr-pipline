@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1356",
+    "title": "Ansichtspostkarte an Eugenie Hirschfeld vom 2. Januar 1909, SZ-SEF/B5.14",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1356/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1356/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1356/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Eugenie Hirschfeld vom 2. Januar 1909, SZ-SEF/B5.14\n- Signatur: SZ-SEF/B5.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:28.517971+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "General View, Taj, Agra.\n\nSylvester 1908!\nHerzlichst\nStefan Zweig",
+      "notes": "Vorderseite der Postkarte mit handschriftlichem Gruß."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Europe!\n\nPOSTCARD—CARTE POSTALE\nUNIVERSAL POSTAL UNION—UNION POSTALE UNIVERSELLE\nBRITISH INDIA—INDE BRITANNIQUE\n\nFraulein Eugenie Hirschfeld\n\nVienna (Austria)\nIX. Nussdorferstrasse 5",
+      "notes": "Rückseite der Postkarte mit Adressfeld. Briefmarke und Poststempel vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Übersichtsbild mit Farbskala, enthält keine neuen Textinformationen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 247,
+    "total_words": 28,
+    "language_detected": "",
+    "language_match": true
+  }
+}

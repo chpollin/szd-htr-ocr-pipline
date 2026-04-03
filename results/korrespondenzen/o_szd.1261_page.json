@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1261",
+    "title": "Brief an Stefan Zweig vom 16. Oktober 1931, SZ-SAM/B1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1261/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1261/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1261/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 16. Oktober 1931, SZ-SAM/B1\n- Signatur: SZ-SAM/B1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:24.473173+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "HELMUT GANS · FRANKFURT AM MAIN · FALLERSLEBENSTRASSE 25\n\nRadio\n\nFfm., 16. Okt. 31.\n\nHochverehrter Herr Doktor Zweig !\nVerzeihen Sie mir bitte, wenn ich erst\nheute schreibe und Ihnen für Ihre grosse Liebenswürdigkeit\ndanke. Aber ein langwieriges Panarizium ( eine Fingernagel-\nbettvereiterung ) hat mich, ebenso physisch wie gedanklich,\nan der Führung meiner Korrespondenz gehindert.\nIhre mir freundlichst zur Verfügung\ngestellte Legende habe ich mit grossem Genuss gelesen und\nauch ein wenig gestrichen, mit schwerem Herzen, denn es\nist schade um jedes nicht gesprochene Wort.\nLeider ist es mir nicht gelungen, das\nWerk unterzubringen. Der hiesige Sender wird Ihren Vortrag\naus Berlin übernehmen, und die Werag, der Westdeutsche\nRundfunk, dem ich auf seinen Wunsch eine Abschrift ein-\ngesandt habe, möchte den Tag lieber durch eine Lesung aus\nIhren »Sternstunden der Menschheit«feiern.\nIch stehe aber mit dem grössten Vergnügen\nzu Ihrer Verfügung, wenn es sich ergeben sollte, dass ich\nirgendwo das Werk für Sie lesen darf.\nMit den besten Wünschen im Voraus und\nnochmaligem verbindlichsten Dank empfehle ich mich Ihnen,\nsehr verehrter Herr Doktor,\nmit vorzüglichster Hochachtung\nIhr sehr ergebener\nMGans.",
+      "notes": "Der Brief ist maschinengeschrieben, die Unterschrift ist handschriftlich. Das Wort 'Radio' oben ist handschriftlich in roter Tinte hinzugefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Briefes, zeigt den Durchdruck des Textes der Vorderseite."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite des Briefes mit aufgelegter Grauskala und Farbkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klarer Maschinendruck, der sehr gut lesbar ist. Die handschriftliche Unterschrift ist ebenfalls gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1205,
+    "total_words": 181,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

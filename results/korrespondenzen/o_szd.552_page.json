@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.552",
+    "title": "Armand Brody an Stefan Zweig, 1907-10-28, SZ-SAM/AK.26",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.552/IMG.1",
+      "https://gams.uni-graz.at/o:szd.552/IMG.2",
+      "https://gams.uni-graz.at/o:szd.552/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Armand Brody an Stefan Zweig, 1907-10-28, SZ-SAM/AK.26\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:17.417728+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kampala & Nakasero, Uganda. 28. Okt. 07. - hier Gottseidank, allein, ohne\nGesellschaft!",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text in Tinte."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "POST-CARD\nTHE ADDRESS ONLY TO BE WRITTEN HERE\n\nDr. Stefan Zweig,\nVienna VIII.\nKochgasse 8.",
+      "notes": "Rückseite der Ansichtskarte mit gedruckten Feldern und handschriftlicher Adresse. Briefmarke 'East Africa and Uganda Protectorates' (6 Cents) und Poststempel 'Mombasa 3 NO 07 E.A.P.' vorhanden."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Dr. Stefan Zweig,\nVienna VIII.\nKochgasse 8.",
+      "notes": "Wiederholung der Adressseite der Postkarte im Kontext von Archiv-Farbskalen. Die Transkription beschränkt sich auf den Text der Postkarte."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 220,
+    "total_words": 35,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

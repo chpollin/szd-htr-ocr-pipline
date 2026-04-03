@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.979",
+    "title": "Brief an Sigmund Freud vom [August 1938], SZ-LAS/B7.37",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.979/IMG.1",
+      "https://gams.uni-graz.at/o:szd.979/IMG.2",
+      "https://gams.uni-graz.at/o:szd.979/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom [August 1938], SZ-LAS/B7.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:47.772824+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLieber verehrter Herr Professor,\n\nich habe mich in diesen Tagen\nbei Ihnen nicht gemeldet, weil\nein naher Freund von mir böse\noperiert wurde und ich immer\nzu ihm hinaus ins Spital muss.\nIch melde mich aber morgen,\nschon sehr ungeduldig, Sie zu\nsehen.\nEin heimischer Photograf\nMarcel Sternberger, der herrliche\nAufnahmen von Shaw, Wells\netc gemacht hat, möchte leiden-",
+      "notes": "Briefkopf gedruckt, Text handschriftlich in violetter Tinte. Die letzte Zeile bricht mitten im Wort ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "schaftlich gerne Ihren Skalp\nan seinen Gürtel hängen. Er\nbittet Sie innigst um 10\nknappe Minuten und da es\nfür ihn (er geht nach America)\neine grosse moralische Hilfe\nwäre und man heute doch helfen\nmuss und da er wirklich gross-\nartige Aufnahmen macht, lege\nich ihn an Ihr gütiges Herz.\nGetreulichst Ihr\n\nStefan Zweig",
+      "notes": "Handschriftlich in violetter Tinte. Fortsetzung des Briefes von Seite 1."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLieber verehrter Herr Professor,\n\nich habe mich in diesen Tagen\nbei Ihnen nicht gemeldet, weil\nein naher Freund von mir böse\noperiert wurde und ich immer\nzu ihm hinaus ins Spital muss.\nIch melde mich aber morgen,\nschon sehr ungeduldig, Sie zu\nsehen.\nEin heimischer Photograf\nMarcel Sternberger, der herrliche\nAufnahmen von Shaw, Wells\netc gemacht hat, möchte leiden-",
+      "notes": "Identisch mit Seite 1, jedoch mit einer Farbskala/Grauskala für Archivierungszwecke am linken Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist klar und eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1145,
+    "total_words": 189,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

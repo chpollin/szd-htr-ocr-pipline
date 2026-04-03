@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.485",
+    "title": "Maria Folkenhof an Stefan Zweig, 1922-08-02, SZ-SAM/AK.198",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.485/IMG.1",
+      "https://gams.uni-graz.at/o:szd.485/IMG.2",
+      "https://gams.uni-graz.at/o:szd.485/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Maria Folkenhof an Stefan Zweig, 1922-08-02, SZ-SAM/AK.198\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.198\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:12.637412+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "STADHUIS MIDDELBURG 2. 8. 09.",
+      "notes": "Vorderseite einer Ansichtskarte mit Abbildung des Rathauses von Middelburg. Handschriftliche Datumsangabe unten rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "BRIEFKAART\n\nHerrn u. Stefan\nZweig\nKapuzinerberg 5\nSalzburg\nÖsterreich\n\nUnseren lieben Freun-\nden einen herzlichen\nGruß\nChris[?] \nMarierly[?] \nMarja Folkenhof",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Briefmarke oben links mit Poststempel. Gedruckter Text: 'BRIEFKAART', 'Photogravure-Serie Nr. 2', 'Uitg. Firma F. B. den Boer, Middelburg'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Rückseite der Ansichtskarte mit Farbskala und Grauskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift im Nachrichtenteil der Postkarte ist aufgrund der blassen Tinte und der Überlagerung mit dem gedruckten Text schwer lesbar. Die Namen der Absender sind teilweise unsicher.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 186,
+    "total_words": 25,
+    "language_detected": "",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1585",
+    "title": "Brief an Hans Deißinger vom 12. Dezember 1932, HD-AHL/B1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1585/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1585/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1585/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Hans Deißinger vom 12. Dezember 1932, HD-AHL/B1\n- Signatur: HD-AHL/B1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:44.105974+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SALZBURG\nKAPUZINERBERG 5\n\nam 12. Dezember 1932\n\nSehr verehrter Herr Doktor!\n\nIch war zwei Wochen verreist und finde zurückkehrend, Ihren\nso freundlichen Brief und Ihr Gedichtbuch. Wunderbar, dass es in\nunserer Zeit noch Menschen gibt, welche diese innere Musik in sich\npflegen! Mir ist es nicht gegeben - und es ist wohl auch ein wider-\nnatürliches Beginnen - Gedichtbücher in einem Zuge durchzulesen, ich\nlege sie mir gewöhnlich auf den Tisch und nehme mir daraus, wie aus\neinem Obstkorb, immer nur sparsam die eine oder andere Frucht. So\nhabe ich von Ihrem Gedichtbuch bisher nur einige Gedichte auf guten\nZufall an mich genommen. Am stärksten hat auf mich das rein bildneri-\nsche gewirkt, wie \"Nacht\", \"Ueber Land\", \"Am Meierhof\" \"Sonntagsmorgen\"\nDiese Wahl ist nur eine vorläufige und den vollen Umblick werde ich\nerst in zwei oder drei Wochen haben, dank dieser langsamen Lesetech-\nnik. Aber dass ich gern und freudig weiterlese, kann Ihnen {ich}\nheute sagen, denn ich spüre hier wirklich einen schöpferischen\nWillen und aus lyrischem Zwange geschaffene Verse.\n\nUnd hoffentlich machen Sie mir die Freude, dass ich, da uns\nein freundliches Geschick zu Nachbarn gemacht hat, Sie in Salzburg\nbei mir einmal sehen darf.\n\nNochmals herzlichen Dank und viele Grüsse Ihres\n\nStefan Zweig",
+      "notes": "Typoskript mit handschriftlicher Ergänzung 'ich' in Zeile 13 und handschriftlicher Unterschrift 'Stefan Zweig'. Briefpapier mit Briefkopf."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments. Enthält den durchscheinenden Text der Vorderseite sowie die handschriftliche Signatur 'Stefan Zweig' (durchscheinend/abgedrückt)."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Überlagert den Text des Briefes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung 'ich' wurde korrekt identifiziert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1283,
+    "total_words": 205,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1681",
+    "title": "Tóni Devora Hyrkan an Stefan Zweig, SZ-SAM/AK.93",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1681/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1681/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1681/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Tóni Devora Hyrkan an Stefan Zweig, SZ-SAM/AK.93\n- Signatur: SZ-SAM/AK.93\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:55.324921+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "4. Dez. 33",
+      "notes": "Vorderseite einer Ansichtskarte mit dem Motiv 'Berg Tabor'. Handschriftliche Datumsangabe oben links."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Jerusalem: Abessinianstreet 20\nVerehrter Herr Dr. Zweig:\nSeit 14 Tagen bin ich endlich wieder\nin diesem geliebten friedvollen\nbeglückenden Land und bleibe hier.\n- Ende bekam ich keinerlei Zeichen mehr\nvon Ihnen; das Manuskript kam ohne\nein Wort zurück. -\nNun will man es hier ins Hebräische\nübersetzen, (auch ins Englische).\nWürden Sie - als Verwirklichung jener\n~~Einschränkung~~ die Sie mir gütlich fest\n{versprochen} haben, - ein kleines Vor=\nwort schreiben? Es würde ungeheuer\nwirken bei Ihrer Beliebtheit hier.\nAntworten Sie doch bitte unbedingt bald.\nIch fechte bis zum Erscheinen des Romans\n~~in weiter~~ Ich grüsse Sie\nherzlich, Ihre geschätzte Antwort dringend\nerharrend.\n\nToni Devora Hyrkan.",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke 'Palestine' und Poststempel 'Jerusalem 4 DE 33' vorhanden. Blauer Aufkleber 'BY AIR MAIL'. Der Name der Absenderin ist am linken Rand vertikal geschrieben."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Gesamtansicht der Postkarte mit Archiv-Farbskalen (Grauskala #13 und Farbkarte #13). Keine neuen Textinformationen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar. Die Durchstreichungen und Einfügungen wurden gemäß den Regeln erfasst.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 711,
+    "total_words": 109,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

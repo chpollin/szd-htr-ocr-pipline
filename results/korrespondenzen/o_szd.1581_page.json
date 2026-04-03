@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1581",
+    "title": "Brief an Stefan Zweig vom 12. Juli 1939, SZ-AAP/B3.7",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1581/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1581/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1581/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. Juli 1939, SZ-AAP/B3.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:43.919145+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS·COMPOSERS·STAGE & FILM PRODUCERS·MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS·LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON·S·W·1\n\n12.Juli 1939.\n\nHerrn Dr.Stefan Zweig,\nLansdown Lodge,\nLansdown Road,\nBath.\n\nSehr geehrter Herr Doktor,\n\nBesten Dank fuer Ihre Postkarte vom 11.d.M.-\nDie Angelegenheit,um die es sich handelt,ist etwas zu\nkompliziert,um sie in einem Telephongespraech zu erledigen,darum halten\nwir es fuer besser,Ihnen die Sache brieflich vorzutragen.Der Einfachheit\nhalber legen wir Ihnen Abschrift eines Schreibens bei,das uns von der\nTheatre Guild,New York,zugegangen ist,und das keines weiteren Kommentars\nbedarf.\nWir haben den Vertrag fuer \"VOLPONE\",der seinerzeit mit\nder Theatre Guild abgeschlossen wurde,ueberprueft und festgestellt,dass\ndie Angaben Mr.Munsell's stimmen und eine Filmbeteiligung der Guild vor-\ngesehen war.Wir nehmen an,dass sich vielleicht um irgendein Missver-\nstaednis handeln koennte,und wuerden Sie sehr bitten,uns ausfuehrlich\ndarueber zu schreiben,damit wir die Angelegenheit aufklaeren koennen.\nEs wurde kein Filmvertrag durch unser Bureau abgeschlossen und die Mit-\nteilung der Guild kommt als Ueberraschung.\nWir waeren Ihnen fuer umgehende Nachricht sehr dankbar,\nda wir gern baldmoeglichst an die Theatre Guild schreiben wuerden.\n\nIm voraus fuer Ihre Bemuehung dankend,mit den besten\nEmpfehlungen\n\nIhre\nA. [Unterschrift unleserlich] Gerk\n\nENC:\n\nIMPORTANT.-Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS. for negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.",
+      "notes": "Typoskript auf Briefpapier der Firma. Die Unterschrift ist handschriftlich, aber schwer lesbar. Oben rechts handschriftliche Notiz '70' in rotem Stift."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "THE INTERNATIONAL COPYRIGHT BUREAU LTD\n(FOUNDED BY ERNEST MAYER.)\n\nREPRESENTING\nDRAMATISTS·COMPOSERS·STAGE & FILM PRODUCERS·MUSIC PUBLISHERS\n\nTELEGRAMS\nVOLSCIUS·LONDON\n\nDEWAR HOUSE\nHAYMARKET\nLONDON·S·W·1\n\n12.Juli 1939.\n\nWir haben den Vertrag fuer \"VOLPONE\",der seinerzeit mit\nder Theatre Guild abgeschlossen wurde,ueberprueft und festgestellt,dass\ndie Angaben Mr.Munsell's stimmen und eine Filmbeteiligung der Guild vor-\ngesehen war.Wir nehmen an,dass sich vielleicht um irgendein Missver-\nstaednis handeln koennte,und wuerden Sie sehr bitten,uns ausfuehrlich\ndarueber zu schreiben,damit wir die Angelegenheit aufklaeren koennen.\n\nENC:\n\nIMPORTANT.-Authors are kindly requested to note that The International Copyright Bureau Ltd. only accept MSS. for negotiation\non the understanding that they shall not be held responsible for their accidental loss by fire or any other cause whilst in their offices\nin transit or on offer to Clients or prospective Clients to whom they may have been submitted in the ordinary course of business.",
+      "notes": "Scan enthält Archivierungshilfen (Farbskala, Grauskala) und einen Ausschnitt des Brieftextes, der über die Skalen gelegt wurde."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist die einzige unsichere Stelle.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2890,
+    "total_words": 389,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

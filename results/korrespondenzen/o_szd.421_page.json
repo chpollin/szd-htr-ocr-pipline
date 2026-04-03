@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.421",
+    "title": "Nelly Pins an Stefan Zweig, 1914-06-16, SZ-SAM/AK.139",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.421/IMG.1",
+      "https://gams.uni-graz.at/o:szd.421/IMG.2",
+      "https://gams.uni-graz.at/o:szd.421/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Nelly Pins an Stefan Zweig, 1914-06-16, SZ-SAM/AK.139\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.139\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:08.199401+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Scheit[?] sale in dem engen\nKreise kennen gelernt!\nAbends war ich mit\nBaz. bei Picard. Eine\nganz wunderbare\nAtmosphäre in dem\nHause. - Verhaeren war\nnicht bei der Réunion.\n- Jetzt bin ich im Be-\ngriffe, von einem Kath.\nPriester aus Hagen be-\nkehrt zu werden. 16.6.\n1914",
+      "notes": "Vorderseite einer Ansichtskarte (L'Église N.-D. du Sablon). Handschriftliche Notizen in violett/schwarzer Tinte. Der Text ist teilweise über das Bild geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Lieber Herr [?], ich will\ndoch vom gestrigen [?] \nberichten. Es war wirklich eine\nstimmungsvolle\nFeier - Vormittags in dem herrlichen\nWald, dann Mittags bei Donner und\nBlitz eine ergreifende Rede von Picard.\nBazalgette habe ich nun auch kennen\ngelernt - leider nicht so gründlich, als ich\nwünschte, aber ich bin sofort von seinem\nCharme captiviert worden. Der Südfranzo-\nse, wie man sich ihn denkt. Überhaupt,\nwas hab' ich da für interessante Typen und\n\nHerrn Dr.\nStefan Zweig\nWien VIII\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich in violett/schwarzer Tinte. Poststempel 'BRUXELLES 16 VI 1914'. Briefmarke '10 BELGIE 10'."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Enthält das gleiche Bild wie Seite 2 in der Mitte."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Einige Wörter sind aufgrund der Handschrift und der Überlagerung mit dem gedruckten Bild auf der Vorderseite schwer zu entziffern (z.B. 'Scheit[?]', 'gestrigen [?]').",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 767,
+    "total_words": 130,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1722",
+    "title": "Brief an Anna Meingast vom 5. Februar 1937, SZ-SAM/B7.89",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1722/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1722/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 5. Februar 1937, SZ-SAM/B7.89\n- Signatur: SZ-SAM/B7.89\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.920249+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Neapel, den 5. Februar 1937.\n\nLiebe Frau Meingast!\n\nHerr Dr. Geiringer hat diese Sache so\ngeschrieben, um allen falschen Auslegungen auszu-\nweichen, als ob ich in Salzburg nach meiner Ab-\nmeldung vor drei Jahren noch weiterhin ansässig\noder gar erwerbstätig sei. Es besteht ja keiner-\nlei Schwierigkeit, dass wenn Sie einen Ruhegehalt\nbéziehen, Sie auch noch in der Krankenkasse blei-\nben, wenn Sie auf Ihre eigenen Kosten den Betrag\neinzahlen, und ich bin selbstverständlich bereit,\nIhnen diesen Betrag direkt zurückzuerstatten. Sie\nmüssen verstehen, liebe Frau Meingast, dass ich\nnicht im mindesten daran denke, Ihnen irgendeine\nSchwierigkeit bereiten zu wollen. Aber Herr Dr. G.\nwar der Ansicht, dass diese Feststellung nötig sei,\num jede falsche Auslegung zu verhindert. Es handelt\nsich ja da nur eine Formalität, und es ist ganz\ngleichgültig, ob Sie das Geld einzahlen und ich es",
+      "notes": "Typoskript auf Briefpapier. Die letzte Zeile bricht mitten im Satz ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Ihnen dann zurückerstatte oder ob es weiterhin\ndirekt von mir bezahlt wird.\n\nIch schreibe in ziemlicher Eile,\nweil ich nächster Tage nach Rom fahre. Meine\nnächste Adresse ist Mailand, Hotel Excelsior Gallia\nvon 12. bis 14. (also nicht 10.-12., wie ich Ih-\nnen vor einigen Tagen schreiben liess).\n\nMit den besten Grüssen\n\nStefan Zweig\n\nVerstehen Sie, liebe Frau M., die missver-\nstehen mich nur! Aber wenn ich weiter-\nhin die amelde[?] nur für Sie bezahle, würde\nman glauben, ich sei noch in S. oder kehrte\ndahin zurück. So handelte mir nur um eine\nFormalität - Sie können ja auch unter einem\nRuhegehalt in der Kr. Kasse bleiben falls der\nBeitrag nur bezahlt wird und den erstatte ich\n\n[am linken Rand, vertikal geschrieben:]\nIhnen selbstverständlich gern zurück!",
+      "notes": "Typoskript mit handschriftlichem Nachtrag von Stefan Zweig in violetter Tinte. Das Wort 'amelde' ist schwer lesbar, möglicherweise 'Anmeldegebühr' oder 'Anmeldung' gemeint."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der zweiten Seite sind typisch für Stefan Zweigs Handschrift und gut entzifferbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1646,
+    "total_words": 264,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

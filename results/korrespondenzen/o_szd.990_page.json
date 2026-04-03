@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.990",
+    "title": "Brief an Sigmund Freud vom 14. September 1939, SZ-LAS/B7.47",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.990/IMG.1",
+      "https://gams.uni-graz.at/o:szd.990/IMG.2",
+      "https://gams.uni-graz.at/o:szd.990/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 14. September 1939, SZ-LAS/B7.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:48.671397+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Bath, Lansdown Lodge\n14. Sept. 1939\n\nMein teurer verehrter Freund und Meister, wann\nwerde ich Sie wiedersehen? Zur Zeit steht es schlimm\naus. Meine Naturalisation stand knapp vor der\nErledigung; da ich aber hochmütig war und nicht\ndrängelte, war sie noch nicht unterschrieben. So bin ich\njetzt „enemy alien“ und darf mich mit 5 Meilen vom\nMarktplatz von Bath entfernen. Sic transit gloria mundi\n— so schwindt die literarische Geltung ein vor einem Poli-\nzierlass und ich verkehre hier dumm und nutzlos, noch\nnicht fähig zu arbeiten weit fern von allen Freunden.\nIch würde lachen über diese Torheit —\nallmählich könnte ich nützlicher sein als sieben Beamte des\nMinisteriums für Propaganda — aber sie nimmt mir die\nFreude, Sie zu sehen und das macht mir traurig. Hoffent-\nlich leiden Sie nur an der Zeit wie wir alle aus {dazu noch}\nkörperlichen Schmerzen. Wir müssen jetzt fest bleiben — es\nwäre sinnlos zu sterben, ohne vorher die Höllenfahrt\ndes Verbrecher gesehen zu haben.\nAll den Ihren innige Grüße, in alter und\nunentwegt treuer Verehrung Ihr\n\nStefan Zweig",
+      "notes": "Handschriftlicher Brief in violetter Tinte. Die Zeile 'dazu noch' wurde über der Zeile 'körperlichen Schmerzen' eingefügt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, durchscheinender Text der Vorderseite erkennbar."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Bath, Lansdown Lodge\n14. Sept. 1939\n\nMein teurer verehrter Freund und Meister, wann\nwerde ich Sie wiedersehen? Zur Zeit steht es schlimm\naus. Meine Naturalisation stand knapp vor der\nErledigung; da ich aber hochmütig war und nicht\ndrängelte, war sie noch nicht unterschrieben. So bin ich\njetzt „enemy alien“ und darf mich mit 5 Meilen vom\nMarktplatz von Bath entfernen. Sic transit gloria mundi\n— so schwindt die literarische Geltung ein vor einem Poli-\nzierlass und ich verkehre hier dumm und nutzlos, noch\nnicht fähig zu arbeiten weit fern von allen Freunden.\nIch würde lachen über diese Torheit —\nallmählich könnte ich nützlicher sein als sieben Beamte des\nMinisteriums für Propaganda — aber sie nimmt mir die\nFreude, Sie zu sehen und das macht mir traurig. Hoffent-\nlich leiden Sie nur an der Zeit wie wir alle aus {dazu noch}\nkörperlichen Schmerzen. Wir müssen jetzt fest bleiben — es\nwäre sinnlos zu sterben, ohne vorher die Höllenfahrt\ndes Verbrecher gesehen zu haben.\nAll den Ihren innige Grüße, in alter und\nunentwegt treuer Verehrung Ihr\n\nStefan Zweig",
+      "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala für Archivierungszwecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Einfügung 'dazu noch' wurde als solche markiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2122,
+    "total_words": 352,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

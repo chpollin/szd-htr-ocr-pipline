@@ -1,0 +1,74 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1186",
+    "title": "Brief an Anna Meingast vom 6. Juli 1931, SZ-SAM/B7.16",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1186/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1186/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1186/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1186/IMG.4"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 6. Juli 1931, SZ-SAM/B7.16\n- Signatur: SZ-SAM/B7.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:18.486420+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "6. Juli 1931\nLiebe Frau Meingast, eben erfahre\nich telefonisch durch meine Frau\nvon dem plötzlichen Verlust, den Sie\nans Wille erlitten haben und sage\nIhnen beiden mein aufrichtigstes und\nherzlichstes Beileid. Selbstverständ-\nlich bitte ich Sie, in Ihren persön-\nlichen Dispositionen – Sie werden\ngewiss jetzt viel Lasten auf sich haben\n– vollständig frei zu sein und sich\ndurchaus nicht verpflichtet zu fühlen,jenen vorgesetzten Termin einzuhalten.\nTeilen Sie bitte alles nach Ihrem\nErmessen und Ihrer Bequemlichkeit",
+      "notes": "Die Handschrift ist flüssig, aber in einigen Buchstaben (z.B. 'n', 'u', 'm') schwer zu unterscheiden. 'ans Wille' könnte auch 'ans Wille' oder 'ans Wille' gelesen werden, der Kontext deutet auf einen Namen oder eine Ortsangabe hin."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite des ersten Blattes."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "ein, hier ist gar nichts dringendes\nzu tun und ich fürchte, Sie werden\njetzt sehr durch die äußeren und\namtlichen Dinge belastet sein, die\nmit verhängnisvoller Weise gleich\neinem solchen menschlichen und per-\nsönlichen Verlust ausklimmen.\nMit den herzlichsten Grüßen\n\nStefan Zweig",
+      "notes": "Das Wort 'ausklimmen' ist schwer lesbar, könnte auch 'anklimmen' oder ähnlich lauten. Die Unterschrift ist deutlich."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite des zweiten Blattes."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist weitgehend klar lesbar, abgesehen von vereinzelten Wörtern, die aufgrund der kursiven Handschrift und der violetten Tinte leicht interpretativ sind.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 797,
+    "total_words": 119,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

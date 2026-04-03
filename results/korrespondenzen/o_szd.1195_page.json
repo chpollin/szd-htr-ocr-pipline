@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1195",
+    "title": "Brief an Anna Meingast vom 8. November 1933, SZ-SAM/B7.25",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1195/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1195/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 8. November 1933, SZ-SAM/B7.25\n- Signatur: SZ-SAM/B7.25\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:19.077264+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11, Portland Place,\nLondon, W.\n\nLondon, den 8. November 1933.\n\nLiebe Frau Meingast !\n\nIch erfahre immer mehr in dieser aergerlichen\nAngelegenheit, die mir der Insel-Verlag eingebrockt\nhat, indem er einen Brief von mir veroeffentlichte\nohne mich anzufragen. Das wird mich zwingen recht\n{und wahrscheinlich das ganze Verhaeltnis zu loesen}\nkraeftige Entschuesse aufzunehmen. Ich habe aber\njetzt schon energisch erwidert und die Angelegenheit\nwird in kurzer Frist (zumindest fuer mich) gaenzlich\nerledigt sein. Wir fuehlen uns hier ausserordentlich\nwohl und immer mehr zu Hause und dadurch, dass ich\ndie ganze Korrespondenz von Ihnen so regelmaessig\nverwaltet weiss, habe ich gar keine Unruhe. Ich lege\nhier eine Karte bei, die Sie vorlaeufig aufheben\nwollen, damit wir dieses in lettischer Sprache er-\nschienene Exemplar, sobald wir den Verlag kennen,\neinmal einfordern und katalogisieren koennen. Ich\nweiss nur nicht recht an wen man sich deshalb wenden\nkann. Zweitens moechte ich Sie bitten, ein Exemplar",
+      "notes": "Die handschriftliche Einfügung über der Zeile wurde gemäß Anweisung in geschweifte Klammern gesetzt."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "der kleinen Ausgabe der Gedichte in der Insel-Buecherei\nan :\n\nHerrn Josef Leftwich,\nJewish Telegraf Agency,\nLondon\nFleet Street 107\nsenden zu wollen.\n\nHoffentlich hoeren Sie von Ihrem Sohn alles Gute\nund Erfreuliche aus Wien und fuehlen sich auch sonst\nwohl.\n\nViele Gruesse\n\nIhres\n\nStefan Zweig\n\nWir bleiben jedenfalls bis zum 20. November",
+      "notes": "Die handschriftliche Unterschrift und der handschriftliche Nachsatz am Ende wurden transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, sowohl die Maschinenschrift als auch die handschriftlichen Ergänzungen von Stefan Zweig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1343,
+    "total_words": 204,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

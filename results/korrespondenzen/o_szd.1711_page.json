@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1711",
+    "title": "Brief an Anna Meingast vom 9. Mai 1936, SZ-SAM/B7.78",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1711/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1711/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 9. Mai 1936, SZ-SAM/B7.78\n- Signatur: SZ-SAM/B7.78\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:57.306000+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "49 Hallam Street\nLondon W.1.                                9.Mai 1936.\n\nLiebe Frau Meingast!\n\n                    Vielen Dank für Ihren lieben\nBrief. Mit der Post ist es nun so, dass durch das\nAusbleiben Deutschlands es ohnehin immer weniger\nwird, und die hauptsächlichen Briefe, die ich schrei-\nbe, sind Kampfbriefe um zurückgehaltene Beträge. Ich\nhabe eben wieder Felix Bloch Erben in solchem Sinne\ngeschrieben und von den Schwierigkeiten, die Reichner\nin Deutschland hat, werden Sie ja inzwischen erfahren\nhaben.\n                    Das Buch kommt erst in acht oder\nvierzehn Tagen, ein Exemplar natürlich für Sie und\nich lasse auch sonst noch einige nach Salzburg diri-\ngieren. Zur Zeit stelle ich die Novellen für eine\nneue Ausgabe zusammen und schreibe eine neue, für\ndie ich dann Ihre Kopierkunst erbitten werde, wenn\nes so weit ist.\n                    Etwa im Juni komme ich nach Oester-\nreich. Das genaue Datum kann ich erst bestimmen, sobald",
+      "notes": "Typoskript auf Briefpapier. Die Seite endet mitten im Satz."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ich weiss, wann Herr Huebsch und ein Mann aus Holly-\nwood eintrifft, den ich hier im Juni erwarte. Und\nich freue mich schon sehr, Sie dann zu sehen.\n\n                    Mit vielen Grüssen\n\n                                        Ihr\n\n                                        Stefan Zweig",
+      "notes": "Typoskript, fortlaufender Text von Seite 1. Die Unterschrift 'Stefan Zweig' ist handschriftlich in violetter Tinte ausgeführt."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls eindeutig lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1239,
+    "total_words": 175,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

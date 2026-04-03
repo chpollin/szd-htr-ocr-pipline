@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.650",
+    "title": "Richard Herz an Stefan Zweig, 1910-10-22, SZ-SAM/AK.79",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.650/IMG.1",
+      "https://gams.uni-graz.at/o:szd.650/IMG.2",
+      "https://gams.uni-graz.at/o:szd.650/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Richard Herz an Stefan Zweig, 1910-10-22, SZ-SAM/AK.79\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.79\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:23.409031+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "BERLIN\nKönigl. Schauspielhaus u. Französ. Dom\n22.10.10.\nRichard\nHerz",
+      "notes": "Vorderseite einer Ansichtskarte. Der Text 'Richard Herz' ist handschriftlich in Tinte über das Bild geschrieben."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "d 22.10.10\n\nLieb geehrter Herr\neinen größeren Auf-\nsatz über Ihre Vor-\nlesungen-Reise die bei\nid Velhagen & Klasing[?]\nMonatsheften gehen.\nHoffentlich befindet\nSie. Mit besten Grüßen\nRichard Herz\nwg. [?] 16\n\nH.\nStefan Zweig\nWien VIII\nKochgasse 8",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlich in Tinte. Briefmarke 'DEUTSCHES REICH' mit Poststempel 'BERLIN 22.10.10'. Die Zeile 'wg. [?] 16' ist schwer lesbar."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "d 22.10.10\n\nLieb geehrter Herr\neinen größeren Auf-\nsatz über Ihre Vor-\nlesungen-Reise die bei\nid Velhagen & Klasing[?]\nMonatsheften gehen.\nHoffentlich befindet\nSie. Mit besten Grüßen\nRichard Herz\nwg. [?] 16\n\nH.\nStefan Zweig\nWien VIII\nKochgasse 8",
+      "notes": "Scan enthält die Rückseite der Postkarte sowie Archiv-Farbskalen. Inhalt identisch mit Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist teilweise flüchtig. Besonders die Zeile 'wg. [?] 16' und die Abkürzung 'id' (möglicherweise 'in' oder 'bei') sind unsicher. 'Velhagen & Klasing' ist eine Vermutung basierend auf dem Kontext des Verlagsnamens.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 558,
+    "total_words": 87,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

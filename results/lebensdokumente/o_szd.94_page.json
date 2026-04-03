@@ -1,0 +1,101 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.94",
+    "title": "Verlags-Vertrag Pantheon Literarische Anstalt A.G.",
+    "language": "de",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.17",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.94/IMG.1",
+      "https://gams.uni-graz.at/o:szd.94/IMG.2",
+      "https://gams.uni-graz.at/o:szd.94/IMG.3"
+    ],
+    "date": "12. Juni 1935.",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "Budapest/Salzburg",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze und violette Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "fremde Hand"
+        ],
+        "dimensions": "30x23 cm"
+      },
+      "notes": "Datum und Unterschrift eigenhändig in violetter Tinte und zwei Unterschriften von fremder Hand, violetter Stempel"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Verlags-Vertrag Pantheon Literarische Anstalt A.G.\n- Signatur: SZ-AAP/L13.17\n- Datum: 12. Juni 1935.\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, fremde Hand\n- Anmerkungen: Datum und Unterschrift eigenhändig in violetter Tinte und zwei Unterschriften von fremder Hand, violetter Stempel"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:05:47.291322+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "V E R L A G S - V E R T R A G.\n\nZwischen Herrn Dr. Stefan Zweig, Salzburg einerseits und\nder Firma Pantheon Literarische Anstalt A.G. in Budapest anderer-\nseits ist heute folgender Vertrag geschlossen worden.\n1. Herrn Dr. Stefan Zweig Salzburg überträgt der Firma Pantheon\nLiterarische Anstalt A.G. das ausschliessliche Recht der Ver-\nöffentlichung seiner nachstehend angeführten kleinen Schriften\nin ungarischer Sprache:\n\"Kleine Chronik\" Erzählungen\n\"Die Augen des ewigen Bruders\"\n\"Unvermutete Bekanntschaft mit einem Handwerk\"\n\"Rahel Rechtet mit Gott\"\n\"Sternstunden der Menschheit\"\n\"Marceline Desbordes-Valmore\" /Biographischer Teil/\n\"Zwang\".\n2. Pantheon Literarische Anstalt A.G. zahlt für obige Rechte ein\neinmaliges Pauschalhonorar von 300. /Dreihundert/ Ö.Schillingen\nfällig beim Erscheinen des Buches, jedoch spätestens bis Ende\nSeptember 1935.\n3. Das Werk muss spätestens bis Ende Mai 1936. erschienen sein,\nanderenfalls fällt das in Punkt 1. genannte Recht ohne Rückzahlung\nirgendwelcher Gelder wieder an den Autor zurück.\n4. Pantheon A.G. verpflichtet sich, dem Autor bei Erscheinen des\nWerkes drei broschierte und zwei gebundene Exemplare als Frei-\nexemplare zur Verfügung zu stellen.",
+      "notes": "Typoskript auf Papier. Sehr gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "5. Die aus diesem Vertrag ergebenden Rechte und Verpflichtungen\ngehen auf die Rechtsnachfolger der Vertragsschliessenden über.\nIhr Einverständnis bekunden durch Ihre Unterschrift:\n\nSalzburg am 12. Juni 1935.              Budapest am 5. Juni 1935.\n\nStefan Zweig                          PANTHEON LITERARISCHE ANSTALT A. G.",
+      "notes": "Typoskript mit handschriftlichen Ergänzungen (Datum '12.' und Unterschrift 'Stefan Zweig' in violetter Tinte). Die Unterschrift der Firma ist ein Stempel."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Im oberen Bereich sind die Unterschriften von Seite 2 durchscheinend sichtbar."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1516,
+    "total_words": 209,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

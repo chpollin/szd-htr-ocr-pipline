@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2266",
+    "title": "Tonfilm, Der",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA194.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2266/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2266/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2266/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2266/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2266/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2266/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2266/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Manuskripte"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Der Tonfilm\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Tonfilm, Der\n- Signatur: SZ-AAP/W-AA194.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Der Tonfilm\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:00.514609+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Tonfilm, Der\n\nDer Tonfilm",
+      "notes": "Das Dokument besteht aus einem Blatt mit zwei handschriftlichen Zeilen in violetter Tinte. Die erste Zeile ist oben links, die zweite mittig platziert."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leeres Blatt/Rückseite."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Der Tonfilm",
+      "notes": "Ausschnitt der zweiten Zeile."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, unbeschrieben."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Tonfilm, Der",
+      "notes": "Ausschnitt der ersten Zeile."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Blattes, unbeschrieben."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Tonfilm, Der\n\nDer Tonfilm",
+      "notes": "Gesamtansicht mit Farbskala und Grauskala."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 73,
+    "total_words": 12,
+    "language_detected": "",
+    "language_match": true
+  }
+}

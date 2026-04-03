@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1695",
+    "title": "Brief an Anna Meingast vom 30. September 1935, SZ-SAM/B7.62",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1695/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1695/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Meingast vom 30. September 1935, SZ-SAM/B7.62\n- Signatur: SZ-SAM/B7.62\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:56.240061+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "11 Portland Place\nLondon W.1.                                30.September 1935.\n\nLiebe Frau Meingast!\n\nIch bestätige nur Ihren Brief. Jener von der\nBayrischen Vereinsbank lag leider nicht bei. Bei den bio-\ngraphischen Anmerkungen für das Buch, die einzukleben sind,\nmöchte ich noch wiederholen, dass sie ganz genau wie die\ngedruckte Vorlage zu machen sind, also zuerst der franzö-\nsische Text und die Beschreibung, dann erst, {deutlich} im Buche im-\nmer in kleinerer Schrift gesetzt, die Erklärung des Inhalts\nals eine Anmerkung.\n\nDie Autographenkataloge, auch englische, bitte\nmir immer nachzusenden, ich schicke sie dann nach einiger\nZeit wieder gemeinsam zurück.\n\nIch habe in Genf noch einiges Material gefun-\nden, das ich noch in das Manuskript einarbeiten muss, aber\nich hoffe doch schon in zwei bis drei Tagen mit dem endgül-\ntigen Text beginnen zu können, umso mehr, als ich hier ta-\ndellose Ruhe habe und mich hier in der Bibliothek überzeuge,\ndass nichts Wesentliches mir mehr fehlt. So wird auch für\nSie in acht oder vierzehn Tagen die Arbeit beginnen. Ich\nlasse nur die Einleitung zunächst weg und beginne beim zwei-",
+      "notes": "Typoskript mit handschriftlicher Einfügung 'deutlich' über der Zeile."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "ten Kapitel, um der Einleitung erst nach Abschluss die\ndefinitive Form zu geben.\n\nMit den besten Grüssen Ihr\n\nStefanZweig\n\n\nWegen Angst schliesse ich\nwahrscheinlich kurz ab",
+      "notes": "Typoskript mit handschriftlicher Unterschrift 'StefanZweig' und handschriftlichem Nachsatz am unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1299,
+    "total_words": 202,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

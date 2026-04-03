@@ -1,0 +1,125 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2517",
+    "title": "Key, Ellen",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA110.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2517/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2517/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2517/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2517/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2517/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2517/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2517/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      },
+      "notes": "Ursprüngliche Aufschrift: \"Ellen Key\""
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Key, Ellen\n- Signatur: SZ-AAP/W-AA110.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Ellen Key\""
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:30.381831+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Key, Ellen\nEllen Keys Rahelbuch\nDrei Frauenschicksale\n\n\n\nEllen Key\n\nRahel Varnhagen\nDrei Frauenschicksale\n\n-\n\nTitel\nEllen Keys Rahelbuch",
+      "notes": "Handschriftliches Dokument. Die Anordnung des Textes entspricht der Vorlage. Es gibt zwei verschiedene Handschriften (eine in violetter Tinte, eine in schwarzer Tinte)."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Ellen Key\n\nRahel Varnhagen\nDrei Frauenschicksale\n\n-\n\nTitel\nEllen Keys Rahelbuch",
+      "notes": "Handschriftliches Dokument (Ausschnitt/Detailansicht)."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Key, Ellen\nEllen Keys Rahelbuch\nDrei Frauenschicksale",
+      "notes": "Handschriftliches Dokument (Ausschnitt/Detailansicht)."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 7,
+      "type": "content",
+      "text": "Key, Ellen\nEllen Keys Rahelbuch\nDrei Frauenschicksale\n\n\n\nEllen Key\n\nRahel Varnhagen\nDrei Frauenschicksale\n\n-\n\nTitel\nEllen Keys Rahelbuch",
+      "notes": "Gesamtansicht des Dokuments mit Archiv-Farbskalen."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 404,
+    "total_words": 54,
+    "language_detected": "",
+    "language_match": true
+  }
+}

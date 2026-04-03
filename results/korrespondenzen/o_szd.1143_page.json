@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1143",
+    "title": "Lotte Altmann an Anna Meingast, SZ-SAM/B10.3",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1143/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1143/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Lotte Altmann an Anna Meingast, SZ-SAM/B10.3\n- Signatur: SZ-SAM/B10.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:15.680209+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "London, den 28. Februar 1937.\n\nLiebe Frau Meingast!\n\nIch schicke Ihnen anbei den Bericht für\ndie Monate Dezember, Januar und Februar, sowie die\nBeschreibung des portugiesischen \"Castellio\".\nDürfte ich Sie noch bitten, ob Sie die\nfolgenden Verträge: Mondadori \"Maria Stuart\" ital. 1935\n                               de Lange \"Maria Stuart\" holl. 1935\n                               ausserd{em} Schölanog[?] \nnoch in Salzburg haben oder ob Sie mir aus Ihrer\nKorrespondenz die ungefähren Vertragsbedingungen\nmitteilen könnten. Ich habe dafür gar keinen An-\nhaltspunkt. Ferner lässt Sie Herr Dr. Zweig bitten,\ndie Vertragsabschriften von Alzir Hella hierher zu\nsenden. Und sollten Sie in Salzburg noch leere\nBlätter für das Hauptbuch haben, so wäre ich Ihnen\nsehr dankbar, wenn Sie mir etwa ein Dutzend oder\nmehr senden würden. Was ich hier habe, reicht schon\njetzt nicht mehr aus.\n\nMit bestem Dank im voraus und vielen Grüssen\n\nIhre\nLotte Altmann",
+      "notes": "Die handschriftliche Notiz am rechten Rand wurde in die Transkription integriert. 'Schölanog' ist schwer lesbar und könnte ein Eigenname oder eine Abkürzung sein. Die Zeilenumbrüche wurden beibehalten."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "A",
+      "notes": "Rückseite des Briefes, enthält lediglich ein handschriftliches 'A' in der oberen linken Ecke."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftlichen Ergänzungen am Rand sind teilweise unklar, wurden aber nach bestem Wissen transkribiert.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 945,
+    "total_words": 138,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

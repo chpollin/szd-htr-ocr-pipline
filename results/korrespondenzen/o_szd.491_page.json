@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.491",
+    "title": " Unidentified an Stefan Zweig, 1933-01-21, SZ-SAM/AK.202",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.491/IMG.1",
+      "https://gams.uni-graz.at/o:szd.491/IMG.2",
+      "https://gams.uni-graz.at/o:szd.491/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1933-01-21, SZ-SAM/AK.202\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.202\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.052251+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "SNAKE TEMPLE SUNGEI KLUANG PENANG.",
+      "notes": "Vorderseite einer Ansichtskarte mit Schwarz-Weiß-Fotografie des Schlangentempels. Am unteren Rand gedruckter Text."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Dr. Stefan Zweig\nSalzburg\nKapuzinerberg 5\n\n29. Jänner. Gestern\nBelawan, heute Penang\nmorgen Port Swettenham\nübermorgen Singapur.\nWas für ein unbeschreib-\nliches Land! Was für ein\nGeruch! Ich bin völlig\nberauscht. Heute auf\ndem Peak of Penang.\nGrüße Euch innigst.\n\n[Seitlich am linken Rand, um 90 Grad gedreht:]\nHerzliche Grüße auch an\nmeine liebe Frau!",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violett/blauer Tinte. Briefmarke 'Straits Settlements' oben links, Poststempel 'PENANG'. Die Zeilen im Adressfeld sind teilweise durch die Handschrift überlagert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala und Grauskala für Archivierung. Die Ansichtskarte ist in der Mitte platziert, entspricht Seite 2."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, trotz der teilweise überlagerten Schrift im Adressbereich der Postkarte.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 386,
+    "total_words": 60,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

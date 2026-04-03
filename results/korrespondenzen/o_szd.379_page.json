@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.379",
+    "title": "Maria Korten an Stefan Zweig, 1932-07-18, SZ-SAM/AK.100",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.379/IMG.1",
+      "https://gams.uni-graz.at/o:szd.379/IMG.2",
+      "https://gams.uni-graz.at/o:szd.379/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Maria Korten an Stefan Zweig, 1932-07-18, SZ-SAM/AK.100\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.100\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.498703+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Sie ist ja froh... - [?] ... Korten\nMaria Korten\n\nImst Gesamtansicht",
+      "notes": "Vorderseite einer Ansichtskarte. Handschriftliche Notizen am oberen Rand, gedruckter Text unten rechts."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herren\nDr. Stefan Zweig\nSalzburg\nKapuzinerberg\n5\n\nLieber H. Zweig - ein be-\nwusster herzliches Gedenken\naus den Ferien! [?] am Beren-\nberg ist es besonders\nviel [?] kaufes [?] Thermen\nwie Ihnen gesprochen habe?\nNun waren Sie lieber le-ben\ndoch wie in Albona! Herz\n[?] [?] [?]",
+      "notes": "Rückseite der Ansichtskarte. Handschriftliche Adresse und Nachricht. Poststempel 'IMST 18.VII.32'. Die Handschrift ist sehr flüchtig und teilweise schwer zu entziffern."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Grauskala und Farbkarte für Archivierung. Das Dokument selbst ist identisch mit Seite 2."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift ist sehr kursiv und flüchtig, was die Lesbarkeit einzelner Wörter (insbesondere im Nachrichtenteil auf der Rückseite) stark einschränkt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 343,
+    "total_words": 60,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

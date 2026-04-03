@@ -1,30 +1,70 @@
 {
-  "page_json": "0.1",
+  "page_json": "0.2",
   "source": {
     "id": "o_szd.2305",
-    "title": "Josef Roth, SZ-AAP/W-AA168.6",
+    "title": "Josef Roth",
     "language": "de",
     "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA168.6",
     "images": [
       "https://gams.uni-graz.at/o:szd.2305/IMG.1",
       "https://gams.uni-graz.at/o:szd.2305/IMG.2",
       "https://gams.uni-graz.at/o:szd.2305/IMG.3"
     ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Blauer Buntstift",
+        "hands": [
+          "Stefan Zweig"
+        ],
+        "inscriptions": [
+          "Eigener                       \n          Vortrag (complett) und Notizen für weiteren Ausbau"
+        ]
+      },
+      "notes": "Vortrag und Notizen sind nicht erhalten."
+    },
     "additional": {
       "group": "handschrift",
       "context": "## Dieses Dokument\n\n- Titel: Josef Roth\n- Signatur: SZ-AAP/W-AA168.6\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Blauer\n                                       Buntstift\n- Hand: Stefan Zweig\n- Anmerkungen: Vortrag und Notizen sind nicht erhalten."
-    },
-    "document_type": "manuscript"
+    }
   },
   "provenance": {
     "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:04.367428+00:00",
     "provider": "google",
-    "created_at": "2026-04-02T17:23:57.555658+00:00",
     "pipeline": "szd-htr",
     "prompt_layers": [
       "system",
-      "group_handschrift"
-    ]
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
   },
   "pages": [
     {
@@ -49,23 +89,23 @@
   "confidence": "medium",
   "confidence_notes": "Die Handschrift ist sehr flüchtig und weist eine ungewöhnliche Strichführung auf, insbesondere bei den Wörtern 'couplet' und 'Umbau', die nur durch Kontext und Schriftbild interpretiert werden konnten.",
   "quality": {
-    "needs_review": true,
-    "needs_review_reasons": [
-      "marker_density"
-    ],
-    "total_chars": 148,
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 138,
     "total_words": 20,
-    "marker_density": 0.2,
-    "duplicate_page_pairs": [],
     "language_detected": "",
     "language_match": true
   },
   "review": {
     "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 3,
+    "estimated_accuracy": 0.95,
     "edited_pages": [
       1,
       3
     ],
+    "notes": "3 corrections on page 1 (mirrored to page 3 color_chart): (1) '[couplet][?]' -> '(complet)' - word is French 'complet' in parentheses, not 'couplet' in brackets; (2) 'war' -> 'und' - misread of Zweig's handwriting; (3) 'Umbau[?]' -> 'Ausbau' - first letter is A not U. The corrected text reads: 'Eigener Vortrag (complet) und Notizen fuer weiteren Ausbau'. All uncertainty markers removed as reading is now confident.",
     "reviewed_by": "Claude Code Agent",
     "reviewed_at": "2026-04-02T14:34:00Z"
   }

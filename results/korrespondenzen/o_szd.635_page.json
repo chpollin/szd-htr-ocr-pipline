@@ -1,0 +1,69 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.635",
+    "title": "Paul Frankl an Stefan Zweig, 1905-07-25, SZ-SAM/AK.65",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.635/IMG.1",
+      "https://gams.uni-graz.at/o:szd.635/IMG.2",
+      "https://gams.uni-graz.at/o:szd.635/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Paul Frankl an Stefan Zweig, 1905-07-25, SZ-SAM/AK.65\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.65\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:22.580887+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Chillon — Chambre de la Torture en 1255\nLieber Stefan, nach der Besichtigung\ndieses interessanten Schlosses sende ich\nDir viele Grüße Dein ganz entzückter\n25/VII. 05 Paul\nMarmillod Montreux. No. 2",
+      "notes": "Vorderseite einer Ansichtskarte mit handschriftlichem Text von Paul Frankl an Stefan Zweig. Die Tinte ist dunkel, gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Herrn\nHerrn Stefan Zweig\nMarienbad\nVilla Siegfried [durchgestrichen: ...] 17\nÖsterreich",
+      "notes": "Adressseite der Ansichtskarte. Enthält Poststempel (Veytaux 25.VII.05, Marienbad 28.VII.05, Wien 29.VII.05) und Briefmarken. Der Text 'Ms. Paul Frankl, München, poste restante' ist vermutlich eine spätere Notiz oder ein Vermerk des Empfängers/Archivs."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Herrn\nHerrn Stefan Zweig\nMarienbad\nVilla Siegfried [durchgestrichen: ...] 17\nÖsterreich",
+      "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskalen am oberen und unteren Rand."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist klar lesbar. Die durchgestrichene Stelle in der Adresszeile ist unleserlich, da sie mit mehreren Strichen überschrieben wurde.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 370,
+    "total_words": 53,
+    "language_detected": "fr",
+    "language_match": false
+  }
+}

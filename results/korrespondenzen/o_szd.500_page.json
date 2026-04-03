@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.500",
+    "title": " Unidentified an Stefan Zweig, 1928-04-16, SZ-SAM/AK.210",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.500/IMG.1",
+      "https://gams.uni-graz.at/o:szd.500/IMG.2",
+      "https://gams.uni-graz.at/o:szd.500/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel:  Unidentified an Stefan Zweig, 1928-04-16, SZ-SAM/AK.210\n- Signatur: Literaturarchiv Salzburg, SZ-SAM/AK.210\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:13.490582+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Der Kaffee muß hier köstlich se’n,\nDenn er wird dargebracht\nVom hübschen Mädchen, nett und fein,\nIn Schweizer-Tracht.",
+      "notes": "Vorderseite einer Ansichtskarte. Gedruckter Text unterhalb der Abbildung."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Monsieur\nDr. Stephen Zweig\nSalzburg\nKapuzinerberg 4\n\nDepuis quelques jours\nà Karlsbad avec un temps\naffreux – J’espère rece-\nvoir de vos bonnes nou-\nvelles à Vienne et rece-\nvez mes cordiales\n16.4.28. salutations",
+      "notes": "Rückseite der Ansichtskarte. Handschriftlicher Text in violetter Tinte. Briefmarke und Poststempel vorhanden. Gedruckte Verlagsangaben und Hotelwerbung am Rand."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der handschriftliche Text ist gut lesbar, trotz der teilweise überlagerten Stempel und der gedruckten Werbetexte am Rand.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 329,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

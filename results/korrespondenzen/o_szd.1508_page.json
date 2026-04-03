@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1508",
+    "title": "Brief an Stefan Zweig vom 11. April 1925, SZ-AAP/B2.52",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1508/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1508/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1508/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 11. April 1925, SZ-AAP/B2.52\n- Signatur: SZ-AAP/B2.52\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:38.053481+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Charlottenburg, den 11.4.25\nBerlinerstrasse 147\n\nLieber Herr Zweig !\n\nVon Rütten & Loening hatte ich einen sehr freundlichen Brief\nmit einem, vorläufig allerdings noch unbestimmt gehaltenen Verlags-\ngebot. Ich bin nun recht in der Enge, denn mit Axel Juncker habe ich\neinen Vorvertrag über ein Novellenbuch und mit der Deutschen Verlags-\nAnstalt bin ich mir über den \"Heuschober\" einig geworden. Rütten und\nLöning wären mir aber als Verlag ganz ausserordentlich sympathisch.\nNun muss ich sehen wie ich da herauskomme. Ich habe ja ein recht umfang-\nreiches Programm für dieses Jahr, etwa 10 Novellen grösseren Formates,\ndie zum Teil schon ausgearbeitet sind. Einzelstücke, wie der \"Heuschober\"\noder die chinesische Novelle sind dabei nicht eingerechnet. Soll man sich\naber damit auf zwei Verlage verteilen ? Ist es überhaupt gut, gleich mit\neinem solchen Sturz von Produktion zu erscheinen ? Vielleicht bringt\nRütten & Loening die \"Vergewaltigung\" zunächst als Einzelband, wie er\ndas mit Stücken von Binding gemacht hat.\n\nDas sind aber schliesslich alles äussere Fragen. Die Hauptsache\nist ja doch, dass es mit der Arbeit selbst weiter geht. Beiliegend sende\nich Ihnen eine kleine Aufstellung über das, was ich vorhabe. Es sind zum\ngrössten Teil Themen, an denen ich schon seit einigen Jahren herumgreife;\nich glaube, dass ich sie jetzt zu packen bekomme. Wenn sie nicht schon\nziemlich ausgearbeitet und durchgedacht wären, würde ich damit auch nicht\nandere Leute angehen. So aber, {meine} denke ich, ist es unbedenklich auch in\nVerhandlungen davon zu sprechen. Das Ganze ist gedacht als Vorbereitung\ndes grossen Romans, soll aber in seiner Sphäre auch schon eine Art Zeit-\nund Weltbild geben.\n\nEs wird Sie übrigens wohl interessieren, dass mir auch Thomas",
+      "notes": "Typoskript mit handschriftlicher Korrektur in Zeile 21."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Mann sehr zustimmend über eine der Novellen, die ich ihm geschickt hatte,\ngeschrieben hat. Er scheint sogar, soweit ihm das nach seinem Tempera-\nment möglich ist, begeistert zu sein : \"Das ist schöne, gesunde und\nechte Arbeit \", ruft er aus, und versichert mir, dass er sich entschieden\n\"auf die Seite derer schlage, die mein Auftreten freudig begrüssen \". Das\ntut einem doch gut, so etwas zu hören.\n\nIhnen wieder den herzlichsten Dank für Ihre Fürsorge und die\nbesten Grüsse für die Feiertage",
+      "notes": "Typoskript, Fortsetzung des Briefes."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Mann sehr zustimmend über eine der Novellen, die ich ihm geschickt hatte,\ngeschrieben hat. Er scheint sogar, soweit ihm das nach seinem Tempera-\nment möglich ist, begeistert zu sein : \"Das ist schöne, gesunde und\nechte Arbeit \", ruft er aus, und versichert mir, dass er sich entschieden\n\"auf die Seite derer schlage, die mein Auftreten freudig begrüssen \". Das\ntut einem doch gut, so etwas zu hören.\n\nIhnen wieder den herzlichsten Dank für Ihre Fürsorge und die\nbesten Grüsse für die Feiertage",
+      "notes": "Typoskript, identisch mit Seite 2, jedoch mit aufgelegter Grauskala/Farbkarte zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Einfügung auf Seite 1 ist eindeutig.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2741,
+    "total_words": 440,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

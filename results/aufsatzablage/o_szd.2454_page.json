@@ -1,0 +1,127 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2454",
+    "title": "Macht und Moral, Etwas über",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA131.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2454/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.6",
+      "SZ_AAP_W_AA131.0_007.jpg"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin, Zweig, Lotte Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Lotte Zweig"
+        ],
+        "inscriptions": [
+          "(\"Eine kleine Anmerkung zu ... \"Das Lamm des\n                                 Armen\")"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Macht und Moral, Etwas über\n- Signatur: SZ-AAP/W-AA131.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:06:22.445613+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Macht und Moral, Etwas über\n(Eine kleine Anmerkung zu ... „Das Lamm des Armen”)\n\n\nEtwas über Macht und Moral",
+      "notes": "Handschrift in violetter Tinte auf beigem Papier. Es handelt sich um eine Notiz oder einen Entwurfstitel."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Etwas über Macht und Moral",
+      "notes": "Ausschnitt des unteren Teils von Seite 1."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Macht und Moral, Etwas über\n(Eine kleine Anmerkung zu ... „Das Lamm des Armen”)",
+      "notes": "Ausschnitt des oberen Teils von Seite 1."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Macht und Moral, Etwas über\n(Eine kleine Anmerkung zu ... „Das Lamm des Armen”)",
+      "notes": "Ausschnitt des oberen Teils von Seite 1, leicht anderer Winkel."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer. Am unteren Rand befinden sich digitale Artefakte/Störungen (Farbbalken)."
+    },
+    {
+      "page": 7,
+      "type": "blank",
+      "text": "",
+      "notes": "Leerseite (automatisch ergaenzt)."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist kurz, deutlich geschrieben und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 292,
+    "total_words": 52,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1874",
+    "title": "Brief an das International Copyright Bureau vom 9. Dezember 1938, SZ-AAP/B3.3",
+    "language": "en",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1874/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1874/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1874/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an das International Copyright Bureau vom 9. Dezember 1938, SZ-AAP/B3.3\n- Signatur: SZ-AAP/B3.3\n- Sprache: Englisch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:05.251794+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "C O P Y\n\n49, Hallam Street,\nLondon, W.1.\n\n9th December, 1938.\n\nThe International Copyright Bureau, Ltd.,\nDewar House,\nHaymarket,\nLondon, S.W.1.\n\nDear Sirs,\n\nIn the event of Messrs. Felix Bloch Erben\nsueing you for damages or payment of monies which they may\nclaim on account of your paying to me monies received from\nthe Theatre Guild, New York, I hereby undertake to keep you\nindemnified by repayment of any such monies paid to me.\n\nYours sincerely,\n\n(signed): STEFAN ZWEIG",
+      "notes": "Typoskript. Oben rechts handschriftliche Nummerierung '15' in roter Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "C O P Y\n\n49, Hallam Street,\nLondon, W.1.\n\n9th December, 1938.\n\nThe International Copyright Bureau, Ltd.,\nDewar House,\nHaymarket,\nLondon, S.W.1.\n\n(signed): STEFAN ZWEIG",
+      "notes": "Das Dokument enthält eine Farb- und Grauskala zur Archivierung. Der Text ist eine teilweise verdeckte Kopie des Typoskripts von Seite 1."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 641,
+    "total_words": 105,
+    "language_detected": "en",
+    "language_match": true
+  }
+}

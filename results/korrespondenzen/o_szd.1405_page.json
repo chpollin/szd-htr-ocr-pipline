@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1405",
+    "title": "Brief an Stefan Zweig vom 22. Juli 1939, SZ-LAS/B2.7",
+    "language": "fr",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1405/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1405/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 22. Juli 1939, SZ-LAS/B2.7\n- Signatur: SZ-LAS/B2.7\n- Sprache: Französisch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:31.731040+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "                                                                    52\n\nSaint-Avertin, le 22 Juillet 1939\n\n\nMonsieur Stefan ZWEIG\n---------------------\n\n\nMon cher Ami,\n\nJ'ai bien reçu votre lettre du 14, accompagnée du texte\nde vos communications à l'International Copyright Bureau, qui\nsont parfaites.\n\nD'un autre côté, Alfred Bloch, de la Société des Auteurs,\nà qui j'ai parlé de cette affaire, m'offre, étant données ses\nbonnes relations avec Felix Bloch Erben, à lui demander la\ncopie du contrat qu'il a passé avec le Theatre Guild. Comme cela,\nnous pourrions connaître la situation exacte.\n\nDe toute façon, l'affaire ne me semble pas bien grave.\n\nRecevez nos pensées les plus affectueuses.\n\n                                     Jules Romains",
+      "notes": "Die Unterschrift 'Jules Romains' ist handschriftlich, der Rest des Dokuments ist maschinengeschrieben. Die Zahl '52' oben rechts ist handschriftlich in roter Tinte vermerkt."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Die Rückseite ist leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist maschinengeschrieben und sehr gut lesbar. Die handschriftliche Unterschrift ist eindeutig als 'Jules Romains' identifizierbar.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 746,
+    "total_words": 100,
+    "language_detected": "fr",
+    "language_match": true
+  }
+}

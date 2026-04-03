@@ -1,0 +1,62 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.769",
+    "title": "Brief an Stefan Zweig vom 12. Januar 1938, SZ-AAP/B1.173",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.769/IMG.1",
+      "https://gams.uni-graz.at/o:szd.769/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 12. Januar 1938, SZ-AAP/B1.173\n- Signatur: SZ-AAP/B1.173\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:30.211527+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Dr. ALFRED KAUFFMANN,                                TELEPHONE: METROPOLITAN 5772.\nRECHTSANWALT.\nCOUNSEL AND ATTORNEY\nAT THE HAMBURG BAR                                    16, COLEMAN STREET,\n\nCORRESPONDENTS:                                       LONDON, E.C.2.\nDRES. KERSTEN, SCHERZBERG, BUCH,\nHAMBURG, ALTERWALL 32.\n\n                                                      12th January, 1938\n\nDear Mr. Zweig,\n\n          I confirm receipt of your letter of the 11th\ninstant, including a sealed envelope containing a photostatic\ncopy of your Will and some other documents. This I will\nretain for you according to your instructions.\n\n          Further, I thank you for your cheque for\n£38. 6. 0 and beg to return the two accounts receipted.\n\n          I hope you will have a pleasant trip and will\nenjoy a restful time on the sunny southern shores.\n\n          With kind regards also from Miss Melchior who\nis unfortunately at the moment at home suffering from a bad\ncold,\n\n                                        Yours sincerely,\n                                        A. K\n\n\n\n49 Hallam Street,\nW. 1.\n\nP.S.                    May I apologise for writing in English, but my\nGerman secretary happens not to be available.",
+      "notes": "Typoskript auf Briefpapier mit Briefkopf. Die Unterschrift ist handschriftlich (A. K). Der Text ist gut lesbar."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite des Dokuments, leer."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist kurz, aber eindeutig als 'A. K' identifizierbar.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ],
+    "total_chars": 1216,
+    "total_words": 152,
+    "language_detected": "en",
+    "language_match": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.767",
+    "title": "Brief an Herbert Reichner vom 10. Januar 1938, SZ-AAP/B1.171",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.767/IMG.1",
+      "https://gams.uni-graz.at/o:szd.767/IMG.2"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 10. Januar 1938, SZ-AAP/B1.171\n- Signatur: SZ-AAP/B1.171\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:08:30.050275+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "10.Januar 1938.\n\nGeehrter Herr Reichner!\n\nVon sogenannter \"befreundeter\"\nSeite erhalte ich mit einigen persönlichen Beschimpfun-\ngen den Ausschnitt vom \"Christlichen Ständestaat\" zuge-\nschickt und muss nur hoffen, dass sieh die Sache nicht\nwirklich so verhält, wie es dargestellt ist. Sie hätten\nes sich damit wegen paar hundert Schillingen mit beiden\nSeiten verdorben, mit der ehrenwerten Reichskulturkammer\neinerseits, anderseits mit allen jenen Kreisen und Blät-\ntern, welche die Aberklärung unseres Rechts, in deutscher\nSprache zu schreiben und zu erscheinen, als eine freche\nUeberhebung betrachten. Sollte ich irgendwie eingemengt\nwerden, so muss ich selbstverständlich die Wahrheit sa-\ngen, dass ich auch nicht die leiseste Ahnung von dieser\nDoppelausgabe hatte und nur die eine mit den Gedichten\nHeines erhalten und eingesehen habe. Ausserdem werde\nich vielleicht auch sonst genötigt sein, den Grenzstrich\ngegen Nazideutschland schärfer zu ziehen, um nicht da einer\nzweideutigen Haltung bezichtigt zu werden.\nNun, ich hoffe ja noch immer, dass\nsich die Sache nicht so verhalten hat. Man ist ja gewohnt,",
+      "notes": "Typoskript auf Briefpapier. Die Lochungen am linken Rand sind vorhanden. Der Text bricht am Ende der Seite ab."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "in den Zeitungen heutzutage die gröbsten Unrichtigkei-\nten zu finden.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+      "notes": "Typoskript, Fortsetzung der Seite 1. Der Text ist durchscheinend von der Rückseite (bzw. Vorderseite) leicht sichtbar, wurde aber gemäß Anweisung nicht transkribiert."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Ein kleiner Tippfehler im Original (\"sieh\" statt \"sich\") wurde originalgetreu übernommen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1226,
+    "total_words": 178,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

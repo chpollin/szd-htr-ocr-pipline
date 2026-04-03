@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1170",
+    "title": "Erich Bellonk an Anna Meingast, SZ-SAM/B13",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1170/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1170/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1170/IMG.3"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Erich Bellonk an Anna Meingast, SZ-SAM/B13\n- Signatur: SZ-SAM/B13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T16:07:17.460693+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Kloster Maulbronn. Höllentreppe 23/I 27",
+      "notes": "Vorderseite der Postkarte mit Bildunterschrift und Datumsangabe."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Salzburg\nKapuzinerberg 5.\n\nVerehrte Frau Meingast, - Inmitten\neines Ausflug[?] hierher viele\nGrüsse und auf Wiedersehn\nIhr ergebener\nErich Bellonk\n\nAdresse: vorläufig\nganz ungewiss!\n23./I. 27.",
+      "notes": "Rückseite der Postkarte. Der Text ist in Kurrentschrift verfasst. Die Adresse 'Salzburg Kapuzinerberg 5' ist in einer anderen Handschrift (vermutlich Empfängerin) notiert."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Salzburg\nKapuzinerberg 5.\n\nVerehrte Frau Meingast, - Inmitten\neines Ausflug[?] hierher viele\nGrüsse und auf Wiedersehn\nIhr ergebener\nErich Bellonk\n\nAdresse: vorläufig\nganz ungewiss!\n23./I. 27.",
+      "notes": "Identisch mit Seite 2, zeigt zusätzlich die Farbskala des Archivs."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist gut lesbar, die Kurrentschrift ist eindeutig. Das Wort 'Ausflug' ist aufgrund des Kontextes und der Buchstabenformen sicher lesbar, trotz der etwas flüchtigen Schreibweise.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 423,
+    "total_words": 57,
+    "language_detected": "",
+    "language_match": true
+  }
+}
