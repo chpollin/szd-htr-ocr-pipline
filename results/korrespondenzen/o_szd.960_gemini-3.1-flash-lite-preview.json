@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.960",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom [Mai 1924], SZ-LAS/B7.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.960/IMG.1",
+      "https://gams.uni-graz.at/o:szd.960/IMG.2",
+      "https://gams.uni-graz.at/o:szd.960/IMG.3",
+      "https://gams.uni-graz.at/o:szd.960/IMG.4",
+      "https://gams.uni-graz.at/o:szd.960/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom [Mai 1924], SZ-LAS/B7.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "zur Zeit Wien IX. Garnisongasse 10\nMai 24\n\n(Hochverehrter Herr Professor,\nRomain\nRolland, der für einige wenige Tage in\nWien ist, ~~ersuchte~~ ersuchte mich, Ihnen seinen\nWunsch zu übermitteln, ob er Ihnen einen\nBesuch abstatten dürfe und zu welcher Zeit\ner Ihnen willkommen wäre. Ich mache es\nmir zur Ehre, diese seine Bitte an Sie, ver-\nehrter Herr Professor, weiterzugeben: hoffent-\nlich steht nichts hindernd seinem innigen\nWunsche, Sie persönlich kennen lernen zu dür-\nfen, entgegen\nDarf ich eine Antwort entweder an\nIhn selbst (Linke Wienzeile 4 bei Rieger)x\noder an mich (Garnisongasse 10) erbitten?\nTelefonisch bin ich nur morgens zwischen\n\nx bitte seine Adresse sonst nicht zu verlautbaren, R.\nR. ist leider körperlich sehr schwach und will nieman-\nden sehen außer die Besten",
+        "notes": "Handschriftlicher Brief auf kariertem Papier. Die Tinte ist dunkelblau/violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "1/2 9 und 1/2 10 zu erreichen, weil ich ihn sonst\nbegleite (W 16 3 27.)\nWie gerne nütze ich die Gelegenheit,\nIhnen, {heute} verehrter Herr Professor, meine liebe-\nvolle Anhänglichkeit und immer wieder er-\nneute Ehrfurcht aussprechen zu können!\nIhr aufrichtig ergebener\n\nStefan Zweig",
+        "notes": "Handschriftlicher Text auf kariertem Papier. Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "zur Zeit Wien IX. Garnisongasse 10\nMai 24\n\n(Hochverehrter Herr Professor,\nRomain\nRolland, der für einige wenige Tage in\nWien ist, ~~ersuchte~~ ersuchte mich, Ihnen seinen\nWunsch zu übermitteln, ob er Ihnen einen\nBesuch abstatten dürfe und zu welcher Zeit\ner Ihnen willkommen wäre. Ich mache es\nmir zur Ehre, diese seine Bitte an Sie, ver-\nehrter Herr Professor, weiterzugeben: hoffent-\nlich steht nichts hindernd seinem innigen\nWunsche, Sie persönlich kennen lernen zu dür-\nfen, entgegen\nDarf ich eine Antwort entweder an\nIhn selbst (Linke Wienzeile 4 bei Rieger)x\noder an mich (Garnisongasse 10) erbitten?\nTelefonisch bin ich nur morgens zwischen\n\nx bitte seine Adresse sonst nicht zu verlautbaren, R.\nR. ist leider körperlich sehr schwach und will nieman-\nden sehen außer die Besten",
+        "notes": "Scan mit Farbskala. Identisch mit Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist kaum Unklarheiten auf. Die Korrekturen (durchgestrichene Wörter, Einfügungen) sind eindeutig erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1850,
+    "total_words": 293,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      784,
+      0,
+      282,
+      0,
+      784
+    ],
+    "chars_per_page_median": 533.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.968",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Sigmund Freud vom 25. Mai 1936, SZ-LAS/B7.27",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.968/IMG.1",
+      "https://gams.uni-graz.at/o:szd.968/IMG.2",
+      "https://gams.uni-graz.at/o:szd.968/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Sigmund Freud vom 25. Mai 1936, SZ-LAS/B7.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "POST CARD.\nTHE ADDRESS TO BE WRITTEN ON THIS SIDE\n\nProf. D. Sigmund Freud\nXIX., STRASSERGASSE 47,\nWien IX (Austria)\nBerggasse 20",
+        "notes": "Adressseite einer Postkarte. Handschriftliche Anschrift in violetter Tinte. Poststempel 'WIEN 66' und '25.V.36'. Briefmarke '1 1/2' Penny (Großbritannien).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nVerehrter Herr Professor, diese Karte soll nur\nbescheidener Dank sein für Ihren gütigen Brief\nund eine Entschuldigung, dass mein neues Buch\nIhnen direct vom Verleger zugeht - Wien nach\nWien ist einfacher als Wien - London - Wien und\nmeine Widmung für Sie ist ja innerlich einge-\nschrieben. Ihr getreuer\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Gedruckter Briefkopf, handschriftlicher Text in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 2.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 491,
+    "total_words": 82,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      128,
+      363,
+      0
+    ],
+    "chars_per_page_median": 245.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

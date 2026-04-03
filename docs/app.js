@@ -1360,7 +1360,7 @@ function updateEditButtons() {
         <span class="viewer__edit-status-text">
           <strong>${objCount} ${pageLabel}</strong> bearbeitet an diesem Objekt${totalCount > objCount ? ` (${totalCount} gesamt)` : ''}
         </span>
-        <span class="viewer__edit-status-storage">localStorage · bleibt im Browser</span>`;
+        <span class="viewer__edit-status-storage">${state.isLocal ? 'JSON · results/' : 'localStorage · bleibt im Browser'}</span>`;
       statusBar.style.display = '';
     } else {
       statusBar.style.display = 'none';
@@ -1403,6 +1403,15 @@ function updateEditButtons() {
     approveBtn.dataset.tooltip = approved
       ? 'Klick um Approval zu entfernen'
       : 'Objekt als korrekt transkribiert markieren';
+  }
+
+  // GT Verify button: show when local
+  const gtVerifyBtn = document.getElementById('gtVerifyBtn');
+  if (gtVerifyBtn) {
+    gtVerifyBtn.style.display = state.isLocal ? '' : 'none';
+    const gtv = state.currentObjectId && state.approvals.get(state.currentObjectId)?.gt_verified;
+    gtVerifyBtn.classList.toggle('approved', !!gtv);
+    gtVerifyBtn.innerHTML = gtv ? '&#9733; GT Verified' : '&#9733; GT Verify';
   }
 }
 
@@ -1952,6 +1961,59 @@ function toggleObjectApproval(objectId) {
       }).catch(() => {});
     }
   }
+}
+
+function gtVerifyObject(objectId) {
+  const obj = getViewerObject(objectId);
+  if (!obj) return;
+  const pages = obj.pages || [];
+  const contentPages = pages.filter(p => p.type === 'content');
+  if (!confirm(`GT Verify: ${contentPages.length} Content-Seiten als Ground Truth verifizieren?\n\nDas setzt den hoechsten Review-Status (gt_verified).\nNur verwenden, wenn ALLE Seiten zeichengenau gegen das Faksimile geprueft wurden.`)) return;
+
+  // Collect any pending edits
+  const editedPages = [];
+  pages.forEach((page, i) => {
+    const key = editKey(objectId, i);
+    const edited = state.editedTranscriptions.get(key);
+    if (edited) {
+      editedPages.push({ page: i + 1, transcription: edited.transcription, notes: edited.notes });
+    }
+  });
+
+  const oid = obj.pid?.replace('o:', 'o_') || objectId.split('_gemini')[0];
+
+  if (editedPages.length > 0) {
+    // Save edits first, then set gt_verified
+    fetch('/api/edit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ object_id: oid, collection: obj.collection, status: 'gt_verified', pages: editedPages }),
+    }).then(r => r.json()).then(d => {
+      if (d.ok) showToast(`GT Verified: ${oid} (${editedPages.length} Seiten editiert)`);
+      else showToast('Fehler: ' + (d.error || 'unbekannt'));
+    }).catch(() => showToast('Server-Fehler'));
+  } else {
+    // No edits — just approve as gt_verified
+    fetch('/api/approve', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ object_id: oid, collection: obj.collection, status: 'gt_verified' }),
+    }).then(r => r.json()).then(d => {
+      if (d.ok) showToast(`GT Verified: ${oid}`);
+      else showToast('Fehler: ' + (d.error || 'unbekannt'));
+    }).catch(() => showToast('Server-Fehler'));
+  }
+
+  // Update local state
+  state.approvals.set(objectId, {
+    approved: true,
+    gt_verified: true,
+    reviewed_by: 'Christopher Pollin',
+    reviewed_at: new Date().toISOString(),
+  });
+  saveApprovalsToStorage();
+  updateEditButtons();
+  renderViewerNav();
 }
 
 function toggleGtReview() {
@@ -2766,6 +2828,12 @@ function initEvents() {
     toggleObjectApproval(state.currentObjectId);
   });
 
+  // Viewer: GT verify (highest tier — character-level verification against facsimile)
+  document.getElementById('gtVerifyBtn').addEventListener('click', () => {
+    if (!state.isLocal || !state.currentObjectId) return;
+    gtVerifyObject(state.currentObjectId);
+  });
+
   // Viewer: edit toggle
   document.getElementById('editBtn').addEventListener('click', () => {
     if (!state.isLocal) return;
@@ -2779,7 +2847,7 @@ function initEvents() {
   document.getElementById('editSaveBtn').addEventListener('click', () => {
     if (!state.editMode || !state.isLocal) return;
     saveCurrentEdit();
-    showToast('Gespeichert (localStorage)');
+    showToast(state.isLocal ? 'Gespeichert (JSON)' : 'Gespeichert (localStorage)');
     updateEditButtons();
   });
 
@@ -2831,7 +2899,7 @@ function initEvents() {
       e.preventDefault();
       if (state.editMode && state.isLocal) {
         saveCurrentEdit();
-        showToast('Gespeichert (localStorage)');
+        showToast(state.isLocal ? 'Gespeichert (JSON)' : 'Gespeichert (localStorage)');
         updateEditButtons();
       }
       return;

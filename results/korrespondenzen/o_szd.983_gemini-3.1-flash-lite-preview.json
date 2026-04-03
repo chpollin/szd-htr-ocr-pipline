@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.983",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud von [Ende September 1938], SZ-LAS/B7.40",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.983/IMG.1",
+      "https://gams.uni-graz.at/o:szd.983/IMG.2",
+      "https://gams.uni-graz.at/o:szd.983/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud von [Ende September 1938], SZ-LAS/B7.40\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLieber verehrter Professor, nehmen\nSie es nicht Gleichgiltigkeit, dass\nich mich die lezte Woche nicht ge-\nmeldet habe. Aber ich muss fest\nHals über Kopf correclaren waren\nund das Erste, wie ich wieder atmen\nkann, ist, bei Ihnen mich anzufragen.\nIch bin schon so ausgehungrig, Sie zu\nsehen und voll guter Erwartung, dass\nSie vollkommen wieder mir wohl\nfällen. Ihr getreu ergebener\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLieber verehrter Professor, nehmen\nSie es nicht Gleichgiltigkeit, dass\nich mich die lezte Woche nicht ge-\nmeldet habe. Aber ich muss fest\nHals über Kopf correclaren waren\nund das Erste, wie ich wieder atmen\nkann, ist, bei Ihnen mich anzufragen.\nIch bin schon so ausgehungrig, Sie zu\nsehen und voll guter Erwartung, dass\nSie vollkommen wieder mir wohl\nfällen. Ihr getreu ergebener\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit einer Farbskala/Grauskala für Archivierungszwecke am linken Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der flüchtigen Handschrift von Stefan Zweig. Das Wort 'correclaren' ist orthographisch ungewöhnlich, aber deutlich so geschrieben."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 882,
+    "total_words": 144,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      441,
+      0,
+      441
+    ],
+    "chars_per_page_median": 441,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

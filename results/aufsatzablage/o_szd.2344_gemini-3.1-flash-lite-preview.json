@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2344",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Welt, Aus abgesperrter, SZ-AAP/W-AA213.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2344/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2344/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2344/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2344/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2344/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2344/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2344/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Welt, Aus abgesperrter\n- Signatur: SZ-AAP/W-AA213.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Aus abgesperrter\n                        Welt\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Welt, Aus abgesperrter\nDie schlaflose Welt v[?]\n\nAus abgesperrter\nWelt",
+        "notes": "Handschriftliches Dokument. Die Zeilen 'Welt, Aus abgesperrter' und 'Die schlaflose Welt v' sind in violetter Tinte geschrieben, der untere Teil 'Aus abgesperrter Welt' in Bleistift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Welt, Aus abgesperrter\nDie schlaflose Welt v[?]",
+        "notes": "Ausschnitt/Detailaufnahme des oberen Teils von Seite 1. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Aus abgesperrter\nWelt",
+        "notes": "Ausschnitt/Detailaufnahme des unteren Teils von Seite 1. Handschrift in Bleistift.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Welt, Aus abgesperrter\nDie schlaflose Welt v[?]",
+        "notes": "Detailaufnahme des oberen Teils, gleiche Ansicht wie Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Welt, Aus abgesperrter\nDie schlaflose Welt v[?]\n\nAus abgesperrter\nWelt",
+        "notes": "Gesamtansicht des Dokuments mit Archiv-Farbskala und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Das 'v' am Ende der zweiten Zeile ist aufgrund des Abbruchs der Schrift unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 255,
+    "total_words": 37,
+    "total_pages": 4,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      70,
+      47,
+      21,
+      0,
+      47,
+      0,
+      70
+    ],
+    "chars_per_page_median": 47.0,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.1081,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

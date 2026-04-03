@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.887",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 26. November 1918, SZ-LAS/B1.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.887/IMG.1",
+      "https://gams.uni-graz.at/o:szd.887/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 26. November 1918, SZ-LAS/B1.1\n- Signatur: SZ-LAS/B1.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Cher ami, la maison parait de-\nlaissé sans toi. Je veux toujours\npartir et toujours il y a des obstac-\nles: Innsbruck dans les mains des\nItaliens qui peut-être me feront pro-\nmener un peu en Sicilie. De Vienne\naucune reponse, presque pas des\ncorrespondances: je peux parler\nmaintenant avec Rascher. Mon ami,\nquelle folie maintenant en Autriche,\npersonne ne peut-plus débrouiller\nce chaos. Mais j'ai repris le travail. Il\nne marche pas très bien, mais il marche.\nTout le monde est foufici! Lagho veut\nlaisser sa femme mourante pour aller\nseul en Allemagne, les revolutionnaires\ndeviennent ministres et les ministres\ndes revolutionnaires, tout est embrouillé\net moi, qui je ne veux devenir rien",
+        "notes": "Handschriftliche Postkarte, violette Tinte. Die Sprache ist Französisch, nicht Deutsch wie in der Aufgabenstellung vermerkt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "la Rosika Schwimmer que tu connais\nest devenue ambassadrice Hongroise\nqu'un homme paisible qui\ntravaille pour toi, moi je\nn'y arriverai jamais. A\nquant l'exponhon[?]? Je\nsuis bien curieux! Travaille\nbien, mon cher Frans, et\npense bien de nous deux\ncomme nous le faisons\npresque chaque jour. Amitiés\na ta femme!\nStefan",
+        "notes": "Adressseite der Postkarte. Gedruckte Postkarten-Vordrucke (Postkarte. Carte postale. Cartolina postale.). Briefmarke und Poststempel (Zürich, 26.XI.18) vorhanden. Handschriftliche Ergänzungen in violetter Tinte.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Ein Wort ('exponhon') ist unklar, vermutlich ein Schreibfehler des Autors für 'exposition'."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1009,
+    "total_words": 166,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      692,
+      317
+    ],
+    "chars_per_page_median": 504.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.006,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

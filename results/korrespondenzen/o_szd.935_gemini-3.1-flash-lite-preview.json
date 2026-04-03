@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.935",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Frans Masereel vom 5. Mai 1919, SZ-LAS/B1.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.935/IMG.1",
+      "https://gams.uni-graz.at/o:szd.935/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 5. Mai 1919, SZ-LAS/B1.8\n- Signatur: SZ-LAS/B1.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Notre maison: il embrasse toute\nla ville et les montagnes.",
+        "notes": "Vorderseite einer Ansichtspostkarte mit einer Abbildung von Salzburg. Handschriftliche Notiz in französischer Sprache am oberen Bildrand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "SALZBURG (Kapuzinerberg 5)\nMon cher Frans, a Vienne on etait\nenthousiasmé de Tes bois: ils se-\nront imprimés bientot, mais le\nlivre ne paraitra avant 6 mois\net nous pouvons esperer, qu'il\nsera deja la paix a cette epoque.\nNous sommes a peu pres installés\net serous heureux de te voir chez\nnous quand tu voudras, la distance\nest minime et bien fait, quand nous\nreviendrons en Suisse. Je t'ecrirai\nbientot longuement. Fidelement\nStefan\n\nFrans Masereel\nGenève (Schweiz)\n8, rue de l'Aubepine",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in französischer Sprache. Briefmarke (10 Heller, Österreichische Post) mit Poststempel 'SALZBURG 5.V.19'. Gedruckter Verlagsvermerk 'Kunstverlag Hans Hausner, Wien, V.' am linken Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift von Stefan Zweig ist klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 545,
+    "total_words": 92,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      58,
+      487
+    ],
+    "chars_per_page_median": 272.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

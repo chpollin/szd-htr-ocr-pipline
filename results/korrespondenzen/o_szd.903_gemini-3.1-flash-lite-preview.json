@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.903",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [Mai 1922], SZ-LAS/B1.24",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.903/IMG.1",
+      "https://gams.uni-graz.at/o:szd.903/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [Mai 1922], SZ-LAS/B1.24\n- Signatur: SZ-LAS/B1.24\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Samedi, Salzburg\n\nMon cher Frans, mille fois merci pour ta\nbonne lettre et les admirables bois. Jamais tu\nn'a fait de plus beau que le „voyageur” et\n„cheval de bois” (et tu as deja fait pas mal\ndes choses superbes). Je suis surtout heureux de\nvoir, comme tu changes et redresses toujours\nles formes de l'expression, comme tu intensi-\nfies le tableau simultané: quel mouvement\nintérieur, quel multiplicité dans les decors.\nJe suis, cher Frans, si fier de toi comme si\nj'aurais payé ton appréssiassage!\nNous étions bien content que vous ne regrettez\npas le voyage. Et je le prie de ne pas oublié\nla chambre est toujours prête pour toi: tu\npeux venir quand tu voudras et travailler ici\net nous tenir compagnie en qualité de frère.\nJe m'exprime mal, mais tu sentiras, j'espère\ntout mon sentiment.\nAujourd'hui nous avons eu la visite d'un\nde tes compatriotes, Carlo Liten, ami de Verhaeren,\nqui recitait si souvent le „Cloître” a travers tout le",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf (Logo und Adresse). Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "monde. Il a beaucoup admiré tes dessins.\nJe n'oublierai pas le Beethoven. Seulement\nil faut avoir un peu de patience: cela ne se trouve\npas tous les jours. Toi de ta part, je te rappelle ta\ngentille promesse d'envoyer une des tes pages a\nnotre ami Friedrich Welz, qui en serait heureux.\nMon livre Je d're a toi s'imprime très len-\ntement. Neanmoins j'espère de pouvoir t'envoyer\nun exemplaire en 5-6 semaine.\nEncore une fois: merci de ta bonne visite.\nEmbrasse ta femme et ta fille pour nous. Et a tan-\ntôt, n'est ce pas? Ton vieux\n\nStefan\n\nNotre ami, le peintre Faistauer te rendra\nprobablement visite (il est a Montreux). Tu as\nvu sa femme ici et les deux tableaux chez nous\nPour le renvoi des 150 frcs ne te presse pas. Je\nte procurerai immediatement la reception, car\non ne peut jamais être sûr, si on n'est pas volé\nEcris en tout cas le jour ou tu l'expedie, encore\nune carte postale avec un simple mot. Mais je\nrepète: ne te presse pas du tout!",
+        "notes": "Fortsetzung des handschriftlichen Briefes auf der Rückseite. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift. Die Sprache ist Französisch."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1890,
+    "total_words": 340,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      940,
+      950
+    ],
+    "chars_per_page_median": 945.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

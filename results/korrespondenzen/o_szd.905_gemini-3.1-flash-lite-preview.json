@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.905",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 18. Juli 1923, SZ-LAS/B1.26",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.905/IMG.1",
+      "https://gams.uni-graz.at/o:szd.905/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 18. Juli 1923, SZ-LAS/B1.26\n- Signatur: SZ-LAS/B1.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, am 18. Juli 23.\n\nLieber Frans!\n\nDie Vorrede für das Buch über Dich ist nun glücklich ge-\nschrieben. Solltest Du sie stupide finden, so zähle das freundlich\nder herrschenden Hitze zu und nicht meinem Mangel an herzlicher\nGesinnung. Solltest Du etwas auszusetzen haben daran oder beson-\ndere Wünsche haben, so teile mir dieselben mit, denn der Auf-\nsatz ist ja noch nicht in Druck gegangen und ich möchte ihn gern\nDir zuerst vorlegen. Solltest Du ihn aber als Dir sympathisch und\ndienlich empfinden und den wunsch haben, dass er auch drüben\nin einer französischen Zeitung oder Revue erscheint, so gebe ich\nDir hiermit feierlichst die volle Verfügung, ihn in das Französi-\nsche, Chinesische oder Hindostanische übersetzen zu lassen und in\nirgend einer Revue zu plazieren wo es Dir lieb ist. Alzir Hella\noder sonst jemand könnte ihn ja übersetzen und eine Revue werdet\nIhr ja leicht dafür ausfindig machen: ich bin zu briefmüde, um\nmich selbst darum zu bekümmern.\n\nWegen der Illustrationen zu meinem Buch ist nun die schon\nfertige Sache durch den Stoss den die deutsche Valuta bekommen hat\nwieder ins Wackeln gekommen. Sobald ein verlässliches und Deinen\nAnforderungen entsprechendes Angebot vorliegt, schreibe ich Dir\nsofort.\n\nIch sagte schon Billiet, dass ich es an der Zeit hielte,\neine gesammte Ausstellung Deiner Werke in Deutschland oder Böhmen",
+        "notes": "Typoskript auf Papier. Am unteren Rand ein runder Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "zu machen. Mein Freund Camill Hoffmann kann das in Prag leicht d\ndurchsetzen und wir würden dann die Ausstellung gleich nach Wien\nweiterschicken, vielleicht sogar nach Budapest. Wenn unser Buch\nüber Dich da ist, so besteht kein Zweifel, dass sie ausgezeichne-\nten Verkauf haben wird und vielleicht gelingt es bei dieser Gele-\ngenheit Dich selbst wieder zu einer Reise nach Oesterreich und\ndem herrlichen Böhmen zu verlocken. Deutschland ist natürlich für\nDich jetzt unmöglich - wieder einmal wird der einzelne für die\nDummheit der verehrlichen Politik verantwortlich gemacht.\n\nUnd nun noch einmal eine dringliche Anfrage: Bist Du noch\nnicht Grosspapa?\n\nHerzlichst Dein\nStefan\n\nIn Wien bereiten ja Scheyer und ich ruhig je einen Aufsatz\nAlles vor",
+        "notes": "Typoskript auf Papier. Die letzten zwei Zeilen ('In Wien bereiten ja Scheyer und ich ruhig je einen Aufsatz / Alles vor') sind handschriftlich in violett eingefügt. Am unteren Rand ein runder Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der zweiten Seite sind klar lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2101,
+    "total_words": 334,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1356,
+      745
+    ],
+    "chars_per_page_median": 1050.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.926",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [15. Januar 1932], SZ-LAS/B1.45",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.926/IMG.1",
+      "https://gams.uni-graz.at/o:szd.926/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [15. Januar 1932], SZ-LAS/B1.45\n- Signatur: SZ-LAS/B1.45\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nPrès l'Opéra\n\nParis, le\n\nCher Frans, c'est donc convenu,\ntu viendras jeudi un peu plus\ntôt, disons 7 heures ou 6 1/2\npour mettre au point tout ce\nque j'ai ajouté au livre,\nautre chose, Lefèvre\na fait une heure avec moi\net aimerait d'avoir au lieu\nd'une photo une petite esquisse\nde ma miserable personne. Est\nce que tu en pourrais en faire\nune très vite, sans te donner trop",
+        "notes": "Briefpapier des Hotel Louvois. Handschrift in violetter Tinte. Der Text bricht am Ende der Seite ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "de peine? Je crois cela pourrait\ntout de même être utile à toi,\ncar les Nouvelles sont très lus\nen France et j'aimerais d'y voir\nfigurer ton nom. On en parlera!\nEt sans faute, jeudi, mon vieux!\n\n[Unterschrift/Monogramm]\n\nCHRISTIAN ANDREE\nEX LIBRIS\nET AUTOGRAPHIS",
+        "notes": "Fortsetzung des Briefes. Am unteren Rand befindet sich ein Ex-Libris-Stempel von Christian Andree.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift ist flüssig und eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 665,
+    "total_words": 119,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      403,
+      262
+    ],
+    "chars_per_page_median": 332.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

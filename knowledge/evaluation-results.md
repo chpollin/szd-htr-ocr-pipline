@@ -252,7 +252,6 @@ Prototyp `fraktur_postprocess.py` getestet (pyspellchecker + 13 Fraktur-Verwechs
 
 - **Truncation fixen**: 4 grosse Objekte (o_szd.149, o_szd.141, o_szd.175, o_szd.174) re-transkribieren, Chunk-Merge-Logik pruefen
 - Weitere Objekte agent-verifizieren — 44 von ~875 verifiziert, ~730 ausstehend
-- Prompt-Ablation mit den 18 GT-Objekten (jetzt moeglich, da CER-Baseline steht)
 - Fraktur-spezifischen Post-Processing-Schritt evaluieren (28 dokumentierte Fehler als Trainingsmaterial)
 - `duplicate_pages` False-Positive fixen (Color-Chart-Seiten ausschliessen)
 - DWR-Score gegen Agent-Verifikation validieren (korreliert DWR mit tatsaechlicher Fehlerrate?)

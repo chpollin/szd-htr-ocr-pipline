@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.980",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 24. August 1938, SZ-LAS/B7.38",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.980/IMG.1",
+      "https://gams.uni-graz.at/o:szd.980/IMG.2",
+      "https://gams.uni-graz.at/o:szd.980/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 24. August 1938, SZ-LAS/B7.38\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "24. Aug 1938\n\n49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nTeurer verehrter Professor, nehmen\nSie mein Schweigen nicht Untreue\noder Favolenz[?] – ein lieber Freund\nvon mir ist schwer operiert worden,\nich muss jetzt oft zu ihm hinaus\nmeine Mutter ist, fünfundvier-\nzigjährig, in Wien gestorben: in\nwelcher Zeit wir leben, fühlt man\ndaran, dass man kaum Trauer\nempfindet sondern eher eine\nTrostung, dass sie nicht in dieser\nholle Wien{wert} leben müsste, ohne\nuns ratversten[?] zu können.\nIch melde mich morgen\nund dass Sie hoffentlich bald",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett. Das Wort 'Favolenz' ist schwer lesbar, möglicherweise 'Fahrlässigkeit' oder 'Faulheit' gemeint, aber als 'Favolenz' transkribiert. 'ratversten' ist unsicher.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "sehen. Jenes junge Etwas[?] James\nwird mir, glaube ich, jetzt bald\nentbehren, ich sprach ihn in der\nletzten Woche.\nIn herzlicher geben[?]\nStefanZweig",
+        "notes": "Handschriftliche Fortsetzung des Briefes. Die Unterschrift ist 'StefanZweig' in einer Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Die Rückseite des Briefes ist hier mit der Farbskala abgebildet.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift ist flüchtig und weist einige schwer lesbare Wörter auf (z.B. 'Favolenz', 'ratversten', 'Etwas'). Der Textfluss ist jedoch weitgehend verständlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 690,
+    "total_words": 110,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      541,
+      149,
+      0
+    ],
+    "chars_per_page_median": 345.0,
+    "marker_uncertain_count": 4,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0364,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

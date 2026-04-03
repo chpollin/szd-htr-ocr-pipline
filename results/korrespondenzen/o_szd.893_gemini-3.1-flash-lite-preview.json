@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.893",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Frans Masereel vom 22. Dezember 1919, SZ-LAS/B1.15",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.893/IMG.1",
+      "https://gams.uni-graz.at/o:szd.893/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 22. Dezember 1919, SZ-LAS/B1.15\n- Signatur: SZ-LAS/B1.15\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg vom Mönchsberg (Elektr. Aufzug) aus.\n\nla maison qui t'attend!",
+        "notes": "Vorderseite einer Ansichtspostkarte. Der Text 'la maison qui t'attend!' ist handschriftlich mit einem Pfeil auf ein Gebäude auf dem Mönchsberg gerichtet. Zwei Löcher im unteren Bereich der Karte (Archivierung).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Mon cher Frans, j'apprends\navec joie, que le livre d'Arcos\nparaîtra chez la Insel. Le\nZwang est deja très avancé\ndans l'impression ~ je vais\nmoi meme en quelques jours\natteindre. Mon vieux, tu es en\ntrain de devenir celebre, j'en\ntends si souvent ton nom et il\nm'evoque toujours ta chere\nfigure. A quand donc ici? Je\nsuis sûr tu retrouveras le\nchemin, n'aie pas peur! Merci\npour votre Wylman et dites\na Bazal. mes amitiés. Je vous\necrirai immediatement après\nmon retour. Fidèlement S.Z.\n\nSchweiz\n\nMonsieur Frans Masereel\n\nGenève (Suisse)\n42 bis route des acacias",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Briefmarke (10 Heller, Österreichische Post) und Poststempel (22. XII. 19-9) vorhanden. Der Text ist in französischer Sprache verfasst.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist charakteristisch und klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 632,
+    "total_words": 107,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      70,
+      562
+    ],
+    "chars_per_page_median": 316.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

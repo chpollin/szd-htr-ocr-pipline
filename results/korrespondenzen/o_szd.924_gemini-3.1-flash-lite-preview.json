@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.924",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 22. August 1931, SZ-LAS/B1.43",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.924/IMG.1",
+      "https://gams.uni-graz.at/o:szd.924/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 22. August 1931, SZ-LAS/B1.43\n- Signatur: SZ-LAS/B1.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Absender: STEFAN ZWEIG\nSALZBURG, Kapuzinerberg 5\n\nPostkarte\n\nHerrn\nFrans Masereel\nMaison du Calvaire\n15 Rue Hégesipe Moreau\n~~Paris~~\nEquihen par Outreau\nPas de Calais",
+        "notes": "Adressseite einer Postkarte. Gedruckte Formularvorgaben, handschriftliche Adressierung in violetter Tinte. Die durchgestrichene Zeile 'Paris' ist deutlich lesbar. Briefmarken und Poststempel vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Salzburg, am 22. 8. 1931\n\nLieber Frans!\n\nIch erhalte heute ein Telegramm,\ndass die Herren prinzipiell mit meinem\nPreisvorschlag von tausend Francs für den\nHolzschnitt einverstanden sind und möch-\nte nur wissen, wieviel Du davon machen wol-\ntest. Ich glaube, dass ungefähr vier das\nrichtige ist. Es handelt sich um die No-\nvelle \"Buchmendel\" in der \"Kleinen Chronik\"\ndie ich Dir gleichzeitig schicke. Wegen\nder russischen Sache gehen die Verhandlun-\ngen noch fort, werden aber bald zum Ziele\nführen.\n\nHerzlichst Dein Stefan",
+        "notes": "Nachrichtenseite der Postkarte. Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Die Zeilenumbrüche im Typoskript sind teilweise ungleichmäßig, wurden aber originalgetreu übernommen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen auf der Adressseite und die Unterschrift sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 689,
+    "total_words": 106,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      167,
+      522
+    ],
+    "chars_per_page_median": 344.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

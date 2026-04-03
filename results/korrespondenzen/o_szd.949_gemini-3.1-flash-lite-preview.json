@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.949",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 3. November 1920, SZ-LAS/B7.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.949/IMG.1",
+      "https://gams.uni-graz.at/o:szd.949/IMG.2",
+      "https://gams.uni-graz.at/o:szd.949/IMG.3",
+      "https://gams.uni-graz.at/o:szd.949/IMG.4",
+      "https://gams.uni-graz.at/o:szd.949/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 3. November 1920, SZ-LAS/B7.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "3. Nov. 1920\nSalzburg, Kapuzinerberg 5\n\nHoch verehrter Herr Professor, wenn ich\nerst heute für Ihren profunden und\nmir so wertvollen Brief Dank sage, so\nist diese Verzögerung einzig dadurch ver-\nschuldet, dass ich erst gestern von einer\ndrei wöchentlichen Vortragsreise nach\nSalzburg heimkehrte. Sie mögen sich den-\nken, wie interessant mir Ihre Auffassung\nvon Dostojewskis pathologischem Bilde\nist, das selbstverständlich dem meinen\ngegenüber den Wert der Fachkenntnis\nbesitzt. Ich weiß, dass Dostojewski, dem\nErreuen[?] aller Dinge auch diese Klein-\nform der Epilepsie nicht fremd war -\nin seinem Smerdjakoff hat er sie gestal-\ntet und durchschimmern lassen, dass\nes Menschen gäbe, die bis zu einem ge-\nwissen Grade die Fähigkeit besitzen, nach\nGnusch nur willen die Krankheit gewisser-",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf (Stefan Zweig, Salzburg). Tinte violett. Die letzte Zeile bricht mitten im Wort ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "maßen bewußt zu reproducieren. - Ich glau-\nbe nun, dass bei ihm selbst tatsächlich aus\neinem geheimnisvollen Lustgefühl der Wunsch\nnach gewissen Formen der Anfälle vorhan-\nden war: hier ist gewiss noch eines der\nlockendsten Geheimnisse für einen Psycho-\nlogen vorhanden.\nEs war mir beschämend und beglückend\nzugleich, zu sehen, wie viel Mühe Sie\nan meine Studie wandten und glauben\nSie, bitte, dass ich solche Hingabe mit\ninnigster Dankbarkeit zu würdigen weiß.\nIch gehöre zu der geistigen Generation,\ndie kaum jemandem so sehr für Er-\nkenntnis verschuldet ist als Ihnen und\nich fühle mit dieser Generation, dass\ndie Stunde nahe ist, wo die ganze weit-\ntragende Bedeutung Ihrer Entdeckung\nder Seele allgemein besitz, europäische\nWissenschaft wird. Aus England, aus\nAmerica bringt mir jede Post Fragen\nnach Ihnen und Ihrem Werk - vielleicht",
+        "notes": "Handschriftlicher Brief, Fortsetzung auf der zweiten Seite. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "wird allmählich auch der Heimat offen-\nbar, wie unendlich Sie uns bereichert\nhaben. Und ich hoffe, dass mir bald ein-\nmal Gelegenheit geboten ist, dies öffentlich\nund umfassend auszusprechen.\nIn dankbarer Verehrung\nIhr ergebener\nStefan Zweig",
+        "notes": "Handschriftlicher Brief, Schluss des Textes. Tinte violett.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "wird allmählich auch der Heimat offen-\nbar, wie unendlich Sie uns bereichert\nhaben. Und ich hoffe, dass mir bald ein-\nmal Gelegenheit geboten ist, dies öffentlich\nund umfassend auszusprechen.\nIn dankbarer Verehrung\nIhr ergebener\nStefan Zweig",
+        "notes": "Identisch mit Seite 4, jedoch mit Farbskala/Grauskala für Archivierung am rechten Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Ein Wort ('Erreuen') ist leicht unsicher, da es sich um eine ungewöhnliche Wortwahl oder eine leichte Verschleifung handeln könnte."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2109,
+    "total_words": 323,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      788,
+      0,
+      839,
+      241,
+      241
+    ],
+    "chars_per_page_median": 788,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0031,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

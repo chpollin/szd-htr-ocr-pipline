@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.914",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 29. Juni 1928, SZ-LAS/B1.34",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.914/IMG.1",
+      "https://gams.uni-graz.at/o:szd.914/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 29. Juni 1928, SZ-LAS/B1.34\n- Signatur: SZ-LAS/B1.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n\n29. Juni 1928.\n\nMein lieber Frans!\n\nEin Buch von Dir ist immer ein Festtag und es gibt eine\nkleine Boxszene zwischen mir und meiner Frau, wer es zuerst\nbesehen darf. Aber welches Vergnügen auch, Deiner Fantasie bis in\nden Weltraum hinein zu folgen und mit freundschaftlichem Stolz\nzu spüren, dass das Erfinderische Dich nicht verlässt, sondern\nsich immer fantastischer und verwegener ausformt. Auf seine Freunde\nstolz sein zu dürfen, ausserdem dass man sie liebt, gehört zu den\npaar exquisiten Dingen des Daseins: schade, dass so selten einem\ndie Freunde den Gefallen tun!\n\nNun noch dies: Ich beabsichtige, im Sommer nach Belgien\nzu fahren und zwar möchte ich gerne in die Nähe von Ostende\noder nach Ostende selbst. Die kleinen Plätze sind mir widerlich\ndurch Kleinbürgerlichkeit und Kinderanhäufung. Ich brauche - er-\ninnere Dich an ~~Belgien~~ {Boulogne!} - einen Hafen mit Schiffen und wirklichen\nMenschen und eine Stadt. Da hängen nun zwei Fragen daran: 1.) soll\nich in Gand Deinen Vater aufsuchen und wie ist seine Adresse?\n2.) soll ich versuchen, in Brüssel oder sonstwo etwas für Deine\nSache zu tun? Ich erhalte gerade heute eine Aufforderung, in\nBrüssel im Palais des Beaux-Arts einen Vortrag zu halten und ich\nwerde darum wahrscheinlich mit den Herren zu konferieren haben.\nDu magst Dir den Schrecken denken, wenn ich ihnen nicht mehr und\nnicht minder als einen Vortrag über Dich unter anderem vorschlage.\nIch bin neugierig, wie sie darüber denken werden.",
+        "notes": "Typoskript mit handschriftlichen Korrekturen (Einfügung 'Boulogne!', Durchstreichung 'Belgien').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Leb wohl und sei vielmals gegrüsst! Wenn ich im Herbst\nnach Paris kome, so freue ich mich schon sehr, diesmal auch Deine\nBilder zu sehen.\n\nInnigst Dein\n\nStefan",
+        "notes": "Typoskript mit handschriftlicher Unterschrift. Am unteren Rand ein Ex-Libris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen und die Unterschrift sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1649,
+    "total_words": 268,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1490,
+      159
+    ],
+    "chars_per_page_median": 824.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

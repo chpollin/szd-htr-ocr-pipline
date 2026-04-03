@@ -19,9 +19,29 @@
     "pages": [
       {
         "page": 1,
-        "transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte",
+        "transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\n\nMerle d'Aubigné Geschichte\n\nDatum:",
         "notes": "Bleistift-Eintragungen auf dem Bestellzettel.",
-        "type": "content"
+        "type": "content",
+        "edit_history": [
+          {
+            "original_transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\nMerle d'Aubigné Geschichte",
+            "edited_by": "Christopher Pollin",
+            "edited_at": "2026-04-03T06:58:33.368105+00:00",
+            "source": "human"
+          },
+          {
+            "original_transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\n\nMerle d'Aubigné Geschichte\n\nDatum:",
+            "edited_by": "Christopher Pollin",
+            "edited_at": "2026-04-03T07:04:33.402092+00:00",
+            "source": "human"
+          },
+          {
+            "original_transcription": "Bestellzettel Bücherausgabe\n\nBesteller: Stefan Zweig\n\nWohnung: Hotel Bellerive\n\nBestelltes Werk:\nStandort (Gestell u. Nr.)\nSt. Z. B 488-491\n\nOrdnungswort (Katalog-\nStichwort)\n\nMerle d'Aubigné Geschichte\n\nD",
+            "edited_by": "Christopher Pollin",
+            "edited_at": "2026-04-03T07:05:21.112206+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 2,
@@ -86,5 +106,13 @@
     "page_length_anomalies": [],
     "needs_review": false,
     "needs_review_reasons": []
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [
+      1
+    ],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-03T07:05:35.553143+00:00"
   }
 }

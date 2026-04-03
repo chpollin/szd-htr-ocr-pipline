@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.854",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 3. Februar 1937, SZ-AAP/B1.7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.854/IMG.1",
+      "https://gams.uni-graz.at/o:szd.854/IMG.2",
+      "https://gams.uni-graz.at/o:szd.854/IMG.3",
+      "https://gams.uni-graz.at/o:szd.854/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 3. Februar 1937, SZ-AAP/B1.7\n- Signatur: SZ-AAP/B1.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n\n3. Februar 1937 /F\n\nSehr verehrter Herr Dr. Zweig:\n\nWir hoffen, dass Sie unser neuliches Schreiben richtig empfangen haben,\nund uns bald Bescheid geben können, wie Sie sich die Liebhaber-Ausgabe\ndes Magalhaes-Buches vorstellen und ob nun Messrs. Cassell und die\nViking Press in der Form teilnehmen können, dass sie ebenfalls eine\nenglische, bzw. amerikanische Liebhaber-Ausgabe mit denselben Bild-\ntafeln usw. wie in der deutschen erscheinen lassen. Dann könnten die\nLichtdrucke usw. auf gemeinsame Kosten hergestellt werden und ledig-\nlich die Legenden nachträglich eingedruckt werden. Ob also diese Lieb-\nhaberausgabe gemeinsam oder nicht gemeinsam erscheint, davon hängt\nmehr oder minder die Reichhaltigkeit der Ausstattung ab. Wenn es nach\nunserem Wunsche ginge, so würden wir ein wirklich prächtiges Opus schaf-\nfen.\nFür heute haben wir eine grosse Bitte: es ist jetzt nämlich der zweite\nBand des \"Life of Richard Wagner\" von Ernest Newman bei Cassell & Co.\nerschienen. Auf unsere Anfrage teilt uns heute Mr. Newman mit, dass der\ndritte Band noch heuer im MS. fertig wird und der letzte im nächsten\nbei Cassell erscheint. Wir möchten gern die deutschen Rechte erwerben\nund haben deshalb heute Cassell gebeten, uns je ein Exemplar der ersten\nbeiden Bände zu schicken. Wir werden sie dann von Prof. Dr. Stefan lesen\nlassen. Aber auf jeden Fall bitten wir Sie, an Mr. Flower oder auch an",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n\nMr. Newman, wenn Sie ihn kennen, ein paar Worte zu schreiben und uns\nfür den Verlag der deutschen Ausgabe zu empfehlen.\n\nDafür danken wir Ihnen im voraus bestens und begrüssen Sie als\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (blaue Tinte, unleserlich/kürzelhaft).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift auf Seite 3 ist ein Kürzel, was jedoch für die Transkription des Textkörpers unerheblich ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2365,
+    "total_words": 356,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1775,
+      0,
+      590,
+      0
+    ],
+    "chars_per_page_median": 1182.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

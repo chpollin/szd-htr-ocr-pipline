@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.976",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 15. Juli 1938, SZ-LAS/B7.34",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.976/IMG.1",
+      "https://gams.uni-graz.at/o:szd.976/IMG.2",
+      "https://gams.uni-graz.at/o:szd.976/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 15. Juli 1938, SZ-LAS/B7.34\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "LANGHAM 3693.\n\n49. HALLAM STREET,\nLONDON, W.1.\n\n15.Juli 1938.\n\nLieber verehrter Herr Professor!\n\nHeftig ist schon mein Verlangen, Sie wieder\neinmal sehen zu dürfen und nun ist gerade jemand an-\nderer nächste Woche hier, der so gerne mit mir zu Ih-\nnen gehen möchte, einer Ihrer grössten Bewunderer,\nund mit allen seinen kleinen Narrheiten vielleicht\ndas einzige Genie der modernen Malerie, Salvador Dali,\ndessen Namen und Werk Sie ja gewiss kennen. Er ist\nleider nur wenige Tage hier, Montag und Dienstag, und\nich werde mir erlauben, Sie Montag vormittag anzurufen,\nob wir einen dieser beiden Tage Sie besuchen dürfen.\n\nWegen der amerikanischen Sache spreche ich\nnoch mit Ihrem Herrn Sohn. Selbstverständlich bin\nich freudigst bereit, falls Sie niemand besseren haben.\n\nIn Treue und Verehrung\n\nIhr\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "LANGHAM 3693.\n\n49. HALLAM STREET,\nLONDON, W.1.\n\n15.Juli 1938.\n\nLieber verehrter Herr Professor!\n\nHeftig ist schon mein Verlangen, Sie wieder\neinmal sehen zu dürfen und nun ist gerade jemand an-\nderer nächste Woche hier, der so gerne mit mir zu Ih-\nnen gehen möchte, einer Ihrer grössten Bewunderer,\nund mit allen seinen kleinen Narrheiten vielleicht\ndas einzige Genie der modernen Malerie, Salvador Dali,\ndessen Namen und Werk Sie ja gewiss kennen. Er ist\nleider nur wenige Tage hier, Montag und Dienstag, und\nich werde mir erlauben, Sie Montag vormittag anzurufen,\nob wir einen dieser beiden Tage Sie besuchen dürfen.\n\nIhr\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala für Archivierungszwecke. Die Farbskala verdeckt einen Teil des Textes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls klar lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1446,
+    "total_words": 229,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      810,
+      0,
+      636
+    ],
+    "chars_per_page_median": 810,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

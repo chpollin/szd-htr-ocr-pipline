@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.862",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 2. August 1937, SZ-AAP/B1.77",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.862/IMG.1",
+      "https://gams.uni-graz.at/o:szd.862/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. August 1937, SZ-AAP/B1.77\n- Signatur: SZ-AAP/B1.77\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag  WIEN·LEIPZIG·ZÜRICH\n                         Briefadresse: Wien · VI · Strohmayergasse 6\nHerrn Dr.Stefan Zweig     Telegrammadresse: Reichnerverlag Wien\nVilla Souvenir           Telephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nWaldquellzeile           Postscheckkonten: Leipzig 8442\nMarienbad                                 Wien 46.469\n                         C.S.R.           Prag 501.701\n                                          Zürich VIII 18122\n                         Banken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\n                                 Schweizerischer Bankverein, Zürich\n                                 Swiss Bank Corporation, London E. C. 2\n\nRef.\n\"Sternstunden der Menschheit\"\n----------------------------\n                         2.August 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWährend meiner Schweizer Reise habe ich so ziemlich alle in Frage\nkommenden Buchhandlungen besucht, um Wünsche des dortigen Sortiments\nkennen zu lernen.Unter anderem wurde mir von zwei grossen Firmen nahe-\ngelegt, eine Einzelausgabe Ihrer \" Sternstunden \" im Pappband heraus-\nzubringen,da - so behauptet z.B. Herr Stäheli - jüngere Leute sich\nsehr oft diese \" Sternstunden \" schenken möchten,sich aber doch die\nAusgabe von RM 5.- für den ganzen Band überlegen.\nHerr Stäheli meint,dass die \" Sternstunden \" in einem hübschen Papp-\nband für etwa RM 1.80 glänzend gehen würden.\nEs sind genau 112 Seiten,die auf unserem neuen englischen Esparto-\nPapier gedruckt einen doch ziemlich ansehnlichen Band ergeben würden.\nDa der Satz steht und Korrekturen ja nicht zu machen sind,könnten wir\ndiesen Band jetzt im August bequem ausdrucken und schon im Herbst in\nden Handel bringen.\nBitte nehmen Sie zu diesem Vorschlag Stellung und lassen Sie uns bitte\nwissen,ob Sie damit einverstanden sind.\nWir hoffen,recht bald von Ihnen zu hören,und sind im voraus bestens\ndankend\n\n                         mit verbindlicher Begrüssung",
+        "notes": "Typoskript auf Geschäftspapier. Die Unterschrift ist eine handschriftliche Paraphe (vermutlich Herbert Reichner). Rote Unterstreichungen im Text sind vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Paraphe am Ende ist nicht als Text lesbar, wurde aber als solche erkannt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1949,
+    "total_words": 238,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1949,
+      0
+    ],
+    "chars_per_page_median": 1949,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

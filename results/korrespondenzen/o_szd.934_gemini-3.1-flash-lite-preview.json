@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.934",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 24. März 1919, SZ-LAS/B1.7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.934/IMG.1",
+      "https://gams.uni-graz.at/o:szd.934/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 24. März 1919, SZ-LAS/B1.7\n- Signatur: SZ-LAS/B1.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Adresse des Absenders. - Text.\nAdresse de l'expéditeur. - Texte.\nIndirizzo del mittente. - Testo.\n\nPostkarte. Carte postale.\nCartolina postale.\n\nMonsieur Frans Masereel\n\nGenève\n8, rue de l'Aubepine",
+        "notes": "Adressseite einer Postkarte. Briefmarke oben rechts mit Poststempel 'BUCHS BAHNHOF 24 III 19 X-'. Zwei Löcher am linken Rand (Archivierung).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Mon cher Frans, avant\nde partir encore une\nbonne poignée de main.\nJ'emporte ton bois et un\nsouvenir précieux de ta\nbonne amitié. Ton\n\nStefan Z",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in Tinte. Zwei Löcher am linken Rand (Archivierung).",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 339,
+    "total_words": 54,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      197,
+      142
+    ],
+    "chars_per_page_median": 169.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

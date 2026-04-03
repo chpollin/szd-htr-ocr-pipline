@@ -1,0 +1,116 @@
+{
+  "object_id": "o_szd.2341",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Wells, H. G., SZ-AAP/W-AA212.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2341/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2341/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Wells, H. G.\n- Signatur: SZ-AAP/W-AA212.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Lotte Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wells, H. G.\nZum 70. Geburtstag\n\nH. G. Wells\nZum 70. Geburtstag",
+        "notes": "Handschrift, violette Tinte. Das Dokument besteht aus zwei beschrifteten Abschnitten auf einem Blatt Papier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des oberen Abschnitts, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "H. G. Wells\nZum 70. Geburtstag",
+        "notes": "Handschrift, violette Tinte. Unterer Abschnitt des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des unteren Abschnitts, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Wells, H. G.\nZum 70. Geburtstag",
+        "notes": "Handschrift, violette Tinte. Oberer Abschnitt des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des unteren Abschnitts, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Wells, H. G.\nZum 70. Geburtstag\n\nH. G. Wells\nZum 70. Geburtstag",
+        "notes": "Gesamtansicht des Blattes mit Archiv-Farbskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz, deutlich geschrieben und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 187,
+    "total_words": 36,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      63,
+      0,
+      30,
+      0,
+      31,
+      0,
+      63
+    ],
+    "chars_per_page_median": 47.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

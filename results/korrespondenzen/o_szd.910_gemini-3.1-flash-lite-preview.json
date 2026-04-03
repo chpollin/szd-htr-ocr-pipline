@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.910",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Frans Masereel vom 8. Oktober 1926, SZ-LAS/B1.30",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.910/IMG.1",
+      "https://gams.uni-graz.at/o:szd.910/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 8. Oktober 1926, SZ-LAS/B1.30\n- Signatur: SZ-LAS/B1.30\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mon cher Frans, j'ai bien recu ton beau\nJean Cristofe volume III et j'en suis heureux\n- tu auras donc bientot fini cette lourde\ntache. Et quoi de nouveau? A Berlin on\nprepare une exposition de toi et ton\n[?] paraitra prochainement.\nJ'espere tu as recu mon nouveau livre\nVerwirrung der Gefuhle - si non, dis moi\nun mot! Je l'ai envoye. 20.000 exemplai\nres sont deja vendus, on reimprime comme",
+        "notes": "Ansichtskarte Salzburg, handschriftlich in violetter Tinte. Der Text bricht am unteren Rand ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Cela serait des menson\nges. J'ai donc assez\nd'argent pour venir\na Paris et faire un\ngrand repas bruyan-\ntant avec toi. Et je\nviendrai mon vieux.\nJe t'embrasse! Amiti\nes a ta femme a\nCharlotte\nStefan",
+        "notes": "Adressseite der Postkarte. Handschriftlich in violetter Tinte. Briefmarken (5 Groschen, 20 Groschen) und Poststempel 'SALZBURG -8 X. 26' vorhanden. Empfänger: M. Frans Masereel, Paris (France), 34, rue Lamarck.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Ein Wort in Zeile 6 der ersten Seite ist schwer zu entziffern (vermutlich ein Buchtitel oder Eigenname)."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 589,
+    "total_words": 108,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      391,
+      198
+    ],
+    "chars_per_page_median": 294.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0093,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

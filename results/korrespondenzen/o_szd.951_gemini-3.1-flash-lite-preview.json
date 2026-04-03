@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.951",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 31. Dezember 1929, SZ-LAS/B7.11",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.951/IMG.1",
+      "https://gams.uni-graz.at/o:szd.951/IMG.2",
+      "https://gams.uni-graz.at/o:szd.951/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 31. Dezember 1929, SZ-LAS/B7.11\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n31.Dez.\n1929.\n\nHochverehrter Herr Professor !\n\nNehmen Sie meinen innigsten Dank entgegen für Ihr\nausserordentliches Werk, das mich in diesen Tagen sehr beschäftigt\nhatte und noch beschäftigen wird. Ich habe sofort beim Wiener Tageblatt\nangefragt, ob ich dort noch zurecht komme, um mein bewunderndes Wort\ndarüber sagen zu dürfen. Ich erwarte darüber noch Antwort und hoffe\ndann dort ausführen zu können, für wie wichtig ich diesen geistigen\nKuppelbau zu Ihrem Werk halte. Lassen Sie mich darum heute nur meinen\nDank auf diese flüchtigen Worte beschränken, Ihre Zeit ist zu kostbar\nfür Briefe und das, was ich zu sagen habe, möchte ich gerne zu vielen\naussprechen. Es ist mir ein sehr beglückender Gedanke, dass Sie in so\ngesteigertem und erhöhtem Masse produktiv sind, weil mir dies auch\nBürgschaft bietet für Ihr körperliches Wohlergehen. Eine geistige Aus-\neinandersetzung dieser Art konnte nur aus der gesammelten Vollkraft\ndes Wesens geschrieben werden.\n\nIn innigster Verehrung\nIhr getreu ergebener\n\nStefan Zweig\n\nHerrn Prof. Sigm. F r e u d\nW i e n , IX.",
+        "notes": "Typoskript mit handschriftlicher Unterschrift. Der Brief weist einen horizontalen Knick in der Mitte auf.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5\n31.Dez.\n1929.\n\nHochverehrter Herr Professor !\n\nNehmen Sie meinen innigsten Dank entgegen für Ihr\nausserordentliches Werk, das mich in diesen Tagen sehr beschäftigt\nhatte und noch beschäftigen wird. Ich habe sofort beim Wiener Tageblatt\nangefragt, ob ich dort noch zurecht komme, um mein bewunderndes Wort\ndarüber sagen zu dürfen. Ich erwarte darüber noch Antwort und hoffe\ndann dort ausführen zu können, für wie wichtig ich diesen geistigen\nKuppelbau zu Ihrem Werk halte. Lassen Sie mich darum heute nur meinen\nDank auf diese flüchtigen Worte beschränken, Ihre Zeit ist zu kostbar\nfür Briefe und das, was ich zu sagen habe, möchte ich gerne zu vielen\naussprechen. Es ist mir ein sehr beglückender Gedanke, dass Sie in so\ngesteigertem und erhöhtem Masse produktiv sind, weil mir dies auch\nBürgschaft bietet für Ihr körperliches Wohlergehen. Eine geistige Aus-\neinandersetzung dieser Art konnte nur aus der gesammelten Vollkraft\ndes Wesens geschrieben werden.\n\nIn innigster Verehrung\nIhr getreu ergebener\n\nStefan Zweig\n\nHerrn Prof. Sigm. F r e u d\nW i e n , IX.",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2168,
+    "total_words": 346,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1084,
+      0,
+      1084
+    ],
+    "chars_per_page_median": 1084,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

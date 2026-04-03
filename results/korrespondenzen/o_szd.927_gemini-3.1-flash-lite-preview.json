@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.927",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 18. Januar 1933, SZ-LAS/B1.46",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.927/IMG.1",
+      "https://gams.uni-graz.at/o:szd.927/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 18. Januar 1933, SZ-LAS/B1.46\n- Signatur: SZ-LAS/B1.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "                                 S A L Z B U R G\n                                 K A P U Z I N E R B E R G 5\n\n                                 am 18. Januar 1933.\n\nLieber Freund!\n\nDu bist ja ein furchtbar gut funktionierender Empfangs-\napparat für Grippen, Dir diesen Luxusscherz alle zwei Jahre zu lei-\nsten. Hoffentlich ist nun schon alles vorbei. Mit Kippenberg habe\nich gesprochen, er möchte leidenschaftlich gern ~~das Werk~~ {eine}\nwill sich deshalb mit dem Transmare-Verlag ins Einvernehmen setzen, {und}\nzur Einführung {Deiner} früherer Sachen, etwa \"Idee\" in der Insel-\nbücherei zu 80 Pfennig bringen, und ferner Deine neuen Bücher. Er\nerwartet da konkrete Vorschläge, da er nicht weiss, wieweit Du noch\nan den Transmare gebunden bist. An Buch-Illustrationen glaubt er\nzur Zeit nicht sehr, wohl aber an ganze Novellen und Romane ohne\nWorte, wie Du sie geschaffen hast. Ich bin überzeugt, dass Du mit\nihm ins Reine kommen wirst und wenn es soweit ist, nehme ich die\nVerhandlungen selbst in die Hand.\n\nEs wäre wirklich schade, wenn Du Dein Atelier aufgeben\nwürdest, denn die schwerste Zeit ist wohl schon vorbei. Wäre es\nnicht eigentlich klüger, Du würdest Dich an eine der zahlreichen\nenglisch-amerikanischen Agenturen wenden und es lieber für ein Jahr\noder ein halbes Jahr vermieten und mit dem Geld freizügig in die\nWelt fahren, nach Spanien oder Russland? Man muss sich auffrischen\nund erneuern und selbst Du, der Du jünger bist als ich, hast nicht\nmehr viel Zeit dazu. Lasse Dich aber nur nicht innerlich davon be-\nrühren, dass die äussern Verhältnisse keine ganz glücklichen sind,\nich habe das Gefühl, dass die Welt langsam wieder in Schwung kommt\nund besonders im Kunsthandel die Depression hauptsächlich darauf\nberuht, dass man heute kaum international etwas kaufen kann, weil",
+        "notes": "Typoskript mit handschriftlichen Korrekturen in violett. Die Seite endet mitten im Satz.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "die Ueberweisungen nicht gestattet sind. Die Werte aber sind inner-\nlich unberührbar - im Gegenteil, jemehr sich die Fabriksware ver-\nbilligt und alles was mechanisch erzeugt wird, umso mehr muss das\nwas nur individuell gemacht werden kann, in der Wertung stehen.\nIch ruhe mich jetzt auf den Lorbeeren meiner \"Marie\nAntoinette\" noch immer aus und habe nur eine kleine Oper für Richard\nStrauss gemacht, an der der alte Meister wacker komponiert.\n\nTausend Grüsse Deiner lieben Frau und Dir, von Deinem\n\n                                 Stefan",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violett. Am unteren Rand befindet sich ein Exlibris-Stempel: \"CHRISTIAN ANDREAS / EX LIBRIS / ET AUTOGRAPHIS\".",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Korrekturen und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2332,
+    "total_words": 365,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1792,
+      540
+    ],
+    "chars_per_page_median": 1166.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

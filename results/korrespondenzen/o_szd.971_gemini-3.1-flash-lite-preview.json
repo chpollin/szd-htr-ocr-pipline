@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.971",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom Montag [Mai 1924], SZ-LAS/B7.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.971/IMG.1",
+      "https://gams.uni-graz.at/o:szd.971/IMG.2",
+      "https://gams.uni-graz.at/o:szd.971/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom Montag [Mai 1924], SZ-LAS/B7.3\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "IX. Parnisgasse 10\n\nMontag\nMai 1924\n\nHochverehrter Herr Professor,\nvielen Dank für\nIhre gute Nachricht! Rolland ist an den nächsten Aben-\nden beim Musikfest nur mit dem aus Gesundheits-\ngründen immer sogleich nach Hause. So wird er sich\nerlauben Mittwoch etwas nach 2 Uhr zu Ihnen zu kommen\nund wenn ich Ihnen seine Freude sage, Sie besuchen zu\ndürfen, so darf ich nicht die meine verschweigen, ihn be-\ngleiten zu dürfen und Sie, verehrter Herr Professor, wider-\nzusehen. In inniger Verehrung geben\nIhr ergebener\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf kariertem Papier. Die Tinte ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "IX. Parnisgasse 10\n\nMontag\nMai 1924\n\nHochverehrter Herr Professor,\nvielen Dank für\nIhre gute Nachricht! Rolland ist an den nächsten Aben-\nden beim Musikfest nur mit dem aus Gesundheits-\ngründen immer sogleich nach Hause. So wird er sich\nerlauben Mittwoch etwas nach 2 Uhr zu Ihnen zu kommen\nund wenn ich Ihnen seine Freude sage, Sie besuchen zu\ndürfen, so darf ich nicht die meine verschweigen, ihn be-\ngleiten zu dürfen und Sie, verehrter Herr Professor, wider-\nzusehen. In inniger Verehrung geben\nIhr ergebener\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit einer Farbskala für Archivierungszwecke am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1050,
+    "total_words": 172,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      525,
+      0,
+      525
+    ],
+    "chars_per_page_median": 525,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

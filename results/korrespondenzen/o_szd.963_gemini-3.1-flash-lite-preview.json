@@ -1,0 +1,107 @@
+{
+  "object_id": "o_szd.963",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom [Juni 1933], SZ-LAS/B7.22",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.963/IMG.1",
+      "https://gams.uni-graz.at/o:szd.963/IMG.2",
+      "https://gams.uni-graz.at/o:szd.963/IMG.3",
+      "https://gams.uni-graz.at/o:szd.963/IMG.4",
+      "https://gams.uni-graz.at/o:szd.963/IMG.5",
+      "https://gams.uni-graz.at/o:szd.963/IMG.6"
+    ],
+    "input_image_count_total": 6
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom [Juni 1933], SZ-LAS/B7.22\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 6 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hoch verehrter Herr Professor, Sie kennen\n(nebst meiner Verehrung) meinen Respect vor\nIhrer Zeit nur dass ich nicht wagen würde, einen\nbloss Neugierigen bei Ihnen einzuführen. Aber\nwenn H. G. Wells, der grosse Engländer den innigen\nWunsch hegt, Sie bei seinem streng gelegengehaltenen[?]\nWiener Aufenthalt als Einzigen zu sehen, so glau-\nbe ich sagen zu dürfen, dass dieser Besuch für\nSie doch nur eine Freude bereiten würde. Vielleicht\nhaben Sie die Güte, ihm zu sagen, wann er Sie\nbesuchen darf. In bester Verehrung und Liebe\nIhr aufrichtig ergebener\nStefan Zweig",
+        "notes": "Handschriftlicher Brief von Stefan Zweig an Sigmund Freud. Violette Tinte auf weißem Papier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Hoch verehrter Herr Professor, Sie kennen\n(nebst meiner Verehrung) meinen Respect vor\nIhrer Zeit nur dass ich nicht wagen würde, einen\nbloss Neugierigen bei Ihnen einzuführen. Aber\nwenn H. G. Wells, der grosse Engländer den innigen\nWunsch hegt, Sie bei seinem streng gelegengehaltenen[?]\nWiener Aufenthalt als Einzigen zu sehen, so glau-\nbe ich sagen zu dürfen, dass dieser Besuch für\nSie doch nur eine Freude bereiten würde. Vielleicht\nhaben Sie die Güte, ihm zu sagen, wann er Sie\nbesuchen darf. In bester Verehrung und Liebe\nIhr aufrichtig ergebener\nStefan Zweig",
+        "notes": "Identisch mit Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "Hoch verehrter Herr Professor, Sie kennen\n(nebst meiner Verehrung) meinen Respect vor\nIhrer Zeit nur dass ich nicht wagen würde, einen\nbloss Neugierigen bei Ihnen einzuführen. Aber\nwenn H. G. Wells, der grosse Engländer den innigen\nWunsch hegt, Sie bei seinem streng gelegengehaltenen[?]\nWiener Aufenthalt als Einzigen zu sehen, so glau-\nbe ich sagen zu dürfen, dass dieser Besuch für\nSie doch nur eine Freude bereiten würde. Vielleicht\nhaben Sie die Güte, ihm zu sagen, wann er Sie\nbesuchen darf. In bester Verehrung und Liebe\nIhr aufrichtig ergebener\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, inklusive Archiv-Farbskala am linken Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Das Wort 'gelegengehaltenen' ist leicht unsicher, da es eine ungewöhnliche Wortbildung ist, aber die Buchstaben sind klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1695,
+    "total_words": 270,
+    "total_pages": 2,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 6,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      565,
+      0,
+      565,
+      0,
+      0,
+      565
+    ],
+    "chars_per_page_median": 565.0,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0111,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

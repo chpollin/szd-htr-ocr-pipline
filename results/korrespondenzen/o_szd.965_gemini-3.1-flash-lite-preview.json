@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.965",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom [Oktober/November 1935], SZ-LAS/B7.24",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.965/IMG.1",
+      "https://gams.uni-graz.at/o:szd.965/IMG.2",
+      "https://gams.uni-graz.at/o:szd.965/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom [Oktober/November 1935], SZ-LAS/B7.24\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11, Portland Place\nLondon\n\nHochverehrter Herr Professor, zum Erscheinen Ihrer\nAutobiografie in England versprach in der „Sunday\nTimes“ eine Anzeige; hier ist sie, leider mit aller-\nhand Zwischentiteln, Kürzungen (besonders am\nEnde) und einer höchst mässigen Übersetzung. Aber\nSie verstehen, dass mir nur daran gelegen war,\nin diesem gelesensten Blatt mit dem gebührenden\nRespect Ihr Werk gewürdigt zu wissen. Es war eine\ntaktische Massnahme nur nicht wahr, Sie betrachten\nsie nicht auf künstlerischen Wert. Ich bin mir\nimmer jeder Gelegenheit froh, meiner Verehrung für\nSie Ausdruck geben zu dürfen. Mit den herzlichsten\nWünschen Ihr verehrungsvoll ergebener\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf hellblauem Papier. Die Tinte ist violett. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "11, Portland Place\nLondon\n\nHochverehrter Herr Professor, zum Erscheinen Ihrer\nAutobiografie in England versprach in der „Sunday\nTimes“ eine Anzeige; hier ist sie, leider mit aller-\nhand Zwischentiteln, Kürzungen (besonders am\nEnde) und einer höchst mässigen Übersetzung. Aber\nSie verstehen, dass mir nur daran gelegen war,\nin diesem gelesensten Blatt mit dem gebührenden\nRespect Ihr Werk gewürdigt zu wissen. Es war eine\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit einer Farbskala/Grauskala für Archivierungszwecke über dem unteren Teil des Textes.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich geschrieben und weist keine nennenswerten Leseschwierigkeiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1106,
+    "total_words": 162,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      672,
+      0,
+      434
+    ],
+    "chars_per_page_median": 672,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

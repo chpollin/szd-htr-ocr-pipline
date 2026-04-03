@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.991",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Anna Freud vom 4. August 1939, SZ-LAS/B7.48",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.991/IMG.1",
+      "https://gams.uni-graz.at/o:szd.991/IMG.2",
+      "https://gams.uni-graz.at/o:szd.991/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Anna Freud vom 4. August 1939, SZ-LAS/B7.48\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lansdown Lodge\nLansdown Road\nBath.\n\nBath, 4.August 1939.\n\nLiebes verehrtes Fräulein!\n\nIch las hier in\neiner Zeitung, dass Ihr verehrter Herr Vater\nein paar ungünstige Tage gehabt hätte. Hof-\nfentlich ist jede Gefahr schon vorüber. Ich\nwollte mich eigentlich telephonisch von hier\naus erkundigen, hatte aber Angst, in diesen\nTagen, wo Sie ohnehin sicher viele Anfragen\nhatten, zu stören. Sobald man Ihren Herrn\nVater dann wieder besuchen kann, möchte ich\nsofort kommen und würde auch die Reise nicht\nscheuen.\n\nAlles Gute dem ver-\nehrten Freunde und Ihrer ganzen Familie\n\nvon Ihrem\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Die Unterschrift ist auf dem Scan IMG_1.jpg gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Lansdown Lodge\nLansdown Road\nBath.\n\nBath, 4.August 1939.\n\nLiebes verehrtes Fräulein!\n\nIch las hier in\neiner Zeitung, dass Ihr verehrter Herr Vater\nein paar ungünstige Tage gehabt hätte. Hof-\nfentlich ist jede Gefahr schon vorüber. Ich\nwollte mich eigentlich telephonisch von hier\naus erkundigen, hatte aber Angst, in diesen\nTagen, wo Sie ohnehin sicher viele Anfragen\nhatten, zu stören. Sobald man Ihren Herrn\nVater dann wieder besuchen kann, möchte ich\nsofort kommen und würde auch die Reise nicht\nscheuen.\n\nAlles Gute dem ver-\nehrten Freunde und Ihrer ganzen Familie\n\nvon Ihrem\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala/Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1186,
+    "total_words": 186,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      593,
+      0,
+      593
+    ],
+    "chars_per_page_median": 593,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

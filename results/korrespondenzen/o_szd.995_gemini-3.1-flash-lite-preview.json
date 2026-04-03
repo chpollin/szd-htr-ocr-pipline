@@ -1,0 +1,107 @@
+{
+  "object_id": "o_szd.995",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 18. März 1927, SZ-LAS/B7.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.995/IMG.1",
+      "https://gams.uni-graz.at/o:szd.995/IMG.2",
+      "https://gams.uni-graz.at/o:szd.995/IMG.3",
+      "https://gams.uni-graz.at/o:szd.995/IMG.4",
+      "https://gams.uni-graz.at/o:szd.995/IMG.5",
+      "https://gams.uni-graz.at/o:szd.995/IMG.6"
+    ],
+    "input_image_count_total": 6
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 18. März 1927, SZ-LAS/B7.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 6 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Hôtel-Château Saint-Georges\n\nR. C. C.\n2349.2350\nRoute de Fréjus — CANNES\n\n18. III 1927\n\nVerehrter Herr Professor, zwei Tage\nvor meiner Abreise wage ich noch\nein kleines Wort an Sie. Gewiss wird\ndas Beethovenfest auch Sie mit Be-\nsuchen bedrängen — dennoch erlaube\nich mir ein einführendes Wort für\nJules Romains an Sie zu richten,\n— nicht weil er einer der besten Dichter\nFrankreichs ist, sondern weil er als\nder erste der französischen Dichter jenen",
+        "notes": "Brief auf Hotelbriefpapier. Handschrift in Tinte. Die Seite ist identisch mit Scan 2.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Hôtel-Château Saint-Georges\n\nR. C. C.\n2349.2350\nRoute de Fréjus — CANNES\n\n18. III 1927\n\nVerehrter Herr Professor, zwei Tage\nvor meiner Abreise wage ich noch\nein kleines Wort an Sie. Gewiss wird\ndas Beethovenfest auch Sie mit Be-\nsuchen bedrängen — dennoch erlaube\nich mir ein einführendes Wort für\nJules Romains an Sie zu richten,\n— nicht weil er einer der besten Dichter\nFrankreichs ist, sondern weil er als\nder erste der französischen Dichter jenen",
+        "notes": "Brief auf Hotelbriefpapier. Handschrift in Tinte. Identisch mit Scan 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Aufsatz über Ihr Werk in der\nNouvelle Revue Francaise schrieb,\nder stärksten Einfluss hatte. Er ist\nbeim Beethoven Fest in Wien und\nder Gedanke, Sie sehen zu dürfen,\nwürde ihn sehr beglücken. Hoffentlich\nerlaubt Ihre Gesundheit ihm eine halbe\nStunde.\n\nMeine Verehrung ist immer,\nmeine Gedanken oft bei Ihnen!\n\nIhr getreu ergebener\n\nStefan Zweig",
+        "notes": "Rückseite des Briefes. Handschrift in Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text von der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 6,
+        "transcription": "Hôtel-Château Saint-Georges\n\nR. C. C.\n2349.2350\nRoute de Fréjus — CANNES\n\n18. III 1927\n\nVerehrter Herr Professor, zwei Tage\nvor meiner Abreise wage ich noch\nein kleines Wort an Sie. Gewiss wird\ndas Beethovenfest auch Sie mit Be-\nsuchen bedrängen — dennoch erlaube\nich mir ein einführendes Wort für\nJules Romains an Sie zu richten,\n— nicht weil er einer der besten Dichter\nFrankreichs ist, sondern weil er als\nder erste der französischen Dichter jenen",
+        "notes": "Vorderseite des Briefes mit Farbskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1694,
+    "total_words": 279,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 6,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      450,
+      450,
+      344,
+      0,
+      0,
+      450
+    ],
+    "chars_per_page_median": 450,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        1
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

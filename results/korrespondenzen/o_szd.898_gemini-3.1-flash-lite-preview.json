@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.898",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 6. Februar 1919, SZ-LAS/B1.2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.898/IMG.1",
+      "https://gams.uni-graz.at/o:szd.898/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 6. Februar 1919, SZ-LAS/B1.2\n- Signatur: SZ-LAS/B1.2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mon cher Frans, merci pour la bonne\ncarte. J'espère tu auras passé des bons\nmoments, il faut bien en ces temps présents\nle petit bonheur de l'affection amicale.\nEt ton travail? J'ai entendu de ton livre\n'd'Heures' et je n'en doute pas que c'est\nun chef d'oeuvre. A quand les bois pour\nmoi mon cher ami? Je suis dans l'attente\n- loin de vouloir te presser, c'est seule-\nment le grand plaisir que je prends a notre\nlivre, qui me laisse demander. Je travaille\nbien, je lis moins des journaux et avec\nmes heures je suis déjà rentré: j'ai vu\nma maison belle et delaisée, le beau jar-\ndin au haut de la montagne et je suis\nplein d'une nostalgie de travail et de re-\npos. Quand est ce que nous nous reverrons.\nJe reste pour l'instant ici, car je tra-\nvaille et je ne veux pas changer de place,\nma femme est avec moi et ne retour-\nnera que pour prendre les enfants qui\nse trouvent bien. A revoir donc, je",
+        "notes": "Handschriftliche Nachricht auf der Rückseite einer Postkarte. Violette Tinte. Gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "hâte pas de dire: a lautôt.\nMes meilleurs compliments\na ta femme et ta fille, une\nbonne poignée de main aux\namis! Fidelement, ton vieux\n\nStefan Zweig\n\n6. II 1919\nRüschlikon, Belvoir",
+        "notes": "Adressseite der Postkarte. Gedruckte Postkarten-Vordrucke. Handschriftliche Nachricht, Unterschrift und Datumsangabe. Briefmarke mit Poststempel 'RÜSCHLIKON 6.II.19-2'. Empfängeradresse: 'Monsieur Frans Masereel, Genève, 8, rue de l'aubepine'.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist in diesem Dokument klar und deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1077,
+    "total_words": 204,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      896,
+      181
+    ],
+    "chars_per_page_median": 538.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

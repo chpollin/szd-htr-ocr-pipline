@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.967",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 4. Mai 1936, SZ-LAS/B7.26",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.967/IMG.1",
+      "https://gams.uni-graz.at/o:szd.967/IMG.2",
+      "https://gams.uni-graz.at/o:szd.967/IMG.3",
+      "https://gams.uni-graz.at/o:szd.967/IMG.4",
+      "https://gams.uni-graz.at/o:szd.967/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 4. Mai 1936, SZ-LAS/B7.26\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49, HALLAM STREET.\nLONDON. W.1.\n\n4.Mai 1936.\n\n\nHochverehrter Herr Professor!\n\nIch weiss, Sie mögen es nicht, dass\nman Ihren Festtag feiert, aber der Egoismus der\nmenschlichen Natur, den Sie so wohl kennen, for-\ndert sein Recht. Denn welcher Irrtum, es wäre Ihr\nFesttag allein. Es ist doch unserer vor allem,\nein Danktag der Geistigen dieser Erde. Wir, die\nwir im Prinzip die \"Führer\" nicht für erfreulich\nhalten, wären doch die Undankbarsten, wenn wir\nnicht jener mit Liebe und Dankbarkeit gedächten,\ndie uns zu seelischen und geistigen Erkenntnis-\nsen geführt haben. Seien Sie also, verehrter Pro-\nfessor, nicht strenge an diesem Tag und gönnen\nSie uns die Freude, uns Ihrer aus ganzem Herzen\nund mit ganzer Liebe zu freuen.\nThomas Mann wird Ihnen in zwei Tagen\neinen Bogen mit Unterschriften überbringen. Wir,\ndie wir diese kleine Sammlung einleiteten, hatten",
+        "notes": "Typoskript auf Briefpapier mit Briefkopf. Oben links: \"LANGHAM 3693.\" (vertikal gedruckt).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "eine herzliche Genugtuung daran, zu sehen, wie\ndankbar alle diese Menschen die Gelegenheit er-\ngriffen, Ihnen mit einer Unterschrift wenigstens\nihre Verehrung zeigen zu können. Ja, sie dankten\nuns sogar, dass wir ihnen Gelegenheit dazu boten.\nEine ganze Anzahl Namen werden noch im Nachtrag\nkommen, denn wir leben ja in grauenhafter Diaspo-\nra und ein Grossteil der wesentlichen Menschen\nauf ständiger Wanderschaft und nur verspätet zu\nerreichen. Einen kleinen Geburtstagsgruss, den\nich selber geschrieben habe und der in Amerika,\nFrankreich und sonst in einer Reihe von Zeitun-\ngen erscheint, mögen Sie mit Nachsicht aufnehmen.\nEr wendet sich an breitere Leserkreise und wollte\nnur eigentlich gerade denen begreiflich machen,\nwer Sie uns sind und einer gerechteren Zukunft\nsein werden, die es selbst noch nicht zu erkennen\nvermögen.\nVerehrter und lieber Herr Professor,\nwas soll ich Ihnen wünschen zu diesem Tage? Ge-\nsundheit vor allem und das Bewusstsein, inmitten\neiner schwankenden und stürzenden Welt etwas Dauern-",
+        "notes": "Typoskript, Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "2)\n\ndes und Unvergängliches geschaffen zu haben und\nfür Millionen Menschen ein Helfer gewesen zu sein.\nIch wüsste niemanden, der das heute mit gleicher\nBerechtigung von sich sagen könnte und niemanden,\ndem wir alle so tief verschuldet sind.\nIn Erinnerung an viele bewährte Güte\nund in inniger Verehrung\n\nIhr\n\nStefan Zweig",
+        "notes": "Typoskript, Fortsetzung des Briefes. Unterschrift handschriftlich in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "2)\n\ndes und Unvergängliches geschaffen zu haben und\nfür Millionen Menschen ein Helfer gewesen zu sein.\nIch wüsste niemanden, der das heute mit gleicher\nBerechtigung von sich sagen könnte und niemanden,\ndem wir alle so tief verschuldet sind.\nIn Erinnerung an viele bewährte Güte\nund in inniger Verehrung\n\nIhr\n\nStefan Zweig",
+        "notes": "Typoskript, identisch mit Seite 3, jedoch mit einer Farbskala/Grauskala am unteren Rand zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift ist deutlich als Stefan Zweig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2523,
+    "total_words": 394,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      861,
+      1020,
+      321,
+      0,
+      321
+    ],
+    "chars_per_page_median": 861,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

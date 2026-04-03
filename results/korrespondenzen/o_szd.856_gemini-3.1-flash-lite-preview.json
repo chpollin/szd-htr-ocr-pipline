@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.856",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 5. Juli 1937, SZ-AAP/B1.71",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.856/IMG.1",
+      "https://gams.uni-graz.at/o:szd.856/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 5. Juli 1937, SZ-AAP/B1.71\n- Signatur: SZ-AAP/B1.71\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "5.Juli 1937.\n\nGeehrter Herr Reichner!\n\nIch bestätige den Erhalt Ihrer\nBriefe und werde wunschgemäss das Manuskript\nHerrn Fuchs, der eben angekommen ist, mitge-\nben. Jedoch besteht mein Partner darauf, dass\ndas Manuskript trotzdem von dem Moment an, wo\nwir es aus den Händen geben bis zu dem Augen-\nblick, wo wir es wieder hier zurückerhalten\nhaben, ordnungsgemäss {in jenem Betrag[?]} versichert wird. Bitte\nwollen Sie alles hierfür Nötige veranlassen.\n\nHerrn Huebsch habe ich Ihre Vor-\nschläge mitgeteilt, er wird Ihnen direkt ant-\nworten.\n\nMit den besten Empfehlungen\n\nschliesslich kann ja Herrn Fuchs\netwas passieren, es kann unterwegs\nverbrennen, gestohlen werden etc",
+        "notes": "Typoskript mit handschriftlicher Ergänzung in der Zeile 7 ('in jenem Betrag') und handschriftlichem Nachtrag am Ende des Dokuments. Die Tinte der handschriftlichen Teile ist violett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar, gemäß Anweisung nicht transkribiert.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftliche Ergänzung 'in jenem Betrag' ist aufgrund der Platzierung und der Handschrift leicht unsicher, aber im Kontext des Satzes logisch."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 671,
+    "total_words": 101,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      671,
+      0
+    ],
+    "chars_per_page_median": 671,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0099,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

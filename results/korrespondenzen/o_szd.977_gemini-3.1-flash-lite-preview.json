@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.977",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 18. Juli 1938, SZ-LAS/B7.35",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.977/IMG.1",
+      "https://gams.uni-graz.at/o:szd.977/IMG.2",
+      "https://gams.uni-graz.at/o:szd.977/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 18. Juli 1938, SZ-LAS/B7.35\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49. HALLAM STREET.\nLONDON. W.1.\n\n18.Juli 1938.\n\nLieber verehrter Herr Professor!\n\nNur noch ein Wort der Information. Sie\nwissen, dass ich immer ängstlich vermieden habe, Leu-\nte zu Ihnen zu bringen, aber morgen ist das wahrhaftig\neine wichtige Ausnahme. Für mich ist Salvador Dali (so\nobstrus manche seiner Sachen sein mögen) das einzige\nMalergenie der Epoche und der einzige, der sie über-\ndauern wird, ein Fanatiker seiner Ueberzeugung und der\ngetreueste, der dankbarste Schüler, den Sie unter den\nKünstlern haben. Seit Jahren ist es der Wunsch dieses\nwirklichen Genies, Ihnen einmal zu begegnen (er behaup-\ntet, dass er niemandem so viel dankt in der Kunst als\nIhnen). So kommen wir morgen, er und seine Frau, wo-\nbei er die Gelegenheit benützen möchte, während wir\nsprechen, vielleicht eine Notizskizze zu machen - die\nwirklichen Portraits macht er immer aus der Erinnerung\nund inneren Gestaltung. Um ihn zu legitimieren, brin-\ngen wir Ihnen zum Ansehen sein letztes Werk mit, das M[r] Edward\nJames besitzt. Ich glaube, dass seit den alten Mei-\nstern niemand solche Farben gefunden hat und in den",
+        "notes": "Typoskript mit handschriftlicher Ergänzung 'Mr Edward' am Ende des vorletzten Absatzes. 'LANGHAM 3693.' ist vertikal am linken Rand aufgedruckt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Einzelheiten, so symbolisch sie wirken mögen, finde ich\neine Vollendung, gegen die alles Malerische dieser Zeit\nmir zu verblassen scheint. Das Bild heisst \"Narziss\"\nund ist vielleicht auch unter Ihrem Einfluss entstanden.\nDies zur Entschuldigung, wenn wir als\nkleine Karavane kommen. Aber ich glaube, ein Mann wie\nSie sollte einmal den Künstler sehen, auf den er wie\nkein anderer eingewirkt hat und den zu kennen und zu\nschätzen ich immer als ein Privileg betrachtet habe.\nEr ist nur auf zwei Tage aus Paris hier (er ist Katala-\nne) und wird unser Zusammensein nicht stören. Ich bin\nnur glücklich, dass Sie einmal diesen vielleicht gröss-\nten Ihrer Adepten kennenlernen. - Mögen Sie diese hohen\nTöne nicht unziemend finden. Das Bild wird Sie viel-\nleicht zuerst überraschen, aber ich kann mir nicht den-\nken, dass es Ihnen den Wert dieses Künstlers nicht of-\nfenbaren sollte.\n\nHerzlichst und in inniger Verehrung\n\nIhr\nStefan Zweig\n\nSalvador Dali hätte Ihnen natürlich gerne seine Bilder\nhier in einer Ausstellung gezeigt, aber da wir wissen,\ndass Sie ungern oder gar nicht ausgehen, bringen wir Ih-\nnen zur Ansicht dieses sein letztes und wie mir scheint,\nschönstes Opus ins Haus.",
+        "notes": "Typoskript mit handschriftlicher Unterschrift 'Stefan Zweig' in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Einzelheiten, so symbolisch sie wirken mögen, finde ich\neine Vollendung, gegen die alles Malerische dieser Zeit\nmir zu verblassen scheint. Das Bild heisst \"Narziss\"\nund ist vielleicht auch unter Ihrem Einfluss entstanden.\nDies zur Entschuldigung, wenn wir als\nkleine Karavane kommen. Aber ich glaube, ein Mann wie\nSie sollte einmal den Künstler sehen, auf den er wie\nkein anderer eingewirkt hat und den zu kennen und zu\nschätzen ich immer als ein Privileg betrachtet habe.\nEr ist nur auf zwei Tage aus Paris hier (er ist Katala-\nne) und wird unser Zusammensein nicht stören. Ich bin\nnur glücklich, dass Sie einmal diesen vielleicht gröss-\nten Ihrer Adepten kennenlernen. - Mögen Sie diese hohen\nTöne nicht unziemend finden. Das Bild wird Sie viel-\nleicht zuerst überraschen, aber ich kann mir nicht den-\nken, dass es Ihnen den Wert dieses Künstlers nicht of-\nfenbaren sollte.\n\nHerzlichst und in inniger Verehrung\n\nIhr\nStefan Zweig\n\nSalvador Dali hätte Ihnen natürlich gerne seine Bilder\nhier in einer Ausstellung gezeigt, aber da wir wissen,\ndass Sie ungern oder gar nicht ausgehen, bringen wir Ih-\nnen zur Ansicht dieses sein letztes und wie mir scheint,\nschönstes Opus ins Haus.",
+        "notes": "Identisch mit Seite 2, jedoch mit aufgelegter Farbskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein Typoskript handelt. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3460,
+    "total_words": 562,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1100,
+      1180,
+      1180
+    ],
+    "chars_per_page_median": 1140.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

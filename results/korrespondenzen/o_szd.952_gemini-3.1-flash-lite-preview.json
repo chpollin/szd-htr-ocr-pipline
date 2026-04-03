@@ -1,0 +1,77 @@
+{
+  "object_id": "o_szd.952",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Sigmund Freud vom 12. August 1930, SZ-LAS/B7.12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.952/IMG.1",
+      "https://gams.uni-graz.at/o:szd.952/IMG.2",
+      "https://gams.uni-graz.at/o:szd.952/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Sigmund Freud vom 12. August 1930, SZ-LAS/B7.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HAMBURG\nNICOLAI - FLEET",
+        "notes": "Vorderseite einer Ansichtspostkarte mit dem Motiv 'Nicolai-Fleet' in Hamburg. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Verehrter Herr Professor, erlaub\nben Sie mir meinen Glückwunsch\nzur Verleihung des Goethe-Preises\nzu übermitteln: möge er den längst\nverdienten Hotelpreis den Weg be-\nreiten. Ich habe mich vor den Fest-\nspielen nach Hamburg zurückgezo-\ngen, um den Essay über Sie in Ruhe\nzu entwerfen: er wird noch im Sep-\ntember vollendet sein und wenn\nEiniges davon Ihnen Freude bereitet,\nso war die Arbeit nicht vergeblich\ngetan. In herzlicher Verehrung Ihr\nHamburg\nAlsterglacis 10 bei Taffé\nStefan Zweig\n\nProfessor Sigmund Freud\n\nzu Zeit Grundlsee\nÖsterreich",
+        "notes": "Handschriftliche Nachricht von Stefan Zweig an Sigmund Freud. Briefmarke (Deutsches Reich, 8 Pfennig) und Poststempel (Hamburg, 12.8.30) vorhanden. Der Text 'Vergessen Sie nicht Straße und Hausnummer anzugeben' ist als Stempel/Druck im Hintergrund der Handschrift sichtbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Identisch mit Seite 2, jedoch mit aufgelegter Farbskala am oberen Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Passagen sind eindeutig Stefan Zweig zuzuordnen. Der im Hintergrund der Handschrift sichtbare Stempeltext ('Vergessen Sie nicht Straße und Hausnummer anzugeben') ist teilweise überlagert, aber lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 568,
+    "total_words": 89,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      23,
+      545,
+      0
+    ],
+    "chars_per_page_median": 284.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

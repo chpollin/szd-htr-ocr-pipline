@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.990",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 14. September 1939, SZ-LAS/B7.47",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.990/IMG.1",
+      "https://gams.uni-graz.at/o:szd.990/IMG.2",
+      "https://gams.uni-graz.at/o:szd.990/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 14. September 1939, SZ-LAS/B7.47\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Bath, Lansdown Lodge\n14. Sept. 1939\n\nMein teurer verehrter Freund und Meister, wann\nwerde ich Sie wiedersehen? Zur Zeit steht es schlimm\naus. Meine Naturalisation stand knapp vor der\nErledigung; da ich aber hochmütig war und nicht\ndrängelte, war sie noch nicht unterschrieben. So bin ich\njetzt „enemy alien“ und darf mich mit 5 Meilen vom\nMarktplatz von Bath entfernen. Sic transit gloria mundi\n— so schwindt die literarische Geltung ein vor einem Poli-\nzierlass und ich verkehre hier dumm und nutzlos, noch\nnicht fähig zu arbeiten weit fern von allen Freunden.\nIch würde lachen über diese Torheit —\nallmählich könnte ich nützlicher sein als sieben Beamte des\nMinisteriums für Propaganda — aber sie nimmt mir die\nFreude, Sie zu sehen und das macht mir traurig. Hoffent-\nlich leiden Sie nur an der Zeit wie wir alle aus {dazu noch}\nkörperlichen Schmerzen. Wir müssen jetzt fest bleiben — es\nwäre sinnlos zu sterben, ohne vorher die Höllenfahrt\ndes Verbrecher gesehen zu haben.\nAll den Ihren innige Grüße, in alter und\nunentwegt treuer Verehrung Ihr\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Zeile 'dazu noch' wurde über der Zeile 'körperlichen Schmerzen' eingefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Bath, Lansdown Lodge\n14. Sept. 1939\n\nMein teurer verehrter Freund und Meister, wann\nwerde ich Sie wiedersehen? Zur Zeit steht es schlimm\naus. Meine Naturalisation stand knapp vor der\nErledigung; da ich aber hochmütig war und nicht\ndrängelte, war sie noch nicht unterschrieben. So bin ich\njetzt „enemy alien“ und darf mich mit 5 Meilen vom\nMarktplatz von Bath entfernen. Sic transit gloria mundi\n— so schwindt die literarische Geltung ein vor einem Poli-\nzierlass und ich verkehre hier dumm und nutzlos, noch\nnicht fähig zu arbeiten weit fern von allen Freunden.\nIch würde lachen über diese Torheit —\nallmählich könnte ich nützlicher sein als sieben Beamte des\nMinisteriums für Propaganda — aber sie nimmt mir die\nFreude, Sie zu sehen und das macht mir traurig. Hoffent-\nlich leiden Sie nur an der Zeit wie wir alle aus {dazu noch}\nkörperlichen Schmerzen. Wir müssen jetzt fest bleiben — es\nwäre sinnlos zu sterben, ohne vorher die Höllenfahrt\ndes Verbrecher gesehen zu haben.\nAll den Ihren innige Grüße, in alter und\nunentwegt treuer Verehrung Ihr\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar. Die Einfügung 'dazu noch' wurde als solche markiert."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2122,
+    "total_words": 352,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1061,
+      0,
+      1061
+    ],
+    "chars_per_page_median": 1061,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

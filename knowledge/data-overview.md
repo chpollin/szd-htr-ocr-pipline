@@ -2,7 +2,7 @@
 title: "Datengrundlage"
 aliases: ["Datenanalyse"]
 created: 2026-03-30
-updated: 2026-04-01
+updated: 2026-04-03
 type: analysis
 status: stable
 related:
@@ -10,21 +10,54 @@ related:
   - "[[journal]]"
 ---
 
-# Datengrundlage: TEI-Metadaten aller Sammlungen
+# Datengrundlage: Stefan-Zweig-Nachlass (Literaturarchiv Salzburg)
 
-## Ueberblick
+## Physischer Bestand
 
-4 Sammlungen, ~2107 Objekte im Backup, TEI-XML als primaere Metadatenquelle.
+Lokales Backup unter `SZD_BACKUP_ROOT`. Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien (100% Abdeckung, keine fehlenden Dateien).
 
-| Sammlung | TEI-Eintraege | mit PID | Backup-Objekte | TEI-Datei |
+| Sammlung | Backup-Dir | Objekte | Bilder | Volumen | Bilder/Obj (Median) | Bilder/Obj (Max) |
+|---|---|---|---|---|---|---|
+| Lebensdokumente | `lebensdokumente/` | 127 | 2.879 | 3,5 GB | 3 | 249 |
+| Werke | `facsimiles/` | 169 | 7.842 | 9,5 GB | 21 | 341 |
+| Aufsatzablage | `aufsatz/` | 625 | 3.844 | 4,8 GB | 5 | 69 |
+| Korrespondenzen | `korrespondenzen/` | 1.186 | 4.154 | 5,8 GB | 3 | 151 |
+| **Gesamt** | | **2.107** | **18.719** | **23,6 GB** | | |
+
+**Bildformat:** JPEG, Median 4800 x 7234 px, ca. 1,3 MB/Bild.
+
+### Grosse Objekte (>50 Bilder)
+
+| Sammlung | Anzahl >50 | Groesstes Objekt | Bilder |
+|---|---|---|---|
+| Lebensdokumente | 17 | o_szd.143 | 249 |
+| Werke | 50 | o_szd.948 "Rausch der Verwandlung" | 341 |
+| Aufsatzablage | 2 | o_szd.2291 "Salzburg" | 69 |
+| Korrespondenzen | 5 | o_szd.75 | 151 |
+
+Werke ist die bildintensivste Sammlung: 8% der Objekte, aber 42% aller Bilder. 50 Objekte mit >50 Bildern erfordern Chunking (Pipeline-Default: 20 Bilder/Chunk).
+
+### Sprachen
+
+| Sprache | Objekte | Anteil |
+|---|---|---|
+| Deutsch | 2.015 | 95,6% |
+| Englisch | 54 | 2,6% |
+| Franzoesisch | 32 | 1,5% |
+| Italienisch | 4 | 0,2% |
+| Spanisch | 2 | 0,1% |
+
+## TEI-Metadaten vs. Backup
+
+TEI-XML als primaere Metadatenquelle, heruntergeladen am 30.03.2026 von https://stefanzweig.digital/. TEI und Backup sind nicht direkt ueber PIDs verknuepft — TEI nutzt Signaturen (z.B. `SZ-AAP/W2.2`), Backup nutzt `o_szd.*`-IDs. Die Verknuepfung laeuft ueber `pipeline/tei_context.py`.
+
+| Sammlung | TEI msDesc | Backup-Objekte | Diskrepanz | TEI-Datei |
 |---|---|---|---|---|
-| Lebensdokumente | 143 | 120 | ~127 | `szd_lebensdokumente_tei.xml` |
-| Werke | 352 | 162 | ~169 | `szd_werke_tei.xml` |
-| Aufsatzablage | 624 | 624 | ~625 | `szd_aufsatzablage_tei.xml` |
-| Korrespondenzen | 723 | 0 | ~1186 | `szd_korrespondenzen_tei.xml` |
-| **Gesamt** | **1842** | **906** | **~2107** | |
-
-TEI-Quellen heruntergeladen am 30.03.2026 von https://stefanzweig.digital/.
+| Lebensdokumente | 143 | 127 | TEI +16 ohne Digitalisat | `szd_lebensdokumente_tei.xml` |
+| Werke | 352 | 169 | TEI +183 (Werkverzeichnis > digitalisierte Faksimiles) | `szd_werke_tei.xml` |
+| Aufsatzablage | 624 | 625 | ~1:1 | `szd_aufsatzablage_tei.xml` |
+| Korrespondenzen | 723 | 1.186 | Backup +463 (spaetere Digitalisierungen) | `szd_korrespondenzen_tei.xml` |
+| **Gesamt** | **1.842** | **2.107** | | |
 
 ---
 

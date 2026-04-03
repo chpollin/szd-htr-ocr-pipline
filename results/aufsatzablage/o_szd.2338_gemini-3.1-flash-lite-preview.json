@@ -1,0 +1,116 @@
+{
+  "object_id": "o_szd.2338",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Weininger, Otto, SZ-AAP/W-AA211.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2338/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2338/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2338/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2338/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2338/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2338/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2338/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Weininger, Otto\n- Signatur: SZ-AAP/W-AA211.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Weininger, Otto\n✓ Letzte Botschaft von O. W.\n✓ Vorbeigehen an einem unauffälligen Menschen.",
+        "notes": "Handschrift in violetter Tinte auf weißem Papier. Es handelt sich um eine Karteikarte oder einen Zettel mit bibliographischen oder inhaltlichen Notizen.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar, aber nicht zu transkribieren.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Weltminite von Waterloo",
+        "notes": "Handschrift in violetter Tinte auf weißem Papier. Einzelne Zeile.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar, aber nicht zu transkribieren.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Weininger, Otto\n✓ Letzte Botschaft von O. W.\n✓ Vorbeigehen an einem unauffälligen Menschen.",
+        "notes": "Identisch mit Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar, aber nicht zu transkribieren.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Weininger, Otto\n✓ Letzte Botschaft von O. W.\n✓ Vorbeigehen an einem unauffälligen Menschen.",
+        "notes": "Identisch mit Seite 1, inklusive Archiv-Grauskala und Farbkarte am oberen und unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und gut lesbar. Die Wiederholungen in den Scans bestätigen die Lesung."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 296,
+    "total_words": 45,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      91,
+      0,
+      23,
+      0,
+      91,
+      0,
+      91
+    ],
+    "chars_per_page_median": 91,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "duplicate_pages"
+    ]
+  }
+}

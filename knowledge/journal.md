@@ -253,7 +253,7 @@ Review-Spalte, Qualitaets-Panel, Seiten-Anomalie-Marker im Code, wartet auf L3-D
 
 ### L2: Deliverables abgeschlossen
 
-- **htr-interchange-format.md** geschrieben — JSON Schema v0.1, teiCrafter-Mapping, SZD-HTR-Mapping, Abgrenzung ALTO/PAGE/hOCR, Beispiel basierend auf o_szd.100.
+- **htr-interchange-format.md** geschrieben — JSON Schema v0.1, Abgrenzung ALTO/PAGE/hOCR, Beispiel basierend auf o_szd.100.
 - **verification-concept.md §1.9** geprueft und bestaetigt — keine Aenderungen noetig.
 - Schritt 1 + 2 der L2-Auftraege erledigt. Schritt 3+4 blockiert (warten auf Pilot-Durchfuehrung durch Operator).
 
@@ -300,40 +300,6 @@ Alle 6 knowledge-Dateien + Lane.md auf Konsistenz, empirische Fundierung und Red
 
 ---
 
-## 2026-04-01 — Session 10: teiCrafter-Integration und TEI-Zielstruktur
-
-### L2: Schritt 3+4 abgeschlossen
-
-**tei-target-structure.md** (7 Abschnitte):
-- DTABf als TEI-Profil, SZD-Erweiterungen via `szdg:`-Namespace
-- Vollstaendiges XML-Beispiel basierend auf o_szd.1079 (Brief an Fleischer)
-- Markup→TEI-Mapping-Tabelle: 7 Pipeline-Marker → TEI-Elemente
-- NER-Strategie: Phase 1 Personen/Orte/Daten, Phase 2 Werke/Organisationen
-- Empfehlung: Separate TEI-Dateien pro Objekt (nicht in Metadaten-TEI einbetten)
-- 5 offene Entscheidungen dokumentiert (lb, NER-Tiefe, Confidence-Attribute, Mehrsprachigkeit, Umschlaege)
-
-**teiCrafter-integration.md** (8 Abschnitte):
-- JSON-Import-Spec fuer teiCrafter Step 1 (neuer Dateityp .json)
-- Auto-Vorbelegung von Step 2 aus JSON-Metadaten
-- 3 Mapping-Templates: szd-correspondence, szd-manuscript, szd-print
-- Sprach-Erweiterung (en/fr/it/es) + Epoche 20c
-- DTABf-Schema: 8 neue Elemente (gap, del, add, stamp, table, row, cell, cb)
-- Seitentrenner korrigiert: `|{n}|` statt `\n\n---\n\n`
-- Alle 5 offenen Punkte aus htr-interchange-format.md §8 geloest
-
-### Erkenntnisse
-
-1. **Seitentrenner-Konvention**: teiCrafter verwendet `|{n}|` in allen Demo-Mappings — das Interchange-Format muss sich anpassen, nicht umgekehrt.
-2. **DTABf-Schema-Luecken**: Diplomatische Transkriptionselemente (gap, del, add) fehlen im aktuellen Schema — muessen vor Nutzung ergaenzt werden.
-3. **Zwei TEI-Schichten**: Metadaten-TEI (bestehend, Katalog) und Transkriptions-TEI (neu, pro Objekt) bleiben getrennt, verknuepft via PID.
-4. **Bestehendes SZD-TEI hat keine Transkriptionsinhalte** — es ist ein reines Metadaten-Register, kein Editionsformat.
-
-### Refactoring
-
-CLAUDE.md, Plan.md und journal.md auf aktuellen Stand gebracht.
-
----
-
 ## 2026-04-01 — Session 11: Verification-by-Vision, Build, Lane-Updates
 
 ### Forschungsleitstelle: Verification-by-Vision getestet
@@ -358,7 +324,7 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 - Forschungsleitstelle als eigene Sektion mit Auftraegen
 - L1: Schritt 3+4 als erledigt (Dashboard, Diff-Prototyp)
-- L2: Schritt 3+4 als erledigt (teiCrafter, TEI-Zielstruktur), neue Schritte 5-7
+- L2: neue Schritte 5-7
 - L3: Status auf ~62 Objekte, Interchange-Export als Schritt 6
 
 ### Erkenntnisse
@@ -374,26 +340,20 @@ Spec geschrieben: [[verification-by-vision]] (10 Abschnitte, JSON-Schema, empiri
 
 ### L2: 3 Bonus-Deliverables
 
-**1. teiCrafter Mapping-Templates extrahiert**
-3 eigenstaendige .md-Dateien aus teiCrafter-integration.md §4, abgelegt in `teiCrafter/data/demo/mappings/`:
-- `correspondence-szd.md` — Gruppen I, D (Briefstruktur, diplomatisches Markup, HTR-Pipeline-Konvertierung)
-- `manuscript-szd.md` — Gruppen A, E, G (Tagebuecher, Register, Konvolute, Tabellen)
-- `print-szd.md` — Gruppen B, C, F, H (Typoskripte, Formulare, Korrekturfahnen, Zeitungsausschnitte)
-
-**2. JSON-Schema als validierbare Datei**
+**1. JSON-Schema als validierbare Datei**
 `schemas/htr-interchange-v0.1.json` — das Schema aus htr-interchange-format.md §3 als eigenstaendige Datei. Aenderungen gegenueber Codeblock: `$id` auf GitHub Pages URL, `source.language` mit Regex-Pattern (`^[a-z]{2,3}$`), `source.document_type` als kontrolliertes Vokabular (14 Enum-Werte). Validiert mit `python -m json.tool`.
 
-**3. DIA-XAI-Integrationskonzept**
+**2. DIA-XAI-Integrationskonzept**
 `knowledge/dia-xai-integration.md` — 5 Abschnitte:
-- Pipeline-Diagramm SZD-HTR → teiCrafter → DIA-XAI
+- Pipeline-Diagramm SZD-HTR → DIA-XAI
 - EQUALIS-Mapping: 5 Dimensionen (E/QUA/L/I/S) auf konkrete SZD-HTR-Datenquellen
-- Metriken-Export (`dia-xai-metrics-v1` JSON) mit 2 Export-Punkten (nach HTR/VbV, nach teiCrafter-Review)
+- Metriken-Export (`dia-xai-metrics-v1` JSON)
 - Zeitplan: Was muss vor DIA-XAI Phase 1 (Mai 2026) fertig sein
-- UC3 (HTR-Verifikation) und UC4 (TEI-Annotation) als Ziel-Use-Cases
+- UC3 (HTR-Verifikation) als Ziel-Use-Case
 
 ### Erkenntnisse
 
-1. **DIA-XAI ist Aggregator, nicht Verifikationstool** — importiert Metriken-JSON, macht keine eigene Analyse. Die Verifikation passiert in SZD-HTR (VbV) und teiCrafter (Expert-Review).
+1. **DIA-XAI ist Aggregator, nicht Verifikationstool** — importiert Metriken-JSON, macht keine eigene Analyse. Die Verifikation passiert in SZD-HTR (VbV und Expert-Review).
 2. **EQUALIS-Scalability (S-Dimension)** profitiert besonders von SZD-HTR: 9 Gruppen × 4 Sprachen × 6+ Haende = natuerliche Varianz.
 3. **Kritischer Pfad unveraendert:** Pilot (5 Seiten) muss vor DIA-XAI Phase 1 fertig sein.
 
@@ -894,10 +854,8 @@ Paralleler Betrieb mit zweitem Claude (Session 20): Einer transkribiert neue Obj
 - [x] Fraktur-Erkennung: o_szd.2232 high confidence (Session 7)
 - [x] Batch-Modus: transcribe.py (Session 5)
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)
-- [ ] Provider-Vergleich: Claude Vision, GPT-4o (Phase 4)
 - [~] Alle 2107 Objekte transkribieren — ~1308/2107 (62%) fertig nach Session 20b Batch (Session 17–20b)
 - [x] quality_signals kalibrieren: v1.1 rekalibriert (Session 13), low_dwr entfernt (Session 20 Phase A)
-- [ ] Prompt-Wirksamkeit: Vorsichts-Guidance ignoriert — Experiment noetig (Session 8)
 - [x] o_szd.143 nur 20 Zeichen auf 3 Seiten — geloest: fehlende Bilder wegen API-Limit, Chunking eingebaut (Session 17)
 - [x] Verification-by-Vision: Proof of Concept erfolgreich, Spec geschrieben (Session 11)
 - [x] Pipeline-Bug: o_szd.147 repariert, 41 Bilder transkribiert (Session 13)
@@ -905,7 +863,6 @@ Paralleler Betrieb mit zweitem Claude (Session 20): Einer transkribiert neue Obj
 - [x] Modellkonsensus: 27 Objekte validiert, 18 Objekte GT-Pipeline mit 3 Modellen (Session 14)
 - [x] Statistik-Dashboard im Frontend — Enhanced Stats + Diff mit echten Daten (Session 14)
 - [~] Expert-Review: 58/~875 Objekte verifiziert (14 human + 44 agent), CER-Baseline steht (Session 18–20)
-- [ ] Prompt-Ablation: V1/V2/V3 gegen GT messen (18 Objekte × 3 Varianten)
 - [~] Agent-Verifikation auf weitere Objekte ausweiten — 44/~875 agent-verified (Session 18–20)
 - [x] Fraktur-Post-Processing evaluiert: 38% Precision, taugt als Flagging, nicht Auto-Korrektur (Session 20 Phase A)
 - [ ] `duplicate_pages` False-Positive fixen: Color-Chart-Seiten von Duplikat-Erkennung ausschliessen (Session 19)

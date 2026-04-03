@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.863",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 2. August 1937, SZ-AAP/B1.78",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.863/IMG.1",
+      "https://gams.uni-graz.at/o:szd.863/IMG.2",
+      "https://gams.uni-graz.at/o:szd.863/IMG.3",
+      "https://gams.uni-graz.at/o:szd.863/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 2. August 1937, SZ-AAP/B1.78\n- Signatur: SZ-AAP/B1.78\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nHerrn Dr.Stefan Zweig\nVilla Souvenir\nWaldquellzeile\nMarienbad\n\nC.S.R.\n\nRef.\n\n2.August 1937 /F/F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir übersenden Ihnen anbei die Abrechnung per 31.Juli 1937.Es wurden\nsogar in diesem schwachen Verkaufsmonat 524 Exemplare Ihrer Bücher\nabgesetzt.\nBei dieser Gelegenheit möchten wir auf Ihren Brief vom 28.Juli zu-\nrückkommen und Ihnen freundlich mitteilen,dass wir nunmehr eigens\nunseren Reisenden,Herrn Goldschmidt,nochmals in die böhmischen Bade-\norte dirigiert haben,damit er nochmals alle dortigen Buchhandlungen\nbesuche.\nDass die Haupt-Leihbücherei in Marienbad das \"Kaleidoskop\" nicht be-\nsitzt,können wir uns nur so erklären,dass Leihbüchereien natürlich\ndas Interesse haben,möglichst viele einzelne Werke zu führen,weil\nsie ja beim Verleih mehr verdienen als bei einer Gesamtausgabe,die\neben nur einen Band bildet.Nun sind doch einzelne Abschnitte aus dem\n\"Kaleidoskop\" schon im Buchhandel vorhanden und dürften sicher in der\ndortigen Hauptleihbibliothek zu finden sein.\nWir haben von \"Kette\" und \"Kaleidoskop\" immerhin in einem Dreiviertel-\njahr 7735 Exemplare verkauft,was wir doch als sehr schönen Erfolg be-\nzeichnen möchten und wobei ja zu beachten ist,dass die einzelnen Bü-\ncher der \"Kette\" noch immer von den früheren Auflagen her im Handel\nsind.",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n\nWir sind überzeugt,dass wir in den kommenden Monaten,die ja die\neigentliche Saison sind,noch eine beträchtliche Anzahl dieser Bände\nabsetzen werden.\nDa Sie nun Mitte August in Wien sind,möchten wir Sie sehr bitten,\nmit uns alle jene Propagandamassnahmen durchzubesprechen,welche Sie\nfür geeignet und notwendig zur Förderung und Verbreitung dieser Sam-\nmalbände halten.Es handelt sich dabei ebensosehr um Ihr als auch um\nunser eigenstes Interesse und wir sind daher gern bereit,alle Ihre\nVorschläge und Anregungen in die Tat umzusetzen.\n\nWir bitten um Kenntnisnahme und Bestätigung unserer Abrechnung und\nverbleiben Sie bestens begrüssend\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Unterschrift handschriftlich (Tinte, unleserlich/Kürzel).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterschrift auf Seite 3 ist ein unleserliches Kürzel, was jedoch für Geschäftskorrespondenz dieser Art typisch ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2714,
+    "total_words": 371,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1670,
+      0,
+      1044,
+      0
+    ],
+    "chars_per_page_median": 1357.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

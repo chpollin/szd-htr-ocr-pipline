@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.895",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [Mai 1920], SZ-LAS/B1.17",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.895/IMG.1",
+      "https://gams.uni-graz.at/o:szd.895/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [Mai 1920], SZ-LAS/B1.17\n- Signatur: SZ-LAS/B1.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mon vieux, Rolland me charge, de demander les bonnes\nfeuilles de „Paul et Luce” de toi, si tu pourras en disposer.\nJe finis mon grand livre sur lui et j'aimerais connaître\ncette nouvelle.\nLe „Zwang” paraîtra ce mois. On n'a imprimé{que} 300 exemplaires,\nqui sont tous épuisés d'avance. Deux sont réservés a toi, mon\ncher ami!\nJ'ai hâte de faire entrer les oeuvres en Angleterre. Deux\namis (Edon & Cedar Paul, London, 39, Stedham Chambers)\ns'interessent a trouver un editeur pour une edition Anglaide.\nL'tuli est fixi en traduction. Rütten & Loening t'ecriront en\nces jours\nJ'ai ~~fait~~ ecrit a Seelig qu'il te propose un Gulliver. Je crois\ntu feras cela admirablement.\nMon vieux je travaille comme toi, c'est a dire, enormement.\nLe livre sur R.R. aura 350 - 400 pages et je sens que ce n'est\npas assez, pour être sa grandeur. Son nouveau roman (le au-\ncien „L'un contre tous” est sublime: tout le temps est la concentré\navec une beauté et bonté extraordinaire. Nous pouvons etre heureux\nde l'avoir pour ami.\nC'est tout pour aujourd'hui. J'espere tu viendras fin septembre\nen Italie pour nous trouver la-bas. Bazalgette rentra aussi. Fidèle-\nment ton\nSt\nLes meilleurs compliments a ta femme!! et la fille!",
+        "notes": "Handschriftlicher Brief in französischer Sprache. Die Tinte ist violett. Das Dokument weist zwei Lochungen am linken Rand auf. Der Text ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Sie ist weitgehend leer, weist jedoch einen Exlibris-Stempel von 'Christian Andree' im unteren Bereich auf. Durchscheinender Text der Vorderseite ist erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die wenigen Korrekturen (wie das eingefügte 'que') sind eindeutig. Die Handschrift ist typisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1205,
+    "total_words": 205,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1205,
+      0
+    ],
+    "chars_per_page_median": 1205,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

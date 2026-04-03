@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.900",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 11. Dezember 1920, SZ-LAS/B1.21",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.900/IMG.1",
+      "https://gams.uni-graz.at/o:szd.900/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 11. Dezember 1920, SZ-LAS/B1.21\n- Signatur: SZ-LAS/B1.21\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kapuzinerberg 5 Salzburg\n11. XII\n\nMon cher Frans, j'ai recu ton dernier\nlivre „Idee“. C'est le plus beau que tu\nas jamais produit, un poème saisissant,\nplein de force, incomparable dans toute\nl'art nouvelle. Mon vieux, j'étais bien\nfièr de toi! Et je tacherai de rendre\nmes impressions sur tes dessins dans\nun petit essay qui paraîtra dans le\nZeitschrift en allemand et dans l'Art\nlibre en français. Je me faut seule-\nment une minute tranquille. J'ai\nenfin fini la traduction du Cleram-\nbault; et mon livre sur le grand ami\na paru. Un exemplaire est part aujourd-\nhui et j'espère tu l'auras demain\nentre tes mains. Je suis heureux que\ntu sais l'allemand et que tu pourras",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf (Adresszeile und Logo). Die Tinte ist violett. Die Lesbarkeit ist sehr gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "le lire!\nJ'ai donne a un excellent ecrivain\ntemoin de Geneve un mot de recommen-\ndation. Il viendra te voir et je suis sur\nqu'il te plaira. Il ecrit très bien et fera\ncertainement un excellent avocat de tes\noeuvres.\nIl est horrible que je doit venir en\nSuisse pour 3 jours a Zurich. Mais je\nne sais pas, si je pourrai pousser jusqu'a\nGeneve, car pour nous le franc se cen-\ntuple en couronnes. Mais je t'averti-\nrai encore.\nMa femme, qui t'aime comme moi,\nte gronde, lorsque nous t'attendons\nencore ici a Salzbourg vainement. Tu\nauras une belle chambre, vivras tout a\nfait dans le calme et au mois de\nprintemps et même en hiver Salzbourg\nest une merveille. Fidèlement ton\nStefan Zweig",
+        "notes": "Fortsetzung des handschriftlichen Briefes. Die Tinte ist violett. Die Lesbarkeit ist sehr gut.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Es gibt keine größeren Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1354,
+    "total_words": 243,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      671,
+      683
+    ],
+    "chars_per_page_median": 677.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

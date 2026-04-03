@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.848",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 14. Juni 1937, SZ-AAP/B1.64",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.848/IMG.1",
+      "https://gams.uni-graz.at/o:szd.848/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 14. Juni 1937, SZ-AAP/B1.64\n- Signatur: SZ-AAP/B1.64\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig Esq.\n49,Hallam Street\nLondon W.1\n\nENGLAND\n\nRef.\nMozart,Werkverzeichnis 14.Juni 1937 /H\n\nSehr verehrter Herr Dr.Zweig:\n\nSie erhielten mittlerweile unser Schreiben mit den Angaben der Kosten\nfür die Herstellung von Mozarts Werkverzeichnis im Lichtdruck.\nDa Sie vielleicht die Oxford University Press, New York, direkt infor-\nmieren wollen, geben wir Ihnen das hierbeiliegende Offert der Licht-\ndruckanstalt Max Jaffé in Wien weiter, mit der Bitte, es der Oxford\nUniversity Press vorzulegen, damit sie sich von unseren Angaben\nüberzeugt.\nWir möchten übrigens betonen, dass Jaffé die Kosten ausserordentlich re-\nduziert hat, da wir ihm vorstellten, dass nur dann der Auftrag ver-\nwirklicht werden könnte. Die Oxford University Press wird also ganz\ngewiss nirgends ein billigeres Offert erhalten können.\nSollten Sie es wünschen, so werden wir uns direkt mit dem New Yorker\nHaus ins Einvernehmen setzen.\nWir erbitten Ihre Nachrichten und sind im voraus bestens dankend\n\nmit verbindlicher Begrüssung",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (nicht lesbar, vermutlich ein Kürzel). Unterstreichungen im Text sind mit rotem Stift ausgeführt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die Unterstreichungen wurden als solche erkannt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1388,
+    "total_words": 197,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1388,
+      0
+    ],
+    "chars_per_page_median": 1388,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

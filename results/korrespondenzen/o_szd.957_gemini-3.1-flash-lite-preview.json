@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.957",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 16. Juni 1931, SZ-LAS/B7.17",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.957/IMG.1",
+      "https://gams.uni-graz.at/o:szd.957/IMG.2",
+      "https://gams.uni-graz.at/o:szd.957/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 16. Juni 1931, SZ-LAS/B7.17\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 16. Juni 1931\n\nVerehrter Herr Professor, Sie als „Kenner der Höhen\nund Tiefen” werden beiliegenden Privatdruck, den ich nur\neinem engsten Kreise übermittle, hoffentlich nicht als ganz\nüberflüssig empfinden: jene neun Briefe des einundzwanzig-\njährigen Mozart, von denen ich hier einen in extenso pub-\nliciere, werfen ein psychologisch sehr merkwürdiges Licht auf seine\nErolik, die stärker als die irgend eines andern bedeutenden Menschen,\n~~einen~~ Infantilismus ~~sein~~ und ~~eine~~ leidenschaftliche Koprolalie\nzeigt. Es wäre eigentlich eine interessante Studie für einen Ihrer\nSchüler, denn durchgängig alle Briefe kreisen um das gleiche Thema.",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Ich nehme die Gelegenheit wahr, um Ihnen meine\nVerehrung und die herzlichsten Wünsche für Ihre Gesundheit zu sa-\ngen und bleibe Ihr stet getreuer\n\nStefan Zweig",
+        "notes": "Handschriftliche Fortsetzung des Briefes auf der Rückseite des ersten Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Ich nehme die Gelegenheit wahr, um Ihnen meine\nVerehrung und die herzlichsten Wünsche für Ihre Gesundheit zu sa-\ngen und bleibe Ihr stet getreuer\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Durchstreichungen wurden gemäß den Regeln erfasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 995,
+    "total_words": 146,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      677,
+      159,
+      159
+    ],
+    "chars_per_page_median": 418.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.993",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 15. Juni 1925, SZ-LAS/B7.6",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.993/IMG.1",
+      "https://gams.uni-graz.at/o:szd.993/IMG.2",
+      "https://gams.uni-graz.at/o:szd.993/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 15. Juni 1925, SZ-LAS/B7.6\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG 15. Juni 1925\n\nHochverehrter Herr Profesor, ich komme\neben vom Händel-Fest aus Leipzig zurück\nund finde, innig erfreut, Ihren Brief. Wie schön,\ndass Sie einen Beitrag gaben! Selbstverständlich\nist keinerlei Zuschuss nötig, im Gegenteil, das\nWerk wird einem anderen, claritativen, dienen,\ndadurch dass es Namen wie die Ihren aufweist.\n\nVielleicht ist es Ihnen lieb, zu hören, dass\nmein Buch, das sich durch die Widmung an Sie\nselbst geehrt hat, auf gutem Wege ist: die ersten\nzehntausend Exemplare sind schon fast fort\nund vor Weihnachten kommt eine neue Auflage.\n\nIch denke oft an Sie und immer mit\nden innigsten Wünschen für Ihre Gesundheit und\nIhr Schaffen! Grüssen Sie, bitte, Ihre verehrte Tochter\nund bewahren Sie Ihr Wohlwollen\n\nIhrem getreu ergebenen\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf (Logo und Adresse). Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG 15. Juni 1925\n\nHochverehrter Herr Profesor, ich komme\neben vom Händel-Fest aus Leipzig zurück\nund finde, innig erfreut, Ihren Brief. Wie schön,\ndass Sie einen Beitrag gaben! Selbstverständlich\nist keinerlei Zuschuss nötig, im Gegenteil, das\nWerk wird einem anderen, claritativen, dienen,\ndadurch dass es Namen wie die Ihren aufweist.\n\nVielleicht ist es Ihnen lieb, zu hören, dass\nmein Buch, das sich durch die Widmung an Sie\nselbst geehrt hat, auf gutem Wege ist: die ersten\nzehntausend Exemplare sind schon fast fort\nund vor Weihnachten kommt eine neue Auflage.\n\nIch denke oft an Sie und immer mit\nden innigsten Wünschen für Ihre Gesundheit und\nIhr Schaffen! Grüssen Sie, bitte, Ihre verehrte Tochter\nund bewahren Sie Ihr Wohlwollen\n\nIhrem getreu ergebenen\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit aufgelegter Farbskala/Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1590,
+    "total_words": 248,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      795,
+      0,
+      795
+    ],
+    "chars_per_page_median": 795,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

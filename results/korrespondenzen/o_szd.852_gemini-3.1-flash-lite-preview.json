@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.852",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 28. Juni 1937, SZ-AAP/B1.68",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.852/IMG.1",
+      "https://gams.uni-graz.at/o:szd.852/IMG.2",
+      "https://gams.uni-graz.at/o:szd.852/IMG.3",
+      "https://gams.uni-graz.at/o:szd.852/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 28. Juni 1937, SZ-AAP/B1.68\n- Signatur: SZ-AAP/B1.68\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "28.Juni 1937.\n\nGeehrter Herr Reichner!\n\nIch bestätige Ihren Brief und muss Ihnen\npflichtgemäss sagen, dass von Seiten der Viking\nPress ein gewisser Widerstand besteht gegen den\ngemeinsamen Druck der Illustrationen, und ich\nmuss unparteiischerweise Huebsch eigentlich Recht\ngeben. Erstens hat er 25% Steuer zu zahlen, zwei-\ntens - und dies das Hauptargument - kann in Ameri-\nka immer plötzlich eine neue Auflage oder eine Son-\nderausgabe für irgend einen der Buchklubs notwendig\nwerden und selbst wenn er telegrafisch die neuen\nBlätter anfordert, so dauert das mit der Ueberfahrt,\nder Loseisung vom Zollamt usw. mindestens vier, mög-\nlicherweise sogar sechs Wochen und das ist ein Risi-\nko, auf das er sich nicht einlassen will, da er ja\nselber nicht weiss, wieviel er druckt, bis nicht\nvon den Buchhändlern usw. eine Uebersicht der Be-\nstellungen eingelangt ist. Dagegen würde er selbst-\nverständlich die Vorlagen für Reproduktionen etc.",
+        "notes": "Typoskript auf Briefpapier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "gern erwerben und vielleicht könnte man auch\nüber eine limitierte Luxusausgabe sich einigen.\nIch wollte Ihnen nur gleich mitteilen, wie die\nSache steht. Mit den andern drei Verlegern wird\nsicherlich eine Einigung zu erzielen sein und Sie\nverhandeln am besten mit ihnen direkt, adressie-\nren bei Cassell am besten an Desmond Flower.\nKorrekturen erledige ich prompt und\ndas Manuskript des Magellan haben Sie zuverläs-\nsig Ende Juli in Händen.\nFerner bitte ich Sie, die Kleinigkeit\nvon Schilling 11.90 an die Buchhandlung Alois\nReichmann, Wien IV, Wiedner Hauptstrasse 18\nfür mich zu überweisen.\nEs ist nicht meine Absicht, Sie in Ih-\nrem wohlverdienten Urlaub zu stören, muss Sie\naber doch darum bitten, dass Sie mir wenigstens\nfür einige Punkte Ihre Adresse mitteilen, nach-\ndem Sie anscheinend an dem nicht unbedenklichen\nVerfahren festhalten, den Vertrag für längere\nZeit von der Welt abzuschliessen. Gerade jetzt,\nwo Sie Verhandlungen mit den auswärtigen Ver-",
+        "notes": "Typoskript auf Briefpapier.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "2)\n\nlegern wegen Magellan führen wollen, kann das\ndoch gefährliche Verzögerungen schaffen. Viel-\nleicht erfinden Sie doch ein neues System.\n\nMit den besten Empfehlungen\nIhr sehr ergebener",
+        "notes": "Typoskript auf Briefpapier. Fortsetzung des Briefes.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite von Seite 3, durchscheinender Text der Vorderseite sichtbar. Leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2085,
+    "total_words": 321,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      937,
+      961,
+      187,
+      0
+    ],
+    "chars_per_page_median": 937,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

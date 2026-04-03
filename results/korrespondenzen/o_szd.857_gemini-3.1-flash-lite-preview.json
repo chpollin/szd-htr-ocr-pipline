@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.857",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 12. Juli 1937, SZ-AAP/B1.72",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.857/IMG.1",
+      "https://gams.uni-graz.at/o:szd.857/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 12. Juli 1937, SZ-AAP/B1.72\n- Signatur: SZ-AAP/B1.72\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "12.Juli 1937.\n\nGeehrter Herr Reichner!\n\nFuchs zeigt mir soeben die Karte,\ndie er von Ihnen erhielt. Hoffentlich haben\nSie sich gut erholt. Da ich in der Sache des\nMozart-Manuskripts noch nicht die Zusicherung\nder bereits getätigten Versicherung in Händen\nhabe und verpflichtet bin, ohne eine solche\ndas Manuskript nicht aus der Hand zu geben,\nso kann ich es vor meiner Abfahrt natürlich\nnicht mehr absenden oder Herrn Fuchs über-\ngeben. Ich hoffe aber Anfang September wieder\nzurückzusein und vielleicht auch in Wien Gele-\ngenheit zu haben, die Einzelheiten zu bespre-\nchen.\n\nDas Manuskript des \"Magellan\" geht\nnoch vor meiner Abreise nach Wien ab. Ich habe",
+        "notes": "Typoskript auf Briefpapier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "noch einiges geändert und zusammengestrafft.\nIm Druck selbst wird wesentlich kaum verän-\ndert werden. Vielleicht mache ich noch einen\nkurzen Nachtrag von zwei oder drei Dokumenten,\ndie in einem andern Druck gebracht werden kön-\nnen.\n\nMit den besten Empfehlungen",
+        "notes": "Typoskript, Fortsetzung des Briefes.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 918,
+    "total_words": 144,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      657,
+      261
+    ],
+    "chars_per_page_median": 459.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

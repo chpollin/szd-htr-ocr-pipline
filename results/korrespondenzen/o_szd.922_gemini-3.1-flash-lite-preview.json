@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.922",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 1. August 1931, SZ-LAS/B1.41",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.922/IMG.1",
+      "https://gams.uni-graz.at/o:szd.922/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 1. August 1931, SZ-LAS/B1.41\n- Signatur: SZ-LAS/B1.41\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Thumersbach, den 1. August 1931.\n\nLieber Freund!\nVon Amerika ist noch keine entscheidende Nachricht da.\nMit einer Zeitung, mit der mein Verleger verhandelte ist nichts ge-\nworden, hoffentlich klappt es mit einer andern. Deutsche Zeitungen\nbekämen wir gewiss dazu, aber die zahlen nicht entsprechend um alle\nKosten zu decken und zu ermöglichen, dass noch ein anständiger Rein-\ngewinn übrig bleibt, der übrigens durch das Buch selbst garantiert\nwäre. Wir könnten doch von dem Buch mit Sicherheit rechnen 40 Tau-\nsend Exemplare in Deutschland, ebensoviele in Frankreich, ebensovie-\nle in England und Amerika und die übrigen kleinen Länder 30 Tausend,\nalso 150 Tausend Exemplare, was ein stattliches Geld einbringt.\nMeiner Meinung nach wäre es auch ohne bestimmte Zeitungsabmachung\nzu riskieren, weil die einzelnen Kapitel auch durch eine Agentur\nsehr vorteilhaft plaziert werden könnten. Bitte, gib den Gedanken\nnicht auf und halte Dich innerlich bereit. Es ist übrigens sehr\nwahrscheinlich, dass noch ein Dritter auf seine eigenen Kosten\nmitkommt, Alexander Moissi - damit würde sich die Kosten für Automo-\nbile etc. abermals um ein Drittel reduzieren. Welches Vergnügen,\njetzt für zwei Monate Europa zu entfliehen! Ich kenne drüben vie-\nle Leute und könnte natürlich alles erzielen, dass Du Gorki und\ndie paar andern grossen Leute dort poträtierst oder zeichnest.\nEs wäre falsch einzig auf den materiellen Gewinn zu kalkulieren\n(obwohl er zweifellos dasein wird), denn diese zwei Monate würden\nzweifellos eine Epoche in Deinem Leben bilden und ein dokumenta-\nrisches Buch schaffen, überlege, überlege, überlege!\nNoch eine Kleinigkeit: ich weiss nicht, ob Du Dich an",
+        "notes": "Typoskript mit handschriftlichen Korrekturen in violett (z.B. 'dasein' statt 'da sein', 'poträtierst' statt 'porträtierst').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "meine kleine Novelle \"Buchmendel\" erinnerst (in der \"Kleinen Chronik\")\ndie soll jetzt in einer bibliophilen Ausgabe in Amerika heraus-\nkommen und man möchte gern drei oder vier Holzschnitte von Dir da-\nzu. Bitte schreibe mir, was {so der} Dein {Jeton[?]} Preis wäre, damit ich es hinüber-\nberichten kann.\n\nHerzlichst Dein\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen und Unterschrift in violett. Unten ein Exlibris-Stempel 'CHRISTIAN ANDRES EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweigs Handschrift. Das Wort 'Jeton' ist eine Vermutung für die handschriftliche Einfügung über 'Preis'."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1999,
+    "total_words": 305,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1664,
+      335
+    ],
+    "chars_per_page_median": 999.5,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0033,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

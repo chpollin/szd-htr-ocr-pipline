@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.982",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Telegramm an Sigmund Freud vom 22. Mai 1924, SZ-LAS/B7.4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.982/IMG.1",
+      "https://gams.uni-graz.at/o:szd.982/IMG.2",
+      "https://gams.uni-graz.at/o:szd.982/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Telegramm an Sigmund Freud vom 22. Mai 1924, SZ-LAS/B7.4\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Dienstliche Angaben: Gattung: Telegramm Eing.-Nr. 3/207\n= LT = professor freud\nberggasze wien =\nAufgenommen von salzburg 1+ 346 22 5 24 aufgegeben am / 192 um Uhr M.\nauf Ltg. Nr. am 6/5 192 um Uhr M. In mittels Typendruckers ausgefertigten Telegrammen bedeuten vorstehende Angaben: 1. den Namen des Aufgabes\ndurch: amtes, 2. die Aufgabenummer, 3. die Wortzahl (allenfalls in Bruchform), 4. den Monatstag, 5. die Stunde und\nMinute der Aufgabe.\nmoegen sie verehrter den festlichen tag froh gesund und in\nberechtigtem stolz [?] unvergaenglicher leistung begehen\n: stefan zweig +",
+        "notes": "Telegrammformular, bedruckt mit eingeklebten Streifen mit Maschinenschrift. Handschriftliche Vermerke in violettem Stift (u.a. '6 MAI 6 44', 'AUSGEFERTIGT', '6/5'). Roter Stempelabdruck links und rechts. Die Zeile 'berechtigtem stolz' enthält einen kleinen handschriftlichen Zusatz, der hier als [?] markiert ist.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Dienstliche Angaben: Gattung: Telegramm Eing.-Nr. 3/207\n= LT = professor freud\nberggasze wien =\nAufgenommen von salzburg 1+ 346 22 5 24 aufgegeben am / 192 um Uhr M.\nauf Ltg. Nr. am 6/5 192 um Uhr M. In mittels Typendruckers ausgefertigten Telegrammen bedeuten vorstehende Angaben: 1. den Namen des Aufgabes\ndurch: amtes, 2. die Aufgabenummer, 3. die Wortzahl (allenfalls in Bruchform), 4. den Monatstag, 5. die Stunde und\nMinute der Aufgabe.\nmoegen sie verehrter den festlichen tag froh gesund und in\nberechtigtem stolz [?] unvergaenglicher leistung begehen\n: stefan zweig +",
+        "notes": "Identisch mit Seite 1, jedoch mit einer Farbskala/Grauskala für Archivierungszwecke am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist durch die Verwendung von Typendruckstreifen sehr gut lesbar. Die handschriftlichen Vermerke auf dem Formular sind teilweise überlagert oder schwer zu entziffern, beeinträchtigen aber nicht den Haupttext."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1150,
+    "total_words": 184,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      575,
+      0,
+      575
+    ],
+    "chars_per_page_median": 575,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0109,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

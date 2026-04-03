@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.973",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud von [Anfang Juni 1938], SZ-LAS/B7.31",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.973/IMG.1",
+      "https://gams.uni-graz.at/o:szd.973/IMG.2",
+      "https://gams.uni-graz.at/o:szd.973/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud von [Anfang Juni 1938], SZ-LAS/B7.31\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nTeurer, verehrter Herr Professor, ich\n~~w~~ schrieb Ihnen nicht nach Wien, obwohl\nHand und Herz heftigst danach verlang-\nte, aber alle Gedanken waren täglich\nbei Ihnen — ich atme auf im Gefühl,\ndass Sie hier geborgen sind. Incipit\nvita nuova!\nIch weiss, wie Sie jetzt bedrängt und\nauch wie ruhebedürftig Sie sein werden,\nSo melde ich mich erst, wenn Sie es\nmir erlauben (ich habe Telefon, das nur\nIhr Verzeichnis stellt) nur Sie wissen ja,\nwie gern ich komme, zu jeder Stunde des\nTags, nichts ist mir wichtiger, als zu sehen",
+        "notes": "Brief auf Briefpapier mit gedrucktem Briefkopf. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "dass Sie diese bitterste Prüfung wohl\nüberstanden haben.\nMit vielen Grüßen an die Ihren\nIhr getreu ergebener\n\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des ersten Blattes. Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "dass Sie diese bitterste Prüfung wohl\nüberstanden haben.\nMit vielen Grüßen an die Ihren\nIhr getreu ergebener\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist bekannt und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 816,
+    "total_words": 137,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      572,
+      122,
+      122
+    ],
+    "chars_per_page_median": 347.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

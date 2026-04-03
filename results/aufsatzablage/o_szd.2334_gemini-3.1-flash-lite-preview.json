@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2334",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Wege zum deutschen Ruhm, Die zehn, SZ-AAP/W-AA209.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2334/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2334/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Wege zum deutschen Ruhm, Die zehn\n- Signatur: SZ-AAP/W-AA209.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Luise Wolf\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wege zum deutschen Ruhm, Die zehn",
+        "notes": "Handschrift in violetter Tinte. Vorderseite des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Luise Wolf\nDie Schule der Empfindsamkeit. Übertragen von Gustav Flamm",
+        "notes": "Handschrift in violetter Tinte. Die Zeile 'Luise Wolf' ist durchgestrichen, darunter der Titel und Übersetzer.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Wege zum deutschen Ruhm, Die zehn",
+        "notes": "Handschrift in violetter Tinte. Identisch mit Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Wege zum deutschen Ruhm, Die zehn",
+        "notes": "Handschrift in violetter Tinte. Dokument mit Archiv-Farbskalen und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich geschrieben und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 168,
+    "total_words": 28,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      33,
+      0,
+      69,
+      0,
+      33,
+      0,
+      33
+    ],
+    "chars_per_page_median": 33,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

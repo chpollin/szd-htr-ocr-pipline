@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.986",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 16. März 1939, SZ-LAS/B7.43",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.986/IMG.1",
+      "https://gams.uni-graz.at/o:szd.986/IMG.2",
+      "https://gams.uni-graz.at/o:szd.986/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 16. März 1939, SZ-LAS/B7.43\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\n16.März 1939.\n\nLieber, verehrter Herr Professor!\n\nIch bin soeben zurück und muss\nnur zuerst einen Berg von Briefen abräumen.\nAber ich bin schon furchtbar ungeduldig,\nSie zu sehen und frage mich in den näch-\nsten Tagen bescheidentlich an.\n\nMit den innigsten Grüssen\n\nverehrungsvoll\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\n16.März 1939.\n\nLieber, verehrter Herr Professor!\n\nIch bin soeben zurück und muss\nnur zuerst einen Berg von Briefen abräumen.\nAber ich bin schon furchtbar ungeduldig,\nSie zu sehen und frage mich in den näch-\nsten Tagen bescheidentlich an.\n\nMit den innigsten Grüssen\n\nverehrungsvoll\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte. Mit Farbskala für Archivierung am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, da es sich um ein Typoskript handelt. Die Unterschrift ist deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 684,
+    "total_words": 106,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      342,
+      0,
+      342
+    ],
+    "chars_per_page_median": 342,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

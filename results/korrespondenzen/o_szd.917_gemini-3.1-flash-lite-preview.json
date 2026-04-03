@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.917",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Frans Masereel vom 8. Januar 1931, SZ-LAS/B1.37",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.917/IMG.1",
+      "https://gams.uni-graz.at/o:szd.917/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 8. Januar 1931, SZ-LAS/B1.37\n- Signatur: SZ-LAS/B1.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite der Ansichtspostkarte: Farbreproduktion eines Gemäldes von F. v. Olivier, 'Das Kapuzinerkloster bei Salzburg'.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "Mes chers amis,\nnous serons à Paris\nen quelques jours et\ndès le quinze heureuse\nde vous voir. Nous\nsommes à l'hôtel\nBeaujolais. Nous\nsommes bien contents\nque vous êtes bien dans\nvotre nouveau apparte\nment. Bonne année\nbien chers amis et à\nbientôt Stefan et Friderike\n\nMonsieur et Mme.\nFrans Masereel\nParis\n15 rue Hégésippe\nMoreau",
+        "notes": "Rückseite der Postkarte mit handschriftlichem Text in violetter Tinte. Gedruckter Text oben: 'Museum der bildenden Künste zu Leipzig', 'F. v. Olivier, Das Kapuzinerkloster bei Salzburg'. Unten links: 'Verlag von E. A. Seemann in Leipzig. Nr. 118'. Poststempel: 'SALZBURG 2', '8. 1. 31 21'. Briefmarke: Österreich, 24 Groschen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 329,
+    "total_words": 57,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      0,
+      329
+    ],
+    "chars_per_page_median": 329,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.850",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 18. Juni 1937, SZ-AAP/B1.66",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.850/IMG.1",
+      "https://gams.uni-graz.at/o:szd.850/IMG.2",
+      "https://gams.uni-graz.at/o:szd.850/IMG.3",
+      "https://gams.uni-graz.at/o:szd.850/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 18. Juni 1937, SZ-AAP/B1.66\n- Signatur: SZ-AAP/B1.66\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49,Hallam Street\nLondon,W.1\n\nENGLAND\n\nRef.\n●\tIhr Schreiben vom 14.Juni 1937\t\t18.Juni 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nBesten Dank für Ihr obiges Schreiben.\nMagellan-Sonderausgaben: Damit Sie Mr.Huebsch,Cassell,Grasset und den\nanderen Verlegern unser genaues Format angeben können,so teilen wir\nIhnen die Masse mit:\n\n\t\t\tBeschnittene Seitenhöhe: 20,5 cm\n\t\t\tBeschnittene Seitenbreite: 12,6 cm\n\nAuf dieses gemeinsame Format müssten sich alle Verleger festlegen,die\nder weitaus billigeren Herstellung wegen die Illustrationen gemeinsam\nmit uns drucken lassen wollen.Das ist ohneweiters möglich,selbst dann,\nwenn wir ein Tiefdruckverfahren wählen.Dann werden eben die Bilder allein\nim Tiefdruck hergestellt und die verschiedensprachigen Legenden nach-\nträglich im Buchdruck eingesetzt.\nJe mehr Verlage teilnehmen,desto billiger wird der auf jeden Verlag\nentfallen Anteil der Kosten.\nMozart,Werkverzeichnis: Wir schreiben heute direkt an die Oxford\nUniversity Press,zuhanden von Mr.Paul Willert,den wir schon längst gut\nkennen,da wir wegen des Trachtenbuches mit ihm verhandelt haben.\n\nLeuchter: Wir haben jetzt die Stärkebände herstellen lassen.Es wird ein\nrespektables,ziemlich starkes Buch,das Ihnen sicher viel Freude machen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die letzte Zeile bricht mitten im Satz ab (Fortsetzung auf Seite 3).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n●\twird.Ob wir Ihnen noch im Juni Exemplare schicken können,ist zweifelhaft.\nWir haben Rohrer Auftrag gegeben,lieber langsam aber gut zu drucken.Das\nenglische Büttenpapier verlangt die sorgfältigste Behandlung.Die Ausgabe\ndes Buches wird aber erst im September erfolgen.Wir lassen illustrierte\nProspekte drucken,wenn dies auch nicht absolut nötig erscheint.Aber wir\nlegen Wert darauf,dass auch einmal eine Luxusausgabe separat angezeigt\nwird.\nGuillemard,Magellan: Wir haben das Buch bei Francis Edwards bestellt.\n\nListe Bagrow: Wir warten noch immer auf diese Liste.Es ist schade,dass\nwir nicht noch vor dem Urlaub an die Beschaffung des Bildmaterials\ngehen können.\nDr.Elisabeth Feist: Auch Fräulein Dr.Feist kennen wir.Wir schreiben ihr\nheute,um uns auf jeden Fall ihrer Mitarbeit zu vergewissern,falls wir\nsie überhaupt brauchen.\nFür heute begrüssen wir Sie als\n\n\t\t\t\t\tIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Fortsetzung des Briefes von Seite 1. Die Unterschrift ist handschriftlich (Signatur unleserlich, vermutlich Herbert Reichner).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des dritten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine nennenswerten Probleme bei der Transkription."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2903,
+    "total_words": 382,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1630,
+      0,
+      1273,
+      0
+    ],
+    "chars_per_page_median": 1451.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

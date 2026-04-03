@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.904",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [Oktober 1922], SZ-LAS/B1.25",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.904/IMG.1",
+      "https://gams.uni-graz.at/o:szd.904/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [Oktober 1922], SZ-LAS/B1.25\n- Signatur: SZ-LAS/B1.25\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mon cher Frans, merci pour ta bonne et\nfraternel reponse. Il ne me manque que\n„le soleil”. Peut-Tu m'envoyer un ~~ex~~ \nexemplaire? L'article paraîtra en plusieurs\nlangues: jen serai heureux.\nEncore une chose: le directeur du „Bildungs\nverein, comite d'instruction socialiste” voudrait\ndonner en parlé avec mon texte des soirs\nsur ton oeuvre devant les ouvriers. Il demande\nla permission de reproduire tes ~~oeuvres~~ dessins\npour le Sciopticon, (images lumineuses projeté\nsur un mur blanc, comme on le fait pour les\necoles et les cours populaires). Je trouve cela bien\nbeau, d'entrer comme cela dans le coeur de la\nfoule qui ne peut pas s'acheter des livres, donne\nta permission?\nJe te demanderai des details dès que je serai\nen train d'ecrire. Puis je t'enverrai le manus\ncrit et tu feras les additions ou rectifications\nnecessaires.\nJe te felicite dans ton nouveau logis: qu'il\nsoit fecond en travail. Et je t'embrasse! Ton\nvreux\n\nSalutations affectueuses\nAlix\n\nStefan",
+        "notes": "Handschriftlicher Brief in französischer Sprache. Violette Tinte. Der Text ist gut lesbar. Am unteren Rand befindet sich ein schwacher, runder Stempelabdruck.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Leer, bis auf einen ovalen Exlibris-Stempel am unteren Rand: 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPH'S'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die wenigen durchgestrichenen Wörter sind eindeutig identifizierbar. Die Sprache ist Französisch, obwohl im Prompt 'Deutsch' angegeben war."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 971,
+    "total_words": 157,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      971,
+      0
+    ],
+    "chars_per_page_median": 971,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

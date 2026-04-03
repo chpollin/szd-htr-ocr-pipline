@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.865",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 6. Februar 1937, SZ-AAP/B1.8",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.865/IMG.1",
+      "https://gams.uni-graz.at/o:szd.865/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 6. Februar 1937, SZ-AAP/B1.8\n- Signatur: SZ-AAP/B1.8\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostschekkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nDr.Stefan Zweig, Esq.\n49, Hallam Street\nLondon, W.1\n\nENGLAND\n\nRef.\n● Abrechnung per 31.Januar 1937 6.Februar 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir senden Ihnen anbei die Rechnung per 31.Januar 1937.\nAuf dem Abrechnungsblatt für österr.Schilling finden Sie auf der\nBelastungsseite einen Posten von S.205.20 für 120 remittierte Exem-\nplare des \"Erasmus\". Dieser Posten erklärt sich dadurch, dass wir\nim Vorjahre, anlässlich des Erasmus-Jubiläums, eine grössere Anzahl\nvon Exemplaren des \"Erasmus\" in Kommission nach Holland gegeben\nund nun von der Fa.Van Ditmar die oben erwähnten 120 Stück zurücker-\nhalten haben. Da wir Ihnen diese Exemplare seinerzeit bereits hono-\nriert haben, mussten wir den entsprechenden Betrag in Abzug bringen.\n\nWir bitten um Kenntnisnahme und Bestätigung der Abrechnung und\nzeichnen mit den besten Grüssen als\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist eine handschriftliche Paraphe in blauer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text des Typoskripts von der Vorderseite erkennbar.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Keine Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1241,
+    "total_words": 176,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1241,
+      0
+    ],
+    "chars_per_page_median": 1241,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

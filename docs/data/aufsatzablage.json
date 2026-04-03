@@ -61,7 +61,7 @@
       "quality_signals": {
         "total_chars": 90,
         "total_words": 15,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 4,
         "blank_pages": 4,
         "content_pages": 2,
@@ -75,11 +75,11 @@
           0,
           30
         ],
-        "chars_per_page_median": 30,
+        "chars_per_page_median": 30.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.6,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -161,7 +161,7 @@
       "quality_signals": {
         "total_chars": 267,
         "total_words": 46,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -175,20 +175,18 @@
           0,
           91
         ],
-        "chars_per_page_median": 73.0,
+        "chars_per_page_median": 55,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.1333,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "low_dwr"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -263,7 +261,7 @@
       "quality_signals": {
         "total_chars": 457,
         "total_words": 45,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -277,11 +275,11 @@
           50,
           103
         ],
-        "chars_per_page_median": 50,
+        "chars_per_page_median": 50.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -354,7 +352,7 @@
       "quality_signals": {
         "total_chars": 562,
         "total_words": 59,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -368,18 +366,37 @@
           70,
           124
         ],
-        "chars_per_page_median": 70,
+        "chars_per_page_median": 70.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.3051,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -445,7 +462,7 @@
       "quality_signals": {
         "total_chars": 282,
         "total_words": 32,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -459,11 +476,11 @@
           34,
           63
         ],
-        "chars_per_page_median": 34,
+        "chars_per_page_median": 34.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -536,7 +553,7 @@
       "quality_signals": {
         "total_chars": 173,
         "total_words": 22,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -550,11 +567,11 @@
           13,
           41
         ],
-        "chars_per_page_median": 26,
+        "chars_per_page_median": 19.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -627,7 +644,7 @@
       "quality_signals": {
         "total_chars": 269,
         "total_words": 36,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -641,11 +658,11 @@
           29,
           61
         ],
-        "chars_per_page_median": 30,
+        "chars_per_page_median": 29.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.75,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -716,7 +733,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4573,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -789,7 +806,7 @@
       "quality_signals": {
         "total_chars": 44,
         "total_words": 8,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 1,
         "blank_pages": 3,
         "content_pages": 3,
@@ -803,11 +820,11 @@
           5,
           12
         ],
-        "chars_per_page_median": 8.5,
+        "chars_per_page_median": 5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -885,7 +902,7 @@
       "quality_signals": {
         "total_chars": 80,
         "total_words": 12,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -899,11 +916,11 @@
           0,
           28
         ],
-        "chars_per_page_median": 20.0,
+        "chars_per_page_median": 12,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -966,7 +983,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4074,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -1041,7 +1058,7 @@
       "quality_signals": {
         "total_chars": 346,
         "total_words": 43,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -1055,11 +1072,11 @@
           50,
           75
         ],
-        "chars_per_page_median": 50,
+        "chars_per_page_median": 50.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4419,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -1132,7 +1149,7 @@
       "quality_signals": {
         "total_chars": 100,
         "total_words": 12,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -1146,11 +1163,11 @@
           0,
           34
         ],
-        "chars_per_page_median": 25.0,
+        "chars_per_page_median": 16,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -1223,7 +1240,7 @@
       "quality_signals": {
         "total_chars": 106,
         "total_words": 12,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -1237,11 +1254,11 @@
           0,
           36
         ],
-        "chars_per_page_median": 26.5,
+        "chars_per_page_median": 17,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -1356,7 +1373,7 @@
       "quality_signals": {
         "total_chars": 958,
         "total_words": 128,
-        "total_pages": 9,
+        "total_pages": 8,
         "empty_pages": 4,
         "blank_pages": 4,
         "content_pages": 8,
@@ -1376,18 +1393,41 @@
           0,
           149
         ],
-        "chars_per_page_median": 83,
+        "chars_per_page_median": 83.0,
         "marker_uncertain_count": 3,
         "marker_illegible_count": 0,
         "marker_density": 0.0234,
-        "dwr_score": 0.3435,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            10
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -1451,15 +1491,15 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 144,
-        "total_words": 28,
-        "total_pages": 4,
+        "total_chars": 173,
+        "total_words": 33,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
         "color_chart_pages": 1,
         "chars_per_page": [
-          30,
+          59,
           0,
           26,
           0,
@@ -1467,11 +1507,11 @@
           0,
           58
         ],
-        "chars_per_page_median": 30.0,
+        "chars_per_page_median": 30,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -1551,7 +1591,7 @@
       "quality_signals": {
         "total_chars": 132,
         "total_words": 16,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -1565,11 +1605,11 @@
           0,
           33
         ],
-        "chars_per_page_median": 33.0,
+        "chars_per_page_median": 33,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -1642,7 +1682,7 @@
       "quality_signals": {
         "total_chars": 304,
         "total_words": 39,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -1656,11 +1696,11 @@
           0,
           102
         ],
-        "chars_per_page_median": 86.0,
+        "chars_per_page_median": 70,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.2308,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -1733,7 +1773,7 @@
       "quality_signals": {
         "total_chars": 161,
         "total_words": 28,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -1747,11 +1787,11 @@
           23,
           23
         ],
-        "chars_per_page_median": 23,
+        "chars_per_page_median": 23.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.25,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -1817,7 +1857,7 @@
       "quality_signals": {
         "total_chars": 258,
         "total_words": 35,
-        "total_pages": 4,
+        "total_pages": 2,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 2,
@@ -1831,11 +1871,11 @@
           0,
           66
         ],
-        "chars_per_page_median": 61.5,
+        "chars_per_page_median": 47.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -1908,7 +1948,7 @@
       "quality_signals": {
         "total_chars": 289,
         "total_words": 36,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -1922,12 +1962,17 @@
           0,
           97
         ],
-        "chars_per_page_median": 92.5,
+        "chars_per_page_median": 88,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.25,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            0,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
@@ -1936,7 +1981,8 @@
         ],
         "needs_review": true,
         "needs_review_reasons": [
-          "page_length_anomaly"
+          "page_length_anomaly",
+          "duplicate_pages"
         ]
       },
       "consensus": null,
@@ -2003,7 +2049,7 @@
       "quality_signals": {
         "total_chars": 287,
         "total_words": 30,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -2017,11 +2063,11 @@
           0,
           97
         ],
-        "chars_per_page_median": 72.0,
+        "chars_per_page_median": 47,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.1818,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -2094,7 +2140,7 @@
       "quality_signals": {
         "total_chars": 290,
         "total_words": 44,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -2108,18 +2154,33 @@
           17,
           74
         ],
-        "chars_per_page_median": 55,
+        "chars_per_page_median": 36.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4545,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -2185,7 +2246,7 @@
       "quality_signals": {
         "total_chars": 73,
         "total_words": 12,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -2199,11 +2260,11 @@
           0,
           25
         ],
-        "chars_per_page_median": 18.5,
+        "chars_per_page_median": 12,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -2276,7 +2337,7 @@
       "quality_signals": {
         "total_chars": 93,
         "total_words": 12,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 4,
         "blank_pages": 4,
         "content_pages": 2,
@@ -2290,11 +2351,11 @@
           0,
           31
         ],
-        "chars_per_page_median": 31,
+        "chars_per_page_median": 31.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -2367,7 +2428,7 @@
       "quality_signals": {
         "total_chars": 468,
         "total_words": 62,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -2381,18 +2442,25 @@
           38,
           109
         ],
-        "chars_per_page_median": 68,
+        "chars_per_page_median": 53.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.2097,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            1,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -2458,7 +2526,7 @@
       "quality_signals": {
         "total_chars": 366,
         "total_words": 48,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -2472,18 +2540,25 @@
           0,
           123
         ],
-        "chars_per_page_median": 96.5,
+        "chars_per_page_median": 70,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.375,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            0,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -2535,7 +2610,7 @@
       "quality_signals": {
         "total_chars": 682,
         "total_words": 90,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 3,
@@ -2547,25 +2622,18 @@
           0,
           228
         ],
-        "chars_per_page_median": 187.0,
+        "chars_per_page_median": 146,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.2308,
-        "duplicate_page_pairs": [
-          [
-            0,
-            4
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -2631,7 +2699,7 @@
       "quality_signals": {
         "total_chars": 506,
         "total_words": 60,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -2645,18 +2713,33 @@
           41,
           128
         ],
-        "chars_per_page_median": 85,
+        "chars_per_page_median": 63.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.25,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -2722,7 +2805,7 @@
       "quality_signals": {
         "total_chars": 610,
         "total_words": 96,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -2736,18 +2819,25 @@
           32,
           146
         ],
-        "chars_per_page_median": 111,
+        "chars_per_page_median": 71.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5238,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            1,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -2813,7 +2903,7 @@
       "quality_signals": {
         "total_chars": 192,
         "total_words": 30,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -2827,11 +2917,11 @@
           0,
           65
         ],
-        "chars_per_page_median": 48.5,
+        "chars_per_page_median": 32,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.6,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -2904,7 +2994,7 @@
       "quality_signals": {
         "total_chars": 367,
         "total_words": 46,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -2918,19 +3008,32 @@
           33,
           67
         ],
-        "chars_per_page_median": 67,
+        "chars_per_page_median": 50.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.1489,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "low_dwr"
+          "duplicate_pages"
         ]
       },
       "consensus": null,
@@ -2997,7 +3100,7 @@
       "quality_signals": {
         "total_chars": 202,
         "total_words": 28,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -3011,11 +3114,11 @@
           19,
           52
         ],
-        "chars_per_page_median": 31,
+        "chars_per_page_median": 25.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -3088,7 +3191,7 @@
       "quality_signals": {
         "total_chars": 264,
         "total_words": 26,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -3102,11 +3205,11 @@
           20,
           62
         ],
-        "chars_per_page_median": 40,
+        "chars_per_page_median": 30.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -3179,7 +3282,7 @@
       "quality_signals": {
         "total_chars": 196,
         "total_words": 27,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -3193,11 +3296,11 @@
           0,
           66
         ],
-        "chars_per_page_median": 50.0,
+        "chars_per_page_median": 34,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -3270,7 +3373,7 @@
       "quality_signals": {
         "total_chars": 284,
         "total_words": 47,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -3284,18 +3387,33 @@
           12,
           62
         ],
-        "chars_per_page_median": 62,
+        "chars_per_page_median": 37.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.56,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -3339,32 +3457,30 @@
         "vlmConfidence": "medium"
       },
       "quality_signals": {
-        "total_chars": 148,
+        "total_chars": 138,
         "total_words": 20,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
         "color_chart_pages": 1,
         "chars_per_page": [
-          74,
+          69,
           0,
-          74
+          69
         ],
-        "chars_per_page_median": 74.0,
-        "marker_uncertain_count": 4,
+        "chars_per_page_median": 69,
+        "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
-        "marker_density": 0.2,
-        "dwr_score": 0.2,
+        "marker_density": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "marker_density"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -3442,7 +3558,7 @@
       "quality_signals": {
         "total_chars": 277,
         "total_words": 37,
-        "total_pages": 5,
+        "total_pages": 4,
         "empty_pages": 2,
         "blank_pages": 2,
         "content_pages": 4,
@@ -3456,20 +3572,18 @@
           0,
           79
         ],
-        "chars_per_page_median": 46,
+        "chars_per_page_median": 46.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.1212,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "low_dwr"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -3535,7 +3649,7 @@
       "quality_signals": {
         "total_chars": 175,
         "total_words": 24,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -3549,11 +3663,11 @@
           0,
           60
         ],
-        "chars_per_page_median": 47.5,
+        "chars_per_page_median": 35,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.25,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -3626,7 +3740,7 @@
       "quality_signals": {
         "total_chars": 158,
         "total_words": 21,
-        "total_pages": 5,
+        "total_pages": 4,
         "empty_pages": 2,
         "blank_pages": 2,
         "content_pages": 4,
@@ -3640,11 +3754,11 @@
           0,
           46
         ],
-        "chars_per_page_median": 22,
+        "chars_per_page_median": 22.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.3333,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -3702,7 +3816,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5833,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -3777,7 +3891,7 @@
       "quality_signals": {
         "total_chars": 70,
         "total_words": 11,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -3791,11 +3905,11 @@
           0,
           18
         ],
-        "chars_per_page_median": 18.0,
+        "chars_per_page_median": 18,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5455,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -3868,7 +3982,7 @@
       "quality_signals": {
         "total_chars": 502,
         "total_words": 77,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -3882,18 +3996,25 @@
           0,
           200
         ],
-        "chars_per_page_median": 104.0,
+        "chars_per_page_median": 104,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.1538,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            0,
+            4
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -3959,7 +4080,7 @@
       "quality_signals": {
         "total_chars": 319,
         "total_words": 36,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -3973,11 +4094,11 @@
           0,
           107
         ],
-        "chars_per_page_median": 87.5,
+        "chars_per_page_median": 68,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -4050,7 +4171,7 @@
       "quality_signals": {
         "total_chars": 269,
         "total_words": 40,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -4064,20 +4185,18 @@
           19,
           68
         ],
-        "chars_per_page_median": 29,
+        "chars_per_page_median": 29.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0811,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "low_dwr"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -4143,7 +4262,7 @@
       "quality_signals": {
         "total_chars": 160,
         "total_words": 21,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -4157,11 +4276,11 @@
           0,
           54
         ],
-        "chars_per_page_median": 48.5,
+        "chars_per_page_median": 43,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -4556,7 +4675,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4781,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -4583,7 +4702,15 @@
           "page": 1,
           "transcription": "Schlaf, Johannes\nPeter Boies Freite (Recension) [check]\nJohannes Schlaf (Würdigung) [check]\n\n\n\nJohannes Schlaf\n\nJohannes Schlaf\nPeter Boies Freite\nMaeterlinck (s. dort)",
           "notes": "Das Dokument enthält mehrfache Nennungen von Namen. 'Recession' und 'Würdigung' sind als Klammerzusätze erkennbar. Die Häkchen sind als solche transkribiert.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "Schlaf, Johannes\nPeter Boies Freite (Recession) [check]\nJohannes Schlaf (Würdigung) [check]\n\n\n\nJohannes Schlaf\n\nJohannes Schlaf\nPeter Boies Freite\nMaeterlinck (s. dort)",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T13:13:01.990976+00:00",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 2,
@@ -4607,7 +4734,15 @@
           "page": 5,
           "transcription": "Schlaf, Johannes\nPeter Boies Freite (Recension) [check]\nJohannes Schlaf (Würdigung) [check]",
           "notes": "Ausschnitt der oberen Hälfte von Seite 1.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "Schlaf, Johannes\nPeter Boies Freite (Recession) [check]\nJohannes Schlaf (Würdigung) [check]",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T13:13:01.990976+00:00",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 6,
@@ -4629,7 +4764,7 @@
       "quality_signals": {
         "total_chars": 500,
         "total_words": 63,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -4643,20 +4778,18 @@
           0,
           168
         ],
-        "chars_per_page_median": 129.5,
+        "chars_per_page_median": 91,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0476,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "low_dwr"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -4759,14 +4892,21 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.3333,
-        "duplicate_page_pairs": [],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [
+          [
+            0,
+            6
+          ]
+        ],
         "language_expected": "de",
         "language_detected": "",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": false,
-        "needs_review_reasons": []
+        "needs_review": true,
+        "needs_review_reasons": [
+          "duplicate_pages"
+        ]
       },
       "consensus": null,
       "review": null
@@ -4832,7 +4972,7 @@
       "quality_signals": {
         "total_chars": 474,
         "total_words": 54,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 3,
         "blank_pages": 3,
         "content_pages": 3,
@@ -4846,11 +4986,11 @@
           0,
           159
         ],
-        "chars_per_page_median": 120.5,
+        "chars_per_page_median": 82,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -4895,7 +5035,7 @@
       "quality_signals": {
         "total_chars": 2078,
         "total_words": 292,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -4905,25 +5045,18 @@
           0,
           1027
         ],
-        "chars_per_page_median": 1039.0,
+        "chars_per_page_median": 1051,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5175,
-        "duplicate_page_pairs": [
-          [
-            0,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -4961,7 +5094,7 @@
       "quality_signals": {
         "total_chars": 2576,
         "total_words": 378,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -4971,11 +5104,11 @@
           0,
           831
         ],
-        "chars_per_page_median": 1288.0,
+        "chars_per_page_median": 1745,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4686,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5076,7 +5209,7 @@
       "quality_signals": {
         "total_chars": 11408,
         "total_words": 1655,
-        "total_pages": 11,
+        "total_pages": 10,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 10,
@@ -5094,11 +5227,11 @@
           94,
           108
         ],
-        "chars_per_page_median": 108,
+        "chars_per_page_median": 741.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4585,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5148,7 +5281,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4604,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5248,7 +5381,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4406,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5309,7 +5442,7 @@
       "quality_signals": {
         "total_chars": 2024,
         "total_words": 349,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 2,
         "blank_pages": 2,
         "content_pages": 2,
@@ -5321,24 +5454,18 @@
           0,
           306
         ],
-        "chars_per_page_median": 306,
+        "chars_per_page_median": 859.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4473,
-        "duplicate_page_pairs": [
-          [
-            2,
-            4
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "en",
         "language_match": false,
         "page_length_anomalies": [],
         "needs_review": true,
         "needs_review_reasons": [
-          "duplicate_pages",
           "language_mismatch"
         ]
       },
@@ -5407,7 +5534,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.428,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5549,7 +5676,7 @@
       "quality_signals": {
         "total_chars": 9817,
         "total_words": 1531,
-        "total_pages": 15,
+        "total_pages": 14,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 14,
@@ -5571,11 +5698,11 @@
           13,
           507
         ],
-        "chars_per_page_median": 507,
+        "chars_per_page_median": 267.0,
         "marker_uncertain_count": 1,
         "marker_illegible_count": 0,
         "marker_density": 0.0007,
-        "dwr_score": 0.4386,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5610,7 +5737,15 @@
           "page": 1,
           "transcription": "Es ist mir eine gute Erinnerung, daß mein erstes Buch (die Ge-\ndichte: ,,Silberne Saiten“, 1901, heute längst verschollen) gleich-\nzeitig auch eines der ersten Bücher gewesen ist, denen Hugo Steiner-\nPrag zeichnerisches Gewand und Gestalt gab. Ich hatte von ihm,\ndem damals Zwanzigjährigen, einige Zeichnungen in einem gleich-\nfalls verschollenen Prager Dichterblatt ,,Frühling“ gesehen und\nsie machten mir einen so starken Eindruck, daß ich gerade ihn\nbat, die Ausstattung meines Erstlings zu übernehmen. So darf ich\nmich zu den Ersten rechnen, die schon im Beginn spürten, mit wel-\ncher verstehenden, liebevoll begreifenden und darum anpassungs-\nfähigen Art Hugo Steiner-Prag den geistigen Gehalt von Büchern\nin bildnerische und typographische Gestalt umzuwandeln vermag.\nSein sicherer Sinn für die klar eindringlichen Formen, für die har-\nmonische Anordnung der Lettern im Raume und die Einheit\nwelche in einem Buche zwischen all seinen innern und äußern Be-\nstandteilen walten muß, hat sich ja seitdem an unzähligen andern\nBüchern bewährt. Und mehr noch: sie ist auch lebendig geworden\nin einer ersten und zweiten Generation von Schülern. Es ist nicht\ngenug, ein Geheimnis der Kunst zu kennen, man muß es auch aus-\nzudrücken und zu lehren wissen, damit es Bestand in der Welt\nhabe. Dies hat Hugo Steiner-Prag mit unermüdlichem Fleiß und\ngleich schöpferischer Leidenschaft getan. Die Bücher, die er ge-\nschmückt und gestaltet, können ihm selbst nicht danken, so wird es\nunsere freudige Pflicht, ihm einigen Dank für das so reich Gestal- L n\n4",
           "notes": "Die Seite enthält den gedruckten Text. Das 'L n' am Ende der vorletzten Zeile scheint eine handschriftliche Notiz oder ein Korrekturzeichen zu sein.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "Es ist mir eine gute Erinnerung, daß mein erstes Buch (die Ge-\ndichte: ,,silberne Saiten“, 1901, heute längst verschollen) gleich-\nzeitig auch eines der ersten Bücher gewesen ist, denen Hugo Steiner-\nPrag zeichnerisches Gewand und Gestalt gab. Ich hatte von ihm,\ndem damals Zwanzigjährigen, einige Zeichnungen in einem gleich-\nfalls verschollenen Prager Dichterblatt ,,Frühling“ gesehen und\nsie machten mir einen so starken Eindruck, daß ich gerade ihn\nbat, die Ausstattung meines Erstlings zu übernehmen. So darf ich\nmich zu den Ersten rechnen, die schon im Beginn spürten, mit wel-\ncher verstehenden, liebevoll begreifenden und darum anpassungs-\nfähigen Art Hugo Steiner-Prag den geistigen Gehalt von Büchern\nin bildnerische und typographische Gestalt umzuwandeln vermag.\nSein sicherer Sinn für die klar eindringlichen Formen, für die har-\nmonische Anordnung der Lettern im Raume und die Einheit\nwelche in einem Buche zwischen all seinen innern und äußern Be-\nstandteilen walten muß, hat sich ja seitdem an unzähligen andern\nBüchern bewährt. Und mehr noch: sie ist auch lebendig geworden\nin einer ersten und zweiten Generation von Schülern. Es ist nicht\ngenug, ein Geheimnis der Kunst zu kennen, man muß es auch aus-\nzudrücken und zu lehren wissen, damit es Bestand in der Welt\nhabe. Dies hat Hugo Steiner-Prag mit unermüdlichem Fleiß und\ngleich schöpferischer Leidenschaft getan. Die Bücher, die er ge-\nschmückt und gestaltet, können ihm selbst nicht danken, so wird es\nunsere freudige Pflicht, ihm einigen Dank für das so reich Gestal- L n\n4",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T13:13:01.990976+00:00",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 2,
@@ -5622,7 +5757,15 @@
           "page": 3,
           "transcription": "tete zu sagen und sein heutiger Festtag dafür ein rechter und freu-\ndiger Anlaß.\n\nStefan Zweig\n\n5",
           "notes": "Fortsetzung des Textes auf Blatt 2. Das Wort 's.gen' ist vermutlich ein Druckfehler oder eine unvollständige Zeile, die 'sagen' oder 'segnen' lauten könnte.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "tete zu s.gen und sein heutiger Festtag dafür ein rechter und freu-\ndiger Anlaß.\n\nStefan Zweig\n\n5",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T13:13:01.990976+00:00",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 4,
@@ -5644,7 +5787,7 @@
       "quality_signals": {
         "total_chars": 1739,
         "total_words": 274,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 2,
         "blank_pages": 2,
         "content_pages": 2,
@@ -5656,11 +5799,11 @@
           0,
           97
         ],
-        "chars_per_page_median": 97,
+        "chars_per_page_median": 821.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4051,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5701,13 +5844,29 @@
           "page": 2,
           "transcription": "67\n\nvor, er gebiert sie gleichsam noch einmal in Krampf und Ekstase.\nDas Chaos des Gefühls bricht noch einmal aus, in dem sich der\nStern des Worts entzündet. Ihr tiefstes Geheimnis wird beredet in\ndiesem Überschwange und der Kampf, der unendliche des Menschen\ndurch sein eigenes Ich zum glühenden Weltkerne, Geschehnis.\nWerfel wird aus allen seinen vier Büchern vorlesen, diesen weiten\nMeilensteinen eines großen Wegs. Der Anfang liegt weit zurück.\nIn Kindheitsland. Das erste Buch „Der Weltfreund“ vor zehn\nJahren erschienen, war seliges Staunen über die Fülle der Welt.\nZarte Erinnerungen, zart gestaltet, Ferne, lockende und gefüllte Ferne\ndurch weiches Gefühl mit der Gegenwart verbunden, unendliches\nGlück am Gegenstand und dem eigenen Gefühl, kindisch wissende\nSeligkeit des „Auf-der-Welt-sein“. Ein Idylliker schien da zu beginnen,\nein deutscher Francis Jammes, ein neuer Hölty, der lächelnde Knabe,\nder durch das Leben schreitet wie durch eine Wiese. Was Walt Whit-\nman und Verhaeren als Triumph jahrzehntelangen Ringens sich er-\nkämpft hatten, die einheitliche Lust der Existenz in einem und allem,\ndiesem jungen Menschen schien es geschenkt ohne Qual.\nAber, ahnungsvoll wie arm die Welt wäre, ohne Qual, schuf der\nWachsende sie sich selbst. Sein nächstes Werk „Wir sind“ hat die\nnaive, die unwissende, die bloß fühlende Freude verloren. Er hat\ndie innere Armut des selbstseligen egoistischen „Ich bin“ erkannt.\nEr weiß, daß kein Gefühl weltfühlend bleiben kann, solange es nur\nin sich selbst die Welt einsaugt, solang es nicht wieder rückströmt in\njedes Wesen, in jedes Ding. Solang noch eine Wand, eine Schale\num das eigene Empfinden ist, eine Grenze zwischen der eigenen\nHaut und den Dingen. Das erste Buch war das des reinen Staunens.\nUnd im zweiten beginnt die Erkenntnis.\nUnd diese Erkenntnis wird im dritten Gedichtwerke Werfels\n„Einander“ zur Schuld. Er fühlt die Verantwortung des Dichters,\nallteilnehmend zu sein. Sich ganz aufzulösen, allen Schmerz zu tragen\nund alle Qual. Das Leiden der armen Magd, die in der Küche friert,\ndes Droschkengaules, der unter der Peitsche zittert, der Dirne und\ndes Kranken, nicht nur immer das des eigenen Ich, das sein Leiden\ngenießt. Er fühlt die schmerzhafte Enge alles Irdischen, mit der\ndünnen Membran seiner Seele nicht die ganze Welt umspannen zu\nkönnen, und fühlt diese Unzulänglichkeit als Schuld, daß die Men-",
           "notes": "Seitenzahl 67 oben rechts.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "67\n\nvor, er gebiert sie gleichsam noch einmal in Krampf und Ekstase.\nDas Chaos des Gefühls bricht noch einmal aus, in dem sich der\nStern des Worts entzündet. Ihr tiefstes Geheimnis wird beredet in\ndiesem Überschwange und der Kampf, der unendliche des Menschen\ndurch sein eigenes Ich zum glühenden Weltkerne, Geschehnis.\nWerfel wird aus allen seinen vier Büchern vorlesen, diesen weiten\nMeilensteinen eines großen Wegs. Der Anfang liegt weit zurück.\nIn Kindheitsland. Das erste Buch „Der Weltfreund“ vor zehn\nJahren erschienen, war seliges Staunen über die Fülle der Welt.\nZarte Erinnerungen, zart gestaltet, Ferne, lockende und gefüllte Ferne\ndurch weiches Gefühl mit der Gegenwart verbunden, unendliches\nGlück am Gegenstand und dem eigenen Gefühl, kindisch wissende\nSeligkeit des „Auf der Weltsein“. Ein Idylliker schien da zu beginnen,\nein deutscher Francis Jammes, ein neuer Hölty, der lächelnde Knabe,\nder durch das Leben schreitet wie durch eine Wiese. Was Walt Whit-\nman und Verhaeren als Triumph jahrzehntelangen Ringens sich er-\nkämpft hatten, die einheitliche Lust der Existenz in einem und allem,\ndiesem jungen Menschen schien es geschenkt ohne Qual.\nAber, ahnungsvoll wie arm die Welt wäre, ohne Qual, schuf der\nWachsende sie sich selbst. Sein nächstes Werk „Wir sind“ hat die\nnaive, die unwissende, die bloß fühlende Freude verloren. Er hat\ndie innere Armut des selbstfeligen egoistischen „Ich bin“ erkannt.\nEr weiß, daß kein Gefühl weltfühlend bleiben kann, solange es nur\nin sich selbst die Welt einsaugt, solang es nicht wieder rückströmt in\njedes Wesen, in jedes Ding. Solang noch eine Wand, eine Schale\num das eigene Empfinden ist, eine Grenze zwischen der eigenen\nHaut und den Dingen. Das erste Buch war das des reinen Staunens.\nUnd im zweiten beginnt die Erkenntnis.\nUnd diese Erkenntnis wird im dritten Gedichtwerke Werfels\n„Einander“ zur Schuld. Er fühlt die Verantwortung des Dichters,\nallteilnehmend zu sein. Sich ganz aufzulösen, allen Schmerz zu tragen\nund alle Qual. Das Leiden der armen Magd, die in der Küche friert,\ndes Droschkengaules, der unter der Peitsche zittert, der Dirne und\ndes Kranken, nicht nur immer das des eigenen Ich, das sein Leiden\ngenießt. Er fühlt die schmerzhafte Enge alles Irdischen, mit der\ndünnen Membran seiner Seele nicht die ganze Welt umspannen zu\nkönnen, und fühlt diese Unzulänglichkeit als Schuld, daß die Men-",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T13:06:07.802787+00:00",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 3,
           "transcription": "68\n\nschen noch zu viel sich, zu wenig einander leben. Und spürt das Wort,\nsein eigenes dichterisches Wort als Verrat an dem ungeheuerlichen\nGefühl, weil es etwas für sich festhält, statt es wegzuströmen. Die\nirdische Not des ewig Unzulänglichen hat hier stellenweise unver-\ngängliche Form gefunden.\nVerantwortung hat der gereifte Dichter auf sich genommen. Er\nlebt, er fühlt nur vom Gewissen aus und trägt die Allschuld der\nWelt, diese ungeheure Last. Und daß sein letztes Werk „Gerichts-\ntag“, entstanden in dieser Zeit des Krieges, eine Ekstase der Ver-\nzweiflung, eine schreiende Anklage geworden ist, muß als selbst-\nverständliches Ergebnis gewertet werden. Denn wer wie er hingabe,\nGüte und Auflösung als letzten Sinn des Seins empfindet, wie\nsollte er in gottloser Zeit der Allvernichtung, nicht der Ankläger der\nErde sein und da er sich als eins mit ihr empfindet, der Ankläger\nseiner selbst! Eine Hölle des Schmerzes ist dieses Buch, aber doch,\nman fühlt sie nur als Purgatorium. Und als einen Weg zum Para-\ndiese, das er, als Knabe fast, uns im Gedicht zu geben verheißen hat.\nAußer diesem Gedichtkreis hat Werfel noch ein Drama neuge-\nstaltet, die „Troerinnen“ des Euripides. Sprachlich gibt diese Nach-\ndichtung das Vollkommenste unserer neuen Kunst und bis Hölderlin\nmüssen wir zurückgehen, um Ähnliches zu finden. Menschlich einen\neinzigen Schrei: „Gerechtigkeit“: Aber einen Schrei, der bis zu den\nhimmeln des Herzens dröhnt, lauter als alle Kanonen der Zeit.\nEr ist jung, Franz Werfel, und sein Werk erst am Anbeginn.\nAber doch schon ein ganzes Werk. Das größte lyrische Bekenntnis,\ndas Österreich, das Deutschland der Zeit gegeben, die menschlichste\nAussprache der neuen Jugend bisher und die schönste Verheißung.\nWir lieben ihn als unseren Besten und ich persönlich empfinde seine\nSchöpferische Existenz als beglückendes Erlebnis, so tief ich nur emp-\nfinden kann. Möge er es auch hier allen seinen Hörern sein!",
           "notes": "Seitenzahl 68 oben links.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "68\n\nschen noch zu viel sich, zu wenig einander leben. Und spürt das Wort,\nsein eigenes dichterisches Wort als Verrat an dem ungeheuerlichen\nGefühl, weil es etwas für sich festhält, statt es wegzuströmen. Die\nirdische Not des ewig Unzulänglichen hat hier stellenweise unver-\ngängliche Form gefunden.\nVerantwortung hat der gereiste Dichter auf sich genommen. Er\nlebt, er fühlt nur vom Gewissen aus und trägt die Allschuld der\nWelt, diese ungeheure Last. Und daß sein letztes Werk „Gerichts-\ntag“, entstanden in dieser Zeit des Krieges, eine Ekstase der Ver-\nzweiflung, eine schreiende Anklage geworden ist, muß als selbst-\nverständliches Ergebnis gewertet werden. Denn wer wie er hingabe,\nGüte und Auflösung als letzten Sinn des Seins empfindet, wie\nsollte er in gottloser Zeit der Allvernichtung, nicht der Ankläger der\nErde sein und da er sich als eins mit ihr empfindet, der Ankläger\nseiner selbst! Eine Hölle des Schmerzes ist dieses Buch, aber doch,\nman fühlt sie nur als Purgatorium. Und als einen Weg zum Para-\ndiese, das er, als Knabe fast, uns im Gedicht zu geben verheißen hat.\nAußer diesem Gedichtkreis hat Werfel noch ein Drama neuge-\nstaltet, die „Troerinnen“ des Euripides. Sprachlich gibt diese Nach-\ndichtung das Vollkommenste unserer neuen Kunst und bis Hölderlin\nmüssen wir zurückgehen, um Ähnliches zu finden. Menschlich einen\neinzigen Schrei: „Gerechtigkeit“: Aber einen Schrei, der bis zu den\nhimmeln des Herzens dröhnt, lauter als alle Kanonen der Zeit.\nEr ist jung, Franz Werfel, und sein Werk erst am Anbeginn.\nAber doch schon ein ganzes Werk. Das größte lyrische Bekenntnis,\ndas Österreich, das Deutschland der Zeit gegeben, die menschlichste\nAussprache der neuen Jugend bisher und die schönste Verheißung.\nWir lieben ihn als unseren Besten und ich persönlich empfinde seine\nSchöpferische Existenz als beglückendes Erlebnis, so tief ich nur emp-\nfinden kann. Möge er es auch hier allen seinen Hörern sein!",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T13:06:07.802787+00:00",
+              "source": "agent"
+            }
+          ]
         }
       ],
       "confidence": "high",
@@ -5721,24 +5880,24 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 7155,
-        "total_words": 1105,
-        "total_pages": 4,
+        "total_chars": 7156,
+        "total_words": 1103,
+        "total_pages": 3,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 3,
         "color_chart_pages": 1,
         "chars_per_page": [
           1914,
-          2370,
+          2371,
           1928,
           943
         ],
-        "chars_per_page_median": 1921.0,
+        "chars_per_page_median": 1928,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.5018,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5819,7 +5978,15 @@
           "page": 1,
           "transcription": "5. Februar 25\n\nAUS DER\nWERKSTATT DER\nDICHTER\n\nDie Geburt der geistigen Werke wird immer ein\nMysterium bleiben. Aber schon das Auftauchen der\nkünstlerischen Vision, das Wachstum der Form und\ndie individuellen Arbeitsweisen sind so persönlich und\nverschieden, daß es uns bedeutsam genug erschien,\nmehrere bekannte Autoren um einen Beitrag zu\ndiesem Thema zu bitten.\n\nStefan Zweig\nAus einer Manuskriptseite der „Phantastischen Nacht“ aus dem Novellenband „Amok“ (Originalgröße)\n\nStefan Zweig schreibt:\n„In einem seiner psychoanalytischen Werke\nhat Professor Freud ausgezeichnet dar-\ngestellt, wie jeder Mensch in seinen täg-\nlich wiederholten Funktionen – Anziehen,\nWaschen, Zähneputzen – ein gewisses\n„Ritual“ entwickelt, eine ganz persönliche,\ngeradezu zwanghaft gewordene Form; uns,\ndenen die Arbeit eine fast tägliche und ge-\nwiß die bestimmende Funktion des Lebens\nbedeutet, ist es unmöglich (und dafür bie-\nten gerade die Manuskripte ein sinnbild-\nliches Zeugnis), gerade bei der Arbeit dieser\nFortsetzung auf Seite 41",
           "notes": "Die handschriftliche Annotation links oben wurde nicht transkribiert, da sie nur aus Strichen/Kritzeleien besteht. Der handschriftliche Text über dem Foto ist teilweise durch das Foto selbst und die Überlagerung unleserlich.",
-          "type": "content"
+          "type": "content",
+          "edit_history": [
+            {
+              "original_transcription": "5. Februar 25\n\nAUS DER\nWERKSTATT DER\nDICHTER\n\nDie Geburt der geistigen Werke wird immer ein\nMysterium bleiben. Aber schon das Auftauchen der\nkünstlerischen Vision, das Wachstum der Form und\ndie individuellen Arbeitsweisen sind so persönlich und\nverschieden, daß es uns bedeutsam genug erschien,\nmehrere bekannte Autoren um einen Beitrag zu\ndiesem Thema zu bitten.\n\nStefan Zweig\nAus einer Manuskriptseite der „Phantastischen Nacht“ aus dem Novellenband „Amok“ (Originalgröße)\n\nStefan Zweig schreibt:\n„In einem seiner psychoanalytischen Werke\nhat Professor Freud ausgezeichnet dar-\ngestellt, wie jeder Mensch in seinen täg-\nlich wiederholten Funktionen – Anziehen,\nWaschen, Zähneputzen – ein gewisses\n„Ritual“ entwickelt, eine ganz persönliche,\ngeradezu zwanghaft gewordene Form; uns,\ndenen die Arbeit eine fast tägliche und ge-\nwiß die bestimmende Funktion des Lebens\nbedeutet, ist es unmöglich (und dafür bie-\nten gerade die Manuskripte ein sinnbild-\nliches Zeugnis), gerade bei der Arbeit dieser\nFortsetzung auf Seite 123",
+              "edited_by": "Claude Code Agent",
+              "edited_at": "2026-04-02T13:13:01.990976+00:00",
+              "source": "agent"
+            }
+          ]
         },
         {
           "page": 2,
@@ -5839,23 +6006,23 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 3760,
+        "total_chars": 3759,
         "total_words": 553,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
         "color_chart_pages": 1,
         "chars_per_page": [
-          1022,
+          1021,
           1855,
           883
         ],
-        "chars_per_page_median": 1022,
+        "chars_per_page_median": 1438.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4159,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -5947,21 +6114,21 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 6107,
-        "total_words": 886,
+        "total_chars": 6097,
+        "total_words": 885,
         "total_pages": 1,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 1,
         "color_chart_pages": 0,
         "chars_per_page": [
-          6107
+          6097
         ],
-        "chars_per_page_median": 6107,
-        "marker_uncertain_count": 1,
+        "chars_per_page_median": 6097,
+        "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
-        "marker_density": 0.0011,
-        "dwr_score": 0.4363,
+        "marker_density": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -6076,7 +6243,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4496,
+        "dwr_score": 0,
         "duplicate_page_pairs": [
           [
             3,
@@ -6142,37 +6309,30 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 7553,
-        "total_words": 1082,
-        "total_pages": 3,
+        "total_chars": 7562,
+        "total_words": 1084,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
         "color_chart_pages": 1,
         "chars_per_page": [
-          5749,
-          902,
-          902
+          5750,
+          906,
+          906
         ],
-        "chars_per_page_median": 902,
+        "chars_per_page_median": 3328.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4362,
-        "duplicate_page_pairs": [
-          [
-            1,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -6266,9 +6426,9 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 29418,
-        "total_words": 4142,
-        "total_pages": 5,
+        "total_chars": 29420,
+        "total_words": 4141,
+        "total_pages": 4,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 4,
@@ -6276,29 +6436,22 @@
         "chars_per_page": [
           3264,
           5142,
-          6506,
-          7253,
+          6509,
+          7252,
           7253
         ],
-        "chars_per_page_median": 6506,
+        "chars_per_page_median": 5825.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 1,
         "marker_density": 0.0002,
-        "dwr_score": 0.4229,
-        "duplicate_page_pairs": [
-          [
-            3,
-            4
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -6356,37 +6509,30 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 4599,
+        "total_chars": 4680,
         "total_words": 672,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
         "color_chart_pages": 1,
         "chars_per_page": [
-          1497,
-          1552,
-          1550
+          1524,
+          1579,
+          1577
         ],
-        "chars_per_page_median": 1550,
+        "chars_per_page_median": 1551.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4384,
-        "duplicate_page_pairs": [
-          [
-            1,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -6449,37 +6595,30 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 47177,
-        "total_words": 7214,
-        "total_pages": 3,
+        "total_chars": 47117,
+        "total_words": 7206,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
         "color_chart_pages": 1,
         "chars_per_page": [
-          15433,
-          16311,
+          15374,
+          16310,
           15433
         ],
-        "chars_per_page_median": 15433,
+        "chars_per_page_median": 15842.0,
         "marker_uncertain_count": 1,
         "marker_illegible_count": 0,
         "marker_density": 0.0001,
-        "dwr_score": 0.449,
-        "duplicate_page_pairs": [
-          [
-            0,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -6523,7 +6662,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -6584,37 +6723,30 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 10122,
+        "total_chars": 10123,
         "total_words": 1678,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
         "color_chart_pages": 1,
         "chars_per_page": [
           4718,
-          2702,
+          2703,
           2702
         ],
-        "chars_per_page_median": 2702,
+        "chars_per_page_median": 3710.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4797,
-        "duplicate_page_pairs": [
-          [
-            1,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -6664,7 +6796,7 @@
       "quality_signals": {
         "total_chars": 13833,
         "total_words": 2174,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -6674,25 +6806,18 @@
           3061,
           3061
         ],
-        "chars_per_page_median": 3061,
+        "chars_per_page_median": 5386.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4811,
-        "duplicate_page_pairs": [
-          [
-            1,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -6730,7 +6855,7 @@
       "quality_signals": {
         "total_chars": 9929,
         "total_words": 1670,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -6740,11 +6865,11 @@
           3964,
           2389
         ],
-        "chars_per_page_median": 3576,
+        "chars_per_page_median": 3770.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4012,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "fr",
@@ -6828,7 +6953,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4789,
+        "dwr_score": 0,
         "duplicate_page_pairs": [
           [
             0,
@@ -6892,7 +7017,7 @@
       "quality_signals": {
         "total_chars": 6746,
         "total_words": 966,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -6902,11 +7027,11 @@
           0,
           2359
         ],
-        "chars_per_page_median": 3373.0,
+        "chars_per_page_median": 4387,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4869,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -6965,7 +7090,7 @@
       "quality_signals": {
         "total_chars": 22614,
         "total_words": 3500,
-        "total_pages": 5,
+        "total_pages": 4,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 4,
@@ -6977,25 +7102,18 @@
           6034,
           6034
         ],
-        "chars_per_page_median": 6034,
+        "chars_per_page_median": 4055.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.461,
-        "duplicate_page_pairs": [
-          [
-            3,
-            4
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -7038,7 +7156,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4766,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7085,7 +7203,7 @@
       "quality_signals": {
         "total_chars": 10105,
         "total_words": 1511,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -7095,25 +7213,18 @@
           2167,
           2167
         ],
-        "chars_per_page_median": 2167,
+        "chars_per_page_median": 3969.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4465,
-        "duplicate_page_pairs": [
-          [
-            1,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -7151,7 +7262,7 @@
       "quality_signals": {
         "total_chars": 7468,
         "total_words": 1137,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -7161,11 +7272,11 @@
           3189,
           1228
         ],
-        "chars_per_page_median": 3051,
+        "chars_per_page_median": 3120.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4289,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7216,37 +7327,30 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 7098,
+        "total_chars": 7099,
         "total_words": 1004,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
-        "content_pages": 3,
-        "color_chart_pages": 0,
+        "content_pages": 2,
+        "color_chart_pages": 1,
         "chars_per_page": [
-          5524,
+          5525,
           787,
           787
         ],
-        "chars_per_page_median": 787,
+        "chars_per_page_median": 3156.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4602,
-        "duplicate_page_pairs": [
-          [
-            1,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": {
@@ -7295,7 +7399,7 @@
       "quality_signals": {
         "total_chars": 7012,
         "total_words": 1069,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -7305,11 +7409,11 @@
           0,
           2971
         ],
-        "chars_per_page_median": 3506.0,
+        "chars_per_page_median": 4041,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4655,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7354,7 +7458,7 @@
       "quality_signals": {
         "total_chars": 4728,
         "total_words": 713,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -7364,11 +7468,11 @@
           0,
           1480
         ],
-        "chars_per_page_median": 2364.0,
+        "chars_per_page_median": 3248,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 2,
         "marker_density": 0.0028,
-        "dwr_score": 0.4474,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7407,7 +7511,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -7454,7 +7558,7 @@
       "quality_signals": {
         "total_chars": 8508,
         "total_words": 1285,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -7464,11 +7568,11 @@
           3167,
           2068
         ],
-        "chars_per_page_median": 3167,
+        "chars_per_page_median": 3220.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.481,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7550,7 +7654,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4609,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7595,7 +7699,7 @@
       "quality_signals": {
         "total_chars": 18834,
         "total_words": 2934,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -7605,25 +7709,18 @@
           0,
           9417
         ],
-        "chars_per_page_median": 9417.0,
+        "chars_per_page_median": 9417,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4638,
-        "duplicate_page_pairs": [
-          [
-            0,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -7660,7 +7757,7 @@
         "vlmConfidence": "high"
       },
       "quality_signals": {
-        "total_chars": 6810,
+        "total_chars": 6808,
         "total_words": 1120,
         "total_pages": 1,
         "empty_pages": 0,
@@ -7668,13 +7765,13 @@
         "content_pages": 1,
         "color_chart_pages": 0,
         "chars_per_page": [
-          6810
+          6808
         ],
-        "chars_per_page_median": 6810,
+        "chars_per_page_median": 6808,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4567,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7716,7 +7813,7 @@
       "quality_signals": {
         "total_chars": 40172,
         "total_words": 6273,
-        "total_pages": 1,
+        "total_pages": 0,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 0,
@@ -7724,11 +7821,11 @@
         "chars_per_page": [
           40172
         ],
-        "chars_per_page_median": 40172,
+        "chars_per_page_median": 0.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4778,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7775,7 +7872,7 @@
       "quality_signals": {
         "total_chars": 33131,
         "total_words": 4760,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -7785,25 +7882,18 @@
           10817,
           10813
         ],
-        "chars_per_page_median": 10817,
+        "chars_per_page_median": 11159.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4458,
-        "duplicate_page_pairs": [
-          [
-            1,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -7841,7 +7931,7 @@
       "quality_signals": {
         "total_chars": 7328,
         "total_words": 1127,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -7851,11 +7941,11 @@
           0,
           3059
         ],
-        "chars_per_page_median": 3664.0,
+        "chars_per_page_median": 4269,
         "marker_uncertain_count": 1,
         "marker_illegible_count": 2,
         "marker_density": 0.0027,
-        "dwr_score": 0.4447,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -7900,7 +7990,7 @@
       "quality_signals": {
         "total_chars": 11450,
         "total_words": 1720,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -7910,25 +8000,18 @@
           0,
           5725
         ],
-        "chars_per_page_median": 5725.0,
+        "chars_per_page_median": 5725,
         "marker_uncertain_count": 2,
         "marker_illegible_count": 0,
         "marker_density": 0.0012,
-        "dwr_score": 0.4203,
-        "duplicate_page_pairs": [
-          [
-            0,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -7971,7 +8054,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4422,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8018,7 +8101,7 @@
       "quality_signals": {
         "total_chars": 5239,
         "total_words": 799,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -8028,11 +8111,11 @@
           0,
           1751
         ],
-        "chars_per_page_median": 2619.5,
+        "chars_per_page_median": 3488,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4536,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8077,7 +8160,7 @@
       "quality_signals": {
         "total_chars": 7618,
         "total_words": 1166,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -8087,11 +8170,11 @@
           2848,
           2065
         ],
-        "chars_per_page_median": 2705,
+        "chars_per_page_median": 2776.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 1,
         "marker_density": 0.0009,
-        "dwr_score": 0.4698,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8157,7 +8240,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.45,
+        "dwr_score": 0,
         "duplicate_page_pairs": [
           [
             1,
@@ -8209,7 +8292,7 @@
       "quality_signals": {
         "total_chars": 4017,
         "total_words": 580,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -8219,11 +8302,11 @@
           0,
           1255
         ],
-        "chars_per_page_median": 2008.5,
+        "chars_per_page_median": 2762,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 1,
         "marker_density": 0.0017,
-        "dwr_score": 0.4081,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8273,7 +8356,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4135,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8334,7 +8417,7 @@
       "quality_signals": {
         "total_chars": 16757,
         "total_words": 2524,
-        "total_pages": 5,
+        "total_pages": 4,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 4,
@@ -8346,11 +8429,11 @@
           3952,
           2919
         ],
-        "chars_per_page_median": 3447,
+        "chars_per_page_median": 3699.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4595,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8424,7 +8507,7 @@
         "marker_uncertain_count": 3,
         "marker_illegible_count": 0,
         "marker_density": 0.0005,
-        "dwr_score": 0.4404,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8508,7 +8591,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4411,
+        "dwr_score": 0,
         "duplicate_page_pairs": [
           [
             3,
@@ -8560,7 +8643,7 @@
       "quality_signals": {
         "total_chars": 6788,
         "total_words": 999,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -8570,11 +8653,11 @@
           2878,
           1568
         ],
-        "chars_per_page_median": 2342,
+        "chars_per_page_median": 2610.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 2,
         "marker_density": 0.002,
-        "dwr_score": 0.4323,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8624,7 +8707,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4247,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8685,7 +8768,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4372,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8735,7 +8818,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4586,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8787,7 +8870,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4493,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8828,7 +8911,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -8875,7 +8958,7 @@
       "quality_signals": {
         "total_chars": 23083,
         "total_words": 3501,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -8885,11 +8968,11 @@
           10926,
           4862
         ],
-        "chars_per_page_median": 7295,
+        "chars_per_page_median": 6078.5,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4763,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -8928,7 +9011,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -8969,7 +9052,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -9021,7 +9104,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4359,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -9062,7 +9145,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.0,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "",
@@ -9114,7 +9197,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4321,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -9161,7 +9244,7 @@
       "quality_signals": {
         "total_chars": 30795,
         "total_words": 4543,
-        "total_pages": 3,
+        "total_pages": 2,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 2,
@@ -9171,25 +9254,18 @@
           10897,
           10897
         ],
-        "chars_per_page_median": 10897,
+        "chars_per_page_median": 9949.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4218,
-        "duplicate_page_pairs": [
-          [
-            1,
-            2
-          ]
-        ],
+        "dwr_score": 0,
+        "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
         "language_match": true,
         "page_length_anomalies": [],
-        "needs_review": true,
-        "needs_review_reasons": [
-          "duplicate_pages"
-        ]
+        "needs_review": false,
+        "needs_review_reasons": []
       },
       "consensus": null,
       "review": null
@@ -9227,7 +9303,7 @@
       "quality_signals": {
         "total_chars": 7727,
         "total_words": 1188,
-        "total_pages": 2,
+        "total_pages": 1,
         "empty_pages": 1,
         "blank_pages": 1,
         "content_pages": 1,
@@ -9237,11 +9313,11 @@
           0,
           3028
         ],
-        "chars_per_page_median": 3863.5,
+        "chars_per_page_median": 4699,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4798,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -9323,7 +9399,7 @@
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.414,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -9396,7 +9472,7 @@
       "quality_signals": {
         "total_chars": 33659,
         "total_words": 4867,
-        "total_pages": 7,
+        "total_pages": 6,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 6,
@@ -9410,11 +9486,11 @@
           5895,
           3101
         ],
-        "chars_per_page_median": 5895,
+        "chars_per_page_median": 6134.0,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4464,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",
@@ -9466,7 +9542,7 @@
       "quality_signals": {
         "total_chars": 34033,
         "total_words": 5455,
-        "total_pages": 4,
+        "total_pages": 3,
         "empty_pages": 0,
         "blank_pages": 0,
         "content_pages": 3,
@@ -9477,11 +9553,11 @@
           7981,
           7393
         ],
-        "chars_per_page_median": 7687.0,
+        "chars_per_page_median": 7981,
         "marker_uncertain_count": 0,
         "marker_illegible_count": 0,
         "marker_density": 0.0,
-        "dwr_score": 0.4724,
+        "dwr_score": 0,
         "duplicate_page_pairs": [],
         "language_expected": "de",
         "language_detected": "de",

@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.870",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 1. September 1937, SZ-AAP/B1.84",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.870/IMG.1",
+      "https://gams.uni-graz.at/o:szd.870/IMG.2",
+      "https://gams.uni-graz.at/o:szd.870/IMG.3",
+      "https://gams.uni-graz.at/o:szd.870/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 1. September 1937, SZ-AAP/B1.84\n- Signatur: SZ-AAP/B1.84\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef.\nIhr Schreiben vom 30.August 1937\n1.September 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr letztes Schreiben.\nWeltkarte: Selbstverständlich wird die Weltkarte auf jeden Fall re-\nproduziert werden, auch für den Fall, {dass} wir allein die Luxusausgabe\nunternehmen, und dann eben einfärbig.Es soll dies aber nicht die\nalleinige Prämie sein,sondern wir wollen noch andere Bildtafeln da-\nzugeben.\nHuebsch: Wir schreiben gleichzeitig an Mr.Huebsch,ob er sich an der\nHerstellung der Vorzugsausgabe beteiligen will.\nOberhummer: Herr Prof.Oberhummer hat grundsätzlich zugestimmt,sich\naber noch nicht endgültig entschieden,weil er mit Arbeit sehr über-\nlastet ist.Wir werden ihn in der nächsten Woche aufrufen,sobald\nder neue Umbruch eingetroffen ist.\nProspekte: Ihr Gesamtprospekt ist in Arbeit.Der Prospekt des \"Leuchters\"\nist bereits im Druck (zweifarbig illustriert).Ausserdem haben wir Dop-\npelpostkarten herstellen lassen,die zur Lagerergänzung nur Ihrer Bücher\nbestimmt sind.Wir versäumen nichts,was zur Propaganda Ihrer Bücher bei-\ntragen kann.\nJoseph Roth: Ganz unerwartet ist ein Artikel von Joseph Roth im\n\"Christlichen Ständestaat\" erschienen,der sich besonders scharf gegen\n\" Ihren \" Verlag wendet.Denn es gibt keinen anderen mit dem Impressum",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Einfügung '{dass}' ist handschriftlich in Tinte ergänzt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\nRef.\n\"Leipzig-Wien-Zürich\".Wohl hat der Phaidon-Verlag auch diese Angaben,\naber auf ihn bezieht sich natürlich Roths Ausfall nicht und auf\nDr.Bermann-Fischer zielt der frühere Absatz.\n\nWir überlassen Ihnen die Kritik dieses „Ergusses“ und sind mit den\nbesten Wünschen für Ihre und Ihrer Frau Gemahlin gute Erholung und\nSie beide begrüssend\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Signatur unleserlich).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die wenigen handschriftlichen Ergänzungen sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2391,
+    "total_words": 324,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1652,
+      0,
+      739,
+      0
+    ],
+    "chars_per_page_median": 1195.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.906",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [26. Januar 1924], SZ-LAS/B1.27",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.906/IMG.1",
+      "https://gams.uni-graz.at/o:szd.906/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [26. Januar 1924], SZ-LAS/B1.27\n- Signatur: SZ-LAS/B1.27\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HOTEL LOUVOIS\nSQUARE LOUVOIS\nTrés l'Opéra\nTélégr: HOTEL LOUVOIS PARIS\nTÉLÉPH. {GUTENBERG 20-53\n\" 20-54\n\" 20-55\nINTER 719\nParis, le\n\nF. MOLLARD, PROP RE\n\nLieber Frans, merci de tout\ncoeur, je me tiens reconnu\net j'aurai[?] desormais peur de\nla police, si ton portrait paraîtra.\nMa chere epouse arrivera Jeudi\nsoir et nous te telefonerons\npour dejeuner ou diner ensemble.\nElle, elle apportera des nouvelles\nfraiches de Paule a ta femme.\nA bientot mon vieux\nStefan\n\nEAU COURANTE CHAUDE ET FROIDE DANS TOUTES LES CHAMBRES\nHOT AND GOLD RUNNING WATER IN EVERY ROOM\nCHAMBRES ET APPARTEMENTS AVEC BAIN PRIVÉ _ ROOMS AND SUITS WITH BATH",
+        "notes": "Brief auf Hotelbriefpapier. Der handschriftliche Text ist in französischer Sprache verfasst. Das Wort 'j'aurai' ist leicht unsicher lesbar, da das Ende des Wortes etwas verschliffen ist.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments. Unten mittig befindet sich ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift von Stefan Zweig ist klar erkennbar. Einzig bei 'j'aurai' besteht eine minimale Unsicherheit aufgrund der Schreibweise."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 627,
+    "total_words": 106,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      627,
+      0
+    ],
+    "chars_per_page_median": 627,
+    "marker_uncertain_count": 1,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0094,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

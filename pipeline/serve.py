@@ -19,7 +19,7 @@ import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import HTTPServer, SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 # Pipeline imports
@@ -53,7 +53,12 @@ def find_result_file(object_id: str, collection: str, model: str = "") -> Path |
         if path.exists():
             return path
 
-    # Fallback: glob
+    # Fallback: prefer primary model (flash-lite-preview)
+    primary = col_dir / f"{object_id}_gemini-3.1-flash-lite-preview.json"
+    if primary.exists():
+        return primary
+
+    # Last resort: glob
     candidates = list(col_dir.glob(f"{object_id}_*.json"))
     candidates = [c for c in candidates if not c.stem.endswith(
         ("_consensus", "_layout", "_gt_draft", "_judge_data")
@@ -71,7 +76,7 @@ def handle_approve(data: dict) -> dict:
     reviewer = data.get("reviewed_by", DEFAULT_REVIEWER)
     status = data.get("status", "approved")
 
-    if status not in ("approved", "agent_verified"):
+    if status not in ("approved", "agent_verified", "gt_verified"):
         return {"error": f"Ungültiger Status: {status}"}
     if not object_id or not collection:
         return {"error": "object_id und collection sind Pflichtfelder."}
@@ -118,6 +123,7 @@ def handle_edit(data: dict) -> dict:
     collection = data.get("collection", "")
     model = data.get("model", "")
     reviewer = data.get("reviewed_by", DEFAULT_REVIEWER)
+    status = data.get("status", "approved")
     pages = data.get("pages", [])
 
     if not object_id or not collection:
@@ -157,8 +163,11 @@ def handle_edit(data: dict) -> dict:
             rp["notes"] = export_page["notes"]
         edited_page_nums.append(page_num)
 
+    if status not in ("approved", "gt_verified"):
+        status = "approved"
+
     result["review"] = {
-        "status": "approved",
+        "status": status,
         "edited_pages": edited_page_nums,
         "reviewed_by": reviewer,
         "reviewed_at": datetime.now(timezone.utc).isoformat(),
@@ -173,11 +182,11 @@ def handle_edit(data: dict) -> dict:
     except OSError as e:
         return {"error": f"Schreibfehler: {e}"}
 
-    print(f"  EDITED: {result_path.name} -- {len(edited_page_nums)} Seite(n) (by {reviewer})")
+    print(f"  {status.upper()}: {result_path.name} -- {len(edited_page_nums)} Seite(n) (by {reviewer})")
     return {
         "ok": True,
         "file": result_path.name,
-        "status": "approved",
+        "status": status,
         "edited_pages": edited_page_nums,
     }
 
@@ -307,7 +316,7 @@ def main():
         print("Baue Viewer-Daten...")
         rebuild_viewer_data()
 
-    server = HTTPServer(("127.0.0.1", args.port), SZDHandler)
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), SZDHandler)
     print(f"\nSZD-HTR Dev-Server laeuft auf http://127.0.0.1:{args.port}")
     print(f"  Frontend:   http://127.0.0.1:{args.port}/index.html")
     print(f"  API Status: http://127.0.0.1:{args.port}/api/status")

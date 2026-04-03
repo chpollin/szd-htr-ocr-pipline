@@ -1,0 +1,84 @@
+{
+  "object_id": "o_szd.899",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 9. November 1920, SZ-LAS/B1.20",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.899/IMG.1",
+      "https://gams.uni-graz.at/o:szd.899/IMG.2",
+      "https://gams.uni-graz.at/o:szd.899/IMG.3",
+      "https://gams.uni-graz.at/o:szd.899/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 9. November 1920, SZ-LAS/B1.20\n- Signatur: SZ-LAS/B1.20\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, Kapuzinerberg 5\n9. Nov, 1920 VIII. KOCHGASSE 8\nWIEN,\n\nMon cher Frans, enfin je trouve une\nlibre minute pour te remercier de\nton beau roman sans paroles, qui m'a\nbien emu. Tu est a un point de maitrise\noù je ne sais presque pas, comme tu puisses\nencore monter plus haut. Tout est exprimé\navec une etonnante intensité - admirable\nvraiment ton art. J'ecrirai dans le Insel-\nSchrift quelques pages sur ton oeuvre bientôt.\nA Munich il y a maintenant une\npetite exposition de tes oeuvres a l'occasion\nde la reedition de la \"Passion\" chez le plus\ngrand libraire. Tu est - peut-etre sans le\nsavoir - tres celebre en Allemagne.\nAs-tu recu l'invitation de\nRutten & Loening de faire une edition\nillustré de Colas Breugnon? C'etait mon\nidie. Je crois tu feras cela admirable-\nment. Cela serait un tort de ta part a\nrefuser.",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Die Tinte ist violett. Die Lochungen am linken Rand sind Archivierungsspuren.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer bis auf durchscheinende Tinte von der Vorderseite.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "En deux semaines tu auras mon\ngrand livre sur Rolland. Je suis si heureux\nque tu le liras - j'espere, quelques pages\nte rapelleront nos heures a Geneve et a\nZürich.\nDis a Arcos que j'attends la re-\nponse de la Insel pour le tehaeren et\nque je lui ecirai immediatement. Votre\nlivre \"le bien commun\" aura une tres\nbelle edition, j'ai vu les epreuves. Le\n\"Zwang\" est deja quasi epuise.\nJe travaille beaucoup et j'en\nsuis content, car nous vivons dans\nla prison de notre change. Je suis re-\ndevue millionnaire - en couronnes par\nce que je possede en livres et meubles\net vêtements (chose tres facile comme\nun piano coute deja 50000 couronnes\nchez nous et une feuille de papier une\ncouronne) Mais mes livres marchent tres\nbien, je peux vivre a mon aise, sans me\npermettre des folies. Pour mon plaisir\nil reste encore ~~par exemple~~, je peux\nencore inviter mon cher frere Masereel\nde rester chez nous tant et quant il",
+        "notes": "Handschriftlicher Text auf der Rückseite des ersten Blattes (bzw. zweites Blatt). Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "voudrait venir, je le prie même (et ma\nfemme avec moi) d'etre notre hôte ce\nprintemps. Tu te reposeras, tu vivras tran-\nquillement et tu seras bien nourri.\nDis a ta femme et a ta fille\nmes meilleurs souvenirs. Je t'embrasse\nmon vieux! Ton\n\nStefan",
+        "notes": "Fortsetzung des Briefes auf der Rückseite des zweiten Blattes. Am unteren Rand befindet sich ein Exlibris-Stempel 'CHRISTIAN ANDREE EX LIBRIS ET AUTOGRAPHIS'.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift und der französischen Sprache. Die wenigen Korrekturen (durchgestrichen) sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1979,
+    "total_words": 357,
+    "total_pages": 3,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      821,
+      0,
+      912,
+      246
+    ],
+    "chars_per_page_median": 821,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

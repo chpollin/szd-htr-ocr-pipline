@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.969",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 15. November 1937, SZ-LAS/B7.28",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.969/IMG.1",
+      "https://gams.uni-graz.at/o:szd.969/IMG.2",
+      "https://gams.uni-graz.at/o:szd.969/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 15. November 1937, SZ-LAS/B7.28\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "15. Nov 1937\n\n49. HALLAM STREET.\nLONDON. W.1.\n\nLieber verehrter Herr Professor, nur dies will\nich Ihnen sagen, wie glücklich ich war, Ihre Schrift\nzu sehen und mit wie viel Liebe und Treue ich\nan Sie denke (ich war lange hier mit Arnold\nZweig von Ihnen.) Und noch Eines – eine solche\nFreude ist unendlich kostbar heute. Ich vermag\nIhnen nicht zu sagen, wie sehr ich an der Zeit\nleide, wie hat ein schlimmer Gott die Gabe zugetan,\nveles vorauszusehen nur was jetzt hereinbricht,\nspüre ich in den Nerven seit vier Jahren. Hätte\nich nicht hier gelebt, ich hätte nicht arbeiten können\n– wohl denen die mit „Illusionen“ gesegnet sind!\nSie bekommen dieser Tage noch ein „Nebenbuch“\nden „Magellan“; ich arbeite aber an einem sehr schweren\naber nun langen psychologischem Roman der\n„Mord durch Mitleid“ heissen will und darum,\ndass das halbe Mitleid, das nicht\nbis zum letzten Opfer geht, mörderischer ist als die\nGewalt. Es ist eine Rückkehr in die Welt was das",
+        "notes": "Handschriftlicher Brief von Stefan Zweig. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Buch spielt ins Medizinische hinein – es ist mein\nTrost. Das eigentliche Buch, das man schreiben\nmüsste, wäre die Tragödie des Indentums, aber\nich fühlte, die Realität wird, indem man es zu\ngrössten Intensitäten steigerte, ~~die Phantasie noch~~ {unsere verzweifelte}\nübertreffen. Ihnen ist der Trost gegeben: Sie haben\nIhr Werk getan, unvergessbar und unerschütterbar,\nSie haben bezeugt, dass wir nicht ganz vergeblich\nwaren, indem unsere Aussage vielleicht überhört\nwird – dennoch bleibt die Pflicht, sein Bestes\nzu versuchen.\nWenn ich an Wien denke und bitter\nwerde, denke ich an Sie! Von Jahr zu Jahr wird\nmir Ihre kühle Strenge vorbildlicher und ich\nfühle mich immer dankbarer Ihnen verbunden.\nIn Verehrung schon Ihr\n\nStefan Zweig",
+        "notes": "Handschriftlicher Brief von Stefan Zweig, Fortsetzung. Die Tinte ist violett. Die Lesbarkeit ist gut.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Buch spielt ins Medizinische hinein – es ist mein\nTrost. Das eigentliche Buch, das man schreiben\nmüsste, wäre die Tragödie des Indentums, aber\nich fühlte, die Realität wird, indem man es zu\ngrössten Intensitäten steigerte, ~~die Phantasie noch~~ {unsere verzweifelte}\nübertreffen. Ihnen ist der Trost gegeben: Sie haben\nIhr Werk getan, unvergessbar und unerschütterbar,\nSie haben bezeugt, dass wir nicht ganz vergeblich\nwaren, indem unsere Aussage vielleicht überhört\nwird – dennoch bleibt die Pflicht, sein Bestes\nzu versuchen.\n\nStefan Zweig",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Der Text ist identisch mit Seite 2, jedoch ist der untere Teil des Briefes durch die Farbskala verdeckt.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die Korrekturen/Einfügungen sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2231,
+    "total_words": 358,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      954,
+      735,
+      542
+    ],
+    "chars_per_page_median": 844.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

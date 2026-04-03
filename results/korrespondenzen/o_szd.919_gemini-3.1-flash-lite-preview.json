@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.919",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 13. Juni 1931, SZ-LAS/B1.39",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.919/IMG.1",
+      "https://gams.uni-graz.at/o:szd.919/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 13. Juni 1931, SZ-LAS/B1.39\n- Signatur: SZ-LAS/B1.39\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "S A L Z B U R G\nK A P U Z I N E R B E R G 5\n\nam 13. Juni 1931\n\nLieber Freund!\n\nIch bin sehr glücklich, wieder von Dir zu hören, wir\nhaben oft und immer liebevoll an Dich gedacht und ich sprach jüngst\nerst mit dem Bruder Reinhardts davon, wann die feierliche Enthül-\nlung Deiner Arbeiten stattfindet. Es ist gar nicht ausgeschlossen,\ndass ich komme, entscheidend für mich wäre nur, ob ich bei diesem\nAnlass Rolland sehen kann oder nicht, der jetzt noch in Zürich ist,\naber sehr müde und bedrückt wegen der Gesundheit seines Vater und\nseiner Schwester. Ich weiss nicht recht, ob wir ihm jetzt willkom-\nmen wären, obwohl wir beinahe die letzten sind, die ganz und unver-\nbrüchig zu seinem engeren Kreise gehören. Du hörst noch davon.\n\nIch bin furchtbar neugierig was Du jetzt machst und möch-\nte[?] gern von der momentanen Masereel-Baisse profitieren und die Ho-\nnorare für \"Fouché\" in Oel anlegen, freilich in solche[m], das[?] gera-\nde Du zu Deinen Farben verwendet hast. Hier in Oesterreich und\nDeutschland herrscht eine beispiellose Pleite und zwar in Dimensi-\nonen, von der Ihr euch im golde~~n~~unterkellerten Frankreich keine\nrichtige Vorstellung machen könnt. Natürlich sind wir alle davon\ngestreift, auch die Bücher verkaufen sich nicht mehr so wie dereinst\nin der seligen Zeit, aber immerhin hat sich der Radius meiner Wir-\nkung soweit gespannt - Spanien, Italien, Russland, Amerika - dass\nich ungerecht wäre, wollte ich klagen. Natürlich arbeite ich - was\nsoll man anders tun? - und zwar an einem Roman, von dem ich noch\nnicht weiss, ob er etwas wird oder nicht. Im Sommer verkrieche\nich mich an einen kleinen Ort um diese Beschäftigung fortzusetzen.\nMir graut immer mehr vor aller Oeffentlichkeit und mein pessimisti-",
+        "notes": "Typoskript mit handschriftlichen Korrekturen (z.B. 'te' in 'möchte', '55' über 'solchem', 'das' korrigiert). Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "sches Gefühl in allen politischen Dingen behält in einer erschrecken-\nden Weise recht. Wir Rollandisten, die nie an die Europäer Briand\nund Stresemann, an die Berufspolitiker und Völkerbundsbüros geglaubt\nhaben, sehen unser Misstrauen in grässlicher Weise bestätigt. Ex\noriente lux, nur von Russland her kann eine Auffrischung in dieses\nmorsche Gebäude Europa kommen (in dem wir doch so gern und früher\nso heiter gewohnt haben). Aber lass Dich nicht entmutigen, wenn\njetzt der Kunsthandel schlechter geht. Viele Maler, die nie Maler\nwaren, hören jetzt auf, es zu sein, ebenso viele Schriftsteller, und\ndie es wirklich sind, werden es bleiben, in dieser Reinigung der\nAtmosphären erst sichtbar werden.\n\nLieber Frans, zu den guten Dingen, die ich mir manchmal aus-\ndenke, gehörte einmal ein Tag, zwei Tage mit Dir allein am Meer\noder in einer Stadt oder auf einer Reise zu sein. Es ist zu wenig,\nso wie wir uns sehen, bei einem Abendessen in der Familie auf zwei\nStunden, auf drei Stunden, vielleicht kriegen wir das einmal wirk-\nlich zusammen. Was ich am liebsten täte, dass wir in ~~nächsten Jahre~~ {diesem Herbst}\nzusammen auf zwei Monate nach Russland fahren und dorten zusammen\nein Buch machen, Darstellung und Zeichnung. Ich garantiere Dir,\ndass das Buch über die Welt ginge. Bitte, betrachte dies nicht als\neine vage Träumerei, sondern denke Dirs gut und genau durch. Am\nliebsten wäre mir Oktober, November, ich habe allerlei Gründe, um\ndiese Zeit nicht zuhause zu sein.\n\nLebe wohl und grüsse die Deinen!. Dein\n\nStefan",
+        "notes": "Typoskript mit handschriftlichen Korrekturen (z.B. 'und' eingefügt, 'diesem Herbst' über 'nächsten Jahre'). Am unteren Rand ein Exlibris-Stempel 'CHRISTIAN ANDREE / EX LIBRIS / ET AUTOGRAPHIS'.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen sind eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3250,
+    "total_words": 542,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1726,
+      1524
+    ],
+    "chars_per_page_median": 1625.0,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0037,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

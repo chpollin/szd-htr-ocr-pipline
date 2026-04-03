@@ -1,0 +1,69 @@
+{
+  "object_id": "o_szd.929",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Frans Masereel vom 2. Mai 1933, SZ-LAS/B1.48",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.929/IMG.1",
+      "https://gams.uni-graz.at/o:szd.929/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 2. Mai 1933, SZ-LAS/B1.48\n- Signatur: SZ-LAS/B1.48\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lago di Como",
+        "notes": "Vorderseite der Ansichtspostkarte. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Chers amis, nous pensons à\nvous avec la plus grande\nenvie de vous voir. Vous\nserons de retour en quelques\njours. J'espère que vous allez\nbien. De tout coeur Fréderique\n\nMon cher vieux, je ne pouvais plus\net nous sommes alles pour quelques\njours en Italie. Personne ne peut dire\nce que nous ferons en quelques mois\nla situation chez nous est tout a fait in-\ncertaini. Mais ce que je regrette le plus\net que je n'ai pas pu travailler ces\nderniers mois, on est très excite'. Ton vrai\n\nFrancia\n\nMonsieur et Madame\nFrans Masereel\n\nParis 18\n15 Rue Hégésippe Moreau",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Briefmarke oben rechts mit Poststempel. Der Text ist in zwei Abschnitten geschrieben: links der Textkörper, rechts die Adresse. Der Text von Fréderique (Zweig) ist in Französisch verfasst.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift. Die französische Sprache ist klar erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 570,
+    "total_words": 105,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      12,
+      558
+    ],
+    "chars_per_page_median": 285.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [
+      0
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly",
+      "language_mismatch"
+    ]
+  }
+}

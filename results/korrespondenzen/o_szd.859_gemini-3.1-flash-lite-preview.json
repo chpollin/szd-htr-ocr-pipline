@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.859",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 28. Juli 1937, SZ-AAP/B1.74",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.859/IMG.1",
+      "https://gams.uni-graz.at/o:szd.859/IMG.2",
+      "https://gams.uni-graz.at/o:szd.859/IMG.3",
+      "https://gams.uni-graz.at/o:szd.859/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 28. Juli 1937, SZ-AAP/B1.74\n- Signatur: SZ-AAP/B1.74\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nHerrn Dr. Stefan Zweig\nVilla Souvenir\nWaldquellzeile\nMarienbad\nC.S.R.\n\n28.Juli 1937 /F/F\n\nSehr verehrter Herr Dr. Zweig:\n\nWir teilen Ihnen in Kürze folgendes mit:\nKorrekturen der \"Begegnungen\": Herr Fuchs hat sämtliche Fahnen bereits\ndurchgelesen und hat ausser kleinen Aenderungen grammatikalischer und\northographischer Natur keine zweifelhaften Stellen vorgefunden, sodass Sie\nsich nach unserer Meinung mit diesem Teil der Fahnen überhaupt nicht\nmehr beschäftigen müssen. Sollten Sie aber trotzdem Wert darauf legen,\nsie nochmals zu sehen, können wir sie Ihnen natürlich sofort übersenden.\nWir bitten diesbezüglich um Ihren Bescheid.\nDagegen sendet Ihnen Herr Fuchs zwei Essais, u.zw. die \"Monotonisierung\nder Welt\" und das \"Feuer\" mit gleicher Post. Herr Fuchs hat in diesen\nbeiden Essais mit Rotstift Anmerkungen gemacht, die Sie gefälligst durch-\nlesen wollen. Wir bitten Sie sodann um eheste Rücksendung dieser beiden\nEssais.\nGedächtnisrede für Rilke: Dieser Essai ist bereits zum Satz abgegangen\nund wird in den nächsten Tagen bei Ihnen eintreffen.\nRenan: Wir haben uns den Essai bereits verschafft. Er geht heute noch\nzum Satz und Sie erhalten ehebaldigst die Fahnen davon.\n\nSobald diese kleinen Nachträge erledigt sind, haben Sie mit der Korrek-\ntur dieses Bandes gar nichts mehr zu tun.\nAllen Ihren anderen Wünschen betreffend Einleitung, Unterteilungen,",
+        "notes": "Typoskript auf Geschäftspapier des Herbert Reichner Verlags. Die Unterstreichungen im Text (z.B. \"mit Rotstift Anmerkungen gemacht\", \"eheste\") sind handschriftlich mit Rotstift ausgeführt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt – Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nSchriftart, Anmerkungen etc. werden wir selbstverständlich beim Umbruch\ngenau Rechnung tragen.\nWir glauben, Ihnen hiemit alles Wesentliche mitgeteilt zu haben, und\nverbleiben Sie bestens begrüssend\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Geschäftspapier. Über der Grußformel befindet sich eine handschriftliche Signatur in blauer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftlichen Ergänzungen (Unterstreichungen und Signatur) sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2342,
+    "total_words": 326,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1744,
+      0,
+      598,
+      0
+    ],
+    "chars_per_page_median": 1171.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

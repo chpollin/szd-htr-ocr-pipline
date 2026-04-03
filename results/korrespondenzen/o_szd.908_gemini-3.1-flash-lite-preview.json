@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.908",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Frans Masereel vom 4. November 1925, SZ-LAS/B1.29",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.908/IMG.1",
+      "https://gams.uni-graz.at/o:szd.908/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 4. November 1925, SZ-LAS/B1.29\n- Signatur: SZ-LAS/B1.29\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "MARSEILLE — Vue Générale du Vieux Port\n\nma chambre",
+        "notes": "Vorderseite einer Ansichtspostkarte. Der handschriftliche Zusatz 'ma chambre' befindet sich oben rechts.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Mon vieux, te voilà étonné! Mais\nje suis bien content\nd'avoir choisi Marseille\nadmirable, plein de vie\nvraiment. Je suis seul ici avec\nun peu de travail et très heu-\nreux. Echappe donc à ta galère\net viens chercher ton vieux\nStefan\nHotel Beauveau Marseille\n\nGARTE POSTALE\nMARSEILLE\nPORTE DE\nSA MER, SON SOLEIL\nSON CIEL BLEU\n\nParis (France)\n32, rue Lamarck",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Ein Poststempel 'MARSEILLE-GARE 17 4 XI 1925' ist über den gedruckten Text gestempelt. Briefmarke oben rechts vorhanden.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift ist typisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 405,
+    "total_words": 71,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      50,
+      355
+    ],
+    "chars_per_page_median": 202.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

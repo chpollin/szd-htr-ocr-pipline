@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.953",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Sigmund Freud vom [Januar 1931], SZ-LAS/B7.13",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.953/IMG.1",
+      "https://gams.uni-graz.at/o:szd.953/IMG.2",
+      "https://gams.uni-graz.at/o:szd.953/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Sigmund Freud vom [Januar 1931], SZ-LAS/B7.13\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "74 - BARCELONA - Catedral. Escalera del Púlpito.",
+        "notes": "Vorderseite einer Ansichtspostkarte mit einem Foto des Treppenaufgangs zur Kanzel der Kathedrale von Barcelona.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Verehrter Herr Professor,\nwollen Sie es gütigst ent-\nschuldigen, wenn ich Ihnen\nmein Buch nicht persönlich\nsende, aber ich bin zu weit\num nur von Leipzig Exem-\nplare senden zu lassen und\nbitte, es Ihnen direct zu sen-\nden. In Verehrung getreu Ihr\nStefan Zweig\n\nProf. Sigmund Freud\nWien (austria\nIX. Berggasse 19",
+        "notes": "Rückseite der Postkarte mit handschriftlicher Nachricht von Stefan Zweig an Sigmund Freud. Die Tinte ist violett. Ein Poststempel ist teilweise sichtbar, aber nicht lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Verehrter Herr Professor,\nwollen Sie es gütigst ent-\nschuldigen, wenn ich Ihnen\nmein Buch nicht persönlich\nsende, aber ich bin zu weit\num nur von Leipzig Exem-\nplare senden zu lassen und\nbitte, es Ihnen direct zu sen-\nden. In Verehrung getreu Ihr\nStefan Zweig\n\nProf. Sigmund Freud\nWien (austria\nIX. Berggasse 19",
+        "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am oberen Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 670,
+    "total_words": 114,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      48,
+      311,
+      311
+    ],
+    "chars_per_page_median": 179.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

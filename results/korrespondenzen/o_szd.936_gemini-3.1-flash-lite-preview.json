@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.936",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 12. Mai 1919, SZ-LAS/B1.9",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.936/IMG.1",
+      "https://gams.uni-graz.at/o:szd.936/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 12. Mai 1919, SZ-LAS/B1.9\n- Signatur: SZ-LAS/B1.9\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan Zweig, Salzburg\nKapuzinerberg 5\n\nMonsieur Frans Masereel\n\nSchweiz\n\nGenève\n8, rue de l'Aubepine",
+        "notes": "Adressseite einer Postkarte. Handschrift in violetter Tinte. Poststempel 'SALZBURG 12.V.19-9' und '3a'. Briefmarke 'KAISERLICH KOENIGLICHE OESTERREICHISCHE POST 10 HEL'. Stempel 'Zensurstelle ZUERICH' schwach erkennbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Mon cher ami, une deman-\nde! Peux-tu me procurer\nle N° de Demain, qui\ncontient mon „Aux frères\nFrancais”? Il sera le N°\ndu Decembre 1917 ou du\nJanvier 1918; ~~car~~ car je\nn'ai pas un exemplaire\nici et j'en ai besoin pour\nmon livre. Si tu ne peux que\nprêter un ex. je le rendrai\nsûrement. Fidèlement ton\nStefan Zweig",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Gut lesbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist typisch für Stefan Zweig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 417,
+    "total_words": 75,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      101,
+      316
+    ],
+    "chars_per_page_median": 208.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

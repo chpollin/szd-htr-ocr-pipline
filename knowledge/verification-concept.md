@@ -41,7 +41,7 @@ Ein manuell verifiziertes Referenz-Sample dient zwei Zwecken:
 - **Fehlertypologie**: Welche Fehler macht die Pipeline? (Zeichenverwechslungen, Auslassungen, Halluzinationen, Strukturfehler)
 - **Metrische Basislinie**: Wie hoch ist die Fehlerrate, aufgeschluesselt nach Gruppe, Sprache und Schwierigkeitsgrad?
 
-Ohne diese Basislinie sind alle weiteren Optimierungen (Prompt-Tuning, Provider-Vergleich, Bildgroessenanpassung) nicht messbar.
+Ohne diese Basislinie sind alle weiteren Optimierungen (Prompt-Tuning, Bildgroessenanpassung) nicht messbar.
 
 ### 1.2 Sample-Groesse
 
@@ -317,9 +317,9 @@ Gutteridge et al. (GUT25) zeigen, dass minimale Kontextinformation die Transkrip
 
 Zusaetzlich: gpt-4o-mini uebertrifft gpt-4o haeufig. Die Autoren vermuten, "the supposedly more capable model may have a tendency to do too much; for OCR post-processing, often what is left alone is more important than what is changed."
 
-**Implikation fuer SZD-HTR:** Dieser Befund stuetzt das dreischichtige Prompt-System grundsaetzlich — Kontext hilft. Aber er differenziert auch: Der Nutzen liegt nicht in domainspezifischem Wissen (Kurrent-Verwechslungspaare), sondern in dokumentspezifischem Kontext (Schriftbild, Layout, Fehlerpatterns). Das Prompt-Experiment (Abschnitt 3) sollte diesen Unterschied testen: Verbessert der TEI-Objekt-Kontext (Schicht 3) die Qualitaet staerker als der Gruppen-Prompt (Schicht 2)?
+**Implikation fuer SZD-HTR:** Dieser Befund stuetzt das dreischichtige Prompt-System grundsaetzlich — Kontext hilft. Aber er differenziert auch: Der Nutzen liegt nicht in domainspezifischem Wissen (Kurrent-Verwechslungspaare), sondern in dokumentspezifischem Kontext (Schriftbild, Layout, Fehlerpatterns).
 
-Der Befund zu gpt-4o-mini vs. gpt-4o ist relevant fuer den Provider-Vergleich (Phase 4): "Leistungsfaehiger" bedeutet nicht automatisch "besser fuer HTR".
+Der Befund zu gpt-4o-mini vs. gpt-4o ist bemerkenswert: "Leistungsfaehiger" bedeutet nicht automatisch "besser fuer HTR".
 
 ### Befund 5: GT-freie Qualitaetsschaetzung ist moeglich
 
@@ -339,7 +339,7 @@ Kernergebnis: MLM-basierte Metriken (PPPL) korrelieren mit CER vergleichbar gut 
 
 Crosilla et al. (CRO25) und Diez Garcia et al. (DIE25, nur Abstract verifiziert) zeigen uebereinstimmend: Proprietaere VLMs (Claude, GPT-4o, Gemini) erreichen auf modernen Handschriften bessere CER-Werte als Transkribus (CRO25: 1.7% vs. 9.1% auf IAM). Bei historischen Dokumenten ist das Bild gemischt: Auf einigen historischen Datasets uebertreffen VLMs Transkribus, auf anderen (besonders historisches Deutsch) liegt Transkribus deutlich vorn.
 
-**Implikation fuer SZD-HTR:** Der Provider-Vergleich (Phase 4) sollte nicht nur VLMs untereinander vergleichen, sondern auch Transkribus als Baseline einbeziehen — zumindest auf dem Ground-Truth-Sample. Es ist nicht ausgemacht, dass VLMs fuer alle Dokumentgruppen die beste Wahl sind.
+**Implikation fuer SZD-HTR:** Falls kuenftig andere VLMs getestet werden, sollte auch Transkribus als Baseline einbezogen werden. Es ist nicht ausgemacht, dass VLMs fuer alle Dokumentgruppen die beste Wahl sind.
 
 ### Befund 7: Multi-VLM-Modellkonsensus als GT-freier Qualitaetsproxy (2025-2026)
 
@@ -1070,8 +1070,6 @@ NAECHSTER SCHRITT — Modellkonsensus-Validierung (Abschnitt 7):
                  └── Klassischer CER-Workflow (Abschnitt 1)
 
 SPAETER (nach GT-Kalibrierung):
-  ├── Prompt-Experiment (CER-Vergleich V1/V2/V3)
-  ├── Provider-Vergleich (Gemini vs. Claude vs. GPT-4o)
   ├── Diff-Ansicht im Viewer mit echten Cross-Model-Daten
   └── Entscheidung: Doppeltranskription fuer vollen Batch?
 ```

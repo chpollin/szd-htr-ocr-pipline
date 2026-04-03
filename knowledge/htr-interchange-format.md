@@ -9,7 +9,6 @@ related:
   - "[[verification-concept]]"
   - "[[data-overview]]"
   - "[[layout-analysis]]"
-  - "[[teiCrafter-integration]]"
 ---
 
 # Page-JSON — Spezifikation
@@ -20,7 +19,7 @@ Version: 0.1 (Entwurf)
 
 ## 1. Zweck
 
-Page-JSON ist ein JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse, das Text, Layout und Metadaten in einer Datei vereint. Es dient als Bruecke zwischen HTR-Pipelines (wie SZD-HTR) und nachgelagerten Annotationswerkzeugen (wie teiCrafter).
+Page-JSON ist ein JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse, das Text, Layout und Metadaten in einer Datei vereint.
 
 ### 1.1 Designprinzipien
 
@@ -28,8 +27,7 @@ Page-JSON ist ein JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse, das Text, La
 2. **Progressive Anreicherung:** Funktioniert ohne Layout-Daten (nur Text). Regionen koennen nachtraeglich hinzugefuegt werden (via `layout_analysis.py`).
 3. **Bidirektionale PAGE-XML-Konvertierung:** Deterministisch und verlustfrei in beide Richtungen konvertierbar (§6).
 4. **Provenienz-transparent:** Welches Modell, welcher Prompt, wann? Reproduzierbarkeit.
-5. **teiCrafter-kompatibel:** Direkt importierbar in teiCrafter Step 1 (JSON-Import).
-6. **Projektunabhaengig:** Keine SZD-spezifischen Felder auf Top-Level. Projektdaten gehoeren in `source.additional`.
+5. **Projektunabhaengig:** Keine SZD-spezifischen Felder auf Top-Level. Projektdaten gehoeren in `source.additional`.
 
 ### 1.2 Warum nicht PAGE XML direkt?
 
@@ -43,7 +41,7 @@ Page-JSON ist ein JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse, das Text, La
 | Konvertierung zu PAGE XML | — | Deterministisch (§6) |
 | Interoperabilitaet | Transkribus, eScriptorium, Larex | Via PAGE-XML-Export |
 
-PAGE XML bleibt als Export-Format fuer Tools, die es erwarten (`export_pagexml.py`). Page-JSON ist das Arbeitsformat der Pipeline und das Austauschformat fuer teiCrafter.
+PAGE XML bleibt als Export-Format fuer Tools, die es erwarten (`export_pagexml.py`). Page-JSON ist das Arbeitsformat der Pipeline.
 
 ### 1.3 Vorgaenger
 
@@ -82,7 +80,7 @@ Page-JSON
 ### 2.1 Zwei Zustaende
 
 **Zustand 1 — Nur Text** (nach `transcribe.py`):
-Jede Seite hat `text`, `type`, `notes`. Keine `regions`. Ausreichend fuer teiCrafter-Import und Viewer.
+Jede Seite hat `text`, `type`, `notes`. Keine `regions`. Ausreichend fuer Viewer und Export.
 
 **Zustand 2 — Text + Layout** (nach `layout_analysis.py`):
 Zusaetzlich `regions[]` mit Bounding Boxes, Regionstypen und regionsbezogenem Text. Ermoeglicht PAGE-XML-Export und DIA-XAI-Visualisierung.
@@ -279,7 +277,7 @@ Schritt 3: export_pagexml.py (optional)
   → Nur wenn regions vorhanden
 ```
 
-Beide Zustaende sind gueltige Page-JSON-Dokumente. teiCrafter kann beide importieren — ohne Regionen als Fliesstext, mit Regionen strukturiert.
+Beide Zustaende sind gueltige Page-JSON-Dokumente — ohne Regionen als Fliesstext, mit Regionen strukturiert.
 
 ---
 
@@ -356,26 +354,7 @@ Die Konvertierung kann als Export-Schritt (`export_page_json.py`) oder als schri
 
 ---
 
-## 7. Mapping auf teiCrafter
-
-teiCrafter importiert Page-JSON in Step 1. Details: [[teiCrafter-integration]].
-
-| teiCrafter-Feld | Page-JSON-Quelle | Transformation |
-|---|---|---|
-| `inputContent` | `pages[].text` | Seiten mit `\|{n}\|` konkatenieren |
-| `inputFormat` | (konstant) | `"plaintext"` |
-| `sourceType` | `source.document_type` | Mapping-Tabelle (siehe [[teiCrafter-integration]] §2.3) |
-| `language` | `source.language` | ISO 639-1 direkt |
-| `epoch` | `source.date` | `19xx`/`20xx` → `20c`, `18xx` → `18c` |
-| `structureHints` | `pages[].regions[].type` | Optional: Regionstypen als Layout-Kontext |
-
-**Seitentrenner:** `|{n}|` (teiCrafter-Konvention). Leerseiten erhalten nur den Marker ohne Text.
-
-**Regionen als Strukturhinweis:** Wenn `regions` vorhanden, kann teiCrafter die Regionstypen (heading, paragraph, list, table) als zusaetzlichen Kontext fuer die TEI-Annotation nutzen. Dies verbessert die Erkennung von `<head>`, `<p>`, `<list>`, `<table>` Elementen.
-
----
-
-## 8. Abgrenzung zu bestehenden Standards
+## 7. Abgrenzung zu bestehenden Standards
 
 | Frage | Antwort |
 |---|---|
@@ -388,10 +367,10 @@ teiCrafter importiert Page-JSON in Step 1. Details: [[teiCrafter-integration]].
 
 ---
 
-## 9. Offene Punkte
+## 8. Offene Punkte
 
 1. **Schema-Hosting:** `$id`-URI auf GitHub Pages publizieren?
-2. **Versionierung:** SemVer — `0.1` (Entwurf), `0.2` (nach Pilot), `1.0` (nach teiCrafter-Integration).
+2. **Versionierung:** SemVer — `0.1` (Entwurf), `0.2` (nach Pilot), `1.0` (stabil).
 3. **Polygon-Koordinaten:** Aktuell nur Bounding Boxes (Rechtecke). Fuer unregelmässige Regionen waeren Polygon-Punkte (wie PAGE XML) noetig. Erweiterung: `coords` als Alternative zu `bbox` mit Array von `[x,y]`-Paaren.
 4. **Zeilen-Ebene:** PAGE XML kennt `<TextLine>` innerhalb von Regionen. Page-JSON hat aktuell nur `lines` (Anzahl) ohne Zeilen-Koordinaten. Fuer Zeilenkoordinaten: `lines[]`-Array mit eigenem `bbox` und `text` (analog zu Regionen).
 5. **Migration:** Bestehende 646 Pipeline-JSONs + Layout-JSONs in Page-JSON konvertieren? Oder nur neue Transkriptionen im neuen Format? → Entscheidung nach Pilot.

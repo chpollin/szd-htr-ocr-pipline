@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.884",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Herbert Reichner vom 2. Oktober 1937, SZ-AAP/B1.97",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.884/IMG.1",
+      "https://gams.uni-graz.at/o:szd.884/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Herbert Reichner vom 2. Oktober 1937, SZ-AAP/B1.97\n- Signatur: SZ-AAP/B1.97\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "2. Oktober 1937.\n\nGeehrter Herr Reichner!\n\nZum 29. Mit dem Verzeichnis der Bilder bin\nich durchaus einverstanden. Es wird sehr vielfältig\nsein und, glaube ich, auch das Interesse an dem Buche\nsteigern. Sie werden ja schon richtig verteilt werden,\ndass sie sich dem Text anschliessen. Es fehlt mir nur\nnoch die Nachricht, ob auch jene Weltkarte mit der ein-\ngezeichneten Linie, welche das Vorsatzpapier darstellen\nsoll, bereits gewählt ist. Ich hoffe aber, dass das\nschon geschieht oder geschehen ist.\n\nBegrabener Leuchter finde ich die Idee einer\nZweimarkausgabe in Pappband ausgezeichnet. Könnte man\nnicht dafür aber, wenn man einen Pappband hat, so wie\nbei den Inselbüchern in Verkleinerung jenen Leuchter\nWolpes als Umschlagpapier-Ornament verwenden - ich\nweiss nicht, ob ich mich ganz richtig ausdrücke - dass\nlauter kleine Leuchter fortlaufend als Buntpapier ge-\ndruckt würden und man dann darauf einfach den Zettel",
+        "notes": "Typoskript auf Briefpapier. Die letzte Zeile bricht mitten im Satz ab, Fortsetzung auf Seite 2.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "mit dem Titel klebt. Mir wäre es ungemein sympathisch,\nwenn Sie es zweifarbig zu zwei Mark im Pappband heraus-\nbringen könnten.\n\nDie Illustrationen zu Magellan (Photographien)\nkönnen Sie auch anbieten der Editorial Claridad, Calle San\nJosé 1641, Buenos Aires und der Editora Guanabara, Waiss-\nman Koogan Ltd, Rua do Ouvidor 132, Rio de Janeiro. Ma-\nchen Sie ein bestimmtes Angebot und erbitten Sie Antwort\nper Telegramm oder Luftpostbrief. Mein spanischer Ver-\nleger schaltet vorläufig aus, weil er sich in Barcelona\nbefindet und Ihnen die Peseten ebenso \"gut\"-schreiben\nwürde, wie er es bei meinen getan hat.\n\nMit den besten Empfehlungen",
+        "notes": "Typoskript auf Briefpapier. Fortsetzung des Textes von Seite 1.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1558,
+    "total_words": 240,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      920,
+      638
+    ],
+    "chars_per_page_median": 779.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

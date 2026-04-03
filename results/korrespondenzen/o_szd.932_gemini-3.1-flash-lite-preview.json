@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.932",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Frans Masereel vom 14. November 1933, SZ-LAS/B1.50",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.932/IMG.1",
+      "https://gams.uni-graz.at/o:szd.932/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Frans Masereel vom 14. November 1933, SZ-LAS/B1.50\n- Signatur: SZ-LAS/B1.50\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11, Portland Place\nLondon\n\nWILLIAM BLAKE. 1757-1827\nPoet, artist, seer. A Londoner. Lived and\ndied poor. Rebelling against the Age of\nReason, he sought to redeem the world by\nImagination. Wrote, engraved, printed and\ndecorated Songs of Innocence, followed by a\nseries of books unique in the history of\nprinting. The greatest modern master of\noriginal line-engraving (Illustrations to Job).\nUnmatched for spiritual intensity of imagin-\nation, both as lyrist and as painter.\nLaurence Binyon.\n\nLieber Frans, nous viendrons plus tard, il\nnous plait trop a Londres. J'ai eu des\ngrand ennuis avec le Insel verlag qui\na delivré une lettre privé de moi au Börs-\nenblatt naziste et maintenant\nil avait allure, comme si je capitulerais\ndevant les Nazis, j'ai rompu net\nPrinted by B. Matthews, Bradford.",
+        "notes": "Postkarte. Die Vorderseite enthält eine gedruckte Kurzbiografie von William Blake. Die handschriftliche Nachricht von Stefan Zweig ist in violetter Tinte geschrieben. Briefmarken und Poststempel (London, 14 NOV 1933) vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "NATIONAL PORTRAIT GALLERY (1809) COPYRIGHT.\n\nWILLIAM BLAKE.\nPLASTER CAST FROM A LIFE-MASK BY J S DEVILLE.\n\net j'aurai après 28 ans d'amitié une nouvelle\nmaison d'edition a chercher! Je ne trouverai pas\nd'egal! Tout cela m'a bien ennui. Mais je tra-\nvaille ici! Quelle ville merveilleuse! Amitiés Stefan",
+        "notes": "Bildseite der Postkarte mit einer Abbildung der Totenmaske von William Blake. Der handschriftliche Text von Stefan Zweig befindet sich am unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift von Stefan Zweig ist klar erkennbar, trotz einiger orthografischer Eigenheiten (z.B. 'ennui' statt 'ennuyé' oder 'ennuyé')."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1094,
+    "total_words": 176,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      792,
+      302
+    ],
+    "chars_per_page_median": 547.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

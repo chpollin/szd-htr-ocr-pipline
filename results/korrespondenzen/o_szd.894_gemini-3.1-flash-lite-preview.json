@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.894",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom 24. April 1920, SZ-LAS/B1.16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.894/IMG.1",
+      "https://gams.uni-graz.at/o:szd.894/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom 24. April 1920, SZ-LAS/B1.16\n- Signatur: SZ-LAS/B1.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Salzburg, 24. avril 20\n\nCher ami,\nStefan me charge de vous repondre en ce qui concerne Munich et je\nsuis bien heureuse, cher Masereel de pouvoir causer de nouveau\navec vous. - Stefan croit que vous serez très bien à Munich,\nque vous feriez des bonnes affaires, que vous aurez grand\nsuccès. Mais: la permission de s'y séjourner là-bas\nest très difficile à recevoir. Je m'informerai encore un\nprès d'un ami si il y a un chemin pour recevoir la\npermission d'avance. Je crois qu'il faudrait avoir une\nposition chez un éditeur et être reclamer par celui-\nci. C'est ça que je tâcherai d'entamer si vous êtes\nune fois déterminé sur ce point et que vous voulez\nvenir sûrement. Secondo: l'affaire du logement\nest assez facheuse. Il y a tellement manque de\nlogis que dernièrement quelqu'un a commis\nun suicide sur le Wohnungsemt[?] parce qu'il\nattendait deux ans en vain de trouver une demeure.\nMais les arrondissement de Munich sont très jolis\net je vous conseillerai d'aller sur le lac de\nStarnberg où il y a toute une colonie d'artiste\nLe mieux serait que vous venez au commencement\nde l'été à Salzburg et à Munich et que nous\nfachons ensemble à arranger ce qu'il vous faut.\nPendant l'été vous trouverez beaucoup de\njolis lieux où vous pourrez rester quelques\nmois, tout en vous occupant de trouver",
+        "notes": "Handschriftlicher Brief in französischer Sprache. Tinte leicht verblasst, aber gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "quelque chose pour l'hiver.\nQuel changement que les amis partent pour Rome!\nLes Toures - comment vont-ils? J'ai n'ai pas\nreçu de reponse de l'Andrée. Surement\nelle a tant à faire. Pour le petit le climat\nchaud sera favorable.\nNous allons bien. Stefan souffre un peu de\nne pas pouvoir circuler plus. Il y a\nchaque mois quelque surprise au chemin\nde fer, on ne sait jamais si on pourra\nretourner à temps quand on part pour\nquelques jours. Le Amang[?] et Liluli\nparaîtront bientôt. Il travaille assidument\nau livre \"Romain Rolland\" qui sera\ntrès beau. Les fillettes vont bien.\nJe vous dis adieu mon cher Masereel,\ntout en me rappellant les jolies heures\npassées ensemble à Ruerchileon[?],\ncomme je souhaiterai de les voir\nrevenir ici ou à Munich! Dites\ntoutes nos amitiés à Mme Masereel\net la gentille demoiselle.\nNous vous serrons la main chaudement\nFrédérique",
+        "notes": "Fortsetzung des Briefes. Am linken Rand vertikal geschriebener Text: 'Mon cher Frans, je travaille à mon livre sur R.K. avec beaucoup d'energie et je l'ecrirai bientôt. As in pi[?] ton nouveau roman sur R. j'aimerais de l'avoir dans mon livre'. Am rechten Rand vertikal: 'Le Amang paraitra vraisemblablement, enfin, en tout, je vous tom[?]'. Handschrift von Frédérique Zweig.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, trotz der kursiven Handschrift und einiger französischer Eigennamen oder spezifischer Begriffe, die als [?] markiert wurden."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2149,
+    "total_words": 373,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1291,
+      858
+    ],
+    "chars_per_page_median": 1074.5,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.008,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

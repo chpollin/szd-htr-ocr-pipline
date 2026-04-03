@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.959",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 2. Juni 1932, SZ-LAS/B7.19",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.959/IMG.1",
+      "https://gams.uni-graz.at/o:szd.959/IMG.2",
+      "https://gams.uni-graz.at/o:szd.959/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 2. Juni 1932, SZ-LAS/B7.19\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kapuzinerberg 5\nSALZBURG, am 2. Juni 1932\n\nHoch verehrter Herr Professor, ich danke Ihnen vielmals für Ihren gü-\ntigen Brief. Die italienische Uebersetzung hat an dieser Stelle unbewusst\nvergröbert aber ich will sofort dort, wie auch bei den künftigen deutschen\nAuflagen eine Klarstellung durch Verbesserung schaffen. Niemand weiss besser\nals ich wie sehr meine Arbeit im letzten nicht ganz adäquat ist: schon\nder äussere Umfang zwang zu Zusammenziehungen und zur Unterdrückung\nvieler Aspekte, die eigentlich alle vorbereitet waren; das wirkliche Werk\nüber Ihr Werk ist noch zu schreiben und ich fühle mich nur als beschei-\ndener Pacemaker. Im Sinne einer solchen Stimulation der Aufmerksamkeit\nund eines leider noch immer in gebührendem Masse nicht vorhan-\ndenen Respects hat die kleine Studie immerhin schon gewirkt, in Frank-\nreich vor allem, wo 30 Auflagen innerhalb der kurzen Frist vorliegen,",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "in den verschiedenen englischen, spanischen, italienischen, schwedischen, nor-\nwegischen Uebersetzungen, denen ich jetzt die polnische, holländische ~~auch~~ {anschliesst}. So hat meine kleine Kraft den Radius des Interesses ~~immer~~ doch\nerweitert und wo ich mit meiner Darstellung nicht zulänglich war, ~~dass~~ ~~ist~~ \n~~doch~~ nicht sie jetzt doch wandelt den eigentlichen Text und die Lehre in\ndes Meisters ipsis verbis.\nDie Schrift Ihres Briefes zeigt mir (der ich sonst der Grafologie nicht weit\ntraue) eine so herrliche Festigkeit, dass ich hoffe, sie deutet auf völliges\nWohlbefinden des Körpers; um die Freiheit und Frische des Geistes bin ich\nbei Ihnen nicht besorgt. Mögen wir bald davon schöpferische Probe erfah-\nren! In getreuester Verehrung immer Ihr ergebener\n\nStefan Zweig",
+        "notes": "Fortsetzung des Briefes auf der Rückseite. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "in den verschiedenen englischen, spanischen, italienischen, schwedischen, nor-\nwegischen Uebersetzungen, denen ich jetzt die polnische, holländische ~~auch~~ {anschliesst}. So hat meine kleine Kraft den Radius des Interesses ~~immer~~ doch\nerweitert und wo ich mit meiner Darstellung nicht zulänglich war, ~~dass~~ ~~ist~~ \n~~doch~~ nicht sie jetzt doch wandelt den eigentlichen Text und die Lehre in\ndes Meisters ipsis verbis.\nDie Schrift Ihres Briefes zeigt mir (der ich sonst der Grafologie nicht weit\ntraue) eine so herrliche Festigkeit, dass ich hoffe, sie deutet auf völliges\nWohlbefinden des Körpers; um die Freiheit und Frische des Geistes bin ich\nbei Ihnen nicht besorgt. Mögen wir bald davon schöpferische Probe erfah-\nren! In getreuester Verehrung immer Ihr ergebener\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala am unteren Rand für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Korrekturen (durchgestrichene Wörter und Einfügungen) sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2482,
+    "total_words": 366,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      898,
+      792,
+      792
+    ],
+    "chars_per_page_median": 845.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

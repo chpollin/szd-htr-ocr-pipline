@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.888",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 20. Mai 1919, SZ-LAS/B1.10",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.888/IMG.1",
+      "https://gams.uni-graz.at/o:szd.888/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 20. Mai 1919, SZ-LAS/B1.10\n- Signatur: SZ-LAS/B1.10\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SALZBURG\nKAPUZINERBERG 5.\n\n\n\n\nFrans Masereel\n\nGent (Schweiz)\n8, rue de l'Aubepine\n\nSuisse romande",
+        "notes": "Adressseite einer Postkarte. Gedruckter Absender oben links. Handschriftliche Empfängeradresse. Poststempel 'SALZBURG 20. V. 19' und Zensurstempel 'Zensuriert Zensurstelle 48 FELDKIRCH'. Briefmarke 'KAISERLICHE KÖNIGLICHE ÖSTERREICHISCHE POST 10 HELLER'.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Mon cher Frans, je viens de recevoir\nles exemplaires que je recevrai\na Heller personnellement : il t'enverra\nle montant immédiatement. Des mes\ntrois ex. de ~~la~~ ~~collection~~ livre d'heure\nj'ai donne un ici a Hermann Bahr\nnotre plus grand critique : il en est\nenthousiasmé. Je crois Heller comman-\ndera des exemplaires et fera une ex-\nposition dès que la possibilité sera\ndonnée.\nJe suis très ému de la mort de\nMadame R., car je sais, combien\nil était attachée a ~~sa~~ famille.\nEt comme il sera seule la bas!\nJe t'ecrirai bientôt! Fidèlement\nton\nStefan Zweig",
+        "notes": "Handschriftlicher Text in violetter Tinte. Die Zeile 'Des mes trois ex. de la collection livre d'heure' enthält Durchstreichungen. 'Madame R.' bezieht sich vermutlich auf eine verstorbene Person. Die Handschrift ist gut lesbar.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Die Durchstreichungen wurden gemäß den Regeln erfasst."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 659,
+    "total_words": 111,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      97,
+      562
+    ],
+    "chars_per_page_median": 329.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

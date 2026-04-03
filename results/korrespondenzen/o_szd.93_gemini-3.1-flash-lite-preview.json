@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.93",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vereinbarung Rózsavölgyi u. Comp., SZ-AAP/L13.16",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.93/IMG.1",
+      "https://gams.uni-graz.at/o:szd.93/IMG.2",
+      "https://gams.uni-graz.at/o:szd.93/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vereinbarung Rózsavölgyi u. Comp., SZ-AAP/L13.16\n- Signatur: SZ-AAP/L13.16\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "HERREN\n\nRÓZSAVÖLGYI & COMP.\nBUCH- UND MUSIKVERLAG\nBUDAPEST, IV.\nSZERVIZA-TÉR 5.\n\nICH TRET E HI ERMIT DIE AUSSCHLIESSLICHEN UNGARISCHEN VERLAGSRECHTE\nAN MEINEN DREI KÜNFTIGEN WERKE DER FIRMA RÓZSAVÖLGYI & COMP.,\nBUDAPEST AB GEBEN DIESELBEN BEDINGUNGEN, ALS BEZÜGLICH MARIA STUART.\nEIN GLEICHZEITIGES ERSCHEINEN MIT DEN DEUTSCHEN URAUSGABEN WIRD MEI-\nNERSEITS/DURCH RECHTZEITIGE ÜBERSENDUNG DER MANUSKRIPTE ERMÖGLICHT.\n/soweit als möglich\nBUDAPEST, 23. APRIL 1935.\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlichen Ergänzungen (Korrektur 'AB GEBEN', Einfügung '/soweit als möglich') und handschriftlicher Unterschrift. Die Zeile 'ICH TRET E...' weist Tippfehler auf (Leerzeichen in 'TRET E', 'HI ERMIT').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz einiger Tippfehler im Typoskript sehr gut lesbar. Die handschriftlichen Ergänzungen sind eindeutig Stefan Zweig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 476,
+    "total_words": 63,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      476,
+      0,
+      0
+    ],
+    "chars_per_page_median": 476,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

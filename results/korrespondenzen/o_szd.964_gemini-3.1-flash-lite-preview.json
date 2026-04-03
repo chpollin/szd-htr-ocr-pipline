@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.964",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 13. September 1935, SZ-LAS/B7.23",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.964/IMG.1",
+      "https://gams.uni-graz.at/o:szd.964/IMG.2",
+      "https://gams.uni-graz.at/o:szd.964/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 13. September 1935, SZ-LAS/B7.23\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Wien, Hotel Regina, 13. September 1935\n(Tel. A 23-5-85)\n\nHochverehrter Herr Professor!\n\nIch versuchte heute, Ihnen nach Grinzing zu telefonie-\nren, Dr. Kriss war so gütig mir Ihre Telefonnummer zu ge-\nben. Es ist mir besonders wichtig, ein Missverständnis auf-\nzuklären. Als ich im Frühjahr hier war für eineinhalb Mona-\nte, sagte mir jemand gleich am zweiten Tage als ich mich\nankündigte, Sie empfingen jetzt keine Besuche. Daraufhin\nwagte ich natürlich nicht, mich Ihnen zu melden und respek-\ntierte Ihre Zurückgezogenheit. Nun sagte mir Dr. Kriss zu\nmeiner grossen Freude, dass Sie sich wieder ausgezeichnet\nbefinden, fleissiger sind als wir alle und ich möchte Ihnen\nnur sagen, wie glücklich es mich machte, dies vernommen zu\nhaben. Vielleicht habe ich auch so noch Gelegenheit, Sie in\nden wenigen Tagen, die ich noch hier bin, besuchen zu dür-\nfen!\n\nIn alter Verehrung, Ihr getreu ergebener\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Unterschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Wien, Hotel Regina, 13. September 1935\n(Tel. A 23-5-85)\n\nHochverehrter Herr Professor!\n\nIch versuchte heute, Ihnen nach Grinzing zu telefonie-\nren, Dr. Kriss war so gütig mir Ihre Telefonnummer zu ge-\nben. Es ist mir besonders wichtig, ein Missverständnis auf-\nzuklären. Als ich im Frühjahr hier war für eineinhalb Mona-\nte, sagte mir jemand gleich am zweiten Tage als ich mich\nankündigte, Sie empfingen jetzt keine Besuche. Daraufhin\nwagte ich natürlich nicht, mich Ihnen zu melden und respek-\ntierte Ihre Zurückgezogenheit. Nun sagte mir Dr. Kriss zu\nmeiner grossen Freude, dass Sie sich wieder ausgezeichnet\nbefinden, fleissiger sind als wir alle und ich möchte Ihnen\nnur sagen, wie glücklich es mich machte, dies vernommen zu\nhaben. Vielleicht habe ich auch so noch Gelegenheit, Sie in\nden wenigen Tagen, die ich noch hier bin, besuchen zu dür-\nfen!\n\nIn alter Verehrung, Ihr getreu ergebener\n\nStefan Zweig",
+        "notes": "Farbskala/Grauskala für Archivierung über dem Text platziert. Typoskript mit handschriftlicher Unterschrift in violetter Tinte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt. Die handschriftliche Unterschrift ist ebenfalls eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1818,
+    "total_words": 290,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      909,
+      0,
+      909
+    ],
+    "chars_per_page_median": 909,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

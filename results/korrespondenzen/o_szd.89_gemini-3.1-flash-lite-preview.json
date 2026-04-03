@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.89",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Vertrag Sperling u. Kupfer S.A., SZ-AAP/L13.12",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.89/IMG.1",
+      "https://gams.uni-graz.at/o:szd.89/IMG.2",
+      "https://gams.uni-graz.at/o:szd.89/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Vertrag Sperling u. Kupfer S.A., SZ-AAP/L13.12\n- Signatur: SZ-AAP/L13.12\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "V E R T R A G.\n===============\n\nZwischen Libreria Internazionale Sperling & Kupfer\nS.A., Mailand, Via Larga 21, im Vertrage \"Italienischer Ver-\nleger\" genannt, und Herrn Stefan Zweig, Salzburg, Kapuzinerberg 5,\nim Vertrag genannt \"Eigentuemer\", wurde heute folgender Vertrag\nabgeschlossen:\n\n§ 1.\nDer Eigentuemer uebertraegt dem italienischen Ver-\nleger die Rechte fuer die italienische Buchausgabe im gesamten\nitalienischen Sprachgebiet seines Werkes\n\" Die Heilung durch den Geist \".\n\n§ 2.\nFuer die Ueberlassung der Buchrechte verpflichtet\nsich der italienische Verleger zu einer Vorschusszahlung von\nLire 1000.-- à Conto eines Honorars von 10 % des Ladenpreises\nalles festverkauften Exemplare. Die Abrechnung des Honorars\nvon 10% erfolgt halbjaehrlich und zwar am 1.Juli bezw. 31.De-\nzember jedes Jahres.\n\n§ 3.\nFuer das Vorabdrucksrecht zahlt der italienische Ver-\nleger dem Eigentuemer 50 % aller Eingaenge aus solchen Verkaeu-\nfen und verpflichtet sich zur Ueberweisung dieses 50%igen An-\nteils innerhalb 14 Tagen nach Empfang solcher Honorare.\n\n§ 4.\nBesprechungs-und Freiexemplare sind honorarfrei.\n\n§ 5.\nDer italienische Verleger verpflichtet sich, das Werk\nbis Weihnachten 1931 erscheinen zu lassen.\n\n§ 6.\nDer italienische Verleger verpflichtet sich zur un -\nentgeltlichen Ueberlassung von 6 Pflichtexemplaren.\n\n§ 7.\nAlle andern Rechte als die oben festgelegten Buch-\nund Vorabdrucksrechte bleiben ausdruecklich dem Eigentuemer vor-\nbehalten.\n\n§ 8.\nAlle Zahlungen unter diesem Vertrag sind zu leisten\nan Herrn Stefan Zweig, Salzburg, Kapuzinerberg 5. Der ausschliess-\nliche Gerichtsstand fuer Streitigkeiten aus diesem Vertrage ist\nMailand.\nVorstehender Vertrag wurde in zwei gleichen Exemplaren\nausgefertigt von beiden vertragsschliessenden Teilen gelesen,\nanerkannt und unterschrieben und geht mit seinen Rechten und\nPflichten auf die Rechtsnachfolger der Vertragsschliessenden\nueber.\n\nMailand, den 12. Mai 1931\nSalzburg den 9. Mai 1931",
+        "notes": "Typoskript mit handschriftlichen Unterschriften und Datumsangaben. Die Unterschrift des Vertreters von Sperling & Kupfer ist unleserlich, Stefan Zweigs Unterschrift ist deutlich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rueckseite des Dokuments, leer. Durchscheinender Text der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftlichen Ergänzungen (Datum, Unterschriften) sind ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1944,
+    "total_words": 273,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1944,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1944,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

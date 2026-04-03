@@ -1,0 +1,82 @@
+{
+  "object_id": "o_szd.868",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 28. August 1937, SZ-AAP/B1.82",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.868/IMG.1",
+      "https://gams.uni-graz.at/o:szd.868/IMG.2",
+      "https://gams.uni-graz.at/o:szd.868/IMG.3",
+      "https://gams.uni-graz.at/o:szd.868/IMG.4"
+    ],
+    "input_image_count_total": 4
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 28. August 1937, SZ-AAP/B1.82\n- Signatur: SZ-AAP/B1.82\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 4 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nHerrn Dr.Stefan Zweig\nHotel Tivoli\nLuzern\n\nSCHWEIZ\n\nRef. Stefan Zweig,Magellan\n--------------------\nIhr Schreiben vom 26.August 1937\n\n28.August 1937 /F\n\nSehr verehrter Herr Dr.Zweig:\n\nWir danken bestens für Ihr obiges Schreiben.Wir haben sofort das\nin Durchschrift beiliegende Schreiben an Herrn Dr.Bing gerichtet.\n\nTatsächlich würde ein Hinausschieben des Erscheinungstermins über den\n15.November 1937 gleichbedeutend mit dem Minderabsatz von sicher\n3000 - 4000 Exemplaren sein,weil es doch immerhin genug Leute gibt,\ndie sich sogar ein Zweig-Buch nicht zu jeder Jahreszeit leisten kön-\nnen.Und dann kommt auch in Betracht,dass doch Bücher hauptsächlich\nzu Weihnachten verschenkt werden.\nDa Sie selbst den Wunsch geäussert haben,dass das Buch am 15.November\nherauskommt,haben wir unseren Vertretern und Auslieferungen diesen\nTermin angegeben und es würde nun die Gefahr bestehen,dass so und\nsoviele Bestellungen storniert oder reduziert werden,wenn das Buch\nnicht tatsächlich auf dem Weihnachtsbüchermarkt vorliegt.Das aber\nbedeutet,dass das Buch nicht nach dem 15.November erscheinen darf.\nAuch bis dahin ist ohnedies eine Flut von Neuerscheinungen zu ge-\nwärtigen.\nDie paar Hundert Uebersee-Bestellungen werden wir noch vor dem\n15.November ausführen müssen,damit die Bücher rechtzeitig in Buenos\nAires,Rio de Janeiro und New York eintreffen.Die Leute würden sich\nschrecklich ärgern,wenn die Sendungen erst nach dem Weihnachtsfest",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Seite ist gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Herbert Reichner Verlag WIEN·LEIPZIG·ZÜRICH\nBriefadresse: Wien · VI · Strohmayergasse 6\nTelegrammadresse: Reichnerverlag Wien\nTelephon: A 37-0-32 (nach 18 Uhr: B 23-7-54)\nPostscheckkonten: Leipzig 8442\nWien 46.469\nPrag 501.701\nZürich VIII 18122\nBanken: Österr. Creditanstalt - Wiener Bankverein, Wien XV.\nSchweizerischer Bankverein, Zürich\nSwiss Bank Corporation, London E. C. 2\n\nRef.\n\neinlangten.\n\nBitte vertreten Sie Herrn Dr.Bing gegenüber diesen Standpunkt ganz\nenergisch.Es hat tatsächlich keinen Sinn,der geringen Beträge wegen,\ndie für deutsche Vorabdrucke zu erzielen sind,das Erscheinen zu\nverzögern.\n\nDie Buchdruckerei Rohrer ist noch mit den Korrekturen beschäftigt.\nWir haben zur Kenntnis genommen,dass Ihnen 20 komplette Exemplare\ndes Umbruches zu liefern sind,Sollen nur 4 Exemplare nach Luzern\nversandt werden und die übrigen von uns aus direkt an die Uebersetzer?\n\nWir erwarten gern Ihre diesbezüglichen Weisungen und sind mit den\nbesten Wünschen für Ihre recht gute Erholung und auch die Ihrer\nFrau Gemahlin und Sie beide begrüssend\n\nIhre sehr ergebenen",
+        "notes": "Typoskript auf Briefpapier des Herbert Reichner Verlags. Die Unterschrift ist handschriftlich (Tinte).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und sehr gut lesbar. Die handschriftliche Unterschrift auf Seite 3 ist ebenfalls gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2882,
+    "total_words": 391,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 4,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      1812,
+      0,
+      1070,
+      0
+    ],
+    "chars_per_page_median": 1441.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

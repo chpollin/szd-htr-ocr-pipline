@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.994",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 8. September 1926, SZ-LAS/B7.7",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.994/IMG.1",
+      "https://gams.uni-graz.at/o:szd.994/IMG.2",
+      "https://gams.uni-graz.at/o:szd.994/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 8. September 1926, SZ-LAS/B7.7\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "KAPUZINERBERG 5\nSALZBURG 8. Sept 1926\n\nVerehrtester Herr Profesor, neben Ihrem geistigen Werthaben\nSie noch wunderbar eine grosse Kunst: durch Güte zu beschämen!\nNicht die Worte nur, die Sie mir sagten, sondern die Tatsache schon,\ndass Sie, überhäuft, bedrängt von Menschen und Problemen in der\nZeit der Erholung sich die Musse nahmen, so tiefgründig in ein Werk\nzu blicken, das doch Ihnen unendlich vieles dankt, macht mich wirklich\nverwirrt – ich konnte gestern gar nicht die Feder führen.\nLassen Sie mich einmal klar sagen, was ich, was viele Ihnen danken\n– den Mut in der Psychologie. Sie haben, wie zahllosen einzelnen Men-\nschen der Literatur einer ganzen Epoche die Hemmungen weggenommen.\nDank Ihnen sehen wir vieles, – Dank Ihnen sagen wir Alles, was sonst\nnicht gesehen und nicht gesagt worden wäre. Das ist heute alles noch\nnicht klar, weil unsere Richtung noch nicht historisch, nicht in ihren\nursächlichlichen Formen gesehen wird – ein Jahrzehnt noch oder zwei,\ndann wird man erkennen, wo der Zusammenhang war, der plötzlich\nProust in Frankreich, Lawrence und Joyce in England, der einigen\nDeutschen eine andere Psychologische Kühnheit gab. So wird Ihr Name\nsein. Und wir werden nie diesen grossen Eröffner verleugnen.\nNur ist Psychologie (Sie verstehen dies wie kein zweiter) heute eigentlich\ndie Passion meines Lebens. Und ich möchte dann einmal, wenn ich weit\ngenug bin, sie am schwersten Object üben, an mir selbst. Auch die Selbst-\nbiografie der nachfreudischen Zeit darf klarer und kühner sein, als all die\nder früheren. Ich studiere eben Tolstoi in dieser Hinsicht – jeden Tag\nredet er sich zu, kühn und wahr zu sein. Aber vor den wirklich klaren",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Violette Tinte. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Wahrheiten weicht er aus. Es ist ihm bislang noch nie scharf auf den Leib ge-\nrückt worden und ich habe sehr Lust dazu. Von den neueren war Kühn (ohne\ngenug Erkenntnis) Hans Jäger in der „Christiania-boheme“ und Kraure [?] Seel[e].\nAuch das nur noch unzugängliche Buch von Frank Harris soll es sein. Aber\nich glaube, unsere Zeit, die produktiv schwach ist, wird Erkenntnisse nur do-\ncumente hinterlassen: Den Mut dazu dankt sie Ihnen.\nIch habe keinen innigeren Wunsch als dass Ihre Gesundheit\nstabil, Ihr Werk in wachen Blicke: noch immer sind Sie der Entscheidende\nim unsichtbaren Kampf um die Seele. Noch immer der Einzige, der die\nMechanik des Geistigen uns schöpferisch erklärt. Wir brauchen Sie mehr\ndenn je als einen Tätigen.\nIn Liebe Dankbarkeit und Verehrung\nIhr getreu ergebener\nStefan Zweig",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1. Violette Tinte. 'Kraure' könnte auch 'Kruse' oder ähnlich sein, schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Wahrheiten weicht er aus. Es ist ihm bislang noch nie scharf auf den Leib ge-\nrückt worden und ich habe sehr Lust dazu. Von den neueren war Kühn (ohne\ngenug Erkenntnis) Hans Jäger in der „Christiania-boheme“ und Kraure [?] Seel[e].\nAuch das nur noch unzugängliche Buch von Frank Harris soll es sein. Aber\nich glaube, unsere Zeit, die produktiv schwach ist, wird Erkenntnisse nur do-\ncumente hinterlassen: Den Mut dazu dankt sie Ihnen.\nIch habe keinen innigeren Wunsch als dass Ihre Gesundheit\nstabil, Ihr Werk in wachen Blicke: noch immer sind Sie der Entscheidende\nim unsichtbaren Kampf um die Seele. Noch immer der Einzige, der die\nMechanik des Geistigen uns schöpferisch erklärt. Wir brauchen Sie mehr\ndenn je als einen Tätigen.\nIn Liebe Dankbarkeit und Verehrung\nIhr getreu ergebener\nStefan Zweig",
+        "notes": "Identisch mit Seite 2, jedoch mit Archiv-Farbskala am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist bekannt und klar. Einzig ein Eigenname in Zeile 3 von Seite 2/3 ist leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 3265,
+    "total_words": 532,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1665,
+      800,
+      800
+    ],
+    "chars_per_page_median": 1232.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0038,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

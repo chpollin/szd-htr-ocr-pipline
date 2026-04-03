@@ -14,7 +14,7 @@ Dokumentiert den VLM-basierten Layout-Analyse-Ansatz und die PAGE XML-Erzeugung 
 
 Die HTR-Pipeline (`transcribe.py`) erzeugt seitenweisen Fliesstext ohne Strukturinformation. Fuer zwei nachgelagerte Ziele wird jedoch strukturiertes Layout benoetigt:
 
-1. **TEI-Export (Phase 5, teiCrafter):** Braucht `<head>`, `<p>`, `<list>`, `<table>` — also die Unterscheidung zwischen Ueberschriften, Absaetzen, Listen und Tabellen.
+1. **Strukturierte Ausgabe:** Braucht `heading`, `paragraph`, `list`, `table` — also die Unterscheidung zwischen Ueberschriften, Absaetzen, Listen und Tabellen.
 2. **DIA-XAI Expert-in-the-Loop:** Braucht raeumliche Verortung von Textregionen auf dem Faksimile fuer die visuelle Validierung (Bild↔Text-Sync).
 
 PAGE XML (PRImA Lab, 2019) ist der etablierte Standard fuer Dokumentlayout-Daten und wird von Transkribus, OCR-D und Larex unterstuetzt.
@@ -187,8 +187,8 @@ Phase 3c: PAGE XML Export (NEU)
 Phase 4: Verifikation
   verify.py → *_consensus.json (Modellkonsensus)
 
-Phase 5: TEI-Export
-  export_page_json.py → Page-JSON → teiCrafter → TEI-XML
+Phase 5: Export
+  export_page_json.py → Page-JSON
 ```
 
 ## 7. Offene Punkte
@@ -205,4 +205,3 @@ Phase 5: TEI-Export
 - PRImA PAGE XML 2019: https://www.primaresearch.org/schema/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd
 - Pletschacher & Antonacopoulos (2010): The PAGE (Page Analysis and Ground-truth Elements) Format Framework
 - [[htr-interchange-format]] — Page-JSON: Text + Layout + Metadaten in einem Format
-- [[tei-target-structure]] — TEI-Zielstruktur mit `<head>`, `<p>`, `<list>`, `<table>`

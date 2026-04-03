@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.989",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ansichtspostkarte an Sigmund Freud vom 24. Juli 1939, SZ-LAS/B7.46",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.989/IMG.1",
+      "https://gams.uni-graz.at/o:szd.989/IMG.2",
+      "https://gams.uni-graz.at/o:szd.989/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ansichtspostkarte an Sigmund Freud vom 24. Juli 1939, SZ-LAS/B7.46\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "BATH, THE ABBEY & RIVER ARCH",
+        "notes": "Vorderseite einer Ansichtspostkarte mit einer Abbildung von Bath. Gedruckter Text am unteren Rand.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lieber verehrter Professor\nich wollte Ihnen nur sagen, dass\nich - wenn auch nur in\nBath - mit allen Gedanken\nimmer bei uns hoffe, dass Sie\nsich gesundheitlich woher be-\nforten und bald wieder an\nnotwendige Arbeit denken können.\nIn bester Verehrung Ihr\nStefan Zweig\nLansdown Lodge, Bath\n\nProf. Sigmund Freud\nLondon NW3\n20, Maresfield Gardens",
+        "notes": "Rückseite der Postkarte. Handschriftlicher Text in violetter Tinte. Poststempel 'BATH 24 JLY 1939'. Briefmarke vorhanden.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber verehrter Professor\nich wollte Ihnen nur sagen, dass\nich - wenn auch nur in\nBath - mit allen Gedanken\nimmer bei uns hoffe, dass Sie\nsich gesundheitlich woher be-\nforten und bald wieder an\nnotwendige Arbeit denken können.\nIn bester Verehrung Ihr\nStefan Zweig\nLansdown Lodge, Bath\n\nProf. Sigmund Freud\nLondon NW3\n20, Maresfield Gardens",
+        "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala für Archivierungszwecke am oberen Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Das Wort 'woher' in Zeile 6 ist etwas undeutlich, könnte auch 'wieder' oder eine andere Variante sein, aber 'woher' scheint orthographisch am wahrscheinlichsten im Kontext der Handschrift."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 708,
+    "total_words": 118,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      28,
+      340,
+      340
+    ],
+    "chars_per_page_median": 184.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

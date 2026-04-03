@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.915",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 14. September 1928, SZ-LAS/B1.35",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.915/IMG.1",
+      "https://gams.uni-graz.at/o:szd.915/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 14. September 1928, SZ-LAS/B1.35\n- Signatur: SZ-LAS/B1.35\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Куда: Paris (France)\n\nà ~~в~~ ~~ри~~ ~~ве~~ ~~н~~ ~~Т~~ ~~а~~ ~~л~~ ~~ь~~ ~~с~~ ~~н~~ ~~е~~ \n~~mar. Outreau~~ 34, rue La marck\n\nКому: Frans Masereel",
+        "notes": "Adressseite einer Postkarte. Gedruckter russischer Text mit handschriftlichen Ergänzungen. Poststempel 'MOSKVA 14.9.28'. Briefmarke 5 Kopeken.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Mon cher Frans, je suis\na Moscou et vous pen\nsous avec ferveur a toi.\nQuelle merveille! Il faut\nvenir! Je t'embrasse\nStefan\n\nVotre admirateur\nlointain le peintre\net graveur\n[Unleserlich: Name/Unterschrift] \n\nMon cher Masereel, je pense\nque vous gardez encore le souvenir\nde notre rencontre a Paris.\nJ'etais tres heureux de faire\nvotre connaissance A. Efross",
+        "notes": "Nachrichtenseite der Postkarte. Handschriftlich in violetter Tinte. Der Text besteht aus zwei verschiedenen Handschriften: Stefan Zweig (oben) und A. Efross (unten).",
+        "type": "content"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift von Stefan Zweig ist gut lesbar. Die durchgestrichenen Stellen auf der Adressseite sind teilweise schwer zu entziffern. Die Unterschrift von A. Efross ist schwer lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 505,
+    "total_words": 81,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      148,
+      357
+    ],
+    "chars_per_page_median": 252.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

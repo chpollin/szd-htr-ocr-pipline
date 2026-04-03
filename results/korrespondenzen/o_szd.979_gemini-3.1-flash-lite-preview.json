@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.979",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom [August 1938], SZ-LAS/B7.37",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.979/IMG.1",
+      "https://gams.uni-graz.at/o:szd.979/IMG.2",
+      "https://gams.uni-graz.at/o:szd.979/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom [August 1938], SZ-LAS/B7.37\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLieber verehrter Herr Professor,\n\nich habe mich in diesen Tagen\nbei Ihnen nicht gemeldet, weil\nein naher Freund von mir böse\noperiert wurde und ich immer\nzu ihm hinaus ins Spital muss.\nIch melde mich aber morgen,\nschon sehr ungeduldig, Sie zu\nsehen.\nEin heimischer Photograf\nMarcel Sternberger, der herrliche\nAufnahmen von Shaw, Wells\netc gemacht hat, möchte leiden-",
+        "notes": "Briefkopf gedruckt, Text handschriftlich in violetter Tinte. Die letzte Zeile bricht mitten im Wort ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "schaftlich gerne Ihren Skalp\nan seinen Gürtel hängen. Er\nbittet Sie innigst um 10\nknappe Minuten und da es\nfür ihn (er geht nach America)\neine grosse moralische Hilfe\nwäre und man heute doch helfen\nmuss und da er wirklich gross-\nartige Aufnahmen macht, lege\nich ihn an Ihr gütiges Herz.\nGetreulichst Ihr\n\nStefan Zweig",
+        "notes": "Handschriftlich in violetter Tinte. Fortsetzung des Briefes von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nLieber verehrter Herr Professor,\n\nich habe mich in diesen Tagen\nbei Ihnen nicht gemeldet, weil\nein naher Freund von mir böse\noperiert wurde und ich immer\nzu ihm hinaus ins Spital muss.\nIch melde mich aber morgen,\nschon sehr ungeduldig, Sie zu\nsehen.\nEin heimischer Photograf\nMarcel Sternberger, der herrliche\nAufnahmen von Shaw, Wells\netc gemacht hat, möchte leiden-",
+        "notes": "Identisch mit Seite 1, jedoch mit einer Farbskala/Grauskala für Archivierungszwecke am linken Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die Handschrift von Stefan Zweig ist klar und eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1145,
+    "total_words": 189,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      414,
+      317,
+      414
+    ],
+    "chars_per_page_median": 365.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

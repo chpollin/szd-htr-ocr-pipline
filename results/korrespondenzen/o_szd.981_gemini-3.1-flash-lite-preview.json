@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.981",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 16. September 1938, SZ-LAS/B7.39",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.981/IMG.1",
+      "https://gams.uni-graz.at/o:szd.981/IMG.2",
+      "https://gams.uni-graz.at/o:szd.981/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 16. September 1938, SZ-LAS/B7.39\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\n16. September 1938.\nLieber verehrter Herr Professor!\n\nIch habe vergeblich versucht,\nzu erfahren, wo Sie sich augenblick-\nlich aufhalten und wie es Ihnen geht.\nHoffentlich geht es Ihnen schon wie-\nder so gut, dass man Sie besuchen\ndarf. Sie brauchen mich nur zu ver-\nständigen, wann ich kommen darf, ich\nbin jederzeit für Sie frei.\n\ninnigst Ihr\n\nStefan Zweig",
+        "notes": "Typoskript mit handschriftlicher Grußformel und Unterschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer (durchscheinender Text der Vorderseite sichtbar).",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\n16. September 1938.\nLieber verehrter Herr Professor!\n\nIch habe vergeblich versucht,\nzu erfahren, wo Sie sich augenblick-\nlich aufhalten und wie es Ihnen geht.\nHoffentlich geht es Ihnen schon wie-\nder so gut, dass man Sie besuchen\ndarf. Sie brauchen mich nur zu ver-\nständigen, wann ich kommen darf, ich\nbin jederzeit für Sie frei.\n\ninnigst Ihr\n\nStefan Zweig",
+        "notes": "Gleiche Seite wie Seite 1, jedoch mit aufgelegter Farbskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift von Stefan Zweig ist eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 810,
+    "total_words": 134,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      405,
+      0,
+      405
+    ],
+    "chars_per_page_median": 405,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

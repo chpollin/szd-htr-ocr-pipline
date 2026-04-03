@@ -30,16 +30,18 @@ Phasen 1–3 erledigt, Phase 4 laufend. Aktuelle Zahlen → `python pipeline/bui
 
 ## Quelldaten
 
-Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/`). 4 Sammlungen, Mapping in `config.py` (`COLLECTIONS`):
+Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJECTS/szd-backup/data/`). 2.107 Objekte, 18.719 Faksimile-Scans (~23 GB, JPEG, ca. 4800x7200 px). Alle Objekte vollstaendig: `metadata.json` + `mets.xml` + Bilddateien. 4 Sammlungen, Mapping in `config.py` (`COLLECTIONS`):
 
-| Unterverzeichnis | Sammlung (intern) | TEI-Datei |
-|---|---|---|
-| `lebensdokumente/` | `lebensdokumente` | `szd_lebensdokumente_tei.xml` |
-| `korrespondenzen/` | `korrespondenzen` | `szd_korrespondenzen_tei.xml` |
-| `aufsatz/` | `aufsatzablage` | `szd_aufsatzablage_tei.xml` |
-| `facsimiles/` | `werke` | `szd_werke_tei.xml` |
+| Unterverzeichnis | Sammlung (intern) | Objekte | Bilder | Bilder/Obj (Median) | TEI-Datei |
+|---|---|---|---|---|---|
+| `lebensdokumente/` | `lebensdokumente` | 127 | 2.879 | 3 | `szd_lebensdokumente_tei.xml` |
+| `korrespondenzen/` | `korrespondenzen` | 1.186 | 4.154 | 3 | `szd_korrespondenzen_tei.xml` |
+| `aufsatz/` | `aufsatzablage` | 625 | 3.844 | 5 | `szd_aufsatzablage_tei.xml` |
+| `facsimiles/` | `werke` | 169 | 7.842 | 21 | `szd_werke_tei.xml` |
 
-Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/images/IMG_*.jpg`. Objektzahlen und Abdeckung → `python pipeline/transcribe.py --all --dry-run` bzw. `docs/catalog.json`.
+Werke ist die bildintensivste Sammlung (42% aller Bilder, 50 Objekte mit >50 Bildern). Sprachen: Deutsch (96%), Englisch, Franzoesisch, Italienisch, Spanisch. Detailanalyse → `knowledge/data-overview.md`.
+
+Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/images/IMG_*.jpg`. Pipeline-Abdeckung → `python pipeline/transcribe.py --all --dry-run` bzw. `docs/catalog.json`.
 
 ## Pipeline-Architektur
 
@@ -143,35 +145,36 @@ szd-htr/
 ├── schemas/
 │   ├── page-json-v0.1.json          ← Page-JSON Schema (Text + Layout + Metadaten)
 │   └── layout-regions-v0.1.json     ← JSON-Schema fuer Layout-Analyse-Output (Legacy)
-├── pipeline/
+├── pipeline/                         ← Details → pipeline/README.md
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
+│   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
-│   ├── quality_signals.py           ← 7 Signale + page.type (v1.5, low_dwr entfernt)
+│   ├── quality_signals.py           ← 7 Signale + page.type (v1.5, DWR entfernt)
 │   ├── verify.py                    ← Modellkonsensus (Flash Lite + Flash + Claude Judge)
 │   ├── evaluate.py                  ← CER/WER-Berechnung + normalize_for_consensus
-│   ├── quality_report.py            ← Aggregierte Qualitaetsstatistiken ueber alle Ergebnisse
-│   ├── backfill_page_types.py       ← Backfill: page.type auf bestehende JSONs stempeln
-│   ├── backfill_quality_signals.py  ← Recompute quality_signals nach Schwellenwert-Aenderungen
-│   ├── backfill_edit_history.py     ← Retroaktives edit_history-Patching aus Git-History
-│   ├── diagnose_truncation.py       ← Findet truncated/broken Ergebnis-JSONs
-│   ├── fraktur_postprocess.py       ← Prototyp: Woerterbuch-basierte Fraktur-Korrektur
-│   ├── run_sample_batch.py          ← Gezielter Batch: fuellt jede Gruppe auf 10 auf
-│   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
-│   ├── layout_analysis.py            ← VLM-basierte Layout-Analyse (Regionen + Bounding Boxes)
-│   ├── export_pagexml.py             ← Merged OCR + Layout → PAGE XML 2019
-│   ├── generate_gt.py               ← 3-Modell-GT-Pipeline (Flash Lite + Flash + Pro)
-│   ├── import_reviews.py            ← Expert-Review Write-Back (Frontend-Export → Pipeline-JSON)
-│   ├── serve.py                     ← Lokaler Dev-Server mit Review-API (ersetzt Live Server)
 │   ├── build_viewer_data.py         ← Baut catalog.json + data/*.json + knowledge.json
+│   ├── serve.py                     ← Lokaler Dev-Server mit Review-API
+│   ├── import_reviews.py            ← Expert-Review Write-Back
+│   ├── layout_analysis.py           ← VLM-basierte Layout-Analyse
+│   ├── export_page_json.py          ← Merged OCR + Layout → Page-JSON
+│   ├── export_pagexml.py            ← Merged OCR + Layout → PAGE XML 2019
+│   ├── generate_gt.py               ← 3-Modell-GT-Pipeline
+│   ├── diagnose_truncation.py       ← Diagnose: Truncation-Erkennung
+│   ├── fraktur_postprocess.py       ← Diagnose: Fraktur-Korrekturvorschlaege (Prototyp)
+│   ├── quality_report.py            ← Diagnose: Aggregierte Qualitaetsstatistiken
+│   ├── backfill_*.py                ← Einmal-Migrationen (page_types, quality_signals, edit_history)
+│   ├── run_sample_batch.py          ← Batch-Steuerung: Gruppen auf 10 auffuellen
 │   └── prompts/                     ← System-Prompt + 9 Gruppen-Prompts + Layout-Prompt
 │       └── objects/                 ← Objekt-spezifische Prompt-Overrides (optional)
 ├── data/                            ← TEI-XML-Metadaten (4 Sammlungen)
-├── results/
-│   ├── groundtruth/                 ← GT-Drafts + Pro-Transkriptionen
-│   ├── lebensdokumente/             ← Ergebnisse + Modellkonsensus-JSONs
-│   ├── werke/
-│   ├── aufsatzablage/
-│   └── korrespondenzen/
+├── results/                         ← Alle Pipeline-Ergebnisse (siehe results/README.md)
+│   ├── groundtruth/                 ← GT-Drafts (3-Modell-Konsensus)
+│   ├── lebensdokumente/             ← 127 Objekte
+│   ├── werke/                       ← 54 Objekte
+│   ├── aufsatzablage/               ← 115 Objekte
+│   └── korrespondenzen/             ← 1032 Objekte
+│   Pro Objekt: {id}_{model}.json (primaer) + optional _consensus.json,
+│   _layout.json, _page.json, _page/ (PAGE XML). Details → results/README.md
 ├── docs/
 │   ├── index.html                   ← SPA: Katalog + Viewer + Knowledge Vault + Projekt
 │   ├── app.css                      ← SZD-Design-System, Accessibility, Diff, Edit, Knowledge
@@ -191,10 +194,10 @@ szd-htr/
     ├── evaluation-results.md        ← CER-Baseline, Fehlertypologie
     ├── annotation-protocol.md       ← Transkriptionskonventionen
     ├── htr-interchange-format.md    ← Page-JSON: Text + Layout + Metadaten
-    ├── tei-target-structure.md      ← TEI-Zielformat (DTABf-Profil)
-    ├── teiCrafter-integration.md    ← teiCrafter-Integration
     ├── layout-analysis.md           ← Layout-Analyse + PAGE XML Export
     ├── dia-xai-integration.md       ← DIA-XAI-Integration
+    ├── security.md                  ← Security-Review (Threat Model, Mitigations)
+    ├── stats-dashboard.md           ← Statistik-Dashboard Spezifikation
     └── journal.md                   ← Session-Log
 ```
 
@@ -288,7 +291,7 @@ Jedes Ergebnis in `results/{collection}/{object_id}_{model}.json`:
 
 ## Technische Entscheidungen
 
-- **Gemini 3.1 Flash Lite** als primaeres VLM (guenstig, schnell, multimodal). Claude Vision und GPT-4o als Vergleichskandidaten fuer Phase 4, aber noch nicht implementiert.
+- **Gemini 3.1 Flash Lite** als primaeres VLM (guenstig, schnell, multimodal).
 - **Kein Preprocessing** — Bilder gehen unveraendert an die API. Optimale Bildgroesse ist ein offener Punkt.
 - **Alle Bilder an die API** — auch Leerseiten, weil Stefan Zweigs Schreibpraxis unregelmaessig ist (Verso-Seiten haben manchmal wichtige Notizen). Seitentyp-Klassifikation erfolgt post-hoc, nicht als Pre-Filter.
 - **3-Ebenen-Verifikation** statt naiver Konfidenz:
@@ -305,4 +308,4 @@ Methodische Referenzen — dort nach Patterns suchen, wenn die Pipeline erweiter
 
 - **[zbz-ocr-tei](https://github.com/DigitalHumanitiesCraft/zbz-ocr-tei)**: LLM-OCR für gedruckte Texte, Batch-Verarbeitung, Qualitätsscreening
 - **[coOCR HTR](https://github.com/DigitalHumanitiesCraft/co-ocr-htr)**: Browser-HTR mit VLM + Expert-in-the-Loop-Validierung
-- **[teiCrafter](https://github.com/DigitalHumanitiesCraft/teiCrafter)**: TEI-Annotation als nachgelagerte Pipeline-Stufe (relevant für Phase 5)
+- **[teiCrafter](https://github.com/DigitalHumanitiesCraft/teiCrafter)**: TEI-Annotation als nachgelagerte Pipeline-Stufe (separates Repo)

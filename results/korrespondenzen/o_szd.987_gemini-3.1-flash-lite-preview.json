@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.987",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 31. Mai 1939, SZ-LAS/B7.44",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.987/IMG.1",
+      "https://gams.uni-graz.at/o:szd.987/IMG.2",
+      "https://gams.uni-graz.at/o:szd.987/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 31. Mai 1939, SZ-LAS/B7.44\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "31. Mai 1939\n\n49, HALLAM STREET,\nLONDON, W. 1.\nLANGHAM 3693.\n\nTeurer, verehrter Herr Professor\nseit ich aus Bath zurück\nbin, will ich jeden Tag mich\nmelden. Aus jeden Tag fressen\nmir die jetzt am Wien und ganz\nDeutschland Instrumenten die\nZeit weg. Endlich scheint es etwas\nlichter zu werden nur ich frage\nmich morgen oder übermorgen\nan; ich bin schon so ungeduldig\nSie wiederzusehen. Herzlichst\nIhr getreuer\nStefan Zweig",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit gedrucktem Briefkopf. Die Tinte ist violett. Die Lesung 'Instrumenten' in Zeile 6 ist unsicher, könnte auch 'Instrumente' oder ein ähnliches Wort sein, das sich auf die politische Lage bezieht.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überdeckt den linken Teil des Briefes von Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, abgesehen von einem Wort in Zeile 6, das aufgrund der Handschrift leicht interpretierbar ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 421,
+    "total_words": 70,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      421,
+      0,
+      0
+    ],
+    "chars_per_page_median": 421,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

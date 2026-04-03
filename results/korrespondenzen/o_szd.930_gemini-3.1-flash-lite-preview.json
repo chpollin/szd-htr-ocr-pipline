@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.930",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Postkarte an Frans Masereel vom 23. Oktober 1933, SZ-LAS/B1.49",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.930/IMG.1",
+      "https://gams.uni-graz.at/o:szd.930/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Postkarte an Frans Masereel vom 23. Oktober 1933, SZ-LAS/B1.49\n- Signatur: SZ-LAS/B1.49\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "11, Portland Place\nLondon W\n\nPOST CARD\n\nMonsieur Frans Masereel\n\nParis\n7, rue Antoine Chantin",
+        "notes": "Adressseite einer Postkarte. Gedruckter Text 'POST CARD' und Briefmarken (Halfpenny und One Penny) vorhanden. Handschriftliche Adresse in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Cher vieux, on m'annonce de\nSalzburg l'envoi de six gravures\nde toi: merci d'avance. Je suis\nheureux ici a Londres, tout me\nplait, la ville, la brume, l'in-\ndifference des hommes et avant\ntout des galeries! Je travaille\nle matin a la bibliotheque\npuis chez moi et je me prome-\nne le soir, je vois presque per-\nsonne, je vis enfin un peu ma\nvie et non celle des autres.\nPour la premiere fois je retrouve\nma concentration. Je resterai\nsi long que possible et puis je\nte verrai a Paris. Ma femme\nt'envoie les meilleurs amities.\n\n{Ton vieux Stefan}\n{qui a vu Paula}",
+        "notes": "Nachrichtenseite der Postkarte. Handschrift in violetter Tinte. Am linken Rand vertikal geschrieben: 'Ton vieux Stefan' und 'qui a vu Paula' (letzteres ist eine Ergänzung am Rand). Der Text ist auf Französisch verfasst.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die französische Handschrift von Stefan Zweig ist klar identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 654,
+    "total_words": 119,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      93,
+      561
+    ],
+    "chars_per_page_median": 327.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.892",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Frans Masereel vom [November 1919], SZ-LAS/B1.14",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.892/IMG.1",
+      "https://gams.uni-graz.at/o:szd.892/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Frans Masereel vom [November 1919], SZ-LAS/B1.14\n- Signatur: SZ-LAS/B1.14\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mon cher Frans, enfin je peux répondre à ta bonne lettre\ncar j'ai des nouvelles de la Insel. Le \"Insel\" paraîtra chez elle,\nje mets à ta disposition encore mille couronnes quand tu vien-\ndras en Autriche (car ici l'argent a encore de la valeur[?] et tu pourras\nacheter avec cela le même comme à Genève nos 700 francs). La\nInsel l'enverra également des épreuves du \"Ewigen Juden\" et elle veut\nle proposer une édition du \"Cloître\" de Verhaeren avec des\ngravs bois. L'idée est de moi, car je crois que le sujet te con-\nviendrait et pourrait t'inspirer une belle chose. De même\nnous pensons à un grand portrait en bois de Verhaeren\nqui serait vendu séparément. J'espère aussi cette idée te\nplaira. Tant pour tous tes livres tes propos[?] nous à la Insel\nelle est bien content de l'avoir. Tu connais l'adresse\nde Anton Kippenberg Insel-Verlag Leipzig Königstrasse\nPour le \"Sablier\" je t'enverrai bientôt une nou-\nvelle qui te plaira (j'en suis sûr). Elle est symbolique\npour nos idées de liberté, d'indépendance, elle est écrit\ncomme les conte Hindou, pour montrer les idées dans\nune forme éternelle.\nJ'écris demain à Arcos. J'ai plusieurs offres à\nlui remettre.\nMon cher Frans, tu ne peux pas deviner avec\ncombien de joie tu es attendu ici. Je t'ai proposé le prin-\ntemps car l'hiver est assez froid et tu ne pourrais pas aper-\nvoir les beautés du pays, mais c'est convenu, cher ami, il\nn'y a plus de recul!! Tu auras une belle chambre avec\nune vue magnifique et tu seras bien soigné et mieux",
+        "notes": "Handschriftlicher Brief in violetter Tinte. Die Lesbarkeit ist gut, einige französische Begriffe sind aufgrund der Handschrift leicht unsicher.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "nourri comme à Runklstein. Nous avons beaucoup\nmoins des soucis, car nous sommes devenus tellement\nindifférent aux choses extérieures, nous ne vivons que\ndans la nature, dans le travail et avec les amis. Tu\npourras bien travailler ici et tu ne regretteras pas\nd'être venu.\nÉcris donc à Kippenberg! Ma femme t'em-\nbrasse et moi aussi. Ton\n\n[Unterschrift: Stefan Zweig]",
+        "notes": "Fortsetzung des Briefes. Am unteren Rand befindet sich ein Ex-Libris-Stempel von 'Christian Andree'. Die Unterschrift ist als 'Stefan Zweig' identifizierbar, wenngleich sie sehr flüchtig geschrieben ist.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist weitgehend klar lesbar. Einige französische Wörter weisen eine typische Zweig-Handschrift auf, die bei flüchtiger Schreibweise leicht interpretierbar ist, aber im Kontext des Briefes eindeutig erscheint."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1855,
+    "total_words": 324,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1488,
+      367
+    ],
+    "chars_per_page_median": 927.5,
+    "marker_uncertain_count": 2,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0062,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "fr",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

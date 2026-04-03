@@ -1,0 +1,66 @@
+{
+  "object_id": "o_szd.858",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Stefan Zweig vom 13. Juli 1937, SZ-AAP/B1.73",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.858/IMG.1",
+      "https://gams.uni-graz.at/o:szd.858/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Stefan Zweig vom 13. Juli 1937, SZ-AAP/B1.73\n- Signatur: SZ-AAP/B1.73\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 2 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "OFFICE OF THE VICE-PRESIDENT\n\n                                  OXFORD\n                                UNIVERSITY\n                                   PRESS\n                                  NewYork\n\n114 FIFTH AVENUE\n\nCOPY OF CABLE\n\n                                  July 13, 1937\n\nHERBERT REICHNER\nCARE REICHNERVERLAG WIEN\n\n\"WILL TAKE TWO HUNDRED FIFTY COPIES  WILL NOT EXPORT COPIES TO\n\nEUROPE PROVIDED SAME APPLIES COPIES FROM EUROPE TO AMERICA  STOP\n\nPAYMENT TO JAFFE DIRECT  STOP  WILL USE YOUR SUPPLEMENT  STOP\n\nPUBLISHED PRICE EUROPE AND AMERICA SHOULD BE IN SAME PROPORTION\n\nFEEL COPIES SHOULD BE NUMBERED  WRITE ME ALL DETAILS DESCRIPTION\n\nBOOK TOTAL EDITION PRINTED ETCETERA.\"\n\n                                  WILLERT",
+        "notes": "Typoskript auf hellblauem Papier. Briefkopf der Oxford University Press.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klares Typoskript und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 727,
+    "total_words": 79,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      727,
+      0
+    ],
+    "chars_per_page_median": 727,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "en",
+    "language_match": false,
+    "page_length_anomalies": [],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "language_mismatch"
+    ]
+  }
+}

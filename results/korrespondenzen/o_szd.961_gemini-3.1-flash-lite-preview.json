@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.961",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Brief an Sigmund Freud vom 21. Oktober 1932, SZ-LAS/B7.20",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.961/IMG.1",
+      "https://gams.uni-graz.at/o:szd.961/IMG.2",
+      "https://gams.uni-graz.at/o:szd.961/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Brief an Sigmund Freud vom 21. Oktober 1932, SZ-LAS/B7.20\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "SALZBURG 21. Oct 1932\nKAPUZINERBERG 5\n\nHochverehrter Herr Professor, lassen Sie mich\nIhnen für Ihre besondere Güte danken — ich weiss, was\nes bedeutet, wenn ein Mann Ihres Ranges und Ihrer Ar-\nbeitsfülle einem Buche seine Zeit widmet; alles was ich schrei-\nbe ist von Ihnen beeinträchtigt und vielleicht spüren Sie, dass\nder Mut zur Wahrhaftigkeit, der möglicherweide das Wesentliche\nmeiner Bücher ist, von Ihnen stammt; Sie haben einer ganzen\nGeneration ein Vorbild gegeben.\nIn dem Falle des Dauphin hatte ich noch mehr Ma-\nterial, als ich verwertete. Aber es war mir zu grausam, das\nwort zu berichten, das er vor Beglaubigten Zeugen sagte\n„Quand guillotinera-t-on enfin ces sacrés putaines?“ Auch\ndies hatte er offenbar gehört und, weil er es als lustig em-\npfand (nur vielleicht aus einem geheimen Hass) nachgesprochen.\n Viel Material über all diese Dinge hat ein fran-\nzösischer Arzt gesammelt, Dr. Cabanès in seinen „Indiscre-\ntions de l'histoire“, „Les morts mysterieuse“ ect. Dieser Mann\nhat mit bewundernswertem Fleiss alle Sexualia der Geschichte\ngesammelt und medizinisch überprüft — leider aber ohne\neine Ahnung von Psychoanalyse zu haben, so dass alle diese\nSchätze heute ungenützt daliegen. Vielleicht könnten Sie\neinige Ihrer Schüler einmal auf diese Reihe aufmerksam",
+        "notes": "Handschriftlicher Brief auf Briefpapier mit Briefkopf. Tinte violett. Gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "machen, damit sie dieses köstliche Material verwerten\n(ich danke ihm für die Marie Antoinette zu ersten ent-\nscheidenden Hinweise, denen ich dann nachging und die\ner psychologisch nicht zu verwerten wusste.) Er hat den In-\nstinkt, den Fleiss, er spürt das Interessante, er versteht nur\nleider nicht — weil ihm eben die Kenntnis Ihrer Methode\nabgeht — die Phänomene zu deuten: er zählt sie nur auf.\nAber in den 20 kleinen Bänden ist für den Forscher ein\nganzes Bergwerk des Wissens.\nLassen Sie mich, verehrter, teurer Meister,\nnun noch den Wunsch aussprechen, Ihre herrliche und\nunvergleichliche physische Frische, Ihre schöpferische Neugier\nmöge uns lange noch erhalten bleiben; eine so vom Geist\nverlassene Zeit wie die unsere benötigt die intellectuelle\nAutorität. Nur wie wenige sind, die uns führen und\nbelehren!\nIn treuer Verehrung\nIhr stets ergebener\nStefan Zweig",
+        "notes": "Handschriftlicher Brief, Fortsetzung von Seite 1. Tinte violett. Gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Identisch mit Seite 2, jedoch mit einer Farbskala/Grauskala am unteren Rand zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist klar. Ein paar französische Begriffe und Eigennamen wurden kontextuell geprüft."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2150,
+    "total_words": 335,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1281,
+      869,
+      0
+    ],
+    "chars_per_page_median": 1075.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -147,11 +147,11 @@
 
     <div class="viewer__nav-group">
       <button type="button" class="viewer__action-btn" id="editBtn"
-              data-tooltip="Transkription bearbeiten">
+              data-tooltip="Transkription bearbeiten (Änderungen werden direkt im JSON gespeichert)">
         &#9998; Edit <span class="indicator" id="editIndicator"></span>
       </button>
       <button type="button" class="viewer__action-btn" id="editSaveBtn" style="display:none"
-              data-tooltip="Änderungen im Browser speichern">
+              data-tooltip="Änderungen ins Pipeline-JSON speichern (Ctrl+S). Original bleibt in edit_history.">
         &#10003; Speichern
       </button>
       <button type="button" class="viewer__action-btn" id="editUndoPageBtn" style="display:none"
@@ -175,8 +175,12 @@
         &#9733; GT Review
       </button>
       <button type="button" class="viewer__action-btn" id="approveBtn" style="display:none"
-              data-tooltip="Transkription als korrekt freigeben">
+              data-tooltip="Approve (Tier 1): Transkription als korrekt markieren">
         &#10003; Approve
+      </button>
+      <button type="button" class="viewer__action-btn" id="gtVerifyBtn" style="display:none"
+              data-tooltip="GT Verify (Tier 0): Jede Seite zeichengenau gegen Faksimile geprüft. Höchster Status — zählt als Ground Truth für CER.">
+        &#9733; GT Verify
       </button>
     </div>
   </div>
@@ -282,18 +286,48 @@
 
     <h3>Edit-Modus (nur lokal)</h3>
     <p>
-      Der Edit-Modus ist nur verfügbar, wenn das Tool lokal läuft.
-      So starten:
+      Der Edit-Modus ist nur verf&uuml;gbar, wenn der lokale Server l&auml;uft:
+      <code>python pipeline/serve.py</code>
     </p>
-    <p><code>cd docs &amp;&amp; python -m http.server 8000</code></p>
     <ul>
-      <li>Transkription und Notes direkt bearbeiten</li>
-      <li><strong>Speichern</strong> — sichert in localStorage (<kbd>Ctrl</kbd>+<kbd>S</kbd>)</li>
-      <li><strong>Seite</strong> — aktuelle Seite auf Original zurücksetzen</li>
-      <li><strong>Alles verwerfen</strong> — alle Änderungen am Objekt löschen</li>
+      <li><strong>Edit</strong> — Transkription direkt bearbeiten</li>
+      <li><strong>Speichern</strong> — schreibt direkt ins Pipeline-JSON (<kbd>Ctrl</kbd>+<kbd>S</kbd>). Der Originaltext wird in <code>edit_history</code> aufbewahrt.</li>
+      <li><strong>Seite</strong> — aktuelle Seite auf Original zur&uuml;cksetzen</li>
+      <li><strong>Alles verwerfen</strong> — alle &Auml;nderungen am Objekt l&ouml;schen</li>
       <li><strong>JSON</strong> — Korrekturen als Datei exportieren</li>
-      <li>Status-Leiste zeigt Anzahl bearbeiteter Seiten und Speicherort</li>
     </ul>
+
+    <h3>Review &amp; Ground Truth (nur lokal)</h3>
+    <p>4-stufiges Vertrauensmodell f&uuml;r jedes Objekt:</p>
+    <table>
+      <thead><tr><th>Tier</th><th>Status</th><th>Button</th><th>Bedeutung</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>0</td><td><strong>gt_verified</strong></td>
+          <td>&#9733; GT Verify</td>
+          <td>H&ouml;chste Stufe: Jede Seite wurde <em>zeichengenau</em> gegen das Faksimile gepr&uuml;ft. Z&auml;hlt als wissenschaftliche Referenz (Ground Truth) f&uuml;r CER-Berechnung.</td>
+        </tr>
+        <tr>
+          <td>1</td><td><strong>approved</strong></td>
+          <td>&#10003; Approve</td>
+          <td>Mensch hat die Transkription gepr&uuml;ft und f&uuml;r korrekt befunden.</td>
+        </tr>
+        <tr>
+          <td>2</td><td>agent_verified</td>
+          <td>&mdash;</td>
+          <td>Claude Code Sub-Agent hat Bild gegen Text verglichen (automatisch).</td>
+        </tr>
+        <tr>
+          <td>3</td><td>&mdash;</td>
+          <td>&mdash;</td>
+          <td>Kein Review. Nur Pipeline-Selbsteinsch&auml;tzung (quality_signals).</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong>GT-Review-Workflow:</strong> Objekt &ouml;ffnen &rarr; jede Seite gegen Faksimile lesen &rarr;
+      bei Fehlern: Edit &rarr; korrigieren &rarr; Speichern &rarr; wenn alle Seiten gepr&uuml;ft: &#9733; GT Verify.
+    </p>
 
     <h3>Diff-Ansicht (Cross-Model)</h3>
     <p>
