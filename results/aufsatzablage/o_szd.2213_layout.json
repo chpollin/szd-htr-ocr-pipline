@@ -2,7 +2,7 @@
   "object_id": "o_szd.2213",
   "collection": "aufsatzablage",
   "group": "zeitungsausschnitt",
-  "model": "docling+gemini-3.1-flash-lite-preview",
+  "model": "docling+surya+gemini-3-flash-preview",
   "pages": [
     {
       "page": 1,
@@ -12,62 +12,6 @@
       "regions": [
         {
           "id": "r1",
-          "type": "heading",
-          "bbox": [
-            28.0,
-            27.2,
-            7.1,
-            1.7
-          ],
-          "reading_order": 1,
-          "lines": 1,
-          "label": "Jahrgang",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r10",
-          "type": "heading",
-          "bbox": [
-            66.7,
-            27.2,
-            5.4,
-            1.7
-          ],
-          "reading_order": 2,
-          "lines": 1,
-          "label": "Heftnummer",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r12",
-          "type": "marginalia",
-          "bbox": [
-            72.7,
-            26.0,
-            7.5,
-            4.1
-          ],
-          "reading_order": 3,
-          "lines": 2,
-          "label": "Datum 1917/18",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r11",
-          "type": "marginalia",
-          "bbox": [
-            72.1,
-            29.8,
-            8.6,
-            2.3
-          ],
-          "reading_order": 4,
-          "lines": 1,
-          "label": "Datum 4.I.18",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r2",
           "type": "marginalia",
           "bbox": [
             42.3,
@@ -75,24 +19,38 @@
             12.8,
             3.1
           ],
-          "reading_order": 5,
+          "reading_order": 1,
           "lines": 1,
-          "label": "Handschriftliche Notiz (Hofinger?)",
-          "source": "vlm_reclassified"
+          "label": "Handschriftliche Notiz oben",
+          "source": "docling"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            28.0,
+            27.1,
+            44.1,
+            1.8
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Kopfzeile (Zeitschriftentitel)",
+          "source": "merged"
         },
         {
           "id": "r3",
-          "type": "heading",
+          "type": "marginalia",
           "bbox": [
-            41.7,
-            27.1,
-            15.4,
-            1.8
+            72.1,
+            26.0,
+            8.6,
+            6.1
           ],
-          "reading_order": 6,
-          "lines": 1,
-          "label": "Zeitschriftentitel",
-          "source": "vlm_reclassified"
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Handschriftliche Datierung",
+          "source": "merged"
         },
         {
           "id": "r4",
@@ -103,10 +61,10 @@
             16.6,
             2.2
           ],
-          "reading_order": 7,
+          "reading_order": 4,
           "lines": 1,
-          "label": "Artikelüberschrift",
-          "source": "vlm_reclassified"
+          "label": "Titel des Beitrags",
+          "source": "docling"
         },
         {
           "id": "r5",
@@ -117,10 +75,10 @@
             21.3,
             1.8
           ],
-          "reading_order": 8,
+          "reading_order": 5,
           "lines": 1,
           "label": "Untertitel",
-          "source": "vlm_reclassified"
+          "source": "docling"
         },
         {
           "id": "r6",
@@ -131,24 +89,24 @@
             13.2,
             1.5
           ],
-          "reading_order": 9,
+          "reading_order": 6,
           "lines": 1,
-          "label": "Autorenzeile",
-          "source": "vlm_reclassified"
+          "label": "Autorenangabe",
+          "source": "docling"
         },
         {
           "id": "r7",
           "type": "paragraph",
           "bbox": [
-            29.2,
+            26.3,
             38.0,
-            43.0,
-            3.7
+            46.1,
+            4.7
           ],
-          "reading_order": 10,
-          "lines": 2,
-          "label": "Haupttext Einleitung",
-          "source": "vlm_reclassified"
+          "reading_order": 7,
+          "lines": 4,
+          "label": "Einleitungstext",
+          "source": "merged"
         },
         {
           "id": "r8",
@@ -159,24 +117,24 @@
             46.1,
             25.5
           ],
-          "reading_order": 11,
-          "lines": 15,
+          "reading_order": 8,
+          "lines": 21,
           "label": "Haupttext",
-          "source": "vlm_reclassified"
+          "source": "docling"
         },
         {
           "id": "r9",
-          "type": "list",
+          "type": "paragraph",
           "bbox": [
             26.3,
             68.6,
             46.1,
             3.3
           ],
-          "reading_order": 12,
-          "lines": 2,
-          "label": "Fußnoten/Literaturverzeichnis",
-          "source": "vlm_reclassified"
+          "reading_order": 9,
+          "lines": 3,
+          "label": "Fußnote",
+          "source": "docling"
         }
       ]
     },
@@ -197,304 +155,64 @@
           ],
           "reading_order": 1,
           "lines": 1,
-          "label": "Seitenzahl 67",
+          "label": "Seitenzahl",
           "source": "docling"
         },
         {
           "id": "r2",
-          "type": "paragraph",
-          "bbox": [
-            25.5,
-            28.2,
-            45.8,
-            4.9
-          ],
-          "reading_order": 2,
-          "lines": 2,
-          "label": "Haupttext Absatz 1 (Fortsetzung)",
-          "source": "docling"
-        },
-        {
-          "id": "r4",
           "type": "paragraph",
           "bbox": [
             25.7,
-            33.0,
-            42.3,
-            1.3
-          ],
-          "reading_order": 3,
-          "lines": 1,
-          "label": "Haupttext Absatz 2 (Anfang)",
-          "source": "docling"
-        },
-        {
-          "id": "r3",
-          "type": "paragraph",
-          "bbox": [
-            25.4,
-            34.2,
-            46.0,
-            15.6
-          ],
-          "reading_order": 4,
-          "lines": 6,
-          "label": "Haupttext Absatz 2 (Fortsetzung)",
-          "source": "docling"
-        },
-        {
-          "id": "r5",
-          "type": "paragraph",
-          "bbox": [
-            25.4,
-            49.7,
-            46.1,
-            10.9
-          ],
-          "reading_order": 5,
-          "lines": 4,
-          "label": "Haupttext Absatz 3",
-          "source": "docling"
-        },
-        {
-          "id": "r7",
-          "type": "paragraph",
-          "bbox": [
-            25.4,
-            60.5,
-            28.1,
-            1.4
-          ],
-          "reading_order": 6,
-          "lines": 1,
-          "label": "Haupttext Absatz 4 (Anfang)",
-          "source": "docling"
-        },
-        {
-          "id": "r6",
-          "type": "paragraph",
-          "bbox": [
-            27.8,
-            61.7,
-            43.5,
-            1.3
-          ],
-          "reading_order": 7,
-          "lines": 1,
-          "label": "Haupttext Absatz 4 (Fortsetzung)",
-          "source": "docling"
-        },
-        {
-          "id": "r8",
-          "type": "paragraph",
-          "bbox": [
-            25.4,
-            62.9,
-            46.1,
-            9.8
-          ],
-          "reading_order": 8,
-          "lines": 4,
-          "label": "Haupttext Absatz 4 (Schluss)",
-          "source": "docling"
-        }
-      ]
-    },
-    {
-      "page": 3,
-      "image_filename": "IMG_4.jpg",
-      "image_width_px": 4912,
-      "image_height_px": 7360,
-      "regions": [
-        {
-          "id": "r1",
-          "type": "heading",
-          "bbox": [
-            27.3,
-            26.2,
-            1.9,
-            1.1
-          ],
-          "reading_order": 1,
-          "lines": 1,
-          "label": "Seitenzahl",
-          "source": "docling"
-        },
-        {
-          "id": "r2",
-          "type": "paragraph",
-          "bbox": [
-            27.2,
-            28.7,
-            45.2,
-            5.0
+            28.3,
+            45.6,
+            5.7
           ],
           "reading_order": 2,
-          "lines": 3,
-          "label": "Haupttext Absatz 1",
-          "source": "vlm_reclassified"
+          "lines": 5,
+          "label": "Erster Absatz",
+          "source": "merged"
         },
         {
           "id": "r3",
           "type": "paragraph",
           "bbox": [
-            29.2,
-            34.6,
-            43.7,
-            1.4
+            25.7,
+            34.3,
+            45.6,
+            15.3
           ],
           "reading_order": 3,
-          "lines": 1,
-          "label": "Haupttext Absatz 2 (Beginn)",
-          "source": "docling"
+          "lines": 13,
+          "label": "Zweiter Absatz",
+          "source": "merged"
         },
         {
           "id": "r4",
           "type": "paragraph",
           "bbox": [
-            26.9,
-            35.9,
-            45.9,
-            13.4
+            25.5,
+            49.9,
+            45.8,
+            11.7
           ],
           "reading_order": 4,
-          "lines": 8,
-          "label": "Haupttext Absatz 2 (Fortsetzung)",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r6",
-          "type": "paragraph",
-          "bbox": [
-            26.9,
-            49.0,
-            45.9,
-            6.2
-          ],
-          "reading_order": 5,
-          "lines": 4,
-          "label": "Haupttext Absatz 3",
-          "source": "vlm_reclassified"
+          "lines": 10,
+          "label": "Dritter Absatz",
+          "source": "merged"
         },
         {
           "id": "r5",
           "type": "paragraph",
           "bbox": [
-            26.9,
-            55.0,
-            44.3,
-            1.5
-          ],
-          "reading_order": 6,
-          "lines": 1,
-          "label": "Haupttext Absatz 3 (Fortsetzung)",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r7",
-          "type": "paragraph",
-          "bbox": [
-            26.8,
-            56.2,
-            46.1,
-            8.8
-          ],
-          "reading_order": 7,
-          "lines": 6,
-          "label": "Haupttext Absatz 4",
-          "source": "vlm_reclassified"
-        }
-      ]
-    },
-    {
-      "page": 4,
-      "image_filename": "IMG_5.jpg",
-      "image_width_px": 4912,
-      "image_height_px": 7360,
-      "regions": [
-        {
-          "id": "r1",
-          "type": "heading",
-          "bbox": [
-            27.2,
-            26.2,
-            1.9,
-            1.0
-          ],
-          "reading_order": 1,
-          "lines": 1,
-          "label": "Seitenzahl",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r2",
-          "type": "paragraph",
-          "bbox": [
-            26.9,
-            28.6,
-            45.7,
-            5.0
-          ],
-          "reading_order": 2,
-          "lines": 2,
-          "label": "Textabschnitt 1",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r3",
-          "type": "table",
-          "bbox": [
-            9.6,
-            33.5,
-            78.0,
-            7.0
-          ],
-          "reading_order": 3,
-          "lines": 5,
-          "label": "Farbkarte",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r28",
-          "type": "paragraph",
-          "bbox": [
-            26.9,
-            49.0,
-            45.8,
-            7.5
-          ],
-          "reading_order": 4,
-          "lines": 3,
-          "label": "Textabschnitt 2",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r29",
-          "type": "paragraph",
-          "bbox": [
-            26.7,
-            56.1,
-            46.0,
-            3.9
+            25.4,
+            61.9,
+            45.9,
+            10.6
           ],
           "reading_order": 5,
-          "lines": 2,
-          "label": "Textabschnitt 3",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r30",
-          "type": "table",
-          "bbox": [
-            19.2,
-            62.9,
-            69.0,
-            7.0
-          ],
-          "reading_order": 6,
-          "lines": 3,
-          "label": "Grauskala",
-          "source": "vlm_reclassified"
+          "lines": 9,
+          "label": "Vierter Absatz",
+          "source": "merged"
         }
       ]
     }
@@ -505,7 +223,7 @@
       {
         "page": 1,
         "coverage": "complete",
-        "coverage_note": "Alle Textbereiche, inklusive der handschriftlichen Notizen und Randbemerkungen, wurden erfasst.",
+        "coverage_note": "Alle wesentlichen Textbereiche, einschließlich der handschriftlichen Notizen, der Kopfzeile, der Titel und des Haupttextes sowie der Fußnote, wurden erfasst.",
         "position_accuracy": "good",
         "type_accuracy": "good",
         "reading_order_ok": true,
@@ -516,34 +234,7 @@
       {
         "page": 2,
         "coverage": "complete",
-        "coverage_note": "Alle Textbereiche, inklusive der Seitenzahl, wurden korrekt erfasst.",
-        "position_accuracy": "good",
-        "type_accuracy": "good",
-        "reading_order_ok": true,
-        "missing_regions": [],
-        "issues": [
-          "Die Aufteilung der Absätze in mehrere Regionen (z.B. r4/r3 und r7/r6/r8) ist technisch korrekt, aber etwas fragmentiert, da die Zeilenumbrüche innerhalb der Absätze liegen."
-        ],
-        "overall": "good"
-      },
-      {
-        "page": 3,
-        "coverage": "complete",
-        "coverage_note": "Alle Textbereiche, inklusive der Seitenzahl und des Trennsymbols am Ende, wurden erfasst.",
-        "position_accuracy": "good",
-        "type_accuracy": "good",
-        "reading_order_ok": true,
-        "missing_regions": [],
-        "issues": [
-          "Die Bounding Box für die Seitenzahl (r1) ist in den Koordinaten sehr klein und scheint nicht die gesamte Fläche der Ziffer '68' abzudecken.",
-          "Der Haupttext wurde in mehrere Teilregionen (r3/r4 und r6/r5) unterteilt, was für die logische Strukturierung zwar funktioniert, aber technisch gesehen unnötige Fragmentierung innerhalb einzelner Absätze darstellt."
-        ],
-        "overall": "good"
-      },
-      {
-        "page": 4,
-        "coverage": "complete",
-        "coverage_note": "Alle sichtbaren Textbereiche und die technischen Hilfsmittel (Farbkarte/Grauskala) wurden erfasst.",
+        "coverage_note": "Alle Textbereiche (Seitenzahl und vier Absätze) wurden korrekt erfasst.",
         "position_accuracy": "good",
         "type_accuracy": "good",
         "reading_order_ok": true,

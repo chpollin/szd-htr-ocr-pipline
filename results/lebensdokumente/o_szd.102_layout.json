@@ -1,0 +1,367 @@
+{
+  "object_id": "o_szd.102",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            24.4,
+            22.4,
+            59.2,
+            2.8
+          ],
+          "reading_order": 1,
+          "lines": 3,
+          "label": "Vertragseinleitung",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            24.4,
+            26.5,
+            57.7,
+            7.0
+          ],
+          "reading_order": 2,
+          "lines": 7,
+          "label": "Vertragsabsatz 1",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            24.1,
+            34.8,
+            58.7,
+            5.0
+          ],
+          "reading_order": 3,
+          "lines": 5,
+          "label": "Vertragsabsatz 2",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            30.8,
+            41.0,
+            43.5,
+            2.9
+          ],
+          "reading_order": 4,
+          "lines": 3,
+          "label": "Unterpunkt (a)",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            30.9,
+            45.1,
+            42.7,
+            2.9
+          ],
+          "reading_order": 5,
+          "lines": 3,
+          "label": "Unterpunkt (b)",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            30.9,
+            49.3,
+            45.8,
+            4.9
+          ],
+          "reading_order": 6,
+          "lines": 5,
+          "label": "Unterpunkt (c)",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "paragraph",
+          "bbox": [
+            24.3,
+            55.5,
+            57.0,
+            4.9
+          ],
+          "reading_order": 7,
+          "lines": 5,
+          "label": "Vertragsabsatz 3",
+          "source": "merged"
+        },
+        {
+          "id": "r8",
+          "type": "paragraph",
+          "bbox": [
+            24.3,
+            61.7,
+            54.6,
+            3.8
+          ],
+          "reading_order": 8,
+          "lines": 4,
+          "label": "Vertragsabsatz 4",
+          "source": "merged"
+        },
+        {
+          "id": "r9",
+          "type": "paragraph",
+          "bbox": [
+            24.3,
+            66.9,
+            53.9,
+            1.8
+          ],
+          "reading_order": 9,
+          "lines": 2,
+          "label": "Schlussformel",
+          "source": "merged"
+        },
+        {
+          "id": "r10",
+          "type": "heading",
+          "bbox": [
+            58.2,
+            69.6,
+            20.9,
+            2.9
+          ],
+          "reading_order": 10,
+          "lines": 1,
+          "label": "Unterschrift Stefan Zweig",
+          "source": "docling"
+        },
+        {
+          "id": "r11",
+          "type": "heading",
+          "bbox": [
+            66.7,
+            71.9,
+            5.2,
+            1.2
+          ],
+          "reading_order": 11,
+          "lines": 1,
+          "label": "Funktionsbezeichnung Author",
+          "source": "docling"
+        },
+        {
+          "id": "r12",
+          "type": "heading",
+          "bbox": [
+            53.0,
+            73.9,
+            16.4,
+            1.2
+          ],
+          "reading_order": 12,
+          "lines": 1,
+          "label": "Firmenname The Viking Press Inc.",
+          "source": "docling"
+        },
+        {
+          "id": "r13",
+          "type": "heading",
+          "bbox": [
+            54.3,
+            75.2,
+            21.4,
+            2.1
+          ],
+          "reading_order": 13,
+          "lines": 1,
+          "label": "Unterschrift Vice-President",
+          "source": "docling"
+        },
+        {
+          "id": "r14",
+          "type": "heading",
+          "bbox": [
+            64.5,
+            77.1,
+            11.2,
+            1.2
+          ],
+          "reading_order": 14,
+          "lines": 1,
+          "label": "Funktionsbezeichnung Vice-President",
+          "source": "docling"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            14.7,
+            22.3,
+            59.3,
+            3.1
+          ],
+          "reading_order": 1,
+          "lines": 3,
+          "label": "Vertragskopf: Parteien und Datum (spiegelverkehrt)",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            14.9,
+            26.6,
+            59.1,
+            9.2
+          ],
+          "reading_order": 2,
+          "lines": 8,
+          "label": "Vertragsabsatz 1: Publikationsvereinbarung",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            14.9,
+            35.9,
+            58.6,
+            12.2
+          ],
+          "reading_order": 3,
+          "lines": 11,
+          "label": "Vertragsabsatz 2: Honorarregelungen (a, c)",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            21.0,
+            49.2,
+            46.2,
+            5.2
+          ],
+          "reading_order": 4,
+          "lines": 5,
+          "label": "Vertragsabsatz 3: Zweckbestimmung und Bezugnahme",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            16.2,
+            55.3,
+            57.3,
+            4.3
+          ],
+          "reading_order": 5,
+          "lines": 4,
+          "label": "Vertragsabsatz 4: Bereitstellung der englischen Fassung",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            19.9,
+            59.7,
+            53.6,
+            3.0
+          ],
+          "reading_order": 6,
+          "lines": 2,
+          "label": "Schlussklausel (In Witness Whereof)",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "heading",
+          "bbox": [
+            18.9,
+            62.6,
+            54.7,
+            15.4
+          ],
+          "reading_order": 7,
+          "lines": 9,
+          "label": "Unterschriftenblock (The Viking Press & Stefan Zweig)",
+          "source": "merged"
+        },
+        {
+          "id": "r8",
+          "type": "marginalia",
+          "bbox": [
+            35.0,
+            34.0,
+            40.0,
+            32.0
+          ],
+          "reading_order": 8,
+          "lines": 8,
+          "label": "Handschriftliche Inhaltsangabe (vertikal, blau)",
+          "source": "vlm_added"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 2,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche, sowohl der spiegelverkehrte Typoskript-Text als auch die handschriftlichen Ergänzungen, wurden erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

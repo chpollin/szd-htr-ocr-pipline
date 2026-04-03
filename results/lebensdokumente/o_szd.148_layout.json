@@ -1,0 +1,103 @@
+{
+  "object_id": "o_szd.148",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 6815,
+      "image_height_px": 4264,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            58.9,
+            8.3,
+            29.2,
+            11.6
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Beschriftung Kartondeckel (Schreibmaschin-Zubehör)",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "marginalia",
+          "bbox": [
+            37.0,
+            16.9,
+            4.8,
+            2.2
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Handschriftliche Notiz auf Farbbandschachtel (violett, gut)",
+          "source": "surya"
+        },
+        {
+          "id": "r3",
+          "type": "heading",
+          "bbox": [
+            36.5,
+            43.5,
+            7.0,
+            3.0
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Markenname Pelikan auf Metalldose",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            10.8,
+            65.8,
+            17.3,
+            15.7
+          ],
+          "reading_order": 4,
+          "lines": 5,
+          "label": "Remington Schreibmaschinen Werbekarte / Radierschablone",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            33.1,
+            60.8,
+            11.9,
+            11.1
+          ],
+          "reading_order": 5,
+          "lines": 5,
+          "label": "Beschriftung Reinigungsmittel-Dose (Star Type Cleaner)",
+          "source": "merged"
+        }
+      ]
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle wesentlichen Textbereiche auf den Objekten wurden erfasst. Sehr kleiner Text auf dem Bleistift wurde aufgrund mangelnder Lesbarkeit weggelassen.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

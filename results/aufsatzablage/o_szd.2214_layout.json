@@ -2,7 +2,7 @@
   "object_id": "o_szd.2214",
   "collection": "aufsatzablage",
   "group": "handschrift",
-  "model": "docling+gemini-3.1-flash-lite-preview",
+  "model": "docling+surya+gemini-3-flash-preview",
   "pages": [
     {
       "page": 1,
@@ -14,15 +14,15 @@
           "id": "r1",
           "type": "heading",
           "bbox": [
-            16.4,
-            28.8,
-            40.8,
-            3.5
+            15.7,
+            28.6,
+            42.0,
+            3.9
           ],
           "reading_order": 1,
           "lines": 1,
-          "label": "Titel: Werkstatt der Dichter, aus der",
-          "source": "vlm_reclassified"
+          "label": "Titelzeile: Werkstatt der Dichter, Aus der",
+          "source": "merged"
         }
       ]
     },
@@ -31,36 +31,7 @@
       "image_filename": "IMG_2.jpg",
       "image_width_px": 3684,
       "image_height_px": 4912,
-      "regions": [
-        {
-          "id": "r1",
-          "type": "heading",
-          "bbox": [
-            58.9,
-            22.9,
-            39.6,
-            4.5
-          ],
-          "reading_order": 1,
-          "lines": 1,
-          "label": "Handschriftliche Notiz am oberen Rand",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r2",
-          "type": "marginalia",
-          "bbox": [
-            91.7,
-            44.9,
-            5.1,
-            7.9
-          ],
-          "reading_order": 2,
-          "lines": 3,
-          "label": "Vertikale Randnotiz / Korrekturzeichen",
-          "source": "vlm_reclassified"
-        }
-      ]
+      "regions": []
     },
     {
       "page": 3,
@@ -68,35 +39,6 @@
       "image_width_px": 3684,
       "image_height_px": 4912,
       "regions": []
-    },
-    {
-      "page": 4,
-      "image_filename": "IMG_4.jpg",
-      "image_width_px": 3684,
-      "image_height_px": 4912,
-      "regions": []
-    },
-    {
-      "page": 5,
-      "image_filename": "IMG_5.jpg",
-      "image_width_px": 3684,
-      "image_height_px": 4912,
-      "regions": [
-        {
-          "id": "r1",
-          "type": "heading",
-          "bbox": [
-            8.5,
-            24.9,
-            44.1,
-            4.1
-          ],
-          "reading_order": 1,
-          "lines": 1,
-          "label": "Dokumenttitel: Werkstatt der Dichter, dies der",
-          "source": "vlm_reclassified"
-        }
-      ]
     }
   ],
   "layout_quality": {
@@ -104,52 +46,6 @@
     "pages": [
       {
         "page": 1,
-        "coverage": "complete",
-        "coverage_note": "Alle Textbereiche erfasst.",
-        "position_accuracy": "good",
-        "type_accuracy": "good",
-        "reading_order_ok": true,
-        "missing_regions": [],
-        "issues": [],
-        "overall": "good"
-      },
-      {
-        "page": 2,
-        "coverage": "complete",
-        "coverage_note": "Alle sichtbaren handschriftlichen Elemente wurden erfasst.",
-        "position_accuracy": "good",
-        "type_accuracy": "good",
-        "reading_order_ok": true,
-        "missing_regions": [],
-        "issues": [],
-        "overall": "good"
-      },
-      {
-        "page": 3,
-        "coverage": "complete",
-        "coverage_note": "Es sind keine Textbereiche im Bild vorhanden, daher ist die Liste der Regionen korrekt leer.",
-        "position_accuracy": "good",
-        "type_accuracy": "good",
-        "reading_order_ok": true,
-        "missing_regions": [],
-        "issues": [],
-        "overall": "good"
-      },
-      {
-        "page": 4,
-        "coverage": "complete",
-        "coverage_note": "Das Bild enthält keinen Text, daher ist die Abdeckung korrekt.",
-        "position_accuracy": "good",
-        "type_accuracy": "good",
-        "reading_order_ok": true,
-        "missing_regions": [],
-        "issues": [
-          "Das Bild zeigt lediglich ein leeres Blatt Papier. Es sind keine Textregionen vorhanden, die erkannt werden könnten."
-        ],
-        "overall": "good"
-      },
-      {
-        "page": 5,
         "coverage": "complete",
         "coverage_note": "Alle Textbereiche erfasst.",
         "position_accuracy": "good",

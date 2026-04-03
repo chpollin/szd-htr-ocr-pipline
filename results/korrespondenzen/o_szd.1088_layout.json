@@ -1,0 +1,134 @@
+{
+  "object_id": "o_szd.1088",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            19.0,
+            57.0,
+            62.0,
+            4.0
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Handschriftliche Nachricht",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            47.5,
+            61.0,
+            33.5,
+            3.0
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Unterschrift und Grußformel",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r3",
+          "type": "heading",
+          "bbox": [
+            20.6,
+            61.8,
+            26.5,
+            1.0
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Verlagsangabe (gedruckt)",
+          "source": "docling"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            37.2,
+            39.6,
+            29.2,
+            3.4
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Briefkopf, gedruckt",
+          "source": "docling"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            24.3,
+            43.1,
+            54.9,
+            16.2
+          ],
+          "reading_order": 2,
+          "lines": 5,
+          "label": "Adressfeld mit Poststempel",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "acceptable",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 2,
+        "coverage": "partial",
+        "coverage_note": "Die Briefmarke sowie die Poststempel im oberen Bereich der Postkarte sind nicht vollständig durch die definierten Regionen abgedeckt. Während der gedruckte Briefkopf und der handschriftliche Adressblock erfasst sind, fehlen wesentliche Teile der postalischen Entwertungen und der Wertmarke, die ebenfalls Text enthalten.",
+        "position_accuracy": "good",
+        "type_accuracy": "acceptable",
+        "reading_order_ok": true,
+        "missing_regions": [
+          "Briefmarke (Wertzeichen)",
+          "Poststempel (oberer Bereich)"
+        ],
+        "issues": [
+          "Der Adressblock (r2) ist als 'heading' klassifiziert; 'paragraph' wäre für diesen Bereich eine treffendere Standardkategorie."
+        ],
+        "overall": "acceptable"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

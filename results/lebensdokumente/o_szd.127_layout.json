@@ -1,0 +1,168 @@
+{
+  "object_id": "o_szd.127",
+  "collection": "lebensdokumente",
+  "group": "konvolut",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            11.9,
+            23.7,
+            81.6,
+            12.2
+          ],
+          "reading_order": 1,
+          "lines": 4,
+          "label": "Vertragsparteien und Einleitung",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            12.7,
+            35.7,
+            55.9,
+            5.1
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Gegenstand des Vertrags (Romanrechte)",
+          "source": "surya"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            14.1,
+            41.3,
+            75.7,
+            10.8
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Honorarvereinbarung",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            14.4,
+            51.7,
+            74.2,
+            7.3
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Erscheinungsfrist und Rückfallklausel",
+          "source": "surya"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            15.7,
+            59.3,
+            73.4,
+            4.8
+          ],
+          "reading_order": 5,
+          "lines": 2,
+          "label": "Belegexemplare",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            13.1,
+            62.8,
+            80.4,
+            14.3
+          ],
+          "reading_order": 6,
+          "lines": 1,
+          "label": "Zahlungsmodalitäten und Inkrafttreten",
+          "source": "surya"
+        },
+        {
+          "id": "r7",
+          "type": "heading",
+          "bbox": [
+            12.2,
+            77.6,
+            22.6,
+            3.5
+          ],
+          "reading_order": 7,
+          "lines": 1,
+          "label": "Abschlussvermerk London (Stefan Zweig)",
+          "source": "surya"
+        },
+        {
+          "id": "r8",
+          "type": "heading",
+          "bbox": [
+            56.4,
+            76.6,
+            23.6,
+            3.1
+          ],
+          "reading_order": 8,
+          "lines": 1,
+          "label": "Abschlussvermerk Bukarest (Socec & Co)",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "acceptable",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "partial",
+        "coverage_note": "Die meisten Textbereiche sind erfasst, jedoch fehlen die Unterschriften am Ende des Dokuments ('(gs) Dr. Zweig' und '(ps) Socec & Co').",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [
+          "Unterschrift von Stefan Zweig unten links",
+          "Unterschrift von Socec & Co unten rechts"
+        ],
+        "issues": [
+          "Die Unterschriftenzeilen am Ende des Vertrags wurden nicht als eigene Regionen erfasst."
+        ],
+        "overall": "acceptable"
+      },
+      {
+        "page": 2,
+        "coverage": "complete",
+        "coverage_note": "Das Bild zeigt eine nahezu leere Seite, möglicherweise die Rückseite eines Dokuments. Die sehr schwach erkennbaren Spuren scheinen Durchdruck von der anderen Seite zu sein. Da kein primärer Text auf dieser Seite vorhanden ist, ist das Fehlen von Textregionen korrekt.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

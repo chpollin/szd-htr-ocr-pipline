@@ -1,0 +1,64 @@
+{
+  "object_id": "o_szd.260",
+  "collection": "werke",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Autobiographischer Aufsatz",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.260/IMG.1",
+      "https://gams.uni-graz.at/o:szd.260/IMG.2"
+    ],
+    "input_image_count_total": 2
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Autobiographischer Aufsatz\n- Signatur: SZ-AP2/W-H33a\n- Datum: [1936]\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, violette\n                                                  Stempelfarbe\n- Anmerkungen: Unterschrift-Stempel auf letztem Blatt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ich bin am 28.November 1881 in Wien geboren,\nstudierte dann Philosophie. Aber mein wirkliches Studium\nbegann mit weiten Reisen durch ganz Europa, Amerika, Indien,\nmeine innere Belehrung durch die Freundschaft mit den wesent-\nlichen Führern meiner Generation, Verhaeren, Romain Rolland,\nFreud und Rilke. Grundzug meines Wesens ist immer eine star-\nke psychologische Neugier gewesen; ich versuchte sie zuerst\nin novellistischen Darstellungen von Einzelschicksalen frucht-\nbar zu machen (Amok, Verwirrung der Gefühle und literarische\nEinzelstudien wie Dostojewski, Tolstoi, Balzac). Erst mit dem\nKriege, der für mich eine tiefe seelische Erschütterung und\nstärkste moralische Lehre war, begann mich die Geschichte an-\nzuziehen; ich wandte ihr ein neues Studium entgegen, um bes-\nser unsere Gegenwart zu begreifen und besonders die kritischen\nUnsturzepochen der Vergangenheit gaben mir Analogien zur Ge-\ngenwart (Fouché, Marie Antoinette, Erasmus). - Nach dem Kriege\nlebte ich viele Jahre in Salzburg, und erst vor einigen Jahren\nhabe ich mich nach London zurückgezogen, wo ich einen grossen\nTeil des Jahres lebe, um ruhig zu arbeiten. Die übrige Zeit\nunternehme ich grössere und kleinere Reisen, die mir immer\nwieder neue Anregung und Belehrung geben. - Seit dem Kriege\nhabe ich die Verpflichtung gefühlt, möglichst ausschliesslich\nin einem Sinne zu schaffen, der unserer Zeit förderlich sein\nkann: durch Erhellung der Vergangenheit, durch Anruf an die",
+        "notes": "Typoskript auf dünnem Papier. Sehr gut lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Gegenwart, denn ich glaube, dass nur jene Leistung als\ngültige betrachtet werden kann, welche die Vereinheitlichung\nder Menschheit fördert und das gegenseitige Verständnis von\nVölkern und Nationen steigert. Ich habe rein instinktiv von\nallem Anbeginn an immer auf das Allmenschliche geblickt und\nübernational gedacht; ich empfinde es darum (ohne jeden\nStolz) als besondere Beglückung, dass die Wirkung meiner\nBücher auch eine übernationale geworden ist, und so wie\nich selbst die ganze Welt als meine Heimat fühle, auch\nmeine Bücher in allen Sprachen der Erde Heimat und Freund-\nschaft gefunden haben.\n\nStefan Zweig",
+        "notes": "Typoskript auf dünnem Papier. Die Unterschrift ist ein violetter Stempel.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr klar und gut lesbar. Die Unterschrift auf der zweiten Seite ist als Stempel erkennbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2064,
+    "total_words": 304,
+    "total_pages": 2,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 2,
+    "input_images": 2,
+    "page_types": [
+      "content",
+      "content"
+    ],
+    "chars_per_page": [
+      1449,
+      615
+    ],
+    "chars_per_page_median": 1032.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "object_id": "o_szd.2217",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            7.4,
+            34.1,
+            28.9,
+            2.9
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Artikeltitel",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            7.4,
+            35.5,
+            27.8,
+            2.4
+          ],
+          "reading_order": 2,
+          "lines": 2,
+          "label": "Autorenzeile und Quellenangabe",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            8.4,
+            37.3,
+            28.1,
+            12.0
+          ],
+          "reading_order": 3,
+          "lines": 19,
+          "label": "Textspalte 1, oberer Teil",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            8.5,
+            50.5,
+            27.8,
+            13.4
+          ],
+          "reading_order": 4,
+          "lines": 21,
+          "label": "Textspalte 1, unterer Teil",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            37.1,
+            34.3,
+            27.5,
+            6.2
+          ],
+          "reading_order": 5,
+          "lines": 9,
+          "label": "Textspalte 2, Absatz 1",
+          "source": "docling"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            36.9,
+            40.1,
+            27.5,
+            8.7
+          ],
+          "reading_order": 6,
+          "lines": 13,
+          "label": "Textspalte 2, Absatz 2",
+          "source": "docling"
+        },
+        {
+          "id": "r7",
+          "type": "paragraph",
+          "bbox": [
+            36.8,
+            48.4,
+            27.5,
+            6.7
+          ],
+          "reading_order": 7,
+          "lines": 10,
+          "label": "Textspalte 2, Absatz 3",
+          "source": "docling"
+        },
+        {
+          "id": "r8",
+          "type": "paragraph",
+          "bbox": [
+            36.7,
+            54.8,
+            27.5,
+            6.2
+          ],
+          "reading_order": 8,
+          "lines": 9,
+          "label": "Textspalte 2, Absatz 4",
+          "source": "docling"
+        },
+        {
+          "id": "r9",
+          "type": "paragraph",
+          "bbox": [
+            36.8,
+            60.4,
+            27.7,
+            3.8
+          ],
+          "reading_order": 9,
+          "lines": 6,
+          "label": "Textspalte 2, Absatz 5",
+          "source": "docling"
+        },
+        {
+          "id": "r10",
+          "type": "paragraph",
+          "bbox": [
+            65.1,
+            34.5,
+            27.5,
+            8.0
+          ],
+          "reading_order": 10,
+          "lines": 12,
+          "label": "Textspalte 3",
+          "source": "merged"
+        },
+        {
+          "id": "r11",
+          "type": "marginalia",
+          "bbox": [
+            13.5,
+            64.0,
+            28.6,
+            4.5
+          ],
+          "reading_order": 11,
+          "lines": 2,
+          "label": "Handschriftliche Notiz von Stefan Zweig",
+          "source": "docling"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

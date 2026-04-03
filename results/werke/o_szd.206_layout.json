@@ -1,0 +1,877 @@
+{
+  "object_id": "o_szd.206",
+  "collection": "werke",
+  "group": "konvolut",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            42.0,
+            18.0,
+            45.0,
+            6.0
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Handschriftlicher Titel und Kopfnotizen",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            22.8,
+            23.6,
+            36.1,
+            1.7
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Typoskript-Fragment (Satzende)",
+          "source": "docling"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            11.0,
+            25.8,
+            78.0,
+            33.0
+          ],
+          "reading_order": 3,
+          "lines": 20,
+          "label": "Haupttext-Absatz mit starken handschriftlichen Korrekturen und Randnotiz 'Einfall 1'",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            11.0,
+            59.3,
+            75.0,
+            16.5
+          ],
+          "reading_order": 4,
+          "lines": 10,
+          "label": "Zweiter Textabschnitt mit handschriftlichen Ergänzungen und Randnotiz 'Einfall 2'",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            81.9,
+            22.1,
+            2.4,
+            1.2
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Seitenzahl",
+          "source": "docling"
+        },
+        {
+          "id": "r2",
+          "type": "marginalia",
+          "bbox": [
+            20.0,
+            19.5,
+            16.0,
+            5.5
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Handschriftliche Korrektur oben links",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            21.1,
+            25.3,
+            66.1,
+            11.9
+          ],
+          "reading_order": 3,
+          "lines": 5,
+          "label": "Erster Textabschnitt mit Korrekturen",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            16.5,
+            32.0,
+            3.0,
+            3.0
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Handschriftliche Ziffer am Rand",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r5",
+          "type": "marginalia",
+          "bbox": [
+            12.4,
+            40.4,
+            10.6,
+            2.6
+          ],
+          "reading_order": 5,
+          "lines": 1,
+          "label": "Handschriftliche Notiz am linken Rand",
+          "source": "docling"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            23.3,
+            37.9,
+            63.3,
+            37.0
+          ],
+          "reading_order": 6,
+          "lines": 18,
+          "label": "Zweiter Textabschnitt",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "image_filename": "IMG_4.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 5,
+      "image_filename": "IMG_5.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            64.2,
+            20.1,
+            11.3,
+            1.1
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Seitenzahl-Verweis",
+          "source": "surya"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            11.0,
+            21.8,
+            77.5,
+            26.1
+          ],
+          "reading_order": 2,
+          "lines": 18,
+          "label": "Haupttext mit handschriftlichen Korrekturen",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            53.1,
+            49.9,
+            12.3,
+            1.0
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Fortsetzungshinweis",
+          "source": "surya"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            68.3,
+            49.8,
+            11.3,
+            1.0
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Einschalthinweis",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "image_filename": "IMG_6.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 7,
+      "image_filename": "IMG_7.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            82.3,
+            22.2,
+            2.4,
+            1.0
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Seitenzahl",
+          "source": "surya"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            23.4,
+            25.5,
+            63.1,
+            5.3
+          ],
+          "reading_order": 2,
+          "lines": 3,
+          "label": "Typoskript-Absatz 1",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "marginalia",
+          "bbox": [
+            18.0,
+            31.8,
+            68.8,
+            2.1
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Handschriftliche Einfügung (rot)",
+          "source": "surya"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            23.3,
+            33.9,
+            63.9,
+            3.2
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Typoskript-Absatz 2",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            23.1,
+            38.1,
+            65.5,
+            26.3
+          ],
+          "reading_order": 5,
+          "lines": 13,
+          "label": "Typoskript-Absatz 3",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            22.5,
+            65.3,
+            64.2,
+            9.6
+          ],
+          "reading_order": 6,
+          "lines": 5,
+          "label": "Typoskript-Absatz 4",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "marginalia",
+          "bbox": [
+            12.0,
+            57.0,
+            10.0,
+            22.0
+          ],
+          "reading_order": 7,
+          "lines": 8,
+          "label": "Handschriftliche Randnotiz (links)",
+          "source": "vlm_added"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "image_filename": "IMG_8.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 9,
+      "image_filename": "IMG_9.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "marginalia",
+          "bbox": [
+            13.0,
+            19.0,
+            70.0,
+            2.0
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Marginalien am oberen Rand (Einschalt 4, vistas, zu Seite 12)",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            11.8,
+            21.0,
+            77.1,
+            48.0
+          ],
+          "reading_order": 2,
+          "lines": 35,
+          "label": "Haupttext (Typoskript mit umfangreichen handschriftlichen Korrekturen und Übersetzungen)",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "heading",
+          "bbox": [
+            55.0,
+            72.0,
+            23.0,
+            1.0
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Abschnittsmarkierung: Fortsetzung Einschalt 5",
+          "source": "surya"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            26.5,
+            74.7,
+            55.4,
+            4.0
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Handschriftlicher Nachtrag am unteren Rand",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "image_filename": "IMG_10.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 11,
+      "image_filename": "IMG_11.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            82.7,
+            20.6,
+            3.5,
+            2.1
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Seitenzahl",
+          "source": "docling"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            23.0,
+            24.4,
+            63.4,
+            11.8
+          ],
+          "reading_order": 2,
+          "lines": 6,
+          "label": "Typoskript-Absatz 1",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            23.0,
+            37.1,
+            65.4,
+            26.2
+          ],
+          "reading_order": 3,
+          "lines": 14,
+          "label": "Typoskript-Absatz 2",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            26.4,
+            64.2,
+            58.9,
+            6.8
+          ],
+          "reading_order": 4,
+          "lines": 6,
+          "label": "Zitat aus 'Krieg und Frieden'",
+          "source": "docling"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            23.1,
+            71.6,
+            64.2,
+            3.4
+          ],
+          "reading_order": 5,
+          "lines": 2,
+          "label": "Typoskript-Absatz 3",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "marginalia",
+          "bbox": [
+            11.0,
+            36.0,
+            11.0,
+            34.0
+          ],
+          "reading_order": 6,
+          "lines": 10,
+          "label": "Handschriftliche Randnotizen links",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "marginalia",
+          "bbox": [
+            28.0,
+            75.0,
+            50.0,
+            10.0
+          ],
+          "reading_order": 7,
+          "lines": 5,
+          "label": "Handschriftliche Notiz unten",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "image_filename": "IMG_12.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 13,
+      "image_filename": "IMG_13.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            22.8,
+            25.1,
+            64.9,
+            49.8
+          ],
+          "reading_order": 1,
+          "lines": 25,
+          "label": "Typoskript-Textblock",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "marginalia",
+          "bbox": [
+            12.9,
+            72.9,
+            4.7,
+            1.1
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Handschriftliche Notiz 'auf!'",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "image_filename": "IMG_14.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 15,
+      "image_filename": "IMG_15.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            13.5,
+            23.2,
+            74.6,
+            14.2
+          ],
+          "reading_order": 1,
+          "lines": 3,
+          "label": "Durchgestrichener Textabschnitt oben",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            14.0,
+            35.7,
+            25.2,
+            1.8
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Anrede",
+          "source": "surya"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            12.4,
+            37.7,
+            76.3,
+            33.7
+          ],
+          "reading_order": 3,
+          "lines": 12,
+          "label": "Haupttext",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            81.5,
+            39.5,
+            4.0,
+            2.5
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Seitenzahl / Marginalie",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            13.0,
+            72.7,
+            70.1,
+            7.5
+          ],
+          "reading_order": 5,
+          "lines": 2,
+          "label": "Durchgestrichener Textabschnitt unten",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "image_filename": "IMG_16.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 17,
+      "image_filename": "IMG_17.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            21.7,
+            18.2,
+            67.6,
+            8.5
+          ],
+          "reading_order": 1,
+          "lines": 3,
+          "label": "Handschriftliche Ergänzung (Kopf)",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            24.2,
+            27.5,
+            64.4,
+            47.6
+          ],
+          "reading_order": 2,
+          "lines": 24,
+          "label": "Typoskript-Text mit Korrekturen",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            12.8,
+            75.1,
+            77.1,
+            7.1
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Handschriftliche Ergänzung (Fuß)",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            18.0,
+            30.0,
+            5.0,
+            6.0
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Marginalie links",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r5",
+          "type": "marginalia",
+          "bbox": [
+            82.0,
+            32.0,
+            8.0,
+            3.0
+          ],
+          "reading_order": 5,
+          "lines": 1,
+          "label": "Marginalie rechts",
+          "source": "vlm_added"
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "image_filename": "IMG_18.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 19,
+      "image_filename": "IMG_19.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "needs_correction",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 3,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 5,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 7,
+        "coverage": "complete",
+        "coverage_note": "Alle wesentlichen Textbereiche, einschließlich der Typoskripte, der handschriftlichen Einfügung in Rot und der Randnotiz am linken Rand, wurden erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 9,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 11,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 13,
+        "coverage": "partial",
+        "coverage_note": "Der Haupttextblock (r1) ist nicht vollständig erfasst; die Bounding Box endet zu früh und lässt die letzten Zeilen des Textes aus. Eine kleine Markierung oben rechts wurde ebenfalls nicht erfasst.",
+        "position_accuracy": "acceptable",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [
+          "Kleine handschriftliche Markierung oder Zahl in der oberen rechten Ecke des Blattes."
+        ],
+        "issues": [
+          "Die Bounding Box für den Haupttextblock (r1) ist in der vertikalen Ausdehnung zu kurz; sie deckt nur etwa drei Viertel des Textes ab und schneidet die letzten ca. 5-6 Zeilen ab."
+        ],
+        "overall": "needs_correction"
+      },
+      {
+        "page": 15,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 17,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": [
+      13
+    ]
+  }
+}

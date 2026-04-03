@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2706",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Coster, SZ-AAP/W-AA34.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2706/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2706/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2706/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2706/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2706/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2706/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2706/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Coster\n- Signatur: SZ-AAP/W-AA34.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Coster\nUleuspiegel redivivus.\n\n\n\n\n\n\n\nCharles de Coster\n\n{übersetzt v. Fr. Oppeln-Bronikowski\ns. dort}\n\nUjel Uleuspiegel und Lamme Goedzat\n\nTitel:\nUleuspiegel Redivivus",
+        "notes": "Handschrift in violetter Tinte. Das Dokument besteht aus einem Hauptblatt mit einem aufgeklebten Streifen (Reiter) am rechten Rand. Die Transkription umfasst den gesamten sichtbaren Text auf dem Blatt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Charles de Coster\n\n{übersetzt v. Fr. Oppeln-Bronikowski\ns. dort}\n\nUjel Uleuspiegel und Lamme Goedzat\n\nTitel:\nUleuspiegel Redivivus",
+        "notes": "Ausschnitt des Hauptblattes (Vorderseite).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Coster\nUleuspiegel redivivus.",
+        "notes": "Ausschnitt des aufgeklebten Reiters (Vorderseite).",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist deutlich lesbar. Die Anordnung der Fragmente in den Scans wurde logisch zusammengeführt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 326,
+    "total_words": 40,
+    "total_pages": 3,
+    "empty_pages": 4,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      167,
+      0,
+      130,
+      0,
+      29,
+      0,
+      0
+    ],
+    "chars_per_page_median": 130,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        2
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

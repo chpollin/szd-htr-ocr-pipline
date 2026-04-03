@@ -1,0 +1,103 @@
+{
+  "object_id": "o_szd.145",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            11.5,
+            34.0,
+            7.0,
+            4.5
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Logo",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            52.8,
+            35.2,
+            31.5,
+            2.8
+          ],
+          "reading_order": 2,
+          "lines": 2,
+          "label": "Absenderadresse und Datum",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            25.0,
+            41.5,
+            48.3,
+            5.8
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Mitteilungstext zur Rückerstattung",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            58.7,
+            49.5,
+            23.0,
+            1.2
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Grußformel",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche (Logo, Adresse/Datum, Haupttext und Grußformel) wurden korrekt erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

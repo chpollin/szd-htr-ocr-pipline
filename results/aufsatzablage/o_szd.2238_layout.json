@@ -2,7 +2,7 @@
   "object_id": "o_szd.2238",
   "collection": "aufsatzablage",
   "group": "typoskript",
-  "model": "docling+gemini-3.1-flash-lite-preview",
+  "model": "docling+surya+gemini-3-flash-preview",
   "pages": [
     {
       "page": 1,
@@ -12,33 +12,59 @@
       "regions": [
         {
           "id": "r1",
-          "type": "paragraph",
+          "type": "heading",
           "bbox": [
-            23.0,
-            46.0,
-            6.6,
-            1.2
+            76.5,
+            14.5,
+            1.5,
+            1.5
           ],
           "reading_order": 1,
           "lines": 1,
-          "label": "nn",
-          "source": "docling",
-          "docling_label": "text"
+          "label": "Seitenzahl",
+          "source": "vlm_added"
         },
         {
           "id": "r2",
           "type": "paragraph",
           "bbox": [
-            20.4,
-            47.4,
-            8.8,
-            1.5
+            41.8,
+            18.8,
+            42.8,
+            41.6
           ],
           "reading_order": 2,
+          "lines": 21,
+          "label": "Haupttext (Typoskript mit handschriftlichen Korrekturen)",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "marginalia",
+          "bbox": [
+            18.8,
+            45.5,
+            16.7,
+            3.4
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Marginalie: Monotonie Eintönigkeit",
+          "source": "surya"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            28.2,
+            57.7,
+            5.9,
+            1.3
+          ],
+          "reading_order": 4,
           "lines": 1,
-          "label": "BinNin geniessen wir,die Neutralen, aus",
-          "source": "docling",
-          "docling_label": "text"
+          "label": "Marginalie: auch",
+          "source": "surya"
         }
       ]
     },
@@ -47,663 +73,20 @@
       "image_filename": "IMG_2.jpg",
       "image_width_px": 4912,
       "image_height_px": 7360,
-      "regions": []
-    },
-    {
-      "page": 3,
-      "image_filename": "IMG_3.jpg",
-      "image_width_px": 4912,
-      "image_height_px": 7360,
       "regions": [
         {
           "id": "r1",
-          "type": "heading",
+          "type": "paragraph",
           "bbox": [
-            77.2,
-            14.7,
-            0.9,
-            0.8
+            12.7,
+            19.0,
+            42.3,
+            41.7
           ],
           "reading_order": 1,
-          "lines": 1,
-          "label": "Seitenzahl 9",
-          "source": "docling"
-        },
-        {
-          "id": "r2",
-          "type": "paragraph",
-          "bbox": [
-            41.9,
-            18.6,
-            41.4,
-            17.4
-          ],
-          "reading_order": 2,
-          "lines": 7,
-          "label": "Haupttext Absatz 1",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r_new1",
-          "type": "marginalia",
-          "bbox": [
-            51.5,
-            23.5,
-            5.0,
-            2.5
-          ],
-          "reading_order": 3,
-          "lines": 2,
-          "label": "Handschriftliche Korrektur 'redet vor'",
-          "source": "vlm_added"
-        },
-        {
-          "id": "r_new2",
-          "type": "marginalia",
-          "bbox": [
-            42.5,
-            33.5,
-            15.0,
-            2.5
-          ],
-          "reading_order": 4,
-          "lines": 2,
-          "label": "Handschriftliche Korrektur 'ständig sich ereignenden'",
-          "source": "vlm_added"
-        },
-        {
-          "id": "r4",
-          "type": "paragraph",
-          "bbox": [
-            19.0,
-            41.0,
-            0.7,
-            0.5
-          ],
-          "reading_order": 4,
-          "lines": 1,
-          "label": "2",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r_new3",
-          "type": "marginalia",
-          "bbox": [
-            76.5,
-            36.5,
-            7.0,
-            2.0
-          ],
-          "reading_order": 5,
-          "lines": 1,
-          "label": "Handschriftliche Anmerkung 'Für die zum Beispiel'",
-          "source": "vlm_added"
-        },
-        {
-          "id": "r5",
-          "type": "paragraph",
-          "bbox": [
-            47.8,
-            40.8,
-            1.6,
-            0.8
-          ],
-          "reading_order": 5,
-          "lines": 1,
-          "label": "10",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r_new4",
-          "type": "paragraph",
-          "bbox": [
-            42.0,
-            53.0,
-            41.5,
-            6.0
-          ],
-          "reading_order": 6,
-          "lines": 3,
-          "label": "Haupttext Absatz 2",
-          "source": "vlm_added"
-        },
-        {
-          "id": "r6",
-          "type": "paragraph",
-          "bbox": [
-            51.3,
-            40.8,
-            1.7,
-            0.8
-          ],
-          "reading_order": 6,
-          "lines": 1,
-          "label": "111",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r_new5",
-          "type": "marginalia",
-          "bbox": [
-            45.0,
-            56.0,
-            10.0,
-            1.5
-          ],
-          "reading_order": 7,
-          "lines": 1,
-          "label": "Handschriftliche Korrektur 'ewiger Massen'",
-          "source": "vlm_added"
-        },
-        {
-          "id": "r7",
-          "type": "paragraph",
-          "bbox": [
-            55.0,
-            40.8,
-            1.8,
-            0.9
-          ],
-          "reading_order": 7,
-          "lines": 1,
-          "label": "12",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r_new6",
-          "type": "marginalia",
-          "bbox": [
-            29.0,
-            56.5,
-            4.0,
-            2.0
-          ],
-          "reading_order": 8,
-          "lines": 1,
-          "label": "Handschriftliche Anmerkung 'auch'",
-          "source": "vlm_added"
-        },
-        {
-          "id": "r8",
-          "type": "paragraph",
-          "bbox": [
-            58.5,
-            40.7,
-            1.9,
-            1.0
-          ],
-          "reading_order": 8,
-          "lines": 1,
-          "label": "13",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r3",
-          "type": "table",
-          "bbox": [
-            12.4,
-            39.2,
-            3.6,
-            0.9
-          ],
-          "reading_order": 9,
-          "lines": 5,
-          "label": "Farbkarte Referenz",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r9",
-          "type": "paragraph",
-          "bbox": [
-            62.1,
-            40.7,
-            2.0,
-            1.0
-          ],
-          "reading_order": 9,
-          "lines": 1,
-          "label": "14",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r28",
-          "type": "table",
-          "bbox": [
-            20.9,
-            64.7,
-            22.3,
-            2.1
-          ],
-          "reading_order": 10,
-          "lines": 3,
-          "label": "Grauskala Referenz",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r10",
-          "type": "paragraph",
-          "bbox": [
-            65.6,
-            40.7,
-            2.0,
-            1.0
-          ],
-          "reading_order": 10,
-          "lines": 1,
-          "label": "15",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r11",
-          "type": "paragraph",
-          "bbox": [
-            69.3,
-            40.7,
-            1.9,
-            1.0
-          ],
-          "reading_order": 11,
-          "lines": 1,
-          "label": "16",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r12",
-          "type": "paragraph",
-          "bbox": [
-            72.8,
-            40.7,
-            2.0,
-            1.0
-          ],
-          "reading_order": 12,
-          "lines": 1,
-          "label": "117",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r13",
-          "type": "paragraph",
-          "bbox": [
-            76.6,
-            40.7,
-            1.9,
-            1.0
-          ],
-          "reading_order": 13,
-          "lines": 1,
-          "label": "18",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r14",
-          "type": "paragraph",
-          "bbox": [
-            80.0,
-            40.7,
-            1.9,
-            1.0
-          ],
-          "reading_order": 14,
-          "lines": 1,
-          "label": "119",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r15",
-          "type": "paragraph",
-          "bbox": [
-            12.4,
-            41.6,
-            6.4,
-            1.1
-          ],
-          "reading_order": 15,
-          "lines": 1,
-          "label": "Centimetres",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r16",
-          "type": "paragraph",
-          "bbox": [
-            23.8,
-            42.2,
-            16.9,
-            1.7
-          ],
-          "reading_order": 16,
-          "lines": 1,
-          "label": "Farbkarte #13",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r17",
-          "type": "paragraph",
-          "bbox": [
-            77.8,
-            42.0,
-            6.5,
-            1.8
-          ],
-          "reading_order": 17,
-          "lines": 1,
-          "label": "B.I.G.",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r18",
-          "type": "paragraph",
-          "bbox": [
-            14.0,
-            44.0,
-            3.8,
-            1.3
-          ],
-          "reading_order": 18,
-          "lines": 1,
-          "label": "Blue",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r19",
-          "type": "paragraph",
-          "bbox": [
-            21.9,
-            44.0,
-            4.3,
-            1.5
-          ],
-          "reading_order": 19,
-          "lines": 1,
-          "label": "Cyan",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r20",
-          "type": "paragraph",
-          "bbox": [
-            29.8,
-            44.0,
-            4.9,
-            1.3
-          ],
-          "reading_order": 20,
-          "lines": 1,
-          "label": "Green",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r21",
-          "type": "paragraph",
-          "bbox": [
-            37.8,
-            44.0,
-            5.0,
-            1.2
-          ],
-          "reading_order": 21,
-          "lines": 1,
-          "label": "Yellow",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r22",
-          "type": "paragraph",
-          "bbox": [
-            46.7,
-            44.0,
-            3.6,
-            1.3
-          ],
-          "reading_order": 22,
-          "lines": 1,
-          "label": "Red",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r23",
-          "type": "paragraph",
-          "bbox": [
-            53.1,
-            43.9,
-            6.8,
-            1.5
-          ],
-          "reading_order": 23,
-          "lines": 1,
-          "label": "Magenta",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r24",
-          "type": "paragraph",
-          "bbox": [
-            62.4,
-            43.9,
-            4.6,
-            1.4
-          ],
-          "reading_order": 24,
-          "lines": 1,
-          "label": "White",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r25",
-          "type": "paragraph",
-          "bbox": [
-            70.0,
-            44.0,
-            5.7,
-            1.2
-          ],
-          "reading_order": 25,
-          "lines": 1,
-          "label": "3/Color",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r26",
-          "type": "paragraph",
-          "bbox": [
-            78.6,
-            43.9,
-            4.7,
-            1.4
-          ],
-          "reading_order": 26,
-          "lines": 1,
-          "label": "Black",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r27",
-          "type": "paragraph",
-          "bbox": [
-            72.5,
-            53.4,
-            4.7,
-            0.7
-          ],
-          "reading_order": 27,
-          "lines": 1,
-          "label": "Damit ihnen das Gefihl der Sinnlosigkeit",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r29",
-          "type": "paragraph",
-          "bbox": [
-            74.2,
-            64.8,
-            6.4,
-            1.9
-          ],
-          "reading_order": 29,
-          "lines": 1,
-          "label": "B.I.G.",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r30",
-          "type": "paragraph",
-          "bbox": [
-            12.8,
-            68.4,
-            24.4,
-            2.2
-          ],
-          "reading_order": 30,
-          "lines": 1,
-          "label": "A123456",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r31",
-          "type": "paragraph",
-          "bbox": [
-            37.9,
-            68.6,
-            3.0,
-            1.6
-          ],
-          "reading_order": 31,
-          "lines": 1,
-          "label": "M",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r32",
-          "type": "paragraph",
-          "bbox": [
-            42.1,
-            69.1,
-            1.6,
-            1.2
-          ],
-          "reading_order": 32,
-          "lines": 1,
-          "label": "8",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r33",
-          "type": "paragraph",
-          "bbox": [
-            45.8,
-            69.1,
-            1.6,
-            1.2
-          ],
-          "reading_order": 33,
-          "lines": 1,
-          "label": "9",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r34",
-          "type": "paragraph",
-          "bbox": [
-            49.0,
-            69.1,
-            2.4,
-            1.2
-          ],
-          "reading_order": 34,
-          "lines": 1,
-          "label": "10",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r35",
-          "type": "paragraph",
-          "bbox": [
-            52.5,
-            69.2,
-            2.5,
-            1.2
-          ],
-          "reading_order": 35,
-          "lines": 1,
-          "label": "11",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r36",
-          "type": "paragraph",
-          "bbox": [
-            55.9,
-            69.1,
-            15.2,
-            1.3
-          ],
-          "reading_order": 36,
-          "lines": 1,
-          "label": "12131415",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r37",
-          "type": "paragraph",
-          "bbox": [
-            70.4,
-            69.1,
-            2.5,
-            1.2
-          ],
-          "reading_order": 37,
-          "lines": 1,
-          "label": "B",
-          "source": "docling",
-          "docling_label": "text"
-        },
-        {
-          "id": "r38",
-          "type": "paragraph",
-          "bbox": [
-            72.0,
-            69.1,
-            11.6,
-            1.6
-          ],
-          "reading_order": 38,
-          "lines": 1,
-          "label": "3171819",
-          "source": "docling",
-          "docling_label": "text"
+          "lines": 22,
+          "label": "Haupttext (gespiegeltes Typoskript)",
+          "source": "merged"
         }
       ]
     }
@@ -713,58 +96,30 @@
     "pages": [
       {
         "page": 1,
-        "coverage": "poor",
-        "coverage_note": "Die Bounding Boxes sind extrem fehlerhaft und decken nur einen winzigen Bruchteil des Textes ab. Der Großteil des Dokuments (der Haupttextblock sowie die handschriftlichen Notizen) wurde nicht erfasst.",
-        "position_accuracy": "poor",
-        "type_accuracy": "poor",
-        "reading_order_ok": false,
-        "missing_regions": [
-          "Haupttextblock",
-          "Handschriftliche Notiz links",
-          "Seitenzahl oben rechts"
-        ],
-        "issues": [
-          "Die Bounding Boxes sind viel zu klein und befinden sich nicht an den korrekten Positionen des Textes.",
-          "Die erkannten Regionen repräsentieren nicht den tatsächlichen Inhalt des Dokuments.",
-          "Die Koordinaten scheinen in einem falschen Maßstab oder Koordinatensystem zu liegen."
-        ],
-        "overall": "needs_correction"
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
       },
       {
         "page": 2,
-        "coverage": "poor",
-        "coverage_note": "Es wurden keine Regionen für den Text im Bild definiert.",
-        "position_accuracy": "poor",
-        "type_accuracy": "poor",
-        "reading_order_ok": false,
-        "missing_regions": [
-          {
-            "description": "Der gesamte Textblock auf der Seite wurde nicht erfasst."
-          }
-        ],
-        "issues": [
-          "Die Liste der Regionen ist leer, obwohl das Dokument einen deutlichen Textblock enthält."
-        ],
-        "overall": "needs_correction"
-      },
-      {
-        "page": 3,
-        "coverage": "complete",
-        "coverage_note": "Alle sichtbaren Textbereiche, einschließlich der handschriftlichen Korrekturen und der Referenzskalen, wurden erfasst.",
-        "position_accuracy": "good",
-        "type_accuracy": "acceptable",
-        "reading_order_ok": false,
+        "coverage": "partial",
+        "coverage_note": "Die Region deckt nur einen Teil des sichtbaren Textblocks ab. Ein signifikanter Teil des Textes, insbesondere die unteren Zeilen und die rechte Seite des gespiegelten Typoskripts, liegt außerhalb der angegebenen Bounding Box.",
+        "position_accuracy": "acceptable",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
         "missing_regions": [],
         "issues": [
-          "Die Lesereihenfolge ist durch die Vermischung von Haupttext, handschriftlichen Anmerkungen und den technischen Referenzskalen (Farbkarte/Grauskala) gestört.",
-          "Einige Regionen (z.B. r4, r5, r6) sind als 'paragraph' klassifiziert, obwohl es sich um einzelne Ziffern der Skalen handelt.",
-          "Die handschriftlichen Korrekturen wurden zwar als 'marginalia' erkannt, unterbrechen aber den logischen Lesefluss des Haupttextes."
+          "Die Bounding Box ist deutlich zu klein gewählt und umschließt nicht den gesamten Textbereich."
         ],
-        "overall": "acceptable"
+        "overall": "needs_correction"
       }
     ],
     "pages_needing_review": [
-      1,
       2
     ]
   }

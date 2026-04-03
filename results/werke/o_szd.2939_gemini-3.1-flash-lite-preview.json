@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2939",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Worte am Sarge Sigmund Freuds [Fragment I], SZ-AP2/W-H206",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2939/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2939/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2939/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Worte am Sarge Sigmund Freuds [Fragment I], SZ-AP2/W-H206\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Stefan Zweig Worte am Sarge Sigmund Freuds\n[26 September 1939 im Crematorium, London]\n\nErlauben Sie mir, {angesichts dieses ~~~~ rührreichen Sarges} einige Worte erschütterten\nDankes im Namen seiner Wiener, seiner österreichischen\n{sazer weltfreunde} ~~[...10...]~~ in jener Sprache zu wagen, die Sigmund\nFreud durch sein Werk so großartig bereichert und gea-\ndelt hat. Lassen Sie sich vor allem ins Bewusstsein\nrufen, dass wir, die wir hier in gemeinsamer Trauer\nversammelt sind, einen historischen Augenblick durch-\nleben, wie er keinem von uns wohl ein zweites Mal\nvom Schicksal verstattet sein wird. Erinnern wir uns\n— bei andern Sterblichen, bei fast allen, ist innerhalb\nder knappen Minute, da der Leib erkaltet, ihr Dasein,\nihr Mitwissein für immer beendet. Bei diesem einen\ndagegen, an dessen Bahre wir stehen, bei diesem Einen\n{trostlosen}\nwar Einzigen innerhalb unserer Zeit bedeutet Tod\nnur eine flüchtige und fast wesenlose Erscheinung.\nHier ist {das vorübergehen} ~~~~ kein Ende, kein Abschluss, sondern bloss\n{harter}\nlinder Übergang von Sterblichkeit in Unsterblichkeit.\nFür das körperlich Vergängliche, das wir heute schmerz-\nvoll verlieren, ist das Unvergängliche seines Werks,\nseines Wesens gerettet — wir alle in diesem Raume,\ndie noch ahmen und leben und sprechen und lau-\nschen, wir alle hier sind im geistigen Sinne nicht",
+        "notes": "Handschriftliches Manuskript mit Korrekturen und Einfügungen. Die Tinte ist violett, Korrekturen teilweise in Bleistift oder dunklerer Tinte. Der Text bricht am Ende der Seite ab.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Unten rechts befindet sich ein kleiner, handschriftlicher Vermerk 'alb'.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist trotz der zahlreichen Korrekturen und Einfügungen gut lesbar. Die Handschrift Stefan Zweigs ist charakteristisch und weitgehend eindeutig interpretierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1343,
+    "total_words": 202,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1343,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1343,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.005,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

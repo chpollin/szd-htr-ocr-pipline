@@ -1,0 +1,185 @@
+{
+  "object_id": "o_szd.1887",
+  "collection": "werke",
+  "group": "korrekturfahne",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 3983,
+      "image_height_px": 5975,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "marginalia",
+          "bbox": [
+            18.0,
+            8.0,
+            15.0,
+            12.0
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Handschriftlicher Erledigungsvermerk (rot)",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            48.4,
+            9.3,
+            6.5,
+            1.4
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Titel: BUSONI",
+          "source": "docling"
+        },
+        {
+          "id": "r3",
+          "type": "marginalia",
+          "bbox": [
+            65.8,
+            8.4,
+            16.0,
+            10.0
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Handschriftliche Korrekturanmerkungen (blau)",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            32.0,
+            12.9,
+            38.6,
+            76.3
+          ],
+          "reading_order": 4,
+          "lines": 68,
+          "label": "Haupttext (Druckfahne)",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "heading",
+          "bbox": [
+            32.4,
+            89.0,
+            29.6,
+            2.4
+          ],
+          "reading_order": 5,
+          "lines": 2,
+          "label": "Seitenfuß mit Paginierung und Werktitel",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 3967,
+      "image_height_px": 5950,
+      "regions": []
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 3985,
+      "image_height_px": 5977,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            49.6,
+            9.9,
+            6.6,
+            1.4
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Überschrift: BUSONI",
+          "source": "docling"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            33.8,
+            13.4,
+            38.2,
+            77.2
+          ],
+          "reading_order": 2,
+          "lines": 68,
+          "label": "Haupttext des Essays (einzelner Absatz)",
+          "source": "docling"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            19.7,
+            89.5,
+            45.2,
+            3.7
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Fußzeile mit Seitenzahl 68 und Buchtitel 'Zweig: Begegnungen.'",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "image_filename": "IMG_4.jpg",
+      "image_width_px": 3995,
+      "image_height_px": 5992,
+      "regions": []
+    },
+    {
+      "page": 5,
+      "image_filename": "IMG_5.jpg",
+      "image_width_px": 3985,
+      "image_height_px": 5978,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "unknown",
+        "coverage_note": "",
+        "position_accuracy": "unknown",
+        "type_accuracy": "unknown",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "unknown"
+      },
+      {
+        "page": 3,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

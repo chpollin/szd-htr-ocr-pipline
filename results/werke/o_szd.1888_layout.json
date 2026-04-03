@@ -1,0 +1,166 @@
+{
+  "object_id": "o_szd.1888",
+  "collection": "werke",
+  "group": "korrekturfahne",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 3870,
+      "image_height_px": 5805,
+      "regions": []
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 3870,
+      "image_height_px": 5805,
+      "regions": []
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 3870,
+      "image_height_px": 5805,
+      "regions": []
+    },
+    {
+      "page": 4,
+      "image_filename": "IMG_4.jpg",
+      "image_width_px": 3870,
+      "image_height_px": 5805,
+      "regions": []
+    },
+    {
+      "page": 5,
+      "image_filename": "IMG_5.jpg",
+      "image_width_px": 3870,
+      "image_height_px": 5805,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            30.3,
+            31.4,
+            36.9,
+            27.2
+          ],
+          "reading_order": 1,
+          "lines": 25,
+          "label": "Erster Textabschnitt",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            30.5,
+            58.6,
+            36.7,
+            19.3
+          ],
+          "reading_order": 2,
+          "lines": 18,
+          "label": "Zweiter Textabschnitt",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "heading",
+          "bbox": [
+            45.0,
+            78.2,
+            15.2,
+            0.8
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Seitenzahl und Kolumnentitel",
+          "source": "surya"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "image_filename": "IMG_6.jpg",
+      "image_width_px": 3870,
+      "image_height_px": 5805,
+      "regions": []
+    },
+    {
+      "page": 7,
+      "image_filename": "IMG_7.jpg",
+      "image_width_px": 3870,
+      "image_height_px": 5805,
+      "regions": []
+    },
+    {
+      "page": 8,
+      "image_filename": "IMG_8.jpg",
+      "image_width_px": 3911,
+      "image_height_px": 5866,
+      "regions": []
+    },
+    {
+      "page": 9,
+      "image_filename": "IMG_9.jpg",
+      "image_width_px": 3911,
+      "image_height_px": 5866,
+      "regions": []
+    },
+    {
+      "page": 10,
+      "image_filename": "IMG_10.jpg",
+      "image_width_px": 3911,
+      "image_height_px": 5866,
+      "regions": []
+    },
+    {
+      "page": 11,
+      "image_filename": "IMG_11.jpg",
+      "image_width_px": 3911,
+      "image_height_px": 5866,
+      "regions": []
+    },
+    {
+      "page": 12,
+      "image_filename": "IMG_12.jpg",
+      "image_width_px": 3911,
+      "image_height_px": 5866,
+      "regions": []
+    },
+    {
+      "page": 13,
+      "image_filename": "IMG_13.jpg",
+      "image_width_px": 3911,
+      "image_height_px": 5866,
+      "regions": []
+    },
+    {
+      "page": 14,
+      "image_filename": "IMG_14.jpg",
+      "image_width_px": 3971,
+      "image_height_px": 5956,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 5,
+        "coverage": "complete",
+        "coverage_note": "Alle wesentlichen Textbereiche, bestehend aus den zwei Hauptabsätzen und der Fußzeile mit Seitenzahl und Titel, wurden korrekt erfasst. Eine sehr schwache Markierung am oberen Blattrand wurde nicht als Textregion definiert, was für die meisten Anwendungsfälle korrekt ist.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

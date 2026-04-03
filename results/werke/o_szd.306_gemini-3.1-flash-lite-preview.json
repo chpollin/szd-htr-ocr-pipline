@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.306",
+  "collection": "werke",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Über Dostojewsky",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.306/IMG.1",
+      "https://gams.uni-graz.at/o:szd.306/IMG.2",
+      "https://gams.uni-graz.at/o:szd.306/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Über Dostojewsky\n- Signatur: SZ-LAS/W3\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt,\n                                                        korrigiert\n- Schreibinstrument: Violettes Durchschlagpapier, violette Tinte, Bleistift\n- Hand: Stefan Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ich lese immer wieder Dostojewsky und immer mit gleicher Be-\nwunderung. Weil er mit seiner Psychologie seiner Zeit voraus war,\nmit seinen politischen Ahnungen die Zukunft vorausfühlte ist er ak-\ntueller als jemals; seine Gestalten sind so dauerhaft wie nur die\nirgend eines ganz grossen Dichters, wie jene Shakespeares und\nBalzacs; die ihn nachahmten konnten diese letzte gestaltende Kunst\nseiner schöpferischen Kraft nie erreichen, {dem} und seine emotionelle\nIntensität bleibt unvergleichbar.\n\nDass neben ihm riesenhaft der andere russische Gigant,\nTolstoi steht, darf den Blick auf seine Grösse nicht trüben. Einer\nverstellt nicht den andern. Sie sind wie zwei riesige Gebirge, je-\ndes in anderer Form und aus anderer geologischer Schichtung. Ge-\nrade von der Höhe des einen erkennt man am besten die Grossartigkeit\ndes andern. Sie ergänzen sich wie Michelangelo Leonardo da Vinci,\nwie Goethe Schiller, wie Shelley Keats und ihre Gleichzeitigkeit\nin derselben Stunde und Nation hat einen {der} grossen Augenblicke\nder Geistesgeschichte geschaffen.\n\n\n\nStefan Zweig\n\nFor your question\nabout Dostojewsky",
+        "notes": "Typoskript mit handschriftlichen Korrekturen und Unterschrift in violetter Tinte. Die Zeile 'For your question about Dostojewsky' ist ebenfalls handschriftlich in violetter Tinte hinzugefügt.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die handschriftlichen Einfügungen und die Unterschrift sind eindeutig Stefan Zweig zuzuordnen und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1103,
+    "total_words": 162,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1103,
+      0,
+      0
+    ],
+    "chars_per_page_median": 1103,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

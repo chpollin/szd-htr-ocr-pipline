@@ -2,7 +2,7 @@
   "object_id": "o_szd.2296",
   "collection": "aufsatzablage",
   "group": "korrekturfahne",
-  "model": "docling+gemini-3.1-flash-lite-preview",
+  "model": "docling+surya+gemini-3-flash-preview",
   "pages": [
     {
       "page": 1,
@@ -12,45 +12,59 @@
       "regions": [
         {
           "id": "r1",
-          "type": "paragraph",
-          "bbox": [
-            21.0,
-            28.7,
-            52.8,
-            45.8
-          ],
-          "reading_order": 1,
-          "lines": 18,
-          "label": "Haupttext des Essays",
-          "source": "docling"
-        },
-        {
-          "id": "r_new1",
           "type": "marginalia",
           "bbox": [
-            69.0,
-            73.0,
-            4.0,
-            3.0
+            19.0,
+            18.0,
+            6.0,
+            7.0
           ],
-          "reading_order": 2,
+          "reading_order": 1,
           "lines": 1,
-          "label": "Handschriftliche Korrektur/Initialen",
+          "label": "Handschriftliche Korrekturmarkierung oben links",
           "source": "vlm_added"
         },
         {
-          "id": "r_new2",
+          "id": "r2",
           "type": "paragraph",
           "bbox": [
-            44.8,
-            76.5,
-            2.5,
-            2.5
+            20.4,
+            28.1,
+            54.1,
+            47.3
+          ],
+          "reading_order": 2,
+          "lines": 24,
+          "label": "Haupttext über Hugo Steiner-Prag",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "marginalia",
+          "bbox": [
+            68.5,
+            72.5,
+            5.5,
+            3.0
           ],
           "reading_order": 3,
           "lines": 1,
-          "label": "Seitenzahl",
+          "label": "Handschriftliches Kürzel Ln am Textende",
           "source": "vlm_added"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            44.9,
+            76.8,
+            1.3,
+            0.8
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Seitenzahl",
+          "source": "surya"
         }
       ]
     },
@@ -59,231 +73,84 @@
       "image_filename": "IMG_2.jpg",
       "image_width_px": 4912,
       "image_height_px": 7360,
-      "regions": []
-    },
-    {
-      "page": 3,
-      "image_filename": "IMG_3.jpg",
-      "image_width_px": 4912,
-      "image_height_px": 7360,
       "regions": [
         {
           "id": "r1",
-          "type": "paragraph",
+          "type": "heading",
           "bbox": [
-            23.4,
-            27.7,
-            44.9,
-            3.7
+            72.0,
+            19.0,
+            3.5,
+            4.5
           ],
           "reading_order": 1,
-          "lines": 2,
-          "label": "Haupttext: Fragment eines Satzes",
-          "source": "vlm_reclassified"
+          "lines": 1,
+          "label": "Blattnummer '1.'",
+          "source": "vlm_added"
         },
         {
           "id": "r2",
-          "type": "heading",
-          "bbox": [
-            58.4,
-            31.2,
-            10.2,
-            2.3
-          ],
-          "reading_order": 2,
-          "lines": 1,
-          "label": "Unterschrift Stefan Zweig",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r_new1",
-          "type": "marginalia",
-          "bbox": [
-            70.3,
-            27.5,
-            4.5,
-            2.5
-          ],
-          "reading_order": 3,
-          "lines": 1,
-          "label": "Handschriftliche Korrektur/Anmerkung am Rand",
-          "source": "vlm_added"
-        },
-        {
-          "id": "r_new2",
-          "type": "marginalia",
-          "bbox": [
-            44.8,
-            75.8,
-            1.5,
-            2.2
-          ],
-          "reading_order": 4,
-          "lines": 1,
-          "label": "Seitenzahl 5",
-          "source": "vlm_added"
-        }
-      ]
-    },
-    {
-      "page": 4,
-      "image_filename": "IMG_4.jpg",
-      "image_width_px": 4912,
-      "image_height_px": 7360,
-      "regions": []
-    },
-    {
-      "page": 5,
-      "image_filename": "IMG_5.jpg",
-      "image_width_px": 4912,
-      "image_height_px": 7360,
-      "regions": [
-        {
-          "id": "r1",
           "type": "paragraph",
           "bbox": [
-            23.3,
-            27.7,
-            44.9,
-            3.7
-          ],
-          "reading_order": 1,
-          "lines": 2,
-          "label": "Haupttext: tete zu sugen und sein heutiger Festtag dafür ein rechter und freudiger Anlaß.",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r2",
-          "type": "heading",
-          "bbox": [
-            58.5,
-            31.3,
-            10.0,
-            2.1
+            28.0,
+            26.3,
+            47.0,
+            48.5
           ],
           "reading_order": 2,
-          "lines": 1,
-          "label": "Unterschrift Stefan Zweig",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r_new1",
-          "type": "heading",
-          "bbox": [
-            44.8,
-            75.8,
-            1.2,
-            1.8
-          ],
-          "reading_order": 3,
-          "lines": 1,
-          "label": "Seitenzahl 5",
-          "source": "vlm_added"
+          "lines": 31,
+          "label": "Gedruckter Basistext der Korrekturfahne",
+          "source": "merged"
         },
         {
           "id": "r3",
-          "type": "table",
+          "type": "marginalia",
           "bbox": [
-            9.2,
-            34.6,
-            78.5,
-            7.2
+            17.0,
+            50.0,
+            11.0,
+            17.0
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Handschriftliche Korrekturen am linken Rand",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            75.0,
+            32.0,
+            9.0,
+            40.0
           ],
           "reading_order": 4,
           "lines": 5,
-          "label": "Farbkarte #13",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r28",
-          "type": "table",
-          "bbox": [
-            18.7,
-            56.8,
-            24.0,
-            2.0
-          ],
-          "reading_order": 5,
-          "lines": 1,
-          "label": "Grauskala #13",
-          "source": "vlm_reclassified"
-        },
-        {
-          "id": "r30",
-          "type": "table",
-          "bbox": [
-            9.9,
-            60.8,
-            76.5,
-            2.0
-          ],
-          "reading_order": 6,
-          "lines": 1,
-          "label": "Grauskala Skala",
-          "source": "vlm_reclassified"
+          "label": "Handschriftliche Korrekturen am rechten Rand",
+          "source": "vlm_added"
         }
       ]
     }
   ],
   "layout_quality": {
-    "overall": "needs_correction",
+    "overall": "good",
     "pages": [
       {
         "page": 1,
         "coverage": "complete",
-        "coverage_note": "Alle Textbereiche, einschließlich des Haupttextes, der Seitenzahl und der handschriftlichen Notiz, wurden erfasst.",
+        "coverage_note": "Alle Textbereiche erfasst.",
         "position_accuracy": "good",
         "type_accuracy": "good",
         "reading_order_ok": true,
         "missing_regions": [],
-        "issues": [
-          "Die Bounding Box für den Haupttext (r1) scheint in den Koordinatenwerten (x, y, w, h) nicht mit dem tatsächlichen Bildbereich zu korrespondieren, da die Werte sehr klein sind. Die logische Zuordnung ist jedoch korrekt."
-        ],
+        "issues": [],
         "overall": "good"
       },
       {
         "page": 2,
-        "coverage": "poor",
-        "coverage_note": "Es wurden keine Textregionen erkannt, obwohl das Dokument Text enthält.",
-        "position_accuracy": "poor",
-        "type_accuracy": "poor",
-        "reading_order_ok": false,
-        "missing_regions": [
-          {
-            "description": "Der gesamte Textkörper auf der Seite wurde nicht erfasst."
-          }
-        ],
-        "issues": [
-          "Die Liste der Regionen ist leer, obwohl das Dokument Text enthält."
-        ],
-        "overall": "needs_correction"
-      },
-      {
-        "page": 3,
         "coverage": "complete",
-        "coverage_note": "Alle sichtbaren Textbereiche, inklusive der handschriftlichen Korrektur und der Seitenzahl, wurden erfasst.",
-        "position_accuracy": "good",
-        "type_accuracy": "good",
-        "reading_order_ok": true,
-        "missing_regions": [],
-        "issues": [],
-        "overall": "good"
-      },
-      {
-        "page": 4,
-        "coverage": "complete",
-        "coverage_note": "Das Bild zeigt ein leeres Blatt Papier ohne erkennbaren Textinhalt. Die Liste der Regionen ist korrekt leer.",
-        "position_accuracy": "good",
-        "type_accuracy": "good",
-        "reading_order_ok": true,
-        "missing_regions": [],
-        "issues": [],
-        "overall": "good"
-      },
-      {
-        "page": 5,
-        "coverage": "complete",
-        "coverage_note": "Alle sichtbaren Textbereiche, einschließlich der Seitenzahl und der Beschriftungen der Kalibrierungstafeln, wurden erfasst.",
+        "coverage_note": "Alle Textbereiche erfasst.",
         "position_accuracy": "good",
         "type_accuracy": "good",
         "reading_order_ok": true,
@@ -292,8 +159,6 @@
         "overall": "good"
       }
     ],
-    "pages_needing_review": [
-      2
-    ]
+    "pages_needing_review": []
   }
 }

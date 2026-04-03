@@ -39,9 +39,17 @@
       },
       {
         "page": 4,
-        "transcription": "Ypern",
+        "transcription": "",
         "notes": "Rückseite des Hauptteils, das Wort 'Ypern' scheint durch das Papier durch.",
-        "type": "blank"
+        "type": "blank",
+        "edit_history": [
+          {
+            "original_transcription": "Ypern",
+            "edited_by": "Christopher Pollin",
+            "edited_at": "2026-04-03T13:39:45.927725+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 5,
@@ -51,9 +59,17 @@
       },
       {
         "page": 6,
-        "transcription": "Ypern",
+        "transcription": "",
         "notes": "Detailaufnahme der Rückseite des Hauptteils.",
-        "type": "blank"
+        "type": "blank",
+        "edit_history": [
+          {
+            "original_transcription": "Ypern",
+            "edited_by": "Christopher Pollin",
+            "edited_at": "2026-04-03T13:39:52.213889+00:00",
+            "source": "human"
+          }
+        ]
       },
       {
         "page": 7,
@@ -107,8 +123,10 @@
   },
   "review": {
     "status": "approved",
-    "edited_pages": [],
+    "edited_pages": [
+      6
+    ],
     "reviewed_by": "Christopher Pollin",
-    "reviewed_at": "2026-04-02T12:47:11Z"
+    "reviewed_at": "2026-04-03T13:39:53.232814+00:00"
   }
 }

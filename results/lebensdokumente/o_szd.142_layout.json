@@ -1,0 +1,75 @@
+{
+  "object_id": "o_szd.142",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            44.3,
+            43.1,
+            38.5,
+            1.8
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Name Stefan Zweig",
+          "source": "surya"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            19.6,
+            51.3,
+            30.3,
+            4.1
+          ],
+          "reading_order": 2,
+          "lines": 2,
+          "label": "Adressblock",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

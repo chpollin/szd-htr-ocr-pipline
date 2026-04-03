@@ -1,0 +1,103 @@
+{
+  "object_id": "o_szd.1079",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            17.5,
+            37.9,
+            34.9,
+            5.2
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Honorific 'Wohlgeboren'",
+          "source": "surya"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            27.1,
+            44.9,
+            45.9,
+            18.5
+          ],
+          "reading_order": 2,
+          "lines": 4,
+          "label": "Adressfeld: Max Fleischer, Konstanz (Poststempel Wien 22.5.04)",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            46.3,
+            44.0,
+            7.7,
+            1.0
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Briefkopf, gedruckt (Absender Stefan Zweig); Poststempel rechts daneben",
+          "source": "docling"
+        }
+      ]
+    }
+  ],
+  "layout_quality": {
+    "overall": "needs_correction",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle wesentlichen Textbereiche (Anrede, Name, Beruf, Ort, Region) sind erfasst. Ein kleines 'f.' unten links wurde ausgelassen, was für die meisten Anwendungen vernachlässigbar ist.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 2,
+        "coverage": "partial",
+        "coverage_note": "Der Poststempel auf der rechten Seite, der deutlich lesbaren Text enthält (Datum '23.5.01' und Ortsname 'KOMOTAU'), wurde nicht als Region erfasst. Die Region r1 deckt nur den gedruckten Namen 'STEFAN ZWEIG' ab.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [
+          {
+            "type": "paragraph",
+            "description": "Poststempel mit Datum und Ortsnamen auf der rechten Seite des Umschlags"
+          }
+        ],
+        "issues": [
+          "Ein wesentlicher Textbereich (der Poststempel) fehlt in der Erfassung, obwohl er im Label von r1 textlich erwähnt wird."
+        ],
+        "overall": "needs_correction"
+      }
+    ],
+    "pages_needing_review": [
+      2
+    ]
+  }
+}

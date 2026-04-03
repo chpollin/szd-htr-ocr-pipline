@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.360",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "„Aus einer Studie über Autografensammeln.“",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.360/IMG.1",
+      "https://gams.uni-graz.at/o:szd.360/IMG.2",
+      "https://gams.uni-graz.at/o:szd.360/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: „Aus einer Studie über Autografensammeln.“\n- Signatur: SZ-SHB/W4\n- Datum: Anfang November 1930\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette Tinte, Bleistift\n- Hand: Stefan Zweig\n- Anmerkungen: Zitat in Reinschrift mit Unterschrift",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Nur Ernst und Verständnis steigern den blossen\nKäufer zum wirklichen Sammler, nur der geistige\nWille und die innerliche Liebe unterscheiden ihn\nvom Händler, Ist der Sammler eine Persönlichkeit, so\nträgt die Sammlung seine individuellen Züge, ist er\ndurchschnittlich, so bleibt sie ein blosser Katalog.\n(aus einer Studie über Autografensammeln.)\n\nStefan Zweig\n\nSalzburg, Anfang November 1930",
+        "notes": "Handschrift in violetter Tinte. Unten links mit Bleistift datiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift von Stefan Zweig ist in diesem Dokument klar und deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 390,
+    "total_words": 55,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      390,
+      0,
+      0
+    ],
+    "chars_per_page_median": 390,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.372",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Der Pantoffel. Allehundertjahrschrift zur Unterhaltung auf der Hochzeitsreise für das\n        Ehepaar Isidor und Irene Elias, SZ-SEF/W3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.372/IMG.1",
+      "https://gams.uni-graz.at/o:szd.372/IMG.2",
+      "https://gams.uni-graz.at/o:szd.372/IMG.3",
+      "https://gams.uni-graz.at/o:szd.372/IMG.4",
+      "https://gams.uni-graz.at/o:szd.372/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Der Pantoffel. Allehundertjahrschrift zur Unterhaltung auf der Hochzeitsreise für das Ehepaar Isidor und Irene Elias.\n- Signatur: SZ-SEF/W3\n- Datum: 4. November 1900\n- Sprache: Deutsch\n- Objekttyp: Druck\n- Umfang: 2 Blatt\n- Anmerkungen: Deckblatt sowie Seite 3 und 4 einer Hochzeitszeitschrift",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Motto:\nBitte nur recht flink zu lesen\nUnd nicht lange zu verweilen\nWas ein jeder wünscht zu lesen\nLiest er sonst zwischen den Zeilen.\nSt.\n\nI. Nummer 4. November 1900.\n\nDer Pantoffel.\n\nAllehundertjahrschrift\nzur\nUnterhaltung auf der Hochzeitsreise für das Ehepaar\nIsidor und Irene Elias.\n\nVerfasser und Redaction: Alfred und Stefan Z.\n\nManuscripte werden weder zurückgesendet noch angenommen.\nBerichtigungen sind zu richten an die Redaction der Festschrift\nzur goldenen Hochzeit von Isidor und Irene Elias.\n\nVerlag: Konnte sich keiner finden.",
+        "notes": "Druck, Deckblatt der Zeitschrift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Deckblatts, leer, mit Archiv-Klebestreifen versehen. Stempel 'Sammlung Erich Fitzbauer Wien' unten rechts.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "4. November 1900. Der Pantoffel. Seite 3.\n\nHochzeitsreise.\n1.\nNun ist der wilde Lärm vorbei\nMit Putz und Hochzeitsschleier\nAllein sind wir, allein wir zwei\nIn stiller Liebesfeier.\n2.\nDie Räder dröhnen gell und schrill\nIm engen Schnellzugswagen\nWir sind so froh . . . nur leis' und still\nNoch unsere Herzen schlagen.\n3.\nUnd ab und zu ein rascher Blick\nVoll Gruß und Liebessegen\nDer sagt: Wir fahren unserm Glück\nIn froher Fahrt entgegen.\nSt.\n\nGedankenauswüchse eines Philosophen.\nDie ethische Bedeutung des Pantoffels für die\nEhe.\nIm Allgemeinen bedient man sich des Pantoffels um das\nlaute Auftreten zu verhindern; in der Ehe werden ihm fälsch-\nlich andere Functionen zugeschrieben, während er in Wirklichkeit\nauch dort dem obengenannten Zwecke dient. Den Umstand aus-\ngenommen, daß hier die Frau den Pantoffel trägt, um dem\nManne, das energische Auftreten zu nehmen. St.\nWas ist der Ehering? Ein moralisches Ehe-Bruchband.\nA.\n\nTheater und Kunstnachrichten.\nHeute Abend findet das letzte Auftreten des Herrn\nIsidor E. in „die goldene Freiheit“ statt. Sein nächstes Debüt\nist in „Der Widerspänstigen Zähmung“ und in den „Flitter-\nwochen“.\nIn Vorbereitung: „Die Großmama“ (Titelrolle Frau\nLea J.)",
+        "notes": "Druck, Seite 3 der Zeitschrift.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Seite 4. Der Pantoffel. 4. November 1900.\n\nIm Elias-Concert hat Frl. Irene J. die erste Geige\nübernommen.\nDie angekündigte Production der Claviervirtuosin Mela J.,\ndie wie gewöhnlich Herr Salatsch begleiten sollte, wurde auf\nEinschreiten des Thierschutzvereines von der Polizei verboten.\nA.\n\nVierzeilige Bosheiten.\nIrene.\nSchokolade und Hohlhippen\nDie schlecktest Du einst gern\nDoch jetzt nur mehr die Lippen\nVon deinem Eheherrn.\n\nMela.\nNun ist die Schwester geschieden\nNach altem Mädchenbrauch\nDoch — hat das Haus noch nicht Frieden —\nWart, balde kommest du auch!\n\nSiegfried.\nDieser Schwager ist mein bester\nGlückesfund auf dieser Welt\nErstens nimmt er mir die Schwester\nUnd, — vielleicht pumpt er auch Geld.\n\nDer Staatsanwalt an Einige:\nIm allerletzten Augenblick\nWard die Zeitung revidieret\nBieles ward — zu Eurem Glück!! —\nVon mir schließlich confiscieret.\nSt.",
+        "notes": "Druck, Seite 4 der Zeitschrift.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "",
+        "notes": "Wiederholung von Seite 4 mit aufgelegten Archiv-Farbskalen/Grauskalen.",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist ein klarer Druck, sehr gut lesbar. Keine handschriftlichen Ergänzungen vorhanden."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2599,
+    "total_words": 397,
+    "total_pages": 3,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 3,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      541,
+      0,
+      1194,
+      864,
+      0
+    ],
+    "chars_per_page_median": 864,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "object_id": "o_szd.137",
+  "collection": "lebensdokumente",
+  "group": "kurztext",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            35.4,
+            39.8,
+            30.6,
+            9.2
+          ],
+          "reading_order": 1,
+          "lines": 2,
+          "label": "Name und Anlass (Stefan Zweig At Home)",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            36.7,
+            59.8,
+            24.3,
+            2.3
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Antwortvermerk (R.S.V.P.)",
+          "source": "surya"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            52.1,
+            62.6,
+            28.2,
+            5.0
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Adressblock",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 2,
+        "coverage": "complete",
+        "coverage_note": "Das Bild enthält keinen erkennbaren Text, daher ist die leere Liste der Regionen korrekt.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

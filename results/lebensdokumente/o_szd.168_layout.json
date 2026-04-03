@@ -1,0 +1,129 @@
+{
+  "object_id": "o_szd.168",
+  "collection": "lebensdokumente",
+  "group": "handschrift",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            18.9,
+            24.6,
+            64.8,
+            35.4
+          ],
+          "reading_order": 1,
+          "lines": 10,
+          "label": "Haupttext (Vollmachtserteilung für Alfred Zweig)",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            23.5,
+            60.4,
+            57.5,
+            13.6
+          ],
+          "reading_order": 2,
+          "lines": 4,
+          "label": "Haupttext (Zusatzbestimmung zur Weitergabe der Vollmacht)",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 3684,
+      "image_height_px": 4912,
+      "regions": []
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 3684,
+      "image_height_px": 4912,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            4.7,
+            23.5,
+            48.4,
+            5.0
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Bevollmächtigungstext",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            3.1,
+            30.0,
+            62.9,
+            15.4
+          ],
+          "reading_order": 2,
+          "lines": 3,
+          "label": "Unterschrift Stefan Zweig mit Orts- und Datumsangabe",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "image_filename": "IMG_4.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 5,
+      "image_filename": "IMG_5.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 3,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

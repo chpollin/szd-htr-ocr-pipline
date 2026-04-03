@@ -1,0 +1,633 @@
+{
+  "object_id": "o_szd.101",
+  "collection": "lebensdokumente",
+  "group": "typoskript",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            16.0,
+            7.5,
+            55.2,
+            7.4
+          ],
+          "reading_order": 1,
+          "lines": 8,
+          "label": "Vertragsabschnitte 1A und 2A (Ablieferung des Manuskripts)",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "marginalia",
+          "bbox": [
+            74.0,
+            7.2,
+            9.4,
+            3.0
+          ],
+          "reading_order": 2,
+          "lines": 3,
+          "label": "Randnotizen zu Korrekturen und Index",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "marginalia",
+          "bbox": [
+            74.6,
+            13.0,
+            8.9,
+            1.5
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Randnotiz zur Nichtablieferung des Manuskripts",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            39.8,
+            16.1,
+            7.9,
+            0.7
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Abschnittsüberschrift PART TWO",
+          "source": "surya"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            15.8,
+            23.6,
+            55.3,
+            7.2
+          ],
+          "reading_order": 5,
+          "lines": 5,
+          "label": "Gestrichener Vertragsabschnitt",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            16.2,
+            34.8,
+            52.1,
+            4.5
+          ],
+          "reading_order": 6,
+          "lines": 3,
+          "label": "Vertragsabschnitt 6 (Rechteeinräumung)",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "marginalia",
+          "bbox": [
+            61.0,
+            33.3,
+            22.3,
+            3.5
+          ],
+          "reading_order": 7,
+          "lines": 4,
+          "label": "Randnotiz Option auf weitere Werke",
+          "source": "merged"
+        },
+        {
+          "id": "r8",
+          "type": "paragraph",
+          "bbox": [
+            15.9,
+            43.3,
+            52.4,
+            13.5
+          ],
+          "reading_order": 8,
+          "lines": 12,
+          "label": "Vertragsabschnitt 5 mit Unterpunkten (a)-(d) und (f)",
+          "source": "merged"
+        },
+        {
+          "id": "r9",
+          "type": "marginalia",
+          "bbox": [
+            75.1,
+            44.7,
+            8.8,
+            11.8
+          ],
+          "reading_order": 9,
+          "lines": 9,
+          "label": "Randnotizen zu den Zusatzrechten in Abschnitt 5",
+          "source": "merged"
+        },
+        {
+          "id": "r10",
+          "type": "paragraph",
+          "bbox": [
+            15.7,
+            65.4,
+            51.2,
+            23.7
+          ],
+          "reading_order": 10,
+          "lines": 18,
+          "label": "Vertragsabschnitte (e) und (d) (Billigausgaben und Restbestände)",
+          "source": "merged"
+        },
+        {
+          "id": "r11",
+          "type": "marginalia",
+          "bbox": [
+            74.6,
+            72.2,
+            9.1,
+            16.8
+          ],
+          "reading_order": 11,
+          "lines": 4,
+          "label": "Randnotizen zu den unteren Vertragsabschnitten",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            13.3,
+            7.7,
+            10.0,
+            3.7
+          ],
+          "reading_order": 1,
+          "lines": 4,
+          "label": "Abschnittstitel: Author's guarantee...",
+          "source": "docling"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            13.3,
+            13.5,
+            6.8,
+            1.5
+          ],
+          "reading_order": 2,
+          "lines": 2,
+          "label": "Abschnittstitel: Defense of copyright",
+          "source": "docling"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            25.8,
+            7.4,
+            55.6,
+            10.9
+          ],
+          "reading_order": 3,
+          "lines": 12,
+          "label": "Vertragsklausel 3A",
+          "source": "docling"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            13.5,
+            19.1,
+            6.9,
+            2.0
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Abschnittstitel: Competitive material",
+          "source": "docling"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            25.9,
+            20.0,
+            55.3,
+            2.0
+          ],
+          "reading_order": 5,
+          "lines": 3,
+          "label": "Vertragsklausel 4A",
+          "source": "docling"
+        },
+        {
+          "id": "r6",
+          "type": "heading",
+          "bbox": [
+            13.5,
+            22.8,
+            9.7,
+            2.2
+          ],
+          "reading_order": 6,
+          "lines": 2,
+          "label": "Abschnittstitel: Prior publication elsewhere",
+          "source": "docling"
+        },
+        {
+          "id": "r7",
+          "type": "paragraph",
+          "bbox": [
+            26.0,
+            23.0,
+            55.2,
+            4.5
+          ],
+          "reading_order": 7,
+          "lines": 5,
+          "label": "Vertragsklausel 5A",
+          "source": "docling"
+        },
+        {
+          "id": "r8",
+          "type": "heading",
+          "bbox": [
+            13.6,
+            28.4,
+            8.7,
+            3.2
+          ],
+          "reading_order": 8,
+          "lines": 3,
+          "label": "Abschnittstitel: Adjustment of royalties...",
+          "source": "docling"
+        },
+        {
+          "id": "r9",
+          "type": "paragraph",
+          "bbox": [
+            26.1,
+            28.6,
+            55.2,
+            2.8
+          ],
+          "reading_order": 9,
+          "lines": 3,
+          "label": "Vertragsklausel 6A",
+          "source": "docling"
+        },
+        {
+          "id": "r10",
+          "type": "heading",
+          "bbox": [
+            13.8,
+            32.3,
+            8.1,
+            2.3
+          ],
+          "reading_order": 10,
+          "lines": 2,
+          "label": "Abschnittstitel: No royalty on free copies",
+          "source": "docling"
+        },
+        {
+          "id": "r11",
+          "type": "paragraph",
+          "bbox": [
+            26.2,
+            32.4,
+            55.2,
+            2.0
+          ],
+          "reading_order": 11,
+          "lines": 2,
+          "label": "Vertragsklausel 7A",
+          "source": "docling"
+        },
+        {
+          "id": "r12",
+          "type": "heading",
+          "bbox": [
+            13.9,
+            35.2,
+            7.9,
+            2.4
+          ],
+          "reading_order": 12,
+          "lines": 2,
+          "label": "Abschnittstitel: Selections for publicity",
+          "source": "docling"
+        },
+        {
+          "id": "r13",
+          "type": "paragraph",
+          "bbox": [
+            26.3,
+            35.4,
+            55.0,
+            1.9
+          ],
+          "reading_order": 13,
+          "lines": 2,
+          "label": "Vertragsklausel 8A",
+          "source": "docling"
+        },
+        {
+          "id": "r14",
+          "type": "heading",
+          "bbox": [
+            14.0,
+            38.0,
+            8.8,
+            1.5
+          ],
+          "reading_order": 14,
+          "lines": 2,
+          "label": "Abschnittstitel: Author's copies",
+          "source": "docling"
+        },
+        {
+          "id": "r15",
+          "type": "paragraph",
+          "bbox": [
+            26.4,
+            38.3,
+            55.0,
+            1.7
+          ],
+          "reading_order": 15,
+          "lines": 2,
+          "label": "Vertragsklausel 9A",
+          "source": "docling"
+        },
+        {
+          "id": "r16",
+          "type": "heading",
+          "bbox": [
+            14.3,
+            41.0,
+            6.2,
+            1.4
+          ],
+          "reading_order": 16,
+          "lines": 1,
+          "label": "Abschnittstitel: Accounting",
+          "source": "docling"
+        },
+        {
+          "id": "r17",
+          "type": "paragraph",
+          "bbox": [
+            26.4,
+            41.2,
+            54.9,
+            6.2
+          ],
+          "reading_order": 17,
+          "lines": 7,
+          "label": "Vertragsklausel 10A",
+          "source": "docling"
+        },
+        {
+          "id": "r18",
+          "type": "heading",
+          "bbox": [
+            14.3,
+            48.6,
+            8.0,
+            2.0
+          ],
+          "reading_order": 18,
+          "lines": 2,
+          "label": "Abschnittstitel: Default by the Publishers",
+          "source": "docling"
+        },
+        {
+          "id": "r19",
+          "type": "paragraph",
+          "bbox": [
+            26.6,
+            48.5,
+            54.8,
+            3.5
+          ],
+          "reading_order": 19,
+          "lines": 4,
+          "label": "Vertragsklausel 11A",
+          "source": "docling"
+        },
+        {
+          "id": "r20",
+          "type": "heading",
+          "bbox": [
+            14.2,
+            52.8,
+            8.6,
+            2.3
+          ],
+          "reading_order": 20,
+          "lines": 2,
+          "label": "Abschnittstitel: Termination of this agreement",
+          "source": "docling"
+        },
+        {
+          "id": "r21",
+          "type": "paragraph",
+          "bbox": [
+            26.6,
+            53.2,
+            54.9,
+            8.0
+          ],
+          "reading_order": 21,
+          "lines": 9,
+          "label": "Vertragsklausel 12A",
+          "source": "docling"
+        },
+        {
+          "id": "r22",
+          "type": "heading",
+          "bbox": [
+            14.4,
+            70.0,
+            8.6,
+            2.2
+          ],
+          "reading_order": 22,
+          "lines": 2,
+          "label": "Abschnittstitel: Assignment of this agreement",
+          "source": "docling"
+        },
+        {
+          "id": "r23",
+          "type": "paragraph",
+          "bbox": [
+            26.6,
+            69.7,
+            54.9,
+            3.3
+          ],
+          "reading_order": 23,
+          "lines": 3,
+          "label": "Schlussbestimmung: Bindungswirkung",
+          "source": "docling"
+        },
+        {
+          "id": "r24",
+          "type": "paragraph",
+          "bbox": [
+            26.7,
+            74.2,
+            54.8,
+            2.2
+          ],
+          "reading_order": 24,
+          "lines": 2,
+          "label": "Bezeugungsformel",
+          "source": "docling"
+        },
+        {
+          "id": "r25",
+          "type": "heading",
+          "bbox": [
+            26.9,
+            76.8,
+            11.0,
+            0.9
+          ],
+          "reading_order": 25,
+          "lines": 1,
+          "label": "Anwesenheitsvermerk",
+          "source": "docling"
+        },
+        {
+          "id": "r26",
+          "type": "paragraph",
+          "bbox": [
+            47.5,
+            82.3,
+            4.0,
+            1.2
+          ],
+          "reading_order": 26,
+          "lines": 1,
+          "label": "Zeugen-Label 1",
+          "source": "docling"
+        },
+        {
+          "id": "r27",
+          "type": "heading",
+          "bbox": [
+            67.1,
+            78.5,
+            15.0,
+            5.5
+          ],
+          "reading_order": 27,
+          "lines": 2,
+          "label": "Unterschrift Stefan Zweig",
+          "source": "merged"
+        },
+        {
+          "id": "r28",
+          "type": "paragraph",
+          "bbox": [
+            47.5,
+            87.0,
+            4.2,
+            1.1
+          ],
+          "reading_order": 28,
+          "lines": 1,
+          "label": "Zeugen-Label 2",
+          "source": "docling"
+        },
+        {
+          "id": "r29",
+          "type": "heading",
+          "bbox": [
+            55.6,
+            84.1,
+            25.0,
+            4.0
+          ],
+          "reading_order": 29,
+          "lines": 2,
+          "label": "Unterschrift The Viking Press, Inc.",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "image_filename": "IMG_4.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    },
+    {
+      "page": 5,
+      "image_filename": "IMG_5.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 2,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 3,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.942",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lieber der Gott sein vom ersten Tag..., SZ-SEF/W2",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.942/IMG.1",
+      "https://gams.uni-graz.at/o:szd.942/IMG.2",
+      "https://gams.uni-graz.at/o:szd.942/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lieber der Gott sein vom ersten Tag..., SZ-SEF/W2\n- Signatur: SZ-SEF/W2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lieber der Gott sein vom ersten Tag\nUmwölkt von Dünkel und Grauen\nAls am siebenten träg und froh\nSein fertiges Werk beschauen.\n\nStefan Zweig",
+        "notes": "Handschriftliches Gedicht auf einer Karteikarte, violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite der Karteikarte, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Lieber der Gott sein vom ersten Tag\nUmwölkt von Dünkel und Grauen\nAls am siebenten träg und froh\nSein fertiges Werk beschauen.\n\nStefan Zweig",
+        "notes": "Gleiche Karteikarte wie auf Seite 1, hier mit Farb- und Grauskala zur Archivierung abgebildet.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich lesbar und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 280,
+    "total_words": 48,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      140,
+      0,
+      140
+    ],
+    "chars_per_page_median": 140,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

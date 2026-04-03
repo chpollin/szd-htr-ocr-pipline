@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.358",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Amerigo",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.358/IMG.1",
+      "https://gams.uni-graz.at/o:szd.358/IMG.2",
+      "https://gams.uni-graz.at/o:szd.358/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Amerigo\n- Signatur: SZ-SHB/W2\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze Tinte, blauer Kugelschreiber\n- Hand: Stefan Zweig, Richard Friedenthal\n- Anmerkungen: Notiz auf Rückseite „Original 1941 Arbeitsblatt zu\n                                ‚Amerigo‘ Eigentum Friderike Zweig 288 Ocean Dr. W. Stamford,\n                                Con“",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Edrisi „nemo nautarum ausit illud sulcare aut in\naltum navigare.“\n1453 Fall Constantinopels\nBriefe Vespucci in Navarrete III 297-298 /315\nHomerische Schlacht mit zügellosen Sklavenfarben\n„Juan de la Cosa y Amerigo Vespucci y otros pilotos“\nAbbate Angelo Maria Bandini\nprofessore di matematica\nWelche Reisen gemacht? Nicht deutlich\n„licencia general para descubrir 1495 / [eingefügt: erster] Kapitel\n„di auf Arbeiten Columbus Juni 1497 zurückgehen.\nziemlich fein: wir wissen es nicht, man muss den Muth\nbenzen, dass meer es nicht wird“\n„per aiutare a discuprire“ bescheiden mit\nRat an Entdecker\n„io memoriali fatti di giorno in giorno“\nMan hat Skizzen gemacht. „Mundi egregius inventor\n[eingefügt: Das in arte kamen entstehen nur] visitator et primus hospes“\n[eingefügt: verantworte viel]\nEigentliche Brief Vespucci schreiben wollte nicht auf uns\ngekommen, Brief verantwortlich machen konnte. Unverantwortlich\nnicht genau wo er gewesen ist. Gefahren und wenn",
+        "notes": "Handschrift, Tinte. Die Transkription ist aufgrund der schnellen Handschrift und der lateinischen/italienischen Einschübe anspruchsvoll. Einige Stellen sind inhaltlich fragmentarisch.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Original\n\n1941\nArbeitsblatt zu „Amerigo“\nEigentum Friderike Zweig\n288 Ocean Dr. W.\nStamford, Conn.",
+        "notes": "Handschrift, blauer Kugelschreiber. Rückseite des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 2, jedoch mit aufgelegten Archivierungshilfen.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "Die Handschrift auf Seite 1 ist sehr flüchtig, enthält zahlreiche Korrekturen, Durchstreichungen und Einfügungen. Die lateinischen und italienischen Zitate sind teilweise schwer zu entziffern."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1055,
+    "total_words": 153,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      957,
+      98,
+      0
+    ],
+    "chars_per_page_median": 527.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

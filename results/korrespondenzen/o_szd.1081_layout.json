@@ -1,0 +1,143 @@
+{
+  "object_id": "o_szd.1081",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            34.0,
+            39.5,
+            25.0,
+            3.5
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Postkartentitel: Correspondenz-Karte",
+          "source": "vlm_added"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            21.5,
+            45.0,
+            44.6,
+            14.1
+          ],
+          "reading_order": 2,
+          "lines": 4,
+          "label": "Adressfeld: Max Fleischer, Komotau, Nordböhmen (mit Poststempel Wien)",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "heading",
+          "bbox": [
+            20.9,
+            48.5,
+            2.2,
+            8.6
+          ],
+          "reading_order": 3,
+          "lines": 1,
+          "label": "Vordruck (vertikal): Nur für die Adresse",
+          "source": "docling"
+        },
+        {
+          "id": "r4",
+          "type": "marginalia",
+          "bbox": [
+            56.3,
+            49.4,
+            16.0,
+            3.1
+          ],
+          "reading_order": 4,
+          "lines": 1,
+          "label": "Handschriftliche Notiz",
+          "source": "docling"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "paragraph",
+          "bbox": [
+            17.1,
+            36.3,
+            62.7,
+            16.0
+          ],
+          "reading_order": 1,
+          "lines": 4,
+          "label": "Brieftext inkl. Anrede",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            46.0,
+            56.6,
+            28.8,
+            8.4
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Unterschrift Helmut Wein",
+          "source": "docling"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "image_filename": "IMG_3.jpg",
+      "image_width_px": 4912,
+      "image_height_px": 7360,
+      "regions": []
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle wesentlichen Textbereiche (Titel, Adressfeld, vertikaler Vordruck und handschriftliche Ergänzungen) wurden erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 2,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

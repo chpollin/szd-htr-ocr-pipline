@@ -1,0 +1,458 @@
+{
+  "object_id": "o_szd.193",
+  "collection": "lebensdokumente",
+  "group": "formular",
+  "model": "docling+surya+gemini-3-flash-preview",
+  "pages": [
+    {
+      "page": 1,
+      "image_filename": "IMG_1.jpg",
+      "image_width_px": 4886,
+      "image_height_px": 3388,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            9.4,
+            21.7,
+            8.5,
+            2.6
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Zertifikatsnummer",
+          "source": "docling"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            73.4,
+            22.6,
+            16.2,
+            1.5
+          ],
+          "reading_order": 2,
+          "lines": 1,
+          "label": "Druckvermerk",
+          "source": "surya"
+        },
+        {
+          "id": "r3",
+          "type": "heading",
+          "bbox": [
+            26.1,
+            24.3,
+            36.6,
+            6.0
+          ],
+          "reading_order": 3,
+          "lines": 2,
+          "label": "Dokumententitel",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "paragraph",
+          "bbox": [
+            84.0,
+            25.0,
+            4.7,
+            3.7
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Metadaten",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            8.6,
+            27.3,
+            15.2,
+            3.5
+          ],
+          "reading_order": 5,
+          "lines": 2,
+          "label": "Gebührenhinweis",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "paragraph",
+          "bbox": [
+            22.5,
+            31.0,
+            16.6,
+            2.6
+          ],
+          "reading_order": 6,
+          "lines": 1,
+          "label": "Registrierungsbezirk",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "marginalia",
+          "bbox": [
+            83.2,
+            30.6,
+            6.6,
+            6.6
+          ],
+          "reading_order": 7,
+          "lines": 5,
+          "label": "Marginalie (Hinweistext)",
+          "source": "merged"
+        },
+        {
+          "id": "r8",
+          "type": "paragraph",
+          "bbox": [
+            9.3,
+            33.6,
+            72.9,
+            5.3
+          ],
+          "reading_order": 8,
+          "lines": 3,
+          "label": "Ort und Datum der Eheschließung",
+          "source": "merged"
+        },
+        {
+          "id": "r9",
+          "type": "table",
+          "bbox": [
+            9.8,
+            38.9,
+            72.9,
+            2.8
+          ],
+          "reading_order": 9,
+          "lines": 2,
+          "label": "Tabellenüberschriften",
+          "source": "merged"
+        },
+        {
+          "id": "r10",
+          "type": "table",
+          "bbox": [
+            9.5,
+            41.1,
+            72.0,
+            13.4
+          ],
+          "reading_order": 10,
+          "lines": 12,
+          "label": "Eintragungsdetails (Stefan Zweig & Elisabet Altmann)",
+          "source": "merged"
+        },
+        {
+          "id": "r11",
+          "type": "paragraph",
+          "bbox": [
+            9.6,
+            55.1,
+            72.9,
+            2.4
+          ],
+          "reading_order": 11,
+          "lines": 1,
+          "label": "Eheschließungsformel",
+          "source": "merged"
+        },
+        {
+          "id": "r12",
+          "type": "paragraph",
+          "bbox": [
+            10.2,
+            58.3,
+            72.0,
+            6.9
+          ],
+          "reading_order": 12,
+          "lines": 6,
+          "label": "Unterschriften und Standesbeamte",
+          "source": "merged"
+        },
+        {
+          "id": "r13",
+          "type": "paragraph",
+          "bbox": [
+            9.3,
+            66.4,
+            77.9,
+            3.4
+          ],
+          "reading_order": 13,
+          "lines": 2,
+          "label": "Beglaubigungsvermerk",
+          "source": "merged"
+        },
+        {
+          "id": "r14",
+          "type": "paragraph",
+          "bbox": [
+            23.0,
+            70.0,
+            23.6,
+            2.4
+          ],
+          "reading_order": 14,
+          "lines": 1,
+          "label": "Datum der Beglaubigung",
+          "source": "surya"
+        },
+        {
+          "id": "r15",
+          "type": "heading",
+          "bbox": [
+            63.8,
+            69.8,
+            19.6,
+            4.2
+          ],
+          "reading_order": 15,
+          "lines": 3,
+          "label": "Unterschrift Standesbeamter",
+          "source": "merged"
+        },
+        {
+          "id": "r16",
+          "type": "paragraph",
+          "bbox": [
+            9.4,
+            72.8,
+            24.7,
+            3.7
+          ],
+          "reading_order": 16,
+          "lines": 3,
+          "label": "Rechtlicher Warnhinweis",
+          "source": "merged"
+        },
+        {
+          "id": "r17",
+          "type": "marginalia",
+          "bbox": [
+            91.5,
+            74.0,
+            2.5,
+            3.5
+          ],
+          "reading_order": 17,
+          "lines": 1,
+          "label": "Marginalie (Handzeichen)",
+          "source": "vlm_added"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "image_filename": "IMG_2.jpg",
+      "image_width_px": 2979,
+      "image_height_px": 4000,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            18.1,
+            25.4,
+            14.0,
+            2.0
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Zertifikatsnummer",
+          "source": "merged"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            45.9,
+            26.9,
+            54.0,
+            5.0
+          ],
+          "reading_order": 2,
+          "lines": 5,
+          "label": "Dokumententitel",
+          "source": "merged"
+        },
+        {
+          "id": "r3",
+          "type": "paragraph",
+          "bbox": [
+            17.3,
+            30.0,
+            24.2,
+            3.0
+          ],
+          "reading_order": 3,
+          "lines": 3,
+          "label": "Gebührenhinweis",
+          "source": "merged"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            40.1,
+            32.8,
+            27.1,
+            2.3
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Standesamtsbezirk",
+          "source": "merged"
+        },
+        {
+          "id": "r5",
+          "type": "heading",
+          "bbox": [
+            18.9,
+            35.0,
+            78.2,
+            4.0
+          ],
+          "reading_order": 5,
+          "lines": 6,
+          "label": "Ort der Eheschließung",
+          "source": "merged"
+        },
+        {
+          "id": "r6",
+          "type": "table",
+          "bbox": [
+            18.5,
+            39.4,
+            81.5,
+            13.5
+          ],
+          "reading_order": 6,
+          "lines": 34,
+          "label": "Eintragungsdetails (Tabelle)",
+          "source": "merged"
+        },
+        {
+          "id": "r7",
+          "type": "paragraph",
+          "bbox": [
+            19.2,
+            53.2,
+            74.0,
+            2.5
+          ],
+          "reading_order": 7,
+          "lines": 4,
+          "label": "Trauungsformel",
+          "source": "merged"
+        },
+        {
+          "id": "r8",
+          "type": "paragraph",
+          "bbox": [
+            20.1,
+            57.3,
+            39.9,
+            4.7
+          ],
+          "reading_order": 8,
+          "lines": 5,
+          "label": "Unterschriften der Eheleute",
+          "source": "merged"
+        },
+        {
+          "id": "r9",
+          "type": "paragraph",
+          "bbox": [
+            59.7,
+            57.3,
+            31.3,
+            4.5
+          ],
+          "reading_order": 9,
+          "lines": 4,
+          "label": "Unterschriften der Zeugen",
+          "source": "merged"
+        },
+        {
+          "id": "r10",
+          "type": "paragraph",
+          "bbox": [
+            18.8,
+            62.8,
+            81.1,
+            4.1
+          ],
+          "reading_order": 10,
+          "lines": 4,
+          "label": "Beglaubigungsvermerk",
+          "source": "merged"
+        },
+        {
+          "id": "r11",
+          "type": "paragraph",
+          "bbox": [
+            41.7,
+            65.7,
+            50.0,
+            2.7
+          ],
+          "reading_order": 11,
+          "lines": 2,
+          "label": "Ausstellungsdatum",
+          "source": "merged"
+        },
+        {
+          "id": "r12",
+          "type": "paragraph",
+          "bbox": [
+            18.8,
+            68.2,
+            40.5,
+            3.0
+          ],
+          "reading_order": 12,
+          "lines": 3,
+          "label": "Rechtlicher Warnhinweis",
+          "source": "merged"
+        }
+      ]
+    }
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [
+      {
+        "page": 1,
+        "coverage": "complete",
+        "coverage_note": "Alle relevanten Textbereiche, einschließlich der handschriftlichen Eintragungen, der gedruckten Formulartexte, der Marginalien und der Beglaubigungsvermerke, wurden erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      },
+      {
+        "page": 2,
+        "coverage": "complete",
+        "coverage_note": "Alle Textbereiche erfasst.",
+        "position_accuracy": "good",
+        "type_accuracy": "good",
+        "reading_order_ok": true,
+        "missing_regions": [],
+        "issues": [],
+        "overall": "good"
+      }
+    ],
+    "pages_needing_review": []
+  }
+}

@@ -41,7 +41,7 @@
   },
   "provenance": {
     "model": "gemini-3.1-flash-lite-preview",
-    "created_at": "2026-04-03T16:05:44.759086+00:00",
+    "created_at": "2026-04-03T17:32:49.632869+00:00",
     "provider": "google",
     "pipeline": "szd-htr",
     "prompt_layers": [
@@ -74,7 +74,7 @@
           ],
           "reading_order": 1,
           "lines": 2,
-          "label": "Titel auf Schachteldeckel",
+          "label": "Beschriftung Kartondeckel (Schreibmaschin-Zubehör)",
           "source": "merged"
         },
         {
@@ -82,42 +82,42 @@
           "type": "marginalia",
           "bbox": [
             37.0,
-            16.7,
-            4.9,
-            2.9
+            16.9,
+            4.8,
+            2.2
           ],
           "reading_order": 2,
           "lines": 1,
-          "label": "Handschriftliche Notiz auf Farbbandschachtel",
-          "source": "merged"
+          "label": "Handschriftliche Notiz auf Farbbandschachtel (violett, gut)",
+          "source": "surya"
         },
         {
           "id": "r3",
-          "type": "paragraph",
+          "type": "heading",
           "bbox": [
-            5.8,
-            29.0,
-            2.0,
-            22.0
+            36.5,
+            43.5,
+            7.0,
+            3.0
           ],
           "reading_order": 3,
           "lines": 1,
-          "label": "Herstellerangabe auf Bleistift",
+          "label": "Markenname Pelikan auf Metalldose",
           "source": "vlm_added"
         },
         {
           "id": "r4",
-          "type": "heading",
+          "type": "paragraph",
           "bbox": [
-            34.0,
-            33.5,
-            11.5,
-            17.5
+            10.8,
+            65.8,
+            17.3,
+            15.7
           ],
           "reading_order": 4,
-          "lines": 1,
-          "label": "Markenlogo Pelikan",
-          "source": "vlm_added"
+          "lines": 5,
+          "label": "Remington Schreibmaschinen Werbekarte / Radierschablone",
+          "source": "merged"
         },
         {
           "id": "r5",
@@ -125,26 +125,12 @@
           "bbox": [
             33.1,
             60.8,
-            13.0,
+            11.9,
             11.1
           ],
           "reading_order": 5,
-          "lines": 6,
-          "label": "Produktinformation Reinigungsmittel",
-          "source": "merged"
-        },
-        {
-          "id": "r6",
-          "type": "paragraph",
-          "bbox": [
-            10.8,
-            65.8,
-            17.3,
-            15.8
-          ],
-          "reading_order": 6,
           "lines": 5,
-          "label": "Adress- und Firmenangaben auf Remington-Schablone",
+          "label": "Beschriftung Reinigungsmittel-Dose (Star Type Cleaner)",
           "source": "merged"
         }
       ]

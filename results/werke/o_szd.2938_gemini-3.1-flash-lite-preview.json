@@ -1,0 +1,91 @@
+{
+  "object_id": "o_szd.2938",
+  "collection": "werke",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Über den Film, SZ-AP2/W-H180a",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2938/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2938/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2938/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2938/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2938/IMG.5"
+    ],
+    "input_image_count_total": 5
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Über den Film\n- Signatur: SZ-AP2/W-H180a\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 2 Blatt,\n                                                  korrigiert\n- Hand: Stefan Zweig\n- Anmerkungen: Eigenhändige Korrekturen",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ich liebe den Film immer dort am meisten, wo er\neine Kunst für sich selber sein will und weder das Theater\nnoch den Roman noch die Geschichtschreibung {m} konkurrenzieren\n~~versucht~~ {auch}. Gerade weil der Film gewissermassen raumlos {ist} - keine\nBühne, kein Orchester, kein Instrument, kein Buch - weil er\ngar keine fassbare Substanz besitzt sondern nichts anderes\nsein will als ein rinnender Schatten, wird er dem Traum am\nähnlichsten. Er hat alle seine Charaktereigenschaften, er\nhat die Geschwindigkeit von Träumen, ihre Uebertreiblich-\nkeit, ihren raschen Flug von Schauplatz zu Schauplatz und\nrings um sich die Dunkelheit, die seine Bilder einschliesst.\nDarum empfindet man {auch} am Ende eines Kinostücks immer - wie\nbeim Träumen - eine Art Erwachen und hat auch zugleich je-\n{entlastende} nes Wohlgefühl, dass das Geschehene doch nicht völlig wirk-\nlich und wahr gewesen ist. Aber eben weil der Film nicht\nan jene äusserste Verpflichtung zur Wahrheit gebunden ist\nwie etwa der Roman oder die Geschichtsdarstellung, bleibt\ner freier, beweglicher, ungebundener, spielhafter und\ndeshalb wird er meiner Meinung nach seine höchste Voll-\nendung niemals in den realistischen Formen findern, son-\ndern im Phantastischen, im Skurrilen, im Antilogischen\nund Absurden. Von aller Kunst kann er vielleicht am\nvollendesten das Unwirkliche, das Ueberwirkliche dar-",
+        "notes": "Typoskript mit handschriftlichen Korrekturen (Einfügungen über der Zeile, Durchstreichungen).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des ersten Blattes, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "stellen, und je mehr er sich vom Theater entfernt, das im\nvierkantigen Raume verschlossen ist, umso gewisser wird\ner eine neue Kunstform werden, die so schwebend und sphä-\nrenhaft sein kann wie Tanz oder Musik.",
+        "notes": "Typoskript, zweites Blatt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des zweiten Blattes, zeigt den durchscheinenden Text der Vorderseite (spiegelverkehrt).",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Ich liebe den Film immer dort am meisten, wo er\neine Kunst für sich selber sein will und weder das Theater\nnoch den Roman noch die Geschichtschreibung {m} konkurrenzieren\n~~versucht~~ {auch}. Gerade weil der Film gewissermassen raumlos {ist} - keine\nBühne, kein Orchester, kein Instrument, kein Buch - weil er\ngar keine fassbare Substanz besitzt sondern nichts anderes\nsein will als ein rinnender Schatten, wird er dem Traum am\nähnlichsten. Er hat alle seine Charaktereigenschaften, er\nhat die Geschwindigkeit von Träumen, ihre Uebertreiblich-\nkeit, ihren raschen Flug von Schauplatz zu Schauplatz und\nrings um sich die Dunkelheit, die seine Bilder einschliesst.\nDarum empfindet man {auch} am Ende eines Kinostücks immer - wie\nbeim Träumen - eine Art Erwachen und hat auch zugleich je-\n{entlastende} nes Wohlgefühl, dass das Geschehene doch nicht völlig wirk-\nlich und wahr gewesen ist. Aber eben weil der Film nicht\nan jene äusserste Verpflichtung zur Wahrheit gebunden ist\nwie etwa der Roman oder die Geschichtsdarstellung, bleibt\ner freier, beweglicher, ungebundener, spielhafter und\ndeshalb wird er meiner Meinung nach seine höchste Voll-\nendung niemals in den realistischen Formen findern, son-\ndern im Phantastischen, im Skurrilen, im Antilogischen\nund Absurden. Von aller Kunst kann er vielleicht am\nvollendesten das Unwirkliche, das Ueberwirkliche dar-",
+        "notes": "Identisch mit Seite 1, inklusive Farbskala am unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die handschriftlichen Korrekturen sind eindeutig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2930,
+    "total_words": 445,
+    "total_pages": 2,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 5,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1360,
+      0,
+      210,
+      0,
+      1360
+    ],
+    "chars_per_page_median": 785.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
