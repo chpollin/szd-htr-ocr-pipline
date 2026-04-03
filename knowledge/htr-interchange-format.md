@@ -2,7 +2,7 @@
 title: "Page-JSON Format"
 aliases: ["Page-JSON", "Interchange-Format", "HTR Interchange Format"]
 created: 2026-04-01
-updated: 2026-04-02
+updated: 2026-04-03
 type: spec
 status: draft
 related:
@@ -13,13 +13,13 @@ related:
 
 # Page-JSON — Spezifikation
 
-Version: 0.1 (Entwurf)
+Version: 0.2 (Entwurf)
 
 ---
 
 ## 1. Zweck
 
-Page-JSON ist ein JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse, das Text, Layout und Metadaten in einer Datei vereint.
+Page-JSON ist das **interne Arbeitsformat** der Pipeline: ein JSON-Format fuer VLM-basierte HTR/OCR-Ergebnisse, das Text, Layout und deskriptive Metadaten in einer Datei vereint. Das **Archiv- und Austauschformat** ist METS/MODS + PAGE XML (→ [[page-xml-mets-architecture]]). Page-JSON wird zuerst erzeugt, METS/MODS daraus abgeleitet.
 
 ### 1.1 Designprinzipien
 
@@ -358,19 +358,56 @@ Die Konvertierung kann als Export-Schritt (`export_page_json.py`) oder als schri
 
 | Frage | Antwort |
 |---|---|
-| Warum nicht PAGE XML? | PAGE XML erfordert Koordinaten als Pflichtfeld. VLMs produzieren Fliesstext ohne Koordinaten. Page-JSON macht Koordinaten optional. Ausserdem: kaum Metadaten-Felder, XML-Overhead, kein nativer JS-Import. |
-| Warum nicht ALTO? | ALTO erfordert Wort-Koordinaten (HPOS/VPOS/WIDTH/HEIGHT). Dasselbe Grundproblem. |
-| Warum nicht hOCR? | HTML-basiert, erfordert Bounding Boxes. Fuer VLM-Output ueberkompliziert. |
-| Kann man trotzdem PAGE XML exportieren? | Ja. `export_pagexml.py` konvertiert Page-JSON → PAGE XML 2019 (§6.1). Fuer Transkribus, eScriptorium, Larex. |
-| Kann man PAGE XML importieren? | Ja. Die Umkehrkonvertierung (§6.2) ermoeglicht Import von extern erzeugtem PAGE XML in die Pipeline. |
-| Verhältnis zum alten Interchange-Format? | Page-JSON ersetzt das "HTR Interchange Format v0.1" (April 2026), das Text und Layout trennte und nie implementiert wurde. |
+| Warum nicht direkt PAGE XML? | PAGE XML erfordert Koordinaten als Pflichtfeld. VLMs produzieren Fliesstext ohne Koordinaten. Page-JSON macht Koordinaten optional und ist das interne Arbeitsformat. PAGE XML ist Teil des Zielformats (METS/MODS + PAGE XML). |
+| Warum nicht ALTO? | ALTO erfordert Wort-Koordinaten. Dasselbe Grundproblem wie PAGE XML. |
+| Verhaeltnis zu METS/MODS? | Page-JSON = internes Arbeitsformat (Pipeline, Viewer). METS/MODS + PAGE XML = Archiv- und Austauschformat (GAMS, Transkribus, OCR-D). Page-JSON wird zuerst erzeugt, METS/MODS daraus abgeleitet. Siehe [[page-xml-mets-architecture]]. |
+| Kann man PAGE XML exportieren? | Ja. `export_pagexml.py` konvertiert Page-JSON → PAGE XML 2019 (§6.1). |
+| Kann man PAGE XML importieren? | Ja. Die Umkehrkonvertierung (§6.2) ermoeglicht Import von extern erzeugtem PAGE XML. |
 
 ---
 
-## 8. Offene Punkte
+## 8. Deskriptive Metadaten (v0.2)
+
+v0.2 erweitert `source` um einen optionalen `descriptive_metadata`-Block, der das physische Objekt beschreibt. Dublin Core als Kern, materialtypologische Erweiterungen fuer Archivmaterial.
+
+Schema: `schemas/page-json-v0.2.json`. Export: `pipeline/export_page_json.py`. TEI-Extraktion: `pipeline/tei_context.py` (`parse_tei_full_metadata()`).
+
+### 8.1 Dublin-Core-Mapping
+
+| `descriptive_metadata`-Feld | DC/DCT-Term | Datenquelle |
+|---|---|---|
+| `creator[]` (name, role, gnd) | dc:creator | TEI titleStmt/author, editor |
+| `subject[]` | dc:subject | TEI keywords/term[@type="classification"] |
+| `origin_place` | dct:spatial | TEI origPlace |
+| `extent` | dct:extent | TEI measure[@type="leaf"] |
+| `rights` | dc:rights | Backup metadata.json |
+| `provenance[]` | dct:provenance | TEI history/provenance + acquisition |
+
+### 8.2 Materialtypologische Erweiterungen
+
+| Feld | Beschreibung | Datenquelle |
+|---|---|---|
+| `holding` (repository, gnd, country, settlement) | Archivkontext | TEI msIdentifier |
+| `physical_description.writing_instrument` | Schreibinstrument | TEI material[@ana="WritingInstrument"] |
+| `physical_description.writing_material` | Beschreibstoff | TEI material[@ana="WritingMaterial"] |
+| `physical_description.hands[]` | Schreiberhaende | TEI handDesc/ab |
+| `physical_description.dimensions` | Physische Masse | TEI measure[@type="format"] |
+| `physical_description.binding` | Einband | TEI bindingDesc |
+| `physical_description.inscriptions[]` | Aufschriften | TEI docEdition |
+| `correspondence` (sender, recipient, direction) | Korrespondenz-Kontext | TEI correspDesc |
+| `notes` | Katalogisierungsnotizen | TEI notesStmt/note |
+
+### 8.3 Rueckwaertskompatibilitaet
+
+- `page_json` akzeptiert `"0.1"` und `"0.2"` — v0.1-Dateien validieren gegen v0.2-Schema
+- `descriptive_metadata` ist vollstaendig optional, alle Unterfelder optional
+- `source.repository` (v0.1, String) koexistiert mit `descriptive_metadata.holding` (v0.2, Objekt mit GND)
+
+---
+
+## 9. Offene Punkte
 
 1. **Schema-Hosting:** `$id`-URI auf GitHub Pages publizieren?
-2. **Versionierung:** SemVer — `0.1` (Entwurf), `0.2` (nach Pilot), `1.0` (stabil).
-3. **Polygon-Koordinaten:** Aktuell nur Bounding Boxes (Rechtecke). Fuer unregelmässige Regionen waeren Polygon-Punkte (wie PAGE XML) noetig. Erweiterung: `coords` als Alternative zu `bbox` mit Array von `[x,y]`-Paaren.
-4. **Zeilen-Ebene:** PAGE XML kennt `<TextLine>` innerhalb von Regionen. Page-JSON hat aktuell nur `lines` (Anzahl) ohne Zeilen-Koordinaten. Fuer Zeilenkoordinaten: `lines[]`-Array mit eigenem `bbox` und `text` (analog zu Regionen).
-5. **Migration:** Bestehende 646 Pipeline-JSONs + Layout-JSONs in Page-JSON konvertieren? Oder nur neue Transkriptionen im neuen Format? → Entscheidung nach Pilot.
+2. **Polygon-Koordinaten:** Aktuell nur Bounding Boxes (Rechtecke). Fuer unregelmässige Regionen waeren Polygon-Punkte (wie PAGE XML) noetig.
+3. **Zeilen-Ebene:** PAGE XML kennt `<TextLine>` innerhalb von Regionen. Page-JSON hat aktuell nur `lines` (Anzahl) ohne Zeilen-Koordinaten.
+4. **Korrespondenzen-TEI-Matching:** TEI hat nur Konvolut-Eintraege (nicht pro Brief). correspDesc-Daten muessen ueber Signatur-Prefix zugeordnet werden — noch nicht implementiert.

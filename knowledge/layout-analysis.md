@@ -1,110 +1,133 @@
 ---
 title: "Layout-Analyse"
 created: 2026-04-02
-updated: 2026-04-02
+updated: 2026-04-03
 type: spec
-status: stable
+status: draft
 ---
 
-# Layout-Analyse und PAGE XML Export
+# Layout-Analyse: Ensemble-Pipeline
 
-Dokumentiert den VLM-basierten Layout-Analyse-Ansatz und die PAGE XML-Erzeugung fuer das SZD-HTR-Projekt.
+Dokumentiert den Ensemble-Ansatz (Docling + Surya + VLM) fuer die Layout-Erkennung im SZD-HTR-Projekt.
 
 ## 1. Motivation
 
-Die HTR-Pipeline (`transcribe.py`) erzeugt seitenweisen Fliesstext ohne Strukturinformation. Fuer zwei nachgelagerte Ziele wird jedoch strukturiertes Layout benoetigt:
+Die HTR-Pipeline (`transcribe.py`) erzeugt seitenweisen Fliesstext ohne Strukturinformation. Fuer zwei nachgelagerte Ziele wird strukturiertes Layout benoetigt:
 
-1. **Strukturierte Ausgabe:** Braucht `heading`, `paragraph`, `list`, `table` — also die Unterscheidung zwischen Ueberschriften, Absaetzen, Listen und Tabellen.
-2. **DIA-XAI Expert-in-the-Loop:** Braucht raeumliche Verortung von Textregionen auf dem Faksimile fuer die visuelle Validierung (Bild↔Text-Sync).
+1. **Strukturierte Ausgabe:** Unterscheidung zwischen Ueberschriften, Absaetzen, Listen, Tabellen und Marginalien.
+2. **DIA-XAI Expert-in-the-Loop:** Raeumliche Verortung von Textregionen auf dem Faksimile (Bild↔Text-Sync).
 
-PAGE XML (PRImA Lab, 2019) ist der etablierte Standard fuer Dokumentlayout-Daten und wird von Transkribus, OCR-D und Larex unterstuetzt.
+## 2. Ansatz: Ensemble-Pipeline (v4)
 
-### 1.1 Bisherige Abgrenzung
+### 2.1 Entwicklung
 
-Das [[htr-interchange-format]] (Page-JSON) loest dieses Problem durch progressive Anreicherung: Das Format funktioniert ohne Koordinaten (nur Text), kann aber Layout-Regionen nachtraeglich aufnehmen. Ein **separater Layout-Analyse-Schritt** erzeugt die fehlenden Koordinaten und fuegt sie als `regions[]` in das bestehende Page-JSON ein.
-
-## 2. Ansatz: VLM-basierte Layout-Analyse
-
-### 2.1 Entscheidung
-
-| Option | Bewertung | Gewaehlt |
+| Version | Ansatz | Ergebnis |
 |---|---|---|
-| **VLM-only (Gemini Flash Lite)** | Keine neue Dependency, nutzt bestehende Infrastruktur, approximierte Koordinaten (~80%) | **Ja** |
-| Hybrid (VLM + DocTR/LayoutParser) | Genauere Koordinaten, aber neue Dependency (torch), komplexes Alignment | Nein (Phase 2 moeglich) |
-| Heuristisch (synthetische Koordinaten) | Schnell, aber Koordinaten nicht bildbasiert | Nein |
+| v1 | VLM-only (Gemini Flash Lite) | Gute Typisierung, aber systematisch falsche Koordinaten (y=5% statt y=38%) |
+| v2 | Docling-only (CV) | Pixelgenaue Koordinaten bei Druck, versagt bei Handschrift und kontrastarmen Scans |
+| v3 | Docling + Surya mit Routing | Surya `LayoutPredictor` erkennt nur grobe Bloecke, zu wenig Regionen |
+| **v4** | **Ensemble: Docling + Surya + VLM** | **Pixelgenaue Koordinaten + intelligente Gruppierung + Typisierung** |
 
-**Begruendung:** Das Projekt arbeitet bereits mit der Gemini API. Ein zusaetzlicher VLM-Call pro Seite ist kostenguenstig und erfordert keine neue Infrastruktur. Die approximierten Koordinaten reichen fuer den TEI-Export und die visuelle Verortung — pixelgenaue Segmentierung ist nicht erforderlich.
-
-### 2.2 Kern-Prinzip
-
-Layout-Analyse ist ein **separater Pipeline-Schritt** nach der Transkription:
+### 2.2 Architektur
 
 ```
-transcribe.py          layout_analysis.py         export_pagexml.py
-  (VLM-Call 1)            (VLM-Call 2)              (deterministisch)
-  → OCR-Text              → Regionen + Bbox         → PAGE XML
-  → *_gemini-*.json       → *_layout.json           → *_page/page_NNN.xml
+Bild ──┬── Docling (Block-Level)     → Regionen mit Typen + Bbox
+       │   IBM, DocLayNet-Modell       (paragraph, heading, table, ...)
+       │
+       ├── Surya Detection (Lines)   → Einzelne Textzeilen + Bbox
+       │   DetectionPredictor          (pixelgenaue Zeilenerkennung)
+       │
+       └── Gemini 3 Flash (VLM)      → Finale Regionen
+           Sieht: Bild + Docling + Surya
+           → Merged, gruppiert, klassifiziert
+           → Verifikation (Layout-Qualitaetssignal)
 ```
 
-Die PAGE XML-Erzeugung (`export_pagexml.py`) ist rein deterministisch — sie merged die zwei JSON-Dateien ohne API-Aufruf.
+**Kern-Prinzip:** Beide CV-Tools laufen IMMER parallel auf jeder Seite. Das VLM sieht das Originalbild UND beide CV-Ergebnisse und erzeugt die finale Layout-Beschreibung. Kein Routing — das Ensemble nutzt immer alle drei Stufen.
 
-## 3. Strukturelemente (Kern-Set)
+### 2.3 Warum Ensemble?
 
-Fuenf Regionentypen, abgestimmt auf den Stefan-Zweig-Nachlass:
+| Tool | Staerke | Schwaeche |
+|---|---|---|
+| **Docling** | Pixelgenaue Bboxes, Typklassifikation (DocLayNet) | Verpasst Regionen bei Handschrift und kontrastarmen Scans |
+| **Surya** | Praezise Zeilenerkennung, auch bei Handschrift | Keine Typklassifikation, erkennt nur Textzeilen |
+| **Gemini 3 Flash** | Semantische Gruppierung, Typisierung, Lueckenerkennung | Kann keine pixelgenauen Koordinaten schaetzen |
 
-| Typ | PAGE XML type | Beschreibung | Typische Dokumente |
-|---|---|---|---|
-| `paragraph` | paragraph | Fliesstext-Absatz | Alle Gruppen |
-| `heading` | heading | Ueberschrift, Titel, Datumzeile, Anrede | Briefe (I), Werke (A), Formulare (C) |
-| `list` | list-label | Aufzaehlung, nummerierte Liste | Vertraege, Register |
-| `table` | other | Tabelle, tabellarische Struktur | Register (E), Kontorbuecher |
-| `marginalia` | marginalia | Randnotiz, Annotation | Manuskripte (A), Korrekturfahnen (F) |
+Das Ensemble kombiniert: CV-Tools liefern die Koordinaten (Wo?), das VLM liefert die Semantik (Was?).
 
-Erweiterung (Phase 2): Seitenzahl (`page-number`), Briefkopf (`letterhead`), Stempel (`stamp`), Kolumnentitel (`running-header`), Spalten (`column`).
+## 3. Stufen
 
-## 4. Koordinatensystem
+### Stufe 1a: Docling (Block-Level)
 
-**Prozent der Seitengroesse (0-100):** Aufloesungsunabhaengig, da die Originalbilder unterschiedliche Dimensionen haben (~4912x7360, aber nicht einheitlich).
+- **Tool:** IBM Docling (`DocumentConverter`)
+- **Input:** JPEG-Bild als Temp-Datei
+- **Output:** Regionen mit Bbox + DocLayNet-Typ (text, section_header, table, etc.)
+- **Koordinaten:** BOTTOMLEFT-Pixel → Konvertierung zu TOPLEFT-Prozent
+- **Laufzeit:** ~15s/Seite auf GPU
+
+### Stufe 1b: Surya (Line-Level)
+
+- **Tool:** Surya `DetectionPredictor` (nicht `LayoutPredictor`)
+- **Input:** PIL Image aus Bytes
+- **Output:** Textzeilen mit Bbox (keine Typklassifikation)
+- **Koordinaten:** TOPLEFT-Pixel → Konvertierung zu Prozent
+- **Laufzeit:** ~10s/Seite auf GPU
+- **Wichtig:** `DetectionPredictor` erkennt einzelne Textzeilen, nicht Layoutbloecke
+
+### Stufe 2: VLM Ensemble-Merger
+
+- **Modell:** Gemini 3 Flash (`gemini-3-flash-preview`)
+- **Prompt:** `prompts/layout_ensemble.md` + Gruppen-Prompt (`layout_group_*.md`)
+- **Input:** Bild + Docling-Regionen (JSON) + Surya-Zeilen (JSON)
+- **Aufgabe:**
+  1. Surya-Zeilen zu logischen Regionen gruppieren
+  2. Docling-Typen uebernehmen/korrigieren
+  3. Fehlende Regionen ergaenzen
+  4. Lesereihenfolge und Labels vergeben
+- **Output:** Finale `regions[]` mit `source`-Feld (docling/surya/merged/vlm_added)
+
+### Stufe 3: VLM Verifikation
+
+- **Prompt:** `prompts/layout_verify.md`
+- **Bewertet:** Abdeckung, Position, Typen, Lesereihenfolge
+- **Output:** `layout_quality` mit `overall` (good/acceptable/needs_correction)
+
+## 4. Strukturelemente
+
+Fuenf Regionentypen:
+
+| Typ | Beschreibung | Typische Dokumente |
+|---|---|---|
+| `paragraph` | Fliesstext-Absatz | Alle Gruppen |
+| `heading` | Ueberschrift, Datumzeile, Anrede, Grussformel, Unterschrift | Briefe (I), Werke (A) |
+| `list` | Aufzaehlung, nummerierte Liste | Vertraege, Register |
+| `table` | Tabelle, tabellarische Struktur | Register (E), Kontorbuecher |
+| `marginalia` | Randnotiz, Annotation | Manuskripte (A), Korrekturfahnen (F) |
+
+## 5. Koordinatensystem
+
+**Prozent des GESAMTEN Bildes (0-100):** Inklusive Scan-Hintergrund und Raender.
 
 ```
 bbox: [x%, y%, breite%, hoehe%]
 
-Beispiel: [12, 3, 76, 5]
-→ Region beginnt bei 12% vom linken Rand, 3% vom oberen Rand
-→ Ist 76% der Seitenbreite breit und 5% der Seitenhoehe hoch
+Beispiel: [25, 38, 35, 18]
+→ Region beginnt bei 25% vom linken Bildrand, 38% vom oberen Bildrand
+→ Ist 35% der Bildbreite breit und 18% der Bildhoehe hoch
 ```
 
-**Konversion zu Pixeln:** `export_pagexml.py` rechnet automatisch um:
-```
-x_px = x% / 100 * image_width
-y_px = y% / 100 * image_height
-```
+Typische Werte bei Archiv-Scans: Das Papier beginnt bei ca. x=15-25%, y=10-20%. Text liegt daher typisch bei x=20-30%, y=15-75%.
 
-**Konversion zu PAGE XML Polygon:**
-```xml
-<Coords points="x1,y1 x2,y1 x2,y2 x1,y2"/>
-```
-Vier Eckpunkte (Rechteck), kein echtes Polygon — ausreichend fuer VLM-approximierte Regionen.
+## 6. Output-Format
 
-### 4.1 Koordinaten-Qualitaet
-
-Das VLM liefert Schaetzungen, keine pixelgenauen Segmentierungen. Beobachtungen aus ersten Tests (o_szd.100, Typoskript):
-
-- **Strukturerkennung:** Sehr gut — 15 Regionen korrekt identifiziert (Heading, Paragraph, List, Unterschriftenfelder)
-- **Positionsgenauigkeit:** Mittel — relative Positionen stimmen (oben/unten, links/rechts), absolute Werte weichen ab
-- **Groessengenauigkeit:** Mittel — Regionen-Proportionen plausibel, aber nicht pixelgenau
-
-Fuer den TEI-Export reicht diese Genauigkeit, da dort nur die **logische Struktur** (welcher Text ist heading vs. paragraph) relevant ist, nicht die exakte Position. Fuer eine zeilensynoptische Ansicht (Bild↔Text-Sync) waere hoehere Genauigkeit wuenschenswert → Phase 2 mit CV-Modell.
-
-## 5. Output-Formate
-
-### 5.1 Layout JSON (`*_layout.json`)
+### Layout JSON (`*_layout.json`)
 
 ```json
 {
-  "object_id": "o_szd.100",
-  "collection": "lebensdokumente",
-  "model": "gemini-3.1-flash-lite-preview",
+  "object_id": "o_szd.1079",
+  "collection": "korrespondenzen",
+  "group": "korrespondenz",
+  "model": "docling+surya+gemini-3-flash-preview",
   "pages": [
     {
       "page": 1,
@@ -115,93 +138,74 @@ Fuer den TEI-Export reicht diese Genauigkeit, da dort nur die **logische Struktu
         {
           "id": "r1",
           "type": "heading",
-          "bbox": [12, 3, 76, 5],
+          "bbox": [17.5, 37.9, 34.9, 5.2],
           "reading_order": 1,
           "lines": 1,
-          "label": "Vertragstitel"
+          "label": "Anrede",
+          "source": "surya"
         }
       ]
     }
-  ]
+  ],
+  "layout_quality": {
+    "overall": "good",
+    "pages": [...]
+  }
 }
 ```
 
-Schema: `schemas/layout-regions-v0.1.json`
+Das `source`-Feld dokumentiert die Herkunft jeder Region:
+- `docling` — Bbox aus Docling, Typ unveraendert
+- `surya` — Bbox aus Surya-Zeilenerkennung
+- `merged` — Kombination aus beiden CV-Tools
+- `vlm_added` — Vom VLM ergaenzt (Lueckenfuellung)
 
-### 5.2 PAGE XML (`*_page/page_NNN.xml`)
+## 7. Dateien
 
-PAGE XML 2019 (Namespace: `http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15`) mit:
+| Datei | Beschreibung |
+|---|---|
+| `pipeline/layout_analysis.py` | Ensemble-Pipeline (Docling + Surya + VLM) |
+| `pipeline/export_pagexml.py` | Deterministischer PAGE XML Export |
+| `pipeline/prompts/layout_ensemble.md` | Prompt fuer VLM-Merger (Stufe 2) |
+| `pipeline/prompts/layout_verify.md` | Prompt fuer VLM-Verifikation (Stufe 3) |
+| `pipeline/prompts/layout_group_*.md` | 9 gruppenspezifische Layout-Prompts |
 
-- `<Page>` mit `imageFilename`, `imageWidth`, `imageHeight`
-- `<ReadingOrder>` mit `<OrderedGroup>` und `<RegionRefIndexed>`
-- `<TextRegion>` pro Region mit `type`-Attribut und `custom`-Attribut (Strukturtyp + Label)
-- `<Coords>` als Rechteck-Polygon (4 Punkte, aus bbox konvertiert)
-- `<TextEquiv><Unicode>` mit dem zugewiesenen OCR-Text
-
-### 5.3 Text-Alignment (OCR → Regionen)
-
-Der OCR-Text wird proportional auf die Layout-Regionen verteilt:
-
-1. Sortiere Regionen nach `reading_order`
-2. Splitte OCR-Text an Zeilenumbruechen
-3. Verteile Zeilen proportional nach geschaetzter Zeilenzahl (`lines`) der Region
-4. Rest-Zeilen gehen an die letzte Region
-
-Das ist eine Heuristik — kein token-basiertes Alignment. Fuer die meisten Dokumente (linearer Lesefluss) funktioniert das gut. Bei komplexen Layouts (Spalten, Marginalien die im OCR-Text eingestreut sind) kann die Zuordnung fehlerhaft sein.
-
-## 6. Pipeline-Integration
-
-### 6.1 Dateien
-
-| Datei | Typ | Beschreibung |
-|---|---|---|
-| `pipeline/layout_analysis.py` | Modul + CLI | VLM-basierte Layout-Analyse (1 API-Call/Seite) |
-| `pipeline/export_pagexml.py` | Modul + CLI | Deterministischer PAGE XML Export |
-| `pipeline/prompts/layout_system.md` | Prompt | System-Prompt fuer Layout-Analyse |
-| `schemas/layout-regions-v0.1.json` | Schema | JSON-Schema fuer Layout-Output |
-
-### 6.2 CLI-Nutzung
+### CLI
 
 ```bash
-# Layout analysieren
-python pipeline/layout_analysis.py o_szd.100 -c lebensdokumente
+# Ensemble-Analyse (alle 3 Stufen)
+python pipeline/layout_analysis.py o_szd.1079 -c korrespondenzen --force
+
+# Nur CV-Stufen (Docling + Surya, ohne VLM)
+python pipeline/layout_analysis.py o_szd.1079 -c korrespondenzen --cv-only --force
+
+# Batch
 python pipeline/layout_analysis.py -c korrespondenzen --limit 10
-
-# PAGE XML exportieren (braucht OCR + Layout)
-python pipeline/export_pagexml.py o_szd.100 -c lebensdokumente
-python pipeline/export_pagexml.py -c lebensdokumente
 ```
 
-### 6.3 Platz in der Gesamtpipeline
+## 8. Modellvergleich (VLM-Merger)
 
-```
-Phase 3: Transkription
-  transcribe.py → *_gemini-*.json (OCR-Text)
+Getestet auf Briefumschlag o_szd.1079:
 
-Phase 3b: Layout-Analyse (NEU)
-  layout_analysis.py → *_layout.json (Regionen + Bbox)
+| Modell | Regionen | Gruppierung | Typisierung | Halluzinationen |
+|---|---|---|---|---|
+| Flash Lite | 2 (inkonsistent) | Grob | Teilweise falsch | Ja |
+| Flash 2.0 | 5 (granular) | Jede Zeile einzeln | Gut | Nein |
+| **Flash 3** | **2 (semantisch)** | **Anrede + Adressblock** | **Gut** | **Nein** |
 
-Phase 3c: PAGE XML Export (NEU)
-  export_pagexml.py → *_page/page_NNN.xml (merged)
+Flash 3 ist der Default (`HTR_LAYOUT_MODEL=gemini-3-flash-preview`).
 
-Phase 4: Verifikation
-  verify.py → *_consensus.json (Modellkonsensus)
+## 9. Offene Punkte
 
-Phase 5: Export
-  export_page_json.py → Page-JSON
-```
+1. **Stratifizierter Test:** Bisher nur Korrespondenz (I) getestet. 8 weitere Gruppen ausstehend.
+2. **Unterschriften:** Werden teilweise nicht erkannt (weder von Docling noch Surya).
+3. **Nicht-Determinismus:** VLM-Merger liefert bei gleicher Eingabe unterschiedliche Gruppierungen.
+4. **Batch-Performance:** ~40s/Seite (Docling 15s + Surya 10s + 2x VLM 5s + Delays). Fuer 18.700 Seiten: ~8.5 Tage.
+5. **TextLine-Ebene:** Aktuell nur TextRegion-Level. Surya-Zeilen koennten als `<TextLine>` in PAGE XML exportiert werden.
 
-## 7. Offene Punkte
+## 10. Referenzen
 
-1. **Koordinaten-Verbesserung (Phase 2):** CV-Modell (DocTR, LayoutParser) fuer pixelgenaue Segmentierung. Voraussetzung: Evaluation der aktuellen VLM-Koordinaten auf einem Testset.
-2. **TextLine-Ebene:** Aktuell nur TextRegion-Level. PAGE XML unterstuetzt auch `<TextLine>` und `<Word>` — dafuer braeuchte man feinere Segmentierung.
-3. **Erweitertes Regionenset:** Seitenzahlen, Briefkoepfe, Stempel — relevant fuer Korrespondenzen und Formulare.
-4. **Alignment-Verbesserung:** Token-basiertes Alignment statt zeilenproportionaler Heuristik — relevant fuer Dokumente mit Marginalien oder Spalten.
-5. **Batch-Lauf:** Bisher nur Einzeltest auf o_szd.100. Stratifizierter Test (1 Objekt pro Gruppe) empfohlen.
-6. **Validierung:** PAGE XML gegen das PRImA-Schema validieren (xsd). Visuell in Transkribus pruefen.
-
-## 8. Referenzen
-
-- PRImA PAGE XML 2019: https://www.primaresearch.org/schema/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd
-- Pletschacher & Antonacopoulos (2010): The PAGE (Page Analysis and Ground-truth Elements) Format Framework
-- [[htr-interchange-format]] — Page-JSON: Text + Layout + Metadaten in einem Format
+- Docling: https://github.com/docling-project/docling (IBM, MIT License)
+- Surya: https://github.com/datalab-to/surya (Datalab)
+- [[htr-interchange-format]] — Page-JSON Spezifikation
+- [[verification-concept]] — Qualitaetssignale und Verifikation

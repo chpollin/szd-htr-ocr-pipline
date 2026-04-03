@@ -84,14 +84,38 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Knowledge Vault im Frontend: 12 Markdown-Dokumente als navigierbare Ansicht (`#knowledge`, `#knowledge/{slug}`) (Session 15)
 - [x] Projekt-Seite aus README.md (`#about`) (Session 15)
 - [x] `build_viewer_data.py`: `build_knowledge()` — Markdown → HTML → knowledge.json (Session 15)
-- [x] Layout-Analyse (`layout_analysis.py`) + PAGE XML Export (`export_pagexml.py`) (Session 14)
+- [x] Layout-Analyse v1: VLM-only (`layout_analysis.py`) + PAGE XML Export (`export_pagexml.py`) (Session 14)
+- [~] Layout-Analyse v4: Ensemble-Pipeline Docling + Surya + Gemini 3 Flash (Session 23). Korrespondenz getestet, 8 Gruppen ausstehend.
+- [x] Layout-Viewer: SVG-Overlay auf Faksimile, Toggle (L), Farblegende, Pan/Zoom-Sync (Session 23)
 - [x] Lokaler Dev-Server (`serve.py`) mit Review-API: POST /api/approve, /api/edit (Session 17)
 - [x] Expert-Review Write-Back (`import_reviews.py`) + 3-stufiger Review-Status (Session 16)
 - [x] Katalog-Bereinigung: Duplikate (Pro-Modell), Color-Chart-Seiten, Test-Daten gefiltert (Session 16-17)
 
-## Phase 5: DIA-XAI-Bewertung (ab Oktober 2026)
+## Phase 5: Export & Austauschformate
 
-- [ ] Transkriptionsergebnisse als Input für Expert-in-the-Loop-Workflow
+### 5a: Page-JSON v0.2 (Arbeitsformat)
+- [x] Page-JSON v0.2 Schema (`schemas/page-json-v0.2.json`) — Dublin Core + materialtypologische Erweiterungen
+- [x] `_extract_full_metadata()` in `tei_context.py` — 10 neue TEI-Felder (creators+GND, holding+GND, provenance, origPlace, writing_material, dimensions, binding, inscriptions)
+- [x] `export_page_json.py` — OCR + Layout + TEI-Metadaten → Page-JSON v0.2
+- [x] Wissensdokument `knowledge/page-xml-mets-architecture.md` — Schichtenarchitektur PAGE XML / MODS / METS
+- [ ] Batch-Export aller Objekte nach Page-JSON v0.2
+
+### 5b: METS/MODS + PAGE XML (Zielformat)
+- [x] PAGE XML Export (`export_pagexml.py`) — deterministisch, PAGE 2019
+- [ ] `export_mets.py` — METS-Container mit MODS (aus TEI-Metadaten) + PAGE XML Referenzen
+- [ ] TEI msDesc → MODS Mapping (automatisch via `tei_context.py`)
+- [ ] Batch-Export und Validierung gegen METS-Schema
+- [ ] GAMS-Reingest-Test mit METS/MODS-Output
+
+### 5c: teiCrafter-Integration
+- [ ] teiCrafter-Repo: JSON-Import in Step 1 einbauen
+- [ ] teiCrafter-Repo: Sprachen (en/fr/it/es) und Epoche (20c) ergaenzen
+- [ ] teiCrafter-Repo: DTABf-Schema um gap/del/add/stamp/table/cb erweitern
+- [ ] teiCrafter-Repo: SZD-Mapping-Templates einfuegen (3 Templates)
+
+## Phase 6: DIA-XAI-Bewertung (ab Oktober 2026)
+
+- [ ] Transkriptionsergebnisse als Input fuer Expert-in-the-Loop-Workflow
 - [ ] EQUALIS-Evaluierung
 
 ---
@@ -100,11 +124,13 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 | Komponente | Aktuell |
 |---|---|
-| VLM | Gemini 3.1 Flash Lite (Preview) |
+| VLM (Transkription) | Gemini 3.1 Flash Lite (Preview) |
+| VLM (Layout) | Ensemble: Docling + Surya + Gemini 3 Flash |
 | SDK | google-genai |
 | TEI-Parser | xml.etree.ElementTree (stdlib) |
 | Bilder | Lokales Backup (4 Sammlungen, 2107 Objekte) |
-| Output | Enriched JSON pro Objekt, nach Sammlung strukturiert |
+| Arbeitsformat | Page-JSON v0.2 (OCR + Layout + MODS-Metadaten) |
+| Zielformat | METS/MODS + PAGE XML 2019 |
 | CLI | `pipeline/transcribe.py` (Einzel/Batch/Sammlung) |
 | Viewer | Single-Page-App (index.html + app.js + app.css), catalog.json + data/{collection}.json |
 
@@ -132,3 +158,8 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 | 2026-04-02 | Objekt-Prompts als 4. Schicht | Spezialfaelle (Tabellen, Formulare) ohne Gruppen-Prompt-Aenderung loesbar |
 | 2026-04-02 | serve.py statt localStorage | Pipeline-JSONs als einzige Quelle der Wahrheit, kein manueller Export noetig |
 | 2026-04-02 | Whitelist statt Blacklist fuer Katalog | SKIP_SUFFIXES-Ansatz fragil bei neuen Modellen — Whitelist robuster (TODO) |
+| 2026-04-03 | DWR entfernt (v1.5) | rho=0.05, F1=0.20 — mass Prosadichte, nicht Qualitaet |
+| 2026-04-03 | Stats-Dashboard: Produktions-Tracking entfernt | Fortschritt/Seitenkomposition/DWR/VLM-Konfidenz/Konsensus → nur Qualitaetsmetriken |
+| 2026-04-03 | _fill_missing_pages() | Seiten-Bild-Desynchronisation behoben, 41 Objekte backfilled |
+| 2026-04-03 | Page-JSON v0.2 + descriptive_metadata | Dublin Core + materialtypologische Erweiterungen fuer Archivmetadaten |
+| 2026-04-03 | Zwei Ausgabeformate | Page-JSON (intern, Arbeitsformat) + METS/MODS + PAGE XML (extern, Archiv- und Austauschformat) |

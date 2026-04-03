@@ -66,7 +66,7 @@ python pipeline/build_viewer_data.py
 python pipeline/serve.py
 ```
 
-Results are stored as JSON in `results/{collection}/`. Pipeline script documentation: [`pipeline/README.md`](pipeline/README.md). Result file documentation: [`results/README.md`](results/README.md).
+Results are stored as JSON in `results/{collection}/`. Two export formats: **Page-JSON v0.2** (internal working format with descriptive metadata) and **METS/MODS + PAGE XML** (archival exchange format, compatible with GAMS, Transkribus, eScriptorium, OCR-D). Pipeline script documentation: [`pipeline/README.md`](pipeline/README.md). Result file documentation: [`results/README.md`](results/README.md).
 
 ## Related projects
 

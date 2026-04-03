@@ -86,10 +86,10 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
                 ▼
  ┌─────────────────────────────────────┐
  │  4. Enrichment & Quality Signals    │
- │     quality_signals.py v1.4         │
+ │     quality_signals.py v1.5         │
  │     • page.type (content/blank/     │
  │       color_chart) pro Seite        │
- │     • DWR, Marker-Dichte, Duplikate │
+ │     • Marker-Dichte, Duplikate      │
  │     • Sprachkonsistenz (TEI vs. det)│
  │     • needs_review + Gruende        │
  └──────────────┬──────────────────────┘
@@ -103,12 +103,23 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
    (3 Modelle) → *_layout.json     → data/{collection}.json
         │               │           → docs/ Viewer
         │               ▼                    │
-        │       export_pagexml.py            │ Expert-Review
-        │       (deterministisch)            ▼
-        │       → *_page/page_NNN.xml  serve.py (lokaler Dev-Server)
-        │         (PAGE XML 2019)      POST /api/approve → JSON
-        └───────────────────────────┘  POST /api/edit → JSON
-                                       (review.status, edits)
+        │       export_page_json.py          │ Expert-Review
+        │       OCR + Layout + TEI-          ▼
+        │       Metadaten (MODS)       serve.py (lokaler Dev-Server)
+        │       → *_page.json          POST /api/approve → JSON
+        │         (Page-JSON v0.2)     POST /api/edit → JSON
+        │               │              (review.status, edits)
+        │               ▼
+        │       export_pagexml.py
+        │       (deterministisch)
+        │       → *_page/page_NNN.xml
+        │         (PAGE XML 2019)
+        │               │
+        └───────┬───────┘
+                ▼
+        METS/MODS + PAGE XML (Zielformat)
+        → Archiv- und Austauschformat
+        → GAMS-Reingest, teiCrafter, Transkribus
 ```
 
 ### Prompt-System (4 Schichten)
@@ -145,11 +156,12 @@ szd-htr/
 ├── requirements.txt                 ← google-genai, python-dotenv, markdown, pyyaml
 ├── .env                             ← API Keys (nicht committet)
 ├── schemas/
-│   ├── page-json-v0.1.json          ← Page-JSON Schema (Text + Layout + Metadaten)
+│   ├── page-json-v0.1.json          ← Page-JSON Schema v0.1 (Text + Layout)
+│   ├── page-json-v0.2.json          ← Page-JSON Schema v0.2 (+ deskriptive Metadaten, DC/MODS)
 │   └── layout-regions-v0.1.json     ← JSON-Schema fuer Layout-Analyse-Output (Legacy)
 ├── pipeline/                         ← Details → pipeline/README.md
 │   ├── config.py                    ← Pfade, API-Key, Sammlungs-Mapping, Konstanten
-│   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context()
+│   ├── tei_context.py               ← TEI-Parser, resolve_group(), format_context(), parse_tei_full_metadata()
 │   ├── transcribe.py                ← Batch-CLI: Einzel-/Sammlungs-/Gesamtmodus
 │   ├── quality_signals.py           ← 7 Signale + page.type (v1.5, DWR entfernt)
 │   ├── verify.py                    ← Modellkonsensus (Flash Lite + Flash + Claude Judge)
@@ -157,9 +169,9 @@ szd-htr/
 │   ├── build_viewer_data.py         ← Baut catalog.json + data/*.json + knowledge.json
 │   ├── serve.py                     ← Lokaler Dev-Server mit Review-API
 │   ├── import_reviews.py            ← Expert-Review Write-Back
-│   ├── layout_analysis.py           ← VLM-basierte Layout-Analyse
-│   ├── export_page_json.py          ← Merged OCR + Layout → Page-JSON
-│   ├── export_pagexml.py            ← Merged OCR + Layout → PAGE XML 2019
+│   ├── layout_analysis.py           ← Ensemble-Layout: Docling + Surya + Gemini 3 Flash
+│   ├── export_page_json.py          ← OCR + Layout + TEI-Metadaten → Page-JSON v0.2 (Arbeitsformat)
+│   ├── export_pagexml.py            ← Page-JSON → PAGE XML 2019 (Teil des Zielformats)
 │   ├── generate_gt.py               ← 3-Modell-GT-Pipeline
 │   ├── diagnose_truncation.py       ← Diagnose: Truncation-Erkennung
 │   ├── fraktur_postprocess.py       ← Diagnose: Fraktur-Korrekturvorschlaege (Prototyp)
@@ -195,7 +207,8 @@ szd-htr/
     ├── verification-concept.md      ← GT, quality_signals, Cross-Model, VbV, Agent-Verifikation (§8)
     ├── evaluation-results.md        ← CER-Baseline, Fehlertypologie
     ├── annotation-protocol.md       ← Transkriptionskonventionen
-    ├── htr-interchange-format.md    ← Page-JSON: Text + Layout + Metadaten
+    ├── htr-interchange-format.md    ← Page-JSON v0.2: Text + Layout + deskriptive Metadaten (Arbeitsformat)
+    ├── page-xml-mets-architecture.md ← PAGE XML, MODS und METS-Schichtenarchitektur (Zielformat)
     ├── layout-analysis.md           ← Layout-Analyse + PAGE XML Export
     ├── dia-xai-integration.md       ← DIA-XAI-Integration
     ├── security.md                  ← Security-Review (Threat Model, Mitigations)
@@ -259,7 +272,8 @@ python pipeline/build_viewer_data.py
 | Variable | Pflicht | Default | Beschreibung |
 |---|---|---|---|
 | `GOOGLE_API_KEY` | Ja | — | Gemini API Key |
-| `HTR_MODEL` | Nein | `gemini-3.1-flash-lite-preview` | Modell-ID |
+| `HTR_MODEL` | Nein | `gemini-3.1-flash-lite-preview` | Modell-ID (Transkription) |
+| `HTR_LAYOUT_MODEL` | Nein | `gemini-3-flash-preview` | Modell-ID (Layout VLM-Merger) |
 | `SZD_BACKUP_ROOT` | Nein | `C:/Users/Chrisi/.../szd-backup/data` | Pfad zum lokalen Backup |
 | `HTR_BATCH_DELAY` | Nein | `2.0` | Sekunden zwischen API-Calls |
 
@@ -287,22 +301,27 @@ Jedes Ergebnis in `results/{collection}/{object_id}_{model}.json`:
 }
 ```
 
-- `page.type`: `content` / `blank` / `color_chart` — gesetzt von `quality_signals.py`, Schema in `schemas/page-json-v0.1.json`
-- `quality_signals`: 8 Signale + DWR, Details in `quality_signals.py` und `verification-concept.md` §2
+- `page.type`: `content` / `blank` / `color_chart` — gesetzt von `quality_signals.py`, Schema in `schemas/page-json-v0.2.json`
+- `quality_signals`: 7 Signale (v1.5, DWR entfernt), Details in `quality_signals.py` und `verification-concept.md` §2
 - `review`: Optional, geschrieben von `serve.py` (API), `import_reviews.py` (CLI) oder Agent-Verifikation
+
+## Ausgabeformate
+
+Zwei komplementaere Formate:
+
+- **Page-JSON v0.2** (`*_page.json`): Internes Arbeitsformat. OCR + Layout + deskriptive Metadaten (Dublin Core + Materialtypologie) in einer JSON-Datei. Koordinaten optional (progressive Anreicherung). Schema: `schemas/page-json-v0.2.json`. Export: `pipeline/export_page_json.py`.
+- **METS/MODS + PAGE XML**: Archiv- und Austauschformat (Zielformat). METS-Container mit MODS-Metadaten (deskriptiv, GND-verknuepft) und PAGE XML 2019 pro Seite (Text + Layout). Kompatibel mit GAMS, Transkribus, eScriptorium, teiCrafter. Export: `pipeline/export_pagexml.py` (PAGE XML), METS/MODS-Export geplant.
 
 ## Technische Entscheidungen
 
 - **Gemini 3.1 Flash Lite** als primaeres VLM (guenstig, schnell, multimodal).
-- **Kein Preprocessing** — Bilder gehen unveraendert an die API. Optimale Bildgroesse ist ein offener Punkt.
-- **Alle Bilder an die API** — auch Leerseiten, weil Stefan Zweigs Schreibpraxis unregelmaessig ist (Verso-Seiten haben manchmal wichtige Notizen). Seitentyp-Klassifikation erfolgt post-hoc, nicht als Pre-Filter.
-- **3-Ebenen-Verifikation** statt naiver Konfidenz:
-  1. **Unsicherheits-Marker** (stark): Zaehlung von `[?]` und `[...]` im Transkriptionstext
-  2. **VLM-Selbsteinschaetzung** (schwach): high/medium/low aus dem Gemini-Output — LLMs ueberschaetzen ihre Leistung
-  3. **Textstatistik** (mittel): Zeichenzahl, Leerseiten, Zeichen/Seite als Plausibilitaets-Check
+- **Kein Preprocessing** — Bilder gehen unveraendert an die API.
+- **Alle Bilder an die API** — auch Leerseiten, weil Stefan Zweigs Schreibpraxis unregelmaessig ist. Seitentyp-Klassifikation erfolgt post-hoc, nicht als Pre-Filter.
+- **Quality Signals statt naiver Konfidenz** — VLM-Selbsteinschaetzung diskriminiert nicht (empirisch validiert). Signal-Precision: page_length 100%, page_image 100%, language 50%.
 - **Diplomatische Transkription** — keine Normalisierung, keine Korrektur. Markup: `[?]` unsicher, `[...]` unleserlich, `~~...~~` durchgestrichen, `{...}` Einfuegung.
 - **Bilder direkt von GAMS** im Viewer — kein lokaler Image-Store im Repo, GAMS-URLs als `<img src>`.
-- **Modellkonsensus statt manuellem GT** — Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell. Gemini Flash Lite (Modell A) + Gemini 3 Flash (Modell B), Claude als Judge fuer divergente Faelle.
+- **Modellkonsensus statt manuellem GT** — Zhang et al. 2025 (ICLR 2026): 3 Modelle + Judge skalierbarer als 30 Objekte manuell.
+- **Zwei Ausgabeformate** — Page-JSON (intern, Arbeitsformat, Viewer) + METS/MODS/PAGE XML (extern, Archiv, Austausch). Page-JSON wird zuerst erzeugt, METS/MODS daraus abgeleitet.
 
 ## Verwandte Projekte
 

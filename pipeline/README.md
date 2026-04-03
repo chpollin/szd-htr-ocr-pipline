@@ -42,13 +42,14 @@ Scripts die den regulaeren Datenfluss bilden (Transkription → Enrichment → E
 
 ## Export
 
-Scripts die Ergebnisse in andere Formate ueberfuehren:
+Zwei komplementaere Ausgabeformate: Page-JSON v0.2 (internes Arbeitsformat) und METS/MODS + PAGE XML (Archiv- und Austauschformat).
 
 | Script | Funktion |
 |---|---|
 | `layout_analysis.py` | VLM-basierte Layout-Analyse (Regionen + Bounding Boxes) |
-| `export_page_json.py` | Merged OCR + Layout → Page-JSON |
-| `export_pagexml.py` | Merged OCR + Layout → PAGE XML 2019 |
+| `export_page_json.py` | OCR + Layout + TEI-Metadaten → Page-JSON v0.2 (Arbeitsformat) |
+| `export_pagexml.py` | Page-JSON → PAGE XML 2019 (Teil des Zielformats) |
+| `export_mets.py` | METS-Container mit MODS + PAGE XML Referenzen (geplant) |
 
 ## Diagnose & Werkzeuge
 

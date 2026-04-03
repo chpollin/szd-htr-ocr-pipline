@@ -1,0 +1,316 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chpollin.github.io/szd-htr/schemas/page-json-v0.2.json",
+  "title": "Page-JSON Format v0.2",
+  "description": "JSON-Serialisierung des PAGE-XML-Datenmodells fuer VLM-basierte HTR/OCR. Vereint Text, Layout, deskriptive Metadaten und Qualitaetssignale. Koordinaten und Metadaten optional (progressive Anreicherung). v0.2: descriptive_metadata Block (Dublin Core + materialtypologische Erweiterungen).",
+  "type": "object",
+  "required": ["page_json", "source", "provenance", "pages"],
+
+  "$defs": {
+    "person_with_gnd": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "gnd":  { "type": "string", "format": "uri", "description": "GND authority URI (http://d-nb.info/gnd/...)" }
+      },
+      "additionalProperties": false
+    }
+  },
+
+  "properties": {
+
+    "page_json": {
+      "type": "string",
+      "enum": ["0.1", "0.2"],
+      "description": "Schema-Version"
+    },
+
+    "source": {
+      "type": "object",
+      "description": "Metadaten zum Quelldokument",
+      "required": ["id", "title", "language"],
+      "properties": {
+        "id":           { "type": "string", "description": "Eindeutige Objekt-ID (z.B. 'o_szd.100', 'BL_Add_MS_1234')" },
+        "title":        { "type": "string" },
+        "language":     { "type": "string", "pattern": "^[a-z]{2,3}$", "description": "ISO 639-1 oder ISO 639-3 (z.B. 'de', 'fr', 'en', 'la', 'und')" },
+        "date":         { "type": "string", "description": "Datierung des Dokuments (Freitext, z.B. '1918', 'ca. 1935-1940')" },
+        "document_type": {
+          "type": "string",
+          "enum": ["manuscript", "typescript", "letter", "postcard", "notebook", "diary", "form", "certificate", "newspaper_clipping", "proof_sheet", "register", "calendar", "ledger", "mixed_materials"],
+          "description": "Physischer Dokumenttyp (kontrolliertes Vokabular)"
+        },
+        "collection":   { "type": "string", "description": "Sammlungskontext (z.B. 'lebensdokumente', 'korrespondenzen')" },
+        "repository":   { "type": "string", "description": "Aufbewahrende Institution (einfacher String, fuer Details → descriptive_metadata.holding)" },
+        "shelfmark":    { "type": "string", "description": "Signatur" },
+        "images":       {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" },
+          "description": "URIs der Quellbilder in Seitenreihenfolge"
+        },
+        "descriptive_metadata": {
+          "type": "object",
+          "description": "Deskriptive Metadaten zum physischen Objekt (Dublin Core + materialtypologische Erweiterungen). Alle Felder optional.",
+          "properties": {
+            "creator": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "role": { "type": "string", "enum": ["author", "editor", "contributor", "scribe"], "description": "Rolle der Person" },
+                  "gnd":  { "type": "string", "format": "uri", "description": "GND authority URI" }
+                },
+                "additionalProperties": false
+              },
+              "description": "dc:creator — Autoren, Herausgeber, Beitraeger mit optionalen Normdaten"
+            },
+            "subject": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "dc:subject — Klassifikationsbegriffe (z.B. 'Verlagsvertraege', 'Tagebuecher')"
+            },
+            "origin_place": {
+              "type": "string",
+              "description": "dct:spatial — Entstehungsort (z.B. 'New York', 'Salzburg')"
+            },
+            "extent": {
+              "type": "string",
+              "description": "dct:extent — Physischer Umfang (z.B. '1 Blatt', '38 Blatt, 18 Blatt beschrieben')"
+            },
+            "rights": {
+              "type": "string",
+              "description": "dc:rights — Lizenz oder Rechtehinweis (z.B. 'CC-BY')"
+            },
+            "holding": {
+              "type": "object",
+              "description": "Archivkontext — aufbewahrende Institution mit Normdaten und Standort",
+              "properties": {
+                "repository":     { "type": "string", "description": "Name der Institution" },
+                "repository_gnd": { "type": "string", "format": "uri", "description": "GND-URI der Institution" },
+                "country":        { "type": "string" },
+                "settlement":     { "type": "string" }
+              },
+              "additionalProperties": false
+            },
+            "provenance": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "dct:provenance — Provenienz-Kette, chronologisch (z.B. ['Archiv Atrium Press', 'Erwerb: Ankauf Christies 2014'])"
+            },
+            "physical_description": {
+              "type": "object",
+              "description": "Materialtypologische Eigenschaften (kein Dublin-Core-Pendant)",
+              "properties": {
+                "writing_instrument": { "type": "string", "description": "Schreibinstrument (z.B. 'Violette Tinte, Bleistift')" },
+                "writing_material":   { "type": "string", "description": "Beschreibstoff (z.B. 'Kariertes Papier', 'gelocht')" },
+                "hands": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "Identifizierte Schreiberhaende (z.B. ['Stefan Zweig', 'Lotte Altmann', 'fremde Hand'])"
+                },
+                "dimensions":   { "type": "string", "description": "Physische Masse (z.B. '33x22 cm')" },
+                "binding":      { "type": "string", "description": "Einband-Beschreibung" },
+                "inscriptions": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "description": "Aufschriften, Pragestempel, Beschriftungen"
+                }
+              },
+              "additionalProperties": false
+            },
+            "correspondence": {
+              "type": "object",
+              "description": "Korrespondenz-Metadaten (nur bei Briefen, aus TEI correspDesc)",
+              "properties": {
+                "sender":    { "$ref": "#/$defs/person_with_gnd" },
+                "recipient": { "$ref": "#/$defs/person_with_gnd" },
+                "direction": {
+                  "type": "string",
+                  "enum": ["sent", "received"],
+                  "description": "Korrespondenzrichtung relativ zur Hauptperson"
+                }
+              },
+              "additionalProperties": false
+            },
+            "notes": {
+              "type": "string",
+              "description": "Katalogisierungsnotizen (TEI notesStmt)"
+            }
+          },
+          "additionalProperties": false
+        },
+        "additional": {
+          "type": "object",
+          "description": "Projektspezifische Metadaten (z.B. SZD-Gruppe, TEI-Kontext)",
+          "additionalProperties": true
+        }
+      }
+    },
+
+    "provenance": {
+      "type": "object",
+      "description": "Wie und wann die Transkription erzeugt wurde",
+      "required": ["model", "created_at"],
+      "properties": {
+        "model":        { "type": "string", "description": "Modell-ID fuer Transkription (z.B. 'gemini-3.1-flash-lite-preview')" },
+        "provider":     { "type": "string", "description": "API-Anbieter (z.B. 'google', 'anthropic', 'openai')" },
+        "created_at":   { "type": "string", "format": "date-time", "description": "Zeitstempel der Transkription (ISO 8601)" },
+        "pipeline":     { "type": "string", "description": "Name/Version der HTR-Pipeline (z.B. 'szd-htr 0.4')" },
+        "prompt_layers": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Verwendete Prompt-Schichten (z.B. ['system', 'group_handschrift', 'object_context'])"
+        },
+        "parameters":   {
+          "type": "object",
+          "description": "Modell-Parameter (temperature, top_p, max_tokens etc.)",
+          "additionalProperties": true
+        },
+        "layout_model": {
+          "type": "string",
+          "description": "Modell-ID fuer Layout-Analyse (wenn abweichend vom Transkriptionsmodell)"
+        }
+      }
+    },
+
+    "pages": {
+      "type": "array",
+      "description": "Seitenarray — Kern des Formats",
+      "items": {
+        "type": "object",
+        "required": ["page", "type", "text"],
+        "properties": {
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Seitennummer (1-basiert, entspricht Bild-Index)"
+          },
+          "image": {
+            "type": "string",
+            "description": "Bildverweis (Dateiname z.B. 'IMG_1.jpg' oder URI)"
+          },
+          "image_width": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Bildbreite in Pixel (required wenn regions vorhanden)"
+          },
+          "image_height": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Bildhoehe in Pixel (required wenn regions vorhanden)"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["content", "blank", "color_chart"],
+            "description": "Seitentyp: content (Text), blank (leer), color_chart (Farbskala)"
+          },
+          "text": {
+            "type": "string",
+            "description": "Transkribierter Volltext der Seite (leer bei blank/color_chart)"
+          },
+          "notes": {
+            "type": "string",
+            "description": "Beobachtungen des Modells zu dieser Seite"
+          },
+          "regions": {
+            "type": "array",
+            "description": "Layout-Regionen (optional, via layout_analysis.py hinzugefuegt)",
+            "items": {
+              "type": "object",
+              "required": ["id", "type", "bbox", "reading_order"],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^r\\d+$",
+                  "description": "Region-ID (z.B. 'r1', 'r2')"
+                },
+                "type": {
+                  "type": "string",
+                  "enum": ["paragraph", "heading", "list", "table", "marginalia"],
+                  "description": "Regionstyp"
+                },
+                "bbox": {
+                  "type": "array",
+                  "items": { "type": "number", "minimum": 0, "maximum": 100 },
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "description": "Bounding Box als [x%, y%, breite%, hoehe%] relativ zur Seite (0-100)"
+                },
+                "reading_order": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "description": "Lesereihenfolge (1, 2, 3, ...)"
+                },
+                "text": {
+                  "type": "string",
+                  "description": "Text innerhalb dieser Region"
+                },
+                "lines": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "description": "Geschaetzte Anzahl Textzeilen"
+                },
+                "label": {
+                  "type": "string",
+                  "description": "Kurze Beschreibung der Region"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "Kategoriale Selbsteinschaetzung des Modells (Gesamt)"
+    },
+
+    "confidence_notes": {
+      "type": "string",
+      "description": "Begruendung der Konfidenz-Einschaetzung"
+    },
+
+    "quality": {
+      "type": "object",
+      "description": "Automatisch berechnete Qualitaetssignale (optional, pipeline-abhaengig)",
+      "properties": {
+        "needs_review":         { "type": "boolean" },
+        "needs_review_reasons": { "type": "array", "items": { "type": "string" } },
+        "total_chars":          { "type": "integer" },
+        "total_words":          { "type": "integer" },
+        "marker_density":       { "type": "number", "description": "([?] + [...]) / Wortanzahl" },
+        "duplicate_page_pairs": { "type": "array", "items": { "type": "array", "items": { "type": "integer" } } },
+        "language_detected":    { "type": "string" },
+        "language_match":       { "type": "boolean" }
+      },
+      "additionalProperties": true
+    },
+
+    "evaluation": {
+      "type": "object",
+      "description": "Evaluationsmetriken gegen Ground Truth (optional)",
+      "properties": {
+        "cer":            { "type": "number", "description": "Character Error Rate (0.0 = perfekt)" },
+        "wer":            { "type": "number", "description": "Word Error Rate" },
+        "cer_per_page":   { "type": "array", "items": { "type": "number" } },
+        "reference":      { "type": "string", "description": "Verweis auf Referenz-Datei oder -ID" },
+        "evaluated_at":   { "type": "string", "format": "date-time" }
+      }
+    },
+
+    "review": {
+      "type": "object",
+      "description": "Review-Status (nach Expert-Review oder Agent-Verifikation)",
+      "properties": {
+        "status":         { "type": "string", "enum": ["approved", "agent_verified"], "description": "Review-Stufe" },
+        "edited_pages":   { "type": "array", "items": { "type": "integer" }, "description": "Bearbeitete Seitennummern" },
+        "reviewed_by":    { "type": "string", "description": "Name des Reviewers oder Agents" },
+        "reviewed_at":    { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}

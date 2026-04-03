@@ -10,8 +10,8 @@ Jede Sammlung hat einen Unterordner. Pro Objekt koennen mehrere Dateien existier
 | `{id}_consensus.json` | `o_szd.100_consensus.json` | **Modellkonsensus** — Vergleich von 2-3 Modellen (Flash Lite + Flash/Pro + Claude Judge). Erzeugt von `verify.py`. |
 | `{id}_gemini-3.1-pro.json` | `o_szd.100_gemini-3.1-pro.json` | **Zweittranskription** — Gemini Pro als Vergleichsmodell fuer Konsensus. |
 | `{id}_layout.json` | `o_szd.100_layout.json` | **Layout-Analyse** — VLM-basierte Regionenerkennung (Bounding Boxes). Erzeugt von `layout_analysis.py`. |
-| `{id}_page.json` | `o_szd.100_page.json` | **Merged Page-JSON** — Transkription + Layout zusammengefuehrt. Erzeugt von `export_page_json.py`. |
-| `{id}_page/` | `o_szd.100_page/page_001.xml` | **PAGE XML Export** — PAGE XML 2019 pro Seite. Erzeugt von `export_pagexml.py`. |
+| `{id}_page.json` | `o_szd.100_page.json` | **Page-JSON v0.2** (Arbeitsformat) — OCR + Layout + deskriptive Metadaten (Dublin Core/MODS). Erzeugt von `export_page_json.py`. |
+| `{id}_page/` | `o_szd.100_page/page_001.xml` | **PAGE XML 2019** (Teil des Zielformats) — eine Datei pro Seite. Erzeugt von `export_pagexml.py`. |
 | `{id}_gt_draft.json` | (nur in `groundtruth/`) | **GT-Draft** — 3-Modell-Konsensus als Grundlage fuer manuelles Ground-Truth-Review. |
 
 ## Ordnerstruktur

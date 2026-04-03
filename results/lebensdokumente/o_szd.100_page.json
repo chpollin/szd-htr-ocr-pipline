@@ -1,0 +1,313 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.100",
+    "title": "Agreement Longmans, Green & Co. Inc.",
+    "language": "en",
+    "collection": "lebensdokumente",
+    "shelfmark": "SZ-AAP/L13.23",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.100/IMG.1",
+      "https://gams.uni-graz.at/o:szd.100/IMG.2",
+      "https://gams.uni-graz.at/o:szd.100/IMG.3"
+    ],
+    "date": "twelfth day of September, 1938",
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Lotte Zweig",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116001151"
+        }
+      ],
+      "subject": [
+        "Verlagsverträge"
+      ],
+      "origin_place": "New York",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier, schwarze und violette Tinte",
+        "writing_material": "gelocht",
+        "hands": [
+          "Stefan Zweig",
+          "Lotte Altmann",
+          "fremde Hand"
+        ],
+        "dimensions": "33x22 cm"
+      },
+      "notes": "Eigenhändige Unterschrift in violetter Tinte, Unterschriften von Lotte Altmann und von fremder Hand, Prägestempel"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Agreement Longmans, Green & Co. Inc.\n- Signatur: SZ-AAP/L13.23\n- Datum: twelfth day of September, 1938\n- Sprache: Englisch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarzes Durchschlagpapier, schwarze und violette Tinte\n- Hand: Stefan Zweig, Lotte Altmann, fremde Hand\n- Anmerkungen: Eigenhändige Unterschrift in violetter Tinte, Unterschriften von Lotte Altmann und von fremder Hand, Prägestempel"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T14:41:36.638914+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "THIS AGREEMENT\n\nis made this twelfth day of September, 1938 between Stefan Zweig of 49 Hallam\nStreet, London, W. 1., England, of the first part and Longmans, Green & Co. Inc.,\nof 114 Fifth Avenue, New York, N. Y. of the second part whereby it is mutually\nagreed as follows:\n\n1. The said Stefan Zweig agrees to furnish and deliver to the said Long-\nmans, Green & Co. Inc. not later than October 31, 1938 a treatise in the German\nlanguage containing about six thousand words to be used as a preface in a work\nwhich is to be published by the said Longmans, Green & Co. Inc. entitled\n\nTHE LIVING THOUGHTS OF TOLSTOI\nPRESENTED BY STEFAN ZWEIG\n\ntogether with a condensation to run from thirty thousand (30,000) to thirty-\nfive thousand (35,000) words, said condensation to be indicated in German\neditions of Tolstoi's works, and a biography of Tolstoi of fifty to a hundred\nwords.\n\n2. The copyright in this treatise and condensation including all foreign\ncopyrights and all rights of translation and reproduction and all other rights\nshall be the property of the said Longmans, Green & Co. Inc. subject to the pay-\nment to the said Stefan Zweig of six hundred sixty-six dollars and sixty-seven\ncents ($666.67) to be paid on the acceptance of the manuscript by the said Long-\nmans, Green & Co. Inc.\n\n3. The said Longmans, Green & Co. Inc. shall be at liberty to deduct\nfrom any payment, or payments, which may become due to the said Stefan Zweig\nunder this agreement any sum, or sums, which the said Longmans, Green & Co. Inc.\nshall be under statutory obligation to pay in respect of income tax.\n\n4. The said Longmans, Green & Co. Inc. will present to the said Stefan\nZweig upon publication, five (5) copies of the said work gratis.\n\nIN WITNESS WHEREOF the parties hereto have hereunto subscribed their names\nand affixed their seals the day and year first above written.\n\nIn the presence of\n\n[Lotte Altmann signature] \nWitness\n\n[Signature of witness] \nWitness\n\nStefan Zweig [Signature]\nAuthor\n\nLongmans, Green & Company, Inc.\nBy Edward Mill [Signature] (Secretary)",
+      "notes": "Die Unterschriften wurden als Platzhalter in Klammern gesetzt, da sie handschriftlich sind. Die Identifikation der Namen (Lotte Altmann, Edward Mill) basiert auf den bereitgestellten Metadaten.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            3.9,
+            2.9,
+            4.8,
+            0.3
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Titel des Dokuments"
+        },
+        {
+          "id": "r2",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            3.2,
+            12.6,
+            1.0
+          ],
+          "reading_order": 2,
+          "lines": 4,
+          "label": "Einleitungstext"
+        },
+        {
+          "id": "r3",
+          "type": "list",
+          "bbox": [
+            3.9,
+            4.3,
+            12.6,
+            0.8
+          ],
+          "reading_order": 3,
+          "lines": 4,
+          "label": "Vertragspunkt 1"
+        },
+        {
+          "id": "r4",
+          "type": "heading",
+          "bbox": [
+            7.6,
+            5.1,
+            8.9,
+            0.3
+          ],
+          "reading_order": 4,
+          "lines": 2,
+          "label": "Buchtitel"
+        },
+        {
+          "id": "r5",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            5.4,
+            12.6,
+            0.6
+          ],
+          "reading_order": 5,
+          "lines": 3,
+          "label": "Fortsetzung Vertragspunkt 1"
+        },
+        {
+          "id": "r6",
+          "type": "list",
+          "bbox": [
+            3.9,
+            6.1,
+            12.6,
+            0.8
+          ],
+          "reading_order": 6,
+          "lines": 4,
+          "label": "Vertragspunkt 2"
+        },
+        {
+          "id": "r7",
+          "type": "list",
+          "bbox": [
+            3.9,
+            7.0,
+            12.6,
+            0.6
+          ],
+          "reading_order": 7,
+          "lines": 3,
+          "label": "Vertragspunkt 3"
+        },
+        {
+          "id": "r8",
+          "type": "list",
+          "bbox": [
+            3.9,
+            7.7,
+            12.6,
+            0.3
+          ],
+          "reading_order": 8,
+          "lines": 2,
+          "label": "Vertragspunkt 4"
+        },
+        {
+          "id": "r9",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            8.2,
+            12.6,
+            0.3
+          ],
+          "reading_order": 9,
+          "lines": 2,
+          "label": "Abschlusssatz"
+        },
+        {
+          "id": "r10",
+          "type": "heading",
+          "bbox": [
+            3.9,
+            8.7,
+            2.8,
+            0.2
+          ],
+          "reading_order": 10,
+          "lines": 1,
+          "label": "Anwesenheitsvermerk"
+        },
+        {
+          "id": "r11",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            8.9,
+            2.8,
+            0.3
+          ],
+          "reading_order": 11,
+          "lines": 1,
+          "label": "Unterschriftenlabel Zeuge"
+        },
+        {
+          "id": "r12",
+          "type": "paragraph",
+          "bbox": [
+            10.9,
+            8.9,
+            2.8,
+            0.3
+          ],
+          "reading_order": 12,
+          "lines": 1,
+          "label": "Unterschriftenlabel Autor"
+        },
+        {
+          "id": "r13",
+          "type": "paragraph",
+          "bbox": [
+            3.9,
+            9.7,
+            2.8,
+            0.3
+          ],
+          "reading_order": 13,
+          "lines": 1,
+          "label": "Unterschriftenlabel Zeuge 2"
+        },
+        {
+          "id": "r14",
+          "type": "paragraph",
+          "bbox": [
+            10.9,
+            9.3,
+            5.5,
+            0.3
+          ],
+          "reading_order": 14,
+          "lines": 1,
+          "label": "Firmenname"
+        },
+        {
+          "id": "r15",
+          "type": "paragraph",
+          "bbox": [
+            10.9,
+            9.7,
+            5.5,
+            0.3
+          ],
+          "reading_order": 15,
+          "lines": 1,
+          "label": "Unterschriftenlabel Sekretär"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Das Bild zeigt lediglich die Rückseite des Dokuments (Durchschlag-Effekt), kein neuer Text."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Das Bild zeigt lediglich die Rückseite des Dokuments mit Farb- und Graukarte, kein neuer Text."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist ein gut lesbares Typoskript. Die handschriftlichen Unterschriften sind als solche erkennbar, die Identifikation der Namen stützt sich auf die bereitgestellten Kontextinformationen.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 2057,
+    "total_words": 356,
+    "language_detected": "en",
+    "language_match": true
+  },
+  "review": {
+    "status": "approved",
+    "edited_pages": [],
+    "reviewed_by": "Christopher Pollin",
+    "reviewed_at": "2026-04-03T07:13:55.301424+00:00"
+  }
+}

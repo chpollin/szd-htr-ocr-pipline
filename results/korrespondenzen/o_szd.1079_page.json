@@ -1,0 +1,148 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.1079",
+    "title": "Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1",
+    "language": "de",
+    "collection": "korrespondenzen",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.1079/IMG.1",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.2",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.3",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.4",
+      "https://gams.uni-graz.at/o:szd.1079/IMG.5"
+    ],
+    "document_type": "letter",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "korrespondenz",
+      "context": "## Dieses Dokument\n\n- Titel: Brief an Max Fleischer vom 22. Mai 1901, SZ-LAS/B3.1\n- Signatur: SZ-LAS/B3.1\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 5 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-03T14:42:02.206776+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_korrespondenz",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Wohlgeboren\n\nHerrn Max Fleischer\nSchriftsteller\n\nKomotau\nBöhmen",
+      "notes": "Adressseite des Briefumschlags. Poststempel 'WIEN 1/1 22.5.01' und Briefmarke vorhanden.",
+      "image": "IMG_1.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            17.5,
+            37.9,
+            34.9,
+            5.2
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Honorific 'Wohlgeboren'",
+          "source": "surya"
+        },
+        {
+          "id": "r2",
+          "type": "heading",
+          "bbox": [
+            27.1,
+            44.9,
+            45.9,
+            18.5
+          ],
+          "reading_order": 2,
+          "lines": 4,
+          "label": "Adressfeld: Max Fleischer, Konstanz (Poststempel Wien 22.5.04)",
+          "source": "merged"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "STEFAN ZWEIG",
+      "notes": "Rückseite des Briefumschlags. Poststempel 'KOMOTAU 23.5.01'.",
+      "image": "IMG_2.jpg",
+      "image_width": 4912,
+      "image_height": 7360,
+      "regions": [
+        {
+          "id": "r1",
+          "type": "heading",
+          "bbox": [
+            46.3,
+            44.0,
+            7.7,
+            1.0
+          ],
+          "reading_order": 1,
+          "lines": 1,
+          "label": "Briefkopf, gedruckt (Absender Stefan Zweig); Poststempel rechts daneben",
+          "source": "docling"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Lieber Herr Fleischer! Ich hoffe Sie werden sich als Dichter zu einer\ngenügend hohen Weltauffassung erhoben haben, um sich nicht\nüber mein gräßliches Briefpapier (das letzte Dutzend!) zu mokieren!\nIch danke Ihnen recht herzlich für Ihre liebe Kartennotiz. Ihr Buch\nging mir noch nicht zu, doch las ich es mit aufrichtiger Freude\nbei Donath durch und schrieb eine Kritik ins Residenzblatt,\ndie bald erscheint. Sie geht selbstverständlich nicht tief -\nes ist ja ein Familienblatt und man muß sich immer dem\nRahmen anpassen - aber ich hoffe Sie wird Ihnen nicht\nmißfallen. Schaden ganz sicher nicht!\nIhre Absicht mit Donath ist wunderbar, nur glaube\nich nicht daß er nach Karlsbad wird abkommen können,\nda es so viel wahrscheinlicher, daß Sie nach fahren, der\nich nun geschlagene 16 Jahre nach Marienbad gehen muß\n(wie Sie aber wissen, nicht der Kur halber). Ich würde den\nAbstecher zu Karlsbad gar keinem Falle hier nicht scheuen,\nes kann ja auch allzu weit sein.\nIch habe hier jetzt zwar sehr angenehm, wie das\naber Hand in Hand geht, bäuerlich faul. Nicht einmal\nGerichte wahr, die mir zu einem Aufsatz über Franz\nEvers (für die Stimmen der Gegenwart) habe ich\nmich aufgerafft. Hoffentlich machen Sie es da besser,\nobwohl Sie eine Staatsprüfung haben. In so einer\nidealen Freude, wie dort, muß doch selbst das\nLernen durch Naturgefühl und Einsamkeit ver-\nklärt sein. Ich, der ich eigentlich nie die Allein-\nsamkeit ganz erlebt habe, halte mir das wunder-\nschön vor. Ich glaube da fielen mir mehr Gedichte\nein als hier in Wien, wo ich mich total verbüchere,\ndurch Spazierengehen, herumträumen, Freunde etc.\nDas einzige Wesentliche ist, daß ich viel lese.",
+      "notes": "Erste Seite des Briefes. Handschrift in violetter Tinte."
+    },
+    {
+      "page": 4,
+      "type": "content",
+      "text": "Leider Gottes muß ich jetzt hier schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+      "notes": "Zweite Seite des Briefes."
+    },
+    {
+      "page": 5,
+      "type": "color_chart",
+      "text": "Leider Gottes muß ich jetzt hier schließen. Ich schreibe\naber nächstens, sobald ich Zeit finde. Mein Buch habe\nich noch nicht von Schuster & Löffler bekommen, aber\nbereits bestellt, Sie bekommen es im Laufe dieser\nWoche. Für die Schrift es bedenken zu wollen bin ich\nIhnen dankbar und grüße Sie herzlichst\nals Ihr freundschaftlich ergebenster\n\nStefan Zweig",
+      "notes": "Wiederholung der zweiten Seite mit Farbkarten-Referenz."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Die Handschrift ist gut lesbar, trotz einiger orthographischer Eigenheiten des Autors (z.B. 'gräßliches' statt 'grässliches', 'daß' statt 'dass'). Die violette Tinte ist auf dem hellen Papier sehr kontrastreich.",
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ],
+    "total_chars": 2440,
+    "total_words": 396,
+    "language_detected": "de",
+    "language_match": true
+  },
+  "review": {
+    "status": "agent_verified",
+    "agent_model": "claude-opus-4-6",
+    "errors_found": 3,
+    "estimated_accuracy": 0.997,
+    "edited_pages": [
+      3,
+      4
+    ],
+    "notes": "Page 3: 'aufrichtigen' -> 'aufrichtiger' (dative ending), 'auch tief' -> 'nicht tief' (contextual misread). Page 4: 'Ihre' -> 'hier' (letter swap). Several other lines on page 3 remain uncertain (dense Kurrent) but no confident corrections possible.",
+    "reviewed_by": "Claude Code Agent",
+    "reviewed_at": "2026-04-02T16:00:00Z"
+  }
+}
