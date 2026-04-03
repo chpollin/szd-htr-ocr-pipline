@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2415",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Masaryk, SZ-AAP/W-AA137.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2415/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2415/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2415/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2415/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2415/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2415/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2415/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Masaryk\n- Signatur: SZ-AAP/W-AA137.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Masaryk\n\n\n\nMasaryk",
+        "notes": "Handschriftliches Dokument auf beigem Papier. Der Name 'Masaryk' erscheint zweimal, einmal oben links unterstrichen und einmal mittig.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Ausschnitt/Detailaufnahme des oberen Teils des Dokuments.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Masaryk",
+        "notes": "Ausschnitt/Detailaufnahme des unteren Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Masaryk",
+        "notes": "Rückseite des Dokuments, durchscheinende Schrift des Namens 'Masaryk' erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Masaryk",
+        "notes": "Ausschnitt/Detailaufnahme des oberen Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Masaryk",
+        "notes": "Ausschnitt/Detailaufnahme des unteren Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Masaryk\n\n\n\nMasaryk",
+        "notes": "Gesamtaufnahme des Dokuments mit Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text besteht lediglich aus dem Namen 'Masaryk', der deutlich lesbar ist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 64,
+    "total_words": 8,
+    "total_pages": 4,
+    "empty_pages": 1,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      18,
+      0,
+      7,
+      7,
+      7,
+      7,
+      18
+    ],
+    "chars_per_page_median": 7.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

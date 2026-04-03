@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2417",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Masereel, Frans, SZ-AAP/W-AA138.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2417/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2417/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2417/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2417/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2417/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2417/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2417/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Masereel, Frans\n- Signatur: SZ-AAP/W-AA138.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Ein Roman ohne Worte\n                        (Masereel)\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "(Masereel, Frans)\nEin Roman ohne Worte\nF.M.'s Ulenspiegel\nDer Holzschneider F.M.\nVorwort zum Ausstellungskatalog London 1936\n\nEin Roman ohne Worte\n(Masereel)\nUlenspiegel\nDer Holzschneider F.M.\nVorwort zum Ausstellungskatalog",
+        "notes": "Handschrift in violetter Tinte. Das Dokument besteht aus zwei Teilen, die übereinandergelegt oder montiert sind.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Ein Roman ohne Worte\n(Masereel)\nUlenspiegel\nDer Holzschneider F.M.\nVorwort zum Ausstellungskatalog",
+        "notes": "Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "(Masereel, Frans)\nEin Roman ohne Worte\nF.M.'s Ulenspiegel\nDer Holzschneider F.M.\nVorwort zum Ausstellungskatalog London 1936",
+        "notes": "Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "(Masereel, Frans)\nEin Roman ohne Worte\nF.M.'s Ulenspiegel\nDer Holzschneider F.M.\nVorwort zum Ausstellungskatalog London 1936\n\nEin Roman ohne Worte\n(Masereel)\nUlenspiegel\nDer Holzschneider F.M.\nVorwort zum Ausstellungskatalog",
+        "notes": "Farbskala und Grauskala für Archivierung. Dokument wie auf Seite 1.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 670,
+    "total_words": 84,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      224,
+      0,
+      98,
+      0,
+      124,
+      0,
+      224
+    ],
+    "chars_per_page_median": 124,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

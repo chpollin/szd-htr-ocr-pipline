@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2412",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Martinet, Marcel, SZ-AAP/W-AA136.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2412/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2412/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2412/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2412/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2412/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2412/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2412/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Martinet, Marcel\n- Signatur: SZ-AAP/W-AA136.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Martinet, Marcel",
+        "notes": "Handschriftliche Notiz auf einem Blatt Papier. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Brandfleck/Stockfleck am linken Rand.",
+        "type": "blank"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Brandfleck/Stockfleck am rechten Rand.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Martinet, Marcel",
+        "notes": "Handschriftliche Notiz auf einem Blatt Papier. Violette Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Brandfleck/Stockfleck am rechten Rand.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Martinet, Marcel",
+        "notes": "Handschriftliche Notiz auf einem Blatt Papier. Violette Tinte. Mit Farb- und Grauskala für Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 48,
+    "total_words": 6,
+    "total_pages": 2,
+    "empty_pages": 4,
+    "blank_pages": 4,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      16,
+      0,
+      0,
+      0,
+      16,
+      0,
+      16
+    ],
+    "chars_per_page_median": 16.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

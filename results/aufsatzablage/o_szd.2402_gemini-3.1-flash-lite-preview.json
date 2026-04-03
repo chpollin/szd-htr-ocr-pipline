@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2402",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Proust, Marcel, SZ-AAP/W-AA157.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2402/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2402/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2402/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2402/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2402/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2402/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2402/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Proust, Marcel\n- Signatur: SZ-AAP/W-AA157.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Proust's Marcel tragischer\n                        Lebenslauf\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Proust, Marcel\nM. P.'s tragischer Lebenslauf\n\nProust's Marcel\ntragischer Lebenslauf",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Es handelt sich um ein Deckblatt oder eine Beschriftung.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Proust's Marcel\ntragischer Lebenslauf",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Dies ist die Rückseite des oberen Teils des Dokuments (durchscheinend).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Proust's Marcel\ntragischer Lebenslauf",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Dies ist die Rückseite des unteren Teils des Dokuments (durchscheinend).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Proust, Marcel\nM. P.'s tragischer Lebenslauf",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Dies ist die Vorderseite des oberen Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Proust's Marcel\ntragischer Lebenslauf",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Dies ist die Vorderseite des unteren Teils des Dokuments.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Proust, Marcel\nM. P.'s tragischer Lebenslauf\n\nProust's Marcel\ntragischer Lebenslauf",
+        "notes": "Gesamtansicht des Dokuments mit Grauskala und Farbkarte zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz, deutlich geschrieben und wiederholt sich auf den verschiedenen Scans."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 321,
+    "total_words": 38,
+    "total_pages": 5,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 5,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      83,
+      0,
+      37,
+      37,
+      44,
+      37,
+      83
+    ],
+    "chars_per_page_median": 37,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

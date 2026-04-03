@@ -33,6 +33,17 @@
   --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', Consolas, Monaco, 'Courier New', monospace;
+  /* Review trust tiers (dark green → green → slate → gray → amber) */
+  --sz-review-verified: #1a5c1a;
+  --sz-review-verified-bg: #c8e6c8;
+  --sz-review-approved: #2d6a2d;
+  --sz-review-approved-bg: #d4e8d4;
+  --sz-review-auto: #475569;
+  --sz-review-auto-bg: #e2e8f0;
+  --sz-review-unchecked: #4b5563;
+  --sz-review-unchecked-bg: #e5e7eb;
+  --sz-review-flagged: #b45309;
+  --sz-review-flagged-bg: #fef3c7;
   --max-width: 1400px;
   --header-height: 56px;
   --transition: 0.15s ease;
@@ -128,30 +139,31 @@ a:hover { color: var(--sz-burgundy-dark); }
   letter-spacing: 0.03em;
   color: var(--sz-white);
   display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  align-items: baseline;
+  gap: 0.6rem;
 }
 
-.site-header__title span {
-  font-size: 0.75rem;
-  opacity: 0.7;
+.site-header__subtitle {
+  font-size: 0.65rem;
+  opacity: 0.55;
   font-family: var(--font-sans);
   letter-spacing: 0.02em;
+  font-style: italic;
 }
 
 .site-header__badge {
   font-family: var(--font-sans);
-  font-size: 0.65rem;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.4);
   letter-spacing: 0.03em;
-  padding: 0.2rem 0.6rem;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0.15rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 3px;
   white-space: nowrap;
 }
 
 .site-header__badge strong {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 600;
 }
 
@@ -617,12 +629,6 @@ body.view-stats #help { display: none; }
   letter-spacing: 0.02em;
 }
 
-.badge-vlm {
-  background: var(--sz-border-light);
-  color: var(--sz-text-light);
-  font-size: 0.65rem;
-  font-weight: 400;
-}
 
 .badge-markers {
   font-weight: 500;
@@ -672,11 +678,13 @@ body.view-stats #help { display: none; }
 .agreement-low { background: var(--sz-danger); }
 .agreement-skipped { background: var(--sz-text-light); }
 
-/* LLM-generated indicator */
-.llm-sparkle {
-  font-size: 0.7em;
+/* Source indicator (human vs. machine) */
+.indicator-source {
+  font-size: 0.65em;
   opacity: 0.45;
   margin-left: 0.15em;
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* DWR score badges */
@@ -689,68 +697,47 @@ body.view-stats #help { display: none; }
 .badge-page-blank { background: var(--sz-border-light); color: var(--sz-text-light); }
 .badge-page-chart { background: var(--sz-warning-bg); color: var(--sz-gold); }
 
-/* Review indicators */
+/* Review status badges — unified 5-tier pill system */
 .badge-review {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.2rem;
   font-size: 0.72rem;
-  font-weight: 500;
-}
-
-.badge-review-yes {
-  color: var(--sz-danger);
-}
-
-.badge-review-yes::before {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--sz-danger);
-}
-
-.badge-review-llm-ok {
-  color: var(--sz-warning);
-}
-
-.badge-review-llm-ok::before {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--sz-warning);
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  white-space: nowrap;
+  letter-spacing: 0.02em;
 }
 
 .badge-review-verified {
-  color: #fff;
-  background: var(--sz-success);
-  padding: 0.1rem 0.4rem;
-  border-radius: 3px;
-  font-weight: 600;
+  background: var(--sz-review-verified-bg);
+  color: var(--sz-review-verified);
 }
 
 .badge-review-approved {
-  color: #fff;
-  background: var(--sz-success);
-  padding: 0.1rem 0.4rem;
-  border-radius: 3px;
-  font-weight: 600;
+  background: var(--sz-review-approved-bg);
+  color: var(--sz-review-approved);
 }
 
-.badge-review-agent {
-  color: #fff;
-  background: #2563eb;
-  padding: 0.1rem 0.4rem;
-  border-radius: 3px;
-  font-weight: 600;
+.badge-review-auto {
+  background: var(--sz-review-auto-bg);
+  color: var(--sz-review-auto);
+}
+
+.badge-review-unchecked {
+  background: var(--sz-review-unchecked-bg);
+  color: var(--sz-review-unchecked);
+}
+
+.badge-review-flagged {
+  background: var(--sz-review-flagged-bg);
+  color: var(--sz-review-flagged);
 }
 
 .catalog__stats-chip--agent {
-  background: #dbeafe;
-  color: #1e40af;
+  background: var(--sz-review-auto-bg);
+  color: var(--sz-review-auto);
 }
 
 /* Page anomaly marker */
@@ -870,10 +857,10 @@ body.view-stats #help { display: none; }
   gap: 0.4rem;
 }
 
-.catalog__stats-chip--review-warn { background: var(--sz-danger-bg); }
-.catalog__stats-chip--llm-ok { background: var(--sz-warning-bg); }
-.catalog__stats-chip--verified { background: var(--sz-success-bg); }
-.catalog__stats-chip--approved { background: var(--sz-success-bg); }
+.catalog__stats-chip--review-warn { background: var(--sz-review-flagged-bg); color: var(--sz-review-flagged); }
+.catalog__stats-chip--llm-ok { background: var(--sz-review-unchecked-bg); color: var(--sz-review-unchecked); }
+.catalog__stats-chip--verified { background: var(--sz-review-verified-bg); color: var(--sz-review-verified); }
+.catalog__stats-chip--approved { background: var(--sz-review-approved-bg); color: var(--sz-review-approved); }
 .catalog__stats-chip--consensus { background: #dbeafe; }
 
 /* Navigation bar */
@@ -1664,7 +1651,7 @@ body.view-stats #help { display: none; }
 
 @media (max-width: 600px) {
   .site-header { padding: 0 0.75rem; }
-  .site-header__title span { display: none; }
+  .site-header__subtitle { display: none; }
   .site-header__badge { display: none; }
 
   .catalog { padding: 1rem 0.75rem; }
@@ -2360,6 +2347,24 @@ body.view-stats #help { display: none; }
   font-size: 0.85rem;
   color: var(--sz-text-light);
   margin: 0;
+}
+
+.stats-section__source {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  color: var(--sz-text-light);
+  opacity: 0.35;
+  margin: 0.15rem 0 0;
+  transition: opacity 0.2s;
+}
+
+.stats-section__header:hover .stats-section__source {
+  opacity: 0.7;
+}
+
+.stats-section__source code {
+  font-size: 0.6rem;
+  padding: 0.05em 0.2em;
 }
 
 .stats-section__grid {

@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2408",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Mann, Thomas, SZ-AAP/W-AA135.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2408/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2408/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2408/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2408/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2408/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2408/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2408/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Mann, Thomas\n- Signatur: SZ-AAP/W-AA135.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Mann Thomas Rede u.\n                        Antwort\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mann, Thomas\nT.M.'s Rede und Antwort\"\nAn den Genius der Verantwortung\nThomas Mann a Houdia\n\nMann Thomas\nRede u. Antwort",
+        "notes": "Handschriftliches Dokument. Der obere Teil ist in violetter Tinte geschrieben, der untere Teil in Bleistift.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Mann Thomas\nRede u. Antwort",
+        "notes": "Ausschnitt des unteren Teils des Dokuments (Bleistift).",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Mann, Thomas\nT.M.'s Rede und Antwort\"\nAn den Genius der Verantwortung\nThomas Mann a Houdia",
+        "notes": "Ausschnitt des oberen Teils des Dokuments (violette Tinte).",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Mann, Thomas\nT.M.'s Rede und Antwort\"\nAn den Genius der Verantwortung\nThomas Mann a Houdia",
+        "notes": "Ausschnitt des oberen Teils des Dokuments (violette Tinte).",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Mann, Thomas\nT.M.'s Rede und Antwort\"\nAn den Genius der Verantwortung\nThomas Mann a Houdia\n\nMann Thomas\nRede u. Antwort",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Handschrift ist deutlich."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 445,
+    "total_words": 75,
+    "total_pages": 4,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 1,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      119,
+      0,
+      27,
+      90,
+      90,
+      0,
+      119
+    ],
+    "chars_per_page_median": 90.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        3,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

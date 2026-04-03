@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SZD-HTR — Transkriptionsqualität</title>
-  <meta name="description" content="Qualitätskontrolle für VLM-basierte Transkriptionen aus dem Stefan-Zweig-Nachlass (Literaturarchiv Salzburg).">
+  <title>SZD OCR/HTR Pipeline — Stefan Zweig Digital</title>
+  <meta name="description" content="Experimentelle VLM-basierte Transkriptionspipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg).">
   <meta http-equiv="Content-Security-Policy"
         content="default-src 'self';
                  script-src 'self';
@@ -13,8 +13,8 @@
                  img-src 'self' https://gams.uni-graz.at data:;
                  connect-src 'self' http://127.0.0.1:* http://localhost:*">
   <meta name="theme-color" content="#631a34">
-  <meta property="og:title" content="SZD-HTR — Transkriptionsqualität">
-  <meta property="og:description" content="Qualitätskontrolle für VLM-basierte Transkriptionen aus dem Stefan-Zweig-Nachlass.">
+  <meta property="og:title" content="SZD OCR/HTR Pipeline — Stefan Zweig Digital">
+  <meta property="og:description" content="Experimentelle VLM-basierte Transkriptionspipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg).">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://chpollin.github.io/szd-htr-ocr-pipeline/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23631a34'/%3E%3Ctext x='32' y='42' font-family='serif' font-size='26' font-weight='bold' fill='white' text-anchor='middle'%3ESZ%3C/text%3E%3C/svg%3E">
@@ -29,10 +29,11 @@
 <!-- ===== Header ===== -->
 <header class="site-header">
   <div class="site-header__title">
-    SZD-HTR <span>Stefan Zweig Digital</span>
+    SZD OCR/HTR Pipeline
+    <span class="site-header__subtitle">Experimentelles Teilprojekt von Stefan Zweig Digital</span>
   </div>
   <span class="site-header__badge">
-    Built with <strong>Claude Code</strong> · Opus 4.6 · Promptotyping
+    Built with <strong>Claude Code</strong>
   </span>
   <nav class="site-header__nav">
     <a href="#" class="site-header__back" id="backBtn">&#8592; Katalog</a>
@@ -73,9 +74,11 @@
     <label for="filterReviewStatus" class="sr-only">Review-Status filtern</label>
     <select class="catalog__filter" id="filterReviewStatus" style="display:none">
       <option value="">Alle Status</option>
+      <option value="gt_verified">Verifiziert</option>
       <option value="human_verified">Gepr&uuml;ft</option>
-      <option value="llm_ok">LLM OK</option>
-      <option value="needs_review">Needs Review</option>
+      <option value="agent_verified">Auto-gepr&uuml;ft</option>
+      <option value="llm_ok">Ungepr&uuml;ft</option>
+      <option value="needs_review">Review n&ouml;tig</option>
     </select>
   </div>
   <div class="catalog__active-filters" id="activeFilters"></div>
@@ -298,29 +301,34 @@
     </ul>
 
     <h3>Review &amp; Ground Truth (nur lokal)</h3>
-    <p>4-stufiges Vertrauensmodell f&uuml;r jedes Objekt:</p>
+    <p>5-stufiges Vertrauensmodell f&uuml;r jedes Objekt:</p>
     <table>
-      <thead><tr><th>Tier</th><th>Status</th><th>Button</th><th>Bedeutung</th></tr></thead>
+      <thead><tr><th>Tier</th><th>Badge</th><th>Button</th><th>Bedeutung</th></tr></thead>
       <tbody>
         <tr>
-          <td>0</td><td><strong>gt_verified</strong></td>
+          <td>0</td><td><strong>Verifiziert</strong></td>
           <td>&#9733; GT Verify</td>
           <td>H&ouml;chste Stufe: Jede Seite wurde <em>zeichengenau</em> gegen das Faksimile gepr&uuml;ft. Z&auml;hlt als wissenschaftliche Referenz (Ground Truth) f&uuml;r CER-Berechnung.</td>
         </tr>
         <tr>
-          <td>1</td><td><strong>approved</strong></td>
+          <td>1</td><td><strong>Gepr&uuml;ft</strong></td>
           <td>&#10003; Approve</td>
-          <td>Mensch hat die Transkription gepr&uuml;ft und f&uuml;r korrekt befunden.</td>
+          <td>Expert:in hat die Transkription gepr&uuml;ft und f&uuml;r korrekt befunden.</td>
         </tr>
         <tr>
-          <td>2</td><td>agent_verified</td>
+          <td>2</td><td>Auto-gepr&uuml;ft</td>
           <td>&mdash;</td>
-          <td>Claude Code Sub-Agent hat Bild gegen Text verglichen (automatisch).</td>
+          <td>Automatischer Bild-Text-Vergleich durch Claude Code Agent (maschinell).</td>
         </tr>
         <tr>
-          <td>3</td><td>&mdash;</td>
+          <td>3a</td><td>Ungepr&uuml;ft</td>
           <td>&mdash;</td>
-          <td>Kein Review. Nur Pipeline-Selbsteinsch&auml;tzung (quality_signals).</td>
+          <td>Keine Auff&auml;lligkeiten in den Qualit&auml;tssignalen, aber noch nicht gepr&uuml;ft.</td>
+        </tr>
+        <tr>
+          <td>3b</td><td><strong>Review n&ouml;tig</strong></td>
+          <td>&mdash;</td>
+          <td>Qualit&auml;tssignale haben Probleme erkannt (z.B. Truncation, viele Unsicherheitsstellen).</td>
         </tr>
       </tbody>
     </table>

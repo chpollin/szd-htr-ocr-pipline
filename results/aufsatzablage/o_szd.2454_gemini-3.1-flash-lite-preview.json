@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2454",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Macht und Moral, Etwas über, SZ-AAP/W-AA131.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2454/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2454/IMG.6",
+      "SZ_AAP_W_AA131.0_007.jpg"
+    ],
+    "input_image_count_total": 6
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Macht und Moral, Etwas über\n- Signatur: SZ-AAP/W-AA131.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Macht und Moral, Etwas über\n(Eine kleine Anmerkung zu ... „Das Lamm des Armen”)\n\n\nEtwas über Macht und Moral",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Es handelt sich um eine Notiz oder einen Entwurfstitel.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Etwas über Macht und Moral",
+        "notes": "Ausschnitt des unteren Teils von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Macht und Moral, Etwas über\n(Eine kleine Anmerkung zu ... „Das Lamm des Armen”)",
+        "notes": "Ausschnitt des oberen Teils von Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Macht und Moral, Etwas über\n(Eine kleine Anmerkung zu ... „Das Lamm des Armen”)",
+        "notes": "Ausschnitt des oberen Teils von Seite 1, leicht anderer Winkel.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Am unteren Rand befinden sich digitale Artefakte/Störungen (Farbbalken).",
+        "type": "blank"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich geschrieben und weist keine Unklarheiten auf."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 292,
+    "total_words": 52,
+    "total_pages": 4,
+    "empty_pages": 2,
+    "blank_pages": 2,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 6,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "blank"
+    ],
+    "chars_per_page": [
+      108,
+      0,
+      26,
+      79,
+      79,
+      0
+    ],
+    "chars_per_page_median": 79.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

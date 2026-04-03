@@ -1,0 +1,122 @@
+{
+  "object_id": "o_szd.2493",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Jüdische Arbeiten, SZ-AAP/W-AA103.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2493/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2493/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Jüdische Arbeiten\n- Signatur: SZ-AAP/W-AA103.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Violette\n                                       Tinte, Bleistift\n- Hand: Lotte Zweig, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Jüdische Arbeiten\nDas Haus des tausend Schicksale\nEine unveröffentlichte Ansprache\nBrief an Joseph Leftwich\nFür das Inter-aid Committee for Children from Germany\nFür die Maccabi-Association, London\nDie Frage „Whiter Jewry“...\nAufruf für die österr. Juden, 1938\nIn der schweren Zeitspanne...\nKeep out of Politics!\nFür die Freie Tribüne, Paris\nzum jüdischen Literatur[?]",
+        "notes": "Handschrift in violetter Tinte. Die letzten Zeilen sind in einer helleren, dünneren Tinte oder Bleistift geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Jüdische Arbeiten\n✓ Das Haus des tausend Schicksale (für den Shelter in London)\n✓ Eine unveröffentlichte Ansprache\n✓ Brief an Joseph Leftwich\n✓ Für das Inter-aid Committee for Children from Germany\n✓ Für die Maccabi-Association, London\n                                          Begegnungen p. 230",
+        "notes": "Handschrift in violetter Tinte auf einem schmalen Papierstreifen. Enthält Haken (✓) vor den Zeilen und eine Anmerkung am rechten Rand.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Papierstreifens, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Jüdische Arbeiten\nDas Haus des tausend Schicksale\nEine unveröffentlichte Ansprache\nBrief an Joseph Leftwich\nFür das Inter-aid Committee for Children from Germany\nFür die Maccabi-Association, London\nDie Frage „Whiter Jewry“...\nAufruf für die österr. Juden, 1938\nIn der schweren Zeitspanne...\nKeep out of Politics!\nFür die Freie Tribüne, Paris\nzum jüdischen Literatur[?]",
+        "notes": "Identisch mit Seite 1, vermutlich ein anderer Scan desselben Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Jüdische Arbeiten\nDas Haus des tausend Schicksale\nEine unveröffentlichte Ansprache\nBrief an Joseph Leftwich\nFür das Inter-aid Committee for Children from Germany\nFür die Maccabi-Association, London\nDie Frage „Whiter Jewry“...\nAufruf für die österr. Juden, 1938\nIn der schweren Zeitspanne...\nKeep out of Politics!\nFür die Freie Tribüne, Paris\nzum jüdischen Literatur[?]",
+        "notes": "Identisch mit Seite 1 und 5, inklusive Archiv-Farbskalen am oberen und unteren Rand.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist gut lesbar, lediglich das letzte Wort 'Literatur[?]' ist aufgrund der verblassten Tinte leicht unsicher."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 1400,
+    "total_words": 195,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      368,
+      0,
+      296,
+      0,
+      368,
+      0,
+      368
+    ],
+    "chars_per_page_median": 368.0,
+    "marker_uncertain_count": 3,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0154,
+    "duplicate_page_pairs": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

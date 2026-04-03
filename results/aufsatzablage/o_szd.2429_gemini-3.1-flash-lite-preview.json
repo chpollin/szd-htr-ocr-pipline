@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2429",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Mitterer, Erika, SZ-AAP/W-AA143.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2429/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2429/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2429/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2429/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2429/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2429/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2429/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Mitterer, Erika\n- Signatur: SZ-AAP/W-AA143.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Erika Mitterer\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Mitterer, Erika\n(Rezension von „Dank des Lebens“)\n\n\nErika Mitterer",
+        "notes": "Handschriftliches Dokument auf einem Blatt Papier. Der obere Teil ist mit violetter Tinte beschriftet, der untere Teil mit schwarzer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Erika Mitterer",
+        "notes": "Ausschnitt der unteren Hälfte des Dokuments mit der Signatur/dem Namen in schwarzer Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Mitterer, Erika\n(Rezension von „Dank des Lebens“)",
+        "notes": "Ausschnitt der oberen Hälfte des Dokuments mit der Beschriftung in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Mitterer, Erika\n(Rezension von „Dank des Lebens“)\n\n\nErika Mitterer",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und gut lesbar. Die Identifikation der Handschriften (violette vs. schwarze Tinte) ist eindeutig."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 195,
+    "total_words": 27,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      66,
+      0,
+      14,
+      0,
+      49,
+      0,
+      66
+    ],
+    "chars_per_page_median": 49,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

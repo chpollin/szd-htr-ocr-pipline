@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2446",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Ludwig, Emil, SZ-AAP/W-AA126.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2446/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2446/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2446/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2446/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2446/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2446/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2446/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Ludwig, Emil\n- Signatur: SZ-AAP/W-AA126.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Niels Lyhne\n                        (Jakobsen)\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Ludwig, Emil\nZum fünfzigsten Geburtstag",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Niels Lyhne\n(Jakobsen)",
+        "notes": "Handschrift in schwarzer Tinte auf beigem Papier.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Ludwig, Emil\nZum fünfzigsten Geburtstag",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Ludwig, Emil\nZum fünfzigsten Geburtstag",
+        "notes": "Handschrift in violetter Tinte auf beigem Papier. Mit Farb- und Grauskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist kurz, deutlich geschrieben und gut lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 139,
+    "total_words": 18,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      39,
+      0,
+      22,
+      0,
+      39,
+      0,
+      39
+    ],
+    "chars_per_page_median": 39,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

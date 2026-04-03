@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2463",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Kolbenheyer, E. G., SZ-AAP/W-AA113.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2463/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2463/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2463/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2463/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2463/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2463/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2463/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Kolbenheyer, E. G.\n- Signatur: SZ-AAP/W-AA113.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig\n- Anmerkungen: Ursprüngliche Aufschrift: \"Erwin Guido\n                        Kolbenheyer\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Kolbenheyer, E. G.\nGiordano Bruno (Rezension) ✓\nZwei Bücher und eine Landschaft ✓\n\n\nErwin Guido Kolbenheyer\n\nZwei Bücher und eine Landschaft\n(Jugend des Paracelsus)\nGiordano Bruno",
+        "notes": "Handschrift in violetter Tinte. Es handelt sich um eine Notiz oder einen Zettel mit bibliographischen Angaben zu Erwin Guido Kolbenheyer.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar, aber nicht zu transkribieren.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Erwin Guido Kolbenheyer\n\nZwei Bücher und eine Landschaft\n(Jugend des Paracelsus)\nGiordano Bruno",
+        "notes": "Ausschnitt der Vorderseite, Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Kolbenheyer, E. G.\nGiordano Bruno (Rezension) ✓\nZwei Bücher und eine Landschaft ✓",
+        "notes": "Ausschnitt der Vorderseite, Handschrift in violetter Tinte.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, durchscheinender Text von der Vorderseite erkennbar.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Kolbenheyer, E. G.\nGiordano Bruno (Rezension) ✓\nZwei Bücher und eine Landschaft ✓\n\n\nErwin Guido Kolbenheyer\n\nZwei Bücher und eine Landschaft\n(Jugend des Paracelsus)\nGiordano Bruno",
+        "notes": "Gesamtansicht des Dokuments mit Farb- und Grauskala.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, die Handschrift ist klar und eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 534,
+    "total_words": 78,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      179,
+      0,
+      95,
+      0,
+      81,
+      0,
+      179
+    ],
+    "chars_per_page_median": 95,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

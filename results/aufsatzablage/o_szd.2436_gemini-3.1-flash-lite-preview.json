@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2436",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Munthe, Axel, SZ-AAP/W-AA147.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2436/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2436/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2436/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2436/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2436/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2436/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2436/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Munthe, Axel\n- Signatur: SZ-AAP/W-AA147.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Unbekannt\n- Anmerkungen: Zweite Aufschrift: \"Axel Munthe | Notizen zu A.\n                        M.\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Munthe, Axel\nNotizen zu A. M.\n\n\nAxel Munthe\nNotizen zu A. M.",
+        "notes": "Handschriftliche Notiz auf einem Blatt Papier. Der Text erscheint zweimal, einmal im oberen Bereich und einmal im unteren Bereich.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Axel Munthe\nNotizen zu A. M.",
+        "notes": "Handschriftliche Notiz auf einem Blatt Papier.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Munthe, Axel\nNotizen zu A. M.",
+        "notes": "Handschriftliche Notiz auf einem Blatt Papier.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Munthe, Axel\nNotizen zu A. M.\n\n\nAxel Munthe\nNotizen zu A. M.",
+        "notes": "Farbskala und Grauskala für Archivierung. Dazwischen das Dokument mit dem handschriftlichen Text.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz, deutlich geschrieben und wiederholt sich, was die Lesbarkeit sehr hoch macht."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 177,
+    "total_words": 36,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      60,
+      0,
+      28,
+      0,
+      29,
+      0,
+      60
+    ],
+    "chars_per_page_median": 29,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

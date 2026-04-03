@@ -1,0 +1,122 @@
+{
+  "object_id": "o_szd.2470",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lammasch, Heinrich, SZ-AAP/W-AA116.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2470/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2470/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2470/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2470/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2470/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2470/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2470/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lammasch, Heinrich\n- Signatur: SZ-AAP/W-AA116.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Lotte Zweig\n- Anmerkungen: Ursprüngliche Aufschrift: \"Heinrich\n                        Lammasch\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lammasch, Heinrich\nHeinrich Lammasch\nH. L.'s Heimfang\n\n\nHeinrich Lammasch",
+        "notes": "Handschrift in violetter Tinte. Das Dokument besteht aus einem Blatt, das teilweise gefaltet oder überlappend fotografiert wurde.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "Lammasch, Heinrich\nHeinrich Lammasch\nH. L.'s Heimfang",
+        "notes": "Rückseite des oberen Teils des Dokuments, durchscheinender Text von der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "Heinrich Lammasch",
+        "notes": "Unterer Teil des Dokuments, isoliert fotografiert.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Heinrich Lammasch",
+        "notes": "Rückseite des unteren Teils des Dokuments, durchscheinender Text von der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Lammasch, Heinrich\nHeinrich Lammasch\nH. L.'s Heimfang",
+        "notes": "Oberer Teil des Dokuments, isoliert fotografiert.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Heinrich Lammasch",
+        "notes": "Rückseite des unteren Teils des Dokuments, durchscheinender Text von der Vorderseite.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Lammasch, Heinrich\nHeinrich Lammasch\nH. L.'s Heimfang\n\n\nHeinrich Lammasch",
+        "notes": "Gesamtansicht des Dokuments mit Grauskala und Farbkarte.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr deutlich und gut lesbar. Die mehrfachen Aufnahmen desselben Dokuments bestätigen die Lesung."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 303,
+    "total_words": 38,
+    "total_pages": 6,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 6,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      73,
+      53,
+      17,
+      17,
+      53,
+      17,
+      73
+    ],
+    "chars_per_page_median": 35.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

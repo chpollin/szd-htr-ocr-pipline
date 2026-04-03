@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2473",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Land ohne Patriotismus, Das, SZ-AAP/W-AA117.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2473/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2473/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Land ohne Patriotismus, Das\n- Signatur: SZ-AAP/W-AA117.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte, blauer Buntstift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Land\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Land ohne Patriotismus, Das",
+        "notes": "Handschrift in violetter Tinte. Es handelt sich um die Vorderseite des Blattes.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer. Durchscheinender Text von der Vorderseite erkennbar, gemäß Anweisung nicht transkribiert.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Land",
+        "notes": "Handschrift in blauem Buntstift. Es handelt sich um eine weitere Seite/Fragment.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Land ohne Patriotismus, Das",
+        "notes": "Handschrift in violetter Tinte. Identisch mit Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Land ohne Patriotismus, Das",
+        "notes": "Handschrift in violetter Tinte. Dokument mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar. Die verschiedenen Scans zeigen lediglich Wiederholungen desselben Textes auf unterschiedlichen Seiten oder mit Archivierungshilfen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 85,
+    "total_words": 13,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      27,
+      0,
+      4,
+      0,
+      27,
+      0,
+      27
+    ],
+    "chars_per_page_median": 27,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

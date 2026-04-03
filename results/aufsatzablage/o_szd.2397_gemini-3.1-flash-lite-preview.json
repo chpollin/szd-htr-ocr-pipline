@@ -1,0 +1,114 @@
+{
+  "object_id": "o_szd.2397",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Petzold, Alfons, SZ-AAP/W-AA156.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2397/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2397/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Petzold, Alfons\n- Signatur: SZ-AAP/W-AA156.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Violette\n                                       Tinte, schwarze Tinte, Bleistift\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Parsifal in New York\".\n                        Blatt nachträglich zugeschnitten",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Petzold, Alfons\n~~Verdichtung~~\nAlphons Petzold\nGedenken an A. P.\nGedichte",
+        "notes": "Handschriftliche Notizen auf beigem Papier. 'Verdichtung' ist durchgestrichen. 'Gedichte' ist in Bleistift geschrieben.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Parsifal in New York\n~~rehe auf~~\nAmerika",
+        "notes": "Handschrift in violetter Tinte. 'rehe auf' ist durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Petzold, Alfons\n~~Verdichtung~~\nAlphons Petzold\nGedenken an A. P.\nGedichte",
+        "notes": "Identisch mit Seite 1.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Petzold, Alfons\n~~Verdichtung~~\nAlphons Petzold\nGedenken an A. P.\nGedichte",
+        "notes": "Dokument mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar lesbar, die Durchstreichungen sind eindeutig identifizierbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 263,
+    "total_words": 37,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      74,
+      0,
+      41,
+      0,
+      74,
+      0,
+      74
+    ],
+    "chars_per_page_median": 74,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [
+      [
+        0,
+        4
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

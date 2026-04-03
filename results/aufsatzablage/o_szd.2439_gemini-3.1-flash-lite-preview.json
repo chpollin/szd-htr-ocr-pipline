@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2439",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Lob der deutschen Verleger, SZ-AAP/W-AA124.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2439/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2439/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2439/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2439/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2439/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2439/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2439/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Lob der deutschen Verleger\n- Signatur: SZ-AAP/W-AA124.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Deutsche\n                        Verleger\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Lob der deutschen Verleger\n\n\n\n\n\nDeutsche Verleger\nLob der deutschen Verleger",
+        "notes": "Handschriftliches Manuskript auf Papier. Der Text ist mehrfach notiert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Deutsche Verleger\nLob der deutschen Verleger",
+        "notes": "Handschriftliches Manuskript auf Papier.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Lob der deutschen Verleger",
+        "notes": "Handschriftliches Manuskript auf Papier.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Lob der deutschen Verleger\n\n\n\n\n\nDeutsche Verleger\nLob der deutschen Verleger",
+        "notes": "Handschriftliches Manuskript auf Papier mit Farb- und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 222,
+    "total_words": 30,
+    "total_pages": 3,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 1,
+    "content_pages": 3,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      76,
+      0,
+      44,
+      0,
+      26,
+      0,
+      76
+    ],
+    "chars_per_page_median": 44,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2416",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Tomás Masaryk, SZ-AAP/W-AA137.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2416/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2416/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2416/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Tomás Masaryk\n- Signatur: SZ-AAP/W-AA137.1\n- Datum: 1937\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violettes\n                                       Farbband\n- Anmerkungen: Veröffentlicht unter dem Titel \"An der Bahre Th. G.\n                        Masaryks\", Die Wahrheit, Prag, 15. September 1937",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "In dem Parlamente des alten Oesterreich waren eminente\nPolitiker, glänzende Redner, berühmte Parteiführer - ein Einziger\nhatte im geheimen mehr Macht als sie alle, nämlich moralische\nAutorität. In allen Gewissensfragen, in den berühmten Prozessen\nhat damals Masaryk die Wahrheit über den Vorteil gestellt, ein\nFanatiker der absoluten Gerechtigkeit und jederzeit bereit, ihr\nMartyrer zu werden: so begleitete ihn, schon als er äusserlich\nnur ein unscheinbarer Professor war, unsere leidenschaftliche Hoch-\nachtung. Sein Volk vermochte sich nicht besser zu ehren, als dass\nes ihn, den reinsten Ausdruck eines unbeugsam sittlichen Prinzips,\nan die höchste Stelle und vor das Forum der Weltgeschichte berief:\nso konnten wir endlich, endlich einmal die republikanische Uridee,\ndass die oberste Macht innerhalb der Volksgemeinschaft vom wahr-\nhaft Würdigsten und nicht, ie gewöhnlich, bloss von einem Partei-\nmann verwaltet werde, in Europa erfüllt sehen und zwar vorbild-\nlich erfüllt. Masaryks Erscheinung in unserer politischen, allzu\npolitischen Welt ist eine geistige Wohltat für alle, die an die\nendgiltige Ueberlegenheit des Gedankens über die Geschicklichkeit,\nder Redlichkeit über die Winkelzüge glauben: möge seine hohe\nGestalt noch lange aufrecht vor der unermesslichen Aufgabe der\nBefriedung und Einigung Europas stehen !\n\nStefan Zweig",
+        "notes": "Typoskript auf Papier. Der Text ist gut lesbar, weist jedoch leichte Unregelmäßigkeiten im Druckbild auf (typisch für Schreibmaschinen-Durchschläge).",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "In dem Parlamente des alten Oesterreich waren eminente\nPolitiker, glänzende Redner, berühmte Parteiführer - ein Einziger\nhatte im geheimen mehr Macht als sie alle, nämlich moralische\nAutorität. In allen Gewissensfragen, in den berühmten Prozessen\nhat damals Masaryk die Wahrheit über den Vorteil gestellt, ein\nFanatiker der absoluten Gerechtigkeit und jederzeit bereit, ihr\nMartyrer zu werden: so begleitete ihn, schon als er äusserlich\nnur ein unscheinbarer Professor war, unsere leidenschaftliche Hoch-\nachtung. Sein Volk vermochte sich nicht besser zu ehren, als dass\nes ihn, den reinsten Ausdruck eines unbeugsam sittlichen Prinzips,\nan die höchste Stelle und vor das Forum der Weltgeschichte berief:\nso konnten wir endlich, endlich einmal die republikanische Uridee,\ndass die oberste Macht innerhalb der Volksgemeinschaft vom wahr-\nhaft Würdigsten und nicht, ie gewöhnlich, bloss von einem Partei-\nmann verwaltet werde, in Europa erfüllt sehen und zwar vorbild-\nlich erfüllt. Masaryks Erscheinung in unserer politischen, allzu\npolitischen Welt ist eine geistige Wohltat für alle, die an die\nendgiltige Ueberlegenheit des Gedankens über die Geschicklichkeit,\nder Redlichkeit über die Winkelzüge glauben: möge seine hohe\nGestalt noch lange aufrecht vor der unermesslichen Aufgabe der\nBefriedung und Einigung Europas stehen !\n\nStefan Zweig",
+        "notes": "Identisch mit Seite 1, jedoch mit Archiv-Farb- und Grauskala am oberen bzw. unteren Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr klar und gut lesbar. Es gibt keine nennenswerten Unklarheiten."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2682,
+    "total_words": 382,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1341,
+      0,
+      1341
+    ],
+    "chars_per_page_median": 1341,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "object_id": "o_szd.2423",
+  "collection": "aufsatzablage",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Meunier, Konstantin, SZ-AAP/W-AA140.0",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2423/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2423/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2423/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2423/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2423/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2423/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2423/IMG.7"
+    ],
+    "input_image_count_total": 7
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Meunier, Konstantin\n- Signatur: SZ-AAP/W-AA140.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette\n                                       Tinte\n- Hand: Erwin Rieger, Unbekannt\n- Anmerkungen: Ursprüngliche Aufschrift: \"Konstantin\n                        Meunier\"",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Meunier, Konstantin\n\nKonstantin Meunier",
+        "notes": "Handschriftliches Dokument auf Papier. Der Name erscheint zweimal: einmal oben links als Notiz/Beschriftung und einmal mittig als Signatur/Schriftzug.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Ausschnitt/Detailaufnahme der oberen linken Ecke des Dokuments.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Konstantin Meunier",
+        "notes": "Ausschnitt/Detailaufnahme des mittigen Schriftzugs.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Meunier, Konstantin",
+        "notes": "Ausschnitt/Detailaufnahme der oberen linken Ecke.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Meunier, Konstantin\n\nKonstantin Meunier",
+        "notes": "Gesamtansicht des Dokuments mit Archiv-Farbskalen und Grauskalen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr kurz und deutlich lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 115,
+    "total_words": 12,
+    "total_pages": 4,
+    "empty_pages": 3,
+    "blank_pages": 3,
+    "color_chart_pages": 0,
+    "content_pages": 4,
+    "input_images": 7,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content"
+    ],
+    "chars_per_page": [
+      39,
+      0,
+      18,
+      0,
+      19,
+      0,
+      39
+    ],
+    "chars_per_page_median": 29.0,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

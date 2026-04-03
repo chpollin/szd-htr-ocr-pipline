@@ -6,7 +6,8 @@
 const ITEMS_PER_PAGE = 50;
 const GAMS_BASE = 'https://gams.uni-graz.at/';
 const SEARCH_DEBOUNCE_MS = 150;
-const LLM_ICON = '<span class="llm-sparkle">\u2726</span>';
+const MACHINE_ICON = '';
+const HUMAN_ICON = '';
 
 const COLLECTION_LABELS = {
   lebensdokumente: 'Lebensdokumente',
@@ -15,13 +16,7 @@ const COLLECTION_LABELS = {
   korrespondenzen: 'Korrespondenzen',
 };
 
-// TEI catalog totals (update when archive grows)
-const COLLECTION_TOTALS = {
-  lebensdokumente: 127,
-  korrespondenzen: 1186,
-  aufsatzablage: 625,
-  werke: 169,
-};
+
 
 const LS_KEY = 'szd-htr-edits';
 const LS_GT_KEY = 'szd-htr-gt-reviews';
@@ -572,24 +567,24 @@ async function showAbout() {
 function renderReviewCell(obj) {
   // Tier 0: GT verified (highest) — human
   if (obj.gtVerified) {
-    return '<span class="badge-review badge-review-verified" data-tooltip="Ground Truth: Von einem Experten manuell verifiziert">GT \u2713</span>';
+    return `<span class="badge-review badge-review-verified" data-tooltip="Ground Truth: Jede Seite zeichengenau gegen Faksimile verifiziert">Verifiziert${HUMAN_ICON}</span>`;
   }
-  // Tier 1: Human expert approved — human
+  // Tier 1: Human expert approved
   if (obj.reviewStatus === 'approved' || isObjectApproved(obj.id)) {
-    return '<span class="badge-review badge-review-approved" data-tooltip="Von einem Experten manuell gepr\u00fcft und freigegeben">Gepr\u00fcft</span>';
+    return `<span class="badge-review badge-review-approved" data-tooltip="Von einem Experten manuell gepr\u00fcft und freigegeben">Gepr\u00fcft${HUMAN_ICON}</span>`;
   }
-  // Tier 2: Agent verified — Claude Code judge compared image vs. transcription
+  // Tier 2: Agent verified — automated image↔text comparison
   if (obj.reviewStatus === 'agent_verified') {
-    return `<span class="badge-review badge-review-agent" data-tooltip="Claude Code Agent: Bild-Text-Vergleich durchgef\u00fchrt">Agent \u2713${LLM_ICON}</span>`;
+    return `<span class="badge-review badge-review-auto" data-tooltip="Automatischer Bild-Text-Vergleich durch Claude Code Agent">Auto-gepr\u00fcft${MACHINE_ICON}</span>`;
   }
   if (obj.needsReview === undefined) return '';
-  // Tier 3: Quality signals flagged problems — automatic
+  // Tier 3b: Quality signals flagged problems
   if (obj.needsReview) {
     const reasons = (obj.needsReviewReasons || []).join(', ');
-    return `<span class="badge-review badge-review-yes" data-tooltip="Automatisch erkannt: ${escapeHtml(reasons)}">Review${LLM_ICON}</span>`;
+    return `<span class="badge-review badge-review-flagged" data-tooltip="Qualit\u00e4tssignale: ${escapeHtml(reasons)}">Review n\u00f6tig${MACHINE_ICON}</span>`;
   }
-  // Tier 4: Machine says OK, no human check — automatic
-  return `<span class="badge-review badge-review-llm-ok" data-tooltip="Automatische Qualit\u00e4tssignale ohne Befund \u2014 keine Pr\u00fcfung erfolgt">LLM OK${LLM_ICON}</span>`;
+  // Tier 3a: No issues found but no human check
+  return `<span class="badge-review badge-review-unchecked" data-tooltip="Keine Auff\u00e4lligkeiten \u2014 aber noch nicht gepr\u00fcft">Ungepr\u00fcft${MACHINE_ICON}</span>`;
 }
 
 /* ===== Quality Rendering ===== */
@@ -601,28 +596,24 @@ function renderQualityCell(v, confidence, obj) {
 
   let markerHtml;
   if (total === 0) {
-    markerHtml = `<span class="badge badge-markers badge-markers-clean" data-tooltip="Keine Unsicherheitsstellen markiert">\u2014${LLM_ICON}</span>`;
+    markerHtml = `<span class="badge badge-markers badge-markers-clean" data-tooltip="Keine Unsicherheitsstellen markiert">\u2014${MACHINE_ICON}</span>`;
   } else {
     const parts = [];
     if (uncertain > 0) parts.push(`${uncertain}\u00d7 [?]`);
     if (illegible > 0) parts.push(`${illegible}\u00d7 [...]`);
     const cls = total >= 3 ? 'badge-markers-many' : 'badge-markers-some';
-    markerHtml = `<span class="badge badge-markers ${cls}" data-tooltip="Vom VLM markierte unsichere oder unleserliche Stellen">${parts.join(', ')}${LLM_ICON}</span>`;
+    markerHtml = `<span class="badge badge-markers ${cls}" data-tooltip="Vom VLM markierte unsichere oder unleserliche Stellen">${parts.join(', ')}${MACHINE_ICON}</span>`;
   }
-
-  const vlmHtml = confidence
-    ? ` <span class="badge badge-vlm" data-tooltip="Vom VLM zugewiesene Konfidenz f\u00fcr diese Transkription">${confidence}${LLM_ICON}</span>`
-    : '';
 
   // Modellkonsensus badge
   let consHtml = '';
   if (obj && obj.consensusCategory) {
     const cat = obj.consensusCategory;
     const cls = 'badge-consensus-' + cat.replace('consensus_', '');
-    consHtml = ` <span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || cat}">${CONSENSUS_SHORT[cat] || '?'}${LLM_ICON}</span>`;
+    consHtml = ` <span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || cat}">${CONSENSUS_SHORT[cat] || '?'}${MACHINE_ICON}</span>`;
   }
 
-  return markerHtml + vlmHtml + consHtml;
+  return markerHtml + consHtml;
 }
 
 /* ===== Stats Dashboard ===== */
@@ -676,19 +667,19 @@ function renderStats() {
   }).join('');
 
   const reviewChip = state.hasReviewData && reviewCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--review-warn"><strong>${reviewCount}</strong> Review</span>`
+    ? `<span class="catalog__stats-chip catalog__stats-chip--review-warn"><strong>${reviewCount}</strong> Review n\u00f6tig</span>`
     : '';
   const llmOkChip = llmOkCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--llm-ok"><strong>${llmOkCount}</strong> LLM OK</span>`
+    ? `<span class="catalog__stats-chip catalog__stats-chip--llm-ok"><strong>${llmOkCount}</strong> Ungepr\u00fcft</span>`
     : '';
   const approvedChip = approvedCount > 0
     ? `<span class="catalog__stats-chip catalog__stats-chip--approved"><strong>${approvedCount}</strong> Gepr\u00fcft</span>`
     : '';
   const agentChip = agentCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--agent"><strong>${agentCount}</strong> Agent \u2713</span>`
+    ? `<span class="catalog__stats-chip catalog__stats-chip--agent"><strong>${agentCount}</strong> Auto-gepr\u00fcft</span>`
     : '';
   const verifiedChip = verifiedCount > 0
-    ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> GT \u2713</span>`
+    ? `<span class="catalog__stats-chip catalog__stats-chip--verified"><strong>${verifiedCount}</strong> Verifiziert</span>`
     : '';
   const consensusChip = consensusCount > 0
     ? `<span class="catalog__stats-chip catalog__stats-chip--consensus"><strong>${consensusCount}</strong> Modellkonsensus</span>`
@@ -720,9 +711,9 @@ function renderStats() {
   const humanCount = approvedCount + verifiedCount + agentCount;
   let reviewItems = '';
   if (state.hasReviewData) {
-    reviewItems = `<span class="catalog__stats-bar-item"><strong>${humanCount}</strong> Human Verified</span>
-      <span class="catalog__stats-bar-item"><strong>${llmOkCount}</strong> LLM OK</span>
-      <span class="catalog__stats-bar-item"><strong>${reviewCount}</strong> Needs Review (${reviewPct}%)</span>`;
+    reviewItems = `<span class="catalog__stats-bar-item"><strong>${humanCount}</strong> Manuell gepr\u00fcft</span>
+      <span class="catalog__stats-bar-item"><strong>${llmOkCount}</strong> Ungepr\u00fcft</span>
+      <span class="catalog__stats-bar-item"><strong>${reviewCount}</strong> Review n\u00f6tig (${reviewPct}%)</span>`;
   }
 
   // DWR + Consensus
@@ -785,10 +776,14 @@ function applyFilters() {
     list = list.filter(o => o.confidence === state.filterConfidence);
   }
   if (state.filterReviewStatus) {
-    if (state.filterReviewStatus === 'human_verified') {
-      list = list.filter(o => o.reviewStatus === 'approved' || o.reviewStatus === 'agent_verified' || o.gtVerified);
+    if (state.filterReviewStatus === 'gt_verified') {
+      list = list.filter(o => o.gtVerified);
+    } else if (state.filterReviewStatus === 'human_verified') {
+      list = list.filter(o => (o.reviewStatus === 'approved' || isObjectApproved(o.id)) && !o.gtVerified);
+    } else if (state.filterReviewStatus === 'agent_verified') {
+      list = list.filter(o => o.reviewStatus === 'agent_verified');
     } else if (state.filterReviewStatus === 'llm_ok') {
-      list = list.filter(o => o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved');
+      list = list.filter(o => o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved' && o.reviewStatus !== 'agent_verified');
     } else if (state.filterReviewStatus === 'needs_review') {
       list = list.filter(o => o.needsReview);
     }
@@ -913,7 +908,7 @@ function renderCatalog() {
   updateCatalogURL();
 }
 
-const REVIEW_STATUS_LABELS = { human_verified: 'Gepr\u00fcft', llm_ok: 'LLM OK', needs_review: 'Needs Review' };
+const REVIEW_STATUS_LABELS = { gt_verified: 'Verifiziert', human_verified: 'Gepr\u00fcft', agent_verified: 'Auto-gepr\u00fcft', llm_ok: 'Ungepr\u00fcft', needs_review: 'Review n\u00f6tig' };
 
 function renderActiveFilters() {
   const el = document.getElementById('activeFilters');
@@ -1032,18 +1027,17 @@ function renderViewerContext(obj) {
 
   // Review status
   const approved = obj.reviewStatus === 'approved' || isObjectApproved(obj.id);
-  if (approved) {
-    qualItems.push('<span class="badge-review badge-review-approved">Gepr\u00fcft</span>');
+  if (obj.gtVerified) {
+    qualItems.push(`<span class="badge-review badge-review-verified">Verifiziert${HUMAN_ICON}</span>`);
+  } else if (approved) {
+    qualItems.push(`<span class="badge-review badge-review-approved">Gepr\u00fcft${HUMAN_ICON}</span>`);
   } else if (obj.reviewStatus === 'agent_verified') {
-    qualItems.push(`<span class="badge-review badge-review-agent">Agent \u2713${LLM_ICON}</span>`);
+    qualItems.push(`<span class="badge-review badge-review-auto">Auto-gepr\u00fcft${MACHINE_ICON}</span>`);
   } else if (obj.needsReview) {
-    qualItems.push('<span class="badge-review badge-review-yes">Review</span>');
+    qualItems.push(`<span class="badge-review badge-review-flagged">Review n\u00f6tig${MACHINE_ICON}</span>`);
   } else if (obj.needsReview === false) {
-    qualItems.push('<span class="badge-review badge-review-llm-ok">LLM OK</span>');
+    qualItems.push(`<span class="badge-review badge-review-unchecked">Ungepr\u00fcft${MACHINE_ICON}</span>`);
   }
-
-  // VLM confidence
-  qualItems.push(`<span class="badge badge-vlm" data-tooltip="Vom VLM zugewiesene Konfidenz f\u00fcr diese Transkription">${obj.confidence || '?'}${LLM_ICON}</span>`);
 
   // Markers
   if (uncertain > 0 || illegible > 0) {
@@ -1058,7 +1052,7 @@ function renderViewerContext(obj) {
   if (qs?.dwr_score > 0) {
     const pct = Math.round(qs.dwr_score * 100);
     const cls = pct >= 30 ? 'badge-dwr-good' : pct >= 15 ? 'badge-dwr-moderate' : 'badge-dwr-low';
-    qualItems.push(`<span class="badge ${cls}" data-tooltip="Anteil der W\u00f6rter aus der Transkription, die im W\u00f6rterbuch stehen. Niedrig bei Eigennamen, Fremdsprachen, Abk\u00fcrzungen.">DWR ${pct}%${LLM_ICON}</span>`);
+    qualItems.push(`<span class="badge ${cls}" data-tooltip="Anteil der W\u00f6rter aus der Transkription, die im W\u00f6rterbuch stehen. Niedrig bei Eigennamen, Fremdsprachen, Abk\u00fcrzungen.">DWR ${pct}%${MACHINE_ICON}</span>`);
   }
 
   // Volume
@@ -1078,7 +1072,7 @@ function renderViewerContext(obj) {
     const catLabel = CONSENSUS_LABELS[cat] || cat.replace('consensus_', '');
     const cerPct = ((obj.consensus.effective_cer || 0) * 100).toFixed(1);
     const cls = 'badge-consensus-' + cat.replace('consensus_', '');
-    consHtml = `<span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || ''}">Modellkonsensus: ${catLabel} \u00b7 ${cerPct}%${LLM_ICON}</span>`;
+    consHtml = `<span class="badge badge-consensus ${cls}" data-tooltip="${CONSENSUS_TOOLTIPS[cat] || ''}">Modellkonsensus: ${catLabel} \u00b7 ${cerPct}%${MACHINE_ICON}</span>`;
   }
 
   // Review info
@@ -1091,8 +1085,8 @@ function renderViewerContext(obj) {
   let notesHtml = '';
   if (pageNotes || confNotes) {
     const parts = [];
-    if (pageNotes) parts.push(`<span data-tooltip="VLM-generierte Seitenbeschreibung">${escapeHtml(pageNotes)}${LLM_ICON}</span>`);
-    if (confNotes && confNotes !== pageNotes) parts.push(`<span data-tooltip="VLM-generierte Konfidenzeinsch\u00e4tzung">${escapeHtml(confNotes)}${LLM_ICON}</span>`);
+    if (pageNotes) parts.push(`<span data-tooltip="VLM-generierte Seitenbeschreibung">${escapeHtml(pageNotes)}${MACHINE_ICON}</span>`);
+    if (confNotes && confNotes !== pageNotes) parts.push(`<span data-tooltip="VLM-generierte Konfidenzeinsch\u00e4tzung">${escapeHtml(confNotes)}${MACHINE_ICON}</span>`);
     notesHtml = `<div class="viewer__ctx-notes">${parts.join(' \u2014 ')}</div>`;
   }
 
@@ -2377,57 +2371,27 @@ function renderStatsPage() {
   const d = computeStatsData();
   const reasonEntries = Object.entries(d.reasonCounts).sort((a, b) => b[1] - a[1]);
   const signalTotal = reasonEntries.reduce((s, e) => s + e[1], 0);
-  const catalogTotal = Object.values(COLLECTION_TOTALS).reduce((s, n) => s + n, 0);
 
   const subtitle = document.querySelector('.stats-page__subtitle');
-  if (subtitle) subtitle.textContent = `Qualit\u00e4tsmetriken f\u00fcr ${d.total} transkribierte Objekte \u2014 ${formatNum(d.contentPages)} Inhaltsseiten, ${formatChars(d.totalChars)} Zeichen.`;
+  if (subtitle) subtitle.textContent = `Qualit\u00e4tsmetriken f\u00fcr ${d.total} transkribierte Objekte.`;
 
-  // Section 4: Consensus (conditional)
-  const hasConsensus = d.consensusCount > 0;
-  const consensusSection = !hasConsensus ? '' : `
-    <div class="stats-section">
-      <div class="stats-section__header">
-        <h2 class="stats-section__title">4. Modellkonsensus</h2>
-        <p class="stats-section__desc">Cross-Model-Verifikation: zwei unabh\u00e4ngige VLMs transkribieren dasselbe Dokument, Divergenzen werden per CER quantifiziert.</p>
-      </div>
-      <div class="stats-section__grid">
-        <div class="stats-card">
-          <div class="stats-card__title">Konsensus-Kategorien</div>
-          <div class="stats-card__subtitle">${d.consensusCount} von ${d.total} Objekten mit Cross-Model-Verifikation.</div>
-          <div class="stats-card__chart-wrap stats-card__chart-wrap--donut"><canvas id="chartConsensus"></canvas></div>
-        </div>
-        <div class="stats-card">
-          <div class="stats-card__title">CER-Verteilung</div>
-          <div class="stats-card__subtitle">Character Error Rate zwischen den beiden Modellen.</div>
-          <div class="stats-card__chart-wrap stats-card__chart-wrap--bar"><canvas id="chartConsensusCer"></canvas></div>
-        </div>
-      </div>
-    </div>`;
+  // Compute chars-per-page per group for Textcharakteristik
+  const groupChars = {};
+  for (const obj of state.catalog) {
+    const g = obj.group ? `${obj.group} \u2013 ${obj.groupLabel}` : 'Unbekannt';
+    if (!groupChars[g]) groupChars[g] = { chars: [], pages: 0, objects: 0 };
+    groupChars[g].objects++;
+    const cpp = obj.verification?.avgCharsPerPage;
+    if (cpp > 0) groupChars[g].chars.push(cpp);
+    groupChars[g].pages += obj.contentPages || 0;
+  }
 
   grid.innerHTML = `
     <div class="stats-section">
       <div class="stats-section__header">
-        <h2 class="stats-section__title">1. Abdeckung</h2>
-        <p class="stats-section__desc">Transkriptionsfortschritt \u00fcber die vier Sammlungen des Stefan-Zweig-Nachlasses.</p>
-      </div>
-      <div class="stats-section__grid">
-        <div class="stats-card">
-          <div class="stats-card__title">Fortschritt pro Sammlung</div>
-          <div class="stats-card__subtitle">${d.total} von ${formatNum(catalogTotal)} Objekten transkribiert (${Math.round(d.total / catalogTotal * 100)}%).</div>
-          <div class="stats-card__chart-wrap stats-card__chart-wrap--hbar"><canvas id="chartCoverage"></canvas></div>
-        </div>
-        <div class="stats-card">
-          <div class="stats-card__title">Seitenkomposition</div>
-          <div class="stats-card__subtitle">${formatNum(d.contentPages)} Inhalt, ${formatNum(d.blankPages)} Leer, ${formatNum(d.totalPages - d.contentPages - d.blankPages)} Farbskala.</div>
-          <div class="stats-card__chart-wrap stats-card__chart-wrap--bar"><canvas id="chartPages"></canvas></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="stats-section">
-      <div class="stats-section__header">
-        <h2 class="stats-section__title">2. Mehrstufige Verifikation</h2>
-        <p class="stats-section__desc">Drei Verifikationsstufen: automatische Quality Signals, Cross-Model-Konsensus und Expert-Review.</p>
+        <h2 class="stats-section__title">1. Verifikation</h2>
+        <p class="stats-section__desc">4-Tier-Review: GT-verifiziert, Expert-gepr\u00fcft, Agent-verifiziert, ungepr\u00fcft.</p>
+        <p class="stats-section__source">Quelle: <code>serve.py</code> (Review-API) + <code>quality_signals.py</code> \u2192 <code>catalog.json</code> (reviewStatus, needsReview)</p>
       </div>
       <div class="stats-section__grid">
         <div class="stats-card">
@@ -2436,38 +2400,33 @@ function renderStatsPage() {
           <div class="stats-card__chart-wrap stats-card__chart-wrap--donut"><canvas id="chartReview"></canvas></div>
         </div>
         <div class="stats-card">
-          <div class="stats-card__title">VLM-Konfidenz</div>
-          <div class="stats-card__subtitle">Selbsteinsch\u00e4tzung des Modells (schwaches Signal, validiert durch DWR und Konsensus).</div>
-          <div class="stats-card__chart-wrap stats-card__chart-wrap--donut"><canvas id="chartConfidence"></canvas></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="stats-section">
-      <div class="stats-section__header">
-        <h2 class="stats-section__title">3. Qualit\u00e4tsverteilung</h2>
-        <p class="stats-section__desc">Dictionary Word Ratio (DWR) als st\u00e4rkster verf\u00fcgbarer Qualit\u00e4tsproxy und automatische Quality Signals.</p>
-      </div>
-      <div class="stats-section__grid">
-        <div class="stats-card">
-          <div class="stats-card__title">DWR-Verteilung</div>
-          <div class="stats-card__subtitle">${d.dwrCount} Objekte mit DWR-Score. Schwelle &lt; 0.15 = niedrig (rot).</div>
-          <div class="stats-card__chart-wrap stats-card__chart-wrap--bar"><canvas id="chartDwr"></canvas></div>
-        </div>
-        <div class="stats-card">
           <div class="stats-card__title">Review-Gr\u00fcnde</div>
-          <div class="stats-card__subtitle">${signalTotal} Signale bei ${d.needsReview} Objekten (Mehrfachnennung m\u00f6glich).</div>
+          <div class="stats-card__subtitle">${signalTotal} Signale bei ${d.needsReview} Objekten. Precision: Seitenl\u00e4nge 100%, Bild-Text 100%, Sprache 50%.</div>
           <div class="stats-card__chart-wrap stats-card__chart-wrap--hbar"><canvas id="chartReasons"></canvas></div>
         </div>
       </div>
     </div>
 
-    ${consensusSection}
+    <div class="stats-section">
+      <div class="stats-section__header">
+        <h2 class="stats-section__title">2. Textcharakteristik</h2>
+        <p class="stats-section__desc">Textdichte pro Inhaltsseite nach Dokumenttyp. Registerblaetter (Gruppe A, 73% der Handschrift) enthalten nur Stichwortnotizen; Zeitungsausschnitte sind textdicht.</p>
+        <p class="stats-section__source">Quelle: <code>quality_signals.py</code> (chars_per_page) \u2192 <code>catalog.json</code> (verification.avgCharsPerPage)</p>
+      </div>
+      <div class="stats-section__grid">
+        <div class="stats-card stats-card--wide">
+          <div class="stats-card__title">Zeichen pro Inhaltsseite nach Dokumenttyp</div>
+          <div class="stats-card__subtitle">Median der durchschnittlichen Zeichenzahl pro Inhaltsseite.</div>
+          <div class="stats-card__chart-wrap stats-card__chart-wrap--hbar"><canvas id="chartCharsPerPage"></canvas></div>
+        </div>
+      </div>
+    </div>
 
     <div class="stats-section">
       <div class="stats-section__header">
-        <h2 class="stats-section__title">${hasConsensus ? '5' : '4'}. Signalanalyse</h2>
+        <h2 class="stats-section__title">3. Signalanalyse</h2>
         <p class="stats-section__desc">Welche Dokumenttypen l\u00f6sen welche Quality Signals aus? Zeigt systematische Qualit\u00e4tsunterschiede.</p>
+        <p class="stats-section__source">Quelle: <code>quality_signals.py</code> (needs_review_reasons) \u2192 <code>catalog.json</code> (needsReviewReasons)</p>
       </div>
       <div class="stats-section__grid">
         <div class="stats-card stats-card--wide">
@@ -2480,87 +2439,25 @@ function renderStatsPage() {
   `;
 
   if (typeof Chart === 'undefined') return;
-  renderCoverageChart(d);
-  renderPageCompositionChart(d);
   renderReviewDonut(d);
-  renderConfidenceDonut(d);
-  renderDwrHistogram(d);
   renderReasonsChart(d);
-  if (hasConsensus) {
-    renderConsensusDonut(d);
-    renderConsensusCerChart(d);
-  }
+  renderCharsPerPageChart(groupChars);
   renderHeatmap(d);
-}
-
-function renderCoverageChart(d) {
-  const ctx = document.getElementById('chartCoverage');
-  if (!ctx) return;
-  const cols = state.collections;
-  const labels = cols.map(c => COLLECTION_LABELS[c] || c);
-  const done = cols.map(c => d.perCollection[c] || 0);
-  const pending = cols.map(c => (COLLECTION_TOTALS[c] || 0) - (d.perCollection[c] || 0));
-  const opts = chartOptions({ indexAxis: 'y' });
-  opts.scales.x.stacked = true;
-  opts.scales.y.stacked = true;
-  opts.scales.x.title = axisTitle('Objekte');
-  opts.plugins.tooltip = {
-    backgroundColor: '#2D2D2D', titleFont: { family: CHART_FONT }, bodyFont: { family: CHART_FONT },
-    callbacks: { label: item => { const t = COLLECTION_TOTALS[cols[item.dataIndex]] || 1; return `${item.dataset.label}: ${item.raw} (${Math.round(item.raw / t * 100)}%)`; } },
-  };
-  opts.onClick = (_, elems) => { if (elems.length > 0) navigate('catalog?collection=' + cols[elems[0].index]); };
-  state.statsCharts.push(new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [
-        { label: 'Transkribiert', data: done, backgroundColor: CHART_COLORS.success },
-        { label: 'Ausstehend', data: pending, backgroundColor: CHART_COLORS.muted },
-      ],
-    },
-    options: opts,
-  }));
-}
-
-function renderPageCompositionChart(d) {
-  const ctx = document.getElementById('chartPages');
-  if (!ctx) return;
-  const cols = state.collections;
-  const labels = cols.map(c => COLLECTION_LABELS[c] || c);
-  const content = cols.map(c => (d.pagesByCollection[c] || {}).content || 0);
-  const blank = cols.map(c => (d.pagesByCollection[c] || {}).blank || 0);
-  const other = cols.map(c => (d.pagesByCollection[c] || {}).other || 0);
-  const opts = chartOptions();
-  opts.scales.x.stacked = true;
-  opts.scales.y.stacked = true;
-  opts.scales.y.title = axisTitle('Seiten');
-  state.statsCharts.push(new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels,
-      datasets: [
-        { label: 'Inhalt', data: content, backgroundColor: CHART_COLORS.success },
-        { label: 'Leer', data: blank, backgroundColor: CHART_COLORS.muted },
-        { label: 'Farbskala', data: other, backgroundColor: CHART_COLORS.gold },
-      ],
-    },
-    options: opts,
-  }));
 }
 
 function renderReviewDonut(d) {
   const ctx = document.getElementById('chartReview');
   if (!ctx) return;
   const segments = [
-    { label: 'GT Verifiziert', value: d.gtVerifiedCount, color: CHART_COLORS.successDark },
-    { label: 'Expert Gepr\u00fcft', value: d.approvedCount, color: CHART_COLORS.success },
-    { label: 'Agent Verifiziert', value: d.agentCount, color: CHART_COLORS.successMid },
-    { label: 'LLM OK', value: d.llmOkCount, color: CHART_COLORS.warning },
-    { label: 'Needs Review', value: d.needsReview, color: CHART_COLORS.danger },
+    { label: 'GT-verifiziert', value: d.gtVerifiedCount, color: CHART_COLORS.successDark },
+    { label: 'Expert-gepr\u00fcft', value: d.approvedCount, color: CHART_COLORS.success },
+    { label: 'Agent-verifiziert', value: d.agentCount, color: CHART_COLORS.successMid },
+    { label: 'Nur VLM', value: d.llmOkCount, color: CHART_COLORS.warning },
+    { label: 'Review n\u00f6tig', value: d.needsReview, color: CHART_COLORS.danger },
   ].filter(s => s.value > 0);
   const opts = donutOptions('bottom');
   opts.onClick = (_, elems) => {
-    if (elems.length > 0 && segments[elems[0].index].label === 'Needs Review') navigate('catalog?review_status=needs_review');
+    if (elems.length > 0 && segments[elems[0].index].label === 'Review n\u00f6tig') navigate('catalog?review_status=needs_review');
   };
   state.statsCharts.push(new Chart(ctx, {
     type: 'doughnut',
@@ -2569,70 +2466,29 @@ function renderReviewDonut(d) {
   }));
 }
 
-function renderConfidenceDonut(d) {
-  const ctx = document.getElementById('chartConfidence');
+function renderCharsPerPageChart(groupChars) {
+  const ctx = document.getElementById('chartCharsPerPage');
   if (!ctx) return;
-  const segments = [
-    { label: 'High', value: d.confDist.high, color: CHART_COLORS.success },
-    { label: 'Medium', value: d.confDist.medium, color: CHART_COLORS.warning },
-    { label: 'Low', value: d.confDist.low, color: CHART_COLORS.danger },
-  ].filter(s => s.value > 0);
-  state.statsCharts.push(new Chart(ctx, {
-    type: 'doughnut',
-    data: { labels: segments.map(s => `${s.label} (${s.value})`), datasets: [{ data: segments.map(s => s.value), backgroundColor: segments.map(s => s.color) }] },
-    options: donutOptions('bottom'),
-  }));
-}
-
-function renderConsensusDonut(d) {
-  const ctx = document.getElementById('chartConsensus');
-  if (!ctx) return;
-  const catColors = {
-    consensus_verified: CHART_COLORS.successDark,
-    consensus_moderate: CHART_COLORS.warning,
-    consensus_review: CHART_COLORS.warningOrange,
-    consensus_divergent: CHART_COLORS.danger,
+  const entries = Object.entries(groupChars)
+    .filter(([, v]) => v.chars.length > 0)
+    .map(([g, v]) => {
+      const sorted = v.chars.slice().sort((a, b) => a - b);
+      const median = sorted[Math.floor(sorted.length / 2)];
+      return { group: g, median: Math.round(median), objects: v.objects, pages: v.pages };
+    })
+    .sort((a, b) => b.median - a.median);
+  const opts = chartOptions({ indexAxis: 'y' });
+  opts.scales.x.title = axisTitle('Zeichen / Inhaltsseite (Median)');
+  opts.plugins.tooltip = {
+    backgroundColor: '#2D2D2D', titleFont: { family: CHART_FONT }, bodyFont: { family: CHART_FONT },
+    callbacks: { label: item => `${item.raw} Zeichen (${entries[item.dataIndex].objects} Objekte, ${entries[item.dataIndex].pages} Seiten)` },
   };
-  const entries = Object.entries(d.consCatDist).sort((a, b) => {
-    const order = ['consensus_verified', 'consensus_moderate', 'consensus_review', 'consensus_divergent'];
-    return order.indexOf(a[0]) - order.indexOf(b[0]);
-  });
   state.statsCharts.push(new Chart(ctx, {
-    type: 'doughnut',
+    type: 'bar',
     data: {
-      labels: entries.map(([k, v]) => `${CONSENSUS_LABELS[k] || k} (${v})`),
-      datasets: [{ data: entries.map(([, v]) => v), backgroundColor: entries.map(([k]) => catColors[k] || CHART_COLORS.muted) }],
+      labels: entries.map(e => e.group),
+      datasets: [{ label: 'Zeichen/Seite', data: entries.map(e => e.median), backgroundColor: CHART_COLORS.burgundyAlpha }],
     },
-    options: donutOptions('bottom'),
-  }));
-}
-
-function renderConsensusCerChart(d) {
-  const ctx = document.getElementById('chartConsensusCer');
-  if (!ctx) return;
-  const labels = ['< 3%', '3\u20135%', '5\u201310%', '10\u201320%', '\u2265 20%'];
-  const colors = [CHART_COLORS.success, CHART_COLORS.successMid, CHART_COLORS.warning, CHART_COLORS.warningOrange, CHART_COLORS.danger];
-  const opts = chartOptions();
-  opts.scales.x.title = axisTitle('CER-Bereich');
-  opts.scales.y.title = axisTitle('Objekte');
-  state.statsCharts.push(new Chart(ctx, {
-    type: 'bar',
-    data: { labels, datasets: [{ label: 'Objekte', data: d.consensusCerBins, backgroundColor: colors }] },
-    options: opts,
-  }));
-}
-
-function renderDwrHistogram(d) {
-  const ctx = document.getElementById('chartDwr');
-  if (!ctx) return;
-  const labels = ['0.0\u20130.1', '0.1\u20130.2', '0.2\u20130.3', '0.3\u20130.4', '0.4\u20130.5', '0.5\u20130.6', '0.6\u20130.7', '0.7+'];
-  const colors = d.dwrHistogram.map((_, i) => i < 2 ? CHART_COLORS.danger : i < 3 ? CHART_COLORS.warning : CHART_COLORS.success);
-  const opts = chartOptions();
-  opts.scales.x.title = axisTitle('DWR-Score');
-  opts.scales.y.title = axisTitle('Objekte');
-  state.statsCharts.push(new Chart(ctx, {
-    type: 'bar',
-    data: { labels, datasets: [{ label: 'Objekte', data: d.dwrHistogram, backgroundColor: colors }] },
     options: opts,
   }));
 }

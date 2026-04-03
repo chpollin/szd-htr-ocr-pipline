@@ -1,0 +1,61 @@
+{
+  "object_id": "o_szd.2430",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Erika Mitterer: \"Dank des Lebens\". Gedichte., SZ-AAP/W-AA143.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2430/IMG.1",
+      "SZ_AAP_W_AA143.1_002.jpg",
+      "SZ_AAP_W_AA143.1_003.jpg",
+      "SZ_AAP_W_AA143.1_004.jpg",
+      "SZ_AAP_W_AA143.1_005.jpg",
+      "SZ_AAP_W_AA143.1_006.jpg",
+      "SZ_AAP_W_AA143.1_007.jpg"
+    ],
+    "input_image_count_total": 1
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Erika Mitterer: \"Dank des Lebens\". Gedichte.\n- Signatur: SZ-AAP/W-AA143.1\n- Datum: 1930\n- Sprache: Deutsch\n- Objekttyp: Typoskriptdurchschlag\n- Umfang: 3 Blatt\n- Schreibinstrument: Violettes\n                                       Durchschlagpapier",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Erika Mitterer: \"Dank des Lebens\". Gedichte. Rütten & Loening\nVerlag Frankfurt 1930.\nMit einigen Gedichten in der \"Anthologie jüngster Lyrik\"\nhat Erika Mitterer zuerst die(sehr Wenigen,)denen heute Verse\nnoch immer ein Wichtiges bedeuten, neugierig gemacht. Sehr stren-\nge Formen, nicht zufällig an Stefan George und den späten Rilke\nerinnernd, umschlossen da knappe Gebilde von stärkster innerer\nBewegtheit, männlich strengen Ausdruck mit leidenschaftlich weib-\nlichem Gefühl verbindend. Diese seltene Mischung, man möchte\nsagen: gefrorenes Feuer - gelangt in dieser fülligeren Auswahl\nnoch stärker und persönlicher zur Erscheinung, durchaus künst-\nlerisch und ohne jede eitle Appretur. Denn dieser Dichterin ist\nFormenstrenge kein erzwungenes Kleid, sie passt natürlich zu\neiner innern Herbigkeit und Beherrschtheit, die an manche der\nschönsten Strophen der Ricarda Huch und ihrer Halblandsmännin\nDroste-Hülshoff erinnert; weiblich, sehr weiblich sogar, aber\nohne Weichlichkeit, vehement ohne je vulgär, gefühlsstark ohne\nje sentimentalisch zu werden, weiss sie jedem Gedicht Persönlich-\nstes zu geben, ohne sich darum zu verraten. Durch diese Abwehr\njeder Intimität (zu der weibliche Lyrik sonst oft so unangenehm\nbekennerisch herausfordert) entsteht hier eine durchaus reine\nund menschliche Interessiertheit neben dem unmittelbar ästhetischen\nGenuss, den einzelnen Strophen noch mehr als die ganz geschlossenen\nGebilde bestärken. Denn nicht immer gelingt Erika Mitterer schon\ndas ganze Gedicht, manchmal erfrostet der im ersten Anhauch so\nheisse Atem in Begrifflichkeiten, manchmal fehlt wieder die volle\nHärte der Hand, die schöne schwere fruchtbeladene Schale ohne\nSchwanken und inneres Erzittern den ganzen vorbestimmten Raum\nzu tragen; aber kein Gedicht steht in diesem schmalen Bande, das\nsich nicht wenigstens teilweise als besonders dichterisch bewie-\nse, keines auch, das nur aus spielhaftem Trieb gestaltet wäre.\nImmer gibt tiefinnerliche Empfindung, ein starkes, durchaus\neigenhaftes Gefühl sich an das Wort weiter und dies Starkerschüt-\n[...] einzelnen Seelenerlebnis steigert sich im ganzen",
+        "notes": "Typoskriptdurchschlag auf dünnem Papier. Die letzte Zeile ist am unteren Rand abgeschnitten. Die Lesbarkeit ist insgesamt gut, trotz des typischen Kontrastverlusts bei Durchschlägen.",
+        "type": "content"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar. Die letzte Zeile ist aufgrund des Papierrands unvollständig, was durch [...] markiert wurde."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2106,
+    "total_words": 290,
+    "total_pages": 1,
+    "empty_pages": 0,
+    "blank_pages": 0,
+    "color_chart_pages": 0,
+    "content_pages": 1,
+    "input_images": 1,
+    "page_types": [
+      "content"
+    ],
+    "chars_per_page": [
+      2106
+    ],
+    "chars_per_page_median": 2106,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 1,
+    "marker_density": 0.0034,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

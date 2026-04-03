@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2459",
+  "collection": "aufsatzablage",
+  "group": "zeitungsausschnitt",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Maeterlinck. Eine Studie von Johannes Schlaf., SZ-AAP/W-AA132.3",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2459/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2459/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2459/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Maeterlinck. Eine Studie von Johannes Schlaf.\n- Signatur: SZ-AAP/W-AA132.3\n- Datum: 1.\n                                 3. 1907\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Maeterlinck. Eine Studie von Johannes Schlaf.\n1906, Bard, Marquardt & Co. (= Die Literatur.\nHerausgegeben von Georg Brandes. Bd. 10),\n55 S. M. 1,25 (1,50).\nNach zwei Richtungen hin ist diese Studie über\nMaeterlinck wertvoll, nach der einen, die nach innen,\nund der, die nach außen führt. Die nach innen,\nden Ursprung aufwühlend, faßt die Wurzel fester\nals die meisten der bisherigen Studien. Schlaf,\neiner der wenigen, die über die prachtvolle belgische\nLiteratur unserer Tage informiert sind, stellt Maeter-\nlincks Entwicklung wieder in den Grund zurück, dem\nsie entwachsen, in die flandrische Erde und in jenes\nFruchtjahr, da fast gleichzeitig ihm Verhaeren,\nLemonnier, Rodenbach aufwuchsen. Bei dem Werk\nverweilt dann Schlaf nicht lang. Ihn reizt nur\ndas Kontinuitätsproblem, die großen Zusammen-\nhänge, und so faßt er — und wie ich meine,\nsehr glücklich — nicht wie gewöhnlich Maeterlinck\nals einen mystischen, rückschrittlichen Outsider, einen\nzufällig in unser Jahrhundert hineinverirrten Mysta-\ngogen, sondern fühlt ihn gerade als einen der ersten\nin der Reihe der Kultureuropäer, Mitschöpfer der\nneuen Sozietät, die nach neuartigen Werten ver-\nlangt. Selbstverständlich fühlt man der Studie an,\nwie schmerzhaft sie sich in das Maß der vorgeschrie-\nbenen Seitenzahl einpreßt; Schlaf, impulsiv, mit-\nteilsam und vor allem reich überquellend, holt\nwichtig aus und muß dann hastig sein, um erst\nwieder im Finale den breiten, geruhigen Schwung\nzu gewinnen, der seine, in prachtvollen Nüancen\nglänzende, wunderbar vibrierende Sprache so hin-\nreißend gestalten kann. Mit den Studien über\n„Walt Whitman“, „Novalis“, „Verhaeren“ und\nnun „Maeterlinck“ hat Schlaf mehr gegeben als\nMonographien; sie sind ein Komplex geeinigter\nWeltanschauung, die wohl das Recht hat, für sich\ngesondert betrachtet zu werden.\nWien Stefan Zweig",
+        "notes": "Gedruckter Zeitungsausschnitt. Die Lesbarkeit ist sehr gut.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Hänge, und so faßt er — und wie ich meine,\nsehr glücklich — nicht wie gewöhnlich Maeterlinck\nals einen mystischen, rückschrittlichen Outsider, einen\nzufällig in unser Jahrhundert hineinverirrten Mysta-\ngogen, sondern fühlt ihn gerade als einen der ersten\nin der Reihe der Kultureuropäer, Mitschöpfer der\nneuen Sozietät, die nach neuartigen Werten ver-\nlangt. Selbstverständlich fühlt man der Studie an,\nwie schmerzhaft sie sich in das Maß der vorgeschrie-\nbenen Seitenzahl einpreßt; Schlaf, impulsiv, mit-\nteilsam und vor allem reich überquellend, holt\nwichtig aus und muß dann hastig sein, um erst\nwieder im Finale den breiten, geruhigen Schwung\nzu gewinnen, der seine, in prachtvollen Nüancen\nglänzende, wunderbar vibrierende Sprache so hin-\nreißend gestalten kann. Mit den Studien über\n„Walt Whitman“, „Novalis“, „Verhaeren“ und\nnun „Maeterlinck“ hat Schlaf mehr gegeben als\nMonographien; sie sind ein Komplex geeinigter\nWeltanschauung, die wohl das Recht hat, für sich\ngesondert betrachtet zu werden.",
+        "notes": "Ausschnitt des Textes mit Farbskala und Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist klar gedruckt und vollständig lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2826,
+    "total_words": 418,
+    "total_pages": 1,
+    "empty_pages": 1,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1822,
+      0,
+      1004
+    ],
+    "chars_per_page_median": 1822,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}
