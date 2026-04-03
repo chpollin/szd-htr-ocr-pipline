@@ -41,7 +41,7 @@ Lokales Backup unter `SZD_BACKUP_ROOT` (Default: `C:/Users/Chrisi/Documents/PROJ
 | `aufsatz/` | `aufsatzablage` | 625 | 3.844 | 5 | `szd_aufsatzablage_tei.xml` |
 | `facsimiles/` | `werke` | 169 | 7.842 | 21 | `szd_werke_tei.xml` |
 
-Werke ist die bildintensivste Sammlung (42% aller Bilder, 50 Objekte mit >50 Bildern). Sprachen: Deutsch (96%), Englisch, Franzoesisch, Italienisch, Spanisch. Detailanalyse → `knowledge/data-overview.md`.
+Werke ist die bildintensivste Sammlung (42% aller Bilder, 50 Objekte mit >50 Bildern). Sprachen: Deutsch (95,6%), Englisch (2,6%), Französisch (1,5%), Italienisch, Spanisch. Detailanalyse → `knowledge/data-overview.md`.
 
 Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/images/IMG_*.jpg`. Pipeline-Abdeckung → `python pipeline/transcribe.py --all --dry-run` bzw. `docs/catalog.json`.
 

@@ -29,7 +29,9 @@ Diplomatic transcription without normalisation. Markup: `[?]` uncertain, `[...]`
 | Essay collection | 625 | 3,844 | 5 | [TEI](https://stefanzweig.digital/o:szd.aufsatzablage/TEI_SOURCE) |
 | Correspondence | 1,186 | 4,154 | 3 | Backup metadata |
 
-Languages: German (96%), English, French, Italian, Spanish. Image format: JPEG, approx. 4800 × 7200 px.
+Languages: German (95.6%), English (2.6%), French (1.5%), Italian, Spanish (based on TEI metadata analysis).
+
+Image format: JPEG, approx. 4,800 × 7,200 px.
 
 ## Setup
 
