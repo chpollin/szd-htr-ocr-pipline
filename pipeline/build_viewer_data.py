@@ -162,6 +162,26 @@ def build():
         # Modellkonsensus data (from verify.py)
         consensus = load_consensus(result_file)
 
+        # Layout regions (from layout_analysis.py)
+        layout_path = result_file.parent / f"{data['object_id']}_layout.json"
+        layout_by_page = {}
+        has_layout = False
+        if layout_path.exists():
+            try:
+                layout_data = json.loads(layout_path.read_text(encoding="utf-8"))
+                for lp in layout_data.get("pages", []):
+                    layout_by_page[lp["page"]] = lp.get("regions", [])
+                has_layout = bool(layout_by_page)
+            except (json.JSONDecodeError, KeyError):
+                pass
+
+        # Merge layout regions into pages
+        if has_layout:
+            for p in pages:
+                page_num = p.get("page", 0)
+                if page_num in layout_by_page:
+                    p["layout_regions"] = layout_by_page[page_num]
+
         obj = {
             "id": result_file.stem,
             "collection": data["collection"],
@@ -211,6 +231,7 @@ def build():
             },
             "consensus": consensus,  # None if no consensus file exists
             "review": review,  # None if not yet reviewed
+            "hasLayout": has_layout,
         }
         objects.append(obj)
 
@@ -248,6 +269,7 @@ def build():
             "consensusCategory": obj["consensus"]["category"] if obj.get("consensus") else None,
             "consensusCer": obj["consensus"]["effective_cer"] if obj.get("consensus") else None,
             "reviewStatus": obj["review"].get("status") if obj.get("review") else None,
+            "hasLayout": obj.get("hasLayout", False),
         })
 
     catalog = {"objects": catalog_objects, "collections": collections}

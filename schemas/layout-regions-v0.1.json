@@ -17,9 +17,14 @@
       "description": "Sammlungsname (z.B. 'lebensdokumente')"
     },
 
+    "group": {
+      "type": "string",
+      "description": "Prompt-Gruppe (z.B. 'handschrift', 'korrespondenz')"
+    },
+
     "model": {
       "type": "string",
-      "description": "VLM-Modell fuer Layout-Analyse (z.B. 'gemini-3.1-flash-lite-preview')"
+      "description": "Modell-Pipeline (z.B. 'docling+surya+gemini-3-flash-preview')"
     },
 
     "pages": {
@@ -85,6 +90,11 @@
                 "label": {
                   "type": "string",
                   "description": "Kurze Beschreibung der Region (Deutsch)"
+                },
+                "source": {
+                  "type": "string",
+                  "enum": ["docling", "surya", "merged", "vlm_added"],
+                  "description": "Herkunft der Region (docling=CV-Block, surya=CV-Zeile, merged=Kombination, vlm_added=VLM-Ergaenzung)"
                 }
               }
             }

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.2812",
+  "collection": "aufsatzablage",
+  "group": "typoskript",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Aufsätze W, SZ-AAP/W-AA-W",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2812/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2812/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2812/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Aufsätze W\n- Signatur: SZ-AAP/W-AA-W\n- Sprache: Deutsch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt,\n                                          korrigiert\n- Schreibinstrument: Schwarzes Farbband, violette Tinte, Bleistift, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Aufsätze\n--------\n\nWaffen, Nehmt allen die.... weg ✓\nWahl der Staatsangehörigkeit ✓\nWanderungen des Königsmörders Ravaillac ✓\nWassermann, Jakob ✓\nWege zum deutschen Ruhm, Die zehn ✓\nWegner, Arnim T. ✓\nWeininger, Otto ✓\nWelt, Aus abgesperrter ✓\nWelt, Die schlaflose ✓\nWerfel, Franz ✓\nWhitman, Walt ✓\nWiederherstellung der geistigen Internationale ✓\nWiener Malerei in Zürich ✓\nWildgans, Anton ✓\nWittmann, Hugo ✓\nWort zur Schutzfristfrage, Ein ✓\nWerkstatt der Dichter, Aus der ✓\nWells, H.G. ✓\nWalter, Bruno ✓",
+        "notes": "Typoskript mit handschriftlichen Häkchen (✓) hinter den Einträgen. Oben rechts ein handschriftliches Kürzel (vermutlich 'W').",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Dokuments, leer.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala für Archivierung. Überdeckt teilweise den Text auf dem Dokument.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um ein klares Typoskript handelt."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 505,
+    "total_words": 81,
+    "total_pages": 1,
+    "empty_pages": 2,
+    "blank_pages": 1,
+    "color_chart_pages": 1,
+    "content_pages": 1,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      505,
+      0,
+      0
+    ],
+    "chars_per_page_median": 505,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

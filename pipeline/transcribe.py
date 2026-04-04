@@ -60,6 +60,22 @@ def load_object_prompt(object_id: str) -> str | None:
     return None
 
 
+# --- OCR File Discovery ---
+
+def find_ocr_file(results_dir: Path, object_id: str) -> Path | None:
+    """Find the primary OCR result file for an object.
+
+    Prefers gemini*.json, then any non-layout/non-consensus JSON.
+    """
+    candidates = sorted(results_dir.glob(f"{object_id}_gemini*.json"))
+    if candidates:
+        return candidates[0]
+    for f in sorted(results_dir.glob(f"{object_id}_*.json")):
+        if "_layout" not in f.stem and "_consensus" not in f.stem and "_page" not in f.stem:
+            return f
+    return None
+
+
 # --- Object Discovery ---
 
 def discover_objects(collection: str) -> list[dict]:

@@ -1,0 +1,73 @@
+{
+  "object_id": "o_szd.299",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Thersites [Fragment II], SZ-AP2/W-E43.4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.299/IMG.1",
+      "https://gams.uni-graz.at/o:szd.299/IMG.2",
+      "https://gams.uni-graz.at/o:szd.299/IMG.3"
+    ],
+    "input_image_count_total": 3
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Thersites [Fragment II]\n- Signatur: SZ-AP2/W-E43.4\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 2 Blatt\n- Hand: Stefan Zweig\n- Anmerkungen: 124 Blatt in Salzburg",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Soll er Dich taumelnd aus dem Schlafe schnellen.\nUnd diese Stunde, wenn Du aschfahl aufschreckst,\nDie Angst tief in den Augen, ob das soll\nMir alle Schmach vergelten, diese Tote\nUnd dann mein Leben, tausend trübe Tage\nSchwarz wie die Nacht von Schande, Quab und Not.\nKein Lachen wächst auf deinen Lippen mehr,\nDie Dir das Leid mit harten Furchen schneidet\nBis Du nicht atmen kannst und selbst den Weg\nZu deinen Toten gehst.\n(Achilles wirft ihn in Abermass seines Schmerzes von sich wie eine tote\nWare. Tersites auffahrend, krallt sich wieder in den Wankenden ein)\nTausendmal\nWirfst Du mich von Dir werfen, aber ich\nGeb Dich nicht frei. Ich will Dir treu sein, wie\nPatroclos es nicht war, denn dieser ging\nJa fort von Dir, ich aber bleib' Dir treu\nWie ein Gebrest. Du wirst es immer wissen\nDas jener tot ist, dass ich lebe, spreche\nUnd er ein Hundefraß!\nAchilles (sich plötzlich aufraffend, in furchtbarster Verzweiflung auf-\nschreiend) Es ist nicht wahr!\nEs darf nicht wahr sein; nein, sonst hätte ich\nMehr keinen Atem in der Brust, mein Leben\nWäre zerschmettert. Nein es ist nicht wahr.\nSag mir, es ist nicht wahr! Doch nein! Du bist\nMein Feind, die Flamme deiner Augen will\nMich nur versengen... wer?..\n(wie rasend zum Zelt türe hin, hinausrufend) Xenos! Lykas!",
+        "notes": "Handschriftliches Manuskript in violetter Tinte. Die Seite ist mit '119' nummeriert.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "(Die beiden Diener treten verschreckt herein)\nAchilles Halt ihr?... ist?....\n(Die Diener wenden sich schweisend ab)\nAchilles (stösst einen furchtbaren Schrei aus und stützt sich mühsam am\nPfosten des Zeltes. Schluchzen peitscht seinen Körper. Eine kurze, atemlose Pause.)\nTersites (mit seller Stimme an ihn heran)\nGlaubst Du mir endlich\nHörst Du in ihrem Schweigen meinen Schrei?\nHörst Du es donnern, Patroclos ist tot\nFühlst Du es tief in Dir? Mein ganzes Sein\nIst eingehallt in diesem Schrei und hängt\nAn deiner Brust. Wann wirst Du wieder lachen?\nIch will jetzt lachen, dass die Tote hier\nNoch einmal aufschreckt auf dem Weg der Nacht\nUnd Lächeln auf den kühlen Lippen blüht.\nAufglänzt mein Leben, ich Tersites werde\nDein Freund nun sein und will mit meiner Liebe\nNicht sparen mehr, nein will Dich so umfassen,\nMich mit den Zähnen an Dich hängen, wie\nDu meine Schönheit liebst und auf den Knien\nSo vor mir liegst wie ich vor Dir. Und dann\nWill ich die Türsten alle rufen und den Hektor,\nIch will...\n(Bei dem Wort 'Hektor' ist Achilles jäh aufgefahren. Sein ganzer Kör-\nper glüht vor Erregung. Er will hinausstürzen, wie sich ihm Tersites\nentgegensellt schlägt er ihn mit einem Streich zusammen. Ein Feuer\nbrennt in seinen Augen.\nAchilles (mit pochender Gebärde) Und jetzt zu Hektor!\n(Er stürmt hinaus, die beiden Diener folgen ihm rasch)",
+        "notes": "Handschriftliches Manuskript in violetter Tinte. Die Seite ist mit '120' nummeriert. Eine Zeile enthält eine Korrektur/Einfügung: '{mit schlotterndem Schwert}' unter 'Achilles (mit pochender Gebärde)'.",
+        "type": "content"
+      },
+      {
+        "page": 3,
+        "transcription": "",
+        "notes": "Farbskala/Grauskala fuer Archivierung. Identisch mit Seite 2, jedoch mit Archiv-Farbskala am oberen Rand.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "high",
+    "confidence_notes": "Der Text ist sehr gut lesbar, trotz der kursiven Handschrift Stefan Zweigs. Die wenigen Korrekturen sind eindeutig zuzuordnen."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 2603,
+    "total_words": 441,
+    "total_pages": 2,
+    "empty_pages": 1,
+    "blank_pages": 0,
+    "color_chart_pages": 1,
+    "content_pages": 2,
+    "input_images": 3,
+    "page_types": [
+      "content",
+      "content",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      1263,
+      1340,
+      0
+    ],
+    "chars_per_page_median": 1301.5,
+    "marker_uncertain_count": 0,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [],
+    "needs_review": false,
+    "needs_review_reasons": []
+  }
+}

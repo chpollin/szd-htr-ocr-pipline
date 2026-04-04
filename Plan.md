@@ -85,7 +85,8 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 - [x] Projekt-Seite aus README.md (`#about`) (Session 15)
 - [x] `build_viewer_data.py`: `build_knowledge()` — Markdown → HTML → knowledge.json (Session 15)
 - [x] Layout-Analyse v1: VLM-only (`layout_analysis.py`) + PAGE XML Export (`export_pagexml.py`) (Session 14)
-- [~] Layout-Analyse v4: Ensemble-Pipeline Docling + Surya + Gemini 3 Flash (Session 23). Korrespondenz getestet, 8 Gruppen ausstehend.
+- [x] Layout-Analyse v4: Ensemble-Pipeline Docling + Surya + Gemini 3 Flash (Session 23-24). Alle 9 Gruppen getestet (25 Objekte, 72% good). Robustness-Refactoring (8 Fixes), Post-Processing-Filter (3 Filter), Prompt-Verfeinerung, Merge+Verify kombiniert (1 statt 2 VLM-Calls/Seite).
+- [~] Layout-Batch: Visuelle Verifikation Welle 2 ausstehend, dann Batch ueber ~1300 Objekte.
 - [x] Layout-Viewer: SVG-Overlay auf Faksimile, Toggle (L), Farblegende, Pan/Zoom-Sync (Session 23)
 - [x] Lokaler Dev-Server (`serve.py`) mit Review-API: POST /api/approve, /api/edit (Session 17)
 - [x] Expert-Review Write-Back (`import_reviews.py`) + 3-stufiger Review-Status (Session 16)

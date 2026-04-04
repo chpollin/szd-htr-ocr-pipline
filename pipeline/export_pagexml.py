@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from config import COLLECTIONS, MODEL, RESULTS_BASE, results_dir_for
-from transcribe import discover_objects
+from transcribe import discover_objects, find_ocr_file
 
 PAGE_NS = "http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15"
 ET.register_namespace("", PAGE_NS)
@@ -16,23 +16,11 @@ ET.register_namespace("", PAGE_NS)
 
 # --- Data Loading ---
 
-def _find_ocr_file(results_dir: Path, object_id: str) -> Path | None:
-    """Find the OCR result file for an object."""
-    candidates = sorted(results_dir.glob(f"{object_id}_gemini*.json"))
-    if candidates:
-        return candidates[0]
-    # Fallback: any non-layout, non-consensus JSON
-    for f in sorted(results_dir.glob(f"{object_id}_*.json")):
-        if "_layout" not in f.stem and "_consensus" not in f.stem:
-            return f
-    return None
-
-
 def load_ocr_and_layout(object_id: str, collection: str) -> tuple[dict | None, dict | None]:
     """Load OCR result and layout analysis for an object."""
     results_dir = results_dir_for(collection)
 
-    ocr_path = _find_ocr_file(results_dir, object_id)
+    ocr_path = find_ocr_file(results_dir, object_id)
     layout_path = results_dir / f"{object_id}_layout.json"
 
     ocr_data = None
