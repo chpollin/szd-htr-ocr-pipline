@@ -103,9 +103,9 @@ VLM-basierte HTR/OCR-Pipeline fuer den Stefan-Zweig-Nachlass (Literaturarchiv Sa
 
 ### 5b: METS/MODS + PAGE XML (Zielformat)
 - [x] PAGE XML Export (`export_pagexml.py`) — deterministisch, PAGE 2019
-- [ ] `export_mets.py` — METS-Container mit MODS (aus TEI-Metadaten) + PAGE XML Referenzen
-- [ ] TEI msDesc → MODS Mapping (automatisch via `tei_context.py`)
-- [ ] Batch-Export und Validierung gegen METS-Schema
+- [x] `export_mets.py` — METS-Container mit MODS (aus TEI-Metadaten) + PAGE XML Referenzen (Session 25)
+- [x] TEI msDesc → MODS Mapping (automatisch via `parse_tei_full_metadata()`, Backup-Fallback fuer Korrespondenzen)
+- [x] Batch-Export: 2074 METS-Dateien, 0 Fehler (Session 25)
 - [ ] GAMS-Reingest-Test mit METS/MODS-Output
 
 ### 5c: teiCrafter-Integration

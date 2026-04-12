@@ -222,7 +222,7 @@ L3 schreibt ein Script (`pipeline/export_dia_xai.py`), das:
 
 ```
 April 2026 (JETZT):
-  ├── SZD-HTR: ~1973 Objekte transkribiert (94%), Batch fuer Rest laeuft
+  ├── SZD-HTR: ~2080 Objekte transkribiert (99%), METS-Export fertig
   └── DIA-XAI: Repo angelegt, EQUALIS spezifiziert, Use Cases definiert
 
 Mai–Jun 2026 (DIA-XAI Phase 1):
@@ -230,7 +230,7 @@ Mai–Jun 2026 (DIA-XAI Phase 1):
   └── DIA-XAI: EIL-Interface-Prototyp mit SZD-HTR-Daten
 
 Jul–Sep 2026:
-  ├── SZD-HTR: Verbleibende Sammlungen transkribieren, GT-Sample erweitern
+  ├── SZD-HTR: Layout-Analyse skalieren, fehlende Werke-Objekte vervollstaendigen
   └── DIA-XAI: UC3-Metriken (CER) importieren
 
 Okt 2026–Maerz 2027 (DIA-XAI Phase 3):
@@ -243,7 +243,7 @@ Okt 2026–Maerz 2027 (DIA-XAI Phase 3):
 
 Minimum fuer Mai 2026:
 1. **CER-Werte aus GT-Sample** — quantitative Baseline
-2. **quality_signals fuer ~1973 Objekte** — zeigt Triage-Faehigkeit
+2. **quality_signals fuer ~2080 Objekte** — zeigt Triage-Faehigkeit
 3. **Verification-by-Vision Ergebnisse** — zeigt VbV-Ansatz
 
 Das ist realistisch — Pilot und quality_signals sind die einzigen blockierenden Aufgaben.

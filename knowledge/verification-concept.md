@@ -239,7 +239,7 @@ Vor jedem weiteren Batch-Lauf ein 30-Objekt-Referenz-Sample erstellen. Prioritae
 
 **Was sich NICHT aendert**: CER als Primaermetrik, manuelles Referenz-Sample als Grundentscheidung, die Normalisierungsregeln (§1.7), die quality_signals-Spezifikation.
 
-**Empirische Validierung (Session 18):** Die Schwellen wurden an 26 verifizierten Objekten geprueft — alle 9 Gruppen liegen im Bereich <5% (gedruckter Text) bis ~10% (schwierige Handschrift/Tabellen). Details → [[evaluation-results]].
+**Empirische Validierung (Session 18-20):** Die Schwellen wurden an 62 verifizierten Objekten geprueft (18 human-approved, 44 agent-verified) — alle 9 Gruppen liegen im Bereich <5% (gedruckter Text) bis ~10% (schwierige Handschrift/Tabellen). Details → [[evaluation-results]].
 
 ---
 

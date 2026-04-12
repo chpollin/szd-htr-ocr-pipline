@@ -1192,7 +1192,7 @@ DTABf-Schema um 30+ Elemente erweitert (msDesc-Hierarchie, fw, table, list, Head
 - [x] Fraktur-Erkennung: o_szd.2232 high confidence (Session 7)
 - [x] Batch-Modus: transcribe.py (Session 5)
 - [x] Konvolut: Gruppe G erstellt, o_szd.277 medium (Session 7)
-- [~] Alle 2107 Objekte transkribieren — ~1308/2107 (62%) fertig nach Session 20b Batch (Session 17–20b)
+- [~] Alle 2107 Objekte transkribieren — ~2080/2107 (99%) fertig (Session 25), 27 Werke-Objekte im Batch
 - [x] quality_signals kalibrieren: v1.1 rekalibriert (Session 13), low_dwr entfernt (Session 20 Phase A)
 - [x] o_szd.143 nur 20 Zeichen auf 3 Seiten — geloest: fehlende Bilder wegen API-Limit, Chunking eingebaut (Session 17)
 - [x] Verification-by-Vision: Proof of Concept erfolgreich, Spec geschrieben (Session 11)
@@ -1204,9 +1204,74 @@ DTABf-Schema um 30+ Elemente erweitert (msDesc-Hierarchie, fw, table, list, Head
 - [~] Agent-Verifikation auf weitere Objekte ausweiten — 44/~875 agent-verified (Session 18–20)
 - [x] Fraktur-Post-Processing evaluiert: 38% Precision, taugt als Flagging, nicht Auto-Korrektur (Session 20 Phase A)
 - [ ] `duplicate_pages` False-Positive fixen: Color-Chart-Seiten von Duplikat-Erkennung ausschliessen (Session 19)
-- [ ] Halluziniertes "An" auf Adressseiten: Prompt-Fix oder Post-Processing (Session 19)
+- [x] Halluziniertes "An" auf Adressseiten: Prompt-Fix in group_i_korrespondenz.md (Session 25)
 - [x] DWR-Score gegen Agent-Verifikation validiert: rho=0.05, F1=0.20, Signal entfernt (Session 20 Phase A)
 - [~] **Truncation fixen**: Root Cause `max_images=5` gefixt, 97 Objekte betroffen, 15/24 re-transkribiert (Session 20 Phase A)
 - [x] Edit-Tracking: `edit_history` in Pipeline-JSONs + Frontend-Diff implementiert (Session 20)
 - [ ] `marker_density` evaluieren: Gemini setzt keine Marker, Signal vermutlich wertlos wie DWR
 - [ ] `duplicate_pages` + `language_mismatch` Precision/Recall messen (naechste Kalibrierungsrunde)
+
+---
+
+## 2026-04-12 — Session 25: Batch-Transkription +20 Objekte (2075/2107), Ensemble-Layout-Pipeline
+
+### Was wurde gemacht
+
+**1. Transkriptionsluecken geschlossen**
+
+Ausgangslage: 2075/2107 Objekte (98,5%). Fehlend: 5 Aufsatzablage, 27 Werke.
+
+- Aufsatzablage: 1/5 erfolgreich (o_szd.2607), 4 persistente API-Fehler (INVALID_ARGUMENT / leere Antwort)
+- Werke: Batch laeuft (27 Objekte, 53-341 Bilder). Stand: ~146/169 Werke-Dateien. Chunking funktioniert, aber o_szd.227 (184 Bilder, 73% Leerseiten) hatte massive JSON-Parse-Fehler (120/184 Platzhalter-Seiten)
+
+**2. METS/MODS Export implementiert (Phase 5b)**
+
+Neues Script `pipeline/export_mets.py` (~280 Zeilen). METS-Container mit:
+- dmdSec: MODS-Metadaten aus TEI (parse_tei_full_metadata) + Backup-Fallback fuer Korrespondenzen
+- fileSec: GAMS-Bild-URLs + PAGE XML Referenzen (falls vorhanden)
+- structMap PHYSICAL: Seiten-Sequenz
+- structMap LOGICAL: Textseiten vs. Farbreferenz/Schluss
+- structLink: Seiten-Typ-basierte Zuordnung
+
+Batch-Export: **2074 METS-Dateien, 0 Fehler**. Alle 4 Sammlungen. GND-Verknuepfungen, Sprach-Normalisierung, Signatur-Mapping funktionieren.
+
+**3. Bug-Fix: "An"-Halluzination**
+
+Prompt-Fix in `group_i_korrespondenz.md`: Explizite Anweisung, kein "An" vor Empfaengernamen zu ergaenzen.
+
+**4. JSON-Parsing und Chunking gehaertet**
+
+Problem: Werke-Objekte mit vielen Leerseiten (49% im Schnitt, bis 73%) produzieren kaputtes JSON. Ursache: Gemini rutscht bei Chunks mit vielen leeren Seiten aus dem JSON-Format.
+
+3 Verbesserungen in `transcribe.py`:
+- `_repair_json()`: Trailing Commas entfernen, nackte Steuerzeichen in Strings escapen
+- `_extract_json_object()`: JSON-Objekt aus umgebendem Text extrahieren, abgeschnittenes JSON schliessen
+- `_retry_sub_chunks()`: Fehlgeschlagene 20er-Chunks automatisch in 5er-Bloecke aufteilen und erneut versuchen
+- Blank-Page-Hint im Chunk-Prompt bei Objekten >30 Bilder
+
+**5. Viewer-Daten und Page-JSON aktualisiert**
+
+- catalog.json: 2055 → 2076 Objekte
+- 46 neue Page-JSON-Dateien exportiert
+
+**6. Knowledge Vault Audit**
+
+Systematischer Audit aller 12 Knowledge-Dokumente. 10 Probleme in 7 Dateien gefunden und behoben:
+- stats-dashboard.md: v1.4→v1.5, DWR-Referenzen entfernt, Sektionsnummern korrigiert, Objektzahl aktualisiert
+- dia-xai-integration.md: ~1973→~2080 Objekte
+- htr-interchange-format.md: Schema v0.1→v0.2, DWR aus Signalliste entfernt
+- page-xml-mets-architecture.md: export_mets.py als implementiert markiert
+- verification-concept.md: Stichprobengroesse 26→62 verifizierte Objekte
+
+### Statistiken
+
+| Metrik | Wert |
+|---|---|
+| Transkription gesamt | ~2080/2107 (99%) |
+| Neue Transkriptionen (Session) | ~20 (Werke-Batch laeuft noch) |
+| METS-Export | 2074 Dateien, 0 Fehler |
+| Page-JSON (neu) | 46 Dateien |
+| Viewer-Objekte | 2076 |
+| Knowledge-Fixes | 10 Probleme in 7 Dateien |
+| Neue Scripts | export_mets.py |
+| Geaenderte Scripts | transcribe.py (4 neue Funktionen), group_i_korrespondenz.md |

@@ -115,6 +115,12 @@ Jedes Objekt: `o_szd.{nr}/metadata.json` + `o_szd.{nr}/mets.xml` + `o_szd.{nr}/i
         │       → *_page/page_NNN.xml
         │         (PAGE XML 2019)
         │               │
+        │               ▼
+        │       export_mets.py
+        │       METS-Container mit MODS
+        │       (TEI + Backup-Metadaten)
+        │       → *_mets.xml
+        │               │
         └───────┬───────┘
                 ▼
         METS/MODS + PAGE XML (Zielformat)
@@ -172,6 +178,7 @@ szd-htr/
 │   ├── layout_analysis.py           ← Ensemble-Layout: Docling + Surya + Gemini 3 Flash
 │   ├── export_page_json.py          ← OCR + Layout + TEI-Metadaten → Page-JSON v0.2 (Arbeitsformat)
 │   ├── export_pagexml.py            ← Page-JSON → PAGE XML 2019 (Teil des Zielformats)
+│   ├── export_mets.py               ← METS-Container mit MODS + PAGE XML Referenzen (Zielformat)
 │   ├── generate_gt.py               ← 3-Modell-GT-Pipeline
 │   ├── diagnose_truncation.py       ← Diagnose: Truncation-Erkennung
 │   ├── fraktur_postprocess.py       ← Diagnose: Fraktur-Korrekturvorschlaege (Prototyp)
@@ -265,6 +272,18 @@ python pipeline/import_reviews.py path/to/export.json [--dry-run] [--reviewer "N
 
 # Viewer-Daten neu bauen (nach Import oder Transkription)
 python pipeline/build_viewer_data.py
+```
+
+```bash
+# METS/MODS Export (Zielformat)
+python pipeline/export_mets.py o_szd.100 -c lebensdokumente   # Einzelobjekt
+python pipeline/export_mets.py -c werke                        # Ganze Sammlung
+python pipeline/export_mets.py --all                           # Alle Sammlungen
+python pipeline/export_mets.py --all --dry-run                 # Nur zaehlen
+
+# Page-JSON Export (Arbeitsformat)
+python pipeline/export_page_json.py --all                      # Fehlende exportieren
+python pipeline/export_page_json.py --all --force              # Alle neu exportieren
 ```
 
 ## Umgebungsvariablen (.env)

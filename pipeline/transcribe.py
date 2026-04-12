@@ -189,6 +189,67 @@ def _fix_invalid_escapes(text: str) -> tuple[str, list[str]]:
     return ''.join(result), fixes
 
 
+def _repair_json(text: str) -> str:
+    """Fix trailing commas and unescaped control characters in JSON strings."""
+    import re
+    # Remove trailing commas before ] or }
+    result = re.sub(r',\s*([}\]])', r'\1', text)
+    # Escape raw control characters inside strings (newlines, tabs within values)
+    # Strategy: walk through, inside strings escape bare \n \r \t
+    out = []
+    in_string = False
+    i = 0
+    while i < len(result):
+        ch = result[i]
+        if ch == '"' and (i == 0 or result[i - 1] != '\\'):
+            in_string = not in_string
+            out.append(ch)
+        elif in_string and ch == '\n':
+            out.append('\\n')
+        elif in_string and ch == '\r':
+            out.append('\\r')
+        elif in_string and ch == '\t':
+            out.append('\\t')
+        else:
+            out.append(ch)
+        i += 1
+    return ''.join(out)
+
+
+def _extract_json_object(text: str) -> str | None:
+    """Try to extract the outermost {...} from text, handling truncation."""
+    start = text.find('{')
+    if start < 0:
+        return None
+    # Find matching closing brace
+    depth = 0
+    in_str = False
+    for i in range(start, len(text)):
+        ch = text[i]
+        if ch == '"' and (i == 0 or text[i - 1] != '\\'):
+            in_str = not in_str
+        elif not in_str:
+            if ch == '{':
+                depth += 1
+            elif ch == '}':
+                depth -= 1
+                if depth == 0:
+                    return text[start:i + 1]
+    # Truncated: try closing open structures
+    # Close open strings, arrays, objects
+    tail = text[start:]
+    if in_str:
+        tail += '"'
+    for _ in range(depth):
+        tail += '}'
+    # Attempt to close open arrays too
+    import re
+    open_arrays = tail.count('[') - tail.count(']')
+    for _ in range(max(0, open_arrays)):
+        tail += ']'
+    return tail
+
+
 def parse_api_response(text: str, object_id: str) -> tuple[dict, list[str]]:
     """Parse API response text into JSON, with sanitization.
 
@@ -224,6 +285,26 @@ def parse_api_response(text: str, object_id: str) -> tuple[dict, list[str]]:
         log.append(f"FIX {object_id}: Ungueltige Escapes repariert: {', '.join(unique)}")
         try:
             return json.loads(fixed), log
+        except json.JSONDecodeError:
+            pass
+    else:
+        fixed = cleaned
+
+    # Step 4: Fix trailing commas and control characters
+    repaired = _repair_json(fixed)
+    if repaired != fixed:
+        log.append(f"FIX {object_id}: JSON repariert (trailing commas / Steuerzeichen)")
+        try:
+            return json.loads(repaired), log
+        except json.JSONDecodeError:
+            pass
+
+    # Step 5: Try to extract JSON object from surrounding garbage
+    extracted = _extract_json_object(repaired)
+    if extracted:
+        log.append(f"FIX {object_id}: JSON-Objekt aus Antwort extrahiert")
+        try:
+            return json.loads(extracted), log
         except json.JSONDecodeError:
             pass
 
@@ -307,6 +388,53 @@ def _transcribe_single_call(client, images, group_prompt, context, object_id):
     return _parse_with_retry(client, parts, result_text, object_id)
 
 
+def _retry_sub_chunks(client, chunk_images, group_prompt, context, object_id,
+                      first_page, total, sub_size, delay):
+    """Retry a failed chunk by splitting into smaller sub-chunks."""
+    sub_pages = []
+    for si in range(0, len(chunk_images), sub_size):
+        sub = chunk_images[si:si + sub_size]
+        sub_first = first_page + si
+        sub_last = sub_first + len(sub) - 1
+        sub_label = f"[Sub {sub_first}-{sub_last}]"
+
+        sub_prompt = (
+            f"{group_prompt}\n\n{context}\n\n"
+            f"Transkribiere die folgenden {len(sub)} Faksimile-Scans. "
+            f"Seiten {sub_first} bis {sub_last} von insgesamt {total}. "
+            f"Nummeriere: page: {sub_first}, {sub_first + 1}, ... "
+            f"Leere Seiten als blank markieren. Antworte NUR mit validem JSON."
+        )
+        parts = []
+        for name, img_bytes in sub:
+            parts.append(genai.types.Part.from_bytes(data=img_bytes, mime_type="image/jpeg"))
+            parts.append(f"[{name}]")
+        parts.append(sub_prompt)
+
+        result_text, ok = _call_api(client, parts, object_id, sub_label)
+        if ok and result_text:
+            sub_json = _parse_with_retry(client, parts, result_text, object_id, sub_label)
+            sub_chunk_pages = sub_json.get("pages", [])
+            if sub_chunk_pages:
+                for pi, page in enumerate(sub_chunk_pages):
+                    page["page"] = sub_first + pi
+                sub_pages.extend(sub_chunk_pages)
+                print(f"    {sub_label} -> {len(sub_chunk_pages)} Seiten")
+                time.sleep(delay)
+                continue
+
+        # Sub-chunk also failed: insert placeholders
+        for page_nr in range(sub_first, sub_last + 1):
+            sub_pages.append({
+                "page": page_nr,
+                "transcription": "",
+                "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+            })
+        time.sleep(delay)
+
+    return sub_pages
+
+
 def _transcribe_chunked(client, images, group_prompt, context, object_id, chunk_size, delay):
     """Transcribe images in chunks, merge results. Returns merged result dict or None."""
     total = len(images)
@@ -325,11 +453,18 @@ def _transcribe_chunked(client, images, group_prompt, context, object_id, chunk_
         last_page = first_page + len(chunk) - 1
         label = f"[Chunk {ci + 1}/{len(chunks)}, S.{first_page}-{last_page}]"
 
+        blank_hint = (
+            " WICHTIG: Viele Seiten koennen leer sein (Rueckseiten, leere Blaetter). "
+            "Leere Seiten als {\"page\": N, \"transcription\": \"\", "
+            "\"notes\": \"Leerseite.\", \"type\": \"blank\"} ausgeben. "
+            "Jede Seite MUSS im JSON erscheinen."
+        ) if total > 30 else ""
         user_prompt = (
             f"{group_prompt}\n\n{context}\n\n"
             f"Transkribiere die folgenden {len(chunk)} Faksimile-Scans. "
             f"Dies sind die Seiten {first_page} bis {last_page} von insgesamt {total} Seiten. "
             f"Nummeriere die Seiten entsprechend (page: {first_page}, {first_page + 1}, ...)."
+            f"{blank_hint}"
         )
         parts = []
         for name, img_bytes in chunk:
@@ -356,6 +491,20 @@ def _transcribe_chunked(client, images, group_prompt, context, object_id, chunk_
 
         if not chunk_pages:
             reason = "JSON nicht parsebar." if "raw" in chunk_json else "Keine Pages im Ergebnis."
+            # Sub-chunk retry: split failed chunk into smaller pieces
+            sub_size = 5
+            if len(chunk) > sub_size:
+                print(f"  {label} WARNUNG: {reason} Versuche Sub-Chunks ({sub_size} Bilder)...")
+                sub_pages = _retry_sub_chunks(
+                    client, chunk, group_prompt, context, object_id,
+                    first_page, total, sub_size, delay,
+                )
+                if sub_pages:
+                    all_pages.extend(sub_pages)
+                    recovered = sum(1 for p in sub_pages if not p.get("notes", "").startswith("Chunk-Fehler"))
+                    print(f"  {label} Sub-Chunk-Retry: {recovered}/{len(sub_pages)} Seiten gerettet")
+                    continue
+
             print(f"  {label} WARNUNG: {reason} Fuege Platzhalter-Seiten ein.")
             for page_nr in range(first_page, last_page + 1):
                 all_pages.append({

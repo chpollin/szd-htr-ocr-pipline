@@ -20,6 +20,7 @@ Korrespondenz (Brief, Postkarte oder Telegramm).
 - Briefstruktur beibehalten: Datum, Anrede und Grußformel auf eigenen Zeilen.
 - Häufige Briefabkürzungen wo sicher auflösen, sonst mit [?] markieren.
 - Bei Postkarten: Nachrichtenseite und Adressseite als getrennte Bereiche transkribieren.
+- Adressseiten: NUR transkribieren, was tatsächlich geschrieben steht. Kein "An" vor dem Empfängernamen ergänzen, auch wenn es grammatikalisch üblich wäre — viele Postkarten beginnen direkt mit dem Namen.
 - Poststempel und Briefmarken in den Notizen erwähnen, nicht transkribieren.
 ```
 

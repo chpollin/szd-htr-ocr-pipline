@@ -93,7 +93,7 @@ Das Schema ist als eigenstaendige, validierbare Datei verfuegbar: [`schemas/page
 
 ```json
 {
-  "page_json": "0.1",
+  "page_json": "0.2",
 
   "source": {
     "id": "o_szd.100",
@@ -187,7 +187,7 @@ Das Schema ist als eigenstaendige, validierbare Datei verfuegbar: [`schemas/page
 
 ### 4.1 `page_json` (required)
 
-Schema-Version. Aktuell `"0.1"`.
+Schema-Version. Aktuell `"0.2"`.
 
 ### 4.2 `source` (required)
 
@@ -245,7 +245,7 @@ Schema-Version. Aktuell `"0.1"`.
 
 ### 4.6 `quality` und `evaluation` (optional)
 
-Wie im bisherigen Format. `quality` enthaelt automatisch berechnete Signale (needs_review, marker_density, DWR, etc.). `evaluation` enthaelt CER/WER-Metriken gegen Ground Truth. Beide sind pipeline-abhaengig und nicht Teil des Kernformats.
+Wie im bisherigen Format. `quality` enthaelt automatisch berechnete Signale (needs_review, language_mismatch, page_length_anomaly, page_image_mismatch etc.; DWR und marker_density seit v1.5 nur informativ). `evaluation` enthaelt CER/WER-Metriken gegen Ground Truth. Beide sind pipeline-abhaengig und nicht Teil des Kernformats.
 
 ### 4.7 `document_type` — Kontrolliertes Vokabular
 

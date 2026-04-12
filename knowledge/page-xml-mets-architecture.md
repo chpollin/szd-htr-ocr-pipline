@@ -2,7 +2,7 @@
 title: "PAGE XML, Metadaten und METS-Architektur"
 aliases: ["METS-Architektur", "PAGE XML", "Ausgabeformate"]
 created: 2026-04-03
-updated: 2026-04-03
+updated: 2026-04-12
 type: concept
 status: stable
 related:
@@ -103,6 +103,6 @@ Die `parse_tei_full_metadata()`-Funktion in `tei_context.py` liefert alle Felder
 Die Pipeline nutzt zwei komplementaere Ausgabeformate:
 
 - **Page-JSON v0.2** (`*_page.json`): Internes Arbeitsformat. OCR + Layout + deskriptive Metadaten (Dublin Core + Materialtypologie) in einer JSON-Datei. Koordinaten optional. Schema: `schemas/page-json-v0.2.json`. Export: `pipeline/export_page_json.py`.
-- **METS/MODS + PAGE XML**: Archiv- und Austauschformat (Zielformat). METS-Container mit MODS-Metadaten und PAGE XML 2019 pro Seite. Kompatibel mit GAMS, Transkribus, eScriptorium, OCR-D, teiCrafter. PAGE XML Export: `pipeline/export_pagexml.py`. METS/MODS-Export: geplant (`pipeline/export_mets.py`).
+- **METS/MODS + PAGE XML**: Archiv- und Austauschformat (Zielformat). METS-Container mit MODS-Metadaten und PAGE XML 2019 pro Seite. Kompatibel mit GAMS, Transkribus, eScriptorium, OCR-D, teiCrafter. PAGE XML Export: `pipeline/export_pagexml.py`. METS/MODS-Export: `pipeline/export_mets.py` (implementiert, 2074 Dateien exportiert in Session 25).
 
 Die Architektur demonstriert den Pragmatismus: Intern arbeiten webbasierte und ML-orientierte Workflows besser mit JSON. Fuer die Interoperabilitaet mit dem breiteren DH-Oekosystem wird nach METS/PAGE XML exportiert. GAMS nutzt METS nativ als Containerformat, der Rueckweg ist damit direkt.

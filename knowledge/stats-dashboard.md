@@ -3,7 +3,7 @@ title: "Statistik-Dashboard"
 type: spec
 status: implemented
 created: 2026-04-02
-updated: 2026-04-02
+updated: 2026-04-12
 related:
   - "[[verification-concept]]"
   - "[[data-overview]]"
@@ -26,7 +26,7 @@ Das Dashboard folgt der Perspektive **Computational Philology / Digital Scholarl
 
 ## 3 Datenquellen
 
-Alle Visualisierungen werden client-seitig aus `catalog.json` aggregiert (`computeStatsData()`, Single-Pass ueber alle Objekte). Kein Backend-Umbau noetig. Jedes der 746 Objekte traegt quality_signals v1.4 (8 Signale + `page.type`), Review-Status, optional Modellkonsensus-Daten, und TEI-Metadaten. Archiv-Gesamtzahlen als `COLLECTION_TOTALS`-Konstante in `app.js`.
+Alle Visualisierungen werden client-seitig aus `catalog.json` aggregiert (`computeStatsData()`, Single-Pass ueber alle Objekte). Kein Backend-Umbau noetig. Jedes der ~2080 Objekte traegt quality_signals v1.5 (7 Signale + `page.type`, DWR entfernt), Review-Status, optional Modellkonsensus-Daten, und TEI-Metadaten. Archiv-Gesamtzahlen als `COLLECTION_TOTALS`-Konstante in `app.js`.
 
 ## 4 Narrative Struktur: 5 Sektionen
 
@@ -44,13 +44,13 @@ Zeigt Umfang und Fortschritt der Transkription.
 Zeigt die 3-stufige Verifikationsarchitektur (automatisch → Cross-Model → Expert).
 
 - **Review-Status** (Donut): 5 Segmente — GT Verifiziert, Expert Geprueft, Agent Verifiziert, LLM OK, Needs Review. Nur Segmente mit Wert > 0 angezeigt. Klick auf "Needs Review" navigiert zu gefiltertem Katalog.
-- **VLM-Konfidenz** (Donut): High / Medium / Low. Explizit als "schwaches Signal" deklariert — Modelle ueberschaetzen ihre Leistung, validiert durch DWR und Konsensus.
+- **VLM-Konfidenz** (Donut): High / Medium / Low. Explizit als "schwaches Signal" deklariert — Modelle ueberschaetzen ihre Leistung.
 
-### Sektion 2: Textcharakteristik
+### Sektion 3: Textcharakteristik
 
 Zeichen pro Inhaltsseite nach Dokumenttyp (horizontaler Balken). Zeigt die strukturelle Vielfalt des Nachlasses: Registerblaetter (Gruppe A, 73% der Handschrift) haben ~50 Zeichen/Seite, Zeitungsausschnitte ~4800. Quelle: `quality_signals.py` (chars_per_page) → `catalog.json` (verification.avgCharsPerPage).
 
-### Sektion 3: Signalanalyse
+### Sektion 4: Signalanalyse
 
 Heatmap: Welche Dokumenttypen loesen welche Quality Signals aus? Anteil Objekte pro Gruppe in Prozent. Quelle: `quality_signals.py` (needs_review_reasons) → `catalog.json` (needsReviewReasons).
 
@@ -62,24 +62,13 @@ Folgende Sektionen wurden entfernt, weil sie nicht gegroundet oder transient war
 - **Seitenkomposition** — Inhalt/Leer/Farbskala als Chart, Information steht im Katalog
 - **DWR-Histogram** — DWR in v1.5 entfernt (rho=0.05, F1=0.20, mass Prosadichte, nicht Qualitaet)
 - **VLM-Konfidenz-Donut** — High/Medium/Low diskriminiert nicht zwischen fehlerfreien und fehlerhaften Transkriptionen
-- **Modellkonsensus** — CER zwischen Modellen misst Agreement, nicht Korrektheit; nur 29/1973 Objekte hatten Daten
-
-- **Konsensus-Kategorien** (Donut): 4 Kategorien — Verifiziert (CER < 3%), Moderat (CER < 10%), Abweichung, Divergent. Farbskala: dunkelgruen → gelb → orange → rot.
-- **CER-Verteilung** (Histogramm, 5 Bins): < 3%, 3–5%, 5–10%, 10–20%, ≥ 20%. Zeigt die Character Error Rate zwischen den beiden unabhaengigen VLM-Transkriptionen.
-
-### Sektion 5: Signalanalyse
-
-Zeigt systematische Qualitaetsunterschiede zwischen Dokumenttypen.
-
-- **Qualitaetssignale nach Dokumenttyp** (HTML-Heatmap, volle Breite): 9 Prompt-Gruppen (Zeilen) × 6 Quality-Signal-Typen (Spalten). Zellwert = Anteil Objekte in der Gruppe, die das Signal ausloesen. Farbintensitaet (burgundy rgba) skaliert mit Prozent. Gruppen-Namen sind klickbare Links zum gefilterten Katalog. Horizontal scrollbar bei schmalen Viewports.
+- **Modellkonsensus** — CER zwischen Modellen misst Agreement, nicht Korrektheit; nur 29/2080 Objekte hatten Daten
 
 ## 5 Metrik-Definitionen
 
 | Metrik | Definition | Schwelle |
 |---|---|---|
-| DWR (Dictionary Word Ratio) | Anteil Woerter im Woerterbuch / Gesamtwoerter | < 0.15 = low_dwr |
-| Marker-Dichte | ([?] + [...]) / Gesamtwoerter | > 0.05 = marker_density |
-| Seitenduplikate | Jaccard-Aehnlichkeit > 0.9 bei > 50 Zeichen | = duplicate_pages |
+| Seitenduplikate | Jaccard-Aehnlichkeit > 0.9 bei > 50 Zeichen | = duplicate_pages (informativ) |
 | Sprachkonsistenz | TEI-Sprache vs. erkannte Sprache | Mismatch = language_mismatch |
 | Seitenlaengen-Anomalie | Inhaltsseite < 10% des Medians | = page_length_anomaly |
 | Bild-Text-Mismatch | Seitenzahl ≠ Bildzahl oder > 75% leer | = page_image_mismatch |
