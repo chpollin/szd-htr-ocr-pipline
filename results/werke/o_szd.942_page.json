@@ -1,0 +1,67 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.942",
+    "title": "Lieber der Gott sein vom ersten Tag..., SZ-SEF/W2",
+    "language": "de",
+    "collection": "werke",
+    "shelfmark": "",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.942/IMG.1",
+      "https://gams.uni-graz.at/o:szd.942/IMG.2",
+      "https://gams.uni-graz.at/o:szd.942/IMG.3"
+    ],
+    "document_type": "manuscript",
+    "descriptive_metadata": {
+      "rights": "CC-BY"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Lieber der Gott sein vom ersten Tag..., SZ-SEF/W2\n- Signatur: SZ-SEF/W2\n- Sprache: Deutsch\n- Objekttyp: Brief\n- Umfang: 3 Scans"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-12T05:55:10.429128+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Lieber der Gott sein vom ersten Tag\nUmwölkt von Dünkel und Grauen\nAls am siebenten träg und froh\nSein fertiges Werk beschauen.\n\nStefan Zweig",
+      "notes": "Handschriftliches Gedicht auf einer Karteikarte, violette Tinte."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Rückseite der Karteikarte, leer."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "Lieber der Gott sein vom ersten Tag\nUmwölkt von Dünkel und Grauen\nAls am siebenten träg und froh\nSein fertiges Werk beschauen.\n\nStefan Zweig",
+      "notes": "Gleiche Karteikarte wie auf Seite 1, hier mit Farb- und Grauskala zur Archivierung abgebildet."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr deutlich lesbar und weist keine Unklarheiten auf.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 280,
+    "total_words": 48,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

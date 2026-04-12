@@ -1,0 +1,98 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.358",
+    "title": "Amerigo",
+    "language": "de",
+    "collection": "werke",
+    "shelfmark": "SZ-SHB/W2",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.358/IMG.1",
+      "https://gams.uni-graz.at/o:szd.358/IMG.2",
+      "https://gams.uni-graz.at/o:szd.358/IMG.3"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Biographien"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Harald Böck",
+        "Erwerb: Ankauf 2013"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarze Tinte, blauer Kugelschreiber",
+        "hands": [
+          "Stefan Zweig",
+          "Richard Friedenthal"
+        ],
+        "dimensions": "28x22 cm"
+      },
+      "notes": "Notiz auf Rückseite „Original 1941 Arbeitsblatt zu\n                                ‚Amerigo‘ Eigentum Friderike Zweig 288 Ocean Dr. W. Stamford,\n                                Con“"
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Amerigo\n- Signatur: SZ-SHB/W2\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Schwarze Tinte, blauer Kugelschreiber\n- Hand: Stefan Zweig, Richard Friedenthal\n- Anmerkungen: Notiz auf Rückseite „Original 1941 Arbeitsblatt zu\n                                ‚Amerigo‘ Eigentum Friderike Zweig 288 Ocean Dr. W. Stamford,\n                                Con“"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-12T05:55:10.071679+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Edrisi „nemo nautarum ausit illud sulcare aut in\naltum navigare.“\n1453 Fall Constantinopels\nBriefe Vespucci in Navarrete III 297-298 /315\nHomerische Schlacht mit zügellosen Sklavenfarben\n„Juan de la Cosa y Amerigo Vespucci y otros pilotos“\nAbbate Angelo Maria Bandini\nprofessore di matematica\nWelche Reisen gemacht? Nicht deutlich\n„licencia general para descubrir 1495 / [eingefügt: erster] Kapitel\n„di auf Arbeiten Columbus Juni 1497 zurückgehen.\nziemlich fein: wir wissen es nicht, man muss den Muth\nbenzen, dass meer es nicht wird“\n„per aiutare a discuprire“ bescheiden mit\nRat an Entdecker\n„io memoriali fatti di giorno in giorno“\nMan hat Skizzen gemacht. „Mundi egregius inventor\n[eingefügt: Das in arte kamen entstehen nur] visitator et primus hospes“\n[eingefügt: verantworte viel]\nEigentliche Brief Vespucci schreiben wollte nicht auf uns\ngekommen, Brief verantwortlich machen konnte. Unverantwortlich\nnicht genau wo er gewesen ist. Gefahren und wenn",
+      "notes": "Handschrift, Tinte. Die Transkription ist aufgrund der schnellen Handschrift und der lateinischen/italienischen Einschübe anspruchsvoll. Einige Stellen sind inhaltlich fragmentarisch."
+    },
+    {
+      "page": 2,
+      "type": "content",
+      "text": "Original\n\n1941\nArbeitsblatt zu „Amerigo“\nEigentum Friderike Zweig\n288 Ocean Dr. W.\nStamford, Conn.",
+      "notes": "Handschrift, blauer Kugelschreiber. Rückseite des Dokuments."
+    },
+    {
+      "page": 3,
+      "type": "color_chart",
+      "text": "",
+      "notes": "Farbskala/Grauskala fuer Archivierung. Das Dokument ist identisch mit Seite 2, jedoch mit aufgelegten Archivierungshilfen."
+    }
+  ],
+  "confidence": "medium",
+  "confidence_notes": "Die Handschrift auf Seite 1 ist sehr flüchtig, enthält zahlreiche Korrekturen, Durchstreichungen und Einfügungen. Die lateinischen und italienischen Zitate sind teilweise schwer zu entziffern.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 1055,
+    "total_words": 153,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

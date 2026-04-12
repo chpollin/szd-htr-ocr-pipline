@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mets:mets xmlns:dv="http://dfg-viewer.de/" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <mets:dmdSec ID="DMD.1">
+    <mets:mdWrap MDTYPE="MODS" MIMETYPE="text/xml">
+      <mets:xmlData>
+        <mods:mods>
+          <mods:titleInfo>
+            <mods:title>Worte am Sarge Sigmund Freuds
+                                [Fragment I]</mods:title>
+            <mods:note type="signature">SZ-AP2/W-H206</mods:note>
+          </mods:titleInfo>
+          <mods:name type="personal">
+            <mods:displayForm>Stefan Zweig</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm type="text">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="gnd">http://d-nb.info/gnd/118637479</mods:nameIdentifier>
+          </mods:name>
+          <mods:language>
+            <mods:languageTerm type="text">Deutsch</mods:languageTerm>
+            <mods:languageTerm authority="iso639-1" type="code">de</mods:languageTerm>
+          </mods:language>
+          <mods:originInfo>
+            <mods:dateCreated>1939</mods:dateCreated>
+          </mods:originInfo>
+          <mods:genre>Manuskript</mods:genre>
+          <mods:subject>
+            <mods:topic>Essays/Reden/Feuilletons</mods:topic>
+          </mods:subject>
+          <mods:physicalDescription>
+            <mods:extent>1 Blatt,
+                                                  korrigiert</mods:extent>
+            <mods:extent>23x18</mods:extent>
+            <mods:note type="script">Stefan Zweig</mods:note>
+          </mods:physicalDescription>
+          <mods:location>
+            <mods:physicalLocation authority="gnd" valueURI="http://d-nb.info/gnd/2156743-8">Reed Library – Stefan Zweig Collection</mods:physicalLocation>
+            <mods:shelfLocator>SZ-AP2/W-H206</mods:shelfLocator>
+          </mods:location>
+          <mods:identifier type="urn">info:fedora/o:szd.263</mods:identifier>
+          <mods:note type="provenance">Erben Stefan Zweigs, London</mods:note>
+          <mods:note type="provenance">Erwerb: Schenkung der Erben Stefan Zweigs
+                                            2002</mods:note>
+          <mods:note>Seite 2 bis 6 in Salzburg</mods:note>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD.1">
+    <mets:rightsMD ID="RMD.1">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights>
+            <dv:owner>Literaturarchiv Salzburg, https://stefanzweig.digital, CC-BY</dv:owner>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="PMD.1">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links>
+            <dv:reference />
+            <dv:presentation />
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="IMG.1" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.263/IMG.1" />
+      </mets:file>
+      <mets:file ID="IMG.2" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.263/IMG.2" />
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div ID="PHY.1" TYPE="physSequence">
+      <mets:div ID="DIV.1" ORDER="1" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.263/IMG.1">
+        <mets:fptr FILEID="IMG.1" />
+      </mets:div>
+      <mets:div ID="DIV.2" ORDER="2" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.263/IMG.2">
+        <mets:fptr FILEID="IMG.2" />
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ADMID="AMD.1" DMDID="DMD.1" ID="LOG.1" TYPE="monograph">
+      <mets:div ID="U.1" TYPE="Textseiten" />
+      <mets:div ID="U.2" TYPE="Farbreferenz/Schluss" />
+    </mets:div>
+  </mets:structMap>
+  <mets:structLink>
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.1" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.2" />
+  </mets:structLink>
+</mets:mets>

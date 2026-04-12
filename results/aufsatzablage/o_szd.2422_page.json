@@ -1,0 +1,76 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2422",
+    "title": "Méndez Pereira: Nuñez de Balboa",
+    "language": "es",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA139.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2422/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2422/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2422/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2422/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2422/IMG.5"
+    ],
+    "document_type": "typescript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        }
+      ],
+      "subject": [
+        "Typoskripte"
+      ],
+      "extent": "1 Blatt, 2\n                                          Exemplare",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Schwarzes Durchschlagpapier"
+      },
+      "notes": "Vermutlich Abschrift aus einem Buch, eventuell als Material\n                        für die ,Sternstunde' Die Flucht in die Unsterblichkeit"
+    },
+    "additional": {
+      "group": "typoskript",
+      "context": "## Dieses Dokument\n\n- Titel: Méndez Pereira: Nuñez de Balboa\n- Signatur: SZ-AAP/W-AA139.1\n- Sprache: Spanisch\n- Objekttyp: Typoskript\n- Umfang: 1 Blatt, 2\n                                          Exemplare\n- Schreibinstrument: Schwarzes Durchschlagpapier\n- Anmerkungen: Vermutlich Abschrift aus einem Buch, eventuell als Material\n                        für die ,Sternstunde' Die Flucht in die Unsterblichkeit"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-12T05:55:10.735842+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_typoskript",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [],
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ],
+    "total_chars": 0,
+    "total_words": 0,
+    "language_detected": "",
+    "language_match": true
+  }
+}

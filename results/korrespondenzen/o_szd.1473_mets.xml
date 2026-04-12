@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mets:mets xmlns:dv="http://dfg-viewer.de/" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <mets:dmdSec ID="DMD.1">
+    <mets:mdWrap MDTYPE="MODS" MIMETYPE="text/xml">
+      <mets:xmlData>
+        <mods:mods>
+          <mods:titleInfo>
+            <mods:title>Brief an Suzanne Czech vom 23. Mai 1940, SZ-AAP/B3.20</mods:title>
+            <mods:note type="signature">SZ-AAP/B3.20</mods:note>
+          </mods:titleInfo>
+          <mods:name type="personal">
+            <mods:displayForm>Zweig, Stefan</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm type="text">author</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:language>
+            <mods:languageTerm type="text">Englisch</mods:languageTerm>
+            <mods:languageTerm authority="iso639-1" type="code">en</mods:languageTerm>
+          </mods:language>
+          <mods:location>
+            <mods:shelfLocator>SZ-AAP/B3.20</mods:shelfLocator>
+          </mods:location>
+          <mods:identifier type="urn">info:fedora/o:szd.1473</mods:identifier>
+          <mods:accessCondition>CC-BY</mods:accessCondition>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD.1">
+    <mets:rightsMD ID="RMD.1">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights>
+            <dv:owner>CC-BY</dv:owner>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="PMD.1">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links>
+            <dv:reference />
+            <dv:presentation />
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="IMG.1" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.1473/IMG.1" />
+      </mets:file>
+      <mets:file ID="IMG.2" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.1473/IMG.2" />
+      </mets:file>
+      <mets:file ID="IMG.3" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.1473/IMG.3" />
+      </mets:file>
+      <mets:file ID="IMG.4" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.1473/IMG.4" />
+      </mets:file>
+      <mets:file ID="IMG.5" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.1473/IMG.5" />
+      </mets:file>
+      <mets:file ID="IMG.6" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.1473/IMG.6" />
+      </mets:file>
+      <mets:file ID="IMG.7" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.1473/IMG.7" />
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div ID="PHY.1" TYPE="physSequence">
+      <mets:div ID="DIV.1" ORDER="1" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.1473/IMG.1">
+        <mets:fptr FILEID="IMG.1" />
+      </mets:div>
+      <mets:div ID="DIV.2" ORDER="2" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.1473/IMG.2">
+        <mets:fptr FILEID="IMG.2" />
+      </mets:div>
+      <mets:div ID="DIV.3" ORDER="3" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.1473/IMG.3">
+        <mets:fptr FILEID="IMG.3" />
+      </mets:div>
+      <mets:div ID="DIV.4" ORDER="4" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.1473/IMG.4">
+        <mets:fptr FILEID="IMG.4" />
+      </mets:div>
+      <mets:div ID="DIV.5" ORDER="5" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.1473/IMG.5">
+        <mets:fptr FILEID="IMG.5" />
+      </mets:div>
+      <mets:div ID="DIV.6" ORDER="6" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.1473/IMG.6">
+        <mets:fptr FILEID="IMG.6" />
+      </mets:div>
+      <mets:div ID="DIV.7" ORDER="7" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.1473/IMG.7">
+        <mets:fptr FILEID="IMG.7" />
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ADMID="AMD.1" DMDID="DMD.1" ID="LOG.1" TYPE="monograph">
+      <mets:div ID="U.1" TYPE="Textseiten" />
+      <mets:div ID="U.2" TYPE="Farbreferenz/Schluss" />
+    </mets:div>
+  </mets:structMap>
+  <mets:structLink>
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.1" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.2" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.3" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.4" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.5" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.6" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.7" />
+  </mets:structLink>
+</mets:mets>

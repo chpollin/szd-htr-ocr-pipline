@@ -1,0 +1,967 @@
+{
+  "object_id": "o_szd.297",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Tersites Teil 3.1, SZ-AP2/W-E43.3.1",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.297/IMG.1",
+      "https://gams.uni-graz.at/o:szd.297/IMG.2",
+      "https://gams.uni-graz.at/o:szd.297/IMG.3",
+      "https://gams.uni-graz.at/o:szd.297/IMG.4",
+      "https://gams.uni-graz.at/o:szd.297/IMG.5",
+      "https://gams.uni-graz.at/o:szd.297/IMG.6",
+      "https://gams.uni-graz.at/o:szd.297/IMG.7",
+      "https://gams.uni-graz.at/o:szd.297/IMG.8",
+      "https://gams.uni-graz.at/o:szd.297/IMG.9",
+      "https://gams.uni-graz.at/o:szd.297/IMG.10",
+      "https://gams.uni-graz.at/o:szd.297/IMG.11",
+      "https://gams.uni-graz.at/o:szd.297/IMG.12",
+      "https://gams.uni-graz.at/o:szd.297/IMG.13",
+      "https://gams.uni-graz.at/o:szd.297/IMG.14",
+      "https://gams.uni-graz.at/o:szd.297/IMG.15",
+      "https://gams.uni-graz.at/o:szd.297/IMG.16",
+      "https://gams.uni-graz.at/o:szd.297/IMG.17",
+      "https://gams.uni-graz.at/o:szd.297/IMG.18",
+      "https://gams.uni-graz.at/o:szd.297/IMG.19",
+      "https://gams.uni-graz.at/o:szd.297/IMG.20",
+      "https://gams.uni-graz.at/o:szd.297/IMG.21",
+      "https://gams.uni-graz.at/o:szd.297/IMG.22",
+      "https://gams.uni-graz.at/o:szd.297/IMG.23",
+      "https://gams.uni-graz.at/o:szd.297/IMG.24",
+      "https://gams.uni-graz.at/o:szd.297/IMG.25",
+      "https://gams.uni-graz.at/o:szd.297/IMG.26",
+      "https://gams.uni-graz.at/o:szd.297/IMG.27",
+      "https://gams.uni-graz.at/o:szd.297/IMG.28",
+      "https://gams.uni-graz.at/o:szd.297/IMG.29",
+      "https://gams.uni-graz.at/o:szd.297/IMG.30",
+      "https://gams.uni-graz.at/o:szd.297/IMG.31",
+      "https://gams.uni-graz.at/o:szd.297/IMG.32",
+      "https://gams.uni-graz.at/o:szd.297/IMG.33",
+      "https://gams.uni-graz.at/o:szd.297/IMG.34",
+      "https://gams.uni-graz.at/o:szd.297/IMG.35",
+      "https://gams.uni-graz.at/o:szd.297/IMG.36",
+      "https://gams.uni-graz.at/o:szd.297/IMG.37",
+      "https://gams.uni-graz.at/o:szd.297/IMG.38",
+      "https://gams.uni-graz.at/o:szd.297/IMG.39",
+      "https://gams.uni-graz.at/o:szd.297/IMG.40",
+      "https://gams.uni-graz.at/o:szd.297/IMG.41",
+      "https://gams.uni-graz.at/o:szd.297/IMG.42",
+      "https://gams.uni-graz.at/o:szd.297/IMG.43",
+      "https://gams.uni-graz.at/o:szd.297/IMG.44",
+      "https://gams.uni-graz.at/o:szd.297/IMG.45",
+      "https://gams.uni-graz.at/o:szd.297/IMG.46",
+      "https://gams.uni-graz.at/o:szd.297/IMG.47",
+      "https://gams.uni-graz.at/o:szd.297/IMG.48",
+      "https://gams.uni-graz.at/o:szd.297/IMG.49",
+      "https://gams.uni-graz.at/o:szd.297/IMG.50",
+      "https://gams.uni-graz.at/o:szd.297/IMG.51",
+      "https://gams.uni-graz.at/o:szd.297/IMG.52",
+      "https://gams.uni-graz.at/o:szd.297/IMG.53",
+      "https://gams.uni-graz.at/o:szd.297/IMG.54",
+      "https://gams.uni-graz.at/o:szd.297/IMG.55",
+      "https://gams.uni-graz.at/o:szd.297/IMG.56",
+      "https://gams.uni-graz.at/o:szd.297/IMG.57",
+      "https://gams.uni-graz.at/o:szd.297/IMG.58",
+      "https://gams.uni-graz.at/o:szd.297/IMG.59",
+      "https://gams.uni-graz.at/o:szd.297/IMG.60",
+      "https://gams.uni-graz.at/o:szd.297/IMG.61",
+      "https://gams.uni-graz.at/o:szd.297/IMG.62",
+      "https://gams.uni-graz.at/o:szd.297/IMG.63",
+      "https://gams.uni-graz.at/o:szd.297/IMG.64",
+      "https://gams.uni-graz.at/o:szd.297/IMG.65",
+      "https://gams.uni-graz.at/o:szd.297/IMG.66",
+      "https://gams.uni-graz.at/o:szd.297/IMG.67",
+      "https://gams.uni-graz.at/o:szd.297/IMG.68",
+      "https://gams.uni-graz.at/o:szd.297/IMG.69",
+      "https://gams.uni-graz.at/o:szd.297/IMG.70",
+      "https://gams.uni-graz.at/o:szd.297/IMG.71",
+      "https://gams.uni-graz.at/o:szd.297/IMG.72",
+      "https://gams.uni-graz.at/o:szd.297/IMG.73",
+      "https://gams.uni-graz.at/o:szd.297/IMG.74",
+      "https://gams.uni-graz.at/o:szd.297/IMG.75",
+      "https://gams.uni-graz.at/o:szd.297/IMG.76",
+      "https://gams.uni-graz.at/o:szd.297/IMG.77",
+      "https://gams.uni-graz.at/o:szd.297/IMG.78",
+      "https://gams.uni-graz.at/o:szd.297/IMG.79",
+      "https://gams.uni-graz.at/o:szd.297/IMG.80",
+      "https://gams.uni-graz.at/o:szd.297/IMG.81",
+      "https://gams.uni-graz.at/o:szd.297/IMG.82",
+      "https://gams.uni-graz.at/o:szd.297/IMG.83",
+      "https://gams.uni-graz.at/o:szd.297/IMG.84",
+      "https://gams.uni-graz.at/o:szd.297/IMG.85",
+      "https://gams.uni-graz.at/o:szd.297/IMG.86",
+      "https://gams.uni-graz.at/o:szd.297/IMG.87",
+      "https://gams.uni-graz.at/o:szd.297/IMG.88",
+      "https://gams.uni-graz.at/o:szd.297/IMG.89",
+      "https://gams.uni-graz.at/o:szd.297/IMG.90",
+      "https://gams.uni-graz.at/o:szd.297/IMG.91",
+      "https://gams.uni-graz.at/o:szd.297/IMG.92",
+      "https://gams.uni-graz.at/o:szd.297/IMG.93",
+      "https://gams.uni-graz.at/o:szd.297/IMG.94",
+      "https://gams.uni-graz.at/o:szd.297/IMG.95",
+      "https://gams.uni-graz.at/o:szd.297/IMG.96",
+      "https://gams.uni-graz.at/o:szd.297/IMG.97",
+      "https://gams.uni-graz.at/o:szd.297/IMG.98",
+      "https://gams.uni-graz.at/o:szd.297/IMG.99",
+      "https://gams.uni-graz.at/o:szd.297/IMG.100",
+      "https://gams.uni-graz.at/o:szd.297/IMG.101"
+    ],
+    "input_image_count_total": 101
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Tersites Teil 3.1\n- Signatur: SZ-AP2/W-E43.3.1\n- Sprache: Deutsch\n- Objekttyp: Notizbuch\n- Umfang: 52 Blatt\n- Hand: Stefan Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "Th. August 1905.",
+        "notes": "Blauer Einband mit aufgeklebtem Etikett. Handschriftliche Notiz auf dem Etikett.",
+        "type": "content"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Vorsatzblatt, rosa Papier, mit einem rechteckigen Ausschnitt in der Mitte.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "August 1905",
+        "notes": "Erste Seite des Notizbuchs, liniert. Handschrift oben links.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "Jast treu der lieg mit fue.",
+        "notes": "Liniertes Papier. Handschrift in der Mitte der Seite.",
+        "type": "content"
+      },
+      {
+        "page": 5,
+        "transcription": "Tirano 9. August\nTh. III I | Das Innere des Zelt des Achillen\n\nAchilles (~~gegen~~ Diener, der eintritt) Nun, wie wogt\nder Ringen, spendet Zeus aus überreicher Hand\nnoch immer Sieg?\nDiener Hers, so ich erfahr\nSillug [?] wüten als ähnlich schnell die Flamme\ndes Sieges hin, ~~doch~~ noch niemals ward\nso wieder voll Unglück in Nacht gewestert\nals heut durch Patroclos. Seit gestern abends\nda er die Helden von der Schiffe warf, hel wie\nder Sieg an reien Flur geheftet, ~~eilt~~\nFreuer als Schatten reit [?] ihm. Nur hielt eben\n~~S~~ [?] [?] [?] wie die große graue Meeresflut\nder ersten Welle nach, die eine [?] [?] [?]\ndas ganze Erleben leer\nAchilles Aus [?] er\nBei in die Priamsburg, ihn will ich er\nkühl weiden\nDiener Die Früchte aus\nerde aufgewahlt aus Kol der [?] [?]\n~~S~~ [?] Jubel schließt die Freuden\n/starber Baliaen",
+        "notes": "Liniertes Papier. Handschrift mit Korrekturen und Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "Jast treu der lieg mit fue.",
+        "notes": "Liniertes Papier. Identisch mit Seite 4.",
+        "type": "content"
+      },
+      {
+        "page": 7,
+        "transcription": "Tirano 9. August\nTh. III I | Das Innere des Zelt des Achillen\n\nAchilles (~~gegen~~ Diener, der eintritt) Nun, wie wogt\nder Ringen, spendet Zeus aus überreicher Hand\nnoch immer Sieg?\nDiener Hers, so ich erfahr\nSillug [?] wüten als ähnlich schnell die Flamme\ndes Sieges hin, ~~doch~~ noch niemals ward\nso wieder voll Unglück in Nacht gewestert\nals heut durch Patroclos. Seit gestern abends\nda er die Helden von der Schiffe warf, hel wie\nder Sieg an reien Flur geheftet, ~~eilt~~\nFreuer als Schatten reit [?] ihm. Nur hielt eben\n~~S~~ [?] [?] [?] wie die große graue Meeresflut\nder ersten Welle nach, die eine [?] [?] [?]\ndas ganze Erleben leer\nAchilles Aus [?] er\nBei in die Priamsburg, ihn will ich er\nkühl weiden\nDiener Die Früchte aus\nerde aufgewahlt aus Kol der [?] [?]\n~~S~~ [?] Jubel schließt die Freuden\n/starber Baliaen",
+        "notes": "Liniertes Papier. Identisch mit Seite 5.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "kurze Sinn\nZu Feuer einmal noch vielleicht bis an\nDie Sternen wirft\n\nIm Troy",
+        "notes": "Liniertes Papier. Handschriftliche Notizen.",
+        "type": "content"
+      },
+      {
+        "page": 9,
+        "transcription": "nur Dein und seinen Namen fragen\nHeut Tausend Wünsche wie beim Opferfeste\nIn den gehärten Himmels\nAchilles Nur seinen\nNicht der weiden sollen die verhärten\nIch bin schon Schlacke, finster Glut, die nur\nVielleicht noch einmal zu den Sternen strahlt\nUm die ihren Trug der Dunkel hinzulänge\nDoch er er ist das Leben, frohe Werke, als Ruh\nDer sich entfaltet, ~~g~~ die Blüte von an\nRebeter Sinn, Oh ich will...\n(er droht) Menelaus\nBei meinem Zelte. Nochmals er. ~~die~~ heute die\nIch ihn nicht von mir weisen, heute [?] [?]\nDer alte Bettler mit an meinen Tisch [?]\nAus Tafeln, heute kann kein Grolle, kein Tor\nDie lichte Röte meine Jubel trübe.\n[?] [?] [?] / [?] [?]\nHeld Menelaus, tritt herein und trink\nMit guter Botschaft nun Dein daher, die\nIch selbst mit Jubel dich empfang",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 10,
+        "transcription": "Ich leben nicht mehr sehen\n~~in~~ wohl der [?] - kein [?] [?]\n[?] [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 11,
+        "transcription": "III 2 (Menelaus antreten | Gegrüßt auch Du\nHeld Achilles. Wie ich Deine starke Hand\nNun halte möchte ich wohl unser Leben\nAuf neue sich gehören. Einen Dank, den\nDu verschmähst vielleicht bin ich gekommen\nDir darbringen, Dir, dem stolzen Menelaus,\nDank für Patroclos\nAch. [?] mir nicht von Dir\nDie längst vergessen sind, wo ist mein Wille?\nVerweht im Wind, verweht im Sand\nVerloschen in der Flut der Freude, die ich\nIn immer neuen Quellen [?] [?]\nMein Leben giest, ob so ganz verloren\nIm Wirbel meiner schmerzgelösten [?]\nDas ich fast schwindle vor dem [?]\nDie [?]. [?] nicht eine vergangne\n[?] mir vom [?], [?] von Patroclos\nMenelaus Von seinem Lieber. Als Dein [?] [?]\nIm Kampfe wehte, bei der Schiffe wie\nEin Wunder lachend, [?] [?] [?]\nWie sie oft gute [?] [?] [?] [?]\nDa von Dein Name über alle [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 12,
+        "transcription": "Amphoteros, Epaltes, Euryales, Echios, Sphecus, [?] [?]\n\nSarpedon der Lykierfürsten\nWie den starken? Das wir bestand\nIn war wie Traum\n\nDie [?] der [?] [?] [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 13,
+        "transcription": "Der letzte Seufzer und der erste Schrei\nErwachter Jubel. In so [?] nur Achill\nSo warf nur er die Feinde, schmetterte\nDie Reihen hin. Da fiel der erste aus\nDer Patroclos kamen zu, doch keiner, keiner\nWollte es glauben. So [?] nur\nDie lichten Götter gegen die Titanen, Held\nDer Vorzeit, deren Name klingt wie Schall\nVon Waffen in den hohen Wäldern\nAchill Wen schlug\nDein Schwert.\nMen. Wer könnte alle zählen\nIch sah ihn hier, den [?] [?]\n[?] [?] und da brachte ein\nMann Kunde schon von [?], die\nEr schnellfüßiger [?] als [?] [?]\n[?] [?] [?] [?] [?], wie [?]\nDie Tat alle ansehen, die er schuf, [?] [?]\nEs meine, die an ihn, der [?] der [?]\nIm Erleben leer.\nAchilles (im wieder Jubel [?] [?]\nPlötzlich im Leben [?] [?] [?] [?]\nheraus. Eure [?] [?]. Hör hin, hör hin\n(zu Menelaus) [?] weiter, weiter [?] [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 14,
+        "transcription": "Wie nachts der [?] Feuer an den Borden\nVerheißend, [?]\nDie Fernen [?] dass sie nicht verzagen\n\nIch lief zu Dir. [?] [?] noch [?] [?]\n\nDer Herrlichste\nDu Verfluchte, die nie wehrte\n[?] Dein Stolz\n\n[?] [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 15,
+        "transcription": "Noch nach seinen Schritten floh alles Kampf\nWeg von den Schiffen [?] zu. Sein [?] [?]\nsein Antlitz, leuchtend wie der Morgen\nIn dem Glanz der Schönheit und der [?]\nIst der wie der [?], nach den [?] [?]\nDoch er ist rastlos, hat nicht nach [?] [?]\nFür all den Jubel, sondern [?] [?]\nlich wie ein [?] von den [?] [?]\nIn den [?], wo er [?] [?]\nDer lichte Wall und die [?] [?]\nJubel und Kraft der ganzen [?]\nSo kann mich Deine [?] [?], halt\nDer [?], die noch nicht [?], weil Du\n[?] [?], der Herrlichste der Helden\nAchill (fasst die [?] an) [?] Du [?], [?] Du [?]\n[?] [?] nicht vor Jubel, [?] [?]\nwie [?] den [?] [?]\nMen Kein [?]\n[?] mit heut mehr [?] [?]. [?]\n[?] er zu sagen wann er [?] will. Die\nVon [?] [?] schon die [?] [?]\n[?] [?] [?] die [?] der [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 16,
+        "transcription": "[?] [?] [?] [?] [?] [?] [?]\nDie [?], Pferde [?] [?] [?]\ndie [?] [?]\n\n[?] [?] [?]\nüber die [?], die von [?] [?]\n[?] vom [?] der [?]\n\n[?] [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 17,
+        "transcription": "Durch allen Thore, weiter wie der\nWiderstand, [?] von [?] [?]\n[?] die [?] rückwärts, vor der [?]\nQuillt der Strom in [?], Pferde, [?] [?]\n[?] [?], Schrei und Schrei [?]\nauf zum [?]...\nAch. [?] [?] Er aber wird\nnicht vor den Thoren rasten, [?] [?]\nvor seiner Faust der Riegel [?], [?]\n[?] in das Thor, die [?] mit Kraft\nund Stärke [?] [?] [?] [?]\nzu dem [?], wo [?], der König\nmit Weib und Kindern [?], wo [?] [?]\n[?] im [?] der [?]\nVergeblich [?] [?], die [?].\nOh heut fällt [?], [?] [?]\nzu [?]\n[?] Du wirst [?] [?], [?] den [?]\nIn [?] Jahren [?] [?] der\nDu darfst [?] halten. Ob Achill\n[?] [?], er war ein [?]\nund wieder [?] [?] [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 18,
+        "transcription": "Frohes [?]\nSoll heut die [?] [?] vereinen\n[?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 19,
+        "transcription": "Ach Men [?] [?] [?] [?] [?]\nDank spenden, wollen Freundschaft [?]\nErneuern. [?] [?] der [?] [?]\nNoch heute soll ein [?] aus einer, [?]\nVergessen [?] [?] [?] [?] an [?] [?]\n[?] [?] [?] [?].\nAus [?] [?]\nDen [?] [?], meine [?], mir [?]\n[?] [?] Troja fuhr und [?] [?]\nDie [?] einer [?] und [?] [?]\n[?], den [?] [?] [?] [?]\n[?] [?] [?], aus [?] [?]\n[?] die [?] [?].\n(und einmal zurück zu [?])\n[?] Du, halt Dich\nBereit. [?] Dein [?] [?] [?]\nSage den letzten Trotz, sofern [?] Jubel\nOb [?] [?] [?] [?].\nAus [?] Herzen. [?] [?] [?] [?],\nIch will Dich selber [?] [?]\nIn Deiner [?] Kraft [?] [?] [?]\n[?] zum Fest [?] [?]\nwie diesen [?], den [?] [?] [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 20,
+        "transcription": "[?] [?].\n[?] hin und [?] mit [?] [?]",
+        "notes": "Liniertes Papier. Handschrift.",
+        "type": "content"
+      },
+      {
+        "page": 21,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 22,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 23,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 24,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 25,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 26,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 27,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 28,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 29,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 30,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 31,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 32,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 33,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 34,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 35,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 36,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 37,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 38,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 39,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 40,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 41,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 42,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 43,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 44,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 45,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 46,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 47,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 48,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 49,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 50,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 51,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 52,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 53,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 54,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 55,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 56,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 57,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 58,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 59,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 60,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 61,
+        "transcription": "Hab ich gerastet, wie den Toren\nDie ich erschlug, im Augenicht gesehen\nFast ist es mir, als ob eine dunkle Botschaft\nzu mir....\nIII 13\n\nGeschrieb. Heft 1",
+        "notes": "Handschrift, Tinte. Die Seite enthält eine durchgestrichene Linie und Notizen zum Heft.",
+        "type": "content"
+      },
+      {
+        "page": 62,
+        "transcription": "Th. I.\n(ar da Tersites, alles Freund\nVoce Pferd geritten, weit aus\nUfer arger.\n1 Thelam[?] gut\n2 Odyss. Menel. Agam. Thersites\n3 Odyss. Menel.\n4 Odyss. Menel. Thers.\n5 Patr. Ach. Telvia\n6 Patr. Ken. Kyhts\n7 Patr. Ther\n8 Thers. Tel.\n9 Ach. Th.\n\nin Staub mich breinchen,\nkeine Stimme haben oder von Du schrei\nDer Trauer, ehe solcher edles lachen\nzu menge in die Tränen einer Frau\nMit diesem lachen, Blöde, erschlägt ich ab",
+        "notes": "Handschrift, Tinte. Liste von Namen/Charakteren und erste Textzeilen.",
+        "type": "content"
+      },
+      {
+        "page": 63,
+        "transcription": "Th. I\nThersites auf Patroclos aus die beiden andern zu\nTh: oh herrlich ... herrlicher Sieg. So hat\nNur feuer noch ihre Tilacca nie zeigt, aby\nDas volib. Wie kraftvoll stark aus kühn\nOft wer die zarten Terseln einer Frau\nNachuchet, einer Frauen hand, geschefen um\nWas her zu wirken oder Früchte, hell\nzu tragen. Wie roh, wie gemein ihr\nDas Edelste berühre ihr Plumen, riß\nNur Qualen höhnt, nur nehmen, raffen\nNichts zu geben habt aber Eurer\nVergessen Menschlichkeit. Ihr wollte\nIch hör't Euch Euer Lachen an den\nGesichtern schneiden\nTh. Patroclos (aufgelauert)\nDein doch ein wenig schöner, weniger\nGerundetes Antlitz hleben\nTh. Nein, ich will\nArber die Missgestalt, als solches lachen\nWenn eine Frau weint. Wirst ihr denn\nzu neiden zwischen Schwert, um Weib und\nWein?",
+        "notes": "Handschrift, Tinte. Dialog zwischen Thersites und Patroclos.",
+        "type": "content"
+      },
+      {
+        "page": 64,
+        "transcription": "Lacht\ngewohnt\nwie bunte Last\nMit euch zu lag\n\nIst die so das Menschenhe nicht echt\nmit einem Ursachen, die ihr den nur rührt\nDer Schlächter ist als ihr\n\nDie Hand, die sich von\n\nwie Du von\nDein Lächeln schöner Frauen redest. aber lehr\nuns auch doch lieber,",
+        "notes": "Handschrift, Tinte. Fragmente eines Dialogs.",
+        "type": "content"
+      },
+      {
+        "page": 65,
+        "transcription": "Ihr Ewig Heitern, Hellen, Mitleidslosen\nNach allem greift ihr ohne Blick mit\nEuren harten Händen, wie gewohnt nur\nDas Glück in schweren breiten Waren\nSchaukeln zu tragen. Ihr Lächelt andre Hände\nWintert ihr es, auflasten aus dem Staub\nDie lezten kleinen, weg gewehten Scherben\nEwig euch sehen, zehnmal euch den Finger\nAn Steinen ritzen, Eure Kniee blutig heuen, eh ihr\nNur einen kleinen wertlos kleinen kleinen\nGeschäft habt nur diese irren Qualen der taub\nDann wäre euch die Träne einer Frau\nWie die Wunde, die vergiftet brennt, wäre\nEin leises Lächeln, das die Lippen noch nicht ganz\nUmrauselt, sondern erst ganz leise an die Wege\nzu spielen unbegiernt, das wäre Euch\nSo ungeheuer schwer, dass ihr zittert Eure Kniee\nMehr zitterten als vor dem Heer des Feindes\nAus selbst vor Gott.\nPatroclos Ei nich Thersites\nWelch Kenner in der Liebe. Lehr uns Lieben\nDoch auch wie man die Frauen zarkel, wie\nMan sie nich zerreist, das weißt Du",
+        "notes": "Handschrift, Tinte. Fortsetzung des Dialogs.",
+        "type": "content"
+      },
+      {
+        "page": 66,
+        "transcription": "Priester.\nJa Ihr, Ihr Ewig Heitern, Widrig Frohe\n\nWas bleibt euch, Nachen, kein Erleben\nDie läuft schon euer nur für euch zurück\nWie Glanz der Blitze aus den Himmeln\nUnd irgendwo die Erde fasst.\n\nAm den dunkeln ganz\ndunkel wie das Blut die Erde\nPatroclos Ei nich Thersites!\nZurück doch von Erdweiser Du\nWeibern-\nWie man sie bekommt",
+        "notes": "Handschrift, Tinte. Dialogfragmente.",
+        "type": "content"
+      },
+      {
+        "page": 67,
+        "transcription": "Doch sicherlich auf's beste\nTh. Deinen Spott\nwerf ich so weg, wie Du ein Menschenleben.\nGlaubst Du die Frauen schon zu kennen, weil\nDu weil schon schläfst, nie fängst nur weil\nIhr in der Nacht, halbwachend zwischen Frauen\nund Traum, aus Eurer Eier u\nEin bischen Hitze auf die bixareust, glaubst\nDu sie zu kennen, weil Du Sklavinnen\nSchreit taumelnd aus den Händen ihr Qual\nDie Du erklärst, die Dir gefangen.\nGlaubst Du der Sieger hat gesiegt, wenn er\nDas Opfer hinstreckt ohne es zu kennen\nWas wirst den F. Armseligen von Frauen,\nVon Menschheit, Leben. Euer helles Bild\nIst flach und hohl, mit aufgepappten Schein\nVerklebt, doch den tiefen rauschenden Hof\nEuer, dort wo die Erde ihre Wärme in die\nHerzen gibt, wo Turzheiten mit dem nur\nAufbau, was wirst ihr denn vom tiefen Leben,\nDas erst der Schmerz aufweckt.\n(Fiebern) Th, ja ich",
+        "notes": "Handschrift, Tinte. Monolog des Thersites.",
+        "type": "content"
+      },
+      {
+        "page": 68,
+        "transcription": "obwohl ich dies hab\nWie Du verläumdet schon aus Wunsch\nund so wohl obwohl ich doppelt ihr\nschon hab\n\nHorchen, musst ihr Hand in Griffe hinach\n\nwie fern ein wesen sind, die um sie sich\nKlagen die Träne auf die Erde rührt\n\nDoch neben Atem\nWeht nur mehr her, als Euch am tann\nVersteckten Kanten. Lesen so wie",
+        "notes": "Handschrift, Tinte. Fragmente.",
+        "type": "content"
+      },
+      {
+        "page": 69,
+        "transcription": "Thersites ist, der Kanzler der Weichen\nVor dem die Weiber schreien, wenn weiche\nsie nur zu Zufall erregt, ich Thersites\nDer nie die Lippen einer Frau gefühlt, der nie\nNur einen Augenblick die zarte Haut\nDer Frauen Händen fühlte, der nicht Liebe, nicht\nnennt - Lacht, nur lacht, Milcharten\nDie ich nicht weinen höre - ich Thersites\nDer Einsame, der gar nicht gar nichts lebte\nIch fühle mehr das Ewig wunderbare\nDer Frauen, das himmlische Gerät\nIn ihrem Schreiten, die traumhaft nur Welle\nIn ihren Gliedern, die verhaltne Glut\nIn ihren Worten, Worte die nur niemals\nNoch niemals halten. Sie sind ja laut\nEin Schrei, so tief, aus unsagbarem Schmerz\nSo tief, wie sie nicht sich wählen können\nIn die Brust eines Mannes - den Schrei\nder Frau, Barbarin nur, die nicht nach sich\nDie nur nach Freiheit, Menschenfrei sich\nEin solcher Schrei ist euren Ohren Rezept\nDie ausgefüllt sind nur vom leeren Trost",
+        "notes": "Handschrift, Tinte. Monolog des Thersites.",
+        "type": "content"
+      },
+      {
+        "page": 70,
+        "transcription": "Nur die so ganz\nzu sein, der er nur träumt,\n\nDu ich ich\nDu weisestes Thersites\n\nNun bist Du wach, ganz wieder wach, Thersites\n(Nachdenkend) schuchen. Nur auf Euch",
+        "notes": "Handschrift, Tinte. Dialogfragmente.",
+        "type": "content"
+      },
+      {
+        "page": 71,
+        "transcription": "Klirrender Waffen. Er was hört zu deren\nKlopfen aus die Wüsten Eurer Frauen, das\nwas nicht zu deren...\nPatroclos hat kaum ein feinen, gesinnt\n(Starr) hat ihm wie er nur Taumel auf die bricht\nküchlings ein Bein gestellt, den er zusammen bricht\nPatroclos (lachend) Ich seh\nEin quichend Ding ein Paar, das krumm\nsich überschlägt und auch belustigt, der\nMeister Thersites.\nDie andern, Ade, Ade. [?]\n(Sie gehen lachend ab)\n\nI7 (Thersites allein, sich aufrichtend)\nDa haltern sie die hellen, wie Karugen\nMit ihren spitzen Schärbeln in dem Flug\nEin Herz zerreissend ... ein dunkler Kelch\nDas immer wieder, immer wieder\nsich anbietet, sich auserzählt, verrät\nwo andere schweigen, lachen, höhnen.\nKränkt Du Dich noch. Ist Dir das\nDen neu, ist das nicht in Du viel\nDa Menschen sich auf ewig nur quält",
+        "notes": "Handschrift, Tinte. Szenenbeschreibung und Monolog.",
+        "type": "content"
+      },
+      {
+        "page": 72,
+        "transcription": "Er schlägt sich gegen die Stirn!\nWas will sei still, Du toren Herz.\nWeil man Dich heute schon gesehen\n\nVielleicht ist das, was mein ein Zwang\nvom Menschen hat in nichts eingeht\nUnd warum dann? Ja, Warum?\nSie quälen andre. Bin ich denn der Einzige\nwie nichtig nichts",
+        "notes": "Handschrift, Tinte. Monolog.",
+        "type": "content"
+      },
+      {
+        "page": 73,
+        "transcription": "Das einzige Einsame. Das Spiel fangen\nDas Herz fliegt an - doch wie es heuchelnd ich\nZerschmettert, noch, krank. Und doch wie so\nZertrümmert, dass es nicht desselben Tags\ndesselben Freund flüchtig seinen Weg begab\nUnd doch ist die Bitterkeit bleibt zäh\nIn mir zurück. Ich werf mein ganz Herz,\nReiss es heraus aus meiner Brust und werf es\nIhren Füßen noch hin - und sie werden eilig\nMit Weibern schlafen, lächeln, wenn sie\nBeirren, den Scherz in die Ural bis Lust\nEintauchen, werden weiter Menschen quälen\nWie diese Arme, Wilde, Schöne\n(lachend) Es war in ihrem Schrei, da sie sich den\nNöten zu füßen warf, ein Ungeheures\nDas mich noch taumeln lässt. Ich sah\nsie ihn verspottet, mit ihr, in dem Fell,\nDa liegt sie nun, vielleicht gefesselt,\nvielleicht noch ärger, in der Brust\nDes nun hingestreckt\n(er schleicht den das Fell heran) Und ich, der ich\nBeglückt wäre, den Atem nur zu hauch",
+        "notes": "Handschrift, Tinte. Monolog.",
+        "type": "content"
+      },
+      {
+        "page": 74,
+        "transcription": "nur nun die felte nahen\nDann in wallen Scherben zu erhalten, woran ich\nandern Blick fühlt herciederriunt.\nIch muss ja Hier eine warme Frau\nfrauen, was sie lebt\nEin Licht für meinen Traum heut nicht\nweinen, aufquellend\n\nIm Leid\nSind alle Menschen milder, vielleicht\nHört sie mich an.\nJetzt mit ihr gehen\nEin Wort nur sage. Ein Wort in solchem Schmerz",
+        "notes": "Handschrift, Tinte. Fragmente.",
+        "type": "content"
+      },
+      {
+        "page": 75,
+        "transcription": "Den Schimmer ihres Haars durch mein Hand\nGleiten zu lassen, ich wenn hier einsam\nVerrocheln\n(Plötzlich auffahren) weinen, leises weinen!\nHorchen so weinen Frauen, wundervolle Frauen\nOh das ist ne. Das ist ein Weinen\nVon einem ungeheuren namenlosen Schmerz\nIch kenne Weinen, habe schon gehört\nWenn oft erschreckt ich auffahr an\nUnd nicht erhorchen, Mitleid hell\nMit mir. In das ist Weinen, leises\nFassungslos weise, das wie Blut\nAus einem Herzen quillt, Weinen an ihren\nDie ganz in tiefer Quell\nIch muss\nDa trosten, ob ich kann nicht doch\nDa einen ein Wort - oh warum weiß\nIch es nicht selbst, wenn es nur ahne\nEin Wort das nie auch das Unglück\nEin Labsal sein\nSagt nun an Teleia ... Teleia.\ndie Holten\nEr horcht Das Weinen stockt, sie löst...",
+        "notes": "Handschrift, Tinte. Monolog.",
+        "type": "content"
+      },
+      {
+        "page": 76,
+        "transcription": "Ein Tr\nGericht zu Dir\n\nIch hab alles gesehen\nNicht darum hasse sie\n\nHörst Du Teleia\nNur Tap, Tap. Du wirst fliehen, sonst",
+        "notes": "Handschrift, Tinte. Fragmente.",
+        "type": "content"
+      },
+      {
+        "page": 77,
+        "transcription": "Teleia\nDu sollst nicht weinen, schenke dir Schmerz\nNicht noch die Tränen. Lächle ihnen\nNoch Deine Schönheit stolz entgegen, lass sie\nNicht fühlen, wie sie quälen können.\nIch habe ja alles angesehen, ich hab\nJa so wie Du gefiltert, mehr noch mehr\nNun hasse sie noch unmöglich mehr als Du\n(er horcht einen Augenblick)\nVertraue mir\nDu weinest nicht mehr. Dein Lache\nDich ganz. Sag mir es in Erwachen, da es\nDir in den qualvollen Minuten, ja es\nDir irrer, dass für Dich noch ein Wahl\nDer nie so heißt wie Du. Ich will\nDir alles vorbereiten, will Dir helfen\ngegen Achilles, neue Flucht bereiten, will\nDich herrenwärts zu den Schwestern führen.\nNur nicht mehr hin in die Verzweiflung\nDeiner Alleinseins, grab deinen Stolz\nNoch nicht sein Grab. Es werden Dir\nNoch helle Stunden kommen, ob du wirst\nnoch neireich lachen, wird die schöne",
+        "notes": "Handschrift, Tinte. Dialog.",
+        "type": "content"
+      },
+      {
+        "page": 78,
+        "transcription": "Nicht ein Wort willst Du mir geben\nEin armes Wort, das ich es weiß, das wir\n\nwie hilf\nWir d\nDie das\n\nLass es mich ganz essen,\n\nDie in leztn\nzu sch",
+        "notes": "Handschrift, Tinte. Fragmente.",
+        "type": "content"
+      },
+      {
+        "page": 79,
+        "transcription": "Der Haare stolz von Deinem Ron\nDu würde haltern lassen. Und am Bug\nHängt der blutige Harnisch des Achilles,\nDas Schwert des Patroclos, die alle all\nDie Dich noch quälen. Vertraue mir\nNur ganz. Ich will Dich retten, will\nDich an dem Grabe haben, das Du\nWillst Du, sprich. Hast Du Vertrauen,\nWillst Du. Hast Du noch Mut\n(er horcht)\nDu kannst\nNicht sprechen, sagst Du, weil sie Dich\nBewachen, Ob Du wirst gerne hören\nJubeln wir Dein Ruf wie eine Leier\nAufschirmen in den Himmel zitternd\nWie es wieder drohen. Und vertrau mir\nMir ganz allein. Gib mir ein Zeichen,\nDann ich Dich retten darf, wenn Du\n(Telcia hat ihre Hand\ndurch das Holzwerk geschoben) Th\nDeine Hand\nThers. traumelos, die Hand hin\nSie soll mein Pfand sein, ungeheuer\nUnkostbar süßes Pfand. Mich will\nIch für sie für diese Stunde soll",
+        "notes": "Handschrift, Tinte. Dialog.",
+        "type": "content"
+      },
+      {
+        "page": 80,
+        "transcription": "Weg. Noch nicht. Nein. Genug.\nandre Tage.\nJa andre Tagen kommen jetzt, die neuen\nGefühle neue lauter Welten. Hier lag\nwie mir das war!\nVon wunderbare Wärme mir ausstrahlen\n\nThersites nicht\nwie ein Esel rollt\nIch bin stark. In deren Armen nun\nWas ist das?\n\nEinmal. Nicht jetzt. Das ist Thersites auch\ngehört\n(plötzlich aufwachen, wie aus\neinem Traum.\nach so, ist das felt\nsie hat ja nicht gesehen.",
+        "notes": "Handschrift, Tinte. Monolog/Szenenbeschreibung.",
+        "type": "content"
+      },
+      {
+        "page": 81,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 82,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 83,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 84,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 85,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 86,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 87,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 88,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 89,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 90,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 91,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 92,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 93,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 94,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 95,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 96,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 97,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 98,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 99,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 100,
+        "transcription": "",
+        "notes": "Chunk-Fehler: JSON nicht parsebar.",
+        "type": "blank"
+      },
+      {
+        "page": 101,
+        "transcription": "th. August 1805",
+        "notes": "Es handelt sich um den Einband eines Notizbuchs mit einem aufgeklebten Etikett. Der Text auf dem Etikett ist handschriftlich. Oben im Bild befindet sich eine Kodak-Farbskala zur Archivierung.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "S.1-20: Die Handschrift ist teilweise sehr flüchtig und weist viele Abkürzungen sowie unleserliche Stellen auf, insbesondere bei den griechischen Namen und den durchgestrichenen Passagen.; S.61-80: Die Handschrift ist flüchtig, teilweise sind Wörter durchgestrichen oder überlagert. Einige Passagen sind aufgrund der schnellen Schreibweise und der Tinte-auf-Papier-Beschaffenheit schwer zu entziffern.; S.101-101: Der Text auf dem Etikett ist gut lesbar, obwohl das Papier einen Riss aufweist."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 17240,
+    "total_words": 3142,
+    "total_pages": 39,
+    "empty_pages": 61,
+    "blank_pages": 61,
+    "color_chart_pages": 1,
+    "content_pages": 39,
+    "input_images": 101,
+    "page_types": [
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      16,
+      0,
+      11,
+      27,
+      825,
+      27,
+      825,
+      76,
+      774,
+      69,
+      802,
+      158,
+      803,
+      203,
+      750,
+      139,
+      633,
+      45,
+      642,
+      36,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      153,
+      420,
+      766,
+      255,
+      931,
+      331,
+      832,
+      305,
+      894,
+      162,
+      790,
+      265,
+      884,
+      349,
+      742,
+      121,
+      828,
+      146,
+      794,
+      396,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15
+    ],
+    "chars_per_page_median": 349,
+    "marker_uncertain_count": 327,
+    "marker_illegible_count": 0,
+    "marker_density": 0.1041,
+    "duplicate_page_pairs": [
+      [
+        4,
+        6
+      ]
+    ],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      0,
+      2,
+      3,
+      5
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

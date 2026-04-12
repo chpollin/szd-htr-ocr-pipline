@@ -1,0 +1,88 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2681",
+    "title": "Festliches Florenz.",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA49.1",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2681/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2681/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2681/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2681/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2681/IMG.5"
+    ],
+    "date": "26. 5. 32",
+    "document_type": "newspaper_clipping",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Stefan Zweig",
+          "role": "author",
+          "gnd": "http://d-nb.info/gnd/118637479"
+        },
+        {
+          "name": "Richard Friedenthal",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/118535579"
+        }
+      ],
+      "subject": [
+        "Zeitungsausschnitte"
+      ],
+      "origin_place": "Wien",
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Wien"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Roter Kugelschreiber",
+        "hands": [
+          "Richard Friedenthal"
+        ],
+        "inscriptions": [
+          "Neues\n                                 Wiener Tagblatt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "zeitungsausschnitt",
+      "context": "## Dieses Dokument\n\n- Titel: Festliches Florenz.\n- Signatur: SZ-AAP/W-AA49.1\n- Datum: 26. 5. 32\n- Sprache: Deutsch\n- Objekttyp: Zeitungsausschnitt\n- Umfang: 1 Blatt\n- Schreibinstrument: Roter Kugelschreiber\n- Hand: Richard Friedenthal"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-12T05:55:11.154474+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_zeitungsausschnitt",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [],
+  "quality": {
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_image_mismatch"
+    ],
+    "total_chars": 0,
+    "total_words": 0,
+    "language_detected": "",
+    "language_match": true
+  }
+}

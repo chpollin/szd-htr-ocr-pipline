@@ -1,0 +1,124 @@
+{
+  "page_json": "0.2",
+  "source": {
+    "id": "o_szd.2575",
+    "title": "Hesse, Hermann",
+    "language": "de",
+    "collection": "aufsatzablage",
+    "shelfmark": "SZ-AAP/W-AA84.0",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.2575/IMG.1",
+      "https://gams.uni-graz.at/o:szd.2575/IMG.2",
+      "https://gams.uni-graz.at/o:szd.2575/IMG.3",
+      "https://gams.uni-graz.at/o:szd.2575/IMG.4",
+      "https://gams.uni-graz.at/o:szd.2575/IMG.5",
+      "https://gams.uni-graz.at/o:szd.2575/IMG.6",
+      "https://gams.uni-graz.at/o:szd.2575/IMG.7"
+    ],
+    "document_type": "manuscript",
+    "repository": "Literaturarchiv Salzburg",
+    "descriptive_metadata": {
+      "creator": [
+        {
+          "name": "Erwin Rieger",
+          "role": "contributor",
+          "gnd": "http://d-nb.info/gnd/116538597"
+        }
+      ],
+      "subject": [
+        "Registerblätter"
+      ],
+      "extent": "1 Blatt",
+      "rights": "CC-BY",
+      "holding": {
+        "repository": "Literaturarchiv Salzburg",
+        "repository_gnd": "http://d-nb.info/gnd/1047605287",
+        "country": "Österreich",
+        "settlement": "Salzburg"
+      },
+      "provenance": [
+        "Archiv Atrium Press",
+        "Erwerb: Ankauf Christie's London 2014"
+      ],
+      "physical_description": {
+        "writing_instrument": "Violette Tinte, schwarze Tinte",
+        "hands": [
+          "Erwin Rieger",
+          "Unbekannt"
+        ]
+      }
+    },
+    "additional": {
+      "group": "handschrift",
+      "context": "## Dieses Dokument\n\n- Titel: Hesse, Hermann\n- Signatur: SZ-AAP/W-AA84.0\n- Sprache: Deutsch\n- Objekttyp: Manuskript\n- Umfang: 1 Blatt\n- Schreibinstrument: Violette Tinte, schwarze Tinte\n- Hand: Erwin Rieger, Unbekannt"
+    }
+  },
+  "provenance": {
+    "model": "gemini-3.1-flash-lite-preview",
+    "created_at": "2026-04-12T05:55:11.019262+00:00",
+    "provider": "google",
+    "pipeline": "szd-htr",
+    "prompt_layers": [
+      "system",
+      "group_handschrift",
+      "object_context"
+    ],
+    "parameters": {
+      "temperature": 0.1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "type": "content",
+      "text": "Hesse, Hermann\nEin Roman von Hermann Hesse\nDer Weg Hermann Hesses\n\n\nHermann Hesse\n\nPeter Camenzind",
+      "notes": "Handschriftliches Dokument. Der Text besteht aus einer Liste von Werken/Autorennamen und einer Signatur."
+    },
+    {
+      "page": 2,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite des Dokuments."
+    },
+    {
+      "page": 3,
+      "type": "content",
+      "text": "Hermann Hesse\n\nPeter Camenzind",
+      "notes": "Handschriftliches Dokument, Ausschnitt."
+    },
+    {
+      "page": 4,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite des Dokuments."
+    },
+    {
+      "page": 5,
+      "type": "content",
+      "text": "Hesse, Hermann\nEin Roman von Hermann Hesse\nDer Weg Hermann Hesses",
+      "notes": "Handschriftliches Dokument, Ausschnitt."
+    },
+    {
+      "page": 6,
+      "type": "blank",
+      "text": "",
+      "notes": "Leere Rückseite des Dokuments."
+    },
+    {
+      "page": 7,
+      "type": "color_chart",
+      "text": "Hesse, Hermann\nEin Roman von Hermann Hesse\nDer Weg Hermann Hesses\n\nPeter Camenzind",
+      "notes": "Handschriftliches Dokument mit aufgelegter Grauskala und Farbkarte zur Archivierung."
+    }
+  ],
+  "confidence": "high",
+  "confidence_notes": "Der Text ist sehr gut lesbar, da es sich um eine klare Handschrift handelt.",
+  "quality": {
+    "needs_review": false,
+    "needs_review_reasons": [],
+    "total_chars": 275,
+    "total_words": 43,
+    "language_detected": "de",
+    "language_match": true
+  }
+}

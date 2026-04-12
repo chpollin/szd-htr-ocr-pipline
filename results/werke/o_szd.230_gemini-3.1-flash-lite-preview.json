@@ -1,0 +1,942 @@
+{
+  "object_id": "o_szd.230",
+  "collection": "werke",
+  "group": "handschrift",
+  "model": "gemini-3.1-flash-lite-preview",
+  "metadata": {
+    "title": "Notizbuch Werknotizen 4",
+    "language": "Deutsch",
+    "images": [
+      "https://gams.uni-graz.at/o:szd.230/IMG.1",
+      "https://gams.uni-graz.at/o:szd.230/IMG.2",
+      "https://gams.uni-graz.at/o:szd.230/IMG.3",
+      "https://gams.uni-graz.at/o:szd.230/IMG.4",
+      "https://gams.uni-graz.at/o:szd.230/IMG.5",
+      "https://gams.uni-graz.at/o:szd.230/IMG.6",
+      "https://gams.uni-graz.at/o:szd.230/IMG.7",
+      "https://gams.uni-graz.at/o:szd.230/IMG.8",
+      "https://gams.uni-graz.at/o:szd.230/IMG.9",
+      "https://gams.uni-graz.at/o:szd.230/IMG.10",
+      "https://gams.uni-graz.at/o:szd.230/IMG.11",
+      "https://gams.uni-graz.at/o:szd.230/IMG.12",
+      "https://gams.uni-graz.at/o:szd.230/IMG.13",
+      "https://gams.uni-graz.at/o:szd.230/IMG.14",
+      "https://gams.uni-graz.at/o:szd.230/IMG.15",
+      "https://gams.uni-graz.at/o:szd.230/IMG.16",
+      "https://gams.uni-graz.at/o:szd.230/IMG.17",
+      "https://gams.uni-graz.at/o:szd.230/IMG.18",
+      "https://gams.uni-graz.at/o:szd.230/IMG.19",
+      "https://gams.uni-graz.at/o:szd.230/IMG.20",
+      "https://gams.uni-graz.at/o:szd.230/IMG.21",
+      "https://gams.uni-graz.at/o:szd.230/IMG.22",
+      "https://gams.uni-graz.at/o:szd.230/IMG.23",
+      "https://gams.uni-graz.at/o:szd.230/IMG.24",
+      "https://gams.uni-graz.at/o:szd.230/IMG.25",
+      "https://gams.uni-graz.at/o:szd.230/IMG.26",
+      "https://gams.uni-graz.at/o:szd.230/IMG.27",
+      "https://gams.uni-graz.at/o:szd.230/IMG.28",
+      "https://gams.uni-graz.at/o:szd.230/IMG.29",
+      "https://gams.uni-graz.at/o:szd.230/IMG.30",
+      "https://gams.uni-graz.at/o:szd.230/IMG.31",
+      "https://gams.uni-graz.at/o:szd.230/IMG.32",
+      "https://gams.uni-graz.at/o:szd.230/IMG.33",
+      "https://gams.uni-graz.at/o:szd.230/IMG.34",
+      "https://gams.uni-graz.at/o:szd.230/IMG.35",
+      "https://gams.uni-graz.at/o:szd.230/IMG.36",
+      "https://gams.uni-graz.at/o:szd.230/IMG.37",
+      "https://gams.uni-graz.at/o:szd.230/IMG.38",
+      "https://gams.uni-graz.at/o:szd.230/IMG.39",
+      "https://gams.uni-graz.at/o:szd.230/IMG.40",
+      "https://gams.uni-graz.at/o:szd.230/IMG.41",
+      "https://gams.uni-graz.at/o:szd.230/IMG.42",
+      "https://gams.uni-graz.at/o:szd.230/IMG.43",
+      "https://gams.uni-graz.at/o:szd.230/IMG.44",
+      "https://gams.uni-graz.at/o:szd.230/IMG.45",
+      "https://gams.uni-graz.at/o:szd.230/IMG.46",
+      "https://gams.uni-graz.at/o:szd.230/IMG.47",
+      "https://gams.uni-graz.at/o:szd.230/IMG.48",
+      "https://gams.uni-graz.at/o:szd.230/IMG.49",
+      "https://gams.uni-graz.at/o:szd.230/IMG.50",
+      "https://gams.uni-graz.at/o:szd.230/IMG.51",
+      "https://gams.uni-graz.at/o:szd.230/IMG.52",
+      "https://gams.uni-graz.at/o:szd.230/IMG.53",
+      "https://gams.uni-graz.at/o:szd.230/IMG.54",
+      "https://gams.uni-graz.at/o:szd.230/IMG.55",
+      "https://gams.uni-graz.at/o:szd.230/IMG.56",
+      "https://gams.uni-graz.at/o:szd.230/IMG.57",
+      "https://gams.uni-graz.at/o:szd.230/IMG.58",
+      "https://gams.uni-graz.at/o:szd.230/IMG.59",
+      "https://gams.uni-graz.at/o:szd.230/IMG.60",
+      "https://gams.uni-graz.at/o:szd.230/IMG.61",
+      "https://gams.uni-graz.at/o:szd.230/IMG.62",
+      "https://gams.uni-graz.at/o:szd.230/IMG.63",
+      "https://gams.uni-graz.at/o:szd.230/IMG.64",
+      "https://gams.uni-graz.at/o:szd.230/IMG.65",
+      "https://gams.uni-graz.at/o:szd.230/IMG.66",
+      "https://gams.uni-graz.at/o:szd.230/IMG.67",
+      "https://gams.uni-graz.at/o:szd.230/IMG.68",
+      "https://gams.uni-graz.at/o:szd.230/IMG.69",
+      "https://gams.uni-graz.at/o:szd.230/IMG.70",
+      "https://gams.uni-graz.at/o:szd.230/IMG.71",
+      "https://gams.uni-graz.at/o:szd.230/IMG.72",
+      "https://gams.uni-graz.at/o:szd.230/IMG.73",
+      "https://gams.uni-graz.at/o:szd.230/IMG.74",
+      "https://gams.uni-graz.at/o:szd.230/IMG.75",
+      "https://gams.uni-graz.at/o:szd.230/IMG.76",
+      "https://gams.uni-graz.at/o:szd.230/IMG.77",
+      "https://gams.uni-graz.at/o:szd.230/IMG.78",
+      "https://gams.uni-graz.at/o:szd.230/IMG.79",
+      "https://gams.uni-graz.at/o:szd.230/IMG.80",
+      "https://gams.uni-graz.at/o:szd.230/IMG.81",
+      "https://gams.uni-graz.at/o:szd.230/IMG.82",
+      "https://gams.uni-graz.at/o:szd.230/IMG.83",
+      "https://gams.uni-graz.at/o:szd.230/IMG.84",
+      "https://gams.uni-graz.at/o:szd.230/IMG.85",
+      "https://gams.uni-graz.at/o:szd.230/IMG.86",
+      "https://gams.uni-graz.at/o:szd.230/IMG.87",
+      "https://gams.uni-graz.at/o:szd.230/IMG.88",
+      "https://gams.uni-graz.at/o:szd.230/IMG.89",
+      "https://gams.uni-graz.at/o:szd.230/IMG.90",
+      "https://gams.uni-graz.at/o:szd.230/IMG.91",
+      "https://gams.uni-graz.at/o:szd.230/IMG.92",
+      "https://gams.uni-graz.at/o:szd.230/IMG.93",
+      "https://gams.uni-graz.at/o:szd.230/IMG.94",
+      "https://gams.uni-graz.at/o:szd.230/IMG.95",
+      "https://gams.uni-graz.at/o:szd.230/IMG.96",
+      "https://gams.uni-graz.at/o:szd.230/IMG.97",
+      "https://gams.uni-graz.at/o:szd.230/IMG.98",
+      "https://gams.uni-graz.at/o:szd.230/IMG.99"
+    ],
+    "input_image_count_total": 99
+  },
+  "context": "## Dieses Dokument\n\n- Titel: Werknotizen 4\n- Signatur: SZ-AAP/W42\n- Sprache: Deutsch\n- Objekttyp: Notizbuch\n- Umfang: 49 Blatt, 46 Blatt\n                                                  beschrieben\n- Schreibinstrument: Violette Tinte, Bleistift\n- Hand: Stefan Zweig",
+  "result": {
+    "pages": [
+      {
+        "page": 1,
+        "transcription": "",
+        "notes": "Vorderseite des Notizbuchs, grüner Einband. Keine Schrift.",
+        "type": "blank"
+      },
+      {
+        "page": 2,
+        "transcription": "",
+        "notes": "Rückseite des Einbands, Innenseite. Keine Schrift.",
+        "type": "blank"
+      },
+      {
+        "page": 3,
+        "transcription": "Nach der Begegnung\n\nA Ciel comme tous les malheurs s'apésantissent sur Elle et comme mon coeur\ngémit - oh mon ami je ne cesse de penser\nà Elle\" (brief von König Gustav an Taube)\n\nNach dem Fall der Tuilerien „Menagez\nvous pour nous et ne vous inquiétez pas\npour nous adieu\" (leeren Augenblick bittet sie ihn\nan mich zu denken.\n\nWirschreie 275 Ballt die Fäuste zum\nHimmel u pauvre Reine que | 277\nfalure Nachricht\nkeine Monate keine Nachricht\n299 | je me reproche souvent\nleidet nichts tun zu können | 299 |\nResignation „Depuis longtemps 309 aller\nSchmerz verbraucht\n\nJust Stelle „Qu'elle a été seule\n21 310 |",
+        "notes": "Handschrift in violetter Tinte. Die Transkription enthält einige französische Zitate und deutsche Notizen. Die Seitenzahlen sind teilweise durch Striche abgetrennt.",
+        "type": "content"
+      },
+      {
+        "page": 4,
+        "transcription": "",
+        "notes": "Leere Seite mit Linierung.",
+        "type": "blank"
+      },
+      {
+        "page": 5,
+        "transcription": "Totenklage\nLässt aufhaufen 314, 315\n317\n\nnoch aus dem Temple geliebt „a mon\ngrand ami\" maudis en l'envoyant que\nla personne a qui elle appartient sent que\njamais elle a été plus vrai\"\nDevise „Tutto a te mi guida\"\nzwischen Tor, Jammer, zwei Herite[?] worden\n\nIhre Tochter sieht 1796 zittern vor\nzu [?] [?] .\n\nDepression, leere Worte, 361\n| Todestag 16 Ce jour est un jour de\ndevotion pour moi 366",
+        "notes": "Handschrift in violetter Tinte. Einige Wörter sind schwer lesbar, insbesondere in Zeile 9.",
+        "type": "content"
+      },
+      {
+        "page": 6,
+        "transcription": "",
+        "notes": "Leere Seite, liniert.",
+        "type": "blank"
+      },
+      {
+        "page": 7,
+        "transcription": "Beweis\nCampan[?] A. Priest (Was bedeutet\nReihe Documente da sind, Und\nwas da sind\nNapoleon weigert nur 388\n\nKostbarkeit, Einen Schatz aufzuleuchten, Roman\nüber Nüchtern. Jeden Tag, Correspondenc-\nbücher, Rechnungsbücher, an Schwester, Vater,\nKönig, Gesandte aufbewahrt\nKostbarste zerstört, zerstoben. Dann\nverbrannt, Fersen warmen Klinkers worn. Erst\neine Rede beseitigt, 100 Jahren. Herostratsche\nGeheimnis, Nur Details,\nEiner aber[?] entgangen, Comen[?] nur unver-\nstummt. Straf, Geliebt, allein Beweis\nDocumente ein, aber auch dem\n[x] [x] [x] von men [?] [?] [?]\nSchwersten fast verstummen. Ein priv. Dok. verhargt[?]\nAber noch mehr, Eitelkeit, Eitelkeit\nDiscretion. Darüber weg, Protesher[?]. Neer\nGelogen",
+        "notes": "Handschrift in violetter Tinte. Die Lesbarkeit ist aufgrund der schnellen Kursivschrift und einiger Abkürzungen/Kürzel schwierig.",
+        "type": "content"
+      },
+      {
+        "page": 8,
+        "transcription": "",
+        "notes": "Leere Seite, liniert.",
+        "type": "blank"
+      },
+      {
+        "page": 9,
+        "transcription": "Ende\n\nUne n'ai je pas pu mourir avec\nelle le 20 juin\n\n19 Jahre 19 Jahre gekaumt[?], [?]au\nam Tag\n\nwie in den Tuilerien. Mann\nzu fest, der letzte Ritter, zerrissen\nund gestampft von den [?] [?]\nFausten der Revolution",
+        "notes": "Handschrift in violetter Tinte. Französische und deutsche Textpassagen.",
+        "type": "content"
+      },
+      {
+        "page": 10,
+        "transcription": "Erwartet, gleichwohl, immer\nneu, neu, Kuss, freut, Dichter[?] abweg\ndurch, Kennung der Bahn\n\nVernachlässigte reine ehelicher\nFluchten\n\n«pour lui rendre la voix»\nSpötter sagt in den Vorzimmer\n\nPhimors[?] herblich 1777 Fredrich ein\nGesandten machiavellon\nRath, Maitressen [?] [?], ein\nEinflussung, [?] [?] [?] [?]\neinen Frau\nMannlich [?] [?] [?] [?] [?] [?]\nElisabeth von England als Frau fat[?]",
+        "notes": "Handschrift in violetter Tinte. Einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenführung schwer zu entziffern.",
+        "type": "content"
+      },
+      {
+        "page": 11,
+        "transcription": "I. Capitel. Schlagwort\nIn dem Schlafzimmer gewusst war für lange Zeit\n- nichts. Und es hat fatalen doppelten, wenn\nder königliche Ehemann nächsten Morgen in dem\nTagebuch ausruft Rien, nichts Ceremonien, und\nBeginn der Betts, Ehemann kein Mann und trotz\nPrinz österreichische Testung übergeben hat, keine\nleiblich Betten zu entwirren. Ursache: deren männlich\nOpfer heraus, sieben Jahre dauert, sieben Jahre\nnicht Jugendlichkeit, nicht unerfreier Zeit sondern an\norganische Hemmung, die Giring Operation beseitigt\nkonnt beraten hat, vorangetrieben war finange\nSochen Jahr of Hinweis Temperament bewor, {traurig, wenn bei der Frau artig} \nund Frauen gehasst, roher Gelust gezeigt, Tag schlecht\nauf für ein qualvolle zu Stifter Maria Theresia\nzum Gelassen der Hofs, Trend der Betten zu haat.\nMaria Theresia unerträglicher, trauervoll Jouth\njeten Jahr für, acht Jahr verzögert, Frager\nMaria Antwort in Schlafzimmer byren {erwiedert}\nals konsequeritten, geerdet heißt Einwirkung der Frau\n   x   x   x\nSattelmann ärger aus unnötig unfehlbar\ngrad beider Namen nennt? die Biograf da den\nrichtige Charakter Talten",
+        "notes": "Handschrift, violette Tinte. Text ist stark kursiv und teilweise schwer lesbar, viele Abkürzungen und Korrekturen.",
+        "type": "content"
+      },
+      {
+        "page": 12,
+        "transcription": "{dran an} \n{Operation, nun}\n{drouptement, laut}\n{finanmauch}\n\nSälventig beinahe grob\nwar tap a la nonchalance n'est\nvraiment pas de mon coté\"\nAber nun die Mutter wüsste! Oesterrei-\nchischen intimsten Corresponden\n1774\ninconcevable, Malgré tous les assertions de\nla Faculté mes soupcons augmentent sur la\nconstitution corporelle de ce prince\" war tosel\npour engager cet \"grand empressement\"\ninsolent mari de\ns'acquitter mieux erste, Nadralt will, Correspon\nde son devoir!\n\nDie Politik als die Trag der Betts, fraueur\nextraordinaire du Dauphin? van sweten\nmeint, wenn junges Mädchen wie die Dauphin\nrein \"ne peut échauffer le Dauphin tout\nremède serait inefficace\" abwarten, das\ner die conduite si change anter\n\nWapens nill erregt. berüfft der\ntotter, \"point d'humeur la dessus: la\ndouceur la patience sont les uniques\nmoyens dont vous devez vous servir\"",
+        "notes": "Handschrift, violette Tinte. Mischung aus Deutsch und Französisch.",
+        "type": "content"
+      },
+      {
+        "page": 13,
+        "transcription": "zehnten Jahrhunderts wörtlich daran vorbereitend\nConcours ferner, Glück der maternté? jetzt war der\nHintergrund, was charakterologisch unentbehrlich zu verste-\nhen. Ohne Fahrt wird verlegen, Epibezug nicht der Trag\ndie ablaren Vernunft Jahrhundert, allzeit frei\n{vor allem Dinge auf seinen war} {wozu nützen?}\nallzeit frei aber diese Dinge als was newast\nleunt zwar Geheimnis verleugnete war verloscheln bald\njetzt war verlegen stammen, beim Namen genannt.\nDie Ehe unfähig hat {auf das vertrauensvoll} allgemeine Gepräg: Hof\nbeim letzten Pagen nur Türsteher, Versailler weint es\ndie Rad, Hofe Correspondenz. Maria Theresia, als\nMann frommen katholisch Frau ihr Tochter, Mape su\nnicht zu verzweifeln, Trump rasch zu üben. Mercy\nvon allen Plan unterroffel. Briefe unterdrückten Teil\nder Briefe. Maria Antoinette, Politische Angelegenheit\naber Staatsangelegen. Jupiters unfähig ist aber auch\nWirklichkeit der Erfolge. alle gesuchten, spanisch\nin den Details, hervorruft, das der die Lahen der\nKomplexen Sitten anternihen bess. Sardinen,\naberluren, werte Willen, kaum torichte, alle\nBiografien neunzehn Jahrhunderts, verstell. kaum\nauf gemacht. Waffert an Ragit. alle Figuren erst\nverantwortlich O Manrepes etait impunement\nGeheimnis gewesen war verstellt, verlogen\n{Unverständnis} Cabens 13",
+        "notes": "Handschrift, violette Tinte. Dichte Schrift, einige Korrekturen.",
+        "type": "content"
+      },
+      {
+        "page": 14,
+        "transcription": "Jagd: da ist er Mann, Pferd\nBlut bewegt, eher, einbieten, nackend zu\nAm wohlsten, Arbeiter Zimmer\nleute war Tinglern, Hof forstet er auf\n{Spitzen Demedway}\n{verrichtet} {Sicherlich} {Brotlos, trang zu}\n{an}\n\nDeterminiert seine Frau.\nSchuldgefühl. {embarres} Du selbst wie er wettet\nSchwergenhaft \"je n'avais pas le ton\nde reproche, il était pourtant un peu\nembarrassé\" 15 Nov an die Mutter\nAntwortet der Mann gewapnen lassen.\nder Tag da der Hart\nnicht an\n\n{il n'y a encore apparence}\n\nFarbenfen fräulicher Situation. Da\nLerrcht auf ihren Briefen aufahre. Wutheyo\nvon Galtes totes Kind, \"Quoique cela soit\nterrible je voudrais pourtant etre là\", mais",
+        "notes": "Handschrift, violette Tinte. Notizen mit französischen Zitaten.",
+        "type": "content"
+      },
+      {
+        "page": 15,
+        "transcription": "Verantwortung des Königs vor allem sein\nGeheimnis gedrückt mit behelfe, Zitterndheit, wenn\nhy in Damen, Angst vor Zärtlichkeit. Er weiß jeder weiß\nwie sein Versagen, körperlich ist, deren braven biedern\nanständige Menschen, natürlich sozial war, verlegen\nsein. Manchmal wieder grob als kompensieren über\nmännlichkeit, durch Unmännlichkeit maskieren, sicher\nfest war Gleichgewicht ersten Jahren, Symptom jeder Art\nKinder wertigkeitsgefüh\n\nStärker seiner Frau. Willensschwach ohne Autori-\ntät, einen gegenüber, Herren spielen, Niederlage decent\nSalubrität anlor nenns. ganz unter ihr Wille. Nach-\ngeben was als Ehemann ihr als Gatte, als Mann nicht\nverrag.. Sircal\n\nVöllig Nachgiebigkeit, der\nFormanwillen eins, abdachung Willen, Unterwürfi-\ngheit worauf physiologisch schwach, Psyche in der\nPhysis.\n   x   x   x\n   x\n\nGehalt verfährervoll auf den langen. Der\nGriff an 15 bis 22 Jahr. Jeder Arzt sagen, Alles\nwohlfühl. Unerträglichkeit unablässig vernunft der\nqua war frag. Nervons nein, fahrigkeit, die\nVergnügung nicht, sonst hypoch als feindung Frau alte",
+        "notes": "Handschrift, violette Tinte. Analyse des Charakters.",
+        "type": "content"
+      },
+      {
+        "page": 16,
+        "transcription": "Wie der König du\nzart als Märchenheld\ndie als Kind naiv[?] sein\nKraft, Leid zu resp[ektieren]\n\nLeine[?] Krankheit den[?] \nFreundin, talv[?] \nHerablassung fres[?] Mannes \nErbittung\n\n11 Uhr nachts, müde von der Jagd\ndoch hirbalen, überfallen, grenzt, aufgeputzt\n„Nervosismus“. 5 Begleitet von unf. Augenblick\n~~auf~~ offenbaren erwidern,\nNeugierde von den ersten Tagen an\ndie Dauphine in ein gekränktes Kind.\nAutorität, Gefahr, Gier\nUnverstandig respektlos, ironisch kalte\n\nHof\n\nSpitzelt\n\nGesandten, Zeiten sei. Gesandten\nam ihren Mienen, Strahlen Augenränder\ngelangen sei.\nKönigin als Frau endlich Neugier\n~~re~~farnis geword. autorität, etwas sehr\nLibellen wie Pasquille, Spottwort",
+        "notes": "Handschrift, violette Tinte. Die Seite enthält zahlreiche Korrekturen und durchgestrichene Wörter. Die Lesbarkeit ist aufgrund der schnellen Handschrift und der Überlagerungen teilweise erschwert.",
+        "type": "content"
+      },
+      {
+        "page": 17,
+        "transcription": "Armer, gesellschaftlichkeit. Wohl vertreten Nacht für\nNacht ehelich toll, ob der Qualen aus Hoflandrey\nverliert, überfallen, dasselbe drei Uhr morgens\nam Hofe, tritt in die öffentlichkeit - einfacher\nhoher Adel, normale Verfallen antreten. Aber\ngespät, Charakter reformt, Rat verlor, wer geht\naus dem Gleis schnell gebracht, Schwanken: Statt der Gott muss zu\n~~P~~ Pause. Stimmung. Wie junge Frau, wenn all ihr\nMann versagt, unter Jahr, Hofes Strafen, er\n~~j~~ sehen, keiner rufe, leere Lage Moniz, wer\nendlich betrifft, Rätsel raten lasciva Hofs, die\n~~an~~ tun Verfallen vor dem - wer ist der Gleis\nlefer. Er mißt in erah[?] Botschaft Legende. Auf\naf launtalle, ein Tribat[?], Herzog von Artois. Er\ngelockt, Tag mit einem, Central, von allem\nAnfang irgend eine unsichtbare Neugier durch die\n~~m~~erorter[?]. Nicht das Liebesleben, Starke Autor[?]\nangerichtet, wie mehr widergestellt als der\n~~10~~ Handpass, marting, Empfang, Unstille\n~~un~~appetitlich, Leute am ersten hute aber wohl Auto\nmat. Lächeln gelassen nur gelangt: Tothil für er\nKönig",
+        "notes": "Handschrift, violette Tinte. Die Seite ist dicht beschrieben, einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenführung schwer zu entziffern.",
+        "type": "content"
+      },
+      {
+        "page": 18,
+        "transcription": "",
+        "notes": "Leere Seite.",
+        "type": "blank"
+      },
+      {
+        "page": 19,
+        "transcription": "aus dem diese Pasquille, Libellen aufflattern\nkein Zufall. Wenn Zeugenhaftigkeit des Königs\nHoffnungen, Neben ihm ein Bruder, Prinz von\nArtois, obwohl junge Adel sohne, regungen, an\nwahrlhaft. Provence nur verwirrt König istig\n~~sch~~werig, gerührt, gesandter, länger solche die\n~~h~~interlistige Zeit gefügt fester an der Stelle wo\n~~K~~önig war als deren, Shakespeare junge\nBruder; ihm Unfähigkeit der König, neue Hoff\nnung. Acht Jahre. Schon regt sich die Piemonten\n~~in~~fertig, die Hof werde Frankreich Erfolge, jener\n~~D~~arüber der Mann, der farrington Hof in\nder ~~h~~aprecount Intermezzo. Taster am Hof. Jetzt\nverlaufen, Königin Babari, Herzog von Coigny\nUngeheure Intrige angezettelt, Registrat[?] von\nRom zu besetzen, um in nasser Dauphin Leid\nXVII mein heute noch dunkle Wein zu fest\n~~sch~~afft haben, Waffe, den bei der Taufe Frau\nnach dem Vater verzehre hat, unhastig Streit\nerinnert war, vielleicht erfahrt sich gut dafür\nden\n~~D~~iscreheren, Spotten war verpönt. Was\ndie Königin, den König zu rheden. Entweder\nHoffnung nichts erbittertes, Revolution, Sühne",
+        "notes": "Handschrift, violette Tinte. Die Seite ist sehr dicht beschrieben, einige Wörter sind aufgrund der schnellen Schreibweise und der Tintenführung schwer zu entziffern.",
+        "type": "content"
+      },
+      {
+        "page": 20,
+        "transcription": "indolent mari[?]\n\n~~D~~olnhafter 27. Sept. einer Tanten\navec beaucoup de franchise qu'il\naimait beaucoup ce plaisir[?] das er\nnach siebenjahren vermisse glaubt\nentwickelt hat u et qu'il regrette de\nl'avoir ignoré prenant tant de\ntemps[?] offenheit contrasteren, zeigen\n~~L~~eute neugierig[?] trotz\n\nmit leidig,\n~~D~~oarish, Ernst nehmen\n~~D~~an das verhalten unter sich",
+        "notes": "Handschrift, violette Tinte. Mischung aus Deutsch und Französisch. Die Lesbarkeit ist aufgrund der schnellen Handschrift und der Tintenführung teilweise eingeschränkt.",
+        "type": "content"
+      },
+      {
+        "page": 21,
+        "transcription": "",
+        "notes": "Leere Seite eines linierte Notizblocks mit Spiralbindung.",
+        "type": "blank"
+      },
+      {
+        "page": 22,
+        "transcription": "gehe auf, aber wie gesagt\nNün, nein, schaft [?] die Augen im Feuer / es\nwerde nun, sein ich bitte. Aber ganz nah, dünn. Etwa\nni kleiner, ein Luthun, denken könnte.\nHeute Nacht um drei\n\n„Drei Uhr. Tollehalunne. Ruft aus Frau, indem\nAppetit, zu Rom, einen Bordeaux. Sie leer Sparre\nMarkerschafft. Farbe nehmen für sie alle\nFü ihm noch etwas ein, doch Paul, der\nschwitte es fest, legte unter alle Mauris[?]erupte.\n\nTag, krieg vorbei, den, FAD, Alt. Weg\nnehmen. In stab galt.\n\nSpanhafte Paare",
+        "notes": "Handschrift in violetter Tinte. Die Schrift ist flüchtig und weist einige schwer lesbare Passagen auf, insbesondere bei Eigennamen oder erfundenen Begriffen.",
+        "type": "content"
+      },
+      {
+        "page": 23,
+        "transcription": "Nah einmal gelogen. Nicht wohl nun\nverstehen nicht, zu nicht kommen soll\nNur Freund, ihr schon verstehen, da\nnatü. Schläfte, aber - schiller ein: es ki kein\nUfertschung",
+        "notes": "Handschrift in violetter Tinte. Der Text wirkt wie ein Entwurf oder Notizen zu einem literarischen Dialog.",
+        "type": "content"
+      },
+      {
+        "page": 24,
+        "transcription": "Ach ruhig, die Autografen dauernd entfernend. Ach\nimmer noch freude Paul neresom. Ich ohne lang\nmit glücklichen\n\nWie es lief, dass jahrelang, das Verspät\n{unverstanden} [?] noch unter das\nden großen Brocken schafft. Auch gebe, Angst\n\nAch so ... ich sagte in letzteren ich noch.\nEin Zufall. Hast ... nein lass Sie ...\n\nNämlich nicht auf. Ich meine nur, will mich\nzu Sie in Sachen. Um stark gilt hege\n\nTraurige Miene ansehen, mit. Hat dazu haft\nIch leider, ich weiss es nun ja gut ... das befahl\ngetraf auf dich heuchel ... wenn lass von unten\n\nHerren finden zunächst\n\nQuoten, i. Mir Herren Schide, offen gesagt\nsehr fremd. Aber gleich sage. Wenn die\nKopf sehr voll. Wir nicht. Elend, Rafael\nsinke, ihren fähigen Menschen für einen kahlen\nmit Borch.\n\nFied ma, wie auch die Nächte, Rosskarr\nAber, Na, schmelze wir alle Uhr, heute er ihr hat\nlangsam auf, staube den Hut, „Dafür wird gleich ein\nallernan, schmelze, mir nötig, wollte Ihnen hören\nBitte, ich ist in nach Berlin nicht in Son[?]jerry",
+        "notes": "Handschrift in violetter Tinte. Der Text ist sehr dicht geschrieben, mit zahlreichen Korrekturen und Einfügungen. Die Lesbarkeit ist aufgrund der schnellen Handschrift und der Überlagerungen stellenweise eingeschränkt.",
+        "type": "content"
+      },
+      {
+        "page": 25,
+        "transcription": "",
+        "notes": "Leere Seite eines linierte Notizblocks mit Spiralbindung.",
+        "type": "blank"
+      },
+      {
+        "page": 26,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 27,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 28,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 29,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 30,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 31,
+        "transcription": "Collasouelle\n\nBrillenleuten Blick auf den\nFah wild. Bitte sagte er?\n\nNeffen. Ganz ruhig. Ach ja, gefahren Ihr\n\nHanten von heraus nehmen. Aber\n\n~~H~~ {H}erunterziehen, kein Heft, gelähmt war, is\n\n~~w~~ {w}ollen n der. Bitte nicht, Herr Doktor fas\n\n~~v~~ {v}ei Strom,\n\n~~F~~ {F}eierlich, legte hin. Ist Ihr ver\n\ngleichen, leise die Nasen, die Seele. Ist\n\nMünchen, Alte Mann heraus, eine Wolle, die\n\n~~F~~ {F}rei den Mai, die Frau. Sie ... er hem heft\n\n~~u~~ {u} wild habe nie in volle einader\n\n~~H~~ {H}eflig, Welle, kein Neffen.\n\n~~H~~ {H}erunternull, Bezeite gelegt\n\n~~I~~ {I}hren geform, Irralogahn. Wie wünscht\n\n~~S~~ {S}ammlung, ferne auch, aber als rest\n\n~~k~~ {k}ommt schon, sonst is ab.",
+        "notes": "Handschrift in violetter Tinte. Der Text wirkt wie ein Entwurf oder Notizen mit vielen Streichungen und Korrekturen. Die Lesbarkeit ist aufgrund der schnellen Handschrift und der vielen Korrekturen schwierig.",
+        "type": "content"
+      },
+      {
+        "page": 32,
+        "transcription": "gehe, ich weiss auch was ich meinen Namen richtig\nbin soweit nun?\n\nVerangstigten Hund, Freude hin gar. Was sollte der\n\n(Nun is Neffe\n\n~~A~~ {A}lte Zigarre frei. Die können weil lieber, die\n\nBank nicht mehr; ich geh alles damit. Beherzt\n\n~~a~~ {a}usgegangen bin und nun dahin nicht ja etwa\n\n~~F~~ {F}reud, nur Dank. Wir stehen frei. Aber ~~g~~ {g}eht in\n\n~~s~~ {s}oeben erklären; lieber den Revolver, Alterntiv kein\n\n~~f~~ {f}eilen Zeit, motivierten sie\n\n~~v~~ {v}on die verkaufend\n\n. Aber gleich\n\n~~J~~ {J}a gewiss, gleich Christopf, lieber der Wert für\n\n~~A~~ {A}nkunft erwarte, - die Provisor befreier {einfach, muss}\n\n~~d~~ {d}er Amerika. Sie, die wir Hauptquartier - die\n\n~~j~~ {j}etzt vorgelegt, gereist fast. Hellische {einfach, muss}\n\n~~j~~ {j}am Nächte fertig geschafft, behaftet an\n\n~~250.000~~ {250.000} Mark. Geld, Stellen sie, vom Vater On Kopf\n\n~~n~~ {n}och einmal einer Forme geliebt,\n\n~~N~~ {N}um ist er draußen mit mir lange\n\n~~k~~ {k}ommen, um Restamen es zu verlorfen.\n\n~~A~~ {A}usere Lage ist den wir auch kommen, heller\n\n~~d~~ {d}as nun, nachst Monat etwas dem Plan\n\n~~d~~ {d}as hast auch kurz, er lebt. Wart ist hier,\n\n~~h~~ {h}of lage verloren",
+        "notes": "Handschrift in violetter Tinte. Viele Korrekturen und Randnotizen. Die Struktur ist fragmentarisch.",
+        "type": "content"
+      },
+      {
+        "page": 33,
+        "transcription": "Sperren die Gerät. Was mit Gerät gehen, so\n\n~~g~~ {g}esprochen auch Claries uns Dorfhand [?].\n\n~~R~~ {R}efnet hin nur ja. Weder, dem Zettel gefas\n\n~~d~~ {d}u, Achim. Unser Archiv, nicht gekauft. Ach wie er\n\n~~g~~ {g}eht, rauch ein bischen [?] [?] [?], wenn wir verhand\n\n~~k~~ {k}ommen, [?] [?], [?]. Mir wird nicht mal noch einmal\n\n~~g~~ {g}erettet,\n\n~~N~~ {N}icht hin ohne ihn zu sagen, F. A., Schling\n\n~~v~~ {v}erloren ist, auch [?] [?]\n\n~~B~~ {B}rechen, am See wir erhit\n\n~~w~~ {w}erden. David Luft\n\n~~B~~ {B}elehen einen [?] [?] [?]\n\n~~A~~ {A}ter in Ehe, [?] fragen. Es ist Taumelzeit.\n\n~~u~~ {u} [?] [?], so an für die Frau\n\n~~u~~ {u} [?] [?] fest",
+        "notes": "Handschrift in violetter Tinte. Einige Stellen sind aufgrund von Tintenfluss oder schnellem Schreiben schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 34,
+        "transcription": "Eurer [?] [?] im Juni 1929. Wem Typ\n\nauch aus, Claries. Arbeit [?] [?] [?] [?], die\n\nTreppe [?], antwort an beide, ein Angebot. Die\n\n~~v~~ {v}erstand ich der Vater. ? [?] [?] Sie Neffe\n\n~~P~~ {P}empe will gar.\n\n~~l~~ {l}achte. Ich Uhr (Schlafhotel [?] [?]) Neffe\n\n~~o~~ {o}ben, [?] ihm ein freuder Herr. Befinde [?]\n\n~~R~~ {R}est einmal [?] [?], was wollt er, Bless. S. [?]\n\n~~U~~ {U}berraschungen.\n\n~~i~~ {i}ndem hat abrufen alter [?], der ich\n\n~~F~~ {F}rau an den schlafen, fällig, bemerke den [?]\n\n~~j~~ {j}a bald Christof, auch an man will bei\n\n~~i~~ {i}hren [?], des fast erlen [?], kein Spass, der\n\n~~S~~ {S}chlaft und [?] [?]. Eine [?] [?] [?]\n\n~~o~~ {o}nkel ist nicht kurz [?] [?], da war\n\n~~m~~ {m}it [?] [?], mir [?] [?], vor allen\n\n~~M~~ {M}anchen [?] [?] [?] [?] [?]\n\n~~g~~ {g}emacht schon vor mir [?], das [?] es [?]\n\n~~d~~ {d}enen auch Gott [?] [?] [?],\n\n~~f~~ {f}ats [?] [?] [?], alle [?] [?]\n\n~~B~~ {B}ote, am [?] [?] [?], [?] [?] [?]\n\n~~a~~ {a}n [?] [?] [?], [?] [?] [?] [?] [?]\n\n~~d~~ {d}a [?] [?] [?] [?]",
+        "notes": "Handschrift in violetter Tinte. Sehr viele unleserliche Stellen durch schnelle Schrift und Tintenverlauf.",
+        "type": "content"
+      },
+      {
+        "page": 35,
+        "transcription": "Concert [?] [?]\n\n~~B~~ {B}egann ein [?] [?],\n\n~~B~~ {B}enene, auch, ein [?] [?] [?] [?]\n\n~~v~~ {v}el auf, [?] [?] vor [?] [?].\n\n~~T~~ {T}raute von ihm. [?] [?] [?]\n\n~~S~~ {S}perrte die Tür ab. [?] den [?] [?] [?].\n\n~~o~~ {o}b [?] [?] [?], [?] [?] [?] [?]. [?] [?] [?]\n\n~~d~~ {d}es [?], [?] [?] [?] [?]. [?] [?] [?]. [?] [?]\n\n~~w~~ {w}aren in [?] [?] [?].\n\n~~N~~ {N}acht auf, [?] [?], [?] [?] [?]\n\n~~A~~ {A}fander [?] [?], [?] [?]\n\n~~C~~ {C}ychna,\n\n~~v~~ {v}iel gefangen, [?] [?]\n\n~~F~~ {F}rauen war in [?] [?] [?], [?] [?], Nun\n\n~~i~~ {i}ch wollte [?] [?] [?] [?] [?]\n\n~~N~~ {N}allen [?] [?], [?] [?] [?]\n\n~~V~~ {V}ie [?] [?] [?] [?] [?]",
+        "notes": "Handschrift in violetter Tinte. Viele Stellen sind unleserlich oder nur fragmentarisch zu entziffern.",
+        "type": "content"
+      },
+      {
+        "page": 36,
+        "transcription": "Je ist jede Interesse mehr an sie (einer alten)\nLafeln, also nie? Herr Janson? Kurz Verzicht?\nkurze Geheimnis?\nAch warum nun traurig. Meine paar kleine\nDinge. Leben ja etwa ich will sie\nSache Mann.\nMax, nun 'benötigt Kramer' verwundert der\nOhr Rabel, Man will sie einmal Tag brauchen\nArg, hilleyt vor einmal Tag brauchen\nMax, Machen Sie nur keine Hoffnung auf keine\nTat, schaut sie an, die Frau, hart, da sie\nOrte, Nie kaufen, ganz einfache kaufen, aber sie\nnicht, gibt nicht alles, schnell so viel wie in\nkaufen sie kaufen, gibt es will. Nie na\nSanf und wir Frage, lenk an.\n, gut, gut, nun freuen Sie sich und bellen\nich mich nicht an, sie sagt Ihnen, den ich kaufen\nauch.\n[?] , Den neuen Tag grüssen sie endlich\nwohl mehr.",
+        "notes": "Handschrift, violette Tinte. Text wirkt wie ein Entwurf oder Notizen zu einem Dialog. Die Lesbarkeit ist aufgrund der schnellen, flüchtigen Handschrift und zahlreicher Korrekturen/Überlagerungen schwierig.",
+        "type": "content"
+      },
+      {
+        "page": 37,
+        "transcription": "Was ja bedeuten\nalten Mann an der Hand. Kaufen\n\n\nKaufendes. Sual [?] ein\nJeden Nie",
+        "notes": "Handschrift, violette Tinte. Wenig Text, wirkt wie flüchtige Notizen oder Fragmente.",
+        "type": "content"
+      },
+      {
+        "page": 38,
+        "transcription": "stein gehen. Im Jernenthaus.\nJahre, Leute anders reisen. Kommen nach, ob\nKleinfels [?] ankam, Musikstellung in Frankfurt\nAutografen.\nDanke, sehr geliebt was hier. Um Auge\nhat ein ganze Sammlung. 3 lief den Fluss sehr, ein\nFrauen, Drinel und an beileidig, auf der Riss\nSollen sie bin, \" brülle\nFern, gern [?] , Nie, nie\n[?] Herr die Sammlung, vertan an mir müsse [?]\nSüßem [?] \nselbe besuchen, [?] , beflink, oh\nvor Ort.\nAber Herr [?] , glauben Sie nicht\nEs planten mit Ihr hart in Hand. Man\nsad [?] an diese ganzen Sachen. Sind vor jet\nan Nanfel, Haus an Haus wird. Singen vor jet\nSachen, oh je, nö ja, sagt aus gefeiert sie\nBeachten an der Dorfhand zu setzen\nPatient [?] ist. Gut, slant in vor der Frage\nwisst nicht zu sehen, Artikel, von der Fabrik\nVorfall. Legen. Kaufen. Bitte. Wird belegen dafür\nSie es mit mir hart! An hat a das, bitte hell\nHolt nicht hin. Bitte der Straße, warum nicht in Kraft",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschriebene Seite mit vielen Korrekturen und Durchstreichungen. Teilweise schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 39,
+        "transcription": "Gelernt haben.\nNicht wahr [?]",
+        "notes": "Handschrift, violette Tinte. Sehr wenig Text, mittig auf der Seite.",
+        "type": "content"
+      },
+      {
+        "page": 40,
+        "transcription": "reine hier, Anreisen von oben, soviel gefallen\nIn diesen letzten zwei Jahren, es waren 19 24 und\n1925 hatten starte gute Zeiten. Bitte nur kaum etwa\nflotte, sammelten, jetzt in Wien, von Amerika\ndraußen, Nie zu kaufen, wenig auf den Markt laue\nEinfache Sachen Leute nie vorgesehen, jenes\nPicasso, ranf, aber so, mit der Weltheit der Beginn\nweil aus aus der selben Bad in Anfrage kamen,\nPlötzlich belebt sich, zu Nutzen, Preise\nJahreszeit mit Blumen. Es glitzert. Doch sehr\nna scher, ein Einkommen blieb steht, Leute ge\nAlli. Ersparnis in Panik, geht. Aber der Tag kommen\nso weit weiter so nun, wenn so weder ging. Da anst\nallab Kraft, aber er kauft, bald in mich, nicht für sie\nStimmig, suchen jenen andern [?] . Er will\nüberfülle in lassen, bald wenn er will das wissen,\neine handhafte Napier.\nDabei besprechen sie gewisse Öfen. Sie da, so\nKlempner grüsst höflich, halt, [?] (Auchin) an der\nKauf und den Tipp, sie hat es gedacht. Im Ganzen. So nahe\ndass sie nicht ein werden kommt den Weg, fragen zu.\nAlles schlagen so ein. Bleiben, ja, nach aber Rubin",
+        "notes": "Handschrift, violette Tinte. Dichter Text, wirkt wie eine Erzählung oder ein Tagebucheintrag. Lesbarkeit ist aufgrund der kursiven Schrift und der vielen Eigennamen/Ortsbezüge herausfordernd.",
+        "type": "content"
+      },
+      {
+        "page": 41,
+        "transcription": "Kusimüglichkeiten, ich schätze ich verzeih.\nWeg zu laufen.\n\nHer Peter Spale\n\nkomische Billets\nPersauer geworden. Wird mehr wie\n~~ordern~~, es war sinnlos. Beantwortet Briefe auf\n~~Alten~~ neuen, aber Marie freie gern befalls\n~~Sch~~ [?]\nSchraube ein\nOb er ihm begegnen würde | Menien. Ob will etwas\n| Selten.\n\nni ganz für ihn der Ort\nUnd auf die andere Seite, von grün\nFliegende Thu, Schichten, Stärker, etwas\nEinfache Art",
+        "notes": "Handschrift, violette Tinte. Der Text ist fragmentarisch und weist zahlreiche Durchstreichungen auf.",
+        "type": "content"
+      },
+      {
+        "page": 42,
+        "transcription": "Türe offen, Unterlegen über Jahreshaft. Das er\nalte Luft. Die eine Wand gefasst. Nie in kurz gelebt\n~~fe~~haften in der laufenden Welt, Ratthheit war dann\nmit Stanca am zu Ende, was da, jetzt einmal gelb\n~~ist~~, die sie gelegen\nDer Sessel ist weich, leerer. Will laufen.\n~~h~~te ich für mich also einen Brief, kommt in häufig\n~~nach~~ Anzeichen roter von Gedanken. ~~e~~ste\n~~M~~eist mindestens. Lege eine Liste bei. Darauf jeder gut ab\n~~sch~~ten, braucht ein paar Sätze und seine Tat\n~~Und~~ der Katalog in die Peters zu Lefty.\n~~Zwei~~ Tage Stille. G. thut. Es istte absehen. Es\n~~h~~te wegsehen. G. an die Chiral gehen. Spiele ich\n~~Cl~~arer, Mütter in Ankunft. Sie ehrt, so für diese\n~~ein~~ versucht, auch der Frau mit malen, a still\n~~auf~~ reizen Sprachen versucht. Nicht bitten, sie nbe\n~~w~~eite, eine offenen Raum beide. Kurfürstinnen\n~~M~~einen in billig, Bellestrent, Unreffen, &\n~~s~~te zu befahl, Salat\n~~A~~ner auf. War einmal gelent, Schmal",
+        "notes": "Handschrift, violette Tinte. Text wirkt wie Notizen zu einer Erzählung oder einem Romanentwurf.",
+        "type": "content"
+      },
+      {
+        "page": 43,
+        "transcription": "~~P~~erse schon sind\n~~U~~nterwegs achte ich, forme\n~~F~~ürstliche. Mit gefall offen\n~~P~~arolen im Untergrund\n~~Nicht~~ mehr zu unterbrechen\n~~Wenn~~ morgen, die eine\n~~Ö~~ffentlichkeit, kämpfe wie die\n~~Wenn~~ er an\n~~M~~acht, dem Amt\n~~In~~ alten, dann\n~~Sch~~rift, auch\n~~D~~aran wie~~r~~ [?] Anna Beda, &\n~~M~~einen, wie immer, wie hat\n~~P~~r~~o~~f~~u~~, alles ist an\n~~E~~r~~w~~e~~i~~s\n\n~~M~~it fallen kleinen\n~~A~~ufgabe, wie es sein muss\n~~T~~rele sie ab, Lertheuk [?]\n~~im~~ Jahr. Meistens rennt er\n~~P~~aragraph für versucht\n\n~~M~~it der [?] [?] [?]\n~~W~~aren Leute, die\n~~D~~ie leere versucht und\n~~D~~er Arzt, der alles was er will, &\n~~D~~em was man wollte, was man sah,\n~~T~~en: Mit scharf, der Rest\n~~D~~er [?] [?] [?] [?] [?] [?] [?]\n~~V~~ersuchen es diese Leute\n~~A~~ber [?] [?] [?] [?]\n~~G~~leichen, sein, so ist mein\n~~D~~as ist in Wien. Das ist ein\n~~H~~e, erstoll erregt. versucht\n~~V~~ielleicht ist auch\n~~I~~mmer, alles ist an\n~~E~~r~~w~~e~~i~~s",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschriebene Seite mit vielen Korrekturen und Randnotizen.",
+        "type": "content"
+      },
+      {
+        "page": 44,
+        "transcription": "~~P~~erse [?] [?]\n~~K~~urtext, sie läuft. Will wir haben\n~~H~~eute, ja heute, es ist. Ich telegraphiere, da\n~~n~~a~~h~~ra Pap, [?] [?], ihr [?], ein\n~~k~~auft besuchen, heraus, er fehlt mehr,\n~~T~~elefonie an, [?]. Er ist zurück\n~~G~~e~~r~~u~~n~~, [?], er [?], [?], [?],\n~~G~~e~~r~~u~~n~~, [?], [?], [?],\n~~S~~onntag vormittag, regnerisch, warm, hell\n~~h~~er, heute, lag auf dem Tisch, [?]\n~~B~~emerkte, [?]\n~~J~~akob, [?], [?], [?]. [?]\n~~B~~emerkte, [?] [?] [?] [?]\n~~K~~ataloge der [?] auch [?] [?]\n~~g~~e~~h~~, [?] [?], allen [?]. [?]\n~~A~~lles die [?] [?], [?]\n~~K~~ey [?] [?]\n~~N~~e~~u~~, [?]\n~~w~~e~~n~~n~~ [?] [?]\n~~w~~i~~r~~ [?] [?]\n~~D~~u, [?] [?]\n~~w~~i~~r~~ [?] [?]\n~~B~~emerkte, [?]\n~~H~~err [?] [?]\n~~d~~a~~s~~ [?] [?]\n~~i~~s~~t~~ [?] [?]\n~~H~~err [?] [?]",
+        "notes": "Handschrift, violette Tinte. Die Seite enthält viele durchgestrichene Passagen und ist schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 45,
+        "transcription": "~~M~~an [?] [?] [?]\n~~R~~e~~f~~i~~l~~, [?] [?] [?] [?]\n~~D~~ann [?] [?] [?] [?] [?] [?]\n~~a~~c~~h~~t~~e~~, [?] [?] [?] [?] [?]\n~~f~~e~~h~~l~~e~~r~~. [?] [?] [?]\n~~T~~age [?] [?]\n~~C~~l~~a~~r~~e~~ [?] [?] [?]\n~~P~~r~~i~~v~~a~~t~~ [?] [?] [?]\n~~A~~l~~l~~e~~ [?] [?] [?]\n~~b~~e~~r~~e~~n~~e~~n~~. [?] [?] [?]\n~~L~~a~~d~~ [?] [?] [?] [?] [?]\n~~P~~a~~s~~ [?] [?] [?] [?] [?] [?]\n~~H~~u~~s~~s~~e~~n~~ [?] [?] [?] [?] [?]\n~~S~~e~~p~~a~~r~~a~~t~~ [?] [?] [?] [?] [?]\n~~i~~n~~ [?] [?] [?] [?] [?] [?]\n~~S~~p~~r~~e~~c~~h~~e~~n~~ [?] [?] [?] [?] [?]\n~~v~~o~~n~~ [?] [?] [?] [?] [?]\n~~a~~l~~t~~e~~n~~ [?] [?] [?] [?] [?]\n~~S~~p~~r~~a~~c~~h~~e~~ [?] [?] [?] [?]\n~~S~~c~~h~~r~~i~~f~~t~~ [?] [?] [?] [?]\n~~f~~a~~r~~ [?] [?]\n~~F~~r~~a~~g~~e~~ [?] [?] [?]\n~~Z~~o~~r~~n~~ [?] [?]\n~~L~~a~~f~~e~~t~~t~~e~~ [?] [?] [?] [?] [?]",
+        "notes": "Handschrift, violette Tinte. Die Seite ist stark durchgestrichen und weist viele unleserliche Stellen auf.",
+        "type": "content"
+      },
+      {
+        "page": 46,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 47,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 48,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 49,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 50,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 51,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 52,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 53,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 54,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 55,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 56,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 57,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 58,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 59,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 60,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 61,
+        "transcription": "Singen wir die Formel\nfür die Choral\n\nHeiß Teer Spary, schrif mir hin ist\n\nwie eine Glück über Zeiten\n\n~~durchgestrichen~~ {eingefügt: klein, weiß}\n\n~~durchgestrichen~~ {eingefügt: Falsche laufen}\n\nGeht ein Ball weiter, Seife am\n\nengst Spielraum. Tall anlegen. Schnell\n\nVersäum nicht, leere Bank\n\nauf welche Orgel wohl\n\nBei dem dreizehnten Table einfach der Ball\n\naber ein Schritt weiter. Halb tote Ball wie Ratten in\n\nMeer\n\nKlosterkinder\n\nweise müssen sie nun\n\nJilke ein wenig, mein Spatz wird ein\n\nSinfonie\n\nBlühte, behält das rein",
+        "notes": "Handschrift, violette Tinte. Notizen, teils durchgestrichen oder mit Anmerkungen am Rand.",
+        "type": "content"
+      },
+      {
+        "page": 62,
+        "transcription": "Sparsam Mann, hat mehr. Wie, etwas, nur\n\nWalter wahrhaftig sein.\n\nGemütserregen noch Leut. Ich kann nie dafür\n\nverdienen, kann Frau-begrüßt schwere Quelle für\n\naber genug, Leidenschaft sie der, jetzt erneuert in die\n\nMünch muss. Mit allem oben. Gab auf, Wallfahr\n\nFrieder mein Paar, anfrag ob er kann, war er\n\nNur eben mir.\n\nKerzen brannte noch, legte ich hin, ein\n\nweißes neues Aufnahm über Hitze einigen\n\nQuellen. Da war Beethov, wie ein Oscar ein\n\nwarmen Finger in, unter liegenden Berichte\n\nCyclon in Inspiration. Zahl alles von lebe\n\ninnigste Stunde ohne Dauer über der\n\nGerankte Notenlesen, mitunter auch,\n\nje der Tanten, der auf alles rührte, der\n\nJa, es muss sein; Erschien Henry Element\n\naufgefaßt in Erde, Brenn weiterbauen?\n\njetzt mal dachte nieder wächlige Haus in\n\nJene der Hoffnung. Allein von Schrank, wehe\n\nMusik. Nisten nötig Notenkopf wie Vogel\n\nmit auch selig gerichtet, getreten Ton in ihr",
+        "notes": "Handschrift, violette Tinte. Dichter Text, teils schwer lesbar.",
+        "type": "content"
+      },
+      {
+        "page": 63,
+        "transcription": "Nicht mehr Tee\nund Tasse.\n\nWerken\n\nMitrahensen\n\nda will sehen\n\nSei san, gib der Orgelmayer ein\n\nleer hole, noch ein Minuten, dann habe ich\n\nErschafft ein,\n\nMit der Nachbar\n\nAlleine, vergessen abtöne\n\noffene schwarzen Sagen\n\nals da er ich nie gesehen\n\nInertie von\n\nBefällt Gerät!\n\nverloren Kopf\n\nKerzen Menschen für\n\nin Teilen der Fenstern, im\n\nRegen im Welt Licht\n\naufgestellt im ganzen Glanz\n\nStimme keine welche\n\nin den Lüften nun\n\nMittern alle\n\nMann, Kaffee Tee\n\nin das Glas\n\nwasche ich\n\nLiefen in Bogen und",
+        "notes": "Handschrift, violette Tinte. Notizen, teils ungeordnet.",
+        "type": "content"
+      },
+      {
+        "page": 64,
+        "transcription": "Jeder, Autografen, Musik kurz, bemerkt. Ein Lied\n\n~~durchgestrichen~~ {eingefügt: sein Plan, der Typ}\n\nsich innerlich auf, bei ihm, hell als klar. Reperte\n\n~~durchgestrichen~~ {eingefügt: nicht, mehr noch Sätze}, \"Ach wie interessant\" Dauer\n\n~~durchgestrichen~~ {eingefügt: die finden, hatte begonnen}, hatte ich auch, ich ehre\n\n~~durchgestrichen~~ {eingefügt: nun lebten Jahr}, jetzt weiter zurück in Gotha\n\nüberall beim Denken weiter über das, statt\n\n~~durchgestrichen~~ {eingefügt: in, fragte ich von}, Nein, wer für Blase, an\n\n~~durchgestrichen~~ {eingefügt: in ganz in}, aus Museum, da wusste weil in\n\n~~durchgestrichen~~ {eingefügt: in neue Leben}, \"Und wer ist wer da?\" suchte ein\n\nHerr ersten Takt,\n\nJahreshaft abends was dann, Nicht für Erschaffen,\n\n~~durchgestrichen~~ {eingefügt: in Menschenhänden}, in ihrem Bibel,\n\nNicht sehen, Schrankasten in Glas. Und, wer, in dem\n\ndem nun, Franz Personer Laufen in\n\n~~durchgestrichen~~ {eingefügt: machen, ich behielt machen}, mehr kleine Zettel\n\nin Haus nahm, nicht, selber. Ich nicht kann\n\nganz zu jene. Ganz bin mich, da ein arg\n\n~~durchgestrichen~~ {eingefügt: Albert nur nicht gesehen}, musste gerade zu\n\n~~durchgestrichen~~ {eingefügt: da zu haben}, hatte mit für. Habe in ein\n\nGesicht, Rufen. Nicht ich, nun erreichen er zu\n\n~~durchgestrichen~~ {eingefügt: kleine war}, kleine war, kleine Zeit, Brief war. Nun",
+        "notes": "Handschrift, violette Tinte. Viele Durchstreichungen und Einfügungen.",
+        "type": "content"
+      },
+      {
+        "page": 65,
+        "transcription": "Als Decorateur\nauf echte Altrocker\n\n~~durchgestrichen~~ {eingefügt: Frau, welche}\n\n~~durchgestrichen~~ {eingefügt: noch, stellte}\n\n~~durchgestrichen~~ {eingefügt: selten in früh schon}\n\nVersucher\n\ngestin faren.\n\n~~durchgestrichen~~ {eingefügt: argument frei, sie gehen}\n\nEin Platz\n\nein Ball\n\n~~durchgestrichen~~ {eingefügt: da der Person, am Ersten, am Ende}\n\nFamilie schlafen\n\nnoch in Wahrheit\n\nvorstellt.\n\n~~durchgestrichen~~ {eingefügt: Liefen sie}\n\nheute ihre Kellnerin\n\nPark mit ihr dann an\n\nKeinen Schritt ich\n\nAlso Zapi-Laufe!\n\nPräsentierteller\n\n\"Nein, Mozart, Mozart, bitte\n\n~~durchgestrichen~~ {eingefügt: entzückend, wunderbar wie ein}\n\n~~durchgestrichen~~ {eingefügt: Bruder, dick real, Teilchen}\n\n~~durchgestrichen~~ {eingefügt: Mozart, eine Handvoll Musik}\n\n~~durchgestrichen~~ {eingefügt: Jedes kein Vergnügen gehabt haben}\n\n~~durchgestrichen~~ {eingefügt: das ja Spuren, auf vergnügen}\n\n~~durchgestrichen~~ {eingefügt: Einhundert}\n\n~~durchgestrichen~~ {eingefügt: Zeile: Analoge}\n\n~~durchgestrichen~~ {eingefügt: Musik: in Musik}\n\n~~durchgestrichen~~ {eingefügt: über: Caruso dann in}\n\n~~durchgestrichen~~ {eingefügt: nun fernere Liste}",
+        "notes": "Handschrift, violette Tinte. Viele Durchstreichungen und Randnotizen.",
+        "type": "content"
+      },
+      {
+        "page": 66,
+        "transcription": "an der Tür, blieb stehen in Offene. Der bekannte\n\n~~durchgestrichen~~ {eingefügt: in Zimmer haben}, manchmal Mittagspause\n\n~~durchgestrichen~~ {eingefügt: halten, Nizza gefall}\n\n~~durchgestrichen~~ {eingefügt: Traten ein, Basel. Da oben Licht, Ein blau}\n\n~~durchgestrichen~~ {eingefügt: im Stiefel. Sah nicht fertig. Wollte nur so. Er ging}\n\n~~durchgestrichen~~ {eingefügt: Er will sehen, herüberkommen, soll kein Raum}\n\n~~durchgestrichen~~ {eingefügt: Sparen, Musik war. War kaum, auch Abend, Tod}\n\n~~durchgestrichen~~ {eingefügt: sein, Bella. Er winkte ein, für 'eine gute Figur'}\n\n~~durchgestrichen~~ {eingefügt: Copie. Ebenfalls, was sie wollte es ein ist}\n\n~~durchgestrichen~~ {eingefügt: schwarzen Geschenke, 'Eile von der bei}\n\n~~durchgestrichen~~ {eingefügt: Antworten' Reise ab. Toten wasche waren}\n\n~~durchgestrichen~~ {eingefügt: weil auftrat. Ich habe in Häuser, Null viel,}\n\n~~durchgestrichen~~ {eingefügt: Ihren vor der gefunden, 'Lafte, lohe, erging}\n\n~~durchgestrichen~~ {eingefügt: gunner waren anhalten' Zirkel leben,}\n\n~~durchgestrichen~~ {eingefügt: offen fragt, brütend ruhig in, lose waltete}\n\n~~durchgestrichen~~ {eingefügt: schnell, wollte erden schon, Mag will werde}\n\n~~durchgestrichen~~ {eingefügt: Bank spielen, Zirkel, ranken. Sie ging in}\n\n~~durchgestrichen~~ {eingefügt: ein ausfüllen Tag. Nur ein paar Paare ein}\n\n~~durchgestrichen~~ {eingefügt: nach Basel.}\n\n~~durchgestrichen~~ {eingefügt: Nun war in das 'Flasche Pull, Rief}\n\n~~durchgestrichen~~ {eingefügt: mit an Wand, schranken, Notenmitte, Auf}\n\n~~durchgestrichen~~ {eingefügt: sein, will sehen, oben die Flasche, kleine Lieb}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 67,
+        "transcription": "nehmen. Reserviert ausles\n\n~~durchgestrichen~~ {eingefügt: ich war eben sein, in wilde, mittag}\n\nam der Bärenfell bin er\n\n~~durchgestrichen~~ {eingefügt: allem rein, nur bemerkt, alles auch}\n\n~~durchgestrichen~~ {eingefügt: gefällt. Werden}\n\nAls hätte es schon\n\n~~durchgestrichen~~ {eingefügt: geteilt, transparent gesagt: u. sehr}\n\n~~durchgestrichen~~ {eingefügt: mein offen, richtig, Museum, fast}\n\n~~durchgestrichen~~ {eingefügt: warf ab. Nun}\n\n\"Stimme spiele\"\n\n~~durchgestrichen~~ {eingefügt: an, oben}\n\n~~durchgestrichen~~ {eingefügt: als eine}\n\n~~durchgestrichen~~ {eingefugt: Gruppe}\n\n~~durchgestrichen~~ {eingefügt: Barbara}\n\n~~durchgestrichen~~ {eingefügt: Panorama}\n\n~~durchgestrichen~~ {eingefügt: Vögel}\n\n~~durchgestrichen~~ {eingefügt: Stellte, ich in der}\n\n~~durchgestrichen~~ {eingefügt: sein, konnten weg}\n\n~~durchgestrichen~~ {eingefügt: in fallen}\n\n~~durchgestrichen~~ {eingefügt: mir fallen}\n\n~~durchgestrichen~~ {eingefügt: mein}\n\n~~durchgestrichen~~ {eingefügt: Wirbel fallen, Notage}\n\n~~durchgestrichen~~ {eingefügt: Musik mit und Bild}\n\n~~durchgestrichen~~ {eingefügt: Mit Musik, fast}\n\n~~durchgestrichen~~ {eingefügt: mein Raum}\n\n~~durchgestrichen~~ {eingefügt: wie in Ton}",
+        "notes": "Handschrift, violette Tinte. Viele Durchstreichungen und Randnotizen.",
+        "type": "content"
+      },
+      {
+        "page": 68,
+        "transcription": "Begreife es, wozu für? Aber in Gal und in mitten\n\n~~durchgestrichen~~ {eingefügt: machte am, sein, kleine, Max, froher Mensch}\n\n~~durchgestrichen~~ {eingefügt: 'früher freilauf, alte Herr zum Garten, Schichten}\n\n~~durchgestrichen~~ {eingefügt: fest, des Tages, Männer vor denen er auf fangen}\n\n~~durchgestrichen~~ {eingefügt: fragte, Musik, volle kleine Stimme, knapp in}\n\n~~durchgestrichen~~ {eingefügt: machen, knappen Raum, in Defekt. Eben hier.}\n\n~~durchgestrichen~~ {eingefügt: Missoni rannte, dann wieder, stellen es fahren}\n\n~~durchgestrichen~~ {eingefügt: Name, Hand und gürtel an war, klopfte an der}\n\n~~durchgestrichen~~ {eingefügt: Spiel, der Gast, Nallea vergan, sein in an}\n\n~~durchgestrichen~~ {eingefügt: Artikel, am Tage Tee in der Hand, Schrank über die}\n\n~~durchgestrichen~~ {eingefügt: geschafft, hatte man in Frankfurter Theater}\n\n~~durchgestrichen~~ {eingefügt: sass da, nach, Bitter, betrage, kein Ort mit.}\n\n~~durchgestrichen~~ {eingefügt: Hilflosen Blick. Nun in. Briefe wärme, Mahne}\n\n~~durchgestrichen~~ {eingefügt: selten gesehen, schon. Tante er Ästhetik an}\n\n~~durchgestrichen~~ {eingefügt: sein Tage, dann, Schrank, Pfarre, wo sie Ma.}\n\n~~durchgestrichen~~ {eingefügt: wünsche hera.}\n\n~~durchgestrichen~~ {eingefügt: \"Auf unser Musikfreunde auch gehen}\n\n~~durchgestrichen~~ {eingefügt: (Schau, in Theater)}\n\n~~durchgestrichen~~ {eingefügt: Hausfern, weil ja, das Tafel daran. Vier}\n\n~~durchgestrichen~~ {eingefügt: man ruft das war ich wollte. Ja-bild gefall. Er}\n\n~~durchgestrichen~~ {eingefügt: hat. Unser Jahr nicht so stark. Für paar Herren}\n\n~~durchgestrichen~~ {eingefügt: wird, auf den Wort so stark. Für paar Herren}\n\n~~durchgestrichen~~ {eingefügt: ein paar dann an.}\n\n~~durchgestrichen~~ {eingefügt: Ansehen der Salon, Rampenlicht an}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 69,
+        "transcription": "Ausgebildet. Wild unter Menschen warer\n\n~~durchgestrichen~~ {eingefügt: kommen, erlernt in riesen}\n\n~~durchgestrichen~~ {eingefügt: das der Kind.}\n\n~~durchgestrichen~~ {eingefügt: drei Jahren getroffen}\n\n~~durchgestrichen~~ {eingefügt: gestern gefil, stark}\n\n~~durchgestrichen~~ {eingefügt: famerung}\n\n~~durchgestrichen~~ {eingefügt: Er folgt}\n\n~~durchgestrichen~~ {eingefügt: dann}\n\n~~durchgestruchen~~ {eingefügt: war}\n\n~~durchgestrichen~~ {eingefügt: in noch schnell}\n\n~~durchgestrichen~~ {eingefügt: wie in der}\n\n~~durchgestrichen~~ {eingefügt: Palene, wie sie die}\n\n~~durchgestrichen~~ {eingefügt: wirkliche}\n\n~~durchgestrichen~~ {eingefügt: Haus auf}\n\n~~durchgestrichen~~ {eingefügt: sein, wie sie}\n\n~~durchgestrichen~~ {eingefügt: 'Bitte kommen Sie}\n\n~~durchgestrichen~~ {eingefügt: um heute}\n\n~~durchgestrichen~~ {eingefügt: sein ja, ich habe Name nicht verstanden}\n\n~~durchgestrichen~~ {eingefügt: 'Zahlte Musik schon}\n\n~~durchgestrichen~~ {eingefügt: 'sehr, Entwurf der Briefe wollte, weil}\n\n~~durchgestrichen~~ {eingefügt: 'Nichts von Ridert strauss gelernt, später die}\n\n~~durchgestrichen~~ {eingefügt: 'da sie, bis hin hören}\n\n~~durchgestrichen~~ {eingefügt: 'Ganz, 'Creme auf aus nicht Ring}\n\n~~durchgestrichen~~ {eingefügt: 'kürze nicht,}\n\n~~durchgestrichen~~ {eingefügt: 'Ich will auch nicht}\n\n~~durchgestrichen~~ {eingefügt: 'Schon ich an.}\n\n~~durchgestrichen~~ {eingefügt: 'Seperten'}",
+        "notes": "Handschrift, violette Tinte. Viele Durchstreichungen und Randnotizen.",
+        "type": "content"
+      },
+      {
+        "page": 70,
+        "transcription": "Musik, leise?\n\n~~durchgestrichen~~ {eingefügt: das er, ich auf dem Sprung}\n\n~~durchgestrichen~~ {eingefügt: 'Geflochten ihm groß, interessiere wann}\n\n~~durchgestrichen~~ {eingefügt: 'an Peters am Breitkopf, Namen teuer sein}\n\n~~durchgestrichen~~ {eingefügt: 'So hielt mir, 'Bestellte Kataloge, wird}\n\n~~durchgestrichen~~ {eingefügt: 'den Kasten einer tiefen hatte war, aber}\n\n~~durchgestrichen~~ {eingefügt: 'andere, Manche Briefe haben an: aber}\n\n~~durchgestrichen~~ {eingefügt: 'lebt man, 'Nur Zeit war nun unschön ein}\n\n~~durchgestrichen~~ {eingefügt: 'in Fremd, 'Im Sein Haus, 'dann hatte Jahr 2 Rollen. In}\n\n~~durchgestrichen~~ {eingefügt: 'denkt daran, 'in Jahre 1927/28 2 Rollen. In}\n\n~~durchgestrichen~~ {eingefügt: 'wenn sie 7 Sätze, sollen. Fischer sah er}\n\n~~durchgestrichen~~ {eingefügt: 'in Fremd ab, 'immer dann gern, 'schon}\n\n~~durchgestrichen~~ {eingefügt: 'jene Sammlung, 'Abendreise, kann in Japan,}\n\n~~durchgestrichen~~ {eingefügt: 'ein Kapital.}\n\n~~durchgestrichen~~ {eingefügt: 'dort, 'die Sache, 'Aber bei was ja, es}\n\n~~durchgestrichen~~ {eingefügt: 'neue Zeitung, 'verfolgt. 'Leidenschaft, allen}\n\n~~durchgestrichen~~ {eingefügt: 'Katalog, 'er verführt, 'in eine Welt gerade}\n\n~~durchgestrichen~~ {eingefügt: 'gewünscht. 'Blutbild. 'Absch, 'Frau, 'er-}\n\n~~durchgestrichen~~ {eingefügt: 'war sein. 'Einen 'Leichten 'Verkehr.}\n\n~~durchgestrichen~~ {eingefügt: 'Creme die 'machte, 'Blätter, 'Schon 'lange 'da. 'Und}\n\n~~durchgestrichen~~ {eingefügt: 'ein 'Test!}\n\n~~durchgestrichen~~ {eingefügt: 'trank 'nach 'ein 'Porträt. 'Sollte 'die}",
+        "notes": "Handschrift, violette Tinte. Viele Durchstreichungen und Randnotizen.",
+        "type": "content"
+      },
+      {
+        "page": 71,
+        "transcription": "Wir sind hier ein so enges Kreis\n\nEinfach, organen können. Sonst\n\n~~durchgestrichen~~ {eingefügt: 'allabends 'schrieb}\n\n~~durchgestrichen~~ {eingefügt: 'Tür, 'angenehm.}\n\n~~durchgestrichen~~ {eingefügt: 'Bank 'und 'gut. 'Nicht 'ganz 'neuer 'Tag}\n\n~~durchgestrichen~~ {eingefügt: 'Persönlichkeit. 'Berühmte 'Sache}\n\n~~durchgestrichen~~ {eingefügt: 'als 'liegen 'liegen 'beliebten 'Lektüre}\n\n~~durchgestrichen~~ {eingefügt: 'Protz 'gewesen, 'sich 'gezeigt 'haben, 'verrat}\n\n~~durchgestrichen~~ {eingefügt: 'ärgerte 'ich 'dann 'er 'ihm 'gefiel}\n\n~~durchgestrichen~~ {eingefügt: 'einer 'in 'Spalten.}\n\n~~durchgestrichen~~ {eingefügt: 'aus 'einem}",
+        "notes": "Handschrift, violette Tinte. Notizen, teils durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 72,
+        "transcription": "alle übermorgen Frau [?] morgen\n\n~~durchgestrichen~~ {eingefügt: 'heil, 'so 'hell}\n\n~~durchgestrichen~~ {eingefügt: 'in 'allen 'dem}\n\n~~durchgestrichen~~ {eingefügt: 'Mittag '11 'Uhr 'waren 'die 'Stunden 'der 'Freude. 'An}\n\n~~durchgestrichen~~ {eingefügt: 'Weg 'in 'Grenzen. 'Es 'hat 'es. 'Gespräche 'sie. 'Beginn 'ein}\n\n~~durchgestrichen~~ {eingefügt: 'kleinen 'Apparat, 'selten, 'Tätigkeiten 'spät 'froh. 'Beginn}\n\n~~durchgestrichen~~ {eingefügt: 'nahm 'von 'sich 'gestellt, 'freue. 'Gaste, 'Part '12. 'Nun}\n\n~~durchgestrichen~~ {eingefügt: 'n. 'kennen 'sie 'ein 'vollkommen 'Leuchten.}\n\n~~durchgestrichen~~ {eingefügt: ' 'Da 'kleiner, 'natürlich. 'Bei 'einem 'Mann}\n\n~~durchgestrichen~~ {eingefügt: 'Renten 'wegen 'der 'Besprechungen 'nahmen 'sie}\n\n~~durchgestrichen~~ {eingefügt: 'sollte. 'Hinter 'danke, 'viel 'Zeit 'gewesen. 'Ein 'will}\n\n~~durchgestrichen~~ {eingefügt: 'der 'Mann, 'die 'Inflation 'verstanden, 'Mann 'soll, 'so 'wie}\n\n~~durchgestrichen~~ {eingefügt: 'es 'verstanden 'fällt, 'schon 'nur 'echter 'da. 'Vom}\n\n~~durchgestrichen~~ {eingefügt: 'richtig 'will 'er, 'muss 'man 'ihm 'lange, 'was 'er 'anfasst}\n\n~~durchgestrichen~~ {eingefügt: 'das 'ist, 'gefasst 'über 'die 'beiden 'Mann,}\n\n~~durchgestrichen~~ {eingefügt: 'doch 'ja, 'einfach, 'ja 'ich 'habe 'viel 'ferner}\n\n~~durchgestrichen~~ {eingefügt: 'nach 'schon, 'gerne 'kennen 'lernen. 'Aber 'der 'ist 'auch}\n\n~~durchgestrichen~~ {eingefügt: 'mit 'Gesellschaft'}\n\n~~durchgestrichen~~ {eingefügt: 'oder 'was? 'Gesellschaft. 'Fragt 'einfach 'alles 'neue}\n\n~~durchgestrichen~~ {eingefügt: 'Macht 'vom 'Haus, 'ist 'erzählt. 'Wissen 'sie 'nur}\n\n~~durchgestrichen~~ {eingefügt: 'Rupert 'statt 'ihrem 'kennen 'gelernt 'vor 'uns. 'Ganz}\n\n~~durchgestrichen~~ {eingefügt: 'Lied, 'sie 'kennen 'zu 'lernen, 'falsch 'ist. 'Mit 'der 'Bar}\n\n~~durchgestrichen~~ {eingefugt: 'beenden. 'Alle 'Pianisten, 'sagen 'auch 'glücklich 'sein}\n\n~~durchgestrichen~~ {eingefügt: 'mit 'der 'Musik 'ist 'es, 'sagen 'er 'auch 'glücklich 'sein}\n\n~~durchgestrichen~~ {eingefügt: 'Hunt, 'sein 'Garten'}\n\n~~durchgestrichen~~ {eingefügt: 'Tatsächlich 'ein 'Brief, 'schon, 'Beethoven'}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 73,
+        "transcription": "~~durchgestrichen~~ {eingefügt: 'Cena,}\n\n~~durchgestrichen~~ {eingefügt: 'Was 'interessant, 'wird 'bei 'ihm}\n\n~~durchgestrichen~~ {eingefügt: 'Literarisch 'Gesellschaft, 'wird 'Freuen'}\n\n~~durchgestrichen~~ {eingefügt: 'Anfrage, 'zurück. 'Also 'dem 'besser}\n\n~~durchgestrichen~~ {eingefügt: 'kennen 'von 'Ihnen 'geprüft, 'gerne 'kennen}\n\n~~durchgestrichen~~ {eingefügt: 'Frauen 'unter 'ihnen 'hat 'gebracht, 'allein 'dabei,}\n\n~~durchgestrichen~~ {eingefügt: 'hat 'alles 'auch 'einen 'Stift, 'erzählt, 'der 'Brief 'dich.}\n\n~~durchgestrichen~~ {eingefügt: 'Frau 'auch 'weil}\n\n~~durchgestrichen~~ {eingefügt: 'Kommen 'Sie 'doch 'herum, 'nicht.}\n\n~~durchgestrichen~~ {eingefügt: 'Vielleicht 'Herr 'Ihnen}",
+        "notes": "Handschrift, violette Tinte. Notizen, teils durchgestrichen.",
+        "type": "content"
+      },
+      {
+        "page": 74,
+        "transcription": "~~durchgestrichen~~ {eingefügt: 'conversa, 'Blass 'wie 'darin, 'ein 'Schlag. 'Schreibt}\n\n~~durchgestrichen~~ {eingefügt: 'Worte 'aus 'allen 'Ecken, 'hillein 'in 'derselben 'Zeit.}\n\n~~durchgestrichen~~ {eingefügt: 'mitten 'wieder 'nachmittag. 'Bei 'Schubert, 'er 'soll 'es 'be-}\n\n~~durchgestrichen~~ {eingefügt: 'gaffen. 'Jetzt 'blickte 'man 'auch 'auf 'ihn. 'Sahn 'statt 'von}\n\n~~durchgestrichen~~ {eingefügt: 'der 'Firma 'Zahl 'M, 'Hatten 'hier 'über 'in 'der 'Ecke. 'Tal}\n\n~~durchgestrichen~~ {eingefügt: 'mit 'Anführungs 'nach 'oder 'gehen 'man,}\n\n~~durchgestrichen~~ {eingefügt: 'hellig 'schlafe. 'Ein 'Blick 'von 'der 'Ecke, 'Soll 'kein 'Raum}\n\n~~durchgestrichen~~ {eingefügt: 'Ein 'will 'sehen, 'herüberkommen, 'Soll 'kein 'Raum}\n\n~~durchgestrichen~~ {eingefügt: 'Sparen, 'Musik 'war. 'War 'kaum, 'auch 'Abend, 'Tod}\n\n~~durchgestrichen~~ {eingefügt: 'sein, 'Bella. 'Er 'winkte 'ein, 'für 'eine 'gute 'Figur}\n\n~~durchgestrichen~~ {eingefügt: 'der 'er 'hat, 'persönliche 'Belastung, 'zum}\n\n~~durchgestrichen~~ {eingefügt: '27. 'Januar '1928 'von 'da 'kennen 'wir}\n\n~~durchgestrichen~~ {eingefügt: 'Früh 'geht, 'schau 'will 'für 'mich, 'schon. 'Segen}\n\n~~durchgestrichen~~ {eingefügt: 'jemand, 'in 'kannst 'ein, 'diese 'andere 'war 'schon}\n\n~~durchgestrichen~~ {eingefügt: 'meine 'Zeit, 'dann 'ich 'nicht 'vor 'Angst. 'Ich 'kann}\n\n~~durchgestrichen~~ {eingefügt: 'ein 'Jahr 'dort 'ist}\n\n~~durchgestrichen~~ {eingefügt: 'Neugier, 'ein 'von 'Haus 'herum, 'fragte 'Fischer. 'Ihr}\n\n~~durchgestrichen~~ {eingefügt: 'in 'dresden 'nannte 'keine 'in 'Frau 'le}\n\n~~durchgestrichen~~ {eingefügt: 'daraus 'gefragt. 'Auf 'der 'Treppe, 'eine 'Stunde. 'Die 'Brief}\n\n~~durchgestrichen~~ {eingefügt: 'gehe 'in 'Gedanken, 'sie 'in 'Guten 'Namen, 'Nun 'ein 'auf}\n\n~~durchgestrichen~~ {eingefügt: 'er 'hat 'auch. 'Zu 'haben, 'sich 'er 'kennen, 'dran 'vor. 'Aber 'auch}\n\n~~durchgestrichen~~ {eingefügt: 'mit 'dem, 'fällig 'wird, 'einer 'der 'Hand 'Man '5 'Uhr}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 75,
+        "transcription": "Ereign 'in, 'wie 'kann, 'welche 'Frage, 'noch 'allein\n\nin 'anderen 'verborgen 'sind.\n\n~~durchgestrichen~~ {eingefügt: 'Häuser 'Fremdungen, 'lagen 'die 'sie}\n\n~~durchgestrichen~~ {eingefügt: 'klein 'nur. 'Von 'der 'Nähe, 'Nichten}\n\n~~durchgestrichen~~ {eingefügt: 'schreibe, 'Fall 'Name 'wird 'aus.}\n\n~~durchgestrichen~~ {eingefügt: 'schreibe 'kein 'Geschäft, 'verstehen 'auf 'Nichts}\n\n~~durchgestrichen~~ {eingefügt: 'Mann, 'lebt 'Haus, 'dass 'nun 'jemand 'ein 'gerade 'da}\n\n~~durchgestrichen~~ {eingefügt: 'an 'dem 'Gerät}\n\n~~durchgestrichen~~ {eingefügt: 'Rottal, 'nimmt 'ein,}\n\n~~durchgestrichen~~ {eingefügt: 'in 'nichts 'ist, 'aber 'dann 'ein 'Bei 'allem 'er 'ist}\n\n~~durchgestrichen~~ {eingefügt: 'Gedanken 'wisse 'ein 'die 'kann. 'Da 'ist 'es 'best.}\n\n~~durchgestrichen~~ {eingefügt: 'Jener 'jener 'Rottal 'wusste 'da 'ist, 'und}\n\n~~durchgestrichen~~ {eingefügt: 'Schlaf. 'er 'regt. 'Einen 'Arzt 'jetzt 'sehe, 'Absch 'auf}\n\n~~durchgestrichen~~ {eingefügt: 'dass 'die 'Kontrolle: 'hat 'fait 'die 'da, 'dass}\n\n~~durchgestrichen~~ {eingefügt: 'über 'die 'Firma 'Fälle 'für 'die 'Sachen. 'Fehler}\n\n~~durchgestrichen~~ {eingefügt: 'Glück}\n\n~~durchgestrichen~~ {eingefügt: 'Später: 'Bisher 'allein 'graue 'Welt. 'Da 'sie}\n\n~~durchgestrichen~~ {eingefügt: 'gegen 'jene 'reden. 'Auch 'gesehen: 'Leicht. 'Nun}\n\n~~durchgestrichen~~ {eingefügt: 'wir 'kann. 'Persönlich, 'ist 'ganz 'neue. 'Herr}\n\n~~durchgestrichen~~ {eingefügt: 'Gele, 'danken 'dem, 'schnelle 'Nacht 'schafft 'Betten}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 76,
+        "transcription": "Achim, 'jener 'Prozess 'der 'verbergen 'hat 'die 'wollte 'geh.\n\n~~durchgestrichen~~ {eingefügt: 'Beethoven 'lebte 'er, 'Einhalt 'zu 'Adelaide, 'drei}\n\n~~durchgestrichen~~ {eingefügt: 'zu 'Ballade, 'Scarlatti.}\n\n~~durchgestrichen~~ {eingefügt: 'Begann, 'kleine 'Mann, 'in 'ein 'Bad. 'Nun 'sie}\n\n~~durchgestrichen~~ {eingefügt: 'Kasten 'aus 'ausgelegt 'war 'gesehen 'schon 'kann 'in 'der}\n\n~~durchgestrichen~~ {eingefügt: 'gehabt. 'Beethoven 'erklärte '1800 'Mal. 'Hole, 'Lote}\n\n~~durchgestrichen~~ {eingefügt: '1700... 'Schilling 'in 'mich, 'eine 'alte 'Karte, 'Übersch.}\n\n~~durchgestrichen~~ {eingefügt: 'Abend 'kam, '3500 'auf. 'Angelegt 'wird, 'Tanz, 'den}\n\n~~durchgestrichen~~ {eingefügt: 'mit 'auch 'Marke, 'eine 'Richtung, 'Anfang.}\n\n~~durchgestrichen~~ {eingefügt: 'hin '12 'Uhr 'hinter 'dem 'Lager. 'Will 'er 'erzählt}\n\n~~durchgestrichen~~ {eingefügt: 'der 'Artikel 'darauf, 'als 'er 'Belle 'wolle 'war, 'ein}\n\n~~durchgestrichen~~ {eingefügt: 'Gerne 'in 'Platz, 'begegnet, 'Jahres. 'Sich 'der}\n\n~~durchgestrichen~~ {eingefügt: 'herzlich 'Morgen, 'nicht 'will. 'Sieg. 'Brauchen 'Zeit}\n\n~~durchgestrichen~~ {eingefügt: 'still. 'Sprach 'in, '14000, '18000. 'Kürsch 'hier, 'die}\n\n~~durchgestrichen~~ {eingefügt: 'elektrische 'Uhr 'in, 'Kartenbild, 'Pausen 'wollte. 'Gegen}\n\n~~durchgestrichen~~ {eingefügt: 'min 'Tag. 'Bis '28000, 'Minuten.}\n\n~~durchgestrichen~~ {eingefügt: 'Hatte 'auf 'eine 'Brille, 'frei 'wenn, 'und}\n\n~~durchgestrichen~~ {eingefügt: 'in 'den 'großen 'Schule 'in 'Gedanken'}\n\n~~durchgestrichen~~ {eingefügt: 'Gedanken? 'wollte 'ich 'dasselbe 'war}\n\n~~durchgestrichen~~ {eingefügt: 'Ja? 'Nein. 'Nein, 'kann 'will 'ich. 'in 'ein 'sein}\n\n~~durchgestrichen~~ {eingefügt: 'Mittag 'in, 'in 'ein 'die 'sein}\n\n~~durchgestrichen~~ {eingefügt: 'und 'wirken, 'Mu, 'ihnen 'ja 'von 'Mika. 'Mehr.}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 77,
+        "transcription": "~~durchgestrichen~~ {eingefügt: 'wollte 'ich, 'hoffen 'sie 'mich 'gerne.}\n\n~~durchgestrichen~~ {eingefügt: 'Bach, 'Beethoven 'misslang, 'hatte 'Perlmann 'sein}\n\n~~durchgestrichen~~ {eingefügt: 'aus 'alles, 'alles 'wollte, 'hab 'mir 'den 'Besuch, 'aber}\n\n~~durchgestrichen~~ {eingefügt: 'Halt. 'Traben 'ich 'wie 'Ball, 'hübschen, 'kaufen, 'bei}\n\n~~durchgestrichen~~ {eingefügt: 'ken 'in 'wollte, 'machte, 'immer 'in 'der 'Leere.}\n\n~~durchgestrichen~~ {eingefügt: 'Hat 'er, 'der 'von}\n\n~~durchgestrichen~~ {eingefügt: 'Graben. 'Kleine 'M, 'in 'künstigen 'alter 'Gleichheit}\n\n~~durchgestrichen~~ {eingefügt: 'zu 'play 'Gitarre 'in 'verstehe 'ihm 'die 'Pah 'in 'der 'Lehr}\n\n~~durchgestrichen~~ {eingefügt: 'heute 'es 'sehr 'mit 'in 'ihm, 'Fragen 'durch}\n\n~~durchgestrichen~~ {eingefügt: 'Braun, 'Hasse, 'in 'haben 'einen 'stella, 'Jovelli}\n\n~~durchgestrichen~~ {eingefügt: 'Mozart, 'der 'Clarecon 'con. 'Sie 'die 'Märchen}\n\n~~durchgestrichen~~ {eingefügt: 'Sammlung, 'herausgegeben}\n\n~~durchgestrichen~~ {eingefügt: 'eine 'Spannung, 'der 'dass 'in 'ihm}\n\n~~durchgestrichen~~ {eingefügt: 'fuhren 'den 'Takt 'in 'Fremdheit}\n\n~~durchgestrichen~~ {eingefügt: 'in 'der 'Stille. 'Eben 'sie 'nicht 'mehr,}\n\n~~durchgestrichen~~ {eingefügt: 'da 'war 'im 'Stille. 'Eben 'sie 'nicht 'mehr,}\n\n~~durchgestrichen~~ {eingefügt: 'Man 'ein 'ganze 'Zeit 'in 'der 'Hand 'der 'Brief}\n\n~~durchgestrichen~~ {eingefügt: 'kleiner 'Brief 'Brief 'in 'der 'Hand 'der 'Brief}\n\n~~durchgestrichen~~ {eingefügt: 'Nicht 'einen, 'weshalb? 'Noch 'will 'ich 'ein}\n\n~~durchgestrichen~~ {eingefügt: 'Brief 'an, 'dann, 'ein 'Brief 'war 'die 'ganz 'gestellt. 'Die}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 78,
+        "transcription": "~~durchgestrichen~~ {eingefügt: 'Kleine 'feiern, 'der 'Tag 'in 'der 'Stadt, 'all}\n\n~~durchgestrichen~~ {eingefügt: 'Claret. 'In 'der, 'auf 'der 'Geboten 'da 'war 'gelang 'es}\n\n~~durchgestrichen~~ {eingefügt: 'Hände 'Bordent, 'drei 'Kerzen 'fanden, 'so 'sie 'ab. 'Spiel}\n\n~~durchgestrichen~~ {eingefügt: 'an, 'einfach 'hoben 'Tage 'erlaubt. 'Drauf 'heft,}\n\n~~durchgestrichen~~ {eingefügt: 'Hemden 'gegen, 'Tische 'Bordent, 'klaren 'Tage 'nun}\n\n~~durchgestrichen~~ {eingefügt: 'alle 'verstanden, 'kleine 'Menschen 'gleich 'waren}\n\n~~durchgestrichen~~ {eingefügt: 'O 'Rade 'in 'Unrat. 'Stachel,}\n\n~~durchgestrichen~~ {eingefügt: 'gelang 'er 'nur 'zu, 'nicht 'oft, 'Besuchen}\n\n~~durchgestrichen~~ {eingefügt: 'bei '27 'einmal 'an 'abgesehen, 'Preise 'in 'Büchern}\n\n~~durchgestrichen~~ {eingefügt: 'ausgelegt. 'Frech 'in '1200 'Mark '4000. 'Tipp}\n\n~~durchgestrichen~~ {eingefügt: 'nicht 'verstanden, 'ein 'Bewegt 'auf 'dem 'Takt}\n\n~~durchgestrichen~~ {eingefügt: 'beiden 'verstanden, 'Beamten, 'Schrank. 'Ebenfalls}\n\n~~durchgestrichen~~ {eingefügt: 'Mittel 'gefasst 'waren. 'Nichts. 'Es 'fragen, 'Sicherung}\n\n~~durchgestrichen~~ {eingefügt: 'mit 'Wunsch, 'herauf 'in}\n\n~~durchgestrichen~~ {eingefügt: 'einfach 'fromme 'Bücher 'Musik. 'Der 'war}\n\n~~durchgestrichen~~ {eingefügt: 'Erbe 'erst 'Munt 'ende. 'Park 'Maus 'in. 'Hiff 'die}\n\n~~durchgestrichen~~ {eingefügt: 'Ersten 'Jahren, 'Autor 'seit 'Jahren 'wird, 'Sparen, 'bei}\n\n~~durchgestrichen~~ {eingefügt: 'an 'Auftrag 'in 'ganzen '14000 'Mark 'mir 'befreit,}\n\n~~durchgestrichen~~ {eingefügt: 'war 'von 'früher 'gefunden. 'Hier 'war, 'ein 'Erwartung}\n\n~~durchgestrichen~~ {eingefügt: 'hefte, 'Bizet, 'Telemann, 'Firmen, 'Posten 'an, 'auf}\n\n~~durchgestrichen~~ {eingefügt: 'traf 'in}\n\n~~durchgestrichen~~ {eingefügt: 'Nach 'Berlin, 'drei 'Jahren. 'Einmal 'schon. 'Die}\n\n~~durchgestrichen~~ {eingefügt: 'können 'erfahren 'auch, 'geheimnis. 'Hell 'ihr 'kannte}\n\n~~durchgestrichen~~ {eingefügt: 'in, 'Notiz 'in 'demselb. 'Papier 'steht 'unlesbar 'sie}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 79,
+        "transcription": "Etwas 'in 'waffen, 'kleine 'Schauung\n\n~~durchgestrichen~~ {eingefügt: 'Noch 'eine 'Fackel 'will 'das}\n\n~~durchgestrichen~~ {eingefügt: 'reine 'Feuer,}\n\n~~durchgestrichen~~ {eingefügt: 'Rinden, 'Gemüter,}\n\n~~durchgestrichen~~ {eingefügt: 'O 'Ehr 'abgeschlossen.}\n\n~~durchgestrichen~~ {eingefügt: 'Grund 'in 'verschieden. 'Papier 'ein}\n\n~~durchgestrichen~~ {eingefügt: 'in 'in 'entstehen, 'das 'unverstellbar.}\n\n~~durchgestrichen~~ {eingefügt: 'In 'diesen 'drei 'Jahren 'kam 'unter 'geraden}\n\n~~durchgestrichen~~ {eingefügt: 'Mittelpunkt 'der 'Welt. 'Abgestorben 'gemacht. 'Beide}\n\n~~durchgestrichen~~ {eingefügt: 'einfach 'nicht 'in 'jeder 'nicht, 'brauchen 'unsere}\n\n~~durchgestrichen~~ {eingefügt: 'jene 'Welt. 'Alle 'in 'sich 'an 'ge 'schaffen 'Kataloge, 'Schrift}\n\n~~durchgestrichen~~ {eingefügt: 'Feiertage.}\n\n~~durchgestrichen~~ {eingefügt: 'weit 'verborgen 'gestalte, 'in 'der 'Schrank 'heraus}\n\n~~durchgestrichen~~ {eingefügt: 'Freut 'an 'andere 'in 'sehen, 'brüder 'aus 'einer 'hell}\n\n~~durchgestrichen~~ {eingefügt: 'suchen 'in, 'von 'vater 'mit 'Brief 'es}\n\n~~durchgestrichen~~ {eingefügt: 'jeder 'gelernt, 'kennen 'lernen, 'verlangen}\n\n~~durchgestrichen~~ {eingefügt: 'bald, 'sich 'abgeschlossen 'dem 'Brief 'Brief}\n\n~~durchgestrichen~~ {eingefügt: 'die 'Entwurf 'schön.}\n\n~~durchgestrichen~~ {eingefügt: 'Silber 'Pergament 'in 'der 'Bücher 'in 'der 'Bücher 'in}\n\n~~durchgestrichen~~ {eingefügt: 'kleine 'Briefe, 'in 'Bücher, 'oder 'gut}\n\n~~durchgestrichen~~ {eingefügt: 'in 'der 'Bibliothek.}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 80,
+        "transcription": "~~durchgestrichen~~ {eingefügt: 'kaum 'verfügbar, 'erhalten 'haben 'in}\n\n~~durchgestrichen~~ {eingefügt: 'Raffen, 'früh 'in 'mühten, 'Leute, 'Herausgeber}\n\n~~durchgestrichen~~ {eingefügt: 'in 'Peters 'in 'Breitkopf, 'Namen 'kennen 'sich}\n\n~~durchgestrichen~~ {eingefügt: 'sehen 'haben, 'Bestellte 'Kataloge, 'ihrer}\n\n~~durchgestrichen~~ {eingefügt: 'den 'Kasten 'einer 'tiefen 'hatte 'war, 'aber}\n\n~~durchgestrichen~~ {eingefügt: 'andere, 'Manche 'Briefe 'haben 'an: 'aber}\n\n~~durchgestrichen~~ {eingefügt: 'lebt 'man, 'Nur 'Zeit 'war 'nun 'uns 'ein}\n\n~~durchgestrichen~~ {eingefügt: 'in 'Fremd, 'Im 'Sein 'Haus, 'dann 'hatte 'Jahr '2 'Rollen. 'In}\n\n~~durchgestrichen~~ {eingefügt: 'denkt 'daran, 'in 'Jahre '1927/28 '2 'Rollen. 'In}\n\n~~durchgestrichen~~ {eingefügt: 'wenn 'sie '7 'Sätze, 'sollen. 'Fischer 'sah 'er}\n\n~~durchgestrichen~~ {eingefügt: 'in 'Fremd 'ab, 'immer 'dann 'gern, 'schon}\n\n~~durchgestrichen~~ {eingefügt: 'jene 'Sammlung, 'Abendreise, 'kann 'in 'Japan,}\n\n~~durchgestrichen~~ {eingefügt: 'ein 'Kapital.}\n\n~~durchgestrichen~~ {eingefügt: 'dort, 'die 'Sache, 'Aber 'bei 'was 'ja, 'es}\n\n~~durchgestrichen~~ {eingefügt: 'neue 'Zeitung, 'verfolgt. 'Leidenschaft, 'allen}\n\n~~durchgestrichen~~ {eingefügt: 'Katalog, 'er 'verführt, 'in 'eine 'Welt 'gerade}\n\n~~durchgestrichen~~ {eingefügt: 'gewünscht. 'Blutbild. 'Absch, 'Frau, 'er-}\n\n~~durchgestrichen~~ {eingefügt: 'war 'sein. 'Einen 'Leichten 'Verkehr.}\n\n~~durchgestrichen~~ {eingefügt: 'Creme 'die 'machte, 'Blätter, 'Schon 'lange 'da. 'Und}\n\n~~durchgestrichen~~ {eingefügt: 'ein 'Test!}\n\n~~durchgestrichen~~ {eingefügt: 'trank 'nach 'ein 'Porträt. 'Sollte 'die}",
+        "notes": "Handschrift, violette Tinte. Sehr dicht beschrieben, viele Durchstreichungen.",
+        "type": "content"
+      },
+      {
+        "page": 81,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 82,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 83,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 84,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 85,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 86,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 87,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 88,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 89,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 90,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 91,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 92,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 93,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 94,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 95,
+        "transcription": "",
+        "notes": "Chunk-Fehler: Sub-Chunk fehlgeschlagen.",
+        "type": "blank"
+      },
+      {
+        "page": 96,
+        "transcription": "",
+        "notes": "Leere Seite, liniert, Spiralbindung am rechten Rand.",
+        "type": "blank"
+      },
+      {
+        "page": 97,
+        "transcription": "",
+        "notes": "Vorderseite des Notizbuchumschlags, grün, mit Stempelaufdruck '1208' und einem runden Firmenstempel.",
+        "type": "blank"
+      },
+      {
+        "page": 98,
+        "transcription": "",
+        "notes": "Rückseite des Notizbuchumschlags, grün, Spiralbindung am linken Rand.",
+        "type": "blank"
+      },
+      {
+        "page": 99,
+        "transcription": "Totentage\nLäßt anthanfen 314, 315\n317\nvoir aus dem Temple geliebt „a mon\ngrand ami” maudis en l'envoyant que\nla personne a qui elle appartient sent que\njamais elle a été plus vrai “\nDevise „Tutto a te mi guida”\nzwischen Tor, Jammer, zwei heikle Seiten\n\nIhre Tochter sieht 1796 zittern vor\nwie eine.\n\nDepression, schöne Worte, 361\n/ Todestag 16 Ce jour est un jour de\ndevotion pour moi 366",
+        "notes": "Handschriftliche Notizen in violetter Tinte. Links befindet sich eine Farbskala/Grauskala für Archivierungszwecke.",
+        "type": "color_chart"
+      }
+    ],
+    "confidence": "medium",
+    "confidence_notes": "S.61-80: Der Text ist aufgrund der schnellen Handschrift, der vielen Durchstreichungen und der Überlagerungen (durchscheinende Tinte) teilweise schwer zu entziffern. Viele Stellen sind nur fragmentarisch lesbar."
+  },
+  "quality_signals": {
+    "version": "1.5",
+    "total_chars": 50798,
+    "total_words": 6885,
+    "total_pages": 52,
+    "empty_pages": 46,
+    "blank_pages": 46,
+    "color_chart_pages": 1,
+    "content_pages": 52,
+    "input_images": 99,
+    "page_types": [
+      "blank",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "content",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "content",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "blank",
+      "color_chart"
+    ],
+    "chars_per_page": [
+      0,
+      0,
+      607,
+      0,
+      395,
+      0,
+      709,
+      0,
+      215,
+      393,
+      1103,
+      852,
+      1287,
+      649,
+      1055,
+      681,
+      1046,
+      0,
+      1073,
+      369,
+      0,
+      488,
+      168,
+      990,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      692,
+      1165,
+      652,
+      1023,
+      637,
+      724,
+      82,
+      901,
+      29,
+      1053,
+      422,
+      958,
+      968,
+      769,
+      804,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      533,
+      909,
+      510,
+      1366,
+      1151,
+      1615,
+      1197,
+      1774,
+      1402,
+      1557,
+      642,
+      2120,
+      700,
+      1943,
+      1479,
+      1805,
+      1621,
+      1994,
+      1504,
+      1629,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      388
+    ],
+    "chars_per_page_median": 933.5,
+    "marker_uncertain_count": 385,
+    "marker_illegible_count": 0,
+    "marker_density": 0.0559,
+    "duplicate_page_pairs": [],
+    "language_expected": "de",
+    "language_detected": "de",
+    "language_match": true,
+    "page_length_anomalies": [
+      36,
+      38
+    ],
+    "needs_review": true,
+    "needs_review_reasons": [
+      "page_length_anomaly"
+    ]
+  }
+}

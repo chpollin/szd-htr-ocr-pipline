@@ -1,0 +1,1143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mets:mets xmlns:dv="http://dfg-viewer.de/" xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <mets:dmdSec ID="DMD.1">
+    <mets:mdWrap MDTYPE="MODS" MIMETYPE="text/xml">
+      <mets:xmlData>
+        <mods:mods>
+          <mods:titleInfo>
+            <mods:title>Notebook war 1940</mods:title>
+            <mods:note type="signature">SZ-AAP/L9</mods:note>
+          </mods:titleInfo>
+          <mods:name type="personal">
+            <mods:displayForm>Stefan Zweig</mods:displayForm>
+            <mods:role>
+              <mods:roleTerm type="text">author</mods:roleTerm>
+            </mods:role>
+            <mods:nameIdentifier type="gnd">http://d-nb.info/gnd/118637479</mods:nameIdentifier>
+          </mods:name>
+          <mods:language>
+            <mods:languageTerm type="text">Deutsch</mods:languageTerm>
+            <mods:languageTerm authority="iso639-1" type="code">de</mods:languageTerm>
+          </mods:language>
+          <mods:originInfo>
+            <mods:dateCreated>1940</mods:dateCreated>
+          </mods:originInfo>
+          <mods:genre>Notizbuch</mods:genre>
+          <mods:subject>
+            <mods:topic>Tagebücher</mods:topic>
+          </mods:subject>
+          <mods:physicalDescription>
+            <mods:extent>75 Blatt,
+                            26 Blatt beschrieben</mods:extent>
+            <mods:extent>16x11 cm</mods:extent>
+            <mods:note type="writing_instrument">Violette und blaue Tinte</mods:note>
+            <mods:note type="writing_material">Liniertes Papier</mods:note>
+            <mods:note type="script">Stefan Zweig</mods:note>
+          </mods:physicalDescription>
+          <mods:location>
+            <mods:physicalLocation authority="gnd" valueURI="http://d-nb.info/gnd/1047605287">Literaturarchiv Salzburg</mods:physicalLocation>
+            <mods:shelfLocator>SZ-AAP/L9</mods:shelfLocator>
+          </mods:location>
+          <mods:identifier type="urn">info:fedora/o:szd.75</mods:identifier>
+          <mods:note type="provenance">Archiv Atrium Press</mods:note>
+          <mods:note type="provenance">Erwerb: Ankauf Christie's London 2014</mods:note>
+          <mods:accessCondition>CC-BY</mods:accessCondition>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="AMD.1">
+    <mets:rightsMD ID="RMD.1">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVRIGHTS">
+        <mets:xmlData>
+          <dv:rights>
+            <dv:owner>CC-BY</dv:owner>
+          </dv:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="PMD.1">
+      <mets:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="DVLINKS">
+        <mets:xmlData>
+          <dv:links>
+            <dv:reference />
+            <dv:presentation />
+          </dv:links>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="DEFAULT">
+      <mets:file ID="IMG.1" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.1" />
+      </mets:file>
+      <mets:file ID="IMG.2" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.2" />
+      </mets:file>
+      <mets:file ID="IMG.3" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.3" />
+      </mets:file>
+      <mets:file ID="IMG.4" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.4" />
+      </mets:file>
+      <mets:file ID="IMG.5" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.5" />
+      </mets:file>
+      <mets:file ID="IMG.6" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.6" />
+      </mets:file>
+      <mets:file ID="IMG.7" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.7" />
+      </mets:file>
+      <mets:file ID="IMG.8" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.8" />
+      </mets:file>
+      <mets:file ID="IMG.9" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.9" />
+      </mets:file>
+      <mets:file ID="IMG.10" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.10" />
+      </mets:file>
+      <mets:file ID="IMG.11" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.11" />
+      </mets:file>
+      <mets:file ID="IMG.12" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.12" />
+      </mets:file>
+      <mets:file ID="IMG.13" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.13" />
+      </mets:file>
+      <mets:file ID="IMG.14" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.14" />
+      </mets:file>
+      <mets:file ID="IMG.15" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.15" />
+      </mets:file>
+      <mets:file ID="IMG.16" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.16" />
+      </mets:file>
+      <mets:file ID="IMG.17" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.17" />
+      </mets:file>
+      <mets:file ID="IMG.18" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.18" />
+      </mets:file>
+      <mets:file ID="IMG.19" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.19" />
+      </mets:file>
+      <mets:file ID="IMG.20" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.20" />
+      </mets:file>
+      <mets:file ID="IMG.21" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.21" />
+      </mets:file>
+      <mets:file ID="IMG.22" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.22" />
+      </mets:file>
+      <mets:file ID="IMG.23" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.23" />
+      </mets:file>
+      <mets:file ID="IMG.24" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.24" />
+      </mets:file>
+      <mets:file ID="IMG.25" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.25" />
+      </mets:file>
+      <mets:file ID="IMG.26" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.26" />
+      </mets:file>
+      <mets:file ID="IMG.27" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.27" />
+      </mets:file>
+      <mets:file ID="IMG.28" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.28" />
+      </mets:file>
+      <mets:file ID="IMG.29" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.29" />
+      </mets:file>
+      <mets:file ID="IMG.30" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.30" />
+      </mets:file>
+      <mets:file ID="IMG.31" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.31" />
+      </mets:file>
+      <mets:file ID="IMG.32" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.32" />
+      </mets:file>
+      <mets:file ID="IMG.33" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.33" />
+      </mets:file>
+      <mets:file ID="IMG.34" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.34" />
+      </mets:file>
+      <mets:file ID="IMG.35" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.35" />
+      </mets:file>
+      <mets:file ID="IMG.36" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.36" />
+      </mets:file>
+      <mets:file ID="IMG.37" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.37" />
+      </mets:file>
+      <mets:file ID="IMG.38" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.38" />
+      </mets:file>
+      <mets:file ID="IMG.39" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.39" />
+      </mets:file>
+      <mets:file ID="IMG.40" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.40" />
+      </mets:file>
+      <mets:file ID="IMG.41" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.41" />
+      </mets:file>
+      <mets:file ID="IMG.42" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.42" />
+      </mets:file>
+      <mets:file ID="IMG.43" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.43" />
+      </mets:file>
+      <mets:file ID="IMG.44" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.44" />
+      </mets:file>
+      <mets:file ID="IMG.45" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.45" />
+      </mets:file>
+      <mets:file ID="IMG.46" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.46" />
+      </mets:file>
+      <mets:file ID="IMG.47" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.47" />
+      </mets:file>
+      <mets:file ID="IMG.48" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.48" />
+      </mets:file>
+      <mets:file ID="IMG.49" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.49" />
+      </mets:file>
+      <mets:file ID="IMG.50" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.50" />
+      </mets:file>
+      <mets:file ID="IMG.51" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.51" />
+      </mets:file>
+      <mets:file ID="IMG.52" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.52" />
+      </mets:file>
+      <mets:file ID="IMG.53" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.53" />
+      </mets:file>
+      <mets:file ID="IMG.54" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.54" />
+      </mets:file>
+      <mets:file ID="IMG.55" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.55" />
+      </mets:file>
+      <mets:file ID="IMG.56" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.56" />
+      </mets:file>
+      <mets:file ID="IMG.57" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.57" />
+      </mets:file>
+      <mets:file ID="IMG.58" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.58" />
+      </mets:file>
+      <mets:file ID="IMG.59" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.59" />
+      </mets:file>
+      <mets:file ID="IMG.60" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.60" />
+      </mets:file>
+      <mets:file ID="IMG.61" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.61" />
+      </mets:file>
+      <mets:file ID="IMG.62" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.62" />
+      </mets:file>
+      <mets:file ID="IMG.63" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.63" />
+      </mets:file>
+      <mets:file ID="IMG.64" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.64" />
+      </mets:file>
+      <mets:file ID="IMG.65" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.65" />
+      </mets:file>
+      <mets:file ID="IMG.66" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.66" />
+      </mets:file>
+      <mets:file ID="IMG.67" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.67" />
+      </mets:file>
+      <mets:file ID="IMG.68" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.68" />
+      </mets:file>
+      <mets:file ID="IMG.69" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.69" />
+      </mets:file>
+      <mets:file ID="IMG.70" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.70" />
+      </mets:file>
+      <mets:file ID="IMG.71" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.71" />
+      </mets:file>
+      <mets:file ID="IMG.72" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.72" />
+      </mets:file>
+      <mets:file ID="IMG.73" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.73" />
+      </mets:file>
+      <mets:file ID="IMG.74" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.74" />
+      </mets:file>
+      <mets:file ID="IMG.75" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.75" />
+      </mets:file>
+      <mets:file ID="IMG.76" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.76" />
+      </mets:file>
+      <mets:file ID="IMG.77" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.77" />
+      </mets:file>
+      <mets:file ID="IMG.78" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.78" />
+      </mets:file>
+      <mets:file ID="IMG.79" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.79" />
+      </mets:file>
+      <mets:file ID="IMG.80" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.80" />
+      </mets:file>
+      <mets:file ID="IMG.81" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.81" />
+      </mets:file>
+      <mets:file ID="IMG.82" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.82" />
+      </mets:file>
+      <mets:file ID="IMG.83" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.83" />
+      </mets:file>
+      <mets:file ID="IMG.84" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.84" />
+      </mets:file>
+      <mets:file ID="IMG.85" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.85" />
+      </mets:file>
+      <mets:file ID="IMG.86" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.86" />
+      </mets:file>
+      <mets:file ID="IMG.87" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.87" />
+      </mets:file>
+      <mets:file ID="IMG.88" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.88" />
+      </mets:file>
+      <mets:file ID="IMG.89" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.89" />
+      </mets:file>
+      <mets:file ID="IMG.90" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.90" />
+      </mets:file>
+      <mets:file ID="IMG.91" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.91" />
+      </mets:file>
+      <mets:file ID="IMG.92" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.92" />
+      </mets:file>
+      <mets:file ID="IMG.93" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.93" />
+      </mets:file>
+      <mets:file ID="IMG.94" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.94" />
+      </mets:file>
+      <mets:file ID="IMG.95" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.95" />
+      </mets:file>
+      <mets:file ID="IMG.96" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.96" />
+      </mets:file>
+      <mets:file ID="IMG.97" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.97" />
+      </mets:file>
+      <mets:file ID="IMG.98" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.98" />
+      </mets:file>
+      <mets:file ID="IMG.99" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.99" />
+      </mets:file>
+      <mets:file ID="IMG.100" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.100" />
+      </mets:file>
+      <mets:file ID="IMG.101" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.101" />
+      </mets:file>
+      <mets:file ID="IMG.102" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.102" />
+      </mets:file>
+      <mets:file ID="IMG.103" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.103" />
+      </mets:file>
+      <mets:file ID="IMG.104" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.104" />
+      </mets:file>
+      <mets:file ID="IMG.105" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.105" />
+      </mets:file>
+      <mets:file ID="IMG.106" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.106" />
+      </mets:file>
+      <mets:file ID="IMG.107" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.107" />
+      </mets:file>
+      <mets:file ID="IMG.108" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.108" />
+      </mets:file>
+      <mets:file ID="IMG.109" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.109" />
+      </mets:file>
+      <mets:file ID="IMG.110" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.110" />
+      </mets:file>
+      <mets:file ID="IMG.111" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.111" />
+      </mets:file>
+      <mets:file ID="IMG.112" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.112" />
+      </mets:file>
+      <mets:file ID="IMG.113" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.113" />
+      </mets:file>
+      <mets:file ID="IMG.114" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.114" />
+      </mets:file>
+      <mets:file ID="IMG.115" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.115" />
+      </mets:file>
+      <mets:file ID="IMG.116" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.116" />
+      </mets:file>
+      <mets:file ID="IMG.117" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.117" />
+      </mets:file>
+      <mets:file ID="IMG.118" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.118" />
+      </mets:file>
+      <mets:file ID="IMG.119" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.119" />
+      </mets:file>
+      <mets:file ID="IMG.120" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.120" />
+      </mets:file>
+      <mets:file ID="IMG.121" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.121" />
+      </mets:file>
+      <mets:file ID="IMG.122" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.122" />
+      </mets:file>
+      <mets:file ID="IMG.123" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.123" />
+      </mets:file>
+      <mets:file ID="IMG.124" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.124" />
+      </mets:file>
+      <mets:file ID="IMG.125" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.125" />
+      </mets:file>
+      <mets:file ID="IMG.126" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.126" />
+      </mets:file>
+      <mets:file ID="IMG.127" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.127" />
+      </mets:file>
+      <mets:file ID="IMG.128" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.128" />
+      </mets:file>
+      <mets:file ID="IMG.129" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.129" />
+      </mets:file>
+      <mets:file ID="IMG.130" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.130" />
+      </mets:file>
+      <mets:file ID="IMG.131" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.131" />
+      </mets:file>
+      <mets:file ID="IMG.132" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.132" />
+      </mets:file>
+      <mets:file ID="IMG.133" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.133" />
+      </mets:file>
+      <mets:file ID="IMG.134" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.134" />
+      </mets:file>
+      <mets:file ID="IMG.135" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.135" />
+      </mets:file>
+      <mets:file ID="IMG.136" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.136" />
+      </mets:file>
+      <mets:file ID="IMG.137" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.137" />
+      </mets:file>
+      <mets:file ID="IMG.138" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.138" />
+      </mets:file>
+      <mets:file ID="IMG.139" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.139" />
+      </mets:file>
+      <mets:file ID="IMG.140" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.140" />
+      </mets:file>
+      <mets:file ID="IMG.141" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.141" />
+      </mets:file>
+      <mets:file ID="IMG.142" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.142" />
+      </mets:file>
+      <mets:file ID="IMG.143" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.143" />
+      </mets:file>
+      <mets:file ID="IMG.144" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.144" />
+      </mets:file>
+      <mets:file ID="IMG.145" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.145" />
+      </mets:file>
+      <mets:file ID="IMG.146" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.146" />
+      </mets:file>
+      <mets:file ID="IMG.147" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.147" />
+      </mets:file>
+      <mets:file ID="IMG.148" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.148" />
+      </mets:file>
+      <mets:file ID="IMG.149" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.149" />
+      </mets:file>
+      <mets:file ID="IMG.150" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.150" />
+      </mets:file>
+      <mets:file ID="IMG.151" MIMETYPE="image/jpeg">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://gams.uni-graz.at/o:szd.75/IMG.151" />
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="PHYSICAL">
+    <mets:div ID="PHY.1" TYPE="physSequence">
+      <mets:div ID="DIV.1" ORDER="1" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.1">
+        <mets:fptr FILEID="IMG.1" />
+      </mets:div>
+      <mets:div ID="DIV.2" ORDER="2" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.2">
+        <mets:fptr FILEID="IMG.2" />
+      </mets:div>
+      <mets:div ID="DIV.3" ORDER="3" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.3">
+        <mets:fptr FILEID="IMG.3" />
+      </mets:div>
+      <mets:div ID="DIV.4" ORDER="4" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.4">
+        <mets:fptr FILEID="IMG.4" />
+      </mets:div>
+      <mets:div ID="DIV.5" ORDER="5" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.5">
+        <mets:fptr FILEID="IMG.5" />
+      </mets:div>
+      <mets:div ID="DIV.6" ORDER="6" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.6">
+        <mets:fptr FILEID="IMG.6" />
+      </mets:div>
+      <mets:div ID="DIV.7" ORDER="7" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.7">
+        <mets:fptr FILEID="IMG.7" />
+      </mets:div>
+      <mets:div ID="DIV.8" ORDER="8" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.8">
+        <mets:fptr FILEID="IMG.8" />
+      </mets:div>
+      <mets:div ID="DIV.9" ORDER="9" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.9">
+        <mets:fptr FILEID="IMG.9" />
+      </mets:div>
+      <mets:div ID="DIV.10" ORDER="10" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.10">
+        <mets:fptr FILEID="IMG.10" />
+      </mets:div>
+      <mets:div ID="DIV.11" ORDER="11" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.11">
+        <mets:fptr FILEID="IMG.11" />
+      </mets:div>
+      <mets:div ID="DIV.12" ORDER="12" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.12">
+        <mets:fptr FILEID="IMG.12" />
+      </mets:div>
+      <mets:div ID="DIV.13" ORDER="13" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.13">
+        <mets:fptr FILEID="IMG.13" />
+      </mets:div>
+      <mets:div ID="DIV.14" ORDER="14" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.14">
+        <mets:fptr FILEID="IMG.14" />
+      </mets:div>
+      <mets:div ID="DIV.15" ORDER="15" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.15">
+        <mets:fptr FILEID="IMG.15" />
+      </mets:div>
+      <mets:div ID="DIV.16" ORDER="16" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.16">
+        <mets:fptr FILEID="IMG.16" />
+      </mets:div>
+      <mets:div ID="DIV.17" ORDER="17" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.17">
+        <mets:fptr FILEID="IMG.17" />
+      </mets:div>
+      <mets:div ID="DIV.18" ORDER="18" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.18">
+        <mets:fptr FILEID="IMG.18" />
+      </mets:div>
+      <mets:div ID="DIV.19" ORDER="19" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.19">
+        <mets:fptr FILEID="IMG.19" />
+      </mets:div>
+      <mets:div ID="DIV.20" ORDER="20" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.20">
+        <mets:fptr FILEID="IMG.20" />
+      </mets:div>
+      <mets:div ID="DIV.21" ORDER="21" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.21">
+        <mets:fptr FILEID="IMG.21" />
+      </mets:div>
+      <mets:div ID="DIV.22" ORDER="22" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.22">
+        <mets:fptr FILEID="IMG.22" />
+      </mets:div>
+      <mets:div ID="DIV.23" ORDER="23" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.23">
+        <mets:fptr FILEID="IMG.23" />
+      </mets:div>
+      <mets:div ID="DIV.24" ORDER="24" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.24">
+        <mets:fptr FILEID="IMG.24" />
+      </mets:div>
+      <mets:div ID="DIV.25" ORDER="25" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.25">
+        <mets:fptr FILEID="IMG.25" />
+      </mets:div>
+      <mets:div ID="DIV.26" ORDER="26" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.26">
+        <mets:fptr FILEID="IMG.26" />
+      </mets:div>
+      <mets:div ID="DIV.27" ORDER="27" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.27">
+        <mets:fptr FILEID="IMG.27" />
+      </mets:div>
+      <mets:div ID="DIV.28" ORDER="28" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.28">
+        <mets:fptr FILEID="IMG.28" />
+      </mets:div>
+      <mets:div ID="DIV.29" ORDER="29" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.29">
+        <mets:fptr FILEID="IMG.29" />
+      </mets:div>
+      <mets:div ID="DIV.30" ORDER="30" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.30">
+        <mets:fptr FILEID="IMG.30" />
+      </mets:div>
+      <mets:div ID="DIV.31" ORDER="31" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.31">
+        <mets:fptr FILEID="IMG.31" />
+      </mets:div>
+      <mets:div ID="DIV.32" ORDER="32" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.32">
+        <mets:fptr FILEID="IMG.32" />
+      </mets:div>
+      <mets:div ID="DIV.33" ORDER="33" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.33">
+        <mets:fptr FILEID="IMG.33" />
+      </mets:div>
+      <mets:div ID="DIV.34" ORDER="34" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.34">
+        <mets:fptr FILEID="IMG.34" />
+      </mets:div>
+      <mets:div ID="DIV.35" ORDER="35" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.35">
+        <mets:fptr FILEID="IMG.35" />
+      </mets:div>
+      <mets:div ID="DIV.36" ORDER="36" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.36">
+        <mets:fptr FILEID="IMG.36" />
+      </mets:div>
+      <mets:div ID="DIV.37" ORDER="37" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.37">
+        <mets:fptr FILEID="IMG.37" />
+      </mets:div>
+      <mets:div ID="DIV.38" ORDER="38" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.38">
+        <mets:fptr FILEID="IMG.38" />
+      </mets:div>
+      <mets:div ID="DIV.39" ORDER="39" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.39">
+        <mets:fptr FILEID="IMG.39" />
+      </mets:div>
+      <mets:div ID="DIV.40" ORDER="40" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.40">
+        <mets:fptr FILEID="IMG.40" />
+      </mets:div>
+      <mets:div ID="DIV.41" ORDER="41" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.41">
+        <mets:fptr FILEID="IMG.41" />
+      </mets:div>
+      <mets:div ID="DIV.42" ORDER="42" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.42">
+        <mets:fptr FILEID="IMG.42" />
+      </mets:div>
+      <mets:div ID="DIV.43" ORDER="43" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.43">
+        <mets:fptr FILEID="IMG.43" />
+      </mets:div>
+      <mets:div ID="DIV.44" ORDER="44" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.44">
+        <mets:fptr FILEID="IMG.44" />
+      </mets:div>
+      <mets:div ID="DIV.45" ORDER="45" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.45">
+        <mets:fptr FILEID="IMG.45" />
+      </mets:div>
+      <mets:div ID="DIV.46" ORDER="46" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.46">
+        <mets:fptr FILEID="IMG.46" />
+      </mets:div>
+      <mets:div ID="DIV.47" ORDER="47" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.47">
+        <mets:fptr FILEID="IMG.47" />
+      </mets:div>
+      <mets:div ID="DIV.48" ORDER="48" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.48">
+        <mets:fptr FILEID="IMG.48" />
+      </mets:div>
+      <mets:div ID="DIV.49" ORDER="49" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.49">
+        <mets:fptr FILEID="IMG.49" />
+      </mets:div>
+      <mets:div ID="DIV.50" ORDER="50" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.50">
+        <mets:fptr FILEID="IMG.50" />
+      </mets:div>
+      <mets:div ID="DIV.51" ORDER="51" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.51">
+        <mets:fptr FILEID="IMG.51" />
+      </mets:div>
+      <mets:div ID="DIV.52" ORDER="52" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.52">
+        <mets:fptr FILEID="IMG.52" />
+      </mets:div>
+      <mets:div ID="DIV.53" ORDER="53" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.53">
+        <mets:fptr FILEID="IMG.53" />
+      </mets:div>
+      <mets:div ID="DIV.54" ORDER="54" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.54">
+        <mets:fptr FILEID="IMG.54" />
+      </mets:div>
+      <mets:div ID="DIV.55" ORDER="55" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.55">
+        <mets:fptr FILEID="IMG.55" />
+      </mets:div>
+      <mets:div ID="DIV.56" ORDER="56" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.56">
+        <mets:fptr FILEID="IMG.56" />
+      </mets:div>
+      <mets:div ID="DIV.57" ORDER="57" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.57">
+        <mets:fptr FILEID="IMG.57" />
+      </mets:div>
+      <mets:div ID="DIV.58" ORDER="58" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.58">
+        <mets:fptr FILEID="IMG.58" />
+      </mets:div>
+      <mets:div ID="DIV.59" ORDER="59" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.59">
+        <mets:fptr FILEID="IMG.59" />
+      </mets:div>
+      <mets:div ID="DIV.60" ORDER="60" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.60">
+        <mets:fptr FILEID="IMG.60" />
+      </mets:div>
+      <mets:div ID="DIV.61" ORDER="61" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.61">
+        <mets:fptr FILEID="IMG.61" />
+      </mets:div>
+      <mets:div ID="DIV.62" ORDER="62" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.62">
+        <mets:fptr FILEID="IMG.62" />
+      </mets:div>
+      <mets:div ID="DIV.63" ORDER="63" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.63">
+        <mets:fptr FILEID="IMG.63" />
+      </mets:div>
+      <mets:div ID="DIV.64" ORDER="64" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.64">
+        <mets:fptr FILEID="IMG.64" />
+      </mets:div>
+      <mets:div ID="DIV.65" ORDER="65" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.65">
+        <mets:fptr FILEID="IMG.65" />
+      </mets:div>
+      <mets:div ID="DIV.66" ORDER="66" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.66">
+        <mets:fptr FILEID="IMG.66" />
+      </mets:div>
+      <mets:div ID="DIV.67" ORDER="67" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.67">
+        <mets:fptr FILEID="IMG.67" />
+      </mets:div>
+      <mets:div ID="DIV.68" ORDER="68" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.68">
+        <mets:fptr FILEID="IMG.68" />
+      </mets:div>
+      <mets:div ID="DIV.69" ORDER="69" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.69">
+        <mets:fptr FILEID="IMG.69" />
+      </mets:div>
+      <mets:div ID="DIV.70" ORDER="70" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.70">
+        <mets:fptr FILEID="IMG.70" />
+      </mets:div>
+      <mets:div ID="DIV.71" ORDER="71" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.71">
+        <mets:fptr FILEID="IMG.71" />
+      </mets:div>
+      <mets:div ID="DIV.72" ORDER="72" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.72">
+        <mets:fptr FILEID="IMG.72" />
+      </mets:div>
+      <mets:div ID="DIV.73" ORDER="73" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.73">
+        <mets:fptr FILEID="IMG.73" />
+      </mets:div>
+      <mets:div ID="DIV.74" ORDER="74" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.74">
+        <mets:fptr FILEID="IMG.74" />
+      </mets:div>
+      <mets:div ID="DIV.75" ORDER="75" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.75">
+        <mets:fptr FILEID="IMG.75" />
+      </mets:div>
+      <mets:div ID="DIV.76" ORDER="76" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.76">
+        <mets:fptr FILEID="IMG.76" />
+      </mets:div>
+      <mets:div ID="DIV.77" ORDER="77" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.77">
+        <mets:fptr FILEID="IMG.77" />
+      </mets:div>
+      <mets:div ID="DIV.78" ORDER="78" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.78">
+        <mets:fptr FILEID="IMG.78" />
+      </mets:div>
+      <mets:div ID="DIV.79" ORDER="79" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.79">
+        <mets:fptr FILEID="IMG.79" />
+      </mets:div>
+      <mets:div ID="DIV.80" ORDER="80" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.80">
+        <mets:fptr FILEID="IMG.80" />
+      </mets:div>
+      <mets:div ID="DIV.81" ORDER="81" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.81">
+        <mets:fptr FILEID="IMG.81" />
+      </mets:div>
+      <mets:div ID="DIV.82" ORDER="82" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.82">
+        <mets:fptr FILEID="IMG.82" />
+      </mets:div>
+      <mets:div ID="DIV.83" ORDER="83" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.83">
+        <mets:fptr FILEID="IMG.83" />
+      </mets:div>
+      <mets:div ID="DIV.84" ORDER="84" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.84">
+        <mets:fptr FILEID="IMG.84" />
+      </mets:div>
+      <mets:div ID="DIV.85" ORDER="85" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.85">
+        <mets:fptr FILEID="IMG.85" />
+      </mets:div>
+      <mets:div ID="DIV.86" ORDER="86" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.86">
+        <mets:fptr FILEID="IMG.86" />
+      </mets:div>
+      <mets:div ID="DIV.87" ORDER="87" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.87">
+        <mets:fptr FILEID="IMG.87" />
+      </mets:div>
+      <mets:div ID="DIV.88" ORDER="88" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.88">
+        <mets:fptr FILEID="IMG.88" />
+      </mets:div>
+      <mets:div ID="DIV.89" ORDER="89" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.89">
+        <mets:fptr FILEID="IMG.89" />
+      </mets:div>
+      <mets:div ID="DIV.90" ORDER="90" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.90">
+        <mets:fptr FILEID="IMG.90" />
+      </mets:div>
+      <mets:div ID="DIV.91" ORDER="91" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.91">
+        <mets:fptr FILEID="IMG.91" />
+      </mets:div>
+      <mets:div ID="DIV.92" ORDER="92" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.92">
+        <mets:fptr FILEID="IMG.92" />
+      </mets:div>
+      <mets:div ID="DIV.93" ORDER="93" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.93">
+        <mets:fptr FILEID="IMG.93" />
+      </mets:div>
+      <mets:div ID="DIV.94" ORDER="94" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.94">
+        <mets:fptr FILEID="IMG.94" />
+      </mets:div>
+      <mets:div ID="DIV.95" ORDER="95" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.95">
+        <mets:fptr FILEID="IMG.95" />
+      </mets:div>
+      <mets:div ID="DIV.96" ORDER="96" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.96">
+        <mets:fptr FILEID="IMG.96" />
+      </mets:div>
+      <mets:div ID="DIV.97" ORDER="97" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.97">
+        <mets:fptr FILEID="IMG.97" />
+      </mets:div>
+      <mets:div ID="DIV.98" ORDER="98" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.98">
+        <mets:fptr FILEID="IMG.98" />
+      </mets:div>
+      <mets:div ID="DIV.99" ORDER="99" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.99">
+        <mets:fptr FILEID="IMG.99" />
+      </mets:div>
+      <mets:div ID="DIV.100" ORDER="100" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.100">
+        <mets:fptr FILEID="IMG.100" />
+      </mets:div>
+      <mets:div ID="DIV.101" ORDER="101" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.101">
+        <mets:fptr FILEID="IMG.101" />
+      </mets:div>
+      <mets:div ID="DIV.102" ORDER="102" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.102">
+        <mets:fptr FILEID="IMG.102" />
+      </mets:div>
+      <mets:div ID="DIV.103" ORDER="103" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.103">
+        <mets:fptr FILEID="IMG.103" />
+      </mets:div>
+      <mets:div ID="DIV.104" ORDER="104" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.104">
+        <mets:fptr FILEID="IMG.104" />
+      </mets:div>
+      <mets:div ID="DIV.105" ORDER="105" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.105">
+        <mets:fptr FILEID="IMG.105" />
+      </mets:div>
+      <mets:div ID="DIV.106" ORDER="106" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.106">
+        <mets:fptr FILEID="IMG.106" />
+      </mets:div>
+      <mets:div ID="DIV.107" ORDER="107" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.107">
+        <mets:fptr FILEID="IMG.107" />
+      </mets:div>
+      <mets:div ID="DIV.108" ORDER="108" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.108">
+        <mets:fptr FILEID="IMG.108" />
+      </mets:div>
+      <mets:div ID="DIV.109" ORDER="109" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.109">
+        <mets:fptr FILEID="IMG.109" />
+      </mets:div>
+      <mets:div ID="DIV.110" ORDER="110" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.110">
+        <mets:fptr FILEID="IMG.110" />
+      </mets:div>
+      <mets:div ID="DIV.111" ORDER="111" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.111">
+        <mets:fptr FILEID="IMG.111" />
+      </mets:div>
+      <mets:div ID="DIV.112" ORDER="112" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.112">
+        <mets:fptr FILEID="IMG.112" />
+      </mets:div>
+      <mets:div ID="DIV.113" ORDER="113" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.113">
+        <mets:fptr FILEID="IMG.113" />
+      </mets:div>
+      <mets:div ID="DIV.114" ORDER="114" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.114">
+        <mets:fptr FILEID="IMG.114" />
+      </mets:div>
+      <mets:div ID="DIV.115" ORDER="115" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.115">
+        <mets:fptr FILEID="IMG.115" />
+      </mets:div>
+      <mets:div ID="DIV.116" ORDER="116" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.116">
+        <mets:fptr FILEID="IMG.116" />
+      </mets:div>
+      <mets:div ID="DIV.117" ORDER="117" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.117">
+        <mets:fptr FILEID="IMG.117" />
+      </mets:div>
+      <mets:div ID="DIV.118" ORDER="118" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.118">
+        <mets:fptr FILEID="IMG.118" />
+      </mets:div>
+      <mets:div ID="DIV.119" ORDER="119" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.119">
+        <mets:fptr FILEID="IMG.119" />
+      </mets:div>
+      <mets:div ID="DIV.120" ORDER="120" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.120">
+        <mets:fptr FILEID="IMG.120" />
+      </mets:div>
+      <mets:div ID="DIV.121" ORDER="121" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.121">
+        <mets:fptr FILEID="IMG.121" />
+      </mets:div>
+      <mets:div ID="DIV.122" ORDER="122" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.122">
+        <mets:fptr FILEID="IMG.122" />
+      </mets:div>
+      <mets:div ID="DIV.123" ORDER="123" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.123">
+        <mets:fptr FILEID="IMG.123" />
+      </mets:div>
+      <mets:div ID="DIV.124" ORDER="124" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.124">
+        <mets:fptr FILEID="IMG.124" />
+      </mets:div>
+      <mets:div ID="DIV.125" ORDER="125" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.125">
+        <mets:fptr FILEID="IMG.125" />
+      </mets:div>
+      <mets:div ID="DIV.126" ORDER="126" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.126">
+        <mets:fptr FILEID="IMG.126" />
+      </mets:div>
+      <mets:div ID="DIV.127" ORDER="127" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.127">
+        <mets:fptr FILEID="IMG.127" />
+      </mets:div>
+      <mets:div ID="DIV.128" ORDER="128" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.128">
+        <mets:fptr FILEID="IMG.128" />
+      </mets:div>
+      <mets:div ID="DIV.129" ORDER="129" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.129">
+        <mets:fptr FILEID="IMG.129" />
+      </mets:div>
+      <mets:div ID="DIV.130" ORDER="130" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.130">
+        <mets:fptr FILEID="IMG.130" />
+      </mets:div>
+      <mets:div ID="DIV.131" ORDER="131" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.131">
+        <mets:fptr FILEID="IMG.131" />
+      </mets:div>
+      <mets:div ID="DIV.132" ORDER="132" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.132">
+        <mets:fptr FILEID="IMG.132" />
+      </mets:div>
+      <mets:div ID="DIV.133" ORDER="133" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.133">
+        <mets:fptr FILEID="IMG.133" />
+      </mets:div>
+      <mets:div ID="DIV.134" ORDER="134" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.134">
+        <mets:fptr FILEID="IMG.134" />
+      </mets:div>
+      <mets:div ID="DIV.135" ORDER="135" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.135">
+        <mets:fptr FILEID="IMG.135" />
+      </mets:div>
+      <mets:div ID="DIV.136" ORDER="136" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.136">
+        <mets:fptr FILEID="IMG.136" />
+      </mets:div>
+      <mets:div ID="DIV.137" ORDER="137" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.137">
+        <mets:fptr FILEID="IMG.137" />
+      </mets:div>
+      <mets:div ID="DIV.138" ORDER="138" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.138">
+        <mets:fptr FILEID="IMG.138" />
+      </mets:div>
+      <mets:div ID="DIV.139" ORDER="139" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.139">
+        <mets:fptr FILEID="IMG.139" />
+      </mets:div>
+      <mets:div ID="DIV.140" ORDER="140" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.140">
+        <mets:fptr FILEID="IMG.140" />
+      </mets:div>
+      <mets:div ID="DIV.141" ORDER="141" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.141">
+        <mets:fptr FILEID="IMG.141" />
+      </mets:div>
+      <mets:div ID="DIV.142" ORDER="142" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.142">
+        <mets:fptr FILEID="IMG.142" />
+      </mets:div>
+      <mets:div ID="DIV.143" ORDER="143" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.143">
+        <mets:fptr FILEID="IMG.143" />
+      </mets:div>
+      <mets:div ID="DIV.144" ORDER="144" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.144">
+        <mets:fptr FILEID="IMG.144" />
+      </mets:div>
+      <mets:div ID="DIV.145" ORDER="145" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.145">
+        <mets:fptr FILEID="IMG.145" />
+      </mets:div>
+      <mets:div ID="DIV.146" ORDER="146" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.146">
+        <mets:fptr FILEID="IMG.146" />
+      </mets:div>
+      <mets:div ID="DIV.147" ORDER="147" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.147">
+        <mets:fptr FILEID="IMG.147" />
+      </mets:div>
+      <mets:div ID="DIV.148" ORDER="148" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.148">
+        <mets:fptr FILEID="IMG.148" />
+      </mets:div>
+      <mets:div ID="DIV.149" ORDER="149" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.149">
+        <mets:fptr FILEID="IMG.149" />
+      </mets:div>
+      <mets:div ID="DIV.150" ORDER="150" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.150">
+        <mets:fptr FILEID="IMG.150" />
+      </mets:div>
+      <mets:div ID="DIV.151" ORDER="151" TYPE="page" CONTENTIDS="http://gams.uni-graz.at/o:szd.75/IMG.151">
+        <mets:fptr FILEID="IMG.151" />
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div ADMID="AMD.1" DMDID="DMD.1" ID="LOG.1" TYPE="monograph">
+      <mets:div ID="U.1" TYPE="Textseiten" />
+      <mets:div ID="U.2" TYPE="Farbreferenz/Schluss" />
+    </mets:div>
+  </mets:structMap>
+  <mets:structLink>
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.1" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.2" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.3" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.4" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.5" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.6" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.7" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.8" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.9" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.10" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.11" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.12" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.13" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.14" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.15" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.16" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.17" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.18" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.19" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.20" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.21" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.22" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.23" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.24" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.25" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.26" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.27" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.28" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.29" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.30" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.31" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.32" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.33" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.34" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.35" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.36" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.37" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.38" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.39" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.40" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.41" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.42" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.43" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.44" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.45" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.46" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.47" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.48" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.49" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.50" />
+    <mets:smLink xlink:from="U.1" xlink:to="DIV.51" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.52" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.53" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.54" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.55" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.56" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.57" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.58" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.59" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.60" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.61" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.62" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.63" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.64" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.65" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.66" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.67" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.68" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.69" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.70" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.71" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.72" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.73" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.74" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.75" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.76" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.77" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.78" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.79" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.80" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.81" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.82" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.83" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.84" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.85" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.86" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.87" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.88" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.89" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.90" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.91" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.92" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.93" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.94" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.95" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.96" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.97" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.98" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.99" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.100" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.101" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.102" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.103" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.104" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.105" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.106" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.107" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.108" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.109" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.110" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.111" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.112" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.113" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.114" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.115" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.116" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.117" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.118" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.119" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.120" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.121" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.122" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.123" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.124" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.125" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.126" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.127" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.128" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.129" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.130" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.131" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.132" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.133" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.134" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.135" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.136" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.137" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.138" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.139" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.140" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.141" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.142" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.143" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.144" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.145" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.146" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.147" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.148" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.149" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.150" />
+    <mets:smLink xlink:from="U.2" xlink:to="DIV.151" />
+  </mets:structLink>
+</mets:mets>
