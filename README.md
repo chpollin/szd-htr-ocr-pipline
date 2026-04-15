@@ -80,7 +80,25 @@ python pipeline/serve.py              # serves at http://localhost:8000
 python pipeline/serve.py --port 5501  # alternative port
 ```
 
-Opening `http://localhost:8000` shows a green **Editorial Workspace** banner above the header. Edits made in this mode are written directly to the pipeline JSONs in `results/{collection}/`, not to browser `localStorage`. The same URL opened on GitHub Pages has no banner and no edit controls.
+Opening `http://localhost:8000` shows a terminal-style **Editorial Workspace** banner above the header (`szd@editorial:~/results $`) and an additional **Editorial Workspace** dashboard above the catalogue. Both are hidden on GitHub Pages. Edits made in this mode are written directly to the pipeline JSONs in `results/{collection}/`, not to browser `localStorage`.
+
+### Editorial Workspace dashboard (local only)
+
+Three cells above the catalogue make the Git-based workflow visible:
+
+- **Recent Activity** — last 5 commits touching `results/`, fetched live from the GitHub API. Shows who reviewed what and when. Click a row to open the commit on GitHub.
+- **Uncommitted** — number of modified files under `results/`. Turns amber when edits are pending, green when the working tree is clean. Backed by `GET /api/git-status`.
+- **Quick Actions** — copy-to-clipboard commands for the standard loop: commit edits, rebuild viewer data, export METS/MODS, pull latest.
+
+### Project Transparency panel (public and local)
+
+Below the catalogue statistics, three cards make the paper's methodological claims verifiable:
+
+- **Promptotyping Vault** — enumerates the Markdown documents in `knowledge/` (data overview, annotation protocol, verification concept, evaluation results, interchange format, architecture, journal, etc.) with in-app links.
+- **Research Journal** — last 3 session headlines parsed from `knowledge/journal.md`. The session log *is* the audit trail.
+- **Exports & Artefacts** — links to `results/`, to the METS/MODS + PAGE-XML architecture document, and to the Page-JSON v0.2 format specification.
+
+This panel is intentionally visible on both the public Pages deployment and locally, so reviewers can trace paper claims without cloning the repository.
 
 ### Review workflow
 
@@ -112,11 +130,12 @@ The **Curation Progress** bar on the catalog page renders these five states as a
 
 ### API endpoints (local only)
 
-`pipeline/serve.py` exposes three endpoints that the frontend calls automatically when `location.hostname` is `localhost` or `127.0.0.1`:
+`pipeline/serve.py` exposes four endpoints that the frontend calls automatically when `location.hostname` is `localhost` or `127.0.0.1`:
 
 - `POST /api/edit` — save edited transcription for a page, sets `reviewStatus=approved`
 - `POST /api/approve` — mark object as reviewed (`approved`, `agent_verified`, or `gt_verified`)
 - `GET  /api/status` — frontend probe; absent on GitHub Pages, so edit buttons stay hidden
+- `GET  /api/git-status` — count and filenames of uncommitted changes under `results/`, powers the Uncommitted indicator
 
 Edits on the public site fall back to `localStorage` (single browser, not persistent across machines). The architectural point: the same UI, the same code base, the same URL — only the presence of a server switches the role from proto-edition to editorial workspace.
 
