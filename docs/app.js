@@ -661,11 +661,13 @@ function renderStats() {
     perCol[o.collection] = (perCol[o.collection] || 0) + 1;
     const g = o.classification || o.groupLabel || '?';
     perGroup[g] = (perGroup[g] || 0) + 1;
-    if (o.needsReview) reviewCount++;
+    // Mutually-exclusive tier assignment, identical to renderReviewCell priority.
+    // Ensures Chips and Curation Progress use the same numbers.
     if (o.gtVerified) verifiedCount++;
-    if (o.reviewStatus === 'approved') approvedCount++;
-    if (o.reviewStatus === 'agent_verified') agentCount++;
-    if (o.needsReview === false && !o.gtVerified && o.reviewStatus !== 'approved' && o.reviewStatus !== 'agent_verified') llmOkCount++;
+    else if (o.reviewStatus === 'approved') approvedCount++;
+    else if (o.reviewStatus === 'agent_verified') agentCount++;
+    else if (o.needsReview === true) reviewCount++;
+    else if (o.needsReview === false) llmOkCount++;
     if (o.confidence) confDist[o.confidence] = (confDist[o.confidence] || 0) + 1;
     totalPages += o.pageCount || 0;
     totalContentPages += o.contentPages || 0;
@@ -750,15 +752,12 @@ function renderStats() {
     consItems = `<span class="catalog__stats-bar-item"><strong>${consensusCount}</strong> / ${total} mit Modellkonsensus</span>${cats}`;
   }
 
-  // Curation Progress (Vogeler ring movement: auto → expert verified)
-  // Order = outer ring → inner ring. Mutually exclusive by priority:
-  // verified > approved > agent > flagged > unreviewed. Same order as renderReviewCell.
-  const unreviewedCount = llmOkCount;
-  const higherTiers = verifiedCount + approvedCount + agentCount + unreviewedCount;
-  const flaggedCount = Math.max(0, total - higherTiers);
+  // Curation Progress: outer ring → inner ring.
+  // Counts come from the aggregation loop above, which is mutually-exclusive
+  // by the same priority as renderReviewCell (verified > approved > agent > flagged > unreviewed).
   const segments = [
-    { key: 'unreviewed', count: unreviewedCount, label: 'Ungepr\u00fcft',   cls: 'curation-seg--unreviewed', tip: 'Pipeline-Selbsteinsch\u00e4tzung, kein Qualit\u00e4tssignal ausgel\u00f6st, kein Review' },
-    { key: 'flagged',    count: flaggedCount,    label: 'Review n\u00f6tig', cls: 'curation-seg--flagged',    tip: 'Mindestens ein Qualit\u00e4tssignal hat ausgel\u00f6st (siehe Tooltip am Objekt)' },
+    { key: 'unreviewed', count: llmOkCount,    label: 'Ungepr\u00fcft',   cls: 'curation-seg--unreviewed', tip: 'Pipeline-Selbsteinsch\u00e4tzung, kein Qualit\u00e4tssignal ausgel\u00f6st, kein Review' },
+    { key: 'flagged',    count: reviewCount,   label: 'Review n\u00f6tig', cls: 'curation-seg--flagged',    tip: 'Mindestens ein Qualit\u00e4tssignal hat ausgel\u00f6st (siehe Tooltip am Objekt)' },
     { key: 'agent',      count: agentCount,      label: 'Auto-gepr\u00fcft', cls: 'curation-seg--agent',      tip: 'Claude-Vision-Agent hat Bild und Transkript Seite f\u00fcr Seite verglichen' },
     { key: 'approved',   count: approvedCount,   label: 'Gepr\u00fcft',      cls: 'curation-seg--approved',   tip: 'Expert-Review im Editorial Workspace abgeschlossen' },
     { key: 'verified',   count: verifiedCount,   label: 'Verifiziert',       cls: 'curation-seg--verified',   tip: 'Ground-Truth-Standard: jede Seite zeichengenau verifiziert' }
@@ -785,9 +784,8 @@ function renderStats() {
     <div class="catalog__stats-curation">
       <div class="catalog__stats-curation-head">
         <span class="catalog__stats-section-label">Editorial Progress</span>
-        <span class="catalog__stats-curation-subtitle">From machine transcription toward expert verification (Vogeler 2025)</span>
       </div>
-      <div class="curation-bar" role="img" aria-label="Editorial Progress: ${unreviewedCount} ungepr\u00fcft, ${flaggedCount} Review n\u00f6tig, ${agentCount} auto-gepr\u00fcft, ${approvedCount} gepr\u00fcft, ${verifiedCount} verifiziert">${curationBarSegments}</div>
+      <div class="curation-bar" role="img" aria-label="Editorial Progress: ${llmOkCount} ungepr\u00fcft, ${reviewCount} Review n\u00f6tig, ${agentCount} auto-gepr\u00fcft, ${approvedCount} gepr\u00fcft, ${verifiedCount} verifiziert">${curationBarSegments}</div>
       <div class="curation-legend">${curationLegend}</div>
     </div>` : '';
 
