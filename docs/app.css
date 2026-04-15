@@ -481,6 +481,16 @@ body.view-stats #help { display: none; }
   margin-bottom: 0.25rem;
 }
 
+.catalog__stats-section-label .info-mark {
+  opacity: 0.55;
+  font-size: 0.9em;
+  margin-left: 0.2em;
+  cursor: help;
+}
+
+.catalog__stats-section-label[data-tooltip] { cursor: help; }
+.catalog__stats-section-label[data-tooltip]:hover .info-mark { opacity: 1; }
+
 .catalog__stats-bar {
   display: flex;
   gap: 0.5rem 1rem;

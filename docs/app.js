@@ -815,7 +815,7 @@ function renderStats() {
         <div class="catalog__stats-bar">${reviewItems}${dwrItem ? ` ${dwrItem}` : ''}</div>
       </div>` : ''}
       ${consItems ? `<div class="catalog__stats-section">
-        <div class="catalog__stats-section-label">Modellkonsensus (Cross-Model)</div>
+        <div class="catalog__stats-section-label" data-tooltip="Zwei VLMs (Gemini Flash Lite + Flash) transkribieren dasselbe Objekt unabh\u00e4ngig voneinander. Die \u00dcbereinstimmung wird als CER zwischen den beiden Ergebnissen gemessen und als Kategorie (Verifiziert &lt; 3 %, Moderat &lt; 10 %, Abweichung, Divergent) abgelegt. Indikator f\u00fcr VLM-Stabilit\u00e4t, kein menschliches Review.">Modellkonsensus (Cross-Model) <span class="info-mark" aria-hidden="true">\u24d8</span></div>
         <div class="catalog__stats-bar">${consItems}</div>
       </div>` : ''}
     </div>`;
