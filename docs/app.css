@@ -806,6 +806,94 @@ body.view-stats #help { display: none; }
   color: var(--sz-review-auto);
 }
 
+/* ===== Curation Progress (Editorial ring movement) ===== */
+.catalog__stats-curation {
+  padding: 0.1rem 0 0.7rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--sz-border-light);
+}
+
+.catalog__stats-curation-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.catalog__stats-curation-subtitle {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: var(--sz-text-light);
+  letter-spacing: 0.01em;
+}
+
+.curation-bar {
+  display: flex;
+  height: 10px;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  background: var(--sz-border-light);
+  border: 1px solid var(--sz-border);
+}
+
+.curation-seg {
+  display: block;
+  transition: filter 0.15s ease;
+  cursor: help;
+  min-width: 2px;
+}
+
+.curation-seg:hover { filter: brightness(0.92); }
+
+.curation-seg--unreviewed { background: var(--sz-review-unchecked); opacity: 0.55; }
+.curation-seg--flagged    { background: var(--sz-review-flagged); }
+.curation-seg--agent      { background: var(--sz-review-auto); }
+.curation-seg--approved   { background: var(--sz-review-approved); }
+.curation-seg--verified   { background: var(--sz-review-verified); }
+
+.curation-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.72rem;
+  color: var(--sz-text-light);
+}
+
+.curation-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: help;
+  font-variant-numeric: tabular-nums;
+}
+
+.curation-legend-swatch {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.curation-legend-item strong {
+  color: var(--sz-text);
+  font-weight: 600;
+}
+
+.curation-legend-label {
+  color: var(--sz-text-light);
+}
+
+.curation-legend-pct {
+  color: var(--sz-text-light);
+  font-size: 0.68rem;
+  opacity: 0.75;
+}
+
 /* Page anomaly marker */
 .viewer__page-anomaly {
   color: var(--sz-burgundy);

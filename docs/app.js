@@ -750,7 +750,48 @@ function renderStats() {
     consItems = `<span class="catalog__stats-bar-item"><strong>${consensusCount}</strong> / ${total} mit Modellkonsensus</span>${cats}`;
   }
 
-  el.innerHTML = `
+  // Curation Progress (Vogeler ring movement: auto → expert verified)
+  // Order = outer ring → inner ring. Mutually exclusive by priority:
+  // verified > approved > agent > flagged > unreviewed. Same order as renderReviewCell.
+  const unreviewedCount = llmOkCount;
+  const higherTiers = verifiedCount + approvedCount + agentCount + unreviewedCount;
+  const flaggedCount = Math.max(0, total - higherTiers);
+  const segments = [
+    { key: 'unreviewed', count: unreviewedCount, label: 'Ungepr\u00fcft',   cls: 'curation-seg--unreviewed', tip: 'Pipeline-Selbsteinsch\u00e4tzung, kein Qualit\u00e4tssignal ausgel\u00f6st, kein Review' },
+    { key: 'flagged',    count: flaggedCount,    label: 'Review n\u00f6tig', cls: 'curation-seg--flagged',    tip: 'Mindestens ein Qualit\u00e4tssignal hat ausgel\u00f6st (siehe Tooltip am Objekt)' },
+    { key: 'agent',      count: agentCount,      label: 'Auto-gepr\u00fcft', cls: 'curation-seg--agent',      tip: 'Claude-Vision-Agent hat Bild und Transkript Seite f\u00fcr Seite verglichen' },
+    { key: 'approved',   count: approvedCount,   label: 'Gepr\u00fcft',      cls: 'curation-seg--approved',   tip: 'Expert-Review im Editorial Workspace abgeschlossen' },
+    { key: 'verified',   count: verifiedCount,   label: 'Verifiziert',       cls: 'curation-seg--verified',   tip: 'Ground-Truth-Standard: jede Seite zeichengenau verifiziert' }
+  ];
+  const curTotal = segments.reduce((s, x) => s + x.count, 0);
+  const curationBarSegments = curTotal > 0
+    ? segments.map(s => s.count > 0
+        ? `<span class="curation-seg ${s.cls}" style="flex:${s.count}" data-tooltip="${escapeHtml(s.label)}: ${s.count} (${Math.round(s.count / curTotal * 100)}%) — ${escapeHtml(s.tip)}"></span>`
+        : ''
+      ).join('')
+    : '';
+  const curationLegend = curTotal > 0
+    ? segments.map(s => {
+        const pct = Math.round(s.count / curTotal * 100);
+        return `<span class="curation-legend-item" data-tooltip="${escapeHtml(s.tip)}">
+          <span class="curation-legend-swatch ${s.cls}"></span>
+          <strong>${s.count}</strong>
+          <span class="curation-legend-label">${s.label}</span>
+          <span class="curation-legend-pct">${pct}\u202F%</span>
+        </span>`;
+      }).join('')
+    : '';
+  const curationBlock = state.hasReviewData && curTotal > 0 ? `
+    <div class="catalog__stats-curation">
+      <div class="catalog__stats-curation-head">
+        <span class="catalog__stats-section-label">Editorial Progress</span>
+        <span class="catalog__stats-curation-subtitle">From machine transcription toward expert verification (Vogeler 2025)</span>
+      </div>
+      <div class="curation-bar" role="img" aria-label="Editorial Progress: ${unreviewedCount} ungepr\u00fcft, ${flaggedCount} Review n\u00f6tig, ${agentCount} auto-gepr\u00fcft, ${approvedCount} gepr\u00fcft, ${verifiedCount} verifiziert">${curationBarSegments}</div>
+      <div class="curation-legend">${curationLegend}</div>
+    </div>` : '';
+
+  el.innerHTML = `${curationBlock}
     <div class="catalog__stats-summary">
       <span class="catalog__stats-total">${total} Objekte</span>
       <div class="catalog__stats-chips">${colChips}${verifiedChip}${approvedChip}${agentChip}${llmOkChip}${reviewChip}${consensusChip}</div>
