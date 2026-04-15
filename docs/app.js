@@ -789,10 +789,12 @@ function renderStats() {
       <div class="curation-legend">${curationLegend}</div>
     </div>` : '';
 
+  // Summary: only Total + collection chips. Review states live in Editorial Progress
+  // above; Modellkonsensus in Details below. Avoid duplication.
   el.innerHTML = `${curationBlock}
     <div class="catalog__stats-summary">
       <span class="catalog__stats-total">${total} Objekte</span>
-      <div class="catalog__stats-chips">${colChips}${verifiedChip}${approvedChip}${agentChip}${llmOkChip}${reviewChip}${consensusChip}</div>
+      <div class="catalog__stats-chips">${colChips}</div>
       <button type="button" class="catalog__stats-toggle" id="statsToggle" aria-expanded="false">Details &#9662;</button>
     </div>
     <div class="catalog__stats-details" id="statsDetails">
