@@ -169,35 +169,12 @@ a:hover { color: var(--sz-burgundy-dark); }
   margin-right: 0.15rem;
 }
 
-.mode-banner__text {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  flex: 1;
-  min-width: 0;
-  flex-wrap: wrap;
-}
-
 .mode-banner__label {
   color: var(--sz-gold-light);
   letter-spacing: 0.12em;
   font-weight: 700;
   font-size: 0.68rem;
-}
-
-.mode-banner__sub {
-  color: #9ca3af;
-  font-size: 0.7rem;
-}
-
-.mode-banner__sub code {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: #fbbf24;                         /* amber for filename */
-  background: rgba(251, 191, 36, 0.08);
-  padding: 0.05rem 0.3rem;
-  border-radius: 2px;
-  border: 1px solid rgba(251, 191, 36, 0.2);
+  flex-shrink: 0;
 }
 
 .mode-banner__endpoint {
@@ -207,6 +184,45 @@ a:hover { color: var(--sz-burgundy-dark); }
   white-space: nowrap;
   padding-left: 0.5rem;
   border-left: 1px solid #1f2937;
+}
+
+.mode-banner__status {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.mode-banner__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 2px;
+  border: 1px solid;
+  white-space: nowrap;
+}
+
+.mode-banner__chip--clean {
+  color: #7dd3a0;
+  border-color: rgba(125, 211, 160, 0.35);
+  background: rgba(125, 211, 160, 0.07);
+}
+
+.mode-banner__chip--dirty {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.4);
+  background: rgba(251, 191, 36, 0.08);
+}
+
+.mode-banner__chip--commit {
+  color: #9ca3af;
+  border-color: rgba(156, 163, 175, 0.25);
+  background: rgba(156, 163, 175, 0.05);
 }
 
 .mode-banner__cursor {
@@ -864,42 +880,99 @@ body.view-stats #help { display: none; }
   color: var(--sz-review-auto);
 }
 
-/* ===== Editorial Workspace Panel (local-only dashboard) ===== */
+/* ===== Editorial Workspace Panel (local-only, collapsed by default) ===== */
 .workspace {
   background: var(--sz-cream);
   border: 1px solid var(--sz-border);
   border-top: 2px solid var(--sz-gold);
   border-radius: 6px;
-  padding: 0.75rem 1rem 0.9rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+  transition: background var(--transition);
 }
 
 .workspace.is-hidden, .workspace[hidden] { display: none; }
 
-.workspace__head {
+/* Collapsed summary bar (always visible when panel is shown) */
+.workspace__summary {
   display: flex;
-  align-items: baseline;
-  gap: 0.75rem;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 0.6rem;
-  padding-bottom: 0.5rem;
+  align-items: center;
+  gap: 0.45rem;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0.35rem 0.85rem;
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  color: var(--sz-text);
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background var(--transition);
+}
+
+.workspace__summary:hover { background: rgba(194, 163, 96, 0.06); }
+
+.workspace.is-collapsed .workspace__summary { border-radius: 6px; }
+.workspace:not(.is-collapsed) .workspace__summary {
+  border-radius: 6px 6px 0 0;
   border-bottom: 1px solid var(--sz-border-light);
 }
 
-.workspace__label {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 700;
-  color: var(--sz-burgundy);
+.workspace__summary-caret {
+  color: var(--sz-gold);
+  font-size: 0.75rem;
+  flex-shrink: 0;
+  width: 0.8rem;
+  display: inline-block;
 }
 
-.workspace__sub {
+.workspace__summary-label {
+  font-family: var(--font-mono);
   font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--sz-burgundy);
+  flex-shrink: 0;
+}
+
+.workspace__summary-sep {
+  color: var(--sz-border);
+  font-weight: 700;
+}
+
+.workspace__summary-uncommitted,
+.workspace__summary-activity,
+.workspace__summary-actions {
   color: var(--sz-text-light);
-  font-style: italic;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.workspace__summary-uncommitted--clean {
+  color: var(--sz-review-approved);
+  font-weight: 600;
+}
+
+.workspace__summary-uncommitted--dirty {
+  color: var(--sz-review-flagged);
+  font-weight: 600;
+}
+
+.workspace__summary-actions {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+/* Expanded body */
+.workspace__body[hidden] { display: none; }
+
+.workspace__body {
+  padding: 0.6rem 1rem 0.75rem;
 }
 
 .workspace__grid {
@@ -1122,15 +1195,59 @@ body.view-stats #help { display: none; }
   .workspace__grid { grid-template-columns: 1fr; }
 }
 
-/* ===== Transparency Panel (paper-claim traceability, public + local) ===== */
+/* ===== Transparency Cards (on #about page) =====
+   Three cards under the rendered README: Promptotyping Vault, Research Journal,
+   Exports & Artefacts. Makes the paper's "audit trail" claim verifiable. */
+.about__transparency {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--sz-border);
+}
+
+.about__transparency-heading {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  color: var(--sz-burgundy);
+  margin-bottom: 0.4rem;
+}
+
+.about__transparency-lede {
+  font-size: 0.9rem;
+  color: var(--sz-text-light);
+  margin-bottom: 1.25rem;
+  max-width: 70ch;
+}
+
 .transparency {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.75rem;
-  margin-bottom: 1.25rem;
+  gap: 1rem;
 }
 
 .transparency.is-hidden { display: none; }
+
+.transparency__card--journal {
+  background: var(--sz-cream);
+  border-color: var(--sz-gold-light);
+}
+
+.transparency__cta {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  background: var(--sz-burgundy);
+  color: var(--sz-white);
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  align-self: flex-start;
+  transition: background var(--transition);
+}
+
+.transparency__cta:hover {
+  background: var(--sz-burgundy-dark);
+}
 
 .transparency__card {
   background: var(--sz-white);

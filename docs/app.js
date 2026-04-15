@@ -124,10 +124,21 @@ function detectLocal() {
   state.isLocal = h === 'localhost' || h === '127.0.0.1' || h === '' || location.protocol === 'file:';
 }
 
-/* ===== Editorial Workspace Panel (local-only dashboard) ===== */
+/* ===== Editorial Workspace Panel (local-only, collapsed by default) =====
+   Collapsed shows a single-line summary (uncommitted count + last commit time +
+   action count). Expanded shows full Recent Activity / Uncommitted / Quick Actions.
+   User preference persisted in localStorage under LS_WORKSPACE_COLLAPSED_KEY. */
 
 const GITHUB_COMMITS_URL =
   'https://api.github.com/repos/chpollin/szd-htr-ocr-pipeline/commits?path=results&per_page=5';
+
+const LS_WORKSPACE_COLLAPSED_KEY = 'szd-htr-workspace-collapsed';
+
+// Cached status for summary-line rendering (also used by Mode-Banner chips).
+const workspaceStatus = {
+  uncommitted: null,   // integer or null if unknown
+  lastCommit: null,    // { iso, sha, author } or null
+};
 
 function relativeTime(iso) {
   const t = new Date(iso).getTime();
@@ -156,6 +167,13 @@ async function fetchRecentCommits() {
       listEl.innerHTML = '<li class="workspace__activity-empty">No commits touching results/ yet.</li>';
       return;
     }
+    // Cache the most recent commit for summary-line + banner-chip reuse.
+    const first = commits[0];
+    workspaceStatus.lastCommit = {
+      iso: first.commit?.author?.date || '',
+      sha: (first.sha || '').slice(0, 7),
+      author: first.commit?.author?.name || 'unknown',
+    };
     listEl.innerHTML = commits.map(c => {
       const msg = ((c.commit && c.commit.message) || '').split('\n')[0];
       const author = (c.commit && c.commit.author && c.commit.author.name) || 'unknown';
@@ -170,6 +188,8 @@ async function fetchRecentCommits() {
         </a>
       </li>`;
     }).join('');
+    updateWorkspaceSummary();
+    updateModeBannerStatus();
   } catch (err) {
     listEl.innerHTML = `<li class="workspace__activity-empty">Could not reach GitHub API (${escapeHtml(err.message || 'offline')}).</li>`;
   }
@@ -185,9 +205,13 @@ async function fetchGitStatus() {
     if (data.error) {
       el.innerHTML = `<div class="workspace__uncommitted-big">\u2014</div>
         <div class="workspace__uncommitted-note">${escapeHtml(data.error)}</div>`;
+      workspaceStatus.uncommitted = null;
+      updateWorkspaceSummary();
+      updateModeBannerStatus();
       return;
     }
     const n = data.modified || 0;
+    workspaceStatus.uncommitted = n;
     const cls = n > 0 ? 'workspace__uncommitted--dirty' : 'workspace__uncommitted--clean';
     const files = (data.files || []).slice(0, 3).map(f => `<code>${escapeHtml(f)}</code>`).join(' ');
     const extra = data.truncated ? ` <span class="workspace__uncommitted-more">+ more</span>` : '';
@@ -200,30 +224,110 @@ async function fetchGitStatus() {
         <div class="workspace__uncommitted-note">file${n === 1 ? '' : 's'} modified under <code>results/</code>${extra}</div>
         <div class="workspace__uncommitted-files">${files}</div>`;
     }
+    updateWorkspaceSummary();
+    updateModeBannerStatus();
   } catch (err) {
     el.innerHTML = `<div class="workspace__uncommitted-big">\u2014</div>
       <div class="workspace__uncommitted-note">Git status unavailable.</div>`;
+    workspaceStatus.uncommitted = null;
+    updateWorkspaceSummary();
+    updateModeBannerStatus();
   }
+}
+
+/* ===== Summary line (collapsed state) + Mode-Banner chips ===== */
+
+function updateWorkspaceSummary() {
+  const sumU = document.getElementById('workspaceSummaryUncommitted');
+  const sumA = document.getElementById('workspaceSummaryActivity');
+  if (sumU) {
+    if (workspaceStatus.uncommitted === null) {
+      sumU.textContent = 'status unavailable';
+      sumU.className = 'workspace__summary-uncommitted';
+    } else if (workspaceStatus.uncommitted === 0) {
+      sumU.textContent = 'working tree clean';
+      sumU.className = 'workspace__summary-uncommitted workspace__summary-uncommitted--clean';
+    } else {
+      const n = workspaceStatus.uncommitted;
+      sumU.textContent = `${n} uncommitted`;
+      sumU.className = 'workspace__summary-uncommitted workspace__summary-uncommitted--dirty';
+    }
+  }
+  if (sumA) {
+    if (workspaceStatus.lastCommit && workspaceStatus.lastCommit.iso) {
+      const when = relativeTime(workspaceStatus.lastCommit.iso);
+      sumA.textContent = `last commit ${when}`;
+    } else {
+      sumA.textContent = 'last commit —';
+    }
+  }
+}
+
+function updateModeBannerStatus() {
+  const el = document.getElementById('modeBannerStatus');
+  if (!el) return;
+  const chips = [];
+  if (workspaceStatus.uncommitted === 0) {
+    chips.push('<span class="mode-banner__chip mode-banner__chip--clean">● clean</span>');
+  } else if (workspaceStatus.uncommitted > 0) {
+    chips.push(`<span class="mode-banner__chip mode-banner__chip--dirty">● ${workspaceStatus.uncommitted} dirty</span>`);
+  }
+  if (workspaceStatus.lastCommit && workspaceStatus.lastCommit.iso) {
+    const when = escapeHtml(relativeTime(workspaceStatus.lastCommit.iso));
+    const sha = escapeHtml(workspaceStatus.lastCommit.sha || '');
+    chips.push(`<span class="mode-banner__chip mode-banner__chip--commit">↻ ${when} · ${sha}</span>`);
+  }
+  el.innerHTML = chips.join('');
+}
+
+function toggleWorkspaceCollapse(force) {
+  const panel = document.getElementById('workspacePanel');
+  const body = document.getElementById('workspaceBody');
+  const btn = document.getElementById('workspaceSummaryBtn');
+  const caret = panel && panel.querySelector('.workspace__summary-caret');
+  if (!panel || !body || !btn) return;
+  const collapsed = typeof force === 'boolean' ? force : !panel.classList.contains('is-collapsed');
+  panel.classList.toggle('is-collapsed', collapsed);
+  body.hidden = collapsed;
+  btn.setAttribute('aria-expanded', String(!collapsed));
+  if (caret) caret.textContent = collapsed ? '▸' : '▾';
+  try { localStorage.setItem(LS_WORKSPACE_COLLAPSED_KEY, collapsed ? '1' : '0'); } catch { /* ignore */ }
+}
+
+function loadWorkspaceCollapsed() {
+  try {
+    const saved = localStorage.getItem(LS_WORKSPACE_COLLAPSED_KEY);
+    // Default: collapsed. Only expand if user explicitly expanded before.
+    return saved !== '0';
+  } catch { return true; }
 }
 
 function initWorkspaceActions() {
   const panel = document.getElementById('workspacePanel');
   if (!panel) return;
   panel.addEventListener('click', async (ev) => {
-    const btn = ev.target.closest('.workspace__cmd');
-    if (btn) {
-      const cmd = btn.dataset.cmd || '';
+    // Refresh button (inside expanded body) \u2014 handle first, it also bubbles up.
+    if (ev.target.closest('#workspaceRefreshBtn')) {
+      ev.stopPropagation();
+      fetchRecentCommits();
+      fetchGitStatus();
+      return;
+    }
+    // Summary bar click \u2014 toggle collapse.
+    if (ev.target.closest('#workspaceSummaryBtn')) {
+      toggleWorkspaceCollapse();
+      return;
+    }
+    // Quick-action command (copy to clipboard).
+    const cmdBtn = ev.target.closest('.workspace__cmd');
+    if (cmdBtn) {
+      const cmd = cmdBtn.dataset.cmd || '';
       try {
         await navigator.clipboard.writeText(cmd);
         showToast('Command copied to clipboard');
       } catch {
         showToast('Copy failed \u2014 select command manually');
       }
-      return;
-    }
-    if (ev.target.closest('#workspaceRefreshBtn')) {
-      fetchRecentCommits();
-      fetchGitStatus();
     }
   });
 }
@@ -234,6 +338,8 @@ function applyWorkspacePanel() {
   if (state.isLocal) {
     panel.hidden = false;
     panel.classList.remove('is-hidden');
+    // Restore collapsed/expanded preference. Default: collapsed.
+    toggleWorkspaceCollapse(loadWorkspaceCollapsed());
     fetchRecentCommits();
     fetchGitStatus();
   } else {
@@ -518,53 +624,42 @@ async function showViewer(objectId, page) {
   requestAnimationFrame(() => document.getElementById('viewerMeta')?.focus());
 }
 
-/* ===== Transparency Panel (paper-claim traceability, visible everywhere) ===== */
+/* ===== Transparency Cards on the Project (#about) page =====
+   Renders the Promptotyping-Vault enumeration, Journal session count, and Exports
+   links that the Code4Lib paper claims as verifiable artefacts. Lives on #about,
+   not on the catalog, so the documents remain the primary content. */
 
-async function renderTransparencyPanel() {
-  const panel = document.getElementById('transparencyPanel');
-  if (!panel) return;
+async function renderTransparencyCards() {
+  // Runs on every showAbout(); skips silently if elements are missing.
+  const vaultList = document.getElementById('transparencyVaultList');
+  const vaultCount = document.getElementById('transparencyVaultCount');
+  const journalCount = document.getElementById('transparencyJournalCount');
+  if (!vaultList && !journalCount) return;
+
   await ensureKnowledgeData();
   const kd = state.knowledgeData;
   if (!kd || !kd.docs) return;
 
-  // Vault list: iterate docs from knowledge.json, link to in-app knowledge view
-  const vaultList = document.getElementById('transparencyVaultList');
-  const vaultCount = document.getElementById('transparencyVaultCount');
-  if (vaultList && kd.docs) {
-    const slugs = Object.keys(kd.docs).sort((a, b) => {
-      // Stable priority: index / overview first, journal last, others alphabetic
-      const pri = s => (s === 'data-overview' ? 0 : s === 'journal' ? 99 : 10);
-      return pri(a) - pri(b) || a.localeCompare(b);
-    });
-    vaultList.innerHTML = slugs.slice(0, 8).map(slug => {
+  if (vaultList) {
+    // Use the reading order from knowledge/index.md sections if available;
+    // fall back to alphabetic otherwise. Puts the most load-bearing docs first.
+    const fromSections = (kd.sections || []).flatMap(s => s.slugs || []);
+    const allSlugs = Object.keys(kd.docs);
+    const ordered = [
+      ...fromSections.filter(s => allSlugs.includes(s)),
+      ...allSlugs.filter(s => !fromSections.includes(s)).sort(),
+    ];
+    vaultList.innerHTML = ordered.map(slug => {
       const d = kd.docs[slug];
       return `<li><a href="#knowledge/${escapeHtml(slug)}">${escapeHtml(d.title || slug)}</a></li>`;
-    }).join('') + (slugs.length > 8
-      ? `<li class="transparency__more-inline"><a href="#knowledge">+ ${slugs.length - 8} more \u2192</a></li>`
-      : '');
-    if (vaultCount) vaultCount.textContent = `${slugs.length} docs`;
-  }
-
-  // Journal teaser: last 3 session headings (h2 in journal.md)
-  const journalList = document.getElementById('transparencyJournalList');
-  const journalCount = document.getElementById('transparencyJournalCount');
-  if (journalList && kd.docs.journal) {
-    const h2 = (kd.docs.journal.headings || []).filter(h => h.level === 2);
-    const recent = h2.slice(-3).reverse();
-    journalList.innerHTML = recent.map(h => {
-      // Heading text like "2026-04-02 — Session 20: Edit-Tracking ..."
-      const m = (h.text || '').match(/^(\d{4}-\d{2}-\d{2})\s*\u2014?\s*(.*)$/);
-      const date = m ? m[1] : '';
-      const rest = m ? m[2] : h.text;
-      return `<li><a href="#knowledge/journal#${escapeHtml(h.id || '')}">
-        <span class="transparency__date">${escapeHtml(date)}</span>
-        <span class="transparency__title">${escapeHtml(rest)}</span>
-      </a></li>`;
     }).join('');
-    if (journalCount) journalCount.textContent = `${h2.length} sessions`;
+    if (vaultCount) vaultCount.textContent = `${ordered.length} docs`;
   }
 
-  panel.classList.remove('is-hidden');
+  if (journalCount && kd.docs.journal) {
+    const h2 = (kd.docs.journal.headings || []).filter(h => h.level === 2);
+    journalCount.textContent = `${h2.length} sessions`;
+  }
 }
 
 /* ===== Knowledge Vault + About ===== */
@@ -748,6 +843,7 @@ async function showAbout() {
   if (el && state.knowledgeData?.about) {
     el.innerHTML = state.knowledgeData.about.html;
   }
+  renderTransparencyCards();
 }
 
 /* ===== Review / Quality Signals ===== */
@@ -3191,7 +3287,6 @@ async function init() {
   applyFilters();
   initEvents();
   route();
-  renderTransparencyPanel();
   applyWorkspacePanel();
   initWorkspaceActions();
 }

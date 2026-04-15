@@ -1275,3 +1275,82 @@ Systematischer Audit aller 12 Knowledge-Dokumente. 10 Probleme in 7 Dateien gefu
 | Knowledge-Fixes | 10 Probleme in 7 Dateien |
 | Neue Scripts | export_mets.py |
 | Geaenderte Scripts | transcribe.py (4 neue Funktionen), group_i_korrespondenz.md |
+
+
+---
+
+## 2026-04-15 â€” Session 26: Interface Documents-First Refactor + Paper-Claim-Traceability
+
+### Kontext
+
+Der Code4Lib-Abstract (Pollin/Zangerl/Hintersteiner) wurde am 15.04.2026 eingereicht und macht drei Arten von Claims über das Interface:
+
+1. *Reading / Curation / Verification als drei Funktionen desselben Codes, mode-switched by deployment*
+2. *Expert review deepens editorial commitment along a concentric-edition progression*
+3. *Obsidian vault + JOURNAL.md als Audit-Trail, Git als Multi-User-Koordinator*
+
+Alle drei waren zwar im Code realisiert, aber nicht sichtbar nachvollziehbar. Diese Session hat zwei Iterationen durchlaufen: erst Sichtbarmachung (Durchgang 1: Mode-Banner, Curation Progress, README-Sektion), dann eine zu viele Panels im Katalog, dann Documents-First-Refactor auf Anregung der Projektleitung.
+
+### Was wurde gemacht
+
+**1. Mode-Banner als Terminal-Sigil** (Commit 47a0a01, 1c89a85)
+
+Schmales Band oberhalb des Site-Headers, nur im Local-Modus sichtbar: `szd@editorial:~/results $ EDITORIAL` im Terminal-Look (near-black Hintergrund, gold top-border, blinkender Cursor). Kontrastiert eindeutig mit dem Public-Read-Only-Deployment. Macht die "Three functions, mode-switched"-These sofort erkennbar.
+
+**2. Editorial Progress Bar im Stats-Dashboard** (Commit 0c351d9)
+
+Horizontale gestapelte Bar mit fünf Segmenten in Tier-Reihenfolge (Ungeprüft \u2192 Review nötig \u2192 Auto-geprüft \u2192 Geprüft \u2192 Verifiziert), matcht die 4-Tier-Trust-Priorität. Visualisiert Vogelers konzentrische Ring-Bewegung quantitativ. Segmente sind mutex aggregiert \u2014 ein Objekt kann nur in einem Tier sein, keine Doppelzählung mehr (Bug: Chip zeigte 348, Bar zeigte 338; fix: 84a111c hat die Aggregationsschleife auf else-if umgestellt).
+
+**3. Summary-Row entrümpelt** (Commit 7d63735)
+
+Review-Chips (verified/approved/agent/unreviewed/flagged) und Modellkonsensus-Chip aus der Summary entfernt \u2014 werden alle in der Editorial Progress Bar dargestellt, Duplikation war verwirrend. Summary enthält jetzt nur Total + Collection-Chips + Details-Toggle.
+
+**4. Modellkonsensus-Tooltip** (Commit 84a111c)
+
+Section-Label im Details-Panel bekommt erklärenden Tooltip + Info-Symbol. Cross-Model-Konsens ist der am häufigsten missverstandene Begriff: zwei VLMs (Gemini Flash Lite + Flash) transkribieren unabhängig, die CER zwischen den Ergebnissen wird als Kategorie abgelegt. Indikator für VLM-Stabilität, *nicht* für menschliches Review.
+
+**5. Erste Iteration: Workspace-Dashboard + Transparency-Panel auf Catalog-Seite** (Commits ae8e98e, dd72e76, 80f2b9a)
+
+Zwei neue Panels im Katalog:
+- **Local Editorial Workspace** (Recent Activity via GitHub API, Uncommitted via neuem `/api/git-status`, Quick Actions als Copy-to-Clipboard).
+- **Public Transparency Panel** (Promptotyping-Vault-Enumeration, Journal-Teaser, Exports-Links \u2014 sichtbar in beiden Modi, damit Paper-Reviewer die Claims verifizieren können).
+
+Neuer API-Endpoint `GET /api/git-status` liefert `git status --porcelain results/` als JSON (mit Host-Check, Timeout, fix-argumentiertem Subprocess).
+
+**6. Zweite Iteration: Documents-First-Refactor** (diese Session abschließend)
+
+Feedback der Projektleitung: Die beiden neuen Panels nahmen zu viel vertikalen Platz ein; die Katalog-Tabelle \u2014 das eigentliche Produkt der Edition \u2014 wurde in die untere Hälfte gedrängt. Konsequenz:
+
+- **Workspace-Panel kollabiert by default** zu einer einzelnen ~32px-Zeile mit Summary-Indikatoren: `\u25B8 Editorial Workspace · <n> uncommitted · last commit \u2026 · 4 quick actions`. Klick aufs Summary-Band toggelt auf / zu, Zustand persistiert in `localStorage` (`szd-htr-workspace-collapsed`). Default: collapsed.
+- **Transparency-Panel aus dem Katalog entfernt.** Inhalte leben jetzt unter "Verifiable artefacts" auf der Projekt-Seite (`#about`), unterhalb des gerenderten README. Das ist die semantisch richtige Heimat \u2014 Reviewer klicken auf "Projekt" im Header, nicht auf den Katalog.
+- **Journal als prominenter Link** statt Teaser. Die Karte auf der Projekt-Seite zeigt `Read the Research Journal \u2192` als CTA-Button, verlinkt auf die bereits existierende In-App-Rendering-View `#knowledge/journal` (mit TOC und allen 27 Sessions). Der frühere Teaser (drei geparste H2-Headlines aus `journal.md`) war ein Provisorium \u2014 die vollständige Journal-View ist der echte Ort.
+- **Mode-Banner bekommt Live-Status-Chips.** Kleine Terminal-Badges rechts neben dem Prompt: `\u25CF clean` / `\u25CF N dirty` (aus `/api/git-status`) und `\u21BB <rel-time> · <short-sha>` (aus GitHub-API, letzter Commit auf `results/`). Die Live-Info bleibt damit jederzeit sichtbar, ohne Panel-Expansion.
+
+**7. Unicode-Escape-Bugfix**
+
+In der ersten Iteration standen literal-`\u2192`, `\u21BB`, `\u2014` im HTML \u2014 Escape-Sequences funktionieren in JS-String-Literalen, nicht in HTML. Durch echte Zeichen ersetzt.
+
+### Architekturentscheidungen
+
+- **Documents-First als Leitprinzip.** Jede UI-Entscheidung muss beantworten: "Drängt das die Dokumente aus dem Sichtfeld?" Alle nicht-dokumentbezogenen Surfaces müssen kompakt sein, optional expandierbar, oder in Nebenräume (About, Methodik).
+- **Dreiraum-Topologie des Interfaces:** (a) Katalog = Dokumente-Ansicht, primär. (b) Viewer = Einzeldokument mit Facsimile + Transcription + Edit-Controls. (c) Projekt (`#about`) + Methodik (`#knowledge`) = Verifizierbarkeit der Methode. Die Navigation im Header unterstützt diese Dreiteilung.
+- **"Zurückschauen" auf zwei Ebenen:** Live-Status (Banner-Chips, letzter Commit in Echtzeit) vs. Narrative (Journal, lesbar mit Kontext und Begründung). Git zeigt *was*, Journal erklärt *warum*.
+- **GitHub-API als einzige externe Abhängigkeit zur Laufzeit.** CSP erweitert um `https://api.github.com` im `connect-src`. Graceful Fallback bei Rate-Limit.
+- **Keine Export-Trigger via Button** \u2014 nur Copy-to-Clipboard der Kommandos. Background-Execution mit Progress-UI und Error-Handling wäre eine eigene Baustelle; Copy-to-Clipboard ist ehrlich und funktioniert.
+
+### Offene Punkte / Nächste Schritte
+
+- Edit-History-Panel pro Objekt im Viewer (geplant für Durchgang 2 vor First Draft 22.05.).
+- Quality-Signals-Popover-Erweiterung (ebenfalls Durchgang 2).
+- Vogeler-Ring-Referenz: Untertitel der Progress Bar ("From machine transcription toward expert verification (Vogeler 2025)") wurde auf Wunsch entfernt \u2014 Theorie gehört ins Paper, nicht ins UI. Verortung bleibt implizit in der Tier-Reihenfolge.
+
+### Statistiken
+
+| Metrik | Wert |
+|---|---|
+| Commits (gesamt Sessions 26) | 7 + refactor-commit |
+| Neue UI-Surfaces | Mode-Banner, Workspace-Panel (collapsed+expanded), Transparency-Cards (auf About) |
+| Neue API-Endpoints | `GET /api/git-status` |
+| CSP erweitert | `connect-src: https://api.github.com` |
+| Paper-Claim-Coverage | Obsidian Vault verlinkt, Journal verlinkt, Exports verlinkt, Git-Workflow sichtbar |
+| LOC (ca.) | +400 JS, +350 CSS, +50 HTML |

@@ -32,10 +32,8 @@
   <span class="mode-banner__sep" aria-hidden="true">:</span>
   <span class="mode-banner__path" aria-hidden="true">~/results</span>
   <span class="mode-banner__sigil" aria-hidden="true">$</span>
-  <span class="mode-banner__text">
-    <span class="mode-banner__label">EDITORIAL WORKSPACE</span>
-    <span class="mode-banner__sub">edits write directly to <code>results/*.json</code> — commit and push to publish</span>
-  </span>
+  <span class="mode-banner__label">EDITORIAL</span>
+  <span class="mode-banner__status" id="modeBannerStatus" aria-live="polite"></span>
   <span class="mode-banner__endpoint" id="modeBannerEndpoint" aria-hidden="true"></span>
   <span class="mode-banner__cursor" aria-hidden="true"></span>
 </div>
@@ -64,99 +62,74 @@
 <!-- ===== Catalog View ===== -->
 <main id="catalog" class="catalog">
 
-  <!-- Local Editorial Workspace Panel (local mode only) -->
-  <section id="workspacePanel" class="workspace is-hidden" aria-label="Editorial workspace" hidden>
-    <div class="workspace__head">
-      <span class="workspace__label">Editorial Workspace</span>
-      <span class="workspace__sub">Git-based editorial workflow \u2014 only visible when running locally</span>
-    </div>
-    <div class="workspace__grid">
-      <div class="workspace__cell workspace__cell--activity">
-        <div class="workspace__cell-head">
-          <span class="workspace__cell-label">Recent Activity</span>
-          <button type="button" class="workspace__refresh" id="workspaceRefreshBtn" title="Reload from GitHub API">\u21bb</button>
+  <!-- Local Editorial Workspace Panel (local only, collapsed by default) -->
+  <section id="workspacePanel" class="workspace is-hidden is-collapsed" aria-label="Editorial workspace" hidden>
+    <button type="button" class="workspace__summary" id="workspaceSummaryBtn" aria-expanded="false" aria-controls="workspaceBody">
+      <span class="workspace__summary-caret" aria-hidden="true">▸</span>
+      <span class="workspace__summary-label">Editorial Workspace</span>
+      <span class="workspace__summary-sep" aria-hidden="true">·</span>
+      <span class="workspace__summary-uncommitted" id="workspaceSummaryUncommitted">checking…</span>
+      <span class="workspace__summary-sep" aria-hidden="true">·</span>
+      <span class="workspace__summary-activity" id="workspaceSummaryActivity">last commit —</span>
+      <span class="workspace__summary-sep" aria-hidden="true">·</span>
+      <span class="workspace__summary-actions">4 quick actions</span>
+    </button>
+    <div class="workspace__body" id="workspaceBody" hidden>
+      <div class="workspace__grid">
+        <div class="workspace__cell workspace__cell--activity">
+          <div class="workspace__cell-head">
+            <span class="workspace__cell-label">Recent Activity</span>
+            <button type="button" class="workspace__refresh" id="workspaceRefreshBtn" title="Reload from GitHub API">↻</button>
+          </div>
+          <ul class="workspace__activity" id="workspaceActivity">
+            <li class="workspace__activity-loading">Loading recent commits…</li>
+          </ul>
         </div>
-        <ul class="workspace__activity" id="workspaceActivity">
-          <li class="workspace__activity-loading">Loading recent commits\u2026</li>
-        </ul>
-      </div>
-      <div class="workspace__cell workspace__cell--uncommitted">
-        <div class="workspace__cell-head">
-          <span class="workspace__cell-label">Uncommitted</span>
+        <div class="workspace__cell workspace__cell--uncommitted">
+          <div class="workspace__cell-head">
+            <span class="workspace__cell-label">Uncommitted</span>
+          </div>
+          <div class="workspace__uncommitted" id="workspaceUncommitted">
+            <div class="workspace__uncommitted-big">—</div>
+            <div class="workspace__uncommitted-note">Checking…</div>
+          </div>
         </div>
-        <div class="workspace__uncommitted" id="workspaceUncommitted">
-          <div class="workspace__uncommitted-big">\u2014</div>
-          <div class="workspace__uncommitted-note">Checking\u2026</div>
+        <div class="workspace__cell workspace__cell--actions">
+          <div class="workspace__cell-head">
+            <span class="workspace__cell-label">Quick Actions</span>
+          </div>
+          <ul class="workspace__actions">
+            <li>
+              <button type="button" class="workspace__cmd" data-cmd='git add results/ &amp;&amp; git commit -m "review: &lt;object-id&gt; &lt;what changed&gt;"'>
+                <span class="workspace__cmd-label">Commit edits</span>
+                <code class="workspace__cmd-code">git add results/ &amp;&amp; git commit</code>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="workspace__cmd" data-cmd="python pipeline/build_viewer_data.py">
+                <span class="workspace__cmd-label">Rebuild viewer data</span>
+                <code class="workspace__cmd-code">python pipeline/build_viewer_data.py</code>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="workspace__cmd" data-cmd="python pipeline/export_mets.py --all">
+                <span class="workspace__cmd-label">Export METS/MODS batch</span>
+                <code class="workspace__cmd-code">python pipeline/export_mets.py --all</code>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="workspace__cmd" data-cmd="git pull --rebase">
+                <span class="workspace__cmd-label">Pull latest</span>
+                <code class="workspace__cmd-code">git pull --rebase</code>
+              </button>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="workspace__cell workspace__cell--actions">
-        <div class="workspace__cell-head">
-          <span class="workspace__cell-label">Quick Actions</span>
-        </div>
-        <ul class="workspace__actions">
-          <li>
-            <button type="button" class="workspace__cmd" data-cmd='git add results/ &amp;&amp; git commit -m "review: &lt;object-id&gt; &lt;what changed&gt;"'>
-              <span class="workspace__cmd-label">Commit edits</span>
-              <code class="workspace__cmd-code">git add results/ &amp;&amp; git commit</code>
-            </button>
-          </li>
-          <li>
-            <button type="button" class="workspace__cmd" data-cmd="python pipeline/build_viewer_data.py">
-              <span class="workspace__cmd-label">Rebuild viewer data</span>
-              <code class="workspace__cmd-code">python pipeline/build_viewer_data.py</code>
-            </button>
-          </li>
-          <li>
-            <button type="button" class="workspace__cmd" data-cmd="python pipeline/export_mets.py --all">
-              <span class="workspace__cmd-label">Export METS/MODS batch</span>
-              <code class="workspace__cmd-code">python pipeline/export_mets.py --all</code>
-            </button>
-          </li>
-          <li>
-            <button type="button" class="workspace__cmd" data-cmd="git pull --rebase">
-              <span class="workspace__cmd-label">Pull latest</span>
-              <code class="workspace__cmd-code">git pull --rebase</code>
-            </button>
-          </li>
-        </ul>
       </div>
     </div>
   </section>
 
   <div class="catalog__stats is-hidden" id="catalogStats"></div>
-
-  <!-- Public Transparency Panel (visible on Pages and locally) -->
-  <section id="transparencyPanel" class="transparency is-hidden" aria-label="Project transparency">
-    <div class="transparency__card" id="transparencyVault">
-      <div class="transparency__head">
-        <span class="transparency__label">Promptotyping Vault</span>
-        <span class="transparency__count" id="transparencyVaultCount"></span>
-      </div>
-      <p class="transparency__blurb">Knowledge base that steered each LLM interaction during development.</p>
-      <ul class="transparency__list" id="transparencyVaultList"></ul>
-    </div>
-    <div class="transparency__card" id="transparencyJournal">
-      <div class="transparency__head">
-        <span class="transparency__label">Research Journal</span>
-        <span class="transparency__count" id="transparencyJournalCount"></span>
-      </div>
-      <p class="transparency__blurb">Chronological record of decisions and findings \u2014 the audit trail.</p>
-      <ul class="transparency__list" id="transparencyJournalList"></ul>
-      <a class="transparency__more" href="#knowledge/journal">Full journal \u2192</a>
-    </div>
-    <div class="transparency__card" id="transparencyExports">
-      <div class="transparency__head">
-        <span class="transparency__label">Exports &amp; Artefacts</span>
-      </div>
-      <p class="transparency__blurb">Archival exchange formats, compatible with GAMS, Transkribus, eScriptorium, OCR-D.</p>
-      <ul class="transparency__list">
-        <li><a href="https://github.com/chpollin/szd-htr-ocr-pipeline/tree/main/results" target="_blank" rel="noopener"><code>results/</code></a> <span class="transparency__note">Page-JSON v0.2 per object</span></li>
-        <li><a href="#knowledge/page-xml-mets-architecture">METS/MODS + PAGE-XML architecture</a></li>
-        <li><a href="#knowledge/htr-interchange-format">Page-JSON v0.2 interchange format</a></li>
-        <li><a href="https://github.com/chpollin/szd-htr-ocr-pipeline/blob/main/results/README.md" target="_blank" rel="noopener">Result file documentation</a></li>
-      </ul>
-    </div>
-  </section>
 
   <div class="catalog__toolbar">
     <div class="catalog__search">
@@ -363,6 +336,42 @@
 <!-- ===== About / Project ===== -->
 <main id="about" class="about">
   <article class="about__content markdown-content" id="aboutContent"></article>
+  <section class="about__transparency" id="aboutTransparency" aria-label="Project transparency">
+    <h2 class="about__transparency-heading">Verifiable artefacts</h2>
+    <p class="about__transparency-lede">
+      Paper and repository claim that the research process is documented as it happens. Here are the entry points to verify that.
+    </p>
+    <div class="transparency">
+      <div class="transparency__card">
+        <div class="transparency__head">
+          <span class="transparency__label">Promptotyping Vault</span>
+          <span class="transparency__count" id="transparencyVaultCount"></span>
+        </div>
+        <p class="transparency__blurb">Markdown knowledge base that steered each LLM interaction during development — data overview, annotation protocol, verification concept, evaluation results, architecture decisions.</p>
+        <ul class="transparency__list" id="transparencyVaultList"></ul>
+      </div>
+      <div class="transparency__card transparency__card--journal">
+        <div class="transparency__head">
+          <span class="transparency__label">Research Journal</span>
+          <span class="transparency__count" id="transparencyJournalCount"></span>
+        </div>
+        <p class="transparency__blurb">Chronological record of every session — what was decided, what was tried, what failed. The <em>why</em> behind the commit log.</p>
+        <a class="transparency__cta" href="#knowledge/journal">Read the Research Journal →</a>
+      </div>
+      <div class="transparency__card">
+        <div class="transparency__head">
+          <span class="transparency__label">Exports &amp; Artefacts</span>
+        </div>
+        <p class="transparency__blurb">Archival exchange formats compatible with GAMS, Transkribus, eScriptorium, OCR-D.</p>
+        <ul class="transparency__list">
+          <li><a href="https://github.com/chpollin/szd-htr-ocr-pipeline/tree/main/results" target="_blank" rel="noopener"><code>results/</code></a> <span class="transparency__note">Page-JSON v0.2 per object</span></li>
+          <li><a href="#knowledge/page-xml-mets-architecture">METS/MODS + PAGE-XML architecture</a></li>
+          <li><a href="#knowledge/htr-interchange-format">Page-JSON v0.2 interchange format</a></li>
+          <li><a href="https://github.com/chpollin/szd-htr-ocr-pipeline/blob/main/results/README.md" target="_blank" rel="noopener">Result file documentation</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </main>
 
 <!-- ===== Help View ===== -->
