@@ -64,6 +64,40 @@
 <!-- ===== Catalog View ===== -->
 <main id="catalog" class="catalog">
   <div class="catalog__stats is-hidden" id="catalogStats"></div>
+
+  <!-- Public Transparency Panel (visible on Pages and locally) -->
+  <section id="transparencyPanel" class="transparency is-hidden" aria-label="Project transparency">
+    <div class="transparency__card" id="transparencyVault">
+      <div class="transparency__head">
+        <span class="transparency__label">Promptotyping Vault</span>
+        <span class="transparency__count" id="transparencyVaultCount"></span>
+      </div>
+      <p class="transparency__blurb">Knowledge base that steered each LLM interaction during development.</p>
+      <ul class="transparency__list" id="transparencyVaultList"></ul>
+    </div>
+    <div class="transparency__card" id="transparencyJournal">
+      <div class="transparency__head">
+        <span class="transparency__label">Research Journal</span>
+        <span class="transparency__count" id="transparencyJournalCount"></span>
+      </div>
+      <p class="transparency__blurb">Chronological record of decisions and findings \u2014 the audit trail.</p>
+      <ul class="transparency__list" id="transparencyJournalList"></ul>
+      <a class="transparency__more" href="#knowledge/journal">Full journal \u2192</a>
+    </div>
+    <div class="transparency__card" id="transparencyExports">
+      <div class="transparency__head">
+        <span class="transparency__label">Exports &amp; Artefacts</span>
+      </div>
+      <p class="transparency__blurb">Archival exchange formats, compatible with GAMS, Transkribus, eScriptorium, OCR-D.</p>
+      <ul class="transparency__list">
+        <li><a href="https://github.com/chpollin/szd-htr-ocr-pipeline/tree/main/results" target="_blank" rel="noopener"><code>results/</code></a> <span class="transparency__note">Page-JSON v0.2 per object</span></li>
+        <li><a href="#knowledge/page-xml-mets-architecture">METS/MODS + PAGE-XML architecture</a></li>
+        <li><a href="#knowledge/htr-interchange-format">Page-JSON v0.2 interchange format</a></li>
+        <li><a href="https://github.com/chpollin/szd-htr-ocr-pipeline/blob/main/results/README.md" target="_blank" rel="noopener">Result file documentation</a></li>
+      </ul>
+    </div>
+  </section>
+
   <div class="catalog__toolbar">
     <div class="catalog__search">
       <label for="searchInput" class="sr-only">Suche nach Titel, Signatur oder PID</label>

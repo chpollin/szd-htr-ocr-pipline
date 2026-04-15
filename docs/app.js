@@ -400,6 +400,55 @@ async function showViewer(objectId, page) {
   requestAnimationFrame(() => document.getElementById('viewerMeta')?.focus());
 }
 
+/* ===== Transparency Panel (paper-claim traceability, visible everywhere) ===== */
+
+async function renderTransparencyPanel() {
+  const panel = document.getElementById('transparencyPanel');
+  if (!panel) return;
+  await ensureKnowledgeData();
+  const kd = state.knowledgeData;
+  if (!kd || !kd.docs) return;
+
+  // Vault list: iterate docs from knowledge.json, link to in-app knowledge view
+  const vaultList = document.getElementById('transparencyVaultList');
+  const vaultCount = document.getElementById('transparencyVaultCount');
+  if (vaultList && kd.docs) {
+    const slugs = Object.keys(kd.docs).sort((a, b) => {
+      // Stable priority: index / overview first, journal last, others alphabetic
+      const pri = s => (s === 'data-overview' ? 0 : s === 'journal' ? 99 : 10);
+      return pri(a) - pri(b) || a.localeCompare(b);
+    });
+    vaultList.innerHTML = slugs.slice(0, 8).map(slug => {
+      const d = kd.docs[slug];
+      return `<li><a href="#knowledge/${escapeHtml(slug)}">${escapeHtml(d.title || slug)}</a></li>`;
+    }).join('') + (slugs.length > 8
+      ? `<li class="transparency__more-inline"><a href="#knowledge">+ ${slugs.length - 8} more \u2192</a></li>`
+      : '');
+    if (vaultCount) vaultCount.textContent = `${slugs.length} docs`;
+  }
+
+  // Journal teaser: last 3 session headings (h2 in journal.md)
+  const journalList = document.getElementById('transparencyJournalList');
+  const journalCount = document.getElementById('transparencyJournalCount');
+  if (journalList && kd.docs.journal) {
+    const h2 = (kd.docs.journal.headings || []).filter(h => h.level === 2);
+    const recent = h2.slice(-3).reverse();
+    journalList.innerHTML = recent.map(h => {
+      // Heading text like "2026-04-02 — Session 20: Edit-Tracking ..."
+      const m = (h.text || '').match(/^(\d{4}-\d{2}-\d{2})\s*\u2014?\s*(.*)$/);
+      const date = m ? m[1] : '';
+      const rest = m ? m[2] : h.text;
+      return `<li><a href="#knowledge/journal#${escapeHtml(h.id || '')}">
+        <span class="transparency__date">${escapeHtml(date)}</span>
+        <span class="transparency__title">${escapeHtml(rest)}</span>
+      </a></li>`;
+    }).join('');
+    if (journalCount) journalCount.textContent = `${h2.length} sessions`;
+  }
+
+  panel.classList.remove('is-hidden');
+}
+
 /* ===== Knowledge Vault + About ===== */
 
 async function ensureKnowledgeData() {
@@ -3024,6 +3073,7 @@ async function init() {
   applyFilters();
   initEvents();
   route();
+  renderTransparencyPanel();
 }
 
 init();
