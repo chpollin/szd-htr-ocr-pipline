@@ -68,6 +68,58 @@ python pipeline/serve.py
 
 Results are stored as JSON in `results/{collection}/`. Two export formats: **Page-JSON v0.2** (internal working format with descriptive metadata) and **METS/MODS + PAGE XML** (archival exchange format, compatible with GAMS, Transkribus, eScriptorium, OCR-D). Pipeline script documentation: [`pipeline/README.md`](pipeline/README.md). Result file documentation: [`results/README.md`](results/README.md).
 
+## Running locally for editing
+
+The same static viewer that serves the read-only proto-edition on GitHub Pages becomes an **editorial workspace** when run locally. No additional code, no separate tool — only the deployment context changes. This is the architectural core of the project: the public site is a subset of the local site, reached by disabling the editing controls.
+
+### Start the local server
+
+```bash
+pip install -r requirements.txt
+python pipeline/serve.py              # serves at http://localhost:8000
+python pipeline/serve.py --port 5501  # alternative port
+```
+
+Opening `http://localhost:8000` shows a green **Editorial Workspace** banner above the header. Edits made in this mode are written directly to the pipeline JSONs in `results/{collection}/`, not to browser `localStorage`. The same URL opened on GitHub Pages has no banner and no edit controls.
+
+### Review workflow
+
+1. Open an object in the viewer.
+2. Click **Edit** to correct transcription errors page by page.
+3. Click **Approve** (human expert review), **Agent Verify** (Claude Vision comparison against facsimile), or **GT Verify** (character-exact ground-truth confirmation).
+4. Check the **Editorial Progress** bar on the catalog page — counts shift as reviews accumulate.
+5. Commit and push the changed JSONs:
+
+```bash
+git add results/
+git commit -m "review: <object-id> <what changed>"
+git push
+```
+
+The next GitHub Pages deploy (automatic on push to `main`) carries the curated edits into the public read-only proto-edition.
+
+### Trust tiers
+
+| Tier | Status JSON | Source | Visual |
+|---|---|---|---|
+| 0 | `gt_verified` | Character-exact human verification against facsimile | dark green |
+| 1 | `approved` | Human expert review in the workspace | green |
+| 2 | `agent_verified` | Claude Vision sub-agent compares each page against its image | slate |
+| 3 | _flagged_ (`needs_review=true`) | At least one of 7 quality signals triggered | amber |
+| 3 | _unreviewed_ | No signal triggered, no human review yet | gray |
+
+The **Curation Progress** bar on the catalog page renders these five states as a stacked bar: outer ring (machine transcription) on the left, inner ring (expert-verified critical edition) on the right. This follows Vogeler's concentric edition model (2025): one artefact, multiple editorial states, curation that deepens incrementally.
+
+### API endpoints (local only)
+
+`pipeline/serve.py` exposes three endpoints that the frontend calls automatically when `location.hostname` is `localhost` or `127.0.0.1`:
+
+- `POST /api/edit` — save edited transcription for a page, sets `reviewStatus=approved`
+- `POST /api/approve` — mark object as reviewed (`approved`, `agent_verified`, or `gt_verified`)
+- `GET  /api/status` — frontend probe; absent on GitHub Pages, so edit buttons stay hidden
+
+Edits on the public site fall back to `localStorage` (single browser, not persistent across machines). The architectural point: the same UI, the same code base, the same URL — only the presence of a server switches the role from proto-edition to editorial workspace.
+
 ## Related projects
 
 - [zbz-ocr-tei](https://github.com/DigitalHumanitiesCraft/zbz-ocr-tei) — LLM-OCR pipeline for printed texts
