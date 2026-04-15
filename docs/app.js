@@ -124,6 +124,124 @@ function detectLocal() {
   state.isLocal = h === 'localhost' || h === '127.0.0.1' || h === '' || location.protocol === 'file:';
 }
 
+/* ===== Editorial Workspace Panel (local-only dashboard) ===== */
+
+const GITHUB_COMMITS_URL =
+  'https://api.github.com/repos/chpollin/szd-htr-ocr-pipeline/commits?path=results&per_page=5';
+
+function relativeTime(iso) {
+  const t = new Date(iso).getTime();
+  if (!t) return '';
+  const diff = (Date.now() - t) / 1000;
+  if (diff < 60) return 'just now';
+  if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+  if (diff < 604800) return `${Math.floor(diff / 86400)}d ago`;
+  return new Date(iso).toISOString().slice(0, 10);
+}
+
+async function fetchRecentCommits() {
+  const listEl = document.getElementById('workspaceActivity');
+  if (!listEl) return;
+  listEl.innerHTML = '<li class="workspace__activity-loading">Loading recent commits\u2026</li>';
+  try {
+    const resp = await fetch(GITHUB_COMMITS_URL, { headers: { 'Accept': 'application/vnd.github+json' } });
+    if (resp.status === 403) {
+      listEl.innerHTML = '<li class="workspace__activity-empty">GitHub API rate limit reached \u2014 try again later.</li>';
+      return;
+    }
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const commits = await resp.json();
+    if (!Array.isArray(commits) || commits.length === 0) {
+      listEl.innerHTML = '<li class="workspace__activity-empty">No commits touching results/ yet.</li>';
+      return;
+    }
+    listEl.innerHTML = commits.map(c => {
+      const msg = ((c.commit && c.commit.message) || '').split('\n')[0];
+      const author = (c.commit && c.commit.author && c.commit.author.name) || 'unknown';
+      const when = (c.commit && c.commit.author && c.commit.author.date) || '';
+      const sha = (c.sha || '').slice(0, 7);
+      const url = c.html_url || '#';
+      return `<li class="workspace__commit">
+        <a href="${escapeHtml(url)}" target="_blank" rel="noopener" class="workspace__commit-link">
+          <span class="workspace__commit-when">${escapeHtml(relativeTime(when))}</span>
+          <span class="workspace__commit-msg">${escapeHtml(msg)}</span>
+          <span class="workspace__commit-meta">${escapeHtml(author)} \u00b7 <code>${escapeHtml(sha)}</code></span>
+        </a>
+      </li>`;
+    }).join('');
+  } catch (err) {
+    listEl.innerHTML = `<li class="workspace__activity-empty">Could not reach GitHub API (${escapeHtml(err.message || 'offline')}).</li>`;
+  }
+}
+
+async function fetchGitStatus() {
+  const el = document.getElementById('workspaceUncommitted');
+  if (!el) return;
+  try {
+    const resp = await fetch('/api/git-status');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const data = await resp.json();
+    if (data.error) {
+      el.innerHTML = `<div class="workspace__uncommitted-big">\u2014</div>
+        <div class="workspace__uncommitted-note">${escapeHtml(data.error)}</div>`;
+      return;
+    }
+    const n = data.modified || 0;
+    const cls = n > 0 ? 'workspace__uncommitted--dirty' : 'workspace__uncommitted--clean';
+    const files = (data.files || []).slice(0, 3).map(f => `<code>${escapeHtml(f)}</code>`).join(' ');
+    const extra = data.truncated ? ` <span class="workspace__uncommitted-more">+ more</span>` : '';
+    el.className = `workspace__uncommitted ${cls}`;
+    if (n === 0) {
+      el.innerHTML = `<div class="workspace__uncommitted-big">0</div>
+        <div class="workspace__uncommitted-note">Working tree clean under <code>results/</code>.</div>`;
+    } else {
+      el.innerHTML = `<div class="workspace__uncommitted-big">${n}</div>
+        <div class="workspace__uncommitted-note">file${n === 1 ? '' : 's'} modified under <code>results/</code>${extra}</div>
+        <div class="workspace__uncommitted-files">${files}</div>`;
+    }
+  } catch (err) {
+    el.innerHTML = `<div class="workspace__uncommitted-big">\u2014</div>
+      <div class="workspace__uncommitted-note">Git status unavailable.</div>`;
+  }
+}
+
+function initWorkspaceActions() {
+  const panel = document.getElementById('workspacePanel');
+  if (!panel) return;
+  panel.addEventListener('click', async (ev) => {
+    const btn = ev.target.closest('.workspace__cmd');
+    if (btn) {
+      const cmd = btn.dataset.cmd || '';
+      try {
+        await navigator.clipboard.writeText(cmd);
+        showToast('Command copied to clipboard');
+      } catch {
+        showToast('Copy failed \u2014 select command manually');
+      }
+      return;
+    }
+    if (ev.target.closest('#workspaceRefreshBtn')) {
+      fetchRecentCommits();
+      fetchGitStatus();
+    }
+  });
+}
+
+function applyWorkspacePanel() {
+  const panel = document.getElementById('workspacePanel');
+  if (!panel) return;
+  if (state.isLocal) {
+    panel.hidden = false;
+    panel.classList.remove('is-hidden');
+    fetchRecentCommits();
+    fetchGitStatus();
+  } else {
+    panel.hidden = true;
+    panel.classList.add('is-hidden');
+  }
+}
+
 /* ===== Mode Banner ===== */
 
 function applyModeBanner() {
@@ -3074,6 +3192,8 @@ async function init() {
   initEvents();
   route();
   renderTransparencyPanel();
+  applyWorkspacePanel();
+  initWorkspaceActions();
 }
 
 init();

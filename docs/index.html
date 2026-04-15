@@ -11,7 +11,7 @@
                  style-src 'self' https://fonts.googleapis.com 'unsafe-inline';
                  font-src https://fonts.gstatic.com;
                  img-src 'self' https://gams.uni-graz.at data:;
-                 connect-src 'self' http://127.0.0.1:* http://localhost:*">
+                 connect-src 'self' http://127.0.0.1:* http://localhost:* https://api.github.com">
   <meta name="theme-color" content="#631a34">
   <meta property="og:title" content="SZD OCR/HTR Pipeline — Stefan Zweig Digital">
   <meta property="og:description" content="Experimentelle VLM-basierte Transkriptionspipeline für den Stefan-Zweig-Nachlass (Literaturarchiv Salzburg).">
@@ -63,6 +63,66 @@
 
 <!-- ===== Catalog View ===== -->
 <main id="catalog" class="catalog">
+
+  <!-- Local Editorial Workspace Panel (local mode only) -->
+  <section id="workspacePanel" class="workspace is-hidden" aria-label="Editorial workspace" hidden>
+    <div class="workspace__head">
+      <span class="workspace__label">Editorial Workspace</span>
+      <span class="workspace__sub">Git-based editorial workflow \u2014 only visible when running locally</span>
+    </div>
+    <div class="workspace__grid">
+      <div class="workspace__cell workspace__cell--activity">
+        <div class="workspace__cell-head">
+          <span class="workspace__cell-label">Recent Activity</span>
+          <button type="button" class="workspace__refresh" id="workspaceRefreshBtn" title="Reload from GitHub API">\u21bb</button>
+        </div>
+        <ul class="workspace__activity" id="workspaceActivity">
+          <li class="workspace__activity-loading">Loading recent commits\u2026</li>
+        </ul>
+      </div>
+      <div class="workspace__cell workspace__cell--uncommitted">
+        <div class="workspace__cell-head">
+          <span class="workspace__cell-label">Uncommitted</span>
+        </div>
+        <div class="workspace__uncommitted" id="workspaceUncommitted">
+          <div class="workspace__uncommitted-big">\u2014</div>
+          <div class="workspace__uncommitted-note">Checking\u2026</div>
+        </div>
+      </div>
+      <div class="workspace__cell workspace__cell--actions">
+        <div class="workspace__cell-head">
+          <span class="workspace__cell-label">Quick Actions</span>
+        </div>
+        <ul class="workspace__actions">
+          <li>
+            <button type="button" class="workspace__cmd" data-cmd='git add results/ &amp;&amp; git commit -m "review: &lt;object-id&gt; &lt;what changed&gt;"'>
+              <span class="workspace__cmd-label">Commit edits</span>
+              <code class="workspace__cmd-code">git add results/ &amp;&amp; git commit</code>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="workspace__cmd" data-cmd="python pipeline/build_viewer_data.py">
+              <span class="workspace__cmd-label">Rebuild viewer data</span>
+              <code class="workspace__cmd-code">python pipeline/build_viewer_data.py</code>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="workspace__cmd" data-cmd="python pipeline/export_mets.py --all">
+              <span class="workspace__cmd-label">Export METS/MODS batch</span>
+              <code class="workspace__cmd-code">python pipeline/export_mets.py --all</code>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="workspace__cmd" data-cmd="git pull --rebase">
+              <span class="workspace__cmd-label">Pull latest</span>
+              <code class="workspace__cmd-code">git pull --rebase</code>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <div class="catalog__stats is-hidden" id="catalogStats"></div>
 
   <!-- Public Transparency Panel (visible on Pages and locally) -->
