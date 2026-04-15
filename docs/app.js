@@ -124,6 +124,25 @@ function detectLocal() {
   state.isLocal = h === 'localhost' || h === '127.0.0.1' || h === '' || location.protocol === 'file:';
 }
 
+/* ===== Mode Banner ===== */
+
+function applyModeBanner() {
+  const banner = document.getElementById('modeBanner');
+  if (!banner) return;
+  if (state.isLocal) {
+    banner.hidden = false;
+    document.body.classList.add('has-mode-banner');
+    const endpoint = document.getElementById('modeBannerEndpoint');
+    if (endpoint) {
+      const host = location.host || 'localhost';
+      endpoint.textContent = host;
+    }
+  } else {
+    banner.hidden = true;
+    document.body.classList.remove('has-mode-banner');
+  }
+}
+
 /* ===== Fit Mode ===== */
 
 function loadFitMode() {
@@ -2939,6 +2958,7 @@ function changeViewerObject(delta) {
 
 async function init() {
   detectLocal();
+  applyModeBanner();
   loadFitMode();
   applyFitMode();
   loadEditsFromStorage();

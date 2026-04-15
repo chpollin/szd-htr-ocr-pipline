@@ -123,6 +123,60 @@ a:hover { color: var(--sz-burgundy-dark); }
 
 .skip-link:focus { top: 0; }
 
+/* ===== Mode Banner (Editorial Workspace, local only) ===== */
+.mode-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 1.25rem;
+  background: var(--sz-success-bg);
+  color: var(--sz-success);
+  border-top: 2px solid var(--sz-burgundy);
+  border-bottom: 1px solid rgba(45, 106, 45, 0.25);
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+  flex-shrink: 0;
+}
+
+.mode-banner[hidden] { display: none; }
+
+.mode-banner__icon {
+  flex-shrink: 0;
+  color: var(--sz-success);
+}
+
+.mode-banner__text {
+  flex: 1;
+  min-width: 0;
+}
+
+.mode-banner__text strong {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.mode-banner__text code {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  background: rgba(45, 106, 45, 0.1);
+  padding: 0.05rem 0.3rem;
+  border-radius: 2px;
+}
+
+.mode-banner__endpoint {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: rgba(45, 106, 45, 0.7);
+  white-space: nowrap;
+}
+
+/* When the banner is visible, the sticky header sits below it. */
+body.has-mode-banner .site-header { top: 32px; }
+
 /* ===== 4. Header ===== */
 .site-header {
   height: var(--header-height);
