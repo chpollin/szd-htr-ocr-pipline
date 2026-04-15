@@ -7,9 +7,10 @@ Usage:
   python pipeline/serve.py --port 5501  # Anderer Port
 
 API-Endpunkte (nur lokal):
-  POST /api/approve  — Objekt als geprueft markieren
-  POST /api/edit     — Editierte Seiten speichern + approve
-  GET  /api/status   — Server-Status (Frontend erkennt lokalen Server)
+  POST /api/approve     — Objekt als geprueft markieren
+  POST /api/edit        — Editierte Seiten speichern + approve
+  GET  /api/status      — Server-Status (Frontend erkennt lokalen Server)
+  GET  /api/git-status  — Uncommitted-Aenderungen unter results/
 """
 
 import argparse
@@ -191,6 +192,36 @@ def handle_edit(data: dict) -> dict:
     }
 
 
+def git_status_results() -> dict:
+    """Return the count and first filenames of uncommitted changes under results/."""
+    repo_root = Path(__file__).parent.parent
+    try:
+        proc = subprocess.run(
+            ["git", "status", "--porcelain", "results/"],
+            cwd=str(repo_root), capture_output=True, text=True, timeout=10,
+        )
+        if proc.returncode != 0:
+            return {"error": proc.stderr.strip() or "git status failed"}
+        lines = [ln for ln in proc.stdout.splitlines() if ln.strip()]
+        # Porcelain format: "XY <path>", e.g. " M results/werke/xyz.json"
+        files = []
+        for ln in lines[:10]:
+            path = ln[3:] if len(ln) > 3 else ln
+            files.append(path)
+        return {
+            "ok": True,
+            "modified": len(lines),
+            "files": files,
+            "truncated": len(lines) > 10,
+        }
+    except FileNotFoundError:
+        return {"error": "git not found in PATH"}
+    except subprocess.TimeoutExpired:
+        return {"error": "git status timed out"}
+    except Exception as e:
+        return {"error": str(e)}
+
+
 def rebuild_viewer_data() -> dict:
     """Run build_viewer_data.py to refresh docs/data/."""
     try:
@@ -230,6 +261,8 @@ class SZDHandler(SimpleHTTPRequestHandler):
             return
         if self.path == "/api/status":
             self._json_response({"local": True, "server": "szd-htr-serve"})
+        elif self.path == "/api/git-status":
+            self._json_response(git_status_results())
         else:
             super().do_GET()
 
